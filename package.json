@@ -1,0 +1,24 @@
+{
+  "name": "media-advisor",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "transcript": "tsx src/cli-transcript.ts",
+    "analyze": "tsx src/cli-analyze.ts",
+    "run-list": "tsx src/cli-from-list.ts",
+    "channel-analyze": "tsx src/cli-channel-analyze.ts",
+    "add-punto-chiaro": "tsx scripts/add-punto-chiaro.ts",
+    "migrate-transcripts": "tsx scripts/migrate-transcripts.ts",
+    "dev": "cd web && npm run dev",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.77.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

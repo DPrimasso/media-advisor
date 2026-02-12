@@ -1,0 +1,17 @@
+# Dependencies & build
+node_modules/
+dist/
+
+# Environment
+.env
+.env.local
+
+# Generated data
+transcripts/
+analysis/
+web/public/analysis/
+
+# IDE
+.vscode/
+*.swp
+*.swo
