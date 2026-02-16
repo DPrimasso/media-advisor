@@ -1,6 +1,41 @@
 {
   "channels": [
-    { "id": "azzurro-fluido", "name": "Azzurro Fluido", "order": 1, "video_list": "azzurro-fluido.json" },
-    { "id": "umberto-chiariello", "name": "Umberto Chiariello", "order": 2, "video_list": "umberto-chiariello.json" }
+    {
+      "id": "azzurro-fluido",
+      "name": "Azzurro Fluido",
+      "order": 1,
+      "video_list": "azzurro-fluido.json",
+      "fetch_rule": {
+        "type": "transcript_api",
+        "channel_url": "https://www.youtube.com/@AzzurroFluido",
+        "last_n": 15,
+        "exclude_title_contains": "reaction",
+        "exclude_live": true
+      }
+    },
+    {
+      "id": "umberto-chiariello",
+      "name": "Umberto Chiariello",
+      "order": 2,
+      "video_list": "umberto-chiariello.json",
+      "fetch_rule": {
+        "type": "transcript_api",
+        "channel_url": "https://www.youtube.com/@radiocrc2023",
+        "title_contains": "Il punto chiaro",
+        "last_n": 50
+      }
+    },
+    {
+      "id": "neschio",
+      "name": "Neschio",
+      "order": 3,
+      "video_list": "neschio.json",
+      "fetch_rule": {
+        "type": "transcript_api",
+        "channel_url": "https://www.youtube.com/@Neschio",
+        "last_n": 50,
+        "exclude_title_contains": "reaction"
+      }
+    }
   ]
 }

@@ -9,6 +9,11 @@ const analysisDir = resolve(root, 'analysis')
 const channelsPath = resolve(root, 'channels', 'channels.json')
 
 export default defineConfig({
+  server: {
+    proxy: {
+      '/api': { target: 'http://localhost:3001', changeOrigin: true }
+    }
+  },
   plugins: [
     vue(),
     {
