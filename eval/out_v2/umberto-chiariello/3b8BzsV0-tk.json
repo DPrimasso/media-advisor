@@ -1,0 +1,450 @@
+{
+  "video_id": "3b8BzsV0-tk",
+  "themes": [
+    {
+      "theme": "opinions",
+      "weight": 2
+    },
+    {
+      "theme": "business partnership",
+      "weight": 1
+    },
+    {
+      "theme": "public interaction",
+      "weight": 3
+    },
+    {
+      "theme": "task determination",
+      "weight": 3
+    },
+    {
+      "theme": "player evaluation",
+      "weight": 3
+    },
+    {
+      "theme": "heroism",
+      "weight": 2
+    },
+    {
+      "theme": "pregiudizi",
+      "weight": 3
+    },
+    {
+      "theme": "tecnica",
+      "weight": 4
+    },
+    {
+      "theme": "calciatori",
+      "weight": 3
+    },
+    {
+      "theme": "valutazione dei giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni degli atleti",
+      "weight": 3
+    },
+    {
+      "theme": "dimensioni fisiche degli sportivi",
+      "weight": 2
+    },
+    {
+      "theme": "infortuni",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni storiche",
+      "weight": 3
+    },
+    {
+      "theme": "carriera dei giocatori",
+      "weight": 2
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 1
+    },
+    {
+      "theme": "fan sentiment",
+      "weight": 4
+    },
+    {
+      "theme": "critica ai giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "comportamento dei tifosi",
+      "weight": 2
+    },
+    {
+      "theme": "cultura napoletana",
+      "weight": 2
+    },
+    {
+      "theme": "comportamento giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 3
+    },
+    {
+      "theme": "cultura negativa",
+      "weight": 2
+    },
+    {
+      "theme": "players performance",
+      "weight": 3
+    },
+    {
+      "theme": "nostalgia",
+      "weight": 2
+    },
+    {
+      "theme": "club loyalty",
+      "weight": 3
+    },
+    {
+      "theme": "Meret",
+      "weight": 3
+    },
+    {
+      "theme": "criticism",
+      "weight": 2
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "Luckman",
+      "weight": 2
+    },
+    {
+      "theme": "ambiente",
+      "weight": 3
+    },
+    {
+      "theme": "difficoltà competitiva",
+      "weight": 2
+    },
+    {
+      "theme": "futuro sportivo",
+      "weight": 2
+    },
+    {
+      "theme": "media e opinioni",
+      "weight": 2
+    },
+    {
+      "theme": "comportamento dei tifosi",
+      "weight": 3
+    },
+    {
+      "theme": "filosofia di vita napoletana",
+      "weight": 2
+    },
+    {
+      "theme": "leadership calcistica",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ea51bfca-f0e4-43d0-a9d9-2ffd59649a7e",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s0",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Chiariello riceve frequentemente complimenti dalla gente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi capitava spesso di incontrare la gente Dottore complimenti Auguri Complimenti auguri",
+          "start_sec": 0.48,
+          "end_sec": 53.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "public_interaction",
+        "reputation"
+      ]
+    },
+    {
+      "claim_id": "6e65ef6b-5184-4772-bb6c-212b75594077",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s1",
+      "target_entity": "Mario Rui",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mario Rui è riconosciuto come un piccolo grande eroe nel recente passato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi ci saluta uno dei piccoli grandi eroi del nostro recente passato Mario Rui ",
+          "start_sec": 49.399,
+          "end_sec": 110.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "1fc43508-91bf-4cc0-a182-49bbe6670754",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s1",
+      "target_entity": "Mario Rui",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mario Rui affrontava avversari più grandi senza timore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si afferrava con gente di 20 cm più grande più grossa di lui senza timore reverenziale alcuno",
+          "start_sec": 49.399,
+          "end_sec": 110.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "d5898694-8515-4258-9f12-857f775bac55",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s1",
+      "target_entity": "Mario Rui",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mario Rui è visto come un simbolo di grinta e determinazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Det buon tutto questo Fino al prossimo errore che ovviamente ci sarà perché tutti i portieri sbagliano",
+          "start_sec": 49.399,
+          "end_sec": 110.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "abc945aa-d256-4046-b615-7a53ae33bbdc",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s2",
+      "target_entity": "Mario Rui",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Mario Rui ha un sinistro tecnico e un fisico da Puffo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "campo aveva un sinistro da mezzala assolutamente tecnica fisico da Puffo Senza offesa eh ovviamente.",
+          "start_sec": 110.439,
+          "end_sec": 178.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tecnica",
+        "fisico",
+        "calciatore"
+      ]
+    },
+    {
+      "claim_id": "986cc82b-238a-4f30-9e8e-0e9ab5933797",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s2",
+      "target_entity": "terzini sinistri",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono pregiudizi sui terzini sinistri di statura minuta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e dico Ma quello lo fai giocare no non può ma come in promozione non può no non può.",
+          "start_sec": 110.439,
+          "end_sec": 178.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pregiudizi",
+        "calcio",
+        "terzini"
+      ]
+    },
+    {
+      "claim_id": "33c1e701-3b2f-47d1-ab91-8391d4481d5e",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s1",
+      "target_entity": "Mario Rui",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mario Rui era paragonato a Gattuso per il suo atteggiamento combattivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era un po' un piccolo Gattuso da questo punto di vista",
+          "start_sec": 49.399,
+          "end_sec": 110.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "2c9d7165-6aa1-45ba-8a46-7c42a033be2b",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s0",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Umberto Chiariello commenta spesso le opinioni delle folle.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come mutevole l'opinione delle folle.",
+          "start_sec": 0.48,
+          "end_sec": 53.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "opinion",
+        "public_perception"
+      ]
+    },
+    {
+      "claim_id": "303d6a0d-85b2-4ddb-9b24-ae4984cee7ee",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s0",
+      "target_entity": "Fratelli Pezzullo",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fratelli Pezzullo è conosciuto per la mozzarella di alta qualità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la mozzarella come una volta Fratelli Pezzullo",
+          "start_sec": 0.48,
+          "end_sec": 53.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "food",
+        "quality"
+      ]
+    },
+    {
+      "claim_id": "9629d4ac-8bc3-4ac6-b5f1-67ce4633efec",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s0",
+      "target_entity": "Alerod",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alerod è un partner per l'allestimento di uffici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alerod allestimento di uffici il partner di oggi",
+          "start_sec": 0.48,
+          "end_sec": 53.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "business",
+        "partnership"
+      ]
+    },
+    {
+      "claim_id": "dca53059-14d0-41ad-8ef8-f45acf6f11cb",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s2",
+      "target_entity": "Roberto Carlos",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Roberto Carlos era considerato piccolo ma molto efficace.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi ripenso a Roberto Carlos è piccolo o gigante.",
+          "start_sec": 110.439,
+          "end_sec": 178.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tecnica",
+        "calciatore"
+      ]
+    },
+    {
+      "claim_id": "44f4fda5-ef47-451f-9746-3238ff26d659",
+      "video_id": "3b8BzsV0-tk",
+      "segment_id": "s2",
+      "target_entity": "Marcelo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Marcelo, come Roberto Carlos, è considerato piccolo ma di talento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi penso a marselo è piccolo o un.",
+          "start_sec": 110.439,
+          "end_sec": 178.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tecnica",
+        "calciatore"
+      ]
+    }
+  ],
+  "summary_short": "#CHIARIELLO, IL PUNTO CHIARO 31/12: «Ci ha salutati MARIO RUI» — 2026-02-12"
+}

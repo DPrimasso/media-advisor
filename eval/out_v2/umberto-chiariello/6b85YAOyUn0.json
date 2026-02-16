@@ -1,0 +1,427 @@
+{
+  "video_id": "6b85YAOyUn0",
+  "themes": [
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "tactics",
+      "weight": 4
+    },
+    {
+      "theme": "coaching style",
+      "weight": 3
+    },
+    {
+      "theme": "historical performance",
+      "weight": 2
+    },
+    {
+      "theme": "Spalletti's tactics",
+      "weight": 3
+    },
+    {
+      "theme": "Zamparini's leadership",
+      "weight": 2
+    },
+    {
+      "theme": "Calcio history",
+      "weight": 2
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "player dynamics",
+      "weight": 2
+    },
+    {
+      "theme": "coaching history",
+      "weight": 2
+    },
+    {
+      "theme": "tattiche di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "registi",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni storiche",
+      "weight": 4
+    },
+    {
+      "theme": "tattiche del gioco",
+      "weight": 3
+    },
+    {
+      "theme": "strategia di Guardiola",
+      "weight": 3
+    },
+    {
+      "theme": "evoluzione dei ruoli",
+      "weight": 2
+    },
+    {
+      "theme": "allenatori",
+      "weight": 3
+    },
+    {
+      "theme": "calcio italiano",
+      "weight": 2
+    },
+    {
+      "theme": "scudetti",
+      "weight": 3
+    },
+    {
+      "theme": "roster quality",
+      "weight": 4
+    },
+    {
+      "theme": "historic players",
+      "weight": 3
+    },
+    {
+      "theme": "competition level",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 2
+    },
+    {
+      "theme": "calcio",
+      "weight": 2
+    },
+    {
+      "theme": "giocatori storici",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "riserva",
+      "weight": 2
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "coaching",
+      "weight": 2
+    },
+    {
+      "theme": "giocatori giovani",
+      "weight": 3
+    },
+    {
+      "theme": "gestione della squadra",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni nazionali",
+      "weight": 4
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "d9ec97bb-b2ce-4b96-81ba-b633efc7f310",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha introdotto un modulo 361 che non si vedeva da oltre 20 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha rispolverato un modulo antichissimo che erano oltre 20 anni che in Italia non si vedeva che è il 361",
+          "start_sec": 86.84,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "coaching"
+      ]
+    },
+    {
+      "claim_id": "101aca74-1fc1-40df-89af-bf94c6f47ca3",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s1",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Umberto Chiariello sottolinea la preferenza per il 4-3-2-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A lui piaceva a giocare molto di più col 231 42 31.",
+          "start_sec": 44.239,
+          "end_sec": 88.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "9dd30d89-c743-4839-b0c8-4a9aa6ab394a",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha adottato un sistema di gioco non suo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devo dire che il sol Spalletti è sempre molto sorprendente... appropria di un sistema di gioco che non era propriamente quello che piaceva a lui.",
+          "start_sec": 0.399,
+          "end_sec": 47.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "48ac49d3-64fd-437a-9d20-b711f6ab3ff7",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s1",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chiariello ha utilizzato vari moduli nella sua carriera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha alternato più difese ha ha giocato con vari tipi di modulo",
+          "start_sec": 44.239,
+          "end_sec": 88.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "436bf90d-04c1-4ee1-b443-29f905d2a116",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s1",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ha mai cambiato i suoi principi di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ha mai cambiato i suoi principi di gioco quelli sin dagli albori del suo esordio in Serie A come allenatore",
+          "start_sec": 44.239,
+          "end_sec": 88.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "096f5bf9-6e5a-4fd7-9741-4173bcf6a9eb",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s2",
+      "target_entity": "Zamparini",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Zamparini aveva un rapporto altalenante con Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'effervescente Zamparini che lo cacciava ogni tre mesi tre mesi lo cacciava poi lo riprendeva",
+          "start_sec": 86.84,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "coaching"
+      ]
+    },
+    {
+      "claim_id": "40a7018f-9935-4b90-885d-043debf38116",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti è noto per il suo calcio propositivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato sempre quelli che oggi chiamano con orrendo neologismo un giochistar un calcio propositivo fatto di possesso e proposizione",
+          "start_sec": 86.84,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics"
+      ]
+    },
+    {
+      "claim_id": "e31ef77d-e735-46ce-a593-ffc595249625",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s3",
+      "target_entity": "Pep Guardiola",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Guardiola ha sviluppato il concetto del 'finto nueve'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Guardiola disse che il suo centravanti era lo spazio da lì nacque il finto nueve",
+          "start_sec": 125.64,
+          "end_sec": 173.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "Guardiola"
+      ]
+    },
+    {
+      "claim_id": "81cbc17c-1362-4074-b4fb-1a9ce9c266be",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti si mostra sorprendente nel suo approccio al gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spalletti è sempre molto sorprendente.",
+          "start_sec": 0.399,
+          "end_sec": 47.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "6465d049-e7c8-4ece-8241-9d29a1e7f55f",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s1",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Umberto ha usato poco il suo primo anno a Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel primo anno napoletano l'ha usato poco",
+          "start_sec": 44.239,
+          "end_sec": 88.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "32792404-108d-4169-91fa-600a1aa9d267",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Spalletti sta sperimentando un nuovo stile con la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui il 4 di3 non l'ha mai.",
+          "start_sec": 0.399,
+          "end_sec": 47.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "9cd2e617-395f-4ff1-9dad-322bf306d79b",
+      "video_id": "6b85YAOyUn0",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha vinto lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "scudetto di Napoli.",
+          "start_sec": 0.399,
+          "end_sec": 47.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "#CHIARIELLO, IL PUNTO CHIARO 15/11: «L'#ITALIA è giovane e di alto livello: sono fiducioso» — 2026-02-12"
+}

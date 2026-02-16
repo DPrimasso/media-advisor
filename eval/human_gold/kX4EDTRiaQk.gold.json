@@ -1,0 +1,256 @@
+{
+  "video_id": "kX4EDTRiaQk",
+  "metadata": {
+    "title": "CI GIOCHIAMO TUTTO QUI 👀 Analisi 25a #SerieA 🔵 Pagelle Napoli Como",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-12T19:13:31+00:00"
+  },
+  "themes": [
+    {"theme": "Doppio pesismo mediatico su Conte e gestione giovani", "weight": 28},
+    {"theme": "Panoramica 25ª giornata + pronostici", "weight": 17},
+    {"theme": "Coppa Italia: cambio di narrazione mediatica", "weight": 15},
+    {"theme": "Arbitraggio/VAR e designazioni (Colombo)", "weight": 12},
+    {"theme": "Napoli-Roma: contesto, assenze e dubbi difesa", "weight": 13},
+    {"theme": "Pagelle Napoli-Como (giudizi sui singoli)", "weight": 15}
+  ],
+  "summary_short": "Valerio alterna panoramica di giornata e pagelle di Napoli-Como con una critica centrale: nei media c’è un doppio standard sulla gestione dei giovani (Conte vs altri). Inserisce clip di D’Agostino per mostrare toni e giudizi diversi su casi simili (Vergara/Pisilli), critica la narrazione sulla Coppa Italia e attacca la designazione di Colombo per Napoli-Roma.",
+  "claims": [
+    {
+      "speaker": "Gaetano D'Agostino",
+      "source_kind": "external_clip",
+      "target_entity": "Vergara",
+      "entity_type": "player",
+      "dimension": "youth_development",
+      "claim_type": "JUDGEMENT",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 2,
+      "confidence": 0.76,
+      "claim_text": "D’Agostino sostiene che Vergara stia giocando solo per necessità: a squadra completa non avrebbe trovato spazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vergara se la squadra era al completo Vergara manca a nascondino facevano giocare a Napoli.",
+          "start_sec": 492.52,
+          "end_sec": 502.52,
+          "quote_clean": "«A squadra completa, Vergara non giocava.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Media/Talent TV",
+      "entity_type": "other",
+      "dimension": "media_narrative",
+      "claim_type": "INTERPRETATION",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 2,
+      "confidence": 0.72,
+      "claim_text": "Valerio interpreta la clip come prova che i 'talent' usano toni emotivi per attaccare Conte e alimentare accuse sulla gestione dei giovani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi è contro Conte lo aggiunge alle cose da accusare a Conte... tenevi Vergara e non l'hai mai messo...",
+          "start_sec": 524.92,
+          "end_sec": 539.24,
+          "quote_clean": "«Vergara diventa un pretesto per accusare Conte.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "youth_development",
+      "claim_type": "FACT",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 1,
+      "confidence": 0.66,
+      "claim_text": "Valerio afferma che Conte voleva trattenere Vergara e lo aveva citato come elemento utile del vivaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte lo ha voluto... ha voluto che Vergara rimanesse... fisicamente anche può reggere... vorrei che rimanesse uno del vivaio...",
+          "start_sec": 539.24,
+          "end_sec": 559.16,
+          "quote_clean": "«Conte voleva che Vergara restasse e potesse dare una mano.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Fabregas",
+      "entity_type": "coach",
+      "dimension": "youth_development",
+      "claim_type": "OBSERVATION",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 1,
+      "confidence": 0.64,
+      "claim_text": "Valerio porta l’esempio di Baturina: inserimento graduale perché doveva acclimatarsi, poi entrato nelle rotazioni ha iniziato a rendere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabregas non l'ha utilizzato all'inizio... aveva bisogno di acclimatarsi... quando poi Baturina è entrato nelle rotazioni, ha cominciato a performare...",
+          "start_sec": 592.12,
+          "end_sec": 629.36,
+          "quote_clean": "«Baturina: prima acclimatamento, poi rotazioni e rendimento.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Media/Tifoserie",
+      "entity_type": "other",
+      "dimension": "media_narrative",
+      "claim_type": "JUDGEMENT",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 2,
+      "confidence": 0.62,
+      "claim_text": "Valerio sottolinea un doppio standard: nessuno attacca Fabregas come attaccano Conte sul tema 'non lo fai giocare'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ho sentito nessuno urlare... contro Fabregas... non lo fai giocare. Non giocava nemmeno a nascondino...",
+          "start_sec": 629.36,
+          "end_sec": 641.00,
+          "quote_clean": "«Su Fabregas non ho sentito lo stesso clamore.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Gaetano D'Agostino",
+      "source_kind": "external_clip",
+      "target_entity": "Pisilli",
+      "entity_type": "player",
+      "dimension": "youth_development",
+      "claim_type": "INTERPRETATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 1,
+      "confidence": 0.74,
+      "claim_text": "D’Agostino giustifica la mancata considerazione iniziale di Pisilli come percorso per farlo diventare giocatore ‘come vuole Gasperini’.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Invece non è la non considerazione, è portare Pisilli ad essere un giocatore per come vuole Gasperini.",
+          "start_sec": 726.92,
+          "end_sec": 736.48,
+          "quote_clean": "«Non era non-considerazione: era formazione secondo Gasperini.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media_narrative",
+      "claim_type": "INTERPRETATION",
+      "modality": "SARCASM",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.70,
+      "claim_text": "Valerio usa sarcasmo per ridicolizzare l’idea che Conte non faccia giocare i giovani ‘per voler perdere’.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte... non lo faceva giocare perché preferiva far giocare quelli più scarsi perché l'obiettivo è perdere, no? Mi sembra evidente...",
+          "start_sec": 750.28,
+          "end_sec": 767.52,
+          "quote_clean": "«Certo: Conte vuole perdere… (sarcasmo).»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Coppa Italia (narrazione media)",
+      "entity_type": "other",
+      "dimension": "media_narrative",
+      "claim_type": "JUDGEMENT",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 2,
+      "confidence": 0.66,
+      "claim_text": "Valerio critica il cambio di narrazione: Coppa Italia ‘inutile’ finché non serve, ma ‘gravissima’ l’uscita del Napoli e ‘fondamentale’ per la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "improvvisamente la Coppa Italia... era sempre vista come una cosa inutile... Il Napoli che esce... è gravissimo... adesso la Coppa Italia diventa una cosa importantissima per la Lazio",
+          "start_sec": 149.48,
+          "end_sec": 166.88,
+          "quote_clean": "«Narrazione che cambia: Napoli fuori = dramma, Lazio = fondamentale.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Arbitro Colombo",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 3,
+      "confidence": 0.78,
+      "claim_text": "Valerio attacca duramente la designazione di Colombo per Napoli-Roma, associandolo a errori e timori ricorrenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci mandano l'arbitro degli arbitri... Colombo proprio il piccione supremo... abbiamo sempre paura...",
+          "start_sec": 398.92,
+          "end_sec": 419.84,
+          "quote_clean": "«Colombo 'piccione supremo': paura per Napoli-Roma.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Napoli (vs Roma)",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "META_INFO_QUALITY",
+      "modality": "POSSIBLE",
+      "stance": "NEU",
+      "intensity": 1,
+      "confidence": 0.60,
+      "claim_text": "In vista di Napoli-Roma, Valerio segnala assenze e incertezze difensive (Jesus squalificato; dubbi su Beukema/Olivera e ruolo di Rrahmani).",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo capire la situazione della difesa con lo squalificato Jesus... Se confermare Beukema, se mettere Olivera... se Racmani braccetto destro o centrale...",
+          "start_sec": 443.96,
+          "end_sec": 456.76,
+          "quote_clean": "«Difesa: Jesus out, dubbi Beukema/Olivera e Rrahmani.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "player_performance",
+      "claim_type": "JUDGEMENT",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.62,
+      "claim_text": "Nelle pagelle, Valerio sostiene che Spinazzola titolare su quella fascia ‘fa la differenza’.",
+      "evidence_quotes": [
+        {
+          "quote_text": "6 e mezzo per Spinazzola... è bene che ritorni titolare su quella fascia perché fa la differenza.",
+          "start_sec": 939.32,
+          "end_sec": 949.12,
+          "quote_clean": "«Spinazzola titolare: fa la differenza.»"
+        }
+      ]
+    }
+  ],
+  "bias_signals": {
+    "defends_conte": {"count": 3, "avg_intensity": 1.7},
+    "attacks_media_narrative": {"count": 3, "avg_intensity": 2.0},
+    "refereeing_negative": {"count": 1, "avg_intensity": 3.0},
+    "sarcasm_claims": 1
+  }
+}

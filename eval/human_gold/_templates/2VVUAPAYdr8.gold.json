@@ -1,0 +1,71 @@
+{
+  "video_id": "2VVUAPAYdr8",
+  "themes": [
+    "Prestazioni Napoli",
+    "Tattiche di gioco",
+    "Giocatori chiave",
+    "Arbitraggio e VAR",
+    "Relazione De Laurentiis-Conte"
+  ],
+  "claims": [
+    {
+      "claim_text": "Il Napoli ha dominato la partita e ha avuto molte occasioni da gol.",
+      "target_entity": "Napoli",
+      "evidence_quotes": [
+        {"quote_text": "le occasioni che hai avuto il Napoli sono incredibili", "start_sec": 9.8, "end_sec": 18.5, "confidence": 0.9}
+      ]
+    },
+    {
+      "claim_text": "Conte ha mostrato elasticità nel gioco e ha implementato un pressing efficace.",
+      "target_entity": "Conte",
+      "evidence_quotes": [
+        {"quote_text": "Conte ha mostrato elasticità", "start_sec": 120, "end_sec": 135, "confidence": 0.85}
+      ]
+    },
+    {
+      "claim_text": "Mctomini ha avuto una partita in crescita e ruolo cruciale in fase difensiva.",
+      "target_entity": "Mctomini",
+      "evidence_quotes": [
+        {"quote_text": "ha avuto una partita in crescita e ha svolto un ruolo cruciale in fase difensiva", "start_sec": 180, "end_sec": 195, "confidence": 0.95}
+      ]
+    },
+    {
+      "claim_text": "Neres è un attaccante di grande valore che può fare la differenza.",
+      "target_entity": "Neres",
+      "evidence_quotes": [
+        {"quote_text": "Neres è un attaccante di grande valore e potenziale che può fare la differenza nelle partite", "start_sec": 200, "end_sec": 215, "confidence": 0.9}
+      ]
+    },
+    {
+      "claim_text": "Il VAR ha deluso in diverse occasioni e dovrebbe essere maggiormente coinvolto.",
+      "target_entity": "VAR",
+      "evidence_quotes": [
+        {"quote_text": "Il VAR ha deluso in diverse occasioni", "start_sec": 350, "end_sec": 365, "confidence": 0.85}
+      ]
+    },
+    {
+      "claim_text": "De Laurentiis e Conte hanno un buon rapporto con rispetto reciproco.",
+      "target_entity": "De Laurentiis",
+      "evidence_quotes": [
+        {"quote_text": "De Laurentiis e Conte hanno un buon rapporto", "start_sec": 400, "end_sec": 415, "confidence": 0.8}
+      ]
+    },
+    {
+      "claim_text": "È importante sostenere la squadra e godersi i successi con la comunità.",
+      "target_entity": "",
+      "evidence_quotes": [
+        {"quote_text": "È importante continuare a sostenere la squadra", "start_sec": 600, "end_sec": 615, "confidence": 0.7}
+      ]
+    },
+    {
+      "claim_text": "Le pagelle del Napoli in Supercoppa sono qualcosa che non si vede negli highlights.",
+      "target_entity": "Napoli",
+      "evidence_quotes": [
+        {"quote_text": "le pagelle, qualcosa che non si vede negli highlights", "start_sec": 11.4, "end_sec": 18.6, "confidence": 0.85}
+      ]
+    }
+  ],
+  "bias_notes": [
+    "Entusiasmo marcato per Conte e per la vittoria Napoli; critica costante verso VAR/arbitri."
+  ]
+}

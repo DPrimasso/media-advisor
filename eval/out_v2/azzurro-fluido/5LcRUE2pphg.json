@@ -1,0 +1,456 @@
+{
+  "video_id": "5LcRUE2pphg",
+  "themes": [
+    {
+      "theme": "comunicazione",
+      "weight": 3
+    },
+    {
+      "theme": "allenatore",
+      "weight": 3
+    },
+    {
+      "theme": "situazione anomala",
+      "weight": 3
+    },
+    {
+      "theme": "conferenza",
+      "weight": 3
+    },
+    {
+      "theme": "strategia",
+      "weight": 3
+    },
+    {
+      "theme": "tifosi",
+      "weight": 3
+    },
+    {
+      "theme": "conferenze pre-partita",
+      "weight": 3
+    },
+    {
+      "theme": "successo sportivo",
+      "weight": 3
+    },
+    {
+      "theme": "analisi media",
+      "weight": 3
+    },
+    {
+      "theme": "conferenze prepartita",
+      "weight": 3
+    },
+    {
+      "theme": "risultati",
+      "weight": 3
+    },
+    {
+      "theme": "leadership del Napoli",
+      "weight": 2
+    },
+    {
+      "theme": "comunicazione",
+      "weight": 3
+    },
+    {
+      "theme": "gestione squadra",
+      "weight": 3
+    },
+    {
+      "theme": "conferenze stampa",
+      "weight": 2
+    },
+    {
+      "theme": "comunicazione",
+      "weight": 3
+    },
+    {
+      "theme": "performance giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "strategia",
+      "weight": 3
+    },
+    {
+      "theme": "conferenze stampa",
+      "weight": 3
+    },
+    {
+      "theme": "prestazione del Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "situazione di Mourinho",
+      "weight": 3
+    },
+    {
+      "theme": "comunicazione",
+      "weight": 3
+    },
+    {
+      "theme": "discussione del campo",
+      "weight": 3
+    },
+    {
+      "theme": "atteggiamento dei tifosi",
+      "weight": 3
+    },
+    {
+      "theme": "stato del allenatore",
+      "weight": 3
+    },
+    {
+      "theme": "comunicazione interna",
+      "weight": 2
+    },
+    {
+      "theme": "situazione giornalistica",
+      "weight": 1
+    },
+    {
+      "theme": "situazione Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "leadership dirigenziale",
+      "weight": 3
+    },
+    {
+      "theme": "attesa di vittoria",
+      "weight": 2
+    },
+    {
+      "theme": "silenzio",
+      "weight": 3
+    },
+    {
+      "theme": "sorteggio",
+      "weight": 4
+    },
+    {
+      "theme": "pressione",
+      "weight": 3
+    },
+    {
+      "theme": "Italia calcio",
+      "weight": 3
+    },
+    {
+      "theme": "situazione Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni giocatori",
+      "weight": 3
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "1a39b093-1adb-4906-aac8-a4760e7193b4",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore del Napoli non parlerà in conferenza prima della partita con l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non parlerà in conferenza prepartita pre prepartita con l'Atalanta.",
+          "start_sec": 73.92,
+          "end_sec": 137.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "conferenza",
+        "partita"
+      ]
+    },
+    {
+      "claim_id": "25cd1c06-4584-4d5f-a69d-d42cc56ab20b",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto successo senza conferenze pre-partita in alcune occasioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo del City con il Pisa non si è fatto conferenza e si è vinto.",
+          "start_sec": 134.879,
+          "end_sec": 195.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "conferenza"
+      ]
+    },
+    {
+      "claim_id": "908a66e6-a39d-4515-805b-9150fdbaf38a",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha perso partite dopo conferenze pre-partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Prima dello Sporting contro il Milan si è fatto conferenza e si è perso.",
+          "start_sec": 134.879,
+          "end_sec": 195.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "conferenza"
+      ]
+    },
+    {
+      "claim_id": "b8e8ac4a-a47d-453d-89db-0fead3d6e27c",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Le vittorie del Napoli sono seguite da l'assenza di conferenze pre-partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo del PSV contro l'Inter non si è fatto conferenza e si è vinto.",
+          "start_sec": 134.879,
+          "end_sec": 195.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "conferenza"
+      ]
+    },
+    {
+      "claim_id": "4ca54201-5a2a-46f6-91b8-0a71d0de1c73",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s2",
+      "target_entity": "Guido Vares",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Guido Vares non ha una comprensione accurata dell'importanza delle conferenze.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Evidentemente lui non ha mai parlato, lui dice così, di consueto prima e dopo una gara di Champions.",
+          "start_sec": 134.879,
+          "end_sec": 195.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "conferenza"
+      ]
+    },
+    {
+      "claim_id": "7f2c3d58-0b99-4151-926c-07288fdfc8fc",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il Napoli rischia per la mancanza di comunicazione del suo allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il non parlare potrebbe fare peggio.",
+          "start_sec": 0.04,
+          "end_sec": 76.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "allenatore"
+      ]
+    },
+    {
+      "claim_id": "fbaeb8b7-5155-48ea-93f0-30d9213e327b",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "La situazione attuale potrebbe influenzare l'Italia nel lungo periodo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vorrei capire che cosa sta succedendo",
+          "start_sec": 0.04,
+          "end_sec": 76.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Italia",
+        "futuro"
+      ]
+    },
+    {
+      "claim_id": "f3447ed7-cd66-4a75-9105-46694eb0c25d",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s1",
+      "target_entity": "tifosi del Napoli",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "POSSIBLE",
+      "claim_text": "I tifosi commentano attivamente l'assenza di conferenza dell'allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Commenti a gogo non solo dei tifosi del Napoli",
+          "start_sec": 73.92,
+          "end_sec": 137.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "commenti",
+        "assenza"
+      ]
+    },
+    {
+      "claim_id": "9250cbc8-6353-4854-b38e-ae49c96768f8",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.3,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non fa più conferenze stampa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte non fa piu conferenza",
+          "start_sec": 0.04,
+          "end_sec": 76.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conferenze",
+        "allenatore"
+      ]
+    },
+    {
+      "claim_id": "7999db91-0294-4c37-81c9-ca00ebe695c0",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli affronta una situazione anomala a livello comunicativo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché normale proprio non è.",
+          "start_sec": 0.04,
+          "end_sec": 76.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "situazione"
+      ]
+    },
+    {
+      "claim_id": "68e44d2d-5e9b-40cd-9985-c29cb552c3e5",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'assenza di conferenza di Conte lascia domande sulle sue intenzioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non fa piu conferenza",
+          "start_sec": 73.92,
+          "end_sec": 137.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Conte",
+        "assenza",
+        "intenzioni"
+      ]
+    },
+    {
+      "claim_id": "71d726ca-4315-45a4-b533-310f9dae2a14",
+      "video_id": "5LcRUE2pphg",
+      "segment_id": "s1",
+      "target_entity": "allenatore",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il silenzio dell'allenatore potrebbe indicare una strategia di concentrazione sul campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna far parlare il campo.",
+          "start_sec": 73.92,
+          "end_sec": 137.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "silenzio",
+        "strategia",
+        "campo"
+      ]
+    }
+  ],
+  "summary_short": "ADL & Chiavelli! 👀 COSA RISCHIA IL NAPOLI? 🔵 e #Conte non fa piu #conferenza!!! — 2025-11-20"
+}

@@ -35,6 +35,8 @@ media-advisor/
 | `npm run transcript <url> --channel=id` | Transcript singolo → `transcripts/{id}/` |
 | `npm run add-punto-chiaro` | Aggiunge "Il punto chiaro" da @radiocrc2023 a Umberto Chiariello |
 | `npm run migrate-transcripts` | Migra transcript flat → per-canale (una tantum) |
+| `npm run backfill-dates` | Recupera solo le date mancanti (TranscriptAPI/yt-dlp/Piped/Invidious) |
+| `npm run backfill-dates -- --channel=open-var` | Solo un canale |
 | `cd web && npm run dev` | Avvia dashboard |
 
 ## Dashboard

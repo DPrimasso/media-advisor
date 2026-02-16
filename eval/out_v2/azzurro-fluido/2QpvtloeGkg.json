@@ -1,0 +1,440 @@
+{
+  "video_id": "2QpvtloeGkg",
+  "themes": [
+    {
+      "theme": "coaching",
+      "weight": 3
+    },
+    {
+      "theme": "comparison",
+      "weight": 2
+    },
+    {
+      "theme": "fear",
+      "weight": 2
+    },
+    {
+      "theme": "tattica",
+      "weight": 3
+    },
+    {
+      "theme": "talento",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "interview",
+      "weight": 3
+    },
+    {
+      "theme": "coaching style",
+      "weight": 2
+    },
+    {
+      "theme": "opinion",
+      "weight": 2
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 2
+    },
+    {
+      "theme": "anxiety",
+      "weight": 1
+    },
+    {
+      "theme": "tattiche di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "comparazione allenatori",
+      "weight": 2
+    },
+    {
+      "theme": "strategia di pressing",
+      "weight": 3
+    },
+    {
+      "theme": "allenamento",
+      "weight": 3
+    },
+    {
+      "theme": "calcio moderno",
+      "weight": 2
+    },
+    {
+      "theme": "strategie di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "player development",
+      "weight": 2
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "status del Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "importanza dell'aggiornamento",
+      "weight": 3
+    },
+    {
+      "theme": "leadership di Mazzarri",
+      "weight": 2
+    },
+    {
+      "theme": "licenziamento",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "comunicazione",
+      "weight": 4
+    },
+    {
+      "theme": "allenatore",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche",
+      "weight": 2
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 2
+    },
+    {
+      "theme": "allenatore",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 2
+    },
+    {
+      "theme": "stampa",
+      "weight": 2
+    },
+    {
+      "theme": "Cavani",
+      "weight": 3
+    },
+    {
+      "theme": "leadership di Mazzarri",
+      "weight": 2
+    },
+    {
+      "theme": "progetto a lungo termine per il Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "insofferenza dell'ambiente",
+      "weight": 3
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "2f256d55-7d1b-46ca-a086-358a0a16f162",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s1",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "L'allenatore deve adeguare il modulo di gioco alle caratteristiche della rosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un allenatore si deve adeguare alla rosa e trovare il modulo gioco giusto per la sua squadra.",
+          "start_sec": 78.68,
+          "end_sec": 161.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica"
+      ]
+    },
+    {
+      "claim_id": "eb45a8b1-a714-4b9b-8203-a866a2807428",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s1",
+      "target_entity": "calciatori",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il talento dei calciatori può fare la differenza, ma serve anche impegno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il talento che può fare la differenza. Il Signore ci ha dato il talento, parte senza sudore.",
+          "start_sec": 78.68,
+          "end_sec": 161.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "talento"
+      ]
+    },
+    {
+      "claim_id": "9ad11561-5060-46da-badb-beabd0070ea1",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s1",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "L'allenatore deve lavorare con i giocatori senza imporre ansia o fretta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lasciarlo lavorare senza mettergli nessuna ansia, nessuna fretta, senza mettere dei limiti.",
+          "start_sec": 78.68,
+          "end_sec": 161.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "claim_id": "6b95dc62-b822-4009-b9f2-a91722c78155",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s0",
+      "target_entity": "Mazzarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Mazzarri ha rilasciato un'intervista che ha creato preoccupazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ultima volta che Mazzarri fece un'intervista e cominciamo.",
+          "start_sec": 0.12,
+          "end_sec": 80,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interview",
+        "concern"
+      ]
+    },
+    {
+      "claim_id": "1f6c1003-0685-44e2-b2d5-da04f7aa070a",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s0",
+      "target_entity": "Garcia",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Si rigettano i paragoni con l'annata di Garcia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io rigetto tutte le i paragoni con l'annata di Garcia.",
+          "start_sec": 0.12,
+          "end_sec": 80,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comparison",
+        "season"
+      ]
+    },
+    {
+      "claim_id": "c73edf7f-d710-40b8-84bd-cc6550f8a44e",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.75,
+      "modality": "POSSIBLE",
+      "claim_text": "Mazzarri ha riconosciuto di dover cambiare il suo approccio ispirato a Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mio calcio alla Spalletti sappiamo tutti com'è andati.",
+          "start_sec": 158.239,
+          "end_sec": 223.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "2f5ea538-88d0-4638-9f6c-c0206913c920",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s0",
+      "target_entity": "Montuori",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "Montuori potrà fornire un team di qualità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ambizioso mi darà una squadra di qualità.",
+          "start_sec": 0.12,
+          "end_sec": 80,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "quality",
+        "coaching"
+      ]
+    },
+    {
+      "claim_id": "b0a6ea44-12a3-4eb4-9e18-e9b4ec9c9c65",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s1",
+      "target_entity": "calciatori",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "I calciatori partiranno concentrati e motivati per l'inizio del campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando si parte si parte si parte a bomba.",
+          "start_sec": 78.68,
+          "end_sec": 161.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "motivazione"
+      ]
+    },
+    {
+      "claim_id": "b0fde9de-7f93-4da7-81e1-4424c30ccc81",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s2",
+      "target_entity": "Mazzarri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "L'intervista a Mazzarri è stata definita straordinaria dall'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Era una cosa straordinaria questa intervista qua.",
+          "start_sec": 158.239,
+          "end_sec": 223.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "9dfc9532-4b96-4b4d-a3d2-60a74db5aa67",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s2",
+      "target_entity": "Mazzarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.3,
+      "modality": "CERTAIN",
+      "claim_text": "Mazzarri si è incensato durante la sua lunga intervista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dove Mazzarri si incensa per un'ora.",
+          "start_sec": 158.239,
+          "end_sec": 223.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "e1378bbe-b920-4f4a-a3bf-ee1e46d61e88",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "POSSIBLE",
+      "claim_text": "Le parole di Conte sembrano simili a quelle di Garcia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "proprio uguali.",
+          "start_sec": 0.12,
+          "end_sec": 80,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "similarity",
+        "coaches"
+      ]
+    },
+    {
+      "claim_id": "1c99a4bc-92fe-42f1-9f58-cea35c7ae21b",
+      "video_id": "2QpvtloeGkg",
+      "segment_id": "s2",
+      "target_entity": "Mazzarri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Mazzarri ha rilasciato un'intervista pesante per la Gazzetta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "",
+          "start_sec": 158.239,
+          "end_sec": 223.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "Non fate vedere quest'intervista ad #ADL! 👀 He's back 🔵 — 2025-11-15"
+}

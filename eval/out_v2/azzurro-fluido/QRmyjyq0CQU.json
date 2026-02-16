@@ -1,0 +1,428 @@
+{
+  "video_id": "QRmyjyq0CQU",
+  "themes": [
+    {
+      "theme": "media analysis",
+      "weight": 3
+    },
+    {
+      "theme": "opinion leadership",
+      "weight": 3
+    },
+    {
+      "theme": "narrative construction",
+      "weight": 2
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 3
+    },
+    {
+      "theme": "media e contronarrazioni",
+      "weight": 3
+    },
+    {
+      "theme": "fruizione contenuti video",
+      "weight": 3
+    },
+    {
+      "theme": "Lautaro",
+      "weight": 3
+    },
+    {
+      "theme": "Lobotka",
+      "weight": 3
+    },
+    {
+      "theme": "Antonio Conte",
+      "weight": 3
+    },
+    {
+      "theme": "malcontento",
+      "weight": 3
+    },
+    {
+      "theme": "preparazione",
+      "weight": 2
+    },
+    {
+      "theme": "dichiarazioni",
+      "weight": 2
+    },
+    {
+      "theme": "infortuni",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "pressione esterna",
+      "weight": 2
+    },
+    {
+      "theme": "allenatore Conte",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "gestione squadra",
+      "weight": 3
+    },
+    {
+      "theme": "infortuni",
+      "weight": 3
+    },
+    {
+      "theme": "formazione",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "critica media",
+      "weight": 3
+    },
+    {
+      "theme": "modulo",
+      "weight": 4
+    },
+    {
+      "theme": "tattica",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "team performance",
+      "weight": 3
+    },
+    {
+      "theme": "player performance",
+      "weight": 2
+    },
+    {
+      "theme": "tattica",
+      "weight": 3
+    },
+    {
+      "theme": "infortunio",
+      "weight": 1
+    },
+    {
+      "theme": "lineup",
+      "weight": 2
+    },
+    {
+      "theme": "analisi tattica",
+      "weight": 3
+    },
+    {
+      "theme": "leadership di Lautaro",
+      "weight": 4
+    },
+    {
+      "theme": "modello di gioco del Napoli",
+      "weight": 3
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f943f770-7c17-44f9-9580-174cb6ea7329",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono modalità di diffusione della contronarrazione sul Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo mi dà un gancio per parlarvi di come ci parlano dell'argomento Napoli.",
+          "start_sec": 1.439,
+          "end_sec": 80.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "339c2f48-727e-48a3-be66-51004f3e9fac",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s0",
+      "target_entity": "Lopodka",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Lopodka ha rilasciato dichiarazioni che sono rientrate subito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "voi mi avete mandato un po' di dichiarazioni di Lopodka, poi le cose sono rientrate subito.",
+          "start_sec": 1.439,
+          "end_sec": 80.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "e4e6cdc9-630e-4e70-9160-7b1be76e51ff",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s0",
+      "target_entity": "video",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il creatore del video desidera approfondire il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è A, c'è B, ma poi ci sono tutto il resto delle lettere dell'alfabeto... per raggiungere una verità che sarà sempre parziale.",
+          "start_sec": 1.439,
+          "end_sec": 80.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "e44b248a-a547-4953-89b1-e412368f8240",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s0",
+      "target_entity": "opinionista",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista lotta contro il formato video breve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non riesco a concepire video brevi dove dic punto e tutti al all'attacco o alla difesa di una dichiarazione mini.",
+          "start_sec": 1.439,
+          "end_sec": 80.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "92cf1db4-43c1-43c7-ac3e-63089c73783d",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s1",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro sta attirando attenzione per le sue prestazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho ascoltato Caressa e sono contento che... arrivi una condanna ferma e serissima e importante sulle simulazioni",
+          "start_sec": 78.08,
+          "end_sec": 143.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "Lautaro"
+      ]
+    },
+    {
+      "claim_id": "4225f140-ae9a-45bb-8af6-a9f525c06c07",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "C'è una contronarrazione riguardo alle notizie sul Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una contronarrazione rispetto a quello che si è detto a cronache di spogliatoio i Trevisani sulla situazione del Napoli",
+          "start_sec": 78.08,
+          "end_sec": 143.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "media"
+      ]
+    },
+    {
+      "claim_id": "b96b5f0a-3a4b-4e25-b1b2-fb58134449c2",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s1",
+      "target_entity": "video",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il video è concepito per essere fruibile anche in brevi segmenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...quando poi sui mini social andiamo a a condividere sono più fruibili per chi non ha il tempo nemmeno",
+          "start_sec": 78.08,
+          "end_sec": 143.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "video",
+        "social media"
+      ]
+    },
+    {
+      "claim_id": "dfca2f04-c360-45a6-920d-353b44af9f10",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s1",
+      "target_entity": "Lobodka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Viene menzionato Lobodka in un contesto di variazioni analitiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la situazione di Lobodka volevo e ho voluto e ho fatto e magari adesso ve li metto ve li allego così come sono",
+          "start_sec": 78.08,
+          "end_sec": 143.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lobodka",
+        "analisi"
+      ]
+    },
+    {
+      "claim_id": "c2f4f322-2d03-4b02-ba00-0d84e441736e",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s2",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro non è il miglior giocatore del campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi dice una cosa su Lautaro, che è il miglior giocatore in assoluto eh del campionato.",
+          "start_sec": 142.28,
+          "end_sec": 217.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "5d09ddb8-f4f6-487f-8625-49566b4a3af0",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s2",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "POSSIBLE",
+      "claim_text": "Lobotka potrebbe chiedere la cessione se Conte resta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se Antonio Conte continua così, il mio assistito chiederà la cessione.",
+          "start_sec": 142.28,
+          "end_sec": 217.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "3ec4695c-abc4-4514-bd55-0c7e9ca9fb83",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s2",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Lobotka sta bene fisicamente in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lui sta bene in Italia, ma se Conte dovesse restare.",
+          "start_sec": 142.28,
+          "end_sec": 217.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "3ac7b8f0-3e7a-4122-a8d0-ff24cbe1faa0",
+      "video_id": "QRmyjyq0CQU",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha una relazione di tipo padre-figlio con Lobotka.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte e Lobotka sono come padre e figlio.",
+          "start_sec": 142.28,
+          "end_sec": 217.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "Anche ROMANO SMENTISCE le BALLE su #LOBOTKA 👀 #Trevisani e il 352 🔵 — 2025-12-01"
+}

@@ -1,0 +1,460 @@
+{
+  "video_id": "6xgN12dYXq0",
+  "themes": [
+    {
+      "theme": "Napoli situazione attuale",
+      "weight": 3
+    },
+    {
+      "theme": "Juventus situazione attuale",
+      "weight": 3
+    },
+    {
+      "theme": "Tiago Motta strategia",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": " performance",
+      "weight": 3
+    },
+    {
+      "theme": "partita",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "prestazione",
+      "weight": 3
+    },
+    {
+      "theme": "centrocampo",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "prestiti",
+      "weight": 3
+    },
+    {
+      "theme": "infortuni",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "prestazione",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "allenatore",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "scelte di mercato",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 2
+    },
+    {
+      "theme": "calciomercato",
+      "weight": 3
+    },
+    {
+      "theme": "indebitamento",
+      "weight": 2
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "rotazioni",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "scudetto",
+      "weight": 3
+    },
+    {
+      "theme": "finanze",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "093ced47-06d1-47eb-a73d-c19abec2df31",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha ottenuto sei vittorie convincenti di recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli è reduce da un filotto di partite sei vinte ma soprattutto convincenti.",
+          "start_sec": 0,
+          "end_sec": 96.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "partite",
+        "vittorie"
+      ]
+    },
+    {
+      "claim_id": "4a643e37-47da-4781-829b-cf8b609fff1b",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è in difficoltà avendo pareggiato molte partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus mai come questa volta sarebbe ben contenta di strappare l'ennesimo pareggio",
+          "start_sec": 0,
+          "end_sec": 96.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Juventus",
+        "pareggi",
+        "difficoltà"
+      ]
+    },
+    {
+      "claim_id": "1b78d3b3-ff85-4341-916d-3724852276f8",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s0",
+      "target_entity": "Tiago Motta",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Tiago Motta cerca di adattare la sua strategia all'attaccante Coloman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il tentativo di fare il colpaccio a Napoli Tiago Motta lo coltiva ora che c'ha anche coloman",
+          "start_sec": 0,
+          "end_sec": 96.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Tiago Motta",
+        "strategia",
+        "Coloman"
+      ]
+    },
+    {
+      "claim_id": "a0480eba-9e5a-48e1-a7cd-c30109129ad7",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli rallenta le sue attività a causa del mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è mentalizzato e Conte sicuramente lo farà alla gara alla partita ma pare che tutto questo conti relativamente poco.",
+          "start_sec": 92.92,
+          "end_sec": 178.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli",
+        "mercato",
+        "conte"
+      ]
+    },
+    {
+      "claim_id": "af62d533-0b12-4ed2-8308-74247a39fb7f",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s1",
+      "target_entity": "Napoli-Juventus",
+      "entity_type": "ref",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono poche notizie sulla partita Napoli-Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se n'è parlato pochissimo addirittura la conferenza stampa di Conte",
+          "start_sec": 92.92,
+          "end_sec": 178.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli-juventus",
+        "notizie",
+        "conferenza stampa"
+      ]
+    },
+    {
+      "claim_id": "4f1f6ee6-d5fd-4583-88ea-ec9e07592604",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s2",
+      "target_entity": "Meret",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Meret è il titolare indiscusso della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "meret è titolare indiscusso quindi era giusto mandare a giocare Caprile.",
+          "start_sec": 176.879,
+          "end_sec": 253.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "titolare",
+        "prestazione"
+      ]
+    },
+    {
+      "claim_id": "3b7e36c9-8b4e-40d9-95cd-83b1b013fabb",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli esprime un gioco in crescita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "complessivamente è un Napoli in crescita enorme",
+          "start_sec": 0,
+          "end_sec": 96.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "gioco",
+        "crescita"
+      ]
+    },
+    {
+      "claim_id": "1532d742-fdb6-4b03-82a3-5f52aecaf89b",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha un ruolo chiave nella preparazione del Napoli per la partita contro la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte sicuramente lo farà alla gara alla partita",
+          "start_sec": 92.92,
+          "end_sec": 178.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conte",
+        "preparazione",
+        "juventus"
+      ]
+    },
+    {
+      "claim_id": "46e478b8-5927-48f7-8c3c-342deb9433b5",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s2",
+      "target_entity": "Caprile",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Caprile è stato mandato a giocare altrove.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Caprile doveva andare a giocare.",
+          "start_sec": 176.879,
+          "end_sec": 253.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatori"
+      ]
+    },
+    {
+      "claim_id": "3723b186-0e2a-4f64-9d5e-9bb0ae3c2f68",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s2",
+      "target_entity": "Billing",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il nuovo giocatore Billing ha deluso le aspettative della piazza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un nome che ha deluso un po' la piazza.",
+          "start_sec": 176.879,
+          "end_sec": 253.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giochi"
+      ]
+    },
+    {
+      "claim_id": "b8785e9a-3081-4dd1-a67c-deaf1672dc0e",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s2",
+      "target_entity": "Gilmour",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Gilmour è visto come il sostituto nel centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il sostituto è uno e si chiama Gilmour.",
+          "start_sec": 176.879,
+          "end_sec": 253.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "centrocampista",
+        "sostituzioni"
+      ]
+    },
+    {
+      "claim_id": "68c87f47-ecb6-4a38-87f4-1c6678866c98",
+      "video_id": "6xgN12dYXq0",
+      "segment_id": "s1",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Politano ha segnato recentemente, contribuendo ai gol degli esterni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è arrivato quello di Politano.",
+          "start_sec": 92.92,
+          "end_sec": 178.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "politano",
+        "gol",
+        "esterni"
+      ]
+    }
+  ],
+  "summary_short": "#CHIARIELLO, IL PUNTO CHIARO 24/01: «Mercato NAPOLI? Finora siamo 0-0» — 2026-02-12"
+}

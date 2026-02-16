@@ -1,0 +1,429 @@
+{
+  "video_id": "51ghHw2_fy4",
+  "themes": [
+    {
+      "theme": "Nico Paz",
+      "weight": 3
+    },
+    {
+      "theme": "simulazione partita",
+      "weight": 3
+    },
+    {
+      "theme": "benvenuto",
+      "weight": 2
+    },
+    {
+      "theme": "lineup",
+      "weight": 3
+    },
+    {
+      "theme": "formation",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 2
+    },
+    {
+      "theme": "formazione",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori chiave",
+      "weight": 3
+    },
+    {
+      "theme": "equilibrio partita",
+      "weight": 3
+    },
+    {
+      "theme": "pronostico",
+      "weight": 3
+    },
+    {
+      "theme": "andamento squadra",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 2
+    },
+    {
+      "theme": "Bergonzi",
+      "weight": 3
+    },
+    {
+      "theme": "Di Lorenzo",
+      "weight": 3
+    },
+    {
+      "theme": "social media",
+      "weight": 2
+    },
+    {
+      "theme": "arbitraggio",
+      "weight": 3
+    },
+    {
+      "theme": "triangolazione",
+      "weight": 3
+    },
+    {
+      "theme": "contatto",
+      "weight": 2
+    },
+    {
+      "theme": "VAR",
+      "weight": 3
+    },
+    {
+      "theme": "controverse",
+      "weight": 3
+    },
+    {
+      "theme": "responsabilità",
+      "weight": 2
+    },
+    {
+      "theme": "gesto antisportivo",
+      "weight": 3
+    },
+    {
+      "theme": "decisione VAR",
+      "weight": 3
+    },
+    {
+      "theme": "contatto leggero",
+      "weight": 3
+    },
+    {
+      "theme": "antisportività",
+      "weight": 3
+    },
+    {
+      "theme": "scuse",
+      "weight": 3
+    },
+    {
+      "theme": "social media",
+      "weight": 3
+    },
+    {
+      "theme": "arbitraggio",
+      "weight": 3
+    },
+    {
+      "theme": "simulazioni",
+      "weight": 3
+    },
+    {
+      "theme": "coerenza",
+      "weight": 3
+    },
+    {
+      "theme": "arbitraggio",
+      "weight": 3
+    },
+    {
+      "theme": "performance giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "discussione",
+      "weight": 2
+    },
+    {
+      "theme": "simulazione",
+      "weight": 3
+    },
+    {
+      "theme": "arbitraggio",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "03d59d74-57de-4817-9c07-7443f956f020",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s0",
+      "target_entity": "Nico Paz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Nico Paz si è svegliato in fretta e furia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "svegliato un po' così in fretta, in furia, perché vi dovevo postare",
+          "start_sec": 2,
+          "end_sec": 40.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "b0162208-d9a3-4fea-859c-61357b37706b",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s0",
+      "target_entity": "Nico Paz",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista ha intuito una simulazione importante riguardo Nico Paz.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io vi devo far vedere un'altra simulazione che mi stava sfuggendo.",
+          "start_sec": 2,
+          "end_sec": 40.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "dbd29360-096b-400d-a52a-d8ef4f1ec93f",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas è previsto come titolare nella formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi mette Elmas titolare perché mi sembrava sfizioso dare continuità a a Elmas esterno sinistro.",
+          "start_sec": 37.12,
+          "end_sec": 96.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "e4229f31-ff38-4681-a922-6dc31849dcbd",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s2",
+      "target_entity": "Heulund",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Heulund sta tornando in buona forma per il reparto offensivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ovviamente occhio, un occhio particolare a Heulund perché ritorna nella sua freschezza.",
+          "start_sec": 94.2,
+          "end_sec": 131.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "tactics"
+      ]
+    },
+    {
+      "claim_id": "d384cd19-2810-4eb9-be95-81067cfc69f0",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha delle gerarchie prioritizzate nella sua gestione della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "della logica delle delle priorità di Conte, delle delle sue gerarchie.",
+          "start_sec": 94.2,
+          "end_sec": 131.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "claim_id": "7fde3b10-f45f-4850-b1b3-1f69d5e8f9e7",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s2",
+      "target_entity": "Partita",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "La partita potrebbe essere equilibrata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Facciamo conto che una partita del genere potrebbe anche essere equilibrata.",
+          "start_sec": 94.2,
+          "end_sec": 131.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "claim_id": "09b32654-8436-46c9-ae14-975cec63ecd2",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli potrebbe conseguire il suo primo pareggio in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non escludo, diciamo, un pareggio che è una cosa che il Napoli ancora non ha fatto",
+          "start_sec": 128.92,
+          "end_sec": 167.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "pareggio",
+        "stagione"
+      ]
+    },
+    {
+      "claim_id": "5f05cc80-9ac4-4f0d-bfeb-d00a477f2ee6",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s0",
+      "target_entity": "Nico Paz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 0.7,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "L'opinionista suggerisce che la performance di Nico Paz merita attenzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devo far vedere un'altra simulazione che mi stava sfuggendo.",
+          "start_sec": 2,
+          "end_sec": 40.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "cb2daad7-ff44-4288-a8d0-1e528874f688",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s2",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "Spinazzola sarà impiegato come terzino sinistro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spinazzola come terzino sinistro e però porta a Noneres.",
+          "start_sec": 94.2,
+          "end_sec": 131.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics"
+      ]
+    },
+    {
+      "claim_id": "28ff8adc-7828-4808-9d34-bb9ff390030f",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s0",
+      "target_entity": "Benven a Donco Coppola",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Benven a Donco Coppola è stato accolto nel video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Diamo il benvenuto a Benven a Donco Coppola.",
+          "start_sec": 2,
+          "end_sec": 40.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "97a7d953-944a-4684-9293-52cf670596a9",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s1",
+      "target_entity": "Rakmani",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Rakmani è confermato nella formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le formazioni che ci porta Sky confermano Rakmani.",
+          "start_sec": 37.12,
+          "end_sec": 96.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "ab231cd9-59d4-4f52-a948-de851780a09a",
+      "video_id": "51ghHw2_fy4",
+      "segment_id": "s1",
+      "target_entity": "Spider-Man",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Spider-Man è responsabile della formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mentre Spider-Man fa la formazione",
+          "start_sec": 37.12,
+          "end_sec": 96.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "Peggio NICO PAZ a SVENIRE, o BERGONZI a raccontarlo? 👀 #Napoli #Como #SIMULAZIONE #eFootball 🔵 — 2025-11-01"
+}

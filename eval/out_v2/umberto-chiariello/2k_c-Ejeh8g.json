@@ -1,0 +1,426 @@
+{
+  "video_id": "2k_c-Ejeh8g",
+  "themes": [
+    {
+      "theme": "significato partita",
+      "weight": 3
+    },
+    {
+      "theme": "stato campionato",
+      "weight": 3
+    },
+    {
+      "theme": "strategia",
+      "weight": 2
+    },
+    {
+      "theme": "importanza partite",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "rivalità",
+      "weight": 2
+    },
+    {
+      "theme": "historical performance",
+      "weight": 3
+    },
+    {
+      "theme": "coaching",
+      "weight": 2
+    },
+    {
+      "theme": "rivalry",
+      "weight": 3
+    },
+    {
+      "theme": "Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "Inter",
+      "weight": 2
+    },
+    {
+      "theme": "media",
+      "weight": 1
+    },
+    {
+      "theme": "transfers",
+      "weight": 3
+    },
+    {
+      "theme": "football performance",
+      "weight": 3
+    },
+    {
+      "theme": "player evaluation",
+      "weight": 2
+    },
+    {
+      "theme": "critica",
+      "weight": 3
+    },
+    {
+      "theme": "scommesse",
+      "weight": 3
+    },
+    {
+      "theme": "comportamento giocatori",
+      "weight": 2
+    },
+    {
+      "theme": "classifica",
+      "weight": 4
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 3
+    },
+    {
+      "theme": "rimpianto",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "players",
+      "weight": 3
+    },
+    {
+      "theme": "transfers",
+      "weight": 2
+    },
+    {
+      "theme": "infortuni",
+      "weight": 3
+    },
+    {
+      "theme": "prestazione giocatori",
+      "weight": 4
+    },
+    {
+      "theme": "percezione della squadra",
+      "weight": 2
+    },
+    {
+      "theme": "calcio",
+      "weight": 3
+    },
+    {
+      "theme": "scommesse",
+      "weight": 2
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "classifica",
+      "weight": 3
+    },
+    {
+      "theme": "autostima",
+      "weight": 2
+    },
+    {
+      "theme": "rivalità",
+      "weight": 2
+    },
+    {
+      "theme": "isterismo",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "sosta",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "e652b7bf-7f95-4992-aeb2-5755d05ef0c1",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Inter-Napoli non ha alcun significato in questo momento della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cosa vuol dire niente ma proprio niente avete voglia di caricarla di significati questa partita sapete cosa rappresenta questa partita Zero",
+          "start_sec": 0.28,
+          "end_sec": 54.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "5b5d6a04-00ec-48a5-bcde-98a2bf5a79fe",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La partita contro il Napoli non influenzerà il corso del campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cosa vuol dire niente ma proprio niente avete voglia di caricarla di significati questa partita sapete cosa rappresenta questa partita Zero",
+          "start_sec": 0.28,
+          "end_sec": 54.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "fb1f5c13-7b09-411b-a694-b1fbd105902c",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Le partite contro Atalanta e Roma sono considerate fondamentali per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta in casa che temevo come la peste bubbonica e devo dire a giusta ragione e napoli-roma dopo la sosta è la partita chiave",
+          "start_sec": 49.879,
+          "end_sec": 97.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "e5993253-be58-45ef-9c90-77ceed746d71",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La partita al San Siro contro il Milan non è stata decisiva per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non erano San Siro col Milan dove il Napoli aveva una grande occasione",
+          "start_sec": 49.879,
+          "end_sec": 97.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "50ec7de4-232b-4ce6-8326-1e920c1438e9",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli non ha mai vinto due volte a San Siro nella stessa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Perché mai il Napoli nella stessa stagione ha vinto due volte a San Siro con Milan e Inter con Maradona non c'è riuscito mai",
+          "start_sec": 93.119,
+          "end_sec": 149.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "historical performance"
+      ]
+    },
+    {
+      "claim_id": "70b96d45-6c81-43c4-b3e3-002646631fe1",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s2",
+      "target_entity": "Maradona",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Maradona ha affrontato squadre forti come Milan e Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli di Maradona competeva con due Club che erano mostruosi per forza e capacità",
+          "start_sec": 93.119,
+          "end_sec": 149.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "legend",
+        "historical performance"
+      ]
+    },
+    {
+      "claim_id": "718cb9ab-baf2-4cb3-a994-024f2aaa75fd",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s0",
+      "target_entity": "partita",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La 12a giornata non influisce sulle strategie di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alla 12a",
+          "start_sec": 0.28,
+          "end_sec": 54.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "139637ba-afb3-42e5-8c50-ba2b677900ef",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha sfruttato bene una grande occasione contro il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli aveva una grande occasione e l'ha saputa sfruttare",
+          "start_sec": 49.879,
+          "end_sec": 97.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "9c896c84-9a55-44f2-8fd9-228b994dfcde",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti non è riuscito a vincere a San Siro dopo il mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non c'è riuscito neanche Spalletti perché dopo il mondiale",
+          "start_sec": 93.119,
+          "end_sec": 149.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coaching",
+        "recent performance"
+      ]
+    },
+    {
+      "claim_id": "f8d5892b-87ce-47d4-9cbb-7e4f7786309e",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter era considerata una squadra molto forte negli anni di Maradona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter dei tedeschi di del trap e il grande Milan di sacchi",
+          "start_sec": 93.119,
+          "end_sec": 149.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "historical rivalry"
+      ]
+    },
+    {
+      "claim_id": "e310906f-6ad1-4143-8cc9-08884c248e96",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s0",
+      "target_entity": "campionato",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Non siamo a un terzo del campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non siamo a un terzo del campionato",
+          "start_sec": 0.28,
+          "end_sec": 54.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "07c9cfda-61b7-4776-8c22-d7233c4573d0",
+      "video_id": "2k_c-Ejeh8g",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Inter e Napoli è importante ma non cruciale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter e Napoli sapete cosa rappresenta",
+          "start_sec": 49.879,
+          "end_sec": 97.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "#CHIARIELLO, IL PUNTO CHIARO 9/11: «INTER - NAPOLI non conta nulla» — 2026-02-12"
+}

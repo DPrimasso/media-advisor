@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 import { transcriptToPlainText } from "./save-transcript.js";
 import { createOpenAIClient } from "./analyzer/openai-client.js";
 import { createTranscriptClient } from "./transcript-client.js";
+import { enrichWithPublishedAt } from "./video-metadata.js";
 import { DIRS } from "./paths.js";
 import type { TranscriptResponse } from "./transcript-client.js";
 
@@ -88,30 +89,33 @@ export async function runBatch(
     }
 
     try {
-      const plainText = transcriptToPlainText(data);
-      let metadata: { title?: string; author_name?: string; published_at?: string } | undefined;
-
-      if (data.metadata) {
-        metadata = {
-          title: data.metadata.title,
-          author_name: data.metadata.author_name,
-        };
-        if (transcriptClient && data.metadata.author_url) {
-          let videos = channelLatestCache.get(data.metadata.author_url);
-          if (!videos) {
-            try {
-              const latest = await transcriptClient.getChannelLatest(data.metadata.author_url);
-              videos = latest.results.map((r) => ({ videoId: r.videoId, published: r.published }));
-              channelLatestCache.set(data.metadata.author_url, videos);
-              await sleep(200);
-            } catch {
-              // skip published_at
+      await enrichWithPublishedAt(data, {
+        getChannelLatest: transcriptClient && data.metadata?.author_url
+          ? async (authorUrl) => {
+              let videos = channelLatestCache.get(authorUrl);
+              if (!videos) {
+                try {
+                  const latest = await transcriptClient.getChannelLatest(authorUrl);
+                  videos = latest.results.map((r) => ({ videoId: r.videoId, published: r.published }));
+                  channelLatestCache.set(authorUrl, videos);
+                  await sleep(200);
+                } catch {
+                  return [];
+                }
+              }
+              return videos ?? [];
             }
+          : undefined,
+      });
+      await sleep(200);
+      const plainText = transcriptToPlainText(data);
+      const metadata = data.metadata
+        ? {
+            title: data.metadata.title,
+            author_name: data.metadata.author_name,
+            published_at: data.metadata.published_at,
           }
-          const found = videos?.find((v) => v.videoId === data.video_id);
-          if (found) metadata.published_at = found.published;
-        }
-      }
+        : undefined;
 
       const result = await client.analyzeTranscript(
         plainText,

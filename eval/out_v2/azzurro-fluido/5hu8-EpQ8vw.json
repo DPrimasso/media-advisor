@@ -1,0 +1,440 @@
+{
+  "video_id": "5hu8-EpQ8vw",
+  "themes": [
+    {
+      "theme": "media",
+      "weight": 4
+    },
+    {
+      "theme": "lavoro",
+      "weight": 1
+    },
+    {
+      "theme": "video editing",
+      "weight": 3
+    },
+    {
+      "theme": "player performance",
+      "weight": 4
+    },
+    {
+      "theme": "content style",
+      "weight": 3
+    },
+    {
+      "theme": "comunicazione",
+      "weight": 3
+    },
+    {
+      "theme": "rispetto",
+      "weight": 3
+    },
+    {
+      "theme": "etica",
+      "weight": 3
+    },
+    {
+      "theme": "primo set",
+      "weight": 3
+    },
+    {
+      "theme": "approccio strategico",
+      "weight": 3
+    },
+    {
+      "theme": "notizie di mercato",
+      "weight": 2
+    },
+    {
+      "theme": "comunicazione",
+      "weight": 4
+    },
+    {
+      "theme": "trasporti",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "comunicazione",
+      "weight": 3
+    },
+    {
+      "theme": "strategia",
+      "weight": 2
+    },
+    {
+      "theme": "progetto",
+      "weight": 3
+    },
+    {
+      "theme": "informazioni",
+      "weight": 3
+    },
+    {
+      "theme": "infrastrutture",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "comportamento dei fan",
+      "weight": 3
+    },
+    {
+      "theme": "strategia",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "difficoltà mediatica",
+      "weight": 2
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "pista",
+      "weight": 4
+    },
+    {
+      "theme": "presidente",
+      "weight": 3
+    },
+    {
+      "theme": "direttore",
+      "weight": 2
+    },
+    {
+      "theme": "public perception",
+      "weight": 3
+    },
+    {
+      "theme": "ingenuity",
+      "weight": 3
+    },
+    {
+      "theme": "player performance",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "0e85d68f-4f1d-4cb1-b9e7-987ed8c28579",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s0",
+      "target_entity": "opinionista",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista si scusa per il formato del video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ogni volte sono il periodo di di lavoro assurdo e quindi devo fare i video da cellulare non essendo a casa.",
+          "start_sec": 1,
+          "end_sec": 43.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "video",
+        "opinione"
+      ]
+    },
+    {
+      "claim_id": "dcf7ed41-61e9-4e23-bcbb-cabaf047be64",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s1",
+      "target_entity": "video editing",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Il video è realizzato con un editing serrato e privo di pause.",
+      "evidence_quotes": [
+        {
+          "quote_text": "video serrato, quello dove taglio tutte le pause, nemmeno Nemmeno i respiri lascio dentro",
+          "start_sec": 42.16,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "13fb1c57-f032-4464-81eb-5ab6fcd54c2c",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s2",
+      "target_entity": "presidente",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente ha comunicato una scadenza importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il presidente era chiamato a un'altra comunicazione importante.",
+          "start_sec": 73.84,
+          "end_sec": 118.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "presidenza",
+        "comunicazione"
+      ]
+    },
+    {
+      "claim_id": "0ecc05bc-20de-4ea7-a009-d76dba4528ba",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s2",
+      "target_entity": "presidente",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Si è deciso di non commentare la notizia fino alla scadenza del presidente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi siamo stati zitti perché era giusto, era corretto stare in silenzio nel momento in cui lui ci dà una scadenza.",
+          "start_sec": 73.84,
+          "end_sec": 118.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "silenzio",
+        "rispetto"
+      ]
+    },
+    {
+      "claim_id": "c86aa13e-938b-414d-8d3f-3a82730b2a3e",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s3",
+      "target_entity": "Hojlund",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Hojlund ha fornito una data per la prima volta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ci ha dato per la prima volta ci ha dato una data perché di solito ci sono arrivate notizie rimbalzanti da tutte le testate.",
+          "start_sec": 116.32,
+          "end_sec": 147.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Hojlund",
+        "mercato",
+        "notizie"
+      ]
+    },
+    {
+      "claim_id": "3ba6edc3-5be8-4696-910b-19fad1a540c3",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s3",
+      "target_entity": "testate",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Notizie rimbalzano frequentemente tra le testate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di solito ci sono arrivate notizie rimbalzanti da tutte le testate.",
+          "start_sec": 116.32,
+          "end_sec": 147.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "notizie",
+        "rianalisi"
+      ]
+    },
+    {
+      "claim_id": "5ce1c41f-1e99-4e57-8a0d-1aa018701664",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s0",
+      "target_entity": "non specificato",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il video è stato registrato in un contesto diverso dal solito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vi porto in campagna, vi vi do una uno scenario diverso.",
+          "start_sec": 1,
+          "end_sec": 43.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ambientazione",
+        "cambio",
+        "contesto"
+      ]
+    },
+    {
+      "claim_id": "3e239520-98a9-428f-b14d-7d998e6b71d2",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s1",
+      "target_entity": "video",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il video include un formato crudo e realistico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un più raw, è più crudo, vero nella realtà dei fatti",
+          "start_sec": 42.16,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "e7f1d23f-81ca-4012-b434-8cb25d947104",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s1",
+      "target_entity": "Moretto",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Moretto è considerato lento nel suo approccio al gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "probabilmente che si lamenta che Moretto è moscio",
+          "start_sec": 42.16,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "5c4d2fcf-36bc-4851-b211-8dc1d3bd6a3a",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s2",
+      "target_entity": "notizia",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Non è corretto smentire le affermazioni del presidente prima della scadenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non è corretto dire non è vero, non lo fa.",
+          "start_sec": 73.84,
+          "end_sec": 118.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "etica",
+        "comunicazione"
+      ]
+    },
+    {
+      "claim_id": "ce2acea3-cb9e-4548-b7c6-56fc49a4c704",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s1",
+      "target_entity": "video editing",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il tipo di editing scelto rende i contenuti più gradevoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "così ci piace pure di più",
+          "start_sec": 42.16,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "2d43637c-520d-4b20-b83b-b0c6b24fe634",
+      "video_id": "5hu8-EpQ8vw",
+      "segment_id": "s3",
+      "target_entity": "acqua",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "È stata trovata acqua durante la valutazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è trovata l'acqua",
+          "start_sec": 116.32,
+          "end_sec": 147.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "risorse",
+        "ambiente"
+      ]
+    }
+  ],
+  "summary_short": "PRIMO SETTEMBRE: Hojlund si, Prima Pietra no 😂 — 2025-09-01"
+}

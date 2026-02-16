@@ -6,6 +6,7 @@ import {
   getInconsistencyPrompt,
   BIAS_SYSTEM,
   getBiasPrompt,
+  type ClaimsWithStats,
 } from "./channel-prompts.js";
 
 const THEMES_SCHEMA = {
@@ -42,8 +43,13 @@ const BIAS_SCHEMA = {
         properties: {
           subject: { type: "string" },
           description: { type: "string" },
+          supporting_claims: {
+            type: "array",
+            items: { type: "string" },
+            description: "2-3 claim esemplari che supportano il pattern (copia il testo)",
+          },
         },
-        required: ["subject", "description"],
+        required: ["subject", "description", "supporting_claims"],
         additionalProperties: false,
       },
     },
@@ -65,7 +71,7 @@ export interface ChannelInconsistency {
 
 export interface ChannelBias {
   summary: string;
-  patterns: { subject: string; description: string }[];
+  patterns: { subject: string; description: string; supporting_claims: string[] }[];
 }
 
 export function createChannelOpenAIClient(apiKey: string) {
@@ -97,13 +103,20 @@ export function createChannelOpenAIClient(apiKey: string) {
 
     async checkInconsistency(
       topic: string,
-      claims: { video_id: string; position: string }[]
+      subject: string | undefined,
+      claims: {
+        video_id: string;
+        position: string;
+        subject?: string;
+        published_at?: string;
+        summary?: string;
+      }[]
     ): Promise<{ has_contradiction: boolean; description?: string }> {
       const completion = await openai.chat.completions.create({
         model: "gpt-4o-mini",
         messages: [
           { role: "system", content: INCONSISTENCY_SYSTEM },
-          { role: "user", content: getInconsistencyPrompt(topic, claims) },
+          { role: "user", content: getInconsistencyPrompt(topic, subject, claims) },
         ],
         response_format: {
           type: "json_schema",
@@ -119,9 +132,7 @@ export function createChannelOpenAIClient(apiKey: string) {
       return JSON.parse(content);
     },
 
-    async analyzeBias(
-      claimsBySubject: Record<string, { position: string; polarity?: string }[]>
-    ): Promise<ChannelBias> {
+    async analyzeBias(claimsBySubject: Record<string, ClaimsWithStats>): Promise<ChannelBias> {
       const completion = await openai.chat.completions.create({
         model: "gpt-4o-mini",
         messages: [

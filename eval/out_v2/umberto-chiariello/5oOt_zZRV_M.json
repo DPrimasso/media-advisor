@@ -1,0 +1,432 @@
+{
+  "video_id": "5oOt_zZRV_M",
+  "themes": [
+    {
+      "theme": "confusione",
+      "weight": 3
+    },
+    {
+      "theme": "turnover",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "critica",
+      "weight": 3
+    },
+    {
+      "theme": "rispetto",
+      "weight": 3
+    },
+    {
+      "theme": "storia",
+      "weight": 3
+    },
+    {
+      "theme": "tattica",
+      "weight": 3
+    },
+    {
+      "theme": "allenatore",
+      "weight": 2
+    },
+    {
+      "theme": "gestione della squadra",
+      "weight": 1
+    },
+    {
+      "theme": "leadership issues",
+      "weight": 3
+    },
+    {
+      "theme": "tensions",
+      "weight": 3
+    },
+    {
+      "theme": "performance needs",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 2
+    },
+    {
+      "theme": "team dynamics",
+      "weight": 2
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "management",
+      "weight": 3
+    },
+    {
+      "theme": "Leadership di De Laurentiis",
+      "weight": 3
+    },
+    {
+      "theme": "Obiettivi di classifica",
+      "weight": 3
+    },
+    {
+      "theme": "Comunicazione strategica",
+      "weight": 3
+    },
+    {
+      "theme": "Champions League",
+      "weight": 3
+    },
+    {
+      "theme": "bilancio",
+      "weight": 3
+    },
+    {
+      "theme": "società",
+      "weight": 3
+    },
+    {
+      "theme": "ricostruzione",
+      "weight": 3
+    },
+    {
+      "theme": "distrazione",
+      "weight": 2
+    },
+    {
+      "theme": "competizione",
+      "weight": 3
+    },
+    {
+      "theme": "turnover",
+      "weight": 3
+    },
+    {
+      "theme": "tattica",
+      "weight": 3
+    },
+    {
+      "theme": "valutazioni",
+      "weight": 2
+    },
+    {
+      "theme": "team selection",
+      "weight": 3
+    },
+    {
+      "theme": "coach strategy",
+      "weight": 3
+    },
+    {
+      "theme": "player involvement",
+      "weight": 2
+    },
+    {
+      "theme": "Simeone",
+      "weight": 3
+    },
+    {
+      "theme": "Atalanta vittoria",
+      "weight": 3
+    },
+    {
+      "theme": "strategia Conte",
+      "weight": 3
+    },
+    {
+      "theme": "Napoli classifica",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f3010167-cbe7-4511-89fd-2fc7bbf43f48",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha fatto un turnover scellerato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte ha voluto mandare un messaggio alla società facendo quel turnover scellerato",
+          "start_sec": 0.52,
+          "end_sec": 53.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "turnover",
+        "tactics"
+      ]
+    },
+    {
+      "claim_id": "f2e5310f-17c2-4122-939e-23b3b618b756",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s0",
+      "target_entity": "società",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il turnover di Conte potrebbe essere un messaggio alla società.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha voluto mandare un messaggio alla società facendo quel turnover scellerato",
+          "start_sec": 0.52,
+          "end_sec": 53.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "communication"
+      ]
+    },
+    {
+      "claim_id": "1d965df0-e52b-423a-b02e-f2987ebbb598",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s1",
+      "target_entity": "Caratelli",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Caratelli è un giornalista che ha scritto la storia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un giornalista che ha scritto La storia e che merita da parte di tutti noi un'autentica venerazione.",
+          "start_sec": 50.44,
+          "end_sec": 111,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "6fa5f1cc-0ead-409c-899a-c8cff6b65a22",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s2",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis si è schierato dalla parte dell'allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Laurentis così come nella vicenda Var dopo San Siro con l'Inter si è schierato dalla parte del allenatore",
+          "start_sec": 107.439,
+          "end_sec": 159.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "d8bf7d22-1207-448b-bd0a-44c65737cb4b",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "MIXED",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci saranno decisioni tattiche importanti da parte di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se è un fatto tattico è giusto che l'abbia fatto poiché il Toto litigio tra Conte e",
+          "start_sec": 107.439,
+          "end_sec": 159.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "54c2f003-6c6e-4260-bbe8-9b82c5b277a9",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha perso contro il Napoli in Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di 11 calciatori su 11 contro la Lazio in Coppa Italia",
+          "start_sec": 50.44,
+          "end_sec": 111,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "32aa7476-e62e-4847-8c50-b80fd5d41a7a",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "POSSIBLE",
+      "claim_text": "La rivalità tra Lazio e Napoli potrebbe essere influenzata dalla confusione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta facendo troppa confusione",
+          "start_sec": 0.52,
+          "end_sec": 53.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rivalry",
+        "confusion"
+      ]
+    },
+    {
+      "claim_id": "63270f65-664c-4ed8-9548-d7a681b9337a",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s1",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis ha un'autentica venerazione per Caratelli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Laurentis lo adora letteralmente.",
+          "start_sec": 50.44,
+          "end_sec": 111,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "6b7d6f13-89b2-4623-9e63-af90ad63f2fe",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s1",
+      "target_entity": "Caratelli",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Caratelli ha fatto critiche a De Laurentiis.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non che che Caratelli sia spesso critico con lui",
+          "start_sec": 50.44,
+          "end_sec": 111,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "01fffe65-364f-4b3f-8ca7-c1c87a8b0c02",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s2",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La decisione di De Laurentis è motivata da una convinzione profonda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un fatto di convinzione profonda tatticamente",
+          "start_sec": 107.439,
+          "end_sec": 159.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "c9324fa7-4ae2-49ee-8a01-7747b608c680",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "C'è molta confusione attorno alla Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "continuiamo a fare confusione",
+          "start_sec": 0.52,
+          "end_sec": 53.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "confusion",
+        "performance"
+      ]
+    },
+    {
+      "claim_id": "d561ec20-30f7-4213-be07-a509115c4014",
+      "video_id": "5oOt_zZRV_M",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte sta affrontando un Toto litigio con il club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Toto litigio tra Conte e",
+          "start_sec": 107.439,
+          "end_sec": 159.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "#CHIARIELLO, IL PUNTO CHIARO 7/12: «#LAZIONAPOLI? Si sta facendo troppa confusione» — 2026-02-12"
+}

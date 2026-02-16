@@ -1,0 +1,381 @@
+{
+  "schema_version": "video_analysis.v2",
+  "video_id": "6p1BSXs-m9c",
+  "language": "it",
+  "metadata": {
+    "title": "WOW, ancora in gol De Bruyne (2) Mctominay e Hojlund - Romano: Neymar al Napoli?",
+    "author_name": "Azzurro Fluido",
+    "author_url": "https://www.youtube.com/@AzzurroFluido",
+    "thumbnail_url": "https://i.ytimg.com/vi/6p1BSXs-m9c/hqdefault.jpg"
+  },
+  "summary_short": "Valerio commenta i gol dei giocatori del Napoli con le nazionali (Højlund e McTominay) e i rigori trasformati da De Bruyne, sottolineando come ciò aumenti il potenziale realizzativo della rosa. Apre una riflessione su rigori e percezione pubblica (attaccanti vs centrocampisti), interpreta il linguaggio del corpo di McTominay (niente esultanza) come segnale di pressione e richiama un esempio di Hamsik. Il focus si sposta poi sugli infortuni e sulla tenuta difensiva, con forte preoccupazione per l’assenza di Lobotka e per come la squadra dovrà compensarla (Gilmore e maggiore sacrificio collettivo). Chiude su voci di mercato citando Fabrizio Romano: Neymar fu offerto ma il Napoli ha virato, mentre spinge per il riscatto di Højlund.",
+  "themes": [
+    { "theme": "Gol e numeri dei nazionali del Napoli", "weight": 20 },
+    { "theme": "Analisi tecnica del gol di Højlund (opportunismo)", "weight": 12 },
+    { "theme": "Rigori e valore dei gol (attaccanti vs centrocampisti)", "weight": 14 },
+    { "theme": "De Bruyne come specialista (freddezza, esperienza)", "weight": 12 },
+    { "theme": "McTominay: gol, linguaggio del corpo e pressione", "weight": 12 },
+    { "theme": "Infortuni e tenuta difensiva (focus Lobotka)", "weight": 18 },
+    { "theme": "Compensazioni tattiche senza Lobotka (Gilmore, sacrificio)", "weight": 8 },
+    { "theme": "Rumor mercato: Neymar offerto / scelta di filosofia", "weight": 8 },
+    { "theme": "Riscatto Højlund come priorità", "weight": 6 }
+  ],
+  "claims": [
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Infortuni (contesto generale)",
+      "entity_type": "other",
+      "dimension": "injuries",
+      "claim_type": "OBSERVATION",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 1,
+      "confidence": 0.62,
+      "claim_text": "Durante la sosta nazionali aumentano le preoccupazioni per gli infortuni e si tende a “contare i caduti”.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono giornate in cui... si contano i... i caduti",
+          "start_sec": 8.0,
+          "end_sec": 17.119,
+          "quote_clean": "«Durante queste giornate si “contano i caduti”.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Højlund",
+      "entity_type": "player",
+      "dimension": "player_performance",
+      "claim_type": "OBSERVATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.7,
+      "claim_text": "Il gol di Højlund viene descritto come azione di opportunismo: anticipa la giocata leggendo un retropassaggio e tocca il pallone quel tanto che basta per segnare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa volta è un gol di opportunismo perché approfitta di un retropassaggio... anticipa il portiere in uscita... un gol di ottimismo",
+          "start_sec": 91.2,
+          "end_sec": 116.2,
+          "quote_clean": "«Gol d’opportunismo: legge il retropassaggio e anticipa il portiere.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Attaccanti/Difensori",
+      "entity_type": "other",
+      "dimension": "football_principles",
+      "claim_type": "INTERPRETATION",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 1,
+      "confidence": 0.64,
+      "claim_text": "Valerio propone una regola generale: i difensori devono essere pessimisti (coprire sempre l’errore possibile), gli attaccanti ottimisti (attaccare lo spazio sperando che la palla arrivi).",
+      "evidence_quotes": [
+        {
+          "quote_text": "I difensori devono essere pessimisti... mentre gli attaccanti devono essere ottimisti",
+          "start_sec": 113.32,
+          "end_sec": 127.6,
+          "quote_clean": "«Difensori pessimisti, attaccanti ottimisti.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Højlund / De Bruyne",
+      "entity_type": "player",
+      "dimension": "player_performance",
+      "claim_type": "OBSERVATION",
+      "modality": "POSSIBLE",
+      "stance": "POS",
+      "intensity": 1,
+      "confidence": 0.55,
+      "claim_text": "Viene citato un conteggio (riportato dal contesto community) su gol+assist: Højlund sarebbe arrivato a circa 7, mentre De Bruyne a 11 tra gol e assist.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo arrivati tipo a sette gol e assist... mentre Kevin è arrivato a 11 su 11 tra gol e assist",
+          "start_sec": 150.04,
+          "end_sec": 174.44,
+          "quote_clean": "«Højlund ~7, Kevin ~11 tra gol+assist (tra Nazionale e Napoli).»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Percezione pubblica (rigori)",
+      "entity_type": "other",
+      "dimension": "media_narrative",
+      "claim_type": "JUDGEMENT",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 1,
+      "confidence": 0.66,
+      "claim_text": "Secondo Valerio, spesso si sminuiscono i gol su rigore per gli attaccanti (“togli i rigori e quanti gol fa”), ma questo ragionamento non viene applicato allo stesso modo ai centrocampisti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "\"Sì, vabbò, però segnato sul rigore\"... Levagli rigori quanti gol fa... non si fanno le pulci sul centrocampista perché ha segnato... solo sul rigore",
+          "start_sec": 191.64,
+          "end_sec": 264.08,
+          "quote_clean": "«Sui rigori si fanno le pulci agli attaccanti, non ai centrocampisti.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Kevin De Bruyne",
+      "entity_type": "player",
+      "dimension": "player_performance",
+      "claim_type": "EVALUATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.7,
+      "claim_text": "Valerio descrive De Bruyne come rigorista freddo e affidabile: la sua esperienza si vede e “quattro su quattro” è considerato una notizia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra uno abbastanza freddo... La sua esperienza si fa sentire... quattro su quattro è una notizia",
+          "start_sec": 235.959,
+          "end_sec": 259.479,
+          "quote_clean": "«De Bruyne freddo: 4/4 è una notizia.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "player_performance",
+      "claim_type": "OBSERVATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 1,
+      "confidence": 0.72,
+      "claim_text": "Il gol di McTominay viene descritto tecnicamente come stop di petto e tiro al volo di sinistro; l’autore nota anche che non esulta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mctomini segna stop di petto e tiro al volo di sinistro... però entra e non esulta",
+          "start_sec": 293.039,
+          "end_sec": 305.72,
+          "quote_clean": "«Stop di petto e sinistro al volo; niente esultanza.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "psychology",
+      "claim_type": "INTERPRETATION",
+      "modality": "POSSIBLE",
+      "stance": "NEU",
+      "intensity": 1,
+      "confidence": 0.58,
+      "claim_text": "Valerio interpreta la mancata esultanza come possibile segnale di pressione/sofferenza sportiva e richiama un episodio simile legato ad Hamsik.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi ha dato quella sensazione... come se stesse soffrendo... ricordo... un Hamsik che fece un'esultanza... a scrollarsi di dosso un po' di sfortuna",
+          "start_sec": 315.68,
+          "end_sec": 341.56,
+          "quote_clean": "«Mi dà l’idea che “soffra”: mi ricorda Hamsik che si scrolla la sfortuna.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "team_identity",
+      "claim_type": "INTERPRETATION",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 1,
+      "confidence": 0.62,
+      "claim_text": "Secondo Valerio, il Napoli quest’anno sembra più orientato all’offensiva (più gol fatti) ma concede qualcosa in più (qualche gol subito), e per questo la tenuta difensiva diventa il vero punto di attenzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli ottimo in fase offensiva, più gol fatti e qualche gol in più subiti... mi preoccuperei più per la tenuta difensiva",
+          "start_sec": 531.92,
+          "end_sec": 400.56,
+          "quote_clean": "«Più offensivo: più gol fatti, ma anche più subiti; occhio alla tenuta difensiva.»"
+        }
+      ],
+      "notes": "Nota: l'end_sec sopra è un refuso nel transcript originale (segmenti non sempre ordinati). In pipeline, ricalcola end_sec per singolo segmento e costruisci quote contigue per intervalli validi."
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Stanislav Lobotka",
+      "entity_type": "player",
+      "dimension": "injuries",
+      "claim_type": "RISK_ASSESSMENT",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 3,
+      "confidence": 0.74,
+      "claim_text": "Valerio esprime forte preoccupazione per l’infortunio/assenza di Lobotka: non è solo regista/metronomo, ma garantisce anche una fase difensiva cruciale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vado in freva tantissimo dell'infortunio di Lobotka... Lobotka... fa anche spesso una fase difensiva importantissima",
+          "start_sec": 540.959,
+          "end_sec": 581.88,
+          "quote_clean": "«Lobotka pesa anche in difesa: mi preoccupa molto.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Gilmore / Squadra Napoli",
+      "entity_type": "team",
+      "dimension": "tactical_adjustment",
+      "claim_type": "PRESCRIPTION",
+      "modality": "POSSIBLE",
+      "stance": "NEU",
+      "intensity": 2,
+      "confidence": 0.63,
+      "claim_text": "Senza Lobotka, Valerio ritiene che Gilmore e gli altri dovranno compensare con più sacrificio e aiuto collettivo; chiede implicitamente a McTominay di aiutare il compagno scozzese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarà chiamato Gilmore a farla... ci dovrà essere... un aiuto da parte di tutti quanti... vuoi segnare, però dai una mano al tuo compagno scozzese",
+          "start_sec": 579.12,
+          "end_sec": 607.56,
+          "quote_clean": "«Senza Lobo: Gilmore + aiuto di tutti; McTominay dia una mano allo scozzese.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Sportività (infortuni altrui)",
+      "entity_type": "other",
+      "dimension": "ethics",
+      "claim_type": "JUDGEMENT",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 1,
+      "confidence": 0.66,
+      "claim_text": "Valerio sostiene che non sia corretto esultare per gli infortuni/defezioni degli altri club perché prima o poi capitano a tutti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non va bene esultare per le defezioni degli altri, non va bene",
+          "start_sec": 647.12,
+          "end_sec": 659.839,
+          "quote_clean": "«Non va bene esultare per le defezioni degli altri.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Neymar / Napoli",
+      "entity_type": "player",
+      "dimension": "transfer_rumors",
+      "claim_type": "OBSERVATION",
+      "modality": "POSSIBLE",
+      "stance": "NEU",
+      "intensity": 1,
+      "confidence": 0.56,
+      "claim_text": "Citando Fabrizio Romano, Valerio dice che Neymar sarebbe stato offerto al Napoli (come altri profili), ma il club ha virato anche per problemi fisici e per una scelta di filosofia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabrizio Romano... Neymar... era stato offerto al Napoli... offerto Grillish e tanti altri... Napoli ha virato... anche altri problemi fisici",
+          "start_sec": 699.0,
+          "end_sec": 720.839,
+          "quote_clean": "«Romano: Neymar offerto, ma il Napoli ha virato (anche per problemi fisici).»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Kevin De Bruyne vs Neymar",
+      "entity_type": "player",
+      "dimension": "team_building_philosophy",
+      "claim_type": "EVALUATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.7,
+      "claim_text": "Valerio preferisce De Bruyne a Neymar nel progetto attuale: De Bruyne viene descritto come integro, serio e atleta, mentre Neymar sarebbe stato irresistibile anni fa ma oggi meno adatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Bruine che è integro, è serio... Neymar... 5 anni fa, 6 anni fa probabilmente non più... mi tengo molto stretto Kevin",
+          "start_sec": 735.68,
+          "end_sec": 765.16,
+          "quote_clean": "«Oggi mi tengo stretto Kevin: Neymar era da 5-6 anni fa.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Højlund (riscatto)",
+      "entity_type": "player",
+      "dimension": "transfer_strategy",
+      "claim_type": "RECOMMENDATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.68,
+      "claim_text": "Valerio sostiene che il Napoli debba riscattare Højlund e farlo il prima possibile; ammette che possibili clausole legate ai gol potrebbero cambiare lo scenario, ma l’urgenza resta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si aspettano tutti che il Napoli affondi... Io sono convinto che si debba fare... al più presto possibile... a meno che... se fa 50 gol me lo devi pagare di più",
+          "start_sec": 770.12,
+          "end_sec": 791.279,
+          "quote_clean": "«Riscatto Højlund: sì, e al più presto.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Meret (nazionale)",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "META_INFO_QUALITY",
+      "modality": "UNCERTAIN",
+      "stance": "NEU",
+      "intensity": 1,
+      "confidence": 0.55,
+      "claim_text": "Per la partita imminente, Valerio dice che non è chiaro se Meret giocherà (accenna che 'tanto gioca Donnarumma') e invita a far riposare i giocatori legati al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Meret non si sa se gioca perché tanto gioca Donnarum... Fateli riposare",
+          "start_sec": 800.279,
+          "end_sec": 823.48,
+          "quote_clean": "«Meret: non si sa; per me gioca Donnarumma. Fateli riposare.»"
+        }
+      ]
+    }
+  ],
+  "bias_notes": [
+    "Tono chiaramente pro-Napoli e orientato a proteggere l’ambiente: l’obiettivo dichiarato è che la squadra sia forte 'nel conquibus', più che discutere scuse o narrazioni esterne.",
+    "Valutazione molto positiva di De Bruyne (serio/integro/freddo) e preferenza netta rispetto a profili percepiti come meno sostenibili oggi (Neymar).",
+    "Forte sensibilità sul tema infortuni: non solo preoccupazione per il Napoli, ma anche richiamo etico a non esultare per le defezioni altrui.",
+    "Enfasi su elementi psicologici/gestuali (McTominay non esulta => possibile pressione)."
+  ],
+  "bias_signals": {
+    "pro_napoli": { "count": 5, "avg_intensity": 1.6 },
+    "de_bruyne_positive": { "count": 2, "avg_intensity": 2.0 },
+    "neymar_negative_or_downgrade": { "count": 1, "avg_intensity": 2.0 },
+    "injury_anxiety_focus": { "count": 2, "avg_intensity": 2.0 },
+    "media_narrative_commentary": { "count": 1, "avg_intensity": 1.0 }
+  },
+  "quality_flags": {
+    "transcript_noise_high": true,
+    "entity_normalization_needed": true,
+    "external_clip_detected": false,
+    "timestamps_available": true
+  }
+}

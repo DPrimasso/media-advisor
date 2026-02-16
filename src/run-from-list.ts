@@ -2,15 +2,19 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { YoutubeTranscript } from "youtube-transcript";
 import { createTranscriptClient } from "./transcript-client.js";
 import { saveTranscript, transcriptToPlainText } from "./save-transcript.js";
 import { createOpenAIClient } from "./analyzer/openai-client.js";
+import { analyzeVideoV2 } from "./analyze-v2.js";
 import { runChannelAnalyze } from "./channel-analyze.js";
+import OpenAI from "openai";
 import {
   transcriptPath,
   analysisPath,
   DIRS,
 } from "./paths.js";
+import { enrichWithPublishedAt } from "./video-metadata.js";
 import type { TranscriptResponse } from "./transcript-client.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -25,15 +29,6 @@ function sleep(ms: number): Promise<void> {
 function extractVideoId(urlOrId: string): string | null {
   const match = urlOrId.match(/(?:v=)([a-zA-Z0-9_-]{11})/);
   return match ? match[1] : urlOrId.length === 11 ? urlOrId : null;
-}
-
-/** Estrae la data dal titolo quando in formato DD/MM/YY o simile (es. "PUNTO CHIARO 11/02/26") */
-function parseDateFromTitle(title: string): string | null {
-  const m = title.match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
-  if (!m) return null;
-  const [, d, month, y] = m;
-  const year = y.length === 2 ? `20${y}` : y;
-  return `${year}-${month.padStart(2, "0")}-${d.padStart(2, "0")}T12:00:00+00:00`;
 }
 
 export interface ChannelConfig {
@@ -53,6 +48,8 @@ export interface RunFromListOptions {
   forceTranscript?: boolean;
   forceAnalyze?: boolean;
   skipChannelAnalysis?: boolean;
+  /** Use v2 pipeline (claims with evidence_quotes, timestamp) */
+  useV2?: boolean;
 }
 
 export interface RunFromListResult {
@@ -67,6 +64,7 @@ export async function runFromList(
   const channelsPath = options.channelsConfigPath ?? join(root, CHANNELS_DIR, "channels.json");
   const forceTranscript = options.forceTranscript ?? false;
   const forceAnalyze = options.forceAnalyze ?? false;
+  const useV2 = options.useV2 ?? true;
 
   const rawConfig = await readFile(channelsPath, "utf-8");
   const config = JSON.parse(rawConfig) as ChannelsConfig;
@@ -82,6 +80,7 @@ export async function runFromList(
 
   const transcriptClient = createTranscriptClient(transcriptApiKey);
   const openaiClient = createOpenAIClient(openaiApiKey);
+  const openai = new OpenAI({ apiKey: openaiApiKey });
   const channelLatestCache = new Map<string, { videoId: string; published: string }[]>();
   const results: RunFromListResult["channels"] = [];
 
@@ -105,7 +104,13 @@ export async function runFromList(
     let skipped = 0;
     let failed = 0;
 
+    const total = urls.length;
+    let processed = 0;
     for (const url of urls) {
+      processed++;
+      if (processed % 10 === 0 || processed === total) {
+        console.log(`[${channel.id}] ${processed}/${total} videos...`);
+      }
       const videoId = extractVideoId(url);
       if (!videoId) {
         console.error(`[${url}] Invalid URL or video ID`);
@@ -126,12 +131,40 @@ export async function runFromList(
             include_timestamp: true,
             send_metadata: true,
           });
+          await enrichWithPublishedAt(data, {
+            getChannelLatest: async (authorUrl) => {
+              const cached = channelLatestCache.get(authorUrl);
+              if (cached) return cached;
+              const latest = await transcriptClient.getChannelLatest(authorUrl);
+              const videos = latest.results.map((r) => ({ videoId: r.videoId, published: r.published }));
+              channelLatestCache.set(authorUrl, videos);
+              return videos;
+            },
+          });
           await saveTranscript(data, channelTranscriptsDir);
           transcriptsFetched++;
-        } catch (e) {
-          console.error(`[${videoId}] Transcript fetch failed:`, (e as Error).message);
-          failed++;
-          continue;
+        } catch {
+          try {
+            await sleep(1500); // YouTube throttles; pace fallback requests
+            const ytSegments = await YoutubeTranscript.fetchTranscript(videoId);
+            data = {
+              video_id: videoId,
+              language: ytSegments[0]?.lang ?? "it",
+              transcript: ytSegments.map((s) => ({
+                text: s.text,
+                start: s.offset,
+                duration: s.duration,
+              })),
+            };
+            await enrichWithPublishedAt(data);
+            await saveTranscript(data, channelTranscriptsDir);
+            transcriptsFetched++;
+            console.log(`[${videoId}] ✓ fallback (youtube-transcript)`);
+          } catch (e2) {
+            console.error(`[${videoId}] Transcript fetch failed:`, (e2 as Error).message);
+            failed++;
+            continue;
+          }
         }
         await sleep(RATE_LIMIT_MS);
       }
@@ -143,38 +176,40 @@ export async function runFromList(
       }
 
       try {
-        const plainText = transcriptToPlainText(data);
-        let metadata: { title?: string; author_name?: string; published_at?: string } | undefined;
-
-        if (data.metadata) {
-          metadata = {
-            title: data.metadata.title,
-            author_name: data.metadata.author_name,
-          };
-          if (data.metadata.author_url) {
-            let videos = channelLatestCache.get(data.metadata.author_url);
+        const hadPublished = !!data.metadata?.published_at;
+        await enrichWithPublishedAt(data, {
+          getChannelLatest: async (authorUrl) => {
+            let videos = channelLatestCache.get(authorUrl);
             if (!videos) {
-              try {
-                const latest = await transcriptClient.getChannelLatest(data.metadata.author_url);
-                videos = latest.results.map((r) => ({ videoId: r.videoId, published: r.published }));
-                channelLatestCache.set(data.metadata.author_url, videos);
-                await sleep(200);
-              } catch {
-                // channel/latest failed, skip published_at
-              }
+              const latest = await transcriptClient.getChannelLatest(authorUrl);
+              videos = latest.results.map((r) => ({ videoId: r.videoId, published: r.published }));
+              channelLatestCache.set(authorUrl, videos);
             }
-            const found = videos?.find((v) => v.videoId === videoId);
-            if (found) metadata.published_at = found.published;
-            else if (data.metadata.title) {
-              const fromTitle = parseDateFromTitle(data.metadata.title);
-              if (fromTitle) metadata.published_at = fromTitle;
-            }
-          }
+            return videos ?? [];
+          },
+        });
+        if (existsSync(transcriptFilePath) && !hadPublished && data.metadata?.published_at) {
+          await saveTranscript(data, channelTranscriptsDir);
         }
-
-        const result = await openaiClient.analyzeTranscript(plainText, videoId, metadata);
+        const metadata = data.metadata
+          ? {
+              title: data.metadata.title,
+              author_name: data.metadata.author_name,
+              published_at: data.metadata.published_at,
+            }
+          : undefined;
+        const result = useV2
+          ? await analyzeVideoV2({
+              openai,
+              data,
+              videoId,
+              channelId: channel.id,
+              metadata: { title: metadata?.title, published_at: metadata?.published_at },
+            })
+          : await openaiClient.analyzeTranscript(transcriptToPlainText(data), videoId, metadata);
         await writeFile(analysisFilePath, JSON.stringify(result, null, 2), "utf-8");
         analyzed++;
+        console.log(`[${channel.id}] ✓ ${videoId} (${processed}/${total})`);
       } catch (e) {
         console.error(`[${videoId}] Analysis failed:`, (e as Error).message);
         failed++;

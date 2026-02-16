@@ -1,0 +1,420 @@
+{
+  "video_id": "07GelniLBVQ",
+  "themes": [
+    {
+      "theme": "punteggio",
+      "weight": 3
+    },
+    {
+      "theme": "corsa scudetto",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni allenatore",
+      "weight": 2
+    },
+    {
+      "theme": "error arbitali",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni squadre",
+      "weight": 3
+    },
+    {
+      "theme": "potenziale punti",
+      "weight": 2
+    },
+    {
+      "theme": "scudetto",
+      "weight": 3
+    },
+    {
+      "theme": "Napoli",
+      "weight": 2
+    },
+    {
+      "theme": "record storici",
+      "weight": 3
+    },
+    {
+      "theme": "scudetto",
+      "weight": 4
+    },
+    {
+      "theme": "Fiorentina",
+      "weight": 3
+    },
+    {
+      "theme": "Inter",
+      "weight": 4
+    },
+    {
+      "theme": "Core performance",
+      "weight": 3
+    },
+    {
+      "theme": "Title race",
+      "weight": 3
+    },
+    {
+      "theme": "Current season analysis",
+      "weight": 2
+    },
+    {
+      "theme": "Atalanta success",
+      "weight": 2
+    },
+    {
+      "theme": "Juventus performance",
+      "weight": 3
+    },
+    {
+      "theme": "Inter potential",
+      "weight": 3
+    },
+    {
+      "theme": "title race requirements",
+      "weight": 2
+    },
+    {
+      "theme": "prestazione Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "parole Conte",
+      "weight": 3
+    },
+    {
+      "theme": "assenze",
+      "weight": 2
+    },
+    {
+      "theme": "classifica",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "allenatori",
+      "weight": 2
+    },
+    {
+      "theme": "classifica",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "rivalità",
+      "weight": 2
+    },
+    {
+      "theme": "goal scoring",
+      "weight": 4
+    },
+    {
+      "theme": "team performance",
+      "weight": 3
+    },
+    {
+      "theme": "key players",
+      "weight": 3
+    },
+    {
+      "theme": "goal_difference",
+      "weight": 3
+    },
+    {
+      "theme": "injury_impact",
+      "weight": 2
+    },
+    {
+      "theme": "performance_impact",
+      "weight": 3
+    },
+    {
+      "theme": "corsa scudetto",
+      "weight": 3
+    },
+    {
+      "theme": "rendimento giocatori",
+      "weight": 2
+    },
+    {
+      "theme": "concentrazione",
+      "weight": 3
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "6168e10d-73e5-4d93-a5e5-3434e5ae26e8",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "I 94 punti della Juventus furono in parte dovuti a errori arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "94 punti della Juventus quando ha battuto il Napoli di sarri in maniera ingiustificata per la mole di errori arbitrali che la favorirono.",
+          "start_sec": 54.399,
+          "end_sec": 106.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "ab28ee46-52f9-4dba-9788-7bda13e6ae01",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter di Inzaghi poteva ottenere oltre 100 punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter Poteva farne Oltre 100 così come i 90 punti di Spalletti.",
+          "start_sec": 54.399,
+          "end_sec": 106.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "28168cee-35bd-4ef1-a25b-3a7efda339b6",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non può più nascondersi con 44 punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "44 punti...costringe Conte a non potersi più nascondere",
+          "start_sec": 0.04,
+          "end_sec": 56.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "694bace0-27bf-4893-a1b0-f562c03af189",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve ha fatto un record di 102 punti con Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...per il record che ha fatto conte con la Juve di 102 punti",
+          "start_sec": 104.2,
+          "end_sec": 142.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "f4b678fd-8b60-446e-80dd-42dd186fa0aa",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha chiuso a 48 punti senza vincere lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli di sarri girò a 48 punti e non vinse lo scudetto",
+          "start_sec": 104.2,
+          "end_sec": 142.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "548aaae5-afc9-41c0-b7cc-1ac94afa9ec4",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s0",
+      "target_entity": "team",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha chiuso il girone d'andata con 44 punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chiudere a 44 punti il girone d'andata",
+          "start_sec": 0.04,
+          "end_sec": 56.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "448b788d-4c57-4205-b5b1-b57c8ab2d650",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s1",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha portato il Napoli a 90 punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "così come i 90 punti di Spalletti.",
+          "start_sec": 54.399,
+          "end_sec": 106.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "fe4ba0e6-6cc6-4fb2-93e0-c3a3c9d16e19",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha vinto contro il Napoli in modo ingiusto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ingiustificata e ingiusta ingiustificata per il gioco espresso in campo.",
+          "start_sec": 54.399,
+          "end_sec": 106.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "88ccd08c-ead0-4884-bdfe-2181229dc020",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s2",
+      "target_entity": "scudetto",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "La finale di Europa League è stata sacrificata per il record.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha rinunciato a una finale di Europa League pur di fare questo record",
+          "start_sec": 104.2,
+          "end_sec": 142.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "b11379d0-79d9-4625-a083-0f4c7d5c942f",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter deve affrontare due partite per essere campione d'inverno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "basta un pareggio su due partite a Firenze Man 20 minuti non si giocheranno quindi hanno 70 minuti più recupero per vincere la gara",
+          "start_sec": 140,
+          "end_sec": 172.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "df26e957-d8d7-48f4-9868-ccc9c6b8d30a",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s0",
+      "target_entity": "team",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PROBABLE",
+      "claim_text": "44 punti sono considerati potenziale corsa scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "44 è potenziale corsa scudetto",
+          "start_sec": 0.04,
+          "end_sec": 56.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "011b0c8b-3aba-4088-8bbc-5ce13a67b420",
+      "video_id": "07GelniLBVQ",
+      "segment_id": "s2",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha avuto il Napoli campione d'inverno due volte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ben due volte è stato campione d'inverno con sarri",
+          "start_sec": 104.2,
+          "end_sec": 142.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "#CHIARIELLO, IL PUNTO CHIARO 06/01: «44 punti è POTENZIALE corsa SCUDETTO!» — 2026-02-12"
+}

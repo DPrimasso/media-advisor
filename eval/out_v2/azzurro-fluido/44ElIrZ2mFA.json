@@ -1,0 +1,428 @@
+{
+  "video_id": "44ElIrZ2mFA",
+  "themes": [
+    {
+      "theme": "schieramento",
+      "weight": 3
+    },
+    {
+      "theme": "duelli",
+      "weight": 2
+    },
+    {
+      "theme": "formazione",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche",
+      "weight": 3
+    },
+    {
+      "theme": "performance dei giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "situazione partita",
+      "weight": 2
+    },
+    {
+      "theme": "tattica",
+      "weight": 3
+    },
+    {
+      "theme": "prestazione giocatori",
+      "weight": 4
+    },
+    {
+      "theme": "situazioni di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "attacco",
+      "weight": 3
+    },
+    {
+      "theme": "assist",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori chiave",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "prestazione individuale",
+      "weight": 3
+    },
+    {
+      "theme": "assenza giocatori",
+      "weight": 2
+    },
+    {
+      "theme": "tattiche",
+      "weight": 3
+    },
+    {
+      "theme": "pressing",
+      "weight": 3
+    },
+    {
+      "theme": "superiorità numerica",
+      "weight": 2
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "team spirit",
+      "weight": 2
+    },
+    {
+      "theme": "pressing",
+      "weight": 3
+    },
+    {
+      "theme": "attacco",
+      "weight": 3
+    },
+    {
+      "theme": "marcatura",
+      "weight": 2
+    },
+    {
+      "theme": "problematic_players",
+      "weight": 3
+    },
+    {
+      "theme": "player_performance",
+      "weight": 2
+    },
+    {
+      "theme": "coaching_strategy",
+      "weight": 2
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "arbitro",
+      "weight": 3
+    },
+    {
+      "theme": "strategia di gioco",
+      "weight": 2
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 2
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "standings",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "39afbb0e-d18a-4a49-9a9f-2e668939c5ab",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli utilizza uno schieramento 3-4-2-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "34 2 1 e bastava togliere Politano.",
+          "start_sec": 3.28,
+          "end_sec": 143.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "schemi"
+      ]
+    },
+    {
+      "claim_id": "4bb7be4c-d50b-4b2a-9718-d39f44e932f9",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s0",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Di Lorenzo e Gutiérrez agiscono come quinti in una difesa a cinque.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando hai Di Lorenzo e Gutiérrez sono dei quinti se ragioni sulla difesa cinque.",
+          "start_sec": 3.28,
+          "end_sec": 143.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "difesa"
+      ]
+    },
+    {
+      "claim_id": "61163b7e-f807-4e77-9c90-1765f1492e3c",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s1",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman è molto offensivo e partecipa alla fase difensiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukman attaccante a tutti gli effetti, molto più offensivo anche di Politano",
+          "start_sec": 141,
+          "end_sec": 242.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "257a32d2-63c2-4a2d-8808-e755215e4745",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s2",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Neres ha svolto un lavoro fondamentale seguendo Ederson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco perché possiamo parlare di un calcio situazionale, se vogliamo inventarci un nuovo termine.",
+          "start_sec": 240.28,
+          "end_sec": 378.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "08451813-e10a-4616-a861-d597af34392f",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s2",
+      "target_entity": "Pasalic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Pasalic si smarca dalla marcatura di Rakmani creando confusioni difensive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel momento in cui tu metti un falso nueve, si smarca dalla possibile marcatura di Rakmani",
+          "start_sec": 240.28,
+          "end_sec": 378.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "377cfd1c-ef7f-4dc4-b3f3-a4eb07b22073",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s2",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lobotka rimane più indietro per accoppiarsi con Pasalic in fase difensiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lobotka resta un po' più dietro, finisce per accoppiarsi con Pasaliic",
+          "start_sec": 240.28,
+          "end_sec": 378.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "2c3081ba-6327-4da5-a0e5-d730169dcb3c",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha giocato molto bene nel primo tempo, ma peggio nella seconda metà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cosa che il Napoli nel primo tempo fa molto bene, un po' peggio nel secondo.",
+          "start_sec": 240.28,
+          "end_sec": 378.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "159a0a99-32c5-4232-9066-7508d9908b44",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s0",
+      "target_entity": "Heulund",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Heulund ha avuto difficoltà nei duelli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la partita di Heulund che insomma non ha vinto molti duelli.",
+          "start_sec": 3.28,
+          "end_sec": 143.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "duelli"
+      ]
+    },
+    {
+      "claim_id": "f246b4cd-3121-4f1f-8196-b1606523bc65",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s1",
+      "target_entity": "Lang",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lang anticipa Ien e passa il pallone in avanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vince perché anticipa Ien e ti passa il pallone in avanti",
+          "start_sec": 141,
+          "end_sec": 242.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "a06a7f5d-8f39-46fc-b531-6f651b037653",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s1",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Neres contribuisce al primo gol",
+      "evidence_quotes": [
+        {
+          "quote_text": "porterà anche al primo gol di Neres",
+          "start_sec": 141,
+          "end_sec": 242.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "464d26cf-9b4f-47f3-b3c1-aae133929ba9",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s1",
+      "target_entity": "Buongiorno",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Buongiorno svolge un ruolo importante in difesa e attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Buongiorno che fa un'ottima partita su De Catelare",
+          "start_sec": 141,
+          "end_sec": 242.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "d9509e7e-a0b2-45ba-9abd-526b4916acef",
+      "video_id": "44ElIrZ2mFA",
+      "segment_id": "s0",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Politano è stato escluso dalla formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bastava togliere Politano.",
+          "start_sec": 3.28,
+          "end_sec": 143.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup",
+        "formazione"
+      ]
+    }
+  ],
+  "summary_short": "3-4-2-1 si, ma NON uomo su uomo 👀 #CONTE senza #ANGUISSA attacca di piu! 🔵 — 2025-11-24"
+}

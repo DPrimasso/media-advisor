@@ -1,0 +1,660 @@
+{
+  "channel_id": "azzurro-fluido",
+  "top_themes": [
+    {
+      "theme": "mercato",
+      "pct": 4
+    },
+    {
+      "theme": "leadership",
+      "pct": 3
+    },
+    {
+      "theme": "tactics",
+      "pct": 3
+    },
+    {
+      "theme": "comunicazione",
+      "pct": 3
+    },
+    {
+      "theme": "performance",
+      "pct": 2
+    },
+    {
+      "theme": "tattiche",
+      "pct": 2
+    },
+    {
+      "theme": "tattiche di gioco",
+      "pct": 2
+    },
+    {
+      "theme": "giocatori",
+      "pct": 2
+    },
+    {
+      "theme": "finanza",
+      "pct": 2
+    },
+    {
+      "theme": "prestazioni",
+      "pct": 1
+    },
+    {
+      "theme": "strategia",
+      "pct": 1
+    },
+    {
+      "theme": "tattica",
+      "pct": 1
+    },
+    {
+      "theme": "modulo",
+      "pct": 1
+    },
+    {
+      "theme": "arbitraggio",
+      "pct": 1
+    },
+    {
+      "theme": "infortuni",
+      "pct": 1
+    }
+  ],
+  "stance_by_entity": [
+    {
+      "entity": "Napoli",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 25,
+      "pos_count": 11,
+      "neg_count": 3,
+      "neu_count": 11
+    },
+    {
+      "entity": "Conte",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 9,
+      "pos_count": 1,
+      "neg_count": 1,
+      "neu_count": 7
+    },
+    {
+      "entity": "Mazzarri",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 4,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 3
+    },
+    {
+      "entity": "allenatore",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 3,
+      "pos_count": 2,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Di Lorenzo",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 3,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 3
+    },
+    {
+      "entity": "Lobotka",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.8,
+      "frequency": 3,
+      "pos_count": 1,
+      "neg_count": 1,
+      "neu_count": 1
+    },
+    {
+      "entity": "Nico Paz",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 3,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "video",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 3,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 3
+    },
+    {
+      "entity": "calciatori",
+      "avg_stance": "POS",
+      "intensity_avg": 0.6,
+      "frequency": 2,
+      "pos_count": 2,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Elmas",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 1
+    },
+    {
+      "entity": "Politano",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.7,
+      "frequency": 2,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Lukaku",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.3,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "Neres",
+      "avg_stance": "POS",
+      "intensity_avg": 1,
+      "frequency": 2,
+      "pos_count": 2,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Heulund",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 2,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "maglia",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "opinionista",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.8,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "video editing",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "presidente",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "Lautaro Martinez",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 2,
+      "pos_count": 1,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "Garcia",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "Spalletti",
+      "avg_stance": "MIXED",
+      "intensity_avg": 0.8,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Montuori",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Juan Jesus",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Jesus",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Ravaglia",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "McTominay",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "community",
+      "avg_stance": "POS",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "supercoppa",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "tifosi",
+      "avg_stance": "POS",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Pianeta Napoli",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Milan",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Inter",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "De Laurentis",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Juventus",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Lazio",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Atalanta",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Lucca",
+      "avg_stance": "POS",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Lukman",
+      "avg_stance": "POS",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Pasalic",
+      "avg_stance": "POS",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Lang",
+      "avg_stance": "POS",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Buongiorno",
+      "avg_stance": "POS",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Società Sportiva Calcio Napoli",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "maglietta",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "maglia home Hii",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "opinione",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "scudetto",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Vitalma Pozone",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.3,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Valerio Fluido",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Partita",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Spinazzola",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Benven a Donco Coppola",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Rakmani",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Spider-Man",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Hojlund",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "testate",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "non specificato",
+      "avg_stance": "NEU",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Moretto",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.8,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "notizia",
+      "avg_stance": "POS",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "acqua",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Guido Vares",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "Italia",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "tifosi del Napoli",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.4,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Lopodka",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Lobodka",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    }
+  ],
+  "language_patterns": {
+    "pct_absolutes": 2,
+    "pct_prescriptions": 3,
+    "pct_interpretations": 14,
+    "pct_facts": 26
+  },
+  "signature_claim_clusters": [
+    "mercato",
+    "leadership",
+    "tactics",
+    "comunicazione",
+    "performance",
+    "tattiche",
+    "tattiche di gioco",
+    "giocatori"
+  ],
+  "total_claims": 120
+}

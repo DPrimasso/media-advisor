@@ -1,0 +1,364 @@
+{
+  "video_id": "ZKykTyXcTgs",
+  "themes": [
+    {
+      "theme": "arbitraggio",
+      "weight": 7
+    },
+    {
+      "theme": "arbitro",
+      "weight": 4
+    },
+    {
+      "theme": "calciatori",
+      "weight": 2
+    },
+    {
+      "theme": "scontro",
+      "weight": 5
+    },
+    {
+      "theme": "VAR decisions",
+      "weight": 5
+    },
+    {
+      "theme": "player risk",
+      "weight": 4
+    },
+    {
+      "theme": "referee criteria",
+      "weight": 4
+    },
+    {
+      "theme": "decisioni arbitrali",
+      "weight": 5
+    },
+    {
+      "theme": "influenza della fortuna",
+      "weight": 2
+    },
+    {
+      "theme": "arbitraggio",
+      "weight": 5
+    },
+    {
+      "theme": "interpretazione del contatto",
+      "weight": 5
+    },
+    {
+      "theme": "movimento del difensore",
+      "weight": 4
+    },
+    {
+      "theme": "rigori",
+      "weight": 6
+    },
+    {
+      "theme": "rischio",
+      "weight": 5
+    },
+    {
+      "theme": "interpretazione delle regole",
+      "weight": 4
+    },
+    {
+      "theme": "rigore",
+      "weight": 5
+    },
+    {
+      "theme": "palla aerea",
+      "weight": 4
+    },
+    {
+      "theme": "decisioni arbitrarie",
+      "weight": 6
+    },
+    {
+      "theme": "VAR implementation",
+      "weight": 6
+    },
+    {
+      "theme": "player awareness",
+      "weight": 5
+    },
+    {
+      "theme": "guidelines clarification",
+      "weight": 6
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "a2e6c565-78ed-437d-9723-90f1c72a6d06",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s0",
+      "target_entity": "giocatore",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore ammonito non ha commesso un'azione-fallo intenzionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma non è in nessun modo non fa nessun azione è rigore non è rigore",
+          "start_sec": 1.81,
+          "end_sec": 59.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio"
+      ]
+    },
+    {
+      "claim_id": "3d040951-5af3-44ba-b503-2ca1a12b6c7a",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s0",
+      "target_entity": "giocatore",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il contatto tra i giocatori non giustifica l'assegnazione di un rigore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma non è in nessun modo non fa nessun azione è rigore non è rigore",
+          "start_sec": 1.81,
+          "end_sec": 59.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio"
+      ]
+    },
+    {
+      "claim_id": "6b3323f8-1560-4ac0-b9a9-c3e30aebe318",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro non ha preso in considerazione il pallone durante lo scontro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non guarda il pallone non guarda nessuno dei due il pallone entrambi i calciatori guardano in aria",
+          "start_sec": 61.559,
+          "end_sec": 93.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "7ddaafe1-7012-4228-b2a3-16fce3c80643",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s1",
+      "target_entity": "intervento",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'intervento era al di sotto della soglia abituale secondo i commentatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "riteniamo nella tipologia di scontro che l'intervento in Como Verona sia un intervento sotto la nostra soglia abituale",
+          "start_sec": 61.559,
+          "end_sec": 93.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "cb0ce500-d0ea-4c82-a43f-e2225a220918",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Le decisioni arbitrali sui falli della Roma sono discusse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non tanto perché comunque no io da calciatore ragiono sul fatto che io se sono il difensore del Monza Ok mi assumo il rischio andando.",
+          "start_sec": 90.4,
+          "end_sec": 127.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "89685d2d-4af3-499e-beb6-1aca2410e50b",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s2",
+      "target_entity": "Monza",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il difensore del Monza corrisponde ai rischi nei contrasti con gli avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se sono il difensore del Monza Ok mi assumo il rischio andando.",
+          "start_sec": 90.4,
+          "end_sec": 127.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "42ced96e-0ea2-4aa4-86ba-269446759d87",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s0",
+      "target_entity": "Monza",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro ha fischiato un fallo contro il Monza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fallo Fallo piano piano eh fischiato fallo al Monza.",
+          "start_sec": 1.81,
+          "end_sec": 59.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio"
+      ]
+    },
+    {
+      "claim_id": "cc90fe23-0a63-4821-af61-28a0b6c959ba",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s1",
+      "target_entity": "intervento",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Lo scontro è considerato un intervento fortuito di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "riteniamo che lo scontro sia uno scontro fortuito di gioco",
+          "start_sec": 61.559,
+          "end_sec": 93.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "e62df2cd-b836-4552-a695-0bcd12f9fb07",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR deve intervenire solo su tocchi chiari e punibili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questi tocchi devono essere degli step on Foot Chiari.",
+          "start_sec": 90.4,
+          "end_sec": 127.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "3d5044ee-aa56-47e2-8169-0a6130262f72",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Gli arbitri devono considerare la prudenza nei falli per applicare le regole.",
+      "evidence_quotes": [
+        {
+          "quote_text": "col cartellino giallo questa d'accordo ragazzi su questo.",
+          "start_sec": 90.4,
+          "end_sec": 127.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "d703e5a7-6074-4570-9635-0c4bfafb3eb5",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s0",
+      "target_entity": "giocatore",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore stava correndo e guardava il pallone durante l'azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cioè lui è fermo e lui sta guardando il pallone",
+          "start_sec": 1.81,
+          "end_sec": 59.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio"
+      ]
+    },
+    {
+      "claim_id": "6eb0f696-f2e4-4198-86cc-1fdee89d2cb1",
+      "video_id": "ZKykTyXcTgs",
+      "segment_id": "s1",
+      "target_entity": "calciatori",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Entrambi i calciatori stavano guardando in aria durante lo scontro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "entrambi i calciatori guardano in aria",
+          "start_sec": 61.559,
+          "end_sec": 93.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "Contatto BALDANZI-KYRIAKOPOULOS: l'audio di Monza-Roma | Open VAR | DAZN — 2026-02-12"
+}

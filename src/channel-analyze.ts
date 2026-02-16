@@ -22,13 +22,46 @@ function normalizeTopic(t: string): string {
     .replace(/\s+/g, " ");
 }
 
+const TEMPORAL_PATTERNS =
+  /\b(prossima|prossimo|domani|questa settimana|il prossimo|next match|prossima partita)\b/i;
+
+/** Normalize v2 or baseline analysis to channel-analyze format */
+function normalizeAnalysisForChannel(
+  data: Record<string, unknown> & { video_id: string }
+): AnalysisResult {
+  const summary = (data.summary ?? data.summary_short ?? "") as string;
+  const topicsRaw = data.topics ?? data.themes ?? [];
+  const topics = (Array.isArray(topicsRaw) ? topicsRaw : []).map((t: { name?: string; theme?: string; relevance?: string; weight?: number }) => ({
+    name: (t.name ?? t.theme ?? "") as string,
+    relevance: (t.relevance ?? (t.weight && t.weight >= 20 ? "high" : t.weight && t.weight >= 10 ? "medium" : "low")) as "high" | "medium" | "low",
+  }));
+  const claimsRaw = data.claims ?? [];
+  const claims = (Array.isArray(claimsRaw) ? claimsRaw : []).map((c: Record<string, unknown>) => {
+    const pol = c.polarity ?? (c.stance === "POS" ? "positive" : c.stance === "NEG" ? "negative" : "neutral");
+    return {
+      ...c,
+      topic: (c.topic ?? c.dimension ?? "") as string,
+      subject: (c.subject ?? c.target_entity ?? undefined) as string | undefined,
+      position: (c.position ?? c.claim_text ?? "") as string,
+      polarity: pol as "positive" | "negative" | "neutral",
+    };
+  }) as NonNullable<AnalysisResult["claims"]>;
+  return { video_id: data.video_id, analyzed_at: (data.analyzed_at as string) ?? new Date().toISOString(), metadata: data.metadata as AnalysisResult["metadata"], summary, topics, claims };
+}
+
+function isTemporalSensitive(positions: string[]): boolean {
+  if (positions.length === 0) return false;
+  const matches = positions.filter((p) => TEMPORAL_PATTERNS.test(p));
+  return matches.length > positions.length / 2;
+}
+
 export interface ChannelAnalysis {
   channel_id: string;
   generated_at: string;
   input_hash: string;
   themes: { summary: string; main_topics: string[] };
-  inconsistencies: { topic: string; description: string; videos: string[] }[];
-  bias: { summary: string; patterns: { subject: string; description: string }[] };
+  inconsistencies: { topic: string; subject?: string; description: string; videos: string[] }[];
+  bias: { summary: string; patterns: { subject: string; description: string; supporting_claims?: string[] }[] };
 }
 
 export interface RunChannelAnalyzeOptions {
@@ -76,9 +109,10 @@ export async function runChannelAnalyze(
     for (const f of files) {
       try {
         const raw = await readFile(join(channelAnalysisDir, f), "utf-8");
-        const data = JSON.parse(raw) as AnalysisResult;
-        if (data.video_id && data.summary && data.topics) {
-          analyses.push(data);
+        const data = JSON.parse(raw) as Record<string, unknown> & { video_id: string };
+        if (data.video_id && (data.summary || data.summary_short) && (data.topics || data.themes)) {
+          const normalized = normalizeAnalysisForChannel(data);
+          analyses.push(normalized);
         }
       } catch {
         // skip invalid files
@@ -175,21 +209,34 @@ async function computeThemes(
 async function computeInconsistencies(
   client: ReturnType<typeof createChannelOpenAIClient>,
   analyses: AnalysisResult[]
-): Promise<{ topic: string; description: string; videos: string[] }[]> {
-  const claimMap = new Map<string, { video_id: string; position: string }[]>();
+): Promise<{ topic: string; subject?: string; description: string; videos: string[] }[]> {
+  const claimMap = new Map<
+    string,
+    { video_id: string; position: string; subject?: string }[]
+  >();
 
   for (const a of analyses) {
     const claims = a.claims ?? [];
     for (const c of claims) {
-      const key = normalizeTopic(c.topic);
+      const topicNorm = normalizeTopic(c.topic);
+      const subjectNorm = normalizeTopic(c.subject ?? "");
+      const key = subjectNorm ? `${topicNorm}|${subjectNorm}` : topicNorm;
       if (!claimMap.has(key)) claimMap.set(key, []);
-      claimMap.get(key)!.push({ video_id: a.video_id, position: c.position });
+      claimMap.get(key)!.push({
+        video_id: a.video_id,
+        position: c.position,
+        subject: c.subject,
+      });
     }
   }
 
-  const inconsistencies: { topic: string; description: string; videos: string[] }[] = [];
+  const inconsistencies: { topic: string; subject?: string; description: string; videos: string[] }[] = [];
 
-  for (const [topic, claims] of claimMap) {
+  for (const [key, claims] of claimMap) {
+    const [topicPart, subjectPart] = key.includes("|") ? key.split("|") : [key, ""];
+    const topic = topicPart;
+    const subject = subjectPart || undefined;
+
     const byVideo = new Map<string, string[]>();
     for (const c of claims) {
       if (!byVideo.has(c.video_id)) byVideo.set(c.video_id, []);
@@ -197,11 +244,27 @@ async function computeInconsistencies(
     }
     if (byVideo.size < 2) continue;
 
-    const flatClaims = claims.map((c) => ({ video_id: c.video_id, position: c.position }));
-    const result = await client.checkInconsistency(topic, flatClaims);
+    const positions = claims.map((c) => c.position);
+    if (isTemporalSensitive(positions)) continue;
+
+    const analysisByVideo = new Map(analyses.map((a) => [a.video_id, a]));
+    const enrichedClaims = claims
+      .map((c) => {
+        const a = analysisByVideo.get(c.video_id);
+        return {
+          video_id: c.video_id,
+          position: c.position,
+          subject: c.subject,
+          published_at: a?.metadata?.published_at ?? a?.analyzed_at,
+          summary: a?.summary,
+        };
+      })
+      .sort((a, b) => (a.published_at ?? "").localeCompare(b.published_at ?? ""));
+    const result = await client.checkInconsistency(topic, subject, enrichedClaims);
     if (result.has_contradiction && result.description) {
       inconsistencies.push({
         topic,
+        subject,
         description: result.description,
         videos: [...new Set(claims.map((c) => c.video_id))],
       });
@@ -215,7 +278,7 @@ async function computeInconsistencies(
 async function computeBias(
   client: ReturnType<typeof createChannelOpenAIClient>,
   analyses: AnalysisResult[]
-): Promise<{ summary: string; patterns: { subject: string; description: string }[] }> {
+): Promise<{ summary: string; patterns: { subject: string; description: string; supporting_claims?: string[] }[] }> {
   const claimsBySubject = new Map<string, { position: string; polarity?: string }[]>();
 
   for (const a of analyses) {
@@ -232,6 +295,19 @@ async function computeBias(
     return { summary: "Dati insufficienti per l'analisi dei bias.", patterns: [] };
   }
 
-  const obj = Object.fromEntries(claimsBySubject);
+  const statsMap = new Map<
+    string,
+    { items: { position: string; polarity?: string }[]; stats: { positive: number; negative: number; neutral: number } }
+  >();
+  for (const [subject, items] of claimsBySubject) {
+    const stats = { positive: 0, negative: 0, neutral: 0 };
+    for (const i of items) {
+      if (i.polarity === "positive") stats.positive++;
+      else if (i.polarity === "negative") stats.negative++;
+      else stats.neutral++;
+    }
+    statsMap.set(subject, { items, stats });
+  }
+  const obj = Object.fromEntries(statsMap);
   return client.analyzeBias(obj);
 }

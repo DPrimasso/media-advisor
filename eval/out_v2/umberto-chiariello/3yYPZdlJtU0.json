@@ -1,0 +1,448 @@
+{
+  "video_id": "3yYPZdlJtU0",
+  "themes": [
+    {
+      "theme": "Champions League",
+      "weight": 3
+    },
+    {
+      "theme": "Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "Partite e Scontri",
+      "weight": 3
+    },
+    {
+      "theme": "European football history",
+      "weight": 3
+    },
+    {
+      "theme": "Player legacy",
+      "weight": 3
+    },
+    {
+      "theme": "Team dynamics",
+      "weight": 2
+    },
+    {
+      "theme": "malédiction",
+      "weight": 3
+    },
+    {
+      "theme": "competizioni europee",
+      "weight": 2
+    },
+    {
+      "theme": "rivalità calcistica",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 4
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "giovani giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "problemi di formazione",
+      "weight": 3
+    },
+    {
+      "theme": "scelte tecniche",
+      "weight": 3
+    },
+    {
+      "theme": "valorizzazione giovani",
+      "weight": 3
+    },
+    {
+      "theme": "infortuni",
+      "weight": 3
+    },
+    {
+      "theme": "opportunità in campo",
+      "weight": 3
+    },
+    {
+      "theme": "injury management",
+      "weight": 3
+    },
+    {
+      "theme": "team strategy",
+      "weight": 2
+    },
+    {
+      "theme": "market investment",
+      "weight": 3
+    },
+    {
+      "theme": "infortuni",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 4
+    },
+    {
+      "theme": "prestazioni giocatori",
+      "weight": 2
+    },
+    {
+      "theme": "giocatori giovani",
+      "weight": 2
+    },
+    {
+      "theme": "fallimento acquisiti",
+      "weight": 3
+    },
+    {
+      "theme": "aspettative",
+      "weight": 2
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 2
+    },
+    {
+      "theme": "giovani talenti",
+      "weight": 3
+    },
+    {
+      "theme": "competitività",
+      "weight": 3
+    },
+    {
+      "theme": "finanziario",
+      "weight": 3
+    },
+    {
+      "theme": "giovani",
+      "weight": 3
+    },
+    {
+      "theme": "bilancio",
+      "weight": 3
+    },
+    {
+      "theme": "decisioni strategiche",
+      "weight": 3
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "76904e78-2375-45d1-9946-3bad13cbb9d8",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s1",
+      "target_entity": "Eusebio",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Eusebio è considerato uno dei più grandi calciatori portoghesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giovane Eusebbio, il più grande fuoriclasse portoghes portoghese.",
+          "start_sec": 113.439,
+          "end_sec": 196.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "9314c8ed-2a16-4b9b-b7f2-44855cc08333",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s2",
+      "target_entity": "Benfica",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Benfica non ha vinto titoli europei dopo la maledizione di Bella Gutman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Da quel momento in poi il Benfica non so quante volte è arrivato lì per vincere un titolo europeo, non ha più vinto nulla.",
+          "start_sec": 193,
+          "end_sec": 276.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "storia",
+        "malediizioni",
+        "europa"
+      ]
+    },
+    {
+      "claim_id": "55381eda-3651-467b-9a6e-4498287d6cc5",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Molti tifano contro la Juventus nelle competizioni europee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e molti tiferanno dalle parti nostre a prescindere contro la Juventus",
+          "start_sec": 193,
+          "end_sec": 276.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rivalità",
+        "tifosi",
+        "competizioni europee"
+      ]
+    },
+    {
+      "claim_id": "89c2a7ac-4c8b-4e68-aec7-51d781f6115c",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli avrebbe avuto una rivalità accesa con il Bodo Glimpt.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se il Napoli fosse stato al posto del Bodo Clinton avremmo preso il derby con",
+          "start_sec": 193,
+          "end_sec": 276.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rivalità",
+        "competizioni",
+        "maldizione"
+      ]
+    },
+    {
+      "claim_id": "d384fb20-e46b-49d6-bf92-9f8363f1390a",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s0",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris Saint-Germain ha un vantaggio netto contro il Monaco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una sfida impari, non vedo chance per il Monaco",
+          "start_sec": 1.36,
+          "end_sec": 115.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions",
+        "parigi",
+        "monaco"
+      ]
+    },
+    {
+      "claim_id": "1b96579d-4a79-4f25-8ea7-420065f1a0b9",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s0",
+      "target_entity": "italiane",
+      "entity_type": "other",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono sfide tra le italiane che possono essere equilibrate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono sfide che sembrano già segnate",
+          "start_sec": 1.36,
+          "end_sec": 115.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "equilibrio",
+        "scontri",
+        "italia"
+      ]
+    },
+    {
+      "claim_id": "22ab14b0-7a3f-489f-b0b7-e50cd083817f",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Atalanta potrebbe sorprendere nel match contro il Borussia Dortmund.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta può essere la sorpresa",
+          "start_sec": 113.439,
+          "end_sec": 196.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "b63ab9c8-cd29-4d78-9b01-a8fb85fd4931",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s1",
+      "target_entity": "Benfica",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Il Benfica ha una storica rivalità con il Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Benfica negli anni 60 fu uno squadrone pazzesco",
+          "start_sec": 113.439,
+          "end_sec": 196.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "afc02c3e-2187-48ac-a5bd-d6ef46f3d745",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s0",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid ha un incontro favorevole contro il Bruge.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non mi pare equilibrata",
+          "start_sec": 1.36,
+          "end_sec": 115.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions",
+        "atletico",
+        "bruge"
+      ]
+    },
+    {
+      "claim_id": "69a5ce45-6142-47cb-ac55-20d59ab2a1bf",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s1",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid è storicamente dominante in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Real Madrid la gran padrona",
+          "start_sec": 113.439,
+          "end_sec": 196.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "1b3029c1-1e0c-41a5-8d04-761613629cb1",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s2",
+      "target_entity": "Osimen",
+      "entity_type": "player",
+      "dimension": "fan_behavior",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Osimen suscita l'attenzione e il supporto dei tifosi nelle competizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma ancor di più per Osimen.",
+          "start_sec": 193,
+          "end_sec": 276.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "giocatori",
+        "sostegno"
+      ]
+    },
+    {
+      "claim_id": "7c1a1c99-5131-4551-9b96-ef1746e7877e",
+      "video_id": "3yYPZdlJtU0",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli non è presente nei sorteggi della Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli non c'è",
+          "start_sec": 1.36,
+          "end_sec": 115.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions",
+        "squadre",
+        "rimpianti"
+      ]
+    }
+  ],
+  "summary_short": "#CHIARIELLO PUNTO CHIARO 30/01/26: «Bisogna puntare di più sui giocatori GIOVANI!» — 2026-01-30"
+}

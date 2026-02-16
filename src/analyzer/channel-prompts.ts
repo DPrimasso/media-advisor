@@ -13,28 +13,55 @@ export function getThemesPrompt(
 }
 
 export const INCONSISTENCY_SYSTEM = `Sei un analista di media. Ricevi una serie di claims (posizioni espresse dall'autore) sullo stesso tema, provenienti da video diversi.
-Valuta se ci sono contraddizioni, ribaltamenti o incoerenze tra questi claim.
-Se le posizioni sono coerenti o complementari, indica has_contradiction: false e description: "".
-Se c'è una contraddizione evidente, indica has_contradiction: true e descrivi in breve in description.`;
+
+Distingui tra:
+1. CONTRADDIZIONE LOGICA: stessa entità, affermazioni incompatibili (es. "X è titolare" vs "X non gioca mai")
+2. EVOLUZIONE: opinione cambiata nel tempo dopo nuove partite/eventi → NON contare come incoerenza
+3. ENTI DIVERSI: claim su persone/squadre diverse (controlla subject) → NON incoerenza
+4. CONTESTO DIVERSO: partite/momenti diversi ("prossima partita" in video diversi) → NON incoerenza
+
+Indica has_contradiction: true SOLO per casi di tipo 1. Altrimenti has_contradiction: false e description: "".`;
 
 export function getInconsistencyPrompt(
   topic: string,
-  claims: { video_id: string; position: string }[]
+  subject: string | undefined,
+  claims: {
+    video_id: string;
+    position: string;
+    subject?: string;
+    published_at?: string;
+    summary?: string;
+  }[]
 ): string {
-  const formatted = claims.map((c) => `[Video ${c.video_id}] "${c.position}"`);
-  return `Tema: ${topic}\n\nClaims:\n${formatted.join("\n")}\n\nValuta se ci sono incoerenze.`;
+  const formatted = claims.map((c) => {
+    const parts = [`[Video ${c.video_id}]`, `"${c.position}"`];
+    if (c.subject) parts.push(`(soggetto: ${c.subject})`);
+    if (c.published_at) parts.push(`[${c.published_at}]`);
+    if (c.summary) parts.push(`Contesto video: ${c.summary.slice(0, 150)}${c.summary.length > 150 ? "..." : ""}`);
+    return parts.join(" ");
+  });
+  const subjectLine = subject ? `Soggetto: ${subject}\n\n` : "";
+  return `Tema: ${topic}\n${subjectLine}Claims:\n${formatted.join("\n")}\n\nValuta se c'è una contraddizione logica (stessa entità, affermazioni incompatibili). Ignora evoluzioni temporali, enti diversi o contesti diversi.`;
 }
 
-export const BIAS_SYSTEM = `Sei un analista di media. Ricevi i claims (posizioni espresse) dall'autore di un canale, raggruppati per soggetto/tema.
-Identifica eventuali pattern ricorrenti di sbilanciamento: se l'autore tende sistematicamente a prendere una parte, a essere critico o favorevole verso certi soggetti, a trascurare prospettive alternative.
+export const BIAS_SYSTEM = `Sei un analista di media. Ricevi i claims (posizioni espresse) dall'autore di un canale, raggruppati per soggetto/tema, con statistiche di polarità (positivo/negativo/neutro).
+
+Per ogni pattern identificato:
+1. Indica il soggetto
+2. Descrivi il pattern (es. "critica costante", "bilanciato", "supporto condizionato")
+3. Cita 2-3 claim esemplari che lo supportano (copia il testo esatto)
+4. Usa le statistiche polarità (N pos/neg/neut) se rilevanti
 Rispondi in modo oggettivo, basandoti solo sui dati forniti. In italiano.`;
 
-export function getBiasPrompt(
-  claimsBySubject: Record<string, { position: string; polarity?: string }[]>
-): string {
-  const sections = Object.entries(claimsBySubject).map(
-    ([subject, items]) =>
-      `**${subject}**:\n${items.map((i) => `- "${i.position}"${i.polarity ? ` (${i.polarity})` : ""}`).join("\n")}`
-  );
-  return `Claims raggruppati per soggetto:\n\n${sections.join("\n\n")}\n\nIdentifica eventuali sbilanciamenti o pattern ricorrenti nelle posizioni dell'autore.`;
+export type ClaimsWithStats = {
+  items: { position: string; polarity?: string }[];
+  stats: { positive: number; negative: number; neutral: number };
+};
+
+export function getBiasPrompt(claimsBySubject: Record<string, ClaimsWithStats>): string {
+  const sections = Object.entries(claimsBySubject).map(([subject, { items, stats }]) => {
+    const statsStr = `(${stats.negative} neg, ${stats.positive} pos, ${stats.neutral} neut)`;
+    return `**${subject}** ${statsStr}:\n${items.map((i) => `- "${i.position}"${i.polarity ? ` (${i.polarity})` : ""}`).join("\n")}`;
+  });
+  return `Claims raggruppati per soggetto con statistiche polarità:\n\n${sections.join("\n\n")}\n\nIdentifica eventuali sbilanciamenti o pattern ricorrenti nelle posizioni dell'autore. Per ogni pattern, cita 2-3 claim esemplari (copia il testo) che lo supportano. Usa le statistiche per quantificare quando rilevante.`;
 }

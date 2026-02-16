@@ -1,0 +1,432 @@
+{
+  "video_id": "3MXaeAB-YCo",
+  "themes": [
+    {
+      "theme": "supercoppa",
+      "weight": 3
+    },
+    {
+      "theme": "tifosi",
+      "weight": 2
+    },
+    {
+      "theme": "conferenza",
+      "weight": 2
+    },
+    {
+      "theme": "gestione infortuni",
+      "weight": 3
+    },
+    {
+      "theme": "vittorie consecutive",
+      "weight": 3
+    },
+    {
+      "theme": "preparazione competizioni",
+      "weight": 2
+    },
+    {
+      "theme": "opinionismo",
+      "weight": 2
+    },
+    {
+      "theme": "entusiasmo",
+      "weight": 3
+    },
+    {
+      "theme": "difesa e attacco",
+      "weight": 3
+    },
+    {
+      "theme": "rivalità",
+      "weight": 3
+    },
+    {
+      "theme": "modulo",
+      "weight": 3
+    },
+    {
+      "theme": "recupero",
+      "weight": 3
+    },
+    {
+      "theme": "centrocampo",
+      "weight": 2
+    },
+    {
+      "theme": "infortunio",
+      "weight": 3
+    },
+    {
+      "theme": "modulo",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "recupero",
+      "weight": 3
+    },
+    {
+      "theme": "mentalità vincente",
+      "weight": 3
+    },
+    {
+      "theme": "interazione con la stampa",
+      "weight": 2
+    },
+    {
+      "theme": "tifosi",
+      "weight": 3
+    },
+    {
+      "theme": "vittorie",
+      "weight": 3
+    },
+    {
+      "theme": "successo",
+      "weight": 2
+    },
+    {
+      "theme": "Competitiveness",
+      "weight": 3
+    },
+    {
+      "theme": "Coach Awareness",
+      "weight": 3
+    },
+    {
+      "theme": "Refereeing Impact",
+      "weight": 2
+    },
+    {
+      "theme": "formation",
+      "weight": 3
+    },
+    {
+      "theme": "player availability",
+      "weight": 2
+    },
+    {
+      "theme": "tactical analysis",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "coaching",
+      "weight": 2
+    },
+    {
+      "theme": "lineup",
+      "weight": 3
+    },
+    {
+      "theme": "players",
+      "weight": 3
+    },
+    {
+      "theme": "tactics",
+      "weight": 2
+    },
+    {
+      "theme": "modulo",
+      "weight": 2
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 3
+    },
+    {
+      "theme": "analisi",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "c4939306-ffdd-49d1-80d6-87585f75aee3",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s0",
+      "target_entity": "supercoppa",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La supercoppa sta diventando sempre più importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le supercoppe che diventano semifinali e finali da giocare in Arabbia",
+          "start_sec": 0.199,
+          "end_sec": 93.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "supercoppa",
+        "competizione"
+      ]
+    },
+    {
+      "claim_id": "7cced137-13a9-43c3-9298-5bcf705c80c7",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s0",
+      "target_entity": "tifosi",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi continuano a seguire la squadra nonostante i cambiamenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "continuano imperterriti a seguire la squadra col calcio che cambia",
+          "start_sec": 0.199,
+          "end_sec": 93.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "supporto"
+      ]
+    },
+    {
+      "claim_id": "c1d5b7c6-5ac2-4694-bb9f-aebf349b30a4",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s1",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Di Lorenzo è sottoposto a pressioni e infortuni nella gestione della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avete messo le pezze a colori riguardo gli infortuni, le pezze a colori veramente in italiano.",
+          "start_sec": 91.32,
+          "end_sec": 153.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "7128e941-277c-40e9-9669-8c40a31dbc18",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte sta preparando la squadra per affrontare diverse competizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gestire gli impegni. Come si fa a gestire gli impegni? Siamo dei professionisti.",
+          "start_sec": 91.32,
+          "end_sec": 153.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "190d9631-f966-4908-ad96-f71c50b3998e",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s1",
+      "target_entity": "Pianeta Napoli",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "C'è discussione riguardo la possibilità di una partita ai rigori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ne dite di buttarla buttarla ai rigori? Ha proprio detto buttarla ai rigori tanto non ci sono i supplementari.",
+          "start_sec": 91.32,
+          "end_sec": 153.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "f2dcc851-1d6f-4261-8e23-445e79e856ef",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è chiaro riguardo al modulo della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è chiaro sul modulo",
+          "start_sec": 0.199,
+          "end_sec": 93.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "strategia"
+      ]
+    },
+    {
+      "claim_id": "47dd391c-1a12-4f33-ad15-f03f50011135",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è stato un avversario difficile negli ultimi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan è stata una spina nel fianco negli ultimi anni.",
+          "start_sec": 151,
+          "end_sec": 209.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "44d8e4a4-1a3d-478f-b033-b455b570d86b",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "POSSIBLE",
+      "claim_text": "Lukaku può adattarsi a diversi ruoli in base alle necessità dell'allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il ruolo dipende dal mister. Io mi metto a disposizione.",
+          "start_sec": 151,
+          "end_sec": 209.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "b911a6a7-8690-454a-8f7b-eb61755d2984",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha ottenuto cinque vittorie consecutive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo fatto cinque parti vittorie consecutive.",
+          "start_sec": 91.32,
+          "end_sec": 153.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "ff42fd77-c1c7-471b-89ef-f6cf9a383d8a",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ribadisce l'importanza di lavorare con entusiasmo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dobbiamo continuare a lavorare con entusiasmo.",
+          "start_sec": 151,
+          "end_sec": 209.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "1f048ffa-4884-487f-ad1b-08ae27abe973",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s2",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Di Lorenzo sottolinea l'importanza di una buona difesa per migliorare l'attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna difendere bene per poi attaccare meglio.",
+          "start_sec": 151,
+          "end_sec": 209.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "24a7529a-e2f8-4bdb-9b03-ec025d6bd27e",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 0.2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è menzionato nel contesto della conferenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "su Lukaku",
+          "start_sec": 0.199,
+          "end_sec": 93.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "conferenza"
+      ]
+    }
+  ],
+  "summary_short": "#CONFERENZA #SUPERCOPPA IN ARAB 👀 #Conte è chiaro sul modulo e su #Lukaku 🔵 — 2025-12-17"
+}

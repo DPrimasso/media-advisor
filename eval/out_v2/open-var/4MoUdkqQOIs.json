@@ -1,0 +1,444 @@
+{
+  "video_id": "4MoUdkqQOIs",
+  "themes": [
+    {
+      "theme": "arbitraggio",
+      "weight": 3
+    },
+    {
+      "theme": "reclutamento",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "VAR decisions",
+      "weight": 3
+    },
+    {
+      "theme": "refereeing performance",
+      "weight": 3
+    },
+    {
+      "theme": "player actions",
+      "weight": 2
+    },
+    {
+      "theme": "referee pressure",
+      "weight": 3
+    },
+    {
+      "theme": "VAR evaluation",
+      "weight": 3
+    },
+    {
+      "theme": "player actions",
+      "weight": 2
+    },
+    {
+      "theme": "communication",
+      "weight": 3
+    },
+    {
+      "theme": "arbitri",
+      "weight": 3
+    },
+    {
+      "theme": "decisioni arbitrali",
+      "weight": 2
+    },
+    {
+      "theme": "visibilità del lavoro arbitrale",
+      "weight": 2
+    },
+    {
+      "theme": "gestione pressione",
+      "weight": 3
+    },
+    {
+      "theme": "comunicazione Var",
+      "weight": 3
+    },
+    {
+      "theme": "capacità decisionale arbitro",
+      "weight": 3
+    },
+    {
+      "theme": "VAR Decision",
+      "weight": 3
+    },
+    {
+      "theme": "Refereeing Process",
+      "weight": 3
+    },
+    {
+      "theme": "Offside Rule",
+      "weight": 3
+    },
+    {
+      "theme": "VAR technology",
+      "weight": 3
+    },
+    {
+      "theme": "refereeing consistency",
+      "weight": 3
+    },
+    {
+      "theme": "camera positioning",
+      "weight": 2
+    },
+    {
+      "theme": "telecamera",
+      "weight": 3
+    },
+    {
+      "theme": "VAR",
+      "weight": 3
+    },
+    {
+      "theme": "arbitri",
+      "weight": 3
+    },
+    {
+      "theme": "var_decision",
+      "weight": 3
+    },
+    {
+      "theme": "arbitral_observation",
+      "weight": 3
+    },
+    {
+      "theme": "goal_evaluation",
+      "weight": 2
+    },
+    {
+      "theme": "rigore",
+      "weight": 3
+    },
+    {
+      "theme": "analisi VAR",
+      "weight": 2
+    },
+    {
+      "theme": "contatto fisico",
+      "weight": 2
+    },
+    {
+      "theme": "VAR",
+      "weight": 3
+    },
+    {
+      "theme": "decisioni arbitrali",
+      "weight": 3
+    },
+    {
+      "theme": "gestione delle revisioni",
+      "weight": 2
+    },
+    {
+      "theme": "VAR decisions",
+      "weight": 2
+    },
+    {
+      "theme": "refereeing standards",
+      "weight": 3
+    },
+    {
+      "theme": "injury regulations",
+      "weight": 3
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "231691f0-a2b1-42c1-ad44-6710fd8ce35d",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s0",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Questo weekend è stato positivo per il mondo arbitrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo sia stato un weekend tranquillo o sbaglio questo questo appena finito No Siamo siamo molto contento anzi faccio i complimenti ai ragazzi dicevo prima a battuta se fanno tutte le le settimane così vengo sempre perché Chiaramente abbiamo avuto una giornata positiva.",
+          "start_sec": 0.68,
+          "end_sec": 133.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "prestazioni"
+      ]
+    },
+    {
+      "claim_id": "8a0acb6d-bc83-446a-858c-d20c20631e40",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s0",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "C'è bisogno di reclutare nuovi arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stiamo proprio iniziando i nostri corsi arbitri abbiamo bisogno di reclutare nuovi ragazzi",
+          "start_sec": 0.68,
+          "end_sec": 133.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "reclutamento",
+        "arbitri"
+      ]
+    },
+    {
+      "claim_id": "55c8be34-fdde-40d2-86fe-d97d5b816153",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s0",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono prodezze e errori da parte degli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ovviamente in qualche caso anche gli errori c'è anche un tema di di vocazioni no di la passione per te è stata tutta la vita no",
+          "start_sec": 0.68,
+          "end_sec": 133.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errori",
+        "prodezze"
+      ]
+    },
+    {
+      "claim_id": "1e5b9a27-e32f-4091-a228-2bdb7b998507",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro deve prendere decisioni difficili sotto pressione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è sotto pressione lui parte con una un'idea di fare probabilmente fare un'espulsione quindi un Field review all'ar arbitro.",
+          "start_sec": 289.039,
+          "end_sec": 410,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "decision making",
+        "pressure"
+      ]
+    },
+    {
+      "claim_id": "0aa7010b-852e-43dd-bbaf-6686e36a588f",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.3,
+      "modality": "CERTAIN",
+      "claim_text": "I VAR vengono valutati su diversi parametri oltre alla decisione finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la decisione presa è la base della della loro valutazione però abbiamo altri parametri che ci fanno fare una selezione.",
+          "start_sec": 289.039,
+          "end_sec": 410,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR evaluation",
+        "decision criteria"
+      ]
+    },
+    {
+      "claim_id": "a42e81dc-bc32-4b91-a125-779b29611885",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s2",
+      "target_entity": "calciatore",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "L'intenzione e la malizia del calciatore sono considerate nella valutazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "punire più la intenzione E comunque la malizia del calciatore.",
+          "start_sec": 289.039,
+          "end_sec": 410,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "player intent",
+        "malice"
+      ]
+    },
+    {
+      "claim_id": "8b02852a-61e1-4cf9-954b-c66e451ee53f",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "La comunicazione tra VAR e arbitro è cruciale per le decisioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la comunicazione è uno degli aspetti dove stiamo lavorando di più.",
+          "start_sec": 289.039,
+          "end_sec": 410,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR communication",
+        "decision processes"
+      ]
+    },
+    {
+      "claim_id": "00028e6e-d371-43b7-b4dd-301fb7bfcafe",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s0",
+      "target_entity": "Comitato Nazionale",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Comitato Nazionale sta lavorando sodo per supportare gli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il grande impegno che stanno mettendo perché senza arbitri",
+          "start_sec": 0.68,
+          "end_sec": 133.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "sostegno"
+      ]
+    },
+    {
+      "claim_id": "24cb8d66-411d-4d0d-a30f-e6d053459cd5",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s1",
+      "target_entity": "Bremer",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Bremer è stato protagonista di un intervento discusso da parte di Berardi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "intervento di Berardi su Bremer",
+          "start_sec": 131.72,
+          "end_sec": 291.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "92e752a0-3f73-4299-90e2-8dff6c281b19",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s1",
+      "target_entity": "Berardi",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Berardi ha ricevuto un cartellino giallo per il contatto con Bremer.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto giallo a Berardi.",
+          "start_sec": 131.72,
+          "end_sec": 291.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "d696051b-395c-42ff-8630-6286c03709f7",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s1",
+      "target_entity": "Colombo",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro della partita Sassuolo-Juve era Colombo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arbitro era Colombo",
+          "start_sec": 131.72,
+          "end_sec": 291.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "54e9b678-b7c1-41fe-8397-307dab76210b",
+      "video_id": "4MoUdkqQOIs",
+      "segment_id": "s1",
+      "target_entity": "Fabri",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR della partita era Fabri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Var era era Fabri",
+          "start_sec": 131.72,
+          "end_sec": 291.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "OPEN VAR: la SECONDA PUNTATA a Supertele | Serie A TIM | DAZN — 2026-02-12"
+}

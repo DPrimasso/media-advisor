@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import { existsSync } from "node:fs";
 import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
 for (const base of [process.cwd(), resolve(scriptDir, "..")]) {
@@ -32,12 +33,14 @@ async function main() {
   const forceTranscript = args.includes("--force-transcript");
   const forceAnalyze = args.includes("--force-analyze");
   const skipChannelAnalysis = args.includes("--skip-channel-analysis");
+  const useV2 = !args.includes("--no-v2");
   const channelId = args.find((a) => a.startsWith("--channel="))?.split("=")[1];
 
   const result = await runFromList(transcriptKey!, openaiKey!, {
     forceTranscript,
     forceAnalyze,
     skipChannelAnalysis,
+    useV2,
     channelId,
   });
 
@@ -45,6 +48,16 @@ async function main() {
     console.log(`[${ch.id}] Transcripts: ${ch.transcriptsFetched} fetched | Analysis: ${ch.analyzed} done, ${ch.skipped} skipped, ${ch.failed} failed`);
   }
   console.log("Results in transcripts/<channel_id>/ and analysis/<channel_id>/");
+
+  // Copy to web/public/analysis for frontend
+  const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+  const prep = spawnSync("node", ["web/scripts/prepare-public.js"], { cwd: root, stdio: "inherit" });
+  if (prep.status !== 0) {
+    console.error("prepare-public failed");
+    process.exit(1);
+  }
+  console.log("→ web/public/analysis/ updated for frontend");
+  process.exit(0);
 }
 
 main().catch((e) => {

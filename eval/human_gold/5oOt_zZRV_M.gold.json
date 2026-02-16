@@ -1,0 +1,208 @@
+{
+  "schema_version": "video_analysis.v2",
+  "video_id": "_I149_tLcxc",
+  "language": "it",
+  "metadata": {
+    "title": "#CHIARIELLO PUNTO CHIARO 10/02/26: «La grande occasione perduta è quella di fare lo STADIO NUOVO»",
+    "author_name": "Radio CRC",
+    "author_url": "https://www.youtube.com/@radiocrc2023",
+    "thumbnail_url": "https://i.ytimg.com/vi/_I149_tLcxc/hqdefault.jpg"
+  },
+  "summary_short": "Chiariello analizza la questione stadio Napoli confrontandola con i casi Milan e Juventus. Sostiene che uno stadio di proprietà sia indispensabile per la crescita strutturale del club e per ridurre il gap economico con le big europee. Critica la politica locale accusandola di miopia e autoreferenzialità. Difende la posizione di De Laurentiis ritenendo insufficiente la semplice ristrutturazione del Maradona. Sottolinea inoltre che senza il consenso del Napoli il progetto Euro 2032 non sarebbe realizzabile.",
+  "themes": [
+    { "theme": "Nuovo stadio Napoli", "weight": 25 },
+    { "theme": "Confronto con Milan e Juventus", "weight": 15 },
+    { "theme": "Economia e fatturato club", "weight": 20 },
+    { "theme": "Critica politica locale", "weight": 20 },
+    { "theme": "Maradona obsolescenza strutturale", "weight": 10 },
+    { "theme": "Euro 2032", "weight": 10 }
+  ],
+  "claims": [
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Napoli",
+      "entity_type": "club",
+      "dimension": "infrastructure_strategy",
+      "claim_type": "STRATEGIC_ASSERTION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 3,
+      "confidence": 0.92,
+      "claim_text": "Il Napoli ha bisogno di uno stadio di proprietà per crescere strutturalmente e competere con le grandi società europee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una necessità avere lo stadio in proprietà ed è una modernità ineludibile",
+          "start_sec": 900.56,
+          "end_sec": 908.12,
+          "quote_clean": "«È una necessità avere lo stadio in proprietà.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Maradona",
+      "entity_type": "stadium",
+      "dimension": "structural_limitations",
+      "claim_type": "EVALUATION",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 3,
+      "confidence": 0.9,
+      "claim_text": "Lo stadio Maradona è strutturalmente obsoleto e inadatto a generare ricavi moderni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Primo, il Maradona è obsoleto e sta in un'area congestionata",
+          "start_sec": 651.279,
+          "end_sec": 655.16,
+          "quote_clean": "«Il Maradona è obsoleto.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Politica locale",
+      "entity_type": "institution",
+      "dimension": "political_criticism",
+      "claim_type": "CRITICISM",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 3,
+      "confidence": 0.93,
+      "claim_text": "La politica locale è miope e autoreferenziale e non comprende il valore economico del calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Solo la politica miope non capisce quanto il calcio sia volano economico mediatico straordinario",
+          "start_sec": 556.76,
+          "end_sec": 564.079,
+          "quote_clean": "«La politica è miope sul valore del calcio.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "De Laurentiis",
+      "entity_type": "president",
+      "dimension": "leadership_position",
+      "claim_type": "DEFENSE",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.88,
+      "claim_text": "De Laurentiis ha ragione nel ritenere insufficiente la semplice ristrutturazione del Maradona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E secondo me ha ragione De Laurentis",
+          "start_sec": 963.0,
+          "end_sec": 965.92,
+          "quote_clean": "«Ha ragione De Laurentiis.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Napoli",
+      "entity_type": "club",
+      "dimension": "financial_analysis",
+      "claim_type": "FACTUAL_ESTIMATE",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 2,
+      "confidence": 0.8,
+      "claim_text": "Il Napoli ha circa 200 milioni di patrimonio e 174 milioni di liquidità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a 200 milioni di patrimonio più 174 milioni di liquidità",
+          "start_sec": 739.839,
+          "end_sec": 743.56,
+          "quote_clean": "«200 milioni di patrimonio e 174 di liquidità.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Napoli",
+      "entity_type": "club",
+      "dimension": "revenue_gap",
+      "claim_type": "COMPARISON",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 2,
+      "confidence": 0.87,
+      "claim_text": "Il Napoli non può competere stabilmente con club che fatturano oltre 500 milioni senza modernizzarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ti confronti con società che hanno 570 milioni, 550 milioni, 520 milioni di fatturato",
+          "start_sec": 812.44,
+          "end_sec": 818.76,
+          "quote_clean": "«Altri club fatturano oltre 500 milioni.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Euro2032",
+      "entity_type": "competition",
+      "dimension": "institutional_dependency",
+      "claim_type": "ASSERTION",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 3,
+      "confidence": 0.75,
+      "claim_text": "Senza il consenso del Napoli il progetto Euro 2032 non sarebbe realizzabile a Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "senza il consenso del Napoli Euro2032 non si fa",
+          "start_sec": 1112.36,
+          "end_sec": 1119.88,
+          "quote_clean": "«Senza il Napoli Euro2032 non si fa.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Juventus Stadium",
+      "entity_type": "stadium",
+      "dimension": "historical_example",
+      "claim_type": "HISTORICAL_ANALOGY",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.85,
+      "claim_text": "La costruzione dello Juventus Stadium ha contribuito alla rinascita sportiva ed economica del club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nel momento in cui hanno realizzato questo nuovo stadio hanno vinto nove scudetti",
+          "start_sec": 475.639,
+          "end_sec": 478.0,
+          "quote_clean": "«Con il nuovo stadio hanno vinto nove scudetti.»"
+        }
+      ]
+    }
+  ],
+  "bias_notes": [
+    "Orientamento favorevole alla linea di De Laurentiis sullo stadio di proprietà.",
+    "Forte critica alla politica cittadina definita miope e autoreferenziale.",
+    "Visione economico-strutturale del calcio come industria.",
+    "Uso di analogie storiche (Juventus, Milan) per rafforzare la tesi."
+  ],
+  "bias_signals": {
+    "pro_de_laurentiis": { "count": 1, "avg_intensity": 2.0 },
+    "anti_politics_local": { "count": 1, "avg_intensity": 3.0 },
+    "pro_new_stadium": { "count": 2, "avg_intensity": 3.0 },
+    "economic_focus": true
+  },
+  "quality_flags": {
+    "transcript_noise_high": true,
+    "entity_normalization_needed": true,
+    "external_clip_detected": false,
+    "timestamps_available": true
+  }
+}

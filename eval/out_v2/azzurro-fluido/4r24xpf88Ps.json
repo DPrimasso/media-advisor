@@ -1,0 +1,428 @@
+{
+  "video_id": "4r24xpf88Ps",
+  "themes": [
+    {
+      "theme": "maglietta Napoli",
+      "weight": 4
+    },
+    {
+      "theme": "opinione positiva",
+      "weight": 3
+    },
+    {
+      "theme": "introduzione autore",
+      "weight": 2
+    },
+    {
+      "theme": "maglie",
+      "weight": 3
+    },
+    {
+      "theme": "emozione",
+      "weight": 3
+    },
+    {
+      "theme": "ritardo",
+      "weight": 2
+    },
+    {
+      "theme": "maglia",
+      "weight": 3
+    },
+    {
+      "theme": "napoli",
+      "weight": 2
+    },
+    {
+      "theme": "design",
+      "weight": 1
+    },
+    {
+      "theme": "acquisto maglia",
+      "weight": 3
+    },
+    {
+      "theme": "spese di spedizione",
+      "weight": 3
+    },
+    {
+      "theme": "supporto alla squadra",
+      "weight": 2
+    },
+    {
+      "theme": "spedizioni",
+      "weight": 4
+    },
+    {
+      "theme": "acquisti online",
+      "weight": 3
+    },
+    {
+      "theme": "esperienze personali",
+      "weight": 2
+    },
+    {
+      "theme": "delayed deliveries",
+      "weight": 2
+    },
+    {
+      "theme": "scam notifications",
+      "weight": 4
+    },
+    {
+      "theme": "shipping issues",
+      "weight": 3
+    },
+    {
+      "theme": "spedizioni",
+      "weight": 3
+    },
+    {
+      "theme": "politiche governative",
+      "weight": 2
+    },
+    {
+      "theme": "tariffe doganali",
+      "weight": 3
+    },
+    {
+      "theme": "costs",
+      "weight": 4
+    },
+    {
+      "theme": "shipping",
+      "weight": 3
+    },
+    {
+      "theme": "customer_service",
+      "weight": 2
+    },
+    {
+      "theme": "rimborso spese",
+      "weight": 3
+    },
+    {
+      "theme": "dogana",
+      "weight": 1
+    },
+    {
+      "theme": "logistica",
+      "weight": 0
+    },
+    {
+      "theme": "costo magliette",
+      "weight": 3
+    },
+    {
+      "theme": "mercato Napoli",
+      "weight": 2
+    },
+    {
+      "theme": "vendite magliette",
+      "weight": 3
+    },
+    {
+      "theme": "costi merchandise",
+      "weight": 3
+    },
+    {
+      "theme": "tifosi all'estero",
+      "weight": 3
+    },
+    {
+      "theme": "ordine merchandise",
+      "weight": 2
+    },
+    {
+      "theme": "spese doganali",
+      "weight": 4
+    },
+    {
+      "theme": "merchandise del Napoli",
+      "weight": 4
+    },
+    {
+      "theme": "esperienza di acquisto",
+      "weight": 3
+    },
+    {
+      "theme": "numero di maglia",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "804fa14d-462d-4cd5-b2c3-fa3b9cf91e90",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'acquisto della maglia del Napoli costa €75.",
+      "evidence_quotes": [
+        {
+          "quote_text": "faccio l'acquisto impulsivo, vado sul sito del Napoli ufficiale e vedo €75.",
+          "start_sec": 111.079,
+          "end_sec": 146.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "ce51cbd7-293a-469c-91a1-4d93b059e0fa",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La spedizione per gli USA della maglia del Napoli è di €18,90.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La spedizione in America la portano €18,90.",
+          "start_sec": 111.079,
+          "end_sec": 146.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "e8e8f6b9-01d6-4c29-8325-52cdcd6a40bf",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s0",
+      "target_entity": "Società Sportiva Calcio Napoli",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La nuova maglietta del Napoli è arrivata e sembra ben fatta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa è l'ultima maglietta che mi posso comprare della Società Sportiva Calcio Napoli, forse.",
+          "start_sec": 2.96,
+          "end_sec": 46.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "56bb9ff8-4d23-454b-ba60-3f5bcc574c8b",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s0",
+      "target_entity": "maglietta",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La maglietta è considerata molto bella dall'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Prima di tutto è bellissima. Partiamo da questo presupposto, mi piace da morire.",
+          "start_sec": 2.96,
+          "end_sec": 46.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "3cc43404-c6cb-47a9-91c9-3fba7edc2c69",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s1",
+      "target_entity": "maglia home Hii",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il commentatore non ha ricevuto la maglia home Hii in tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io quando è uscita la maglia la home la Hii volevo la Hii, però non ho fatto a tempo",
+          "start_sec": 44.239,
+          "end_sec": 84.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "maglia",
+        "ritardo",
+        "americane"
+      ]
+    },
+    {
+      "claim_id": "64cb8284-d98f-4a22-b958-f38999e0fef1",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s1",
+      "target_entity": "opinione",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il commentatore esprime emozioni contrastanti riguardo all'acquisto della maglia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una giornata emozionante per l'arrivo ma anche pesante per la sorpresa che non mi aspettavo e che ho dovuto risolvere",
+          "start_sec": 44.239,
+          "end_sec": 84.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "emozioni",
+        "acquisto",
+        "sorpresa"
+      ]
+    },
+    {
+      "claim_id": "1357bc17-c903-4385-9b6d-586777b44af4",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s2",
+      "target_entity": "maglia",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La maglia L è slim fit e comoda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'altro questa l'ho presa L ed è slim fit, ma è mi va abbasto, mi sento meno chiatto oggi perché mi va abbastanza comoda.",
+          "start_sec": 81.56,
+          "end_sec": 112.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "d83fe4e6-828f-4981-8bba-435e34645b80",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s2",
+      "target_entity": "maglia",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La maglia bianca away del Napoli è sold out.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Volevo quella bianca away ed è stito sold out e quindi non ho fatto a tempo.",
+          "start_sec": 81.56,
+          "end_sec": 112.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "d481ac2f-737b-401d-b3e7-ec86d19aa18d",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista cerca sempre di alternare le maglie del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io cerco sempre di alternare. Un anno prendo la Home, un anno la la Huawei, cerco sempre di alternare.",
+          "start_sec": 81.56,
+          "end_sec": 112.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "96659091-3290-4280-90e9-809471885bc4",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s2",
+      "target_entity": "scudetto",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il nuovo design della maglia non ha scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Questa qua era molto particolare, non ha lo scudetto che dà fastidio al mio green",
+          "start_sec": 81.56,
+          "end_sec": 112.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "13aebafb-8370-411b-9cdf-5347b91132c2",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s0",
+      "target_entity": "Vitalma Pozone",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.3,
+      "modality": "CERTAIN",
+      "claim_text": "Si fa riferimento a Vitalma Pozone nel contesto della maglietta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Benvenuta o benvenut Vitalma Pozone, non posso avere idea.",
+          "start_sec": 2.96,
+          "end_sec": 46.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "3f2eb6ef-0e2a-4941-b52d-d4c867e32b34",
+      "video_id": "4r24xpf88Ps",
+      "segment_id": "s0",
+      "target_entity": "Valerio Fluido",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista si chiama Valerio Fluido e vive a New York.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io sono Valerio Fluido, abito a New York.",
+          "start_sec": 2.96,
+          "end_sec": 46.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "\"A\" Houston abbiamo un problema 👀 1 MAGLIA, \"2 SORPRESE\" 🔵 — 2025-09-03"
+}

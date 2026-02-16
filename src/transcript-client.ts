@@ -17,6 +17,8 @@ export interface VideoMetadata {
   author_name: string;
   author_url: string;
   thumbnail_url: string;
+  /** Added locally when fetching published date (Transcript API does not return it) */
+  published_at?: string;
 }
 
 export interface TranscriptResponse {

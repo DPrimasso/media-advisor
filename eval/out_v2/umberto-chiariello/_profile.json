@@ -1,0 +1,480 @@
+{
+  "channel_id": "umberto-chiariello",
+  "top_themes": [
+    {
+      "theme": "mercato",
+      "pct": 4
+    },
+    {
+      "theme": "performance",
+      "pct": 4
+    },
+    {
+      "theme": "tactics",
+      "pct": 3
+    },
+    {
+      "theme": "leadership",
+      "pct": 2
+    },
+    {
+      "theme": "giocatori",
+      "pct": 2
+    },
+    {
+      "theme": "Napoli",
+      "pct": 2
+    },
+    {
+      "theme": "stadio",
+      "pct": 2
+    },
+    {
+      "theme": "infortuni",
+      "pct": 2
+    },
+    {
+      "theme": "classifica",
+      "pct": 1
+    },
+    {
+      "theme": "prestazioni",
+      "pct": 1
+    },
+    {
+      "theme": "scudetto",
+      "pct": 1
+    },
+    {
+      "theme": "centro sportivo",
+      "pct": 1
+    },
+    {
+      "theme": "tattica",
+      "pct": 1
+    },
+    {
+      "theme": "prestazione",
+      "pct": 1
+    },
+    {
+      "theme": "allenatori",
+      "pct": 1
+    }
+  ],
+  "stance_by_entity": [
+    {
+      "entity": "Napoli",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 20,
+      "pos_count": 7,
+      "neg_count": 3,
+      "neu_count": 10
+    },
+    {
+      "entity": "Conte",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 13,
+      "pos_count": 7,
+      "neg_count": 3,
+      "neu_count": 2
+    },
+    {
+      "entity": "Spalletti",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 7,
+      "pos_count": 4,
+      "neg_count": 0,
+      "neu_count": 3
+    },
+    {
+      "entity": "Umberto Chiariello",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.9,
+      "frequency": 7,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 7
+    },
+    {
+      "entity": "Juventus",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.7,
+      "frequency": 5,
+      "pos_count": 1,
+      "neg_count": 3,
+      "neu_count": 1
+    },
+    {
+      "entity": "Inter",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.8,
+      "frequency": 5,
+      "pos_count": 1,
+      "neg_count": 1,
+      "neu_count": 3
+    },
+    {
+      "entity": "Mario Rui",
+      "avg_stance": "POS",
+      "intensity_avg": 0.9,
+      "frequency": 5,
+      "pos_count": 4,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "centro sportivo",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 3,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "De Laurentis",
+      "avg_stance": "POS",
+      "intensity_avg": 0.6,
+      "frequency": 3,
+      "pos_count": 3,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "team",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.7,
+      "frequency": 2,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "società",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "Benfica",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.7,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 1
+    },
+    {
+      "entity": "Caratelli",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 2
+    },
+    {
+      "entity": "Lazio",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.6,
+      "frequency": 2,
+      "pos_count": 0,
+      "neg_count": 2,
+      "neu_count": 0
+    },
+    {
+      "entity": "scudetto",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Sarri",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Kiariello",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Coppola",
+      "avg_stance": "POS",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Milan",
+      "avg_stance": "POS",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Maradona",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.8,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "partita",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "campionato",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "terzini sinistri",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Fratelli Pezzullo",
+      "avg_stance": "POS",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Alerod",
+      "avg_stance": "POS",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Roberto Carlos",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Marcelo",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Eusebio",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Paris Saint-Germain",
+      "avg_stance": "POS",
+      "intensity_avg": 0.8,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "italiane",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Atalanta",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Atletico Madrid",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Real Madrid",
+      "avg_stance": "POS",
+      "intensity_avg": 0.8,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Osimen",
+      "avg_stance": "POS",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Zamparini",
+      "avg_stance": "NEU",
+      "intensity_avg": 1,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Pep Guardiola",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Tiago Motta",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Napoli-Juventus",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.4,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Meret",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "Caprile",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "Billing",
+      "avg_stance": "NEG",
+      "intensity_avg": 0.6,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 1,
+      "neu_count": 0
+    },
+    {
+      "entity": "Gilmour",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    },
+    {
+      "entity": "Politano",
+      "avg_stance": "POS",
+      "intensity_avg": 0.7,
+      "frequency": 1,
+      "pos_count": 1,
+      "neg_count": 0,
+      "neu_count": 0
+    },
+    {
+      "entity": "dirigenza",
+      "avg_stance": "NEU",
+      "intensity_avg": 0.5,
+      "frequency": 1,
+      "pos_count": 0,
+      "neg_count": 0,
+      "neu_count": 1
+    }
+  ],
+  "language_patterns": {
+    "pct_absolutes": 3,
+    "pct_prescriptions": 0,
+    "pct_interpretations": 12,
+    "pct_facts": 31
+  },
+  "signature_claim_clusters": [
+    "mercato",
+    "performance",
+    "tactics",
+    "leadership",
+    "giocatori",
+    "Napoli",
+    "stadio",
+    "infortuni"
+  ],
+  "total_claims": 108
+}

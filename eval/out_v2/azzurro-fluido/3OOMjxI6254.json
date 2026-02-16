@@ -1,0 +1,436 @@
+{
+  "video_id": "3OOMjxI6254",
+  "themes": [
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "analisi",
+      "weight": 2
+    },
+    {
+      "theme": "rinnovi",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "finanze",
+      "weight": 3
+    },
+    {
+      "theme": "Napoli vs Inter",
+      "weight": 2
+    },
+    {
+      "theme": "blocco del mercato",
+      "weight": 4
+    },
+    {
+      "theme": "spesa delle squadre",
+      "weight": 3
+    },
+    {
+      "theme": "preoccupazioni dei tifosi",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "finanza",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "infortuni",
+      "weight": 2
+    },
+    {
+      "theme": "giocatori",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "strategia",
+      "weight": 3
+    },
+    {
+      "theme": "finanza",
+      "weight": 3
+    },
+    {
+      "theme": "costo della rosa",
+      "weight": 3
+    },
+    {
+      "theme": "fatturato",
+      "weight": 3
+    },
+    {
+      "theme": "mercato",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "finanza",
+      "weight": 3
+    },
+    {
+      "theme": "giovani",
+      "weight": 2
+    },
+    {
+      "theme": "Mercato",
+      "weight": 3
+    },
+    {
+      "theme": "Finanze",
+      "weight": 3
+    },
+    {
+      "theme": "Cessioni",
+      "weight": 2
+    },
+    {
+      "theme": "investimenti",
+      "weight": 3
+    },
+    {
+      "theme": "futuro del Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "fiscalità",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "finanza",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 2
+    },
+    {
+      "theme": "mercato",
+      "weight": 3
+    },
+    {
+      "theme": "finanza",
+      "weight": 3
+    },
+    {
+      "theme": "prestazioni",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "521b5149-5a78-4ff0-a007-f1a27d032572",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha un bilancio attivo di 11 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ha un bilancio attivo. Paradossalmente siamo in attivo con 11 milioni.",
+          "start_sec": 106.24,
+          "end_sec": 212.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "1979802f-693b-456a-8b94-582336f6b3d8",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha speso 115 milioni nel mercato attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli spende 115 milioni tenendo presente che però per Lucca...",
+          "start_sec": 106.24,
+          "end_sec": 212.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "1a802128-6e6c-4604-85f5-e54d0a49e85c",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è in passivo di 41 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter per esempio spende 90, ricava circa 50 e sono in passivo di 41.",
+          "start_sec": 106.24,
+          "end_sec": 212.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "77075f2f-3d6d-46c3-bf5c-a9ba75dde26a",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s0",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis sta spendendo troppo nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "papà aveva speso troppo, cioè proprio il contrario di quello che si racconta di De Laurentis, cioè che lui è tirato, che non vuole spendere e tutto il contrario.",
+          "start_sec": 2.32,
+          "end_sec": 109.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "b198c02e-f2ab-4f19-a4b8-a296520ec091",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli è costretto a un blocco del mercato a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo è il momento tra una partita e l'altra...non ci sarà probabilmente la conferenza.",
+          "start_sec": 2.32,
+          "end_sec": 109.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "0aaca4e3-c9b0-4efe-878a-206b426c1e15",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli ha un blocco soft sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta parlando del blocco soft e cioè un blocco che ti permette comunque di comprare gente se vendi...",
+          "start_sec": 106.24,
+          "end_sec": 212.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "030c17d2-d640-4387-b1e9-e713e25482a0",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha un blocco del mercato a gennaio e possibile anche a giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non avendo risposte certe e chi parla poi chi scrive di calcio dice cose a volte un po' a casaccio, alcuni hanno cercato di tranquillizzare i tifosi, non è vero, nessun blocco, eh no, il blocco purtroppo c'è, si può",
+          "start_sec": 209.519,
+          "end_sec": 315.08000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Napoli",
+        "blocco"
+      ]
+    },
+    {
+      "claim_id": "10084f49-6673-47e7-94d2-3348b0e37259",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha un passivo significativo rispetto al mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juventus 137 perché poi con Saisao l'hanno dovuto pagare 32 perché poi sì, Openda prestito di di 3 milioni, ma poi il suo valore resta di 50, quindi ne devono spendere 40 per andarlo a a riscattare.",
+          "start_sec": 209.519,
+          "end_sec": 315.08000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Juventus",
+        "passivo"
+      ]
+    },
+    {
+      "claim_id": "64b81207-9321-4f81-8ca5-6121662c48d5",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La Lazio ha avuto problemi con il blocco di mercato ma ha potuto fare riscatti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno avuto il blocco del mercato d'estate, però hanno avuto la possibilità con il blocco di fare i riscatti.",
+          "start_sec": 209.519,
+          "end_sec": 315.08000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Lazio",
+        "riscatti"
+      ]
+    },
+    {
+      "claim_id": "186ea9a1-d3c4-4600-b9a5-dc1b31aa674a",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Si parla di un possibile rinnovo di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta parlando, insomma, di del rinnovo di Conte.",
+          "start_sec": 2.32,
+          "end_sec": 109.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "4a65ae69-a828-4d17-91fd-70ab949c07a7",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha speso più del Napoli nel mercato recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta ha speso di più di noi.",
+          "start_sec": 209.519,
+          "end_sec": 315.08000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Atalanta",
+        "spesa"
+      ]
+    },
+    {
+      "claim_id": "5469d1bc-645d-427f-a2d7-bf11d864d8f1",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s0",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La situazione di Lucca è attualmente incerta nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la situazione di Lucca.",
+          "start_sec": 2.32,
+          "end_sec": 109.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "Spieghiamo il BLOCCO del Mercato (Gennaio e Giugno) 👀 Napoli costretto ad abbassare i costi o..🔵 — 2025-12-24"
+}

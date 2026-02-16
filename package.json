@@ -9,12 +9,18 @@
     "channel-analyze": "tsx src/cli-channel-analyze.ts",
     "add-punto-chiaro": "tsx scripts/add-punto-chiaro.ts",
     "migrate-transcripts": "tsx scripts/migrate-transcripts.ts",
+    "backfill-dates": "tsx scripts/backfill-dates.ts",
+    "eval:baseline": "tsx eval/run-baseline.ts",
+    "eval:v2": "tsx src/pipeline/run-v2.ts",
+    "eval:run": "tsx eval/run-eval.ts",
+    "prepare-public": "node web/scripts/prepare-public.js",
     "dev": "cd web && npm run dev",
     "build": "tsc"
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "openai": "^4.77.0"
+    "openai": "^4.77.0",
+    "youtube-transcript": "^1.2.1"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",

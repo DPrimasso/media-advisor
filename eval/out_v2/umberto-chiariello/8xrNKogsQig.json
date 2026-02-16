@@ -1,0 +1,432 @@
+{
+  "video_id": "8xrNKogsQig",
+  "themes": [
+    {
+      "theme": "allenatori",
+      "weight": 3
+    },
+    {
+      "theme": "Napoli",
+      "weight": 4
+    },
+    {
+      "theme": "fan sentiment",
+      "weight": 2
+    },
+    {
+      "theme": "strategia",
+      "weight": 3
+    },
+    {
+      "theme": "tattica",
+      "weight": 3
+    },
+    {
+      "theme": "performance offensiva",
+      "weight": 3
+    },
+    {
+      "theme": "iberian_tactics",
+      "weight": 3
+    },
+    {
+      "theme": "Juventus success",
+      "weight": 3
+    },
+    {
+      "theme": "leadership decisions",
+      "weight": 2
+    },
+    {
+      "theme": "tactics",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 2
+    },
+    {
+      "theme": "football_analysis",
+      "weight": 2
+    },
+    {
+      "theme": "preparazione fisica",
+      "weight": 3
+    },
+    {
+      "theme": "agonismo",
+      "weight": 3
+    },
+    {
+      "theme": "calcio moderno",
+      "weight": 2
+    },
+    {
+      "theme": "pressing",
+      "weight": 3
+    },
+    {
+      "theme": "Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "coaches",
+      "weight": 2
+    },
+    {
+      "theme": "strategia di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "storia del calcio",
+      "weight": 2
+    },
+    {
+      "theme": "giocatori importanti",
+      "weight": 3
+    },
+    {
+      "theme": "cannoniere",
+      "weight": 3
+    },
+    {
+      "theme": "posizione in campo",
+      "weight": 3
+    },
+    {
+      "theme": "gol segnati",
+      "weight": 4
+    },
+    {
+      "theme": "posizioni dei calciatori",
+      "weight": 3
+    },
+    {
+      "theme": "dribbling",
+      "weight": 1
+    },
+    {
+      "theme": "ruolo in campo",
+      "weight": 4
+    },
+    {
+      "theme": "qualità tecnica",
+      "weight": 3
+    },
+    {
+      "theme": "abilità fisica",
+      "weight": 2
+    },
+    {
+      "theme": "prestazione individuale",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche",
+      "weight": 3
+    },
+    {
+      "theme": "abilità tecnica",
+      "weight": 3
+    },
+    {
+      "theme": "posizionamento",
+      "weight": 3
+    },
+    {
+      "theme": "identità offensiva",
+      "weight": 3
+    },
+    {
+      "theme": "prestazione",
+      "weight": 3
+    },
+    {
+      "theme": "solidità difensiva",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "d3ff4e56-99e5-4ab4-baf1-772a4b656205",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha utilizzato con successo il 4-2-4.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giocava un 4-24 ma veramente giocava con quattro attaccanti e vinse il campionato.",
+          "start_sec": 129.759,
+          "end_sec": 186.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "7ac87815-201b-4096-9ea4-7b163ab800ae",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non è mai stato un difensivista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte non è mai stato un difensivista e un allenatore esclusivamente tattico",
+          "start_sec": 70.24,
+          "end_sec": 132.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "8a33bce5-4235-45dd-8fbe-5ce86a241a3b",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è uno stratega che organizza il gioco della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è uno stratega seguendo la distinzione del Sacchi di Enrico sacchi è uno che lavora sul campo per dare alla squadra un'organizzazione di gioco memorizzata codificata",
+          "start_sec": 70.24,
+          "end_sec": 132.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "18f0a500-ff3c-46fc-8b11-2842802917a6",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha un'esperienza di gioco offensivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io ricordo un conte ero spesso Bari che giocava un calcio estremamente offensivo",
+          "start_sec": 70.24,
+          "end_sec": 132.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "20180794-1be1-4763-8df5-eb8ce9c71da1",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha vinto il campionato sotto la guida di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vinse il campionato quando coronò il suo sogno di tornare alla Juve d'allenatore.",
+          "start_sec": 129.759,
+          "end_sec": 186.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "b9099f18-eba4-4641-a8ad-7bf60181d9e3",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s2",
+      "target_entity": "dirigenza",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha ottenuto supporto significativo dalla dirigenza della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chiese e ottenne dalla dirigenza un sacco di per poter fare anche lì il suo 424.",
+          "start_sec": 129.759,
+          "end_sec": 186.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "aa9b5d70-19aa-4259-bd32-c4784de10f7d",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il sistema di gioco di Conte è stato innovativo e influente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da lì nacque il conte che e poi è stato codificato ai lui come l'uomo del.",
+          "start_sec": 129.759,
+          "end_sec": 186.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "claim_id": "9ea288f4-74f7-4385-a7de-7b50827ee658",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il popolo di Napoli si sente tradito dai grandi allenatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il popolo si sente tradito al primo stormir di foglie.",
+          "start_sec": 0.08,
+          "end_sec": 73.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fan_behavior",
+        "Napoli",
+        "coaching"
+      ]
+    },
+    {
+      "claim_id": "f5dd5a22-ca5e-4c3c-a460-bf9b985cf25d",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è paragonato a diversi allenatori ma non è efficace a Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte come Ancelotti Conte come Allegri Conte come Mourinho.",
+          "start_sec": 0.08,
+          "end_sec": 73.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coaching",
+        "leadership",
+        "comparison"
+      ]
+    },
+    {
+      "claim_id": "4f9690b5-fe96-4408-8b40-6f41b61cc1e9",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non è adatto a una piazza come Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli non è adatta ai grandi nomi.",
+          "start_sec": 0.08,
+          "end_sec": 73.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coaching",
+        "Napoli",
+        "Conte"
+      ]
+    },
+    {
+      "claim_id": "67b3d29f-e400-40c6-a5c0-784134f32107",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 0.3,
+      "modality": "POSSIBLE",
+      "claim_text": "La narrativa su Napoli e i grandi nomi è errata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una narrazione completamente sbagliata.",
+          "start_sec": 0.08,
+          "end_sec": 73.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "narrative",
+        "Napoli",
+        "coaching"
+      ]
+    },
+    {
+      "claim_id": "61cbb86c-779a-4bff-bde2-7634ed5ea814",
+      "video_id": "8xrNKogsQig",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra di Conte è caratterizzata da un'organizzazione di gioco codificata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'organizzazione di gioco memorizzata codificata",
+          "start_sec": 70.24,
+          "end_sec": 132.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "summary_short": "#CHIARIELLO, IL PUNTO CHIARO 10/12: «#CONTE come ALLEGRI o MOURINHO? No, ma gli somiglia» — 2026-02-12"
+}

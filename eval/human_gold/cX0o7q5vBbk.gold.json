@@ -1,0 +1,209 @@
+{
+  "schema_version": "video_analysis.v2",
+  "video_id": "cX0o7q5vBbk",
+  "language": "it",
+  "metadata": {
+    "title": "La colpa di #CONTE non è #MARIANUCCI titolare 👀 Analisi #MILAN #NAPOLI 2-1 🔵",
+    "author_name": "Azzurro Fluido",
+    "author_url": "https://www.youtube.com/@AzzurroFluido",
+    "thumbnail_url": "https://i.ytimg.com/vi/cX0o7q5vBbk/hqdefault.jpg"
+  },
+  "summary_short": "Valerio analizza la sconfitta del Napoli contro il Milan (2-1) concentrandosi sugli accoppiamenti difensivi, sugli errori di distanza tra i reparti e sulla gestione del doppio impegno. Difende Conte da critiche semplicistiche, pur riconoscendo eccessiva prudenza e ritardi nei cambi. Evidenzia errori individuali (Anghissà in primis), sottolinea la qualità tecnica di De Bruyne e critica duramente la classe arbitrale per presunte decisioni incoerenti. Invita a non buttare tutto dopo una sconfitta a San Siro.",
+  "themes": [
+    { "theme": "Analisi tattica Milan-Napoli", "weight": 20 },
+    { "theme": "Accoppiamenti difensivi e marcature", "weight": 15 },
+    { "theme": "Gestione di Conte e scelte di modulo", "weight": 15 },
+    { "theme": "Doppio impegno e gestione rotazioni", "weight": 10 },
+    { "theme": "Critica arbitrale", "weight": 15 },
+    { "theme": "Valutazioni individuali (pagelle)", "weight": 15 },
+    { "theme": "Mentalità e atteggiamento squadra", "weight": 10 }
+  ],
+  "claims": [
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "coaching_evaluation",
+      "claim_type": "DEFENSE",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.85,
+      "claim_text": "La colpa della sconfitta non è banalmente di Conte o della scelta di Marianucci titolare; le critiche sono eccessivamente semplificate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non facciamo paragoni stupidi... non cerchiamo di insegnare a Conte come fare certe scelte",
+          "start_sec": 1747.36,
+          "end_sec": 1761.679,
+          "quote_clean": "«Non banalizziamo le scelte di Conte.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactical_prudence",
+      "claim_type": "CRITICISM",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 2,
+      "confidence": 0.82,
+      "claim_text": "La sconfitta è dovuta anche a troppa prudenza, soprattutto nelle sostituzioni e nella gestione dell’11 contro 10.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ritengo una sconfitta per troppa prudenza",
+          "start_sec": 1806.519,
+          "end_sec": 1811.799,
+          "quote_clean": "«Sconfitta per troppa prudenza.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Anghissà",
+      "entity_type": "player",
+      "dimension": "defensive_error",
+      "claim_type": "CRITICISM",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 3,
+      "confidence": 0.9,
+      "claim_text": "Anghissà è responsabile di errori decisivi nei gol del Milan, sia per distanza errata sia per mancata aggressività.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Anghissà lo deve buttare a terra e non lo posso più accettare",
+          "start_sec": 713.6,
+          "end_sec": 721.0,
+          "quote_clean": "«Anghissà deve intervenire e non lo fa.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Classe arbitrale",
+      "entity_type": "referee",
+      "dimension": "refereeing",
+      "claim_type": "CRITICISM",
+      "modality": "CERTAIN",
+      "stance": "NEG",
+      "intensity": 3,
+      "confidence": 0.92,
+      "claim_text": "La direzione arbitrale è stata gravemente insufficiente e incoerente in episodi chiave.",
+      "evidence_quotes": [
+        {
+          "quote_text": "4 più e un votone per la classe arbitrale che oggi si prende due",
+          "start_sec": 1312.48,
+          "end_sec": 1318.4,
+          "quote_clean": "«Arbitri gravemente insufficienti.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "De Bruyne",
+      "entity_type": "player",
+      "dimension": "technical_quality",
+      "claim_type": "EVALUATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 3,
+      "confidence": 0.88,
+      "claim_text": "De Bruyne possiede una visione di gioco rara e superiore rispetto a molti centrocampisti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "passaggio di De Bruin è qualcosa di quasi commovente",
+          "start_sec": 859.279,
+          "end_sec": 864.519,
+          "quote_clean": "«Passaggio quasi commovente.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "comparison",
+      "claim_type": "COMPARISON",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 2,
+      "confidence": 0.8,
+      "claim_text": "Lobotka garantisce ritmo e fase difensiva, ma non possiede la visione verticale di De Bruyne.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lobotka non vede questo passaggio",
+          "start_sec": 831.199,
+          "end_sec": 834.12,
+          "quote_clean": "«Lobotka non ha quel tipo di passaggio.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "mentality",
+      "claim_type": "EVALUATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.86,
+      "claim_text": "Il Napoli ha mostrato mentalità positiva nel non arrendersi e nel raddoppiare su Leao.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Questa è grande mentalità... voglia di non mollare",
+          "start_sec": 1067.039,
+          "end_sec": 1074.84,
+          "quote_clean": "«Grande mentalità nel non mollare.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Valerio Fluo",
+      "source_kind": "internal",
+      "target_entity": "Modulo 4-3-3",
+      "entity_type": "tactic",
+      "dimension": "tactical_adjustment",
+      "claim_type": "SUGGESTION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.84,
+      "claim_text": "Passare più stabilmente al 4-3-3 potrebbe dare più punti di riferimento e flessibilità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sono convinto anche io... dobbiamo passare al 433",
+          "start_sec": 552.04,
+          "end_sec": 559.68,
+          "quote_clean": "«Il 4-3-3 può dare più riferimenti.»"
+        }
+      ]
+    }
+  ],
+  "bias_notes": [
+    "Difesa strutturale di Conte contro critiche populiste.",
+    "Critica molto dura verso la classe arbitrale, con percezione di sfavorimento sistematico.",
+    "Valutazione molto alta della qualità tecnica di De Bruyne.",
+    "Individuazione di responsabilità individuali (Anghissà) più che sistemiche."
+  ],
+  "bias_signals": {
+    "pro_conte_defense": { "count": 2, "avg_intensity": 2.0 },
+    "anti_referee": { "count": 1, "avg_intensity": 3.0 },
+    "de_bruyne_positive": { "count": 1, "avg_intensity": 3.0 },
+    "anghissa_negative": { "count": 1, "avg_intensity": 3.0 }
+  },
+  "quality_flags": {
+    "transcript_noise_high": true,
+    "entity_normalization_needed": true,
+    "external_clip_detected": false,
+    "timestamps_available": true
+  }
+}

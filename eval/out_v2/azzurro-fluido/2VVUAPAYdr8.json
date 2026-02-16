@@ -1,0 +1,466 @@
+{
+  "video_id": "2VVUAPAYdr8",
+  "themes": [
+    {
+      "theme": "napoli",
+      "weight": 4
+    },
+    {
+      "theme": "tattiche",
+      "weight": 3
+    },
+    {
+      "theme": "comunità",
+      "weight": 2
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "players",
+      "weight": 2
+    },
+    {
+      "theme": "tactics",
+      "weight": 1
+    },
+    {
+      "theme": "Dominanza Napoli",
+      "weight": 3
+    },
+    {
+      "theme": "Errori di porta",
+      "weight": 2
+    },
+    {
+      "theme": "Performance Individuale",
+      "weight": 3
+    },
+    {
+      "theme": "Finalizzazione",
+      "weight": 2
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "criticism",
+      "weight": 3
+    },
+    {
+      "theme": "performance",
+      "weight": 2
+    },
+    {
+      "theme": "tactics",
+      "weight": 2
+    },
+    {
+      "theme": "tattiche",
+      "weight": 3
+    },
+    {
+      "theme": "leadership",
+      "weight": 3
+    },
+    {
+      "theme": "critica agli allenatori",
+      "weight": 2
+    },
+    {
+      "theme": "tattiche di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "contributo dei giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "analisi delle azioni",
+      "weight": 2
+    },
+    {
+      "theme": "VAR",
+      "weight": 3
+    },
+    {
+      "theme": "referee interaction",
+      "weight": 3
+    },
+    {
+      "theme": "player conduct",
+      "weight": 2
+    },
+    {
+      "theme": "gioco di squadra",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche",
+      "weight": 3
+    },
+    {
+      "theme": "analisi dei dati",
+      "weight": 2
+    },
+    {
+      "theme": "prestazione",
+      "weight": 3
+    },
+    {
+      "theme": "tattiche di gioco",
+      "weight": 3
+    },
+    {
+      "theme": "azione offensiva",
+      "weight": 2
+    },
+    {
+      "theme": "voto",
+      "weight": 3
+    },
+    {
+      "theme": "analisi giocatori",
+      "weight": 3
+    },
+    {
+      "theme": "risultato partita",
+      "weight": 3
+    },
+    {
+      "theme": "giocatori valutazione",
+      "weight": 3
+    },
+    {
+      "theme": "prestazione",
+      "weight": 3
+    },
+    {
+      "theme": "critica e analisi",
+      "weight": 2
+    },
+    {
+      "theme": "performance",
+      "weight": 3
+    },
+    {
+      "theme": "infortuni",
+      "weight": 2
+    },
+    {
+      "theme": "analisi tecnica",
+      "weight": 2
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f0d6a0d9-f901-456a-b0f5-7c0606544b69",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La tattica del Napoli prevede pressare subito gli avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fateci caso sempre al calcio d'inizio, se batte la squadra, se batte il Napoli, vedrete sempre uno che va a sbattere contro l'attaccante che vuole andare in pressione su Milinković e Savić.",
+          "start_sec": 2.08,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattiche",
+        "Napoli"
+      ]
+    },
+    {
+      "claim_id": "eb5ade9b-4b6a-474c-8547-320ef9ebf530",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s0",
+      "target_entity": "Juan Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Juan Jesus ha mostrato grande resistenza contro gli avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juan Jesus che va a impattare sulla linea di corsa di Castro e poi per una seconda volta Castro prova ad aggirarlo ma va sul piede di Juan Jesus che è tostissimo.",
+          "start_sec": 2.08,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "resistenza",
+        "Juan Jesus"
+      ]
+    },
+    {
+      "claim_id": "0fc82fee-df3d-41e4-9164-b535b5a71c66",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s1",
+      "target_entity": "Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Jesus ha giocato una grande partita nonostante una sbavatura.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo è uno dei motivi per cui gioca One Jesus, non è solo perché va preservato... grande partita, solo una sbavatura.",
+          "start_sec": 134.239,
+          "end_sec": 260.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Napoli",
+        "players"
+      ]
+    },
+    {
+      "claim_id": "c24ce943-13f3-4563-b88d-9bad2f3640c3",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas ha sbagliato la conclusione in un'occasione chiave.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas taglia un pochino male, eh, cioè taglia bene, però conclude male, ecco.",
+          "start_sec": 134.239,
+          "end_sec": 260.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Napoli",
+        "players"
+      ]
+    },
+    {
+      "claim_id": "8ed4bff3-5d7b-4fcc-bb92-703dac804e75",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s2",
+      "target_entity": "Ravaglia",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il portiere Ravaglia ha commesso errori durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è colpa di Ravaglia, poi il gol, il secondo gol di Neres pure colpo di Ravaglia",
+          "start_sec": 258.44,
+          "end_sec": 400,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "goalkeeping",
+        "mistakes"
+      ]
+    },
+    {
+      "claim_id": "e17b4d77-2f02-4daf-84ad-15f3aa3a1772",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto molte occasioni incredibili nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le occasioni che hai avuto il Napoli sono incredibili.",
+          "start_sec": 2.08,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Napoli",
+        "Supercoppa"
+      ]
+    },
+    {
+      "claim_id": "865465c4-5653-49a8-a6b0-c3856210fec2",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay ha avuto una partita in crescita e ha giocato un ruolo importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto una partita in crescenda, una partita serissima.",
+          "start_sec": 134.239,
+          "end_sec": 260.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Napoli",
+        "players"
+      ]
+    },
+    {
+      "claim_id": "1a34ac1f-9f45-4b19-a0f5-ba3154be420d",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s0",
+      "target_entity": "community",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un forte senso di comunità tra i tifosi del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "invece con la community ci divertiamo.",
+          "start_sec": 2.08,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunità",
+        "tifosi"
+      ]
+    },
+    {
+      "claim_id": "87795fd3-6bef-4833-b0ac-8ef532ce2a1d",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è stato dominante durante l'intera partita contro il Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo stati dominanti per tutta la gara.",
+          "start_sec": 258.44,
+          "end_sec": 400,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dominance",
+        "victory",
+        "Supercoppa"
+      ]
+    },
+    {
+      "claim_id": "4399f31a-a6c8-4dd3-bbc2-648fe1e9e257",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s2",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Politano ha giocato una buona partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Buona partita di Politano, eh, sottolineiamola",
+          "start_sec": 258.44,
+          "end_sec": 400,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "individual talent"
+      ]
+    },
+    {
+      "claim_id": "97894de2-c244-4902-ab0e-09f28935d037",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli deve migliorare nella finalizzazione delle occasioni create.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Qua è clamoroso che non riesce a segnare.",
+          "start_sec": 258.44,
+          "end_sec": 400,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finishing",
+        "opportunities"
+      ]
+    },
+    {
+      "claim_id": "efc470c9-f604-48bb-a434-be63a82c75bd",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha mostrato una prestazione martellante durante il match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli è stato martellante.",
+          "start_sec": 134.239,
+          "end_sec": 260.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "team",
+        "tactics"
+      ]
+    }
+  ],
+  "summary_short": "IL PIU BEL #NAPOLI di #CONTE visto finora! 👀 Analisi VITTORIA Supercoppa 🔵 vs Bologna di Italiano — 2025-12-23"
+}

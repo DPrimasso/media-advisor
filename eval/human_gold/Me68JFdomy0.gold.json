@@ -1,0 +1,240 @@
+{
+  "schema_version": "video_analysis.v2",
+  "video_id": "Me68JFdomy0",
+  "language": "it",
+  "metadata": {
+    "title": "#CHIARIELLO, IL PUNTO CHIARO 02/01: «Julio #VELASCO mi ha ricordato Antonio #CONTE»",
+    "author_name": "Radio CRC",
+    "author_url": "https://www.youtube.com/@radiocrc2023",
+    "thumbnail_url": "https://i.ytimg.com/vi/Me68JFdomy0/hqdefault.jpg"
+  },
+  "summary_short": "Chiariello parte da una riflessione su carisma e autorevolezza citando Julio Velasco e una sua idea chiave: il carisma non è estetica o parole, ma credibilità costruita con la storia e con la competenza nei dettagli. Da qui collega il tema ad Antonio Conte, sostenendo che il suo valore aggiunto sia la capacità di far funzionare il gioco di squadra attraverso principi chiari e richieste coerenti per ogni giocatore. Critica l'idea retorica del 'noi' come semplice affiatamento: per lui essere squadra significa sapere cosa fare e farlo, indipendentemente dalle simpatie personali. Chiude esaltando l'energia di Conte (paragonato a un 'elettricista' che accende la luce) e notando che questo approccio consuma più energie rispetto a profili come Ancelotti.",
+  "themes": [
+    { "theme": "Carisma vs autorevolezza", "weight": 20 },
+    { "theme": "Velasco come riferimento culturale", "weight": 15 },
+    { "theme": "Competenza nei dettagli vs generalismi", "weight": 10 },
+    { "theme": "Gioco di squadra come sistema (non amicizia)", "weight": 20 },
+    { "theme": "Conte: leadership, metodo, risultati", "weight": 25 },
+    { "theme": "Stili diversi di allenatore (Conte vs Ancelotti)", "weight": 10 }
+  ],
+  "claims": [
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "quote_of_third_party",
+      "target_entity": "Carisma",
+      "entity_type": "concept",
+      "dimension": "definition",
+      "claim_type": "ASSERTION",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 2,
+      "confidence": 0.82,
+      "claim_text": "Il carisma non è qualcosa che si sa definire facilmente; si può però dire cosa non è, e si lega all'autorevolezza/credibilità costruita nel tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io non so cos'è il Carisma so cosa non è",
+          "start_sec": 115.04,
+          "end_sec": 120.84,
+          "quote_clean": "«Non so cos'è il carisma, so cosa non è.»"
+        },
+        {
+          "quote_text": "è l'autorevolezza",
+          "start_sec": 122.28,
+          "end_sec": 124.68,
+          "quote_clean": "«È l'autorevolezza.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Autorevolezza",
+      "entity_type": "concept",
+      "dimension": "how_it_is_built",
+      "claim_type": "ASSERTION",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 2,
+      "confidence": 0.86,
+      "claim_text": "L'autorevolezza si conquista costruendo la propria storia e dimostrando la via del successo, non con sole parole.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la si conquista con la propria storia ... mattone su mattone",
+          "start_sec": 155.239,
+          "end_sec": 174.84,
+          "quote_clean": "«L'autorevolezza si conquista con la propria storia, mattone su mattone.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "quote_of_third_party",
+      "target_entity": "Competenza",
+      "entity_type": "concept",
+      "dimension": "detail_vs_general",
+      "claim_type": "ASSERTION",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 2,
+      "confidence": 0.8,
+      "claim_text": "Chi conosce davvero una materia entra nei dettagli; chi la conosce per sentito dire resta sul generale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chi conosce profondamente la materia va nei dettagli ... Chi la conosce per sentito dire va sul generale",
+          "start_sec": 189.48,
+          "end_sec": 202.92,
+          "quote_clean": "«Chi conosce la materia va nei dettagli; chi la conosce per sentito dire resta sul generale.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Gioco di squadra",
+      "entity_type": "concept",
+      "dimension": "meaning",
+      "claim_type": "ASSERTION",
+      "modality": "CERTAIN",
+      "stance": "NEU",
+      "intensity": 3,
+      "confidence": 0.9,
+      "claim_text": "Essere squadra non significa 'amicizia' o retorica del 'noi': significa sapere cosa fare e predisporre i comportamenti corretti (es. coperture) indipendentemente da simpatie personali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una mezza fesseria ... conta che l'allenatore sappia indicare a chi gioca quello che deve fare",
+          "start_sec": 326.6,
+          "end_sec": 349.88,
+          "quote_clean": "«Il 'noi' da slogan è una mezza fesseria: conta sapere cosa fare.»"
+        },
+        {
+          "quote_text": "Questo è essere squadra",
+          "start_sec": 386.24,
+          "end_sec": 397.56,
+          "quote_clean": "«Questo è essere squadra.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Antonio Conte",
+      "entity_type": "coach",
+      "dimension": "leadership_effectiveness",
+      "claim_type": "EVALUATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 3,
+      "confidence": 0.9,
+      "claim_text": "Conte ottiene risultati perché sa toccare le corde giuste nel lavoro quotidiano e possiede un carisma 'a valore aggiunto' che altri non hanno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quest'uomo sa toccare le corde giuste sul lavoro quotidiano ... ha quel Carisma che è un valore aggiunto",
+          "start_sec": 629.76,
+          "end_sec": 646.72,
+          "quote_clean": "«Sa toccare le corde giuste: il suo carisma è un valore aggiunto.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Antonio Conte",
+      "entity_type": "coach",
+      "dimension": "ego_and_role",
+      "claim_type": "EVALUATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.84,
+      "claim_text": "Conte non mette sé stesso come modello (non essendo stato un fuoriclasse) ma si pone come facilitatore: l'allenatore deve essere in funzione del giocatore, non viceversa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devo essere io in funzione sua devo essere io ad aiutarlo a migliorare",
+          "start_sec": 581.399,
+          "end_sec": 593.76,
+          "quote_clean": "«Devo essere io in funzione sua: devo aiutarlo a migliorare.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Allenatori ex fuoriclasse",
+      "entity_type": "coach_archetype",
+      "dimension": "risk_factors",
+      "claim_type": "CRITICISM",
+      "modality": "PROBABLE",
+      "stance": "NEG",
+      "intensity": 2,
+      "confidence": 0.72,
+      "claim_text": "Molti fuoriclasse falliscono in panchina perché troppo ego-riferiti e perché diventano il riferimento, anziché mettere il giocatore al centro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "molti fuoriclasse ... falliscono sulla panchina perché sono Ego riferiti",
+          "start_sec": 563.519,
+          "end_sec": 573.079,
+          "quote_clean": "«Molti fuoriclasse falliscono in panchina perché ego-riferiti.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Conte vs Ancelotti",
+      "entity_type": "comparison",
+      "dimension": "work_style_energy",
+      "claim_type": "HYPOTHESIS",
+      "modality": "POSSIBLE",
+      "stance": "NEU",
+      "intensity": 1,
+      "confidence": 0.68,
+      "claim_text": "Conte consuma più energie di molti altri allenatori; Ancelotti potrebbe essere più longevo perché ha un approccio diverso alla vita e al lavoro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "brucia energie ... probabilmente Ancelotti è più longevo perché ha un altro approccio",
+          "start_sec": 650.76,
+          "end_sec": 667.36,
+          "quote_clean": "«Conte brucia energie; Ancelotti forse è più longevo per un altro approccio.»"
+        }
+      ]
+    },
+    {
+      "speaker": "Umberto Chiariello",
+      "source_kind": "internal",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "metaphor",
+      "claim_type": "EVALUATION",
+      "modality": "CERTAIN",
+      "stance": "POS",
+      "intensity": 2,
+      "confidence": 0.8,
+      "claim_text": "Conte è il catalizzatore che accende l'ambiente: quando 'accende la luce', tutto si illumina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è l'elettricista ... quando Conte accende la luce il salone si illumina",
+          "start_sec": 672.12,
+          "end_sec": 692.399,
+          "quote_clean": "«Conte è l'elettricista: quando accende la luce, il salone si illumina.»"
+        }
+      ]
+    }
+  ],
+  "bias_notes": [
+    "Forte impostazione celebrativa verso Velasco (autorità morale/tecnica) e Conte (leader carismatico).",
+    "Uso di analogie e metafore per rafforzare la persuasione (elettricista/luce, squadra come disciplina tecnica).",
+    "Critica implicita verso allenatori percepiti come 'parolai' o 'ciarlatani' e verso la retorica del 'noi' non supportata da metodo."
+  ],
+  "bias_signals": {
+    "pro_conte": { "count": 3, "avg_intensity": 2.67 },
+    "pro_velasco": { "count": 2, "avg_intensity": 2.5 },
+    "anti_rhetoric": { "count": 2, "avg_intensity": 2.5 },
+    "coach_centric_frame": true
+  },
+  "quality_flags": {
+    "transcript_noise_high": true,
+    "entity_normalization_needed": true,
+    "external_clip_detected": false,
+    "timestamps_available": true
+  }
+}

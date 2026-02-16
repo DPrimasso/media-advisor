@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted, watch, nextTick } from 'vue'
 
 const channelsData = ref([]) // [{ id, name, order, analyses: [...], channel_analysis? }]
 const loading = ref(true)
@@ -9,6 +9,22 @@ const filterChannel = ref('')
 const channelAnalysis = ref(null)
 const channelAnalysisLoading = ref(false)
 const theme = ref('light')
+const detailAnalysis = ref(null)
+
+const detailOverlayRef = ref(null)
+
+function openDetail(a) {
+  detailAnalysis.value = a
+  nextTick(() => detailOverlayRef.value?.focus())
+}
+
+function closeDetail() {
+  detailAnalysis.value = null
+}
+
+function onDetailKeydown(e) {
+  if (e.key === 'Escape') closeDetail()
+}
 
 function initTheme() {
   const stored = localStorage.getItem('media-advisor-theme')
@@ -102,6 +118,13 @@ function formatDate(iso) {
   })
 }
 
+function formatTimestamp(sec) {
+  if (sec == null || isNaN(sec)) return ''
+  const m = Math.floor(sec / 60)
+  const s = Math.floor(sec % 60)
+  return `${m}:${s.toString().padStart(2, '0')}`
+}
+
 const totalCount = computed(() =>
   channelsData.value.reduce((sum, ch) => sum + ch.analyses.length, 0)
 )
@@ -191,9 +214,19 @@ onMounted(() => {
         <div class="channel-banner-block">
           <span class="channel-banner-label">Incoerenze</span>
           <template v-if="channelAnalysis.inconsistencies?.length">
-            <div v-for="(inc, i) in channelAnalysis.inconsistencies" :key="i" class="channel-banner-item">
-              <strong>{{ inc.topic }}</strong>
-              <p>{{ inc.description }}</p>
+            <div v-for="(inc, i) in channelAnalysis.inconsistencies" :key="i" class="channel-banner-item" :class="inc.type">
+              <strong>
+                <span v-if="inc.type" class="inc-type" :class="inc.type">{{ inc.type }}</span>
+                {{ inc.topic || inc.entity }}{{ (inc.subject || inc.entity) && !inc.topic ? ` (${inc.subject || inc.entity})` : inc.subject && !inc.entity ? ` (${inc.subject})` : '' }}
+              </strong>
+              <p>{{ inc.description || inc.explanation }}</p>
+              <template v-if="inc.claim_a?.video_id && inc.claim_b?.video_id">
+                <div class="inc-claims">
+                  <a :href="`https://www.youtube.com/watch?v=${inc.claim_a.video_id}`" target="_blank" rel="noopener" class="inc-claim-link">{{ (inc.claim_a.claim_text || '').slice(0, 55) }}{{ (inc.claim_a.claim_text?.length || 0) > 55 ? '…' : '' }}</a>
+                  <span class="inc-vs">vs</span>
+                  <a :href="`https://www.youtube.com/watch?v=${inc.claim_b.video_id}`" target="_blank" rel="noopener" class="inc-claim-link">{{ (inc.claim_b.claim_text || '').slice(0, 55) }}{{ (inc.claim_b.claim_text?.length || 0) > 55 ? '…' : '' }}</a>
+                </div>
+              </template>
             </div>
           </template>
           <p v-else class="channel-banner-empty">Nessuna</p>
@@ -205,6 +238,9 @@ onMounted(() => {
             <div v-for="p in channelAnalysis.bias.patterns" :key="p.subject" class="channel-banner-item">
               <strong>{{ p.subject }}</strong>
               <p>{{ p.description }}</p>
+              <ul v-if="p.supporting_claims?.length" class="bias-supporting-claims">
+                <li v-for="(c, ci) in p.supporting_claims" :key="ci">{{ c }}</li>
+              </ul>
             </div>
           </template>
           <p v-else-if="!channelAnalysis.bias?.summary" class="channel-banner-empty">Nessuno</p>
@@ -221,30 +257,40 @@ onMounted(() => {
       <p class="empty-state-text">Aggiungi canali in <code>channels/channels.json</code> e esegui <code>npm run run-list</code>.</p>
     </div>
     <div v-else class="feed-grid">
-      <a
+      <article
         v-for="a in sortedDisplayAnalyses"
         :key="`${a.channel_id}-${a.video_id}`"
-        :href="`https://www.youtube.com/watch?v=${a.video_id}`"
-        target="_blank"
-        rel="noopener"
         class="video-card"
       >
-        <div class="video-card-thumb">
-          <img
-            :src="`https://i.ytimg.com/vi/${a.video_id}/mqdefault.jpg`"
-            :alt="a.metadata?.title || 'Video'"
-            loading="lazy"
-          />
-          <span class="video-card-badge">▶</span>
-        </div>
-        <div class="video-card-body">
+        <a
+          :href="`https://www.youtube.com/watch?v=${a.video_id}`"
+          target="_blank"
+          rel="noopener"
+          class="video-card-thumb-link"
+        >
+          <div class="video-card-thumb">
+            <img
+              :src="`https://i.ytimg.com/vi/${a.video_id}/mqdefault.jpg`"
+              :alt="a.metadata?.title || 'Video'"
+              loading="lazy"
+            />
+            <span class="video-card-badge">▶</span>
+          </div>
+        </a>
+        <div
+          class="video-card-body"
+          role="button"
+          tabindex="0"
+          @click="openDetail(a)"
+          @keydown.enter="openDetail(a)"
+        >
           <h3 class="video-card-title">{{ a.metadata?.title || 'Senza titolo' }}</h3>
           <div class="video-card-meta">
             <span v-if="!filterChannel && a.channel_name" class="video-card-channel">{{ a.channel_name }}</span>
             <span v-if="a.metadata?.published_at" class="video-card-date">{{ formatDate(a.metadata.published_at) }}</span>
           </div>
-          <p class="video-card-summary">{{ (a.summary || '').slice(0, 120) }}{{ (a.summary || '').length > 120 ? '…' : '' }}</p>
-          <div class="video-card-topics">
+          <p class="video-card-summary">{{ a.summary || '—' }}</p>
+          <div v-if="(a.topics || []).length" class="video-card-topics">
             <span
               v-for="t in (a.topics || []).slice(0, 4)"
               :key="t.name"
@@ -252,9 +298,111 @@ onMounted(() => {
               :class="t.relevance"
             >{{ t.name }}</span>
           </div>
+          <a
+            :href="`https://www.youtube.com/watch?v=${a.video_id}`"
+            target="_blank"
+            rel="noopener"
+            class="video-card-yt-link"
+            @click.stop
+          >
+            Apri video
+          </a>
         </div>
-      </a>
+      </article>
     </div>
       </main>
+
+    <Teleport to="body">
+      <div
+        v-if="detailAnalysis"
+        ref="detailOverlayRef"
+        class="detail-overlay"
+        @click.self="closeDetail"
+        @keydown="onDetailKeydown"
+        tabindex="-1"
+        role="dialog"
+        aria-modal="true"
+        aria-label="Dettaglio video"
+      >
+        <div class="detail-modal">
+          <button type="button" class="detail-close" aria-label="Chiudi" @click="closeDetail">×</button>
+          <div class="detail-header">
+            <a
+              :href="`https://www.youtube.com/watch?v=${detailAnalysis.video_id}`"
+              target="_blank"
+              rel="noopener"
+              class="detail-thumb-link"
+            >
+              <img
+                :src="`https://i.ytimg.com/vi/${detailAnalysis.video_id}/hqdefault.jpg`"
+                :alt="detailAnalysis.metadata?.title"
+                class="detail-thumb"
+              />
+              <span class="detail-play-badge">▶</span>
+            </a>
+            <div class="detail-meta-block">
+              <h2 class="detail-title">{{ detailAnalysis.metadata?.title || 'Senza titolo' }}</h2>
+              <div class="detail-meta">
+                <span v-if="detailAnalysis.channel_name" class="detail-channel">{{ detailAnalysis.channel_name }}</span>
+                <span v-if="detailAnalysis.metadata?.published_at" class="detail-date">{{ formatDate(detailAnalysis.metadata?.published_at) }}</span>
+              </div>
+              <a
+                :href="`https://www.youtube.com/watch?v=${detailAnalysis.video_id}`"
+                target="_blank"
+                rel="noopener"
+                class="detail-yt-btn"
+              >
+                Guarda su YouTube →
+              </a>
+            </div>
+          </div>
+          <div class="detail-body">
+            <section v-if="detailAnalysis.summary" class="detail-section">
+              <h3 class="detail-section-title">Riepilogo</h3>
+              <p class="detail-summary">{{ detailAnalysis.summary }}</p>
+            </section>
+            <section v-if="(detailAnalysis.topics || detailAnalysis.themes || []).length" class="detail-section">
+              <h3 class="detail-section-title">Temi</h3>
+              <div class="detail-topics">
+                <span
+                  v-for="(t, i) in (detailAnalysis.themes || detailAnalysis.topics || [])"
+                  :key="t.theme || t.name || i"
+                  class="video-tag"
+                  :class="t.relevance || (t.weight > 20 ? 'high' : t.weight > 10 ? 'medium' : 'low')"
+                  :title="t.weight != null ? `${t.weight}%` : ''"
+                >{{ t.theme || t.name }}</span>
+              </div>
+            </section>
+            <section v-if="(detailAnalysis.claims || []).length" class="detail-section">
+              <h3 class="detail-section-title">Top claim</h3>
+              <ul class="detail-claims">
+                <li
+                  v-for="(c, i) in (detailAnalysis.claims || []).slice(0, 12)"
+                  :key="i"
+                  class="detail-claim"
+                  :class="c.polarity || c.stance?.toLowerCase()"
+                >
+                  <span v-if="(c.subject || c.target_entity)" class="detail-claim-subject">{{ c.subject || c.target_entity }}:</span>
+                  <span class="detail-claim-position">{{ c.claim_text || c.position }}</span>
+                  <template v-if="c.evidence_quotes?.[0]">
+                    <a
+                      v-if="c.evidence_quotes[0].start_sec != null"
+                      :href="`https://www.youtube.com/watch?v=${detailAnalysis.video_id}&t=${Math.floor(c.evidence_quotes[0].start_sec)}s`"
+                      target="_blank"
+                      rel="noopener"
+                      class="detail-claim-timestamp"
+                      title="Vai al timestamp"
+                    >
+                      {{ formatTimestamp(c.evidence_quotes[0].start_sec) }}
+                    </a>
+                    <span v-else class="detail-claim-quote">«{{ c.evidence_quotes[0].quote_text?.slice(0, 80) }}{{ (c.evidence_quotes[0].quote_text?.length || 0) > 80 ? '…' : '' }}»</span>
+                  </template>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </div>
+    </Teleport>
   </div>
 </template>
