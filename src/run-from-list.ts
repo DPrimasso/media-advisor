@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir, appendFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -27,6 +27,30 @@ function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
 }
 
+function parseBooleanLike(value: string | undefined, fallback: boolean): boolean {
+  if (!value) return fallback;
+  const norm = value.trim().toLowerCase();
+  if (["1", "true", "yes", "on"].includes(norm)) return true;
+  if (["0", "false", "no", "off"].includes(norm)) return false;
+  return fallback;
+}
+
+function parsePercentLike(value: string | undefined, fallback = 0): number {
+  if (!value) return fallback;
+  const n = Number(value);
+  if (!Number.isFinite(n)) return fallback;
+  return Math.max(0, Math.min(100, Math.round(n)));
+}
+
+async function appendAdvisorRunLog(entry: Record<string, unknown>): Promise<void> {
+  const logPath = join(root, DIRS.analysis, "_advisor_run_log.jsonl");
+  const line = JSON.stringify({
+    timestamp: new Date().toISOString(),
+    ...entry,
+  });
+  await appendFile(logPath, `${line}\n`, "utf-8");
+}
+
 function extractVideoId(urlOrId: string): string | null {
   const match = urlOrId.match(/(?:v=)([a-zA-Z0-9_-]{11})/);
   return match ? match[1] : urlOrId.length === 11 ? urlOrId : null;
@@ -51,6 +75,9 @@ export interface RunFromListOptions {
   skipChannelAnalysis?: boolean;
   /** Use v2 pipeline (claims with evidence_quotes, timestamp) */
   useV2?: boolean;
+  advisorEnabled?: boolean;
+  advisorPredictionEnabled?: boolean;
+  advisorMinFidelity?: number;
 }
 
 export interface RunFromListResult {
@@ -66,6 +93,12 @@ export async function runFromList(
   const forceTranscript = options.forceTranscript ?? false;
   const forceAnalyze = options.forceAnalyze ?? false;
   const useV2 = options.useV2 ?? true;
+  const advisorEnabled = options.advisorEnabled ?? parseBooleanLike(process.env.ADVISOR_ENABLED, true);
+  const advisorPredictionEnabled =
+    options.advisorPredictionEnabled ??
+    parseBooleanLike(process.env.ADVISOR_PREDICTION_ENABLED, true);
+  const advisorMinFidelity =
+    options.advisorMinFidelity ?? parsePercentLike(process.env.ADVISOR_MIN_FIDELITY, 0);
 
   const rawConfig = await readFile(channelsPath, "utf-8");
   const config = JSON.parse(rawConfig) as ChannelsConfig;
@@ -236,15 +269,60 @@ export async function runFromList(
       }
     }
 
-    try {
-      const advisor = await generateChannelAdvisor(channel.id, channelAnalysisDir);
-      if (advisor) {
-        console.log(
-          `[${channel.id}] Advisor score ${advisor.scores.advisor_score} (claims ${advisor.claims_analyzed})`
-        );
+    if (advisorEnabled) {
+      try {
+        const advisor = await generateChannelAdvisor(channel.id, channelAnalysisDir, {
+          predictionEnabled: advisorPredictionEnabled,
+          minFidelity: advisorMinFidelity,
+        });
+        if (advisor) {
+          console.log(
+            `[${channel.id}] Advisor score ${advisor.scores.advisor_score} (claims ${advisor.claims_analyzed}, prediction ${
+              advisorPredictionEnabled ? "on" : "off"
+            })`
+          );
+          await appendAdvisorRunLog({
+            channel_id: channel.id,
+            advisor_enabled: true,
+            prediction_enabled: advisorPredictionEnabled,
+            min_fidelity: advisorMinFidelity,
+            status: "generated",
+            advisor_score: advisor.scores.advisor_score,
+            evidence_fidelity: advisor.scores.evidence_fidelity,
+            claims_analyzed: advisor.claims_analyzed,
+          });
+        } else {
+          console.log(
+            `[${channel.id}] Advisor skipped (min_fidelity=${advisorMinFidelity} not met or no eligible data)`
+          );
+          await appendAdvisorRunLog({
+            channel_id: channel.id,
+            advisor_enabled: true,
+            prediction_enabled: advisorPredictionEnabled,
+            min_fidelity: advisorMinFidelity,
+            status: "skipped",
+          });
+        }
+      } catch (e) {
+        console.error(`[${channel.id}] Advisor generation failed:`, (e as Error).message);
+        await appendAdvisorRunLog({
+          channel_id: channel.id,
+          advisor_enabled: true,
+          prediction_enabled: advisorPredictionEnabled,
+          min_fidelity: advisorMinFidelity,
+          status: "failed",
+          error: (e as Error).message,
+        });
       }
-    } catch (e) {
-      console.error(`[${channel.id}] Advisor generation failed:`, (e as Error).message);
+    } else {
+      console.log(`[${channel.id}] Advisor disabled via ADVISOR_ENABLED/option`);
+      await appendAdvisorRunLog({
+        channel_id: channel.id,
+        advisor_enabled: false,
+        prediction_enabled: advisorPredictionEnabled,
+        min_fidelity: advisorMinFidelity,
+        status: "disabled",
+      });
     }
   }
 

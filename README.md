@@ -37,6 +37,9 @@ media-advisor/
 | `npm run migrate-transcripts` | Migra transcript flat → per-canale (una tantum) |
 | `npm run backfill-dates` | Recupera solo le date mancanti (TranscriptAPI/yt-dlp/Piped/Invidious) |
 | `npm run backfill-dates -- --channel=open-var` | Solo un canale |
+| `npm run eval:advisor-quality` | Report quality advisor su `analysis/*/_advisor.json` |
+| `npm run eval:advisor-quality -- --save-baseline=eval/advisor-quality-baseline.json` | Salva baseline per confronti futuri |
+| `npm run eval:advisor-quality -- --baseline=eval/advisor-quality-baseline.json` | Confronto before/after con baseline |
 | `cd web && npm run dev` | Avvia dashboard |
 
 ## Dashboard
@@ -55,6 +58,21 @@ Per la pianificazione completa delle migliorie quality/advisor:
 
 - `docs/advisor-quality-roadmap.md` - roadmap, architettura target, milestone, rischi.
 - `docs/advisor-quality-task-breakdown.md` - task operativi per sprint con DoD e verifiche.
+- `docs/advisor-scoring-methodology.md` - formula scoring, flags rollout, benchmark e limiti.
+
+## Feature flags Advisor
+
+Variabili opzionali (env):
+
+- `ADVISOR_ENABLED=true|false`
+- `ADVISOR_PREDICTION_ENABLED=true|false`
+- `ADVISOR_MIN_FIDELITY=0..100`
+
+Override CLI:
+
+- `npm run run-list -- --advisor=off`
+- `npm run run-list -- --advisor-predictions=off`
+- `npm run run-list -- --advisor-min-fidelity=70`
 
 ## API
 

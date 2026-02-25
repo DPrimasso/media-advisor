@@ -107,10 +107,10 @@ Ogni task include: impatto, file, dipendenze, DoD e verifica.
 
 | ID | Priorita | Stima | Stato | Task | File principali | Dipendenze |
 |---|---|---|---|---|---|---|
-| AQ-020 | P0 | M | todo | Script benchmark quality before/after | nuovo `scripts/eval-advisor-quality.ts` | AQ-018 |
-| AQ-021 | P1 | S | todo | Documento metodo scoring + limiti | `README.md`, `docs/` | AQ-020 |
-| AQ-022 | P1 | S | todo | Feature flag advisor e rollout graduale | `src/run-from-list.ts`, config env | AQ-020 |
-| AQ-023 | P1 | S | todo | Playbook regressioni e fallback | `docs/advisor-quality-rollout.md` (nuovo) | AQ-022 |
+| AQ-020 | P0 | M | done | Script benchmark quality before/after | nuovo `scripts/eval-advisor-quality.ts` | AQ-018 |
+| AQ-021 | P1 | S | done | Documento metodo scoring + limiti | `README.md`, `docs/` | AQ-020 |
+| AQ-022 | P1 | S | done | Feature flag advisor e rollout graduale | `src/run-from-list.ts`, config env | AQ-020 |
+| AQ-023 | P1 | S | done | Playbook regressioni e fallback | `docs/advisor-quality-rollout.md` (nuovo) | AQ-022 |
 
 ### DoD Sprint 5
 

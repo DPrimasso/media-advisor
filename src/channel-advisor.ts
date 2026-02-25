@@ -1,8 +1,12 @@
 import { existsSync } from "node:fs";
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import { readdir, readFile, unlink, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { AnalysisResult } from "./analyzer/types.js";
-import { buildChannelAdvisorReport, type ChannelAdvisorReport } from "./pipeline/advisor-scoring.js";
+import {
+  buildChannelAdvisorReport,
+  type BuildChannelAdvisorOptions,
+  type ChannelAdvisorReport,
+} from "./pipeline/advisor-scoring.js";
 
 const ADVISOR_FILE = "_advisor.json";
 
@@ -126,7 +130,8 @@ function clampPct(value: number): number {
 
 export async function generateChannelAdvisor(
   channelId: string,
-  channelAnalysisDir: string
+  channelAnalysisDir: string,
+  options?: BuildChannelAdvisorOptions & { minFidelity?: number }
 ): Promise<ChannelAdvisorReport | null> {
   if (!existsSync(channelAnalysisDir)) return null;
   const files = (await readdir(channelAnalysisDir)).filter(
@@ -148,7 +153,19 @@ export async function generateChannelAdvisor(
   }
   if (analyses.length === 0) return null;
 
-  const report = buildChannelAdvisorReport(channelId, analyses);
+  const report = buildChannelAdvisorReport(channelId, analyses, options);
+  const minFidelity = Math.max(0, Math.min(100, Math.round(options?.minFidelity ?? 0)));
+  if (minFidelity > 0 && report.scores.evidence_fidelity < minFidelity) {
+    const advisorPath = join(channelAnalysisDir, ADVISOR_FILE);
+    if (existsSync(advisorPath)) {
+      try {
+        await unlink(advisorPath);
+      } catch {
+        // ignore unlink issues; skip generation anyway
+      }
+    }
+    return null;
+  }
   await writeFile(
     join(channelAnalysisDir, ADVISOR_FILE),
     JSON.stringify(report, null, 2),

@@ -58,6 +58,7 @@ export interface ChannelAdvisorBreakdown {
     }>;
   };
   predictions: {
+    enabled: boolean;
     total: number;
     open: number;
     resolved: number;
@@ -97,6 +98,10 @@ export interface ChannelAdvisorReport {
   claims_analyzed: number;
   scores: ChannelAdvisorScores;
   breakdown: ChannelAdvisorBreakdown;
+}
+
+export interface BuildChannelAdvisorOptions {
+  predictionEnabled?: boolean;
 }
 
 function clamp(n: number, min: number, max: number): number {
@@ -283,8 +288,10 @@ function toStructuredClaim(claim: AnyClaim, videoId: string, idx: number): Claim
 
 export function buildChannelAdvisorReport(
   channelId: string,
-  analyses: AnalysisResult[]
+  analyses: AnalysisResult[],
+  options?: BuildChannelAdvisorOptions
 ): ChannelAdvisorReport {
+  const predictionEnabled = options?.predictionEnabled ?? true;
   const claimsWithMeta: Array<{ claim: AnyClaim; video_id: string; published_at?: string }> = [];
   const validationAgg: ClaimValidationStats = {
     total: 0,
@@ -405,7 +412,7 @@ export function buildChannelAdvisorReport(
     if (inconsistencySamples.length >= 20) break;
   }
 
-  const predictionClaims = structuredClaims
+  const predictionClaims = (predictionEnabled ? structuredClaims : [])
     .filter((c) => c.claim_type === "PREDICTION")
     .sort((a, b) => {
       const da = dateMs(a.published_at);
@@ -476,6 +483,7 @@ export function buildChannelAdvisorReport(
   }
 
   const predictionBreakdown = {
+    enabled: predictionEnabled,
     total: predictionClaims.length,
     open: predictionItems.filter((p) => p.status === "open").length,
     resolved: predictionHit + predictionMiss,
@@ -485,7 +493,9 @@ export function buildChannelAdvisorReport(
     items: predictionItems.slice(0, 30),
   };
   const predictionAccountability =
-    predictionBreakdown.total === 0
+    !predictionEnabled
+      ? 50
+      : predictionBreakdown.total === 0
       ? 50
       : predictionBreakdown.resolved === 0
         ? 0

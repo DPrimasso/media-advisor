@@ -76,6 +76,29 @@ function mergePendingIntoChannels() {
   return added;
 }
 
+function parseBooleanArg(
+  args: string[],
+  key: string
+): boolean | undefined {
+  const arg = args.find((a) => a.startsWith(`--${key}=`));
+  if (!arg) return undefined;
+  const raw = arg.split("=")[1]?.trim().toLowerCase();
+  if (!raw) return undefined;
+  if (["1", "true", "yes", "on"].includes(raw)) return true;
+  if (["0", "false", "no", "off"].includes(raw)) return false;
+  return undefined;
+}
+
+function parseNumberArg(args: string[], key: string): number | undefined {
+  const arg = args.find((a) => a.startsWith(`--${key}=`));
+  if (!arg) return undefined;
+  const raw = arg.split("=")[1];
+  if (!raw) return undefined;
+  const n = Number(raw);
+  if (!Number.isFinite(n)) return undefined;
+  return Math.max(0, Math.min(100, Math.round(n)));
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const forceTranscript = args.includes("--force-transcript");
@@ -84,6 +107,9 @@ async function main() {
   const useV2 = !args.includes("--no-v2");
   const fromPending = args.includes("--from-pending");
   const channelId = args.find((a) => a.startsWith("--channel="))?.split("=")[1];
+  const advisorEnabled = parseBooleanArg(args, "advisor");
+  const advisorPredictionEnabled = parseBooleanArg(args, "advisor-predictions");
+  const advisorMinFidelity = parseNumberArg(args, "advisor-min-fidelity");
 
   if (fromPending) {
     const added = mergePendingIntoChannels();
@@ -96,6 +122,9 @@ async function main() {
     skipChannelAnalysis,
     useV2,
     channelId,
+    advisorEnabled,
+    advisorPredictionEnabled,
+    advisorMinFidelity,
   });
 
   for (const ch of result.channels) {

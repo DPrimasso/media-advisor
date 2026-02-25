@@ -9,6 +9,9 @@ const { channelsData, loading, error } = inject('channelsData')
 const channelId = computed(() => route.params.id)
 const channel = computed(() => channelsData?.value?.find((c) => c.id === channelId.value))
 const advisor = computed(() => channel.value?.advisor || null)
+const predictionEnabled = computed(
+  () => advisor.value?.breakdown?.predictions?.enabled !== false
+)
 const predictionItems = computed(() => advisor.value?.breakdown?.predictions?.items || [])
 const inconsistencySamples = computed(() => advisor.value?.breakdown?.inconsistencies?.samples || [])
 
@@ -164,6 +167,7 @@ function shortText(text, max = 140) {
 
         <article class="advisor-panel">
           <h3 class="topics-section-title">Predizioni</h3>
+          <p v-if="!predictionEnabled" class="topics-empty">Prediction tracking disabilitato</p>
           <ul class="advisor-kv-list">
             <li><span>Totali</span><strong>{{ advisor.breakdown?.predictions?.total ?? 0 }}</strong></li>
             <li><span>Open</span><strong>{{ advisor.breakdown?.predictions?.open ?? 0 }}</strong></li>
@@ -200,7 +204,8 @@ function shortText(text, max = 140) {
 
       <section class="advisor-panel">
         <h3 class="topics-section-title">Prediction tracking</h3>
-        <p v-if="!predictionItems.length" class="topics-empty">Nessuna prediction estratta</p>
+        <p v-if="!predictionEnabled" class="topics-empty">Feature disabilitata</p>
+        <p v-else-if="!predictionItems.length" class="topics-empty">Nessuna prediction estratta</p>
         <div v-else class="advisor-prediction-list">
           <article v-for="p in predictionItems" :key="p.claim_id" class="advisor-prediction-item">
             <div class="advisor-prediction-head">
