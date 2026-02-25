@@ -38,6 +38,24 @@ export interface ChannelAdvisorBreakdown {
     soft: number;
     drift: number;
     not: number;
+    samples: Array<{
+      type: "HARD" | "SOFT" | "DRIFT" | "NOT";
+      entity: string;
+      dimension: string;
+      claim_a: {
+        video_id: string;
+        date?: string;
+        text: string;
+        quote: string;
+      };
+      claim_b: {
+        video_id: string;
+        date?: string;
+        text: string;
+        quote: string;
+      };
+      explanation: string;
+    }>;
   };
   predictions: {
     total: number;
@@ -192,6 +210,12 @@ function directionalStanceWeight(stance: Claim["stance"]): { pos: number; neg: n
   return { pos: 0, neg: 0 };
 }
 
+function compactText(input: string, max = 220): string {
+  const txt = input.replace(/\s+/g, " ").trim();
+  if (txt.length <= max) return txt;
+  return `${txt.slice(0, max - 1)}…`;
+}
+
 function toStructuredClaim(claim: AnyClaim, videoId: string, idx: number): Claim {
   const entityType = normalizeFromSet(
     str(claim.entity_type),
@@ -327,6 +351,59 @@ export function buildChannelAdvisorReport(
   const coherencePenalty =
     totalClaims > 0 ? clamp((weightedInconsistencies / totalClaims) * 220, 0, 100) : 0;
   const coherenceScore = clamp(Math.round(100 - coherencePenalty), 0, 100);
+
+  const inconsistencyWeight: Record<"HARD" | "SOFT" | "DRIFT" | "NOT", number> = {
+    HARD: 4,
+    SOFT: 3,
+    DRIFT: 2,
+    NOT: 1,
+  };
+  const sortedInconsistencies = [...inconsistencies].sort((a, b) => {
+    const w = inconsistencyWeight[b.type] - inconsistencyWeight[a.type];
+    if (w !== 0) return w;
+    const da = dateMs(b.claim_b.date ?? b.claim_a.date);
+    const db = dateMs(a.claim_b.date ?? a.claim_a.date);
+    if (da == null && db == null) return 0;
+    if (da == null) return 1;
+    if (db == null) return -1;
+    return da - db;
+  });
+  const preferred =
+    sortedInconsistencies.filter((e) => e.type !== "NOT").length > 0
+      ? sortedInconsistencies.filter((e) => e.type !== "NOT")
+      : sortedInconsistencies;
+  const dedup = new Set<string>();
+  const inconsistencySamples: ChannelAdvisorBreakdown["inconsistencies"]["samples"] = [];
+  for (const e of preferred) {
+    const key = [
+      e.type,
+      e.entity.toLowerCase(),
+      e.dimension.toLowerCase(),
+      compactText(e.claim_a.claim_text, 90),
+      compactText(e.claim_b.claim_text, 90),
+    ].join("|");
+    if (dedup.has(key)) continue;
+    dedup.add(key);
+    inconsistencySamples.push({
+      type: e.type,
+      entity: e.entity,
+      dimension: e.dimension,
+      claim_a: {
+        video_id: e.claim_a.video_id,
+        date: e.claim_a.date,
+        text: compactText(e.claim_a.claim_text),
+        quote: compactText(e.claim_a.quote, 140),
+      },
+      claim_b: {
+        video_id: e.claim_b.video_id,
+        date: e.claim_b.date,
+        text: compactText(e.claim_b.claim_text),
+        quote: compactText(e.claim_b.quote, 140),
+      },
+      explanation: compactText(e.explanation, 180),
+    });
+    if (inconsistencySamples.length >= 20) break;
+  }
 
   const predictionClaims = structuredClaims
     .filter((c) => c.claim_type === "PREDICTION")
@@ -500,6 +577,7 @@ export function buildChannelAdvisorReport(
         soft,
         drift,
         not,
+        samples: inconsistencySamples,
       },
       predictions: predictionBreakdown,
       top_entities: topEntities,

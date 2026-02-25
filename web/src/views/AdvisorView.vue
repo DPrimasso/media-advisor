@@ -10,6 +10,7 @@ const channelId = computed(() => route.params.id)
 const channel = computed(() => channelsData?.value?.find((c) => c.id === channelId.value))
 const advisor = computed(() => channel.value?.advisor || null)
 const predictionItems = computed(() => advisor.value?.breakdown?.predictions?.items || [])
+const inconsistencySamples = computed(() => advisor.value?.breakdown?.inconsistencies?.samples || [])
 
 const metricCards = computed(() => {
   if (!advisor.value?.scores) return []
@@ -54,6 +55,18 @@ function predictionStatusLabel(status) {
   if (status === 'hit') return 'HIT'
   if (status === 'miss') return 'MISS'
   return 'OPEN'
+}
+
+function inconsistencyTypeClass(type) {
+  const t = String(type || '').toLowerCase()
+  if (t === 'hard' || t === 'soft' || t === 'drift' || t === 'not') return t
+  return 'not'
+}
+
+function shortText(text, max = 140) {
+  const value = String(text || '').replace(/\s+/g, ' ').trim()
+  if (value.length <= max) return value
+  return `${value.slice(0, max - 1)}…`
 }
 </script>
 
@@ -107,6 +120,34 @@ function predictionStatusLabel(status) {
         <p>
           Advisor = 20% coverage + 20% fidelity + 20% coerenza + 15% specificità + 10% predizioni + 10% (100-bias) + 5% (100-assolutismo)
         </p>
+      </section>
+
+      <section class="advisor-panel">
+        <h3 class="topics-section-title">Contraddizioni rilevate</h3>
+        <p v-if="!inconsistencySamples.length" class="topics-empty">
+          Nessuna contraddizione forte rilevata
+        </p>
+        <div v-else class="advisor-inc-list">
+          <article
+            v-for="(ev, idx) in inconsistencySamples"
+            :key="`${ev.type}-${ev.entity}-${idx}`"
+            class="advisor-inc-item"
+          >
+            <div class="advisor-inc-head">
+              <span class="advisor-inc-type" :class="inconsistencyTypeClass(ev.type)">
+                {{ ev.type }}
+              </span>
+              <span class="advisor-inc-meta">{{ ev.entity }} · {{ ev.dimension }}</span>
+            </div>
+            <p class="advisor-inc-claim">
+              <strong>A</strong> [{{ ev.claim_a.video_id }}] {{ shortText(ev.claim_a.text) }}
+            </p>
+            <p class="advisor-inc-claim">
+              <strong>B</strong> [{{ ev.claim_b.video_id }}] {{ shortText(ev.claim_b.text) }}
+            </p>
+            <p class="advisor-inc-expl">{{ ev.explanation }}</p>
+          </article>
+        </div>
       </section>
 
       <section class="advisor-panels">
