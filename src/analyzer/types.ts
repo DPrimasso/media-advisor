@@ -5,6 +5,19 @@ export interface Claim {
   polarity?: "positive" | "negative" | "neutral";
 }
 
+export interface ClaimValidationStats {
+  total: number;
+  supported: number;
+  repaired: number;
+  dropped: number;
+}
+
+export interface VideoQualityMetrics {
+  evidence_coverage: number;
+  evidence_fidelity: number;
+  validation: ClaimValidationStats;
+}
+
 export interface AnalysisResult {
   video_id: string;
   analyzed_at: string;
@@ -12,4 +25,5 @@ export interface AnalysisResult {
   summary: string;
   topics: { name: string; relevance: "high" | "medium" | "low" }[];
   claims?: Claim[];
+  quality?: VideoQualityMetrics;
 }

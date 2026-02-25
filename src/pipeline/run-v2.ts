@@ -20,6 +20,7 @@ import { extractClaimsFromSegment } from "./extractor.js";
 import { aggregateVideoClaims } from "./video-aggregator.js";
 import { filterBySpecificity } from "./specificity-filter.js";
 import { normalizeClaimEntities } from "./entity-normalizer.js";
+import { validateClaims } from "./validator.js";
 import { buildChannelProfile } from "./channel-profiler.js";
 import { detectInconsistencies } from "./inconsistency-detector.js";
 import type { TranscriptResponse } from "../transcript-client.js";
@@ -86,10 +87,11 @@ export async function runV2Pipeline(options?: { force?: boolean }) {
       }
 
       const filtered = filterBySpecificity(allClaims);
+      const validation = await validateClaims(openai, filtered, { dropUnsupported: true });
       const summaryShort =
         (data.metadata?.title ?? "Video") + " — " + (v.published_at ?? "").slice(0, 10);
       const analysis = aggregateVideoClaims(
-        filtered,
+        validation.validated,
         allThemes,
         v.video_id,
         summaryShort,
@@ -101,7 +103,9 @@ export async function runV2Pipeline(options?: { force?: boolean }) {
       analyses.push(analysis);
       if (v.published_at) videoDates.set(v.video_id, v.published_at);
 
-      console.log(`[${v.video_id}] OK (${analysis.claims.length} claims)`);
+      console.log(
+        `[${v.video_id}] OK (${analysis.claims.length} claims, dropped ${validation.stats.dropped})`
+      );
     } catch (e) {
       console.error(`[${v.video_id}]`, (e as Error).message);
     }

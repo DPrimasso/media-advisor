@@ -21,7 +21,7 @@ const EXTRACT_SCHEMA = {
           dimension: { type: "string", enum: ["performance", "tactics", "market", "finance", "leadership", "injury", "lineup_prediction", "refereeing", "fan_behavior", "standings", "europe", "rivalry", "media"] },
           claim_type: { type: "string", enum: ["FACT", "OBSERVATION", "INTERPRETATION", "JUDGEMENT", "PRESCRIPTION", "PREDICTION", "META_INFO_QUALITY"] },
           stance: { type: "string", enum: ["POS", "NEG", "NEU", "MIXED"] },
-          intensity: { type: "number", minimum: 0, maximum: 3 },
+          intensity: { type: "integer", minimum: 0, maximum: 3 },
           modality: { type: "string", enum: ["CERTAIN", "PROBABLE", "POSSIBLE", "HYPOTHESIS", "PRESCRIPTIVE"] },
           claim_text: { type: "string" },
           quote_text: { type: "string", description: "Verbatim quote from segment that supports the claim" },
@@ -119,6 +119,10 @@ export async function extractClaimsFromSegment(
 
   const claims: Claim[] = [];
   for (const c of parsed.claims ?? []) {
+    const intensityBucket = Math.min(
+      3,
+      Math.max(0, Math.round(typeof c.intensity === "number" ? c.intensity : 1))
+    ) as 0 | 1 | 2 | 3;
     const quote: EvidenceQuote = {
       quote_text: c.quote_text,
       start_sec: segment.start_sec,
@@ -134,7 +138,7 @@ export async function extractClaimsFromSegment(
       dimension: c.dimension as Claim["dimension"],
       claim_type: c.claim_type as Claim["claim_type"],
       stance: c.stance as Claim["stance"],
-      intensity: Math.min(3, Math.max(0, c.intensity ?? 1)) as 0 | 1 | 2 | 3,
+      intensity: intensityBucket,
       modality: c.modality as Claim["modality"],
       claim_text: c.claim_text,
       evidence_quotes: [quote],

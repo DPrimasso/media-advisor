@@ -10,6 +10,7 @@ import { extractClaimsFromSegment } from "./pipeline/extractor.js";
 import { aggregateVideoClaims } from "./pipeline/video-aggregator.js";
 import { filterBySpecificity } from "./pipeline/specificity-filter.js";
 import { normalizeClaimEntities } from "./pipeline/entity-normalizer.js";
+import { validateClaims } from "./pipeline/validator.js";
 import type { TranscriptResponse } from "./transcript-client.js";
 import type { Claim } from "./schema/claims.js";
 import type { AnalysisResult } from "./analyzer/types.js";
@@ -24,6 +25,16 @@ function weightToRelevance(w: number): "high" | "medium" | "low" {
   if (w >= 20) return "high";
   if (w >= 10) return "medium";
   return "low";
+}
+
+function hasEvidence(c: Claim): boolean {
+  const q = c.evidence_quotes?.[0];
+  return !!q?.quote_text && typeof q.start_sec === "number";
+}
+
+function toPct(num: number, den: number): number {
+  if (den <= 0) return 0;
+  return Math.round((num / den) * 100);
 }
 
 /** Merge v2 claim with channel-analyze fields (topic, subject, position, polarity) */
@@ -88,7 +99,16 @@ export async function analyzeVideoV2(opts: AnalyzeV2Options): Promise<AnalysisRe
     { maxClaims: 12 }
   );
 
-  const compatClaims = (analysis.claims ?? []).map(toCompatClaim);
+  const claimsForValidation = analysis.claims ?? [];
+  const claimsWithEvidence = claimsForValidation.filter(hasEvidence).length;
+  const validation = await validateClaims(openai, claimsForValidation, {
+    dropUnsupported: true,
+  });
+  const compatClaims = validation.validated.map(toCompatClaim);
+  const fidelity =
+    validation.stats.total > 0
+      ? toPct(validation.stats.supported + validation.stats.repaired, validation.stats.total)
+      : 0;
 
   return {
     video_id: videoId,
@@ -106,5 +126,10 @@ export async function analyzeVideoV2(opts: AnalyzeV2Options): Promise<AnalysisRe
       relevance: weightToRelevance(t.weight),
     })),
     claims: compatClaims as import("./analyzer/types.js").AnalysisResult["claims"],
+    quality: {
+      evidence_coverage: toPct(claimsWithEvidence, claimsForValidation.length),
+      evidence_fidelity: fidelity,
+      validation: validation.stats,
+    },
   };
 }

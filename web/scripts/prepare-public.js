@@ -22,7 +22,7 @@ for (const ch of channels) {
   if (!existsSync(channelAnalysisDir)) continue
 
   const allFiles = readdirSync(channelAnalysisDir).filter((f) => f.endsWith('.json'))
-  const videos = allFiles.filter((f) => f !== '_channel.json')
+  const videos = allFiles.filter((f) => !f.startsWith('_'))
   if (videos.length === 0) continue
 
   const destChannelDir = resolve(publicDir, ch.id)
@@ -39,6 +39,9 @@ for (const ch of channels) {
   }
   if (allFiles.includes('_channel.json')) {
     entry.channel_analysis = '_channel.json'
+  }
+  if (allFiles.includes('_advisor.json')) {
+    entry.advisor = '_advisor.json'
   }
   index.push(entry)
 }

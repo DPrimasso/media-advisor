@@ -8,6 +8,7 @@ import { saveTranscript, transcriptToPlainText } from "./save-transcript.js";
 import { createOpenAIClient } from "./analyzer/openai-client.js";
 import { analyzeVideoV2 } from "./analyze-v2.js";
 import { runChannelAnalyze } from "./channel-analyze.js";
+import { generateChannelAdvisor } from "./channel-advisor.js";
 import OpenAI from "openai";
 import {
   transcriptPath,
@@ -233,6 +234,17 @@ export async function runFromList(
       } catch (e) {
         console.error(`[${channel.id}] Channel analysis failed:`, (e as Error).message);
       }
+    }
+
+    try {
+      const advisor = await generateChannelAdvisor(channel.id, channelAnalysisDir);
+      if (advisor) {
+        console.log(
+          `[${channel.id}] Advisor score ${advisor.scores.advisor_score} (claims ${advisor.claims_analyzed})`
+        );
+      }
+    } catch (e) {
+      console.error(`[${channel.id}] Advisor generation failed:`, (e as Error).message);
     }
   }
 

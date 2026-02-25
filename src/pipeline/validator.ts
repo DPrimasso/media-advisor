@@ -29,6 +29,13 @@ export interface ValidationResult {
   repaired_claim_text?: string;
 }
 
+export interface ValidationStats {
+  total: number;
+  supported: number;
+  repaired: number;
+  dropped: number;
+}
+
 export async function validateClaim(
   openai: OpenAI,
   claim: Claim
@@ -88,17 +95,21 @@ export async function validateClaims(
   openai: OpenAI,
   claims: Claim[],
   opts?: { dropUnsupported?: boolean }
-): Promise<{ validated: Claim[]; dropped: Claim[] }> {
+): Promise<{ validated: Claim[]; dropped: Claim[]; stats: ValidationStats }> {
   const dropUnsupported = opts?.dropUnsupported ?? true;
   const validated: Claim[] = [];
   const dropped: Claim[] = [];
+  let supported = 0;
+  let repaired = 0;
 
   for (const c of claims) {
     const res = await validateClaim(openai, c);
     if (res.supported) {
       validated.push(res.claim);
+      supported++;
     } else if (res.repaired_claim_text && res.repaired_claim_text.length >= 10) {
       validated.push({ ...res.claim, claim_text: res.repaired_claim_text });
+      repaired++;
     } else if (dropUnsupported) {
       dropped.push(res.claim);
     } else {
@@ -106,5 +117,14 @@ export async function validateClaims(
     }
   }
 
-  return { validated, dropped };
+  return {
+    validated,
+    dropped,
+    stats: {
+      total: claims.length,
+      supported,
+      repaired,
+      dropped: dropped.length,
+    },
+  };
 }

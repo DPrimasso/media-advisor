@@ -20,11 +20,16 @@ export function useChannelsData() {
       const channels = []
       for (const ch of index) {
         const analyses = []
+        let advisor = null
         for (const file of ch.videos || []) {
           const res = await fetch(`/analysis/${ch.id}/${file}`)
           if (!res.ok) continue
           const data = await res.json()
           analyses.push({ ...data, channel_id: ch.id, channel_name: ch.name })
+        }
+        if (ch.advisor) {
+          const advisorRes = await fetch(`/analysis/${ch.id}/${ch.advisor}`)
+          if (advisorRes.ok) advisor = await advisorRes.json()
         }
         if (analyses.length > 0) {
           channels.push({
@@ -32,7 +37,8 @@ export function useChannelsData() {
             name: ch.name,
             order: ch.order ?? 999,
             analyses,
-            channel_analysis: ch.channel_analysis || null
+            channel_analysis: ch.channel_analysis || null,
+            advisor
           })
         }
       }
