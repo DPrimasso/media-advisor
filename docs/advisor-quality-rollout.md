@@ -47,6 +47,11 @@ Policy:
 
 ## 5) Runbook operativo
 
+CI consigliata:
+
+- workflow `.github/workflows/advisor-quality-gate.yml`
+- blocca PR se `eval:advisor-gate` fallisce
+
 ## Pre-run
 
 1. verificare chiavi API.

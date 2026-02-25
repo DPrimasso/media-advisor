@@ -80,6 +80,12 @@ Gate rapido rollout:
 - `npm run eval:advisor-gate -- --channel=<id> --min-fidelity=70`
 - `npm run eval:advisor-gate -- --min-fidelity=70 --min-advisor-score=60`
 
+CI quality gate:
+
+- workflow GitHub Actions: `.github/workflows/advisor-quality-gate.yml`
+- trigger automatico su PR verso `main/master`
+- trigger manuale con input (`channel`, `min_fidelity`, `min_advisor_score`)
+
 ## API
 
 - **TranscriptAPI.com** – trascrizioni YouTube (credit-based)

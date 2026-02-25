@@ -1,0 +1,64 @@
+name: advisor-quality-gate
+
+on:
+  pull_request:
+    branches: ["main", "master"]
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "Channel id da validare"
+        required: false
+        default: "neschio"
+      min_fidelity:
+        description: "Soglia minima evidence_fidelity (0..100)"
+        required: false
+        default: "70"
+      min_advisor_score:
+        description: "Soglia minima advisor_score (0..100)"
+        required: false
+        default: "60"
+
+permissions:
+  contents: read
+
+jobs:
+  advisor-gate:
+    runs-on: ubuntu-latest
+    env:
+      ADVISOR_GATE_CHANNEL: ${{ github.event.inputs.channel || 'neschio' }}
+      ADVISOR_GATE_MIN_FIDELITY: ${{ github.event.inputs.min_fidelity || '70' }}
+      ADVISOR_GATE_MIN_SCORE: ${{ github.event.inputs.min_advisor_score || '60' }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Build web
+        run: npm run build --prefix web
+
+      - name: Advisor quality gate
+        run: >
+          npm run eval:advisor-gate -- --
+          --channel=${ADVISOR_GATE_CHANNEL}
+          --min-fidelity=${ADVISOR_GATE_MIN_FIDELITY}
+          --min-advisor-score=${ADVISOR_GATE_MIN_SCORE}
+
+      - name: Generate advisor quality report artifact
+        run: npm run eval:advisor-quality -- --out=eval/advisor-quality-ci-report.json
+
+      - name: Upload advisor quality report
+        uses: actions/upload-artifact@v4
+        with:
+          name: advisor-quality-ci-report
+          path: eval/advisor-quality-ci-report.json
