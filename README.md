@@ -49,6 +49,13 @@ npm run dev
 
 La dashboard legge da `web/public/analysis/`. Esegui `npm run prepare-public` (o riavvia `npm run dev`) dopo aver generato nuove analisi.
 
+## Piano Creator Advisor (quality upgrade)
+
+Per la pianificazione completa delle migliorie quality/advisor:
+
+- `docs/advisor-quality-roadmap.md` - roadmap, architettura target, milestone, rischi.
+- `docs/advisor-quality-task-breakdown.md` - task operativi per sprint con DoD e verifiche.
+
 ## API
 
 - **TranscriptAPI.com** – trascrizioni YouTube (credit-based)
