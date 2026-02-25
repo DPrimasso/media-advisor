@@ -18,6 +18,7 @@ const channelId = computed(() => route.params.id)
 const channel = computed(() =>
   channelsData?.value?.find((c) => c.id === channelId.value)
 )
+const hasAdvisor = computed(() => !!channel.value?.advisor)
 
 const channelAnalyses = computed(() => getChannelAnalyses(channelId.value) ?? [])
 
@@ -73,6 +74,11 @@ function onDetailKeydown(e) {
   if (e.key === 'Escape') closeDetail()
 }
 
+function openAdvisor() {
+  if (!hasAdvisor.value) return
+  router.push({ name: 'advisor', params: { id: channelId.value } })
+}
+
 async function loadChannelAnalysis(id) {
   if (!id) {
     channelAnalysis.value = null
@@ -108,9 +114,19 @@ onMounted(() => loadChannelAnalysis(channelId.value))
       </button>
     </div>
     <div v-else class="channel-content">
-      <button type="button" class="back-btn channel-back" @click="router.push({ name: 'home' })">
-        ← Tutti i canali
-      </button>
+      <div class="channel-header-actions">
+        <button type="button" class="back-btn channel-back" @click="router.push({ name: 'home' })">
+          ← Tutti i canali
+        </button>
+        <button
+          type="button"
+          class="advisor-open-btn"
+          :disabled="!hasAdvisor"
+          @click="openAdvisor"
+        >
+          {{ hasAdvisor ? 'Apri Creator Advisor →' : 'Advisor non disponibile' }}
+        </button>
+      </div>
 
       <section class="channel-banner">
         <div v-if="channelAnalysisLoading" class="channel-analysis-loading">
