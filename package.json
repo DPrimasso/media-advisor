@@ -17,6 +17,7 @@
     "eval:v2": "tsx src/pipeline/run-v2.ts",
     "eval:run": "tsx eval/run-eval.ts",
     "eval:advisor-quality": "tsx scripts/eval-advisor-quality.ts",
+    "eval:advisor-gate": "tsx scripts/eval-advisor-gate.ts",
     "prepare-public": "node web/scripts/prepare-public.js",
     "dev": "cd web && npm run dev",
     "build": "tsc"

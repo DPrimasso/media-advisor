@@ -58,12 +58,14 @@ Policy:
 1. `npm run run-list -- --channel=<id>`
 2. `npm run prepare-public`
 3. `cd web && npm run build`
+4. `npm run eval:advisor-gate -- --channel=<id> --min-fidelity=70`
 
 ## Post-run
 
 1. validare JSON advisor.
 2. aprire UI e testare percorso `/advisor/<id>`.
 3. archiviare risultati benchmark.
+4. verificare output quality gate (`PASS/FAIL`).
 
 ## 6) Incident response (light)
 

@@ -54,6 +54,7 @@ Override CLI disponibili:
 Script:
 
 - `npm run eval:advisor-quality`
+- `npm run eval:advisor-gate -- --channel=<id> --min-fidelity=70`
 
 Con baseline:
 
@@ -63,6 +64,12 @@ Con baseline:
 Output default:
 
 - `eval/advisor-quality-report.json`
+
+Gate script:
+
+- valida presenza `_advisor.json`
+- valida soglie minime (`--min-fidelity`, `--min-advisor-score`)
+- opzionale `--require-predictions-resolved`
 
 ## 6) Limiti (importanti)
 

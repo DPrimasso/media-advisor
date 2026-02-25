@@ -40,6 +40,7 @@ media-advisor/
 | `npm run eval:advisor-quality` | Report quality advisor su `analysis/*/_advisor.json` |
 | `npm run eval:advisor-quality -- --save-baseline=eval/advisor-quality-baseline.json` | Salva baseline per confronti futuri |
 | `npm run eval:advisor-quality -- --baseline=eval/advisor-quality-baseline.json` | Confronto before/after con baseline |
+| `npm run eval:advisor-gate -- --channel=<id> --min-fidelity=70` | Quality gate rollout per canale |
 | `cd web && npm run dev` | Avvia dashboard |
 
 ## Dashboard
@@ -73,6 +74,11 @@ Override CLI:
 - `npm run run-list -- --advisor=off`
 - `npm run run-list -- --advisor-predictions=off`
 - `npm run run-list -- --advisor-min-fidelity=70`
+
+Gate rapido rollout:
+
+- `npm run eval:advisor-gate -- --channel=<id> --min-fidelity=70`
+- `npm run eval:advisor-gate -- --min-fidelity=70 --min-advisor-score=60`
 
 ## API
 

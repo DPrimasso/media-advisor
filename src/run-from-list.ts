@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, appendFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir, appendFile, unlink } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -49,6 +49,16 @@ async function appendAdvisorRunLog(entry: Record<string, unknown>): Promise<void
     ...entry,
   });
   await appendFile(logPath, `${line}\n`, "utf-8");
+}
+
+async function removeAdvisorFileIfExists(channelAnalysisDir: string): Promise<void> {
+  const advisorPath = join(channelAnalysisDir, "_advisor.json");
+  if (!existsSync(advisorPath)) return;
+  try {
+    await unlink(advisorPath);
+  } catch {
+    // best effort cleanup
+  }
 }
 
 function extractVideoId(urlOrId: string): string | null {
@@ -315,6 +325,7 @@ export async function runFromList(
         });
       }
     } else {
+      await removeAdvisorFileIfExists(channelAnalysisDir);
       console.log(`[${channel.id}] Advisor disabled via ADVISOR_ENABLED/option`);
       await appendAdvisorRunLog({
         channel_id: channel.id,
