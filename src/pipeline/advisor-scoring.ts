@@ -46,6 +46,19 @@ export interface ChannelAdvisorBreakdown {
     hit: number;
     miss: number;
     unresolved: number;
+    items: Array<{
+      claim_id: string;
+      video_id: string;
+      published_at?: string;
+      entity: string;
+      topic: string;
+      stance: "POS" | "NEG" | "NEU" | "MIXED";
+      text: string;
+      status: "open" | "hit" | "miss";
+      confidence: number;
+      resolved_by_video_id?: string;
+      resolved_at?: string;
+    }>;
   };
   top_entities: Array<{
     entity: string;
@@ -164,6 +177,19 @@ function normalizedEntropy(values: number[]): number {
 
 function normalizeFromSet<T extends string>(value: string, allowed: readonly T[], fallback: T): T {
   return (allowed as readonly string[]).includes(value) ? (value as T) : fallback;
+}
+
+function dateMs(iso?: string): number | null {
+  if (!iso) return null;
+  const ms = new Date(iso).getTime();
+  return Number.isFinite(ms) ? ms : null;
+}
+
+function directionalStanceWeight(stance: Claim["stance"]): { pos: number; neg: number } {
+  if (stance === "POS") return { pos: 1, neg: 0 };
+  if (stance === "NEG") return { pos: 0, neg: 1 };
+  if (stance === "MIXED") return { pos: 0.5, neg: 0.5 };
+  return { pos: 0, neg: 0 };
 }
 
 function toStructuredClaim(claim: AnyClaim, videoId: string, idx: number): Claim {
@@ -302,19 +328,91 @@ export function buildChannelAdvisorReport(
     totalClaims > 0 ? clamp((weightedInconsistencies / totalClaims) * 220, 0, 100) : 0;
   const coherenceScore = clamp(Math.round(100 - coherencePenalty), 0, 100);
 
-  const predictionClaims = structuredClaims.filter((c) => c.claim_type === "PREDICTION");
+  const predictionClaims = structuredClaims
+    .filter((c) => c.claim_type === "PREDICTION")
+    .sort((a, b) => {
+      const da = dateMs(a.published_at);
+      const db = dateMs(b.published_at);
+      if (da == null && db == null) return a.video_id.localeCompare(b.video_id);
+      if (da == null) return 1;
+      if (db == null) return -1;
+      return da - db;
+    });
+
+  const predictionItems: ChannelAdvisorBreakdown["predictions"]["items"] = [];
+  let predictionHit = 0;
+  let predictionMiss = 0;
+
+  for (const pred of predictionClaims) {
+    const predDate = dateMs(pred.published_at);
+    const futureClaims = structuredClaims.filter((c) => {
+      if (c.video_id === pred.video_id) return false;
+      if (c.target_entity.toLowerCase() !== pred.target_entity.toLowerCase()) return false;
+      if (c.dimension !== pred.dimension) return false;
+      if (c.claim_type === "PREDICTION") return false;
+      if (predDate == null) return false;
+      const cDate = dateMs(c.published_at);
+      return cDate != null && cDate > predDate;
+    });
+
+    let status: "open" | "hit" | "miss" = "open";
+    let confidence = 0;
+    let resolvedByVideoId: string | undefined;
+    let resolvedAt: string | undefined;
+
+    if (futureClaims.length > 0 && (pred.stance === "POS" || pred.stance === "NEG")) {
+      let pos = 0;
+      let neg = 0;
+      for (const c of futureClaims) {
+        const w = directionalStanceWeight(c.stance);
+        pos += w.pos;
+        neg += w.neg;
+      }
+      const directionalTotal = pos + neg;
+      if (directionalTotal > 0 && pos !== neg) {
+        const majority: "POS" | "NEG" = pos > neg ? "POS" : "NEG";
+        status = majority === pred.stance ? "hit" : "miss";
+        confidence = clamp(Math.round((Math.abs(pos - neg) / directionalTotal) * 100), 0, 100);
+        if (status === "hit") predictionHit++;
+        else predictionMiss++;
+        const resolutionClaim = futureClaims.find(
+          (c) => (majority === "POS" && c.stance === "POS") || (majority === "NEG" && c.stance === "NEG")
+        );
+        resolvedByVideoId = resolutionClaim?.video_id;
+        resolvedAt = resolutionClaim?.published_at;
+      }
+    }
+
+    predictionItems.push({
+      claim_id: pred.claim_id,
+      video_id: pred.video_id,
+      published_at: pred.published_at,
+      entity: pred.target_entity,
+      topic: pred.dimension,
+      stance: pred.stance,
+      text: pred.claim_text,
+      status,
+      confidence,
+      resolved_by_video_id: resolvedByVideoId,
+      resolved_at: resolvedAt,
+    });
+  }
+
   const predictionBreakdown = {
     total: predictionClaims.length,
-    open: predictionClaims.length,
-    resolved: 0,
-    hit: 0,
-    miss: 0,
-    unresolved: predictionClaims.length,
+    open: predictionItems.filter((p) => p.status === "open").length,
+    resolved: predictionHit + predictionMiss,
+    hit: predictionHit,
+    miss: predictionMiss,
+    unresolved: predictionItems.filter((p) => p.status === "open").length,
+    items: predictionItems.slice(0, 30),
   };
   const predictionAccountability =
     predictionBreakdown.total === 0
       ? 50
-      : clamp(Math.round((predictionBreakdown.hit / predictionBreakdown.total) * 100), 0, 100);
+      : predictionBreakdown.resolved === 0
+        ? 0
+        : clamp(Math.round((predictionBreakdown.hit / predictionBreakdown.resolved) * 100), 0, 100);
 
   let absolutismCount = 0;
   for (const { claim } of claimsWithMeta) {

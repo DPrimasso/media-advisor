@@ -9,6 +9,7 @@ const { channelsData, loading, error } = inject('channelsData')
 const channelId = computed(() => route.params.id)
 const channel = computed(() => channelsData?.value?.find((c) => c.id === channelId.value))
 const advisor = computed(() => channel.value?.advisor || null)
+const predictionItems = computed(() => advisor.value?.breakdown?.predictions?.items || [])
 
 const metricCards = computed(() => {
   if (!advisor.value?.scores) return []
@@ -47,6 +48,12 @@ function scoreToneClass(score) {
   if (n >= 75) return 'good'
   if (n >= 55) return 'mid'
   return 'low'
+}
+
+function predictionStatusLabel(status) {
+  if (status === 'hit') return 'HIT'
+  if (status === 'miss') return 'MISS'
+  return 'OPEN'
 }
 </script>
 
@@ -122,6 +129,7 @@ function scoreToneClass(score) {
             <li><span>Resolved</span><strong>{{ advisor.breakdown?.predictions?.resolved ?? 0 }}</strong></li>
             <li><span>Hit</span><strong>{{ advisor.breakdown?.predictions?.hit ?? 0 }}</strong></li>
             <li><span>Miss</span><strong>{{ advisor.breakdown?.predictions?.miss ?? 0 }}</strong></li>
+            <li><span>Unresolved</span><strong>{{ advisor.breakdown?.predictions?.unresolved ?? 0 }}</strong></li>
           </ul>
         </article>
       </section>
@@ -147,6 +155,28 @@ function scoreToneClass(score) {
             </span>
           </div>
         </article>
+      </section>
+
+      <section class="advisor-panel">
+        <h3 class="topics-section-title">Prediction tracking</h3>
+        <p v-if="!predictionItems.length" class="topics-empty">Nessuna prediction estratta</p>
+        <div v-else class="advisor-prediction-list">
+          <article v-for="p in predictionItems" :key="p.claim_id" class="advisor-prediction-item">
+            <div class="advisor-prediction-head">
+              <span class="advisor-prediction-target">{{ p.entity }} · {{ p.topic }}</span>
+              <span class="advisor-status-pill" :class="p.status">
+                {{ predictionStatusLabel(p.status) }}
+              </span>
+            </div>
+            <p class="advisor-prediction-text">{{ p.text }}</p>
+            <div class="advisor-prediction-meta">
+              <span>Video {{ p.video_id }}</span>
+              <span>{{ formatDateTime(p.published_at) }}</span>
+              <span v-if="p.status !== 'open'">Confidenza {{ formatPct(p.confidence) }}</span>
+              <span v-if="p.resolved_by_video_id">Risolta da {{ p.resolved_by_video_id }}</span>
+            </div>
+          </article>
+        </div>
       </section>
     </div>
   </div>
