@@ -1562,8 +1562,9 @@ code {
 
 .advisor-inc-type {
   border-radius: var(--radius-pill);
-  padding: 0.1rem 0.45rem;
+  padding: 0.14rem 0.5rem;
   font-size: 0.7rem;
+  line-height: 1.2;
   font-weight: 700;
   border: 1px solid var(--border);
   text-transform: uppercase;
