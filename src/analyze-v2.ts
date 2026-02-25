@@ -10,6 +10,7 @@ import { extractClaimsFromSegment } from "./pipeline/extractor.js";
 import { aggregateVideoClaims } from "./pipeline/video-aggregator.js";
 import { filterBySpecificity } from "./pipeline/specificity-filter.js";
 import { normalizeClaimEntities } from "./pipeline/entity-normalizer.js";
+import { evaluateVideo } from "./pipeline/video-evaluator.js";
 import type { TranscriptResponse } from "./transcript-client.js";
 import type { Claim } from "./schema/claims.js";
 import type { AnalysisResult } from "./analyzer/types.js";
@@ -90,6 +91,22 @@ export async function analyzeVideoV2(opts: AnalyzeV2Options): Promise<AnalysisRe
 
   const compatClaims = (analysis.claims ?? []).map(toCompatClaim);
 
+  let evaluation: import("./analyzer/types.js").VideoEvaluation | undefined;
+  try {
+    evaluation = await evaluateVideo(openai, {
+      summary: analysis.summary_short,
+      claims: analysis.claims ?? [],
+      themes: analysis.themes ?? [],
+      metadata: {
+        title: metadata?.title ?? data.metadata?.title,
+        published_at: metadata?.published_at ?? data.metadata?.published_at,
+        opinionist: channelId,
+      },
+    });
+  } catch (e) {
+    console.error(`[evaluateVideo] ${videoId}:`, (e as Error).message);
+  }
+
   return {
     video_id: videoId,
     analyzed_at: new Date().toISOString(),
@@ -106,5 +123,6 @@ export async function analyzeVideoV2(opts: AnalyzeV2Options): Promise<AnalysisRe
       relevance: weightToRelevance(t.weight),
     })),
     claims: compatClaims as import("./analyzer/types.js").AnalysisResult["claims"],
+    evaluation,
   };
 }

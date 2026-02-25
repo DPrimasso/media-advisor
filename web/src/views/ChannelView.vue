@@ -2,6 +2,7 @@
 import { ref, computed, watch, onMounted, nextTick, inject } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { aggregateTopicsByTime } from '../composables/useTopicAggregation'
+import EvaluationScores from '../components/EvaluationScores.vue'
 
 const route = useRoute()
 const router = useRouter()
@@ -92,6 +93,49 @@ async function loadChannelAnalysis(id) {
   }
 }
 
+const aggregateEvalFromVideos = computed(() => {
+  const evals = channelAnalyses.value
+    .map((a) => a.evaluation)
+    .filter((e) => !!e)
+  if (evals.length === 0) return null
+
+  const avg = (getter) => Math.round(evals.reduce((s, e) => s + (getter(e) || 0), 0) / evals.length)
+
+  const toneCounts = {}
+  const techCounts = {}
+  for (const e of evals) {
+    for (const t of e.emotional_tone || []) toneCounts[t] = (toneCounts[t] || 0) + 1
+    for (const t of e.rhetorical_techniques || []) techCounts[t.technique] = (techCounts[t.technique] || 0) + 1
+  }
+
+  return {
+    factuality_index: avg((e) => e.factuality_index),
+    objectivity_index: avg((e) => e.objectivity_index),
+    argumentation_quality: avg((e) => e.argumentation_quality),
+    information_density: avg((e) => e.information_density),
+    sensationalism_index: avg((e) => e.sensationalism_index),
+    source_reliability: avg((e) => e.source_reliability),
+    overall_credibility: avg((e) => e.overall_credibility),
+    common_emotional_tones: Object.entries(toneCounts).sort((a, b) => b[1] - a[1]).slice(0, 5).map(([t]) => t),
+    common_rhetorical_techniques: Object.entries(techCounts).sort((a, b) => b[1] - a[1]).slice(0, 8).map(([technique, occurrences]) => ({ technique, occurrences })),
+    videos_evaluated: evals.length,
+  }
+})
+
+function credScoreClass(val) {
+  if (val >= 70) return 'score-high'
+  if (val >= 40) return 'score-mid'
+  return 'score-low'
+}
+
+function credLabel(val) {
+  if (val >= 80) return 'Molto affidabile'
+  if (val >= 60) return 'Affidabile'
+  if (val >= 40) return 'Parzialmente affidabile'
+  if (val >= 20) return 'Poco affidabile'
+  return 'Non affidabile'
+}
+
 watch(channelId, (id) => loadChannelAnalysis(id || ''))
 
 onMounted(() => loadChannelAnalysis(channelId.value))
@@ -174,6 +218,69 @@ onMounted(() => loadChannelAnalysis(channelId.value))
         <p v-else class="topics-empty">Nessun video negli ultimi 30 giorni</p>
       </section>
 
+      <section v-if="channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos" class="channel-eval-section">
+        <div class="channel-eval-header">
+          <h3 class="channel-eval-title">Valutazione Creator</h3>
+          <span class="channel-eval-badge">
+            {{ aggregateEvalFromVideos?.videos_evaluated || channelAnalysis?.aggregate_evaluation?.videos_evaluated || 0 }} video valutati
+          </span>
+        </div>
+        <div
+          v-if="(channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos)?.overall_credibility != null"
+          class="channel-eval-credibility"
+        >
+          <span
+            class="channel-eval-cred-score"
+            :class="credScoreClass((channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos).overall_credibility)"
+          >
+            {{ (channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos).overall_credibility }}
+          </span>
+          <div class="channel-eval-cred-details">
+            <span class="channel-eval-cred-label">
+              Credibilit&agrave; complessiva
+            </span>
+            <span class="channel-eval-cred-sub">
+              {{ credLabel((channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos).overall_credibility) }}
+            </span>
+          </div>
+        </div>
+        <EvaluationScores
+          :evaluation="channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos"
+          compact
+        />
+        <div
+          v-if="(channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos)?.common_rhetorical_techniques?.length"
+          class="eval-section"
+        >
+          <h4 class="eval-section-title">Tecniche retoriche pi&ugrave; frequenti</h4>
+          <div class="channel-eval-common-techniques">
+            <div
+              v-for="t in (channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos).common_rhetorical_techniques.slice(0, 5)"
+              :key="t.technique"
+              class="channel-eval-tech-row"
+            >
+              <span class="channel-eval-tech-name">{{ t.technique }}</span>
+              <span class="channel-eval-tech-count">{{ t.occurrences }} video</span>
+            </div>
+          </div>
+        </div>
+        <div
+          v-if="(channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos)?.common_emotional_tones?.length"
+          class="eval-section"
+        >
+          <h4 class="eval-section-title">Registro emotivo abituale</h4>
+          <div class="eval-tags">
+            <span
+              v-for="t in (channelAnalysis?.aggregate_evaluation || aggregateEvalFromVideos).common_emotional_tones"
+              :key="t"
+              class="eval-tag tone-tag"
+            >
+              {{ t }}
+            </span>
+          </div>
+        </div>
+      </section>
+
       <section class="channel-videos-section">
         <div class="channel-videos-header">
           <h3 class="channel-videos-title">Video analizzati</h3>
@@ -215,6 +322,10 @@ onMounted(() => loadChannelAnalysis(channelId.value))
                 <span v-if="a.metadata?.published_at" class="video-card-date">
                   {{ formatDate(a.metadata.published_at) }}
                 </span>
+              </div>
+              <div v-if="a.evaluation" class="video-card-eval-badge" :class="credScoreClass(a.evaluation.overall_credibility)">
+                <span class="video-card-eval-score">{{ a.evaluation.overall_credibility }}</span>
+                <span class="video-card-eval-label">credibilit&agrave;</span>
               </div>
               <p class="video-card-summary">{{ a.summary || '—' }}</p>
               <div v-if="(a.topics || []).length" class="video-card-topics">
@@ -313,6 +424,10 @@ onMounted(() => loadChannelAnalysis(channelId.value))
                   {{ t.theme || t.name }}
                 </span>
               </div>
+            </section>
+            <section v-if="detailAnalysis.evaluation" class="detail-section">
+              <h3 class="detail-section-title">Valutazione qualit&agrave;</h3>
+              <EvaluationScores :evaluation="detailAnalysis.evaluation" />
             </section>
             <section v-if="(detailAnalysis.claims || []).length" class="detail-section">
               <h3 class="detail-section-title">Top claim</h3>

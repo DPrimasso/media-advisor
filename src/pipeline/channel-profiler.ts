@@ -1,8 +1,8 @@
 /**
- * Step 5 — Channel profiler: stance by entity, top themes, language patterns.
+ * Step 5 — Channel profiler: stance by entity, top themes, language patterns, evaluation aggregates.
  */
 
-import type { Claim, VideoAnalysis } from "../schema/claims.js";
+import type { Claim, VideoAnalysis, VideoEvaluation } from "../schema/claims.js";
 
 export interface EntityStance {
   entity: string;
@@ -12,6 +12,27 @@ export interface EntityStance {
   pos_count: number;
   neg_count: number;
   neu_count: number;
+}
+
+export interface AggregateEvaluation {
+  factuality_index: number;
+  objectivity_index: number;
+  argumentation_quality: number;
+  information_density: number;
+  sensationalism_index: number;
+  source_reliability: number;
+  overall_credibility: number;
+  common_emotional_tones: string[];
+  common_rhetorical_techniques: { technique: string; occurrences: number }[];
+  avg_content_breakdown: {
+    facts_pct: number;
+    opinions_pct: number;
+    predictions_pct: number;
+    prescriptions_pct: number;
+  };
+  common_strengths: string[];
+  common_weaknesses: string[];
+  videos_evaluated: number;
 }
 
 export interface ChannelProfile {
@@ -26,6 +47,7 @@ export interface ChannelProfile {
   };
   signature_claim_clusters: string[];
   total_claims: number;
+  aggregate_evaluation?: AggregateEvaluation;
 }
 
 const ABSOLUTE_PATTERNS = /\b(sempre|mai|tutti|nessuno|sempre|assolutamente|certamente|definitivamente)\b/i;
@@ -103,6 +125,8 @@ export function buildChannelProfile(
     .slice(0, 8)
     .map(([t]) => t);
 
+  const aggregateEval = buildAggregateEvaluation(analyses);
+
   return {
     channel_id: channelId,
     top_themes: topThemes,
@@ -115,5 +139,67 @@ export function buildChannelProfile(
     },
     signature_claim_clusters: signatureClusters,
     total_claims: allClaims.length,
+    aggregate_evaluation: aggregateEval,
+  };
+}
+
+function buildAggregateEvaluation(analyses: VideoAnalysis[]): AggregateEvaluation | undefined {
+  const evals = analyses
+    .map((a) => a.evaluation)
+    .filter((e): e is VideoEvaluation => !!e);
+
+  if (evals.length === 0) return undefined;
+
+  const avg = (getter: (e: VideoEvaluation) => number) =>
+    Math.round(evals.reduce((s, e) => s + getter(e), 0) / evals.length);
+
+  const toneCounts = new Map<string, number>();
+  for (const e of evals) {
+    for (const t of e.emotional_tone ?? []) {
+      toneCounts.set(t, (toneCounts.get(t) ?? 0) + 1);
+    }
+  }
+  const commonTones = [...toneCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5)
+    .map(([t]) => t);
+
+  const techCounts = new Map<string, number>();
+  for (const e of evals) {
+    for (const t of e.rhetorical_techniques ?? []) {
+      techCounts.set(t.technique, (techCounts.get(t.technique) ?? 0) + 1);
+    }
+  }
+  const commonTechs = [...techCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 8)
+    .map(([technique, occurrences]) => ({ technique, occurrences }));
+
+  const strengthCounts = new Map<string, number>();
+  const weaknessCounts = new Map<string, number>();
+  for (const e of evals) {
+    for (const s of e.key_strengths ?? []) strengthCounts.set(s, (strengthCounts.get(s) ?? 0) + 1);
+    for (const w of e.key_weaknesses ?? []) weaknessCounts.set(w, (weaknessCounts.get(w) ?? 0) + 1);
+  }
+
+  return {
+    factuality_index: avg((e) => e.factuality_index),
+    objectivity_index: avg((e) => e.objectivity_index),
+    argumentation_quality: avg((e) => e.argumentation_quality),
+    information_density: avg((e) => e.information_density),
+    sensationalism_index: avg((e) => e.sensationalism_index),
+    source_reliability: avg((e) => e.source_reliability),
+    overall_credibility: avg((e) => e.overall_credibility),
+    common_emotional_tones: commonTones,
+    common_rhetorical_techniques: commonTechs,
+    avg_content_breakdown: {
+      facts_pct: avg((e) => e.content_type_breakdown?.facts_pct ?? 0),
+      opinions_pct: avg((e) => e.content_type_breakdown?.opinions_pct ?? 0),
+      predictions_pct: avg((e) => e.content_type_breakdown?.predictions_pct ?? 0),
+      prescriptions_pct: avg((e) => e.content_type_breakdown?.prescriptions_pct ?? 0),
+    },
+    common_strengths: [...strengthCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([s]) => s),
+    common_weaknesses: [...weaknessCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([s]) => s),
+    videos_evaluated: evals.length,
   };
 }
