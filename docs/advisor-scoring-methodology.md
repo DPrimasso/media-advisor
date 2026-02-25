@@ -60,6 +60,7 @@ Con baseline:
 
 - `npm run eval:advisor-quality -- --baseline eval/advisor-quality-baseline.json`
 - `npm run eval:advisor-quality -- --save-baseline eval/advisor-quality-baseline.json`
+- `npm run eval:advisor-quality -- --baseline eval/advisor-quality-baseline.json --min-delta-simple-advisor-score=-2 --min-delta-weighted-advisor-score=-2`
 
 Output default:
 
@@ -70,6 +71,12 @@ Gate script:
 - valida presenza `_advisor.json`
 - valida soglie minime (`--min-fidelity`, `--min-advisor-score`)
 - opzionale `--require-predictions-resolved`
+
+Opzioni regressione (script quality):
+
+- `--require-baseline=true|false`
+- `--min-delta-simple-advisor-score=<num>`
+- `--min-delta-weighted-advisor-score=<num>`
 
 ## 6) Limiti (importanti)
 

@@ -58,9 +58,26 @@ function parseArgs(args: string[]): {
   outPath: string;
   baselinePath?: string;
   saveBaselinePath?: string;
+  requireBaseline: boolean;
+  minDeltaSimpleAdvisorScore?: number;
+  minDeltaWeightedAdvisorScore?: number;
 } {
   const getArg = (key: string): string | undefined =>
     args.find((a) => a.startsWith(`--${key}=`))?.split("=")[1];
+  const getNumber = (key: string): number | undefined => {
+    const raw = getArg(key);
+    if (!raw) return undefined;
+    const n = Number(raw);
+    return Number.isFinite(n) ? n : undefined;
+  };
+  const getBoolean = (key: string, fallback = false): boolean => {
+    const raw = getArg(key);
+    if (!raw) return fallback;
+    const norm = raw.trim().toLowerCase();
+    if (["1", "true", "yes", "on"].includes(norm)) return true;
+    if (["0", "false", "no", "off"].includes(norm)) return false;
+    return fallback;
+  };
 
   const out = getArg("out");
   const baseline = getArg("baseline");
@@ -70,6 +87,9 @@ function parseArgs(args: string[]): {
     outPath: out ? resolve(process.cwd(), out) : DEFAULT_OUT,
     baselinePath: baseline ? resolve(process.cwd(), baseline) : undefined,
     saveBaselinePath: saveBaseline ? resolve(process.cwd(), saveBaseline) : undefined,
+    requireBaseline: getBoolean("require-baseline", false),
+    minDeltaSimpleAdvisorScore: getNumber("min-delta-simple-advisor-score"),
+    minDeltaWeightedAdvisorScore: getNumber("min-delta-weighted-advisor-score"),
   };
 }
 
@@ -254,6 +274,37 @@ async function main() {
     );
   } else if (args.baselinePath) {
     console.log(`baseline not found or invalid: ${args.baselinePath}`);
+  }
+
+  if (args.requireBaseline && !report.comparison) {
+    console.error("advisor-eval: baseline required but missing/invalid");
+    process.exit(1);
+  }
+
+  if (
+    report.comparison &&
+    typeof args.minDeltaSimpleAdvisorScore === "number" &&
+    report.comparison.aggregate_delta_simple_mean.advisor_score <
+      args.minDeltaSimpleAdvisorScore
+  ) {
+    console.error(
+      `advisor-eval: delta simple advisor_score ${report.comparison.aggregate_delta_simple_mean.advisor_score} ` +
+        `< min ${args.minDeltaSimpleAdvisorScore}`
+    );
+    process.exit(1);
+  }
+
+  if (
+    report.comparison &&
+    typeof args.minDeltaWeightedAdvisorScore === "number" &&
+    report.comparison.aggregate_delta_weighted_by_claims.advisor_score <
+      args.minDeltaWeightedAdvisorScore
+  ) {
+    console.error(
+      `advisor-eval: delta weighted advisor_score ${report.comparison.aggregate_delta_weighted_by_claims.advisor_score} ` +
+        `< min ${args.minDeltaWeightedAdvisorScore}`
+    );
+    process.exit(1);
   }
 }
 

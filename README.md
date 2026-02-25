@@ -86,6 +86,12 @@ CI quality gate:
 - trigger automatico su PR verso `main/master`
 - trigger manuale con input (`channel`, `min_fidelity`, `min_advisor_score`)
 
+CI nightly regression:
+
+- workflow schedulato: `.github/workflows/advisor-quality-nightly.yml`
+- usa baseline repo: `eval/advisor-quality-baseline.json`
+- fallisce se i delta advisor score scendono sotto soglia configurata
+
 ## API
 
 - **TranscriptAPI.com** – trascrizioni YouTube (credit-based)

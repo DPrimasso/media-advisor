@@ -1,0 +1,51 @@
+{
+  "generated_at": "2026-02-25T15:54:33.032Z",
+  "source": {
+    "analysis_dir": "/workspace/analysis"
+  },
+  "aggregate": {
+    "channels_total": 1,
+    "channels_with_advisor": 1,
+    "simple_mean": {
+      "advisor_score": 73,
+      "evidence_coverage": 100,
+      "evidence_fidelity": 100,
+      "specificity_score": 47,
+      "coherence_score": 93,
+      "prediction_accountability": 0,
+      "bias_concentration": 79,
+      "absolutism_rate": 0,
+      "topic_diversity": 79
+    },
+    "weighted_by_claims": {
+      "advisor_score": 73,
+      "evidence_coverage": 100,
+      "evidence_fidelity": 100,
+      "specificity_score": 47,
+      "coherence_score": 93,
+      "prediction_accountability": 0,
+      "bias_concentration": 79,
+      "absolutism_rate": 0,
+      "topic_diversity": 79
+    }
+  },
+  "channels": [
+    {
+      "channel_id": "neschio",
+      "channel_name": "Neschio",
+      "videos_analyzed": 13,
+      "claims_analyzed": 137,
+      "scores": {
+        "advisor_score": 73,
+        "evidence_coverage": 100,
+        "evidence_fidelity": 100,
+        "specificity_score": 47,
+        "coherence_score": 93,
+        "prediction_accountability": 0,
+        "bias_concentration": 79,
+        "absolutism_rate": 0,
+        "topic_diversity": 79
+      }
+    }
+  ]
+}

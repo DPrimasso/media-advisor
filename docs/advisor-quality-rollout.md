@@ -51,6 +51,8 @@ CI consigliata:
 
 - workflow `.github/workflows/advisor-quality-gate.yml`
 - blocca PR se `eval:advisor-gate` fallisce
+- workflow `.github/workflows/advisor-quality-nightly.yml` (scheduled)
+- usa baseline `eval/advisor-quality-baseline.json` per regression gate
 
 ## Pre-run
 

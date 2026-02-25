@@ -1,0 +1,90 @@
+name: advisor-quality-nightly
+
+on:
+  schedule:
+    - cron: "30 5 * * *"
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: "Channel id da validare (vuoto = tutti)"
+        required: false
+        default: "neschio"
+      min_fidelity:
+        description: "Soglia minima evidence_fidelity"
+        required: false
+        default: "70"
+      min_advisor_score:
+        description: "Soglia minima advisor_score"
+        required: false
+        default: "60"
+      min_delta_simple:
+        description: "Delta minimo simple_mean advisor_score vs baseline"
+        required: false
+        default: "-2"
+      min_delta_weighted:
+        description: "Delta minimo weighted_mean advisor_score vs baseline"
+        required: false
+        default: "-2"
+      require_baseline:
+        description: "Fail se baseline non presente"
+        required: false
+        default: "false"
+
+permissions:
+  contents: read
+
+jobs:
+  nightly-gate:
+    runs-on: ubuntu-latest
+    env:
+      ADVISOR_CHANNEL: ${{ github.event.inputs.channel || 'neschio' }}
+      ADVISOR_MIN_FIDELITY: ${{ github.event.inputs.min_fidelity || '70' }}
+      ADVISOR_MIN_SCORE: ${{ github.event.inputs.min_advisor_score || '60' }}
+      ADVISOR_MIN_DELTA_SIMPLE: ${{ github.event.inputs.min_delta_simple || '-2' }}
+      ADVISOR_MIN_DELTA_WEIGHTED: ${{ github.event.inputs.min_delta_weighted || '-2' }}
+      ADVISOR_REQUIRE_BASELINE: ${{ github.event.inputs.require_baseline || 'false' }}
+      ADVISOR_BASELINE_PATH: eval/advisor-quality-baseline.json
+      ADVISOR_REPORT_PATH: eval/advisor-quality-nightly-report.json
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Build web
+        run: npm run build --prefix web
+
+      - name: Advisor quality gate
+        run: >
+          npm run eval:advisor-gate -- --
+          --channel=${ADVISOR_CHANNEL}
+          --min-fidelity=${ADVISOR_MIN_FIDELITY}
+          --min-advisor-score=${ADVISOR_MIN_SCORE}
+
+      - name: Advisor quality delta check
+        run: >
+          npm run eval:advisor-quality -- --
+          --baseline=${ADVISOR_BASELINE_PATH}
+          --out=${ADVISOR_REPORT_PATH}
+          --require-baseline=${ADVISOR_REQUIRE_BASELINE}
+          --min-delta-simple-advisor-score=${ADVISOR_MIN_DELTA_SIMPLE}
+          --min-delta-weighted-advisor-score=${ADVISOR_MIN_DELTA_WEIGHTED}
+
+      - name: Upload nightly advisor artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: advisor-quality-nightly
+          path: |
+            eval/advisor-quality-nightly-report.json
+            eval/advisor-quality-baseline.json
+          if-no-files-found: warn
