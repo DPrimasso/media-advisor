@@ -45,46 +45,45 @@ function normalizeAnalysis(
     .filter((t): t is { name: string; relevance: "high" | "medium" | "low" } => !!t);
 
   const claimsRaw = Array.isArray(raw.claims) ? raw.claims : [];
-  const claims = claimsRaw
-    .map((c) => {
-      if (!c || typeof c !== "object") return null;
-      const obj = c as Record<string, unknown>;
-      const topic =
-        typeof obj.topic === "string"
-          ? obj.topic
-          : typeof obj.dimension === "string"
-            ? obj.dimension
-            : "";
-      const position =
-        typeof obj.position === "string"
-          ? obj.position
-          : typeof obj.claim_text === "string"
-            ? obj.claim_text
-            : "";
-      if (!topic || !position) return null;
-      const subject =
-        typeof obj.subject === "string"
-          ? obj.subject
-          : typeof obj.target_entity === "string"
-            ? obj.target_entity
-            : undefined;
-      const polarity =
-        obj.polarity === "positive" || obj.polarity === "negative" || obj.polarity === "neutral"
-          ? obj.polarity
-          : obj.stance === "POS"
-            ? "positive"
-            : obj.stance === "NEG"
-              ? "negative"
-              : "neutral";
-      return {
-        ...obj,
-        topic,
-        subject,
-        position,
-        polarity,
-      };
-    })
-    .filter((c): c is NonNullable<AnalysisResult["claims"]>[number] => !!c);
+  const claims: NonNullable<AnalysisResult["claims"]> = [];
+  for (const c of claimsRaw) {
+    if (!c || typeof c !== "object") continue;
+    const obj = c as Record<string, unknown>;
+    const topic =
+      typeof obj.topic === "string"
+        ? obj.topic
+        : typeof obj.dimension === "string"
+          ? obj.dimension
+          : "";
+    const position =
+      typeof obj.position === "string"
+        ? obj.position
+        : typeof obj.claim_text === "string"
+          ? obj.claim_text
+          : "";
+    if (!topic || !position) continue;
+    const subject =
+      typeof obj.subject === "string"
+        ? obj.subject
+        : typeof obj.target_entity === "string"
+          ? obj.target_entity
+          : undefined;
+    const polarity =
+      obj.polarity === "positive" || obj.polarity === "negative" || obj.polarity === "neutral"
+        ? obj.polarity
+        : obj.stance === "POS"
+          ? "positive"
+          : obj.stance === "NEG"
+            ? "negative"
+            : "neutral";
+    claims.push({
+      ...obj,
+      topic,
+      subject,
+      position,
+      polarity,
+    });
+  }
 
   const qualityRaw =
     raw.quality && typeof raw.quality === "object"
