@@ -12,6 +12,8 @@ const totalCount = computed(
   () => channelsData.value?.reduce((sum, ch) => sum + ch.analyses.length, 0) ?? 0
 )
 
+const pendingCount = ref(0)
+
 function initTheme() {
   const stored = localStorage.getItem('media-advisor-theme')
   const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches
@@ -25,7 +27,13 @@ function toggleTheme() {
   document.documentElement.setAttribute('data-theme', theme.value)
 }
 
-onMounted(initTheme)
+onMounted(() => {
+  initTheme()
+  fetch('/api/pending')
+    .then((r) => r.ok ? r.json() : null)
+    .then((data) => { pendingCount.value = data?.items?.length ?? 0 })
+    .catch(() => {})
+})
 </script>
 
 <template>
@@ -64,6 +72,7 @@ onMounted(initTheme)
             :class="{ active: $route.path === '/inbox' }"
           >
             Inbox
+            <span v-if="pendingCount" class="pill-badge">{{ pendingCount }}</span>
           </router-link>
           <router-link
             v-for="ch in channelList"

@@ -1,6 +1,10 @@
 # Dependencies & build
 node_modules/
 dist/
+build/
+.venv/
+.python-version
+*.egg-info/
 
 # Environment
 .env
@@ -15,3 +19,9 @@ web/public/analysis/
 .vscode/
 *.swp
 *.swo
+
+# Python caches
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/

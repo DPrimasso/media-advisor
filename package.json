@@ -13,11 +13,13 @@
     "add-punto-chiaro": "tsx scripts/add-punto-chiaro.ts",
     "migrate-transcripts": "tsx scripts/migrate-transcripts.ts",
     "backfill-dates": "tsx scripts/backfill-dates.ts",
+    "auto-update": "tsx src/cli-auto-update.ts",
     "eval:baseline": "tsx eval/run-baseline.ts",
     "eval:v2": "tsx src/pipeline/run-v2.ts",
     "eval:run": "tsx eval/run-eval.ts",
     "prepare-public": "node web/scripts/prepare-public.js",
-    "dev": "cd web && npm run dev",
+    "dev": "concurrently -n s,w \"npm run server\" \"npm run dev:web\"",
+    "dev:web": "npm run dev --prefix web",
     "build": "tsc"
   },
   "dependencies": {
@@ -29,6 +31,7 @@
   "devDependencies": {
     "@types/express": "^4.17.21",
     "@types/node": "^22.10.0",
+    "concurrently": "^9.2.1",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
   }

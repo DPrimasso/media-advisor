@@ -58,7 +58,21 @@ Per ogni SEGMENTO di transcript:
 5. claim_text: sintesi atomica in 1 frase (max ~20 parole)
 6. dimension: performance, tactics, market, finance, leadership, injury, lineup_prediction, refereeing, fan_behavior, standings, europe, rivalry, media
 7. claim_type: FACT, OBSERVATION, INTERPRETATION, JUDGEMENT, PRESCRIPTION, PREDICTION, META_INFO_QUALITY
-8. micro_themes: 1-3 temi del segmento con weight 0-100`;
+8. micro_themes: 1-3 temi del segmento con weight 0-100 — usa nomi in italiano, al singolare, senza maiuscole (es. "infortunio", "mercato", "tattica")
+
+REGOLE IMPORTANTI:
+- NON estrarre claim meta sull'autore/host del video (es. "X è appassionato di Y", "X si chiama Y", "X risponde alle domande", "X vuole analizzare", "l'opinionista fa/dice")
+- NON estrarre claim su intro, saluti, call-to-action o parti di auto-presentazione
+- NON estrarre claim che descrivono il formato del video invece del contenuto calcistico
+- ESTRAI solo posizioni, fatti, interpretazioni, previsioni concreti su giocatori/squadre/eventi specifici
+- target_entity deve essere un calciatore, squadra, allenatore, arbitro — NON "opinionista", "autore", "commentatore", "community"
+
+REGOLE DI PRECISIONE:
+- Se un'entità viene CITATA come paragone/precedente/esempio (es. "come ha fatto X"), NON costruire un claim del tipo "X ha commentato Y" — costruisci invece "X è citato come precedente per Y"
+- Le dichiarazioni di lealtà di un giocatore verso la squadra DEVONO essere estratte come claim separato (claim_type: FACT, dimension: leadership)
+- Il SILENZIO o la mancanza di comunicazione di una squadra è dimension "media", NON "performance" o "tactics"
+- La perdita di un familiare o evento personale di un giocatore è dimension "leadership" (aspetto morale/motivazionale), NON "injury"
+- EVITA di estrarre più claim che affermano la stessa sostanza con parole diverse (es. "ha avuto infortuni" + "ha avuto problemi fisici" + "non si sentiva bene" sullo stesso soggetto nello stesso segmento = estrai UN solo claim, il più specifico con quote migliore)`;
 
 export interface ExtractorInput {
   segment: Segment;
@@ -134,7 +148,7 @@ export async function extractClaimsFromSegment(
       dimension: c.dimension as Claim["dimension"],
       claim_type: c.claim_type as Claim["claim_type"],
       stance: c.stance as Claim["stance"],
-      intensity: Math.min(3, Math.max(0, c.intensity ?? 1)) as 0 | 1 | 2 | 3,
+      intensity: Math.round(Math.min(3, Math.max(0, c.intensity ?? 1))) as 0 | 1 | 2 | 3,
       modality: c.modality as Claim["modality"],
       claim_text: c.claim_text,
       evidence_quotes: [quote],

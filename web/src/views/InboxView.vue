@@ -60,7 +60,7 @@ async function loadPending() {
       pending.value = { fetched_at: null, items: [] }
     }
   } catch (e) {
-    message.value = { type: 'error', text: e.message }
+    message.value = { type: 'error', text: e?.message ?? String(e) }
     pending.value = { fetched_at: null, items: [] }
   } finally {
     loading.value = false
@@ -81,7 +81,7 @@ async function fetchNow() {
     selected.value = new Set()
     message.value = { type: 'success', text: `${data.items?.length ?? 0} nuovi video trovati` }
   } catch (e) {
-    message.value = { type: 'error', text: e.message }
+    message.value = { type: 'error', text: e?.message ?? String(e) }
   } finally {
     fetching.value = false
   }
@@ -109,7 +109,7 @@ async function confirmSelected() {
     message.value = { type: 'success', text: `${data.confirmed} video confermati. Transcript e analisi in corso.` }
     await loadPending()
   } catch (e) {
-    message.value = { type: 'error', text: e.message }
+    message.value = { type: 'error', text: e?.message ?? String(e) }
   } finally {
     confirming.value = false
   }

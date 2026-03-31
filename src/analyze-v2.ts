@@ -10,6 +10,7 @@ import { extractClaimsFromSegment } from "./pipeline/extractor.js";
 import { aggregateVideoClaims } from "./pipeline/video-aggregator.js";
 import { filterBySpecificity } from "./pipeline/specificity-filter.js";
 import { normalizeClaimEntities } from "./pipeline/entity-normalizer.js";
+import { generateSummary } from "./pipeline/summarizer.js";
 import type { TranscriptResponse } from "./transcript-client.js";
 import type { Claim } from "./schema/claims.js";
 import type { AnalysisResult } from "./analyzer/types.js";
@@ -20,9 +21,10 @@ function stanceToPolarity(s: string): "positive" | "negative" | "neutral" {
   return "neutral";
 }
 
-function weightToRelevance(w: number): "high" | "medium" | "low" {
-  if (w >= 20) return "high";
-  if (w >= 10) return "medium";
+function weightToRelevance(w: number, rank: number): "high" | "medium" | "low" {
+  if (rank === 0) return "high";
+  if (rank <= 2) return "high";
+  if (rank <= 5) return "medium";
   return "low";
 }
 
@@ -74,11 +76,29 @@ export async function analyzeVideoV2(opts: AnalyzeV2Options): Promise<AnalysisRe
     allThemes.push(...themes);
   }
 
-  const filtered = filterBySpecificity(allClaims);
-  const summaryShort =
-    (metadata?.title ?? data.metadata?.title ?? "Video") +
-    " — " +
-    (metadata?.published_at ?? data.metadata?.published_at ?? "").slice(0, 10);
+  // Drop meta-claims about the journalist/host (self-introduction, format descriptions)
+  const META_CLAIM = /\b(appassionato|l'opinionista|l'autore|si chiama|è un commentatore|parla di calcio|è il canale|è il creatore|vuole rispondere|risponde ai fan|risponde alle domande)\b/i;
+  const META_ENTITY = /^(opinionista|autore|commentatore|valerio fluido|valerio|creator|host)$/i;
+
+  // Drop misattributed claims: entities cited as comparison/precedent but labelled as "commented on"
+  // e.g. De Bruyne appears as a rehab reference, not as a commentator on Lukaku
+  const MISATTRIBUTED_ENTITY = /^(de bru[yi]n[e]?|debruyne?)$/i;
+  const MISATTRIBUTED_VERB = /\b(ha commentato|commenta(ndo)?|ha dichiarato|ha detto|ha parlato di|ha espresso)\b/i;
+
+  const filtered = filterBySpecificity(allClaims).filter(
+    (c) =>
+      !META_CLAIM.test(c.claim_text) &&
+      !META_ENTITY.test(c.target_entity ?? "") &&
+      !(MISATTRIBUTED_ENTITY.test(c.target_entity ?? "") && MISATTRIBUTED_VERB.test(c.claim_text))
+  );
+
+  const fullText = clean.map((s) => s.text).join(" ");
+  const summaryShort = await generateSummary(openai, {
+    title: metadata?.title ?? data.metadata?.title,
+    author: data.metadata?.author_name ?? channelId,
+    fullText,
+    claims: filtered,
+  });
 
   const analysis = aggregateVideoClaims(
     filtered,
@@ -101,9 +121,9 @@ export async function analyzeVideoV2(opts: AnalyzeV2Options): Promise<AnalysisRe
         }
       : undefined,
     summary: analysis.summary_short,
-    topics: (analysis.themes ?? []).map((t) => ({
+    topics: (analysis.themes ?? []).map((t, i) => ({
       name: t.theme,
-      relevance: weightToRelevance(t.weight),
+      relevance: weightToRelevance(t.weight, i),
     })),
     claims: compatClaims as import("./analyzer/types.js").AnalysisResult["claims"],
   };

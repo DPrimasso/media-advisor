@@ -1,6 +1,6 @@
 import dotenv from "dotenv";
-import { existsSync, readFileSync, writeFileSync } from "node:fs";
-import { resolve, dirname, join } from "node:path";
+import { existsSync } from "node:fs";
+import { resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawnSync } from "node:child_process";
 
@@ -16,67 +16,14 @@ for (const base of [process.cwd(), root]) {
 dotenv.config();
 
 import { runFromList } from "./run-from-list.js";
-
-const transcriptKey = process.env.TRANSCRIPT_API_KEY;
-const openaiKey = process.env.OPENAI_API_KEY;
-
-if (!transcriptKey) {
-  console.error("Missing TRANSCRIPT_API_KEY in .env");
-  process.exit(1);
-}
-if (!openaiKey) {
-  console.error("Missing OPENAI_API_KEY in .env");
-  process.exit(1);
-}
-
-/** Merge pending into channel lists, then clear pending */
-function mergePendingIntoChannels() {
-  const channelsDir = join(root, "channels");
-  const pendingPath = join(channelsDir, "pending.json");
-  if (!existsSync(pendingPath)) return 0;
-  const raw = readFileSync(pendingPath, "utf-8");
-  const pending = JSON.parse(raw) as { items: { channel_id: string; video_id: string }[] };
-  if (!pending.items?.length) return 0;
-
-  const channelsPath = join(channelsDir, "channels.json");
-  const config = JSON.parse(readFileSync(channelsPath, "utf-8")) as {
-    channels: { id: string; video_list: string }[];
-  };
-  const channelMap = new Map(config.channels.map((c) => [c.id, c.video_list]));
-  const toAppend = new Map<string, string[]>();
-
-  for (const { channel_id, video_id } of pending.items) {
-    const listFile = channelMap.get(channel_id);
-    if (!listFile) continue;
-    const listPath = join(channelsDir, listFile);
-    if (!existsSync(listPath)) continue;
-    if (!toAppend.has(listPath)) toAppend.set(listPath, []);
-    toAppend.get(listPath)!.push(`https://www.youtube.com/watch?v=${video_id}`);
-  }
-
-  let added = 0;
-  for (const [listPath, urls] of toAppend) {
-    const existing = JSON.parse(readFileSync(listPath, "utf-8")) as string[];
-    const existingIds = new Set(
-      existing.map((u) => u.match(/v=([a-zA-Z0-9_-]{11})/)?.[1]).filter(Boolean)
-    );
-    const combined = [...existing];
-    for (const url of urls) {
-      const id = url.match(/v=([a-zA-Z0-9_-]{11})/)?.[1];
-      if (id && !existingIds.has(id)) {
-        combined.push(url);
-        existingIds.add(id);
-        added++;
-      }
-    }
-    writeFileSync(listPath, JSON.stringify(combined, null, 2), "utf-8");
-  }
-
-  writeFileSync(pendingPath, JSON.stringify({ fetched_at: null, items: [] }, null, 2), "utf-8");
-  return added;
-}
+import { mergePendingIntoChannels } from "./merge-pending.js";
 
 async function main() {
+  const transcriptKey = process.env.TRANSCRIPT_API_KEY;
+  const openaiKey = process.env.OPENAI_API_KEY;
+  if (!transcriptKey) throw new Error("TRANSCRIPT_API_KEY missing");
+  if (!openaiKey) throw new Error("OPENAI_API_KEY missing");
+
   const args = process.argv.slice(2);
   const forceTranscript = args.includes("--force-transcript");
   const forceAnalyze = args.includes("--force-analyze");
@@ -86,7 +33,7 @@ async function main() {
   const channelId = args.find((a) => a.startsWith("--channel="))?.split("=")[1];
 
   if (fromPending) {
-    const added = mergePendingIntoChannels();
+    const added = mergePendingIntoChannels(root);
     console.log(`[from-pending] Added ${added} videos to channel lists, cleared pending`);
   }
 
