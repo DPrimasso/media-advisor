@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(python -c \"import pydantic_ai\")",
+      "Bash(python -c \"import pydantic_ai; print\\(pydantic_ai.__version__\\)\")",
+      "Bash(where python:*)",
+      "Bash(pip show:*)",
+      "Bash(\"C:/Users/daniele.primasso/AppData/Local/Programs/Python/Python313/python.exe\" -c \"import pydantic_ai; print\\(pydantic_ai.__version__\\)\")",
+      "Bash(PY=\"C:/Users/daniele.primasso/AppData/Local/Programs/Python/Python313/python.exe\")",
+      "Bash(\"$PY\" -c \":*)",
+      "Bash(PY=\"C:/Users/daniele.primasso/AppData/Local/Programs/Python/Python313/python.exe\" cd \"c:/Users/daniele.primasso/OneDrive - TRANSFILMS SRL/Desktop/lavoro/personal/media-advisor\" \"$PY\" -m media_advisor.validate)",
+      "Read(//c/Users/daniele.primasso/OneDrive/**)"
+    ]
+  }
+}
