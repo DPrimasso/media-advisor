@@ -548,22 +548,22 @@ def cmd_mercato_scan(
 @app.command("mercato-outcome")
 def cmd_mercato_outcome(
     tip_id: str = typer.Argument(..., help="tip_id della tip da aggiornare"),
-    outcome: str = typer.Argument(..., help="true | false | partial"),
+    outcome: str = typer.Argument(..., help="non_verificata | confermata | parziale | smentita"),
     notes: Optional[str] = typer.Option(None, "--notes", help="Note sull'esito"),
 ) -> None:
-    """Marca l'esito di un'indiscrezione di mercato (true/false/partial)."""
+    """Marca manualmente l'esito di un'indiscrezione di mercato."""
     from typing import cast
 
     from media_advisor.mercato.analyzer import update_tip_outcome
     from media_advisor.mercato.models import OutcomeValue
 
-    valid: set[str] = {"true", "false", "partial"}
+    valid: set[str] = {"non_verificata", "confermata", "parziale", "smentita"}
     if outcome not in valid:
-        typer.echo(f"Outcome non valido: {outcome}. Usa: true | false | partial", err=True)
+        typer.echo(f"Outcome non valido: {outcome}. Usa: {' | '.join(sorted(valid))}", err=True)
         raise typer.Exit(1)
 
     try:
-        update_tip_outcome(_root(), tip_id, cast(OutcomeValue, outcome), notes)
+        update_tip_outcome(_root(), tip_id, cast(OutcomeValue, outcome), notes, source="manual")
         typer.echo(f"Tip {tip_id} aggiornata: outcome={outcome}")
     except FileNotFoundError as e:
         typer.echo(str(e), err=True)
@@ -571,6 +571,137 @@ def cmd_mercato_outcome(
     except KeyError as e:
         typer.echo(str(e), err=True)
         raise typer.Exit(1)
+
+
+# ---------------------------------------------------------------------------
+# mercato-add-transfer
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-add-transfer")
+def cmd_mercato_add_transfer(
+    player: str = typer.Option(..., "--player", help="Nome del giocatore"),
+    to_club: str = typer.Option(..., "--to", help="Club di destinazione"),
+    from_club: Optional[str] = typer.Option(None, "--from", help="Club di provenienza"),
+    transfer_type: str = typer.Option("unknown", "--type", help="loan | permanent | free_agent | extension | unknown"),
+    season: str = typer.Option(..., "--season", help="Stagione, es. 2025-26"),
+    date: str = typer.Option(..., "--date", help="Data ufficialità (YYYY-MM-DD)"),
+    url: Optional[str] = typer.Option(None, "--url", help="Link Transfermarkt"),
+    notes: Optional[str] = typer.Option(None, "--notes", help="Note aggiuntive"),
+) -> None:
+    """Aggiunge un trasferimento ufficiale al database (inserimento manuale)."""
+    from datetime import datetime, timezone
+
+    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, player_slug as make_slug
+
+    try:
+        confirmed_at = datetime.strptime(date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        typer.echo("Formato data non valido. Usa YYYY-MM-DD (es. 2026-07-01)", err=True)
+        raise typer.Exit(1)
+
+    record = TransferRecord(
+        player_name=player,
+        player_slug=make_slug(player),
+        from_club=from_club,
+        to_club=to_club,
+        transfer_type=transfer_type,  # type: ignore[arg-type]
+        season=season,
+        confirmed_at=confirmed_at,
+        source="manual",
+        source_url=url,
+        notes=notes,
+    )
+    saved = add_transfer(_root(), record)
+    typer.echo(f"✓ Trasferimento aggiunto: {saved.player_name} → {saved.to_club} ({saved.transfer_type})")
+
+    # Verifica automatica
+    from media_advisor.mercato.verifier import verify_all_pending
+    updated = verify_all_pending(_root())
+    if updated:
+        typer.echo(f"  → {len(updated)} tip aggiornate automaticamente:")
+        for u in updated:
+            typer.echo(f"    {u['player_name']} → {u['to_club']}: {u['outcome']}")
+
+
+# ---------------------------------------------------------------------------
+# mercato-fetch-transfers
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-fetch-transfers")
+def cmd_mercato_fetch_transfers(
+    player: str = typer.Option(..., "--player", help="Nome del giocatore da cercare su Transfermarkt"),
+    season: Optional[str] = typer.Option(None, "--season", help="Filtro stagione es. 2025"),
+) -> None:
+    """Scarica i trasferimenti di un giocatore da Transfermarkt e li salva nel database."""
+    from media_advisor.mercato.scraper import ScraperError, fetch_player_transfers
+    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, get_all_transfers, player_slug as make_slug
+
+    typer.echo(f"Cerco trasferimenti per '{player}' su Transfermarkt...")
+    try:
+        raw = fetch_player_transfers(player, season)
+    except ScraperError as e:
+        typer.echo(f"Errore scraping: {e}", err=True)
+        raise typer.Exit(1)
+
+    if not raw:
+        typer.echo("Nessun trasferimento trovato.")
+        return
+
+    existing = get_all_transfers(_root())
+    existing_keys = {(t.player_slug, t.to_club or "", t.season) for t in existing}
+    added_count = 0
+
+    for item in raw:
+        slug = make_slug(item["player_name"])
+        key = (slug, item.get("to_club") or "", item.get("season", ""))
+        if key in existing_keys:
+            continue
+        record = TransferRecord(
+            player_name=item["player_name"],
+            player_slug=slug,
+            from_club=item.get("from_club"),
+            to_club=item.get("to_club"),
+            transfer_type=item.get("transfer_type", "unknown"),  # type: ignore[arg-type]
+            season=item.get("season", ""),
+            confirmed_at=item["confirmed_at"],
+            source="transfermarkt",
+            source_url=item.get("source_url"),
+        )
+        add_transfer(_root(), record)
+        existing_keys.add(key)
+        added_count += 1
+        typer.echo(f"  + {record.player_name} → {record.to_club} ({record.transfer_type}, {record.season})")
+
+    typer.echo(f"\n{added_count} trasferimento/i aggiunto/i.")
+
+    from media_advisor.mercato.verifier import verify_all_pending
+    updated = verify_all_pending(_root())
+    if updated:
+        typer.echo(f"{len(updated)} tip aggiornate:")
+        for u in updated:
+            typer.echo(f"  {u['player_name']} → {u['to_club']}: {u['outcome']}")
+
+
+# ---------------------------------------------------------------------------
+# mercato-verify
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-verify")
+def cmd_mercato_verify() -> None:
+    """Verifica tutte le tip non_verificata contro il database trasferimenti."""
+    from media_advisor.mercato.verifier import verify_all_pending
+
+    typer.echo("Verifica tip in corso...")
+    updated = verify_all_pending(_root())
+    if not updated:
+        typer.echo("Nessuna tip aggiornata (nessun trasferimento nel database o nessuna tip non_verificata).")
+        return
+    typer.echo(f"{len(updated)} tip aggiornate:")
+    for u in updated:
+        typer.echo(f"  {u['player_name']} → {u['to_club']}: {u['outcome']}")
 
 
 # ---------------------------------------------------------------------------

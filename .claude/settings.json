@@ -10,7 +10,10 @@
       "Bash(PY=\"C:/Users/daniele.primasso/AppData/Local/Programs/Python/Python313/python.exe\")",
       "Bash(\"$PY\" -c \":*)",
       "Bash(PY=\"C:/Users/daniele.primasso/AppData/Local/Programs/Python/Python313/python.exe\" cd \"c:/Users/daniele.primasso/OneDrive - TRANSFILMS SRL/Desktop/lavoro/personal/media-advisor\" \"$PY\" -m media_advisor.validate)",
-      "Read(//c/Users/daniele.primasso/OneDrive/**)"
+      "Read(//c/Users/daniele.primasso/OneDrive/**)",
+      "Bash(python -m pip install curl_cffi beautifulsoup4 -q)",
+      "Bash(python -m pip install \"curl_cffi>=0.7.0\" \"beautifulsoup4>=4.12.0\")",
+      "Bash(python -c \"from media_advisor.mercato.models import MercatoTip, OutcomeValue; from media_advisor.mercato.transfer_db import TransferRecord, TransferIndex; from media_advisor.mercato.verifier import verify_tip; from media_advisor.mercato.scraper import ScraperError; print\\('OK - tutti i moduli importati correttamente'\\)\")"
     ]
   }
 }

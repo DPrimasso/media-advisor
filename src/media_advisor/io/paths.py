@@ -38,3 +38,8 @@ def mercato_tips_path(root: Path, channel_id: str, video_id: str) -> Path:
 def mercato_index_path(root: Path) -> Path:
     """mercato/index.json"""
     return root / "mercato" / "index.json"
+
+
+def transfers_index_path(root: Path) -> Path:
+    """mercato/transfers.json"""
+    return root / "mercato" / "transfers.json"

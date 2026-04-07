@@ -44,11 +44,15 @@ def update_tip_outcome(
     tip_id: str,
     outcome: OutcomeValue,
     notes: str | None = None,
+    source: str = "manual",
 ) -> MercatoTip:
     """Aggiorna l'esito di una tip nell'index globale.
 
     Restituisce la tip aggiornata. Solleva KeyError se non trovata.
     """
+    from typing import cast
+    from media_advisor.mercato.models import OutcomeSource
+
     idx_path = mercato_index_path(root)
     data = read_json_or_default(idx_path)
     if data is None:
@@ -61,7 +65,8 @@ def update_tip_outcome(
 
     tip.outcome = outcome
     tip.outcome_updated_at = datetime.now(timezone.utc)
-    if notes:
+    tip.outcome_source = cast(OutcomeSource, source)
+    if notes is not None:
         tip.outcome_notes = notes
 
     _save_index(root, index)

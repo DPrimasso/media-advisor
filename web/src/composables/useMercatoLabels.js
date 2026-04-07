@@ -1,8 +1,14 @@
 export const OUTCOME_LABELS = {
-  pending: 'In attesa',
-  true: 'Vera',
-  false: 'Falsa',
-  partial: 'Parziale',
+  non_verificata: 'Non verificata',
+  confermata: 'Confermata',
+  parziale: 'Parziale',
+  smentita: 'Smentita',
+}
+
+export const OUTCOME_SOURCE_LABELS = {
+  manual: 'manuale',
+  transfermarkt: 'TM',
+  auto: 'auto',
 }
 
 export const CONFIDENCE_LABELS = {
@@ -13,10 +19,10 @@ export const CONFIDENCE_LABELS = {
 }
 
 export const OUTCOME_CLASSES = {
-  pending: 'outcome-pending',
-  true: 'outcome-true',
-  false: 'outcome-false',
-  partial: 'outcome-partial',
+  non_verificata: 'outcome-pending',
+  confermata: 'outcome-true',
+  parziale: 'outcome-partial',
+  smentita: 'outcome-false',
 }
 
 export const CONFIDENCE_CLASSES = {

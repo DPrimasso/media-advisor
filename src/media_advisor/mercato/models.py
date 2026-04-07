@@ -3,12 +3,21 @@
 from datetime import datetime
 from typing import Literal
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 
 TransferType = Literal["loan", "permanent", "free_agent", "extension", "unknown"]
 ConfidenceLevel = Literal["rumor", "likely", "confirmed", "denied"]
-OutcomeValue = Literal["pending", "true", "false", "partial"]
+OutcomeValue = Literal["non_verificata", "confermata", "parziale", "smentita"]
+OutcomeSource = Literal["manual", "transfermarkt", "auto"]
+
+# Mapping per compatibilità backward con JSON creati prima della migrazione
+_OUTCOME_MIGRATION: dict[str, OutcomeValue] = {
+    "pending": "non_verificata",
+    "true": "confermata",
+    "false": "smentita",
+    "partial": "parziale",
+}
 
 
 class MercatoTip(BaseModel):
@@ -31,13 +40,22 @@ class MercatoTip(BaseModel):
     quote_end_sec: float | None = None
 
     # Outcome
-    outcome: OutcomeValue = "pending"
+    outcome: OutcomeValue = "non_verificata"
     outcome_updated_at: datetime | None = None
     outcome_notes: str | None = None
+    outcome_source: OutcomeSource = "manual"
 
     # Corroborazione semi-auto
     corroborated_by: list[str] = Field(default_factory=list)  # video_ids
     corroboration_score: float = 0.0     # 0-1
+
+    @field_validator("outcome", mode="before")
+    @classmethod
+    def migrate_outcome(cls, v: object) -> object:
+        """Converte i vecchi valori di outcome (pending/true/false/partial) nei nuovi."""
+        if isinstance(v, str):
+            return _OUTCOME_MIGRATION.get(v, v)
+        return v
 
 
 class VideoMercatoResult(BaseModel):

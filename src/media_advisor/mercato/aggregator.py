@@ -85,6 +85,93 @@ def get_all_players(root: Path) -> list[PlayerSummary]:
     return sorted(summaries, key=lambda p: p.total_tips, reverse=True)
 
 
+def _slug_name(name: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", name.lower())
+
+
+def _clubs_match(a: str | None, b: str | None) -> bool:
+    if not a or not b:
+        return False
+    sa, sb = _slug_name(a), _slug_name(b)
+    return sa == sb or (len(sa) >= 3 and (sa in sb or sb in sa))
+
+
+def build_tip_context(all_tips: list[MercatoTip]) -> dict[str, dict]:
+    """Per ogni tip, calcola le tip correlate divise per canale e coerenza.
+
+    Stesso canale, video diverso:
+      - stesso to_club (o entrambi None) → "same_channel_consistent" (coerente)
+      - to_club diversi → "same_channel_inconsistent" (incoerente)
+
+    Canale diverso:
+      - stesso to_club (o entrambi None) → "other_channel_confirming" (conferma)
+      - to_club diversi → "other_channel_contradicting" (smentita)
+    """
+    from collections import defaultdict
+
+    by_player: dict[str, list[MercatoTip]] = defaultdict(list)
+    for tip in all_tips:
+        by_player[_player_slug(tip.player_name)].append(tip)
+
+    context: dict[str, dict] = {}
+
+    for tip in all_tips:
+        slug = _player_slug(tip.player_name)
+        player_tips = by_player[slug]
+
+        same_consistent: list[dict] = []
+        same_inconsistent: list[dict] = []
+        other_confirming: list[dict] = []
+        other_contradicting: list[dict] = []
+
+        for other in player_tips:
+            if other.tip_id == tip.tip_id:
+                continue
+            if other.video_id == tip.video_id:
+                continue  # stesso video, skip
+
+            preview = {
+                "tip_id": other.tip_id,
+                "channel_id": other.channel_id,
+                "tip_text": other.tip_text,
+                "to_club": other.to_club,
+                "from_club": other.from_club,
+                "mentioned_at": other.mentioned_at.isoformat(),
+                "outcome": other.outcome,
+                "confidence": other.confidence,
+            }
+
+            clubs_agree = _clubs_match(tip.to_club, other.to_club) or (not tip.to_club and not other.to_club)
+            clubs_conflict = tip.to_club and other.to_club and not _clubs_match(tip.to_club, other.to_club)
+            # Anche stesso club ma una "denied" e l'altra no = incoerente/smentita
+            confidence_conflict = (
+                clubs_agree
+                and (tip.confidence == "denied") != (other.confidence == "denied")
+            )
+
+            same_channel = other.channel_id == tip.channel_id
+
+            if same_channel:
+                if clubs_conflict or confidence_conflict:
+                    same_inconsistent.append(preview)
+                elif clubs_agree:
+                    same_consistent.append(preview)
+            else:
+                if clubs_conflict or confidence_conflict:
+                    other_contradicting.append(preview)
+                elif clubs_agree:
+                    other_confirming.append(preview)
+
+        context[tip.tip_id] = {
+            "same_channel_consistent": same_consistent,
+            "same_channel_inconsistent": same_inconsistent,
+            "other_channel_confirming": other_confirming,
+            "other_channel_contradicting": other_contradicting,
+        }
+
+    return context
+
+
 def get_channel_stats(root: Path) -> list[ChannelVeracityStats]:
     """Calcola veracity score per ogni canale."""
     all_tips = get_all_tips(root)

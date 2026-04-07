@@ -151,13 +151,52 @@ async def post_fetch_now() -> Any:
 
 
 class OutcomeRequest(BaseModel):
-    outcome: str   # "true" | "false" | "partial"
+    outcome: str   # "non_verificata" | "confermata" | "parziale" | "smentita"
     notes: str | None = None
+    source: str = "manual"
 
 
 class MercatoAnalyzeRequest(BaseModel):
     video_id: str
     channel_id: str
+
+
+class AddTransferRequest(BaseModel):
+    player_name: str
+    from_club: str | None = None
+    to_club: str
+    transfer_type: str = "unknown"
+    season: str
+    confirmed_at: str           # ISO date string es. "2026-07-01"
+    source_url: str | None = None
+    notes: str | None = None
+
+
+class FetchTransfersRequest(BaseModel):
+    player_name: str
+    season: str | None = None   # es. "2025" (anno di inizio)
+
+
+def _enrich_tips(tips: list, all_tips: list) -> list[dict]:
+    """Aggiunge le 4 categorie di tip correlate a ogni tip dict."""
+    from media_advisor.mercato.aggregator import build_tip_context
+    context = build_tip_context(all_tips)
+    _empty: dict = {
+        "same_channel_consistent": [],
+        "same_channel_inconsistent": [],
+        "other_channel_confirming": [],
+        "other_channel_contradicting": [],
+    }
+    result = []
+    for t in tips:
+        d = t.model_dump(mode="json")
+        ctx = context.get(t.tip_id, _empty)
+        d["same_channel_consistent"] = ctx["same_channel_consistent"]
+        d["same_channel_inconsistent"] = ctx["same_channel_inconsistent"]
+        d["other_channel_confirming"] = ctx["other_channel_confirming"]
+        d["other_channel_contradicting"] = ctx["other_channel_contradicting"]
+        result.append(d)
+    return result
 
 
 @app.get("/api/mercato/tips")
@@ -167,7 +206,8 @@ async def get_mercato_tips(
     outcome: str | None = None,
 ) -> Any:
     from media_advisor.mercato.aggregator import get_all_tips
-    tips = get_all_tips(_root)
+    all_tips = get_all_tips(_root)
+    tips = all_tips
     if player:
         tips = [t for t in tips if player.lower() in t.player_name.lower()]
     if channel:
@@ -175,7 +215,7 @@ async def get_mercato_tips(
     if outcome:
         tips = [t for t in tips if t.outcome == outcome]
     tips_sorted = sorted(tips, key=lambda t: t.mentioned_at, reverse=True)
-    return [t.model_dump(mode="json") for t in tips_sorted]
+    return _enrich_tips(tips_sorted, all_tips)
 
 
 @app.get("/api/mercato/players")
@@ -191,11 +231,14 @@ async def get_mercato_players() -> Any:
 
 @app.get("/api/mercato/players/{player_slug}")
 async def get_mercato_player(player_slug: str) -> Any:
-    from media_advisor.mercato.aggregator import get_tips_for_player
+    from media_advisor.mercato.aggregator import get_all_tips, get_tips_for_player
     player = get_tips_for_player(_root, player_slug)
     if player is None:
         raise HTTPException(status_code=404, detail="Giocatore non trovato")
-    return player.model_dump(mode="json")
+    all_tips = get_all_tips(_root)
+    d = player.model_dump(mode="json")
+    d["tips"] = _enrich_tips(player.tips, all_tips)
+    return d
 
 
 @app.get("/api/mercato/channels/stats")
@@ -212,17 +255,135 @@ async def post_mercato_outcome(tip_id: str, body: OutcomeRequest) -> Any:
     from media_advisor.mercato.analyzer import update_tip_outcome
     from media_advisor.mercato.models import OutcomeValue
 
-    valid = {"true", "false", "partial"}
+    valid = {"non_verificata", "confermata", "parziale", "smentita"}
     if body.outcome not in valid:
         raise HTTPException(status_code=400, detail=f"outcome deve essere: {valid}")
 
     try:
-        update_tip_outcome(_root, tip_id, cast(OutcomeValue, body.outcome), body.notes)
+        update_tip_outcome(_root, tip_id, cast(OutcomeValue, body.outcome), body.notes, body.source)
     except FileNotFoundError as e:
         raise HTTPException(status_code=404, detail=str(e))
     except KeyError as e:
         raise HTTPException(status_code=404, detail=str(e))
     return {"ok": True, "tip_id": tip_id, "outcome": body.outcome}
+
+
+@app.post("/api/mercato/tip/{tip_id}/verify")
+async def post_mercato_verify_tip(tip_id: str) -> Any:
+    """Verifica una singola tip contro il database trasferimenti."""
+    from media_advisor.mercato.verifier import verify_single_tip
+    result = verify_single_tip(_root, tip_id)
+    if result is None:
+        raise HTTPException(status_code=404, detail="Tip non trovata")
+    return result
+
+
+@app.post("/api/mercato/verify")
+async def post_mercato_verify_all() -> Any:
+    """Verifica tutte le tip non_verificata contro il database trasferimenti."""
+    from media_advisor.mercato.verifier import verify_all_pending
+    updated = verify_all_pending(_root)
+    return {"ok": True, "updated": len(updated), "results": updated}
+
+
+@app.get("/api/mercato/transfers")
+async def get_mercato_transfers(player: str | None = None) -> Any:
+    """Lista tutti i trasferimenti ufficiali nel database."""
+    from media_advisor.mercato.transfer_db import get_all_transfers
+    transfers = get_all_transfers(_root)
+    if player:
+        transfers = [t for t in transfers if player.lower() in t.player_name.lower()]
+    transfers_sorted = sorted(transfers, key=lambda t: t.confirmed_at, reverse=True)
+    return [t.model_dump(mode="json") for t in transfers_sorted]
+
+
+@app.post("/api/mercato/transfers")
+async def post_mercato_add_transfer(body: AddTransferRequest) -> Any:
+    """Aggiunge un trasferimento confermato manualmente."""
+    from datetime import datetime, timezone
+
+    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, player_slug as make_slug
+
+    try:
+        confirmed_at = datetime.fromisoformat(body.confirmed_at).replace(tzinfo=timezone.utc)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="confirmed_at deve essere una data ISO (es. 2026-07-01)")
+
+    record = TransferRecord(
+        player_name=body.player_name,
+        player_slug=make_slug(body.player_name),
+        from_club=body.from_club,
+        to_club=body.to_club,
+        transfer_type=body.transfer_type,  # type: ignore[arg-type]
+        season=body.season,
+        confirmed_at=confirmed_at,
+        source="manual",
+        source_url=body.source_url,
+        notes=body.notes,
+    )
+    saved = add_transfer(_root, record)
+
+    # Avvia verifica automatica in background per le tip di questo giocatore
+    from media_advisor.mercato.verifier import verify_all_pending
+    verify_all_pending(_root)
+
+    return saved.model_dump(mode="json")
+
+
+@app.delete("/api/mercato/transfers/{transfer_id}")
+async def delete_mercato_transfer(transfer_id: str) -> Any:
+    """Rimuove un trasferimento dal database."""
+    from media_advisor.mercato.transfer_db import remove_transfer
+    found = remove_transfer(_root, transfer_id)
+    if not found:
+        raise HTTPException(status_code=404, detail="Trasferimento non trovato")
+    return {"ok": True, "transfer_id": transfer_id}
+
+
+@app.post("/api/mercato/transfers/fetch")
+async def post_mercato_fetch_transfers(body: FetchTransfersRequest) -> Any:
+    """Scarica i trasferimenti di un giocatore da Transfermarkt e li salva."""
+    from media_advisor.mercato.scraper import ScraperError, fetch_player_transfers
+    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, get_all_transfers, player_slug as make_slug
+
+    try:
+        raw = fetch_player_transfers(body.player_name, body.season)
+    except ScraperError as e:
+        raise HTTPException(status_code=502, detail=str(e))
+
+    if not raw:
+        return {"ok": True, "added": 0, "message": "Nessun trasferimento trovato su Transfermarkt"}
+
+    # Evita duplicati: confronta player_slug + to_club + season
+    existing = get_all_transfers(_root)
+    existing_keys = {(t.player_slug, t.to_club or "", t.season) for t in existing}
+
+    added = []
+    for item in raw:
+        slug = make_slug(item["player_name"])
+        key = (slug, item.get("to_club") or "", item.get("season", ""))
+        if key in existing_keys:
+            continue
+        record = TransferRecord(
+            player_name=item["player_name"],
+            player_slug=slug,
+            from_club=item.get("from_club"),
+            to_club=item.get("to_club"),
+            transfer_type=item.get("transfer_type", "unknown"),  # type: ignore[arg-type]
+            season=item.get("season", ""),
+            confirmed_at=item["confirmed_at"],
+            source="transfermarkt",
+            source_url=item.get("source_url"),
+        )
+        add_transfer(_root, record)
+        existing_keys.add(key)
+        added.append(record.model_dump(mode="json"))
+
+    # Verifica automatica dopo aver aggiunto i nuovi trasferimenti
+    from media_advisor.mercato.verifier import verify_all_pending
+    verify_all_pending(_root)
+
+    return {"ok": True, "added": len(added), "transfers": added}
 
 
 @app.post("/api/mercato/analyze")
