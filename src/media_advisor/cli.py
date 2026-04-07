@@ -320,5 +320,283 @@ def cmd_analyze(
     asyncio.run(_run())
 
 
+# ---------------------------------------------------------------------------
+# mercato-analyze
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-analyze")
+def cmd_mercato_analyze(
+    video_id: str = typer.Argument(..., help="Video ID"),
+    channel: str = typer.Option(..., "--channel", help="Channel id"),
+    model: str = typer.Option("gpt-4o-mini", "--model"),
+    force: bool = typer.Option(False, "--force", help="Re-analizza anche se già presente"),
+) -> None:
+    """Analizza un singolo video per indiscrezioni di mercato (transcript già salvato)."""
+    s = _get_settings()
+    if not s.transcript_api_key:
+        typer.echo("Error: TRANSCRIPT_API_KEY not set", err=True)
+        raise typer.Exit(1)
+    if not s.openai_api_key:
+        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+        raise typer.Exit(1)
+
+    from media_advisor.mercato.analyzer import analyze_video_mercato
+    from media_advisor.transcript_api.client import TranscriptClient
+    from media_advisor.io.json_io import read_json, write_json
+    from media_advisor.io.paths import transcript_path
+    from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
+    from media_advisor.models.channels import ChannelsConfig
+
+    def _get_channel_url(root) -> str | None:
+        try:
+            cfg = ChannelsConfig.model_validate(read_json(root / "channels" / "channels.json"))
+            ch = next((c for c in cfg.channels if c.id == channel), None)
+            return (ch.fetch_rule.channel_url if ch and ch.fetch_rule else None)  # type: ignore[attr-defined]
+        except Exception:
+            return None
+
+    async def _ensure_transcript_metadata(root) -> None:
+        t_path = transcript_path(root, channel, video_id)
+        if not t_path.exists():
+            return
+        raw = read_json(t_path)
+        tr = TranscriptResponse.model_validate(raw)
+        if tr.metadata and tr.metadata.published_at:
+            return
+
+        channel_url = _get_channel_url(root)
+        if not channel_url:
+            return
+
+        client = TranscriptClient(s.transcript_api_key)
+        try:
+            latest = await client.get_channel_latest(channel_url)
+            results = latest.get("results", []) if isinstance(latest, dict) else []
+            match = next((it for it in results if it.get("videoId") == tr.video_id), None)
+            if not match:
+                return
+            published = match.get("published") or match.get("published_at")
+            title = match.get("title")
+            if not published and not title:
+                return
+            meta = tr.metadata or VideoMetadata()
+            meta = meta.model_copy(
+                update={
+                    "published_at": published or meta.published_at,
+                    "title": title or meta.title,
+                }
+            )
+            tr2 = tr.model_copy(update={"metadata": meta})
+            write_json(t_path, tr2.model_dump(mode="json"))
+        except Exception:
+            return
+
+    async def _run() -> None:
+        await _ensure_transcript_metadata(_root())
+        result = await analyze_video_mercato(
+            root=_root(),
+            video_id=video_id,
+            channel_id=channel,
+            api_key=s.openai_api_key,
+            model=model,
+            force=force,
+        )
+        typer.echo(f"Tip trovate: {len(result.tips)}")
+        for tip in result.tips:
+            # Keep CLI output ASCII-safe on Windows consoles (cp1252).
+            clubs = f"{tip.from_club or '?'} -> {tip.to_club or '?'}"
+            typer.echo(f"  [{tip.confidence}] {tip.player_name} ({clubs}): {tip.tip_text}")
+
+    asyncio.run(_run())
+
+
+# ---------------------------------------------------------------------------
+# mercato-scan
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-scan")
+def cmd_mercato_scan(
+    channel: Optional[str] = typer.Option(None, "--channel", help="Limita a un canale"),
+    model: str = typer.Option("gpt-4o-mini", "--model"),
+    force: bool = typer.Option(False, "--force", help="Re-analizza anche se già presente"),
+) -> None:
+    """Scansiona i transcript già scaricati e analizza quelli con titolo mercato."""
+    import re as _re
+
+    s = _get_settings()
+    if not s.transcript_api_key:
+        typer.echo("Error: TRANSCRIPT_API_KEY not set", err=True)
+        raise typer.Exit(1)
+    if not s.openai_api_key:
+        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+        raise typer.Exit(1)
+
+    root = _root()
+    _MERCATO_KW = _re.compile(
+        r"\b(mercato|trattativa|acquisto|cessione|rinnovo|accordo|trasferimento|prestito)\b",
+        _re.IGNORECASE,
+    )
+
+    from media_advisor.io.json_io import read_json
+    from media_advisor.mercato.analyzer import analyze_video_mercato
+    from media_advisor.transcript_api.client import TranscriptClient
+    from media_advisor.io.json_io import write_json
+    from media_advisor.io.paths import transcript_path
+    from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
+    from media_advisor.models.channels import ChannelsConfig
+
+    transcripts_root = root / "transcripts"
+    if not transcripts_root.exists():
+        typer.echo("Nessun transcript trovato.")
+        return
+
+    channel_dirs = (
+        [transcripts_root / channel] if channel else list(transcripts_root.iterdir())
+    )
+
+    async def _run() -> None:
+        from media_advisor.mercato.analyzer import update_index_with_new_tips
+        from media_advisor.mercato.models import MercatoTip
+
+        # Cache latest results per channel (one API call per channel).
+        latest_cache: dict[str, list[dict]] = {}
+
+        def _get_channel_url(ch_id: str) -> str | None:
+            try:
+                cfg = ChannelsConfig.model_validate(read_json(root / "channels" / "channels.json"))
+                ch = next((c for c in cfg.channels if c.id == ch_id), None)
+                return (ch.fetch_rule.channel_url if ch and ch.fetch_rule else None)  # type: ignore[attr-defined]
+            except Exception:
+                return None
+
+        async def _ensure_metadata(ch_id: str, vid: str) -> None:
+            t_path = transcript_path(root, ch_id, vid)
+            if not t_path.exists():
+                return
+            raw = read_json(t_path)
+            tr = TranscriptResponse.model_validate(raw)
+            if tr.metadata and tr.metadata.published_at:
+                return
+            channel_url = _get_channel_url(ch_id)
+            if not channel_url:
+                return
+            if ch_id not in latest_cache:
+                client = TranscriptClient(s.transcript_api_key)
+                data = await client.get_channel_latest(channel_url)
+                latest_cache[ch_id] = data.get("results", []) if isinstance(data, dict) else []
+            match = next((it for it in latest_cache[ch_id] if it.get("videoId") == tr.video_id), None)
+            if not match:
+                return
+            published = match.get("published") or match.get("published_at")
+            title = match.get("title")
+            if not published and not title:
+                return
+            meta = tr.metadata or VideoMetadata()
+            meta = meta.model_copy(
+                update={
+                    "published_at": published or meta.published_at,
+                    "title": title or meta.title,
+                }
+            )
+            tr2 = tr.model_copy(update={"metadata": meta})
+            write_json(t_path, tr2.model_dump(mode="json"))
+
+        total, analyzed, skipped = 0, 0, 0
+        all_new_tips: list[MercatoTip] = []
+        for ch_dir in channel_dirs:
+            if not ch_dir.is_dir():
+                continue
+            ch_id = ch_dir.name
+            for t_file in sorted(ch_dir.glob("*.json")):
+                vid = t_file.stem
+                total += 1
+                try:
+                    data = read_json(t_file)
+                    title = (data.get("metadata") or {}).get("title") or ""
+                    if not _MERCATO_KW.search(title):
+                        skipped += 1
+                        continue
+                    await _ensure_metadata(ch_id, vid)
+                    result = await analyze_video_mercato(
+                        root=root,
+                        video_id=vid,
+                        channel_id=ch_id,
+                        api_key=s.openai_api_key,
+                        model=model,
+                        force=force,
+                        update_index=False,  # batch: aggiorna index una sola volta alla fine
+                    )
+                    all_new_tips.extend(result.tips)
+                    analyzed += 1
+                    typer.echo(f"  [{ch_id}] {vid} — {len(result.tips)} tip ({title[:60]})")
+                except Exception as exc:
+                    typer.echo(f"  [ERR] {ch_id}/{vid}: {exc}", err=True)
+
+        update_index_with_new_tips(root, all_new_tips)
+        typer.echo(f"\nDone. totale={total} analizzati={analyzed} saltati(no-mercato)={skipped}")
+
+    asyncio.run(_run())
+
+
+# ---------------------------------------------------------------------------
+# mercato-outcome
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-outcome")
+def cmd_mercato_outcome(
+    tip_id: str = typer.Argument(..., help="tip_id della tip da aggiornare"),
+    outcome: str = typer.Argument(..., help="true | false | partial"),
+    notes: Optional[str] = typer.Option(None, "--notes", help="Note sull'esito"),
+) -> None:
+    """Marca l'esito di un'indiscrezione di mercato (true/false/partial)."""
+    from typing import cast
+
+    from media_advisor.mercato.analyzer import update_tip_outcome
+    from media_advisor.mercato.models import OutcomeValue
+
+    valid: set[str] = {"true", "false", "partial"}
+    if outcome not in valid:
+        typer.echo(f"Outcome non valido: {outcome}. Usa: true | false | partial", err=True)
+        raise typer.Exit(1)
+
+    try:
+        update_tip_outcome(_root(), tip_id, cast(OutcomeValue, outcome), notes)
+        typer.echo(f"Tip {tip_id} aggiornata: outcome={outcome}")
+    except FileNotFoundError as e:
+        typer.echo(str(e), err=True)
+        raise typer.Exit(1)
+    except KeyError as e:
+        typer.echo(str(e), err=True)
+        raise typer.Exit(1)
+
+
+# ---------------------------------------------------------------------------
+# mercato-report
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-report")
+def cmd_mercato_report() -> None:
+    """Stampa il report di veridicità per canale."""
+    from media_advisor.mercato.aggregator import get_channel_stats
+
+    stats = get_channel_stats(_root())
+    if not stats:
+        typer.echo("Nessuna tip nel database mercato.")
+        return
+
+    typer.echo(f"\n{'Canale':<25} {'Tot':>5} {'Risolte':>8} {'Vere':>5} {'False':>6} {'Score':>7}")
+    typer.echo("-" * 60)
+    for s in stats:
+        score_str = f"{s.veracity_score:.0%}" if s.veracity_score is not None else "  n/a"
+        typer.echo(
+            f"{s.channel_id:<25} {s.total_tips:>5} {s.resolved_tips:>8} "
+            f"{s.true_tips:>5} {s.false_tips:>6} {score_str:>7}"
+        )
+
+
 if __name__ == "__main__":
     app()

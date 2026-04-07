@@ -28,3 +28,13 @@ def pending_path(root: Path) -> Path:
 
 def channel_list_path(root: Path, video_list_filename: str) -> Path:
     return root / "channels" / video_list_filename
+
+
+def mercato_tips_path(root: Path, channel_id: str, video_id: str) -> Path:
+    """mercato/tips/<channel_id>/<video_id>.json"""
+    return root / "mercato" / "tips" / channel_id / f"{video_id}.json"
+
+
+def mercato_index_path(root: Path) -> Path:
+    """mercato/index.json"""
+    return root / "mercato" / "index.json"

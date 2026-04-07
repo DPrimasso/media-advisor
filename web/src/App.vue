@@ -1,18 +1,11 @@
 <script setup>
 import { useChannelsData } from './composables/useChannelsData'
-import { ref, computed, onMounted, provide } from 'vue'
+import { ref, onMounted, provide } from 'vue'
 
 const channelsContext = useChannelsData()
 provide('channelsData', channelsContext)
 
-const { channelsData, channelList } = channelsContext
 const theme = ref('light')
-
-const totalCount = computed(
-  () => channelsData.value?.reduce((sum, ch) => sum + ch.analyses.length, 0) ?? 0
-)
-
-const pendingCount = ref(0)
 
 function initTheme() {
   const stored = localStorage.getItem('media-advisor-theme')
@@ -29,10 +22,6 @@ function toggleTheme() {
 
 onMounted(() => {
   initTheme()
-  fetch('/api/pending')
-    .then((r) => r.ok ? r.json() : null)
-    .then((data) => { pendingCount.value = data?.items?.length ?? 0 })
-    .catch(() => {})
 })
 </script>
 
@@ -40,49 +29,16 @@ onMounted(() => {
   <div class="app">
     <header class="topbar">
       <div class="topbar-inner">
-        <router-link to="/" class="logo-link">
+        <router-link to="/mercato" class="logo-link">
           <h1 class="logo">Media Advisor</h1>
         </router-link>
         <div class="channel-pills">
           <router-link
-            to="/"
+            to="/mercato"
             class="pill"
-            :class="{ active: $route.path === '/' }"
+            :class="{ active: $route.path.startsWith('/mercato') }"
           >
-            Tutti
-            <span v-if="totalCount" class="pill-badge">{{ totalCount }}</span>
-          </router-link>
-          <router-link
-            to="/squadre"
-            class="pill"
-            :class="{ active: $route.path.startsWith('/squadre') }"
-          >
-            Squadre
-          </router-link>
-          <router-link
-            to="/trend"
-            class="pill"
-            :class="{ active: $route.path.startsWith('/trend') }"
-          >
-            Trend
-          </router-link>
-          <router-link
-            to="/inbox"
-            class="pill"
-            :class="{ active: $route.path === '/inbox' }"
-          >
-            Inbox
-            <span v-if="pendingCount" class="pill-badge">{{ pendingCount }}</span>
-          </router-link>
-          <router-link
-            v-for="ch in channelList"
-            :key="ch.id"
-            :to="{ name: 'channel', params: { id: ch.id } }"
-            class="pill"
-            :class="{ active: $route.params.id === ch.id }"
-          >
-            {{ ch.name }}
-            <span class="pill-badge">{{ ch.count }}</span>
+            Mercato
           </router-link>
         </div>
         <div class="topbar-right">

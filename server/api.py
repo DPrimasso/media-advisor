@@ -146,6 +146,101 @@ async def post_fetch_now() -> Any:
 
 
 # ---------------------------------------------------------------------------
+# Mercato endpoints
+# ---------------------------------------------------------------------------
+
+
+class OutcomeRequest(BaseModel):
+    outcome: str   # "true" | "false" | "partial"
+    notes: str | None = None
+
+
+class MercatoAnalyzeRequest(BaseModel):
+    video_id: str
+    channel_id: str
+
+
+@app.get("/api/mercato/tips")
+async def get_mercato_tips(
+    player: str | None = None,
+    channel: str | None = None,
+    outcome: str | None = None,
+) -> Any:
+    from media_advisor.mercato.aggregator import get_all_tips
+    tips = get_all_tips(_root)
+    if player:
+        tips = [t for t in tips if player.lower() in t.player_name.lower()]
+    if channel:
+        tips = [t for t in tips if t.channel_id == channel]
+    if outcome:
+        tips = [t for t in tips if t.outcome == outcome]
+    tips_sorted = sorted(tips, key=lambda t: t.mentioned_at, reverse=True)
+    return [t.model_dump(mode="json") for t in tips_sorted]
+
+
+@app.get("/api/mercato/players")
+async def get_mercato_players() -> Any:
+    from media_advisor.mercato.aggregator import get_all_players
+    players = get_all_players(_root)
+    # Non includere le tips complete nella lista, solo il summary
+    return [
+        {k: v for k, v in p.model_dump(mode="json").items() if k != "tips"}
+        for p in players
+    ]
+
+
+@app.get("/api/mercato/players/{player_slug}")
+async def get_mercato_player(player_slug: str) -> Any:
+    from media_advisor.mercato.aggregator import get_tips_for_player
+    player = get_tips_for_player(_root, player_slug)
+    if player is None:
+        raise HTTPException(status_code=404, detail="Giocatore non trovato")
+    return player.model_dump(mode="json")
+
+
+@app.get("/api/mercato/channels/stats")
+async def get_mercato_channel_stats() -> Any:
+    from media_advisor.mercato.aggregator import get_channel_stats
+    stats = get_channel_stats(_root)
+    return [s.model_dump(mode="json") for s in stats]
+
+
+@app.post("/api/mercato/tip/{tip_id}/outcome")
+async def post_mercato_outcome(tip_id: str, body: OutcomeRequest) -> Any:
+    from typing import cast
+
+    from media_advisor.mercato.analyzer import update_tip_outcome
+    from media_advisor.mercato.models import OutcomeValue
+
+    valid = {"true", "false", "partial"}
+    if body.outcome not in valid:
+        raise HTTPException(status_code=400, detail=f"outcome deve essere: {valid}")
+
+    try:
+        update_tip_outcome(_root, tip_id, cast(OutcomeValue, body.outcome), body.notes)
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    return {"ok": True, "tip_id": tip_id, "outcome": body.outcome}
+
+
+@app.post("/api/mercato/analyze")
+async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
+    s = Settings()
+    if not s.openai_api_key:
+        raise HTTPException(status_code=500, detail="OPENAI_API_KEY not set")
+    from media_advisor.mercato.analyzer import analyze_video_mercato
+    result = await analyze_video_mercato(
+        root=_root,
+        video_id=body.video_id,
+        channel_id=body.channel_id,
+        api_key=s.openai_api_key,
+    )
+    return result.model_dump(mode="json")
+
+
+# ---------------------------------------------------------------------------
 # Background pipeline trigger
 # ---------------------------------------------------------------------------
 

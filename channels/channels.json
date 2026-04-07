@@ -1,6 +1,18 @@
 {
   "channels": [
     {
+      "id": "fabrizio-romano-italiano",
+      "name": "Fabrizio Romano Italiano",
+      "order": 0,
+      "video_list": "fabrizio-romano-italiano.json",
+      "fetch_rule": {
+        "type": "transcript_api",
+        "channel_url": "https://www.youtube.com/@FabrizioRomanoItaliano",
+        "last_n": 30,
+        "exclude_live": true
+      }
+    },
+    {
       "id": "azzurro-fluido",
       "name": "Azzurro Fluido",
       "order": 1,
