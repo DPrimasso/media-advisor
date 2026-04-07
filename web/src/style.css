@@ -2,59 +2,262 @@
 
 :root,
 [data-theme="light"] {
-  --bg: #f0f2f5;
+  /* Modern light palette (high contrast, low glare) */
+  --bg: #f8fafc; /* slate-50 */
+  --bg2: #eef2ff; /* indigo-50 */
+  --bg-accent: rgba(79, 70, 229, 0.16);
+  --surface: rgba(255, 255, 255, 0.92);
   --bg-card: #ffffff;
-  --bg-hover: #f5f6f8;
-  --border: #e4e6eb;
-  --text: #050505;
-  --text-secondary: #65676b;
-  --text-muted: #8a8d91;
-  --accent: #e41e3f;
-  --accent-hover: #c41a36;
-  --accent-soft: #fff0f3;
+  --bg-hover: #f1f5ff;
+  --border: rgba(15, 23, 42, 0.12);
+  --text: #0f172a; /* slate-900 */
+  --text-secondary: rgba(15, 23, 42, 0.78);
+  --text-muted: rgba(15, 23, 42, 0.68);
+  --accent: #4f46e5; /* indigo-600 */
+  --accent-hover: #4338ca; /* indigo-700 */
+  --accent-soft: rgba(79, 70, 229, 0.12);
+  --link: var(--accent);
+  --link-hover: var(--accent-hover);
   --radius: 16px;
   --radius-sm: 12px;
   --radius-pill: 999px;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
-  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
-  --success: #31a24c;
-  --warning: #e6a800;
+  --shadow: 0 1px 2px rgba(2, 6, 23, 0.08);
+  --shadow-card: 0 14px 38px rgba(2, 6, 23, 0.12);
+  --success: #059669; /* emerald-600 */
+  --warning: #d97706; /* amber-600 */
+  --danger: #dc2626; /* red-600 */
+  --ring: rgba(79, 70, 229, 0.28);
+  --ring-strong: rgba(79, 70, 229, 0.45);
+
+  /* Legacy aliases used in Mercato views */
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-bg: var(--bg);
+  --color-bg-card: var(--bg-card);
+  --color-bg-hover: var(--bg-hover);
+  --color-surface: var(--bg-card);
+  --color-accent: var(--accent);
 }
 
 [data-theme="dark"] {
-  --bg: #18191a;
-  --bg-card: #242526;
-  --bg-hover: #3a3b3c;
-  --border: #3e4042;
-  --text: #e4e6eb;
-  --text-secondary: #b0b3b8;
-  --text-muted: #8a8d91;
-  --accent: #f02849;
-  --accent-hover: #e41e3f;
-  --accent-soft: #3d1f24;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.4);
-  --success: #31a24c;
-  --warning: #f7b928;
+  --bg: #070b14;
+  --bg2: #0a1223;
+  --bg-accent: rgba(129, 140, 248, 0.18);
+  --surface: rgba(10, 18, 35, 0.82);
+  --bg-card: #0f172a;
+  --bg-hover: rgba(148, 163, 184, 0.08);
+  --border: rgba(148, 163, 184, 0.16);
+  --text: rgba(248, 250, 252, 0.92);
+  --text-secondary: rgba(248, 250, 252, 0.72);
+  --text-muted: rgba(248, 250, 252, 0.64);
+  --accent: #818cf8;
+  --accent-hover: #a5b4fc;
+  --accent-soft: rgba(129, 140, 248, 0.14);
+  --link: var(--accent);
+  --link-hover: var(--accent-hover);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-card: 0 18px 40px rgba(0, 0, 0, 0.45);
+  --success: #34d399;
+  --warning: #fbbf24;
+  --danger: #f87171;
+  --ring: rgba(129, 140, 248, 0.28);
+  --ring-strong: rgba(129, 140, 248, 0.45);
+
+  /* Legacy aliases used in Mercato views */
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-bg: var(--bg);
+  --color-bg-card: var(--bg-card);
+  --color-bg-hover: var(--bg-hover);
+  --color-surface: var(--bg-card);
+  --color-accent: var(--accent);
 }
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  color-scheme: light dark;
+  text-rendering: optimizeLegibility;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--bg);
+  background: radial-gradient(1200px 800px at 20% 0%, var(--bg2), transparent 60%),
+    radial-gradient(900px 600px at 80% 10%, var(--bg-accent), transparent 55%),
+    linear-gradient(180deg, var(--bg), var(--bg));
   color: var(--text);
   font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
 .app {
   min-height: 100vh;
+}
+
+/* ——— Readability / modern theme tweaks ——— */
+.topbar,
+.channel-banner,
+.video-card,
+.topics-section,
+.topic-card,
+.channel-card,
+.squadra-card,
+.trend-macro-card,
+.detail-modal,
+.claim-card,
+.empty-state,
+.inbox-empty {
+  backdrop-filter: saturate(130%) blur(10px);
+  background: color-mix(in srgb, var(--bg-card) 92%, transparent);
+}
+
+.feed {
+  padding: 1.75rem;
+}
+
+.logo {
+  letter-spacing: -0.01em;
+}
+
+.pill {
+  border: 1px solid var(--border);
+}
+
+.pill:hover {
+  background: var(--bg-hover);
+  border-color: color-mix(in srgb, var(--accent) 22%, var(--border));
+}
+
+.pill.active {
+  background: color-mix(in srgb, var(--accent) 92%, #0000);
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+}
+
+.theme-toggle:hover {
+  background: var(--bg-hover);
+}
+
+.sort-select,
+.theme-toggle,
+.inbox-fetch-btn,
+.inbox-confirm-btn,
+.detail-yt-btn {
+  box-shadow: var(--shadow);
+}
+
+.sort-select:focus,
+.sort-select:focus-visible,
+.theme-toggle:focus,
+.theme-toggle:focus-visible,
+.pill:focus,
+.pill:focus-visible,
+.detail-close:focus,
+.detail-close:focus-visible,
+.inbox-fetch-btn:focus,
+.inbox-fetch-btn:focus-visible,
+.inbox-confirm-btn:focus,
+.inbox-confirm-btn:focus-visible,
+.detail-yt-btn:focus,
+.detail-yt-btn:focus-visible,
+.channel-card:focus,
+.channel-card:focus-visible,
+.squadra-card:focus,
+.squadra-card:focus-visible,
+.trend-macro-card:focus,
+.trend-macro-card:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--ring), var(--shadow-card);
+  border-color: color-mix(in srgb, var(--accent) 45%, var(--border));
+}
+
+.video-card-title,
+.detail-title,
+.claim-video-title {
+  letter-spacing: -0.01em;
+}
+
+.video-card-summary,
+.detail-summary,
+.claim-preview,
+.claim-full-text,
+.channel-banner-text {
+  color: var(--text-secondary);
+}
+
+.video-card-meta,
+.detail-meta,
+.channel-banner-label,
+.detail-section-title,
+.topics-section-title,
+.channel-links-title,
+.channel-videos-title,
+.inbox-count {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.video-card-yt-link,
+.claim-timestamp-link,
+.claim-detail-link,
+.back-btn,
+.detail-claim-timestamp,
+.inc-claim-link {
+  color: var(--link);
+}
+
+.video-card-yt-link:hover,
+.claim-timestamp-link:hover,
+.claim-detail-link:hover,
+.back-btn:hover,
+.detail-claim-timestamp:hover,
+.inc-claim-link:hover {
+  color: var(--link-hover);
+}
+
+.video-card:hover,
+.channel-card:hover,
+.squadra-card:hover,
+.trend-macro-card:hover {
+  box-shadow: var(--shadow-card);
+}
+
+.video-card-thumb-link::after {
+  background: linear-gradient(180deg, rgba(2, 6, 23, 0.05), rgba(2, 6, 23, 0.28));
+}
+
+.detail-overlay {
+  background: rgba(2, 6, 23, 0.62);
+}
+
+.detail-close {
+  background: color-mix(in srgb, var(--bg-hover) 88%, transparent);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 30%, transparent);
+}
+
+::placeholder {
+  color: var(--text-muted);
+  opacity: 0.85;
+}
+
+.video-card-date,
+.detail-date,
+.claim-card-header {
+  color: color-mix(in srgb, var(--text-muted) 85%, var(--text-secondary) 15%);
+}
+
+.detail-claim-quote,
+.claim-quote {
+  color: color-mix(in srgb, var(--text-muted) 75%, var(--text-secondary) 25%);
 }
 
 /* ——— Top bar ——— */
@@ -690,33 +893,33 @@ body {
 }
 
 .inc-type.HARD {
-  background: #ffebee;
-  color: #c62828;
+  background: rgba(239, 68, 68, 0.12);
+  color: var(--danger);
 }
 
 [data-theme="dark"] .inc-type.HARD {
-  background: #3d1f24;
-  color: #ef5350;
+  background: rgba(248, 113, 113, 0.16);
+  color: var(--danger);
 }
 
 .inc-type.SOFT {
-  background: #fff3e0;
-  color: #e65100;
+  background: rgba(245, 158, 11, 0.14);
+  color: var(--warning);
 }
 
 [data-theme="dark"] .inc-type.SOFT {
-  background: #3d2a1f;
-  color: #ff9800;
+  background: rgba(251, 191, 36, 0.16);
+  color: var(--warning);
 }
 
 .inc-type.DRIFT {
-  background: #e3f2fd;
-  color: #1565c0;
+  background: rgba(79, 70, 229, 0.12);
+  color: var(--accent);
 }
 
 [data-theme="dark"] .inc-type.DRIFT {
-  background: #1f2d3d;
-  color: #42a5f5;
+  background: rgba(129, 140, 248, 0.16);
+  color: var(--accent);
 }
 
 .inc-claims {
@@ -795,7 +998,7 @@ code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 0.88em;
   padding: 0.15rem 0.35rem;
-  background: var(--bg-hover);
+  background: color-mix(in srgb, var(--bg-hover) 86%, transparent);
   border-radius: 4px;
 }
 
