@@ -66,6 +66,7 @@ async def run_from_list(
         ch_result = ChannelResult(id=channel.id)
         list_path = root / "channels" / channel.video_list
         urls = read_video_list(list_path)
+        print(f"[{channel.id}] start: videos={len(urls)}", flush=True)
 
         for url in urls:
             vid = _extract_video_id(url)
@@ -77,9 +78,11 @@ async def run_from_list(
 
             # -- Transcript step --
             if t_path.exists() and not force_transcript:
+                print(f"  [{channel.id}/{vid}] transcript: cached", flush=True)
                 raw_transcript = read_json(t_path)
             else:
                 try:
+                    print(f"  [{channel.id}/{vid}] transcript: fetching...", flush=True)
                     transcript = await transcript_client.get_transcript(
                         url, format="json", include_timestamp=True, send_metadata=True
                     )
@@ -87,6 +90,7 @@ async def run_from_list(
                     t_path.parent.mkdir(parents=True, exist_ok=True)
                     write_json(t_path, raw_transcript)
                     ch_result.transcripts_fetched += 1
+                    print(f"  [{channel.id}/{vid}] transcript: saved -> {t_path}", flush=True)
                     await asyncio.sleep(RATE_LIMIT_SECONDS)
                 except TranscriptAPIError as e:
                     print(f"  [{channel.id}/{vid}] Transcript failed: {e}")
@@ -99,6 +103,7 @@ async def run_from_list(
 
             # -- Analysis step --
             if a_path.exists() and not force_analyze:
+                print(f"  [{channel.id}/{vid}] analysis: cached (skip)", flush=True)
                 ch_result.skipped += 1
                 continue
 
@@ -113,6 +118,7 @@ async def run_from_list(
                         "published_at": transcript_obj.metadata.published_at,
                     }
 
+                print(f"  [{channel.id}/{vid}] analysis: running (model={model})...", flush=True)
                 analysis = await analyze_video_v2(
                     data=transcript_obj,
                     video_id=vid,
@@ -124,6 +130,7 @@ async def run_from_list(
                 a_path.parent.mkdir(parents=True, exist_ok=True)
                 write_json(a_path, analysis.model_dump(mode="json"))
                 ch_result.analyzed += 1
+                print(f"  [{channel.id}/{vid}] analysis: saved -> {a_path}", flush=True)
                 await asyncio.sleep(RATE_LIMIT_SECONDS)
             except Exception as e:
                 print(f"  [{channel.id}/{vid}] Analysis failed: {e}")

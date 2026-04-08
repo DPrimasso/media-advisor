@@ -48,6 +48,42 @@
         "last_n": 50,
         "exclude_title_contains": "reaction"
       }
+    },
+    {
+      "id": "tuttomercatoweb",
+      "name": "TuttoMercatoWeb.com",
+      "order": 4,
+      "video_list": "tuttomercatoweb.json",
+      "fetch_rule": {
+        "type": "transcript_api",
+        "channel_url": "https://www.youtube.com/@TuttoMercatoWeb_com",
+        "last_n": 30,
+        "exclude_live": true
+      }
+    },
+    {
+      "id": "calciomercato-it",
+      "name": "Calciomercato.it",
+      "order": 5,
+      "video_list": "calciomercato-it.json",
+      "fetch_rule": {
+        "type": "transcript_api",
+        "channel_url": "https://www.youtube.com/@Calciomercato_it",
+        "last_n": 30,
+        "exclude_live": true
+      }
+    },
+    {
+      "id": "nico-schira",
+      "name": "Nicolò Schira",
+      "order": 6,
+      "video_list": "nico-schira.json",
+      "fetch_rule": {
+        "type": "transcript_api",
+        "channel_url": "https://www.youtube.com/@NicoSchira",
+        "last_n": 30,
+        "exclude_live": true
+      }
     }
   ]
 }

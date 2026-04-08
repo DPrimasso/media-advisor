@@ -26,8 +26,6 @@ function toggleManualOverride(tipId) {
 
 const router = useRouter()
 
-const FORCED_CHANNEL_ID = 'fabrizio-romano-italiano'
-
 const tips = ref([])
 const stats = ref([])
 const transfers = ref([])
@@ -38,8 +36,19 @@ const showTransfers = ref(false)
 
 // Filtri
 const filterPlayer = ref('')
+const filterChannel = ref('')
 const filterOutcome = ref('')
 const filterConfidence = ref('')
+
+function channelLabel(id) {
+  return id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+}
+
+let _playerDebounceTimer = null
+function onPlayerInput() {
+  clearTimeout(_playerDebounceTimer)
+  _playerDebounceTimer = setTimeout(fetchTips, 300)
+}
 
 // Form nuovo trasferimento
 const newTransfer = ref({ player_name: '', to_club: '', from_club: '', transfer_type: 'unknown', season: '', confirmed_at: '', source_url: '' })
@@ -57,11 +66,12 @@ async function fetchTips() {
   try {
     const params = new URLSearchParams()
     if (filterPlayer.value) params.set('player', filterPlayer.value)
-    params.set('channel', FORCED_CHANNEL_ID)
+    if (filterChannel.value) params.set('channel', filterChannel.value)
     if (filterOutcome.value) params.set('outcome', filterOutcome.value)
     const res = await fetch(`/api/mercato/tips?${params}`)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    tips.value = await res.json()
+    const data = await res.json()
+    tips.value = Array.isArray(data) ? data : []
   } catch (e) {
     error.value = e.message
   } finally {
@@ -74,7 +84,7 @@ async function fetchStats() {
     const res = await fetch('/api/mercato/channels/stats')
     if (res.ok) {
       const data = await res.json()
-      stats.value = Array.isArray(data) ? data.filter(s => s.channel_id === FORCED_CHANNEL_ID) : []
+      stats.value = Array.isArray(data) ? data : []
     }
   } catch {}
 }
@@ -82,13 +92,17 @@ async function fetchStats() {
 async function fetchTransfers() {
   try {
     const res = await fetch('/api/mercato/transfers')
-    if (res.ok) transfers.value = await res.json()
+    if (res.ok) {
+      const data = await res.json()
+      transfers.value = Array.isArray(data) ? data : []
+    }
   } catch {}
 }
 
 const filteredTips = computed(() => {
-  if (!filterConfidence.value) return tips.value
-  return tips.value.filter(t => t.confidence === filterConfidence.value)
+  const list = Array.isArray(tips.value) ? tips.value : []
+  if (!filterConfidence.value) return list
+  return list.filter((t) => t.confidence === filterConfidence.value)
 })
 
 function goToPlayer(playerName) {
@@ -184,8 +198,38 @@ async function fetchFromTM() {
 }
 
 function formatDate(iso) {
-  if (!iso) return ''
+  if (!iso) return 'Senza data'
   return new Date(iso).toLocaleDateString('it-IT', { day: '2-digit', month: 'short', year: 'numeric' })
+}
+
+// Editing della data di una tip senza data
+const dateEditingTip = ref(null)
+const dateEditValue = ref('')
+
+function startDateEdit(tipId) {
+  dateEditingTip.value = tipId
+  dateEditValue.value = new Date().toISOString().slice(0, 10)
+}
+
+function cancelDateEdit() {
+  dateEditingTip.value = null
+  dateEditValue.value = ''
+}
+
+async function submitDateEdit(tipId) {
+  if (!dateEditValue.value) return
+  try {
+    const res = await fetch(`/api/mercato/tip/${tipId}/date`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ date: dateEditValue.value }),
+    })
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    cancelDateEdit()
+    await fetchTips()
+  } catch (e) {
+    alert('Errore impostazione data: ' + e.message)
+  }
 }
 
 onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
@@ -286,8 +330,14 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
         v-model="filterPlayer"
         class="filter-input"
         placeholder="Cerca giocatore..."
-        @input="fetchTips"
+        @input="onPlayerInput"
       />
+      <select v-model="filterChannel" class="filter-select" @change="fetchTips">
+        <option value="">Tutti i canali</option>
+        <option v-for="s in stats" :key="s.channel_id" :value="s.channel_id">
+          {{ channelLabel(s.channel_id) }}
+        </option>
+      </select>
       <select v-model="filterOutcome" class="filter-select" @change="fetchTips">
         <option value="">Tutti gli esiti</option>
         <option value="non_verificata">Non verificate</option>
@@ -341,6 +391,7 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
           <span v-if="tip.from_club || tip.to_club" class="arrow">→</span>
           <span v-if="tip.to_club" class="club to">{{ tip.to_club }}</span>
           <span class="transfer-type">({{ tip.transfer_type }})</span>
+          <span class="tip-channel-badge">{{ channelLabel(tip.channel_id) }}</span>
         </div>
 
         <p class="tip-text">{{ tip.tip_text }}</p>
@@ -407,7 +458,18 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
         </div>
 
         <div class="tip-footer">
-          <span class="tip-meta">{{ tip.channel_id }} · {{ formatDate(tip.mentioned_at) }}</span>
+          <span class="tip-meta">
+            {{ tip.channel_id }} ·
+            <template v-if="!tip.mentioned_at">
+              <template v-if="dateEditingTip === tip.tip_id">
+                <input type="date" v-model="dateEditValue" class="date-input-inline" />
+                <button class="btn-date-ok" @click="submitDateEdit(tip.tip_id)">✓</button>
+                <button class="btn-date-cancel" @click="cancelDateEdit">✗</button>
+              </template>
+              <span v-else class="tip-no-date" @click="startDateEdit(tip.tip_id)" title="Clicca per aggiungere la data">Senza data</span>
+            </template>
+            <template v-else>{{ formatDate(tip.mentioned_at) }}</template>
+          </span>
 
           <div class="outcome-actions">
             <!-- Verifica automatica (sempre disponibile se non_verificata) -->
@@ -567,6 +629,7 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
 .from { color: #e03e3e; }
 .to   { color: #22a06b; }
 .arrow { color: var(--color-text-muted, #aaa); }
+.tip-channel-badge { margin-left: auto; font-size: .75rem; color: var(--color-text-muted, #aaa); background: var(--color-bg-soft, #2a2a2a); padding: .1rem .45rem; border-radius: 4px; }
 .transfer-type { color: var(--color-text-muted, #aaa); font-size: .8rem; }
 
 .tip-text {
@@ -583,6 +646,11 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
 
 .tip-footer { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: .5rem; }
 .tip-meta { font-size: .78rem; color: var(--color-text-muted, #999); }
+.tip-no-date { color: #e07b00; cursor: pointer; border-bottom: 1px dashed #e07b00; }
+.tip-no-date:hover { color: #c06000; }
+.date-input-inline { font-size: .8rem; padding: .1rem .3rem; border: 1px solid #ccc; border-radius: 4px; }
+.btn-date-ok { font-size: .8rem; padding: .1rem .4rem; background: #2a9d2a; color: #fff; border: none; border-radius: 4px; cursor: pointer; margin-left: .2rem; }
+.btn-date-cancel { font-size: .8rem; padding: .1rem .4rem; background: #999; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
 .outcome-source { font-size: .65rem; opacity: .7; margin-left: .2rem; }
 .outcome-actions { display: flex; gap: .35rem; align-items: center; flex-wrap: wrap; }
 .btn-verify {
@@ -635,10 +703,10 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
 .label-conferma   { color: #065f46; }
 
 .related-tip { border-radius: 6px; padding: .4rem .6rem; font-size: .82rem; }
-.related-same-ok { background: #f0f9ff; border-left: 3px solid #38bdf8; }
-.related-same-ko { background: #fefce8; border-left: 3px solid #facc15; }
-.related-corr    { background: #f0fdf4; border-left: 3px solid #22c55e; }
-.related-contr   { background: #fef2f2; border-left: 3px solid #ef4444; }
+.related-same-ok { border-left: 3px solid #38bdf8; }
+.related-same-ko { border-left: 3px solid #facc15; }
+.related-corr    { border-left: 3px solid #22c55e; }
+.related-contr   { border-left: 3px solid #ef4444; }
 
 .rel-header { display: flex; align-items: center; gap: .35rem; flex-wrap: wrap; margin-bottom: .2rem; }
 .rel-channel { font-weight: 600; font-size: .75rem; color: var(--color-text-muted, #666); }

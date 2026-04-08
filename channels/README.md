@@ -2,6 +2,8 @@
 
 Aggiungi qui i canali YouTube da analizzare.
 
+**Nota repo:** i file `{id}.json` (liste URL) e `pending.json` **non sono versionati** in git (vedi `.gitignore`). Restano solo sul tuo disco; dopo un clone vanno ricreati o copiati da backup. In repo c’è solo `channels.json` come registro canali.
+
 ## Struttura
 
 - `channels.json` — elenco canali (id, nome, ordine, lista video)

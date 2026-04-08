@@ -4,6 +4,11 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', redirect: '/mercato' },
+    {
+      path: '/canali',
+      name: 'home',
+      component: () => import('../views/HomeView.vue'),
+    },
     { path: '/inbox', name: 'inbox', component: () => import('../views/InboxView.vue') },
     { path: '/channel/:id', name: 'channel', component: () => import('../views/ChannelView.vue') },
     { path: '/squadre', name: 'squadre', component: () => import('../views/SquadreView.vue') },
@@ -14,6 +19,17 @@ const router = createRouter({
     { path: '/mercato/player/:slug', name: 'mercato-player', component: () => import('../views/MercatoPlayerView.vue') },
     { path: '/:pathMatch(.*)*', redirect: '/mercato' }
   ]
+})
+
+router.onError((err) => {
+  const msg = err?.message || String(err)
+  if (
+    msg.includes('Failed to fetch dynamically imported module') ||
+    msg.includes('Importing a module script failed') ||
+    msg.includes('error loading dynamically imported module')
+  ) {
+    window.location.reload()
+  }
 })
 
 export default router

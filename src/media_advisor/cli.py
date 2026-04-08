@@ -421,6 +421,7 @@ def cmd_mercato_scan(
     channel: Optional[str] = typer.Option(None, "--channel", help="Limita a un canale"),
     model: str = typer.Option("gpt-4o-mini", "--model"),
     force: bool = typer.Option(False, "--force", help="Re-analizza anche se già presente"),
+    all_videos: bool = typer.Option(False, "--all-videos", help="Analizza tutti i video senza filtrare per keyword nel titolo"),
 ) -> None:
     """Scansiona i transcript già scaricati e analizza quelli con titolo mercato."""
     import re as _re
@@ -515,7 +516,7 @@ def cmd_mercato_scan(
                 try:
                     data = read_json(t_file)
                     title = (data.get("metadata") or {}).get("title") or ""
-                    if not _MERCATO_KW.search(title):
+                    if not all_videos and not _MERCATO_KW.search(title):
                         skipped += 1
                         continue
                     await _ensure_metadata(ch_id, vid)
@@ -727,6 +728,122 @@ def cmd_mercato_report() -> None:
             f"{s.channel_id:<25} {s.total_tips:>5} {s.resolved_tips:>8} "
             f"{s.true_tips:>5} {s.false_tips:>6} {score_str:>7}"
         )
+
+
+# ---------------------------------------------------------------------------
+# mercato-rebuild-index
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-rebuild-index")
+def cmd_mercato_rebuild_index(
+    channel: Optional[str] = typer.Option(None, "--channel", help="Limita a un canale"),
+    prune_non_mercato: bool = typer.Option(
+        True, "--prune-non-mercato/--keep-all", help="Rimuovi tip non-mercato usando le regole correnti"
+    ),
+    rewrite_tip_files: bool = typer.Option(
+        True,
+        "--rewrite-tip-files/--no-rewrite-tip-files",
+        help="Normalizza e riscrive mercato/tips/** (consigliato per eliminare encoding sporchi tipo 'Atl�tico')",
+    ),
+) -> None:
+    """Ricostruisce mercato/index.json da mercato/tips/** (utile dopo modifiche a filtri/prompt).
+
+    Nota: l'index attuale è append-only: senza rebuild puoi vedere tip vecchie anche dopo aver fixato l'estrazione.
+    """
+    from datetime import datetime, timezone
+
+    from media_advisor.io.json_io import read_json, write_json
+    from media_advisor.io.paths import mercato_index_path
+    from media_advisor.mercato.corroborator import corroborate
+    from media_advisor.mercato.extractor import is_plausible_mercato_tip
+    from media_advisor.mercato.models import MercatoIndex, VideoMercatoResult
+
+    def _norm_club(s: str | None) -> str | None:
+        if not s:
+            return s
+        import re as _re
+        import unicodedata as _ud
+
+        # Drop accents and odd replacement chars; keep something stable for matching.
+        cleaned = s.replace("\ufffd", "")  # replacement char
+        cleaned = _ud.normalize("NFKD", cleaned).encode("ascii", "ignore").decode("ascii")
+        cleaned = _re.sub(r"\s+", " ", cleaned).strip()
+        # Heuristic fix for common corruption: "Atltico" -> "Atletico"
+        cleaned = cleaned.replace("Atltico", "Atletico")
+        return cleaned or s
+
+    def _sort_key(tip) -> tuple:
+        def _norm(s: str | None) -> str:
+            return (s or "").strip().lower()
+
+        # Deterministic ordering for stable diffs/UI.
+        return (
+            _norm(tip.player_name),
+            _norm(tip.to_club),
+            _norm(tip.from_club),
+            str(tip.mentioned_at or ""),
+            _norm(tip.channel_id),
+            _norm(tip.video_id),
+            _norm(tip.tip_id),
+        )
+
+    root = _root()
+    tips_root = root / "mercato" / "tips"
+    if not tips_root.exists():
+        typer.echo("Nessuna tip trovata: manca la cartella mercato/tips/")
+        raise typer.Exit(1)
+
+    files: list[Path] = []
+    if channel:
+        ch_dir = tips_root / channel
+        files = sorted(ch_dir.glob("*.json")) if ch_dir.exists() else []
+    else:
+        for ch_dir in sorted(p for p in tips_root.iterdir() if p.is_dir()):
+            files.extend(sorted(ch_dir.glob("*.json")))
+
+    if not files:
+        typer.echo("Nessun file trovato in mercato/tips/ (hai già runnato mercato-scan/mercato-analyze?)")
+        raise typer.Exit(1)
+
+    all_tips = []
+    rewritten_files = 0
+    for f in files:
+        try:
+            vr = VideoMercatoResult.model_validate(read_json(f))
+            tips_out = []
+            for tip in (vr.tips or []):
+                # Normalize clubs to avoid false "smentite" due to unicode/encoding.
+                tip.from_club = _norm_club(tip.from_club)
+                tip.to_club = _norm_club(tip.to_club)
+                if prune_non_mercato and not is_plausible_mercato_tip(tip):
+                    continue
+                tips_out.append(tip)
+                all_tips.append(tip)
+
+            # Optionally rewrite per-video files (so future rebuilds stay clean).
+            if rewrite_tip_files:
+                tips_out_sorted = sorted(tips_out, key=_sort_key)
+                vr2 = vr.model_copy(update={"tips": tips_out_sorted})
+                write_json(f, vr2.model_dump(mode="json"))
+                rewritten_files += 1
+        except Exception:
+            continue
+
+    # Rebuild index and re-run corroboration incrementally (so tips corroborate each other).
+    index = MercatoIndex(updated_at=datetime.now(timezone.utc), tips=[])
+    for tip in sorted(all_tips, key=_sort_key):
+        corroborate(index, [tip])
+
+    # Stable ordering for index.json (corroborate mutates corroborated_by order, but list order is now deterministic).
+    index.tips = sorted(index.tips, key=_sort_key)
+
+    out = mercato_index_path(root)
+    write_json(out, index.model_dump(mode="json"))
+    typer.echo(
+        f"Index rebuilt: {out}  tips={len(index.tips)}  prune_non_mercato={prune_non_mercato}  "
+        f"rewrite_tip_files={rewrite_tip_files} files={rewritten_files}"
+    )
 
 
 if __name__ == "__main__":

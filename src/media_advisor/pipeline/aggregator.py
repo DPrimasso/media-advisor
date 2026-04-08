@@ -106,23 +106,21 @@ def aggregate_video_claims(
         key = _normalize_theme(t.theme)
         theme_map[key] = theme_map.get(key, 0.0) + t.weight
 
-    meaningful = [
-        Theme(theme=k, weight=w)
-        for k, w in theme_map.items()
-        if k not in _GENERIC_TOPICS
+    meaningful_items: list[tuple[str, float]] = [
+        (k, w) for k, w in theme_map.items() if k not in _GENERIC_TOPICS
     ]
-    meaningful.sort(key=lambda t: t.weight, reverse=True)
-    top_themes = meaningful[:10]
+    meaningful_items.sort(key=lambda x: x[1], reverse=True)
+    top_items = meaningful_items[:10]
 
-    total_weight = sum(t.weight for t in top_themes) or 1.0
+    total_weight = sum(w for _, w in top_items) or 1.0
     norm_themes = [
-        Theme(theme=t.theme, weight=round(t.weight / total_weight * 100))
-        for t in top_themes
+        Theme(theme=theme, weight=round(weight / total_weight * 100))
+        for theme, weight in top_items
     ]
 
     return VideoAnalysis(
         video_id=video_id,
         themes=norm_themes,
         claims=final_claims,
-        summary_short=summary_short[:1200],
+        summary_short=summary_short[:600],
     )

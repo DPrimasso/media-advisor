@@ -15,10 +15,19 @@ transcripts/
 analysis/
 web/public/analysis/
 
+# Mercato outputs (tips + index + transfers DB) — regenerate locally
+mercato/
+
+# Per-channel video URL lists: local churn; keep only registry + README tracked
+channels/*
+!channels/channels.json
+!channels/README.md
+
 # IDE
 .vscode/
 *.swp
 *.swo
+.claude/settings.local.json
 
 # Python caches
 __pycache__/

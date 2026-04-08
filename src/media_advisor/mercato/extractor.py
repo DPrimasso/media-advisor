@@ -40,11 +40,15 @@ Per ogni indiscrezione estratta devi fornire:
 
 REGOLE:
 - Estrai SOLO indiscrezioni che riguardano un calciatore specifico con almeno from_club O to_club
-- NON estrarre: commenti tattici, prestazioni in campo, infortuni, formazioni
-- NON estrarre: notizie già ufficiali pubbliche ovvie (es. "Lukaku è al Napoli" detto come dato di fatto narrativo)
+- NON estrarre: commenti tattici, prestazioni in campo, infortuni, formazioni, episodi di partita, arbitri, classifiche
+- NON estrarre: opinioni generiche ("serve un difensore", "dovrebbero comprare X") senza notizia/rumor concreto
+- NON estrarre: semplici DATI BIOGRAFICI o di appartenenza ("X è al Y", "milita nel Y") se NON è parte di una notizia di mercato
+- NON estrarre: notizie già ufficiali pubbliche ovvie dette come contesto narrativo (es. "Lukaku è al Napoli" come premessa)
 - Se lo stesso calciatore è menzionato più volte per la stessa trattativa, estrai UNA sola tip (la più dettagliata)
 - confidence "confirmed" solo se l'opinionista dice esplicitamente "è fatta", "confermato", "ufficiale"
-- quote_text deve essere una substring esatta del transcript fornito"""
+- quote_text deve essere una substring esatta del transcript fornito
+- from_club / to_club: impostali SOLO se compaiono esplicitamente nella quote_text (niente inferenze tipo "Napoli" perché si parla del Napoli)
+- Se non trovi segnali linguistici di MERCATO (trattativa/offerta/contatti/rinnovo/visite/firma/prestito/clausola ecc.), NON estrarre"""
 
 
 class _RawMercatoTip(BaseModel):
@@ -69,6 +73,194 @@ def _transcript_to_text(data: TranscriptResponse) -> str:
     else:
         text = str(data.transcript or "")
     return text[:_MAX_TRANSCRIPT_CHARS]
+
+
+def _slug(s: str) -> str:
+    return "".join(ch.lower() for ch in s.strip() if ch.isalnum())
+
+
+def _slug_name(s: str) -> str:
+    return "".join(ch for ch in _slug(s) if ch.isalnum())
+
+
+def _clubs_match(a: str | None, b: str | None) -> bool:
+    """Match club names loosely (e.g. Juve vs Juventus)."""
+    if not a or not b:
+        return False
+    sa, sb = _slug_name(a), _slug_name(b)
+    if not sa or not sb:
+        return False
+    if sa == sb:
+        return True
+    # substring match for meaningful tokens
+    return (len(sa) >= 3 and sa in sb) or (len(sb) >= 3 and sb in sa)
+
+
+def _club_in_quote(club: str | None, quote: str) -> bool:
+    if not club:
+        return False
+    q = quote
+    # Try common abbreviations/aliases without hardcoding a huge dictionary:
+    # also compare with a few normalized variants.
+    variants = {club}
+    cslug = _slug_name(club)
+    if cslug.endswith("juventus"):
+        variants.add("juve")
+    if cslug.endswith("internazionale"):
+        variants.add("inter")
+    if cslug.endswith("associazioneacalciomilan") or cslug.endswith("milan"):
+        variants.add("milan")
+    if cslug.endswith("societasportivacalcionapoli") or cslug.endswith("napoli"):
+        variants.add("napoli")
+    if cslug.endswith("asroma"):
+        variants.add("roma")
+    if cslug.endswith("ssclazio") or cslug.endswith("lazio"):
+        variants.add("lazio")
+
+    for v in variants:
+        if _clubs_match(v, q):
+            return True
+        if _slug_name(v) in _slug_name(q):
+            return True
+    return False
+
+
+_MERCATO_SIGNAL: tuple[str, ...] = (
+    "mercato",
+    "calciomercato",
+    "trattativa",
+    "trattando",
+    "contatti",
+    "contatto",
+    "offerta",
+    "offerto",
+    "rilancio",
+    "proposta",
+    "accordo",
+    "intesa",
+    "chiusura",
+    "chiudere",
+    "firma",
+    "firmare",
+    "rinnovo",
+    "rinnovare",
+    "prolungamento",
+    "clausola",
+    "rescissione",
+    "prestito",
+    "in prestito",
+    "obbligo",
+    "diritto",
+    "opzione",
+    "visite mediche",
+    "commissioni",
+    "agente",
+    "procura",
+    "trovato l'accordo",
+    "operazione",
+    "arriva",
+    "va via",
+    "cedere",
+    "cessione",
+)
+
+_NON_MERCATO_SIGNAL: tuple[str, ...] = (
+    "partita",
+    "gol",
+    "assist",
+    "rigore",
+    "arbitro",
+    "fallo",
+    "espuls",
+    "ammon",
+    "tattic",
+    "modulo",
+    "difesa",
+    "attacco",
+    "formazione",
+    "infortun",
+    "recuper",
+    "condizione",
+    "classifica",
+    "champions",
+    "europa",
+)
+
+
+def _contains_any(haystack: str, needles: tuple[str, ...]) -> bool:
+    h = haystack.lower()
+    return any(n in h for n in needles)
+
+
+def _quote_mentions_entity(quote: str, entity: str) -> bool:
+    q = _slug(quote)
+    e = _slug(entity)
+    if not e:
+        return False
+    if e in q:
+        return True
+    # fallback: last token (surname-ish) match, but avoid short noise
+    tokens = [t for t in entity.replace("-", " ").split() if len(t) >= 4]
+    if not tokens:
+        return False
+    return _slug(tokens[-1]) in q
+
+
+def _is_plausible_mercato_tip(raw: _RawMercatoTip) -> bool:
+    quote = (raw.quote_text or "").strip()
+    if len(quote) < 15:
+        return False
+
+    # If it screams match analysis and doesn't contain mercato signals -> drop.
+    if _contains_any(quote, _NON_MERCATO_SIGNAL) and not _contains_any(quote, _MERCATO_SIGNAL):
+        return False
+
+    # Requires mercato language in the quote (otherwise it's usually generic chatter).
+    if not _contains_any(quote, _MERCATO_SIGNAL):
+        # allow explicit denied/confirmed phrasing even if short
+        if raw.confidence in ("confirmed", "denied") and _contains_any(
+            quote, ("ufficial", "è fatta", "fatta", "conferm", "smentit", "non si fa", "saltata")
+        ):
+            return True
+        return False
+
+    # Player name should appear in the quote to reduce hallucinations.
+    player_in_quote = bool(raw.player_name) and _quote_mentions_entity(quote, raw.player_name)
+
+    # At least one club must exist and must appear in the quote if provided.
+    if not (raw.from_club or raw.to_club):
+        return False
+    from_in_quote = _club_in_quote(raw.from_club, quote) if raw.from_club else False
+    to_in_quote = _club_in_quote(raw.to_club, quote) if raw.to_club else False
+
+    # If the model produced clubs but none are actually present in the quote AND player isn't either, drop.
+    # (This keeps recall for cases where the quote has "Juve" vs "Juventus", etc.)
+    if (raw.from_club or raw.to_club) and not (from_in_quote or to_in_quote or player_in_quote):
+        return False
+
+    # Drop "is at club" statements unless tied to renewal/transfer verbs.
+    if _contains_any(quote, (" è al ", " sta al ", " gioca nel ", " milita nel ")) and not _contains_any(
+        quote, ("rinn", "firma", "tratt", "offert", "contatt", "arriv", "ced", "va via", "prest")
+    ):
+        return False
+
+    return True
+
+
+def is_plausible_mercato_tip(tip: MercatoTip) -> bool:
+    """Public helper to re-filter already-saved tips (index rebuild / cleanup)."""
+    raw = _RawMercatoTip(
+        player_name=tip.player_name or "",
+        from_club=tip.from_club,
+        to_club=tip.to_club,
+        transfer_type=tip.transfer_type,
+        confidence=tip.confidence,
+        tip_text=tip.tip_text,
+        quote_text=tip.quote_text,
+        quote_start_sec=tip.quote_start_sec,
+        quote_end_sec=tip.quote_end_sec,
+    )
+    return _is_plausible_mercato_tip(raw)
 
 
 async def extract_mercato_tips(
@@ -105,6 +297,8 @@ async def extract_mercato_tips(
 
     tips: list[MercatoTip] = []
     for raw in parsed.tips:
+        if not _is_plausible_mercato_tip(raw):
+            continue
         player = normalize_entity(raw.player_name) or raw.player_name
         from_club = normalize_entity(raw.from_club) if raw.from_club else None
         to_club = normalize_entity(raw.to_club) if raw.to_club else None

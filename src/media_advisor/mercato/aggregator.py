@@ -1,6 +1,7 @@
 """Aggregazione per-player e calcolo veracity score per canale."""
 
 import re
+import unicodedata
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -39,7 +40,9 @@ def get_tips_for_player(root: Path, player_slug: str) -> PlayerSummary | None:
         return None
 
     player_name = matched[0].player_name
-    latest = max((t.mentioned_at for t in matched), default=None)
+    dated = [t.mentioned_at for t in matched if t.mentioned_at is not None]
+    latest = max(dated, default=None)
+    _epoch = datetime.min.replace(tzinfo=timezone.utc)
 
     return PlayerSummary(
         player_name=player_name,
@@ -51,7 +54,7 @@ def get_tips_for_player(root: Path, player_slug: str) -> PlayerSummary | None:
         partial_tips=sum(1 for t in matched if t.outcome == "partial"),
         channels_mentioned=sorted({t.channel_id for t in matched}),
         latest_mention=latest,
-        tips=sorted(matched, key=lambda t: t.mentioned_at, reverse=True),
+        tips=sorted(matched, key=lambda t: t.mentioned_at or _epoch, reverse=True),
     )
 
 
@@ -65,8 +68,10 @@ def get_all_players(root: Path) -> list[PlayerSummary]:
         by_slug.setdefault(slug, []).append(tip)
 
     summaries: list[PlayerSummary] = []
+    _epoch = datetime.min.replace(tzinfo=timezone.utc)
     for slug, tips in by_slug.items():
-        latest = max((t.mentioned_at for t in tips), default=None)
+        dated = [t.mentioned_at for t in tips if t.mentioned_at is not None]
+        latest = max(dated, default=None)
         summaries.append(
             PlayerSummary(
                 player_name=tips[0].player_name,
@@ -78,7 +83,7 @@ def get_all_players(root: Path) -> list[PlayerSummary]:
                 partial_tips=sum(1 for t in tips if t.outcome == "partial"),
                 channels_mentioned=sorted({t.channel_id for t in tips}),
                 latest_mention=latest,
-                tips=sorted(tips, key=lambda t: t.mentioned_at, reverse=True),
+                tips=sorted(tips, key=lambda t: t.mentioned_at or _epoch, reverse=True),
             )
         )
 
@@ -86,14 +91,30 @@ def get_all_players(root: Path) -> list[PlayerSummary]:
 
 
 def _slug_name(name: str) -> str:
-    return re.sub(r"[^a-z0-9]", "", name.lower())
+    # Normalize accents and odd unicode to improve matching (e.g. "Atlético" vs "Atletico").
+    norm = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]", "", norm.lower())
 
 
 def _clubs_match(a: str | None, b: str | None) -> bool:
     if not a or not b:
         return False
     sa, sb = _slug_name(a), _slug_name(b)
-    return sa == sb or (len(sa) >= 3 and (sa in sb or sb in sa))
+    if not sa or not sb:
+        return False
+    if sa == sb:
+        return True
+    if len(sa) >= 3 and (sa in sb or sb in sa):
+        return True
+
+    # Fuzzy fallback for minor corruption / missing chars (e.g. "atltico" vs "atletico").
+    # Avoids false contradictions in UI.
+    if min(len(sa), len(sb)) >= 6:
+        from difflib import SequenceMatcher
+
+        if SequenceMatcher(a=sa, b=sb).ratio() >= 0.9:
+            return True
+    return False
 
 
 def build_tip_context(all_tips: list[MercatoTip]) -> dict[str, dict]:
@@ -136,7 +157,7 @@ def build_tip_context(all_tips: list[MercatoTip]) -> dict[str, dict]:
                 "tip_text": other.tip_text,
                 "to_club": other.to_club,
                 "from_club": other.from_club,
-                "mentioned_at": other.mentioned_at.isoformat(),
+                "mentioned_at": other.mentioned_at.isoformat() if other.mentioned_at else None,
                 "outcome": other.outcome,
                 "confidence": other.confidence,
             }

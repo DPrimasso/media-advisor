@@ -22,6 +22,7 @@ from media_advisor.models.claims import (
 from media_advisor.pipeline.segmenter import Segment
 
 EXTRACT_SYSTEM = """Sei un estrattore di claim da transcript di video sportivi/calcio.
+Rispondi esclusivamente in JSON valido.
 Per ogni SEGMENTO di transcript:
 1. Estrai al massimo 4 claim atomici (una frase concreta ciascuno, non periodi lunghi)
 2. Per OGNI claim DEVI includere quote_text: una citazione VERBATIM dal testo del segmento che supporta il claim
@@ -45,6 +46,29 @@ REGOLE DI PRECISIONE:
 - Il SILENZIO o la mancanza di comunicazione di una squadra è dimension "media", NON "performance" o "tactics"
 - La perdita di un familiare o evento personale di un giocatore è dimension "leadership" (aspetto morale/motivazionale), NON "injury"
 - EVITA di estrarre più claim che affermano la stessa sostanza con parole diverse (es. "ha avuto infortuni" + "ha avuto problemi fisici" + "non si sentiva bene" sullo stesso soggetto nello stesso segmento = estrai UN solo claim, il più specifico con quote migliore)"""
+
+_EXTRACT_OUTPUT_HINT = """
+FORMATO OUTPUT (JSON):
+Devi restituire un oggetto con queste chiavi:
+{
+  "claims": [
+    {
+      "target_entity": "string",
+      "entity_type": "team|player|coach|ref|club|other",
+      "dimension": "performance|tactics|market|finance|leadership|injury|lineup_prediction|refereeing|fan_behavior|standings|europe|rivalry|media",
+      "claim_type": "FACT|OBSERVATION|INTERPRETATION|JUDGEMENT|PRESCRIPTION|PREDICTION|META_INFO_QUALITY",
+      "stance": "POS|NEG|NEU|MIXED",
+      "intensity": 0|1|2|3,
+      "modality": "CERTAIN|PROBABLE|POSSIBLE|HYPOTHESIS|PRESCRIPTIVE",
+      "claim_text": "string",
+      "quote_text": "string",
+      "tags": ["string"]
+    }
+  ],
+  "micro_themes": [{"theme": "string", "weight": 0-100}]
+}
+TUTTE le chiavi dentro ogni claim sono OBBLIGATORIE (anche se metti valori "other"/"NEU"/"POSSIBLE").
+"""
 
 
 class _RawClaim(BaseModel):
@@ -158,19 +182,31 @@ async def _extract_openai_fallback(
     import json
 
     import openai  # type: ignore[import-untyped]
+    from pydantic import ValidationError
 
     client = openai.AsyncOpenAI(api_key=api_key)
-    completion = await client.chat.completions.create(
-        model=model,
-        messages=[
-            {"role": "system", "content": EXTRACT_SYSTEM},
-            {"role": "user", "content": user_content},
-        ],
-        # Avoid `json_schema` strict mode: OpenAI requires a schema shape that doesn't
-        # match Pydantic's default JSON Schema (additionalProperties/required rules).
-        response_format={"type": "json_object"},
-    )
-    content = completion.choices[0].message.content
-    if not content:
-        return _ExtractResult()
-    return _ExtractResult.model_validate(json.loads(content))
+
+    async def _call(system: str) -> _ExtractResult:
+        completion = await client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": system},
+                {"role": "user", "content": user_content},
+            ],
+            # Avoid `json_schema` strict mode: OpenAI requires a schema shape that doesn't
+            # match Pydantic's default JSON Schema (additionalProperties/required rules).
+            response_format={"type": "json_object"},
+        )
+        content = completion.choices[0].message.content
+        if not content:
+            return _ExtractResult()
+        return _ExtractResult.model_validate(json.loads(content))
+
+    try:
+        return await _call(EXTRACT_SYSTEM)
+    except ValidationError:
+        # One retry with a stricter schema hint; if it still fails, don't break the whole video.
+        try:
+            return await _call(EXTRACT_SYSTEM + "\n\n" + _EXTRACT_OUTPUT_HINT)
+        except Exception:
+            return _ExtractResult()

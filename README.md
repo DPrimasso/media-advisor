@@ -15,15 +15,18 @@ cp .env.example .env
 ```
 media-advisor/
 ├── channels/           # Config canali e liste video
-│   ├── channels.json   # Registro canali
-│   └── {id}.json       # URL video per canale
+│   ├── channels.json   # Registro canali (versionato)
+│   └── {id}.json       # URL video per canale (locale, non in git)
 ├── transcripts/        # Trascrizioni (per canale)
 │   ├── {channel_id}/   # transcript per canale
 │   └── _misc/          # Fetch singoli senza canale
 ├── analysis/           # Output analisi (per canale)
 ├── web/                # Dashboard Vue.js
+├── mercato/            # Tip mercato + index (locale, non in git)
 └── scripts/            # Utility
 ```
+
+**Dati locali (non in git):** `transcripts/`, `analysis/`, `mercato/`, liste `channels/*.json` (tranne che il registro `channels/channels.json`). Dopo un clone crea le liste video e lancia pipeline / `mercato-scan` come al solito.
 
 ## Comandi
 
@@ -43,6 +46,15 @@ media-advisor/
 
 **Auto-update giornaliero**: pianifica `npm run auto-update` con Task Scheduler (Windows) o cron (`0 8 * * *` = ogni giorno alle 8).
 
+## Mercato (tip calciomercato)
+
+- **Analisi singolo video**:
+  - `python -m media_advisor.cli mercato-analyze <video_id> --channel <channel_id> --force`
+- **Scan batch su transcript già scaricati**:
+  - `python -m media_advisor.cli mercato-scan --channel <channel_id> --force`
+- **Rebuild index (consigliato dopo modifiche a filtri/prompt o per ripulire dati “stale”)**:
+  - `python -m media_advisor.cli mercato-rebuild-index --prune-non-mercato`
+
 ## Dashboard
 
 ```bash
@@ -55,7 +67,11 @@ npm run dev   # solo frontend (richiede server su 3001 per Inbox)
 npm run dev   # avvia server (3001) + Vite in parallelo
 ```
 
-La dashboard legge da `web/public/analysis/`. Esegui `npm run prepare-public` dopo nuove analisi (o riavvia `npm run dev`).
+La dashboard legge:
+- `analysis/` via `web/public/analysis/` (copiato con `npm run prepare-public`)
+- `mercato/` via API `http://localhost:3001/api/mercato/*`
+
+Nota: `npm run dev` in root ora esegue un pre-step `dev:kill` per liberare le porte `3001/5173/5174` e avviare sempre istanze “pulite”.
 
 ## Piano Creator Advisor (quality upgrade)
 

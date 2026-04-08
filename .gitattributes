@@ -1,0 +1,8 @@
+* text=auto
+
+# Keep diffs stable across Windows/macOS/Linux
+*.py text eol=lf
+*.js text eol=lf
+*.vue text eol=lf
+*.json text eol=lf
+*.md text eol=lf

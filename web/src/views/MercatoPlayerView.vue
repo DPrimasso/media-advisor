@@ -85,8 +85,38 @@ async function setOutcome(tipId, outcome) {
 }
 
 function formatDate(iso) {
-  if (!iso) return ''
+  if (!iso) return 'Senza data'
   return new Date(iso).toLocaleDateString('it-IT', { day: '2-digit', month: 'short', year: 'numeric' })
+}
+
+// Editing della data di una tip senza data
+const dateEditingTip = ref(null)
+const dateEditValue = ref('')
+
+function startDateEdit(tipId) {
+  dateEditingTip.value = tipId
+  dateEditValue.value = new Date().toISOString().slice(0, 10)
+}
+
+function cancelDateEdit() {
+  dateEditingTip.value = null
+  dateEditValue.value = ''
+}
+
+async function submitDateEdit(tipId) {
+  if (!dateEditValue.value) return
+  try {
+    const res = await fetch(`/api/mercato/tip/${tipId}/date`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ date: dateEditValue.value }),
+    })
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    cancelDateEdit()
+    await fetchPlayer()
+  } catch (e) {
+    alert('Errore impostazione data: ' + e.message)
+  }
 }
 
 onMounted(fetchPlayer)
@@ -114,7 +144,15 @@ onMounted(fetchPlayer)
       <div class="timeline">
         <div v-for="tip in filteredTips" :key="tip.tip_id" class="tip-card">
           <div class="tip-header">
-            <span class="tip-date">{{ formatDate(tip.mentioned_at) }}</span>
+            <template v-if="!tip.mentioned_at">
+              <template v-if="dateEditingTip === tip.tip_id">
+                <input type="date" v-model="dateEditValue" class="date-input-inline" />
+                <button class="btn-date-ok" @click="submitDateEdit(tip.tip_id)">✓</button>
+                <button class="btn-date-cancel" @click="cancelDateEdit">✗</button>
+              </template>
+              <span v-else class="tip-no-date" @click="startDateEdit(tip.tip_id)" title="Clicca per aggiungere la data">Senza data</span>
+            </template>
+            <span v-else class="tip-date">{{ formatDate(tip.mentioned_at) }}</span>
             <span :class="['badge', CONFIDENCE_CLASSES[tip.confidence]]">
               {{ CONFIDENCE_LABELS[tip.confidence] }}
             </span>
@@ -261,6 +299,11 @@ onMounted(fetchPlayer)
 }
 .tip-header { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: .5rem; }
 .tip-date { font-size: .82rem; color: var(--color-text-muted, #888); }
+.tip-no-date { font-size: .82rem; color: #e07b00; cursor: pointer; border-bottom: 1px dashed #e07b00; }
+.tip-no-date:hover { color: #c06000; }
+.date-input-inline { font-size: .8rem; padding: .1rem .3rem; border: 1px solid #ccc; border-radius: 4px; }
+.btn-date-ok { font-size: .8rem; padding: .1rem .4rem; background: #2a9d2a; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+.btn-date-cancel { font-size: .8rem; padding: .1rem .4rem; background: #999; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
 .tip-channel { font-size: .78rem; color: var(--color-text-muted, #aaa); margin-left: auto; }
 
 .badge {
@@ -351,10 +394,10 @@ onMounted(fetchPlayer)
 .label-conferma   { color: #065f46; }
 
 .related-tip { border-radius: 6px; padding: .4rem .6rem; font-size: .82rem; }
-.related-same-ok { background: #f0f9ff; border-left: 3px solid #38bdf8; }
-.related-same-ko { background: #fefce8; border-left: 3px solid #facc15; }
-.related-corr    { background: #f0fdf4; border-left: 3px solid #22c55e; }
-.related-contr   { background: #fef2f2; border-left: 3px solid #ef4444; }
+.related-same-ok { border-left: 3px solid #38bdf8; }
+.related-same-ko { border-left: 3px solid #facc15; }
+.related-corr    { border-left: 3px solid #22c55e; }
+.related-contr   { border-left: 3px solid #ef4444; }
 
 .rel-header { display: flex; align-items: center; gap: .35rem; flex-wrap: wrap; margin-bottom: .2rem; }
 .rel-channel { font-weight: 600; font-size: .75rem; color: var(--color-text-muted, #666); }

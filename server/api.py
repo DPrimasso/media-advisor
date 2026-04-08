@@ -156,6 +156,10 @@ class OutcomeRequest(BaseModel):
     source: str = "manual"
 
 
+class SetDateRequest(BaseModel):
+    date: str   # ISO date string es. "2026-04-07"
+
+
 class MercatoAnalyzeRequest(BaseModel):
     video_id: str
     channel_id: str
@@ -214,7 +218,9 @@ async def get_mercato_tips(
         tips = [t for t in tips if t.channel_id == channel]
     if outcome:
         tips = [t for t in tips if t.outcome == outcome]
-    tips_sorted = sorted(tips, key=lambda t: t.mentioned_at, reverse=True)
+    from datetime import datetime, timezone
+    _epoch = datetime.min.replace(tzinfo=timezone.utc)
+    tips_sorted = sorted(tips, key=lambda t: t.mentioned_at or _epoch, reverse=True)
     return _enrich_tips(tips_sorted, all_tips)
 
 
@@ -266,6 +272,26 @@ async def post_mercato_outcome(tip_id: str, body: OutcomeRequest) -> Any:
     except KeyError as e:
         raise HTTPException(status_code=404, detail=str(e))
     return {"ok": True, "tip_id": tip_id, "outcome": body.outcome}
+
+
+@app.post("/api/mercato/tip/{tip_id}/date")
+async def post_mercato_set_date(tip_id: str, body: SetDateRequest) -> Any:
+    """Imposta la data di pubblicazione (mentioned_at) di una tip senza data."""
+    from datetime import datetime, timezone
+    from media_advisor.mercato.analyzer import update_tip_date
+
+    try:
+        dt = datetime.strptime(body.date, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    except ValueError:
+        raise HTTPException(status_code=400, detail="Formato data non valido, usa YYYY-MM-DD")
+
+    try:
+        update_tip_date(_root, tip_id, dt)
+    except FileNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except KeyError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    return {"ok": True, "tip_id": tip_id, "mentioned_at": dt.isoformat()}
 
 
 @app.post("/api/mercato/tip/{tip_id}/verify")
@@ -400,7 +426,6 @@ async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
     )
     return result.model_dump(mode="json")
 
-
 # ---------------------------------------------------------------------------
 # Background pipeline trigger
 # ---------------------------------------------------------------------------
@@ -442,4 +467,9 @@ if _web_dist.exists() and _index_html.exists():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("server.api:app", host="0.0.0.0", port=3001, reload=True)
+    # On Windows, `reload=True` requires an import string and can be fragile
+    # depending on how Python is launched. We prefer a reliable default here.
+    #
+    # If you want reload in dev, run explicitly:
+    #   uvicorn server.api:app --reload --port 3001 --app-dir .
+    uvicorn.run(app, host="0.0.0.0", port=3001)

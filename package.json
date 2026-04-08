@@ -7,9 +7,10 @@
     "analyze": "tsx src/cli-analyze.ts",
     "run-list": "tsx src/cli-from-list.ts",
     "fetch-preview": "tsx src/cli-fetch-preview.ts",
-    "server": "uvicorn server.api:app --host 0.0.0.0 --port 3001 --reload --reload-dir server --reload-dir src",
+    "server": "python -m uvicorn server.api:app --host 0.0.0.0 --port 3001 --reload --reload-dir server --reload-dir src",
     "prepare-public": "node web/scripts/prepare-public.js",
-    "dev": "concurrently -n s,w \"npm run server\" \"npm run dev:web\"",
+    "dev:kill": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$ports=@(3001,5173,5174); $pids=@(); foreach($p in $ports){ try{ $pids += (Get-NetTCPConnection -LocalPort $p -State Listen -ErrorAction Stop | Select-Object -ExpandProperty OwningProcess) } catch {} }; $pids = $pids | Sort-Object -Unique; foreach($procId in $pids){ try{ Stop-Process -Id $procId -Force -ErrorAction Stop } catch {} }; if($pids.Count -gt 0){ Write-Host ('Killed PIDs: ' + ($pids -join ',')) } else { Write-Host 'No dev ports to kill.' }\"",
+    "dev": "npm run dev:kill && concurrently -n s,w \"npm run server\" \"npm run dev:web\"",
     "dev:web": "npm run dev --prefix web",
     "build": "tsc"
   },

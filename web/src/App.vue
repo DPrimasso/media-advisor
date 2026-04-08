@@ -34,6 +34,13 @@ onMounted(() => {
         </router-link>
         <div class="channel-pills">
           <router-link
+            to="/canali"
+            class="pill"
+            :class="{ active: $route.path === '/canali' }"
+          >
+            Analisi video
+          </router-link>
+          <router-link
             to="/mercato"
             class="pill"
             :class="{ active: $route.path.startsWith('/mercato') }"

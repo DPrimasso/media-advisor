@@ -39,6 +39,31 @@ def update_index_with_new_tips(root: Path, all_tips: list[MercatoTip]) -> None:
     _save_index(root, index)
 
 
+def update_tip_date(
+    root: Path,
+    tip_id: str,
+    mentioned_at: datetime,
+) -> MercatoTip:
+    """Imposta la data di pubblicazione (mentioned_at) di una tip.
+
+    Usato quando il video non aveva published_at al momento dell'estrazione.
+    Solleva KeyError se non trovata.
+    """
+    idx_path = mercato_index_path(root)
+    data = read_json_or_default(idx_path)
+    if data is None:
+        raise FileNotFoundError("Index mercato non trovato")
+
+    index = MercatoIndex.model_validate(data)
+    tip = next((t for t in index.tips if t.tip_id == tip_id), None)
+    if tip is None:
+        raise KeyError(f"Tip {tip_id} non trovata nell'index")
+
+    tip.mentioned_at = mentioned_at
+    _save_index(root, index)
+    return tip
+
+
 def update_tip_outcome(
     root: Path,
     tip_id: str,
@@ -101,15 +126,13 @@ async def analyze_video_mercato(
     transcript = TranscriptResponse.model_validate(read_json(t_path))
     meta = transcript.metadata
 
-    mentioned_at: datetime
+    mentioned_at: datetime | None = None
     if meta and meta.published_at:
         dt = datetime.fromisoformat(str(meta.published_at))
         # Ensure timezone-aware
         if dt.tzinfo is None:
             dt = dt.replace(tzinfo=timezone.utc)
         mentioned_at = dt
-    else:
-        mentioned_at = datetime.now(timezone.utc)
 
     context = {
         "title": meta.title if meta else None,
@@ -132,7 +155,7 @@ async def analyze_video_mercato(
         channel_id=channel_id,
         extracted_at=datetime.now(timezone.utc),
         video_title=meta.title if meta else None,
-        video_published_at=mentioned_at if meta else None,
+        video_published_at=mentioned_at,
         tips=tips,
     )
 

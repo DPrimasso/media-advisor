@@ -24,7 +24,7 @@ class MercatoTip(BaseModel):
     tip_id: str                          # UUID
     video_id: str
     channel_id: str
-    mentioned_at: datetime               # published_at del video
+    mentioned_at: datetime | None = None  # published_at del video (None = data sconosciuta)
     extracted_at: datetime
 
     # Il rumor
