@@ -1,0 +1,366 @@
+{
+  "video_id": "v02G4mAc5es",
+  "analyzed_at": "2026-04-07T15:02:41.808714+00:00",
+  "metadata": {
+    "title": "TMW News: L'Inter si avvicina allo scudetto. Conte in Nazionale ipotesi concreta",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News analizza la situazione attuale dell'Inter, che sembra avvicinarsi sempre di più alla conquista dello scudetto, grazie a una vittoria convincente contro la Roma e a un margine di sette punti in classifica. L'autore sottolinea come la squadra abbia ritrovato una buona forma e uno spirito combattivo, con giocatori chiave come Lautaro e Calhanoglu che si sono distinti per le loro prestazioni. Si ipotizza che, se l'Inter continuerà su questa strada, la vittoria del campionato sia ormai a portata di mano, mentre il Napoli, pur in crescita, potrebbe avere difficoltà a recuperare ",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "salvezza",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "competitività",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma ha mostrato difetti durante la partita.",
+      "polarity": "negative",
+      "claim_id": "81e377ea-4fbc-4694-9180-018b5f367dd3",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha mostrato difetti durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi nella ripresa sono emersi un po' di difetti dei giallorossi.",
+          "start_sec": 13.24,
+          "end_sec": 97.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha un margine di sette punti in classifica.",
+      "polarity": "positive",
+      "claim_id": "1e1a3572-24dd-4734-b996-3d28db44458f",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha un margine di sette punti in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sette punti mi sembrano mi sembra un buon margine di vantaggio",
+          "start_sec": 93.72,
+          "end_sec": 179.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha ritrovato l'affiatamento tra Lautaro e Turam.",
+      "polarity": "positive",
+      "claim_id": "631b1c09-26ef-49c7-807f-e100aa436978",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha ritrovato l'affiatamento tra Lautaro e Turam.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'intesa con con Turam che ovviamente è stato protagonista",
+          "start_sec": 93.72,
+          "end_sec": 179.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Un giocatore esprime grande potenza e precisione nei tiri.",
+      "polarity": "positive",
+      "claim_id": "d66d739e-4736-4a7c-851b-7d668ee86c82",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s2",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un giocatore esprime grande potenza e precisione nei tiri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "soltanto quello, però, insomma, appena spazio riesce ad inquadrare la porta con grande precisione, con grande potenza.",
+          "start_sec": 177.76,
+          "end_sec": 258.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Il giocatore utilizza il collo del piede per calciare.",
+      "polarity": "positive",
+      "claim_id": "85c01040-5953-4d38-a231-0f01d52db654",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s2",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore utilizza il collo del piede per calciare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io sono sempre con il collo piede. Io sinceramente nella mia carriera mai e poi mai ho tirato di interno piede a giro.",
+          "start_sec": 177.76,
+          "end_sec": 258.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha mostrato uno spirito diverso nelle ultime gare.",
+      "polarity": "positive",
+      "claim_id": "70d2bcae-e69c-4b7d-b4e8-e6c08bc1ecb7",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha mostrato uno spirito diverso nelle ultime gare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho visto uno spirito eh diverso dalle ultime gare.",
+          "start_sec": 13.24,
+          "end_sec": 97.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha lo scudetto nelle mani.",
+      "polarity": "positive",
+      "claim_id": "4fcadde4-ec77-4792-a805-2c468ac52fa5",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha lo scudetto nelle mani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter ha ora dopo la vittoria con il la Roma lo scudetto nelle mani con sette partite ancora da giocare.",
+          "start_sec": 13.24,
+          "end_sec": 97.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha ottenuto una vittoria meritata.",
+      "polarity": "positive",
+      "claim_id": "29a5c75d-622c-44d6-aa70-493b9a226d07",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha ottenuto una vittoria meritata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una vittoria meritata. quella dei partenopei contro",
+          "start_sec": 177.76,
+          "end_sec": 258.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter sembra aver ritrovato una buona forma.",
+      "polarity": "positive",
+      "claim_id": "999d3925-3272-4a49-bfb9-0fcf1a4383ee",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sembra aver ritrovato una buona forma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sembra anche aver ritrovato una buona forma.",
+          "start_sec": 13.24,
+          "end_sec": 97.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Calhanoglu",
+      "position": "Calhanoglu si conferma un gran tiratore.",
+      "polarity": "positive",
+      "claim_id": "8fa3aae1-281f-4c90-a059-cde36c79c7c7",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s1",
+      "target_entity": "Calhanoglu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Calhanoglu si conferma un gran tiratore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Calanoglu si conferma un gran tiratore",
+          "start_sec": 93.72,
+          "end_sec": 179.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro è un capitano e un riferimento importante per l'Inter.",
+      "polarity": "positive",
+      "claim_id": "e14921f8-10a0-4632-8354-c117221b3017",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s1",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro è un capitano e un riferimento importante per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lautaro si sa che è un riferimento importante, è il capitano, è il leader",
+          "start_sec": 93.72,
+          "end_sec": 179.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Il tiro da fuori è una qualità importante del giocatore.",
+      "polarity": "positive",
+      "claim_id": "e645d08b-a89b-4c40-9da4-9d6b64a97485",
+      "video_id": "v02G4mAc5es",
+      "segment_id": "s2",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il tiro da fuori è una qualità importante del giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco, questa qualità importante. tiratore del nostro campionato.",
+          "start_sec": 177.76,
+          "end_sec": 258.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

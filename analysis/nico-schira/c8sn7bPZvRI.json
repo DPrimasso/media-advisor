@@ -1,0 +1,362 @@
+{
+  "video_id": "c8sn7bPZvRI",
+  "analyzed_at": "2026-04-08T13:38:58.259624+00:00",
+  "metadata": {
+    "title": "È NATA LA JUVENTUS DI SPALLETTI CHE ORA CHIEDE 4 COLPI. NEWCASTLE ALL’ASSALTO DEI GIOIELLI ITALIANI",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sul calciomercato, in particolare sulle strategie della Juventus sotto la guida di Spalletti, che sta cercando di effettuare quattro acquisti. L'autore esprime scetticismo riguardo all'ipotesi di Alisson, sottolineando che il portiere del Liverpool non è un'opzione realistica per la Juve a causa del suo alto ingaggio e del recente rinnovo contrattuale. Schira suggerisce che la Juventus stia invece valutando Dibu Martinez come possibile acquisto, evidenziando l'importanza di considerare nomi credibili piuttosto che speculazioni fantasiose.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Liverpool",
+      "position": "Il Liverpool ha rinnovato il contratto di Alisson fino al 2027.",
+      "polarity": "positive",
+      "claim_id": "b251f9fa-8c29-43a8-868e-dc43d68192c2",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s1",
+      "target_entity": "Liverpool",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Liverpool ha rinnovato il contratto di Alisson fino al 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Liverpool ha completato l'accordo per il rinnovo del contratto sino 2027.",
+          "start_sec": 56.719,
+          "end_sec": 87.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Harison Becker",
+      "position": "Harison Becker non è in orbita Serie A e non sarà preso da Juventus o Inter.",
+      "polarity": "negative",
+      "claim_id": "6d9873a5-6bd1-4854-86c1-fa598258129c",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s0",
+      "target_entity": "Harison Becker",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Harison Becker non è in orbita Serie A e non sarà preso da Juventus o Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho sempre creduto poco in questi giorni, queste ultime settimane all'ipotesi che davano Harison Becker, il portiere della nazionale brasiliana e del Liverpool in orbita Serie A.",
+          "start_sec": 1.319,
+          "end_sec": 60.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alisson",
+      "position": "Alisson guadagna molto e non è considerato per la Juventus.",
+      "polarity": "negative",
+      "claim_id": "74995eb5-13f0-4859-ae63-7f2a42eee797",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s0",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson guadagna molto e non è considerato per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alison è un giocatore che guadagna praticamente 10.",
+          "start_sec": 1.319,
+          "end_sec": 60.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Dibu",
+      "position": "Dibu è in cerca di una nuova squadra.",
+      "polarity": "positive",
+      "claim_id": "57b6c9b7-6598-47ef-922c-2aa9c9f0ac6f",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s3",
+      "target_entity": "Dibu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dibu è in cerca di una nuova squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il dibu vuole andare via da Birmingham, vuole andare via da Aston Villa",
+          "start_sec": 122.28,
+          "end_sec": 153.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Spalletti",
+      "position": "Spalletti ha schierato Perin come titolare per quattro partite.",
+      "polarity": "neutral",
+      "claim_id": "048639f9-3a84-4ead-9fcc-3ddd59f90f2a",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s3",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Spalletti ha schierato Perin come titolare per quattro partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le scelte di Spalletti, ormai siamo alla quarta partita di fila, Perin titolare",
+          "start_sec": 122.28,
+          "end_sec": 153.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta valutando il portiere Dibu Martinez.",
+      "polarity": "neutral",
+      "claim_id": "af538db9-60a7-459e-a449-3e1b49bb7e6b",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus sta valutando il portiere Dibu Martinez.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve sta valutando il dibu Martinez.",
+          "start_sec": 1.319,
+          "end_sec": 60.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Juventus",
+      "position": "La Juventus di Spalletti sta cercando di effettuare quattro acquisti.",
+      "polarity": "neutral",
+      "claim_id": "f9cc2e7b-c427-4c7c-a1df-d01f36f59a0c",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus di Spalletti sta cercando di effettuare quattro acquisti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus di Spalletti che ora chiede 4 colpi",
+          "start_sec": 85.24,
+          "end_sec": 123.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Alisson",
+      "position": "Ci sono speculazioni su grandi nomi come Alisson che potrebbero arrivare.",
+      "polarity": "neutral",
+      "claim_id": "734937b0-1ab7-4747-8c58-7ebc78c99133",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s2",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono speculazioni su grandi nomi come Alisson che potrebbero arrivare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma che è reale piuttosto che dirvi arriva Alisson",
+          "start_sec": 85.24,
+          "end_sec": 123.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Messi",
+      "position": "Messi è menzionato tra i grandi nomi non realizzabili.",
+      "polarity": "neutral",
+      "claim_id": "497cb039-289e-484a-bdff-faf511f6e876",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s2",
+      "target_entity": "Messi",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Messi è menzionato tra i grandi nomi non realizzabili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arriva Messi e poi non arrivano",
+          "start_sec": 85.24,
+          "end_sec": 123.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Juventus",
+      "position": "La Juventus ha intenzione di facilitare l'addio di Perin in estate.",
+      "polarity": "neutral",
+      "claim_id": "f4ccc131-da0f-4922-ba6f-b43f905afb80",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha intenzione di facilitare l'addio di Perin in estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "facilitare invece l'addio di Perin in estate.",
+          "start_sec": 151.239,
+          "end_sec": 184.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Salah",
+      "position": "Salah è citato come esempio di un possibile acquisto.",
+      "polarity": "neutral",
+      "claim_id": "9545b03c-2aca-47cd-9da8-681dc4c1c040",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s2",
+      "target_entity": "Salah",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Salah è citato come esempio di un possibile acquisto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dirvi arriva Salah",
+          "start_sec": 85.24,
+          "end_sec": 123.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter non prenderà un portiere vecchio.",
+      "polarity": "negative",
+      "claim_id": "34256166-ae8b-4eb4-af3f-aaa5c05a9ee3",
+      "video_id": "c8sn7bPZvRI",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non prenderà un portiere vecchio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter Fondoc 3 ha altre idee non andrà a prendere un portiere vecchio.",
+          "start_sec": 1.319,
+          "end_sec": 60.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

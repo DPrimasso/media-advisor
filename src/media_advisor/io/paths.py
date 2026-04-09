@@ -43,3 +43,18 @@ def mercato_index_path(root: Path) -> Path:
 def transfers_index_path(root: Path) -> Path:
     """mercato/transfers.json"""
     return root / "mercato" / "transfers.json"
+
+
+def video_dates_cache_path(root: Path) -> Path:
+    """channels/video-dates.json — mappa video_id → published_at per tutti i canali."""
+    return root / "channels" / "video-dates.json"
+
+
+def player_tm_ids_path(root: Path) -> Path:
+    """mercato/player-tm-ids.json — mappa player_slug → {tm_id, ss_id} persistente."""
+    return root / "mercato" / "player-tm-ids.json"
+
+
+def player_aliases_path(root: Path) -> Path:
+    """mercato/player-aliases.json — mappa alias_slug → nome canonico per la ricerca."""
+    return root / "mercato" / "player-aliases.json"

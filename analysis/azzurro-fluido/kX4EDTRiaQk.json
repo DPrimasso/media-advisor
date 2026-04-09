@@ -1,0 +1,394 @@
+{
+  "video_id": "kX4EDTRiaQk",
+  "analyzed_at": "2026-03-31T14:52:17.746Z",
+  "metadata": {
+    "title": "CI GIOCHIAMO TUTTO QUI 👀 Analisi 25a #SerieA 🔵 Pagelle Napoli Como",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-12T19:13:31+00:00"
+  },
+  "summary": "Nel video analizzato, l'opinionista Azzurro Fluido discute la situazione attuale della Serie A, focalizzandosi sulle prestazioni delle squadre e sugli upcoming match. La sua posizione principale è che, nonostante le difficoltà del Napoli, la squadra potrebbe essere competitiva se tutti i giocatori fossero disponibili, mentre il Milan si trova attualmente in una posizione di vantaggio in classifica. Inoltre, l'autore sottolinea l'importanza della Coppa Italia, evidenziando come l'uscita del Napoli dalla competizione sia considerata gravissima, e come la percezione della Coppa sia cambiata, dive",
+  "topics": [
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "coppa italia",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "napoli",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica serie a",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni dei giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "controversie arbitrali",
+      "relevance": "low"
+    },
+    {
+      "name": "difficoltà",
+      "relevance": "low"
+    },
+    {
+      "name": "caduta libera",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "4a667176-9354-4fbc-9919-54050f17338b",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "PROBABLE",
+      "claim_text": "Napoli potrebbe avere una formazione competitiva se tutti i giocatori fossero disponibili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se la squadra era al completo Vergara manca a nascondino facevano giocare a Napoli.",
+          "start_sec": 0.32,
+          "end_sec": 105.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "formazione"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "Napoli potrebbe avere una formazione competitiva se tutti i giocatori fossero disponibili.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "408c534f-0636-4632-8719-173d8ab94f6e",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como sta molto più avanti in classifica rispetto alla Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como sta molto più avanti e si sono proprio scambiate le posizioni",
+          "start_sec": 103.92,
+          "end_sec": 164.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "Como",
+        "Fiorentina"
+      ],
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como sta molto più avanti in classifica rispetto alla Fiorentina.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "42863afd-36c7-488a-9834-993e744f2962",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "POSSIBLE",
+      "claim_text": "La Fiorentina potrebbe ambire a una posizione migliore in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Fiorentina potrebbe ambire come storia alla posizione che ha adesso il Como",
+          "start_sec": 103.92,
+          "end_sec": 164.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "ambizioni",
+        "Fiorentina"
+      ],
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina potrebbe ambire a una posizione migliore in classifica.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b85dd70d-5fe6-478f-a5bd-3a7132506cd4",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha avuto una stagione deludente fino ad ora.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stagione abbastanza deludente in partenza perché si parte con pochi sogni.",
+          "start_sec": 162.44,
+          "end_sec": 226.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha avuto una stagione deludente fino ad ora.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "78654746-5cff-4255-a6ad-6c4b3a3be7cf",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s2",
+      "target_entity": "Coppa Italia",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PROBABLE",
+      "claim_text": "La Coppa Italia potrebbe cambiare la stagione della Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso potrebbe prendere tutto un'altra piega perché con la vittoria eventuale della Coppa Italia.",
+          "start_sec": 162.44,
+          "end_sec": 226.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Coppa Italia",
+      "position": "La Coppa Italia potrebbe cambiare la stagione della Lazio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a25724ec-b566-42ec-a8f8-3b402401df7f",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter deve migliorare nei big match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è il discorso degli scontri diretti che l'Inter deve vincere dei big match.",
+          "start_sec": 162.44,
+          "end_sec": 226.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "L'Inter deve migliorare nei big match.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "7d60a849-2d39-40e8-afda-e75c1fd9dc56",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s1",
+      "target_entity": "Coppa Italia",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "La Coppa Italia è vista come meno importante rispetto a prima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Coppa Italia che era sempre vista come una cosa inutile",
+          "start_sec": 103.92,
+          "end_sec": 164.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Coppa Italia",
+        "percezione",
+        "media"
+      ],
+      "topic": "media",
+      "subject": "Coppa Italia",
+      "position": "La Coppa Italia è vista come meno importante rispetto a prima.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f91ed47b-27b7-40e0-b761-6d61859830fd",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s0",
+      "target_entity": "Vergara",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Vergara ha esploso in questa stagione e la squadra potrebbe beneficiarne.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh Vergara però adesso è esploso Vergara.",
+          "start_sec": 0.32,
+          "end_sec": 105.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Vergara",
+      "position": "Vergara ha esploso in questa stagione e la squadra potrebbe beneficiarne.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "1856fb12-9da3-4179-ae9b-c26eb0bc3a40",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "L'uscita del Napoli dalla Coppa Italia è considerata gravissima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli che esce dalla Coppa Italia è gravissimo",
+          "start_sec": 103.92,
+          "end_sec": 164.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Coppa Italia",
+        "Napoli",
+        "critiche"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "L'uscita del Napoli dalla Coppa Italia è considerata gravissima.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "3803e6b0-3db8-4a35-9736-0eb410351f5a",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus ha buone possibilità di vincere contro l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho detto proprio la Juventus vincerà.",
+          "start_sec": 162.44,
+          "end_sec": 226.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha buone possibilità di vincere contro l'Inter.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "4cbdf419-0b9f-4b84-ac4a-576f57b1c645",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan attualmente è primo in classifica in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan primo in classifica.",
+          "start_sec": 0.32,
+          "end_sec": 105.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "classifica"
+      ],
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan attualmente è primo in classifica in Serie A.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "adb3e828-bf89-4bd7-a062-e942b2a4dc5d",
+      "video_id": "kX4EDTRiaQk",
+      "segment_id": "s0",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Pisa è attualmente penultimo in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pisa penultimo in classifica.",
+          "start_sec": 0.32,
+          "end_sec": 105.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "classifica"
+      ],
+      "topic": "standings",
+      "subject": "Pisa",
+      "position": "Il Pisa è attualmente penultimo in classifica.",
+      "polarity": "positive"
+    }
+  ]
+}

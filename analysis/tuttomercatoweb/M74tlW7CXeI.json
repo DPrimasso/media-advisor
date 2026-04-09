@@ -1,0 +1,346 @@
+{
+  "video_id": "M74tlW7CXeI",
+  "analyzed_at": "2026-04-07T16:00:45.846348+00:00",
+  "metadata": {
+    "title": "TMWRadio-Yildiz già superiore a Del Piero? Il commento di Impallomeni, Rampulla, Bezzi e Gherarducci",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza il confronto tra le carriere di Alessandro Del Piero e il giovane Yildiz, entrambi a 21 anni. L'autore sostiene che, sebbene Yildiz abbia numeri impressionanti, come 123 presenze e una buona esperienza in Champions, non si può paragonare direttamente con Del Piero, che ha segnato 16 gol in 64 presenze in un contesto di squadra di livello superiore. Si conclude che Yildiz deve ancora trovare la continuità nelle prestazioni per diventare un giocatore centrale nella Juventus, mentre Del Piero rimane una leggenda indiscussa del club.",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "confronto",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "ruolo",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Del Piero",
+      "position": "Del Piero avrebbe segnato 85 gol in 123 presenze.",
+      "polarity": "neutral",
+      "claim_id": "bd36a42d-5b1d-4d3b-b6be-8b21132bd886",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s4",
+      "target_entity": "Del Piero",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Del Piero avrebbe segnato 85 gol in 123 presenze.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Del Piero di 21 anni che tu hai messo nel 94... avessi messo al posto di Hild 123 presenze avrebbe fatto 85 gol",
+          "start_sec": 168.36,
+          "end_sec": 204.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Del Piero",
+      "position": "Del Piero ha avuto 64 presenze totali a 21 anni.",
+      "polarity": "neutral",
+      "claim_id": "0ea39631-c2bd-46a6-a854-2ebab5baa01a",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s0",
+      "target_entity": "Del Piero",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Del Piero ha avuto 64 presenze totali a 21 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "64 presenze totali di Del Piero a 21 anni.",
+          "start_sec": 0.04,
+          "end_sec": 34.398999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Yildiz",
+      "position": "Yildiz ha già 123 presenze a 21 anni.",
+      "polarity": "positive",
+      "claim_id": "4155001d-7ed8-45ab-8228-e2dcaca571a7",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s2",
+      "target_entity": "Yildiz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Yildiz ha già 123 presenze a 21 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "21 anni, 21 anni, ma già 123 presenze",
+          "start_sec": 89.56,
+          "end_sec": 132.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Del Piero",
+      "position": "Il confronto tra Yildiz e Del Piero è complesso.",
+      "polarity": "positive",
+      "claim_id": "0ebc6a7a-1c45-4192-8f43-61ed73e2c5fc",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s2",
+      "target_entity": "Del Piero",
+      "entity_type": "player",
+      "dimension": "rivalry",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il confronto tra Yildiz e Del Piero è complesso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci dobbiamo mettere d'accordo poi quando facciamo sti raffronti",
+          "start_sec": 89.56,
+          "end_sec": 132.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Yildiz",
+      "position": "Yildiz ha già una buona esperienza in Champions e ha segnato due gol.",
+      "polarity": "positive",
+      "claim_id": "89ccebbf-e66b-479f-8dc9-7fed7b870a4c",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s1",
+      "target_entity": "Yildiz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Yildiz ha già una buona esperienza in Champions e ha segnato due gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "presenze in Champions e due gol.",
+          "start_sec": 38.64,
+          "end_sec": 92.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Del Piero",
+      "position": "Del Piero è considerato una leggenda della Juventus.",
+      "polarity": "positive",
+      "claim_id": "06e652d6-c186-4d81-a156-66b1ff190ce7",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s1",
+      "target_entity": "Del Piero",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Del Piero è considerato una leggenda della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "del Pier una leggenda.",
+          "start_sec": 38.64,
+          "end_sec": 92.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Yildiz gioca in una Juventus discreta, in confronto a Del Piero.",
+      "polarity": "neutral",
+      "claim_id": "4a462939-3fc7-4945-b161-dda7a98f2861",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Yildiz gioca in una Juventus discreta, in confronto a Del Piero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Idi invece gioca in una discreta Juventus.",
+          "start_sec": 38.64,
+          "end_sec": 92.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Rampulla",
+      "position": "Rampulla può confermare la grandezza di Del Piero.",
+      "polarity": "neutral",
+      "claim_id": "5d35558e-a828-46de-ad44-f16ea3b7d1fa",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s1",
+      "target_entity": "Rampulla",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rampulla può confermare la grandezza di Del Piero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rampulla può confermarlo.",
+          "start_sec": 38.64,
+          "end_sec": 92.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "L'ambiente Juventus è noto per i suoi campioni.",
+      "polarity": "positive",
+      "claim_id": "356efe76-f37e-4dec-b299-31b7e4dd9483",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'ambiente Juventus è noto per i suoi campioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "soprattutto l'ambiente Juve",
+          "start_sec": 89.56,
+          "end_sec": 132.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Hild",
+      "position": "Hild è confrontato con Del Piero in termini di prestazioni.",
+      "polarity": "neutral",
+      "claim_id": "1c342093-8cff-41c3-8aa6-bac052ed03a7",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s4",
+      "target_entity": "Hild",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Hild è confrontato con Del Piero in termini di prestazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avessi messo al posto di Hild 123 presenze",
+          "start_sec": 168.36,
+          "end_sec": 204.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Yildiz",
+      "position": "Yildiz ha una media gol impressionante.",
+      "polarity": "positive",
+      "claim_id": "185d323b-7dc7-47aa-b7e6-587b90f9bed2",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s2",
+      "target_entity": "Yildiz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Yildiz ha una media gol impressionante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha segnato una media, insomma, facciamo una media",
+          "start_sec": 89.56,
+          "end_sec": 132.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadre",
+      "position": "Ci sono state sette squadre molto forti.",
+      "polarity": "neutral",
+      "claim_id": "eb450c6a-33b1-40c6-8807-8d3240b1e5e1",
+      "video_id": "M74tlW7CXeI",
+      "segment_id": "s4",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono state sette squadre molto forti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'erano se sette squadre fortissimo.",
+          "start_sec": 168.36,
+          "end_sec": 204.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "video_id": "b4bHnIgT_74",
+  "analyzed_at": "2026-03-31T15:29:21.892Z",
+  "metadata": {
+    "title": "ASPETTANDO che PARLI IL NAPOLI, secondo me Lukaku..",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Nel video, l'opinionista Valerio Fluido analizza le recenti dichiarazioni di Romelu Lukaku, sottolineando l'importanza del Napoli nel contesto attuale del calcio. Fluido evidenzia come Lukaku, esprimendosi in inglese, abbia cercato di evitare fraintendimenti riguardo alla sua difficile stagione, caratterizzata da infortuni e dalla perdita del padre. L'autore conclude che, mentre Lukaku sta cercando di chiarire la sua situazione, il Napoli resta silenzioso, il che solleva interrogativi sulla comunicazione del club.",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "comunicazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "riabilitazione",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "de7dc2c5-1019-434a-b0d7-6c03c0e0736d",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku non si sentiva al 100% nelle ultime settimane.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non mi sentivo al 100%, non mi sentivo bene fisicamente.",
+          "start_sec": 154.8,
+          "end_sec": 198.51899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ],
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku non si sentiva al 100% nelle ultime settimane.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "e0cbd511-569c-4ece-a9b3-01cb68e47f5f",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha scelto di esprimersi in inglese per evitare fraintendimenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "evidentemente voleva essere sicuro di non essere neanche frainteso e quindi ha scelto una lingua che in generale dovrebbe essere universale.",
+          "start_sec": 43.68,
+          "end_sec": 78.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "Lukaku",
+      "position": "Lukaku ha scelto di esprimersi in inglese per evitare fraintendimenti.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "eb1062a9-4c06-49d8-8eb2-6846980714fc",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku sente l'importanza di chiarire la sua situazione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è importante che io chiarisca la situazione, l'intera situazione e io non metter la virgola.",
+          "start_sec": 114.64,
+          "end_sec": 158,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "Lukaku",
+      "position": "Lukaku sente l'importanza di chiarire la sua situazione attuale.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f8808972-3f17-43a9-a037-415d98a6ed14",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha avuto un'infiammazione del liquido sul muscolo flessore dell'anca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'era un'infiammazione del liquido sul Lip Flexor Muscle vicino alla cicatrice.",
+          "start_sec": 154.8,
+          "end_sec": 198.51899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ],
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku ha avuto un'infiammazione del liquido sul muscolo flessore dell'anca.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "13e93267-5548-4151-9b0b-ca3bcf0700c8",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha avuto problemi fisici da quando è tornato a novembre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è il secondo problema che ho avuto da quando sono tornato a inizio novembre.",
+          "start_sec": 154.8,
+          "end_sec": 198.51899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ],
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku ha avuto problemi fisici da quando è tornato a novembre.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "ceb9fa42-94dc-41da-b13a-ca7e663ea0c7",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s6",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha dichiarato di poter aiutare la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "So I can help the team, the national team, perché se sta in Belgio posso aiutare la squadra.",
+          "start_sec": 231.08,
+          "end_sec": 267.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "Lukaku",
+      "position": "Lukaku ha dichiarato di poter aiutare la squadra.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "9eac1b6a-7521-4471-94b7-99e2ffec43d5",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è considerato molto importante per la discussione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ritorniamo a parlare del Napoli che è importantissimo.",
+          "start_sec": 43.68,
+          "end_sec": 78.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli è considerato molto importante per la discussione attuale.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f0eb4fb1-7b74-40e8-af77-0023f44c56f8",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è l'unica squadra che non sta parlando.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'unica che non sta parlando è proprio il Napoli.",
+          "start_sec": 75.4,
+          "end_sec": 117.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli è l'unica squadra che non sta parlando.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "8ef7d7a3-e077-4c08-a925-ea1d4b26ac50",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il comportamento nervoso di Lukaku è evidente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta un po' sta nervoso quando scrive",
+          "start_sec": 75.4,
+          "end_sec": 117.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Il comportamento nervoso di Lukaku è evidente.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "ca782829-a17b-43c9-8cf8-6e84972e1a7c",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La stagione di Lukaku è stata incerta finora.",
+      "evidence_quotes": [
+        {
+          "quote_text": "This season has been a be is has been a bean",
+          "start_sec": 75.4,
+          "end_sec": 117.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "La stagione di Lukaku è stata incerta finora.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "23fe2fe2-8d89-4a1d-ad5d-3a192efbc9de",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s6",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha scelto di fare la riabilitazione in Belgio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho scelto di fare la riabilitazione in Belgio.",
+          "start_sec": 231.08,
+          "end_sec": 267.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Lukaku ha scelto di fare la riabilitazione in Belgio.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "77a03483-5df1-4694-9d7a-0ec2d208f7cf",
+      "video_id": "b4bHnIgT_74",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha perso suo padre, un evento che ha influenzato la sua stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ovviamente parliamo del papà.",
+          "start_sec": 114.64,
+          "end_sec": 158,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Lukaku ha perso suo padre, un evento che ha influenzato la sua stagione.",
+      "polarity": "neutral"
+    }
+  ]
+}

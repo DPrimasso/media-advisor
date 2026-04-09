@@ -1,0 +1,396 @@
+{
+  "video_id": "AmNUBfU--7s",
+  "analyzed_at": "2026-03-31T15:37:11.789Z",
+  "metadata": {
+    "title": "ANALISI Inter Napoli 2-2 👀 Qualcuno NON L'HA VISTA! 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-12T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza il pareggio 2-2 tra Inter e Napoli, sottolineando l'importanza della partita come esempio di buon calcio italiano. L'autore esprime una posizione positiva, evidenziando che entrambe le squadre hanno mostrato volontà di vincere e che l'arbitraggio è stato logico in alcuni momenti, contribuendo a un match equilibrato. Tra le conclusioni chiave, si nota che l'Inter, sotto la guida di Conte, sta dimostrando una mentalità combattiva, senza cedere alla lassività, e che il risultato finale non deve offuscare le prestazioni positive delle squadre.",
+  "topics": [
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "performance of players",
+      "relevance": "medium"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni delle squadre",
+      "relevance": "medium"
+    },
+    {
+      "name": "errori individuali",
+      "relevance": "low"
+    },
+    {
+      "name": "calcio situazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "controversy",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ffacef71-048d-4887-aa3f-7bcce1d8bd3d",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s0",
+      "target_entity": "Arbitri",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitraggio è stato logico in alcuni momenti della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è dimostrato che si può avere un arbitraggio logico in un tempo, poi nel secondo tempo un po' di meno",
+          "start_sec": 6.68,
+          "end_sec": 145.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "Arbitri",
+      "position": "L'arbitraggio è stato logico in alcuni momenti della partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "408a1710-e156-4245-afbc-bfe4dde64062",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La partita è vista come uno spot positivo per il calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché questa è una partita che veramente chi ama il calcio la dovrebbe portare come esempio di partita che si può giocar bene",
+          "start_sec": 6.68,
+          "end_sec": 145.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "La partita è vista come uno spot positivo per il calcio italiano.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b5c22e45-3a42-4b06-8982-e6a60227af43",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s0",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Entrambe le squadre hanno mostrato volontà di vincere senza riuscirci.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si può giocare per vincere, con la volontà di vincere entrambe le squadre, poi a un certo punto non ce l'hanno fatta più",
+          "start_sec": 6.68,
+          "end_sec": 145.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "squadre",
+      "position": "Entrambe le squadre hanno mostrato volontà di vincere senza riuscirci.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "7ead6f46-0603-4d7c-b280-f823de50570e",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s1",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Lobotka potrebbe aver interpretato male il passaggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qua sul passaggio di Lobotka forse Lobotka pensava di passarla a se stesso.",
+          "start_sec": 142.8,
+          "end_sec": 262.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "N",
+        "N"
+      ],
+      "topic": "tactics",
+      "subject": "Lobotka",
+      "position": "Lobotka potrebbe aver interpretato male il passaggio.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "8f970cdf-7193-4d8a-9560-7ac8924a7b06",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Mctomini dimostra buone capacità in un'azione manovrata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "merita parecchi screenshot il primo gol di Mcomini perché si parte.",
+          "start_sec": 261.16,
+          "end_sec": 393.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "goal",
+        "set play"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Mctomini dimostra buone capacità in un'azione manovrata.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "58946d3d-1b6e-4209-be6c-0b6481a332b4",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s0",
+      "target_entity": "partita",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il possesso è stato equilibrato tra le due squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alla fine mi pare che c'è un equilibrio totale. 50 e 50",
+          "start_sec": 6.68,
+          "end_sec": 145.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "partita",
+      "position": "Il possesso è stato equilibrato tra le due squadre.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "40a1b71a-7dbe-449e-8e87-63bb8b225e62",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta giocando bene e non si arrende davanti alle difficoltà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il fatto che stai giocando bene, che non ti sei arreso.",
+          "start_sec": 142.8,
+          "end_sec": 262.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "N",
+        "N"
+      ],
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter sta giocando bene e non si arrende davanti alle difficoltà.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "426b610b-870b-4e9e-88c1-4ffff8cb3479",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s2",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco mostra grande attitudine e velocità durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di Marco corre come un indemoniato su quel pallone.",
+          "start_sec": 261.16,
+          "end_sec": 393.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "effort"
+      ],
+      "topic": "performance",
+      "subject": "Di Marco",
+      "position": "Di Marco mostra grande attitudine e velocità durante la partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c59f40a2-cafa-4948-9735-2d3831e7426a",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s2",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "POSSIBLE",
+      "claim_text": "Politano esegue un'azione simile a quelle di Neres.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano fa delle cose che abbiamo visto fare alla Neres.",
+          "start_sec": 261.16,
+          "end_sec": 393.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "comparison",
+        "offensive play"
+      ],
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano esegue un'azione simile a quelle di Neres.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "6cb469ee-78ad-4ff8-bfb7-4a727789382c",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Con Conte, l'Inter non si lascia andare alla lassività.",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, quest'anno no, con Conte no.",
+          "start_sec": 142.8,
+          "end_sec": 262.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "N",
+        "N"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Con Conte, l'Inter non si lascia andare alla lassività.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "228ba592-0881-449d-85b1-d747cacb7f22",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay ha commesso un errore nel match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, allora qui sì, McTominay sbaglia.",
+          "start_sec": 142.8,
+          "end_sec": 262.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "N",
+        "N"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay ha commesso un errore nel match.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "d5d2bd26-282a-4376-bb6d-01a09f942ad4",
+      "video_id": "AmNUBfU--7s",
+      "segment_id": "s2",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro assiste Turam per un'azione offensiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lautaro la cede a Turam.",
+          "start_sec": 261.16,
+          "end_sec": 393.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "passing",
+        "offensive play"
+      ],
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro assiste Turam per un'azione offensiva.",
+      "polarity": "positive"
+    }
+  ]
+}

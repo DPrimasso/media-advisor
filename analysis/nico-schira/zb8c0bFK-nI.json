@@ -1,0 +1,358 @@
+{
+  "video_id": "zb8c0bFK-nI",
+  "analyzed_at": "2026-04-08T13:23:55.686028+00:00",
+  "metadata": {
+    "title": "JUVE, RITORNO DI FIAMMA SULLA FASCIA. BLITZ INTER PER IL DIFENSORE. CRISI ROMA: UNA POLTRONA PER DUE",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza le recenti performance calcistiche e i temi di mercato, con particolare attenzione alla vittoria del Bologna contro la Roma. L'autore sottolinea la bravura di Vincenzo Italiano, definendolo un allenatore sottovalutato, e mette in evidenza il decisivo gol di Cambiaghi, che ha portato il Bologna a una storica vittoria. Schira esprime la sua opinione sulla Roma, evidenziando che la squadra attualmente non sta performando al massimo delle sue potenzialità e che la rosa vale la sesta posizione in classifica, suggerendo che un miglioramento potrebbe essere difficile ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "crisi",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha vinto 4-3 all'Olimpico contro un avversario forte.",
+      "polarity": "positive",
+      "claim_id": "326247ef-2422-4405-aa7c-db17c76cb757",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha vinto 4-3 all'Olimpico contro un avversario forte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alla fine vince il Bologna 4-3 all'Olimpico.",
+          "start_sec": 31.8,
+          "end_sec": 64.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "n/a",
+      "position": "Il video tratterà di temi di mercato e calcio giocato.",
+      "polarity": "neutral",
+      "claim_id": "12d7ee9f-9918-4924-a955-6a8541646169",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s0",
+      "target_entity": "n/a",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il video tratterà di temi di mercato e calcio giocato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tanti temi di mercato ma anche di calcio giocato da analizzare.",
+          "start_sec": 1.28,
+          "end_sec": 33.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gasperini",
+      "position": "Gasperini non ha creduto nelle potenzialità di Cambiaghi.",
+      "polarity": "negative",
+      "claim_id": "37c61be0-37c1-450a-9fa5-145e60eb400f",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s1",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Gasperini non ha creduto nelle potenzialità di Cambiaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che non aveva creduto in lui ai tempi dell'Atalanta e lo sbatte fuori dall'Europa League.",
+          "start_sec": 31.8,
+          "end_sec": 64.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna è stato eliminato dal Marsiglia in una partita controversa.",
+      "polarity": "neutral",
+      "claim_id": "273c507a-7fa2-41c3-8121-abe2423b81f1",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s3",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna è stato eliminato dal Marsiglia in una partita controversa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rigore discusso all'88º di Lauran Blanc del Marsiglia che eliminò il Bologna dopo lo 0-0 dell'andata",
+          "start_sec": 90.52,
+          "end_sec": 122.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Marassi",
+      "position": "Ci saranno osservatori e scout durante la partita Genoa-Udinese.",
+      "polarity": "neutral",
+      "claim_id": "2452a2ea-d334-415d-af4e-41f72ea5f879",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s0",
+      "target_entity": "Marassi",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci saranno osservatori e scout durante la partita Genoa-Udinese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un po' di scout, un po' di osservatori in tribuna.",
+          "start_sec": 1.28,
+          "end_sec": 33.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cambiaghi",
+      "position": "Cambiaghi ha deciso la partita con un gol decisivo.",
+      "polarity": "positive",
+      "claim_id": "856ac83c-0085-40f9-bb1a-5b8138acb1f4",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s1",
+      "target_entity": "Cambiaghi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Cambiaghi ha deciso la partita con un gol decisivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La decide Cambiaghi.",
+          "start_sec": 31.8,
+          "end_sec": 64.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Vincenzo Italiano",
+      "position": "Vincenzo Italiano è considerato un allenatore sottovalutato.",
+      "polarity": "positive",
+      "claim_id": "4698f87d-58db-4489-bfac-75a2dbbee73d",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s1",
+      "target_entity": "Vincenzo Italiano",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vincenzo Italiano è considerato un allenatore sottovalutato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un allenatore, come dico sempre, molto sottovalutato.",
+          "start_sec": 31.8,
+          "end_sec": 64.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna sta facendo benissimo in questi anni.",
+      "polarity": "positive",
+      "claim_id": "bdf20183-7bcd-42b9-b172-fe3a398f1ae5",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s4",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna sta facendo benissimo in questi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bologna, che è una grande società, sta facendo benissimo in questi anni.",
+          "start_sec": 120.719,
+          "end_sec": 152.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Roma",
+      "position": "La Roma è sesta in campionato.",
+      "polarity": "negative",
+      "claim_id": "99cf0793-2b62-4f64-b435-c510d32b62a5",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s4",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma è sesta in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in campionato e sesta, rischia di restare con un pugno di mosche in mano.",
+          "start_sec": 120.719,
+          "end_sec": 152.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cagliari",
+      "position": "Cagliari partecipa a una bella partita contro Napoli.",
+      "polarity": "neutral",
+      "claim_id": "4a629f1b-196a-4c0c-8a5b-9d35f9c593fa",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s0",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cagliari partecipa a una bella partita contro Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si parte alle 6:30 con Cagliari-Napoli, bella partita.",
+          "start_sec": 1.28,
+          "end_sec": 33.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Vincenzo Italiano",
+      "position": "Vincenzo Italiano merita riconoscimenti per il suo grande lavoro.",
+      "polarity": "positive",
+      "claim_id": "adca4bd1-3a74-4b0c-9f7f-75c5330cb5d9",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s3",
+      "target_entity": "Vincenzo Italiano",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vincenzo Italiano merita riconoscimenti per il suo grande lavoro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "va certificato il grande lavoro di Vincenzo Italiano, un allenatore, secondo me, che meriterebbe anche",
+          "start_sec": 90.52,
+          "end_sec": 122.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "Genoa e Udinese giocheranno una partita importante.",
+      "polarity": "neutral",
+      "claim_id": "c03babf2-9f39-44da-a943-68c10707447b",
+      "video_id": "zb8c0bFK-nI",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Genoa e Udinese giocheranno una partita importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi Genoa Udinese.",
+          "start_sec": 1.28,
+          "end_sec": 33.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

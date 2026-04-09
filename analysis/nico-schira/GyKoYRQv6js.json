@@ -1,0 +1,358 @@
+{
+  "video_id": "GyKoYRQv6js",
+  "analyzed_at": "2026-04-08T13:36:58.729137+00:00",
+  "metadata": {
+    "title": "IL MILAN NON PASSA LA PROVA DEL 9. JUVENTUS, UN ADDIO SCONTATO. LE STRATEGIE DEL NAPOLI. E DE ROSSI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza le recenti dinamiche del campionato di Serie A, con particolare attenzione alle sfide cruciali per la salvezza e ai risultati significativi delle ultime partite. L'autore sottolinea che il Milan ha deluso nella sua prova contro la Lazio, evidenziando le sue mancanze e confermando la sua posizione di terza squadra, mentre il Napoli, nonostante gli infortuni, potrebbe aspirare al secondo posto. Inoltre, Schira menziona il successo del Genoa, che si è praticamente salvato, e il futuro di Daniele De Rossi, che potrebbe attrarre l'interesse di club come Bologna e Fi",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "comportamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "coppa",
+      "relevance": "low"
+    },
+    {
+      "name": "risultati",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Cremonese",
+      "position": "Cremonese e Fiorentina si sfidano per la salvezza.",
+      "polarity": "neutral",
+      "claim_id": "7cd3b564-b8f3-4301-a145-bf7be34c8f62",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s0",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese e Fiorentina si sfidano per la salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cremonese Fiorentina è praticamente uno spareggio salvezza",
+          "start_sec": 1.0,
+          "end_sec": 30.198999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "Il Genoa ha avuto una prestazione positiva sotto la guida di De Rossi.",
+      "polarity": "positive",
+      "claim_id": "765fcf43-17e5-4d25-bc65-96209c5cff6c",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s2",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha avuto una prestazione positiva sotto la guida di De Rossi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "segnalo invece un bel Genoa che a cura dei Rossi ha rivitalizzato",
+          "start_sec": 57.96,
+          "end_sec": 85.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Daniele De Rossi",
+      "position": "De Rossi ha salvato il Genoa con largo anticipo.",
+      "polarity": "positive",
+      "claim_id": "c51b832d-6bc3-41ca-9f35-4f38002d8138",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s2",
+      "target_entity": "Daniele De Rossi",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "De Rossi ha salvato il Genoa con largo anticipo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Rossi ha preso il Genoa ultimo in classifica, si salva praticamente con due mesi d'anticipo",
+          "start_sec": 57.96,
+          "end_sec": 85.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bologna",
+      "position": "Il Bologna potrebbe essere interessato a De Rossi per la prossima stagione.",
+      "polarity": "neutral",
+      "claim_id": "646b2c02-6cc5-4b03-98c1-fe2413055de7",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Bologna potrebbe essere interessato a De Rossi per la prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Bologna se andasse via italiano pensa Daniele De Rossi.",
+          "start_sec": 57.96,
+          "end_sec": 85.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Daniele De Rossi",
+      "position": "De Rossi è in scadenza di contratto e diverse squadre lo seguono.",
+      "polarity": "neutral",
+      "claim_id": "972a889e-13ee-4f75-ba28-b407fbe82a3b",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s3",
+      "target_entity": "Daniele De Rossi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Rossi è in scadenza di contratto e diverse squadre lo seguono.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui è in scadenza, il Genova proverà a tenerlo e a rinnovarlo.",
+          "start_sec": 83.84,
+          "end_sec": 121.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Genoa",
+      "position": "Il Genoa è praticamente salvo dopo la vittoria contro il Verona.",
+      "polarity": "positive",
+      "claim_id": "e3a7ed53-8a7b-4c25-94a9-f9104052e022",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa è praticamente salvo dopo la vittoria contro il Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Genoa praticamente salvo, vince a Verona.",
+          "start_sec": 27.439,
+          "end_sec": 60.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Verona",
+      "position": "Il Verona è praticamente in Serie B dopo la sconfitta.",
+      "polarity": "negative",
+      "claim_id": "a7620c8c-2313-4fb6-94c8-8ad3c71b25a3",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s1",
+      "target_entity": "Verona",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Verona è praticamente in Serie B dopo la sconfitta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Verona è praticamente in B.",
+          "start_sec": 27.439,
+          "end_sec": 60.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pisa",
+      "position": "Il Pisa ha battuto il Cagliari nella partita recente.",
+      "polarity": "positive",
+      "claim_id": "b83be8b8-93ac-4ee1-9a04-9791269601e4",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s1",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Pisa ha battuto il Cagliari nella partita recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Pisa batte eh il Cagliari.",
+          "start_sec": 27.439,
+          "end_sec": 60.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genova",
+      "position": "Il Genova sta tentando di rinnovare il contratto di De Rossi.",
+      "polarity": "neutral",
+      "claim_id": "e3a6e549-1de4-47a3-a1d3-2f2dbac855e4",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s3",
+      "target_entity": "Genova",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genova sta tentando di rinnovare il contratto di De Rossi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Genova proverà a tenerlo e a rinnovarlo.",
+          "start_sec": 83.84,
+          "end_sec": 121.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan non ha superato la prova contro la Lazio.",
+      "polarity": "positive",
+      "claim_id": "499e8db2-e3ca-43bf-96e9-7bd3cf188db6",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non ha superato la prova contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan non ha passato la prova del nove.",
+          "start_sec": 83.84,
+          "end_sec": 121.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha mostrato tutte le sue mancanze.",
+      "polarity": "negative",
+      "claim_id": "e8a53fbf-99eb-49dc-b6f8-04cef35a7b56",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha mostrato tutte le sue mancanze.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan ha mostrato tutte le sue mancanze.",
+          "start_sec": 119.719,
+          "end_sec": 148.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan è nella corona di sinistra della classifica.",
+      "polarity": "neutral",
+      "claim_id": "b30712f7-8042-4ba0-ba30-82969956f39f",
+      "video_id": "GyKoYRQv6js",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è nella corona di sinistra della classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è nella corona di sinistra della classifica.",
+          "start_sec": 119.719,
+          "end_sec": 148.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

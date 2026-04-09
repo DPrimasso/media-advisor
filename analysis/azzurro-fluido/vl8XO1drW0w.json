@@ -1,0 +1,402 @@
+{
+  "video_id": "vl8XO1drW0w",
+  "analyzed_at": "2026-03-31T15:18:56.405Z",
+  "metadata": {
+    "title": "INFORTUNIO x SAVIC 👀 Juventus Napoli SENZA PANCHINA 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-24T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la situazione degli infortuni in vista della partita tra Juventus e Napoli, focalizzandosi in particolare su Neres e Milinkovicć-Savić. L'autore esprime preoccupazione per l'infortunio di Neres, che potrebbe compromettere la sua stagione, e riporta voci su un possibile interesse per Milinkovicć-Savić, sebbene queste informazioni siano incerte. Inoltre, conferma il recupero di Meret, che sarà disponibile per la partita, mentre avverte che, in caso di necessità, Contini potrebbe essere schierato come portiere se Meret non fosse al massimo della fo",
+  "topics": [
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "squad depth",
+      "relevance": "high"
+    },
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "assenze",
+      "relevance": "medium"
+    },
+    {
+      "name": "neres injury",
+      "relevance": "medium"
+    },
+    {
+      "name": "injury situation",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione in campo",
+      "relevance": "low"
+    },
+    {
+      "name": "player readiness",
+      "relevance": "low"
+    },
+    {
+      "name": "vittoria e prestazioni di squadra",
+      "relevance": "low"
+    },
+    {
+      "name": "gestione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "67b48087-b2cf-4d27-97da-9b9706a37692",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s1",
+      "target_entity": "Nikita Contini",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Contini potrebbe essere utilizzato come portiere se Meret non è al 100%.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se Meret non è al 100%, lo sapete, è questione di millimetri, quindi non sarebbe il massimo, altrimenti Nikita Contini o Ferrante.",
+          "start_sec": 79.04,
+          "end_sec": 147.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup",
+        "Contini"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Nikita Contini",
+      "position": "Contini potrebbe essere utilizzato come portiere se Meret non è al 100%.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "f494388c-1000-4453-85c3-a28f0748d6eb",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s0",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Neres potrebbe avere un infortunio serio che compromette la sua stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo arrivati siamo passati a due, tre, mo qualcuno sta paventando quella che insomma è una cosa che è una pietra tombale sulla sul resto della stagione di Neres.",
+          "start_sec": 1.68,
+          "end_sec": 81.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "season impact"
+      ],
+      "topic": "injury",
+      "subject": "Neres",
+      "position": "Neres potrebbe avere un infortunio serio che compromette la sua stagione.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "f882095b-351e-4945-8314-6ed22f9b349e",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s0",
+      "target_entity": "Milinkovicć-Savić",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono voci su un possibile interesse per Milinkovicć-Savić.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la voce che mi è arrivata oggi su Milinkovicć Savić non è un amico bellino che mi ha detto cose del genere in passato.",
+          "start_sec": 1.68,
+          "end_sec": 81.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "transfer rumors",
+        "market interest"
+      ],
+      "topic": "market",
+      "subject": "Milinkovicć-Savić",
+      "position": "Ci sono voci su un possibile interesse per Milinkovicć-Savić.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f297de92-3f03-4733-8bfb-e1dcddfda926",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s0",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Si è parlato di un infortunio che influisce sui suoi tempi di recupero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stanno aumentando i mesi, siamo arrivati siamo passati a due, tre.",
+          "start_sec": 1.68,
+          "end_sec": 81.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "recovery time"
+      ],
+      "topic": "injury",
+      "subject": "Neres",
+      "position": "Si è parlato di un infortunio che influisce sui suoi tempi di recupero.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "f3d37174-a725-4194-bc0f-5383df1029f8",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s0",
+      "target_entity": "Milinkovicć-Savić",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "HYPOTHESIS",
+      "claim_text": "L'interesse per Milinkovicć-Savić sembra basarsi su informazioni incerte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "entrambi l'abbiamo presa con le pinze, anche lui che me l'ha detta.",
+          "start_sec": 1.68,
+          "end_sec": 81.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "transfer rumors",
+        "uncertain information"
+      ],
+      "topic": "market",
+      "subject": "Milinkovicć-Savić",
+      "position": "L'interesse per Milinkovicć-Savić sembra basarsi su informazioni incerte.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "5f8d8562-ab33-414b-9d92-9c50007f9a48",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s1",
+      "target_entity": "Meret",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Meret ha avuto un fastidio al braccio sinistro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'era il traumatico, poi aveva avuto un fastidio al braccio sinistro.",
+          "start_sec": 79.04,
+          "end_sec": 147.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "Meret"
+      ],
+      "topic": "injury",
+      "subject": "Meret",
+      "position": "Meret ha avuto un fastidio al braccio sinistro.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "3b6a33de-d80d-4e8f-bffb-b93b1a0ab613",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha giocato in un'amichevole contro il Savoia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku che non sappiamo se è abile e arruolabile, sappiamo che ce lo portiamo, sappiamo che ha fatto l'amichevole contro il Savoia dove ha anche segnato.",
+          "start_sec": 143.56,
+          "end_sec": 212.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "friendlies"
+      ],
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku ha giocato in un'amichevole contro il Savoia.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "31fd794e-db01-45c5-af5f-7bc3c94c02b9",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s2",
+      "target_entity": "Olivera",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Olivera è nel mirino del Nottingham per un possibile trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi c'è Olivera su cui ci sono queste voci anche di mercato sul Nottingham che sarebbe interessato a Olivera.",
+          "start_sec": 143.56,
+          "end_sec": 212.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "transfer",
+        "market"
+      ],
+      "topic": "market",
+      "subject": "Olivera",
+      "position": "Olivera è nel mirino del Nottingham per un possibile trasferimento.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "a744c14f-a80e-4a98-b959-dfdaa7a37f0c",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s1",
+      "target_entity": "Vania",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Vania ha avuto un problema di infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Radio Marte ha detto \"Vani ha avuto un problema\".",
+          "start_sec": 79.04,
+          "end_sec": 147.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "Vania"
+      ],
+      "topic": "injury",
+      "subject": "Vania",
+      "position": "Vania ha avuto un problema di infortunio.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "b3c66ad3-88c8-4c2c-bcb2-97d1fb8859a1",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus giocherà senza due punte nella prossima partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve non sarà con le due punte come all'andata",
+          "start_sec": 143.56,
+          "end_sec": 212.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "formation"
+      ],
+      "topic": "tactics",
+      "subject": "Juventus",
+      "position": "La Juventus giocherà senza due punte nella prossima partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "36f08663-a9f9-4e2e-b9f7-4032df6c2d52",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Conte deve risolvere un dubbio sulla formazione della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello che deve sciogliere il dubbio è Conte",
+          "start_sec": 143.56,
+          "end_sec": 212.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "decision"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte deve risolvere un dubbio sulla formazione della squadra.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "20ee44b1-33a9-4a1d-bde0-147e6f8e0681",
+      "video_id": "vl8XO1drW0w",
+      "segment_id": "s1",
+      "target_entity": "Meret",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Meret è recuperato e disponibile per la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Meret dice che ha recuperato.",
+          "start_sec": 79.04,
+          "end_sec": 147.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "recupero",
+        "Meret"
+      ],
+      "topic": "injury",
+      "subject": "Meret",
+      "position": "Meret è recuperato e disponibile per la partita.",
+      "polarity": "positive"
+    }
+  ]
+}

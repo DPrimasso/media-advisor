@@ -1,0 +1,366 @@
+{
+  "video_id": "wzedtsYhQeE",
+  "analyzed_at": "2026-04-08T12:55:14.904757+00:00",
+  "metadata": {
+    "title": "MILAN, PRESA SUBITO UNA PUNTA! JUVENTUS, ECCO LA LISTA DEI RINFORZI PER SPALLETTI. INTER IN DIFESA…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sul recente acquisto del Milan di un attaccante, Andrei Kosticć, nonostante la chiusura ufficiale del mercato. L'autore sottolinea come il club rossonero stia sfruttando una falla nel regolamento che consente il tesseramento di giocatori provenienti dalla Serie D, evidenziando un'operazione ben pianificata e a costi contenuti. Schira conclude che, sebbene il Milan abbia affrontato delle difficoltà nella negoziazione iniziale, l'affare si concluderà a breve, con un annuncio ufficiale atteso nelle prossime ore.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "serie d",
+      "relevance": "high"
+    },
+    {
+      "name": "serie c",
+      "relevance": "medium"
+    },
+    {
+      "name": "prolungamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "segnali",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "informazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "prestito",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Serie D",
+      "position": "Il mercato dei dilettanti chiude il 31 di marzo.",
+      "polarity": "neutral",
+      "claim_id": "f5919e1e-8395-41f9-95b6-bfd118a69348",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s2",
+      "target_entity": "Serie D",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato dei dilettanti chiude il 31 di marzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mercato dei dilettanti, quindi dalla Serie D in giù, chiude il 31 di marzo",
+          "start_sec": 55.84,
+          "end_sec": 85.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Stefano D'Agostino",
+      "position": "Stefano D'Agostino ha fatto 11 gol e 11 assist con la maglia del Piacenza.",
+      "polarity": "neutral",
+      "claim_id": "615a8173-b094-495a-963f-24a04cbdea70",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s3",
+      "target_entity": "Stefano D'Agostino",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Stefano D'Agostino ha fatto 11 gol e 11 assist con la maglia del Piacenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto 11 gol e 11 assist con la maglia del Piacenza.",
+          "start_sec": 83.759,
+          "end_sec": 110.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha completato l'acquisto di un attaccante.",
+      "polarity": "positive",
+      "claim_id": "40a2d3ec-b14a-43c8-9d6e-e1a312f93b87",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha completato l'acquisto di un attaccante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan ha preso l'attaccante, voi direte, 'Ma com'è possibile?'.",
+          "start_sec": 1.88,
+          "end_sec": 27.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe tesserare un giocatore nonostante la chiusura del mercato.",
+      "polarity": "neutral",
+      "claim_id": "a8550a46-0825-4489-9004-d6086b4f7e02",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan potrebbe tesserare un giocatore nonostante la chiusura del mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Come fa il Milan a tesserare un giocatore se il mercato è chiuso",
+          "start_sec": 25.24,
+          "end_sec": 59.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta sfruttando una situazione di mercato per gestire i tesseramenti.",
+      "polarity": "neutral",
+      "claim_id": "31e45e47-2be8-4ce2-93cf-7a6609e618a4",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan sta sfruttando una situazione di mercato per gestire i tesseramenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan sfrutta, secondo me, una situazione che poi andrà in qualche modo gestita meglio",
+          "start_sec": 25.24,
+          "end_sec": 59.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Campobasso",
+      "position": "Il Campobasso sta utilizzando una falla nel regolamento del mercato.",
+      "polarity": "neutral",
+      "claim_id": "d60ba737-9912-4133-b04b-a4776f001f8c",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s2",
+      "target_entity": "Campobasso",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Campobasso sta utilizzando una falla nel regolamento del mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ad esempio c'è il Campobasso, per fare un esempio, che sta",
+          "start_sec": 55.84,
+          "end_sec": 85.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Serie C",
+      "position": "Molti giocatori di Serie D sono andati a giocare in Serie C.",
+      "polarity": "neutral",
+      "claim_id": "45dab0a9-4ef7-4d78-8727-c09b5dc68e96",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s2",
+      "target_entity": "Serie C",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Molti giocatori di Serie D sono andati a giocare in Serie C.",
+      "evidence_quotes": [
+        {
+          "quote_text": "molti giocatori di Serie D sono andati a giocare in Serie C",
+          "start_sec": 55.84,
+          "end_sec": 85.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Serie A",
+      "position": "Serie A ha una chiusura di mercato diversa rispetto a Serie D.",
+      "polarity": "neutral",
+      "claim_id": "12222c77-4593-470e-b2ec-3c9e0eaa3dc4",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s2",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Serie A ha una chiusura di mercato diversa rispetto a Serie D.",
+      "evidence_quotes": [
+        {
+          "quote_text": "due dopo rispetto a Serie A, B e C, quindi campionati professionistici",
+          "start_sec": 55.84,
+          "end_sec": 85.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Le visite mediche del giocatore sono in corso.",
+      "polarity": "positive",
+      "claim_id": "2b8cb366-104f-4b33-893c-9b4e86011c98",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le visite mediche del giocatore sono in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Visite mediche in corso.",
+          "start_sec": 1.88,
+          "end_sec": 27.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il giocatore andrà a Casa Milan per la firma.",
+      "polarity": "positive",
+      "claim_id": "a3dbca7e-cbeb-4499-a3d2-fee4ef14e1a0",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore andrà a Casa Milan per la firma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nelle prossime ore andrà a casa Milan, firme.",
+          "start_sec": 1.88,
+          "end_sec": 27.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Ci sarà un annuncio ufficiale sul tesseramento di un giocatore da parte del Milan.",
+      "polarity": "positive",
+      "claim_id": "d467d3cd-5973-4540-94d2-a930c5d3f998",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sarà un annuncio ufficiale sul tesseramento di un giocatore da parte del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "entro domani l'annuncio ufficiale",
+          "start_sec": 25.24,
+          "end_sec": 59.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il calciatore è già arrivato a Milano.",
+      "polarity": "positive",
+      "claim_id": "570a521c-b592-495d-a725-f06de6be7bf4",
+      "video_id": "wzedtsYhQeE",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il calciatore è già arrivato a Milano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giocatore è già arrivato a Milano.",
+          "start_sec": 1.88,
+          "end_sec": 27.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

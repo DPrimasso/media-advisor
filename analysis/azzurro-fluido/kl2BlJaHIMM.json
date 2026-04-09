@@ -1,0 +1,398 @@
+{
+  "video_id": "kl2BlJaHIMM",
+  "analyzed_at": "2026-03-31T15:35:19.055Z",
+  "metadata": {
+    "title": "\"GIUSTI GLI INTERVENTI DEL VAR\" 👀 GIALLO Rrahmani, 2 a CONTE, Raspadori.. 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-13T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute dell'uso del VAR e delle sue implicazioni nelle recenti partite di calcio, con particolare attenzione alla situazione del Parma e alla squalifica di Conte. L'autore critica aspramente le decisioni arbitrali, sostenendo che ci sia una confusione generale riguardo alle regole del fuorigioco, evidenziando errori nel loro utilizzo che hanno portato a decisioni discutibili. Conclude che è necessario un intervento radicale nel sistema VAR e nelle regole di arbitraggio a fine stagione, per evitare ulteriori falsificazioni del gioco.",
+  "topics": [
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "importanza partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "squalifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggi",
+      "relevance": "medium"
+    },
+    {
+      "name": "image clarity",
+      "relevance": "low"
+    },
+    {
+      "name": "giudizio arbitrale",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni squadra",
+      "relevance": "low"
+    },
+    {
+      "name": "analisi tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "282ee22e-3df0-472c-b1b5-f83fe76ff82f",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s0",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Si deve parlare di un'analisi tattica del Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dovremmo parlare del Parma, dovremmo parlare del Parma senza Conte perché è uscita la squalifica a Conte di due giornate.",
+          "start_sec": 3.28,
+          "end_sec": 80.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Parma",
+      "position": "Si deve parlare di un'analisi tattica del Parma.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "dfc6a3f9-b47a-4ae5-ade7-4177c823eaf0",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s0",
+      "target_entity": "Anguissa",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Esiste un possibile nuovo infortunio per Anguissa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però poi l'infor nuovo infortunio per Angissan non abbiamo parlato di quello di Meret.",
+          "start_sec": 3.28,
+          "end_sec": 80.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "injury",
+      "subject": "Anguissa",
+      "position": "Esiste un possibile nuovo infortunio per Anguissa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "55998679-9e80-4866-94d0-a1cb3ebd816d",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s1",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR è stato utilizzato per rivedere l'azione contestata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutta l'azione che porta poi a una situazione particolare, tutto si potrebbe annullare",
+          "start_sec": 78.4,
+          "end_sec": 147.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "decisioni",
+        "gioco"
+      ],
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR è stato utilizzato per rivedere l'azione contestata.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "cd28a06e-a1be-46db-b6fe-64e8cb7735d9",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Si suggerisce che l'arbitro fosse in confusione riguardo alle regole del fuorigioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se questo si aggiunge al fuorigioco chiamato su una rimessa dal fondo... vuol dire che siete nel panico.",
+          "start_sec": 78.4,
+          "end_sec": 147.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "confusione",
+        "regole",
+        "arbitro"
+      ],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Si suggerisce che l'arbitro fosse in confusione riguardo alle regole del fuorigioco.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "a51fb89e-19b1-429b-a944-22d01c0cc3c2",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Gli arbitri attuali non sono in grado di decidere correttamente le situazioni di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In questo momento ogni decisione è impossibile per voi, anche una regola base del regolamento, fallo laterale non c'è fuorigioco.",
+          "start_sec": 145.599,
+          "end_sec": 207.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "decisoni",
+        "var"
+      ],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Gli arbitri attuali non sono in grado di decidere correttamente le situazioni di gioco.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a618c54b-5a42-4de8-bc41-ab727407078b",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È necessario commissariare gli arbitri e ripartire da zero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devono dimettere tutti, devono essere commissariati tutti e bisogna ricominciare da capo, da zero.",
+          "start_sec": 145.599,
+          "end_sec": 207.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "commissariamento",
+        "revisione"
+      ],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "È necessario commissariare gli arbitri e ripartire da zero.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d62bde77-aee8-4097-8234-6a5ec447aa97",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il VAR sta creando confusione e difficoltà agli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vuol dire che siete nel panico. Siete nel panico più totale e bisogna intervenire.",
+          "start_sec": 145.599,
+          "end_sec": 207.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "confusione",
+        "decisioni"
+      ],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Il VAR sta creando confusione e difficoltà agli arbitri.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "8074819a-b4da-4443-9d6b-ad57b3b44867",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "L'arbitro potrebbe aver commesso un errore nel valutare il fuorigioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non può essere fuorigioco perché è un fallo laterale.",
+          "start_sec": 78.4,
+          "end_sec": 147.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "arbitro",
+        "fuorigioco"
+      ],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro potrebbe aver commesso un errore nel valutare il fuorigioco.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "780f67c0-e111-46ee-84f5-c79377249f49",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s2",
+      "target_entity": "regolamento",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono problemi fondamentali nel regolamento da affrontare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si deve poi affrontare il discorso del regolamento.",
+          "start_sec": 145.599,
+          "end_sec": 207.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "regolamento",
+        "problematiche",
+        "var"
+      ],
+      "topic": "refereeing",
+      "subject": "regolamento",
+      "position": "Ci sono problemi fondamentali nel regolamento da affrontare.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "2cfc72b1-224f-4808-a5e1-b120b063671c",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte sarà squalificato per due giornate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è uscita la squalifica a Conte di due giornate.",
+          "start_sec": 3.28,
+          "end_sec": 80.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "lineup_prediction",
+      "subject": "Conte",
+      "position": "Conte sarà squalificato per due giornate.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "8b409821-8090-451b-817c-c89d252cb604",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s0",
+      "target_entity": "Fulkrug",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Fulkrug ha subito un infortunio che lo tiene fermo per un mese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è fatto male Fulkrug un mese.",
+          "start_sec": 3.28,
+          "end_sec": 80.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "injury",
+      "subject": "Fulkrug",
+      "position": "Fulkrug ha subito un infortunio che lo tiene fermo per un mese.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "ab0f260a-7989-4458-aaa5-fb42b646ba26",
+      "video_id": "kl2BlJaHIMM",
+      "segment_id": "s1",
+      "target_entity": "Rrahmani",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Rrahmani ha ricevuto un giallo nel corso della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giallo Rrahmani, 2 a CONTE, Raspadori.. ",
+          "start_sec": 78.4,
+          "end_sec": 147.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "cartellini",
+        "giocatore",
+        "Rrahmani"
+      ],
+      "topic": "refereeing",
+      "subject": "Rrahmani",
+      "position": "Rrahmani ha ricevuto un giallo nel corso della partita.",
+      "polarity": "neutral"
+    }
+  ]
+}

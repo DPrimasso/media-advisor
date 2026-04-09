@@ -12,10 +12,18 @@ Richiede TRANSCRIPT_API_KEY e OPENAI_API_KEY in .env o env vars.
 """
 
 import asyncio
+import sys
 from pathlib import Path
 from typing import Optional
 
 import typer
+
+# Force UTF-8 output on Windows consoles to avoid cp1252 encoding errors
+# when printing player names with special characters.
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+if hasattr(sys.stderr, "reconfigure"):
+    sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 from media_advisor.config import Settings
 
@@ -49,6 +57,7 @@ def cmd_run_list(
         False, "--from-pending", help="Merge pending.json into lists before running"
     ),
     model: str = typer.Option("gpt-4o-mini", "--model", help="LLM model for extraction"),
+    transcript_only: bool = typer.Option(False, "--transcript-only", help="Scarica solo i transcript, senza analisi GPT"),
 ) -> None:
     """Fetch transcripts + analyze all videos in channel video lists."""
     s = _get_settings()
@@ -78,6 +87,7 @@ def cmd_run_list(
             force_transcript=force_transcript,
             force_analyze=force_analyze,
             model=model,
+            transcript_only=transcript_only,
         )
     )
 
@@ -422,9 +432,15 @@ def cmd_mercato_scan(
     model: str = typer.Option("gpt-4o-mini", "--model"),
     force: bool = typer.Option(False, "--force", help="Re-analizza anche se già presente"),
     all_videos: bool = typer.Option(False, "--all-videos", help="Analizza tutti i video senza filtrare per keyword nel titolo"),
+    from_date: Optional[str] = typer.Option(None, "--from-date", help="Filtra video pubblicati da questa data (YYYY-MM-DD)"),
+    to_date: Optional[str] = typer.Option(None, "--to-date", help="Filtra video pubblicati fino a questa data (YYYY-MM-DD)"),
 ) -> None:
     """Scansiona i transcript già scaricati e analizza quelli con titolo mercato."""
     import re as _re
+    from datetime import date as _date
+
+    date_from: _date | None = _date.fromisoformat(from_date) if from_date else None
+    date_to: _date | None = _date.fromisoformat(to_date) if to_date else None
 
     s = _get_settings()
     if not s.transcript_api_key:
@@ -458,11 +474,15 @@ def cmd_mercato_scan(
     )
 
     async def _run() -> None:
+        from media_advisor.io.json_io import read_json_or_default
+        from media_advisor.io.paths import video_dates_cache_path
         from media_advisor.mercato.analyzer import update_index_with_new_tips
         from media_advisor.mercato.models import MercatoTip
 
         # Cache latest results per channel (one API call per channel).
         latest_cache: dict[str, list[dict]] = {}
+        # Dates cache persistente salvata da fetch-now
+        _dates_cache: dict[str, str] = read_json_or_default(video_dates_cache_path(root), default={}) or {}
 
         def _get_channel_url(ch_id: str) -> str | None:
             try:
@@ -480,6 +500,17 @@ def cmd_mercato_scan(
             tr = TranscriptResponse.model_validate(raw)
             if tr.metadata and tr.metadata.published_at:
                 return
+
+            # 1. Prova la dates cache persistente (salvata da fetch-now)
+            cached_date = _dates_cache.get(vid)
+            if cached_date:
+                meta = tr.metadata or VideoMetadata()
+                meta = meta.model_copy(update={"published_at": cached_date})
+                tr2 = tr.model_copy(update={"metadata": meta})
+                write_json(t_path, tr2.model_dump(mode="json"))
+                return
+
+            # 2. Fallback: prova get_channel_latest (solo ~15 video recenti)
             channel_url = _get_channel_url(ch_id)
             if not channel_url:
                 return
@@ -520,6 +551,20 @@ def cmd_mercato_scan(
                         skipped += 1
                         continue
                     await _ensure_metadata(ch_id, vid)
+                    # Applica filtro data se specificato
+                    if date_from or date_to:
+                        data = read_json(t_file)  # rilegge per published_at aggiornata
+                        pub_str = (data.get("metadata") or {}).get("published_at")
+                        if not pub_str:
+                            skipped += 1
+                            continue  # data sconosciuta: salta quando filtro attivo
+                        pub_d = _date.fromisoformat(pub_str[:10])
+                        if date_from and pub_d < date_from:
+                            skipped += 1
+                            continue
+                        if date_to and pub_d > date_to:
+                            skipped += 1
+                            continue
                     result = await analyze_video_mercato(
                         root=root,
                         video_id=vid,
@@ -549,7 +594,7 @@ def cmd_mercato_scan(
 @app.command("mercato-outcome")
 def cmd_mercato_outcome(
     tip_id: str = typer.Argument(..., help="tip_id della tip da aggiornare"),
-    outcome: str = typer.Argument(..., help="non_verificata | confermata | parziale | smentita"),
+    outcome: str = typer.Argument(..., help="non_verificata | confermata | parziale | smentita | non_conclusa"),
     notes: Optional[str] = typer.Option(None, "--notes", help="Note sull'esito"),
 ) -> None:
     """Marca manualmente l'esito di un'indiscrezione di mercato."""
@@ -558,7 +603,7 @@ def cmd_mercato_outcome(
     from media_advisor.mercato.analyzer import update_tip_outcome
     from media_advisor.mercato.models import OutcomeValue
 
-    valid: set[str] = {"non_verificata", "confermata", "parziale", "smentita"}
+    valid: set[str] = {"non_verificata", "confermata", "parziale", "smentita", "non_conclusa"}
     if outcome not in valid:
         typer.echo(f"Outcome non valido: {outcome}. Usa: {' | '.join(sorted(valid))}", err=True)
         raise typer.Exit(1)
@@ -614,15 +659,15 @@ def cmd_mercato_add_transfer(
         notes=notes,
     )
     saved = add_transfer(_root(), record)
-    typer.echo(f"✓ Trasferimento aggiunto: {saved.player_name} → {saved.to_club} ({saved.transfer_type})")
+    typer.echo(f"OK Trasferimento aggiunto: {saved.player_name} -> {saved.to_club} ({saved.transfer_type})")
 
     # Verifica automatica
     from media_advisor.mercato.verifier import verify_all_pending
     updated = verify_all_pending(_root())
     if updated:
-        typer.echo(f"  → {len(updated)} tip aggiornate automaticamente:")
+        typer.echo(f"  -> {len(updated)} tip aggiornate automaticamente:")
         for u in updated:
-            typer.echo(f"    {u['player_name']} → {u['to_club']}: {u['outcome']}")
+            typer.echo(f"    {u['player_name']} -> {u['to_club']}: {u['outcome']}")
 
 
 # ---------------------------------------------------------------------------
@@ -641,7 +686,7 @@ def cmd_mercato_fetch_transfers(
 
     typer.echo(f"Cerco trasferimenti per '{player}' su Transfermarkt...")
     try:
-        raw = fetch_player_transfers(player, season)
+        raw = fetch_player_transfers(player, season, root=_root())
     except ScraperError as e:
         typer.echo(f"Errore scraping: {e}", err=True)
         raise typer.Exit(1)
@@ -673,7 +718,7 @@ def cmd_mercato_fetch_transfers(
         add_transfer(_root(), record)
         existing_keys.add(key)
         added_count += 1
-        typer.echo(f"  + {record.player_name} → {record.to_club} ({record.transfer_type}, {record.season})")
+        typer.echo(f"  + {record.player_name} -> {record.to_club} ({record.transfer_type}, {record.season})")
 
     typer.echo(f"\n{added_count} trasferimento/i aggiunto/i.")
 
@@ -682,7 +727,130 @@ def cmd_mercato_fetch_transfers(
     if updated:
         typer.echo(f"{len(updated)} tip aggiornate:")
         for u in updated:
-            typer.echo(f"  {u['player_name']} → {u['to_club']}: {u['outcome']}")
+            typer.echo(f"  {u['player_name']} -> {u['to_club']}: {u['outcome']}")
+
+
+# ---------------------------------------------------------------------------
+# mercato-import-season
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-import-season")
+def cmd_mercato_import_season(
+    season: str = typer.Option(..., "--season", help="Anno di inizio stagione (es. 2025 per estate 2025 / 2025-26)"),
+    from_date: Optional[str] = typer.Option(None, "--from-date", help="Considera solo tip pubblicate da questa data (YYYY-MM-DD)"),
+    to_date: Optional[str] = typer.Option(None, "--to-date", help="Considera solo tip pubblicate fino a questa data (YYYY-MM-DD)"),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Mostra cosa verrebbe importato senza salvare"),
+) -> None:
+    """Importa i trasferimenti ufficiali della stagione da Transfermarkt per tutti i giocatori nelle tip.
+
+    Legge l'index globale, estrae i giocatori unici (opzionalmente filtrati per data),
+    cerca i trasferimenti su Transfermarkt e popola mercato/transfers.json.
+    Per i giocatori non trovati stampa un riepilogo da inserire manualmente via UI.
+    """
+    from datetime import date as _date
+
+    from media_advisor.mercato.aggregator import load_index
+    from media_advisor.mercato.scraper import ScraperError, fetch_player_transfers
+    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, get_all_transfers, player_slug as make_slug
+
+    date_from: _date | None = _date.fromisoformat(from_date) if from_date else None
+    date_to: _date | None = _date.fromisoformat(to_date) if to_date else None
+
+    root = _root()
+    index = load_index(root)
+
+    # Raccoglie giocatori unici dalle tip, con filtro opzionale per data
+    player_names: dict[str, str] = {}  # player_slug -> player_name (canonico)
+    for tip in index.tips:
+        if date_from or date_to:
+            if not tip.mentioned_at:
+                continue
+            pub_d = tip.mentioned_at.date()
+            if date_from and pub_d < date_from:
+                continue
+            if date_to and pub_d > date_to:
+                continue
+        slug = make_slug(tip.player_name)
+        if slug not in player_names:
+            player_names[slug] = tip.player_name
+
+    if not player_names:
+        typer.echo("Nessun giocatore trovato nelle tip con i filtri applicati.")
+        return
+
+    typer.echo(f"Giocatori unici nelle tip: {len(player_names)}")
+    if dry_run:
+        for slug, name in sorted(player_names.items()):
+            typer.echo(f"  {name}")
+        typer.echo("\n[dry-run] Nessun dato salvato.")
+        return
+
+    existing = get_all_transfers(root)
+    existing_keys = {(t.player_slug, t.to_club or "", t.season) for t in existing}
+
+    found: list[str] = []
+    not_found: list[str] = []
+    total_added = 0
+
+    for _slug, player_name in sorted(player_names.items()):
+        typer.echo(f"\nCerco: {player_name} ...")
+        try:
+            raw = fetch_player_transfers(player_name, season, root=root)
+        except ScraperError as e:
+            typer.echo(f"  ERRORE scraping: {e}")
+            not_found.append(player_name)
+            continue
+
+        if not raw:
+            typer.echo("  Nessun trasferimento trovato")
+            not_found.append(player_name)
+            continue
+
+        added = 0
+        for item in raw:
+            slug_rec = make_slug(item["player_name"])
+            key = (slug_rec, item.get("to_club") or "", item.get("season", ""))
+            if key in existing_keys:
+                continue
+            record = TransferRecord(
+                player_name=item["player_name"],
+                player_slug=slug_rec,
+                from_club=item.get("from_club"),
+                to_club=item.get("to_club"),
+                transfer_type=item.get("transfer_type", "unknown"),  # type: ignore[arg-type]
+                season=item.get("season", ""),
+                confirmed_at=item["confirmed_at"],
+                source="transfermarkt",
+                source_url=item.get("source_url"),
+            )
+            add_transfer(root, record)
+            existing_keys.add(key)
+            added += 1
+            total_added += 1
+            typer.echo(f"  + {record.player_name} -> {record.to_club} ({record.transfer_type}, {record.season})")
+
+        if added > 0:
+            found.append(f"{player_name} ({added})")
+        else:
+            typer.echo("  (già presenti nel DB, nessuna aggiunta)")
+            found.append(f"{player_name} (già nel DB)")
+
+    typer.echo(f"\n{'='*60}")
+    typer.echo(f"Totale trasferimenti aggiunti: {total_added}")
+    typer.echo(f"Giocatori trovati: {len(found)}")
+    if not_found:
+        typer.echo(f"\n⚠ Giocatori NON trovati su Transfermarkt ({len(not_found)}) — inserire manualmente via UI:")
+        for name in not_found:
+            typer.echo(f"  - {name}")
+
+    # Verifica automatica tip
+    from media_advisor.mercato.verifier import verify_all_pending
+    updated = verify_all_pending(root)
+    if updated:
+        typer.echo(f"\n{len(updated)} tip aggiornate automaticamente:")
+        for u in updated:
+            typer.echo(f"  {u['player_name']} -> {u['to_club']}: {u['outcome']}")
 
 
 # ---------------------------------------------------------------------------
@@ -691,18 +859,158 @@ def cmd_mercato_fetch_transfers(
 
 
 @app.command("mercato-verify")
-def cmd_mercato_verify() -> None:
-    """Verifica tutte le tip non_verificata contro il database trasferimenti."""
+def cmd_mercato_verify(
+    fetch_missing: bool = typer.Option(
+        False, "--fetch-missing",
+        help="Cerca su Sofascore/TM i giocatori non ancora nel DB e aggiorna automaticamente le tip",
+    ),
+    season: str = typer.Option("2025", "--season", help="Stagione da cercare (es. 2025)"),
+    from_date: Optional[str] = typer.Option(None, "--from-date", help="Considera solo tip pubblicate da questa data"),
+    to_date: Optional[str] = typer.Option(None, "--to-date", help="Considera solo tip pubblicate fino a questa data"),
+) -> None:
+    """Verifica tutte le tip non_verificata contro il database trasferimenti.
+
+    Con --fetch-missing cerca automaticamente su Sofascore/TM i giocatori mancanti:
+    - trovato con trasferimento corrispondente   -> confermata / parziale
+    - trovato ma nessun trasferimento per stagione -> smentita (rimasto al club)
+    - non trovato su nessuna fonte               -> rimane non_verificata
+    """
+    from datetime import date as _date
     from media_advisor.mercato.verifier import verify_all_pending
 
-    typer.echo("Verifica tip in corso...")
-    updated = verify_all_pending(_root())
+    root = _root()
+
+    if fetch_missing:
+        from media_advisor.mercato.aggregator import load_index
+        from media_advisor.mercato.scraper import ScraperError, fetch_player_transfers, resolve_player_name
+        from media_advisor.mercato.transfer_db import (
+            TransferRecord, add_transfer, get_all_transfers, player_slug as make_slug,
+        )
+        from media_advisor.mercato.verifier import verify_tip
+        from media_advisor.io.json_io import write_json
+        from media_advisor.io.paths import mercato_index_path
+        from datetime import datetime, timezone
+
+        date_from = _date.fromisoformat(from_date) if from_date else None
+        date_to = _date.fromisoformat(to_date) if to_date else None
+
+        index = load_index(root)
+        transfers = get_all_transfers(root)
+        slugs_in_db = {t.player_slug for t in transfers}
+
+        # Giocatori unici nelle tip non_verificata non ancora nel DB
+        to_fetch: dict[str, str] = {}  # slug -> player_name
+        for tip in index.tips:
+            if tip.outcome != "non_verificata":
+                continue
+            if date_from or date_to:
+                d = (tip.mentioned_at.date() if tip.mentioned_at else None)
+                if d is None:
+                    continue
+                if date_from and d < date_from:
+                    continue
+                if date_to and d > date_to:
+                    continue
+            slug = make_slug(tip.player_name)
+            if slug not in slugs_in_db and slug not in to_fetch:
+                to_fetch[slug] = tip.player_name
+
+        typer.echo(f"Giocatori da cercare: {len(to_fetch)}")
+        found_with_transfers = 0
+        found_no_transfers = 0
+        not_found = 0
+
+        existing_keys = {(t.player_slug, t.to_club or "", t.season) for t in transfers}
+
+        for slug, player_name in sorted(to_fetch.items()):
+            canonical = resolve_player_name(player_name, root)
+            if canonical is None:
+                not_found += 1
+                continue
+            typer.echo(f"  Cerco: {player_name}" + (f" -> {canonical}" if canonical != player_name else ""))
+            try:
+                raw = fetch_player_transfers(canonical, season=season, root=root)
+            except ScraperError as e:
+                typer.echo(f"    non trovato: {e}")
+                not_found += 1
+                continue
+
+            if raw:
+                for item in raw:
+                    s = make_slug(item["player_name"])
+                    key = (s, item.get("to_club") or "", item.get("season", ""))
+                    if key in existing_keys:
+                        continue
+                    record = TransferRecord(
+                        player_name=item["player_name"],
+                        player_slug=s,
+                        from_club=item.get("from_club"),
+                        to_club=item.get("to_club"),
+                        transfer_type=item.get("transfer_type", "unknown"),  # type: ignore[arg-type]
+                        season=item.get("season", ""),
+                        confirmed_at=item["confirmed_at"],
+                        source=item.get("source", "sofascore"),
+                        source_url=item.get("source_url"),
+                    )
+                    add_transfer(root, record)
+                    existing_keys.add(key)
+                    typer.echo(f"    + {record.player_name} -> {record.to_club} ({record.transfer_type}, {record.season})")
+                slugs_in_db.add(slug)
+                found_with_transfers += 1
+            else:
+                # Trovato su TM/SS ma nessun trasferimento per questa stagione
+                # Non è una smentita: semplicemente non abbiamo un evento di trasferimento da confrontare
+                # (il giocatore può essere rimasto al club, o i dati stagione sono incompleti).
+                typer.echo(f"    trovato ma nessun trasferimento {season} -> non verificabile (nessun update outcome)")
+                slugs_in_db.add(slug)
+                found_no_transfers += 1
+                try:
+                    season_start = int(season)
+                except Exception:
+                    season_start = None
+
+                def _in_transfer_window(dt) -> bool:
+                    if season_start is None:
+                        return False
+                    # Stagione "2025" = finestra estate 2025 (giu-ago) + inverno 2026 (gen-feb).
+                    y, m = dt.year, dt.month
+                    return (y == season_start and 6 <= m <= 12) or (y == season_start + 1 and 1 <= m <= 2)
+
+                for tip in index.tips:
+                    if make_slug(tip.player_name) != slug:
+                        continue
+
+                    # Se la tip NON ricade nella finestra di mercato della stagione richiesta,
+                    # una nota "nessun trasferimento stagione X" è fuorviante: rimuovila e,
+                    # se era stata auto-smentita da questa regola legacy, riportala a non_verificata.
+                    if tip.mentioned_at and not _in_transfer_window(tip.mentioned_at):
+                        if tip.outcome_notes and f"nessun trasferimento stagione {season}" in tip.outcome_notes:
+                            tip.outcome_notes = None
+                        if tip.outcome == "smentita" and tip.outcome_source == "sofascore":
+                            tip.outcome = "non_verificata"
+                            tip.outcome_updated_at = datetime.now(timezone.utc)
+                        continue
+
+                    # Dentro finestra: lascia outcome invariato (non è un verdetto),
+                    # ma annota che la fonte non riporta trasferimenti in stagione.
+                    if tip.outcome == "non_verificata" and not tip.outcome_notes:
+                        tip.outcome_notes = f"Giocatore trovato su fonti ufficiali: nessun trasferimento stagione {season}"
+                        tip.outcome_updated_at = datetime.now(timezone.utc)
+
+        # Salva index con le smentite automatiche
+        index.updated_at = datetime.now(timezone.utc)
+        write_json(mercato_index_path(root), index.model_dump(mode="json"))
+
+        typer.echo(f"\nFetch: {found_with_transfers} con trasferimenti, {found_no_transfers} rimasti al club, {not_found} non trovati")
+
+    typer.echo("\nVerifica tip in corso...")
+    updated = verify_all_pending(root)
     if not updated:
-        typer.echo("Nessuna tip aggiornata (nessun trasferimento nel database o nessuna tip non_verificata).")
-        return
-    typer.echo(f"{len(updated)} tip aggiornate:")
-    for u in updated:
-        typer.echo(f"  {u['player_name']} → {u['to_club']}: {u['outcome']}")
+        typer.echo("Nessuna tip aggiornata ulteriormente.")
+    else:
+        typer.echo(f"{len(updated)} tip aggiornate da verifica DB:")
+        for u in updated:
+            typer.echo(f"  {u['player_name']} -> {u['to_club']}: {u['outcome']}")
 
 
 # ---------------------------------------------------------------------------
@@ -844,6 +1152,151 @@ def cmd_mercato_rebuild_index(
         f"Index rebuilt: {out}  tips={len(index.tips)}  prune_non_mercato={prune_non_mercato}  "
         f"rewrite_tip_files={rewrite_tip_files} files={rewritten_files}"
     )
+
+
+# ---------------------------------------------------------------------------
+# mercato-enrich-dates
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-enrich-dates")
+def cmd_mercato_enrich_dates(
+    channel: Optional[str] = typer.Option(None, "--channel", help="Limita a un canale (default: tutti i canali mercato)"),
+    max_videos: int = typer.Option(600, "--max-videos", help="Numero massimo di video da analizzare per canale"),
+) -> None:
+    """Scarica le date di pubblicazione dei video tramite yt-dlp e popola channels/video-dates.json.
+
+    Necessario per poter usare --from-date/--to-date in mercato-scan su video storici.
+    Non scarica nessun file video — solo i metadati (veloce).
+    """
+    from media_advisor.fetch import fetch_channel_dates_ytdlp
+    from media_advisor.io.json_io import read_json_or_default, write_json
+    from media_advisor.io.paths import video_dates_cache_path
+    from media_advisor.models.channels import ChannelsConfig
+
+    root = _root()
+    cfg = ChannelsConfig.model_validate(read_json_or_default(root / "channels" / "channels.json", default={}))
+
+    channels_to_process = [
+        c for c in cfg.channels
+        if c.fetch_rule and getattr(c.fetch_rule, "channel_url", None)
+        and (channel is None or c.id == channel)
+    ]
+
+    if not channels_to_process:
+        typer.echo("Nessun canale trovato.")
+        return
+
+    dates_path = video_dates_cache_path(root)
+    dates_cache: dict[str, str] = read_json_or_default(dates_path, default={}) or {}
+    total_added = 0
+
+    for ch in channels_to_process:
+        channel_url = ch.fetch_rule.channel_url  # type: ignore[union-attr]
+        typer.echo(f"[{ch.id}] Scarico date da yt-dlp ({channel_url}) ...")
+        try:
+            new_dates = fetch_channel_dates_ytdlp(channel_url, max_videos=max_videos)
+            added = sum(1 for vid in new_dates if vid not in dates_cache or not dates_cache[vid])
+            dates_cache.update(new_dates)
+            total_added += added
+            typer.echo(f"  -> {len(new_dates)} video trovati, {added} date nuove/aggiornate")
+        except Exception as e:
+            typer.echo(f"  Errore: {e}", err=True)
+
+    write_json(dates_path, dates_cache)
+
+    # Arricchisci anche i transcript già scaricati con le date ora disponibili
+    typer.echo("\nArricchisco i transcript esistenti con le date...")
+    from media_advisor.io.paths import transcript_path
+    from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
+
+    enriched = 0
+    transcripts_root = root / "transcripts"
+    channel_dirs = (
+        [transcripts_root / channel] if channel and (transcripts_root / channel).exists()
+        else list(transcripts_root.iterdir()) if transcripts_root.exists() else []
+    )
+    for ch_dir in channel_dirs:
+        if not ch_dir.is_dir():
+            continue
+        for t_file in ch_dir.glob("*.json"):
+            vid = t_file.stem
+            if vid not in dates_cache:
+                continue
+            try:
+                from media_advisor.io.json_io import read_json, write_json as _wj
+                raw = read_json(t_file)
+                tr = TranscriptResponse.model_validate(raw)
+                if tr.metadata and tr.metadata.published_at:
+                    continue  # già ha la data
+                meta = tr.metadata or VideoMetadata()
+                meta = meta.model_copy(update={"published_at": dates_cache[vid]})
+                tr2 = tr.model_copy(update={"metadata": meta})
+                _wj(t_file, tr2.model_dump(mode="json"))
+                enriched += 1
+            except Exception:
+                continue
+
+    typer.echo(f"{enriched} transcript aggiornati con published_at")
+    typer.echo(f"\nDone. Totale date in cache: {len(dates_cache)}")
+
+
+# ---------------------------------------------------------------------------
+# mercato-set-player-tm-id
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-set-alias")
+def cmd_mercato_set_alias(
+    extracted: str = typer.Option(..., "--extracted", help="Nome come estratto dall'AI (es. 'Gigio Donnarumma')"),
+    canonical: str = typer.Option(..., "--canonical", help="Nome canonico da cercare (es. 'Gianluigi Donnarumma')"),
+) -> None:
+    """Aggiunge un alias nome-AI -> nome-canonico in mercato/player-aliases.json.
+
+    Utile quando l'AI estrae nomi abbreviati o errati e la ricerca fallisce.
+
+    Esempi:
+      media-advisor mercato-set-alias --extracted "Bastoni" --canonical "Alessandro Bastoni"
+      media-advisor mercato-set-alias --extracted "Gigio Donnarumma" --canonical "Gianluigi Donnarumma"
+    """
+    import json, re as _re
+    from pathlib import Path as _Path
+
+    root = _root()
+    aliases_path = root / "mercato" / "player-aliases.json"
+    slug = _re.sub(r"[^a-z0-9]+", "-", extracted.lower().strip()).strip("-")
+
+    data: dict = {}
+    if aliases_path.exists():
+        try:
+            data = json.loads(aliases_path.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+
+    data[slug] = canonical
+    aliases_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+    typer.echo(f"Alias salvato: '{extracted}' (slug={slug}) -> '{canonical}'")
+
+
+@app.command("mercato-set-player-tm-id")
+def cmd_mercato_set_player_tm_id(
+    player: str = typer.Option(..., "--player", help="Nome del giocatore"),
+    tm_id: str = typer.Option(..., "--tm-id", help="TM ID numerico (trovalo su transfermarkt.it/profil/spieler/{id})"),
+) -> None:
+    """Salva manualmente il TM ID di un giocatore nella cache locale.
+
+    Utile quando search_player() fallisce per bot-detection di Transfermarkt.
+    Il TM ID si trova nell'URL del profilo giocatore su transfermarkt.it:
+      https://www.transfermarkt.it/{slug}/profil/spieler/{tm_id}
+
+    Esempio:
+      media-advisor mercato-set-player-tm-id --player "Romelu Lukaku" --tm-id 96341
+    """
+    from media_advisor.mercato.scraper import set_player_tm_id
+
+    set_player_tm_id(_root(), player, tm_id)
+    typer.echo(f"Salvato: '{player}' -> TM ID {tm_id}")
+    typer.echo("Ora puoi rieseguire mercato-fetch-transfers o mercato-import-season.")
 
 
 if __name__ == "__main__":

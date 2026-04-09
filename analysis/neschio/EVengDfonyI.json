@@ -1,0 +1,146 @@
+{
+  "video_id": "EVengDfonyI",
+  "analyzed_at": "2026-02-16T17:18:35.916Z",
+  "metadata": {
+    "title": "L’ultimo è sempre il più bello! #Gigi #SassuoloInter",
+    "author_name": "Neschio",
+    "published_at": "2026-02-09T12:00:00.000Z"
+  },
+  "summary": "L’ultimo è sempre il più bello! #Gigi #SassuoloInter — 2026-02-09",
+  "topics": [
+    {
+      "name": "Lautaro",
+      "relevance": "high"
+    },
+    {
+      "name": "Luis Enrique",
+      "relevance": "high"
+    },
+    {
+      "name": "Sassuolo",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "32e0f572-af29-46a5-84d8-ba2d48957ecc",
+      "video_id": "EVengDfonyI",
+      "segment_id": "s0",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro ha calciato in maniera decisiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Palla che arriva Lautaro che si gira e prova in consegna.",
+          "start_sec": 0.359,
+          "end_sec": 49.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "giocatore",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro ha calciato in maniera decisiva.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "731637ec-8837-484d-9dbf-5bef024165eb",
+      "video_id": "EVengDfonyI",
+      "segment_id": "s0",
+      "target_entity": "Luis Enrique",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Luis Enrique si è posizionato all'interno dell'area.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dentro l'area di Luis Enri che calcia.",
+          "start_sec": 0.359,
+          "end_sec": 49.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "tattica",
+        "allenatore"
+      ],
+      "topic": "tactics",
+      "subject": "Luis Enrique",
+      "position": "Luis Enrique si è posizionato all'interno dell'area.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "873360e0-cce8-4128-a638-241e545e8f65",
+      "video_id": "EVengDfonyI",
+      "segment_id": "s0",
+      "target_entity": "Muric",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Muric ha avuto un impatto positivo nel gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Muric ancora una volta.",
+          "start_sec": 0.359,
+          "end_sec": 49.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "giocatore",
+        "gioco"
+      ],
+      "topic": "performance",
+      "subject": "Muric",
+      "position": "Muric ha avuto un impatto positivo nel gioco.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "0f29c2b0-caf7-4a21-82f3-e0c18f507cae",
+      "video_id": "EVengDfonyI",
+      "segment_id": "s0",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Sassuolo non è riuscito a fermare gli attaccanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che calcia che calz.",
+          "start_sec": 0.359,
+          "end_sec": 49.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "squadra",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Sassuolo non è riuscito a fermare gli attaccanti.",
+      "polarity": "positive"
+    }
+  ]
+}

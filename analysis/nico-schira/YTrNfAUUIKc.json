@@ -1,0 +1,350 @@
+{
+  "video_id": "YTrNfAUUIKc",
+  "analyzed_at": "2026-04-08T12:56:46.052045+00:00",
+  "metadata": {
+    "title": "INCROCI PERICOLOSI TRA INTER E JUVENTUS. NAPOLI, SCOPPIA IL CASO LUKAKU: ECCO COME FINIRÀ. LA ROMA…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza le recenti prestazioni della nazionale italiana e il contesto del mercato calcistico, focalizzandosi sul caso di Romelu Lukaku. L'autore esprime preoccupazione per la prestazione dell'Italia contro l'Irlanda del Nord, sottolineando che, nonostante la vittoria, ci sono aspetti da migliorare in vista della decisiva partita contro la Bosnia, che presenta una squadra esperta e insidiosa. Inoltre, Schira evidenzia come Lukaku, ora al Napoli, possa non essere al centro del progetto a lungo termine, dato l'investimento del club su Oilund, suggerendo che il futuro del ",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "mentale",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha una probabilità del 35% di successo.",
+      "polarity": "neutral",
+      "claim_id": "526049e9-9ce4-4d8f-bc38-3c422ecd5fe0",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Bologna ha una probabilità del 35% di successo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "35% Bologna.",
+          "start_sec": 58.92,
+          "end_sec": 91.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia ha avuto una prestazione agghiacciante contro l'Irlanda del Nord.",
+      "polarity": "neutral",
+      "claim_id": "6322b5ed-28d3-4001-8784-d6ec5bd884d4",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha avuto una prestazione agghiacciante contro l'Irlanda del Nord.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prestazione abbastanza agghiacciante contro l'Irlanda del Nord.",
+          "start_sec": 1.56,
+          "end_sec": 31.198999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Galles",
+      "position": "Il Galles è una squadra esperta e forte fisicamente.",
+      "polarity": "neutral",
+      "claim_id": "142f46a5-4776-4b54-84bd-a8e1ea98edfa",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s1",
+      "target_entity": "Galles",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galles è una squadra esperta e forte fisicamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Galles è una squadra esperta, forte fisicamente.",
+          "start_sec": 28.359,
+          "end_sec": 60.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Geeko",
+      "position": "Geeko ha ancora colpi da campione e ha fatto gol.",
+      "polarity": "neutral",
+      "claim_id": "9199c22e-0805-426d-bde4-0f1bed2863ff",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s2",
+      "target_entity": "Geeko",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Geeko ha ancora colpi da campione e ha fatto gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha sempre colpi da campione, anche ieri ha fatto gol.",
+          "start_sec": 58.92,
+          "end_sec": 91.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Bosnia",
+      "position": "L'Italia giocherà una partita decisiva contro la Bosnia.",
+      "polarity": "positive",
+      "claim_id": "f753af19-c006-4f34-ab71-3e6bbf752f85",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s0",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Italia giocherà una partita decisiva contro la Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Andremo a giocarci tutto contro la Bosnia.",
+          "start_sec": 1.56,
+          "end_sec": 31.198999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bosnia",
+      "position": "La Bosnia potrebbe essere influenzata dall'assenza di supporto del pubblico.",
+      "polarity": "neutral",
+      "claim_id": "15b3e223-8481-40dc-9f0c-cbf6f4744bbe",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s2",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia potrebbe essere influenzata dall'assenza di supporto del pubblico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è il fattore campo.",
+          "start_sec": 58.92,
+          "end_sec": 91.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Lukaku è al centro di un caso di mercato significativo.",
+      "polarity": "neutral",
+      "claim_id": "613e1461-5168-4429-a121-a99472ee9bd0",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è al centro di un caso di mercato significativo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta tenendo banco il caso Lukaku.",
+          "start_sec": 87.64,
+          "end_sec": 127.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bosnia",
+      "position": "La Bosnia ha giocatori esperti.",
+      "polarity": "neutral",
+      "claim_id": "7db86c51-c5d1-490a-a0c2-8a8b106bc72b",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s1",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia ha giocatori esperti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Bosnia è esperta perché comunque ha giocatori come Colazina.",
+          "start_sec": 28.359,
+          "end_sec": 60.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Tonali",
+      "position": "Tonali ha sbloccato il punteggio per l'Italia.",
+      "polarity": "positive",
+      "claim_id": "5357da5c-5404-45c3-9aaa-0d2967f7fa6b",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s0",
+      "target_entity": "Tonali",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tonali ha sbloccato il punteggio per l'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "2-0 ci ha pensato Tonali a sbloccarla.",
+          "start_sec": 1.56,
+          "end_sec": 31.198999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia ha giocatori superiori rispetto alla Bosnia.",
+      "polarity": "neutral",
+      "claim_id": "fdbcb05a-f507-4826-870f-7bcc18dec57f",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha giocatori superiori rispetto alla Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo giocatori superiori.",
+          "start_sec": 58.92,
+          "end_sec": 91.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ken",
+      "position": "Ken ha segnato il secondo gol dell'Italia.",
+      "polarity": "positive",
+      "claim_id": "494749cf-db50-442b-bff3-021ce998a3e6",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s0",
+      "target_entity": "Ken",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ken ha segnato il secondo gol dell'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il raddoppio di Ken.",
+          "start_sec": 1.56,
+          "end_sec": 31.198999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Colazina",
+      "position": "Colazina gioca attualmente all'Arsenal.",
+      "polarity": "neutral",
+      "claim_id": "3423a417-2558-4b52-a669-35a610bfa8c1",
+      "video_id": "YTrNfAUUIKc",
+      "segment_id": "s1",
+      "target_entity": "Colazina",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Colazina gioca attualmente all'Arsenal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è una vita all'Arsenal e gioca ancora a.",
+          "start_sec": 28.359,
+          "end_sec": 60.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

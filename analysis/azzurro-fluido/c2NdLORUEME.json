@@ -1,0 +1,426 @@
+{
+  "video_id": "c2NdLORUEME",
+  "analyzed_at": "2026-03-31T11:34:39.125524+00:00",
+  "metadata": {
+    "title": "#OpenVAR scandaloso!!! Le condizioni di #Politano e #Lukaku",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "#OpenVAR scandaloso!!! Le condizioni di #Politano e #Lukaku — ",
+  "topics": [
+    {
+      "name": "Open VAR",
+      "relevance": "low"
+    },
+    {
+      "name": "transfer market",
+      "relevance": "low"
+    },
+    {
+      "name": "injuries",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "ritorno",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "gestione giocatore",
+      "relevance": "low"
+    },
+    {
+      "name": "risultati",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "performance",
+      "relevance": "low"
+    },
+    {
+      "name": "controversy",
+      "relevance": "low"
+    },
+    {
+      "name": "VAR usage",
+      "relevance": "low"
+    },
+    {
+      "name": "referee decisions",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitration",
+      "relevance": "low"
+    },
+    {
+      "name": "VAR",
+      "relevance": "low"
+    },
+    {
+      "name": "fouls",
+      "relevance": "low"
+    },
+    {
+      "name": "VAR decision",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "low"
+    },
+    {
+      "name": "rigore",
+      "relevance": "low"
+    },
+    {
+      "name": "VAR controversy",
+      "relevance": "low"
+    },
+    {
+      "name": "refereeing decisions",
+      "relevance": "low"
+    },
+    {
+      "name": "team dynamics",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Serie A",
+      "position": "Si consiglia di non effettuare scambi avventati nella Serie A.",
+      "polarity": "neutral",
+      "claim_id": "de933962-9036-442f-b88a-fbdcdc946d71",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s0",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Si consiglia di non effettuare scambi avventati nella Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non fate degli acquisti avventati perché è dietro l'angolo",
+          "start_sec": 1.04,
+          "end_sec": 75.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "calcio fluido",
+      "position": "È stato creato un video sui dati dei nazionali della Serie A.",
+      "polarity": "neutral",
+      "claim_id": "cf5448ac-ea8c-461f-a85b-66f000d6c564",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s0",
+      "target_entity": "calcio fluido",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È stato creato un video sui dati dei nazionali della Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io ieri su calcio fluido mi sono divertito a a raccogliere tutti i dati",
+          "start_sec": 1.04,
+          "end_sec": 75.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Politano",
+      "position": "Politano è in gruppo e fa i saltelli con Di Marco.",
+      "polarity": "neutral",
+      "claim_id": "de546985-ad86-4f72-b2d8-518b2d199c8e",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s1",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Politano è in gruppo e fa i saltelli con Di Marco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano è in gruppo, fa i saltelli insieme a Di Marco.",
+          "start_sec": 72.759,
+          "end_sec": 143.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Politano",
+      "position": "Politano potrebbe essere titolare dopo la sua partecipazione in gruppo.",
+      "polarity": "neutral",
+      "claim_id": "e1c2870d-42e3-4e4c-9de0-301a54ca0a80",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s1",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Politano potrebbe essere titolare dopo la sua partecipazione in gruppo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano in gruppo, quindi resta nel ritiro della nazionale.",
+          "start_sec": 72.759,
+          "end_sec": 143.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku tornerà a Napoli per concentrarsi sulla sua forma.",
+      "polarity": "positive",
+      "claim_id": "76fb082e-8cd6-402d-9ce2-31315885fbbd",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Lukaku tornerà a Napoli per concentrarsi sulla sua forma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku torna a Napoli, preferisce poi concentrarsi per ritrovare una forma migliore.",
+          "start_sec": 72.759,
+          "end_sec": 143.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku è tornato a Napoli per ricevere cure.",
+      "polarity": "positive",
+      "claim_id": "89f36822-ff52-45ea-835b-f9d960d057d3",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è tornato a Napoli per ricevere cure.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bene che sia tornato a Napoli, è bene che stia sotto le cure.",
+          "start_sec": 140.48,
+          "end_sec": 208.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Conte",
+      "position": "Conte potrebbe utilizzare Lukaku anche se non è completamente pronto.",
+      "polarity": "neutral",
+      "claim_id": "85595999-b230-4b3b-9e1d-4699734d3191",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte potrebbe utilizzare Lukaku anche se non è completamente pronto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'unico dubbio che puoi che puoi avere che Conte lo usi anche quando non è pronto.",
+          "start_sec": 140.48,
+          "end_sec": 208.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku potrebbe avere un impatto a causa di infortuni.",
+      "polarity": "neutral",
+      "claim_id": "87dd24df-1eef-4ce3-8d7c-3a38fde7d7d2",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Lukaku potrebbe avere un impatto a causa di infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi pare che un paio di infortuni già sono usciti",
+          "start_sec": 1.04,
+          "end_sec": 75.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku non dovrebbe forzare il recupero per evitare un infortunio.",
+      "polarity": "positive",
+      "claim_id": "11f60c8c-268c-4e99-9807-af5fb32d098e",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku non dovrebbe forzare il recupero per evitare un infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è bene che non forzi questa prima cosa.",
+          "start_sec": 140.48,
+          "end_sec": 208.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku non può essere messo in campo per mancanza di condizioni fisiche.",
+      "polarity": "negative",
+      "claim_id": "20564c1b-e4be-473e-a8c9-7acb9abc46e8",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku non può essere messo in campo per mancanza di condizioni fisiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non lo può fare nemmeno 10 minuti.",
+          "start_sec": 206.0,
+          "end_sec": 274.59999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Politano",
+      "position": "Politano potrebbe essere colpito da infortuni.",
+      "polarity": "neutral",
+      "claim_id": "615c8c89-ef10-4321-aaee-87128e6e27a5",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s0",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Politano potrebbe essere colpito da infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi pare che un paio di infortuni già sono usciti",
+          "start_sec": 1.04,
+          "end_sec": 75.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte non è irragionevole nel gestire Lukaku.",
+      "polarity": "positive",
+      "claim_id": "64a11ea8-f053-452f-9280-7c1894512194",
+      "video_id": "c2NdLORUEME",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non è irragionevole nel gestire Lukaku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci rendiamo conto che Conte non è pazzo.",
+          "start_sec": 140.48,
+          "end_sec": 208.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

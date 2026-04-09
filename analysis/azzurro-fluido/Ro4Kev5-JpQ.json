@@ -1,0 +1,382 @@
+{
+  "video_id": "Ro4Kev5-JpQ",
+  "analyzed_at": "2026-03-31T15:03:10.471Z",
+  "metadata": {
+    "title": "Verso #GENOA #NAPOLI, ascoltate DE ROSSI su #CONTE 👀 #Conferenza 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-05T18:56:48+00:00"
+  },
+  "summary": "Nel video, l'opinionista analizza la situazione attuale del Napoli e del Genoa in vista della partita tra le due squadre. Sottolinea che il Napoli appare \"spento\" e condizionato da assenze, mentre evidenzia le potenzialità di De Rossi come allenatore del Genoa, capace di motivare i giocatori e migliorare la fase offensiva della squadra. L'autore conclude che, nonostante un inizio deludente per il Genoa, l'arrivo di De Rossi ha portato a un miglioramento nei risultati, con un bilancio di quattro vittorie, cinque pareggi e quattro sconfitte nelle ultime tredici partite.",
+  "topics": [
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "motivazione",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "tactics",
+      "relevance": "medium"
+    },
+    {
+      "name": "de rossi tactics",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "comunicazione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "andamento squadra",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ad9ff653-84a1-4b39-89e9-a8b541e0e69e",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s2",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha ottenuto 23 punti in 23 gare sotto De Rossi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Con De Rossi siamo arrivati a 13 partite, quattro vittorie, cinque pareggi e quattro sconfitte. Quindi 23 punti in 23 gare si spiegano così.",
+          "start_sec": 140.68,
+          "end_sec": 199.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Genoa",
+        "De Rossi",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "Il Genoa ha ottenuto 23 punti in 23 gare sotto De Rossi.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "de9d241b-d1f7-410c-ae9f-bdf48a79c886",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "De Rossi potrebbe essere un buon comunicatore per il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a livello comunicativo mi fa penso sia il migliore, proprio il migliore che c'è.",
+          "start_sec": 0.12,
+          "end_sec": 68.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Genoa",
+      "position": "De Rossi potrebbe essere un buon comunicatore per il Genoa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "a4f709b7-f81d-4a67-950e-e06266c254c9",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s0",
+      "target_entity": "De Rossi",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "De Rossi è un allenatore capace di motivare i giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per risollevare una squadra... è uno che la sa riaccendere in un secondo, sa motivarti, sa usare le parole giuste.",
+          "start_sec": 0.12,
+          "end_sec": 68.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "De Rossi",
+      "position": "De Rossi è un allenatore capace di motivare i giocatori.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "eb509411-f056-4b6e-b9e7-0f8ee726d8ff",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli soffre per assenze che condizionano la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sicuramente hanno delle assenze che li stanno condizionando magari nell'ampiezza della rosa.",
+          "start_sec": 0.12,
+          "end_sec": 68.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli soffre per assenze che condizionano la squadra.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "fe29d540-b290-452a-9571-8a4ab796d866",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s1",
+      "target_entity": "De Rossi",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Le azioni di De Rossi al Genoa sono state positive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me ha senso anche parlare di quello che De Rossi ha fatto arrivando al Genoa.",
+          "start_sec": 67.28,
+          "end_sec": 143.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "De Rossi",
+      "position": "Le azioni di De Rossi al Genoa sono state positive.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "2055f8d3-a94d-428b-a8d9-28bd4e139f91",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s2",
+      "target_entity": "De Rossi",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "De Rossi ha migliorato la fase offensiva del Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Rossi ha migliorato tantissimo la fase offensiva del Genoa.",
+          "start_sec": 140.68,
+          "end_sec": 199.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "De Rossi",
+        "tactics",
+        "offensive strategy"
+      ],
+      "topic": "tactics",
+      "subject": "De Rossi",
+      "position": "De Rossi ha migliorato la fase offensiva del Genoa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "6dc7ec08-b619-41bf-9f39-bdf0d45634d1",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s2",
+      "target_entity": "Criscito",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Criscito ha avuto un ruolo importante nel primo successo del Genoa dopo l'arrivo di De Rossi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si può dare a De Rossi perché c'era Criscito e Murgita in panchina contro il Sassuolo 1-2.",
+          "start_sec": 140.68,
+          "end_sec": 199.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Criscito",
+        "Genoa",
+        "De Rossi"
+      ],
+      "topic": "performance",
+      "subject": "Criscito",
+      "position": "Criscito ha avuto un ruolo importante nel primo successo del Genoa dopo l'arrivo di De Rossi.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "0e2c8e84-5589-438d-b3e4-ed047239426d",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sembra avere una squadra spenta e abbattuta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non penso di trovare mai il Napoli un po' un po' più spento.",
+          "start_sec": 0.12,
+          "end_sec": 68.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli sembra avere una squadra spenta e abbattuta.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "9bc18c42-5feb-4b1c-bf58-3b66119dad50",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Sono in corso polemiche contro Conte da parte di alcuni giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se uno vuole andare a cercare tutte le cose contro Conte,",
+          "start_sec": 67.28,
+          "end_sec": 143.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Sono in corso polemiche contro Conte da parte di alcuni giocatori.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "daf53244-a84a-402c-a44c-99db52a9642b",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha ottenuto tre pareggi nelle ultime nove partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quest'anno nove partite, tre pareggi,",
+          "start_sec": 67.28,
+          "end_sec": 143.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "Il Genoa ha ottenuto tre pareggi nelle ultime nove partite.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "96cae59c-491e-43fd-b886-cf43a90305f6",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s2",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "La filosofia di De Rossi implica accettare di prendere gol a fronte di un gioco offensivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le vuole fare. Questo è nella sua filosofia",
+          "start_sec": 140.68,
+          "end_sec": 199.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Genoa",
+        "De Rossi",
+        "tactics"
+      ],
+      "topic": "tactics",
+      "subject": "Genoa",
+      "position": "La filosofia di De Rossi implica accettare di prendere gol a fronte di un gioco offensivo.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "5d75ad7a-1f39-46f2-9d21-cee698ea024e",
+      "video_id": "Ro4Kev5-JpQ",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'andamento del Genoa quest'anno è stato deludente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nove partite, tre pareggi,",
+          "start_sec": 67.28,
+          "end_sec": 143.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "L'andamento del Genoa quest'anno è stato deludente.",
+      "polarity": "negative"
+    }
+  ]
+}

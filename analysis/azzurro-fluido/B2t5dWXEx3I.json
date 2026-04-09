@@ -1,0 +1,411 @@
+{
+  "video_id": "B2t5dWXEx3I",
+  "analyzed_at": "2026-03-31T14:53:50.288Z",
+  "metadata": {
+    "title": "Ci vogliono far perdere il SORRISO.. 👀 Analisi Napoli Como 7-8 🔵 ci sono cose belle!",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-11T21:22:09+00:00"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la partita tra Napoli e Como, evidenziando le difficoltà affrontate dalla squadra partenopea ma anche il suo impegno e la determinazione nel non arrendersi. L'autore sostiene che, nonostante le critiche diffuse dai media, i tifosi devono riconoscere gli sforzi dei giocatori e mantenere un attaccamento alla squadra. Tra le conclusioni chiave, emerge l'importanza di un approccio diverso nel secondo tempo, con il Napoli che cerca di adattarsi ai movimenti avversari, e la necessità di non sottovalutare le situazioni di gioco, come il rigore netto no",
+  "topics": [
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "orgoglio e attaccamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "sforzo",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggi",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica e schemi",
+      "relevance": "low"
+    },
+    {
+      "name": "team performance",
+      "relevance": "low"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "34c2121d-35d6-435a-a286-07d4defe074b",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta lottando e non si arrende nonostante le difficoltà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche se perdiamo le partite, anche se usciamo dalle competizioni, io mi sento orgoglioso di come il Napoli stia lottando e non stia mollando.",
+          "start_sec": 2.52,
+          "end_sec": 105.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "resilienza",
+        "prestazioni",
+        "spirito di squadra"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli sta lottando e non si arrende nonostante le difficoltà.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "548180b2-facd-4421-8879-58e68bddf4e5",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il tifoso del Napoli sente un forte attaccamento alla squadra in questo periodo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io mi sento orgoglioso di come il Napoli stia lottando e non stia mollando.",
+          "start_sec": 2.52,
+          "end_sec": 105.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "orgoglio",
+        "tifosi",
+        "supporto"
+      ],
+      "topic": "fan_behavior",
+      "subject": "Napoli",
+      "position": "Il tifoso del Napoli sente un forte attaccamento alla squadra in questo periodo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ac4ae40d-a258-48c7-9e3d-2211f0f008db",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s0",
+      "target_entity": "giornali",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "I media spesso alimentano critiche e opinioni negative sul Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello che i giornali, le televisioni portano avanti per interessi personali, per antipatie personali",
+          "start_sec": 2.52,
+          "end_sec": 105.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "critiche",
+        "informazione",
+        "media"
+      ],
+      "topic": "media",
+      "subject": "giornali",
+      "position": "I media spesso alimentano critiche e opinioni negative sul Napoli.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "f3b28ec4-fcc1-4d75-b071-aaeecf331d74",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra è unita e mostra sforzi significativi nel superare le difficoltà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedo lo sforzo, vedo il tentativo di non mollare, di non disunirsi",
+          "start_sec": 2.52,
+          "end_sec": 105.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "unità",
+        "sforzo",
+        "leadership"
+      ],
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "La squadra è unita e mostra sforzi significativi nel superare le difficoltà.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "25802791-fcd5-4221-aed4-c0eeff88f353",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli deve adattarsi ai movimenti del Como durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli deve deve scegliere, ogni giocatore deve scegliere se continuare la marcatura che gli è stata assegnata o se lasciare e fare le scalate.",
+          "start_sec": 102.479,
+          "end_sec": 172.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattiche",
+        "giocatori"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli deve adattarsi ai movimenti del Como durante la partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d162c130-68e1-40d9-91e4-5f5ba6c0b108",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s1",
+      "target_entity": "Olivera",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Olivera non riesce a leggere la situazione in tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Olivera si accorge all'ultimo momento che gli è scappato Smolcic.",
+          "start_sec": 102.479,
+          "end_sec": 172.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esperienza",
+        "lettura di gioco"
+      ],
+      "topic": "performance",
+      "subject": "Olivera",
+      "position": "Olivera non riesce a leggere la situazione in tempo.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "8aaaceaf-798f-4685-9cda-da2d0b0c9da2",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha modificato il suo approccio nel secondo tempo giocando più dal basso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel secondo tempo l'approccio del Napoli è molto più di giocare il pallone da dietro.",
+          "start_sec": 170.2,
+          "end_sec": 230.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattiche",
+        "secondo tempo",
+        "gioco dal basso"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli ha modificato il suo approccio nel secondo tempo giocando più dal basso.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "85574bd5-df06-4498-a55d-4606e8182903",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s2",
+      "target_entity": "Beukema",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Beukema ha giocato come terzino destro nella parte finale della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la posizione di Beukema che a tutti gli effetti finisce ad essere un terzino destro",
+          "start_sec": 170.2,
+          "end_sec": 230.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "posizione",
+        "tattica",
+        "giocatore"
+      ],
+      "topic": "tactics",
+      "subject": "Beukema",
+      "position": "Beukema ha giocato come terzino destro nella parte finale della partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "56254c33-5ec7-4fad-820d-dd79d7c05979",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s2",
+      "target_entity": "Eyund",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Eyund ha eseguito un'ottima azione che ha influito sul corso della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È bravissimo Eund ad allargare il piattone per far finire questa palla in profondità.",
+          "start_sec": 170.2,
+          "end_sec": 230.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "azione",
+        "prestazione",
+        "partita"
+      ],
+      "topic": "performance",
+      "subject": "Eyund",
+      "position": "Eyund ha eseguito un'ottima azione che ha influito sul corso della partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d7cde6a1-6ee0-4e19-8988-449f786ff9d8",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s3",
+      "target_entity": "Vergara",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Vergara ha l'istinto del gol e piazza bene la palla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'istinto del gol Vergara ce l'ha e la palla precisa.",
+          "start_sec": 227.959,
+          "end_sec": 331.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "performance",
+        "attacco"
+      ],
+      "topic": "performance",
+      "subject": "Vergara",
+      "position": "Vergara ha l'istinto del gol e piazza bene la palla.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "35ae0ed8-bbb1-46f4-80d3-67cf59471408",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Il contatto è un rigore netto per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rigore netto e non c'è niente da dire.",
+          "start_sec": 102.479,
+          "end_sec": 172.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggi",
+        "situazioni di gioco"
+      ],
+      "topic": "refereeing",
+      "subject": "Napoli",
+      "position": "Il contatto è un rigore netto per il Napoli.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "8c6500e1-088e-4b99-bd5f-b14929cf3d7d",
+      "video_id": "B2t5dWXEx3I",
+      "segment_id": "s2",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Lobotka è stato marcato a uomo nella prima fase della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lobotka che era seguito a uomo.",
+          "start_sec": 170.2,
+          "end_sec": 230.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "marcatura",
+        "giocatore",
+        "partita"
+      ],
+      "topic": "tactics",
+      "subject": "Lobotka",
+      "position": "Lobotka è stato marcato a uomo nella prima fase della partita.",
+      "polarity": "positive"
+    }
+  ]
+}

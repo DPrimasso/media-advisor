@@ -1,0 +1,146 @@
+{
+  "video_id": "j3bgX85VK_4",
+  "analyzed_at": "2026-02-25T17:03:23.308Z",
+  "metadata": {
+    "title": "Un po’ di tensione da sfogare… #LecceInter",
+    "author_name": "Neschio",
+    "published_at": "2026-02-21T12:00:00.000Z"
+  },
+  "summary": "Un po’ di tensione da sfogare… #LecceInter — 2026-02-21",
+  "topics": [
+    {
+      "name": "abilità di tiro",
+      "relevance": "high"
+    },
+    {
+      "name": "errore difensivo",
+      "relevance": "high"
+    },
+    {
+      "name": "coinvolgimento emotivo",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "a9812169-9955-4ad7-94de-feb7f65c6a0d",
+      "video_id": "j3bgX85VK_4",
+      "segment_id": "s0",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco ha mostrato una notevole abilità nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quel mancino là mettetelo in una teca, per favore",
+          "start_sec": 0.28,
+          "end_sec": 51.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "abilità",
+        "calcio",
+        "gol"
+      ],
+      "topic": "performance",
+      "subject": "Di Marco",
+      "position": "Di Marco ha mostrato una notevole abilità nella partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "292dee81-488a-4d6c-a9c4-9e13264410f0",
+      "video_id": "j3bgX85VK_4",
+      "segment_id": "s0",
+      "target_entity": "Esposito",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Esposito ha fatto un errore evidente nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "liscio di Marco. Federico Di Marco.",
+          "start_sec": 0.28,
+          "end_sec": 51.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "partita",
+        "calcio"
+      ],
+      "topic": "performance",
+      "subject": "Esposito",
+      "position": "Esposito ha fatto un errore evidente nella partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "007edae8-d2ad-4641-86ff-19538c681e79",
+      "video_id": "j3bgX85VK_4",
+      "segment_id": "s0",
+      "target_entity": "Micky",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Riferimenti familiari aumentano l'intensità emotiva della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo zio Micky. altro corner, altro gol",
+          "start_sec": 0.28,
+          "end_sec": 51.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "emozione",
+        "famiglia",
+        "partita"
+      ],
+      "topic": "fan_behavior",
+      "subject": "Micky",
+      "position": "Riferimenti familiari aumentano l'intensità emotiva della partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "62b99d74-d8b4-42ad-ab41-52cac6cdad13",
+      "video_id": "j3bgX85VK_4",
+      "segment_id": "s0",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La partita ha visto un incremento di corner.",
+      "evidence_quotes": [
+        {
+          "quote_text": "altro corner, altro gol",
+          "start_sec": 0.28,
+          "end_sec": 51.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "corner",
+        "gol"
+      ],
+      "topic": "performance",
+      "subject": "Lecce",
+      "position": "La partita ha visto un incremento di corner.",
+      "polarity": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "video_id": "5ou8lNTFrsg",
+  "analyzed_at": "2026-04-08T10:29:29.229638+00:00",
+  "metadata": {
+    "title": "🚨 BASTONI-BARÇA E I 50 MILIONI:LA VERITÀ! KOLO:SÌ ALLA JUVE BIS! TONALI, IL PIANO FUTURO E SPALLETTI",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-03-18T19:36:49+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sul futuro di Alessandro Bastoni, attualmente nel mirino del Barcellona. L'autore chiarisce che, contrariamente a quanto si vocifera, l'Inter non ha fissato un prezzo di vendita per il difensore e non ha confermato la cifra di 50 milioni. La situazione rimane fluida, con il Barcellona che considera Bastoni un obiettivo prioritario, ma le decisioni economiche e temporali saranno fondamentali per il suo eventuale trasferimento.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Bastoni",
+      "position": "Non ci sono conferme sulla cifra di 50 milioni per Bastoni.",
+      "polarity": "negative",
+      "claim_id": "e79f87a9-03b1-4f26-8917-cf2aa07af7f6",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s2",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono conferme sulla cifra di 50 milioni per Bastoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "né che l'Inter abbia comunicato un prezzo da 50 milioni per far partire Bastoni in estate.",
+          "start_sec": 63.64,
+          "end_sec": 92.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alessandro Bastoni",
+      "position": "Alessandro Bastoni è attualmente oggetto di interesse del Barcellona.",
+      "polarity": "neutral",
+      "claim_id": "be8f3784-61ec-4901-988c-03ec1dc9ae17",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s1",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alessandro Bastoni è attualmente oggetto di interesse del Barcellona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il futuro di Alessandro Bastoni, perché da tempo si parla del Barcellona",
+          "start_sec": 34.6,
+          "end_sec": 65.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Alessandro Bastoni",
+      "position": "Ci sono molte chiacchiere sul futuro di Alessandro Bastoni.",
+      "polarity": "neutral",
+      "claim_id": "226e8e81-87c2-4422-b628-09beadcdb148",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s1",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono molte chiacchiere sul futuro di Alessandro Bastoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta facendo chiacchierare tanto ed è il tema che riguarda il futuro di Alessandro Bastoni",
+          "start_sec": 34.6,
+          "end_sec": 65.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Barcellona",
+      "position": "Il Barcellona è collegato con Alessandro Bastoni in diverse interpretazioni.",
+      "polarity": "neutral",
+      "claim_id": "7483da2f-0ddd-475e-8d42-b2af38ea5b00",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s1",
+      "target_entity": "Barcellona",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Barcellona è collegato con Alessandro Bastoni in diverse interpretazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tante interpretazioni diverse che stanno circolando tra Italia, Spagna",
+          "start_sec": 34.6,
+          "end_sec": 65.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'Inter non ha comunicato un prezzo per la vendita di Bastoni.",
+      "polarity": "negative",
+      "claim_id": "7139d98c-b724-4ea2-a786-41e3ddc9b82a",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non ha comunicato un prezzo per la vendita di Bastoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter ad oggi, nonostante tante cose che si stiano dicendo... a me non risulta che l'Inter abbia fissato un prezzo con cui mettere in vendita bastoni.",
+          "start_sec": 63.64,
+          "end_sec": 92.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alessandro Bastoni",
+      "position": "Il Barcellona considera Bastoni come uno degli obiettivi prioritari per il mercato estivo.",
+      "polarity": "positive",
+      "claim_id": "88a33333-3c42-49c8-a2a4-6ad40396b2c6",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s4",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barcellona considera Bastoni come uno degli obiettivi prioritari per il mercato estivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo considera uno degli obiettivi prioritari per il mercato estivo.",
+          "start_sec": 117.2,
+          "end_sec": 143.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alessandro Bastoni",
+      "position": "Bastoni è visto dal Barcellona come un top mondiale nel suo ruolo.",
+      "polarity": "positive",
+      "claim_id": "67704ff1-3828-4eea-abfd-671ee25afb9b",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s4",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni è visto dal Barcellona come un top mondiale nel suo ruolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alessandro Bastoni non solo sia un fuoriclasse, quindi viene visto dal Barcellona come un top mondiale nel suo ruolo.",
+          "start_sec": 117.2,
+          "end_sec": 143.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Barcellona",
+      "position": "Il Barcellona ha Bastoni tra i suoi top tre nomi per l'estate.",
+      "polarity": "positive",
+      "claim_id": "943f315b-78a1-440c-bdca-2221d2b81513",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s4",
+      "target_entity": "Barcellona",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barcellona ha Bastoni tra i suoi top tre nomi per l'estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è uno dei top tre nomi sulla lista del Barcellona per l'estate.",
+          "start_sec": 117.2,
+          "end_sec": 143.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Barcellona",
+      "position": "Il Barcellona è particolarmente focalizzato sulla Champions League.",
+      "polarity": "neutral",
+      "claim_id": "bc46ada6-65c4-4397-907a-f64677357bff",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s5",
+      "target_entity": "Barcellona",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barcellona è particolarmente focalizzato sulla Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Barcellona, tra l'altro, è particolarmente focalizzato sulla Champions League.",
+          "start_sec": 141.84,
+          "end_sec": 167.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Barcelona",
+      "position": "Il Barcellona pianifica di rinnovare il contratto di An Flick.",
+      "polarity": "neutral",
+      "claim_id": "af54dcd2-0b4d-4a2a-94f0-892bebc49fe4",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s3",
+      "target_entity": "Barcelona",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Barcellona pianifica di rinnovare il contratto di An Flick.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rinnoverà il contratto An Flick.",
+          "start_sec": 90.479,
+          "end_sec": 120.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Deco",
+      "position": "Deco è il direttore sportivo del Barcellona.",
+      "polarity": "neutral",
+      "claim_id": "bcda5eb1-8158-4fb5-89a4-362560c14d88",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s3",
+      "target_entity": "Deco",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Deco è il direttore sportivo del Barcellona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un intero gruppo di lavoro. Rinnoverà il contratto An Flick, lo stesso vale per Deco.",
+          "start_sec": 90.479,
+          "end_sec": 120.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alessandro Bastoni",
+      "position": "L'operazione Bastoni-Barcellona è influenzata dai costi.",
+      "polarity": "positive",
+      "claim_id": "de07b933-93a1-4c0d-b195-f6cd6357141b",
+      "video_id": "5ou8lNTFrsg",
+      "segment_id": "s4",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione Bastoni-Barcellona è influenzata dai costi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'operazione Bastoni Barcellona passa dai costi.",
+          "start_sec": 117.2,
+          "end_sec": 143.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "video_id": "Xue9deXBA7M",
+  "analyzed_at": "2026-03-31T14:59:19.169Z",
+  "metadata": {
+    "title": "#VERGARA vs #VITINHA, chi SIMULA? 👀 Analisi ONESTA di #Genoa #Napoli 2-3 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-08T20:45:20+00:00"
+  },
+  "summary": "Nel video di Azzurro Fluido si analizza la partita tra Genoa e Napoli, evidenziando le polemiche relative a presunti aiuti arbitrali al Napoli. L'autore sostiene che, nonostante le critiche, il Napoli ha mostrato un atteggiamento collettivo molto positivo e importante, contrariamente a quanto affermato da alcuni tifosi. Tra le conclusioni chiave, si sottolinea che il fuorigioco di Vitinha non è valido, poiché non è il destinatario del passaggio, e si evidenzia un errore tecnico di Buongiorno, mentre il contatto tra Meret e Vitinha non giustifica un rigore.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "simulazione",
+      "relevance": "high"
+    },
+    {
+      "name": "refereeing",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "errori tecnici",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "player behavior",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "atteggiamento",
+      "relevance": "low"
+    },
+    {
+      "name": "fuorigioco",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "da2f0f36-54c0-4e31-8624-6eab0aca0c83",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha mostrato un atteggiamento molto positivo nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa deve passare alla storia come la partita dell'atteggiamento giusto del di quella cazzimba che noi chiediamo sempre al Napoli e non sempre ritroviamo.",
+          "start_sec": 3.32,
+          "end_sec": 116,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "atteggiamento",
+        "performance",
+        "Napoli"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha mostrato un atteggiamento molto positivo nella partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c452aed6-7107-40e3-b7a2-87868c7ce978",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto un atteggiamento collettivo molto importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io ho visto veramente a livello collettivo un atteggiamento molto molto positivo e importante.",
+          "start_sec": 3.32,
+          "end_sec": 116,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "atteggiamento",
+        "collettivo",
+        "Napoli"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha avuto un atteggiamento collettivo molto importante.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "01ab7154-b8e5-4756-b53c-3f4c2435c469",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono polemiche riguardo presunti aiuti al Napoli durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi dispiace se questa partita passa alla storia per la partita delle polemiche, degli aiuti al Napoli.",
+          "start_sec": 3.32,
+          "end_sec": 116,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "polemiche",
+        "media",
+        "Napoli"
+      ],
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Ci sono polemiche riguardo presunti aiuti al Napoli durante la partita.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "614b4dc5-9ab0-47dd-82cb-99cbd054f1b9",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s0",
+      "target_entity": "Vitinha",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Vitinha è stato molto oltre nel momento del fuorigioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qualcuno mi stava scrivendo anche di questo fuorigioco perché Vitigna è molto oltre.",
+          "start_sec": 3.32,
+          "end_sec": 116,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fuorigioco",
+        "tattica",
+        "Vitinha"
+      ],
+      "topic": "tactics",
+      "subject": "Vitinha",
+      "position": "Vitinha è stato molto oltre nel momento del fuorigioco.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "679df981-2d6b-4a11-9d67-c4c5402afeef",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s1",
+      "target_entity": "Vitinha",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Vitinha non è il destinatario del passaggio ed è fuori gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vitigna non è il destinatario del passaggio, ma sarà Colombo.",
+          "start_sec": 114.079,
+          "end_sec": 185.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "Vitinha",
+      "position": "Vitinha non è il destinatario del passaggio ed è fuori gioco.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "e3e23573-640f-46df-96b9-96225eac9a4a",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s1",
+      "target_entity": "Buongiorno",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Buongiorno ha commesso un errore tecnico con un passaggio corto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si può solo parlare di un errore tecnico di Buongiorno che invece di darla a Meretti il passaggio gli esce corto",
+          "start_sec": 114.079,
+          "end_sec": 185.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Buongiorno",
+      "position": "Buongiorno ha commesso un errore tecnico con un passaggio corto.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "d732da0b-ab1e-45d8-a1aa-b25cfe1fe4bc",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s1",
+      "target_entity": "Meret",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Meret non va e si ferma prima del contatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Purtroppo però il rigore non c'è perché prima di tutto Meret si ferma,",
+          "start_sec": 114.079,
+          "end_sec": 185.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "Meret",
+      "position": "Meret non va e si ferma prima del contatto.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "e913253a-db28-46f7-94d2-6ac0dbb10946",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s2",
+      "target_entity": "Vitinha",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Vitinha ha simulato per ottenere un rigore non valido.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è Vitigna che simulando si butta già in volo a cercare poi con l'altra gamba il contatto che trova con la gamba di Meret",
+          "start_sec": 182.519,
+          "end_sec": 284.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "simulazione",
+        "rigore",
+        "Vitinha"
+      ],
+      "topic": "refereeing",
+      "subject": "Vitinha",
+      "position": "Vitinha ha simulato per ottenere un rigore non valido.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "84207760-7628-4a40-b991-c48e52225d97",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s2",
+      "target_entity": "Meret",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Meret avrebbe dovuto ricevere un'ammonizione per il contatto con Vitinha.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ammonizione anche per Merret perché poi le ammonizioni noi le dobbiamo contare",
+          "start_sec": 182.519,
+          "end_sec": 284.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ammonizione",
+        "contatto",
+        "Meret"
+      ],
+      "topic": "refereeing",
+      "subject": "Meret",
+      "position": "Meret avrebbe dovuto ricevere un'ammonizione per il contatto con Vitinha.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "32d2711b-15b3-4cba-9519-f3a35950cbc7",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è stato penalizzato da un rigore ingiusto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "penalizzato il Napoli, mi dispiace ci fai partire dall'1-0 per loro con un rigore che non doveva essere dato",
+          "start_sec": 182.519,
+          "end_sec": 284.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "penalità",
+        "Napoli",
+        "rigore"
+      ],
+      "topic": "refereeing",
+      "subject": "Napoli",
+      "position": "Il Napoli è stato penalizzato da un rigore ingiusto.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "b655e1eb-79d9-4b36-8d3d-c56925de1da6",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR non ha correttamente valutato il contatto tra Vitinha e Meret.",
+      "evidence_quotes": [
+        {
+          "quote_text": "al VAR devi vedere molto bene e più volte che è Vitigna che sta trascinando",
+          "start_sec": 182.519,
+          "end_sec": 284.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "valutazione",
+        "contatto"
+      ],
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR non ha correttamente valutato il contatto tra Vitinha e Meret.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "75c12c8e-86e4-4724-bf18-1f6cb0adfaff",
+      "video_id": "Xue9deXBA7M",
+      "segment_id": "s1",
+      "target_entity": "Colombo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Colombo va in pressing e non Vitinha.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è Colombo ad andare in pressing non è neanche Vitigna,",
+          "start_sec": 114.079,
+          "end_sec": 185.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Colombo",
+      "position": "Colombo va in pressing e non Vitinha.",
+      "polarity": "positive"
+    }
+  ]
+}

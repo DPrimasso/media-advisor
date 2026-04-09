@@ -1,0 +1,366 @@
+{
+  "video_id": "BieYMvu1vcA",
+  "analyzed_at": "2026-04-07T16:12:24.911152+00:00",
+  "metadata": {
+    "title": "TMWRadio-Editoriale De Paola:\" Juve favorita da per il 4 posto. Il Milan ha butta via occasioni\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza la lotta per il quarto posto in campionato, con un focus particolare sulla Juventus, considerata favorita per raggiungere la qualificazione in Champions League. L'autore, De Paola, sottolinea che la Juventus ha recuperato terreno e ora è a un punto dalla zona Champions, evidenziando il buon feeling tra giocatori e allenatore. Tuttavia, avverte che la squadra dovrà affrontare sfide impegnative, come quelle contro l'Inter e il Napoli, e che il Milan ha sprecato occasioni cruciali, mentre il Como, pur avendo mostrato prestazioni migliori, rimane una squadra inconsistente. La con",
+  "topics": [
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "atteggiamento",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    },
+    {
+      "name": "posizione",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "gioco",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha offerto una prestazione migliore contro la Roma.",
+      "polarity": "neutral",
+      "claim_id": "57deadd4-572b-4951-921b-cf40a58d535b",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha offerto una prestazione migliore contro la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como ha offerto una prestazione migliore indipendentemente dal eh dall'espulsione di Wesley.",
+          "start_sec": 36.2,
+          "end_sec": 72.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus ha buone possibilità di ottenere il quarto posto.",
+      "polarity": "positive",
+      "claim_id": "09b29813-4368-4bfa-8e0a-184ba3631fcd",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus ha buone possibilità di ottenere il quarto posto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "più facile o perlomeno eh più quarto posto da parte della Juventus.",
+          "start_sec": 70.56,
+          "end_sec": 107.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Boga",
+      "position": "Boga è preferito a qualsiasi attaccante della Juventus attuale.",
+      "polarity": "neutral",
+      "claim_id": "ca9c259d-567b-434d-83e5-c9b4d7383dc8",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s5",
+      "target_entity": "Boga",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Boga è preferito a qualsiasi attaccante della Juventus attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "preferisco nettamente Bogà qualsiasi altro attaccante della Juventus di adesso",
+          "start_sec": 166.08,
+          "end_sec": 203.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Hild",
+      "position": "Hild si trova meglio nella zona centrale del campo.",
+      "polarity": "positive",
+      "claim_id": "e02d2b12-f82e-4c4f-9332-c33f31adf1dd",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s6",
+      "target_entity": "Hild",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Hild si trova meglio nella zona centrale del campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Hild si trova meglio, appunto, la il suggello del gol nel passaggio tra Ildiz e Bogà.",
+          "start_sec": 201.56,
+          "end_sec": 237.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bogà",
+      "position": "Bogà ha contribuito con un passaggio chiave per un gol.",
+      "polarity": "positive",
+      "claim_id": "1ad28687-4337-497b-b857-7e9bd7de51cd",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s6",
+      "target_entity": "Bogà",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bogà ha contribuito con un passaggio chiave per un gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il suggello del gol nel passaggio tra Ildiz e Bogà.",
+          "start_sec": 201.56,
+          "end_sec": 237.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha perso occasioni importanti nel campionato.",
+      "polarity": "negative",
+      "claim_id": "0c509bcb-2445-4705-8ce1-c70b1250ddd2",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha perso occasioni importanti nel campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan ha butta via occasioni.",
+          "start_sec": 0.28,
+          "end_sec": 37.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "David",
+      "position": "David è considerato troppo leggero per la squadra.",
+      "polarity": "negative",
+      "claim_id": "d629df4f-048a-4675-a3c3-ea1e734e9530",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s5",
+      "target_entity": "David",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "David è considerato troppo leggero per la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "troppo leggerino, sa, diciamo così",
+          "start_sec": 166.08,
+          "end_sec": 203.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fabregas",
+      "position": "Fabregas potrebbe facilitare la maturazione del Como.",
+      "polarity": "neutral",
+      "claim_id": "ae1dc16f-051d-4057-9148-e88cfee381ed",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s1",
+      "target_entity": "Fabregas",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Fabregas potrebbe facilitare la maturazione del Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la maturazione fatta da questa squadra ad opera di Fabregas.",
+          "start_sec": 36.2,
+          "end_sec": 72.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "La Juventus deve affrontare l'Inter.",
+      "polarity": "neutral",
+      "claim_id": "905259fd-4073-4425-a86c-214493ce719b",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus deve affrontare l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "deve andare ad affrontare eh deve affrontare l'Inter",
+          "start_sec": 70.56,
+          "end_sec": 107.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "David",
+      "position": "David non cerca mai l'affondo decisivo.",
+      "polarity": "negative",
+      "claim_id": "447f6c9a-bbe5-40df-aadc-a58b721d93a3",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s5",
+      "target_entity": "David",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "David non cerca mai l'affondo decisivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non non cercasse mai l'affondo decisivo",
+          "start_sec": 166.08,
+          "end_sec": 203.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha un buon feeling tra giocatori e allenatore.",
+      "polarity": "positive",
+      "claim_id": "e6e25ddc-2bae-4ced-bc87-0b7626a3db80",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha un buon feeling tra giocatori e allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "trovo sempre molto molto ehm è bello il feeling fra giocatore e giocatori e allenatore",
+          "start_sec": 135.879,
+          "end_sec": 169.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "L'esultanza finale di Spalletti con i giocatori è molto bella.",
+      "polarity": "positive",
+      "claim_id": "9a73dec7-0ffc-4b5a-98ca-8286af68d295",
+      "video_id": "BieYMvu1vcA",
+      "segment_id": "s4",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'esultanza finale di Spalletti con i giocatori è molto bella.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la la Juventus mi è piaciuta perché innanzitutto... trovo molto bella l'esultanza finale di Spalletti con l'abbraccio a tutti i giocatori",
+          "start_sec": 135.879,
+          "end_sec": 169.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "video_id": "qryM_69n_ME",
+  "analyzed_at": "2026-04-07T15:55:53.847611+00:00",
+  "metadata": {
+    "title": "Bocelli: \"Inter, scudetto? Ancora non mi sento sicuro. Ma meglio esser 8 punti sopra che 8 sotto\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di commento calcistico di Bocelli si concentra sulla situazione attuale dell'Inter, attualmente prima in classifica con un vantaggio di otto punti sui rivali. Nonostante il buon posizionamento, Bocelli esprime incertezza riguardo alla possibilità di vincere lo scudetto, sottolineando che è meglio essere in testa piuttosto che in svantaggio. Inoltre, manifesta dispiacere per le difficoltà della Fiorentina, la sua \"seconda squadra\", e riflette sull'importanza dei campioni in campo, suggerendo che l'uscita dall Champions League potrebbe aver permesso all'Inter di concentrarsi maggiorment",
+  "topics": [
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "tifoseria",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "stagione",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è attualmente 8 punti sopra rispetto ai rivali.",
+      "polarity": "neutral",
+      "claim_id": "a75ce9ab-1784-4f09-bb35-392bc54658bc",
+      "video_id": "qryM_69n_ME",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è attualmente 8 punti sopra rispetto ai rivali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "meglio esser 8 punti sopra che 8 sotto",
+          "start_sec": 0.12,
+          "end_sec": 3.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è attualmente prima in classifica con un vantaggio di 8 punti.",
+      "polarity": "neutral",
+      "claim_id": "388259bc-5bd6-4831-87cd-b6196c22df0d",
+      "video_id": "qryM_69n_ME",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è attualmente prima in classifica con un vantaggio di 8 punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "meglio esser 8 punti sopra che 8 sotto",
+          "start_sec": 82.2,
+          "end_sec": 85.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina è considerata la seconda squadra del commentatore.",
+      "polarity": "positive",
+      "claim_id": "e3870a08-fef6-44b5-9974-e84c9737b9ab",
+      "video_id": "qryM_69n_ME",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina è considerata la seconda squadra del commentatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Fiorentina è un po' la mia seconda squadra.",
+          "start_sec": 2.28,
+          "end_sec": 38.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter sembra pronta a vincere lo scudetto.",
+      "polarity": "neutral",
+      "claim_id": "c5ff8d6f-d071-40fc-b56d-84825d2dca9d",
+      "video_id": "qryM_69n_ME",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sembra pronta a vincere lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la classifica sembra pronta a vincere lo scudetto.",
+          "start_sec": 2.28,
+          "end_sec": 38.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Bocelli",
+      "position": "Bocelli esprime incertezza sullo scudetto dell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "a15e32fd-b533-4145-9560-319955122c61",
+      "video_id": "qryM_69n_ME",
+      "segment_id": "s3",
+      "target_entity": "Bocelli",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Bocelli esprime incertezza sullo scudetto dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ancora non mi sento sicuro.",
+          "start_sec": 82.2,
+          "end_sec": 85.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è prima in classifica.",
+      "polarity": "neutral",
+      "claim_id": "09d94fdd-e4fd-4c13-8f89-62f7466acfce",
+      "video_id": "qryM_69n_ME",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è prima in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fatto bene, il primo in classifica.",
+          "start_sec": 83.96,
+          "end_sec": 110.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Giunta",
+      "position": "Non possiamo chiedere miracoli a Giunta.",
+      "polarity": "neutral",
+      "claim_id": "f8ede046-aaf8-402a-b9df-202ea7170873",
+      "video_id": "qryM_69n_ME",
+      "segment_id": "s4",
+      "target_entity": "Giunta",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non possiamo chiedere miracoli a Giunta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non non possiamo chiedere miracoli a Giunta.",
+          "start_sec": 83.96,
+          "end_sec": 110.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina quest'anno non sta andando bene.",
+      "polarity": "neutral",
+      "claim_id": "03713c06-51d6-4e4f-866d-829ab6944092",
+      "video_id": "qryM_69n_ME",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina quest'anno non sta andando bene.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quest'anno la Fiorentina non va bene.",
+          "start_sec": 2.28,
+          "end_sec": 38.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

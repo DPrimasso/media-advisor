@@ -1,0 +1,366 @@
+{
+  "video_id": "b3hoNifmdfE",
+  "analyzed_at": "2026-04-07T15:40:08.754475+00:00",
+  "metadata": {
+    "title": "TMW News: Italia, ora non puoi sbagliare. Roma, tra dieci giorni l'Inter",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News si concentra sulla nazionale italiana e sulla sua imminente partita contro l'Irlanda del Nord, fondamentale per mantenere viva la speranza di qualificazione al mondiale. L'autore esprime fiducia nel commissario tecnico Rino Gattuso e nel gruppo di giocatori convocati, sottolineando che le scelte attuali potrebbero aprire a nuove opportunità in futuro. Inoltre, si analizza la situazione in campionato, evidenziando come il prossimo incontro tra Inter e Roma sia cruciale per la lotta allo scudetto, con l'Inter che deve recuperare dopo un periodo di scarse prestazioni. Se l'In",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "campionato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "lotta",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "scontro",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha conquistato solo due punti nelle ultime tre partite.",
+      "polarity": "positive",
+      "claim_id": "b4b23ae0-e682-4802-81f9-fbf52ffabf64",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha conquistato solo due punti nelle ultime tre partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la lotta a scudetto si è riaperta dopo che l'Inter ha conquistato soltanto due punti nelle ultime tre partite.",
+          "start_sec": 120.159,
+          "end_sec": 200.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gattuso",
+      "position": "Gattuso valuterà altri calciatori dopo la partita di domani.",
+      "polarity": "neutral",
+      "claim_id": "815e3761-b1b9-4a23-8a44-105155d6f567",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s1",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Gattuso valuterà altri calciatori dopo la partita di domani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sarà modo e tempo, se le cose vanno in certo modo, di valutare sicuramente altri calciatori e Gattuso lo farà.",
+          "start_sec": 120.159,
+          "end_sec": 200.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha saputo reagire allo svantaggio iniziale.",
+      "polarity": "neutral",
+      "claim_id": "f91a1a0e-367b-406b-869d-746315035435",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha saputo reagire allo svantaggio iniziale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fiorentina che ha saputo reagire allo svantaggio subito a freddo",
+          "start_sec": 273.6,
+          "end_sec": 352.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe insidiare l'Inter nella corsa allo scudetto.",
+      "polarity": "positive",
+      "claim_id": "aa472893-bf37-493f-af69-46423937337a",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan potrebbe insidiare l'Inter nella corsa allo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hai l'impressione che abbia davvero le carte in regola per poter lottare fino alla fine per lo scudetto, di poter insidiare l'Inter.",
+          "start_sec": 273.6,
+          "end_sec": 352.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe superare il Milan se vince la prossima partita.",
+      "polarity": "positive",
+      "claim_id": "43bef8ee-561b-457c-af47-a4a8eae6a067",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli potrebbe superare il Milan se vince la prossima partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se il Napoli dovesse battere il Milan lo supera e davanti.",
+          "start_sec": 273.6,
+          "end_sec": 352.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli può impensierire l'Inter nella lotta per il campionato.",
+      "polarity": "positive",
+      "claim_id": "e70ba036-047e-4888-8716-86fc9823fa5c",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli può impensierire l'Inter nella lotta per il campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una squadra che possa impensierire in questo momento più l'Inter, considerato anche il fatto che il Napoli gioca contro il Milan in casa",
+          "start_sec": 349.919,
+          "end_sec": 427.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli sta recuperando tutti i suoi giocatori chiave.",
+      "polarity": "positive",
+      "claim_id": "518dd202-70a4-4084-aa30-050574cc3020",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta recuperando tutti i suoi giocatori chiave.",
+      "evidence_quotes": [
+        {
+          "quote_text": "recuperando anche tutti i big",
+          "start_sec": 349.919,
+          "end_sec": 427.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "I giocatori del Napoli possono essere decisivi per la fine della stagione.",
+      "polarity": "positive",
+      "claim_id": "49a4f007-4903-4c33-b886-830d37a83bae",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori del Napoli possono essere decisivi per la fine della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "possono davvero essere determinanti",
+          "start_sec": 349.919,
+          "end_sec": 427.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Il prossimo turno è cruciale per l'Inter.",
+      "polarity": "positive",
+      "claim_id": "c96e6dbd-f971-40e1-b016-618b790edb59",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il prossimo turno è cruciale per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "diciamo che il prossimo turno è un turno importante perché vede l'Inter giocare contro la Roma.",
+          "start_sec": 120.159,
+          "end_sec": 200.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Roma",
+      "position": "Se l'Inter batte la Roma, compie un passo importante in classifica.",
+      "polarity": "neutral",
+      "claim_id": "609dd5e9-e02b-4257-9fa7-59bdb98a4baa",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Se l'Inter batte la Roma, compie un passo importante in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se l'Inter dovesse battere la Roma fa un passo importante in avanti.",
+          "start_sec": 120.159,
+          "end_sec": 200.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter è partita bene e sembrava avere la partita in mano.",
+      "polarity": "neutral",
+      "claim_id": "38d34698-2e8c-473c-9c2b-7a8eb5df8156",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è partita bene e sembrava avere la partita in mano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sì, l'Inter è partita bene, ha fatto è partita forte, è passata in vantaggio e e sembra avesse la partita in mano.",
+          "start_sec": 273.6,
+          "end_sec": 352.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Avere calciatori di qualità è importante per il finale di stagione.",
+      "polarity": "positive",
+      "claim_id": "f82775fa-3084-4e90-a8a2-5ae8fcf6cbc7",
+      "video_id": "b3hoNifmdfE",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Avere calciatori di qualità è importante per il finale di stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avere a disposizione questi calciatori in questo momento è importante e decisivo",
+          "start_sec": 349.919,
+          "end_sec": 427.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

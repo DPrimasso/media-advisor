@@ -1,0 +1,378 @@
+{
+  "video_id": "HqEMpb5wosk",
+  "analyzed_at": "2026-03-31T16:21:15.736Z",
+  "metadata": {
+    "title": "si rivede #LUKAKU 👀 Recap TOTALE #SerieA bellissima o mediocre? 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-16T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute dell'impatto di Lukaku sull'Inter e dell'andamento attuale della Serie A. L'autore sostiene che, sebbene Lukaku non possa giocare immediatamente, la sua presenza possa comunque influenzare positivamente lo spogliatoio. Inoltre, viene evidenziato come solo l'Inter abbia saputo sfruttare una giornata favorevole, mentre il livello generale del campionato sembra essersi abbassato rispetto alla scorsa stagione, con l'Inter attualmente in testa con 33 punti e il Napoli che ha ottenuto solo un pareggio. Infine, si accenna alla possibilità che la Roma e la Juvent",
+  "topics": [
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "standings",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "sconfitte",
+      "relevance": "medium"
+    },
+    {
+      "name": "injuries",
+      "relevance": "medium"
+    },
+    {
+      "name": "obiettivi",
+      "relevance": "low"
+    },
+    {
+      "name": "inter performance",
+      "relevance": "low"
+    },
+    {
+      "name": "calcio",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "dbe4bfbb-3054-420d-b8f6-f1cd591355f9",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto il campionato scorso con 82 punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sappiamo che abbiamo vinto all'ultima curva con Napoli a 82 punti.",
+          "start_sec": 2.72,
+          "end_sec": 136.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto il campionato scorso con 82 punti.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "59009c89-1c20-41c1-ad2c-db4ef754f57c",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è prima in classifica con 33 punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter è prima in classifica con 33, quindi già si è abbassato il livello in alto del campionato.",
+          "start_sec": 134.319,
+          "end_sec": 266.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è prima in classifica con 33 punti.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "3c4bd8cd-4cd4-4a2f-a923-9d44a7df9176",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha una media di 2.2 in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter ha una media di 2.2 che ci porta al discorso della soglia scudetto.",
+          "start_sec": 264.24,
+          "end_sec": 399.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Inter",
+        "classifica"
+      ],
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha una media di 2.2 in campionato.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "432c217d-54da-45b9-a714-f2221eceefad",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku potrebbe aggregarsi alla squadra, anche se non giocherà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le notizie che ci stanno arrivando ci parlano di un Lukaku che potrebbe aggregarsi alla squadra.",
+          "start_sec": 2.72,
+          "end_sec": 136.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Lukaku potrebbe aggregarsi alla squadra, anche se non giocherà.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "5d10253e-763a-4d60-afa4-0ee85d7fbfa1",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "La presenza di Lukaku può influenzare positivamente lo spogliatoio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "già la sua presenza, lo sapete, si può far sentire nello spogliatoio.",
+          "start_sec": 2.72,
+          "end_sec": 136.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "La presenza di Lukaku può influenzare positivamente lo spogliatoio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "8e36c5fe-d8de-4eba-b973-d03f53464eda",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto un solo pareggio in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...il Napoli quest'anno è un solo pareggio, ce lo ricordiamo, con il Como...",
+          "start_sec": 134.319,
+          "end_sec": 266.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha avuto un solo pareggio in campionato.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "20db4bb2-a4e8-4af3-860c-14e0063ac5fa",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha chiuso la scorsa stagione con quattro sconfitte totali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'anno scorso il Napoli era a tre sconfitte. L'unica differenza è che avevamo fatto un pareggio in più e una sconfitta in meno, quindi avevamo un punticino in più.",
+          "start_sec": 264.24,
+          "end_sec": 399.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "classifica"
+      ],
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli ha chiuso la scorsa stagione con quattro sconfitte totali.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "adabe85b-8277-4dff-b01b-3a4a7bd6369a",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina era prima in classifica ed ora si trova ultima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "clamoroso quello che è il salto verso il basso della Fiorentina che era addirittura prima in classifica e si trova ultima adesso.",
+          "start_sec": 264.24,
+          "end_sec": 399.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Fiorentina",
+        "classifica"
+      ],
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina era prima in classifica ed ora si trova ultima.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a94b1acf-45b6-4ac7-83e5-f211c66fbef3",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La scelta di Juuric non ha pagato per l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la scelta di Juuric non ha pagato e adesso con Palladino eh dopo insomma l'inizio non brillante perché perdono con noi.",
+          "start_sec": 264.24,
+          "end_sec": 399.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Atalanta",
+        "Juric"
+      ],
+      "topic": "tactics",
+      "subject": "Atalanta",
+      "position": "La scelta di Juuric non ha pagato per l'Atalanta.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "e99ccfc2-69e7-41d6-943c-827357f2aed5",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus potrebbe riagganciarsi alle squadre di testa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...se la Juve si riaggancerà a queste a queste quattro...",
+          "start_sec": 134.319,
+          "end_sec": 266.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus potrebbe riagganciarsi alle squadre di testa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f2fd74e7-1508-4979-9857-0bf2fbbaddff",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Solo l'Inter ha beneficiato della giornata favorevole nel campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ne ha approfittato solo l'Inter.",
+          "start_sec": 2.72,
+          "end_sec": 136.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Solo l'Inter ha beneficiato della giornata favorevole nel campionato.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c5b7a2f6-9e02-4e6d-8c69-43744fe1d7c5",
+      "video_id": "HqEMpb5wosk",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma può approfittare per andare in testa alla classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Roma approfitta e va in testa.",
+          "start_sec": 134.319,
+          "end_sec": 266.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "standings",
+      "subject": "Roma",
+      "position": "La Roma può approfittare per andare in testa alla classifica.",
+      "polarity": "positive"
+    }
+  ]
+}

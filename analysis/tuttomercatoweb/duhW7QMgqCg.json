@@ -1,0 +1,366 @@
+{
+  "video_id": "duhW7QMgqCg",
+  "analyzed_at": "2026-04-07T16:09:32.807068+00:00",
+  "metadata": {
+    "title": "TMW News: Ghiotta chance sprecata dal Milan. Euforia Como, ma Fabregas tiene piedi a terra",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News analizza le recenti performance delle squadre di Serie A, con un focus particolare sul Milan, che ha sprecato un'importante opportunità perdendo contro la Lazio, aumentando così il distacco dall'Inter. L'autore sottolinea come questa sconfitta abbia avuto ripercussioni sulla classifica, permettendo all'Inter di guadagnare un punto e mantenere il nervosismo all'interno della squadra dopo la partita con l'Atalanta. Inoltre, si evidenzia il successo del Como, che ha conquistato il quarto posto battendo la Roma, mentre si ipotizza che Lautaro non sarà disponibile per la prossi",
+  "topics": [
+    {
+      "name": "campionato",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "milano",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "europa",
+      "relevance": "low"
+    },
+    {
+      "name": "giovani",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha guadagnato un punto in classifica grazie alla sconfitta del Milan.",
+      "polarity": "positive",
+      "claim_id": "5554429f-5226-40f9-9ca9-27df9fe37929",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha guadagnato un punto in classifica grazie alla sconfitta del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter ha guadagnato un punto sul Milan, complice la sconfitta dei rossoneri con la Lazio.",
+          "start_sec": 12.88,
+          "end_sec": 82.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como ha conquistato il quarto posto in solitaria battendo la Roma.",
+      "polarity": "positive",
+      "claim_id": "2f9a5a96-accd-4755-83e5-5e6525ad0791",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha conquistato il quarto posto in solitaria battendo la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Como invece si prende il quarto posto in solitaria battendo la Roma.",
+          "start_sec": 12.88,
+          "end_sec": 82.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha lasciato nervosismo dopo la partita contro l'Atalanta.",
+      "polarity": "negative",
+      "claim_id": "ffd13df7-1ae9-44b6-ad90-de81a919782f",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha lasciato nervosismo dopo la partita contro l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella gara ha lasciato tanto nervosismo per come è terminata",
+          "start_sec": 79.04,
+          "end_sec": 180.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter non sta giocando al suo livello migliore da un mese.",
+      "polarity": "negative",
+      "claim_id": "ecfef358-3042-441e-ba99-36dfe6a565a8",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non sta giocando al suo livello migliore da un mese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter è vero che in questo momento non è nella nel suo eh momento di forma migliore",
+          "start_sec": 79.04,
+          "end_sec": 180.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Lautaro Martinez",
+      "position": "È poco probabile che Lautaro giochi contro la Fiorentina.",
+      "polarity": "negative",
+      "claim_id": "afa5d553-4975-4953-b128-6bc6b23caaf5",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s1",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "È poco probabile che Lautaro giochi contro la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non così probabile. Io credo che in realtà ci siano più possibilità di rivederlo dopo la sosta che direttamente già a Firenze",
+          "start_sec": 79.04,
+          "end_sec": 180.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan ha perso contatto dalla vetta della classifica.",
+      "polarity": "negative",
+      "claim_id": "be8663fa-cf55-4af2-b609-4bbf73cfc14e",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha perso contatto dalla vetta della classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "otto punti sono tanti, ma è più che altro è la sensazione che ha lasciato il Milan nella partita di Roma.",
+          "start_sec": 177.8,
+          "end_sec": 279.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha giocato una buona partita contro il Milan.",
+      "polarity": "positive",
+      "claim_id": "cd35f23e-9bea-43b9-ab37-5cebf792b996",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha giocato una buona partita contro il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è evidente che poi la bella partita della Lazio, perché la Lazio ha giocato veramente una ottima partita.",
+          "start_sec": 177.8,
+          "end_sec": 279.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha sprecato una ghiotta chance nella partita.",
+      "polarity": "negative",
+      "claim_id": "ebf854ab-90cf-4099-9053-fca8415cbaac",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha sprecato una ghiotta chance nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partita all'altezza delle sue ambizioni, cioè dovevi sicuramente riuscire a performare meglio.",
+          "start_sec": 277.28,
+          "end_sec": 340.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "Il risultato della partita tra Lazio e Milan aumenta il gap di punti per l'Inter.",
+      "polarity": "neutral",
+      "claim_id": "9b7412af-9213-4be4-b17d-59059474492d",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il risultato della partita tra Lazio e Milan aumenta il gap di punti per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "aumenta il distacco da 7-8 punti",
+          "start_sec": 79.04,
+          "end_sec": 180.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Inter",
+      "position": "L'Inter ha perso Mikitarian per infortunio.",
+      "polarity": "neutral",
+      "claim_id": "e220d7e8-91f9-4fab-9c68-16239147384c",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha perso Mikitarian per infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter perde un altro centrocampista, Mikitarian, che ha avuto un problema proprio con nella partita col con l'Atalanta.",
+          "start_sec": 177.8,
+          "end_sec": 279.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan ha perso contro la Lazio e ha sprecato un'opportunità importante.",
+      "polarity": "negative",
+      "claim_id": "153604b3-828c-4c4e-96a1-3ed1970bd6b2",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha perso contro la Lazio e ha sprecato un'opportunità importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan getta al vento la possibilità di portarsi a meno c dall'Inter perdendo in casa della Lazio.",
+          "start_sec": 12.88,
+          "end_sec": 82.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha giocato male contro la Lazio.",
+      "polarity": "negative",
+      "claim_id": "c8a47714-f7fa-475b-bbcf-a272e192d525",
+      "video_id": "duhW7QMgqCg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha giocato male contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Roma non ha giocato una.",
+          "start_sec": 177.8,
+          "end_sec": 279.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

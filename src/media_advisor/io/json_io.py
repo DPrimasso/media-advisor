@@ -17,13 +17,26 @@ def read_json(path: Path) -> Any:
 
 
 def write_json(path: Path, data: Any, indent: int = 2) -> None:
-    """Write data as JSON atomically (temp file + replace)."""
+    """Write data as JSON atomically (temp file + replace).
+
+    Retries the os.replace step a few times to tolerate OneDrive/AV locking.
+    """
+    import time
+
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, tmp = tempfile.mkstemp(dir=path.parent, prefix=f".{path.name}.tmp")
     try:
         with os.fdopen(fd, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=indent)
-        os.replace(tmp, path)
+        # Retry os.replace up to 5 times (OneDrive/AV may briefly lock the file)
+        for attempt in range(5):
+            try:
+                os.replace(tmp, path)
+                return
+            except PermissionError:
+                if attempt == 4:
+                    raise
+                time.sleep(0.3 * (attempt + 1))
     except Exception:
         try:
             os.unlink(tmp)

@@ -1,0 +1,410 @@
+{
+  "video_id": "eK7_cW74MQQ",
+  "analyzed_at": "2026-03-31T15:29:08.596Z",
+  "metadata": {
+    "title": "Romano e Di Marzio: LANG al Galatasaray e LUCCA al Nottingham 👀 Napoli Sassuolo 1-0 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-18T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista analizza la recente vittoria del Napoli contro la Lazio, evidenziando le prestazioni di giocatori chiave come Lobotka ed Elmas. L'autore sottolinea l'importanza del contributo di Lobotka, nonostante il suo scarso bottino di gol, e suggerisce che il Napoli potrebbe dover rinforzare la rosa sul mercato a causa degli infortuni. Inoltre, si fa riferimento alla possibilità per il Napoli di recuperare posizioni in classifica, dato che la Juventus ha avuto un passo falso. Infine, viene messa in luce la prestazione di Elmas, che ha svolto un ruolo cruciale nel limitare le iniz",
+  "topics": [
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "player performance",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "player evaluation",
+      "relevance": "medium"
+    },
+    {
+      "name": "match performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattiche di gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "spending",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "1074a8ad-c4ae-4026-be1e-cb411713de01",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha giocato un'ottima gara contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo giocato un'ottima gara anche con eh con il nostro attaccante di riferimento.",
+          "start_sec": 0.08,
+          "end_sec": 180.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "match review"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha giocato un'ottima gara contro la Lazio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "e054bae5-1f93-454a-b865-881ce7150852",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s0",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Lobotka, pur segnando poco, merita riconoscimento per il suo contributo alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lobotka segna poco ma porta avanti la barca e quando segna secondo me merita la copertina.",
+          "start_sec": 0.08,
+          "end_sec": 180.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "player performance",
+        "recognition"
+      ],
+      "topic": "performance",
+      "subject": "Lobotka",
+      "position": "Lobotka, pur segnando poco, merita riconoscimento per il suo contributo alla squadra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "e15424f3-ab14-459d-8b24-5e6d3dfeb7b9",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli potrebbe intervenire sul mercato per rinforzarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di costruire il più velocemente possibile delle rotazioni e quindi magari anche con qualche intervento sul mercato.",
+          "start_sec": 0.08,
+          "end_sec": 180.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "transfer market",
+        "team strategy"
+      ],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe intervenire sul mercato per rinforzarsi.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "8b4d9b6c-af78-4649-8ffd-ea540273f936",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha inciampato, offrendo un'opportunità al Napoli per recuperare posizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ieri e la Juventus è inciampata e quindi abbiamo la possibilità addirittura, se raccogliessimo tutte le forze per fare un grandissimo sforzo, di lasciarceli alle spalle.",
+          "start_sec": 0.08,
+          "end_sec": 180.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "standings",
+        "competitors"
+      ],
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus ha inciampato, offrendo un'opportunità al Napoli per recuperare posizioni.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "f010d6d5-dca4-45a3-b105-92e2371f6d88",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas è stato fondamentale nel primo tempo per le sue pressioni su Matic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas lì è la soluzione ideale e addirittura è stato utilizzato, abbiamo saputo dopo, con l'influenza, quindi aveva non era al massimo Elmas, ma il primo tempo che fa è cruciale perché si attacca a Matic come un ossesso.",
+          "start_sec": 177.92,
+          "end_sec": 311.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Elmas",
+        "Napoli"
+      ],
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas è stato fondamentale nel primo tempo per le sue pressioni su Matic.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d06bd40d-b431-4c1a-a177-3420cc77b5a3",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s1",
+      "target_entity": "Rakmani",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Rakmani ha fatto un bellissimo filtrante per Elmas.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il gol di Lopo lo faccio partire da qui perché c'è Rakmani che trova un bellissimo filtrante per Elmas.",
+          "start_sec": 177.92,
+          "end_sec": 311.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Rakmani",
+        "Napoli"
+      ],
+      "topic": "performance",
+      "subject": "Rakmani",
+      "position": "Rakmani ha fatto un bellissimo filtrante per Elmas.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7918837a-74f0-4e9e-a8f9-c831f03f6548",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s1",
+      "target_entity": "Valuchievic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Valuchievic è considerato uno dei peggiori terzini in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Valukevin non ho idea di come possa essere un terzino titolare di una squadra che sta facendo anche bene nel nostro campionato. è per me è incredibile.",
+          "start_sec": 177.92,
+          "end_sec": 311.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Valuchievic",
+        "Sassuolo"
+      ],
+      "topic": "performance",
+      "subject": "Valuchievic",
+      "position": "Valuchievic è considerato uno dei peggiori terzini in Serie A.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "9bf3dfc2-897e-47dc-bdf8-e6e7bf7a4085",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s1",
+      "target_entity": "Matic",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Matic ha dovuto aiutare Valukievic durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso lo vediamo nel momento in cui Matic va a dare una mano a Valukievic.",
+          "start_sec": 177.92,
+          "end_sec": 311.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "Matic",
+        "Sassuolo"
+      ],
+      "topic": "tactics",
+      "subject": "Matic",
+      "position": "Matic ha dovuto aiutare Valukievic durante la partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "1313217b-c5c7-4f6b-a5bd-9c6c221e5032",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s2",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas ha creato un'occasione importante con un tiro in porta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas andrà al tiro e prendo questa inquadratura perché lo Botka si trova nella zona perfetta per poi raccogliere la respinta centrale di Muric.",
+          "start_sec": 309.68,
+          "end_sec": 438.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "occasioni",
+        "tiro",
+        "gol"
+      ],
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas ha creato un'occasione importante con un tiro in porta.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "6f55a33f-bc98-44ee-87ec-9d2a34c265f1",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s2",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Lobotka ha segnato dopo una respinta del portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lobotka, gol, ma subito dopo arriva questa occasione pazzesca e c'è Lauriente Beukema.",
+          "start_sec": 309.68,
+          "end_sec": 438.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "respinta",
+        "partita"
+      ],
+      "topic": "performance",
+      "subject": "Lobotka",
+      "position": "Lobotka ha segnato dopo una respinta del portiere.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7fb9353f-daf1-42ed-afb5-a4b1fbc34e19",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s2",
+      "target_entity": "Milinković-Savić",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milinković-Savić ha avuto difficoltà a deviare i tiri ravvicinati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cioè, se tu ci arrivi al limite probabilmente riesci a deviarla verso l'esterno. Se invece ci sei arrivato troppo vicino, la palla va verso il centro.",
+          "start_sec": 309.68,
+          "end_sec": 438.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "tiri",
+        "difficoltà"
+      ],
+      "topic": "performance",
+      "subject": "Milinković-Savić",
+      "position": "Milinković-Savić ha avuto difficoltà a deviare i tiri ravvicinati.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "d7b650f0-8212-4466-8f1e-6b863e97acc4",
+      "video_id": "eK7_cW74MQQ",
+      "segment_id": "s2",
+      "target_entity": "Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Jesus ha ricevuto una valutazione ingiusta dopo l'azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è chi gli ha dato 5 e mezzo? È stata una fitta al cuore il 5 e meo a Jesus perché vuol dire che questa azione ti è sfuggita.",
+          "start_sec": 309.68,
+          "end_sec": 438.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "critica",
+        "azione"
+      ],
+      "topic": "performance",
+      "subject": "Jesus",
+      "position": "Jesus ha ricevuto una valutazione ingiusta dopo l'azione.",
+      "polarity": "negative"
+    }
+  ]
+}

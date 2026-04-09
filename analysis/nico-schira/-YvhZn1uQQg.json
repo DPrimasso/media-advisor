@@ -1,0 +1,354 @@
+{
+  "video_id": "-YvhZn1uQQg",
+  "analyzed_at": "2026-04-08T13:27:15.741053+00:00",
+  "metadata": {
+    "title": "CACCIA ALL’INTER: MILAN PROGETTA UN POKER DI COLPI. NAPOLI, LA MISSIONE INGLESE DI MANNA. NICO PAZ…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sul calciomercato, evidenziando la competizione tra il Milan e l'Inter, con i rossoneri che cercano di rinforzarsi per affrontare la prossima stagione. L'autore sottolinea la necessità del Milan di trovare un grande centravanti, poiché negli ultimi anni ha avuto difficoltà a scegliere attaccanti di livello, con Giroud come unica eccezione recente. Inoltre, si ipotizza che il Milan possa ingaggiare Luka Modric e Leon Goretzka per rafforzare ulteriormente la squadra, evidenziando la strategia di Allegri per tornare a competere per lo scudetto.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "manager",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta cercando un attaccante che segni almeno 15-20 gol a stagione.",
+      "polarity": "neutral",
+      "claim_id": "6b73c3a4-43f6-49d5-bc7c-845e63ad1333",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s6",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta cercando un attaccante che segni almeno 15-20 gol a stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "attaccante da 15-20 gol almeno all'anno",
+          "start_sec": 155.48,
+          "end_sec": 188.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter è attualmente capolista e rappresenta la squadra da battere in Italia.",
+      "polarity": "positive",
+      "claim_id": "32e36ef9-1641-4216-80f3-635cb94226ab",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è attualmente capolista e rappresenta la squadra da battere in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter che è capolista, l'Inter che si andrà a rinforzare, l'Inter che in questo momento in Italia rappresenta la squadra da battere",
+          "start_sec": 0.919,
+          "end_sec": 27.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha avuto difficoltà a trovare un attaccante di livello.",
+      "polarity": "negative",
+      "claim_id": "8fd97c3a-32fb-467e-a4fa-722138094b93",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha avuto difficoltà a trovare un attaccante di livello.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan che negli ultimi 10-12 anni ha azzeccato un solo numero 9, Olivia Girou.",
+          "start_sec": 76.96,
+          "end_sec": 103.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan ha sbagliato diverse scelte di attaccanti.",
+      "polarity": "negative",
+      "claim_id": "ada3a8f3-92c2-45cf-a77d-aabdb828e2a2",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha sbagliato diverse scelte di attaccanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché è stato sbagliato Morata, è stato sbagliato Imz, è stato sbagliato Fulcur.",
+          "start_sec": 76.96,
+          "end_sec": 103.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inzaghi",
+      "position": "Dal tempo di Inzaghi, il Milan ha avuto tanti fallimenti con attaccanti.",
+      "polarity": "negative",
+      "claim_id": "fab6909b-aba5-4fcf-892c-d1c2af9d4e6a",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s3",
+      "target_entity": "Inzaghi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dal tempo di Inzaghi, il Milan ha avuto tanti fallimenti con attaccanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché poi dai tempi di Pippo Inzaghi ci sono stati una marea di fallimenti.",
+          "start_sec": 76.96,
+          "end_sec": 103.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Modric",
+      "position": "Il Milan è fiducioso che Modric si unisca alla squadra per la Champions League.",
+      "polarity": "positive",
+      "claim_id": "fc4b9819-c7e6-4a4e-9c4a-b7db6b5a9b6c",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s5",
+      "target_entity": "Modric",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan è fiducioso che Modric si unisca alla squadra per la Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan è fiducioso che alla fine Modric possa decidere di fare una ultima last in Champions League con i rossoneri",
+          "start_sec": 128.039,
+          "end_sec": 157.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Goretzka",
+      "position": "Goretzka non rinnova con il Bayern e viene monitorato da Milan e Inter.",
+      "polarity": "neutral",
+      "claim_id": "1c3b8f8a-fd02-4de1-ad4e-902d70853a02",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s5",
+      "target_entity": "Goretzka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Goretzka non rinnova con il Bayern e viene monitorato da Milan e Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Goretka che non rinnova col Bayern, Goretka che però",
+          "start_sec": 128.039,
+          "end_sec": 157.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Goretzka",
+      "position": "Goretzka è stato un grande protagonista contro l'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "bca7564b-9327-4908-bba1-18de1a0d1804",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s5",
+      "target_entity": "Goretzka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Goretzka è stato un grande protagonista contro l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "grande protagonista anche contro l'Atalanta ieri sera",
+          "start_sec": 128.039,
+          "end_sec": 157.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Giroud",
+      "position": "Giroud ha segnato in doppia cifra per tre anni consecutivi.",
+      "polarity": "positive",
+      "claim_id": "d64d06d9-3377-46b7-8ab2-13e5e11a625d",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s3",
+      "target_entity": "Giroud",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giroud ha segnato in doppia cifra per tre anni consecutivi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "3 anni di fila in doppia cifra.",
+          "start_sec": 76.96,
+          "end_sec": 103.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan cerca un grande centravanti.",
+      "polarity": "neutral",
+      "claim_id": "240cb5fe-52c0-489a-a126-c9c94df091ca",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan cerca un grande centravanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La priorità, manco a dirlo, è il grande centravanti, è il numero 9",
+          "start_sec": 53.399,
+          "end_sec": 78.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Rabiot",
+      "position": "Rabiot è considerato un pilastro del Milan.",
+      "polarity": "positive",
+      "claim_id": "c16e837d-88d2-48c4-8948-1b4c103a2a41",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s5",
+      "target_entity": "Rabiot",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rabiot è considerato un pilastro del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'immarcescibile, l'intoccabile, il vero pilastro di questo Milan che è Adrienne Rabiot",
+          "start_sec": 128.039,
+          "end_sec": 157.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Niklas Fulkrug",
+      "position": "Il Milan non riscatterà Niklas Fulkrug.",
+      "polarity": "negative",
+      "claim_id": "f2a6a989-897c-4516-97a5-ba4ba45b1962",
+      "video_id": "-YvhZn1uQQg",
+      "segment_id": "s2",
+      "target_entity": "Niklas Fulkrug",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non riscatterà Niklas Fulkrug.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non verrà riscattato",
+          "start_sec": 53.399,
+          "end_sec": 78.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

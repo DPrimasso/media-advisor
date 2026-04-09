@@ -1,0 +1,366 @@
+{
+  "video_id": "4YnnRgonFLI",
+  "analyzed_at": "2026-04-08T12:58:57.045768+00:00",
+  "metadata": {
+    "title": "C’È UN’ITALIA IN VENDITA! ECCO DOVE VA TONALI. TRIS DI PRETENDENTI PER KEAN E UNA PIOGGIA DI RINNOVI",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza le dinamiche di mercato legate alla nazionale italiana di calcio, evidenziando come molti dei convocati siano destinati a muoversi durante il mercato estivo. L'autore sottolinea che, mentre alcuni giocatori come Meret e Donnarumma sono stabilmente nelle loro attuali squadre, altri come Carnesecchi e Caprile potrebbero essere protagonisti di trasferimenti significativi, con valutazioni che variano tra i 20 e i 50 milioni. Schira conclude che, nonostante l'interesse di club italiani e inglesi, le cifre richieste potrebbero rappresentare un ostacolo per le trattat",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prezzo",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "scout",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Caprile",
+      "position": "Elia Caprile è valutato tra 20-25 milioni dal Cagliari.",
+      "polarity": "neutral",
+      "claim_id": "48be0450-86d4-4043-a12a-d9dd03f9aa13",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s2",
+      "target_entity": "Caprile",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Elia Caprile è valutato tra 20-25 milioni dal Cagliari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Caprile è prendibile a 20-25 milioni dal Cagliari.",
+          "start_sec": 56.039,
+          "end_sec": 88.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mancini",
+      "position": "Mancini rinnoverà con la Roma fino al 2029.",
+      "polarity": "positive",
+      "claim_id": "352694c2-a640-4ebb-aea6-569146bfa725",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s3",
+      "target_entity": "Mancini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mancini rinnoverà con la Roma fino al 2029.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mancini rinnoverà con la Roma sino al 2029.",
+          "start_sec": 86.079,
+          "end_sec": 114.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Meret",
+      "position": "Meret resterà al Napoli per un altro anno.",
+      "polarity": "positive",
+      "claim_id": "d4d3988e-3139-42b3-a51a-901905f8d5e1",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s0",
+      "target_entity": "Meret",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Meret resterà al Napoli per un altro anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Meretta, un altro anno di contratto a Napoli, resterà lì.",
+          "start_sec": 0.04,
+          "end_sec": 33.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Caprile",
+      "position": "Caprile non è in nazionale a causa di un infortunio.",
+      "polarity": "neutral",
+      "claim_id": "96376063-2f84-413a-816f-2aa89a5701a8",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s2",
+      "target_entity": "Caprile",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Caprile non è in nazionale a causa di un infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non è in nazionale perché infortunato si è operato.",
+          "start_sec": 56.039,
+          "end_sec": 88.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Guglielmo Vicario",
+      "position": "Vicario vuole lasciare il Tottenham per tornare in Italia.",
+      "polarity": "neutral",
+      "claim_id": "65f10318-f06a-4335-8cd3-2c4d155c7292",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s3",
+      "target_entity": "Guglielmo Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario vuole lasciare il Tottenham per tornare in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Guglielmo Vicario che vuole lasciare il Tottenham, tornerebbe volentieri in Italia.",
+          "start_sec": 86.079,
+          "end_sec": 114.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Federico Gatti",
+      "position": "Gatti potrebbe lasciare la Juve se arriva una buona offerta.",
+      "polarity": "neutral",
+      "claim_id": "e46a75d4-dc82-479f-bb96-93c48acc6db8",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s3",
+      "target_entity": "Federico Gatti",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Gatti potrebbe lasciare la Juve se arriva una buona offerta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Federico Gatti invece potrebbe lasciare la Juve di fronte a una buona offerta.",
+          "start_sec": 86.079,
+          "end_sec": 114.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe tornare alla carica per Scalvini.",
+      "polarity": "neutral",
+      "claim_id": "85f59e92-f4ed-443d-bec3-8d24395ace4d",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan potrebbe tornare alla carica per Scalvini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi chissà che il Milan non possa tornare alla carica.",
+          "start_sec": 112.92,
+          "end_sec": 140.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Carnese",
+      "position": "Carnese ha mercato sia in Italia che in Inghilterra.",
+      "polarity": "neutral",
+      "claim_id": "e418d9a9-9b67-46b9-860b-abd0005bb6e2",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s2",
+      "target_entity": "Carnese",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Carnese ha mercato sia in Italia che in Inghilterra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Carnese che ha mercato anche in Inghilterra.",
+          "start_sec": 56.039,
+          "end_sec": 88.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter e Juve",
+      "position": "Inter e Juve potrebbero non spendere per Carnese.",
+      "polarity": "neutral",
+      "claim_id": "cf52b5ec-7fae-41f1-b56b-c69233f5b552",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s2",
+      "target_entity": "Inter e Juve",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter e Juve potrebbero non spendere per Carnese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "né Inter né Juve le spenderanno per Carnese.",
+          "start_sec": 56.039,
+          "end_sec": 88.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Vicario è tra le idee dell'Inter per la porta.",
+      "polarity": "neutral",
+      "claim_id": "498d9eb0-542d-4b88-8d1c-96935b40ce81",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario è tra le idee dell'Inter per la porta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è sicuramente tra le idee dell'Inter per la porta.",
+          "start_sec": 86.079,
+          "end_sec": 114.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nazionale Italiana",
+      "position": "La nazionale italiana è considerata sul mercato.",
+      "polarity": "neutral",
+      "claim_id": "8fa8d657-2cfb-4d64-820e-298829a1dc52",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s0",
+      "target_entity": "Nazionale Italiana",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana è considerata sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh sì, perché tra i 28 convocati di Rino Gattuso molti di loro hanno un destino bilico.",
+          "start_sec": 0.04,
+          "end_sec": 33.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Donnarumma",
+      "position": "Donnarumma ha cambiato squadra l'anno scorso.",
+      "polarity": "neutral",
+      "claim_id": "d0b8488c-293e-4a93-9d34-2fbae1eac6a2",
+      "video_id": "4YnnRgonFLI",
+      "segment_id": "s0",
+      "target_entity": "Donnarumma",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Donnarumma ha cambiato squadra l'anno scorso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Donnarumma è passato l'anno scorso al",
+          "start_sec": 0.04,
+          "end_sec": 33.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

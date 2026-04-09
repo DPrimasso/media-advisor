@@ -1,0 +1,378 @@
+{
+  "video_id": "xD29g6vVQwY",
+  "analyzed_at": "2026-03-31T15:24:44.181Z",
+  "metadata": {
+    "title": "Lang HERE WE GO 👀 INSIGNE, GIOVANE e altre cose GRAVI 🔵 tipo Giuffry",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-21T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la situazione attuale del Napoli, sottolineando come la squadra avesse iniziato bene ma si sia sciolta, concedendo un pareggio al Copenhagen. L'autore esprime preoccupazione per il morale di Conte, che appare distrutto e avvilito, suggerendo che la sua mancanza di vemenza complica ulteriormente la situazione. Inoltre, denuncia la gravità del blocco del sito FBF, fondamentale per l'analisi dei calciatori, ora limitato a dati per agenzie di scommesse, evidenziando una preoccupante tendenza nel calcio moderno verso la commercializzazione dei dati a",
+  "topics": [
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "scommesse",
+      "relevance": "medium"
+    },
+    {
+      "name": "critica allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan reaction",
+      "relevance": "low"
+    },
+    {
+      "name": "market dynamics",
+      "relevance": "low"
+    },
+    {
+      "name": "analisi dati",
+      "relevance": "low"
+    },
+    {
+      "name": "performance giocatori",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "0851dbfc-8192-4d4b-81b9-91c62faad0b6",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli aveva fatto tutto bene fino ad ora.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non il Napoli aveva fatto tutto bene, doveva continuare a fare tutto bene, aumentando un po' i giri, aumentando un po' la velocità.",
+          "start_sec": 0.12,
+          "end_sec": 72.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Napoli"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli aveva fatto tutto bene fino ad ora.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ed07f2e0-bdcb-4087-a09e-dc86cc1555c9",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s0",
+      "target_entity": "Giuffri",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Le parole di Giuffri sono state menzionate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi si sono aggiunte altre cose, le parole di Giuffri non potevano mancare.",
+          "start_sec": 0.12,
+          "end_sec": 72.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "Giuffri"
+      ],
+      "topic": "media",
+      "subject": "Giuffri",
+      "position": "Le parole di Giuffri sono state menzionate.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "1131a342-4f27-4935-8752-85d08da0e69e",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s0",
+      "target_entity": "reaction",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Le reaction non sembrano interessare più di tanto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giustamente perché, boh, le reaction sono altri, i creators che vanno forti sulle reaction.",
+          "start_sec": 0.12,
+          "end_sec": 72.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "reaction",
+        "media"
+      ],
+      "topic": "media",
+      "subject": "reaction",
+      "position": "Le reaction non sembrano interessare più di tanto.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a3d86c77-6cea-44e6-86cc-1eda44d3e2f7",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Conte sembra distrutto e avvilito dopo la partita contro il Copenhagen.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi è sembrato distrutto, avvilito, diverso da quello che fu la reazione contro contro il Bologna.",
+          "start_sec": 69.759,
+          "end_sec": 134.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte sembra distrutto e avvilito dopo la partita contro il Copenhagen.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "970f1c84-7a43-4b62-88e4-0504485ad062",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La mancanza di vemenza di Conte rende la situazione complicata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se ci manca poi quella vemenza anche da parte sua diventa complicata.",
+          "start_sec": 69.759,
+          "end_sec": 134.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "La mancanza di vemenza di Conte rende la situazione complicata.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "3f3caafb-043a-4516-bcf7-f74ff1c314a9",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s1",
+      "target_entity": "FBF",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il sito FBF, utilizzato per analizzare calciatori, è stato bloccato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "FBF, ricordate il sito da dove prendevamo tutti i dati per individuare i calciatori, è stato bloccato.",
+          "start_sec": 69.759,
+          "end_sec": 134.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "FBF",
+      "position": "Il sito FBF, utilizzato per analizzare calciatori, è stato bloccato.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "e577a867-438c-463d-80ff-78ed15da4c1d",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s2",
+      "target_entity": "FIFA",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "FIFA non consente più l'uso di alcuni dati da parte di analisti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "FIFA, con Wi Scout, eccetera eccetera, insomma, alcuni dati che loro utilizzavano non li possono più usare.",
+          "start_sec": 132.16,
+          "end_sec": 201.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "FIFA",
+      "position": "FIFA non consente più l'uso di alcuni dati da parte di analisti.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "88f0eca3-559b-4d83-8cdc-b1850f6286dc",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s2",
+      "target_entity": "agenzie di scommesse",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "I dati raccolti dalla Serie A finiranno nelle mani delle agenzie di scommesse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tutti quei dati interessanti diventano appannaggio delle agenzie di scommesse.",
+          "start_sec": 132.16,
+          "end_sec": 201.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "agenzie di scommesse",
+      "position": "I dati raccolti dalla Serie A finiranno nelle mani delle agenzie di scommesse.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "d6ba74eb-23a4-4b90-9e5a-9dc1d5e9745f",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s2",
+      "target_entity": "FIFA",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "La direzione in cui si stanno muovendo le politiche è grave.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una cosa di una gravità inaudita che voi non potete avere idea.",
+          "start_sec": 132.16,
+          "end_sec": 201.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "FIFA",
+      "position": "La direzione in cui si stanno muovendo le politiche è grave.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "492d4c78-de81-471d-8018-0fe53d224a74",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s1",
+      "target_entity": "Copenhagen",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra si è sciolta concedendo il pareggio al Copenhagen.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci siamo sciolti concedendo poi il pareggio al Copenhagen.",
+          "start_sec": 69.759,
+          "end_sec": 134.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Copenhagen",
+      "position": "La squadra si è sciolta concedendo il pareggio al Copenhagen.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a0f35ed2-ad3b-4dac-8a5e-5bfac41bd2ef",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s2",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La Serie A fornisce sempre meno dati agli analisti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ricordate, Lega della Serie A che ci dà sempre meno dati.",
+          "start_sec": 132.16,
+          "end_sec": 201.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Serie A",
+      "position": "La Serie A fornisce sempre meno dati agli analisti.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "23132f11-efd8-4942-a387-4d3518005934",
+      "video_id": "xD29g6vVQwY",
+      "segment_id": "s0",
+      "target_entity": "Insigne",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Insigne viene proposto come argomento di discussione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci propongono Insigne, cominciamo.",
+          "start_sec": 0.12,
+          "end_sec": 72.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "Insigne"
+      ],
+      "topic": "media",
+      "subject": "Insigne",
+      "position": "Insigne viene proposto come argomento di discussione.",
+      "polarity": "positive"
+    }
+  ]
+}

@@ -1,0 +1,434 @@
+{
+  "video_id": "9M6ppks6K_E",
+  "analyzed_at": "2026-03-31T11:02:32.095250+00:00",
+  "metadata": {
+    "title": "MA IO NON MOLLO 🔵 Ci sono COSE di cui NESSUNO STA PARLANDO 👀 Analisi #Atalanta #Napoli 2-1",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "MA IO NON MOLLO 🔵 Ci sono COSE di cui NESSUNO STA PARLANDO 👀 Analisi #Atalanta #Napoli 2-1 — ",
+  "topics": [
+    {
+      "name": "performance",
+      "relevance": "low"
+    },
+    {
+      "name": "tactics",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "fallo",
+      "relevance": "low"
+    },
+    {
+      "name": "curiosità",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "analisi_tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "Lobotka",
+      "relevance": "low"
+    },
+    {
+      "name": "social_media",
+      "relevance": "low"
+    },
+    {
+      "name": "offensive strategy",
+      "relevance": "low"
+    },
+    {
+      "name": "goal scoring",
+      "relevance": "low"
+    },
+    {
+      "name": "player movement",
+      "relevance": "low"
+    },
+    {
+      "name": "controversy",
+      "relevance": "low"
+    },
+    {
+      "name": "refereeing",
+      "relevance": "low"
+    },
+    {
+      "name": "fan opinions",
+      "relevance": "low"
+    },
+    {
+      "name": "fallo",
+      "relevance": "low"
+    },
+    {
+      "name": "consapevolezza",
+      "relevance": "low"
+    },
+    {
+      "name": "interazione tra giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "decisioni arbitrali",
+      "relevance": "low"
+    },
+    {
+      "name": "protocollo VAR",
+      "relevance": "low"
+    },
+    {
+      "name": "fallo",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione giocatore",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    },
+    {
+      "name": "analisi tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "giocatori",
+      "position": "L'opinionista si appassiona al gioco dei giocatori in campo.",
+      "polarity": "positive",
+      "claim_id": "19f0c239-8792-4eac-a869-96e09102dd23",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s0",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista si appassiona al gioco dei giocatori in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi continua a piacere lo sport, continuo a appassionarmi a quello che fanno i miei giocatori in campo.",
+          "start_sec": 2.48,
+          "end_sec": 78.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "sport",
+      "position": "L'opinionista è preoccupato per il futuro dello sport.",
+      "polarity": "neutral",
+      "claim_id": "40223fd7-1058-44f7-9a78-680f1a7b79af",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s0",
+      "target_entity": "sport",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'opinionista è preoccupato per il futuro dello sport.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nella speranza che lo sport possa non rovinarsi del tutto.",
+          "start_sec": 2.48,
+          "end_sec": 78.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Esiste un bias di conferma negli arbitri al VAR.",
+      "polarity": "positive",
+      "claim_id": "fc95f718-87b1-4f8d-a1a4-0c98370e77aa",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Esiste un bias di conferma negli arbitri al VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il confirmation bias invece avviene in sala VAR, dove se tu sei già convinto che devi intervenire e che devi arbitrare in quel momento tendi a favorire informazioni che confermano l'errore dell'arbitro",
+          "start_sec": 76.799,
+          "end_sec": 174.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR influisce sulle decisioni degli arbitri in campo.",
+      "polarity": "positive",
+      "claim_id": "b458044d-e971-40dd-95c2-3af839abc584",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s1",
+      "target_entity": "VAR",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR influisce sulle decisioni degli arbitri in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i VAR stanno risultando più importanti dell'arbitro in campo che vede la dinamica",
+          "start_sec": 76.799,
+          "end_sec": 174.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Arbitri in campo percepiscono pressione dalle decisioni del VAR.",
+      "polarity": "positive",
+      "claim_id": "0688b732-80c7-4998-a236-a8d1f3b6a9fe",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Arbitri in campo percepiscono pressione dalle decisioni del VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'arbitro che sta in campo pensa anche se sbagliano loro hanno sbagliato loro che hanno 1000 schermi e possono rivedere",
+          "start_sec": 76.799,
+          "end_sec": 174.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Alison",
+      "position": "Alison è partito titolare per la prima volta durante la partita.",
+      "polarity": "positive",
+      "claim_id": "22725626-b303-41fe-a9d5-80e4dbfaa8e3",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s2",
+      "target_entity": "Alison",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alison è partito titolare per la prima volta durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è la prima volta che vediamo partire Alison dal primo minuto",
+          "start_sec": 171.56,
+          "end_sec": 231.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Il sistema VAR potrebbe compromettere l'arbitraggio dal vivo.",
+      "polarity": "positive",
+      "claim_id": "e08d5c01-dcc6-42bb-bcfb-49e042b9ceb0",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il sistema VAR potrebbe compromettere l'arbitraggio dal vivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa è una delle cose più fastidiose",
+          "start_sec": 76.799,
+          "end_sec": 174.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Samarzic",
+      "position": "Samarzic ha segnato un gol inaspettato.",
+      "polarity": "positive",
+      "claim_id": "fec3c765-0275-4822-9d57-f9b104897e5b",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s0",
+      "target_entity": "Samarzic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Samarzic ha segnato un gol inaspettato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedo il gol di Samarzic ed è un gran gol che non ti aspetti da uno come Samarzic.",
+          "start_sec": 2.48,
+          "end_sec": 78.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Lobotka",
+      "position": "Lobotka effettua verticalizzazioni efficaci nel gioco.",
+      "polarity": "positive",
+      "claim_id": "789d8c10-6a39-473a-a3dc-a4a58272f82a",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s3",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lobotka effettua verticalizzazioni efficaci nel gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "proprio che corra male, dovremmo capire che di cosa si tratta",
+          "start_sec": 229.28,
+          "end_sec": 290.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "giocatori",
+      "position": "Esistono aspetti tecnico-tattici da considerare nelle partite.",
+      "polarity": "positive",
+      "claim_id": "6b3082ce-9dce-4185-b005-ccc57c26d7d0",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s0",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Esistono aspetti tecnico-tattici da considerare nelle partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però ci sono delle cose tecniche, tattiche.",
+          "start_sec": 2.48,
+          "end_sec": 78.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Zaleschi",
+      "position": "Zaleschi ha commesso un fallo su Mazocchi.",
+      "polarity": "neutral",
+      "claim_id": "f6dabde5-d52e-44a0-9a4d-e5ee6c1d1535",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s2",
+      "target_entity": "Zaleschi",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Zaleschi ha commesso un fallo su Mazocchi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il fallo di Zaleschi su Mazocchi",
+          "start_sec": 171.56,
+          "end_sec": 231.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Buongiorno",
+      "position": "Buongiorno inciampa da solo al fischio d'inizio.",
+      "polarity": "neutral",
+      "claim_id": "10a1cd2c-12e3-4fcb-96eb-a9a378351490",
+      "video_id": "9M6ppks6K_E",
+      "segment_id": "s2",
+      "target_entity": "Buongiorno",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Buongiorno inciampa da solo al fischio d'inizio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Buongiorno inciampa da solo, sembra",
+          "start_sec": 171.56,
+          "end_sec": 231.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

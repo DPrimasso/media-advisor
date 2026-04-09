@@ -1,0 +1,358 @@
+{
+  "video_id": "rGa5Z36dZfk",
+  "analyzed_at": "2026-04-07T15:26:37.646162+00:00",
+  "metadata": {
+    "title": "TMWRadio - Per la Juve del futuro: Kolo o Lewandowski?",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di commento calcistico di TuttoMercatoWeb si concentra sulle strategie di mercato della Juventus per il futuro attacco, confrontando le opzioni di Kolo Muani e Lewandowski. L'autore esprime dubbi sull'acquisto di Lewandowski, sottolineando che, nonostante la sua esperienza, la sua età (38 anni) e la necessità di un attaccante giovane e di qualità rendono questa scelta poco convincente. Si conclude che la Juventus dovrebbe puntare su Colomanì e considerare il rinnovo di Vlahovic, mentre la ricerca di un attaccante di spessore rimane cruciale per il futuro della squadra, soprattutto in ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "europe",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "rosa",
+      "relevance": "low"
+    },
+    {
+      "name": "attacco",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "La Juventus non dovrebbe considerare Lewandowski a 38 anni.",
+      "polarity": "negative",
+      "claim_id": "09f87435-46d4-4550-a8fb-a07dd58fdfdd",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s4",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus non dovrebbe considerare Lewandowski a 38 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "spero di no. Quindi mi auguro che rinnovino il contratto di Vlaovicć e cerchino un secondo attaccante di di qualità",
+          "start_sec": 118.64,
+          "end_sec": 153.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lewandowski",
+      "position": "Lewandowski è un'opzione sicura ma non convince per la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "e5d8f4b4-74a2-4cf9-9d5e-d905b77dc0a9",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s1",
+      "target_entity": "Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Lewandowski è un'opzione sicura ma non convince per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lewandowski è un usato strasicuro, però eh non mi convincerebbe",
+          "start_sec": 40.079,
+          "end_sec": 78.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Dusan Vlahovic",
+      "position": "L'acquisto migliore per il prossimo anno sarà Dusan Vlahovic.",
+      "polarity": "positive",
+      "claim_id": "fa0c4adc-5734-470f-8972-06aa6b5fbe92",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s4",
+      "target_entity": "Dusan Vlahovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'acquisto migliore per il prossimo anno sarà Dusan Vlahovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'acquisto migliore dell'anno dell'anno prossimo sarà proprio quello di di Vlaovicć",
+          "start_sec": 118.64,
+          "end_sec": 153.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Juventus",
+      "position": "La Juventus potrebbe prendere Lewandowski se arriva in Champions.",
+      "polarity": "positive",
+      "claim_id": "1c75d734-cd23-41a8-8cd2-d36cc9dd9d8e",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus potrebbe prendere Lewandowski se arriva in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se dovesse arrivare in Champions, io Lewandowski lo prenderei",
+          "start_sec": 152.0,
+          "end_sec": 186.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus potrebbe essere una delle pretendenti per vincere lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "9b2576e6-689f-43bb-8905-2ed4cf653a3f",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s7",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus potrebbe essere una delle pretendenti per vincere lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non può pensare di provare a a vincere o ad essere una delle probabili squadre per vincere lo scudetto.",
+          "start_sec": 186.64,
+          "end_sec": 217.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Vlaovic",
+      "position": "La presenza di Vlaovic e Lewandowski nella Juventus è discutibile.",
+      "polarity": "neutral",
+      "claim_id": "f27dea15-4175-45a9-b2ca-c1d18cf25c56",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s1",
+      "target_entity": "Vlaovic",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La presenza di Vlaovic e Lewandowski nella Juventus è discutibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che fai Vlaovicć, Lewandowski e basta con Vlaovic",
+          "start_sec": 40.079,
+          "end_sec": 78.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus potrebbe rinnovare il contratto di Vlahovic.",
+      "polarity": "neutral",
+      "claim_id": "65750811-e21b-4a0f-ab4a-1bf1ac4fbe3a",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus potrebbe rinnovare il contratto di Vlahovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi auguro che rinnovino il contratto di Vlaovicć",
+          "start_sec": 118.64,
+          "end_sec": 153.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lewandowski",
+      "position": "Lewandowski porterebbe esperienza e leadership nello spogliatoio.",
+      "polarity": "positive",
+      "claim_id": "d5476e3b-9537-4515-bd06-ef9e3c2abc8a",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s5",
+      "target_entity": "Lewandowski",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski porterebbe esperienza e leadership nello spogliatoio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "significa mettere dentro una persona giusta che possa lottare insieme alla squadra",
+          "start_sec": 152.0,
+          "end_sec": 186.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Inter",
+      "position": "L'Inter intende modificare gran parte della rosa.",
+      "polarity": "positive",
+      "claim_id": "75f00ebc-e7c3-4733-aafc-fc10b8d343b1",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s7",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter intende modificare gran parte della rosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi pare di aver capito che abbia l'intenzione di modificare gran parte della rosa.",
+          "start_sec": 186.64,
+          "end_sec": 217.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lewandowski",
+      "position": "Lewandowski dovrebbe rimanere dove si trova.",
+      "polarity": "negative",
+      "claim_id": "b299e611-f48b-4399-af0c-bc419478cde3",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s3",
+      "target_entity": "Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski dovrebbe rimanere dove si trova.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io francamente lo lascerei dove sta.",
+          "start_sec": 78.439,
+          "end_sec": 121.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kolo",
+      "position": "Kolo sarebbe una scelta alternativa a Lewandowski.",
+      "polarity": "neutral",
+      "claim_id": "b1dd9e47-e354-44e4-acd6-60c3bc9a3295",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s3",
+      "target_entity": "Kolo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Kolo sarebbe una scelta alternativa a Lewandowski.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kolo, l'ho già detto, io andrei su tutt'altro.",
+          "start_sec": 78.439,
+          "end_sec": 121.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Plaic",
+      "position": "Plaic è consigliato come opzione per l'attacco.",
+      "polarity": "neutral",
+      "claim_id": "761f8582-10dd-4ea6-a44f-a74ea65aca11",
+      "video_id": "rGa5Z36dZfk",
+      "segment_id": "s3",
+      "target_entity": "Plaic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Plaic è consigliato come opzione per l'attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tu faresti Plaic.",
+          "start_sec": 78.439,
+          "end_sec": 121.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

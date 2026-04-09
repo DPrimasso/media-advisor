@@ -1,0 +1,406 @@
+{
+  "video_id": "tBIMoneilMM",
+  "analyzed_at": "2026-03-31T15:15:13.646Z",
+  "metadata": {
+    "title": "\"#Spalletti deve portare rispetto\" 👀 #CONTE non ha mollato! 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-27T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza le recenti dichiarazioni di Luciano Spalletti, sottolineando la necessità di portare rispetto per le squadre avversarie, in particolare per il campione in carica, il Napoli, che ha ancora lo scudetto sulla maglia. L'autore critica Spalletti per le sue parole, ritenendole infelici e potenzialmente irrispettose, e suggerisce che l'allenatore dovrebbe essere più cauto nelle sue affermazioni. Inoltre, evidenzia come la vittoria contro gli ex campioni d'Italia possa rafforzare la consapevolezza della squadra, mentre si sofferma anche sull'interesse d",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "rispetto",
+      "relevance": "high"
+    },
+    {
+      "name": "tattiche di gioco",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "performance individuale",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni della squadra",
+      "relevance": "low"
+    },
+    {
+      "name": "supporto dei tifosi",
+      "relevance": "low"
+    },
+    {
+      "name": "respect in coaching",
+      "relevance": "low"
+    },
+    {
+      "name": "potential transfer impacts",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "e44ae9ec-b2dd-4a5e-ae67-4ca64f6277d1",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s0",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria contro gli ex campioni d'Italia conferisce certezze alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se vinci contro gli ex campioni d'Italia ti dà ancora più certezze",
+          "start_sec": 0.799,
+          "end_sec": 73.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "vittoria",
+        "squadra"
+      ],
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "La vittoria contro gli ex campioni d'Italia conferisce certezze alla squadra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "87399967-cbf8-4f1a-98b3-3b1d2160766b",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha dimostrato interesse a discutere di tattiche calcistiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "allora lui comincia a parlare e quasi si illuminano gli occhi, a un certo punto si ferma, dice 'Questa sembra quasi una lezioncina che sto facendo'.",
+          "start_sec": 71.68,
+          "end_sec": 142.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "allenatore"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte ha dimostrato interesse a discutere di tattiche calcistiche.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "94383d5d-0c31-4040-9308-66285021ba8b",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Conte sembra godere nel discutere di calcio moderno, anche se non è il suo solito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è proprio abituato a farlo, però mi è sembrato che lo facesse volentieri di entrare un pochino più nel dettaglio del calcio moderno,",
+          "start_sec": 71.68,
+          "end_sec": 142.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "allenatore"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte sembra godere nel discutere di calcio moderno, anche se non è il suo solito.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "37bac872-722e-4d88-97c8-e49123032180",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s1",
+      "target_entity": "Scott",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Scott è descritto come una figura imponente e rispettata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Scott è gigante e anche se se non dice niente di di di folgorante o di rivoluzionario si vede quanto è spesso proprio lo spessore dell'uomo e dell'atleta.",
+          "start_sec": 71.68,
+          "end_sec": 142.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rispetto",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Scott",
+      "position": "Scott è descritto come una figura imponente e rispettata.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "24b8bb59-2b5a-4847-93dc-8f6140306183",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s2",
+      "target_entity": "Scott",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Scott mostra segni di preoccupazione per la sua forma attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è preoccupazione se poi volendo parlare insomma della gestione di Conte dei minuti eccetera eccetera",
+          "start_sec": 140.68,
+          "end_sec": 198.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "preoccupazione",
+        "forma"
+      ],
+      "topic": "performance",
+      "subject": "Scott",
+      "position": "Scott mostra segni di preoccupazione per la sua forma attuale.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "6e0a20cf-e3cf-4abb-a7aa-27f23f65c03a",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s1",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono polemiche legate ai commenti di Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per portare la polemica, per fare i titoli con Spalletti,",
+          "start_sec": 71.68,
+          "end_sec": 142.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "polemica",
+        "media"
+      ],
+      "topic": "media",
+      "subject": "Spalletti",
+      "position": "Ci sono polemiche legate ai commenti di Spalletti.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "fea76ba2-b7dd-43cd-8b0b-24bfc2a478a4",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s2",
+      "target_entity": "Scott",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Scott fa meglio il movimento per anticipare l'avversario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Scott lo anticipa proprio perché fa meglio il movimento.",
+          "start_sec": 140.68,
+          "end_sec": 198.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "movimento",
+        "anticipazione"
+      ],
+      "topic": "performance",
+      "subject": "Scott",
+      "position": "Scott fa meglio il movimento per anticipare l'avversario.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7ba70fcc-1ed0-4c57-966b-74d150449b60",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s0",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti deve stare più attento quando parla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "magari deve stare un po' più attento quando parla",
+          "start_sec": 0.799,
+          "end_sec": 73.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Spalletti",
+        "leadership",
+        "comunicazione"
+      ],
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Spalletti deve stare più attento quando parla.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "12627699-722b-4716-a09e-cac5090655c4",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s0",
+      "target_entity": "scudetto",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Lo scudetto è ancora sulla maglia della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi abbiamo ancora lo scudetto sulla maglia",
+          "start_sec": 0.799,
+          "end_sec": 73.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "rispetto",
+        "competizione"
+      ],
+      "topic": "standings",
+      "subject": "scudetto",
+      "position": "Lo scudetto è ancora sulla maglia della squadra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ab36a1a5-b68a-4b85-82fe-cb6565bee0ea",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s0",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Le parole di Spalletti possono essere interpretate come mancanza di rispetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché ripeto, mancano ancora 16 partite",
+          "start_sec": 0.799,
+          "end_sec": 73.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Spalletti",
+        "rispetto",
+        "interpretazione"
+      ],
+      "topic": "refereeing",
+      "subject": "Luciano Spalletti",
+      "position": "Le parole di Spalletti possono essere interpretate come mancanza di rispetto.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "8465b978-6127-4119-8cc4-735e6eb89b42",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non ha potuto gestire efficacemente i minuti di Scott.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ha mai potuto tirare fuori è proprio Scott",
+          "start_sec": 140.68,
+          "end_sec": 198.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gestione",
+        "tattica"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte non ha potuto gestire efficacemente i minuti di Scott.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "2e591928-0198-4b01-8ee1-68dd9e8eb784",
+      "video_id": "tBIMoneilMM",
+      "segment_id": "s2",
+      "target_entity": "Garnacio",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Garnacio ha fornito un cross decisivo per Scott.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il cross qua glielo mette Garnacio",
+          "start_sec": 140.68,
+          "end_sec": 198.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "cross",
+        "assist"
+      ],
+      "topic": "performance",
+      "subject": "Garnacio",
+      "position": "Garnacio ha fornito un cross decisivo per Scott.",
+      "polarity": "positive"
+    }
+  ]
+}

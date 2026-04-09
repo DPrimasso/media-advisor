@@ -1,0 +1,366 @@
+{
+  "video_id": "YJIiVbZTIKs",
+  "analyzed_at": "2026-04-07T15:54:37.844714+00:00",
+  "metadata": {
+    "title": "TMW News: Bologna, la grande impresa. Inter, ora c’è la Fiorentina",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News celebra la straordinaria vittoria del Bologna contro la Roma negli ottavi di finale di Europa League, evidenziando la qualità del gioco e l'impegno della squadra. L'autore sottolinea l'importanza del supporto dei tifosi, che hanno sempre sostenuto la squadra anche nei momenti difficili, e mette in risalto le prestazioni decisive di giocatori come Cambiaghi. Si conclude con l'anticipazione di una prossima sfida difficile in campionato, suggerendo che il Bologna deve mantenere alta la concentrazione per continuare a ottenere successi.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "high"
+    },
+    {
+      "name": "europe",
+      "relevance": "medium"
+    },
+    {
+      "name": "performanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "crisi",
+      "relevance": "low"
+    },
+    {
+      "name": "politica",
+      "relevance": "low"
+    },
+    {
+      "name": "allenamento",
+      "relevance": "low"
+    },
+    {
+      "name": "calcio giovanile",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "Fiorentina ha battuto il Racuf per 2-1 in Polonia.",
+      "polarity": "positive",
+      "claim_id": "a482013f-fd58-4be6-8439-448133d2e685",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fiorentina ha battuto il Racuf per 2-1 in Polonia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giornata felice quella di ieri anche per la Fiorentina che battendo il Racuf per 2-1 in Polonia si è guadagnata l'accesso ai quarti di finale della Conference.",
+          "start_sec": 265.56,
+          "end_sec": 353.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "Fiorentina ha dominato la partita dopo aver preso il gol dell'1-0.",
+      "polarity": "positive",
+      "claim_id": "002fb864-0707-4f08-b610-d5bec291f409",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fiorentina ha dominato la partita dopo aver preso il gol dell'1-0.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però poi abbiamo dominato la partita e siamo riusciti a vincere in un campo comunque difficile.",
+          "start_sec": 265.56,
+          "end_sec": 353.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Bologna",
+      "position": "Bologna avrà una partita difficile nel prossimo campionato.",
+      "polarity": "neutral",
+      "claim_id": "a98544af-852e-47f6-843d-705575e929ca",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Bologna avrà una partita difficile nel prossimo campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dobbiamo pensare a domenica che abbiamo una partita difficile in campionato.",
+          "start_sec": 111.56,
+          "end_sec": 183.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cambiaghi",
+      "position": "Cambiaghi ha deciso la partita per il Bologna.",
+      "polarity": "positive",
+      "claim_id": "586d0a77-1859-427c-97ee-eadc517898f4",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s2",
+      "target_entity": "Cambiaghi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cambiaghi ha deciso la partita per il Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chi ha deciso la partita per il Bologna è stato Cambiaghi",
+          "start_sec": 181.319,
+          "end_sec": 267.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Fiorentina",
+      "position": "Fiorentina si qualifica ai quarti di finale della Conference.",
+      "polarity": "positive",
+      "claim_id": "a460d73f-7edb-4403-8061-8660744de7e4",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fiorentina si qualifica ai quarti di finale della Conference.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è guadagnata l'accesso ai quarti di finale della Conference.",
+          "start_sec": 265.56,
+          "end_sec": 353.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fiorentina",
+      "position": "Fiorentina ha dovuto gestire un campo difficile durante la partita.",
+      "polarity": "positive",
+      "claim_id": "1c4bcc47-9758-4672-b3e3-38bd993be6a3",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fiorentina ha dovuto gestire un campo difficile durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "soprattutto perché il campo non era in ottime condizioni, si faceva veramente fatica a giocare a calcio.",
+          "start_sec": 265.56,
+          "end_sec": 353.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Bologna",
+      "position": "Bologna è attualmente a più quattro sulla Cremonese.",
+      "polarity": "positive",
+      "claim_id": "a5fed3c0-d8ba-4d74-a7be-cb6990bff431",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s4",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna è attualmente a più quattro sulla Cremonese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo sempre stati in apnea in campionato e adesso essere più quattro della Cremonese è stato fondamentale",
+          "start_sec": 350.84,
+          "end_sec": 441.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna deve continuare a lottare per risalire in classifica.",
+      "polarity": "positive",
+      "claim_id": "474b23c6-33c1-4e73-8b02-4c91230815b9",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s4",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna deve continuare a lottare per risalire in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non dobbiamo mollare perché è ancora lunghissima, mancano nove partite e dobbiamo uscire il più possibile da quella zona lì",
+          "start_sec": 350.84,
+          "end_sec": 441.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Bologna",
+      "position": "Bologna punta a passare agli ottavi di finale della Conference League.",
+      "polarity": "positive",
+      "claim_id": "93518f24-3945-4182-b842-c634225fa238",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s4",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Bologna punta a passare agli ottavi di finale della Conference League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "deve essere anche quello della conference, passare gli ottavi di finale",
+          "start_sec": 350.84,
+          "end_sec": 441.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha vinto contro una squadra forte.",
+      "polarity": "positive",
+      "claim_id": "826d98b2-c2de-4b66-a32a-2f07cc3216ae",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha vinto contro una squadra forte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo riusciti a vincere una cosa pazzesca.",
+          "start_sec": 111.56,
+          "end_sec": 183.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Bologna",
+      "position": "Nella partita di Coppa Italia contro la Lazio, lo stadio era vuoto.",
+      "polarity": "negative",
+      "claim_id": "bed29ce4-120c-4e58-a253-8b09c86ce73b",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nella partita di Coppa Italia contro la Lazio, lo stadio era vuoto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bologna- Lazio, Coppa Italia, stadio vuoto.",
+          "start_sec": 111.56,
+          "end_sec": 183.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Dallinga",
+      "position": "Dallinga ha creato un'opportunità di gol importante per Cambiaghi.",
+      "polarity": "positive",
+      "claim_id": "b51966b4-8d81-4504-8953-ef1890d7b89b",
+      "video_id": "YJIiVbZTIKs",
+      "segment_id": "s2",
+      "target_entity": "Dallinga",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dallinga ha creato un'opportunità di gol importante per Cambiaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quanto hai visto Dallinga giocarti la palla dentro?",
+          "start_sec": 181.319,
+          "end_sec": 267.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

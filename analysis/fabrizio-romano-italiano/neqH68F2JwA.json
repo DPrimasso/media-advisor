@@ -1,0 +1,354 @@
+{
+  "video_id": "neqH68F2JwA",
+  "analyzed_at": "2026-04-08T10:04:58.893623+00:00",
+  "metadata": {
+    "title": "🚨 RIVOLUZIONE NAZIONALE! DA CONTE A BASTONI: TUTTO TRA AZZURRO E BARCELLONA. LEWANDOWSKI E LA JUVE…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-03T16:27:26+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano analizza la crisi della nazionale italiana di calcio, che non parteciperà al terzo mondiale consecutivo, e il conseguente cambiamento nella leadership, con le dimissioni di Gennaro Gattuso e del presidente Gravina. L'autore sottolinea come queste dimissioni siano una risposta necessaria dopo una serie di fallimenti, in particolare la recente sconfitta contro la Bosnia. Romano evidenzia l'importanza di voltare pagina e le aspettative del pubblico riguardo alla scelta del nuovo commissario tecnico, suggerendo che si apre un periodo di rinnovamento per il calcio italia",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "federazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "nazionale",
+      "position": "Le dimissioni degli AD sono arrivate dopo una disfatta.",
+      "polarity": "neutral",
+      "claim_id": "ff7cc1f6-25ff-49cc-b979-5d5c0715bf30",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s1",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le dimissioni degli AD sono arrivate dopo una disfatta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nelle ultime 24 ore sono arrivate le dimissioni, gli AD di tutti i protagonisti, tutti i volti, chi più chi meno colpevole dell'ultima disfatta per il nostro calcio.",
+          "start_sec": 31.24,
+          "end_sec": 63.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gravina",
+      "position": "Gravina fa dichiarazioni contraddittorie sulla situazione di Gattuso.",
+      "polarity": "negative",
+      "claim_id": "b5593038-9eef-4365-b244-6524e7da1dc6",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina fa dichiarazioni contraddittorie sulla situazione di Gattuso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlasse di continuare insieme e discorsi del genere.",
+          "start_sec": 61.559,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso ha confermato le sue dimissioni dalla nazionale.",
+      "polarity": "neutral",
+      "claim_id": "dfcab9e2-ea5a-4573-b668-eb3b5e14089e",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s3",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha confermato le sue dimissioni dalla nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rino Gattuso oggi ha confermato le sue dimissioni, la sua separazione dalla nazionale.",
+          "start_sec": 90.159,
+          "end_sec": 118.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Gattuso ha sempre detto che avrebbe lasciato la nazionale in caso di fallimento.",
+      "polarity": "neutral",
+      "claim_id": "b2743921-9e89-4a4f-8b77-2907b71f241f",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha sempre detto che avrebbe lasciato la nazionale in caso di fallimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gattuso ha sempre detto che avrebbe salutato la nazionale in caso di fallimento mondiale.",
+          "start_sec": 90.159,
+          "end_sec": 118.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "nazionale",
+      "position": "C'è stato un accordo consensuale tra Gattuso e la nazionale.",
+      "polarity": "neutral",
+      "claim_id": "faa7463b-c40a-4e91-a48f-ec14ef911bf8",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s3",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è stato un accordo consensuale tra Gattuso e la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è arrivato un accordo consensuale confermato nella giornata di oggi.",
+          "start_sec": 90.159,
+          "end_sec": 118.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "nazionale",
+      "position": "La nazionale sta vivendo un cambiamento significativo.",
+      "polarity": "neutral",
+      "claim_id": "4cfcdf56-c67d-4baa-83fc-3ea8116251c0",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s1",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale sta vivendo un cambiamento significativo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fortunatamente una nuova pagina per quanto riguarda la nostra nazionale.",
+          "start_sec": 31.24,
+          "end_sec": 63.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gennaro Gattuso",
+      "position": "Gattuso lascia la nazionale con effetto immediato.",
+      "polarity": "negative",
+      "claim_id": "49c6e0fe-7031-4797-b8e7-244bb680521e",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s2",
+      "target_entity": "Gennaro Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso lascia la nazionale con effetto immediato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gennaro Gattuso lascia la nazionale con effetto immediato.",
+          "start_sec": 61.559,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gennaro Gattuso",
+      "position": "Gattuso è criticato per la sua scelta.",
+      "polarity": "negative",
+      "claim_id": "ffe61d97-55b4-4dff-bd50-8c629adb832b",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s2",
+      "target_entity": "Gennaro Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso è criticato per la sua scelta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si può contestare tutto, di cui si può parlare sotto ogni punto di vista.",
+          "start_sec": 61.559,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Nazionali azzurre",
+      "position": "L'Italia non parteciperà al terzo mondiale consecutivo.",
+      "polarity": "negative",
+      "claim_id": "d43d638c-7be3-49c7-85d5-63faa303c5ca",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s2",
+      "target_entity": "Nazionali azzurre",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia non parteciperà al terzo mondiale consecutivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il terzo consecutivo a cui non parteciperanno i nostri azzurri.",
+          "start_sec": 61.559,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "nazionale italiana",
+      "position": "La nazionale italiana non parteciperà al mondiale.",
+      "polarity": "negative",
+      "claim_id": "9eca56eb-7681-4fb7-895a-ab09eabb3b5f",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s0",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana non parteciperà al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non saremo al mondiale",
+          "start_sec": 0.0,
+          "end_sec": 34.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso ha confermato il suo addio.",
+      "polarity": "neutral",
+      "claim_id": "ca558888-88f9-4fd3-aa78-48da56e9c234",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s4",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha confermato il suo addio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è mai stato in dubbio l'addio di Gattuso",
+          "start_sec": 117.52,
+          "end_sec": 145.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina saluta Gattuso.",
+      "polarity": "neutral",
+      "claim_id": "69962d9f-ee0f-4072-a9ba-ff52dfc0232f",
+      "video_id": "neqH68F2JwA",
+      "segment_id": "s4",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina saluta Gattuso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "saluta il presidente Gravina",
+          "start_sec": 117.52,
+          "end_sec": 145.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

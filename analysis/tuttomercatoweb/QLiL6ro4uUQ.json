@@ -1,0 +1,366 @@
+{
+  "video_id": "QLiL6ro4uUQ",
+  "analyzed_at": "2026-04-07T15:37:19.938107+00:00",
+  "metadata": {
+    "title": "TMW News: Terzo disastro di un sistema fallace. Italia, da Gravina a Gattuso: ecco cosa aspettarsi",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News analizza la crisi del calcio italiano, evidenziando la terza mancata qualificazione consecutiva della nazionale ai campionati del mondo, culminata nella sconfitta ai calci di rigore contro la Bosnia. L'autore sottolinea la decadenza del movimento calcistico italiano, che ha perso il suo prestigio storico, e si concentra sulla figura di Gabriele Gravina, il presidente della Federazione, il quale potrebbe essere costretto a dimettersi a causa della crescente pressione e delle tensioni con il ministro dello sport, Andrea Bodi. Si ipotizza che Gravina non possa resistere a lun",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "pressione",
+      "relevance": "high"
+    },
+    {
+      "name": "riforma",
+      "relevance": "medium"
+    },
+    {
+      "name": "dimissioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "sistema",
+      "relevance": "medium"
+    },
+    {
+      "name": "crisi",
+      "relevance": "low"
+    },
+    {
+      "name": "perseveranza",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gravina ha perso credito dopo Euro2020.",
+      "polarity": "neutral",
+      "claim_id": "bc9c0fcd-b35f-4123-882f-a92b5ac22038",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s2",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Gravina ha perso credito dopo Euro2020.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In questo caso tutto quel credito non c'è, perché ti aggiungo per me si doveva dimettere anche dopo gli ultimi Europei.",
+          "start_sec": 151.319,
+          "end_sec": 220.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Gattuso",
+      "position": "Gattuso è stato sconfitto ai calci di rigore.",
+      "polarity": "negative",
+      "claim_id": "2ad20a33-56c9-44cd-9abb-4a8b5a959424",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s0",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso è stato sconfitto ai calci di rigore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In Bosnia la selezione di Gattuso cade ai calci di rigore.",
+          "start_sec": 12.799,
+          "end_sec": 84.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "Il movimento calcistico italiano mostra segni di decadenza.",
+      "polarity": "negative",
+      "claim_id": "a76bbad0-5239-4d2c-9b64-6210de254418",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il movimento calcistico italiano mostra segni di decadenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma in generale è un movimento che continua a non convincere, a mostrare inevitabili segni di decadenza.",
+          "start_sec": 12.799,
+          "end_sec": 84.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "La nazionale ha perso il suo lustro rispetto al passato.",
+      "polarity": "negative",
+      "claim_id": "35d416b9-b0fa-4e3f-940b-bdec319728d1",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale ha perso il suo lustro rispetto al passato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rispetto al lustro e al passato glorioso che invece aveva una volta la maglia azzurra.",
+          "start_sec": 12.799,
+          "end_sec": 84.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gravina potrebbe dimettersi dopo la non qualificazione al mondiale.",
+      "polarity": "negative",
+      "claim_id": "f4c2c151-a3ec-4fd4-9c07-4cfe95572ab1",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s1",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Gravina potrebbe dimettersi dopo la non qualificazione al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tutto lascia pensare comunque che sarà lui a cadere dal dal suo posto.",
+          "start_sec": 82.04,
+          "end_sec": 155.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gabriele Gravina",
+      "position": "Le discussioni sulla posizione di Gravina sono intense in queste ore.",
+      "polarity": "neutral",
+      "claim_id": "615ab24d-1252-436f-9500-e1cc00cc0629",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s1",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le discussioni sulla posizione di Gravina sono intense in queste ore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in queste ore chiaramente imperversano le discussioni sulla sua posizione?",
+          "start_sec": 82.04,
+          "end_sec": 155.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Andrea Bodi",
+      "position": "Ci sono tensioni nei rapporti tra Gravina e il ministro Bodi.",
+      "polarity": "negative",
+      "claim_id": "d798362e-ef9f-46cd-af88-b57b70afc3b0",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s1",
+      "target_entity": "Andrea Bodi",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono tensioni nei rapporti tra Gravina e il ministro Bodi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i rapporti con Andrea Bodi che è il ministro per lo",
+          "start_sec": 82.04,
+          "end_sec": 155.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Spalletti è stato pagato per la sconfitta della nazionale.",
+      "polarity": "neutral",
+      "claim_id": "3ef89abc-f185-49d4-945c-e2fb86cec042",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s2",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti è stato pagato per la sconfitta della nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pagò Spalletti dopo qualche, insomma, dopo dopo qualche tempo, perché c c'è voluta anche la sconfitta di OS.",
+          "start_sec": 151.319,
+          "end_sec": 220.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Buffon",
+      "position": "La permanenza di Buffon non è considerata un tema principale.",
+      "polarity": "neutral",
+      "claim_id": "0dd480e0-641d-4efc-8bd8-f6fa7628ceff",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s3",
+      "target_entity": "Buffon",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La permanenza di Buffon non è considerata un tema principale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era evidente che il tema non fosse la e non sia la permanenza di Buffon",
+          "start_sec": 217.799,
+          "end_sec": 284.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Gattuso",
+      "position": "La permanenza di Gattuso è stata messa in discussione.",
+      "polarity": "neutral",
+      "claim_id": "7b202bbf-d35d-4a0b-9f85-1fa318fd8c54",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s3",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La permanenza di Gattuso è stata messa in discussione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il tema non fosse la e non sia la permanenza di Buffon e di Gattuso",
+          "start_sec": 217.799,
+          "end_sec": 284.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina è previsto che si dimetta a causa della pressione crescente.",
+      "polarity": "negative",
+      "claim_id": "32976da6-962c-467d-8d3f-82cb53119e20",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s3",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Gravina è previsto che si dimetta a causa della pressione crescente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi aspetto che Gravina si dimetta",
+          "start_sec": 217.799,
+          "end_sec": 284.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia non parteciperà ai campionati del mondo.",
+      "polarity": "negative",
+      "claim_id": "235234c2-4fb1-45d3-9710-10a716c9c902",
+      "video_id": "QLiL6ro4uUQ",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia non parteciperà ai campionati del mondo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La nostra nazionale per la terza volta consecutiva non parteciperà ai campionati del mondo di calcio.",
+          "start_sec": 12.799,
+          "end_sec": 84.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "video_id": "oKClknI3FSI",
+  "analyzed_at": "2026-04-07T16:04:29.800736+00:00",
+  "metadata": {
+    "title": "TMWRadio - Il futuro di Leao e Bastoni. Il commento di Ravezzani, Palladini e Impallomeni",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMWRadio si concentra sul futuro incerto di Rafael Leao, attaccante del Milan, e sulla sua situazione contrattuale, evidenziando la mancanza di interesse da parte di altri club per un rinnovo. L'autore sostiene che, nonostante le critiche sul suo rendimento altalenante, Leao rimane uno dei migliori giocatori della squadra e non dovrebbe essere sostituito, poiché offre un importante riferimento per i difensori avversari. Si conclude con la riflessione che il Milan ha bisogno di giocatori più concreti e stabili, suggerendo che la situazione di Leao richiede una valutazione attenta da",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao è uno dei giocatori migliori e non dovrebbe essere tolto dalla partita.",
+      "polarity": "positive",
+      "claim_id": "25035f24-b7d9-42ce-b5fa-8d9f78dd3ff1",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s2",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Leao è uno dei giocatori migliori e non dovrebbe essere tolto dalla partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io non toglierei mai in una partita così Leao, anche se non stava brillando",
+          "start_sec": 57.079,
+          "end_sec": 95.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Milan",
+      "position": "Il Milan ha bisogno di giocatori più concreti.",
+      "polarity": "positive",
+      "claim_id": "0ecba18f-ccec-4cca-9d65-5fd5a8f4eb62",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha bisogno di giocatori più concreti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan che è una storia gloriosa alle spalle, ha bisogno di giocatori un pochino più concreti",
+          "start_sec": 92.88,
+          "end_sec": 129.03900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan deve puntare su quattro giocatori stabili.",
+      "polarity": "neutral",
+      "claim_id": "be6479ab-9da4-4afe-bf8a-714829619e25",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan deve puntare su quattro giocatori stabili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devi puntare su quattro giocatori stabili, la squadra, no?",
+          "start_sec": 127.88,
+          "end_sec": 172.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Leao",
+      "position": "Leao è in una situazione di incertezza riguardo al rinnovo.",
+      "polarity": "neutral",
+      "claim_id": "c0b0f868-10ae-4788-bdeb-06b12eba3fc0",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s0",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Leao è in una situazione di incertezza riguardo al rinnovo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "situazione da eh giocatore in bilico",
+          "start_sec": 0.12,
+          "end_sec": 30.840000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan è coinvolto nel futuro incerto di Leao.",
+      "polarity": "neutral",
+      "claim_id": "e8b20ae1-91c4-47e9-a737-790c272317f6",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è coinvolto nel futuro incerto di Leao.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Partiamo da quello del Milan che è Leao",
+          "start_sec": 0.12,
+          "end_sec": 30.840000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pulisic",
+      "position": "Pulisic non fornisce assist a Leao.",
+      "polarity": "neutral",
+      "claim_id": "d6c12b5f-760f-45e6-bdd3-86030b48e817",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s1",
+      "target_entity": "Pulisic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pulisic non fornisce assist a Leao.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però è pure vero che Pulisik due palloni lì non glieli mette.",
+          "start_sec": 28.96,
+          "end_sec": 59.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao ha un rendimento altalenante nel Milan.",
+      "polarity": "neutral",
+      "claim_id": "884a0043-a202-49af-a22a-6f0d76bbca93",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s3",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Leao ha un rendimento altalenante nel Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Leao in questo Milan ha anche così altalenante rendimento",
+          "start_sec": 92.88,
+          "end_sec": 129.03900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Allegri",
+      "position": "Allegri toglie Leao per inserire un centravanti.",
+      "polarity": "neutral",
+      "claim_id": "7c6db434-b216-4190-ae86-063bd6c2a544",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri toglie Leao per inserire un centravanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri toglie, mette un centravanti e toglie lui.",
+          "start_sec": 28.96,
+          "end_sec": 59.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Fullgrook",
+      "position": "Fullgrook potrebbe essere un'alternativa per sostituire Leao.",
+      "polarity": "neutral",
+      "claim_id": "d114833e-e6a7-4c2d-a556-eea3f79ae9fa",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s2",
+      "target_entity": "Fullgrook",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Fullgrook potrebbe essere un'alternativa per sostituire Leao.",
+      "evidence_quotes": [
+        {
+          "quote_text": "metti Fullgrook e lasci lui.",
+          "start_sec": 57.079,
+          "end_sec": 95.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Leao",
+      "position": "Leao è un giocatore potenzialmente molto forte.",
+      "polarity": "positive",
+      "claim_id": "1f86d935-76a8-4e3a-9cc5-7bdfc20c1738",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s3",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Leao è un giocatore potenzialmente molto forte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È sempre un giocatore potenzialmente molto forte",
+          "start_sec": 92.88,
+          "end_sec": 129.03900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Magnan",
+      "position": "Magnan è citato come possibile giocatore stabile.",
+      "polarity": "positive",
+      "claim_id": "02f25967-b5b4-440f-902e-fd51d0b6310f",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s4",
+      "target_entity": "Magnan",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Magnan è citato come possibile giocatore stabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Magnan potrebbe essere un altro",
+          "start_sec": 127.88,
+          "end_sec": 172.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Leao",
+      "position": "Leao fornisce un riferimento importante per i difensori avversari.",
+      "polarity": "neutral",
+      "claim_id": "4c67542e-834b-45ba-81ba-e4d4d693c2c1",
+      "video_id": "oKClknI3FSI",
+      "segment_id": "s2",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Leao fornisce un riferimento importante per i difensori avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ti dà un riferimento, anzi il marcatore... ha un riferimento facile",
+          "start_sec": 57.079,
+          "end_sec": 95.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

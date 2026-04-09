@@ -1,0 +1,362 @@
+{
+  "video_id": "5LOqonpG6pQ",
+  "analyzed_at": "2026-04-07T15:34:08.263616+00:00",
+  "metadata": {
+    "title": "TMW News: Tutto sulla lotta scudetto. Aprile senza respiro per Bologna e Fiorentina",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News analizza la lotta scudetto, focalizzandosi sulle recenti performance di Bologna e Fiorentina. L'autore, Domenico Marocchino, esprime un'opinione positiva sulla Fiorentina, evidenziando come la squadra si sia riassestata e fortificata, affrontando le difficoltà mentali con una nuova mentalità. Inoltre, sottolinea le sorprese negative dell'Inter nella partita contro i Viola e discute il potenziale di Fagioli, suggerendo che meriterebbe una chiamata in nazionale. La rivalità tra Juventus e Fiorentina è un tema ricorrente, con un rapporto complesso tra le due tifoserie.",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "high"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina si è riassestata e fortificata nelle ultime partite.",
+      "polarity": "positive",
+      "claim_id": "0cd8cf82-2763-40e2-8ee2-634f27fe29b0",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina si è riassestata e fortificata nelle ultime partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Fiorentina in queste ultime partite si è riassestata un po', ecco, insomma, si è un po', non so come dire, fortificata un pochettino",
+          "start_sec": 79.0,
+          "end_sec": 164.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha presentato sorprese negative nella partita contro la Fiorentina.",
+      "polarity": "negative",
+      "claim_id": "5cd6d361-3e06-447c-affd-f5638062ed35",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha presentato sorprese negative nella partita contro la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "magari sei rimasto sorpreso in negativo dall'Inter?",
+          "start_sec": 79.0,
+          "end_sec": 164.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina sta affrontando le partite con una nuova mentalità.",
+      "polarity": "positive",
+      "claim_id": "430ba379-6c30-4b6c-a5a7-48ab51630fdc",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina sta affrontando le partite con una nuova mentalità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se sei davanti ci metti anche inconsciamente qualcosina in più",
+          "start_sec": 79.0,
+          "end_sec": 164.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Spalletti",
+      "position": "Spalletti è caratterizzato da un modo di analizzare le partite molto lungo.",
+      "polarity": "neutral",
+      "claim_id": "ac3f48f0-31da-4524-94cb-2c7cd10bb521",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s4",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti è caratterizzato da un modo di analizzare le partite molto lungo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui gira tanto attorno, ecco, insomma, eh, è fatto così, ecco, insomma, abbiamo degli allenatori caratteristici.",
+          "start_sec": 311.24,
+          "end_sec": 399.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Allegri",
+      "position": "Allegri è considerato un ottimo allenatore per il futuro della Juventus.",
+      "polarity": "neutral",
+      "claim_id": "5e574abd-6a6c-423a-bb59-d7656f645c14",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s4",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri è considerato un ottimo allenatore per il futuro della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, Spet è sicuramente un ottimo allenatore, ecco, insomma, però ehm poi sono le scelte le scelte di chi fa mercato.",
+          "start_sec": 311.24,
+          "end_sec": 399.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Juventus",
+      "position": "Gli allenatori sono importanti, ma hanno bisogno anche di buoni elementi per avere successo.",
+      "polarity": "neutral",
+      "claim_id": "a08f7750-56d6-46af-8fb5-890f029e205c",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gli allenatori sono importanti, ma hanno bisogno anche di buoni elementi per avere successo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Insomma, gli allenatori sono importanti, valgono molto, ma deve avere anche eh è un arco, deve avere anche le frecce.",
+          "start_sec": 311.24,
+          "end_sec": 399.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Juventus",
+      "position": "La Juventus è considerata un rivale dalla Fiorentina.",
+      "polarity": "neutral",
+      "claim_id": "e59dccda-9e37-411a-8fff-6a1757e954cd",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è considerata un rivale dalla Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sei l'unico juventino simpatico che conosco.",
+          "start_sec": 13.0,
+          "end_sec": 80.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Fiorentina",
+      "position": "Il rapporto tra juventini e tifosi della Fiorentina è complesso.",
+      "polarity": "neutral",
+      "claim_id": "686592a2-88d7-4b93-a5d5-3fcc1be98957",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il rapporto tra juventini e tifosi della Fiorentina è complesso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sei l'unico juventino simpatico che conosco.",
+          "start_sec": 13.0,
+          "end_sec": 80.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus potrebbe rimpiangere di aver ceduto Cassano troppo in fretta.",
+      "polarity": "neutral",
+      "claim_id": "4489fff9-da24-4028-abdf-1dcd0a993a4e",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus potrebbe rimpiangere di aver ceduto Cassano troppo in fretta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juventus può può rimpiangerlo, ma non è",
+          "start_sec": 236.36,
+          "end_sec": 313.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Le scelte di mercato determinano la capacità della Juventus di trovare giocatori di valore.",
+      "polarity": "neutral",
+      "claim_id": "a33d5cf9-41eb-4dc8-8209-d8b183310c75",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le scelte di mercato determinano la capacità della Juventus di trovare giocatori di valore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la capacità di trovare giocatori determinanti.",
+          "start_sec": 311.24,
+          "end_sec": 399.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha reagito bene alle difficoltà mentali.",
+      "polarity": "positive",
+      "claim_id": "d7605445-ca94-4b12-96c6-b2ed482808e5",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha reagito bene alle difficoltà mentali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "reagire anche non accadeva.",
+          "start_sec": 79.0,
+          "end_sec": 164.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cassano",
+      "position": "Cassano è un giocatore interessante nonostante non sia ai livelli di Pirlo.",
+      "polarity": "neutral",
+      "claim_id": "132641db-737c-4ab5-8ac7-de3847cd4514",
+      "video_id": "5LOqonpG6pQ",
+      "segment_id": "s3",
+      "target_entity": "Cassano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cassano è un giocatore interessante nonostante non sia ai livelli di Pirlo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco, insomma, però è comunque interessante.",
+          "start_sec": 236.36,
+          "end_sec": 313.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

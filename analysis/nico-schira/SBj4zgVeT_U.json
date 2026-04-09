@@ -1,0 +1,354 @@
+{
+  "video_id": "SBj4zgVeT_U",
+  "analyzed_at": "2026-04-08T13:34:30.813049+00:00",
+  "metadata": {
+    "title": "LEAO SPACCA IN DUE IL MILAN. INTER, PORTE GIREVOLI. LE 2 ANIME DELLA ROMA E IL VALZER DEI DIRETTORI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza il dinamico mercato dei direttori sportivi nel calcio italiano, evidenziando il fermento attuale sia nei settori giovanili che nelle prime squadre. L'autore sottolinea come la carriera di Sean Sogliano al Verona sia giunta al termine, dopo aver contribuito a numerose plusvalenze e salvezze, rendendolo un candidato interessante per altre società in cerca di un nuovo direttore sportivo. Inoltre, si accenna alla possibilità che Cristiano Giuntoli possa trasferirsi a Roma o Londra, suggerendo che il mercato dei direttori sportivi potrebbe subire ulteriori cambiamen",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "europe",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "ingaggi",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Petrachi",
+      "position": "Petrachi non ha convinto al 100% in questo momento.",
+      "polarity": "neutral",
+      "claim_id": "7b442967-983b-4018-8a94-64f58cf961ef",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s2",
+      "target_entity": "Petrachi",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Petrachi non ha convinto al 100% in questo momento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lì Petrachi in questo momento non ha convinto al 100%.",
+          "start_sec": 54.32,
+          "end_sec": 83.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il mercato dei direttori sportivi è attivo con cambiamenti anche nelle prime squadre.",
+      "polarity": "neutral",
+      "claim_id": "28e1bff3-9194-4df4-b8d8-d299789cc57e",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato dei direttori sportivi è attivo con cambiamenti anche nelle prime squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un po' più di fermento per quel che riguarda i settori giovanili, ma attenzione, qualcosa si muove anche a livello di prime squadre",
+          "start_sec": 1.439,
+          "end_sec": 28.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "direttori sportivi",
+      "position": "C'è un fermento nel mercato dei direttori sportivi.",
+      "polarity": "neutral",
+      "claim_id": "e293e4ff-832e-426e-b11c-fb29015f890f",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s0",
+      "target_entity": "direttori sportivi",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un fermento nel mercato dei direttori sportivi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un po' più di fermento per quel che riguarda i settori giovanili",
+          "start_sec": 1.439,
+          "end_sec": 28.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "settori giovanili",
+      "position": "I settori giovanili stanno vivendo un periodo attivo nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "0fb5cada-74e6-47fe-a1ed-a3468381f4fc",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s0",
+      "target_entity": "settori giovanili",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I settori giovanili stanno vivendo un periodo attivo nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un po' più di fermento per quel che riguarda i settori giovanili",
+          "start_sec": 1.439,
+          "end_sec": 28.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Verona",
+      "position": "Il ciclo di Sogliano con il Verona è considerato concluso.",
+      "polarity": "neutral",
+      "claim_id": "1bfab173-de7a-471d-95f9-2481ab76cf1d",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s1",
+      "target_entity": "Verona",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il ciclo di Sogliano con il Verona è considerato concluso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sogliano riteneva chiuso il suo ciclo veronese dopo tante salvezze brillanti.",
+          "start_sec": 26.519,
+          "end_sec": 55.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Ellas",
+      "position": "L'Ellas ha registrato numerose plusvalenze attraverso la vendita di giocatori.",
+      "polarity": "neutral",
+      "claim_id": "b3f155dd-ec9d-437b-b334-fde151a3edf6",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s1",
+      "target_entity": "Ellas",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Ellas ha registrato numerose plusvalenze attraverso la vendita di giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo tante plusvalenze, dopo tanti ragazzi presi a 0 a 1 milione, a 2 milioni, a 3 milioni, rivenduti a 10, 12, 15, 20 milioni",
+          "start_sec": 26.519,
+          "end_sec": 55.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Ellas",
+      "position": "La sconfitta col Genoa ha messo in difficoltà l'Ellas nella stagione.",
+      "polarity": "negative",
+      "claim_id": "7801fcc2-c456-492d-9bcf-21222e96fad1",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s1",
+      "target_entity": "Ellas",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La sconfitta col Genoa ha messo in difficoltà l'Ellas nella stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sconfitta col Genoa di fatto ha decretato una mezza retrocessione per l'Ellas",
+          "start_sec": 26.519,
+          "end_sec": 55.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Torino",
+      "position": "Il Torino potrebbe essere interessato a Sogliano per il suo valzer dei direttori sportivi.",
+      "polarity": "neutral",
+      "claim_id": "3bd1a071-878e-4dae-81f6-37820bdb98d8",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s2",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Torino potrebbe essere interessato a Sogliano per il suo valzer dei direttori sportivi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi attenzione a nome di Sognano nel valzer dei direttori sportivi. Potrebbe essere un'idea del Torino.",
+          "start_sec": 54.32,
+          "end_sec": 83.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sean Sogliano",
+      "position": "Sean Sogliano è stato menzionato per il suo ruolo nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "7ee11100-b6fc-4e8e-8595-723a7575b5a3",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s0",
+      "target_entity": "Sean Sogliano",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sean Sogliano è stato menzionato per il suo ruolo nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vi raccontavo come Sean Sogliano e il",
+          "start_sec": 1.439,
+          "end_sec": 28.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sogliano",
+      "position": "Sogliano ha contribuito a numerose salvezze brillanti per il Verona.",
+      "polarity": "positive",
+      "claim_id": "456635bb-fa79-4a1c-a15f-811378372ca0",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s1",
+      "target_entity": "Sogliano",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sogliano ha contribuito a numerose salvezze brillanti per il Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo tante salvezze brillanti",
+          "start_sec": 26.519,
+          "end_sec": 55.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cairo",
+      "position": "Cairo ha aperto a possibili acquirenti per il Torino",
+      "polarity": "positive",
+      "claim_id": "4197bc09-d744-4547-9ed6-748447b30e87",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s3",
+      "target_entity": "Cairo",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cairo ha aperto a possibili acquirenti per il Torino",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha aperto lo spiraglio a possibili acquirenti",
+          "start_sec": 82.2,
+          "end_sec": 114.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sogliano",
+      "position": "Sogliano è considerato un innesto interessante per il player trading.",
+      "polarity": "neutral",
+      "claim_id": "a6955559-25b3-400d-8ca2-f7cd388c8f03",
+      "video_id": "SBj4zgVeT_U",
+      "segment_id": "s2",
+      "target_entity": "Sogliano",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sogliano è considerato un innesto interessante per il player trading.",
+      "evidence_quotes": [
+        {
+          "quote_text": "guardano in Sogliano come possibile innesto interessante perché ti prende giocatori a poco, te li fa vendere a tanto",
+          "start_sec": 54.32,
+          "end_sec": 83.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

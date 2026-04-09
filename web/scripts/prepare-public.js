@@ -7,8 +7,23 @@ const root = resolve(__dirname, '../..')
 const analysisDir = resolve(root, 'analysis')
 const channelsPath = resolve(root, 'channels', 'channels.json')
 const publicDir = resolve(__dirname, '../public/analysis')
-if (existsSync(publicDir)) rmSync(publicDir, { recursive: true })
-mkdirSync(publicDir, { recursive: true })
+
+function ensureEmptyDir(dir) {
+  // On Windows (especially under OneDrive), recursive delete can intermittently fail with EPERM.
+  // We treat cleanup as best-effort so `vite` can still start.
+  if (existsSync(dir)) {
+    try {
+      rmSync(dir, { recursive: true, force: true, maxRetries: 5, retryDelay: 100 })
+    } catch (e) {
+      // If the directory is locked, avoid failing: keep existing folder and overwrite files below.
+      // eslint-disable-next-line no-console
+      console.warn(`[prepare-public] Could not remove ${dir}: ${e?.code ?? e?.message ?? e}`)
+    }
+  }
+  mkdirSync(dir, { recursive: true })
+}
+
+ensureEmptyDir(publicDir)
 
 const channelsConfig = existsSync(channelsPath)
   ? JSON.parse(readFileSync(channelsPath, 'utf-8'))

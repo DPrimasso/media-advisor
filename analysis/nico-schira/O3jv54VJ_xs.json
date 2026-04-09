@@ -1,0 +1,366 @@
+{
+  "video_id": "O3jv54VJ_xs",
+  "analyzed_at": "2026-04-08T12:45:34.782320+00:00",
+  "metadata": {
+    "title": "ITALIA, FINALMENTE GRAVINA SI È DIMESSO! ECCO CHI ARRIVERÀ AL SUO POSTO E I PREFERITI COME NUOVO CT",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza le recenti dimissioni di Gabriele Gravina dalla presidenza della Federazione Italiana Giuoco Calcio, sottolineando come questa svolta fosse attesa da molti, tra cui politici e dirigenti sportivi. L'autore esprime una posizione critica nei confronti della gestione di Gravina e di Rino Gattuso come commissario tecnico, evidenziando l'importanza di una nuova leadership per riportare competitività al calcio italiano. Le elezioni per il nuovo presidente della FGC sono fissate per il 22 giugno, con Giovanni Malagò come candidato favorito, mentre si prevede un cambiam",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "high"
+    },
+    {
+      "name": "competitività",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "eventi",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "FGC",
+      "position": "Le elezioni presidenziali per il nuovo presidente della FGC sono fissate per il 22 giugno.",
+      "polarity": "neutral",
+      "claim_id": "721c809e-8790-4f16-8bee-300b0e43e442",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s1",
+      "target_entity": "FGC",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le elezioni presidenziali per il nuovo presidente della FGC sono fissate per il 22 giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "elezioni presidenziali per il nuovo numero uno del calcio italiano, il nuovo presidente della FGC, già fissate per il 22 giugno.",
+          "start_sec": 32.599,
+          "end_sec": 62.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Rino Gattuso",
+      "position": "La gestione di Gattuso come CT è stata disastrosa.",
+      "polarity": "negative",
+      "claim_id": "e570d32e-1597-4059-94b6-656a50cca3d0",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s2",
+      "target_entity": "Rino Gattuso",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La gestione di Gattuso come CT è stata disastrosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'avventura di Gattuso è stata disastrosa da commissario tecnico della nazionale",
+          "start_sec": 60.84,
+          "end_sec": 89.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Abete",
+      "position": "Abete potrebbe tornare come presidente della federazione dopo 12 anni.",
+      "polarity": "positive",
+      "claim_id": "c444e341-0303-4c9a-a667-aa9ce29b27db",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s3",
+      "target_entity": "Abete",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Abete potrebbe tornare come presidente della federazione dopo 12 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abete che era fino al 2014 presidente della federazione 12 anni dopo potrebbe tornare sul vascello",
+          "start_sec": 87.6,
+          "end_sec": 120.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Aurelio De Laurentiis",
+      "position": "Aurelio De Laurentiis crede che Malagò possa riportare competitività al calcio italiano.",
+      "polarity": "positive",
+      "claim_id": "d17956a6-6ce3-492e-87ea-6a26c3b5c922",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s1",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Aurelio De Laurentiis crede che Malagò possa riportare competitività al calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se arriva Malagò in 2 anni il calcio italiano torna a essere competitivo.",
+          "start_sec": 32.599,
+          "end_sec": 62.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Malagò è in pole position per diventare presidente della FGC.",
+      "polarity": "positive",
+      "claim_id": "82a46183-41d7-41d9-ab8c-0c456ffa5217",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s3",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò è in pole position per diventare presidente della FGC.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malago in pol position per il ruolo di presidente della FGC",
+          "start_sec": 87.6,
+          "end_sec": 120.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gabriele Gravina si è dimesso dalla sua carica.",
+      "polarity": "negative",
+      "claim_id": "b25ab45d-3d25-43af-9d4c-e767da0775b1",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s0",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gabriele Gravina si è dimesso dalla sua carica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le dimissioni di Gabriele Gravina",
+          "start_sec": 0.88,
+          "end_sec": 34.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Claudio Gotito",
+      "position": "Claudio Gotito è citato tra i critici di Gravina.",
+      "polarity": "neutral",
+      "claim_id": "af417291-2d8e-47ac-8e18-b90aa91509e5",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s0",
+      "target_entity": "Claudio Gotito",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Gotito è citato tra i critici di Gravina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in primis Claudio Gotito",
+          "start_sec": 0.88,
+          "end_sec": 34.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "nuovo CT",
+      "position": "Il nuovo CT sarà presente durante l'amichevole contro la Grecia.",
+      "polarity": "positive",
+      "claim_id": "999720e7-55cf-40dd-8c1b-8434609044e9",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s2",
+      "target_entity": "nuovo CT",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il nuovo CT sarà presente durante l'amichevole contro la Grecia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lì ci sarà già il nuovo CT",
+          "start_sec": 60.84,
+          "end_sec": 89.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gianluigi Buffon",
+      "position": "Gianluigi Buffon è vicino all'addio come capo delegazione.",
+      "polarity": "negative",
+      "claim_id": "c6d15503-f48e-400f-baee-ff30bdf91075",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s3",
+      "target_entity": "Gianluigi Buffon",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluigi Buffon è vicino all'addio come capo delegazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un passo d'addio anche Gianluigi Buffon",
+          "start_sec": 87.6,
+          "end_sec": 120.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "nazionale",
+      "position": "La nazionale non parteciperà al mondiale.",
+      "polarity": "negative",
+      "claim_id": "9e865a41-bde7-4f3e-a912-e5c9bce0d920",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s2",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale non parteciperà al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vista le difficoltà della nostra nazionale che non andrà al mondiale",
+          "start_sec": 60.84,
+          "end_sec": 89.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "amichevole",
+      "position": "È stata fissata un'amichevole contro la Grecia.",
+      "polarity": "neutral",
+      "claim_id": "8cde2fb9-2849-40af-81e4-eb16459199c4",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s2",
+      "target_entity": "amichevole",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È stata fissata un'amichevole contro la Grecia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fissata anche un amichevole per non farci mancare nulla il 7 di giugno a Creta contro la Grecia",
+          "start_sec": 60.84,
+          "end_sec": 89.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matteo Marani",
+      "position": "Matteo Marani potrebbe affrontare difficoltà come candidato.",
+      "polarity": "negative",
+      "claim_id": "8c0982f5-3af2-4bf6-b83c-4a041b3fee1d",
+      "video_id": "O3jv54VJ_xs",
+      "segment_id": "s4",
+      "target_entity": "Matteo Marani",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Matteo Marani potrebbe affrontare difficoltà come candidato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la possibile candidatura di Matteo Marani che, insomma, avete visto le difficoltà della Lega Pro",
+          "start_sec": 118.32,
+          "end_sec": 148.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

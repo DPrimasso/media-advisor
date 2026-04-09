@@ -1,0 +1,410 @@
+{
+  "video_id": "zRHBK5K8EwY",
+  "analyzed_at": "2026-03-31T14:48:55.205Z",
+  "metadata": {
+    "title": "Benvenuti all'inferno! 👀 #Kalulu #Bastoni e molto altro! 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-15T07:06:24+00:00"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza le recenti partite di Serie A, con particolare attenzione alla vittoria dell'Inter contro la Juventus e alle difficoltà del Napoli. L'autore esprime scetticismo riguardo alla possibilità di una rimonta del Napoli, sottolineando le defezioni della squadra, e si mostra soddisfatto del risultato dell'Inter, che allontana la Juventus dalla lotta per il titolo. Tra le conclusioni chiave, si evidenzia la preoccupazione per le prestazioni del Milan e le polemiche legate a episodi controversi, come il rigore non assegnato al Napoli e le critiche a gioca",
+  "topics": [
+    {
+      "name": "simulazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "commento",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "refereeing",
+      "relevance": "medium"
+    },
+    {
+      "name": "cartellini gialli",
+      "relevance": "low"
+    },
+    {
+      "name": "upcoming_match",
+      "relevance": "low"
+    },
+    {
+      "name": "episodi di gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "rimonta",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "4e0a119a-1971-4825-a7a9-7d0b285854c2",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s1",
+      "target_entity": "McDomin",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "McDomin non giocherà contro la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "McDomin in copertina che non gioca chissà se insomma con la Roma,",
+          "start_sec": 37.719,
+          "end_sec": 72.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "McDomin"
+      ],
+      "topic": "injury",
+      "subject": "McDomin",
+      "position": "McDomin non giocherà contro la Roma.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "fe0ead3d-a9d3-4d68-9a3c-04dae43c3e46",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus non è riuscita a vincere contro l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ero convinto che la Juve potesse sbancare San Siro o comunque almeno non perderla",
+          "start_sec": 70.28,
+          "end_sec": 107.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Juventus",
+        "Inter",
+        "sconfitta"
+      ],
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus non è riuscita a vincere contro l'Inter.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "307aafca-4072-4abd-9901-c75c6866e70d",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il Milan potrebbe essere preoccupato per la prestazione dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ora se si se ne preoccupasse il Milan di questa roba perché sono loro a stretto contatto",
+          "start_sec": 70.28,
+          "end_sec": 107.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Milan",
+        "Inter",
+        "preoccupazione"
+      ],
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe essere preoccupato per la prestazione dell'Inter.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "18a17000-2fee-4a6f-b906-404b2a97dbfe",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria dell'Inter sarà sempre macchiata da eventi negativi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la vittoria di questo scudetto resterà in qualche modo macchiata per sempre perché sto vedendo una vera e propria rivoluzione sui social.",
+          "start_sec": 105.68,
+          "end_sec": 138.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "vittoria",
+        "critica"
+      ],
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "La vittoria dell'Inter sarà sempre macchiata da eventi negativi.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "e664a5c4-9271-4119-ac3b-b2105585b458",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s3",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti è stato aggredito durante le tensioni in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Comogli aggredire, tentare di aggredire Spalletti lo deve lo deve bloccare...",
+          "start_sec": 105.68,
+          "end_sec": 138.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tensioni",
+        "emozioni",
+        "leadership"
+      ],
+      "topic": "leadership",
+      "subject": "Spalletti",
+      "position": "Spalletti è stato aggredito durante le tensioni in campo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "65cd6f13-91e2-41d9-8007-233f9aa5131c",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Ogni partita della Lazio presenta qualcosa di incredibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ogni partita c'è qualcosa di incredibile di cui raccontare,",
+          "start_sec": 37.719,
+          "end_sec": 72.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lazio",
+        "partite"
+      ],
+      "topic": "media",
+      "subject": "Lazio",
+      "position": "Ogni partita della Lazio presenta qualcosa di incredibile.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "bf2e52e5-48ef-4276-b86a-4bfc34bc0fb3",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha vinto, allontanandosi dalla Juventus nella classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vittoria dell'Inter perché così non si riavvicina alla Juve",
+          "start_sec": 70.28,
+          "end_sec": 107.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "classifica",
+        "Inter"
+      ],
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha vinto, allontanandosi dalla Juventus nella classifica.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "62d0e1eb-83b5-4208-a8b6-da41dfd094d2",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Milan stava giocando in modo poco incisivo durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sono reso conto che forse il Milan stava un po' troppo",
+          "start_sec": 70.28,
+          "end_sec": 107.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Milan",
+        "prestazione",
+        "incisività"
+      ],
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan stava giocando in modo poco incisivo durante la partita.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "dca3d864-462b-4165-aa8f-d229184d6d32",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha poche possibilità di una rimonta incredibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo poco a una rimonta incredibile del Napoli.",
+          "start_sec": 37.719,
+          "end_sec": 72.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rimonta",
+        "Napoli"
+      ],
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli ha poche possibilità di una rimonta incredibile.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "003c5720-7808-401f-b6cd-bff02dcf4dea",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "È successo un casino tra Como e Fiorentino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "casino che è successo tra Como e Fiorentino.",
+          "start_sec": 37.719,
+          "end_sec": 72.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Como",
+        "Fiorentino"
+      ],
+      "topic": "media",
+      "subject": "Como",
+      "position": "È successo un casino tra Como e Fiorentino.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "ab855d07-6245-4f83-87f3-dbd2e5ac76ff",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Le tensioni ricordano le rivalità con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché stavano arrivando alle stile Juve.",
+          "start_sec": 105.68,
+          "end_sec": 138.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rivalità",
+        "tensioni",
+        "stile"
+      ],
+      "topic": "rivalry",
+      "subject": "Juventus",
+      "position": "Le tensioni ricordano le rivalità con la Juventus.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a0971509-be95-4223-8a34-62b8b4039be8",
+      "video_id": "zRHBK5K8EwY",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter doveva vincere per non perdere punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter non poteva mollare punti oggi,",
+          "start_sec": 105.68,
+          "end_sec": 138.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "necessità",
+        "vittoria"
+      ],
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter doveva vincere per non perdere punti.",
+      "polarity": "positive"
+    }
+  ]
+}

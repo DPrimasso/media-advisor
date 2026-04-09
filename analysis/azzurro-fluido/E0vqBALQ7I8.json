@@ -1,0 +1,407 @@
+{
+  "video_id": "E0vqBALQ7I8",
+  "analyzed_at": "2026-03-31T15:59:29.175Z",
+  "metadata": {
+    "title": "Ma avete ASCOLTATO BENE #Conte in #CONFERENZA? 👀 #Cremonese #Napoli 0-2 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-29T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la vittoria del Napoli contro la Cremonese, sottolineando l'importanza delle dichiarazioni di Conte in merito alla situazione delle squadre di Serie A. L'autore sostiene che il Napoli non è inferiore a Juventus e Inter, nonostante le percezioni comuni, evidenziando che ha vinto due degli ultimi tre campionati e non ha problemi economici come le altre squadre. Inoltre, critica la tendenza a mistificare le parole di Conte, affermando che le sue osservazioni sono veritiere e non dovrebbero generare polemiche infondate.",
+  "topics": [
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "assist",
+      "relevance": "high"
+    },
+    {
+      "name": "mistificazione comunicazione",
+      "relevance": "high"
+    },
+    {
+      "name": "risultati",
+      "relevance": "medium"
+    },
+    {
+      "name": "salvataggi",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "analisi delle pagelle",
+      "relevance": "low"
+    },
+    {
+      "name": "tattiche di gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "vittoria napoli",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "ec827e9a-6bf3-404b-83cd-0d66c3fcfbb1",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto la partita contro la Cremonese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è bello poter parlare di una partita vinta bene, con tranquillità, senza problemi.",
+          "start_sec": 2.08,
+          "end_sec": 105.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "prestazione"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto la partita contro la Cremonese.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a6e35cb1-474c-4da8-9316-af7b2d76ca28",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le parole di Conte sono state importanti in momenti chiave.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le parole di Conte ehm in due fasi, in due momenti sono molto importanti.",
+          "start_sec": 2.08,
+          "end_sec": 105.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "influenza"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Le parole di Conte sono state importanti in momenti chiave.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ce814265-75e3-46a3-b705-c815313b74a9",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lukaku potrebbe non essere stato utilizzato a causa di polemiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Come mai? E io vi dico delle cose, mi prendo delle responsabilità...",
+          "start_sec": 2.08,
+          "end_sec": 105.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "polemiche",
+        "scelte"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Lukaku",
+      "position": "Lukaku potrebbe non essere stato utilizzato a causa di polemiche.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "53ac82f0-53da-4d0a-9eef-11545998d2e8",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Si dovrebbe evitare di mistificare le parole di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le cercano di mistificare, gli mettono in bocca cose che non ha detto...",
+          "start_sec": 2.08,
+          "end_sec": 105.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "analisi"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Si dovrebbe evitare di mistificare le parole di Conte.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "96f5074c-bbef-491f-ac2d-c9f90aeaff2d",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto due degli ultimi tre campionati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli è comunque la squadra che ha vinto due degli ultimi tre campionati.",
+          "start_sec": 103.96,
+          "end_sec": 199.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "campionati",
+        "successo"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto due degli ultimi tre campionati.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b6e3c21c-9126-4cb5-a027-5886b805c155",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha risposto a domande senza valore durante la conferenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte che risponde all'ennesima domanda che non serve a nulla.",
+          "start_sec": 197.36,
+          "end_sec": 288.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conferenza",
+        "Conte",
+        "domande"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte ha risposto a domande senza valore durante la conferenza.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "40329c28-2ae3-4b0a-9ad1-8ef9ccd9c5a5",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il Napoli è visto come la squadra più forte del mondo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dillo che siete il Napoli è la squadra più forte del mondo ed è pronto a comandare a livello generale.",
+          "start_sec": 197.36,
+          "end_sec": 288.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "prestazioni",
+        "forza"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli è visto come la squadra più forte del mondo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b65e74dd-91f2-4c27-ac23-8f7010d10dba",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s3",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas ha creato spazi liberi per i compagni e ha contribuito al gol del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il movimento di Elmas tirare fuori Terracciano, come il movimento di Elmas tirava fuori Tomori che libera la linea di passaggio.",
+          "start_sec": 286.6,
+          "end_sec": 379.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "movement",
+        "goal_creation"
+      ],
+      "topic": "tactics",
+      "subject": "Elmas",
+      "position": "Elmas ha creato spazi liberi per i compagni e ha contribuito al gol del Napoli.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a65993d3-b7e6-41cf-9549-8b1e51e63d2f",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Conte avvelena i pozzi quando dice la verità sulle altre squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conti avvelena i pozzi quando dice semplicemente la verità.",
+          "start_sec": 103.96,
+          "end_sec": 199.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "polemiche"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte avvelena i pozzi quando dice la verità sulle altre squadre.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "b5904af6-e4fe-4fe8-9dcc-4effac5e8527",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli non pressa sempre con convinzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli sa che Vardi lo fa ma non lo fa convinzione.",
+          "start_sec": 197.36,
+          "end_sec": 288.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "tattiche",
+        "pressione"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli non pressa sempre con convinzione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "34fb6aff-e6a8-49c2-9f10-a541fbe37856",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha ben altri problemi economici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus che ha ben altri problemi.",
+          "start_sec": 103.96,
+          "end_sec": 199.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "economia",
+        "squadra"
+      ],
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha ben altri problemi economici.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "39a03031-811d-47b4-be7f-28aa17654410",
+      "video_id": "E0vqBALQ7I8",
+      "segment_id": "s2",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "PROBABLE",
+      "claim_text": "Elmas potrebbe avere un ruolo chiave nel prossimo match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La situazione del della partita di Elmas.",
+          "start_sec": 197.36,
+          "end_sec": 288.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Elmas",
+        "ruolo",
+        "partita"
+      ],
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas potrebbe avere un ruolo chiave nel prossimo match.",
+      "polarity": "positive"
+    }
+  ]
+}

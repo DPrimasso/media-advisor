@@ -1,0 +1,358 @@
+{
+  "video_id": "zuYrVxVY_sQ",
+  "analyzed_at": "2026-04-08T13:18:39.574349+00:00",
+  "metadata": {
+    "title": "ALTRA INCOMPIUTA JUVE: ECCO COSA VUOLE E CHIEDE SPALLETTI PER SVOLTARE. MILAN, UN ADDIO E UN RITORNO",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video analizza le recenti performance delle squadre di Serie A, con particolare attenzione al ritorno vincente di Marco Giampaolo sulla panchina della Cremonese, che ha ottenuto una vittoria significativa contro il Parma, una squadra in difficoltà. L'autore, Nico Schira, esprime scetticismo riguardo al Parma, sottolineando la mancanza di valorizzazione dei singoli giocatori e un gioco poco convincente, nonostante la posizione in classifica che lo avvicina alla salvezza. Inoltre, il Milan, pur avendo vinto contro il Torino, non ha impressionato per il suo gioco, evidenziando la necessità di ",
+  "topics": [
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "rigore",
+      "relevance": "medium"
+    },
+    {
+      "name": "sfida",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatori",
+      "relevance": "low"
+    },
+    {
+      "name": "vittoria",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Parma",
+      "position": "Il Parma è a 23 punti dall'aritmetica salvezza.",
+      "polarity": "neutral",
+      "claim_id": "6a053ac4-57ae-49e6-ba61-8b16cbf7e909",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s0",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Parma è a 23 punti dall'aritmetica salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Parma che a quota 34 a 23 punti dall'aritmetica salvezza.",
+          "start_sec": 1.079,
+          "end_sec": 26.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pellegrino",
+      "position": "Pellegrino non è stato valorizzato nel modulo attuale del Parma.",
+      "polarity": "negative",
+      "claim_id": "231cb220-739a-4788-9106-5e4cbc7304aa",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s1",
+      "target_entity": "Pellegrino",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pellegrino non è stato valorizzato nel modulo attuale del Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gente come Pellegrino, Bernabé con questo modulo prettamente difensivo non è stata valorizzata",
+          "start_sec": 24.76,
+          "end_sec": 55.199000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Marco Giampaolo",
+      "position": "Marco Giampaolo ha vinto il suo ritorno in panchina.",
+      "polarity": "positive",
+      "claim_id": "bb978e73-3f90-4692-85e6-e3de0932a188",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s0",
+      "target_entity": "Marco Giampaolo",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Marco Giampaolo ha vinto il suo ritorno in panchina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il ritorno in panchina vincente del maestro Marco Giampaolo",
+          "start_sec": 1.079,
+          "end_sec": 26.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Carlos Quest",
+      "position": "Carlos Quest è il più giovane allenatore della Serie A.",
+      "polarity": "neutral",
+      "claim_id": "8aa86882-dcdc-41c5-8843-f5b058b6d957",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s0",
+      "target_entity": "Carlos Quest",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Carlos Quest è il più giovane allenatore della Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giovane Carlos Quest, l'allenatore più giovane della Serie A",
+          "start_sec": 1.079,
+          "end_sec": 26.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Parma",
+      "position": "Il Parma ha giocato un anticalcio non convincente quest'anno.",
+      "polarity": "negative",
+      "claim_id": "16a49588-cf33-4ab3-ad39-394ab1259ee1",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s1",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Parma ha giocato un anticalcio non convincente quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gioca l'anticalcio negli anni 70, ma perché il Parma non ha idee,",
+          "start_sec": 24.76,
+          "end_sec": 55.199000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Giampaolo",
+      "position": "Giampaolo ha rivitalizzato la squadra dopo un lungo periodo negativo.",
+      "polarity": "positive",
+      "claim_id": "b801c35c-80d3-4b15-9195-c4faa30ad708",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s2",
+      "target_entity": "Giampaolo",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giampaolo ha rivitalizzato la squadra dopo un lungo periodo negativo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "buona la prima per Giampaolo che rivitalizza la squadra",
+          "start_sec": 52.719,
+          "end_sec": 85.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Nicola",
+      "position": "Nicola è stato esonerato dopo un periodo di risultati deludenti.",
+      "polarity": "negative",
+      "claim_id": "d815be58-e2b9-48cf-9f3c-63be75f1933c",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s2",
+      "target_entity": "Nicola",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nicola è stato esonerato dopo un periodo di risultati deludenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da Nicola che veniva da 11 sconfitte nelle ultime 15 giornate",
+          "start_sec": 52.719,
+          "end_sec": 85.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Cremonese",
+      "position": "La Cremonese mostra segnali di miglioramento e avvicinamento alla salvezza.",
+      "polarity": "positive",
+      "claim_id": "74e07d40-2cbf-449e-89a0-3f856d7a3046",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s2",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Cremonese mostra segnali di miglioramento e avvicinamento alla salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è lì a un passo dalla salvezza, ma è stato rullato il Parma letteralmente dalla Cremonese",
+          "start_sec": 52.719,
+          "end_sec": 85.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Parma",
+      "position": "Il Parma non ha valorizzato i singoli giocatori.",
+      "polarity": "negative",
+      "claim_id": "099f3176-7609-4d85-86a8-cd1906cfa442",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s1",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Parma non ha valorizzato i singoli giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una squadra che non ha valorizzato i singoli",
+          "start_sec": 24.76,
+          "end_sec": 55.199000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Cremonese",
+      "position": "Cremonese è in lotta per la salvezza.",
+      "polarity": "neutral",
+      "claim_id": "ee4e5de0-1980-4892-abcc-2d4c9732df4f",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s3",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese è in lotta per la salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "riporta la Cremonese in lotta per la salvezza.",
+          "start_sec": 83.72,
+          "end_sec": 120.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Lecce",
+      "position": "Lecce giocherà a Roma contro la Roma.",
+      "polarity": "neutral",
+      "claim_id": "a5931502-66ce-46d2-a1b8-f0e7c740e69a",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s3",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lecce giocherà a Roma contro la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi sarà di scena a Roma contro la Roma.",
+          "start_sec": 83.72,
+          "end_sec": 120.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "Cremonese ha ottenuto una vittoria importante contro il Parma.",
+      "polarity": "positive",
+      "claim_id": "ee7d28e0-d99f-466a-9d7e-01845d1c54ca",
+      "video_id": "zuYrVxVY_sQ",
+      "segment_id": "s2",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese ha ottenuto una vittoria importante contro il Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rullato il Parma letteralmente dalla Cremonese",
+          "start_sec": 52.719,
+          "end_sec": 85.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

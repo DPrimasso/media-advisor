@@ -1,0 +1,310 @@
+{
+  "video_id": "Bf1YWIj1pis",
+  "analyzed_at": "2026-02-16T17:02:30.105Z",
+  "metadata": {
+    "title": "Le dichiarazioni di #Chivu dopo #interjuve",
+    "author_name": "Neschio",
+    "published_at": "2026-02-15T12:00:00.000Z"
+  },
+  "summary": "Le dichiarazioni di #Chivu dopo #interjuve — 2026-02-15",
+  "topics": [
+    {
+      "name": "immoralità",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "controversie",
+      "relevance": "medium"
+    },
+    {
+      "name": "simulazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "interessi",
+      "relevance": "medium"
+    },
+    {
+      "name": "esperienza",
+      "relevance": "low"
+    },
+    {
+      "name": "opportunità",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "f9ae6964-c442-4f08-9e16-ba504efb8438",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s1",
+      "target_entity": "Cristian Chivu",
+      "entity_type": "coach",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Chivu non ha chiesto scusa dopo un episodio a favore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sogno di sentire un allenatore che quando riceve un episodio a favore chieda scusa.",
+          "start_sec": 2.24,
+          "end_sec": 39.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "Cristian Chivu",
+      "position": "Chivu non ha chiesto scusa dopo un episodio a favore.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "418c1c55-f1b9-450a-89d2-7a04e7904360",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s1",
+      "target_entity": "Cristian Chivu",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Chivu non è considerato un eroe in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ce ne sono santi, eh, non ce ne sono eroi mantello bianco e non lo è certamente neanche Cristian Kivu",
+          "start_sec": 2.24,
+          "end_sec": 39.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Cristian Chivu",
+      "position": "Chivu non è considerato un eroe in campo.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "bdadf1c2-cbd2-4909-bace-d3bcbe9534e0",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s1",
+      "target_entity": "Cristian Chivu",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Chivu ha espresso opinioni controverse sugli episodi arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha sparato un sacco di di scemenze perché il tocco leggero, ma io",
+          "start_sec": 2.24,
+          "end_sec": 39.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Cristian Chivu",
+      "position": "Chivu ha espresso opinioni controverse sugli episodi arbitrali.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "05282b48-5b7d-493c-aa3b-88f9fb79684f",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s2",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni è considerato inesperto e non migliore degli altri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kiu non è meglio degli altri. Era semplicemente un po' in esperto",
+          "start_sec": 37.28,
+          "end_sec": 71.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Bastoni",
+      "position": "Bastoni è considerato inesperto e non migliore degli altri.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "d43a551f-94cb-403b-bfdc-9c2dbc99ad30",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s2",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Chivu difende gli interessi della squadra piuttosto che avere un comportamento sportivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "decidi di fare la cosa più semplice, ossia fare gli interessi della squadra che ti paga",
+          "start_sec": 37.28,
+          "end_sec": 71.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "squadra",
+      "position": "Chivu difende gli interessi della squadra piuttosto che avere un comportamento sportivo.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "3f56596d-0541-4708-9c52-63522dfed994",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s3",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PROBABLE",
+      "claim_text": "La squadra avrà presto l'opportunità di dimostrare il proprio valore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando capiterà la mia squadra, una roba del genere e capiterà",
+          "start_sec": 69.04,
+          "end_sec": 77.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "squadra",
+      "position": "La squadra avrà presto l'opportunità di dimostrare il proprio valore.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7baaeb7b-53e0-4375-a754-2d2e06b7161f",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s1",
+      "target_entity": "Cristian Chivu",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Chivu ha potenzialità per influenzare la storia del calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse poteva scrivere anche la storia se vogliamo",
+          "start_sec": 2.24,
+          "end_sec": 39.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Cristian Chivu",
+      "position": "Chivu ha potenzialità per influenzare la storia del calcio.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "652ee345-461b-499c-beb3-2e4db1c1ab59",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s2",
+      "target_entity": "Chivu",
+      "entity_type": "coach",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Chivu accusa Bastoni di simulazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella di ieri è una simulazione di bastoni.",
+          "start_sec": 37.28,
+          "end_sec": 71.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "Chivu",
+      "position": "Chivu accusa Bastoni di simulazione.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "8618526e-7fe4-42c5-bf60-c2d6d886aa3b",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s2",
+      "target_entity": "opinionista",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista esprime il suo parere sugli interessi dei giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "scrivete quanto sei sportivo, scrivete",
+          "start_sec": 37.28,
+          "end_sec": 71.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "opinionista",
+      "position": "L'opinionista esprime il suo parere sugli interessi dei giocatori.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "89fabb2c-4e42-42a1-a18c-ad8cc765ea56",
+      "video_id": "Bf1YWIj1pis",
+      "segment_id": "s3",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il leader della squadra annuncia la prossima opportunità di crescita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Voglio dire le stesse cose",
+          "start_sec": 69.04,
+          "end_sec": 77.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "squadra",
+      "position": "Il leader della squadra annuncia la prossima opportunità di crescita.",
+      "polarity": "neutral"
+    }
+  ]
+}

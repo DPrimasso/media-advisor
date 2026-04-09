@@ -1,0 +1,322 @@
+{
+  "video_id": "XdT-AXaKRms",
+  "analyzed_at": "2026-02-16T17:04:46.191Z",
+  "metadata": {
+    "title": "È assurdo che il VAR non possa intervenire su questo episodio! CAMBIATE IL REGOLAMENTO! #InterJuve",
+    "author_name": "Neschio",
+    "published_at": "2026-02-15T12:00:00.000Z"
+  },
+  "summary": "È assurdo che il VAR non possa intervenire su questo episodio! CAMBIATE IL REGOLAMENTO! #InterJuve — 2026-02-15",
+  "topics": [
+    {
+      "name": "VAR",
+      "relevance": "medium"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "VAR",
+      "relevance": "medium"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "simulazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "VAR",
+      "relevance": "medium"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "5135a522-ce39-4f4e-8b9a-741f26c0a78b",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s0",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR non dovrebbe ignorare episodi cruciali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È assurdo che il VAR non possa intervenire su questo episodio!",
+          "start_sec": 0.52,
+          "end_sec": 4.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR non dovrebbe ignorare episodi cruciali.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "d69d4804-32bf-4749-a7f0-de341637f812",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s1",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR non interviene su episodi importanti come la simulazione di Bastoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non è possibile che il VAR interviene su uno starnuto di un giocatore...e non può intervenire su una simulazione quella di Bastoni.",
+          "start_sec": 2.44,
+          "end_sec": 43.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "regolamento",
+        "simulazione"
+      ],
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR non interviene su episodi importanti come la simulazione di Bastoni.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "86f8d893-b9ce-4b8f-99af-9502342f8fde",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Inter-Juve è un evento fondamentale nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una partita di pallone, specialmente in un evento così importante come Inter-JuveNus.",
+          "start_sec": 2.44,
+          "end_sec": 43.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Inter",
+        "Juve",
+        "partita"
+      ],
+      "topic": "rivalry",
+      "subject": "Inter",
+      "position": "La partita Inter-Juve è un evento fondamentale nel calcio.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "9b536ff2-dc96-4e45-807e-e60c1e65fc07",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR non può intervenire in certi episodi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È assurdo che il VAR non possa intervenire su questo episodio!",
+          "start_sec": 41.16,
+          "end_sec": 48.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR non può intervenire in certi episodi.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "260b3f65-7e3a-4456-86bb-9076b779bcb5",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s1",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni avrebbe dovuto essere espulso per la sua simulazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Oggi quello che doveva essere tolto dal campo era Bastoni.",
+          "start_sec": 2.44,
+          "end_sec": 43.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Bastoni",
+        "espulsione",
+        "simulazione"
+      ],
+      "topic": "refereeing",
+      "subject": "Bastoni",
+      "position": "Bastoni avrebbe dovuto essere espulso per la sua simulazione.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "b681aad9-08b5-41d3-a3d0-0472eb8ce1c5",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s0",
+      "target_entity": "episodio",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Un episodio controverso è avvenuto durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Essendo che sono il primo a voler vedere",
+          "start_sec": 0.52,
+          "end_sec": 4.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "episodio",
+      "position": "Un episodio controverso è avvenuto durante la partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "477784d9-7e12-4ce9-9f1a-1e18dad65647",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s0",
+      "target_entity": "regolamento",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È necessario cambiare il regolamento riguardante il VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "CAMBIATE IL REGOLAMENTO!",
+          "start_sec": 0.52,
+          "end_sec": 4.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "regolamento",
+      "position": "È necessario cambiare il regolamento riguardante il VAR.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "126131ff-67ef-4483-b32e-5919d4a6475e",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s1",
+      "target_entity": "regolamento",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È necessario cambiare il regolamento per l'intervento del VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cambiate sto regolamento.",
+          "start_sec": 2.44,
+          "end_sec": 43.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "regolamento",
+        "VAR",
+        "intervento"
+      ],
+      "topic": "refereeing",
+      "subject": "regolamento",
+      "position": "È necessario cambiare il regolamento per l'intervento del VAR.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "8bc16873-dc0c-4b25-afa8-159f374c6767",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s2",
+      "target_entity": "regolamento",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Servono cambiamenti al regolamento per migliorare gli interventi del VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "CAMBIATE IL REGOLAMENTO!",
+          "start_sec": 41.16,
+          "end_sec": 48.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "regolamento",
+      "position": "Servono cambiamenti al regolamento per migliorare gli interventi del VAR.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4284f31b-c21e-459d-9d5c-d32e61d8db24",
+      "video_id": "XdT-AXaKRms",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'episodio ha suscitato polemiche tra Inter e Juve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "#InterJuve",
+          "start_sec": 0.52,
+          "end_sec": 4.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "rivalry",
+      "subject": "Inter",
+      "position": "L'episodio ha suscitato polemiche tra Inter e Juve.",
+      "polarity": "neutral"
+    }
+  ]
+}

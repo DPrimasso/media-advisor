@@ -1,0 +1,406 @@
+{
+  "video_id": "tiL54RLWeJM",
+  "analyzed_at": "2026-03-31T15:51:37.568Z",
+  "metadata": {
+    "title": "SACRIFICARE #Lang per #Lauriente? 👀 TOP 11 2025 EUROPEA / NAZIONALE 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-02T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute la possibile sostituzione di Noalang con Laurientè nella top 11 del Napoli, analizzando le prestazioni di entrambi i calciatori. L'autore esprime dubbi sulla reale efficacia di Noalang, sottolineando che, nonostante i suoi buoni numeri difensivi, Laurientè potrebbe rivelarsi un'opzione migliore. Inoltre, viene menzionato il contesto del mercato e le strategie di Spalletti, evidenziando che il Napoli sta sondando il terreno per rinforzare la squadra, mentre si analizzano anche le squadre in lotta per i posti in classifica.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "transfers",
+      "relevance": "high"
+    },
+    {
+      "name": "top 11",
+      "relevance": "medium"
+    },
+    {
+      "name": "player performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "tactics",
+      "relevance": "medium"
+    },
+    {
+      "name": "performance player",
+      "relevance": "low"
+    },
+    {
+      "name": "strutture",
+      "relevance": "low"
+    },
+    {
+      "name": "market_moves",
+      "relevance": "low"
+    },
+    {
+      "name": "top11",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "27e6b92f-d215-4132-9293-bcbb5f65b2dc",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s0",
+      "target_entity": "Laurientè",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PROBABLE",
+      "claim_text": "Laurientè potrebbe sostituire Noalang nella top 11.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È uscito il nome di Laurientè al posto di Noalang.",
+          "start_sec": 2.28,
+          "end_sec": 78.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sostituzione",
+        "calciatori"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Laurientè",
+      "position": "Laurientè potrebbe sostituire Noalang nella top 11.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "907debf1-a821-4dc1-be03-3aecf36a9a43",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s0",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Noalang è attualmente sotto analisi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Partiamo da Noalang, il quale ha postato anche una fotografia che poi ci spieghiamo se se ha un significato oppure no.",
+          "start_sec": 2.28,
+          "end_sec": 78.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "analisi",
+        "giocatore"
+      ],
+      "topic": "performance",
+      "subject": "Noalang",
+      "position": "Noalang è attualmente sotto analisi.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a0e0459f-ea44-478c-bd53-01669b10b22e",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha commentato questioni riguardanti i calciatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi volevo commentare perché Spalletti ha commentato e allora noi commentiamo Spalletti.",
+          "start_sec": 2.28,
+          "end_sec": 78.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "commento",
+        "allenatore"
+      ],
+      "topic": "media",
+      "subject": "Spalletti",
+      "position": "Spalletti ha commentato questioni riguardanti i calciatori.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "46a2f32b-d208-4f59-8f8a-47d83686cf8b",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s1",
+      "target_entity": "Lang",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lang ha numeri difensivi molto importanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non c'è male a livello di passaggi, poi anche come tipi di passaggi molta varietà e poi c'è grande roba in difesa.",
+          "start_sec": 74.72,
+          "end_sec": 143.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lang",
+        "napoli",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Lang",
+      "position": "Lang ha numeri difensivi molto importanti.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "6da73e32-6bd0-4020-ac2a-fa361cae3717",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s1",
+      "target_entity": "Lauriente",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "MIXED",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Lauriente potrebbe essere migliore di Lang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È possibile che Lauriente è meglio di Lang? Questa è la domanda che mi faccio",
+          "start_sec": 74.72,
+          "end_sec": 143.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lauriente",
+        "napoli",
+        "competition"
+      ],
+      "topic": "performance",
+      "subject": "Lauriente",
+      "position": "Lauriente potrebbe essere migliore di Lang.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "52aa1396-0283-4ff9-9f3e-21c3e7d563d2",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s1",
+      "target_entity": "Lang",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Lang eccelle nei tiri da calcio di punizione e nei penalty.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tiri da calcio di punizione, i i penalty, insomma, che ha fatto fare anche i penalty provati.",
+          "start_sec": 74.72,
+          "end_sec": 143.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lang",
+        "performance",
+        "free_kicks"
+      ],
+      "topic": "performance",
+      "subject": "Lang",
+      "position": "Lang eccelle nei tiri da calcio di punizione e nei penalty.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b14a83d6-2e9a-4140-aafe-ffb6282ee790",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s2",
+      "target_entity": "Lango",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lango ha numeri deludenti a livello di passaggi e fase difensiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non vedo grandi grandi numeri a livello di passaggi, non vedo grandi numeri a livello di tipi di passaggi e vedo una fase difensiva non eccezionale.",
+          "start_sec": 140.92,
+          "end_sec": 211.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "player"
+      ],
+      "topic": "performance",
+      "subject": "Lango",
+      "position": "Lango ha numeri deludenti a livello di passaggi e fase difensiva.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "8bd4ab21-91fe-4d35-9466-69b77fff5e8a",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s2",
+      "target_entity": "situazione attuale",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "La situazione attuale del Napoli appare confusa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono delle delle situazioni in cui si brancola un po' nel buio.",
+          "start_sec": 140.92,
+          "end_sec": 211.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "analysis"
+      ],
+      "topic": "performance",
+      "subject": "situazione attuale",
+      "position": "La situazione attuale del Napoli appare confusa.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "983d1fbd-7094-4dfd-84e4-5b03d259909d",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Conte cerca ali che contribuiscano difensivamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte vuole che le ali facciano un certo tipo di lavoro.",
+          "start_sec": 74.72,
+          "end_sec": 143.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Conte",
+        "tactics",
+        "defensive"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte cerca ali che contribuiscano difensivamente.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c523ac74-05e2-4a60-b053-b232e7a5e7b1",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli dovrebbe cercare un giocatore migliore rispetto a Lango.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse il Napoli dovrebbe trovare un giocatore del genere.",
+          "start_sec": 140.92,
+          "end_sec": 211.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "market",
+        "team"
+      ],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli dovrebbe cercare un giocatore migliore rispetto a Lango.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "d033a0f8-89c5-47bc-80e0-6a72a7a9da64",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il video prevede un'analisi delle squadre in lotta per i posti in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vorrei anche guardarmi la partita del Milan.",
+          "start_sec": 2.28,
+          "end_sec": 78.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "analisi"
+      ],
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il video prevede un'analisi delle squadre in lotta per i posti in classifica.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "e121c576-3429-4648-851f-0a34457734e3",
+      "video_id": "tiL54RLWeJM",
+      "segment_id": "s2",
+      "target_entity": "Takini",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Takini fa pochi interventi difensivi e gestisce male il possesso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Takini fa pochi ne fa pochi taki male in possesso.",
+          "start_sec": 140.92,
+          "end_sec": 211.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "player"
+      ],
+      "topic": "performance",
+      "subject": "Takini",
+      "position": "Takini fa pochi interventi difensivi e gestisce male il possesso.",
+      "polarity": "negative"
+    }
+  ]
+}

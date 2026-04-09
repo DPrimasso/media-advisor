@@ -1,0 +1,394 @@
+{
+  "video_id": "7xMnb3t2Pbc",
+  "analyzed_at": "2026-03-31T14:55:42.736Z",
+  "metadata": {
+    "title": "\"LE STRISCIATE ACCIDENTALI\" 👀 #OpenVar ILLUMINANTE 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-10T18:18:49+00:00"
+  },
+  "summary": "Nel video \"LE STRISCIATE ACCIDENTALI\", l'opinionista Azzurro Fluido analizza il tema delle controversie legate ai rigori nel calcio, focalizzandosi su giocatori come Dybala e Mertens, accusati di simulazione. L'autore esprime una posizione critica nei confronti delle giustificazioni arbitrarie, suggerendo che le decisioni degli arbitri siano incoerenti e confuse, contribuendo a una crescente frustrazione tra i tifosi. Tra le conclusioni chiave, si sottolinea che le polemiche sui rigori non sono nuove e che il calcio ha sempre visto situazioni in cui l'attaccante non deve necessariamente cadere",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "simulation",
+      "relevance": "high"
+    },
+    {
+      "name": "standings",
+      "relevance": "high"
+    },
+    {
+      "name": "rigori",
+      "relevance": "medium"
+    },
+    {
+      "name": "controversy",
+      "relevance": "medium"
+    },
+    {
+      "name": "simulazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "player behavior",
+      "relevance": "low"
+    },
+    {
+      "name": "polemicità",
+      "relevance": "low"
+    },
+    {
+      "name": "vittoria juventus",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "25845193-9284-4692-93a5-8bb7c45580e1",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s1",
+      "target_entity": "Dybala",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Dybala suscita reazioni contrastanti nei tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sempre escono video belli che ti danno gioia, eh, che il link che sono riuscito a fare.",
+          "start_sec": 44.92,
+          "end_sec": 83.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fan_reaction",
+        "content"
+      ],
+      "topic": "performance",
+      "subject": "Dybala",
+      "position": "Dybala suscita reazioni contrastanti nei tifosi.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "17c3386a-8fda-4e90-acc1-c53f7df01c06",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro ha usato una giustificazione inventata per i rigori strani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È chiaro che non esiste il concetto di step on foot, lo sappiamo, se lo sono inventati per giustificare poi dei rigori strani.",
+          "start_sec": 81.479,
+          "end_sec": 116.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro ha usato una giustificazione inventata per i rigori strani.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "37f0ca6a-8832-426f-9c5f-76e5c123aebd",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Il comportamento dell'arbitro è ambiguo e prevedibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È chiaro che è uno che stirra, è difficile da tradurre, stirra stirra le il bucket delle polemiche.",
+          "start_sec": 81.479,
+          "end_sec": 116.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Il comportamento dell'arbitro è ambiguo e prevedibile.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "3351b938-51ed-428d-bd97-e97934883e59",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s3",
+      "target_entity": "Dybala",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Dybala è stato oggetto di indignazione per un fallo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho parlato di Dybala e anche di Mertens, perché spesso abbiamo sentito gente indignarsi.",
+          "start_sec": 114.6,
+          "end_sec": 146.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Dybala",
+        "indignazione",
+        "fallo"
+      ],
+      "topic": "refereeing",
+      "subject": "Dybala",
+      "position": "Dybala è stato oggetto di indignazione per un fallo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ea2bae27-e418-4e30-8953-8461947e6f80",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s3",
+      "target_entity": "Mertens",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Mertens è stato criticato per un'azione simile a quella di Dybala.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho parlato di Dybala e anche di Mertens, perché spesso abbiamo sentito gente indignarsi.",
+          "start_sec": 114.6,
+          "end_sec": 146.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Mertens",
+        "indignazione",
+        "fallo"
+      ],
+      "topic": "refereeing",
+      "subject": "Mertens",
+      "position": "Mertens è stato criticato per un'azione simile a quella di Dybala.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "168e675c-e8ea-40f0-bf17-38a1edf61e38",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s1",
+      "target_entity": "Dybala",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Dybala è accusato di essere un noto simulatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dybala un noto noto simulatore e mi dispiace dirlo.",
+          "start_sec": 44.92,
+          "end_sec": 83.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "simulation",
+        "judgment"
+      ],
+      "topic": "refereeing",
+      "subject": "Dybala",
+      "position": "Dybala è accusato di essere un noto simulatore.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "2a0f39f0-ebb1-4e35-accd-5c753adc1fbf",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Gli arbitri dovrebbero essere migliori nel giustificare le loro decisioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Penso che la pensi come voglia lui, senza problemi.",
+          "start_sec": 81.479,
+          "end_sec": 116.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Gli arbitri dovrebbero essere migliori nel giustificare le loro decisioni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "3351f3e2-81f1-41e8-b75f-7e6f2c4d04d2",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s3",
+      "target_entity": "Zille",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La decisione riguardo a Zille è considerata ineccepibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Questa è ineccepibile, vero? Sì, sì, è ineccepibile.",
+          "start_sec": 114.6,
+          "end_sec": 146.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Zille",
+        "decisione",
+        "ineccepibile"
+      ],
+      "topic": "refereeing",
+      "subject": "Zille",
+      "position": "La decisione riguardo a Zille è considerata ineccepibile.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "6741e398-d867-43cd-b58c-e85f89cbf915",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s3",
+      "target_entity": "Laoppa",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Laopinione su Laoppa critica la decisione arbitrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Laoppa, la toppa è peggio del buco, è una cosa incredibile.",
+          "start_sec": 114.6,
+          "end_sec": 146.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Laoppa",
+        "critica",
+        "arbitro"
+      ],
+      "topic": "refereeing",
+      "subject": "Laoppa",
+      "position": "Laopinione su Laoppa critica la decisione arbitrale.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a0c5ce5b-ac3d-4659-bd46-6ddca769764f",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s1",
+      "target_entity": "Mertens",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Mertens è coinvolto in una controversia simile a Dybala.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci metto in mezzo pure Mertens, va.",
+          "start_sec": 44.92,
+          "end_sec": 83.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "simulation",
+        "controversy"
+      ],
+      "topic": "refereeing",
+      "subject": "Mertens",
+      "position": "Mertens è coinvolto in una controversia simile a Dybala.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "c9ab6810-908e-4790-a219-63063eda27fc",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s1",
+      "target_entity": "Mertens",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Mertens ha mostrato un comportamento discutibile in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mertens a Crotone è diventato Vergara col Genoa.",
+          "start_sec": 44.92,
+          "end_sec": 83.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "behavior"
+      ],
+      "topic": "performance",
+      "subject": "Mertens",
+      "position": "Mertens ha mostrato un comportamento discutibile in campo.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "6e305e6e-123c-437f-9afd-2ac727d33eac",
+      "video_id": "7xMnb3t2Pbc",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro non è coerente nelle sue decisioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Una volta ti dà ragione, una volta ti dà torto.",
+          "start_sec": 81.479,
+          "end_sec": 116.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro non è coerente nelle sue decisioni.",
+      "polarity": "negative"
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "video_id": "KEsyWwnfUvk",
+  "analyzed_at": "2026-04-07T15:06:56.437792+00:00",
+  "metadata": {
+    "title": "TUTTA LA VERITÀ SUL FUTURO DI CONTE! GAME OVER MILAN: AVEVA RAGIONE ALLEGRI. LA RIVINCITA DI DIGRE…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira esplora il possibile ritorno di Antonio Conte nel calcio italiano, evidenziando le dichiarazioni di Aurelio De Laurentis che aprono a un doppio incarico tra club e nazionale. L'autore sostiene che, nonostante le difficoltà e i sospetti legati a questa opzione, Conte rimane la scelta ideale per la federazione e ha dimostrato le sue capacità strategiche, infliggendo una lezione ad Allegri. Schira conclude che, salvo imprevisti, l'Inter sembra avere il controllo dello scudetto, mentre il Napoli, nonostante le sue recenti vittorie, potrebbe rimpiangere le opportunità perse ",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "previsione",
+      "relevance": "low"
+    },
+    {
+      "name": "portiere",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto 1-0 nonostante l'attacco ridotto.",
+      "polarity": "positive",
+      "claim_id": "ce99f4a6-ad4f-4465-a3cd-e920d1410230",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto 1-0 nonostante l'attacco ridotto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli vince 1-0 nonostante l'attacco ridotto ai minimi termini.",
+          "start_sec": 87.36,
+          "end_sec": 118.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli ha avuto 40 infortuni stagionali, di cui 28 muscolari.",
+      "polarity": "negative",
+      "claim_id": "f23a69a8-985d-4e98-9290-90cff37d709f",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto 40 infortuni stagionali, di cui 28 muscolari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli ha avuto tantissimi infortuni, 40 infortuni stagionali di cui 28 muscolari.",
+          "start_sec": 116.32,
+          "end_sec": 142.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte è aperto a un ritorno nel calcio italiano.",
+      "polarity": "positive",
+      "claim_id": "3714ecfc-9a09-4978-bcc8-d4ddb7b3de17",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte è aperto a un ritorno nel calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha aperto clamorosamente a uno scenario che vi sto raccontando da ormai più di un mese, quello del ritorno di Antonio Conte nazionale",
+          "start_sec": 1.16,
+          "end_sec": 35.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Aurelio De Laurentis",
+      "position": "Aurelio De Laurentis ha parlato del futuro di Antonio Conte.",
+      "polarity": "positive",
+      "claim_id": "3ea62bcc-b2d5-4b2e-a866-ff8ab5abe7fb",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s0",
+      "target_entity": "Aurelio De Laurentis",
+      "entity_type": "club",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Aurelio De Laurentis ha parlato del futuro di Antonio Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a presentare il docu film sul quarto scudetto del Napoli again Aurelio De Laurentis che ha aperto clamorosamente",
+          "start_sec": 1.16,
+          "end_sec": 35.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte potrebbe essere prestato alla nazionale in un doppio incarico.",
+      "polarity": "neutral",
+      "claim_id": "5380b975-9fbc-4c59-b68b-7303cab49675",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte potrebbe essere prestato alla nazionale in un doppio incarico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha parlato di prestare Antonio Conte alla nazionale",
+          "start_sec": 32.68,
+          "end_sec": 63.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Antonio Conte è visto come la soluzione per la squadra.",
+      "polarity": "neutral",
+      "claim_id": "0b9bbb4a-e778-4d4b-ac84-5e79926487f7",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Antonio Conte è visto come la soluzione per la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche se Antonio Conte rimarrebbe e rimane tuttora, secondo me, la soluzione",
+          "start_sec": 60.559,
+          "end_sec": 88.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte ha incartato Allegri e gli ha dato una lezione.",
+      "polarity": "positive",
+      "claim_id": "e2dd4873-6245-44ed-8947-2ff208a2eef1",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha incartato Allegri e gli ha dato una lezione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte ha incartato Allegri, gli ha dato una lezione.",
+          "start_sec": 87.36,
+          "end_sec": 118.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte richiede un interlocutore serio per il suo ritorno.",
+      "polarity": "neutral",
+      "claim_id": "70fc96dd-dbfe-4669-a8e7-86b126569684",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte richiede un interlocutore serio per il suo ritorno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma a patto che ci sia un interlocutore serio",
+          "start_sec": 1.16,
+          "end_sec": 35.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "De Laurentis",
+      "position": "De Laurentis ha aperto alla possibilità di un doppio incarico per Conte.",
+      "polarity": "neutral",
+      "claim_id": "db47c577-3f9c-47f4-b262-2f091df5ac79",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s1",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis ha aperto alla possibilità di un doppio incarico per Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "apertura di De Laurentis al doppio incarico",
+          "start_sec": 32.68,
+          "end_sec": 63.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "nazionale",
+      "position": "Il doppio incarico di Conte è un concetto discusso anche in altri sport.",
+      "polarity": "neutral",
+      "claim_id": "67d90523-a8df-46f1-affa-6fe4391f6a82",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s1",
+      "target_entity": "nazionale",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il doppio incarico di Conte è un concetto discusso anche in altri sport.",
+      "evidence_quotes": [
+        {
+          "quote_text": "così come succede nel basket e nel volley",
+          "start_sec": 32.68,
+          "end_sec": 63.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku era assente nella partita contro il Napoli.",
+      "polarity": "positive",
+      "claim_id": "f4f22a3c-debe-4d34-9962-9cfd6eb99b1f",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku era assente nella partita contro il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'assenza di Lukaku.",
+          "start_sec": 87.36,
+          "end_sec": 118.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Heilund",
+      "position": "Heilund non è stato bene e non ha giocato.",
+      "polarity": "positive",
+      "claim_id": "2b745e02-30ea-45c2-b25b-55d5e94c1451",
+      "video_id": "KEsyWwnfUvk",
+      "segment_id": "s3",
+      "target_entity": "Heilund",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Heilund non è stato bene e non ha giocato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'assenza di Heilund che non è stato bene.",
+          "start_sec": 87.36,
+          "end_sec": 118.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

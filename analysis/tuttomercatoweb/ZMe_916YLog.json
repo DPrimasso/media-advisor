@@ -1,0 +1,354 @@
+{
+  "video_id": "ZMe_916YLog",
+  "analyzed_at": "2026-04-07T15:43:22.975298+00:00",
+  "metadata": {
+    "title": "TMWRadio - Involuzione Inter. Analisi con Impallomeni, Cugini, Piervincenzi, Piantanida",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza l'involuzione dell'Inter nelle ultime partite, evidenziando la mancanza di vittorie e il calo di prestazioni fisiche e mentali della squadra. L'autore sottolinea come l'assenza di Lautaro, considerato il vero trascinatore, abbia influito negativamente sul rendimento, mentre il tecnico Kivu deve ancora imparare a gestire la pressione e a intervenire tatticamente in situazioni di difficoltà. Si ipotizza che il rientro di Lautaro potrebbe portare a un miglioramento, ma rimane un dubbio su come la squadra possa affrontare i suoi problemi attuali e mantenere il vantaggio in classi",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "involuzione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha mostrato una involuzione significativa negli ultimi 4 mesi.",
+      "polarity": "negative",
+      "claim_id": "2a380567-b6f8-433f-8c5a-1a58af2dec52",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha mostrato una involuzione significativa negli ultimi 4 mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è mai stato praticamente negli ultimi 4 mesi. È un insieme di tutto l'Inter.",
+          "start_sec": 52.239,
+          "end_sec": 87.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha fatto sei partite senza vittorie in Coppa e in campionato.",
+      "polarity": "negative",
+      "claim_id": "56b8b9ad-fffa-46c6-af2e-9c78a51532d8",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha fatto sei partite senza vittorie in Coppa e in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "due vittorie in campionato, tre pareggi, due sconfitte, una in Champions.",
+          "start_sec": 0.28,
+          "end_sec": 32.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Se non si risolvono i problemi dell'Inter, potrebbero perdere il vantaggio attuale.",
+      "polarity": "neutral",
+      "claim_id": "061da694-0857-40ee-ba59-a0bc9815bd35",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Se non si risolvono i problemi dell'Inter, potrebbero perdere il vantaggio attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "basta risistemare almeno, come dire, due o tre dei sei- sette problemi che ci sono per tenere il vantaggio oppure si apre un baratro.",
+          "start_sec": 52.239,
+          "end_sec": 87.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Kivu",
+      "position": "Kivu non ha cambiato molto quando le cose non vanno.",
+      "polarity": "neutral",
+      "claim_id": "81c385af-e862-4b2f-82c7-50b1f62da929",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s4",
+      "target_entity": "Kivu",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kivu non ha cambiato molto quando le cose non vanno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi aspettavo che cambiasse qualcosa, cioè quando le cose non vanno",
+          "start_sec": 87.04,
+          "end_sec": 118.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Kivu",
+      "position": "Kivu deve imparare a gestire la pressione.",
+      "polarity": "neutral",
+      "claim_id": "fb723dd0-609f-4ade-ae1f-395d58b4e214",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s1",
+      "target_entity": "Kivu",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Kivu deve imparare a gestire la pressione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "deve imparare a gestirla perché è la prima volta che la gestisci in carriera",
+          "start_sec": 29.24,
+          "end_sec": 55.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "L'Inter ha problemi tecnici e tattici evidenti.",
+      "polarity": "negative",
+      "claim_id": "7ef0dc5e-2a8a-4713-9ca8-7872a2a4a68a",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha problemi tecnici e tattici evidenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tecnicamente, tatticamente a livello di gamba gamba vuota è un insieme da di",
+          "start_sec": 52.239,
+          "end_sec": 87.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro è assente da sette partite.",
+      "polarity": "negative",
+      "claim_id": "c4db0ed1-5baa-41d8-a8fb-f91475104e3c",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s0",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro è assente da sette partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lautaro è out da sette partite.",
+          "start_sec": 0.28,
+          "end_sec": 32.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter sta mostrando un'involuzione nel loro gioco.",
+      "polarity": "negative",
+      "claim_id": "4f02dcb7-6ff4-482e-8aa0-be46fe571b68",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta mostrando un'involuzione nel loro gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cose. Sono d'accordo con Franco.",
+          "start_sec": 84.96,
+          "end_sec": 89.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Franco",
+      "position": "Franco ha un'opinione condivisa sulla situazione dell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "20aabdfe-f321-477d-8568-c1f4b2bf6cc1",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s3",
+      "target_entity": "Franco",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Franco ha un'opinione condivisa sulla situazione dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sono d'accordo con Franco.",
+          "start_sec": 84.96,
+          "end_sec": 89.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro è il vero trascinatore della squadra.",
+      "polarity": "positive",
+      "claim_id": "138d33ea-649c-4ba3-925b-e98e3b697892",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s4",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro è il vero trascinatore della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che Lautaro è il vero trascinatore",
+          "start_sec": 87.04,
+          "end_sec": 118.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro non è presente.",
+      "polarity": "negative",
+      "claim_id": "d7dbb8f8-869c-4fb6-9e04-66c9e5cfa00a",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s1",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro non è presente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché Lautaro non c'è",
+          "start_sec": 29.24,
+          "end_sec": 55.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter non sta bene fisicamente.",
+      "polarity": "negative",
+      "claim_id": "4fb1539a-9bc6-410e-844c-61d4e80e9737",
+      "video_id": "ZMe_916YLog",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non sta bene fisicamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la squadra non sta bene fisicamente",
+          "start_sec": 29.24,
+          "end_sec": 55.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

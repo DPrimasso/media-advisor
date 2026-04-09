@@ -1,0 +1,426 @@
+{
+  "video_id": "Uem0uhvAwn8",
+  "analyzed_at": "2026-03-31T11:32:01.732053+00:00",
+  "metadata": {
+    "title": "Napoli: MERCATO S-bloccato! E allora.. ",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Napoli: MERCATO S-bloccato! E allora..  — ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "limitazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "performance",
+      "relevance": "low"
+    },
+    {
+      "name": "market",
+      "relevance": "low"
+    },
+    {
+      "name": "fan behavior",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "svecchiamento",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatore",
+      "relevance": "low"
+    },
+    {
+      "name": "scetticismo",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "scambi",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "acquisti",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "corteggiamento",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "centenario",
+      "relevance": "low"
+    },
+    {
+      "name": "performance",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli è stato bloccato nel mercato di gennaio.",
+      "polarity": "negative",
+      "claim_id": "4193a094-2f2b-4705-b242-c454e4a3fb9a",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è stato bloccato nel mercato di gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli perché sembrava a tutti gli effetti una una norma ad hoc per bloccarci il mercato a gennaio",
+          "start_sec": 41.239,
+          "end_sec": 78.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli è stato costretto a muoversi con limitazioni nel mercato.",
+      "polarity": "negative",
+      "claim_id": "1c62884b-8cfe-4d3f-892e-b6760cd64034",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli è stato costretto a muoversi con limitazioni nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo stati costretti a muoverci nei meandri di queste limitazioni",
+          "start_sec": 41.239,
+          "end_sec": 78.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Le limitazioni al mercato sembrano essere una norma ad hoc contro il Napoli.",
+      "polarity": "neutral",
+      "claim_id": "6a0ab10d-9b60-4573-b5b4-25d678a58916",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Le limitazioni al mercato sembrano essere una norma ad hoc contro il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sembrava a tutti gli effetti una una norma ad hoc per bloccarci il mercato a gennaio",
+          "start_sec": 41.239,
+          "end_sec": 78.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli lotta per un secondo posto in classifica.",
+      "polarity": "neutral",
+      "claim_id": "dd49981f-7161-4d30-bc71-44b464317c2b",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli lotta per un secondo posto in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli se la sta giocando punto a punto per arrivare un secondo posto",
+          "start_sec": 110.119,
+          "end_sec": 144.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Pisa",
+      "position": "Il Pisa ha aggiunto liquidità per muoversi nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "79ded114-8cf2-4b8c-9685-d3cd9fa5b987",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s1",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Pisa ha aggiunto liquidità per muoversi nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Pisa aveva aggiunto della liquidità",
+          "start_sec": 41.239,
+          "end_sec": 78.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "De Laurentis",
+      "position": "De Laurentis sta ostacolando il Napoli durante la stagione.",
+      "polarity": "negative",
+      "claim_id": "352cee88-07dd-48cb-9ca0-f73ce19a578d",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s2",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis sta ostacolando il Napoli durante la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'hanno fatto apposta per De Laurentis Lego.",
+          "start_sec": 75.32,
+          "end_sec": 112.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Napoli",
+      "position": "I tifosi del Napoli si stanno allontanando dal calcio.",
+      "polarity": "negative",
+      "claim_id": "05da156c-a5df-4316-94c3-09d2f2e05878",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi del Napoli si stanno allontanando dal calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "persone che si stanno allontanando dal calcio.",
+          "start_sec": 75.32,
+          "end_sec": 112.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "calcio",
+      "position": "Il sistema calcio deve prestare attenzione al malcontento dei tifosi.",
+      "polarity": "neutral",
+      "claim_id": "a22c8ab8-875b-4b54-95bc-972753a2cdd2",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s2",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Il sistema calcio deve prestare attenzione al malcontento dei tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chiedo al sistema calcio di fare attenzione.",
+          "start_sec": 75.32,
+          "end_sec": 112.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "I numeri del canale sono un po' calati.",
+      "polarity": "neutral",
+      "claim_id": "960540cb-0dbe-472e-9c1a-97c11127d8e7",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I numeri del canale sono un po' calati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i numeri sono un po' calati",
+          "start_sec": 110.119,
+          "end_sec": 144.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il mercato del Napoli è ora sbloccato.",
+      "polarity": "neutral",
+      "claim_id": "55be7cf1-a651-4707-980e-04dacd8f0366",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il mercato del Napoli è ora sbloccato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mercato sbloccato, perché la notizia di oggi è che, insomma, sono intervenuti su quello che era il sistema",
+          "start_sec": 1.199,
+          "end_sec": 43.919999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "calcio",
+      "position": "C'è uno scoramento generale tra i tifosi.",
+      "polarity": "negative",
+      "claim_id": "7e67111e-4b5f-478c-b2da-15432cd1dd04",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s2",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è uno scoramento generale tra i tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi porta una riflessione poi generale sul sullo scoramento.",
+          "start_sec": 75.32,
+          "end_sec": 112.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Inter",
+      "position": "Il Napoli spera di rincorrere l'Inter.",
+      "polarity": "positive",
+      "claim_id": "197dffd7-6a54-4952-9b9f-4166f497d92f",
+      "video_id": "Uem0uhvAwn8",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli spera di rincorrere l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sogno di provare a rincorrere ancora l'Inter",
+          "start_sec": 110.119,
+          "end_sec": 144.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "video_id": "klYBvdzkwP0",
+  "analyzed_at": "2026-03-31T16:23:07.861Z",
+  "metadata": {
+    "title": "#Conte BALBETTA in #Conferenza post Udinese Napoli 1-0 👀 Analisi e Pagelle 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-15T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista analizza la conferenza stampa di Antonio Conte dopo la sconfitta del Napoli contro l'Udinese. L'autore sottolinea le difficoltà di Conte nel comunicare le sue idee e il crescente malcontento tra i tifosi riguardo al suo operato, evidenziando l'importanza di poter criticare l'allenatore senza considerarlo intoccabile. Tra le conclusioni chiave, si nota che Conte sembra aver adottato un approccio più comprensivo nei confronti dei suoi giocatori, evitando di attribuire loro la colpa per la sconfitta, e che il Napoli potrebbe aver sottovalutato l'Udinese dopo le recenti vi",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione di conte",
+      "relevance": "high"
+    },
+    {
+      "name": "affidabilità dei giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "analisi tiri",
+      "relevance": "medium"
+    },
+    {
+      "name": "occasioni da gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "difficoltà",
+      "relevance": "low"
+    },
+    {
+      "name": "evaluations",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "852f88a4-385a-4bc2-ab37-4070e250e64f",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È importante essere critici con Conte senza considerarlo intoccabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è bene poterci sentir liberi di fare degli appunti a Conte senza che sia nessuno intoccabile,",
+          "start_sec": 2.399,
+          "end_sec": 122.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "critica",
+        "allenatore",
+        "intoccabile"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "È importante essere critici con Conte senza considerarlo intoccabile.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "550482a6-074b-48c0-8c67-a1770db64288",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte sembra meno teso dopo la sconfitta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ho visto meno teso e meno sofferente di altre volte sconfitto.",
+          "start_sec": 120.159,
+          "end_sec": 209.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gestione emozioni",
+        "stato d'animo"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte sembra meno teso dopo la sconfitta.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "c66c64ba-2105-4ab3-8056-d729145f81b4",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Conte potrebbe aver fatto un patto con i calciatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non so se si è fatto un patto nello spogliatoio o comunque qualcosa che riguarda il rapporto coi calciatori",
+          "start_sec": 120.159,
+          "end_sec": 209.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "relazione",
+        "patto interno"
+      ],
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte potrebbe aver fatto un patto con i calciatori.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "20bf96cf-00d9-4e95-8f53-82aa34776ba7",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il Napoli potrebbe aver sottovalutato l'Udinese dopo le vittorie precedenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e invece no, secondo me lì l'esperienza dell'allenatore... anche sul sulla testa e sulle gambe ed era non naturalissimo potersi aspettare anche un passo falso.",
+          "start_sec": 120.159,
+          "end_sec": 209.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sottovalutazione avversario",
+        "esperienza"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe aver sottovalutato l'Udinese dopo le vittorie precedenti.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "65b11694-5b72-483f-8010-8fc4039c2a1a",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s2",
+      "target_entity": "Cabasele",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il colpo di testa di Cabasele è stato valutato come un tiro in porta inutile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un colpo di testa di Cabasele che finisce a Palombella così inutile in porta.",
+          "start_sec": 207.4,
+          "end_sec": 302.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Cabasele",
+        "tiro_in_porta",
+        "giocatore"
+      ],
+      "topic": "performance",
+      "subject": "Cabasele",
+      "position": "Il colpo di testa di Cabasele è stato valutato come un tiro in porta inutile.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "23f577e0-bc6d-485e-b033-3388df4675c7",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha mostrato difficoltà a esprimere le sue idee in conferenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ho visto in grossa difficoltà a trovare le parole giuste.",
+          "start_sec": 2.399,
+          "end_sec": 122.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conferenza",
+        "difficoltà",
+        "allenatore"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha mostrato difficoltà a esprimere le sue idee in conferenza.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "786c1945-1c8e-4efd-89f7-e828af5ed08c",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non ha accusato i giocatori per la sconfitta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non l'ho sentito accusare questa sconfitta come altre volte",
+          "start_sec": 120.159,
+          "end_sec": 209.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gestione squadra",
+        "critica"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte non ha accusato i giocatori per la sconfitta.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "63876da5-7628-4848-bec9-57e38ec96f2b",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s0",
+      "target_entity": "Milinković Savić",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Milinković Savić è un rigorista affidabile per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milinković Savić spara i rigori.",
+          "start_sec": 2.399,
+          "end_sec": 122.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rigori",
+        "performance",
+        "giocatore"
+      ],
+      "topic": "performance",
+      "subject": "Milinković Savić",
+      "position": "Milinković Savić è un rigorista affidabile per il Napoli.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d99cfb61-ffbe-49af-b615-8c7118df228c",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli non ha subito tiri in porta dall'Udinese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non gli abbiamo fatto fare un tiro in porta.",
+          "start_sec": 207.4,
+          "end_sec": 302.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "performance",
+        "tiri_in_porta"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli non ha subito tiri in porta dall'Udinese.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "58d5e644-9c67-46ce-bc1c-66b012c88556",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s2",
+      "target_entity": "Piotrowski",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il tiro di Piotrowski potrebbe non essere considerato un vero tiro in porta da Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte può dire quello non era un tiro in porta",
+          "start_sec": 207.4,
+          "end_sec": 302.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Piotrowski",
+        "tiri_in_porta",
+        "interpretazione"
+      ],
+      "topic": "performance",
+      "subject": "Piotrowski",
+      "position": "Il tiro di Piotrowski potrebbe non essere considerato un vero tiro in porta da Conte.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "826a44db-0867-4cbf-83c8-745379637ab5",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha notato che l'approccio della sua squadra non è stato male.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'approccio non c'è stato male",
+          "start_sec": 207.4,
+          "end_sec": 302.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Conte",
+        "approccio",
+        "tattica"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte ha notato che l'approccio della sua squadra non è stato male.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "edffe95f-3f60-4899-8ec8-68eff1064c08",
+      "video_id": "klYBvdzkwP0",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un crescente malcontento tra i tifosi sul lavoro di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chi vuole Conte out.",
+          "start_sec": 2.399,
+          "end_sec": 122.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "malcontento",
+        "allenatore"
+      ],
+      "topic": "fan_behavior",
+      "subject": "Napoli",
+      "position": "C'è un crescente malcontento tra i tifosi sul lavoro di Conte.",
+      "polarity": "negative"
+    }
+  ]
+}

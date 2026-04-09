@@ -1,0 +1,403 @@
+{
+  "video_id": "N9_OywlsA2o",
+  "analyzed_at": "2026-03-31T15:22:45.492Z",
+  "metadata": {
+    "title": "#Lucca HERE WE GO 👀 #NERES ti obbliga a COMPRARNE 3 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-22T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la situazione attuale della squadra, focalizzandosi in particolare sugli infortuni di Neres e Lang e sulla necessità di trovare sostituti adeguati. L'autore esprime frustrazione per non aver potuto rivelare informazioni di mercato e sottolinea che la condizione di Neres è grave, con possibili variazioni nei tempi di recupero. Inoltre, si evidenzia come Lucca possa rappresentare un'opportunità di investimento per la squadra, mentre l'atteggiamento vago di Conte riguardo agli infortuni non aiuta a chiarire la situazione.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestiti",
+      "relevance": "medium"
+    },
+    {
+      "name": "transfers",
+      "relevance": "medium"
+    },
+    {
+      "name": "investment",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "injury",
+      "relevance": "low"
+    },
+    {
+      "name": "juventus",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "5bb3cde0-7c84-44a2-b71f-9f6d903d57b5",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s0",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lucca ha l'energia e la determinazione necessarie per giocare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sono messo la maglietta perché credo che devo andare io a giocare",
+          "start_sec": 0.12,
+          "end_sec": 43.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "determinazione",
+        "giocatore",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Lucca",
+      "position": "Lucca ha l'energia e la determinazione necessarie per giocare.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "82e4b1c4-f3a9-4da5-b13f-d7dd5daeb839",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s0",
+      "target_entity": "N/A",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "L'opinionista riflette su una frustrazione personale e responsabilità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sono sentito male in questi ultimi 45 giorni a dovermi star zitto volontariamente",
+          "start_sec": 0.12,
+          "end_sec": 43.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "frustrazione",
+        "responsabilità",
+        "opinioni"
+      ],
+      "topic": "leadership",
+      "subject": "N/A",
+      "position": "L'opinionista riflette su una frustrazione personale e responsabilità.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "32f62744-b92d-4e2b-9e42-85db8fe117cc",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s1",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Neres è un giocatore richiesto sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ti possono chiedere anche molto di più perché dobbiamo andare a prendere un sostituto di Neres",
+          "start_sec": 40.6,
+          "end_sec": 108.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Neres"
+      ],
+      "topic": "market",
+      "subject": "Neres",
+      "position": "Neres è un giocatore richiesto sul mercato.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "381738b6-3a29-4150-a14d-0167740254ef",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha assunto un atteggiamento vago riguardo ai giocatori infortunati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte che comincia a dire, 'Chiedete ai medici, non so niente'.",
+          "start_sec": 40.6,
+          "end_sec": 108.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "Conte"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha assunto un atteggiamento vago riguardo ai giocatori infortunati.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "715a7c71-d3e0-49ea-8ffc-5ec5cc705deb",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s1",
+      "target_entity": "Canonico",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Canonico ha confermato che un giocatore in panchina è completamente recuperato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Canonico ha detto anche parole testuali sue: quando un giocatore va in panchina vuol dire che è completamente recuperato",
+          "start_sec": 40.6,
+          "end_sec": 108.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "infortunio"
+      ],
+      "topic": "leadership",
+      "subject": "Canonico",
+      "position": "Canonico ha confermato che un giocatore in panchina è completamente recuperato.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c7af80a0-4585-424b-ac99-8797683337db",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli potrebbe aver subito un danno comunicativo dalla notizia su Neres.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non lo so se il napolista ha fatto un bel un bel servizio al Napoli spifferando questa cosa",
+          "start_sec": 106.32,
+          "end_sec": 140.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione"
+      ],
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe aver subito un danno comunicativo dalla notizia su Neres.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "80dd2272-d612-4173-a4fc-022cabdc752d",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Una voce sullo stato di Neres sta circolando in città.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stava cominciando a girare una voce di qua, una voce di là",
+          "start_sec": 106.32,
+          "end_sec": 140.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rassegna_stampa"
+      ],
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Una voce sullo stato di Neres sta circolando in città.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f70d7c39-f5eb-4db2-93a8-9ef22f1ba629",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s0",
+      "target_entity": "N/A",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il video discute di segreti di mercato legati al calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è uscita, di conseguenza ne possiamo parlare",
+          "start_sec": 0.12,
+          "end_sec": 43.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "segreti",
+        "mercato",
+        "calcio"
+      ],
+      "topic": "media",
+      "subject": "N/A",
+      "position": "Il video discute di segreti di mercato legati al calcio.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "20a9c7bb-7eb7-422b-8e61-582d38f5eaed",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s1",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lucca è un altro giocatore per il quale è necessario trovare un sostituto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo andare a prendere un sostituto di Lucca",
+          "start_sec": 40.6,
+          "end_sec": 108.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Lucca"
+      ],
+      "topic": "market",
+      "subject": "Lucca",
+      "position": "Lucca è un altro giocatore per il quale è necessario trovare un sostituto.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "9276f927-df94-4ac0-8a0e-fdf6abcec4ed",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s2",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "La situazione di Neres è molto grave.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la situazione di di Nerves è molto molto grave.",
+          "start_sec": 106.32,
+          "end_sec": 140.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ],
+      "topic": "injury",
+      "subject": "Neres",
+      "position": "La situazione di Neres è molto grave.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "074994e7-7fcb-433d-b98f-1dee820efdc9",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s0",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Neres rappresenta un'opportunità di investimento per la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Neres ti obbliga a COMPRARNE 3",
+          "start_sec": 0.12,
+          "end_sec": 43.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "investimento",
+        "giocatore",
+        "mercato"
+      ],
+      "topic": "market",
+      "subject": "Neres",
+      "position": "Neres rappresenta un'opportunità di investimento per la squadra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "2fba7e34-a29a-467c-8ccf-6cfd0aae3e41",
+      "video_id": "N9_OywlsA2o",
+      "segment_id": "s3",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Neres è stato perso dal Napoli per infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perdendo Neres.",
+          "start_sec": 138.36,
+          "end_sec": 204.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "giocatori"
+      ],
+      "topic": "injury",
+      "subject": "Neres",
+      "position": "Neres è stato perso dal Napoli per infortunio.",
+      "polarity": "negative"
+    }
+  ]
+}

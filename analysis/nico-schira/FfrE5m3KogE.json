@@ -1,0 +1,366 @@
+{
+  "video_id": "FfrE5m3KogE",
+  "analyzed_at": "2026-04-08T12:43:08.125739+00:00",
+  "metadata": {
+    "title": "MILAN, LA PREMIER TI SOFFIA UN TALENTO! JUVE, IL PROTAGONISTA INASPETTATO. IL CURIOSO CASO GATTUSO…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza la situazione attuale del calcio italiano, focalizzandosi sul calciomercato e le imminenti elezioni federali. L'autore esprime preoccupazione per la mancanza di riforme significative, sottolineando che la rivoluzione necessaria nel Milan e nel calcio italiano deve includere una valorizzazione meritocratica dei giovani talenti. Schira conclude evidenziando che, mentre il campionato sta per ripartire, è fondamentale affrontare le problematiche strutturali del settore giovanile e la leadership della nazionale, con nomi come Gattuso, Mancini e Conte che emergono ne",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "giovani",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "problematiche",
+      "relevance": "low"
+    },
+    {
+      "name": "candidatura",
+      "relevance": "low"
+    },
+    {
+      "name": "prestito",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gennaro Gattuso",
+      "position": "Gattuso ha dichiarato che se non andrà al mondiale, lascerà la squadra.",
+      "polarity": "neutral",
+      "claim_id": "97dafae3-c03d-4600-b1b6-742fd80d4b04",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s0",
+      "target_entity": "Gennaro Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha dichiarato che se non andrà al mondiale, lascerà la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se non vado al mondiale es Patrio, faccio le valigie e me ne vado",
+          "start_sec": 1.319,
+          "end_sec": 31.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Paolo Maldini",
+      "position": "Maldini è stato sondato per un incarico dirigenziale.",
+      "polarity": "neutral",
+      "claim_id": "c1ba64e6-c272-4013-9c37-94ee7d74bfb5",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s2",
+      "target_entity": "Paolo Maldini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Maldini è stato sondato per un incarico dirigenziale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche se Maldini potrebbe avere anche un altro incarico dirigenziale, è comunque un nome che è stato sondato e contattato.",
+          "start_sec": 65.28,
+          "end_sec": 99.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatori",
+      "position": "I giovani possono portare soldi e contributi ai club.",
+      "polarity": "neutral",
+      "claim_id": "58107f13-159b-4fcc-be1d-cc4817860cdf",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s3",
+      "target_entity": "giocatori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I giovani possono portare soldi e contributi ai club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "portano soldi e contributi ai club un anno, 2 anni.",
+          "start_sec": 96.119,
+          "end_sec": 124.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Silvio Baldini",
+      "position": "Silvio Baldini andrà in panchina nella prossima amichevole.",
+      "polarity": "neutral",
+      "claim_id": "03320c7a-312a-4019-b0da-5eb9a8a2cde9",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s4",
+      "target_entity": "Silvio Baldini",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Silvio Baldini andrà in panchina nella prossima amichevole.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Intanto c'è un amichevole a Creta... Andrà in panchina 99 su 100 Silvio Baldini ad interim.",
+          "start_sec": 122.88,
+          "end_sec": 161.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Silvio Baldini",
+      "position": "Silvio Baldini è scelto come commissario tecnico ad interim.",
+      "polarity": "neutral",
+      "claim_id": "ec31ec6a-7422-492a-b757-b2864ca5a2dd",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s4",
+      "target_entity": "Silvio Baldini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Silvio Baldini è scelto come commissario tecnico ad interim.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Andrà in panchina 99 su 100 Silvio Baldini ad interim.",
+          "start_sec": 122.88,
+          "end_sec": 161.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "club",
+      "position": "Ci deve essere una visione meritocratica per i settori giovanili.",
+      "polarity": "neutral",
+      "claim_id": "cd30da67-8dab-4f26-9357-ee323f883ba3",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s3",
+      "target_entity": "club",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci deve essere una visione meritocratica per i settori giovanili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, ci deve essere una visione meritocratica.",
+          "start_sec": 96.119,
+          "end_sec": 124.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "club",
+      "position": "Nei vivai, ci sono problemi legati al pagamento per giocare.",
+      "polarity": "neutral",
+      "claim_id": "db3a5d9d-d83e-40ba-815a-f8bbb0145282",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s3",
+      "target_entity": "club",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nei vivai, ci sono problemi legati al pagamento per giocare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è gente che paga per giocare.",
+          "start_sec": 96.119,
+          "end_sec": 124.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gennaro Gattuso",
+      "position": "Gattuso non ha ancora presentato le dimissioni.",
+      "polarity": "neutral",
+      "claim_id": "01d619e1-51ba-4e17-943c-ffbffe745eee",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s0",
+      "target_entity": "Gennaro Gattuso",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso non ha ancora presentato le dimissioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gattuso le dimissioni non le ha ancora presentate",
+          "start_sec": 1.319,
+          "end_sec": 31.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "L'ex centrocampista del Milan vive in Spagna.",
+      "polarity": "neutral",
+      "claim_id": "9f2e69b0-94ec-41d0-a188-dbea398086fa",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'ex centrocampista del Milan vive in Spagna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui vive in Spagna anche a Marveia",
+          "start_sec": 29.32,
+          "end_sec": 66.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan deve affrontare una rivoluzione fondamentale.",
+      "polarity": "neutral",
+      "claim_id": "1bfd42a5-0091-4834-a5bb-fabecd495d69",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan deve affrontare una rivoluzione fondamentale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è chiaro che la rivoluzione inevitabile va fatta.",
+          "start_sec": 65.28,
+          "end_sec": 99.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Si parla di un buon ritiro per un ex centrocampista del Milan.",
+      "polarity": "neutral",
+      "claim_id": "e4a3df5d-cd68-40c7-aff2-99a6f8f08546",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si parla di un buon ritiro per un ex centrocampista del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "probabilmente sarà quello il buon ritiro dell'ex centrocampista del Milan",
+          "start_sec": 29.32,
+          "end_sec": 66.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il campionato riparte domani.",
+      "polarity": "neutral",
+      "claim_id": "164f0da3-df66-4e99-809d-c1d76455c1e0",
+      "video_id": "FfrE5m3KogE",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il campionato riparte domani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "domani riparte il campionato.",
+          "start_sec": 65.28,
+          "end_sec": 99.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

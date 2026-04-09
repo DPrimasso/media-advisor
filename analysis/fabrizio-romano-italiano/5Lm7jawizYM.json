@@ -1,0 +1,366 @@
+{
+  "video_id": "5Lm7jawizYM",
+  "analyzed_at": "2026-04-08T10:15:53.790059+00:00",
+  "metadata": {
+    "title": "🚨 VERDETTO RISCATTO MILAN! CARLOS AUGUSTO: LA VERITÀ SUL RINNOVO. RISPUNTA SAMARDZIC, E DAVIS…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-03-28T09:54:48+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato riguardanti il Milan e l'Inter, con particolare attenzione al futuro di Niklas Fulkrug e al rinnovo di Carlos Augusto. L'autore sostiene che le possibilità di riscatto di Fulkrug da parte del Milan siano molto basse, evidenziando la ricerca del club di un attaccante più adatto alle proprie esigenze. Inoltre, si discute del rinnovo di Carlos Augusto con l'Inter, suggerendo che ci siano trattative in corso. In conclusione, il video offre un'analisi approfondita delle strategie di mercato delle due squadre milanesi in vista d",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "prestiti",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "minutaggio",
+      "relevance": "low"
+    },
+    {
+      "name": "atalanta",
+      "relevance": "low"
+    },
+    {
+      "name": "futuro",
+      "relevance": "low"
+    },
+    {
+      "name": "ruoli",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il diritto di riscatto di Fulkrug è fissato a 5 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "9f17ce8e-9f71-4cf2-b4e5-23796d8ce8a3",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il diritto di riscatto di Fulkrug è fissato a 5 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il diritto di riscatto è fissato a 5 milioni di euro.",
+          "start_sec": 111.96,
+          "end_sec": 152.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Italia",
+      "position": "L'Italia si è qualificata alla finale contro la Bosnia.",
+      "polarity": "neutral",
+      "claim_id": "ecfddb90-d64f-43eb-83d0-e74436ead777",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia si è qualificata alla finale contro la Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'Italia che si è qualificata alla finale in programma martedì sera contro la Bosnia",
+          "start_sec": 0.04,
+          "end_sec": 33.199999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Bosnia",
+      "position": "L'Italia giocherà contro la Bosnia per qualificarsi ai mondiali.",
+      "polarity": "neutral",
+      "claim_id": "7c988ee1-6a3b-46ba-bb1a-11845c97452a",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s0",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia giocherà contro la Bosnia per qualificarsi ai mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "contro la Bosnia di Edin Geeko per qualificarsi ai prossimi mondiali americani",
+          "start_sec": 0.04,
+          "end_sec": 33.199999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Carlos Augusto",
+      "position": "Carlos Augusto è un calciatore dell'Inter in trattativa per il rinnovo.",
+      "polarity": "neutral",
+      "claim_id": "0e71d738-1917-4cf3-99e4-cd3afa78f00e",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s1",
+      "target_entity": "Carlos Augusto",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Carlos Augusto è un calciatore dell'Inter in trattativa per il rinnovo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un calciatore dell'Inter, Carlos Augusto, perché tratteremo il tema rinnovo Augusto Inter.",
+          "start_sec": 31.759,
+          "end_sec": 74.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Niklas Fulkrug",
+      "position": "Niklas Fulkrug è attaccante del Milan e si parla del suo futuro.",
+      "polarity": "neutral",
+      "claim_id": "24bf1e1a-bd41-4f68-a916-14e9b8ada2b2",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s1",
+      "target_entity": "Niklas Fulkrug",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Niklas Fulkrug è attaccante del Milan e si parla del suo futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi toccheremo, parleremo di Niklas Fulkrug, attaccante del Milan.",
+          "start_sec": 31.759,
+          "end_sec": 74.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kean Davis",
+      "position": "Kean Davis è un nome discusso per il mercato che coinvolge l'Udinese.",
+      "polarity": "neutral",
+      "claim_id": "1d7855c0-2ead-4b87-96ff-36f313441c8f",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s1",
+      "target_entity": "Kean Davis",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kean Davis è un nome discusso per il mercato che coinvolge l'Udinese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "terminare con due nomi, uno dell'Udinese Kean Davis.",
+          "start_sec": 31.759,
+          "end_sec": 74.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha un'opzione di riscatto per Niklas Fulkrug.",
+      "polarity": "neutral",
+      "claim_id": "1960952a-3ed3-4235-982b-633d8dd6e6f6",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha un'opzione di riscatto per Niklas Fulkrug.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'acquisto di Fulkrug in prestito con opzione con diritto di riscatto ehm da parte del Club Rossonero",
+          "start_sec": 72.68,
+          "end_sec": 113.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fulkrug",
+      "position": "Sarà difficile per il Milan riscattare Fulkrug a giugno.",
+      "polarity": "negative",
+      "claim_id": "2afdfe5c-75a5-4021-9793-e611cd7dbd81",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s2",
+      "target_entity": "Fulkrug",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sarà difficile per il Milan riscattare Fulkrug a giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarebbe stato molto difficile che il Milan a giugno potesse riscattare Fulkrug.",
+          "start_sec": 72.68,
+          "end_sec": 113.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il riscatto di Fulkrug è complicato a causa dell'età e dei costi.",
+      "polarity": "negative",
+      "claim_id": "12b7a29a-73fd-4680-a228-f3744ec1aa05",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il riscatto di Fulkrug è complicato a causa dell'età e dei costi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per una questione legata un po' all'età e un po' ai costi dell'operazione",
+          "start_sec": 72.68,
+          "end_sec": 113.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fulkrug",
+      "position": "Fulkrug probabilmente non rimarrà al Milan per un altro anno.",
+      "polarity": "negative",
+      "claim_id": "37166e47-2346-428c-b584-e9562080a8e0",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s3",
+      "target_entity": "Fulkrug",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Fulkrug probabilmente non rimarrà al Milan per un altro anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi dicono che ci siano veramente poche pochissime chance eh di vedere Fulkrug ancora per un altro anno con la maglia del Milan addosso.",
+          "start_sec": 111.96,
+          "end_sec": 152.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Serie A",
+      "position": "Non ci sarà calcio giocato di Serie A questo weekend.",
+      "polarity": "neutral",
+      "claim_id": "4b4889dd-218f-47c7-b403-7876a0a5193b",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s0",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sarà calcio giocato di Serie A questo weekend.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un weekend senza Serie A, senza calcio giocato",
+          "start_sec": 0.04,
+          "end_sec": 33.199999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Edin Dzeko",
+      "position": "Dzeko è un ex giocatore dell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "f5d76ba6-e955-473e-8578-65c392ff468e",
+      "video_id": "5Lm7jawizYM",
+      "segment_id": "s0",
+      "target_entity": "Edin Dzeko",
+      "entity_type": "player",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Dzeko è un ex giocatore dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ex Inter",
+          "start_sec": 0.04,
+          "end_sec": 33.199999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

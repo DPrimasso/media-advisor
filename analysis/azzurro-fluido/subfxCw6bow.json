@@ -1,0 +1,430 @@
+{
+  "video_id": "subfxCw6bow",
+  "analyzed_at": "2026-03-31T11:40:20.083851+00:00",
+  "metadata": {
+    "title": "Tanti EX e Talento 👀 Verso #Cagliari #Napoli PERICOLOSA ma da VINCERE 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Tanti EX e Talento 👀 Verso #Cagliari #Napoli PERICOLOSA ma da VINCERE 🔵 — ",
+  "topics": [
+    {
+      "name": "partita",
+      "relevance": "low"
+    },
+    {
+      "name": "sensazione",
+      "relevance": "low"
+    },
+    {
+      "name": "opinione",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup adjustments",
+      "relevance": "low"
+    },
+    {
+      "name": "match performance",
+      "relevance": "low"
+    },
+    {
+      "name": "game outcome",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalry",
+      "relevance": "low"
+    },
+    {
+      "name": "performance",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "modulo",
+      "relevance": "low"
+    },
+    {
+      "name": "tattiche avversarie",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    },
+    {
+      "name": "injury",
+      "relevance": "low"
+    },
+    {
+      "name": "tactics",
+      "relevance": "low"
+    },
+    {
+      "name": "performance",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    },
+    {
+      "name": "statistics",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    },
+    {
+      "name": "player performance",
+      "relevance": "low"
+    },
+    {
+      "name": "injury updates",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Cagliari",
+      "position": "Il Cagliari ha segnato un gol al 96º minuto.",
+      "polarity": "neutral",
+      "claim_id": "36fa299f-79fd-4539-bbbb-1954d6c2660a",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s1",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Cagliari ha segnato un gol al 96º minuto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Luvumbo che segna al 96º con recupero",
+          "start_sec": 43.079,
+          "end_sec": 79.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Lukaku",
+      "position": "Lukaku non è presente nella formazione del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "13a0cba7-a8a2-4fa8-9e9b-6c151c34ccbb",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku non è presente nella formazione del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non c'è Lukaku",
+          "start_sec": 43.079,
+          "end_sec": 79.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Cagliari",
+      "position": "La partita tra Cagliari e Napoli è sempre delicata.",
+      "polarity": "neutral",
+      "claim_id": "a7a4b346-21f8-46b9-ab39-733c79977bee",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s0",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Cagliari e Napoli è sempre delicata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma è vero. Cioè, se andiamo poi a vedere perché molto spesso io dico delle cose, poi mi contatta Perrone da Como direttamente, dice \"No, ma guarda che è un Mandela effect\".",
+          "start_sec": 2.44,
+          "end_sec": 45.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha subito un pareggio contro il Cagliari.",
+      "polarity": "negative",
+      "claim_id": "9a7f8d40-f45c-416e-ad8d-aaef0246bfe4",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha subito un pareggio contro il Cagliari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un pareggio col Cagliari per noi",
+          "start_sec": 43.079,
+          "end_sec": 79.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Napoli",
+      "position": "La partita è infiammata, specialmente per Napoli.",
+      "polarity": "neutral",
+      "claim_id": "e2b70dec-d5d8-41bf-ada4-337cd4463a2f",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita è infiammata, specialmente per Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partita che si infiamma quando a Cagliari si infiamma di più là che non però noi teniamo questa.",
+          "start_sec": 2.44,
+          "end_sec": 45.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Opinionista",
+      "position": "L'opinionista condivide la sua sensazione sulla partita.",
+      "polarity": "neutral",
+      "claim_id": "bee95bf1-916e-458d-ac9c-7a877ba98ade",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s0",
+      "target_entity": "Opinionista",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista condivide la sua sensazione sulla partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "almeno io ho questa sensazione che è sempre una partita un po' delicata.",
+          "start_sec": 2.44,
+          "end_sec": 45.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cagliari",
+      "position": "Cagliari potrebbe avere difficoltà in questa partita.",
+      "polarity": "neutral",
+      "claim_id": "f326be1f-e76d-4cbc-b49f-7276e1eb4722",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s0",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Cagliari potrebbe avere difficoltà in questa partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...quella che si infiamma di più là che non però noi teniamo.",
+          "start_sec": 2.44,
+          "end_sec": 45.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Cagliari",
+      "position": "Cagliari e Napoli hanno una rivalità storica.",
+      "polarity": "neutral",
+      "claim_id": "22d0dbb7-6782-4098-bad1-ffbf9e0dfbfa",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s3",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Cagliari e Napoli hanno una rivalità storica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sentono la rivalità perché molto spesso anche in casa loro noi, Fran siamo andati belli forti",
+          "start_sec": 112.079,
+          "end_sec": 142.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Mertens",
+      "position": "Mertens ha realizzato una tripletta.",
+      "polarity": "positive",
+      "claim_id": "da8e74e6-7898-4a87-a7d8-71e344a8faf5",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s2",
+      "target_entity": "Mertens",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mertens ha realizzato una tripletta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tripletta di Mertens.",
+          "start_sec": 77.24,
+          "end_sec": 114.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Zelischi",
+      "position": "Zelischi ha contribuito alla tripletta di Mertens.",
+      "polarity": "positive",
+      "claim_id": "a4b1b83b-84fe-4c61-9d57-ccf51d2e783b",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s2",
+      "target_entity": "Zelischi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zelischi ha contribuito alla tripletta di Mertens.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tripletta di Mertens, Zelischi.",
+          "start_sec": 77.24,
+          "end_sec": 114.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Hamsik",
+      "position": "Hamsik ha segnato due gol.",
+      "polarity": "positive",
+      "claim_id": "b71c0b9d-ed83-43b0-a654-6a3f5e083300",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s2",
+      "target_entity": "Hamsik",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Hamsik ha segnato due gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Hamsik più due gol.",
+          "start_sec": 77.24,
+          "end_sec": 114.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Insigne",
+      "position": "Insigne sta facendo molto bene al Pescara.",
+      "polarity": "positive",
+      "claim_id": "f3ad7eed-1929-4700-b692-a691043eb846",
+      "video_id": "subfxCw6bow",
+      "segment_id": "s2",
+      "target_entity": "Insigne",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Insigne sta facendo molto bene al Pescara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Insigne sta facendo molto bene al Pescara.",
+          "start_sec": 77.24,
+          "end_sec": 114.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

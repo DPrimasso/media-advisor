@@ -1,0 +1,366 @@
+{
+  "video_id": "y1iOaeUUlt8",
+  "analyzed_at": "2026-04-08T12:47:32.977307+00:00",
+  "metadata": {
+    "title": "ITALIA ANCORA FUORI DAL MONDIALE! ECCO GLI ASSASSINI DEL CALCIO ITALIANO E LA CURA PER RILANCIARLO",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira affronta la delusione per l'uscita dell'Italia dal mondiale per la terza volta consecutiva, sottolineando l'impatto negativo su diverse generazioni che non hanno mai visto la nazionale in competizione. L'autore critica aspramente il presidente della federazione, Gabriele Gravina, ritenendolo responsabile della situazione e chiedendone le dimissioni, invece di minimizzare il fallimento. Schira evidenzia anche la qualità della squadra avversaria, la Bosnia, e la necessità di una riflessione profonda e di un cambio di leadership per rilanciare il calcio italiano.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "giovani",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "delusione",
+      "relevance": "medium"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatori",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "politica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia è fuori dal mondiale per la terza edizione consecutiva.",
+      "polarity": "negative",
+      "claim_id": "16ab2a60-dfc8-4d01-a311-ddc69de27643",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia è fuori dal mondiale per la terza edizione consecutiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "terza edizione di fila con l'Italia fuori dal mondiale",
+          "start_sec": 0.96,
+          "end_sec": 66.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Generazioni",
+      "position": "Sono deluso per le generazioni che non vedranno più un mondiale.",
+      "polarity": "negative",
+      "claim_id": "28707499-ff34-42c9-81a4-b1c307ef7b12",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s0",
+      "target_entity": "Generazioni",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sono deluso per le generazioni che non vedranno più un mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi dispiace per loro, come mi dispiace per me, come mi dispiace per i quindicenni, ventenni, trentenni, quarantenni",
+          "start_sec": 0.96,
+          "end_sec": 66.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Baggio",
+      "position": "Baggio era presidente del settore tecnico durante la riforma del calcio italiano.",
+      "polarity": "neutral",
+      "claim_id": "e9730ca6-9526-4bba-a2be-b7560a24bc86",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s4",
+      "target_entity": "Baggio",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Baggio era presidente del settore tecnico durante la riforma del calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando Baggio era presidente del settore tecnico, la famosa riforma del calcio italiano.",
+          "start_sec": 251.64,
+          "end_sec": 323.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Squadra",
+      "position": "La squadra ha fatto cose grandi sotto Gattuso.",
+      "polarity": "positive",
+      "claim_id": "51372beb-baf3-4d62-ae43-9f2b5a3bc286",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s4",
+      "target_entity": "Squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha fatto cose grandi sotto Gattuso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono orgoglioso di questa squadra, ha fatto grandi cose.",
+          "start_sec": 251.64,
+          "end_sec": 323.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Gattuso",
+      "position": "Gattuso non ha mai centrato la qualificazione per la Champions.",
+      "polarity": "negative",
+      "claim_id": "1e403536-bd80-4411-b028-d6bf73e3df49",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s5",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso non ha mai centrato la qualificazione per la Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ha mai centrato la qualificazione per la Champions.",
+          "start_sec": 321.44,
+          "end_sec": 377.71999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Bambini",
+      "position": "I bambini non hanno mai visto l'Italia giocare in un mondiale.",
+      "polarity": "negative",
+      "claim_id": "ca8790a9-19a2-4f99-b947-41c9f9ba9459",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s0",
+      "target_entity": "Bambini",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I bambini non hanno mai visto l'Italia giocare in un mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i bambini non hanno mai visto il mondiale",
+          "start_sec": 0.96,
+          "end_sec": 66.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gravina ha ringraziato Gattuso per il suo lavoro con la squadra.",
+      "polarity": "negative",
+      "claim_id": "c56aef18-30b0-4427-9499-4c6502718d48",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s4",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha ringraziato Gattuso per il suo lavoro con la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gravina dice Gattuso va ringraziato la squadra.",
+          "start_sec": 251.64,
+          "end_sec": 323.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Buffon",
+      "position": "Buffon continua nella sua posizione nonostante i risultati.",
+      "polarity": "negative",
+      "claim_id": "c8bb303c-1149-4609-95eb-d7151dce5b05",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s6",
+      "target_entity": "Buffon",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Buffon continua nella sua posizione nonostante i risultati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Resta Gattuso, resta Buffon, andiamo avanti così.",
+          "start_sec": 375.319,
+          "end_sec": 439.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina dovrebbe dimettersi dopo la sconfitta.",
+      "polarity": "negative",
+      "claim_id": "aa949115-dd68-4bf6-826c-70f46f21fa92",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina dovrebbe dimettersi dopo la sconfitta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il problema è Gravina che invece di dimettersi come se nulla fosse",
+          "start_sec": 136.959,
+          "end_sec": 195.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso rimane come allenatore nonostante i fallimenti.",
+      "polarity": "negative",
+      "claim_id": "f793e2ae-1d7c-42dd-9bfa-13c7162255f5",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s6",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso rimane come allenatore nonostante i fallimenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Resta Gattuso, resta Buffon, andiamo avanti così.",
+          "start_sec": 375.319,
+          "end_sec": 439.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bosnia",
+      "position": "La Bosnia è una buona squadra con giovani interessanti.",
+      "polarity": "neutral",
+      "claim_id": "82c2b507-9069-4503-93a4-2ac58de6c599",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s2",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia è una buona squadra con giovani interessanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono una buona squadra, hanno dei giovani interessanti",
+          "start_sec": 136.959,
+          "end_sec": 195.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Physic Durò",
+      "position": "Physic Durò non è considerato un buon allenatore.",
+      "polarity": "negative",
+      "claim_id": "ffa59087-3d33-4046-8d76-50a6fb328a17",
+      "video_id": "y1iOaeUUlt8",
+      "segment_id": "s5",
+      "target_entity": "Physic Durò",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Physic Durò non è considerato un buon allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però non è un allenatore il Physic Durò è il curriculum da nazionale",
+          "start_sec": 321.44,
+          "end_sec": 377.71999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

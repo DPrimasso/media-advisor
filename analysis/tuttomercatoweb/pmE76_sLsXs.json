@@ -1,0 +1,366 @@
+{
+  "video_id": "pmE76_sLsXs",
+  "analyzed_at": "2026-04-07T15:46:46.513936+00:00",
+  "metadata": {
+    "title": "TMWRadio - Chi è la vera antagonista dell'Inter? La Lazio cala il tris",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza la situazione attuale della Lazio nel campionato di Serie A, evidenziando come la squadra non possa ambire a posizioni di vertice a causa di problematiche interne e di un mercato bloccato. L'autore sottolinea che l'allenatore non è riuscito a isolare la squadra dalle difficoltà esterne, compromettendo le prestazioni. Tuttavia, si nota un ritrovato senso di serenità nella squadra, con un focus sull'obiettivo di prepararsi per la semifinale di Coppa Italia contro l'Atalanta. Infine, si discute su chi possa essere la vera antagonista dell'Inter, con il Napoli che emerge come la ",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "serenità",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "coppa",
+      "relevance": "medium"
+    },
+    {
+      "name": "obiettivo",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "medi",
+      "relevance": "low"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio non può ambire a nulla in questo campionato.",
+      "polarity": "negative",
+      "claim_id": "cb4ffe74-8d45-46b2-afad-88ec1c88bae8",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio non può ambire a nulla in questo campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio fa un campionato a parte, non non può ambire nulla.",
+          "start_sec": 0.12,
+          "end_sec": 42.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Lazio",
+      "position": "Ci sono molte problematiche esterne che influenzano la Lazio.",
+      "polarity": "neutral",
+      "claim_id": "145564c5-0ac4-4ea2-883d-e05bf228e4cd",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono molte problematiche esterne che influenzano la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alle problematiche esterne che sono tante che sono tante",
+          "start_sec": 0.12,
+          "end_sec": 42.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Lazio",
+      "position": "La Lazio ha trovato serenità e un obiettivo chiaro per la stagione.",
+      "polarity": "neutral",
+      "claim_id": "0bfbac94-59f3-46e8-af70-b7da40f3e481",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha trovato serenità e un obiettivo chiaro per la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio in questo momento abbia trovato serenità, come dicevi giustamente, e soprattutto abbia focalizzato quello che è il vero obiettivo della stagione",
+          "start_sec": 71.439,
+          "end_sec": 112.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio non era attrezzata per reggere nella parte alta della classifica.",
+      "polarity": "neutral",
+      "claim_id": "c5b6a9d4-ff3c-4026-98a3-1a5cc2c03213",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio non era attrezzata per reggere nella parte alta della classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Lazio non era attrezzata per reggere eh in quel cioè nella parte altissima della classifica",
+          "start_sec": 71.439,
+          "end_sec": 112.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Lazio",
+      "position": "La Lazio dovrà trovare meccanismi per battere l'Atalanta.",
+      "polarity": "neutral",
+      "claim_id": "23dcb438-0b69-4f6d-a095-d27a25391ca6",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Lazio dovrà trovare meccanismi per battere l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dove si dovranno trovare m tutti i meccanismi possibili per battere l'Atalanta",
+          "start_sec": 71.439,
+          "end_sec": 112.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio sta usando le partite della Coppa Italia come allenamento.",
+      "polarity": "neutral",
+      "claim_id": "8fa88989-b971-4df0-bcee-22128a0004eb",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta usando le partite della Coppa Italia come allenamento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi diciamo che queste sono gare di di allenamento della Lazio per trovare il modo di battere l'Atalanta.",
+          "start_sec": 110.759,
+          "end_sec": 146.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Italiano",
+      "position": "Italiano è visto come un allenatore di grande valore per le coppe.",
+      "polarity": "neutral",
+      "claim_id": "9e0832bf-d2f4-4099-90e9-b4daf9655dd7",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s3",
+      "target_entity": "Italiano",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Italiano è visto come un allenatore di grande valore per le coppe.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, italiano si concentra. italiano potesse essere un allenatore di una squadra che gioca solo le coppe, firmerebbe in bianco, credo.",
+          "start_sec": 110.759,
+          "end_sec": 146.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "allenatore",
+      "position": "L'allenatore ha la capacità di isolare la squadra dalle problematiche esterne.",
+      "polarity": "neutral",
+      "claim_id": "d1f052ed-70f8-4928-a9a8-70cdf48d8dd5",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s0",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore ha la capacità di isolare la squadra dalle problematiche esterne.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la capacità dell'allenatore di isolare",
+          "start_sec": 0.12,
+          "end_sec": 42.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "allenatore",
+      "position": "L'allenatore non è riuscito a gestire la squadra.",
+      "polarity": "negative",
+      "claim_id": "73ad7ccf-79eb-417c-bd6a-afb19f25cfd1",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s1",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore non è riuscito a gestire la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'allenatore non sia riuscito in questo",
+          "start_sec": 40.6,
+          "end_sec": 73.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Inter",
+      "position": "Le prime sette squadre sono andate, lasciando l'Inter come antagonista principale.",
+      "polarity": "neutral",
+      "claim_id": "c0c2d50c-cdde-4cd0-b151-c74c055acf16",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le prime sette squadre sono andate, lasciando l'Inter come antagonista principale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le prime sette sono andate.",
+          "start_sec": 71.439,
+          "end_sec": 112.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "squadra",
+      "position": "Il mercato della squadra è bloccato.",
+      "polarity": "neutral",
+      "claim_id": "1a03b55a-50dc-4f0f-a380-eac722036c4d",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato della squadra è bloccato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hai il mercato bloccato.",
+          "start_sec": 40.6,
+          "end_sec": 73.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "La squadra non ha più Gendusi disponibile.",
+      "polarity": "negative",
+      "claim_id": "0a90385d-e4e3-47ab-b7d0-214e36e91638",
+      "video_id": "pmE76_sLsXs",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra non ha più Gendusi disponibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cobbiamo più Gendusi",
+          "start_sec": 40.6,
+          "end_sec": 73.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

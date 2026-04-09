@@ -1,0 +1,379 @@
+{
+  "video_id": "Xz9zyFz0taY",
+  "analyzed_at": "2026-03-31T15:20:53.577Z",
+  "metadata": {
+    "title": "#Giovane è il sostituto di #NERES, non di Lang o Lucca 👀 HERE WE GO 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-23T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza il possibile trasferimento di Giovanni, che dovrebbe sostituire Neres nella Juventus, evidenziando la necessità di un rinforzo in attacco. L'autore sostiene che Giovanni possa portare nuove caratteristiche alla squadra, suggerendo che i giocatori precedenti avevano già raggiunto il loro massimo potenziale. Inoltre, si esprime una certa speranza che le nuove acquisizioni possano migliorare le prestazioni della Juventus, sottolineando l'interesse crescente per il mercato calcistico.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "analisi prestazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "speranza",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "statistiche",
+      "relevance": "medium"
+    },
+    {
+      "name": "sostituzioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "performance",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "giovane e moduli",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "6266ef34-a47f-4623-9de8-37e18275b925",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha bisogno di un rinforzo in attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La speranza è di averlo con la Juve, ma qua il tempo stringe.",
+          "start_sec": 0.24,
+          "end_sec": 45.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Juventus",
+        "calciomercato"
+      ],
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha bisogno di un rinforzo in attacco.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "6656fdc4-09fd-4a17-b0ab-112425539729",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s0",
+      "target_entity": "Giovani",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Giovani può portare nuove caratteristiche alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le sue caratteristiche, quello che può dare a questa squadra...",
+          "start_sec": 0.24,
+          "end_sec": 45.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Giovani",
+        "tattica"
+      ],
+      "topic": "tactics",
+      "subject": "Giovani",
+      "position": "Giovani può portare nuove caratteristiche alla squadra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4cb3b4f0-5122-4693-9878-b48918282d12",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s1",
+      "target_entity": "mercato",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "I video sul mercato stanno suscitando grande interesse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i video stanno andando bene perché ovviamente quando si parla di mercato è inevitabile che è la cosa che interessa di più",
+          "start_sec": 43.239,
+          "end_sec": 78.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "mercato",
+      "position": "I video sul mercato stanno suscitando grande interesse.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "44d397ef-277f-4d78-9801-d02cd6daaf86",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s1",
+      "target_entity": "nuovo",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "C'è speranza che le nuove acquisizioni possano portare miglioramenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Adesso abbiamo la speranza che il nuovo ci può dare qualcosa in più",
+          "start_sec": 43.239,
+          "end_sec": 78.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "nuovo",
+      "position": "C'è speranza che le nuove acquisizioni possano portare miglioramenti.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "403a7bad-3c4e-4baf-9d3d-056af37f710a",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s1",
+      "target_entity": "vecchi",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori precedenti avevano già dato il massimo e non potevano migliorare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quello che ci potevano dare i vecchi e più o meno lo avevamo capito",
+          "start_sec": 43.239,
+          "end_sec": 78.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "vecchi",
+      "position": "I giocatori precedenti avevano già dato il massimo e non potevano migliorare.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "fdc0ebe9-2cbf-42c4-958b-ecc75fcefe2c",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s2",
+      "target_entity": "Giovane",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Giovane ha suscitato l'interesse di diversi club, incluso l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che è stato accostato a tanti club, bla bla bla e piaceva anche all'Inter.",
+          "start_sec": 76.159,
+          "end_sec": 147.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Giovane",
+      "position": "Giovane ha suscitato l'interesse di diversi club, incluso l'Inter.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "739d0683-bd8f-4962-abfe-0168ef052c1d",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s2",
+      "target_entity": "Beppe Riso",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Beppe Riso sembra avere una buona reputazione come procuratore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "erano un articolo di un di un blog interista, insomma, che parlava di di Giovan.",
+          "start_sec": 76.159,
+          "end_sec": 147.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Beppe Riso",
+      "position": "Beppe Riso sembra avere una buona reputazione come procuratore.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "3e8aa6d1-c87c-4a19-a5fa-60ec6644d034",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s0",
+      "target_entity": "Giovani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PROBABLE",
+      "claim_text": "Giovani sarà il sostituto di Neres nella Juve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giovani... quello che può dare a questa squadra...",
+          "start_sec": 0.24,
+          "end_sec": 45.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Juventus",
+        "calciomercato",
+        "Giovani"
+      ],
+      "topic": "market",
+      "subject": "Giovani",
+      "position": "Giovani sarà il sostituto di Neres nella Juve.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "cf4a8b0e-2b38-4678-b9b8-89498439a0a9",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s0",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Neres non sarà più parte della Juve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giovane è il sostituto di Neres...",
+          "start_sec": 0.24,
+          "end_sec": 45.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Juventus",
+        "Neres"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Neres",
+      "position": "Neres non sarà più parte della Juve.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "3bb05dc2-d261-485d-8db4-24f464f74b30",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s1",
+      "target_entity": "Maldini",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Si è discussa la figura di Maldini nel contesto attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è parlato di Maldini eccetera eccetera",
+          "start_sec": 43.239,
+          "end_sec": 78.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Maldini",
+      "position": "Si è discussa la figura di Maldini nel contesto attuale.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "29276323-d708-41b0-bdd7-35c397bd1759",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s2",
+      "target_entity": "Giovane",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giovane è rappresentato dall'agente Beppe Riso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Beppe Riso l'ha preso sotto la sua procura.",
+          "start_sec": 76.159,
+          "end_sec": 147.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Giovane",
+      "position": "Giovane è rappresentato dall'agente Beppe Riso.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "0a2deadb-3709-400a-a144-e108708c6929",
+      "video_id": "Xz9zyFz0taY",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha offerto un contratto a Giovane.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha parlato di Beppe Riso come procuratore.",
+          "start_sec": 76.159,
+          "end_sec": 147.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha offerto un contratto a Giovane.",
+      "polarity": "positive"
+    }
+  ]
+}

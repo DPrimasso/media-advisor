@@ -1,0 +1,350 @@
+{
+  "video_id": "bmV2KqD2eqo",
+  "analyzed_at": "2026-04-08T12:39:43.535178+00:00",
+  "metadata": {
+    "title": "IL PRIMO COLPO DELLA JUVENTUS PER L’ESTATE. TORO DEJA-VÙ. IL BOLOGNA VOLA. SULLE ALI. ROMA IN CRISI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza i recenti sviluppi del campionato di Serie A e le prospettive di mercato per la prossima stagione, con particolare attenzione al Torino e al Bologna. L'autore sottolinea che, nonostante la vittoria del Torino, la squadra non ha convinto del tutto e che Ivan Juric potrebbe tornare ad allenarla, essendo un tecnico apprezzato dal presidente Urbano Cairo. Inoltre, evidenzia le buone prestazioni del Bologna, che si prepara a sfidare l'Aston Villa in Europa League, e il potenziale rinnovo del terzino Juan Miranda, il quale sta attirando l'interesse di club spagnoli e",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "finanze",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Ivan Juric",
+      "position": "Ivan Juric potrebbe tornare ad allenare il Torino.",
+      "polarity": "neutral",
+      "claim_id": "a3bfd1c1-b48f-4ba2-9181-2bedd51da186",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s1",
+      "target_entity": "Ivan Juric",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Ivan Juric potrebbe tornare ad allenare il Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sarebbe anche un clamoroso ritorno, quello di Ivan Juric",
+          "start_sec": 23.64,
+          "end_sec": 54.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna avrebbe potuto segnare 3-0 o 4-0 contro la Cremonese.",
+      "polarity": "positive",
+      "claim_id": "1ed59c02-c6ce-49b1-a6c6-534d391f5892",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s3",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna avrebbe potuto segnare 3-0 o 4-0 contro la Cremonese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poteva stare 3-0 4-0",
+          "start_sec": 74.28,
+          "end_sec": 99.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Toro",
+      "position": "Il Torino ha vinto 1-0 nella partita.",
+      "polarity": "positive",
+      "claim_id": "898e8620-54a8-4528-a65f-63ba9c9c530f",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s2",
+      "target_entity": "Toro",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Torino ha vinto 1-0 nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Toro vince 1-0.",
+          "start_sec": 51.0,
+          "end_sec": 75.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Daversa",
+      "position": "Daversa ha ottenuto nove punti in cinque partite.",
+      "polarity": "neutral",
+      "claim_id": "af868b36-550c-4a84-8a56-eb44b5a84b5f",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s0",
+      "target_entity": "Daversa",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Daversa ha ottenuto nove punti in cinque partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono nove punti in cinque partite per Daversa che sta traghettando la squadra.",
+          "start_sec": 1.04,
+          "end_sec": 25.279,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Il Torino è stato tra i migliori con Ivan Juric.",
+      "polarity": "neutral",
+      "claim_id": "47b31df5-6a1d-4c74-b16d-e35267d551dc",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s1",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Torino è stato tra i migliori con Ivan Juric.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tranne Mazzarri e Ventura che sono andati in Europa è stato il Torino migliore",
+          "start_sec": 23.64,
+          "end_sec": 54.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Urbano Cairo",
+      "position": "Urbano Cairo è un estimatore di Ivan Juric.",
+      "polarity": "positive",
+      "claim_id": "8fa5ad55-5c33-4f1a-9011-059406d152a7",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s1",
+      "target_entity": "Urbano Cairo",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Urbano Cairo è un estimatore di Ivan Juric.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Urbano Cairo che resta un estimatore del tecnico di Spalato",
+          "start_sec": 23.64,
+          "end_sec": 54.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juric",
+      "position": "Juric è un candidato per la panchina del Torino nella prossima stagione.",
+      "polarity": "neutral",
+      "claim_id": "4933c2b1-f196-427d-96f6-9df714a57ae8",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s2",
+      "target_entity": "Juric",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Juric è un candidato per la panchina del Torino nella prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tenete d'occhio anche il nome di Juric per la panchina del Toro nella prossima stagione.",
+          "start_sec": 51.0,
+          "end_sec": 75.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Cremonese",
+      "position": "La Cremonese rischia fortemente la retrocessione in Serie B.",
+      "polarity": "negative",
+      "claim_id": "3b5f4427-964a-480e-9090-f43fc4fe857c",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s2",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Cremonese rischia fortemente la retrocessione in Serie B.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chi rischia la Serie B profondamente è la Cremonese.",
+          "start_sec": 51.0,
+          "end_sec": 75.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha dominato la Cremonese per un'ora.",
+      "polarity": "positive",
+      "claim_id": "635bd63b-899f-4f8a-8611-b25598a037c8",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s3",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha dominato la Cremonese per un'ora.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Bologna domina letteralmente",
+          "start_sec": 74.28,
+          "end_sec": 99.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Pisa",
+      "position": "Il Pisa è retrocesso in Serie B.",
+      "polarity": "negative",
+      "claim_id": "0af43b40-0efc-4a82-b60e-7578ff318460",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s0",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Pisa è retrocesso in Serie B.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Pisa praticamente come il Verona è retrocesso in Serie B",
+          "start_sec": 1.04,
+          "end_sec": 25.279,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Il Torino vince ma non convince.",
+      "polarity": "neutral",
+      "claim_id": "41f195b5-d100-4c88-8dbd-a53fe4688206",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s0",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Torino vince ma non convince.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Toro vince ma non convince.",
+          "start_sec": 1.04,
+          "end_sec": 25.279,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese ha perso male contro il Bologna.",
+      "polarity": "negative",
+      "claim_id": "2e96f7f4-1c4f-4091-8a7a-886842dddad0",
+      "video_id": "bmV2KqD2eqo",
+      "segment_id": "s3",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese ha perso male contro il Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cremonese che perde malamente in casa col Bologna",
+          "start_sec": 74.28,
+          "end_sec": 99.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

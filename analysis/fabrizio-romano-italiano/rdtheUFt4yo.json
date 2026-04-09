@@ -1,0 +1,362 @@
+{
+  "video_id": "rdtheUFt4yo",
+  "analyzed_at": "2026-04-08T10:45:33.102185+00:00",
+  "metadata": {
+    "title": "🚨 OCCHIO A CALHANOGLU! NAPOLI-JUVE: LE SCELTE SUI RISCATTI! MILAN, CI SI METTE PURE DEPAY…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle dinamiche del mercato calcistico italiano, in particolare riguardo ai riscatti di gennaio e alle scelte strategiche di Juventus, Napoli, Milan e Inter. L'autore evidenzia l'interesse dell'Inter per Goretka, ma sottolinea la forte concorrenza, soprattutto da parte delle squadre inglesi, che offrono cifre elevate. Inoltre, si fa riferimento al buon rendimento di giocatori come Boga, per il quale la Juventus ha intenzione di procedere con il riscatto, mentre il Milan e l'Inter stanno valutando le proprie opzioni a centrocampo dopo il recente derby.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "concorrenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestito",
+      "relevance": "medium"
+    },
+    {
+      "name": "discussioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Juventus",
+      "position": "Le squadre inglesi offrono cifre fuori mercato per i giocatori in Italia.",
+      "polarity": "neutral",
+      "claim_id": "9e619fbf-672b-4db4-b501-5a0dd915a20f",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre inglesi offrono cifre fuori mercato per i giocatori in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le cifre che chiede a Newcastle e le cifre per cui sono disposte a spendere le squadre inglesi è sono cifre fuori mercato per l'Italia.",
+          "start_sec": 63.92,
+          "end_sec": 124.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juventus non è ancora fuori dai giochi per i riscatti di gennaio.",
+      "polarity": "neutral",
+      "claim_id": "3fcf0aa4-b506-44c0-96df-66444c1512a3",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus non è ancora fuori dai giochi per i riscatti di gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ti dico che sia fuori dai giochi perché non sono ancora partite le trattative.",
+          "start_sec": 63.92,
+          "end_sec": 124.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Milan sta considerano le scelte sul centrocampo dopo il derby.",
+      "polarity": "neutral",
+      "claim_id": "28a868ee-8a6a-4b01-863a-b708de83dc83",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan sta considerano le scelte sul centrocampo dopo il derby.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ripartire intanto un po' da centrocampo, post derby, sia per quanto riguarda il Milan.",
+          "start_sec": 63.92,
+          "end_sec": 124.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "L'Inter sta valutando anche le opzioni sul centrocampo.",
+      "polarity": "neutral",
+      "claim_id": "c8d8d2a6-41d4-4c63-97df-816fa349947e",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta valutando anche le opzioni sul centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ripartire intanto un po' da centrocampo, post derby, [...] sia per quanto riguarda l'Inter.",
+          "start_sec": 63.92,
+          "end_sec": 124.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Gerem Bogà",
+      "position": "La Juve sta prendendo Boga in prestito con diritto di riscatto.",
+      "polarity": "positive",
+      "claim_id": "fef9c2dc-36c1-4ac1-955d-4f978efa6d43",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s3",
+      "target_entity": "Gerem Bogà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve sta prendendo Boga in prestito con diritto di riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve sta prendendo Boga, è tutto fatto, prestito con diritto di riscatto.",
+          "start_sec": 122.159,
+          "end_sec": 150.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha effettuato affari come Alisson Santos.",
+      "polarity": "positive",
+      "claim_id": "afa13ed0-9e4b-40ac-9793-4a952b4a3b56",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha effettuato affari come Alisson Santos.",
+      "evidence_quotes": [
+        {
+          "quote_text": "po' più affari spenti come Alisson Santos al Napoli.",
+          "start_sec": 122.159,
+          "end_sec": 150.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha un diritto di riscatto su Boga.",
+      "polarity": "positive",
+      "claim_id": "fe35f216-63eb-4fcb-a049-a8bd02fc17ee",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha un diritto di riscatto su Boga.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è arrivato già in quella mattinata con un diritto però di riscatto, senza obbligo, senza garanzie.",
+          "start_sec": 147.879,
+          "end_sec": 184.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Boga",
+      "position": "Le prestazioni di Boga sono state molto buone.",
+      "polarity": "positive",
+      "claim_id": "8bcfe025-7ff9-4b59-9bb7-2781968eeecf",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s4",
+      "target_entity": "Boga",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le prestazioni di Boga sono state molto buone.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le prestazioni Nibogaf in qui sono state molto buone?",
+          "start_sec": 147.879,
+          "end_sec": 184.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha l'intenzione di procedere con il riscatto.",
+      "polarity": "positive",
+      "claim_id": "3941ba51-f1a0-4b76-acae-b8bef891b348",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha l'intenzione di procedere con il riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'intenzione della Juventus è quella di procedere con il riscatto.",
+          "start_sec": 182.0,
+          "end_sec": 212.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Le scelte per il mercato dell'Inter non sono imminenti.",
+      "polarity": "neutral",
+      "claim_id": "84478d62-e7c9-4025-a46d-f48ed1cbc5c8",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Le scelte per il mercato dell'Inter non sono imminenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non siamo ancora al momento delle scelte",
+          "start_sec": 41.28,
+          "end_sec": 65.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sandro Tonali",
+      "position": "Tonali è un argomento discusso.",
+      "polarity": "neutral",
+      "claim_id": "dbd20b5c-1cbe-4dbc-ace1-812084f4caee",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s1",
+      "target_entity": "Sandro Tonali",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tonali è un argomento discusso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sandro Tonali, ti rimando al video che ha fatto Matteo ieri a proposito di Tonali",
+          "start_sec": 41.28,
+          "end_sec": 65.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Gerem Bogà",
+      "position": "Il rendimento di Boga è molto buono.",
+      "polarity": "positive",
+      "claim_id": "7854e674-f4bd-4074-aac3-3cf3b3f33530",
+      "video_id": "rdtheUFt4yo",
+      "segment_id": "s3",
+      "target_entity": "Gerem Bogà",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rendimento di Boga è molto buono.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il rendimento è stato fin qui, almeno siamo a inizio marzo, molto molto buono.",
+          "start_sec": 122.159,
+          "end_sec": 150.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

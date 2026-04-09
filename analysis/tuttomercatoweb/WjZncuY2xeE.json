@@ -1,0 +1,366 @@
+{
+  "video_id": "WjZncuY2xeE",
+  "analyzed_at": "2026-04-07T15:16:57.349283+00:00",
+  "metadata": {
+    "title": "TMWRadio - De Paola:\" Velasco come presidente FIGC. Sulla Roma ha inciso l'uscita di Mancini\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMWRadio analizza la crisi sistemica che affligge il calcio italiano, evidenziando la necessità di un cambiamento radicale nel sistema calcistico. L'autore propone Julio Velasco come un potenziale presidente della FIGC, ritenendolo capace di attuare le riforme necessarie. Con le dimissioni di Gravina e le elezioni in programma per il 22 giugno, si discute delle varie opzioni di leadership, sottolineando che candidati come Marani e Abete potrebbero non avere il potere sufficiente per apportare i cambiamenti richiesti, mentre il commissariamento della federazione rimane una possibili",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "proprietà",
+      "relevance": "medium"
+    },
+    {
+      "name": "riforma",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "compromesso",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Gravina",
+      "position": "Le dimissioni di Gravina porteranno a elezioni il 22 giugno.",
+      "polarity": "neutral",
+      "claim_id": "dfedef79-d93b-43f7-b35d-71ab2f4681bb",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le dimissioni di Gravina porteranno a elezioni il 22 giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è scelta una strada diversa per il momento direttore, ovvero quella delle dimissioni di Gravina che porteranno alle elezioni il il 22 giugno.",
+          "start_sec": 64.72,
+          "end_sec": 134.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano sta attraversando una crisi sistemica.",
+      "polarity": "negative",
+      "claim_id": "73b942b4-4d31-4bb0-97fa-8d630284742d",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano sta attraversando una crisi sistemica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una crisi ormai assodata, consolidata del calcio italiano che è una crisi sistemica.",
+          "start_sec": 0.199,
+          "end_sec": 68.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente del CONI",
+      "position": "Si propone un cambiamento radicale nel sistema calcistico.",
+      "polarity": "negative",
+      "claim_id": "18be918d-724c-4a37-9f8d-112e02609322",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s0",
+      "target_entity": "presidente del CONI",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Si propone un cambiamento radicale nel sistema calcistico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è bisogno di cambiare proprio il sistema attorno al calcio",
+          "start_sec": 0.199,
+          "end_sec": 68.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Julio Velasco",
+      "position": "Julio Velasco sarebbe un ottimo presidente per la FIGC.",
+      "polarity": "positive",
+      "claim_id": "6b132b7e-c46f-4f0d-b146-49ddc862c5bd",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s1",
+      "target_entity": "Julio Velasco",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Julio Velasco sarebbe un ottimo presidente per la FIGC.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per me quello potrebbe essere un ottimo presidente federale",
+          "start_sec": 64.72,
+          "end_sec": 134.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Paolo Maldini",
+      "position": "Maldini è un'opzione per il ruolo di presidente federale.",
+      "polarity": "neutral",
+      "claim_id": "647928da-e3eb-4bee-9aff-75fb224a06d0",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s2",
+      "target_entity": "Paolo Maldini",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Maldini è un'opzione per il ruolo di presidente federale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'opzione di dare direttamente il ruolo di presidente federale a a Paolo Maldini",
+          "start_sec": 132.599,
+          "end_sec": 200.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Marani",
+      "position": "Marani è considerato un candidato principale ma con poco potere di cambiamento.",
+      "polarity": "neutral",
+      "claim_id": "d4d95577-63c1-470d-881b-420365d25787",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s2",
+      "target_entity": "Marani",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Marani è considerato un candidato principale ma con poco potere di cambiamento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con Marani, con Abete, con Malagò non cambierebbe nulla",
+          "start_sec": 132.599,
+          "end_sec": 200.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Abete",
+      "position": "Abete è visto come un candidato con limitato potere decisionale.",
+      "polarity": "neutral",
+      "claim_id": "c9ab6e71-b35a-4bcd-9f82-f53c8ab6052e",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s2",
+      "target_entity": "Abete",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Abete è visto come un candidato con limitato potere decisionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con Marani, con Abete, con Malagò non cambierebbe nulla",
+          "start_sec": 132.599,
+          "end_sec": 200.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Malagò",
+      "position": "Malagò è annoverato tra i principali candidati per la FIGC.",
+      "polarity": "neutral",
+      "claim_id": "31001697-a0b2-4601-a79d-c1a7096b03f2",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s2",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Malagò è annoverato tra i principali candidati per la FIGC.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con Marani, con Abete, con Malagò non cambierebbe nulla",
+          "start_sec": 132.599,
+          "end_sec": 200.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Baggio",
+      "position": "Baggio ha proposto riforme per il calcio giovanile.",
+      "polarity": "neutral",
+      "claim_id": "e05d70b9-3802-4115-85eb-d1ecc43d2b6f",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s3",
+      "target_entity": "Baggio",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Baggio ha proposto riforme per il calcio giovanile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come fece, per esempio Baggio in quelle 900 pagine di riforma dei campionati e non solo di campionati del calcio, soprattutto del calcio giovanile.",
+          "start_sec": 197.56,
+          "end_sec": 265.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "FIFA",
+      "position": "La FIFA potrebbe intervenire nel commissariamento della FIGC.",
+      "polarity": "neutral",
+      "claim_id": "b12186c0-edc0-4545-9b4b-a2293e2eca64",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s1",
+      "target_entity": "FIFA",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La FIFA potrebbe intervenire nel commissariamento della FIGC.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché la FIFA poi potrebbe intervenire",
+          "start_sec": 64.72,
+          "end_sec": 134.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Federazione",
+      "position": "La federazione è un luogo di conciliazione e ricerca di compromessi.",
+      "polarity": "neutral",
+      "claim_id": "dd9e7600-ef5c-4a78-9284-1c576f415055",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s3",
+      "target_entity": "Federazione",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La federazione è un luogo di conciliazione e ricerca di compromessi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la federazione è un luogo di conciliazione.",
+          "start_sec": 197.56,
+          "end_sec": 265.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "FIGC",
+      "position": "La FIGC dovrebbe essere commissariata.",
+      "polarity": "neutral",
+      "claim_id": "e49ed405-0cce-479a-b4a1-7807dde53774",
+      "video_id": "WjZncuY2xeE",
+      "segment_id": "s1",
+      "target_entity": "FIGC",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La FIGC dovrebbe essere commissariata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una federazione che va commissariata",
+          "start_sec": 64.72,
+          "end_sec": 134.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

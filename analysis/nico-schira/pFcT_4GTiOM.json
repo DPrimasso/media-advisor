@@ -1,0 +1,366 @@
+{
+  "video_id": "pFcT_4GTiOM",
+  "analyzed_at": "2026-04-08T13:29:36.734989+00:00",
+  "metadata": {
+    "title": "MILAN, BLITZ A CENA PER IL NUOVO BOMBER. JUVE, RIVOLUZIONE IN ATTACCO. IL MAESTRO E IL SOTTOVALUTATO",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sul calciomercato e sull'analisi delle recenti prestazioni di alcuni giocatori di spicco, in particolare Varaschelia, che l'autore definisce un campione sottovalutato in Italia. Schira sostiene che Varaschelia sia uno dei migliori talenti degli ultimi dieci anni in Serie A, evidenziando come il suo impatto sia stato limitato a soli due anni e mezzo nel nostro campionato. Inoltre, l'autore accenna a una possibile rivoluzione negli attacchi di Milan e Juventus, suggerendo che entrambe le squadre devono migliorare in questo aspetto per competere ai massimi liv",
+  "topics": [
+    {
+      "name": "prestazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "europeo",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "sottovalutato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "champions",
+      "relevance": "low"
+    },
+    {
+      "name": "decisione",
+      "relevance": "low"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Uno dei più grandi campioni degli ultimi 10 anni in Serie A.",
+      "polarity": "positive",
+      "claim_id": "81aea873-afce-4152-a08e-49741e259c91",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s1",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Uno dei più grandi campioni degli ultimi 10 anni in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno dei più grandi campioni che negli ultimi 10 anni sono passati in Serie A.",
+          "start_sec": 30.96,
+          "end_sec": 57.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "È stato goduto poco in Italia, solo per 2 anni e mezzo.",
+      "polarity": "negative",
+      "claim_id": "bd22789d-7872-4af8-80dc-fca58284c588",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s1",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "È stato goduto poco in Italia, solo per 2 anni e mezzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Purtroppo ce lo siamo goduti poco, nel senso solamente 2 anni e mezzo.",
+          "start_sec": 30.96,
+          "end_sec": 57.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Chelsea",
+      "position": "Chelsea ha avuto una partita divertente in Champions.",
+      "polarity": "neutral",
+      "claim_id": "d12b346a-10ef-4b10-b79c-250c629bcb26",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s0",
+      "target_entity": "Chelsea",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Chelsea ha avuto una partita divertente in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una grande notte di Champions, sono state partite molto divertenti",
+          "start_sec": 1.0,
+          "end_sec": 33.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "chelsea",
+      "position": "Ha spazzato via il Chelsea campione del mondo.",
+      "polarity": "negative",
+      "claim_id": "9e401ec7-40be-4dd4-b0a6-79b26bc94a5d",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s1",
+      "target_entity": "chelsea",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ha spazzato via il Chelsea campione del mondo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha spazzato via il Chelsea campione del mondo tra andata e ritorno.",
+          "start_sec": 30.96,
+          "end_sec": 57.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Paris Saint-Germain",
+      "position": "Il Paris Saint-Germain è tra le favorite per la vittoria della competizione.",
+      "polarity": "positive",
+      "claim_id": "0ea19e75-c1ae-4a41-b648-6b3ddfda9aff",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s2",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris Saint-Germain è tra le favorite per la vittoria della competizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si parla poco del Paris Saint-Germain che per me è tra le tre grandi favorite alla vittoria della competizione.",
+          "start_sec": 55.96,
+          "end_sec": 83.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sporting",
+      "position": "Lo Sporting ha fatto una rimonta incredibile contro il Bodo.",
+      "polarity": "positive",
+      "claim_id": "f7158986-cd7a-4a24-9afa-d08b74d9b9e7",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s2",
+      "target_entity": "Sporting",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lo Sporting ha fatto una rimonta incredibile contro il Bodo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Incredibile la remontata dello Sporting ai supplementari, 5-0 al Bodo.",
+          "start_sec": 55.96,
+          "end_sec": 83.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Vinicius",
+      "position": "Vinicius è stato celebrato ma è uscito presto nella competizione.",
+      "polarity": "neutral",
+      "claim_id": "db8b944a-f33a-4d11-80eb-3c5f3d2c9a66",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s4",
+      "target_entity": "Vinicius",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vinicius è stato celebrato ma è uscito presto nella competizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Super Vinicius, il City di Guardiola, anche qui a volte troppo esaltato, celebrato e osannato, va fuori presto agli ottavi",
+          "start_sec": 114.68,
+          "end_sec": 160.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Varaschelia",
+      "position": "Varaschelia è un campione che non è stato apprezzato abbastanza in Italia.",
+      "polarity": "positive",
+      "claim_id": "c5600623-5bdb-4c8e-88b7-abe21064943d",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s0",
+      "target_entity": "Varaschelia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Varaschelia è un campione che non è stato apprezzato abbastanza in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Varaschelia è un campione,",
+          "start_sec": 1.0,
+          "end_sec": 33.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bodo",
+      "position": "Il Bodo ha dimostrato fragilità in trasferta.",
+      "polarity": "negative",
+      "claim_id": "5d8e2bf2-de43-4d27-a75a-574a71de51ba",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s2",
+      "target_entity": "Bodo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bodo ha dimostrato fragilità in trasferta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bodo che poi in trasferta ha dimostrato tutte le sue fragilità.",
+          "start_sec": 55.96,
+          "end_sec": 83.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Varaschelia",
+      "position": "Varaschelia è sottovalutato in Italia.",
+      "polarity": "negative",
+      "claim_id": "00a00694-d49f-4678-ac48-000fc3f9198c",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s0",
+      "target_entity": "Varaschelia",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Varaschelia è sottovalutato in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci siamo goduti abbastanza",
+          "start_sec": 1.0,
+          "end_sec": 33.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Ha vinto uno scudetto con il Napoli.",
+      "polarity": "positive",
+      "claim_id": "11439930-9c64-4377-8876-86cdf34cfb7c",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ha vinto uno scudetto con il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fatto vincere uno scudetto al Napoli.",
+          "start_sec": 30.96,
+          "end_sec": 57.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Arsenal",
+      "position": "L'Arsenal potrebbe vincere la Premier.",
+      "polarity": "positive",
+      "claim_id": "032d8697-bcf3-4ce8-aa43-1d1a91a2cb37",
+      "video_id": "pFcT_4GTiOM",
+      "segment_id": "s2",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Arsenal potrebbe vincere la Premier.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Secondo me l'Arsenal può vincere la Premier.",
+          "start_sec": 55.96,
+          "end_sec": 83.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

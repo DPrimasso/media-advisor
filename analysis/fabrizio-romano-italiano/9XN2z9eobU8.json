@@ -1,0 +1,356 @@
+{
+  "video_id": "9XN2z9eobU8",
+  "analyzed_at": "2026-04-08T10:33:35.102071+00:00",
+  "metadata": {
+    "title": "🚨 GIRO PORTIERI: PRIME DECISIONI! PERRONE, SOGNI… PER TRE. ALISSON, DIBU MARTINEZ, VICARIO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie riguardanti i portieri nel calciomercato, con particolare attenzione a Dibu Martinez e alla situazione della Juventus. L'autore sottolinea che la Juventus è alla ricerca di un nuovo portiere e che Martinez è stato accostato al club, ma attualmente non ci sono sviluppi concreti. Inoltre, si menziona che Alisson ha rinnovato il contratto con il Liverpool, rendendo difficile il suo approdo in Italia. In conclusione, il mercato dei portieri è in fermento, con nomi importanti in gioco e decisioni da prendere nei prossimi mesi.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "preferenze",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Alisson",
+      "position": "Alisson guadagna 12 milioni di euro netti al Liverpool.",
+      "polarity": "positive",
+      "claim_id": "8df20367-39bd-4b09-9be6-07500f1a2e31",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s5",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson guadagna 12 milioni di euro netti al Liverpool.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alison guadagna 12 milioni di euro netti a Liverpool",
+          "start_sec": 157.239,
+          "end_sec": 186.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Dibu Martinez",
+      "position": "Dibu Martinez ha un contratto in scadenza nel 2024.",
+      "polarity": "neutral",
+      "claim_id": "e18546a0-f9f4-471b-a91c-d3f39dd6f3e4",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s3",
+      "target_entity": "Dibu Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Dibu Martinez ha un contratto in scadenza nel 2024.",
+      "evidence_quotes": [
+        {
+          "quote_text": "contratto di scadenza nel 2024",
+          "start_sec": 89.4,
+          "end_sec": 127.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Alisson",
+      "position": "Alisson è sotto contratto con il Liverpool fino al 2027.",
+      "polarity": "positive",
+      "claim_id": "9d594db6-99d5-439b-a57d-f9289959a03c",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s5",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson è sotto contratto con il Liverpool fino al 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso Alisson è sotto contratto fino al 2027",
+          "start_sec": 157.239,
+          "end_sec": 186.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Zabaglios è stato proposto al Napoli a gennaio.",
+      "polarity": "neutral",
+      "claim_id": "6dccf43f-f318-4df2-ace6-4470105c00ce",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Zabaglios è stato proposto al Napoli a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Al momento è stato proposto al Napoli già a gennaio.",
+          "start_sec": 31.119,
+          "end_sec": 67.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Dibu Martinez era già accostato all'Inter a gennaio.",
+      "polarity": "neutral",
+      "claim_id": "5c6ced14-7547-4829-b2f4-adff1e2287b7",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dibu Martinez era già accostato all'Inter a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un nome che era già circolato eh nel mese di gennaio per l'Inter",
+          "start_sec": 65.159,
+          "end_sec": 91.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Dibu Martinez",
+      "position": "Non ci sono stati sviluppi concreti per Dibu Martinez all'Inter.",
+      "polarity": "neutral",
+      "claim_id": "8252203d-141a-450e-a2aa-1b9d9131b3f7",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s2",
+      "target_entity": "Dibu Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono stati sviluppi concreti per Dibu Martinez all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci risultava nulla di particolarmente concreto tra il Dib e l'Inter",
+          "start_sec": 65.159,
+          "end_sec": 91.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Dibu Martinez",
+      "position": "L'entourage di Dibu Martinez sta cercando una soluzione per lui.",
+      "polarity": "neutral",
+      "claim_id": "66b616d0-bb8f-4d17-9791-50a6812aa003",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s3",
+      "target_entity": "Dibu Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'entourage di Dibu Martinez sta cercando una soluzione per lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'entourage del DBU sta cercando una soluzione per lui in vista dell'estate",
+          "start_sec": 89.4,
+          "end_sec": 127.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus non si è mossa concretamente per il DV Martinez.",
+      "polarity": "negative",
+      "claim_id": "b227a18f-e7ce-442b-8d10-3060a5db5312",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus non si è mossa concretamente per il DV Martinez.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus in questo momento non si è mossa concretamente per quanto riguarda il DV Martinez.",
+          "start_sec": 124.84,
+          "end_sec": 159.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Dibu Martinez",
+      "position": "Dibu Martinez non genera consenso totale nella dirigenza della Juventus.",
+      "polarity": "neutral",
+      "claim_id": "dd182bef-9d40-4bad-bf36-720f6b0eedcd",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s4",
+      "target_entity": "Dibu Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Dibu Martinez non genera consenso totale nella dirigenza della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un portiere che eh non genera un consenso totale in questo momento all'interno della dirigenza eh bianconera.",
+          "start_sec": 124.84,
+          "end_sec": 159.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Alisson",
+      "position": "Il Liverpool ha rinnovato il contratto di Alisson.",
+      "polarity": "positive",
+      "claim_id": "f39e1b8d-9160-4d8e-a7ce-283b0e0af982",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s5",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Liverpool ha rinnovato il contratto di Alisson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Liverpool ha attivato l'opzione per rinnovare il suo contratto di un altro anno",
+          "start_sec": 157.239,
+          "end_sec": 186.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus prenderà un nuovo portiere in estate.",
+      "polarity": "neutral",
+      "claim_id": "667870ca-71fc-4291-a841-69ceb8a9984b",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus prenderà un nuovo portiere in estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus in estate prenderà un portiere",
+          "start_sec": 65.159,
+          "end_sec": 91.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Dibu Martinez",
+      "position": "Dibu Martinez potrebbe cambiare squadra a fine anno.",
+      "polarity": "neutral",
+      "claim_id": "1b2be9a3-9549-4efd-b521-2baec9029483",
+      "video_id": "9XN2z9eobU8",
+      "segment_id": "s3",
+      "target_entity": "Dibu Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Dibu Martinez potrebbe cambiare squadra a fine anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sicuramente cambierà aria a fine anno",
+          "start_sec": 89.4,
+          "end_sec": 127.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

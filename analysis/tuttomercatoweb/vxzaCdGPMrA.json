@@ -1,0 +1,366 @@
+{
+  "video_id": "vxzaCdGPMrA",
+  "analyzed_at": "2026-04-07T15:45:43.367251+00:00",
+  "metadata": {
+    "title": "TMW News: Nazionale, cresce l’attesa. Inter, le mosse per ripartire",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TuttoMercatoWeb si concentra sull'attuale situazione della Nazionale italiana di calcio e sulle dinamiche delle squadre di Serie A, in particolare l'Inter e il Napoli. L'autore sottolinea che l'Italia non può permettersi di rimanere fuori da un terzo mondiale consecutivo, evidenziando la qualità della rosa e la necessità di tornare a competere ai massimi livelli. Inoltre, si discute della rimonta del Napoli sull'Inter, con l'Inter considerata favorita per il titolo, nonostante le recenti sconfitte che hanno aperto spazi per il Napoli. La conclusione chiave è che, nonostante le diff",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "atteggiamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "rimonta",
+      "relevance": "low"
+    },
+    {
+      "name": "titolo",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina deve stare nelle prime 6-7 della classifica.",
+      "polarity": "negative",
+      "claim_id": "4ed602e8-b89d-49c4-a5f1-a69a03130c18",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina deve stare nelle prime 6-7 della classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Fiorentina deve stare nelle prime 67.",
+          "start_sec": 264.639,
+          "end_sec": 327.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter è considerata la favorita per il titolo finale.",
+      "polarity": "positive",
+      "claim_id": "b4615eb8-b326-409b-b54c-6f8cf03f081c",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è considerata la favorita per il titolo finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, secondo me la favorita l'Inter, eh, c'ha un un vantagglio importante",
+          "start_sec": 118.479,
+          "end_sec": 202.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha perso dei punti importanti nelle ultime partite.",
+      "polarity": "positive",
+      "claim_id": "5d503a71-9e01-49aa-a344-edff68b35fe0",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha perso dei punti importanti nelle ultime partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter nelle ultime partite ha perso dei punti importanti",
+          "start_sec": 118.479,
+          "end_sec": 202.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli ha approfittato delle sconfitte dell'Inter l'anno scorso.",
+      "polarity": "neutral",
+      "claim_id": "544b2b18-bfb3-4621-984d-c72008a82a68",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha approfittato delle sconfitte dell'Inter l'anno scorso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "grazie a questo il Napoli ha approfittato la l'occasione.",
+          "start_sec": 198.519,
+          "end_sec": 266.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha subito sconfitte incredibili nella scorsa stagione.",
+      "polarity": "neutral",
+      "claim_id": "feeae8a7-ba11-4fac-9a7d-b4f0013da55d",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter ha subito sconfitte incredibili nella scorsa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'anno scorso ha perso delle partite alla fine incredibile.",
+          "start_sec": 198.519,
+          "end_sec": 266.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "Fiorentina ha giocato contro l'Inter la scorsa domenica.",
+      "polarity": "neutral",
+      "claim_id": "1e0da6d1-1ac3-4c1f-a32c-bd5f925bfd43",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Fiorentina ha giocato contro l'Inter la scorsa domenica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fiorentina-Inter che si è giocata domenica sera.",
+          "start_sec": 198.519,
+          "end_sec": 266.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Antonio Cassano",
+      "position": "Antonio Cassano ha un forte legame con Firenze e Napoli.",
+      "polarity": "neutral",
+      "claim_id": "67ac6858-7589-48e1-bb76-008d575094f6",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s2",
+      "target_entity": "Antonio Cassano",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Cassano ha un forte legame con Firenze e Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "amo sia Napoli che Firenze.",
+          "start_sec": 198.519,
+          "end_sec": 266.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha giocato alla pari con l'Inter.",
+      "polarity": "neutral",
+      "claim_id": "12f2e7c8-a64a-4fd7-a57e-5880ce6d1d3c",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha giocato alla pari con l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fiorentina l'ha giocata alla pari.",
+          "start_sec": 264.639,
+          "end_sec": 327.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Fagioli",
+      "position": "Fagioli è considerato scarso rispetto agli standard richiesti.",
+      "polarity": "negative",
+      "claim_id": "ee1be3e9-2fd6-49d3-80b2-1a7aa6b6df44",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s4",
+      "target_entity": "Fagioli",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fagioli è considerato scarso rispetto agli standard richiesti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fagiolo è scarso.",
+          "start_sec": 326.68,
+          "end_sec": 413.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli deve credere nella rimonta sull'Inter.",
+      "polarity": "positive",
+      "claim_id": "8f44afcc-f624-4e53-8af9-ee117130a5cd",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli deve credere nella rimonta sull'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bernardo, ma il tuo Napoli deve credere nella rimonta sul sull'Inter? È possibile?",
+          "start_sec": 118.479,
+          "end_sec": 202.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha avuto un campionato indegno finora.",
+      "polarity": "negative",
+      "claim_id": "3b3e9bb2-a0fb-450c-b5eb-8cd4b77b1238",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avuto un campionato indegno finora.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche secondo la gente indegno, secondo me.",
+          "start_sec": 264.639,
+          "end_sec": 327.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Il giocatore sta facendo molto bene e tiene bene la palla.",
+      "polarity": "positive",
+      "claim_id": "32ebbba9-5ded-4494-915f-1f2f48b9982d",
+      "video_id": "vxzaCdGPMrA",
+      "segment_id": "s1",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore sta facendo molto bene e tiene bene la palla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me lui sta facendo molto bene, tiene molto bene la palla",
+          "start_sec": 118.479,
+          "end_sec": 202.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

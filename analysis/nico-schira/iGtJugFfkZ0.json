@@ -1,0 +1,354 @@
+{
+  "video_id": "iGtJugFfkZ0",
+  "analyzed_at": "2026-04-08T13:49:01.019040+00:00",
+  "metadata": {
+    "title": "JUVENTUS, QUELLA PROPOSTA DI INZAGHI. NAPOLI, ECCO CHI DOPO CONTE. IL COMO E LA MISSIONE MADRILENA…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza le recenti partite di Champions League, evidenziando le vittorie di Arsenal e Bayern Monaco, e le prestazioni di giocatori chiave come Kayaverz e Harry Kane. L'autore sottolinea la necessità per la Juventus di rinforzare il proprio attacco, in particolare con l'ipotesi di un interesse per Darwin Nunez, attualmente insoddisfatto all'Al-Hilal. Con l'infortunio di Vlahovic e l'incertezza su Milik, Schira conclude che la Juve deve agire rapidamente per non compromettere la prossima stagione.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "collaborazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "europe",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Harry Kane",
+      "position": "Harry Kane ha segnato il suo 49º gol stagionale.",
+      "polarity": "positive",
+      "claim_id": "da395aa5-64e2-48bb-b189-88690bafa266",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s1",
+      "target_entity": "Harry Kane",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Harry Kane ha segnato il suo 49º gol stagionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi trova il gol anche Harry Kane, 49º gol stagionale",
+          "start_sec": 36.76,
+          "end_sec": 79.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "Il Real Madrid ha riaperto la sfida negli ultimi trenta minuti.",
+      "polarity": "positive",
+      "claim_id": "27d0c165-e142-4e1c-bfba-8a69a4ad1d8e",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s0",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid ha riaperto la sfida negli ultimi trenta minuti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Real Madrid nellaultima mezz'ora ha riaperto la sfida.",
+          "start_sec": 1.319,
+          "end_sec": 38.519999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Bayern Monaco",
+      "position": "Il Bayern Monaco è qualificato per le semifinali.",
+      "polarity": "neutral",
+      "claim_id": "80f46c69-e360-42b6-97f0-d746f3a4f673",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s1",
+      "target_entity": "Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern Monaco è qualificato per le semifinali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "due vittorie in trasferta che possono essere delle ipoteche, anche se non c'è più il gol che vale doppio lontano da casa. per Bayern e Arsenal in semifinale.",
+          "start_sec": 36.76,
+          "end_sec": 79.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Como",
+      "position": "Il Como è interessato a un giocatore della cantera del Real Madrid.",
+      "polarity": "neutral",
+      "claim_id": "a21111de-612a-43a0-a64d-ae47b31e49d6",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como è interessato a un giocatore della cantera del Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il gioiello del Como, eh, l'ultimo Giuli del Real Madrid...che piace al Como.",
+          "start_sec": 104.0,
+          "end_sec": 141.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal ha vinto la partita contro lo Sporting.",
+      "polarity": "negative",
+      "claim_id": "296b663d-73d3-4fe1-9e8a-ec1d84c06df1",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s0",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal ha vinto la partita contro lo Sporting.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Arsenal ha vinto 1-0.",
+          "start_sec": 1.319,
+          "end_sec": 38.519999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern Monaco",
+      "position": "Il Bayern Monaco ha giocato un grande primo tempo.",
+      "polarity": "positive",
+      "claim_id": "4f7c047f-281f-4cd8-b7ef-d39cbded1266",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s0",
+      "target_entity": "Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern Monaco ha giocato un grande primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stato un grande Bayern Monaco.",
+          "start_sec": 1.319,
+          "end_sec": 38.519999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Luis Diaz",
+      "position": "Luis Diaz ha segnato un gol nel match.",
+      "polarity": "positive",
+      "claim_id": "8d66f285-5513-47a8-bcfa-492ecbdf079c",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s1",
+      "target_entity": "Luis Diaz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Luis Diaz ha segnato un gol nel match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "scatenato che manda in gol Luis Diaz",
+          "start_sec": 36.76,
+          "end_sec": 79.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Como",
+      "position": "Il Como spera di partecipare a competizioni europee il prossimo anno.",
+      "polarity": "positive",
+      "claim_id": "c07f2c45-fe53-4a0d-a095-3b8f50f86a92",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Como spera di partecipare a competizioni europee il prossimo anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "spera l'anno prossimo di fare le coppe europee",
+          "start_sec": 76.759,
+          "end_sec": 106.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Real Madrid",
+      "position": "Il Real Madrid ha buoni rapporti con il Como.",
+      "polarity": "neutral",
+      "claim_id": "a7d799e3-5ba3-404d-a315-3360f242d2bf",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s2",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid ha buoni rapporti con il Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tra l'altro come Real Madrid danno grandi rapporti",
+          "start_sec": 76.759,
+          "end_sec": 106.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Pass",
+      "position": "L'operazione Nico Pass è un esempio di collaborazione tra Como e Real Madrid.",
+      "polarity": "neutral",
+      "claim_id": "fb0cd433-2ae4-4e39-95df-f945b924195d",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s2",
+      "target_entity": "Nico Pass",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione Nico Pass è un esempio di collaborazione tra Como e Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pensate all'operazione Nico Pass",
+          "start_sec": 76.759,
+          "end_sec": 106.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kayaverz",
+      "position": "Kayaverz ha segnato un gran gol.",
+      "polarity": "positive",
+      "claim_id": "29f1d3bd-ee48-413f-a2a6-36fdab9003b0",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s0",
+      "target_entity": "Kayaverz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kayaverz ha segnato un gran gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gran gol di Kayaverz su splendida giocata di Gabriel Martinelli.",
+          "start_sec": 1.319,
+          "end_sec": 38.519999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fabregas",
+      "position": "Fabregas sta osservando le partite di Champions.",
+      "polarity": "neutral",
+      "claim_id": "e5605a3c-17e7-4153-a7f8-79f8289c7d5b",
+      "video_id": "iGtJugFfkZ0",
+      "segment_id": "s3",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas sta osservando le partite di Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Fabregas che sta andando spesso a vedere la Champions.",
+          "start_sec": 104.0,
+          "end_sec": 141.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

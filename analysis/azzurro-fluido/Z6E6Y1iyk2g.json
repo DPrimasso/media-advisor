@@ -1,0 +1,398 @@
+{
+  "video_id": "Z6E6Y1iyk2g",
+  "analyzed_at": "2026-03-31T15:47:40.836Z",
+  "metadata": {
+    "title": "INDOVINA Chi è IL DINOSAURO 👀 Analisi #LAZIO #NAPOLI 0-2 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-05T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la partita tra Napoli e Lazio, conclusasi con una vittoria per 2-0 per il Napoli. L'autore sottolinea la prestazione eccezionale di Di Lorenzo, evidenziando come il suo recupero alto abbia contribuito allo sviluppo del gol. Viene inoltre messa in luce la difficoltà della Lazio, che ha mostrato problemi evidenti, e si discute della differenza tra il loro 352 e quello dell'Inter, con un focus sulle posizioni chiave e i movimenti dei giocatori. Infine, Politano viene elogiato per la sua prestazione, meritando di essere messo in evidenza.",
+  "topics": [
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattiche di gioco",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "medium"
+    },
+    {
+      "name": "difesa e posizioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "recupero palla",
+      "relevance": "low"
+    },
+    {
+      "name": "movimenti dei giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "e22e65e3-585f-48a1-a6b0-8beae0a4ee76",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto 2-0 contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "analisi e però ci sono alcune cose che non avevo visto e sono quelle che vi voglio far vedere.",
+          "start_sec": 3.56,
+          "end_sec": 119.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto 2-0 contro la Lazio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "1b266103-46a1-4465-960b-b27704211288",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio gioca con un 352 puro, non come l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi noi siamo veramente 352, proprio puro, però non lo dovete immaginare come il 352 alla Inter.",
+          "start_sec": 118,
+          "end_sec": 213.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattiche",
+        "formazione",
+        "Lazio"
+      ],
+      "topic": "tactics",
+      "subject": "Lazio",
+      "position": "La Lazio gioca con un 352 puro, non come l'Inter.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "060556ca-d0a0-4493-82a1-f456ae452884",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s0",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Di Lorenzo ha avuto una prestazione eccezionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh eh quelle cose che poi eh quando uno eh e cioè pa e tu e non eh bene Di Lorenzo, diciamolo.",
+          "start_sec": 3.56,
+          "end_sec": 119.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Di Lorenzo",
+      "position": "Di Lorenzo ha avuto una prestazione eccezionale.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7e269f1c-159b-499f-a248-f08f6b24ec12",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s1",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Di Lorenzo recupera un pallone alto su Zaccagni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "diamo merito a Di Lorenzo che qua in anticipo secco su Zaccagni recupera questo pallone alto.",
+          "start_sec": 118,
+          "end_sec": 213.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Di Lorenzo",
+        "recupero",
+        "prestazione"
+      ],
+      "topic": "performance",
+      "subject": "Di Lorenzo",
+      "position": "Di Lorenzo recupera un pallone alto su Zaccagni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "36501e01-875d-4555-b7b9-bae88c722f6a",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s2",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha problemi con la Lazio a causa di un mercato non all'altezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sarri sicuramente ha un problema con la Lazio perché non gli hanno fatto il mercato, non i giocatori non adatti al suo calcio.",
+          "start_sec": 211.12,
+          "end_sec": 330.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coaching",
+        "tactics",
+        "Lazio"
+      ],
+      "topic": "tactics",
+      "subject": "Sarri",
+      "position": "Sarri ha problemi con la Lazio a causa di un mercato non all'altezza.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "e9938548-4524-4385-8910-aa69e0644449",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s2",
+      "target_entity": "Marusic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Marusic è stato costretto a una posizione centrale inefficace.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Costringe Marusic a stare qua nel momento in cui Marusic sta così centrale.",
+          "start_sec": 211.12,
+          "end_sec": 330.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Lazio",
+        "defense"
+      ],
+      "topic": "performance",
+      "subject": "Marusic",
+      "position": "Marusic è stato costretto a una posizione centrale inefficace.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "c26a08e9-10b1-4852-868e-f652b032aefd",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sfrutta i difetti nella difesa della Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli sfrutta proprio questo questo difetto del difendere in questa maniera.",
+          "start_sec": 211.12,
+          "end_sec": 330.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "Napoli",
+        "defense"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli sfrutta i difetti nella difesa della Lazio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "51093785-b72c-46d8-a97e-0dafef384763",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s1",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Politano meriterebbe la copertina per la sua prestazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "applausi a Politano, se lo meriterebbe la copertina.",
+          "start_sec": 118,
+          "end_sec": 213.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Politano",
+        "prestazione",
+        "copertina"
+      ],
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano meriterebbe la copertina per la sua prestazione.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "75b3d9a6-e2cd-47e0-aed6-37d0bf4a7965",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha mostrato problemi evidenti durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sapete benissimo di cosa si tratta.",
+          "start_sec": 3.56,
+          "end_sec": 119.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha mostrato problemi evidenti durante la partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "fe0c143b-01a6-4ac8-8c00-e162d8268fdf",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sviluppa il gol grazie a un recupero alto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Qua si sviluppa il gol del Napoli, lo vedete?",
+          "start_sec": 118,
+          "end_sec": 213.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "Napoli",
+        "recupero alto"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli sviluppa il gol grazie a un recupero alto.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "53891f83-005c-4739-acdb-51fae917c157",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s2",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Politano ha fornito un assist efficace da quinto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qua parte il cross di Politano da quinto a quinto.",
+          "start_sec": 211.12,
+          "end_sec": 330.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "assist",
+        "Napoli"
+      ],
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano ha fornito un assist efficace da quinto.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "65af0b42-c241-487e-87f4-3339abf5fce0",
+      "video_id": "Z6E6Y1iyk2g",
+      "segment_id": "s0",
+      "target_entity": "Marco Morra",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Marco Morra è uno dei nuovi iscritti al canale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Benvenuto Marco Morra.",
+          "start_sec": 3.56,
+          "end_sec": 119.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "Marco Morra",
+      "position": "Marco Morra è uno dei nuovi iscritti al canale.",
+      "polarity": "neutral"
+    }
+  ]
+}

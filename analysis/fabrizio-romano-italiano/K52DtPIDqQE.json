@@ -1,0 +1,350 @@
+{
+  "video_id": "K52DtPIDqQE",
+  "analyzed_at": "2026-04-08T10:35:18.046499+00:00",
+  "metadata": {
+    "title": "🚨 GILA IN LISTA! EDERSON, IL COLPO PROCEDE. MANCINI E CRISTANTE, I RINNOVI, LA ROMA E FABIO GROSSO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato calcistico, in particolare sui rinnovi di contratto di Gianluca Mancini e Brian Cristante, due giocatori chiave della Roma, entrambi a un passo dalla firma per prolungare il loro legame con il club. L'autore sottolinea che, se non ci saranno sviluppi inaspettati, il futuro di entrambi sarà ancora in giallorosso. Inoltre, si menziona Mario Gila della Lazio come un nome interessante per il Milan, sebbene al momento non ci siano trattative concrete. In sintesi, il video offre un aggiornamento sulle trattative di mercato e su",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "calciatori",
+      "position": "Tutti i calciatori con contratto in scadenza nel 2027 saranno discussi.",
+      "polarity": "neutral",
+      "claim_id": "1fecb0e9-89ad-4ca1-aa2f-0ed9df370b48",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s0",
+      "target_entity": "calciatori",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tutti i calciatori con contratto in scadenza nel 2027 saranno discussi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutti i calciatori possibili, immaginabili che hanno un contratto di scadenza nel 2027.",
+          "start_sec": 0.04,
+          "end_sec": 32.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gianluca Mancini",
+      "position": "Gianluca Mancini è un pilastro della Roma attuale.",
+      "polarity": "positive",
+      "claim_id": "ce23d079-b723-4035-93c2-fe497ec2502f",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s1",
+      "target_entity": "Gianluca Mancini",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluca Mancini è un pilastro della Roma attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mancini, Gianluca Mancini e Brian Cristante, due pilastri della Roma attuale",
+          "start_sec": 29.84,
+          "end_sec": 77.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "Il futuro di Mancini e Cristante dovrebbe essere ancora con la Roma.",
+      "polarity": "positive",
+      "claim_id": "7898c8ec-ec01-4981-9a84-46b406e853da",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Mancini e Cristante dovrebbe essere ancora con la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il futuro di entrambi...sarà ancora in giallorosso.",
+          "start_sec": 75.479,
+          "end_sec": 119.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "Le trattative di mercato per la Roma sembrano avviarsi positivamente.",
+      "polarity": "positive",
+      "claim_id": "59082fa8-57ad-4687-880f-a30ec5a8e891",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le trattative di mercato per la Roma sembrano avviarsi positivamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il cielo si sia schiarito...per quanto riguarda tutte e due entrambe le trattative di mercato.",
+          "start_sec": 75.479,
+          "end_sec": 119.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mario Hila",
+      "position": "La concorrenza per Hila rende il suo ingaggio difficile.",
+      "polarity": "neutral",
+      "claim_id": "e2c500c1-8fbd-43d0-aee5-acbb2b474dd8",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s3",
+      "target_entity": "Mario Hila",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La concorrenza per Hila rende il suo ingaggio difficile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché chiaramente non è un nome ehm diciamo facilmente raggiungibile perché c'è tanta concorrenza.",
+          "start_sec": 114.68,
+          "end_sec": 158.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "I rapporti tra Lazio e Milan sono tesi.",
+      "polarity": "neutral",
+      "claim_id": "f92f7030-5db3-419b-bfee-d2846b3b9b1d",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "I rapporti tra Lazio e Milan sono tesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i rapporti tra la Lazio e il Milan non sono ottimali in questo momento.",
+          "start_sec": 114.68,
+          "end_sec": 158.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Mario Killa è un nome seguito dal club rossonero.",
+      "polarity": "neutral",
+      "claim_id": "bb638a81-ca4d-4515-a9c0-d57eac7d6c77",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Mario Killa è un nome seguito dal club rossonero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta parlando tantissimo di Mario Killa in ottica Milan",
+          "start_sec": 155.48,
+          "end_sec": 192.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Non c'è una trattativa imminente per Mario Killa.",
+      "polarity": "neutral",
+      "claim_id": "a21d92c3-48d2-44bb-a182-98d8d11e69a8",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Non c'è una trattativa imminente per Mario Killa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non c'è una trattativa, non è un nome così vicino alla chiusura",
+          "start_sec": 155.48,
+          "end_sec": 192.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Servono ulteriori passaggi per arrivare a una trattativa concreta.",
+      "polarity": "neutral",
+      "claim_id": "9b77d641-def6-4058-82e0-652ffe7f3e44",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Servono ulteriori passaggi per arrivare a una trattativa concreta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "serve fare eh come dire ulteriori passaggi per arrivare poi a parlare di qualcosa di più concreto",
+          "start_sec": 155.48,
+          "end_sec": 192.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Gila",
+      "position": "Gila è un calciatore che piace al Milan e ad altre squadre.",
+      "polarity": "neutral",
+      "claim_id": "0757b302-9698-4628-a9f6-56deb0778da8",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s5",
+      "target_entity": "Gila",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gila è un calciatore che piace al Milan e ad altre squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Però sicuramente è un calciatore che piace, contratto di scadenza nel 2027, piace non solo al Milan, piace anche ad altre squadre, ad altri club italiani e non solo.",
+          "start_sec": 189.92,
+          "end_sec": 223.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Gila",
+      "position": "Ci potrebbe essere un possibile ritorno di Gila in Spagna.",
+      "polarity": "neutral",
+      "claim_id": "d570849f-8a52-4231-bf47-33062d550e0a",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s5",
+      "target_entity": "Gila",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Ci potrebbe essere un possibile ritorno di Gila in Spagna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "occhio anche a ehm ad un possibile ritorno in Spagna.",
+          "start_sec": 189.92,
+          "end_sec": 223.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mario Gila",
+      "position": "Mario Gila è un giocatore della Lazio.",
+      "polarity": "neutral",
+      "claim_id": "e1e9932e-57a1-4046-ae6b-b2ca801a60c7",
+      "video_id": "K52DtPIDqQE",
+      "segment_id": "s1",
+      "target_entity": "Mario Gila",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mario Gila è un giocatore della Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mario Gila della Lazio",
+          "start_sec": 29.84,
+          "end_sec": 77.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

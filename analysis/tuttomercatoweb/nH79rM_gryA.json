@@ -1,0 +1,366 @@
+{
+  "video_id": "nH79rM_gryA",
+  "analyzed_at": "2026-04-07T16:07:09.021965+00:00",
+  "metadata": {
+    "title": "TMW News: Il Como non si nasconde più: obiettivo Champions. Fiorentina, vittoria fondamentale",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News si concentra sulle ambizioni del Como di raggiungere la Champions League e sull'analisi delle prestazioni di altre squadre, in particolare l'Atalanta, che si prepara per il ritorno degli ottavi di finale dopo una pesante sconfitta contro il Bayern Monaco. L'autore sottolinea che l'Atalanta è una squadra ben costruita e che, nonostante la pressione crescente, ha le potenzialità per competere per le prime posizioni in campionato. Inoltre, si menzionano le sfide che attendono la Juventus e la Roma, evidenziando un campionato italiano molto competitivo e aperto.",
+  "topics": [
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "champions",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "prestigio",
+      "relevance": "low"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini è considerato un allenatore di vertice da 10-15 anni.",
+      "polarity": "neutral",
+      "claim_id": "86f98bf1-e28c-4d80-be6b-770019ff35a9",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s4",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini è considerato un allenatore di vertice da 10-15 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno come Gasperini che è oramai 10-15 anni che sta al vertice",
+          "start_sec": 307.24,
+          "end_sec": 393.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Atalanta",
+      "position": "L'Atalanta giocherà il ritorno degli ottavi di Champions.",
+      "polarity": "positive",
+      "claim_id": "0b0a45db-6ae6-4309-a078-113619ac4d8d",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta giocherà il ritorno degli ottavi di Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta che dovrà giocare il ritorno di questa competizione.",
+          "start_sec": 13.0,
+          "end_sec": 94.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus è in lotta per rimanere tra le prime posizioni.",
+      "polarity": "neutral",
+      "claim_id": "623e3bf8-c5db-4426-8aed-da52eb78bdae",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è in lotta per rimanere tra le prime posizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, dico che sia la Juventus che le altre squadre che stanno lottando perché oramai i ruoli sono già ben definiti, no?",
+          "start_sec": 184.319,
+          "end_sec": 238.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "L'Atalanta potrebbe rientrare nella corsa per le prime posizioni.",
+      "polarity": "neutral",
+      "claim_id": "131db53b-8ea9-488f-9c61-8d271bef5939",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Atalanta potrebbe rientrare nella corsa per le prime posizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "eh Juventus, Roma e Atalanta che potrebbe anche lei rientrare un attimino perché i punti sono pochi, sono tre 4 c punti che con gli scontri diretti possono riaprire",
+          "start_sec": 184.319,
+          "end_sec": 238.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fabregas",
+      "position": "Fabregas ha litigato con vari allenatori nel corso della stagione.",
+      "polarity": "neutral",
+      "claim_id": "84865c9a-a791-4e0b-8fce-e7864f98ebf9",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s3",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas ha litigato con vari allenatori nel corso della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha litigato non soltanto con Gasperini, ma anche con altri allenatori, con Allegri e con altri tecnici.",
+          "start_sec": 234.48,
+          "end_sec": 312.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Fabregas",
+      "position": "Il comportamento di Fabregas può far parte della sua personalità nel calcio.",
+      "polarity": "neutral",
+      "claim_id": "e3434c97-b506-4a81-8dfa-acadede58b8a",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s3",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il comportamento di Fabregas può far parte della sua personalità nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "probabilmente anche, non dico di una strategia, ma evidentemente ha queste caratteristiche anche Fabregas.",
+          "start_sec": 234.48,
+          "end_sec": 312.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Fabregas",
+      "position": "Fabregas deve trovare un equilibrio nel suo comportamento in campo.",
+      "polarity": "neutral",
+      "claim_id": "3474e610-4fd2-4783-bfb7-aa5d98a036a9",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s3",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Fabregas deve trovare un equilibrio nel suo comportamento in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si deve dare una certa regolata perché è vero che lui esprime un calcio completamente diverso.",
+          "start_sec": 234.48,
+          "end_sec": 312.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fabregas",
+      "position": "Fabregas potrebbe influenzare il campionato con le sue idee.",
+      "polarity": "neutral",
+      "claim_id": "6ebbea15-d9c4-4a31-a362-9683a91e4c84",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s3",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Fabregas potrebbe influenzare il campionato con le sue idee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui si sta proponendo qua in un campionato difficile come quello della Serie A.",
+          "start_sec": 234.48,
+          "end_sec": 312.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Allegri ha avuto scontri con l'altro allenatore menzionato.",
+      "polarity": "neutral",
+      "claim_id": "e379014d-9116-4c51-b122-801684c7061a",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s4",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri ha avuto scontri con l'altro allenatore menzionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha avuto anche del degli scontri con con Allegri",
+          "start_sec": 307.24,
+          "end_sec": 393.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha subito una pesante sconfitta all'andata.",
+      "polarity": "neutral",
+      "claim_id": "34146afa-e228-435c-85fb-f568dd23b667",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha subito una pesante sconfitta all'andata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il 6-1 patito all'andata a Bergamo.",
+          "start_sec": 13.0,
+          "end_sec": 94.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta è una squadra ben costruita.",
+      "polarity": "neutral",
+      "claim_id": "a6912e9d-3f18-4e79-be6e-cef5cb0e0afa",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta è una squadra ben costruita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sicuramente è una squadra ben costruita.",
+          "start_sec": 13.0,
+          "end_sec": 94.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como punta a raggiungere la Champions.",
+      "polarity": "positive",
+      "claim_id": "b5a6400a-7b69-4542-97b8-047295a109e6",
+      "video_id": "nH79rM_gryA",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como punta a raggiungere la Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "obiettivo Champions.",
+          "start_sec": 13.0,
+          "end_sec": 94.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

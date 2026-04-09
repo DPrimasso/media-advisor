@@ -1,0 +1,402 @@
+{
+  "video_id": "7m4vN28JhXw",
+  "analyzed_at": "2026-03-31T16:12:56.648Z",
+  "metadata": {
+    "title": "#Intervista meravigliosa a #McTominay 👀 Tutti i SEGRETI del Guerriero BAMBINONE 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-20T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza un'intervista rilasciata da Scott McTominay a Paramount Plus, mettendo in evidenza la profondità delle risposte del calciatore. L'autore sottolinea come McTominay abbia parlato della sua crescita personale, evidenziando l'importanza della fiducia in se stessi e della teoria del 'The Secret' per raggiungere i propri obiettivi. Inoltre, McTominay ha condiviso la sua esperienza con la cultura italiana, esprimendo apprezzamento per il cibo e la vita nel paese, smentendo alcuni miti comuni.",
+  "topics": [
+    {
+      "name": "mentalità",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "personal growth",
+      "relevance": "high"
+    },
+    {
+      "name": "interview",
+      "relevance": "medium"
+    },
+    {
+      "name": "sfide della squadra",
+      "relevance": "medium"
+    },
+    {
+      "name": "recovery methods",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenamento",
+      "relevance": "low"
+    },
+    {
+      "name": "conte's coaching style",
+      "relevance": "low"
+    },
+    {
+      "name": "esigenza nel calcio",
+      "relevance": "low"
+    },
+    {
+      "name": "carriera",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "dc11b2be-53ca-4982-bd11-b2e152da37fd",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s0",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Scott McTominay ha rilasciato un'intervista a Paramount Plus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'era stata un'intervista molto bella eh a Scott, a McTominay, fatta da Paramount Plus.",
+          "start_sec": 2,
+          "end_sec": 159.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interview",
+        "Paramount Plus"
+      ],
+      "topic": "media",
+      "subject": "McTominay",
+      "position": "Scott McTominay ha rilasciato un'intervista a Paramount Plus.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "25ed8111-c3c5-4e39-9262-140d2958c01e",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s0",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.3,
+      "modality": "CERTAIN",
+      "claim_text": "Scott McTominay ha risposto in modo profondo durante l'intervista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Scott è stato un po' più profondo e credo che la copertina poi riguardi il segreto.",
+          "start_sec": 2,
+          "end_sec": 159.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "depth",
+        "insight"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Scott McTominay ha risposto in modo profondo durante l'intervista.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "04570c1d-ca92-4c27-9914-a7028da4da01",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s0",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "La teoria del 'The Secret' è un concetto discusso da McTominay.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il segreto è questo qua e nello specifico chi conosce questa questa teoria, diciamo, è un'america nata.",
+          "start_sec": 2,
+          "end_sec": 159.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "The Secret",
+        "motivation"
+      ],
+      "topic": "media",
+      "subject": "McTominay",
+      "position": "La teoria del 'The Secret' è un concetto discusso da McTominay.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "6257da4d-a942-453d-8c76-3a24610f8866",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay si è dimostrato abile nelle interviste post-partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso sono in grado probabilmente di fare le interviste post",
+          "start_sec": 155.56,
+          "end_sec": 274.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interview",
+        "confidence"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay si è dimostrato abile nelle interviste post-partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d545460c-7138-44bd-9b8e-0f07db382c47",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Dopo la vittoria del campionato, McTominay ha apprezzato la cultura e il cibo italiani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Scott si è innamorato perdutamente del cibo nostro e del weather",
+          "start_sec": 155.56,
+          "end_sec": 274.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "cuisine",
+        "cultural adaptation"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Dopo la vittoria del campionato, McTominay ha apprezzato la cultura e il cibo italiani.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "846c99c8-a9c3-4941-aa7b-8e432e9be631",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Scott McTominay sta lavorando per migliorare le sue abilità linguistiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Scott si è messo a disposizione e lui di persona vuole crescere e vuole imparare.",
+          "start_sec": 272.199,
+          "end_sec": 394.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lingua",
+        "sviluppo personale"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Scott McTominay sta lavorando per migliorare le sue abilità linguistiche.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "e1816d01-1a8b-449b-ac23-c1abdd5dbdef",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è commendato per la sua abilità di parlare più lingue.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fare i complimenti a gente come Lukaku che parla 5 6 7 lingue.",
+          "start_sec": 272.199,
+          "end_sec": 394.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lingua",
+        "comunicazione"
+      ],
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku è commendato per la sua abilità di parlare più lingue.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ee6c3641-d0d7-4e80-9284-200312be9c3e",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay non ha ancora realizzato il suo successo recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ha ancora realizzato appieno quanto fatto in questi ultimi 18 mesi.",
+          "start_sec": 272.199,
+          "end_sec": 394.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "successo",
+        "consapevolezza"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay non ha ancora realizzato il suo successo recente.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "fbd2b3e5-84fb-4c98-b64a-46ff12c6ac73",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra sta affrontando molte sfide a causa degli infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "già con tutti gli infortuni e tutte queste partite, quindi si chiede tanto alla squadra.",
+          "start_sec": 272.199,
+          "end_sec": 394.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortuni",
+        "tensione scaletta"
+      ],
+      "topic": "injury",
+      "subject": "McTominay",
+      "position": "La squadra sta affrontando molte sfide a causa degli infortuni.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "940421fc-2e97-43ab-abd0-e129040c7620",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay ha sviluppato fiducia e autostima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la confidence io la traduco come fiducia in se stessi",
+          "start_sec": 155.56,
+          "end_sec": 274.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "self-esteem",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay ha sviluppato fiducia e autostima.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "aa92469c-2238-4439-8f18-911074c2e970",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay scopre che i miti sul cibo italiano non corrispondono alla realtà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando poi l'ha provato veramente ci è rimasto di sasso",
+          "start_sec": 155.56,
+          "end_sec": 274.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "myths",
+        "reality check"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay scopre che i miti sul cibo italiano non corrispondono alla realtà.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "2fbfebc5-4636-4613-8167-4fa2458a6e58",
+      "video_id": "7m4vN28JhXw",
+      "segment_id": "s0",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.2,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay ha affermato che il suo italiano è 'non male'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lui dice, \"Non male, non è eccezionale.\"",
+          "start_sec": 2,
+          "end_sec": 159.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "language",
+        "communication"
+      ],
+      "topic": "media",
+      "subject": "McTominay",
+      "position": "McTominay ha affermato che il suo italiano è 'non male'.",
+      "polarity": "neutral"
+    }
+  ]
+}

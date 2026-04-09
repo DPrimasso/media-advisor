@@ -1,0 +1,366 @@
+{
+  "video_id": "NLHHqdZ4RvY",
+  "analyzed_at": "2026-04-08T13:31:12.570082+00:00",
+  "metadata": {
+    "title": "INTER, ECCO IL SACRIFICIO PER FARE CASSA E MERCATO. TUTTI PAZZI PER KONE. IL VALZER DELLE PANCHINE… ",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza la recente partita di campionato tra Fiorentina e Cremonese, evidenziando la netta vittoria della Fiorentina per 4-1, che la allontana dalla zona retrocessione. L'autore sottolinea la crisi della Cremonese, che non vince da 15 giornate e si avvicina all'esonero del tecnico Davide Nicola, ritenuto non più in grado di gestire la squadra. Schira conclude che la situazione della Cremonese è critica, con la possibilità di retrocessione sempre più concreta, mentre la Fiorentina sembra aver trovato una nuova stabilità.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatori",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "crisi",
+      "relevance": "medium"
+    },
+    {
+      "name": "narrativa",
+      "relevance": "low"
+    },
+    {
+      "name": "retrocessione",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "salvezza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha vinto con un punteggio di 4-1.",
+      "polarity": "positive",
+      "claim_id": "29265bbb-ce04-4072-9d7c-f4ec80a45c74",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha vinto con un punteggio di 4-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Invece la Fiorentina ha banchettato e ha sbancato agilmente lo Zini. 4-1 senza storia",
+          "start_sec": 1.52,
+          "end_sec": 32.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese è in crisi con 11 sconfitte e 4 pareggi.",
+      "polarity": "negative",
+      "claim_id": "a529a3ca-2da5-4e19-9fb1-c0bfcb4898bd",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s1",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese è in crisi con 11 sconfitte e 4 pareggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pensate, 11 sconfitte, quattro pareggi, crisi nera.",
+          "start_sec": 30.92,
+          "end_sec": 59.839999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese non vince da 15 giornate.",
+      "polarity": "negative",
+      "claim_id": "e4e53635-897f-4abd-9448-02c5b7ecbe7e",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s1",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese non vince da 15 giornate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cremonese a Picco non vince dal 7 di dicembre. ... Sono 15 giornate senza vittorie.",
+          "start_sec": 30.92,
+          "end_sec": 59.839999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina si è tirata fuori dalla lotta per non retrocedere.",
+      "polarity": "positive",
+      "claim_id": "d8cb864c-6a4b-4fe3-befb-aa05778297a2",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina si è tirata fuori dalla lotta per non retrocedere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fiorentina che con questa vittoria si tira fuori dalla lotta per non retrocedere.",
+          "start_sec": 1.52,
+          "end_sec": 32.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "campionato",
+      "position": "C'è stato un epilogo inaspettato nella giornata di campionato.",
+      "polarity": "neutral",
+      "claim_id": "5f669c4d-a98f-44d4-b286-2df4591381e0",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s0",
+      "target_entity": "campionato",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è stato un epilogo inaspettato nella giornata di campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco, alzo le mani e questa volta dico il pronostico non l'avevo preso.",
+          "start_sec": 1.52,
+          "end_sec": 32.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese non è riuscita ad esprimere una prestazione competitiva.",
+      "polarity": "negative",
+      "claim_id": "cb7bc6fa-b0cf-486f-8356-4a30ce7ca745",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s0",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese non è riuscita ad esprimere una prestazione competitiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi aspettavo una Cremonese più viva.",
+          "start_sec": 1.52,
+          "end_sec": 32.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "La squadra ha avuto un primo tempo da dimenticare.",
+      "polarity": "negative",
+      "claim_id": "682a33a6-1979-4b97-bba8-3f8d5abaf979",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s2",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha avuto un primo tempo da dimenticare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Primo tempo da dimenticare",
+          "start_sec": 58.16,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Davide Nicola",
+      "position": "Davide Nicola meritava l'esonero da qualche partita.",
+      "polarity": "negative",
+      "claim_id": "74939649-2d2f-4c11-9da9-aa22e82f9a37",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s1",
+      "target_entity": "Davide Nicola",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Nicola meritava l'esonero da qualche partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Secondo me già da due tre partite purtroppo meritava l'esonero il tecnico torrinese.",
+          "start_sec": 30.92,
+          "end_sec": 59.839999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "allenatore",
+      "position": "L'allenatore ha perso il controllo della squadra.",
+      "polarity": "negative",
+      "claim_id": "fa5b45f9-fc6c-48ce-9bff-ade31f558f6e",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s2",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore ha perso il controllo della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha perso totalmente la rotta il controllo della squadra",
+          "start_sec": 58.16,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "allenatore",
+      "position": "L'allenatore rischia l'esonero dopo diverse partite.",
+      "polarity": "negative",
+      "claim_id": "8112e2db-037a-4fe9-9c49-b9b627aa3563",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s2",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore rischia l'esonero dopo diverse partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha rischiato l'esonero già due o tre partite fa",
+          "start_sec": 58.16,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "La sconfitta contro la Fiorentina è pesante.",
+      "polarity": "negative",
+      "claim_id": "65cd34ca-d57d-4ee4-bd67-4dd6a88adcc7",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s2",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La sconfitta contro la Fiorentina è pesante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma la sconfitta è pesante",
+          "start_sec": 58.16,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha dominato la partita.",
+      "polarity": "positive",
+      "claim_id": "de07fa71-d3de-41fb-9ac9-fbdb0a304ece",
+      "video_id": "NLHHqdZ4RvY",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha dominato la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fiorentina che ha dominato in lungo e in largo",
+          "start_sec": 88.68,
+          "end_sec": 113.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

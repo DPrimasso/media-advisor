@@ -1,0 +1,403 @@
+{
+  "video_id": "K1TanLHxdBI",
+  "analyzed_at": "2026-03-31T15:31:10.497Z",
+  "metadata": {
+    "title": "Il Piano verGara 👀 Formazioni Napoli Sassuolo 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-16T12:00:00.000Z"
+  },
+  "summary": "Nel video \"Il Piano verGara\" di Azzurro Fluido, si analizza la prossima partita tra Napoli e Sassuolo, evidenziando le differenze tra le due squadre rispetto all'andata. L'autore sostiene che entrambe le formazioni sono mutate, con un Napoli che si presenta in una condizione diversa e un Sassuolo privo di giocatori chiave come Berardi e Volpato. Tra le conclusioni chiave, si menzionano le probabili formazioni e l'importanza della partita per il Sassuolo, con l'ipotesi che Fadera possa entrare in campo come titolare.",
+  "topics": [
+    {
+      "name": "formazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "medium"
+    },
+    {
+      "name": "previsioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    },
+    {
+      "name": "stili di gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "attacco",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità champions",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "a3fe5498-1dd1-4bb0-9e07-62ceb9ba748e",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s0",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Sassuolo giocherà una partita importante domani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Noi domani c'abbiamo una partita, possiamo capire qual è il piano gara.",
+          "start_sec": 3.159,
+          "end_sec": 75.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Sassuolo",
+        "partita",
+        "piano gara"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo giocherà una partita importante domani.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f3316f73-58d1-4df6-80e0-7396f8f86877",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s0",
+      "target_entity": "Claudio Baglioni",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Baglioni ha dichiarato che non ci sono stati errori arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Marco Claudio Baglioni ha detto che nessun errore arbitrale, proprio nessun proprio tutte le partite elencate, nessun errore arbitrale.",
+          "start_sec": 3.159,
+          "end_sec": 75.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "Baglioni",
+        "errore arbitrale"
+      ],
+      "topic": "refereeing",
+      "subject": "Claudio Baglioni",
+      "position": "Claudio Baglioni ha dichiarato che non ci sono stati errori arbitrali.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "737c3ea0-a08a-4323-bfb4-426375c81218",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s0",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Si possono intuire le probabili formazioni per la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi proviamo ad intuire quelle che sono le possibilità, vediamo le probabili formazioni.",
+          "start_sec": 3.159,
+          "end_sec": 75.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazioni",
+        "tattiche",
+        "analisi"
+      ],
+      "topic": "tactics",
+      "subject": "Sassuolo",
+      "position": "Si possono intuire le probabili formazioni per la partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "0809a22a-be78-4c02-9363-7b5209c7ad13",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s1",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo ha diversi indisponibili per la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sappiamo che ci sono un po' di problemini per Coné, che è un giocatore che si è imposto eh quest'anno come come una bella sorpresa del campionato.",
+          "start_sec": 73.84,
+          "end_sec": 138.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury"
+      ],
+      "topic": "injury",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo ha diversi indisponibili per la partita.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "39178c8d-f3d3-4c6f-8873-45cad61b84c6",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli potrebbe emulare il successo contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la speranza è che il Napoli possa fare quello che ha fatto con la Lazio",
+          "start_sec": 135.92,
+          "end_sec": 219.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattiche",
+        "esperienza"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe emulare il successo contro la Lazio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "74754617-8652-446d-8eb6-6522ab75b00b",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s2",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo ha dimostrato maggiore propositività nel suo gioco rispetto al Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Sassuolo ha dimostrato che ha più propositività nel suo 4-3-3",
+          "start_sec": 135.92,
+          "end_sec": 219.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "tattiche"
+      ],
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo ha dimostrato maggiore propositività nel suo gioco rispetto al Parma.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ea5f128c-744c-4758-8b5d-7d2689a75b2c",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s2",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il Parma gioca in modo difensivo e poco propositivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Parma è è una squadra proprio veramente tutti dietro non vogliamo",
+          "start_sec": 135.92,
+          "end_sec": 219.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattiche",
+        "difensivo"
+      ],
+      "topic": "tactics",
+      "subject": "Parma",
+      "position": "Il Parma gioca in modo difensivo e poco propositivo.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a1cef39e-ce21-478f-9c40-0189f0c940cb",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli presenta una formazione diversa rispetto all'andata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Napoli molto diverso e un Sassuolo anche molto diverso.",
+          "start_sec": 73.84,
+          "end_sec": 138.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "Il Napoli presenta una formazione diversa rispetto all'andata.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b5dea86a-38c3-4488-a0b4-e4812b3ac838",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s1",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo non avrà Berardi e Volpato in attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In attacco non hanno Berardi, non hanno Volpato.",
+          "start_sec": 73.84,
+          "end_sec": 138.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "attack"
+      ],
+      "topic": "injury",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo non avrà Berardi e Volpato in attacco.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "5927c498-d63b-4c3d-bf42-bce92ace9b60",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s0",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre sono molto diverse rispetto alla partita d'andata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, si affrontano in questo.",
+          "start_sec": 3.159,
+          "end_sec": 75.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "diversità",
+        "confronto"
+      ],
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Le squadre sono molto diverse rispetto alla partita d'andata.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "de2792c5-43ec-40b8-b7ae-044757124f20",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s1",
+      "target_entity": "Fadera",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Fadera potrebbe fare la sua comparsa nella formazione titolare del Sassuolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si potrebbe vedere Fadera.",
+          "start_sec": 73.84,
+          "end_sec": 138.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Fadera",
+      "position": "Fadera potrebbe fare la sua comparsa nella formazione titolare del Sassuolo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "36e7f195-d27b-4d84-83f4-f826884cb80a",
+      "video_id": "K1TanLHxdBI",
+      "segment_id": "s2",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Elmas potrebbe essere schierato nel ruolo di playmaker.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas sul play",
+          "start_sec": 135.92,
+          "end_sec": 219.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatori",
+        "formazione"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Elmas",
+      "position": "Elmas potrebbe essere schierato nel ruolo di playmaker.",
+      "polarity": "positive"
+    }
+  ]
+}

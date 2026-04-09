@@ -1,0 +1,362 @@
+{
+  "video_id": "C0VhS5B3Bms",
+  "analyzed_at": "2026-04-08T12:41:36.670732+00:00",
+  "metadata": {
+    "title": "SORPRESE NELL’UOVO: I RITORNI DI MALDINI E DEL PIERO. GLI OCCHI DEL BARÇA SU UN TALENTO ITALIANO ",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sulle recenti dinamiche del calciomercato e sulle prestazioni delle squadre di Serie A, con particolare attenzione alla Lazio e al Sassuolo. L'autore sottolinea il miglioramento della Lazio grazie agli acquisti di Motta e Kenneth Taylor, evidenziando anche il rinnovo di capitan Del Prato fino al 2029. Inoltre, il Sassuolo si distingue per la vittoria contro il Cagliari, che rischia la retrocessione, mentre Ulises Garcia segna il suo primo gol in Serie A, suggerendo un futuro promettente per la squadra. Schira conclude suggerendo che il Sassuolo e i suoi gio",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "retrocessione",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "varie",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Del Prato",
+      "position": "Capitan Del Prato è in odore di rinnovo fino al 2029.",
+      "polarity": "positive",
+      "claim_id": "871335c1-da25-4bee-9f6d-37ec9b6b3f71",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s1",
+      "target_entity": "Del Prato",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Capitan Del Prato è in odore di rinnovo fino al 2029.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ennesimo gol di capitan del Prato che è in odore di rinnovo sino al 2029",
+          "start_sec": 30.56,
+          "end_sec": 60.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo è orientato a riscattare il giocatore per 3 milioni.",
+      "polarity": "positive",
+      "claim_id": "88c1ff06-9c95-4626-90a2-bf80795a3c29",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s3",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo è orientato a riscattare il giocatore per 3 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Sassuolo è orientato a riscattarl dopo cosa appena 3 milioni",
+          "start_sec": 87.2,
+          "end_sec": 110.63999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Motta",
+      "position": "Motta è stato un signor acquisto per la Lazio.",
+      "polarity": "positive",
+      "claim_id": "82070ca3-abd0-4e23-a0b9-0b251a02f7f1",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s1",
+      "target_entity": "Motta",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Motta è stato un signor acquisto per la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Motta tra i pali è stato un signor acquisto da parte di Fabiani",
+          "start_sec": 30.56,
+          "end_sec": 60.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha migliorato la sua situazione dopo il mercato di gennaio.",
+      "polarity": "positive",
+      "claim_id": "f03964af-f128-4337-b11e-e32ac49a7086",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha migliorato la sua situazione dopo il mercato di gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Lazio a gennaio si è messa molto bene",
+          "start_sec": 30.56,
+          "end_sec": 60.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sebastiano Esposito",
+      "position": "Sebastiano Esposito ha segnato un rigore per il Cagliari.",
+      "polarity": "positive",
+      "claim_id": "c68e9760-7da0-4198-a221-a7415b198fd3",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s2",
+      "target_entity": "Sebastiano Esposito",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sebastiano Esposito ha segnato un rigore per il Cagliari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "goll di Sebastiano Esposito suo rigore.",
+          "start_sec": 57.239,
+          "end_sec": 89.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ulises Garcia",
+      "position": "Ulises Garcia ha segnato il suo primo gol in Serie A con il Sassuolo.",
+      "polarity": "positive",
+      "claim_id": "8424ec0a-a944-4ccb-aa4f-d32d83f1d5e7",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s2",
+      "target_entity": "Ulises Garcia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ulises Garcia ha segnato il suo primo gol in Serie A con il Sassuolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il primo gol in Serie A di Ulises Garcia.",
+          "start_sec": 57.239,
+          "end_sec": 89.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Andrea Pilamonti",
+      "position": "Andrea Pilamonti ha segnato il suo ottavo gol in campionato.",
+      "polarity": "positive",
+      "claim_id": "9cee6e79-416c-44af-b992-0f7685e74b8f",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s3",
+      "target_entity": "Andrea Pilamonti",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Andrea Pilamonti ha segnato il suo ottavo gol in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ottavo centro in campionato",
+          "start_sec": 87.2,
+          "end_sec": 110.63999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Cagliari",
+      "position": "Il Cagliari rischia di retrocedere.",
+      "polarity": "negative",
+      "claim_id": "cf6417d6-0140-4577-83f0-58856a550bc7",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s2",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Cagliari rischia di retrocedere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cagliari che deve stare attento, deve guardarsi le spalle perché rischia di essere invischiato sino alla fine con Cremonese e Lecce nella lotta per non retrocedere.",
+          "start_sec": 57.239,
+          "end_sec": 89.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo sta facendo un grande campionato.",
+      "polarity": "positive",
+      "claim_id": "263280fd-ed5d-485f-96ab-e68183427b64",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s4",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo sta facendo un grande campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sassuolo che si conferma squadra da tenere d'occhio che sta facendo un grande campionato.",
+          "start_sec": 108.88,
+          "end_sec": 133.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Pinamonti",
+      "position": "Pinamonti potrebbe diventare un obiettivo di mercato.",
+      "polarity": "positive",
+      "claim_id": "91810b55-aa14-4bd6-9481-7257565605dd",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s4",
+      "target_entity": "Pinamonti",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Pinamonti potrebbe diventare un obiettivo di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pinamonti che può essere un nuovo mercato.",
+          "start_sec": 108.88,
+          "end_sec": 133.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Pinamonti",
+      "position": "Pinamonti sta trascinando il Sassuolo alla vittoria.",
+      "polarity": "positive",
+      "claim_id": "52ec8893-8fd1-46ee-98ab-4ebcc35b1934",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s4",
+      "target_entity": "Pinamonti",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pinamonti sta trascinando il Sassuolo alla vittoria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pinamonti che trascina il Sassuolo da vittoria.",
+          "start_sec": 108.88,
+          "end_sec": 133.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Andrea Pilamonti",
+      "position": "Andrea Pilamonti ha realizzato un gran gol con una bella azione.",
+      "polarity": "positive",
+      "claim_id": "45091c1f-1f87-49e6-ba50-53e31a0c6b3b",
+      "video_id": "C0VhS5B3Bms",
+      "segment_id": "s3",
+      "target_entity": "Andrea Pilamonti",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Andrea Pilamonti ha realizzato un gran gol con una bella azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gran gol, pezzo di bravura, spalle alla porta, si gira e palla all'angolino",
+          "start_sec": 87.2,
+          "end_sec": 110.63999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

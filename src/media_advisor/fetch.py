@@ -11,8 +11,8 @@ from pathlib import Path
 
 import httpx
 
-from media_advisor.io.json_io import read_json, write_json
-from media_advisor.io.paths import channels_config_path, channel_list_path, pending_path
+from media_advisor.io.json_io import read_json, read_json_or_default, write_json
+from media_advisor.io.paths import channels_config_path, channel_list_path, pending_path, video_dates_cache_path
 from media_advisor.models.channels import (
     ChannelsConfig,
     FetchRuleTranscriptApi,
@@ -22,6 +22,38 @@ from media_advisor.transcript_api.client import TranscriptAPIError, TranscriptCl
 
 _VIDEO_ID_RE = re.compile(r"(?:v=)([a-zA-Z0-9_-]{11})")
 _LIVE_RE = re.compile(r"\b(live|livestream|streaming|diretta)\b|🔴", re.IGNORECASE)
+
+
+def fetch_channel_dates_ytdlp(channel_url: str, max_videos: int = 600) -> dict[str, str]:
+    """Usa yt-dlp per ottenere le date di pubblicazione di tutti i video del canale.
+
+    Ritorna un dict {video_id: published_at (ISO date string)} senza scaricare nulla.
+    Richiede yt-dlp installato ('python -m pip install yt-dlp').
+    """
+    import subprocess
+    import sys
+
+    cmd = [
+        sys.executable, "-m", "yt_dlp",
+        "--skip-download",
+        "--quiet",
+        "--no-warnings",
+        "--print", "%(id)s %(upload_date)s",
+        "--playlist-end", str(max_videos),
+        channel_url + "/videos",
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=900)
+    if result.returncode != 0 and not result.stdout:
+        raise RuntimeError(f"yt-dlp error: {result.stderr[:300]}")
+
+    dates: dict[str, str] = {}
+    for line in result.stdout.splitlines():
+        parts = line.strip().split()
+        if len(parts) == 2:
+            vid, upload_date = parts
+            if upload_date != "NA" and len(upload_date) == 8:
+                dates[vid] = f"{upload_date[:4]}-{upload_date[4:6]}-{upload_date[6:8]}"
+    return dates
 
 
 def _extract_video_id(url_or_id: str) -> str | None:
@@ -206,6 +238,14 @@ async def run_fetch_new_videos(root: Path, transcript_api_key: str) -> PendingRe
         new_videos = [v for v in fetched if v.video_id not in existing]
         all_new.extend(new_videos)
         print(f"[{channel.id}] {len(fetched)} fetched, {len(new_videos)} new")
+
+        # Aggiorna dates cache con le date di TUTTI i video fetchati (non solo i nuovi)
+        dates_path = video_dates_cache_path(root)
+        dates_cache: dict[str, str] = read_json_or_default(dates_path, default={}) or {}
+        for v in fetched:
+            if v.published_at:
+                dates_cache[v.video_id] = v.published_at
+        write_json(dates_path, dates_cache)
 
     result = PendingResult(
         fetched_at=datetime.now(timezone.utc),

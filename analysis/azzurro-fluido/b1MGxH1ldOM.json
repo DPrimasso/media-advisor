@@ -1,0 +1,406 @@
+{
+  "video_id": "b1MGxH1ldOM",
+  "analyzed_at": "2026-03-31T14:57:35.056Z",
+  "metadata": {
+    "title": "anche #Fabregas NON PARLA 👀 FORMAZIONI #Napoli #Como difficilissime! 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-09T19:17:21+00:00"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la situazione attuale del Como e le sue recenti prestazioni, evidenziando il pareggio con l'Atalanta e la mancanza di comunicazione da parte di Fabregas. L'autore sottolinea che, nonostante il Como abbia una delle migliori difese del campionato con soli 16 gol subiti, la squadra deve migliorare la sua cinicità in attacco, dato l'alto XG di 5.05. Inoltre, viene menzionato un rigore negato alla Juventus, suggerendo che la squadra di Allegri potrebbe affrontare difficoltà contro un Como in forma, sebbene con prestazioni altalenanti.",
+  "topics": [
+    {
+      "name": "formazione",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "formazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    },
+    {
+      "name": "voto",
+      "relevance": "low"
+    },
+    {
+      "name": "riferimenti a giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni giocatori",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "b3687000-db81-4129-bd85-233616a9ddea",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha subito solo 16 gol, rendendola la seconda miglior difesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedete subiscono solo 16 gol e sono la seconda miglior difesa, una difesa migliore di Allegri.",
+          "start_sec": 75.159,
+          "end_sec": 140.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "Como"
+      ],
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha subito solo 16 gol, rendendola la seconda miglior difesa.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7fb38dea-7e3c-4ba5-9564-4865997d8a45",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha un XG di 5.05, creando molte occasioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stiamo parlando di 5.05 di XG, una squadra che crea quello che vuole",
+          "start_sec": 75.159,
+          "end_sec": 140.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "XG",
+        "creatività"
+      ],
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha un XG di 5.05, creando molte occasioni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ca28abfc-8a1a-41f9-b142-46792e052d72",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha subito 14 gol in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Roma 14 gol subiti, Como 16 gol subiti.",
+          "start_sec": 75.159,
+          "end_sec": 140.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "gol subiti"
+      ],
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma ha subito 14 gol in questa stagione.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "aeea08d0-b64a-4f3b-a471-4624bfa2c4b0",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s2",
+      "target_entity": "portiere",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il voto di 6 per il portiere è corretto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ret 6 mi sembra un voto corretto",
+          "start_sec": 138.36,
+          "end_sec": 208.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "voto",
+        "giocatore"
+      ],
+      "topic": "performance",
+      "subject": "portiere",
+      "position": "Il voto di 6 per il portiere è corretto.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4712422b-cb81-468b-b25c-111f715c3b06",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha avuto un pareggio con l'Atalanta nell'ultima partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il pareggio con l'Atalanta l'ultima è anche una di quelle cose che perché sbagliano il rigore nell'ultimo secondo con Nico Paz.",
+          "start_sec": 0.24,
+          "end_sec": 77.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "ligue",
+        "pareggio"
+      ],
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha avuto un pareggio con l'Atalanta nell'ultima partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "a13b4714-b988-4b9a-abac-135b3625600b",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Conte potrebbe riportare il giocatore al centro della difesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sto dando uno sguardo al campo perché tra un po' ci andiamo. Fondamentale per noi la sua esperienza e la sua leadership in difesa.",
+          "start_sec": 138.36,
+          "end_sec": 208.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "allenatore"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte potrebbe riportare il giocatore al centro della difesa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "28077ec4-c0e4-4516-affa-adabd2947f44",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s2",
+      "target_entity": "Rakmani",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Rakmani ha ricevuto uno dei voti più bassi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rakmani 6 e mezzo, forse uno dei voti più bassi e che abbia mai visto nelle nostre pagelle.",
+          "start_sec": 138.36,
+          "end_sec": 208.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "voto",
+        "giocatore"
+      ],
+      "topic": "performance",
+      "subject": "Rakmani",
+      "position": "Rakmani ha ricevuto uno dei voti più bassi.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "bf0aa930-9322-4279-89f0-6adf6a3b3a52",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s0",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas non sta comunicando in conferenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo stesso Fabregas non parla in conferenza",
+          "start_sec": 0.24,
+          "end_sec": 77.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "conferenza",
+        "media"
+      ],
+      "topic": "media",
+      "subject": "Fabregas",
+      "position": "Fabregas non sta comunicando in conferenza.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "65816017-e635-46be-85c0-0c4c13429d3e",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "È stato negato un rigore alla Juventus che sembrava giusto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il rigore per me, per la Juve c'era.",
+          "start_sec": 0.24,
+          "end_sec": 77.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rigore",
+        "giustizia",
+        "arbitraggio"
+      ],
+      "topic": "refereeing",
+      "subject": "Juventus",
+      "position": "È stato negato un rigore alla Juventus che sembrava giusto.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "12b86897-198e-4788-a2b3-f011ea703b0c",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il Como potrebbe essere in una forma negativa considerando le loro recenti prestazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però stanno in una forma perdono",
+          "start_sec": 0.24,
+          "end_sec": 77.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "forma",
+        "prestazioni",
+        "analisi"
+      ],
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como potrebbe essere in una forma negativa considerando le loro recenti prestazioni.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "537ea0b5-e671-43b7-9ec9-0cf999f4694f",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La difesa del Como è considerata migliore rispetto a quella di Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una difesa migliore di Allegri.",
+          "start_sec": 75.159,
+          "end_sec": 140.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "comparazione"
+      ],
+      "topic": "tactics",
+      "subject": "Allegri",
+      "position": "La difesa del Como è considerata migliore rispetto a quella di Allegri.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "fb486dec-b9b3-48f6-83ba-7b84436bff6c",
+      "video_id": "b1MGxH1ldOM",
+      "segment_id": "s2",
+      "target_entity": "portiere",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il portiere ha fatto una bella parata su Malinowski.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una bella parata che fa su Malinowski",
+          "start_sec": 138.36,
+          "end_sec": 208.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "parata",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "portiere",
+      "position": "Il portiere ha fatto una bella parata su Malinowski.",
+      "polarity": "neutral"
+    }
+  ]
+}

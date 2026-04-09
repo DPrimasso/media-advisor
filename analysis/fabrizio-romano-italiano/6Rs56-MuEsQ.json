@@ -1,0 +1,346 @@
+{
+  "video_id": "6Rs56-MuEsQ",
+  "analyzed_at": "2026-04-08T10:49:45.943245+00:00",
+  "metadata": {
+    "title": "🚨 ULTIMATUM: PUÒ SALTARE TUTTO! OPENDA, VICARIO, DIBU MARTINEZ, J. DAVID, ANDRÉ, VLAHOVIC…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle dinamiche del calciomercato, in particolare sul futuro dei portieri, con un focus su Guglielmo Vicario e la sua possibile transizione dall'Inghilterra all'Inter. L'autore sottolinea che Vicario desidera tornare in Italia e ha già manifestato interesse per un trasferimento all'Inter, che ha avviato contatti con i suoi agenti. Tuttavia, la situazione è complessa e dipende anche dalle prestazioni del Tottenham e dalle scelte economiche dell'Inter, rendendo incerta la conclusione dell'operazione.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha già sistemato la questione portiere per il rinnovo di Mike Maignan.",
+      "polarity": "positive",
+      "claim_id": "0833bf59-1a25-4f39-96b7-4723e48aa6cc",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha già sistemato la questione portiere per il rinnovo di Mike Maignan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a parte il Milan che ha sistemato già la questione del rinnovo di Mike Maignan con un rinnovo importante.",
+          "start_sec": 31.56,
+          "end_sec": 62.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "portieri",
+      "position": "Ci saranno molte movimentazioni nel mercato dei portieri.",
+      "polarity": "neutral",
+      "claim_id": "dfbbc0af-535d-418f-acc8-8ea3be4d7ad2",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s1",
+      "target_entity": "portieri",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci saranno molte movimentazioni nel mercato dei portieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sarà un'estate di portieri perché direi a parte il Milan...",
+          "start_sec": 31.56,
+          "end_sec": 62.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Fabrizio Romano",
+      "position": "Fabrizio Romano discute le strategie di mercato per i portieri.",
+      "polarity": "neutral",
+      "claim_id": "0cbbf549-c155-4577-9b02-053f47c6370c",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s1",
+      "target_entity": "Fabrizio Romano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrizio Romano discute le strategie di mercato per i portieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tante situazioni su cui fare chiarezza... iniziano i primi spifferi di mercato.",
+          "start_sec": 31.56,
+          "end_sec": 62.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Guglielmo Vicario",
+      "position": "L'Inter ha avuto più contatti concreti con gli agenti di Vicario.",
+      "polarity": "positive",
+      "claim_id": "eaf326c7-7662-4362-903e-ac7a222ec8eb",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s3",
+      "target_entity": "Guglielmo Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avuto più contatti concreti con gli agenti di Vicario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la squadra che ha avuto più contatti anche concreti con gli agenti di Guglielmo Vicario e l'Inter.",
+          "start_sec": 86.36,
+          "end_sec": 114.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Guglielmo Vicario",
+      "position": "Vicario è pronto a lasciare il Tottenham per tornare in Italia.",
+      "polarity": "positive",
+      "claim_id": "11a46ad5-764d-4e91-83f1-9243712718b8",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s3",
+      "target_entity": "Guglielmo Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario è pronto a lasciare il Tottenham per tornare in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vuole lasciare il Tottenham e quindi è pronto a fare un'esperienza diversa.",
+          "start_sec": 86.36,
+          "end_sec": 114.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter è al corrente della disponibilità di Vicario.",
+      "polarity": "positive",
+      "claim_id": "4c4c3bb7-9156-4edd-949f-bf601c053829",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è al corrente della disponibilità di Vicario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter è al corrente dell'assoluta disponibilità da parte di Vicario.",
+          "start_sec": 86.36,
+          "end_sec": 114.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "L'Inter non ha ancora chiuso l'operazione per Vicario.",
+      "polarity": "neutral",
+      "claim_id": "2491a030-942d-42ac-9465-1e5e5d8da0a6",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s4",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non ha ancora chiuso l'operazione per Vicario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter non ha ancora chiuso né impostato l'operazione Vicario.",
+          "start_sec": 111.56,
+          "end_sec": 135.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Vicario",
+      "position": "Vicario sta aiutando il Tottenham nella lotta retrocessione.",
+      "polarity": "positive",
+      "claim_id": "c4158ba8-1227-4147-8315-d6b220c061dd",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s4",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario sta aiutando il Tottenham nella lotta retrocessione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è ancora impegnato in questi mesi nell'aiutare il Tottenham fino alla fine da grande professionista.",
+          "start_sec": 111.56,
+          "end_sec": 135.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter deve fare scelte importanti a livello di budget.",
+      "polarity": "neutral",
+      "claim_id": "f12a6574-4a92-435f-a9c4-734760f96327",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s5",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter deve fare scelte importanti a livello di budget.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter a livello di budget dovrà fare le sue scelte",
+          "start_sec": 134.319,
+          "end_sec": 157.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Vicario",
+      "position": "Vicario è considerato un grande professionista.",
+      "polarity": "positive",
+      "claim_id": "df13524e-52a7-4dc9-acba-6e44ed9d5409",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s4",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario è considerato un grande professionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da grandissimo professionista aiutare fino in fondo nella lotta retrocessione.",
+          "start_sec": 111.56,
+          "end_sec": 135.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Guglielmo Vicario",
+      "position": "Vicario ha una totale apertura all'Inter.",
+      "polarity": "positive",
+      "claim_id": "625aaa21-2237-4fab-931a-7c12929dc286",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s3",
+      "target_entity": "Guglielmo Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario ha una totale apertura all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dato una totale apertura all'Inter.",
+          "start_sec": 86.36,
+          "end_sec": 114.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Mike Maignan",
+      "position": "Mike Maignan ha ricevuto un rinnovo di contratto importante.",
+      "polarity": "positive",
+      "claim_id": "0a9ea15d-0ba0-4704-b435-a93b476d172a",
+      "video_id": "6Rs56-MuEsQ",
+      "segment_id": "s1",
+      "target_entity": "Mike Maignan",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mike Maignan ha ricevuto un rinnovo di contratto importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con un rinnovo importante.",
+          "start_sec": 31.56,
+          "end_sec": 62.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "video_id": "O9jYn4vsMP0",
+  "analyzed_at": "2026-03-31T15:07:06.429Z",
+  "metadata": {
+    "title": "2 Brasiliani e 1 Argentino last minute! 👀 Si chiude cosi il MERCATO DI GENNAIO 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-02T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza il mercato di gennaio, evidenziando che si è concluso senza trasferimenti significativi, a parte l'ingaggio di Milton Pereira dall'Under 20 del Boca Juniors e di Barido, entrambi destinati a rinforzare la squadra primavera. L'autore esprime delusione per un episodio controverso legato alla Fiorentina e critica le restrizioni sulla condivisione di contenuti della Serie A sui social. Sottolinea che l'infortunio di Di Lorenzo si è rivelato meno grave del previsto e menziona anche la cessione di Ambrosino al Modena, suggerendo che il Napoli ha riorg",
+  "topics": [
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "refereeing",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "acquisti",
+      "relevance": "low"
+    },
+    {
+      "name": "valutazione dei giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "0e14feed-a131-4e99-9941-87d53f336762",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s1",
+      "target_entity": "Milton Pereira",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha ingaggiato Milton Pereira dall'Under 20 del Boca Juniors.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è stato un last minute di Milton Pereira che è un attaccante dell'Under 20 del Boca Juniors che il Napoli stava già seguendo.",
+          "start_sec": 111.2,
+          "end_sec": 206.55999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "calcio",
+        "Napoli"
+      ],
+      "topic": "market",
+      "subject": "Milton Pereira",
+      "position": "Il Napoli ha ingaggiato Milton Pereira dall'Under 20 del Boca Juniors.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "44638cc2-f24c-49e2-9443-759aaf709cdf",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s0",
+      "target_entity": "Calcio",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato di gennaio si è concluso senza ulteriori trasferimenti significativi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non credo succederà altro per un motivo anche di liste e quindi è arrivata l'ufficialità e il saluto di De Laurentis.",
+          "start_sec": 2.639,
+          "end_sec": 113.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "gennaio",
+        "calciomercato"
+      ],
+      "topic": "market",
+      "subject": "Calcio",
+      "position": "Il mercato di gennaio si è concluso senza ulteriori trasferimenti significativi.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f46f40b0-e156-4cb6-b8d9-7a0518e8b8d6",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista è rimasto deluso da un episodio della Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono rimasto male di una cosa, che l'immagine del fallo di mano di Comzo.",
+          "start_sec": 2.639,
+          "end_sec": 113.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Fiorentina",
+        "episodi",
+        "delusione"
+      ],
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "L'opinionista è rimasto deluso da un episodio della Fiorentina.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "e157b66f-6d2a-45f9-8fc1-7a2ce3338807",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s0",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono restrizioni sulla condivisione di immagini della Serie A sui social.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché non ti puoi permettere di mettere immagini di della Serie A sui social.",
+          "start_sec": 2.639,
+          "end_sec": 113.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "diritti",
+        "restrizioni"
+      ],
+      "topic": "media",
+      "subject": "Serie A",
+      "position": "Ci sono restrizioni sulla condivisione di immagini della Serie A sui social.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "f7f4e5eb-0645-4884-b5da-afd06bef1448",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s0",
+      "target_entity": "YouTube",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Alcuni creatori di contenuti cercano interazioni con i tifosi avversari per attirare like.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gente che fa contenuti per ricevere i mi piace de dei tifosi avversari.",
+          "start_sec": 2.639,
+          "end_sec": 113.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contenuti",
+        "tifosi",
+        "interazioni"
+      ],
+      "topic": "fan_behavior",
+      "subject": "YouTube",
+      "position": "Alcuni creatori di contenuti cercano interazioni con i tifosi avversari per attirare like.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "043a268a-4681-4901-932b-647245e07fad",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s1",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "L'infortunio di Di Lorenzo è meno grave del previsto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel momento in cui l'infortunio di Di Lorenzo è meno grave del previsto, hanno dirottato forse quello che era il budget rimasto",
+          "start_sec": 111.2,
+          "end_sec": 206.55999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "Di Lorenzo",
+        "Napoli"
+      ],
+      "topic": "injury",
+      "subject": "Di Lorenzo",
+      "position": "L'infortunio di Di Lorenzo è meno grave del previsto.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "09d5adbe-e65b-4ecf-b0aa-23ee58caa59e",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s2",
+      "target_entity": "Giovanitre",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanitre è un acquisto che non influisce significativamente sulla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi è un acquisto questo dell'argentino che non sposta praticamente nulla.",
+          "start_sec": 204.76,
+          "end_sec": 306.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "acquisto",
+        "mercato"
+      ],
+      "topic": "market",
+      "subject": "Giovanitre",
+      "position": "Giovanitre è un acquisto che non influisce significativamente sulla squadra.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "01a01e74-1a95-4d4c-bfed-ca526e02b67f",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha avuto un paio di occasioni nella sua recente partita di recupero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku per 5 minuti ha partito, un paio di occasioni le ha avute.",
+          "start_sec": 204.76,
+          "end_sec": 306.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "recupero",
+        "occasioni"
+      ],
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku ha avuto un paio di occasioni nella sua recente partita di recupero.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "3dcdc6cb-d906-4027-a25f-4937253b5bb6",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s1",
+      "target_entity": "Barido",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha ingaggiato Barido per rinforzare la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "D'altra parte abbiamo preso Barido che doveva dare una",
+          "start_sec": 111.2,
+          "end_sec": 206.55999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Barido",
+        "Napoli"
+      ],
+      "topic": "market",
+      "subject": "Barido",
+      "position": "Il Napoli ha ingaggiato Barido per rinforzare la squadra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a40dc80d-2c65-4d6c-876c-c95a15aaba07",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s2",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanitre è arrivato per sostituire l'infortunato Neres.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giovane viene in qualche modo per l'infortunio di Neres.",
+          "start_sec": 204.76,
+          "end_sec": 306.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "sostituzione"
+      ],
+      "topic": "injury",
+      "subject": "Neres",
+      "position": "Giovanitre è arrivato per sostituire l'infortunato Neres.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "835d858c-b889-48af-8504-b0e796dc90a3",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s1",
+      "target_entity": "Ambrosino",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.3,
+      "modality": "CERTAIN",
+      "claim_text": "Ambrosino è stato ceduto al Modena.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ambrosino che finisce al Modena",
+          "start_sec": 111.2,
+          "end_sec": 206.55999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Ambrosino",
+        "Napoli"
+      ],
+      "topic": "market",
+      "subject": "Ambrosino",
+      "position": "Ambrosino è stato ceduto al Modena.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b60dc0eb-2d0b-4a9a-a42b-460c6485f366",
+      "video_id": "O9jYn4vsMP0",
+      "segment_id": "s2",
+      "target_entity": "Beukema",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "Beukema dovrà convincere Conte per migliorare la sua posizione nella gerarchia della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "deve convincerlo che si ci si può fidare di lui.",
+          "start_sec": 204.76,
+          "end_sec": 306.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gerarchie",
+        "fiducia"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Beukema",
+      "position": "Beukema dovrà convincere Conte per migliorare la sua posizione nella gerarchia della squadra.",
+      "polarity": "positive"
+    }
+  ]
+}

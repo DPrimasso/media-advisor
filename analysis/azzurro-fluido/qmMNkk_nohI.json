@@ -1,0 +1,407 @@
+{
+  "video_id": "qmMNkk_nohI",
+  "analyzed_at": "2026-03-31T16:01:49.106Z",
+  "metadata": {
+    "title": "Stop #LUKAKU 👀 MA VI DO UNA BUONA NOTIZIA 🔵 Cremonese Napoli",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-27T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute della prossima partita tra Napoli e Cremonese, con particolare attenzione all'indisponibilità di Olivera Beuka e alla situazione di Lukaku. L'autore sottolinea che, sebbene Lukaku non parta con la squadra a causa di problemi fisici, la sua presenza in panchina è fondamentale per la leadership e il morale della squadra. Inoltre, si ipotizza che, in caso di necessità, potrebbe essere utilizzato negli ultimi minuti per creare una situazione di vantaggio, nonostante la mancanza di minuti nelle gambe.",
+  "topics": [
+    {
+      "name": "injury",
+      "relevance": "high"
+    },
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup",
+      "relevance": "high"
+    },
+    {
+      "name": "indisponibilità",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "analisi dati",
+      "relevance": "low"
+    },
+    {
+      "name": "changing tactics",
+      "relevance": "low"
+    },
+    {
+      "name": "formation prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "c104631f-eabd-46d9-b5ea-33a043033a09",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Olivera Beuka non sarà disponibile per la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo fare i conti con l'indisponibilità di Olivera Beuka.",
+          "start_sec": 2.76,
+          "end_sec": 73.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortuni",
+        "giocatori"
+      ],
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Olivera Beuka non sarà disponibile per la partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "ae0b1eec-3b78-4125-b4c3-1cb89417f1ad",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La presenza di Lukaku in panchina è importante per la leadership.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sua presenza in panchina ha un certo effetto, ma non vuol dire, perché Conte è stato chiarissimo, dice non ha minuti nelle gambe.",
+          "start_sec": 71.84,
+          "end_sec": 136.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "Lukaku"
+      ],
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "La presenza di Lukaku in panchina è importante per la leadership.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "5c895ec4-a823-490b-a796-9787d576e102",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku non parte con la squadra per la trasferta a causa di problemi fisici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non parte perché e perché eh c'è una una delle varie frasi fatte che si dice nel calcio",
+          "start_sec": 71.84,
+          "end_sec": 136.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "Lukaku"
+      ],
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku non parte con la squadra per la trasferta a causa di problemi fisici.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "2cf3d6a5-df15-490d-b2b7-77813e72f61f",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Lukaku porta un valore tattico anche se non gioca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sua presenza già in gruppo negli allenamenti è importantissima.",
+          "start_sec": 71.84,
+          "end_sec": 136.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "Lukaku"
+      ],
+      "topic": "tactics",
+      "subject": "Lukaku",
+      "position": "Lukaku porta un valore tattico anche se non gioca.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "c5d01617-196d-4fb0-bf9f-b311e7c27f2d",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "Lukaku sembra aver guarito clinicamente ma non è pronto per giocare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "guarito probabilmente clinicamente e parliamo, dico sempre probabilmente, dico sempre secondo me perché notizie certe non ne abbiamo mai.",
+          "start_sec": 133.599,
+          "end_sec": 195.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "Lukaku",
+        "recupero"
+      ],
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku sembra aver guarito clinicamente ma non è pronto per giocare.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "70c79b4c-bfa2-4e11-9751-a50260d90506",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Lukaku potrebbe essere utile negli ultimi minuti di partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un giocatore che se tu stai in difficoltà... potresti buttarlo dentro.",
+          "start_sec": 133.599,
+          "end_sec": 195.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lukaku",
+        "ultimi minuti",
+        "utilità"
+      ],
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku potrebbe essere utile negli ultimi minuti di partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "7f312e5a-512e-4cab-8c76-025f866045ee",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha completato riscatto dei giocatori nonostante il blocco di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se è vero che la Lazio era riuscita a fare i rinnovi, o meglio i riscatti.",
+          "start_sec": 133.599,
+          "end_sec": 195.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lazio",
+        "mercato",
+        "rinnovi"
+      ],
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio ha completato riscatto dei giocatori nonostante il blocco di mercato.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a7e8f28c-7e76-4402-9533-82a994233a0f",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s0",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "La partita con la Cremonese è imminente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dobbiamo parlare di questa partita con la Cremonese.",
+          "start_sec": 2.76,
+          "end_sec": 73.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "calcio"
+      ],
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La partita con la Cremonese è imminente.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "9f747f5f-0eaf-453c-8ad1-9f9c8ba34737",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Lukaku potrebbe non avere minuti nelle gambe per la finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è stato chiarissimo, dice non ha minuti nelle gambe.",
+          "start_sec": 71.84,
+          "end_sec": 136.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "final",
+        "Lukaku"
+      ],
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku potrebbe non avere minuti nelle gambe per la finale.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f834c9ed-65ea-46e6-b401-99e88fdcd08d",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s2",
+      "target_entity": "Eund",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Non c'è pericolo per il riscatto di Eund.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è in pericolo quello che è il riscatto di Eund.",
+          "start_sec": 133.599,
+          "end_sec": 195.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Eund",
+        "riscatto"
+      ],
+      "topic": "market",
+      "subject": "Eund",
+      "position": "Non c'è pericolo per il riscatto di Eund.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "cffee104-a162-4ebc-a154-4512bc849f47",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta giocando mentre si discute della partita con la Cremonese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel frattempo sta giocando la Lazio.",
+          "start_sec": 2.76,
+          "end_sec": 73.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "calcio"
+      ],
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio sta giocando mentre si discute della partita con la Cremonese.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "37092ead-0ae5-44eb-a679-7feba4decb03",
+      "video_id": "qmMNkk_nohI",
+      "segment_id": "s0",
+      "target_entity": "community",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Si incoraggia la community a lasciare un like.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lasciate un like tutti voi della community.",
+          "start_sec": 2.76,
+          "end_sec": 73.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "engagement",
+        "community"
+      ],
+      "topic": "fan_behavior",
+      "subject": "community",
+      "position": "Si incoraggia la community a lasciare un like.",
+      "polarity": "neutral"
+    }
+  ]
+}

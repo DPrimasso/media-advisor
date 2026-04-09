@@ -10,18 +10,14 @@ build/
 .env
 .env.local
 
-# Generated data
-transcripts/
-analysis/
+# Generated data copied into web public (always regenerated)
 web/public/analysis/
 
-# Mercato outputs (tips + index + transfers DB) — regenerate locally
-mercato/
-
-# Per-channel video URL lists: local churn; keep only registry + README tracked
-channels/*
-!channels/channels.json
-!channels/README.md
+# Data folders (tracked to sync work across machines)
+# - transcripts/  : raw transcripts + metadata
+# - analysis/     : per-video analysis outputs
+# - mercato/      : mercato index + tips + transfers + caches
+# - channels/*.json: channel registry + per-channel video lists + dates cache
 
 # IDE
 .vscode/

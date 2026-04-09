@@ -1,0 +1,400 @@
+{
+  "video_id": "GXYK-vjv45M",
+  "analyzed_at": "2026-03-31T15:16:57.066Z",
+  "metadata": {
+    "title": "Diciamo le cose come stanno 👀 JUVE NAPOLI 3-0 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-26T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la netta vittoria della Juventus per 3-0 contro il Napoli, sottolineando che la sconfitta del Napoli è stata influenzata da fattori oltre la condizione fisica, come aspetti tattici e controversie arbitrali. L'autore esprime preoccupazione per la situazione attuale della squadra partenopea, suggerendo che il recupero e il ritorno al successo non sono garantiti. Inoltre, accenna a dettagli tattici non completamente rivelati, lasciando intendere che ci sono problemi più profondi da affrontare.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "sconfitta",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "rimesse",
+      "relevance": "low"
+    },
+    {
+      "name": "tactics",
+      "relevance": "low"
+    },
+    {
+      "name": "player performance",
+      "relevance": "low"
+    },
+    {
+      "name": "falli",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "0511035c-2be5-427e-9c63-3980c0e2aeeb",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "PROBABLE",
+      "claim_text": "Ci sono fattori oltre la condizione fisica che influiscono sulla vittoria della Juve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'analisi la voglio fare perché c'è dell'altro oltre al ovviamente la condizione fisica",
+          "start_sec": 2.8,
+          "end_sec": 52.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "analysis"
+      ],
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Ci sono fattori oltre la condizione fisica che influiscono sulla vittoria della Juve.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "452ce421-c145-47a8-b2c9-9c6636520fd3",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s1",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "L'autore suggerisce che ci sono aspetti tattici non rivelati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono delle cose che io insisto, non posso dirvi, non voglio dirvi",
+          "start_sec": 50.039,
+          "end_sec": 95.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattiche",
+        "aspetti",
+        "strategia"
+      ],
+      "topic": "tactics",
+      "subject": "giocatori",
+      "position": "L'autore suggerisce che ci sono aspetti tattici non rivelati.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "394a9678-2943-4a60-b831-c3e61bcef58d",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s1",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Il ritorno al successo della squadra è incerto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma sarei un buffone se vi dicessi Sì, che tra un po' recuperiamo e e va tutto a posto",
+          "start_sec": 50.039,
+          "end_sec": 95.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "recupero",
+        "successo",
+        "incertezza"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "giocatori",
+      "position": "Il ritorno al successo della squadra è incerto.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "9e35fecd-7934-4d23-9bf9-a14d6878a7ba",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti evita il lancio lungo del portiere per ragioni fisiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spalletti non fa lanciare il portiere verso, insomma, verso perché forse fisicamente loro non sono imponenti.",
+          "start_sec": 93.96,
+          "end_sec": 130.75900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "coaching"
+      ],
+      "topic": "tactics",
+      "subject": "Spalletti",
+      "position": "Spalletti evita il lancio lungo del portiere per ragioni fisiche.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "ca4ac340-5d4f-44c5-94bf-26f6b23fc7dc",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve ha vinto 3-0 contro il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlare di un 3-0 così netto.",
+          "start_sec": 2.8,
+          "end_sec": 52.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "win",
+        "result"
+      ],
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juve ha vinto 3-0 contro il Napoli.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "671e6ed0-7ada-4495-a87f-f96857f144e0",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono discussioni sugli episodi arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono le cose che fanno discutere gli episodi arbitrali",
+          "start_sec": 50.039,
+          "end_sec": 95.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "episodi",
+        "discussioni"
+      ],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Ci sono discussioni sugli episodi arbitrali.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "0d316248-39f0-436b-9e1e-392d78f8a9a9",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve batte corto e sviluppa il gioco rapidamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve batte corto e sviluppa ora.",
+          "start_sec": 128.319,
+          "end_sec": 162.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Juventus",
+      "position": "La Juve batte corto e sviluppa il gioco rapidamente.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "8ae1dbb6-c3db-4979-b1f5-ac7894238384",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha subito una sconfitta severa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlare di un 3-0 così netto.",
+          "start_sec": 2.8,
+          "end_sec": 52.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "loss",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha subito una sconfitta severa.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "905294ae-1f77-4097-b8f3-dadc73fdae8b",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s0",
+      "target_entity": "Kimutzuk",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Kimutzuk è stato stracciato durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Kimutzuk stracciata.",
+          "start_sec": 2.8,
+          "end_sec": 52.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "performance"
+      ],
+      "topic": "injury",
+      "subject": "Kimutzuk",
+      "position": "Kimutzuk è stato stracciato durante la partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "1e0c613e-6027-428f-921f-20e6e53e5434",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s2",
+      "target_entity": "Mcdomin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Mcdomin è in un ruolo che si abbassa in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a noi si abbassa un Mcdomin",
+          "start_sec": 93.96,
+          "end_sec": 130.75900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "player role"
+      ],
+      "topic": "performance",
+      "subject": "Mcdomin",
+      "position": "Mcdomin è in un ruolo che si abbassa in campo.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "9182b7f5-4e78-4df6-bec3-973002fb43dc",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s3",
+      "target_entity": "Tur",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Tur ha colpito l'incrocio dei pali in una clamorosa occasione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il l'incrocio dei pali di Tur.",
+          "start_sec": 128.319,
+          "end_sec": 162.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Tur",
+      "position": "Tur ha colpito l'incrocio dei pali in una clamorosa occasione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "27c88b73-cb7a-4e24-95c7-3c9b2ac3b18e",
+      "video_id": "GXYK-vjv45M",
+      "segment_id": "s1",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "L'autore critica la situazione attuale della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è precaria",
+          "start_sec": 50.039,
+          "end_sec": 95.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "situazione",
+        "critica"
+      ],
+      "topic": "performance",
+      "subject": "giocatori",
+      "position": "L'autore critica la situazione attuale della squadra.",
+      "polarity": "negative"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "video_id": "DKKHcdnZ-5E",
+  "analyzed_at": "2026-03-31T15:57:35.468Z",
+  "metadata": {
+    "title": "ROCCHI si offende e MINACCIA DIMISSIONI 👀 Ma c'è un episodio FANTASMA! 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-30T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute della situazione arbitrale nel calcio italiano, con particolare attenzione al ruolo del VAR e alle polemiche che ne derivano. L'autore sostiene che ci sia un legittimo dubbio su chi prenda realmente le decisioni in campo, l'arbitro o il VAR, e sottolinea l'importanza di fare chiarezza sugli episodi controversi, in particolare quelli che hanno coinvolto la Lazio. Rocchi, l'arbitro, ha reagito con durezza alle accuse di malafede, minacciando dimissioni, il che evidenzia la tensione attuale nel mondo arbitrale.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "refereeing",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "medium"
+    },
+    {
+      "name": "episodi controversi",
+      "relevance": "medium"
+    },
+    {
+      "name": "decisioni",
+      "relevance": "low"
+    },
+    {
+      "name": "lazio",
+      "relevance": "low"
+    },
+    {
+      "name": "errore arbitrale",
+      "relevance": "low"
+    },
+    {
+      "name": "rocchi",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "3602d411-6da1-4618-ab37-6279bf56db21",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s0",
+      "target_entity": "Tifosi",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'open bar non è disponibile per i tifosi italiani all'estero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'open bar, tra l'altro non è disponibile per i tifosi che seguono il calcio italiano all'estero",
+          "start_sec": 0.32,
+          "end_sec": 75.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "fan_behavior",
+      "subject": "Tifosi",
+      "position": "L'open bar non è disponibile per i tifosi italiani all'estero.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "0fe5d3a9-223f-4acf-8aeb-ced2f011c608",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s0",
+      "target_entity": "Ancelotti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Ancelotti aveva già paventato questa situazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che siamo arrivati a quella situazione che paventava Ancelotti",
+          "start_sec": 0.32,
+          "end_sec": 75.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "leadership",
+      "subject": "Ancelotti",
+      "position": "Ancelotti aveva già paventato questa situazione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "d81ba728-8615-4698-b97f-77a870babfbe",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono stati episodi che riguardano il Napoli in questa analisi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa volta non ci sono stati episodi che riguardano il Napoli, ma episodi che riguardano altre squadre che per me sono altrettanto gravi.",
+          "start_sec": 71.6,
+          "end_sec": 133.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Non ci sono stati episodi che riguardano il Napoli in questa analisi.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "e3eed644-7e5f-45e2-aa90-43567db0651c",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s1",
+      "target_entity": "altre squadre",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Episodi gravi riguardano anche altre squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "episodi che riguardano altre squadre che per me sono altrettanto gravi.",
+          "start_sec": 71.6,
+          "end_sec": 133.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "media",
+      "subject": "altre squadre",
+      "position": "Episodi gravi riguardano anche altre squadre.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "833e74ad-fa3e-47fa-8abc-9396eb595c90",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Occorre fare chiarezza sugli episodi arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è importante anche perché se non facciamo chiarezza e poi dopo succede a te e cadi dal pero così.",
+          "start_sec": 71.6,
+          "end_sec": 133.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Occorre fare chiarezza sugli episodi arbitrali.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "b9967da1-2407-4e55-99fe-d532cbcf190d",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s2",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi ha minacciato di dimettersi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha detto 'Se se poi credete che ci sia la malafede io mi dimetto domani mattina e vai.'",
+          "start_sec": 131.28,
+          "end_sec": 201.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Rocchi",
+        "dimissioni",
+        "VAR"
+      ],
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi ha minacciato di dimettersi.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a71eec15-fc75-4a2c-877e-a8532523373a",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La protesta della Lazio potrebbe influenzare le decisioni future degli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arriva la protestina e a volte poi nella prossima parella successiva partita ci pensano due volte per evitare altre polemiche.",
+          "start_sec": 131.28,
+          "end_sec": 201.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lazio",
+        "proteste",
+        "arbitri"
+      ],
+      "topic": "refereeing",
+      "subject": "Lazio",
+      "position": "La protesta della Lazio potrebbe influenzare le decisioni future degli arbitri.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "febf0584-b671-423a-a463-b9409b2ec096",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli potrebbe sbloccare una situazione di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo capire se il Napoli può sbloccare questa situazione",
+          "start_sec": 0.32,
+          "end_sec": 75.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe sbloccare una situazione di mercato.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "53063aee-2bb4-44d0-807c-6352a662f830",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s1",
+      "target_entity": "gruppo Telegram",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Esiste un gruppo Telegram chiamato Piccionaia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho aperto questo topic nel gruppo che si chiama Piccionaia.",
+          "start_sec": 71.6,
+          "end_sec": 133.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "fan_behavior",
+      "subject": "gruppo Telegram",
+      "position": "Esiste un gruppo Telegram chiamato Piccionaia.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "455645a0-c221-4df7-a8e3-725256bde994",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s0",
+      "target_entity": "Arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un dubbio su chi arbitra davvero, l'arbitro o il VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che il dubbio fosse legittimo.",
+          "start_sec": 0.32,
+          "end_sec": 75.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "refereeing",
+      "subject": "Arbitro",
+      "position": "C'è un dubbio su chi arbitra davvero, l'arbitro o il VAR.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "8a8d89c5-f2e1-47c1-aaf3-9a684b95b641",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio si sente defraudata e penalizzata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio si sente defraudata e penalizzata.",
+          "start_sec": 131.28,
+          "end_sec": 201.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "refereeing",
+        "Lazio",
+        "VAR"
+      ],
+      "topic": "refereeing",
+      "subject": "Lazio",
+      "position": "La Lazio si sente defraudata e penalizzata.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "d362c370-5b32-4243-b0f5-a1575c3f1667",
+      "video_id": "DKKHcdnZ-5E",
+      "segment_id": "s2",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi è stato molto duro con la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocchi è stato molto duro con la Lazio",
+          "start_sec": 131.28,
+          "end_sec": 201.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Rocchi",
+        "penalità",
+        "Lazio"
+      ],
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi è stato molto duro con la Lazio.",
+      "polarity": "negative"
+    }
+  ]
+}

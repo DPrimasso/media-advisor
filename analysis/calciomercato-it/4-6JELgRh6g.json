@@ -1,0 +1,366 @@
+{
+  "video_id": "4-6JELgRh6g",
+  "analyzed_at": "2026-04-07T15:13:42.218945+00:00",
+  "metadata": {
+    "title": "Polemica su DOVERI in Napoli-Milan e BUFERA sull’arbitro GUIDA || MOVIOLA SERIE A",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video analizza gli episodi arbitrali controversi della partita Napoli-Milan, focalizzandosi sull'operato dell'arbitro Doveri, che ha fischiato solo sei falli nel primo tempo. L'autore esprime dubbi sulla direzione di Doveri, ritenendo che il suo approccio di ammonire poco possa influenzare negativamente lo svolgimento della partita. Viene sottolineato come un comportamento regolare dei calciatori abbia facilitato il lavoro dell'arbitro, ma si evidenziano anche errori, come la mancata ammonizione di Pavlović per un fallo imprudente, suggerendo che una gestione più rigorosa avrebbe potuto mig",
+  "topics": [
+    {
+      "name": "arbitro",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitri",
+      "relevance": "high"
+    },
+    {
+      "name": "falla",
+      "relevance": "high"
+    },
+    {
+      "name": "polemica",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocata",
+      "relevance": "medium"
+    },
+    {
+      "name": "var",
+      "relevance": "medium"
+    },
+    {
+      "name": "proteste",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    },
+    {
+      "name": "decisione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Doveri",
+      "position": "Ci sono dubbi sulla direzione di Doveri nella partita tra Napoli e Milan.",
+      "polarity": "neutral",
+      "claim_id": "4e5e4d64-a33e-4d42-921a-d7d289e6d247",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s0",
+      "target_entity": "Doveri",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono dubbi sulla direzione di Doveri nella partita tra Napoli e Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un fenomeno di errore di un arbitro tra i più importanti internazionali",
+          "start_sec": 0.04,
+          "end_sec": 118.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pavlović",
+      "position": "Pavlović si è aiutato con il braccio durante l'azione.",
+      "polarity": "positive",
+      "claim_id": "29b05901-3411-41b1-bf30-c00ea39663e6",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s1",
+      "target_entity": "Pavlović",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pavlović si è aiutato con il braccio durante l'azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pavlović si aiuta con il braccio, colpisce sul volto Giovane.",
+          "start_sec": 116.0,
+          "end_sec": 219.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Mctominay ha fatto un contatto leggero con Pavlović.",
+      "polarity": "neutral",
+      "claim_id": "3b842700-63fa-4ff4-807f-4dabec195753",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Mctominay ha fatto un contatto leggero con Pavlović.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è quasi una carezza di Mctomine con la mano sinistra sul volto di Pavlović.",
+          "start_sec": 116.0,
+          "end_sec": 219.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Milan",
+      "position": "Le proteste del Milan sono state piuttosto lievi.",
+      "polarity": "neutral",
+      "claim_id": "eff9d57e-5eff-4fdd-abf2-7a63f66a0b59",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le proteste del Milan sono state piuttosto lievi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Proteste anche abbastanza lievi da parte del Milan.",
+          "start_sec": 217.439,
+          "end_sec": 340.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Colombo",
+      "position": "Colombo rimane senza uno scarpino dopo uno scontro con Bremer.",
+      "polarity": "negative",
+      "claim_id": "ec263d36-6e42-4dac-81fa-a0d7c18308c4",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s2",
+      "target_entity": "Colombo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Colombo rimane senza uno scarpino dopo uno scontro con Bremer.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è Colombo che dopo uno scontro proprio con Bremer eh resta senza uno scarpino.",
+          "start_sec": 217.439,
+          "end_sec": 340.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Massa",
+      "position": "L'arbitro Massa concede calcio di punizione per il Genoa.",
+      "polarity": "neutral",
+      "claim_id": "e4c5055c-753d-4b68-b3b5-f9d395996f2c",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s4",
+      "target_entity": "Massa",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'arbitro Massa concede calcio di punizione per il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'arbitro concede calcio di punizione dal limite per il Genoa",
+          "start_sec": 452.039,
+          "end_sec": 560.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Doveri",
+      "position": "Doveri ha fischiato solo sei falli nel primo tempo.",
+      "polarity": "neutral",
+      "claim_id": "06b74ddf-8a4e-4b33-ab1c-d3e26a39c0c7",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s0",
+      "target_entity": "Doveri",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Doveri ha fischiato solo sei falli nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "all'intervallo ha solo sei falli",
+          "start_sec": 0.04,
+          "end_sec": 118.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Doveri",
+      "position": "Doveri ha esagerato nel non dare un cartellino giallo.",
+      "polarity": "neutral",
+      "claim_id": "563c5813-4d70-4f60-bef4-f0f7c71295dc",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s1",
+      "target_entity": "Doveri",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Doveri ha esagerato nel non dare un cartellino giallo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me a volte esagera.",
+          "start_sec": 116.0,
+          "end_sec": 219.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Doveri",
+      "position": "Doveri ha fischiato un fallo in un'azione di gioco.",
+      "polarity": "positive",
+      "claim_id": "f22db5af-8187-4fdc-9ab8-be7abd7a6b50",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s1",
+      "target_entity": "Doveri",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Doveri ha fischiato un fallo in un'azione di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Doveri si è limitato a fischiare fallo.",
+          "start_sec": 116.0,
+          "end_sec": 219.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Pavlović",
+      "position": "La decisione di non dare il rigore è corretta.",
+      "polarity": "neutral",
+      "claim_id": "a9c53f90-db88-4117-a7da-e1ff647c3ba6",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s2",
+      "target_entity": "Pavlović",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La decisione di non dare il rigore è corretta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me qui è la decisione corretta.",
+          "start_sec": 217.439,
+          "end_sec": 340.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bremer",
+      "position": "Bremer segna un gol nel match Juventus-Genoa.",
+      "polarity": "positive",
+      "claim_id": "dab7b217-2020-4d59-a631-ef64c1715377",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s2",
+      "target_entity": "Bremer",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bremer segna un gol nel match Juventus-Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arriva il gol di Bremer dopo pochi minuti.",
+          "start_sec": 217.439,
+          "end_sec": 340.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bremer",
+      "position": "Bremer commette fallo su Aaron Martin.",
+      "polarity": "negative",
+      "claim_id": "6fc526c2-1853-4129-b829-25715469226b",
+      "video_id": "4-6JELgRh6g",
+      "segment_id": "s4",
+      "target_entity": "Bremer",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bremer commette fallo su Aaron Martin.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bremer colpisce Aaron Martin",
+          "start_sec": 452.039,
+          "end_sec": 560.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

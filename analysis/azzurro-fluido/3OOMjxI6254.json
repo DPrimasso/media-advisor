@@ -1,0 +1,408 @@
+{
+  "video_id": "3OOMjxI6254",
+  "analyzed_at": "2026-03-31T16:06:32.373Z",
+  "metadata": {
+    "title": "Spieghiamo il BLOCCO del Mercato (Gennaio e Giugno) 👀 Napoli costretto ad abbassare i costi o..🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-24T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la situazione del mercato calcistico del Napoli, evidenziando le difficoltà legate a un \"blocco soft\" che limita le operazioni di acquisto. L'autore sostiene che, contrariamente a quanto si dica, il presidente De Laurentiis non è avverso alla spesa, ma il club è costretto a ridurre i costi per mantenere un bilancio attivo di 11 milioni, nonostante abbia speso 115 milioni nel mercato attuale. Inoltre, viene sottolineato che, a differenza dell'Inter, che ha un passivo di 41 milioni, il Napoli ha una gestione economica più sana, ma deve comunque af",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "bilancio",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanze",
+      "relevance": "medium"
+    },
+    {
+      "name": "performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "blocco mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "napoli",
+      "relevance": "low"
+    },
+    {
+      "name": "rosa",
+      "relevance": "low"
+    },
+    {
+      "name": "blocco",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "378700ff-7c8e-4dce-a3c0-b51691fbe18d",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha un bilancio attivo di 11 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ha un bilancio attivo. Paradossalmente siamo in attivo con 11 milioni.",
+          "start_sec": 106.24,
+          "end_sec": 212.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "bilancio",
+        "Napoli"
+      ],
+      "topic": "finance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha un bilancio attivo di 11 milioni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "6f10cd67-0938-41bd-9cb3-6841badce222",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha speso 137 milioni nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juventus 137 perché poi con Saisao l'hanno dovuto pagare 32.",
+          "start_sec": 209.519,
+          "end_sec": 315.08000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "spesa",
+        "Juventus"
+      ],
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha speso 137 milioni nel mercato.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "8de9e4a8-282b-40ba-9a3a-65604167848b",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha un passivo di 41 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ricava circa 50 e sono in passivo di 41.",
+          "start_sec": 106.24,
+          "end_sec": 212.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "passivo",
+        "Inter"
+      ],
+      "topic": "finance",
+      "subject": "Inter",
+      "position": "L'Inter ha un passivo di 41 milioni.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "454639b8-3f55-4803-988a-c7277937de2b",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s0",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Si parla di De Laurentis come non disposto a spendere, ma la realtà è diversa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cioè proprio il contrario di quello che si racconta di De Laurentis, cioè che lui è tirato, che non vuole spendere",
+          "start_sec": 2.32,
+          "end_sec": 109.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "de laurentis"
+      ],
+      "topic": "market",
+      "subject": "De Laurentis",
+      "position": "Si parla di De Laurentis come non disposto a spendere, ma la realtà è diversa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "182d00fc-6bbb-4219-8c04-af879c2850ca",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha un blocco del mercato a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se il blocco del mercato che il Napoli ha a gennaio poi si continua ad avere anche a giugno, non ci dovrebbero essere problemi.",
+          "start_sec": 209.519,
+          "end_sec": 315.08000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "blocco",
+        "Napoli"
+      ],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha un blocco del mercato a gennaio.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "3a751250-26d8-4564-893b-1465af981099",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha avuto un blocco del mercato d'estate ma ha potuto fare riscatti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno avuto il blocco del mercato d'estate, però hanno avuto la possibilità con il blocco di fare i riscatti.",
+          "start_sec": 209.519,
+          "end_sec": 315.08000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Lazio",
+        "riscatti"
+      ],
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio ha avuto un blocco del mercato d'estate ma ha potuto fare riscatti.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "12c9656d-6e8c-4d11-8c5c-823ab0fcfc59",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha speso 115 milioni nel mercato attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli spende 115 milioni",
+          "start_sec": 106.24,
+          "end_sec": 212.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "spesa",
+        "Napoli"
+      ],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha speso 115 milioni nel mercato attuale.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4982cba8-9ff7-45be-bcf1-9e046946cd3e",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è costretto ad abbassare i costi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli costretto ad abbassare i costi o..🔵",
+          "start_sec": 2.32,
+          "end_sec": 109.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finanza",
+        "mercato"
+      ],
+      "topic": "finance",
+      "subject": "Napoli",
+      "position": "Il Napoli è costretto ad abbassare i costi.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "7e146ac0-9aac-4ba3-ac50-d808c3a7e808",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vissuto una bellissima vittoria di Supercoppa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la bellissima vittoria di Supercoppa",
+          "start_sec": 2.32,
+          "end_sec": 109.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "vittoria"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vissuto una bellissima vittoria di Supercoppa.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a433b250-3a6f-449b-8da0-15ba6fb030b6",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha speso di più del Napoli nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta ha speso di più di noi.",
+          "start_sec": 209.519,
+          "end_sec": 315.08000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "spesa",
+        "Atalanta"
+      ],
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha speso di più del Napoli nel mercato.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "393c1b6e-0dc8-4d42-b1b0-7cd7ea4a27bd",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s0",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La situazione di Lucca è attualmente oggetto di discussione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la situazione di Lucca.",
+          "start_sec": 2.32,
+          "end_sec": 109.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatori"
+      ],
+      "topic": "market",
+      "subject": "Lucca",
+      "position": "La situazione di Lucca è attualmente oggetto di discussione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "a8265417-f5af-4690-8f6c-e44fe56a4885",
+      "video_id": "3OOMjxI6254",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è in difficoltà di mercato a causa di un blocco soft.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi abbiamo il blocco soft",
+          "start_sec": 106.24,
+          "end_sec": 212.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "blocco",
+        "Napoli"
+      ],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli è in difficoltà di mercato a causa di un blocco soft.",
+      "polarity": "negative"
+    }
+  ]
+}

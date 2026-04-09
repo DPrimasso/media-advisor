@@ -1,0 +1,409 @@
+{
+  "video_id": "RQehSPYj8V0",
+  "analyzed_at": "2026-03-31T15:01:09.632Z",
+  "metadata": {
+    "title": "SI RIVEDE RRAHMANI! 👀 Altro che stadio.. 🔵 Piano Gara per GENOA NAPOLI",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-06T19:41:19+00:00"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la prossima partita del Napoli contro il Genoa, sottolineando la complessità dell'incontro e l'importanza di una strategia ben definita. La posizione principale dell'autore è che, nonostante le difficoltà, il Napoli potrebbe rivedere Rrahmani in campo, il che potrebbe influenzare le scelte di formazione. Inoltre, viene evidenziato un clima sereno attorno alla squadra, con buone prospettive per il match, mentre si esprime scetticismo riguardo ai progressi sul progetto dello stadio, considerandoli ancora lontani dalla realtà.",
+  "topics": [
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup",
+      "relevance": "high"
+    },
+    {
+      "name": "tattiche di gioco",
+      "relevance": "high"
+    },
+    {
+      "name": "injury",
+      "relevance": "medium"
+    },
+    {
+      "name": "analisi partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "rrahmani",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni individuali",
+      "relevance": "low"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "low"
+    },
+    {
+      "name": "genoa",
+      "relevance": "low"
+    },
+    {
+      "name": "napoli performance",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "29a70705-af81-4ba9-ac48-80f911c1d75d",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il focus è sulla strategia per affrontare il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi interessa parlare del Genoa che è una partita complicatissima",
+          "start_sec": 2.8,
+          "end_sec": 37.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "strategia",
+        "Genoa"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il focus è sulla strategia per affrontare il Genoa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "6875bcee-6800-4b51-ab87-ff8e9cbd8455",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s0",
+      "target_entity": "stadio",
+      "entity_type": "other",
+      "dimension": "injury",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Si considera che senza impalcature non ci siano progressi visibili per lo stadio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "finché non vedo le le impalcature sullo stadio non dico proprio niente",
+          "start_sec": 2.8,
+          "end_sec": 37.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stadio",
+        "progetto",
+        "Napoli"
+      ],
+      "topic": "injury",
+      "subject": "stadio",
+      "position": "Si considera che senza impalcature non ci siano progressi visibili per lo stadio.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "975837b1-b2e9-44da-a179-61786480b629",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli potrebbe avere novità di formazioni per la partita contro il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "possiamo andare ancora un po' più nel dettaglio con queste novità di formazioni che possiamo aspettarci",
+          "start_sec": 33.559,
+          "end_sec": 75.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "Genoa",
+        "Napoli"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe avere novità di formazioni per la partita contro il Genoa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "fbe079de-8bcf-44b3-9730-f38e03bcf6ee",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La gestione di alcuni momenti critici è stata una strategia del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'era una gestione qualche minuto le saltava eh nei finali delle partite",
+          "start_sec": 72.68,
+          "end_sec": 107.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "game management"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "La gestione di alcuni momenti critici è stata una strategia del Napoli.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "dbc14aa5-fd65-4632-bf01-19cd252c2198",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha schierato una formazione 4-1-4-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era ancora il Napoli 4-1 4-1,",
+          "start_sec": 72.68,
+          "end_sec": 107.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "formation"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli ha schierato una formazione 4-1-4-1.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c708db7f-e06f-43bc-a742-0d4ad5ec468d",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha mostrato una vittoria caparbia nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vittoria caparbia poco nel primo tempo, meglio il secondo.",
+          "start_sec": 72.68,
+          "end_sec": 107.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "team success"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha mostrato una vittoria caparbia nella partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "232db3c6-5b89-43b3-9d89-0722fcfa7f14",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s0",
+      "target_entity": "Rrahmani",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PROBABLE",
+      "claim_text": "Probabilmente Rrahmani tornerà in campo per la partita contro il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "probabilmente rivediamo Rakmani",
+          "start_sec": 2.8,
+          "end_sec": 37.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Rrahmani",
+        "Genoa",
+        "lineup"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Rrahmani",
+      "position": "Probabilmente Rrahmani tornerà in campo per la partita contro il Genoa.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "eeceba92-9353-41d3-bf8f-2a498e153f2a",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un clima sereno attorno al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un clima sereno, mi fa piacere",
+          "start_sec": 33.559,
+          "end_sec": 75.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "clima",
+        "tifo",
+        "Napoli"
+      ],
+      "topic": "fan_behavior",
+      "subject": "Napoli",
+      "position": "C'è un clima sereno attorno al Napoli.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4c49ccc3-9111-47ae-8578-12b889663182",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il video di ieri del Napoli ha ottenuto buoni risultati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il video di ieri è andato molto bene",
+          "start_sec": 33.559,
+          "end_sec": 75.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "video",
+        "successo",
+        "Napoli"
+      ],
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il video di ieri del Napoli ha ottenuto buoni risultati.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a4af5bab-de06-4c3f-8726-f4c13085be01",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La partita contro il Genoa è considerata complicatissima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una partita complicatissima",
+          "start_sec": 2.8,
+          "end_sec": 37.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Genoa",
+        "partita",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "La partita contro il Genoa è considerata complicatissima.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "dc35fb8c-dbc0-40cf-b334-77d5744a0738",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s1",
+      "target_entity": "Vieira",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Vieira era in panchina nella partita di andata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'era Vieira in in panchina",
+          "start_sec": 33.559,
+          "end_sec": 75.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "formazione"
+      ],
+      "topic": "tactics",
+      "subject": "Vieira",
+      "position": "Vieira era in panchina nella partita di andata.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "92085679-4f9c-4523-96a7-8108c1ddcc72",
+      "video_id": "RQehSPYj8V0",
+      "segment_id": "s2",
+      "target_entity": "De Bruin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "De Bruin era in panchina durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma De Bruin stava in panchina",
+          "start_sec": 72.68,
+          "end_sec": 107.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "player status",
+        "bench"
+      ],
+      "topic": "performance",
+      "subject": "De Bruin",
+      "position": "De Bruin era in panchina durante la partita.",
+      "polarity": "neutral"
+    }
+  ]
+}

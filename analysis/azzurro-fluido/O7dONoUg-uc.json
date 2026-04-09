@@ -1,0 +1,404 @@
+{
+  "video_id": "O7dONoUg-uc",
+  "analyzed_at": "2026-03-31T15:43:31.646Z",
+  "metadata": {
+    "title": "+ ALTRE IMMAGINI NON VISTE IERI 👀 Napoli Verona E' INACCETTABILE 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-08T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute della controversa decisione arbitrale che ha portato all'annullamento di un gol del Napoli nella partita contro il Verona. L'autore sostiene che Heulund non abbia toccato il pallone con la mano e critica le immagini utilizzate per giustificare la decisione, evidenziando come il pallone cambi direzione solo dopo aver colpito il pettorale. Fluido conclude che le recenti decisioni arbitrali sono inaccettabili e suggerisce la necessità di un aggiornamento del regolamento del calcio per evitare confusione e inganni, come accaduto anche in altre partite, tra cu",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan sentiment",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "confusione",
+      "relevance": "low"
+    },
+    {
+      "name": "analisi",
+      "relevance": "low"
+    },
+    {
+      "name": "errori difensivi",
+      "relevance": "low"
+    },
+    {
+      "name": "controversie",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "e0820929-3b8d-401f-8587-bd5cbd854428",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s0",
+      "target_entity": "Heund",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Heund non ha toccato il pallone prima che fosse annullato il gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non l'ho nemmeno toccata e utilizza i frame by frame che si vede anche dall'altra inquadratura.",
+          "start_sec": 0.16,
+          "end_sec": 125.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "gol annullato"
+      ],
+      "topic": "refereeing",
+      "subject": "Heund",
+      "position": "Heund non ha toccato il pallone prima che fosse annullato il gol.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "29043f0f-c532-4968-9c77-8b06629f56c9",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Le decisioni arbitrali in entrambi i match sono state problematiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha visto degli scandali altrettanto inaccettabili nella partita della sua Lazio con la Fiorentina.",
+          "start_sec": 0.16,
+          "end_sec": 125.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "controversie",
+        "arbitraggio"
+      ],
+      "topic": "refereeing",
+      "subject": "Lazio",
+      "position": "Le decisioni arbitrali in entrambi i match sono state problematiche.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "42278ecf-4368-48a6-a5a1-575a2d4605aa",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s1",
+      "target_entity": "Heulund",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Heulund non ha toccato il pallone con la mano durante il gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Grazie Heulund per aver mostrato un replay dove si vede che l'hai presa con la mano.",
+          "start_sec": 122.64,
+          "end_sec": 207.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "referee",
+        "VAR"
+      ],
+      "topic": "refereeing",
+      "subject": "Heulund",
+      "position": "Heulund non ha toccato il pallone con la mano durante il gioco.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "70474728-878d-44e8-8213-ef6d8bdc2396",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s1",
+      "target_entity": "pallone",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Il pallone non cambia direzione prima di toccare il pettorale di Heulund.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si vede il giro del pallone che non cambia quando la palla si avvicina alla mano.",
+          "start_sec": 122.64,
+          "end_sec": 207.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "pallone"
+      ],
+      "topic": "refereeing",
+      "subject": "pallone",
+      "position": "Il pallone non cambia direzione prima di toccare il pettorale di Heulund.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "2be4a6a3-302f-4102-bdae-971e9610065c",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è stato ingannato dalla situazione del fallo di mano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "così è questo qua, che poi è il primo replay che ci hanno fatto vedere in TV scagiona tutto.",
+          "start_sec": 122.64,
+          "end_sec": 207.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "regolamento",
+        "calcio"
+      ],
+      "topic": "refereeing",
+      "subject": "Conte",
+      "position": "Conte è stato ingannato dalla situazione del fallo di mano.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "da204e98-1882-4335-b826-f8ed5c64d15d",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s1",
+      "target_entity": "regolamento",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Il regolamento del calcio deve essere aggiornato per evitare confusioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna rifare il regolamento perché allo stesso Conte viene ingannato.",
+          "start_sec": 122.64,
+          "end_sec": 207.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "regolamento",
+        "VAR"
+      ],
+      "topic": "refereeing",
+      "subject": "regolamento",
+      "position": "Il regolamento del calcio deve essere aggiornato per evitare confusioni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "09891f88-e28a-40c5-9495-3682fdbd4b89",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR non può chiamare il monitor in caso di dubbio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se ti lascia il dubbio devi lasciare il gol perché l'arbitro non l'ha chiamato",
+          "start_sec": 205.56,
+          "end_sec": 310,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "arbitraggio"
+      ],
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR non può chiamare il monitor in caso di dubbio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "87c399c1-3952-46e2-92a3-ae47ccb0e165",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s2",
+      "target_entity": "Verona",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il secondo gol del Verona potrebbe essere stato influenzato da un fallo di mano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi dispiace se vogliamo accettare che il fallo di mano in questione è scomposto",
+          "start_sec": 205.56,
+          "end_sec": 310,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Verona",
+        "gol",
+        "fallo di mano"
+      ],
+      "topic": "performance",
+      "subject": "Verona",
+      "position": "Il secondo gol del Verona potrebbe essere stato influenzato da un fallo di mano.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4564d3d3-659d-41b8-8c6c-a894372bb06d",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il gol annullato al Napoli poteva cambiare l'esito finale della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è che io faccio il rabono il ragionamento, questo gol era buono, quindi abbiamo vinto 3-2",
+          "start_sec": 205.56,
+          "end_sec": 310,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "gol",
+        "partita"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il gol annullato al Napoli poteva cambiare l'esito finale della partita.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a6d0a044-c1c7-4e81-bfaa-91119091ac89",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è stato penalizzato da una decisione arbitrale inaccettabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questi episodi che poi in reaction si affrontano in un modo.",
+          "start_sec": 0.16,
+          "end_sec": 125.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "inaccettabile"
+      ],
+      "topic": "refereeing",
+      "subject": "Napoli",
+      "position": "Il Napoli è stato penalizzato da una decisione arbitrale inaccettabile.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "89e8a8fe-8961-4d2d-8728-77f836718b6f",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro ha deciso di non annullare il gol nonostante i dubbi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devi lasciare il gol perché l'arbitro non l'ha chiamato",
+          "start_sec": 205.56,
+          "end_sec": 310,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "decisione"
+      ],
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro ha deciso di non annullare il gol nonostante i dubbi.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7bb8b46c-d1c5-41de-9927-552f23e67587",
+      "video_id": "O7dONoUg-uc",
+      "segment_id": "s0",
+      "target_entity": "tifosi",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "I tifosi potrebbero essere scontenti per le recenti decisioni arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si può.",
+          "start_sec": 0.16,
+          "end_sec": 125.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indignazione",
+        "scontento"
+      ],
+      "topic": "fan_behavior",
+      "subject": "tifosi",
+      "position": "I tifosi potrebbero essere scontenti per le recenti decisioni arbitrali.",
+      "polarity": "negative"
+    }
+  ]
+}

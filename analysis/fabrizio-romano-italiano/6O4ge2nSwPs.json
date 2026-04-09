@@ -1,0 +1,338 @@
+{
+  "video_id": "6O4ge2nSwPs",
+  "analyzed_at": "2026-04-08T10:51:39.931181+00:00",
+  "metadata": {
+    "title": "🚨 BLITZ JUVE A ZERO! DA BASTONI AL NOME NUOVO: BARÇA IN ITALIA! SCHLAGER, LOCATELLI, NDICKA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulla situazione attuale della Juventus, in particolare sul futuro di Luciano Spalletti e sulle operazioni di mercato a parametro zero. L'autore sottolinea che Spalletti è una scelta probabile per la panchina bianconera e che la Juventus ha una posizione chiara riguardo alle sue strategie di mercato. Inoltre, si evidenzia l'interesse per Marcos Senesi, difensore del Barmout, il cui contratto scade e che ha ricevuto offerte da diversi club, con la Juventus che dovrà decidere come procedere entro marzo o inizio aprile.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta considerando operazioni a parametro zero per l'estate.",
+      "polarity": "neutral",
+      "claim_id": "7484db7d-7e88-4fd8-9243-c586acb58a46",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta considerando operazioni a parametro zero per l'estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vi andiamo ad aggiornare anche a proposito di operazioni a parametro zero per l'estate.",
+          "start_sec": 34.96,
+          "end_sec": 64.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Marcos Senesi",
+      "position": "Marcos Senesi lascerà il Barmout e non firmerà un nuovo contratto.",
+      "polarity": "positive",
+      "claim_id": "ebdd031f-43a6-43d5-ae09-ff4ca7bca3a1",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s2",
+      "target_entity": "Marcos Senesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Marcos Senesi lascerà il Barmout e non firmerà un nuovo contratto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo detto eh più volte che Senesi lascerà il Bormout e quindi non firmerà un nuovo contratto.",
+          "start_sec": 62.28,
+          "end_sec": 94.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Senesi",
+      "position": "Il futuro di Senesi si dovrebbe risolvere entro marzo o inizio aprile.",
+      "polarity": "neutral",
+      "claim_id": "4a6b339e-9581-466d-8f64-d1bd71c6c51a",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s3",
+      "target_entity": "Senesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Senesi si dovrebbe risolvere entro marzo o inizio aprile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il futuro di Senesi tra questo mese di marzo, inizio aprile si dovrebbe tra virgolette risolvere",
+          "start_sec": 92.52,
+          "end_sec": 132.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tottenham",
+      "position": "Il Tottenham è tra le squadre interessate a Senesi.",
+      "polarity": "neutral",
+      "claim_id": "730ac3e8-32e1-4985-b6de-634b2241898c",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s3",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Tottenham è tra le squadre interessate a Senesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La concorrenza più forte arriva dalla Premier League dove ci sono Tottenham.",
+          "start_sec": 92.52,
+          "end_sec": 132.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatore",
+      "position": "I giocatori a zero sono opzioni per il mercato.",
+      "polarity": "neutral",
+      "claim_id": "212c7097-df8e-40ee-a65e-7993ba0d4fd3",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s5",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "I giocatori a zero sono opzioni per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a proposito di nomi a zero, un altro nome che abbiamo fatto qui sul canale era a gennaio e che manteniamo come opzione.",
+          "start_sec": 160.72,
+          "end_sec": 186.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Luciano Spalletti resta una possibile opzione per la Juventus.",
+      "polarity": "positive",
+      "claim_id": "b4259e38-1692-44b5-a449-6363af98ee90",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s0",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Luciano Spalletti resta una possibile opzione per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la volontà di Spalletti e la Juve",
+          "start_sec": 0.04,
+          "end_sec": 37.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha preso una posizione molto chiara sulle operazioni a parametro zero.",
+      "polarity": "neutral",
+      "claim_id": "9734959d-4fe8-4c18-822e-2b54f0fa88b7",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha preso una posizione molto chiara sulle operazioni a parametro zero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus ha preso una posizione molto chiara",
+          "start_sec": 34.96,
+          "end_sec": 64.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è interessata a Marcos Senesi da mesi.",
+      "polarity": "neutral",
+      "claim_id": "ff335cf4-68ae-4001-b7e7-97478cf117c0",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus è interessata a Marcos Senesi da mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo parlato per mesi della Juventus.",
+          "start_sec": 62.28,
+          "end_sec": 94.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Senesi",
+      "position": "Senesi ha diverse offerte di mercato in scadenza di contratto.",
+      "polarity": "neutral",
+      "claim_id": "914fd0fc-e064-44e1-b3ef-57d4a795dd39",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s3",
+      "target_entity": "Senesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Senesi ha diverse offerte di mercato in scadenza di contratto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha diverse offerte.",
+          "start_sec": 92.52,
+          "end_sec": 132.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Luciano Spalletti sta mantenendo una posizione chiara.",
+      "polarity": "neutral",
+      "claim_id": "50d3f3f5-6f0b-464e-bbcd-426fc94f2f1d",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s1",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Luciano Spalletti sta mantenendo una posizione chiara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo stesso Luciano Spalletti la sta assolutamente mantenendo.",
+          "start_sec": 34.96,
+          "end_sec": 64.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta considerando contatti con giocatori.",
+      "polarity": "neutral",
+      "claim_id": "55db9e6c-2a6e-4f03-b093-a2e9fdb1572b",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta considerando contatti con giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus nel corso della prossima settimana, ad inizio settimana prossima, eh avrà ulteriori contatti con l'entunagio di senesi",
+          "start_sec": 130.84,
+          "end_sec": 163.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Aston Villa",
+      "position": "L'Aston Villa è interessato a Senesi.",
+      "polarity": "neutral",
+      "claim_id": "13114f8e-c3fa-46e1-ac80-71b020450617",
+      "video_id": "6O4ge2nSwPs",
+      "segment_id": "s3",
+      "target_entity": "Aston Villa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Aston Villa è interessato a Senesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dove ci sono... Aston Villa che lo vogliono.",
+          "start_sec": 92.52,
+          "end_sec": 132.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

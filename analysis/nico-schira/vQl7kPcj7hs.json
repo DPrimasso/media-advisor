@@ -1,0 +1,366 @@
+{
+  "video_id": "vQl7kPcj7hs",
+  "analyzed_at": "2026-04-08T12:49:23.943610+00:00",
+  "metadata": {
+    "title": "JUVE, TUTTA LA VERITÀ SU BREMER. ROMA, TOTTI IN MEZZO AGLI SCONTRI GASPERINI-DIRIGENTI. E LUKAKU…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sulla situazione di Romelu Lukaku e le sue implicazioni per il Napoli, che si sta preparando per la sfida contro il Milan. L'autore esprime la convinzione che Lukaku potrebbe ricevere una multa e finire fuori rosa, ma sottolinea che il Napoli ha l'intenzione di venderlo a fine stagione, rendendo complicata la sua situazione finanziaria. Inoltre, si accenna alla possibilità che l'Inter abbia poche chance di vincere lo scudetto, mentre il Napoli continua a lavorare per il futuro, con Lukaku che pesa significativamente sul bilancio del club.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "allenamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "economia",
+      "relevance": "low"
+    },
+    {
+      "name": "finanze",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "contratti",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku ha avuto un gol decisivo ma solo 17 minuti di gioco in una partita.",
+      "polarity": "neutral",
+      "claim_id": "0cf6755d-0537-44bd-8fa2-422ee541de45",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lukaku ha avuto un gol decisivo ma solo 17 minuti di gioco in una partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il massimo di minutaggio è stato 17 minuti contro l'Elas Verona, dove ha fatto anche gol decisivo.",
+          "start_sec": 109.399,
+          "end_sec": 137.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Lukaku",
+      "position": "Lukaku pesa 10 milioni a bilancio per il Napoli.",
+      "polarity": "neutral",
+      "claim_id": "e9c7bd4d-2453-4f80-84ca-ea92e4973dc2",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku pesa 10 milioni a bilancio per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku che a bilancio pesa ancora 10 milioni",
+          "start_sec": 67.2,
+          "end_sec": 112.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku ha giocato solo 40 minuti complessivi dall'infortunio.",
+      "polarity": "neutral",
+      "claim_id": "9d08ccbf-40f3-41bc-a166-b56f0815f4dc",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha giocato solo 40 minuti complessivi dall'infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha giocato 40 minuti complessivi.",
+          "start_sec": 109.399,
+          "end_sec": 137.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Robert Lewandowski",
+      "position": "Lewandowski guadagna attualmente 20 milioni a stagione.",
+      "polarity": "neutral",
+      "claim_id": "a8bdd41d-97e4-4391-923c-10a4192b4988",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s4",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski guadagna attualmente 20 milioni a stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ricordiamo che Lewandowski quest'anno guadagna 20 milioni a stagione.",
+          "start_sec": 134.879,
+          "end_sec": 171.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter potrebbe avere poche chance di vincere lo scudetto.",
+      "polarity": "neutral",
+      "claim_id": "4d04eab4-c644-44c7-9616-362d209cd86b",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter potrebbe avere poche chance di vincere lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per le residue, secondo me poche, ma comunque ancora presenti chance di scudetto.",
+          "start_sec": 1.56,
+          "end_sec": 35.839999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Lukaku potrebbe ricevere una multa e finire fuori rosa.",
+      "polarity": "neutral",
+      "claim_id": "408e72a6-26ec-4c29-adb4-48a6f890ac61",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Lukaku potrebbe ricevere una multa e finire fuori rosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "probabilmente una multa ci sarà, molto probabilmente ci sarà, quasi sicuramente ci sarà sul fuori rosa.",
+          "start_sec": 33.079,
+          "end_sec": 68.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Lukaku",
+      "position": "Segnali sui problemi di Lukaku sono stati condivisi sui social.",
+      "polarity": "neutral",
+      "claim_id": "f440facb-c91b-4eb7-b87d-8da93f1a4598",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Segnali sui problemi di Lukaku sono stati condivisi sui social.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi arrivavano segnali anche ieri sera, come ho scritto eh su su Twitter, ho postato anche su Instagram.",
+          "start_sec": 33.079,
+          "end_sec": 68.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Il Napoli è intenzionato a vendere Lukaku a fine stagione.",
+      "polarity": "neutral",
+      "claim_id": "ddb6aa44-6314-4940-8bab-5665caaf7733",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è intenzionato a vendere Lukaku a fine stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli comunque a fine stagione è intenzionato a vendere Lukaku",
+          "start_sec": 67.2,
+          "end_sec": 112.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Possono esserci colpi di scena nella situazione di Lukaku.",
+      "polarity": "neutral",
+      "claim_id": "8512226f-3d66-4da2-bb5b-cabd6464cf96",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Possono esserci colpi di scena nella situazione di Lukaku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non escludo che ci possano essere altri colpi di scena nella giornata di oggi o di domani.",
+          "start_sec": 109.399,
+          "end_sec": 137.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "Il Barcellona sta considerando un rinnovo annuale per Lewandowski.",
+      "polarity": "neutral",
+      "claim_id": "105aaa71-729a-4876-8b97-5f1c7d86bd55",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s4",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barcellona sta considerando un rinnovo annuale per Lewandowski.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Barcellona, proprio per questa età, nonostante Lewandowski rimanga un attaccante da 20 gol all'anno, ragiona su un rinnovo annuale con ingaggio decurtato.",
+          "start_sec": 134.879,
+          "end_sec": 171.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Si prevede che Lukaku torni in campo tra una settimana o due.",
+      "polarity": "neutral",
+      "claim_id": "85d39a9f-9622-43df-8eb4-2cac3654c8b5",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si prevede che Lukaku torni in campo tra una settimana o due.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e poi tra una settimana o due tornerà Lukaku",
+          "start_sec": 67.2,
+          "end_sec": 112.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Lukaku",
+      "position": "Lukaku non è arrivato a Castelvolturno.",
+      "polarity": "negative",
+      "claim_id": "61e95e4f-3518-4852-9f6c-711e74f3a240",
+      "video_id": "vQl7kPcj7hs",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku non è arrivato a Castelvolturno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è arrivato Romelo Lukaku.",
+          "start_sec": 1.56,
+          "end_sec": 35.839999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

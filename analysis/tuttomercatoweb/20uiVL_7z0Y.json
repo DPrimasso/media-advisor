@@ -1,0 +1,346 @@
+{
+  "video_id": "20uiVL_7z0Y",
+  "analyzed_at": "2026-04-07T15:25:34.710092+00:00",
+  "metadata": {
+    "title": "TMW News: Juve-Lewandowski, Napoli-Bernardo Silva e Tottenham-De Zerbi: ecco fattibilità e analisi",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TuttoMercatoWeb analizza le voci di mercato riguardanti la Juventus, il Napoli e il Tottenham, focalizzandosi su potenziali trasferimenti di giocatori di alto profilo come Robert Lewandowski e Bernardo Silva. L'autore esprime sorpresa per l'interesse della Juventus verso Lewandowski, sottolineando che il centravanti potrebbe lasciare il Barcellona a parametro zero, il che attira l'attenzione di diversi club. Inoltre, si prevede una rivoluzione nell'attacco della Juventus con l'uscita di giocatori come Jonathan David e Openda, mentre si discute anche del futuro di Roberto De Zerbi c",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Tottenham",
+      "position": "Roberto De Zerbi è in corsa per diventare il nuovo tecnico del Tottenham.",
+      "polarity": "positive",
+      "claim_id": "1a97f030-56c5-4136-94cd-0ddd910d5ef4",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s0",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Roberto De Zerbi è in corsa per diventare il nuovo tecnico del Tottenham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Roberto De Zervi, comunque in piena corsa per diventare il nuovo tecnico degli Spurs",
+          "start_sec": 12.92,
+          "end_sec": 102.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lewandowski",
+      "position": "Lewandowski potrebbe lasciare il Barcellona a parametro zero.",
+      "polarity": "neutral",
+      "claim_id": "46c750de-4c62-4747-ac51-a77c217a766c",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s1",
+      "target_entity": "Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski potrebbe lasciare il Barcellona a parametro zero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il fatto che vada via a parametro zero dal Barcellona",
+          "start_sec": 100.159,
+          "end_sec": 173.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Vlaovic",
+      "position": "La Juve è fiduciosa di chiudere l'accordo con Vlaovic.",
+      "polarity": "positive",
+      "claim_id": "fe58df4a-ebb4-4c07-af03-edcb0db8b14f",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s3",
+      "target_entity": "Vlaovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juve è fiduciosa di chiudere l'accordo con Vlaovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve estremamente fiduciosa di chiudere l'accordo con Vlaovicć.",
+          "start_sec": 252.439,
+          "end_sec": 341.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "De Zerbi",
+      "position": "De Zerbi è un tecnico ambito anche da molte squadre di Serie A.",
+      "polarity": "neutral",
+      "claim_id": "3b1e9390-f145-42da-ae8c-0c1577bd9383",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s3",
+      "target_entity": "De Zerbi",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Zerbi è un tecnico ambito anche da molte squadre di Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "farebbe tutt'ora gola anche a tante squadre di Serie A.",
+          "start_sec": 252.439,
+          "end_sec": 341.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Tottenham",
+      "position": "De Zerbi potrebbe trovare difficile lavorare con un progetto a metà stagione al Tottenham.",
+      "polarity": "neutral",
+      "claim_id": "240adec2-9a6e-454a-84bf-71343528b1df",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s3",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "De Zerbi potrebbe trovare difficile lavorare con un progetto a metà stagione al Tottenham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un tecnico che ha voluto lavorare fin dall'inizio con un progetto ehm nascituro con le sue squadre.",
+          "start_sec": 252.439,
+          "end_sec": 341.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Tottenham",
+      "position": "Il Tottenham sta cercando di rimediare agli errori della stagione.",
+      "polarity": "neutral",
+      "claim_id": "886ad51a-bcd8-449a-8558-690d70eea04d",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s4",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Tottenham sta cercando di rimediare agli errori della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo in qualche maniera rimediare a tutti gli errori che sono stati fatti nel corso di questa stagione.",
+          "start_sec": 339.12,
+          "end_sec": 415.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Tudor",
+      "position": "Tudor non è riuscito a dare niente alla squadra.",
+      "polarity": "neutral",
+      "claim_id": "0a80d628-ce10-4434-ae64-b28d148ee442",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s4",
+      "target_entity": "Tudor",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tudor non è riuscito a dare niente alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non che Tudor non sia un bravo allenatore, però probabilmente in quel contesto lì Tudor non è riuscito a dare niente alla squadra.",
+          "start_sec": 339.12,
+          "end_sec": 415.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Tottenham",
+      "position": "Il gruppo del Tottenham non ha recepito le idee di Tudor.",
+      "polarity": "neutral",
+      "claim_id": "3aebbc78-08de-42f9-a41b-2deb3cfcdbbc",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s4",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il gruppo del Tottenham non ha recepito le idee di Tudor.",
+      "evidence_quotes": [
+        {
+          "quote_text": "magari siano successe altre cose, il gruppo non ha saputo recepire le sue idee.",
+          "start_sec": 339.12,
+          "end_sec": 415.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo Silva",
+      "position": "Bernardo Silva è pronto ad andare via a zero.",
+      "polarity": "positive",
+      "claim_id": "c30b0623-043f-4038-92f8-11051472453f",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s0",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo Silva è pronto ad andare via a zero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di un Bernardo Silva pronto ad andar via a zero",
+          "start_sec": 12.92,
+          "end_sec": 102.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Jonathan David",
+      "position": "Jonathan David lascerà il club.",
+      "polarity": "neutral",
+      "claim_id": "c417cc1c-190b-4120-b0c4-ca8ca6a61b65",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s1",
+      "target_entity": "Jonathan David",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Jonathan David lascerà il club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "andrà via sicuramente Jonathan David",
+          "start_sec": 100.159,
+          "end_sec": 173.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Openda",
+      "position": "Openda potrebbe lasciare la squadra.",
+      "polarity": "neutral",
+      "claim_id": "e0f6aad6-0958-4fb4-8dcd-fc99a4d3139d",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s1",
+      "target_entity": "Openda",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Openda potrebbe lasciare la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "andrà via anche Openda",
+          "start_sec": 100.159,
+          "end_sec": 173.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Vlaovic",
+      "position": "Vlaovic ha aperto la trattativa in modo importante.",
+      "polarity": "positive",
+      "claim_id": "4775463b-1fab-42ad-9e02-057114bec995",
+      "video_id": "20uiVL_7z0Y",
+      "segment_id": "s3",
+      "target_entity": "Vlaovic",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vlaovic ha aperto la trattativa in modo importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vlaovicć secondo me ha aperto in maniera molto importante.",
+          "start_sec": 252.439,
+          "end_sec": 341.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

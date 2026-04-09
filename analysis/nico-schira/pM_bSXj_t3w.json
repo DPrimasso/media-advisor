@@ -1,0 +1,366 @@
+{
+  "video_id": "pM_bSXj_t3w",
+  "analyzed_at": "2026-04-08T13:16:36.577784+00:00",
+  "metadata": {
+    "title": "INTER IN MISSIONE PER UN DIFENSORE. L’INSTANT JUVE. I SEGRETI DEL COMO SHOW. LA RIVINCITA DI LOTITO…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza la sorprendente performance del Como nella giornata di campionato, evidenziando la vittoria per 5-0 contro il Pisa e la solidità difensiva della squadra, che ha la difesa meno battuta della Serie A. L'autore sottolinea come il Como, pur avendo un gioco offensivo e spettacolare, mantenga un equilibrio tattico che lo rende competitivo, smentendo l'idea che sia una squadra scriteriata. Schira conclude che il Como, grazie a investimenti oculati e giovani talenti, sta sognando in grande, puntando alla qualificazione in Champions League, mentre le rivali come Juve e ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "comportamento_fan",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha vinto 5-0 contro il Pisa.",
+      "polarity": "positive",
+      "claim_id": "e794535c-fc7c-40db-a3ea-46cd93360112",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha vinto 5-0 contro il Pisa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "5-0 scintillante da parte del Como che gioca in questo momento il calcio più offensivo, più divertente",
+          "start_sec": 0.799,
+          "end_sec": 30.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Como",
+      "position": "Il Como ha rifiutato un'offerta di 30 milioni dal Litz.",
+      "polarity": "positive",
+      "claim_id": "7d770ba3-8e29-4339-8586-6719ef12ff19",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha rifiutato un'offerta di 30 milioni dal Litz.",
+      "evidence_quotes": [
+        {
+          "quote_text": "30 milioni più bonus offerti dal Litz a gennaio il Como non si neanche voluto sedere a parlarne",
+          "start_sec": 104.64,
+          "end_sec": 134.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Tassos Duvicas",
+      "position": "Tassos Duvicas ha segnato 11 gol in campionato.",
+      "polarity": "positive",
+      "claim_id": "d9521926-9e90-44d8-b93c-0a4f9b7d3d2f",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s2",
+      "target_entity": "Tassos Duvicas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tassos Duvicas ha segnato 11 gol in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "11º gol in campionato per Tassos Duvicas",
+          "start_sec": 55.16,
+          "end_sec": 107.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Baturin",
+      "position": "Baturin potrebbe diventare un giocatore dal valore di 30-50 milioni.",
+      "polarity": "positive",
+      "claim_id": "8eff9515-b908-4f1d-a23e-1f7680acacc2",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s3",
+      "target_entity": "Baturin",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Baturin potrebbe diventare un giocatore dal valore di 30-50 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un giocatore che può diventare uno da 30 40 50",
+          "start_sec": 104.64,
+          "end_sec": 134.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha la difesa meno battuta della Serie A.",
+      "polarity": "positive",
+      "claim_id": "ad8a0904-89e5-4eed-850b-30d3f005a4e0",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha la difesa meno battuta della Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como è organizzato [...] ha preso solamente 22 gol. È la difesa meno perforata, meno battuta della Serie A.",
+          "start_sec": 28.599,
+          "end_sec": 57.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Buté",
+      "position": "Buté ha fatto più clean sheet dopo Sommer.",
+      "polarity": "positive",
+      "claim_id": "890da3fb-4891-434f-8867-5f4651034666",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s1",
+      "target_entity": "Buté",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Buté ha fatto più clean sheet dopo Sommer.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Buté ha fatto credici clean sheet. Solo Sommer ne ha fatti di più.",
+          "start_sec": 28.599,
+          "end_sec": 57.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Como",
+      "position": "Il pubblico pensa che il Como sia scriteriato.",
+      "polarity": "neutral",
+      "claim_id": "02838ddc-13e5-490b-9b36-10fe88d2f9a4",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il pubblico pensa che il Como sia scriteriato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "molti pensano 'Ah, il Como è scriteriato?'",
+          "start_sec": 28.599,
+          "end_sec": 57.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Sandiao",
+      "position": "Sandiao è tornato dopo un infortunio di quattro mesi.",
+      "polarity": "neutral",
+      "claim_id": "12545f92-a068-469b-ad21-1a117975aba1",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s2",
+      "target_entity": "Sandiao",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sandiao è tornato dopo un infortunio di quattro mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato quattro mesi fuori per infortunio",
+          "start_sec": 55.16,
+          "end_sec": 107.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sandiao",
+      "position": "Sandiao è un esterno con pochi eguali in Serie A.",
+      "polarity": "positive",
+      "claim_id": "68abe8e0-671a-4dd5-9629-eaf798cca45b",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s2",
+      "target_entity": "Sandiao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sandiao è un esterno con pochi eguali in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma Sandiao come esterno ha pochi eguali in Serie A",
+          "start_sec": 55.16,
+          "end_sec": 107.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Como",
+      "position": "Il Como ha la proprietà più ricca del calcio italiano.",
+      "polarity": "positive",
+      "claim_id": "8d29f16e-9bb0-47b0-aae4-84bba5ece6f5",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha la proprietà più ricca del calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la più ricca del calcio italiano",
+          "start_sec": 104.64,
+          "end_sec": 134.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Como",
+      "position": "Il Como gioca con idee offensive.",
+      "polarity": "positive",
+      "claim_id": "2a7b564d-1af4-4eb6-8658-e3270bb6247a",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como gioca con idee offensive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como sì gioca l'attacco ha idee offensive.",
+          "start_sec": 28.599,
+          "end_sec": 57.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como è attualmente quarto in classifica.",
+      "polarity": "positive",
+      "claim_id": "7fe66d96-db30-49f9-b2e9-7ebd323e8a17",
+      "video_id": "pM_bSXj_t3w",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como è attualmente quarto in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il come è quarto ed è quarto meritatamente",
+          "start_sec": 55.16,
+          "end_sec": 107.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "video_id": "8v6D0LPYdgc",
+  "analyzed_at": "2026-03-31T15:09:08.472Z",
+  "metadata": {
+    "title": "Ecco perché l’allenatore é #Conte, e non noi. #NAPOLI #FIORENTINA 2-1 a caldo",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-31T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la recente partita tra Napoli e Fiorentina, evidenziando l'importanza dell'allenatore Antonio Conte per il miglioramento dei giocatori, in particolare di Politano e Gutiérrez. L'autore sottolinea che, nonostante le critiche iniziali, Gutiérrez ha mostrato progressi significativi, specialmente nella sua posizione a destra, contribuendo al gol. Inoltre, si discute del possibile grave infortunio di Lorenzo, che potrebbe avere ripercussioni sul mercato, e si menziona la ripresa del Genoa in classifica. La conclusione chiave è che Conte sta dimostran",
+  "topics": [
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "injury",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "goal",
+      "relevance": "medium"
+    },
+    {
+      "name": "sviluppo dei giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "napoli",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni individuali",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "8fb72593-5f8f-46ec-8d0c-4faca7654f43",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s0",
+      "target_entity": "Lorenzo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "POSSIBLE",
+      "claim_text": "Lorenzo potrebbe aver subito un grave infortunio al ginocchio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando la gamba fa quel movimento innaturale, il ginocchio si gira e dobbiamo capire quanto sono interessati i legamenti.",
+          "start_sec": 3.399,
+          "end_sec": 79.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "player_status"
+      ],
+      "topic": "injury",
+      "subject": "Lorenzo",
+      "position": "Lorenzo potrebbe aver subito un grave infortunio al ginocchio.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "34bd2ef3-d045-4dd5-869f-aa74da7ab1f3",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s1",
+      "target_entity": "Apolitano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Apolitano è stato coinvolto nel gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di modo che eccetera eccetera. La prima uscita non fu eccezionale, la seconda un poco meglio, ",
+          "start_sec": 76.92,
+          "end_sec": 147.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "gol"
+      ],
+      "topic": "performance",
+      "subject": "Apolitano",
+      "position": "Apolitano è stato coinvolto nel gol.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "a8357eea-63a3-4fbb-8f49-e29a4e3461f1",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s2",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Politano sta diventando un altro giocatore sotto la guida di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "piano piano si sta mentalizzando e sta sta diventando un altro giocatore.",
+          "start_sec": 144.101,
+          "end_sec": 179.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "improvement"
+      ],
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano sta diventando un altro giocatore sotto la guida di Conte.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "58cae877-a658-43a8-9c26-5f9440cbd656",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha istruito Politano a fare più cross con il destro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte gli ha detto 'Non ti preoccupare, vai là e qualche cross in più col destro ce lo ha fatto vedere'.",
+          "start_sec": 144.101,
+          "end_sec": 179.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "training"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte ha istruito Politano a fare più cross con il destro.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "e046c109-aaed-441a-81c5-510d623ecee3",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s2",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "L'abbraccio tra Politano e Conte mostra un buon rapporto di lavoro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quelli sono i gol che deve fare Politano e infatti come si abbracciano Gutierre e Conte",
+          "start_sec": 144.101,
+          "end_sec": 179.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "relationship",
+        "teamwork"
+      ],
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "L'abbraccio tra Politano e Conte mostra un buon rapporto di lavoro.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c4c6b811-52d9-4e3a-92c3-a98b2e9e76b5",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s3",
+      "target_entity": "Vergara",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Vergara è un calciatore migliorato rispetto all'inizio stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso Vergara è un altro calciatore rispetto all'inizio stagione.",
+          "start_sec": 177.159,
+          "end_sec": 247.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Vergara",
+      "position": "Vergara è un calciatore migliorato rispetto all'inizio stagione.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4c18dfbe-c370-4a08-9ce1-666e9ffe0d65",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s1",
+      "target_entity": "Gutiérrez",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La posizione di Gutiérrez a destra ha portato a un migliore risultato rispetto a sinistra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho detto meglio oggi a destra che col Chelsea a sinistra",
+          "start_sec": 76.92,
+          "end_sec": 147.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "tattiche"
+      ],
+      "topic": "tactics",
+      "subject": "Gutiérrez",
+      "position": "La posizione di Gutiérrez a destra ha portato a un migliore risultato rispetto a sinistra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "1fe1b31b-8233-465d-8afb-ae1fc5a9da77",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s0",
+      "target_entity": "mercato",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "L'infortunio di Lorenzo potrebbe influenzare il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo si interseca col mercato.",
+          "start_sec": 3.399,
+          "end_sec": 79.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "market",
+        "injury_impact"
+      ],
+      "topic": "market",
+      "subject": "mercato",
+      "position": "L'infortunio di Lorenzo potrebbe influenzare il mercato.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "522d0af7-c641-4bcf-acb0-c908766ad11a",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha dimostrato di essere un allenatore efficace per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è l'allenatore del Napoli e non siamo noi.",
+          "start_sec": 76.92,
+          "end_sec": 147.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tattiche"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte ha dimostrato di essere un allenatore efficace per il Napoli.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "08d54f6c-06e6-45da-b6df-9a4c0218d799",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s1",
+      "target_entity": "Gutiérrez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il debutto di Gutiérrez non è stato eccezionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La prima uscita non fu eccezionale,",
+          "start_sec": 76.92,
+          "end_sec": 147.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "prestazione"
+      ],
+      "topic": "performance",
+      "subject": "Gutiérrez",
+      "position": "Il debutto di Gutiérrez non è stato eccezionale.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "acb469ab-16a6-4590-9c09-30769394d447",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa si sta riprendendo in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a recuperare c sto Genoa.",
+          "start_sec": 3.399,
+          "end_sec": 79.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "team_performance",
+        "standings"
+      ],
+      "topic": "standings",
+      "subject": "Genoa",
+      "position": "Il Genoa si sta riprendendo in classifica.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ae09f0bd-2bef-4a4d-8815-a584ebab1061",
+      "video_id": "8v6D0LPYdgc",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha la capacità di migliorare i giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui migliora i giocatori.",
+          "start_sec": 144.101,
+          "end_sec": 179.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "coaching"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha la capacità di migliorare i giocatori.",
+      "polarity": "positive"
+    }
+  ]
+}

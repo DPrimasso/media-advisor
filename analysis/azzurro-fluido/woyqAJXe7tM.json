@@ -1,0 +1,410 @@
+{
+  "video_id": "woyqAJXe7tM",
+  "analyzed_at": "2026-03-31T16:15:03.790Z",
+  "metadata": {
+    "title": "IL LAVORACCIO di Elmas e Di Lorenzo 👀 Conte ASFALTA Allegri cosi 🔵 Napoli Milan 2-0",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-19T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si analizza la partita Napoli-Milan, conclusasi con un 2-0 per il Napoli, evidenziando le prestazioni di giocatori chiave come Elmas e Di Lorenzo. L'autore critica apertamente Allegri, considerandolo responsabile di una \"condanna sportiva\" per la sua gestione della squadra, mentre sottolinea l'importanza di Elmas e il pressing efficace di Di Lorenzo sui centrocampisti avversari. Tra le conclusioni chiave, si menzionano anche le difficoltà di Milinković-Savić nelle parate decisive e il fatto che il Milan ha avuto alcune opportunità nel primo tempo, ma non è riuscito ",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "analisi partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "giudizi allenatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "performance",
+      "relevance": "low"
+    },
+    {
+      "name": "porta",
+      "relevance": "low"
+    },
+    {
+      "name": "sacrificio",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni giocatori",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "bb8f7922-59f9-4ac7-94a4-7f758a42d86c",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s0",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Serie A ha prodotto un video analitico con dati sulla partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Hanno fatto la Serie A, fatto un video bellissimo di analisi con i dati.",
+          "start_sec": 0.24,
+          "end_sec": 140.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Serie A",
+        "analisi",
+        "dati"
+      ],
+      "topic": "media",
+      "subject": "Serie A",
+      "position": "La Serie A ha prodotto un video analitico con dati sulla partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "65986e7c-66bd-4f75-99a6-58b4c85a695d",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s0",
+      "target_entity": "Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Juan Jesus è attivo nel contrastare il rilancio del portiere avversario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juan Jesus che va a contrasto con a contrasto, insomma, va a schermare il portiere.",
+          "start_sec": 0.24,
+          "end_sec": 140.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Juan Jesus",
+        "contrasto",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Jesus",
+      "position": "Juan Jesus è attivo nel contrastare il rilancio del portiere avversario.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4cb571bb-f5f1-4c6e-9559-0c1a8be4ccde",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas è considerato importante per la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'importanza di Elmas, è uscita proprio un'analisi non solo da da quelli che poi fanno fanno le le cose del Napoli, ma match analistano di tutte le squadre e hanno sottolineato quello che fa Elm.",
+          "start_sec": 138.12,
+          "end_sec": 264.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "Elmas",
+        "prestazioni"
+      ],
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas è considerato importante per la squadra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c8c067f0-d23a-479a-8bf6-7c6c498619ab",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s1",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Di Lorenzo è molto attivo nel pressing sui centrocampisti avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Di Lorenzo che va forte su Rabiot e ci andrà non sempre lo fa.",
+          "start_sec": 138.12,
+          "end_sec": 264.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "Di Lorenzo",
+        "pressing"
+      ],
+      "topic": "performance",
+      "subject": "Di Lorenzo",
+      "position": "Di Lorenzo è molto attivo nel pressing sui centrocampisti avversari.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "de8845bf-85dc-4293-b967-c607b932faaf",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s1",
+      "target_entity": "Milinković Savić",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Milinković Savić deve migliorare nelle parate decisive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milinković Savić qua la parata la deve fare perché poi tutto il bello di quello che si è preparato, l'analisi tattica, tutto il piano gara si sarebbe perso nel nulla se avessero poi segnato loro.",
+          "start_sec": 138.12,
+          "end_sec": 264.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Milan",
+        "Milinkovic-Savic",
+        "portiere"
+      ],
+      "topic": "performance",
+      "subject": "Milinković Savić",
+      "position": "Milinković Savić deve migliorare nelle parate decisive.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "389701db-7035-4f68-9b4f-b9e581380a4d",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha avuto alcune occasioni nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan qualche occasione la ha, specialmente nel primo tempo.",
+          "start_sec": 138.12,
+          "end_sec": 264.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Milan",
+        "occasioni",
+        "prestazioni"
+      ],
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha avuto alcune occasioni nel primo tempo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "57598272-b0c9-479c-b82a-6a469537f4ee",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku gioca un ruolo di leader anche dalla panchina esaltando i compagni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "può fare il leader dalla panchina che esalta anche i compagni quando fanno ottime cose",
+          "start_sec": 261.6,
+          "end_sec": 404.79999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "team dynamics"
+      ],
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Lukaku gioca un ruolo di leader anche dalla panchina esaltando i compagni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "89667e75-9d1c-4953-8957-8f9a80e9a26c",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s2",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "POSSIBLE",
+      "claim_text": "Elmas crea opportunità di passaggio e libera gli spazi per i suoi compagni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "possiamo vedere quello che fa Elmas per liberare le linee di passaggio",
+          "start_sec": 261.6,
+          "end_sec": 404.79999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "team performance"
+      ],
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas crea opportunità di passaggio e libera gli spazi per i suoi compagni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "cd2dbafc-cd55-46cc-93c1-99c827b790e3",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s2",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas recupera palla e contribuisce a un contropiede decisivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas recupera palla e conduce un contropiede che poi porterà Eilund al tiro",
+          "start_sec": 261.6,
+          "end_sec": 404.79999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "counterattack"
+      ],
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas recupera palla e contribuisce a un contropiede decisivo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b37cdede-85c7-40ec-b32f-f0a6f270e928",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s2",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Spinazzola avanza e punta l'uomo creando difficoltà alla difesa avversaria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spinazzola che avanza, punta l'uomo, punta Salemella",
+          "start_sec": 261.6,
+          "end_sec": 404.79999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "offensive play"
+      ],
+      "topic": "performance",
+      "subject": "Spinazzola",
+      "position": "Spinazzola avanza e punta l'uomo creando difficoltà alla difesa avversaria.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a00262ea-071c-480a-b4dc-8b6537df405c",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s0",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri è visto come colpevole di una condanna sportiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri, hai firmato la tua condanna.",
+          "start_sec": 0.24,
+          "end_sec": 140.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Allegri",
+        "giudizio",
+        "condanna"
+      ],
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Allegri è visto come colpevole di una condanna sportiva.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "d724aa68-8ff4-45f3-96d7-9278361feaca",
+      "video_id": "woyqAJXe7tM",
+      "segment_id": "s0",
+      "target_entity": "O'riali",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Si chiede di lasciare in pace O'riali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giù le mani da O'riali.",
+          "start_sec": 0.24,
+          "end_sec": 140.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "O'riali",
+        "media",
+        "opinione"
+      ],
+      "topic": "media",
+      "subject": "O'riali",
+      "position": "Si chiede di lasciare in pace O'riali.",
+      "polarity": "positive"
+    }
+  ]
+}

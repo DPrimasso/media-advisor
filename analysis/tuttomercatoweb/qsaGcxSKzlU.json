@@ -1,0 +1,350 @@
+{
+  "video_id": "qsaGcxSKzlU",
+  "analyzed_at": "2026-04-07T15:22:26.570522+00:00",
+  "metadata": {
+    "title": "TMW News: Nazionale, tutti gli scenari. E ora torna il campionato",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TuttoMercatoWeb analizza la crisi del calcio italiano, evidenziando l'eliminazione della Nazionale dai mondiali per la terza volta consecutiva. L'autore sottolinea la necessità di un cambiamento profondo nei settori giovanili e di un ritorno alla meritocrazia, che è andata perduta nel tempo. Si propone anche di riformare i campionati, riducendo il numero di squadre e limitando la presenza di calciatori stranieri, per favorire lo sviluppo dei giovani talenti italiani. In conclusione, si sottolinea l'importanza di una nuova leadership per guidare la Nazionale verso un futuro migliore",
+  "topics": [
+    {
+      "name": "formazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "giovani",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "economia",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Nazionale",
+      "position": "L'Italia è stata eliminata dai mondiali per la terza volta consecutiva.",
+      "polarity": "negative",
+      "claim_id": "4ee23bc6-919d-4343-8c6a-4ee7c38bffcc",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s0",
+      "target_entity": "Nazionale",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia è stata eliminata dai mondiali per la terza volta consecutiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ennesima, la terza consecutiva l'eliminazione dai mondiali",
+          "start_sec": 12.88,
+          "end_sec": 79.72000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "La meritocrazia si è perduta nel calcio italiano.",
+      "polarity": "negative",
+      "claim_id": "5a2c6095-1c45-4074-a71a-be93d1c427ad",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La meritocrazia si è perduta nel calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'importante è che secondo me debbano cambiare le cose dai settori giovanili e per iniziare a creare qualcosa per il futuro.",
+          "start_sec": 12.88,
+          "end_sec": 79.72000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Nazionale",
+      "position": "È necessaria una nuova leadership per il rilancio della Nazionale.",
+      "polarity": "neutral",
+      "claim_id": "9c80fde0-71e4-4596-9af2-669c3fc1d879",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s0",
+      "target_entity": "Nazionale",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "È necessaria una nuova leadership per il rilancio della Nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Niente, c'è bisogno della meritocrazia, di tornare alla meritocrazia perché è andata via via perdendosi.",
+          "start_sec": 12.88,
+          "end_sec": 79.72000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "nazionale",
+      "position": "Occorre riformare i campionati per migliorare la nazionale.",
+      "polarity": "positive",
+      "claim_id": "f8125631-ba2f-4932-b883-ed89e5d9ea14",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s1",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Occorre riformare i campionati per migliorare la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è bisogno...una riforma di campionati in modo tale da consentire alla nazionale anche di avere più spazi",
+          "start_sec": 77.159,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "stranieri",
+      "position": "Troppi stranieri possono ostacolare lo sviluppo dei giovani talenti.",
+      "polarity": "negative",
+      "claim_id": "571e28ce-6d5a-4427-ab4d-153e1fb653b3",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s1",
+      "target_entity": "stranieri",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Troppi stranieri possono ostacolare lo sviluppo dei giovani talenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci deve essere un numero limitato perché sennò dopo ehm vengono comunque sia penalizzati",
+          "start_sec": 77.159,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Nazionale Italiana",
+      "position": "La Nazionale ha bisogno di un nuovo commissario tecnico.",
+      "polarity": "neutral",
+      "claim_id": "ca28d674-f249-4e3b-94a8-5755a23c6c6e",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s2",
+      "target_entity": "Nazionale Italiana",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Nazionale ha bisogno di un nuovo commissario tecnico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarà più il commissario tecnico della nostra nazionale.",
+          "start_sec": 139.239,
+          "end_sec": 208.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso ha tanto da dare ma sta pagando colpe ingiuste.",
+      "polarity": "negative",
+      "claim_id": "5f752a27-4cc3-4d34-b150-6eedfdea7f13",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s2",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha tanto da dare ma sta pagando colpe ingiuste.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi dispiace molto per Gattuso perché secondo me aveva tanto da dare e ha tanto da dare.",
+          "start_sec": 139.239,
+          "end_sec": 208.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha esperienza come commissario tecnico della Nazionale.",
+      "polarity": "positive",
+      "claim_id": "d977f0c2-af18-4e57-8668-4b57622beda7",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha esperienza come commissario tecnico della Nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è già stato sulla nazionale, quindi conosce molto bene il tutto.",
+          "start_sec": 139.239,
+          "end_sec": 208.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "settori giovanili",
+      "position": "È necessario un cambiamento nei settori giovanili del calcio italiano.",
+      "polarity": "neutral",
+      "claim_id": "31e4ae6e-3ae9-4a58-a3f0-4a01230bcb4c",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s0",
+      "target_entity": "settori giovanili",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È necessario un cambiamento nei settori giovanili del calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è bisogno di un cambiamento, ma nemmeno suo.",
+          "start_sec": 12.88,
+          "end_sec": 79.72000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "squadre",
+      "position": "È necessario ridurre il numero delle squadre nei campionati.",
+      "polarity": "positive",
+      "claim_id": "2d3ab565-56f4-4fa4-a363-5dcfb5ff56b4",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s1",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È necessario ridurre il numero delle squadre nei campionati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna ridurre il numero delle squadre",
+          "start_sec": 77.159,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "giovani",
+      "position": "I giovani calciatori sono penalizzati dalla presenza di troppi stranieri.",
+      "polarity": "positive",
+      "claim_id": "922a7a6b-56bc-4c83-a50c-2c66cd317cbd",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s1",
+      "target_entity": "giovani",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I giovani calciatori sono penalizzati dalla presenza di troppi stranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vengono comunque sia penalizzati dei ragazzi",
+          "start_sec": 77.159,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Spalletti",
+      "position": "Spalletti è considerato un grandissimo allenatore.",
+      "polarity": "positive",
+      "claim_id": "b4b338dc-ac8d-49b7-8143-c6e321aaf0c8",
+      "video_id": "qsaGcxSKzlU",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti è considerato un grandissimo allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sono nemmeno di Spalletti che reputa un grandissimo allenatore.",
+          "start_sec": 139.239,
+          "end_sec": 208.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "video_id": "2UviKEVz8AQ",
+  "analyzed_at": "2026-04-08T10:17:29.379418+00:00",
+  "metadata": {
+    "title": "🚨 BASTONI, GLI SCAMBI COL BARÇA E LO STIPENDIO! KOLO, LA JUVE PRIMA DI TUTTO. SALAH E L’ITALIA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-03-27T18:48:58+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulla vittoria della nazionale italiana contro l'Irlanda del Nord, che ha infuso fiducia in vista della cruciale partita contro la Bosnia per le qualificazioni al mondiale. L'autore sottolinea l'ottima prestazione di Sandro Tonali, definendolo il giocatore più presente e concentrato in campo, e prevede che sarà un protagonista del mercato estivo. Tuttavia, Romano evidenzia che il ritorno di Tonali in Italia è molto difficile, nonostante l'interesse della Juventus, a causa delle offerte competitive che stanno arrivando dalla Premier League, in particolar",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "high"
+    },
+    {
+      "name": "scambi",
+      "relevance": "medium"
+    },
+    {
+      "name": "vittoria",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "strategia",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Nazionale Italiana",
+      "position": "La partita contro la Bosnia è fondamentale per il mondiale.",
+      "polarity": "positive",
+      "claim_id": "3fdded3e-d030-48ed-a04d-e34e0d9e865a",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s0",
+      "target_entity": "Nazionale Italiana",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La partita contro la Bosnia è fondamentale per il mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "martedì è una partita fondamentale per tornare al mondiale",
+          "start_sec": 0.0,
+          "end_sec": 36.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sandro Tonali",
+      "position": "Sandro Tonali ha avuto un'ottima performance nella gara di ieri.",
+      "polarity": "positive",
+      "claim_id": "f70f37d1-57e8-4d98-8dfe-8c9de2eaac9a",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s1",
+      "target_entity": "Sandro Tonali",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sandro Tonali ha avuto un'ottima performance nella gara di ieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un nome di cui voglio tornare a parlare oggi è il nome simbolo della gara di ieri, Sandro Tonali.",
+          "start_sec": 34.44,
+          "end_sec": 62.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sandro Tonali",
+      "position": "Tonali è stato il giocatore più presente e concentrato in campo.",
+      "polarity": "positive",
+      "claim_id": "d7b4bf74-7fb3-491c-923e-5ac3f3683fd7",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s1",
+      "target_entity": "Sandro Tonali",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tonali è stato il giocatore più presente e concentrato in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse più sul pezzo, più presente, più concentrato, più attento.",
+          "start_sec": 34.44,
+          "end_sec": 62.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sandro Tonali",
+      "position": "Rivedere Tonali nel campionato italiano è molto difficile.",
+      "polarity": "negative",
+      "claim_id": "9ba3dbb8-66ef-4941-9ba3-3134e01678d4",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s2",
+      "target_entity": "Sandro Tonali",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rivedere Tonali nel campionato italiano è molto difficile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'idea, purtroppo, di rivederlo nel nostro campionato, nel campionato italiano, è veramente lontana.",
+          "start_sec": 60.879,
+          "end_sec": 90.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta considerando di riportare Alessandro Orale in Italia.",
+      "polarity": "neutral",
+      "claim_id": "24006e2e-94dd-4e90-ae3b-87549e4b2e61",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus sta considerando di riportare Alessandro Orale in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la tentazione da presentare al Newcastle di provare a capire come riportare Alessandro Orale in Italia.",
+          "start_sec": 88.84,
+          "end_sec": 116.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Newcastle",
+      "position": "Il Newcastle potrebbe essere coinvolto in trattative per Orale.",
+      "polarity": "neutral",
+      "claim_id": "85ad7c4b-6f06-464b-9a74-7001b9a76bb8",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s3",
+      "target_entity": "Newcastle",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Newcastle potrebbe essere coinvolto in trattative per Orale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tentazione da presentare al Newcastle di provare a capire come riportare Alessandro Orale in Italia.",
+          "start_sec": 88.84,
+          "end_sec": 116.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Nazionale Italiana",
+      "position": "La nazionale italiana ha vinto contro l'Irlanda del Nord.",
+      "polarity": "positive",
+      "claim_id": "f8aaab30-d279-4a5d-943b-fae8e0703b14",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s0",
+      "target_entity": "Nazionale Italiana",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana ha vinto contro l'Irlanda del Nord.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la nostra nazionale batte l'Irlanda del Nord",
+          "start_sec": 0.0,
+          "end_sec": 36.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Comollì",
+      "position": "La Juventus ha cercato soluzioni con Comollì.",
+      "polarity": "neutral",
+      "claim_id": "dcbe2708-9338-4d77-bf11-801d69393a35",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s3",
+      "target_entity": "Comollì",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha cercato soluzioni con Comollì.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'estate scorsa con Comollì, cercando soluzioni anche fantasiose.",
+          "start_sec": 88.84,
+          "end_sec": 116.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sandro Tonali",
+      "position": "Sandro Tonali è molto apprezzato internamente.",
+      "polarity": "positive",
+      "claim_id": "00168435-ddfd-4a9f-808c-2b4f731679a3",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s4",
+      "target_entity": "Sandro Tonali",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sandro Tonali è molto apprezzato internamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alessandro Tonali è un giocatore molto molto molto apprezzato internamente",
+          "start_sec": 113.799,
+          "end_sec": 141.11999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Nazionale Italiana",
+      "position": "La vittoria dà fiducia alla nazionale italiana.",
+      "polarity": "positive",
+      "claim_id": "83c0731c-27f5-4d89-95b5-0e7c9bf002b9",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s0",
+      "target_entity": "Nazionale Italiana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria dà fiducia alla nazionale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È un giorno di fiducia, di speranza",
+          "start_sec": 0.0,
+          "end_sec": 36.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tonali",
+      "position": "Tonali è un obiettivo per la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "d0b97157-048b-495e-ac6c-d0228561bb0e",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s3",
+      "target_entity": "Tonali",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tonali è un obiettivo per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nonostante per la Juventus Tonali sia un pallino.",
+          "start_sec": 88.84,
+          "end_sec": 116.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sandro Tonali",
+      "position": "Sandro Tonali sarà protagonista importante nel mercato estivo.",
+      "polarity": "positive",
+      "claim_id": "d4f02b4e-261d-4311-9b22-346bdfac19ed",
+      "video_id": "2UviKEVz8AQ",
+      "segment_id": "s2",
+      "target_entity": "Sandro Tonali",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sandro Tonali sarà protagonista importante nel mercato estivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sandro Tonali che sarà forse tra i giocatori in campo il più grande protagonista del mercato estivo a livello di trasferimento internazionale.",
+          "start_sec": 60.879,
+          "end_sec": 90.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

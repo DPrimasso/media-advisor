@@ -1,0 +1,208 @@
+{
+  "video_id": "BbLttsFmEyE",
+  "analyzed_at": "2026-02-25T17:07:35.340Z",
+  "metadata": {
+    "title": "#Lautaro out? Caro #Thuram cosa vogliamo fare?",
+    "author_name": "Neschio",
+    "published_at": "2026-02-20T12:00:00.000Z"
+  },
+  "summary": "#Lautaro out? Caro #Thuram cosa vogliamo fare? — 2026-02-20",
+  "topics": [
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "criticisms",
+      "relevance": "high"
+    },
+    {
+      "name": "player responsibility",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "82d8266e-f024-4f33-aead-7102e431da37",
+      "video_id": "BbLttsFmEyE",
+      "segment_id": "s0",
+      "target_entity": "capitano",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il capitano è infortunato nel momento più critico della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Perdere il capitano, il capocannoniere della Serie A nel momento più caldo della stagione.",
+          "start_sec": 0.599,
+          "end_sec": 37.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "capitano"
+      ],
+      "topic": "injury",
+      "subject": "capitano",
+      "position": "Il capitano è infortunato nel momento più critico della stagione.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "7fbe2ee2-b213-46f2-8b70-099315050e28",
+      "video_id": "BbLttsFmEyE",
+      "segment_id": "s1",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro Martinez è stato criticato duramente in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato criticato aspramente Lautaro Martinez anche durante questa stagione.",
+          "start_sec": 35.52,
+          "end_sec": 53,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "critiche",
+        "prestazione"
+      ],
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro Martinez è stato criticato duramente in questa stagione.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "5ed2bed7-b885-45b0-9e4a-e4959451a14c",
+      "video_id": "BbLttsFmEyE",
+      "segment_id": "s1",
+      "target_entity": "Marcus Turam",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È tempo di responsabilizzare Marcus Turam.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di certo possiamo iniziare a responsabilizzare Marcus Turam, sarebbe ora.",
+          "start_sec": 35.52,
+          "end_sec": 53,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "responsabilità",
+        "giocatori"
+      ],
+      "topic": "leadership",
+      "subject": "Marcus Turam",
+      "position": "È tempo di responsabilizzare Marcus Turam.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "916c5dae-14d1-44a7-8344-8a702b2013da",
+      "video_id": "BbLttsFmEyE",
+      "segment_id": "s0",
+      "target_entity": "Marcus Turam",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "POSSIBLE",
+      "claim_text": "Si potrebbe fare affidamento su Marcus Turam per affrontare gli infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È arrivato il momento di rivolgersi a Marcus Turam.",
+          "start_sec": 0.599,
+          "end_sec": 37.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Turam",
+        "tattiche"
+      ],
+      "topic": "tactics",
+      "subject": "Marcus Turam",
+      "position": "Si potrebbe fare affidamento su Marcus Turam per affrontare gli infortuni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7e452aac-c546-49e2-8ccb-e609b1b16f0c",
+      "video_id": "BbLttsFmEyE",
+      "segment_id": "s0",
+      "target_entity": "squadre",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La squadra sembra ciondolare in campo come spettatrice.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Continuiamo a ciondolare in campo, a essere spettatori.",
+          "start_sec": 0.599,
+          "end_sec": 37.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "spettatori"
+      ],
+      "topic": "performance",
+      "subject": "squadre",
+      "position": "La squadra sembra ciondolare in campo come spettatrice.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "cbde37a8-7c71-46c4-8ebe-03583047a5b4",
+      "video_id": "BbLttsFmEyE",
+      "segment_id": "s0",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Nessuna squadra è esente da infortuni nel calcio attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quale squadra ne esente? Nessuna.",
+          "start_sec": 0.599,
+          "end_sec": 37.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "infortuni"
+      ],
+      "topic": "injury",
+      "subject": "squadre",
+      "position": "Nessuna squadra è esente da infortuni nel calcio attuale.",
+      "polarity": "neutral"
+    }
+  ]
+}

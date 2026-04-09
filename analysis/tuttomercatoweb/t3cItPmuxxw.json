@@ -1,0 +1,358 @@
+{
+  "video_id": "t3cItPmuxxw",
+  "analyzed_at": "2026-04-07T15:52:43.369221+00:00",
+  "metadata": {
+    "title": "TMWRadio - A Gasperini serve il 4 posto. Il commento di Impallomeni, Braglia, De Paola e Orlando",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza la situazione della Roma e il ruolo di Gasperini nel raggiungimento del quarto posto in classifica. L'autore esprime preoccupazione per la mancanza di qualità nella rosa, evidenziando l'assenza di giocatori chiave come Dybala, che influisce negativamente sulle prestazioni della squadra. Si sottolinea che, se la Roma non dovesse centrare la Champions League, sarebbe considerato un fallimento, con responsabilità maggiori attribuite alla società per la gestione della rosa piuttosto che all'allenatore. In conclusione, si evidenzia la necessità di un miglioramento qualitativo per ",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "qualità",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "società",
+      "position": "La società ha molte responsabilità nella gestione della rosa",
+      "polarity": "negative",
+      "claim_id": "9ea14816-0fc9-473c-af0e-de18d1823ff9",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s3",
+      "target_entity": "società",
+      "entity_type": "club",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La società ha molte responsabilità nella gestione della rosa",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedo molte più responsabilità da parte della società",
+          "start_sec": 93.119,
+          "end_sec": 128.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Dybala",
+      "position": "Dybala manca alla Roma e incide sulla qualità della squadra.",
+      "polarity": "negative",
+      "claim_id": "aea4fca7-e54a-49bc-82c9-6dbdf4b38acf",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s2",
+      "target_entity": "Dybala",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dybala manca alla Roma e incide sulla qualità della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Manca Dybala e mancano giocatori che possono avere quel guizzo.",
+          "start_sec": 64.239,
+          "end_sec": 95.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cristante",
+      "position": "Cristante è un giocatore di quantità ma non fa la differenza.",
+      "polarity": "neutral",
+      "claim_id": "8a0537f3-6d8f-4e85-a5e0-1e0d274721c8",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s2",
+      "target_entity": "Cristante",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cristante è un giocatore di quantità ma non fa la differenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non fanno quella differenza che può fare un giocatore di tocco, un giocatore di qualità.",
+          "start_sec": 64.239,
+          "end_sec": 95.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gasperini",
+      "position": "Gasperini ha richiesto una rosa di maggiore qualità",
+      "polarity": "neutral",
+      "claim_id": "260d5344-a4e8-46a2-970c-0bdaa399f9a9",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s3",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Gasperini ha richiesto una rosa di maggiore qualità",
+      "evidence_quotes": [
+        {
+          "quote_text": "una rosa all'inizio della stagione che qualitativamente non era all'altezza",
+          "start_sec": 93.119,
+          "end_sec": 128.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Team",
+      "position": "La fase difensiva della squadra ha retto fino a tre quarti di campionato.",
+      "polarity": "neutral",
+      "claim_id": "17f89f98-ae5a-45ba-8139-5dbe506f3c85",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s4",
+      "target_entity": "Team",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La fase difensiva della squadra ha retto fino a tre quarti di campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "reggesse la la fase difensiva e fino a tre quarti di campionato.",
+          "start_sec": 125.079,
+          "end_sec": 178.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Gasperini",
+      "position": "Gasperini deve ottenere il quarto posto per evitare un fallimento.",
+      "polarity": "negative",
+      "claim_id": "c69755a7-2dff-491b-b4a3-c60685d42817",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s5",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini deve ottenere il quarto posto per evitare un fallimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se tu non c'entri la Champions League è un fallimento.",
+          "start_sec": 178.92,
+          "end_sec": 227.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La qualità della Roma è diminuita nelle ultime partite.",
+      "polarity": "negative",
+      "claim_id": "bbcd5427-d5bb-412a-ad90-2f5e2a78c87f",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La qualità della Roma è diminuita nelle ultime partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa qualità è venuta un po' meno nella Roma.",
+          "start_sec": 64.239,
+          "end_sec": 95.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Gasperini",
+      "position": "Gasperini potrebbe subire le conseguenze di un mancato quarto posto",
+      "polarity": "negative",
+      "claim_id": "ad2839dd-bd1d-4c89-8c68-b1dcb2ab8229",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s3",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini potrebbe subire le conseguenze di un mancato quarto posto",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarebbe un fallimento di Gasperini",
+          "start_sec": 93.119,
+          "end_sec": 128.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Roma",
+      "position": "La Roma ha aggiunto valore rispetto alle aspettative iniziali",
+      "polarity": "positive",
+      "claim_id": "c835b8a6-0fd0-4f26-aad7-2454259ab3d4",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha aggiunto valore rispetto alle aspettative iniziali",
+      "evidence_quotes": [
+        {
+          "quote_text": "un valore aggiunto, secondo me, alla Roma",
+          "start_sec": 93.119,
+          "end_sec": 128.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Simone",
+      "position": "Simone non è stato pregevole nella partita.",
+      "polarity": "neutral",
+      "claim_id": "59c17ae7-c3af-4348-bc0a-6b38ef1fc1a0",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s4",
+      "target_entity": "Simone",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Simone non è stato pregevole nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è che è stato pregevole ieri.",
+          "start_sec": 125.079,
+          "end_sec": 178.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Mancini",
+      "position": "Mancini è un giocatore importante per la Roma, ma manca di qualità.",
+      "polarity": "neutral",
+      "claim_id": "763719b0-406e-4791-ad5d-23ed0ef43f33",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s2",
+      "target_entity": "Mancini",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mancini è un giocatore importante per la Roma, ma manca di qualità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sono giocatori che sicuramente sono di quantità, sono importanti per la Roma, però non fanno quella differenza.",
+          "start_sec": 64.239,
+          "end_sec": 95.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massimo",
+      "position": "L'allenatore Massimo ha un ruolo importante nell'equilibrio della squadra.",
+      "polarity": "neutral",
+      "claim_id": "03085bb1-3ba4-4241-b857-acd2dbd1b4a7",
+      "video_id": "t3cItPmuxxw",
+      "segment_id": "s4",
+      "target_entity": "Massimo",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore Massimo ha un ruolo importante nell'equilibrio della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'allenatore, come l'abbiamo tutti, però eh il direttore ha detto una cosa perfetta",
+          "start_sec": 125.079,
+          "end_sec": 178.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

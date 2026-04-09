@@ -1,0 +1,104 @@
+{
+  "video_id": "53lE9BeQ5ww",
+  "analyzed_at": "2026-02-25T16:55:40.177Z",
+  "metadata": {
+    "title": "Ancora devo capire cosa ha fatto… #InterBodo",
+    "author_name": "Neschio",
+    "published_at": "2026-02-25T12:00:00.000Z"
+  },
+  "summary": "Ancora devo capire cosa ha fatto… #InterBodo — 2026-02-25",
+  "topics": [
+    {
+      "name": "error",
+      "relevance": "high"
+    },
+    {
+      "name": "goal opportunity",
+      "relevance": "high"
+    },
+    {
+      "name": "fan reaction",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "78180f18-f83d-4b64-b54f-322401e1e4b7",
+      "video_id": "53lE9BeQ5ww",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha subito un grave errore di inserimento in attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma che cavolo hai fatto? Cent ancora Per che si inserisce.",
+          "start_sec": 5.319,
+          "end_sec": 42.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha subito un grave errore di inserimento in attacco.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "53c190ea-c23c-4822-83ca-b96ba9144450",
+      "video_id": "53lE9BeQ5ww",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha mancato un'importante occasione da gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "passaggio in porta gol e noi",
+          "start_sec": 5.319,
+          "end_sec": 42.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha mancato un'importante occasione da gol.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "80bb6885-c439-4b36-acc2-87e965324de9",
+      "video_id": "53lE9BeQ5ww",
+      "segment_id": "s0",
+      "target_entity": "sconosciuto",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista sembra incredulo per l'errore visto in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mamma Mamma mia! Mamma mia!",
+          "start_sec": 5.319,
+          "end_sec": 42.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "fan_behavior",
+      "subject": "sconosciuto",
+      "position": "L'opinionista sembra incredulo per l'errore visto in campo.",
+      "polarity": "neutral"
+    }
+  ]
+}

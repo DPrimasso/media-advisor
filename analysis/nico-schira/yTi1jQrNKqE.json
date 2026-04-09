@@ -1,0 +1,366 @@
+{
+  "video_id": "yTi1jQrNKqE",
+  "analyzed_at": "2026-04-08T13:45:20.513057+00:00",
+  "metadata": {
+    "title": "PIOVONO CONFERME SULLA PRIMA SCELTA DEL MILAN PER L’ATTACCO. INTER, IL NUOVO PIO. JUVENTUS E NAPOLI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sul calciomercato, analizzando le recenti prestazioni delle squadre italiane e le strategie di acquisto. L'autore evidenzia come la Fiorentina, dopo una vittoria in Conference League, abbia buone possibilità di avanzare, mentre il Bologna ha mostrato un gioco promettente, con Bernardeschi in grande forma. Schira sottolinea anche le necessità di mercato del Napoli, che cerca un terzino per sostituire Lorenzo, e menziona l'interesse per il giovane croato Valincic, suggerendo che il club potrebbe fare un investimento strategico per il futuro.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "crescita",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "europeo",
+      "relevance": "low"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Roma",
+      "position": "Le probabilità di qualificazione della Roma sono 60-40.",
+      "polarity": "neutral",
+      "claim_id": "dd0636f0-c16b-4cee-8bdd-d384835fefc5",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Le probabilità di qualificazione della Roma sono 60-40.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Diciamo che siamo 60-40 in percentuale per la Roma vista la gara d'andata",
+          "start_sec": 57.64,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha vinto 2-1 a Rakov in Conference League.",
+      "polarity": "positive",
+      "claim_id": "800d8e9f-6ddc-45df-a49a-7c7c097eaaab",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha vinto 2-1 a Rakov in Conference League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Fiorentina che soffre ma batte 2-1 a Rakov",
+          "start_sec": 1.28,
+          "end_sec": 31.560000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha legittime speranze di arrivare ai quarti di finale.",
+      "polarity": "positive",
+      "claim_id": "697b2967-048e-41f0-9389-e96d9ba0d37b",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La Fiorentina ha legittime speranze di arrivare ai quarti di finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "può avere legittime speranze di arrivare ai quarti di finale di Conference League",
+          "start_sec": 1.28,
+          "end_sec": 31.560000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "Il risultato non è affatto scontato per la Fiorentina.",
+      "polarity": "negative",
+      "claim_id": "10a57661-bb6f-4e19-a4bb-16e7dd65853a",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il risultato non è affatto scontato per la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma visto come sta andando la stagione della Viola non scontato",
+          "start_sec": 1.28,
+          "end_sec": 31.560000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Roma",
+      "position": "La Roma ha il vantaggio del ritorno in casa per la qualificazione.",
+      "polarity": "neutral",
+      "claim_id": "f9781d5e-431e-43a9-b581-0cdc5df422d3",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Roma ha il vantaggio del ritorno in casa per la qualificazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "intanto però la Roma con questo pareggio avrà il vantaggio del ritorno in casa",
+          "start_sec": 57.64,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Bologna",
+      "position": "Il Bologna è vivo e può dire la sua in Europa.",
+      "polarity": "neutral",
+      "claim_id": "a0769c7d-a377-4199-8839-61eede941bf9",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna è vivo e può dire la sua in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Bologna è vivo più che mai e quindi non essendoci più il gol in trasferta come qualche anno fa, resta comunque molto aperta la qualificazione",
+          "start_sec": 57.64,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Bologna",
+      "position": "Il Bologna può qualificarsi grazie alle sue recenti prestazioni.",
+      "polarity": "neutral",
+      "claim_id": "895f5001-7c05-4b63-b900-19de7b4f0896",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Bologna può qualificarsi grazie alle sue recenti prestazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me, in Europa può dire la sua e l'ha dimostrato ieri.",
+          "start_sec": 57.64,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha giocato meglio nella partita contro la Fiorentina.",
+      "polarity": "neutral",
+      "claim_id": "4d093fb0-3b1c-484d-964f-e434a8f5e2e8",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Bologna ha giocato meglio nella partita contro la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giocato un po' meglio dal Bologna tra Bologna e",
+          "start_sec": 1.28,
+          "end_sec": 31.560000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bernardeschi",
+      "position": "Bernardeschi è stato rigenerato dal suo allenatore.",
+      "polarity": "positive",
+      "claim_id": "b94d227a-f4d9-421f-b821-3006b9d7b7ae",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s1",
+      "target_entity": "Bernardeschi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardeschi è stato rigenerato dal suo allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bernardeschi che si è barinato, rigenerato dal cura Vincenzo Italiano.",
+          "start_sec": 29.24,
+          "end_sec": 59.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bernardeschi",
+      "position": "Bernardeschi ha realizzato un gol.",
+      "polarity": "positive",
+      "claim_id": "a8b7c8c9-43f8-4250-a270-d97da045c50f",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s1",
+      "target_entity": "Bernardeschi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardeschi ha realizzato un gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una grande azione propizia il gol di Bernardeschi.",
+          "start_sec": 29.24,
+          "end_sec": 59.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Malen",
+      "position": "Malen ha pareggiato per la Roma.",
+      "polarity": "positive",
+      "claim_id": "c068db3d-defb-4398-881a-451151b5bdf8",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s1",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malen ha pareggiato per la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi pareggia su una grande azione di Malen.",
+          "start_sec": 29.24,
+          "end_sec": 59.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna ha fatto una bella partita.",
+      "polarity": "positive",
+      "claim_id": "74a9bd60-b653-4249-a011-9dcebaee8b6a",
+      "video_id": "yTi1jQrNKqE",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna ha fatto una bella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bologna che fa una bella partita.",
+          "start_sec": 29.24,
+          "end_sec": 59.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

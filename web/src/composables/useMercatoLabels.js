@@ -3,6 +3,7 @@ export const OUTCOME_LABELS = {
   confermata: 'Confermata',
   parziale: 'Parziale',
   smentita: 'Smentita',
+  non_conclusa: 'Non conclusa',
 }
 
 export const OUTCOME_SOURCE_LABELS = {
@@ -23,6 +24,7 @@ export const OUTCOME_CLASSES = {
   confermata: 'outcome-true',
   parziale: 'outcome-partial',
   smentita: 'outcome-false',
+  non_conclusa: 'outcome-stalled',
 }
 
 export const CONFIDENCE_CLASSES = {

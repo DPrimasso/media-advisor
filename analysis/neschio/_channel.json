@@ -1,0 +1,168 @@
+{
+  "channel_id": "neschio",
+  "generated_at": "2026-02-25T17:16:41.144Z",
+  "input_hash": "3819d904765906150fbbeb0b2038d723bf01b78287872eabca1b2b3e7db46fa8",
+  "themes": {
+    "summary": "Il canale si concentra sull'analisi delle performance delle squadre di calcio italiane, esplorando fattori come le tattiche di gioco, le prestazioni individuali, le controversie arbitrali, e l'emozione dei tifosi. Vengono approfondite anche le rivalità tra squadre e le sfide nelle competizioni europee, evidenziando l'influenza di infortuni e imprevisti sui risultati e le aspettative dei tifosi.",
+    "main_topics": [
+      "performance delle squadre",
+      "tattiche di allenamento",
+      "controversie arbitrali",
+      "rivalità tra le squadre",
+      "prestazioni individuali dei giocatori",
+      "reazioni ed emozioni dei tifosi",
+      "competizioni europee",
+      "strategia di coaching",
+      "importanza del VAR nelle decisioni arbitrali",
+      "situazione in classifica e sviluppi stagionali"
+    ]
+  },
+  "inconsistencies": [
+    {
+      "topic": "standings",
+      "subject": "juventus",
+      "description": "La Juventus è dichiarata avere gli stessi punti della Roma in un video, mentre in un altro video si afferma che Roma distanzia la Juventus di quattro punti, il che è incompatibile.",
+      "videos": [
+        "_pDNOTKFNSM",
+        "HdTMNKATo1s",
+        "X2yp6lZVC4E"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "inter",
+      "description": "The claim that 'Inter claims an important victory against Juventus' contradicts the claim that 'The victory over Juventus may not be a definitive turning point for Inter.' These imply different outcomes regarding the significance of the victory.",
+      "videos": [
+        "_s3G8KTkwS8",
+        "53lE9BeQ5ww",
+        "ci2CnxP5cVM",
+        "cRXPjSe7hq4",
+        "HdTMNKATo1s",
+        "nFTl80fz4tg",
+        "nL3t8Po20rY",
+        "Sz76AWVOwpQ",
+        "tqi8CAsskac"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "lautaro martinez",
+      "description": "\"Lautaro ha calciato in maniera decisiva\" implica una prestazione positiva, mentre \"Lautaro Martinez è stato criticato duramente in questa stagione\" implica una valutazione negativa delle sue prestazioni generali.",
+      "videos": [
+        "BbLttsFmEyE",
+        "EVengDfonyI"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "milan",
+      "description": "\"Milan's performance was not brilliant in the match\" contraddice implicitamente \"Milan's victory is attributed to their strong play by champions\" e \"Milan wins the match against Pisa, strengthening its position.\"",
+      "videos": [
+        "bgpC1vjVPXk",
+        "cRXPjSe7hq4",
+        "HdTMNKATo1s"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "bastoni",
+      "description": "\"Bastoni simulated injury during the match.\" (simulazione) contraddice \"Bastoni non ha ricevuto un fischio giusto e sembra non aver compreso la situazione.\" (nessuna simulazione, errore arbitrale).",
+      "videos": [
+        "ci2CnxP5cVM",
+        "nL3t8Po20rY",
+        "XdT-AXaKRms"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "atalanta",
+      "description": "Atalanta is described as dominant in one instance but also as struggling and having a poor performance in another.",
+      "videos": [
+        "cRXPjSe7hq4",
+        "HPnAUtHJKEs",
+        "R9WGPBUPyjM",
+        "WheSjvFYNvo",
+        "yVhnKmBHaUo"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "atalanta",
+      "description": "Atalanta is said to be competing for a top four finish but is also indicated to be currently in 6th place in the league, which suggests they are not in a top-four position.",
+      "videos": [
+        "cRXPjSe7hq4",
+        "R9WGPBUPyjM",
+        "WheSjvFYNvo"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "atalanta",
+      "description": "L'affermazione che 'Atalanta may not secure a European spot without a top league finish' è in contraddizione con 'Atalanta is competing for the Champions League', poiché se sta competendo per la Champions League, implica che sta tentando di qualificarsi per un posto europeo.",
+      "videos": [
+        "RlnhwTbwkmE",
+        "WheSjvFYNvo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "napoli",
+      "description": "\"Napoli has been underperforming recently.\" vs \"Napoli performed well in the match against Atalanta.\"",
+      "videos": [
+        "WheSjvFYNvo",
+        "X2yp6lZVC4E",
+        "yVhnKmBHaUo"
+      ]
+    }
+  ],
+  "bias": {
+    "summary": "L'analisi rivela diversi pattern ricorrenti nelle posizioni espresse dall'autore, evidenziando una netta divergenza di sentimenti tra le varie squadre e temi. Tra le formazioni, Inter e Napoli emergono con una predominanza di posizioni negative, mentre squadra come Atalanta e Milan mostrano sia sostenitori che critici. Inoltre, ci sono delle attenzioni significative verso il VAR e l'arbitraggio, con numerose critiche evidenti.",
+    "patterns": [
+      {
+        "subject": "inter",
+        "description": "critica costante",
+        "supporting_claims": [
+          "Inter performed poorly in the second half of the match.",
+          "L'Inter ha subito un grave errore di inserimento in attacco.",
+          "Neschio believes the current Inter coach has conformed to expectations too quickly."
+        ]
+      },
+      {
+        "subject": "napoli",
+        "description": "critica costante",
+        "supporting_claims": [
+          "Napoli has been underperforming recently.",
+          "A defeat could seriously risk Napoli's Champions League hopes.",
+          "There is a sense of dissatisfaction with Napoli's inability to secure a win after leading."
+        ]
+      },
+      {
+        "subject": "juventus",
+        "description": "critica costante",
+        "supporting_claims": [
+          "Juventus experienced a situation that affected their performance.",
+          "Juventus shows a lack of direction in their project.",
+          "Juventus faced a significant defeat against Inter."
+        ]
+      },
+      {
+        "subject": "atalanta",
+        "description": "bilanciato",
+        "supporting_claims": [
+          "Atalanta was dominant in the first half against their opponent.",
+          "Atalanta's current performance is drawing skepticism compared to Gasperini's.",
+          "Atalanta is competing for a top four finish in the league."
+        ]
+      },
+      {
+        "subject": "var",
+        "description": "critica costante",
+        "supporting_claims": [
+          "Il VAR deve intervenire con una logica più chiara e coerente.",
+          "Il VAR non dovrebbe ignorare episodi cruciali.",
+          "Il VAR non può intervenire in certi episodi."
+        ]
+      }
+    ]
+  }
+}

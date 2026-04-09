@@ -1,0 +1,350 @@
+{
+  "video_id": "sOc0A5qjrLU",
+  "analyzed_at": "2026-04-07T15:31:20.431314+00:00",
+  "metadata": {
+    "title": "TMW News: Buona la prima per la Nazionale. L'addio a Beppe Savoldi",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TuttoMercatoWeb analizza la recente vittoria della Nazionale italiana contro l'Irlanda del Nord, evidenziando un primo tempo deludente e una ripresa migliorata grazie all'apporto di Politano. L'autore sottolinea che la squadra ha mostrato una certa piattezza offensiva, con Reteghi che ha faticato a trovare spazi nel sistema di gioco adottato. Inoltre, si discute della prossima ripresa del campionato, con partite significative come Inter-Roma e Milan-Napoli, che potrebbero chiarire la lotta per lo scudetto. In conclusione, il video invita a riflettere sulle prestazioni della Naziona",
+  "topics": [
+    {
+      "name": "prestazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "competizione",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan affronterà il Napoli nella prossima settimana.",
+      "polarity": "positive",
+      "claim_id": "f2a2f0a2-677c-4f59-a492-e418076f036e",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan affronterà il Napoli nella prossima settimana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan e Napoli. Dunque certamente si potrà avere un quadro ancora più chiaro per la lotta al titolo",
+          "start_sec": 12.759,
+          "end_sec": 75.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "campionato",
+      "position": "La sosta offre l'opportunità di riflessioni sulla lotta scudetto.",
+      "polarity": "positive",
+      "claim_id": "71bb38c4-dfc0-4549-bb46-8899bbef7165",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s0",
+      "target_entity": "campionato",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La sosta offre l'opportunità di riflessioni sulla lotta scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è il momento della sosta, ma è anche l'opportunità per fare una serie di riflessioni su come sono andate le cose fino a questo momento",
+          "start_sec": 12.759,
+          "end_sec": 75.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Nazionale",
+      "position": "La nazionale ha avuto un primo tempo opaco e poco offensivo.",
+      "polarity": "negative",
+      "claim_id": "ce9465d9-fe7a-462d-8e8c-e50c9848832f",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s1",
+      "target_entity": "Nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale ha avuto un primo tempo opaco e poco offensivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo un primo tempo opaco emersa la superiorità della nostra nazionale.",
+          "start_sec": 71.52,
+          "end_sec": 153.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano ha migliorato il gioco della squadra nel secondo tempo.",
+      "polarity": "positive",
+      "claim_id": "a7001fb0-d8a7-4714-a4ec-53e07309090d",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s1",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Politano ha migliorato il gioco della squadra nel secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano ha deciso di puntare e di andare sul fondo.",
+          "start_sec": 71.52,
+          "end_sec": 153.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Reteghi",
+      "position": "Reteghi ha deluso nel gioco con il sistema adottato.",
+      "polarity": "negative",
+      "claim_id": "426b15ca-1609-4164-a75f-f71cd0d9f427",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s1",
+      "target_entity": "Reteghi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Reteghi ha deluso nel gioco con il sistema adottato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha deluso? No, Reteghi, giocare giocare così con questo sistema e non ha gli esterni.",
+          "start_sec": 71.52,
+          "end_sec": 153.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Nazionale",
+      "position": "La squadra è risultata piatta senza un gioco offensivo.",
+      "polarity": "negative",
+      "claim_id": "df33452a-b41c-46b5-842f-10058628362c",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s1",
+      "target_entity": "Nazionale",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra è risultata piatta senza un gioco offensivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la squadra è praticamente piatta, cioè non non c'è non c'è nessuna azione offensiva.",
+          "start_sec": 71.52,
+          "end_sec": 153.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kin",
+      "position": "Kin è un grande attaccante che dà profondità alla squadra.",
+      "polarity": "positive",
+      "claim_id": "2cc73b38-c22b-4de3-9263-55fa1f262e61",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s2",
+      "target_entity": "Kin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kin è un grande attaccante che dà profondità alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la garanzia è Kin, non c'è niente da fare. Kin è la garanzia che è veramente un un grande un grande attaccante",
+          "start_sec": 150.64,
+          "end_sec": 213.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kin",
+      "position": "Kin è abile nel dribbling e nel tiro.",
+      "polarity": "positive",
+      "claim_id": "c8b585a8-cfd1-497f-9dbf-d6de72788505",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s2",
+      "target_entity": "Kin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kin è abile nel dribbling e nel tiro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è bravo nel dribbing, calcia e questo è veramente un grande attaccante.",
+          "start_sec": 150.64,
+          "end_sec": 213.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kin",
+      "position": "Kin ha segnato un gol di fattura pregevole.",
+      "polarity": "positive",
+      "claim_id": "aaabdb27-8461-424d-a311-7a35f9f53d7d",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s2",
+      "target_entity": "Kin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kin ha segnato un gol di fattura pregevole.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tra l'altro ha fatto un gol anche di fattura pregevole perché da un punto di vista tecnico",
+          "start_sec": 150.64,
+          "end_sec": 213.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kin",
+      "position": "Kin ha dimostrato di essere un giocatore forte per la tripletta contro la Germania.",
+      "polarity": "neutral",
+      "claim_id": "6ad19b8c-c323-4279-880d-4e00e0b34a66",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s3",
+      "target_entity": "Kin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kin ha dimostrato di essere un giocatore forte per la tripletta contro la Germania.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando tu fai una tripletta contro la Germania sicuramente sei un giocatore forte",
+          "start_sec": 212.4,
+          "end_sec": 284.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Nazionale",
+      "position": "La Nazionale ha battuto l'Irlanda del Nord.",
+      "polarity": "positive",
+      "claim_id": "5a51681e-ca1b-42c2-aaea-588e20371aab",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s0",
+      "target_entity": "Nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Nazionale ha battuto l'Irlanda del Nord.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Nazionale che ha battuto ieri sera l'Irlanda del Nord",
+          "start_sec": 12.759,
+          "end_sec": 75.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "L'Inter si prepara ad affrontare la Roma.",
+      "polarity": "positive",
+      "claim_id": "11571b84-1e31-4892-8046-d8e7eed68980",
+      "video_id": "sOc0A5qjrLU",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter si prepara ad affrontare la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter che dovrà vedersela con la Roma",
+          "start_sec": 12.759,
+          "end_sec": 75.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

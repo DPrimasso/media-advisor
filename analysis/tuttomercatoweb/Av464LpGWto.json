@@ -1,0 +1,346 @@
+{
+  "video_id": "Av464LpGWto",
+  "analyzed_at": "2026-04-07T15:41:42.848603+00:00",
+  "metadata": {
+    "title": "TMWRadio - La metamorfosi di Sarri. Analisi di De Canio e Orlando",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza la recente metamorfosi di Maurizio Sarri, evidenziando come l'allenatore della Lazio si sia adattato alle caratteristiche dei suoi calciatori per ottenere risultati positivi. L'autore sottolinea che, nonostante le difficoltà e le emergenze affrontate durante la stagione, Sarri ha ottenuto tre vittorie consecutive, tra cui quella contro il Milan, dimostrando una maggiore prudenza e compattezza nella sua squadra. La conclusione principale è che il lavoro di Sarri merita riconoscimento, poiché la sua capacità di adattarsi ha portato a un miglioramento delle prestazioni della squ",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "supporto",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Sarri",
+      "position": "Sarri si è adeguato ai calciatori per migliorare il gioco.",
+      "polarity": "positive",
+      "claim_id": "2f3092f6-9b9a-4ff2-beb8-5dee4d8b6c92",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s1",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri si è adeguato ai calciatori per migliorare il gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un allenatore quando non riesce a fare fino in fondo il suo gioco deve un po' adeguarsi a quelli che sono i calciatori",
+          "start_sec": 1.719,
+          "end_sec": 30.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Sarri",
+      "position": "Sarri ha lavorato in emergenza durante la stagione.",
+      "polarity": "neutral",
+      "claim_id": "1208a52b-5d28-4495-8414-c1c3acba4e2d",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s2",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha lavorato in emergenza durante la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra e pure Sari in emergenza c'è stato continuamente quest'anno",
+          "start_sec": 31.88,
+          "end_sec": 66.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Lazio",
+      "position": "La Lazio si esprime meglio quando cambia approccio tattico.",
+      "polarity": "neutral",
+      "claim_id": "536b4229-7a61-4a9e-bb0d-beaf4c3a5930",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s5",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio si esprime meglio quando cambia approccio tattico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra che questa sia una squadra che in questo modo si esprime meglio",
+          "start_sec": 134.599,
+          "end_sec": 179.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Sarri",
+      "position": "La metamorfosi di Sarri è interpretata come positiva.",
+      "polarity": "positive",
+      "claim_id": "07f3803c-ac1f-4282-bb9f-12e98032376f",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s1",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La metamorfosi di Sarri è interpretata come positiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una metamorfosi di Sarri positiva",
+          "start_sec": 1.719,
+          "end_sec": 30.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Basic",
+      "position": "Basic è stato convincente sul piano delle vittorie.",
+      "polarity": "positive",
+      "claim_id": "f7296097-6fa9-436b-819b-574a6da17045",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s2",
+      "target_entity": "Basic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Basic è stato convincente sul piano delle vittorie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "convincente sul piano delle vittorie",
+          "start_sec": 31.88,
+          "end_sec": 66.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Sarri",
+      "position": "Sarri adegua la sua strategia alle caratteristiche della squadra.",
+      "polarity": "neutral",
+      "claim_id": "cacd1ac1-ebd0-4118-9ebb-bed50c1fe5f5",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s2",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Sarri adegua la sua strategia alle caratteristiche della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devi adeguarti alle caratteristiche dei",
+          "start_sec": 31.88,
+          "end_sec": 66.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarri",
+      "position": "Sarri è citato come un allenatore che non è puntuale.",
+      "polarity": "neutral",
+      "claim_id": "89281dca-2803-454f-b783-537d4abab1f8",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s3",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri è citato come un allenatore che non è puntuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da allenatore la puntualità è tutto",
+          "start_sec": 65.439,
+          "end_sec": 108.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Cagno",
+      "position": "Il relatore mostra un tono scherzoso verso il ritardo.",
+      "polarity": "neutral",
+      "claim_id": "e69d444f-95af-46e7-95a8-015412ed8ef5",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s3",
+      "target_entity": "Cagno",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il relatore mostra un tono scherzoso verso il ritardo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi siamo dei ritardatari cronici, quindi nostra",
+          "start_sec": 65.439,
+          "end_sec": 108.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarri",
+      "position": "Lavoro di Sarri va riconosciuto e gratificato.",
+      "polarity": "neutral",
+      "claim_id": "f13b219c-4490-4c86-acbc-2b8f33ebf5a7",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s2",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lavoro di Sarri va riconosciuto e gratificato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo riconoscere il lavoro e quindi anche gratificare l'allenatore",
+          "start_sec": 31.88,
+          "end_sec": 66.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sarri",
+      "position": "Sarri ha vinto le ultime tre partite.",
+      "polarity": "positive",
+      "claim_id": "d24990a3-0203-4d93-87da-4b854f5421e8",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s1",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha vinto le ultime tre partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nelle ultime tre partite le ha vinte",
+          "start_sec": 1.719,
+          "end_sec": 30.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Sarri",
+      "position": "C'è un ritardo nella comunicazione riguardo Sarri.",
+      "polarity": "neutral",
+      "claim_id": "ab504e14-f811-4f88-a624-eb8c2daa7881",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s3",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un ritardo nella comunicazione riguardo Sarri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma siamo arrivati un po' di ritardo",
+          "start_sec": 65.439,
+          "end_sec": 108.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Cagno",
+      "position": "È sottolineato che l'allenatore è un 'signore'.",
+      "polarity": "neutral",
+      "claim_id": "c4f5984c-4d3d-4ec5-8f10-4d0fdbd8c272",
+      "video_id": "Av464LpGWto",
+      "segment_id": "s3",
+      "target_entity": "Cagno",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È sottolineato che l'allenatore è un 'signore'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cig è un signore, un gentico io a collegarmi",
+          "start_sec": 65.439,
+          "end_sec": 108.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

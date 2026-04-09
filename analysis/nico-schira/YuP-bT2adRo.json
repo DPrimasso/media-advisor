@@ -1,0 +1,354 @@
+{
+  "video_id": "YuP-bT2adRo",
+  "analyzed_at": "2026-04-08T13:00:46.143675+00:00",
+  "metadata": {
+    "title": "PIOVONO CONFERME SU THURAM! TUTTI PAZZI PER UN PARAMETRO ZERO. INTER, PORTE GIREVOLI. E MCTOMINAY…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sulle dinamiche del calciomercato, con particolare attenzione alle strategie del Napoli e al futuro di Scott McTominay. L'autore sostiene che il centrocampista scozzese è considerato intoccabile dal club partenopeo, nonostante le voci di interesse da parte di squadre inglesi, e che si sta lavorando per un rinnovo contrattuale fino al 2031. Inoltre, si evidenziano le difficoltà nei rinnovi di altri giocatori come Spinazzola, il cui contratto biennale richiesto è in contrasto con l'offerta di un solo anno del Napoli. Schira conclude che McTominay rappresenta ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay ha fatto più di 20 gol in 2 anni.",
+      "polarity": "positive",
+      "claim_id": "de4d9c49-d8f8-4a2b-b1c8-003654a78168",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay ha fatto più di 20 gol in 2 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto più di 20 gol in 2 anni",
+          "start_sec": 50.8,
+          "end_sec": 76.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Giovanni Manna",
+      "position": "Giovanni Manna ha messo in standby le questioni relative ai rinnovi.",
+      "polarity": "neutral",
+      "claim_id": "655cf439-9993-4efa-8728-405369b7f02a",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s0",
+      "target_entity": "Giovanni Manna",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanni Manna ha messo in standby le questioni relative ai rinnovi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il direttore sportivo Giovanni Manna, come vi ho raccontato settimana scorsa, ha messo un po' in standby le questioni.",
+          "start_sec": 1.12,
+          "end_sec": 26.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Wies",
+      "position": "Wies gioca spesso con Conte, ma la sua età è un fattore.",
+      "polarity": "neutral",
+      "claim_id": "c1d294fc-5a82-415a-8135-fff71d269bdd",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s1",
+      "target_entity": "Wies",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Wies gioca spesso con Conte, ma la sua età è un fattore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gioca spesso e volentieri, ma che è un classe 91, viaggia ormai per i 35 anni suonati",
+          "start_sec": 24.84,
+          "end_sec": 52.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "McTominay",
+      "position": "Il rendimento di McTominay è valorizzato dai dettami tattici di Antonio Conte.",
+      "polarity": "positive",
+      "claim_id": "3df9fafc-c8a9-45c7-bd21-e2be691dcc4a",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rendimento di McTominay è valorizzato dai dettami tattici di Antonio Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "valorizzato anche dai dettami tattici di Antonio Conte",
+          "start_sec": 50.8,
+          "end_sec": 76.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "McTominay è considerato la pietra angolare del Napoli.",
+      "polarity": "positive",
+      "claim_id": "b11ebb5d-4f0f-48ba-88c0-bdeafb9a7e93",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay è considerato la pietra angolare del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è la pietra angolare sulla quale il Napoli vuole costruire la squadra del futuro",
+          "start_sec": 50.8,
+          "end_sec": 76.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "McDomini",
+      "position": "Il Napoli vuole rinnovare il contratto di McDomini.",
+      "polarity": "positive",
+      "claim_id": "52c55bbb-f277-4a02-af66-af1b0722e173",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s3",
+      "target_entity": "McDomini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli vuole rinnovare il contratto di McDomini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli, per quello che sta rappresentando è destinato a diventare un'icona e per questo il Napoli solo vuol tenere stretto oltre al fatto che il rendimento di McDomini comunque resta strepitoso e quindi parti al lavoro per il rinnovo.",
+          "start_sec": 75.479,
+          "end_sec": 108.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli offre solo un contratto di un anno a Spinazzola.",
+      "polarity": "neutral",
+      "claim_id": "cbb6c50d-39bf-426c-b39d-d371159a88ff",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli offre solo un contratto di un anno a Spinazzola.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli offre solo un anno",
+          "start_sec": 24.84,
+          "end_sec": 52.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "McTominay è un giocatore perfetto per il Napoli.",
+      "polarity": "positive",
+      "claim_id": "c20d3146-5265-424c-b327-0fe2647f66f6",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "McTominay è un giocatore perfetto per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ed è giocatore perfetto per il Napoli",
+          "start_sec": 50.8,
+          "end_sec": 76.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli sta lavorando ai rinnovi importanti.",
+      "polarity": "neutral",
+      "claim_id": "91f65d97-bb3a-4faa-b8af-ae13ff33758b",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta lavorando ai rinnovi importanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli perché sta lavorando dei rinnovi importanti.",
+          "start_sec": 1.12,
+          "end_sec": 26.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "McTominay",
+      "position": "Il futuro di Scott McTominay è sicuro.",
+      "polarity": "neutral",
+      "claim_id": "7158ef93-52e8-459b-b6d7-067178ee45f6",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Scott McTominay è sicuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non è assolutamente invece in dubbio il futuro di Scott McDomini",
+          "start_sec": 24.84,
+          "end_sec": 52.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "McDomini",
+      "position": "Il rendimento di McDomini è strepitoso.",
+      "polarity": "positive",
+      "claim_id": "0f7890cb-9e91-45a9-b7d8-bf67e0dba7a1",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s3",
+      "target_entity": "McDomini",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il rendimento di McDomini è strepitoso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il rendimento di McDomini comunque resta strepitoso.",
+          "start_sec": 75.479,
+          "end_sec": 108.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Spinazzola",
+      "position": "Spinazzola cerca un contratto biennale.",
+      "polarity": "neutral",
+      "claim_id": "8cc41f07-121d-489a-82d9-7e435f4a028b",
+      "video_id": "YuP-bT2adRo",
+      "segment_id": "s1",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spinazzola cerca un contratto biennale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vuole un Biennale",
+          "start_sec": 24.84,
+          "end_sec": 52.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

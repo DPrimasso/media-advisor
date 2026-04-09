@@ -1,0 +1,370 @@
+{
+  "video_id": "dzaHZKDwXys",
+  "analyzed_at": "2026-04-08T10:23:58.377055+00:00",
+  "metadata": {
+    "title": "🚨 KESSIÉ HA DECISO: ITALIA SI! MILAN, COLPO PIÙ LONTANO. FERGUSON AI SALUTI, GERARD MARTIN, HONEST…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-03-22T13:27:34+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sul futuro di Frank Kessì, ex centrocampista del Milan, attualmente in Arabia Saudita, e sulle sue possibili destinazioni in vista della scadenza del contratto a giugno. L'autore sottolinea che Kessì desidera tornare in Europa, con l'Italia come opzione privilegiata, grazie ai legami e ai ricordi positivi che ha nel paese. Si evidenzia che il calciatore sta ricevendo offerte da diverse squadre italiane, tra cui la Juventus, e che le sue richieste economiche sono elevate, non volendo scendere sotto i 5 milioni di euro netti a stagione.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "serie a",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan è coinvolto nelle trattative di mercato.",
+      "polarity": "neutral",
+      "claim_id": "c2f2ce2a-5c3d-43b5-8b2b-748a96b0779a",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è coinvolto nelle trattative di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questo weekend di calcio giocato in cui sicuramente la Serie A ne è protagonista",
+          "start_sec": 0.08,
+          "end_sec": 35.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Serie A",
+      "position": "La Serie A è protagonista in questo weekend.",
+      "polarity": "neutral",
+      "claim_id": "d87b7ef8-59c8-4613-adc5-24fe95fe3736",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s0",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Serie A è protagonista in questo weekend.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questo weekend di calcio giocato in cui sicuramente la Serie A ne è protagonista",
+          "start_sec": 0.08,
+          "end_sec": 35.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kessié",
+      "position": "Kessié sta ricevendo aggiornamenti importanti sul suo futuro.",
+      "polarity": "neutral",
+      "claim_id": "67fb16cc-6530-44a2-ac9b-bd05fe00777a",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s1",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kessié sta ricevendo aggiornamenti importanti sul suo futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aggiornamenti su che sì, aggiornamenti importanti anche per quanto riguarda Gerard Martin.",
+          "start_sec": 32.52,
+          "end_sec": 77.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kessié",
+      "position": "È incerta la squadra che offrirà un ingaggio a Kessié.",
+      "polarity": "neutral",
+      "claim_id": "4ce7ad0e-532c-4d13-a1d2-b73ce89c8f82",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s4",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "È incerta la squadra che offrirà un ingaggio a Kessié.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna capire che tipo di squadra è disposta a spingersi ad offrire un determinato ingaggio.",
+          "start_sec": 153.12,
+          "end_sec": 192.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Frank Kessì",
+      "position": "Il futuro di Frank Kessì è un argomento principale per il mercato.",
+      "polarity": "neutral",
+      "claim_id": "99010d04-89c3-4f47-8806-78f0681dfd7f",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s0",
+      "target_entity": "Frank Kessì",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Frank Kessì è un argomento principale per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il futuro di Frank Kessì",
+          "start_sec": 0.08,
+          "end_sec": 35.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kessié",
+      "position": "Kessié ha diverse opzioni di mercato in Italia e in Europa.",
+      "polarity": "neutral",
+      "claim_id": "2965c89b-9f99-4950-b210-a1258bdc196e",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s3",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kessié ha diverse opzioni di mercato in Italia e in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono anche altri altri club in Europa.",
+          "start_sec": 114.799,
+          "end_sec": 157.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Kessié",
+      "position": "La priorità di Kessié è tornare in Europa.",
+      "polarity": "neutral",
+      "claim_id": "7a9b404b-c1d6-4132-bd68-119e0d2aed47",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s3",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La priorità di Kessié è tornare in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la priorità è comunque provare a tornare in Europa",
+          "start_sec": 114.799,
+          "end_sec": 157.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kessié",
+      "position": "I primi approcci per Kessié stanno avvenendo per il mercato.",
+      "polarity": "neutral",
+      "claim_id": "212633ea-7f13-415e-ac8a-13369760116a",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s4",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "I primi approcci per Kessié stanno avvenendo per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stiamo parlando dei primi approcci.",
+          "start_sec": 153.12,
+          "end_sec": 192.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kessié",
+      "position": "Kessié è coinvolto in trattative per un contratto triennale.",
+      "polarity": "neutral",
+      "claim_id": "22561ee0-f395-4f36-8da9-3e01552f88f7",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s5",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Kessié è coinvolto in trattative per un contratto triennale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un triennale importante.",
+          "start_sec": 189.44,
+          "end_sec": 227.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Kessié",
+      "position": "Kessié ha contatti con altre squadre italiane.",
+      "polarity": "neutral",
+      "claim_id": "8db22de3-fd57-4ef4-835b-2988fd974fc3",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s4",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kessié ha contatti con altre squadre italiane.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il suo agente ha avuto nelle ultime settimane dei contatti anche con altre big del campionato italiano.",
+          "start_sec": 153.12,
+          "end_sec": 192.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kessié",
+      "position": "Kessié sarà un nome importante nel mercato imminente.",
+      "polarity": "positive",
+      "claim_id": "a0f0f1cc-f11d-421f-9fc8-b6573f1de40c",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s5",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Kessié sarà un nome importante nel mercato imminente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarà un nome molto importante di cui vi parleremo non solo nelle prossime settimane.",
+          "start_sec": 189.44,
+          "end_sec": 227.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "Kessié",
+      "position": "Kessié attualmente guadagna un buon ingaggio in Arabia.",
+      "polarity": "neutral",
+      "claim_id": "16b68d90-4837-4c01-b0a3-42dcff8111d3",
+      "video_id": "dzaHZKDwXys",
+      "segment_id": "s4",
+      "target_entity": "Kessié",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kessié attualmente guadagna un buon ingaggio in Arabia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Arabia guadagna una certa cifra.",
+          "start_sec": 153.12,
+          "end_sec": 192.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

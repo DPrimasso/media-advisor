@@ -1,0 +1,358 @@
+{
+  "video_id": "6H4OFlbVsZE",
+  "analyzed_at": "2026-04-08T13:02:58.407494+00:00",
+  "metadata": {
+    "title": "TUTTA LA VERITÀ SU BASTONI! MURO JUVE ALLE BIG INGLESI. ROMA DICOTOMICA: GASP SPINGE PER TOTTI MA…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza la situazione attuale della Roma, evidenziando la divisione interna tra Gasperini e Massara, con Ranieri che difende quest'ultimo. L'autore sottolinea l'interesse di Gasperini per un possibile collaboratore come Cristiano Giuntoli e il desiderio di Totti di avere un ruolo dirigenziale, ma con condizioni che non lo soddisfano. La Roma, in vista del centenario nel 2027, punta a iniziative di marketing e a una competitività in Champions League, ma il ritorno di Totti rimane incerto, congelato fino a nuove condizioni.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "competitività",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "ambizioni",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Roma",
+      "position": "La Roma mira a essere competitiva per la Champions League entro il 2027.",
+      "polarity": "positive",
+      "claim_id": "23f05fb0-7967-449e-ac46-29dc24332549",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma mira a essere competitiva per la Champions League entro il 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'obiettivo di rendere la Roma nel 2027 competitiva per fare la Champions League",
+          "start_sec": 63.879,
+          "end_sec": 93.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Francesco Totti",
+      "position": "Francesco Totti avrà un ruolo dirigenziale nella Roma.",
+      "polarity": "positive",
+      "claim_id": "08dd07a4-8a6b-47f0-a236-56748a9574bf",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s1",
+      "target_entity": "Francesco Totti",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Francesco Totti avrà un ruolo dirigenziale nella Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un rientro imminente da qui a fine stagione di Francesco Totti in società che avrebbe avuto un ruolo dirigenziale",
+          "start_sec": 37.12,
+          "end_sec": 66.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma pianifica iniziative di marketing per il centenario del club.",
+      "polarity": "neutral",
+      "claim_id": "0e62c577-9949-4720-a5c8-c2c6f2259daf",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma pianifica iniziative di marketing per il centenario del club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci saranno tutta una serie di iniziative collaterali importanti anche a livello social di merchandising, di marketing",
+          "start_sec": 37.12,
+          "end_sec": 66.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Francesco Totti",
+      "position": "Totti è considerato il più grande giocatore della storia della Roma.",
+      "polarity": "positive",
+      "claim_id": "83c37197-e61a-4597-965d-41413f467d51",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s3",
+      "target_entity": "Francesco Totti",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Totti è considerato il più grande giocatore della storia della Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Totti è il più grande giocatore della storia della Roma",
+          "start_sec": 91.6,
+          "end_sec": 122.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Friedkin",
+      "position": "Friedkin propone a Totti un ruolo di Brand Ambassador.",
+      "polarity": "neutral",
+      "claim_id": "3e4a955e-02f3-4edf-b72c-4b52225aff26",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s3",
+      "target_entity": "Friedkin",
+      "entity_type": "club",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Friedkin propone a Totti un ruolo di Brand Ambassador.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il ruolo poi proposto ufficialmente dai Friedkin di Brand Ambassador",
+          "start_sec": 91.6,
+          "end_sec": 122.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Roma",
+      "position": "La Roma ha ambizioni di lottare per lo scudetto.",
+      "polarity": "neutral",
+      "claim_id": "8d719d6d-51b6-46d4-a568-f8533065841a",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Roma ha ambizioni di lottare per lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "magari provare a lottare per lo scudetto",
+          "start_sec": 63.879,
+          "end_sec": 93.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Totti",
+      "position": "Totti ha fatto un passo indietro nella sua vicinanza alla squadra.",
+      "polarity": "neutral",
+      "claim_id": "7eb248ed-2c56-4749-81f5-090fa24a6ff1",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s4",
+      "target_entity": "Totti",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Totti ha fatto un passo indietro nella sua vicinanza alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Totti che ha fatto un passo indietro",
+          "start_sec": 120.68,
+          "end_sec": 149.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini vorrebbe lavorare con Cristiano Giuntoli.",
+      "polarity": "neutral",
+      "claim_id": "c69bcc89-880e-4e71-8bd7-41b89dea1800",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s0",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini vorrebbe lavorare con Cristiano Giuntoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A Gasperini piacerebbe lavorare con Cristiano Giuntoli.",
+          "start_sec": 1.04,
+          "end_sec": 40.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gasperini",
+      "position": "C'è freddezza tra Gasperini e Ranieri.",
+      "polarity": "neutral",
+      "claim_id": "8912251f-868e-4a43-a63c-b0a7f7d1ca1b",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s0",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è freddezza tra Gasperini e Ranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la freddezza tra Gasperini e Ranieri delle ultime settimane.",
+          "start_sec": 1.04,
+          "end_sec": 40.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Roma",
+      "position": "La Roma è divisa in due.",
+      "polarity": "neutral",
+      "claim_id": "2bf619f2-2cfd-4e9f-85eb-9b1c843726b6",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma è divisa in due.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Roma divisa in due.",
+          "start_sec": 1.04,
+          "end_sec": 40.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massara",
+      "position": "Massara è difeso da Ranieri.",
+      "polarity": "neutral",
+      "claim_id": "590f7b67-0f10-4688-a656-e1601c2e7190",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s0",
+      "target_entity": "Massara",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Massara è difeso da Ranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri che sta difendendo Massara.",
+          "start_sec": 1.04,
+          "end_sec": 40.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Francesco Totti",
+      "position": "Totti è un'icona per la Roma.",
+      "polarity": "positive",
+      "claim_id": "e0ae8ebd-10f8-4255-82d1-7581fd056033",
+      "video_id": "6H4OFlbVsZE",
+      "segment_id": "s3",
+      "target_entity": "Francesco Totti",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Totti è un'icona per la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un'icona",
+          "start_sec": 91.6,
+          "end_sec": 122.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

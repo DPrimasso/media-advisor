@@ -49,6 +49,7 @@ async def run_from_list(
     force_transcript: bool = False,
     force_analyze: bool = False,
     model: str = "gpt-4o-mini",
+    transcript_only: bool = False,
 ) -> RunFromListResult:
     config_raw = read_json(channels_config_path(root))
     config = ChannelsConfig.model_validate(config_raw)
@@ -102,6 +103,9 @@ async def run_from_list(
                     continue
 
             # -- Analysis step --
+            if transcript_only:
+                ch_result.skipped += 1
+                continue
             if a_path.exists() and not force_analyze:
                 print(f"  [{channel.id}/{vid}] analysis: cached (skip)", flush=True)
                 ch_result.skipped += 1

@@ -1,0 +1,366 @@
+{
+  "video_id": "uWORZjNg3vg",
+  "analyzed_at": "2026-04-07T15:58:56.840089+00:00",
+  "metadata": {
+    "title": "TMW News: Atalanta, c'è il Verona per ripartire. Juve e Inter, mosse per il portiere",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News analizza la recente sconfitta dell'Atalanta contro il Bayern Monaco in Champions League, evidenziando le difficoltà della squadra italiana nel confronto con avversari di livello superiore. L'autore, Massimo Morales, critica l'approccio tattico adottato dall'allenatore Palladino, suggerendo che una strategia più cauta avrebbe potuto limitare i danni, dato il divario di forza tra le squadre. Inoltre, si sottolinea la differenza nella circolazione di palla e nella velocità di gioco tra il calcio italiano e quello europeo, con De Ron che mette in luce la necessità di miglioram",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "errore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Germania",
+      "position": "La Germania ha iniziato a produrre giocatori nel 2000.",
+      "polarity": "negative",
+      "claim_id": "c26ea47a-cf7b-47e3-8c60-844a70e90305",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s4",
+      "target_entity": "Germania",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Germania ha iniziato a produrre giocatori nel 2000.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Germania ha iniziato nel 2000 dopo la dei Blackl dell'Europeo tedesco.",
+          "start_sec": 366.4,
+          "end_sec": 433.75899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha avuto difficoltà nella sconfitta contro il Bayern.",
+      "polarity": "negative",
+      "claim_id": "4858a6c2-49bf-4bf5-8862-fbe5f2608077",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha avuto difficoltà nella sconfitta contro il Bayern.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlando delle difficoltà del nostro calcio... ha detto che in Europa, soprattutto in Champions, si vedono squadre che hanno una circolazione di palla eh migliore",
+          "start_sec": 110.68,
+          "end_sec": 204.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "De Ron",
+      "position": "De Ron ha sottolineato la differenza nel livello della circolazione di palla rispetto alla Champions.",
+      "polarity": "neutral",
+      "claim_id": "48e93659-b2a7-4739-ad71-4176726ecd19",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s1",
+      "target_entity": "De Ron",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Ron ha sottolineato la differenza nel livello della circolazione di palla rispetto alla Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Ron commentando la sconfitta dell'Atalanta di ieri ha detto che in Europa, soprattutto in Champions, si vedono squadre che hanno una circolazione di palla eh migliore",
+          "start_sec": 110.68,
+          "end_sec": 204.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Il Bayern ha dimostrato una velocità di gioco superiore in Champions.",
+      "polarity": "positive",
+      "claim_id": "3a3e3e50-1838-45fe-a821-d07b0f603091",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s1",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern ha dimostrato una velocità di gioco superiore in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con una velocità estremamente superiore e soprattutto anche gli arbitri dirigono le partite in modo diverso eh senza spezzettare il gioco",
+          "start_sec": 110.68,
+          "end_sec": 204.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Maurizio Viscidi",
+      "position": "Maurizio Viscidi sarà il nuovo direttore tecnico del calcio giovanile.",
+      "polarity": "positive",
+      "claim_id": "7681436a-5594-4321-bac3-a5a04eb6f9cf",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s3",
+      "target_entity": "Maurizio Viscidi",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Maurizio Viscidi sarà il nuovo direttore tecnico del calcio giovanile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è arrivata da parte della FGC eh la l'ufficializzazione del nuovo progetto tecnico per il calcio giovanile con Maurizio Viscidi che sarà il direttore tecnico",
+          "start_sec": 292.039,
+          "end_sec": 368.59900000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gianluca Zambrotta",
+      "position": "Gianluca Zambrotta è coinvolto nel progetto tecnico per il calcio giovanile.",
+      "polarity": "positive",
+      "claim_id": "76df3b62-b803-4b65-b771-d0229bf1665a",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s3",
+      "target_entity": "Gianluca Zambrotta",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluca Zambrotta è coinvolto nel progetto tecnico per il calcio giovanile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i campioni del mondo Simone Perrotta e Gianluca Zambrotta che saranno impegnati per delineare le linee guida per l'attività di base",
+          "start_sec": 292.039,
+          "end_sec": 368.59900000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Maurizio Viscidi",
+      "position": "Maurizio Viscidi è descritto come una persona eccellente e competente.",
+      "polarity": "neutral",
+      "claim_id": "84b4451d-05dd-4020-b31d-ce11a72b7bd4",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s4",
+      "target_entity": "Maurizio Viscidi",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Maurizio Viscidi è descritto come una persona eccellente e competente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io conosco Maurizio Visci, una persona eccellente ed è anche una persona molto competente.",
+          "start_sec": 366.4,
+          "end_sec": 433.75899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "federazione",
+      "position": "La federazione non ha permesso a Viscidi di lavorare adeguatamente.",
+      "polarity": "negative",
+      "claim_id": "109b1597-f1d3-4f93-bf33-c44a55b94c69",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s4",
+      "target_entity": "federazione",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La federazione non ha permesso a Viscidi di lavorare adeguatamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "o non l'hanno fatto lavorare o lo hanno fatto lavorare male.",
+          "start_sec": 366.4,
+          "end_sec": 433.75899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "calcio giovanile",
+      "position": "Le azioni per il calcio giovanile sembrano cercare di evitare polemiche.",
+      "polarity": "negative",
+      "claim_id": "d63a2884-e73d-446e-9f56-17b2c4692c28",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s4",
+      "target_entity": "calcio giovanile",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le azioni per il calcio giovanile sembrano cercare di evitare polemiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra un po' un'azione che va a cercare di evitare polemiche prima di uno spareggio.",
+          "start_sec": 366.4,
+          "end_sec": 433.75899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano utilizza un approccio tattico più statico rispetto ad altre leghe.",
+      "polarity": "negative",
+      "claim_id": "7917694c-d234-4e44-850a-9d0d4496c645",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s1",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano utilizza un approccio tattico più statico rispetto ad altre leghe.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si punta molto sulla tattica statica",
+          "start_sec": 110.68,
+          "end_sec": 204.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Maurizio Viscidi",
+      "position": "Viscidi ha un'esperienza ventennale nella federazione.",
+      "polarity": "neutral",
+      "claim_id": "effd5dbd-b562-429f-a792-34adbce2af7f",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s3",
+      "target_entity": "Maurizio Viscidi",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Viscidi ha un'esperienza ventennale nella federazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Maurizio Miscidi lavora in federazione al centro tecnico da quant'è? 20 anni",
+          "start_sec": 292.039,
+          "end_sec": 368.59900000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Nicolato",
+      "position": "Nicolato ha dimostrato qualità con i giovani.",
+      "polarity": "neutral",
+      "claim_id": "5c436e28-9aba-44ad-9378-2f4941b6ec21",
+      "video_id": "uWORZjNg3vg",
+      "segment_id": "s5",
+      "target_entity": "Nicolato",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nicolato ha dimostrato qualità con i giovani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché non sta facendo qualcosa con i giovani?",
+          "start_sec": 431.84,
+          "end_sec": 535.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

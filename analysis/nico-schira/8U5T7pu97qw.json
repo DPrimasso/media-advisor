@@ -1,0 +1,358 @@
+{
+  "video_id": "8U5T7pu97qw",
+  "analyzed_at": "2026-04-08T12:53:23.365040+00:00",
+  "metadata": {
+    "title": "MILAN, UN RITORNO SULLA FASCIA. TRE BIG SU DOUMBIA. LE STRATEGIE DEL NAPOLI TRA ACQUISTI E RINNOVI",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza le recenti mosse di calciomercato del Milan, evidenziando l'acquisto del giovane Andrei Kosticć, il quale ha firmato un contratto fino al 2030 ma giocherà inizialmente con il Partizan. L'autore sottolinea l'importanza per il Milan di \"italianizzare\" la rosa, in vista del ritorno in Champions League e delle restrizioni sulle liste di Serie A. Inoltre, si prevede che il club rossonero stia cercando di rinforzare ulteriormente le fasce, suggerendo che ci sono ancora spazi da riempire nella squadra per la prossima stagione.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "vivaio",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "L'operazione per Kostic vale 3-4 milioni di euro.",
+      "polarity": "neutral",
+      "claim_id": "ec8f18fd-f948-42fb-a48a-d49b9e6705dd",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s1",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione per Kostic vale 3-4 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'operazione, come vi ho raccontato, da 3 milioni e me 4 milioni con una percentuale sulla futura vendita.",
+          "start_sec": 27.359,
+          "end_sec": 56.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "Kostic ha firmato un contratto fino al 2030.",
+      "polarity": "neutral",
+      "claim_id": "ca1b89c1-2f4a-424e-81de-2c3ec8dc062e",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s1",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kostic ha firmato un contratto fino al 2030.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha firmato il contratto sino al 2030.",
+          "start_sec": 27.359,
+          "end_sec": 56.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "De Vinter",
+      "position": "De Vinter è stato acquistato a 16 anni dalla Juve.",
+      "polarity": "positive",
+      "claim_id": "50929bde-9625-4e30-a5b1-101f91ab0d28",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s3",
+      "target_entity": "De Vinter",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Vinter è stato acquistato a 16 anni dalla Juve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Vinter è arrivato a 16 anni alla Juve",
+          "start_sec": 81.6,
+          "end_sec": 118.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Partizan",
+      "position": "Il Partizan giocherà una sorta di play-off per il campionato serbo.",
+      "polarity": "neutral",
+      "claim_id": "36113837-b25c-4777-864e-2056adb9bad2",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s1",
+      "target_entity": "Partizan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Partizan giocherà una sorta di play-off per il campionato serbo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kostic che però finirà la stagione del Partzan, che disputerà una sorta di play-off.",
+          "start_sec": 27.359,
+          "end_sec": 56.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Partizan",
+      "position": "Il Partizan partecipa a un pool scudetto con le prime otto squadre del campionato serbo.",
+      "polarity": "neutral",
+      "claim_id": "ec0bc6f4-656d-478d-9946-15a397d0d4e5",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s1",
+      "target_entity": "Partizan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Partizan partecipa a un pool scudetto con le prime otto squadre del campionato serbo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cioè una specie di pool scudetto nel campionato serbo tra le prime otto.",
+          "start_sec": 27.359,
+          "end_sec": 56.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan è una delle società più attive nel calciomercato.",
+      "polarity": "positive",
+      "claim_id": "f2157bb1-46b7-4ad0-8d1c-6a2e9579e3d0",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è una delle società più attive nel calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan è una delle società più attive.",
+          "start_sec": 1.12,
+          "end_sec": 28.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Andrei Kosticć",
+      "position": "Il Milan ha preso il giovane Andrei Kosticć.",
+      "polarity": "positive",
+      "claim_id": "54377fea-f002-4b66-a131-bb0686669836",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s0",
+      "target_entity": "Andrei Kosticć",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha preso il giovane Andrei Kosticć.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha preso il giovane Andrei Kosticć.",
+          "start_sec": 1.12,
+          "end_sec": 28.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Andrei Kosticć",
+      "position": "Kosticć farà tiro per la prima squadra del Milan.",
+      "polarity": "neutral",
+      "claim_id": "22ed2ac8-fb6b-47c7-97d8-6259111ecab0",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s0",
+      "target_entity": "Andrei Kosticć",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Kosticć farà tiro per la prima squadra del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "farà tiro per la prima squadra.",
+          "start_sec": 1.12,
+          "end_sec": 28.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Milan",
+      "position": "Il Milan ha attualmente giocatori come Terraciano e Ricci.",
+      "polarity": "positive",
+      "claim_id": "642ab662-3eb0-4055-9902-49bbbdd6af53",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Milan ha attualmente giocatori come Terraciano e Ricci.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a terraciano a Ricci",
+          "start_sec": 81.6,
+          "end_sec": 118.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Andrei Kosticć",
+      "position": "Kosticć finirà la stagione al Partan.",
+      "polarity": "positive",
+      "claim_id": "14dddf65-c364-495d-814b-6133c5738610",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s0",
+      "target_entity": "Andrei Kosticć",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kosticć finirà la stagione al Partan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma finirà la stagione al Partan.",
+          "start_sec": 1.12,
+          "end_sec": 28.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan deve italianizzare la squadra.",
+      "polarity": "neutral",
+      "claim_id": "f0e647cf-d645-4da5-8ff5-6d6274e16d50",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Milan deve italianizzare la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan però deve anche italianizzare la",
+          "start_sec": 54.16,
+          "end_sec": 83.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Milan",
+      "position": "Il Milan tornerà in Champions.",
+      "polarity": "positive",
+      "claim_id": "846683c0-b75e-48ed-862b-28d119e485b7",
+      "video_id": "8U5T7pu97qw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan tornerà in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la questione di che il Milan tornerà in Champions",
+          "start_sec": 81.6,
+          "end_sec": 118.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "video_id": "tIpDf-WUEu4",
+  "analyzed_at": "2026-04-08T13:21:06.070237+00:00",
+  "metadata": {
+    "title": "LA JUVE STUDIA UN COLPO GALACTICO. I RIMPIANTI DI NAPOLI-ROMA. IL FUTURO DI CARNESECCHI E PALLADINO",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza i recenti risultati della 30esima giornata di campionato, con particolare attenzione alla vittoria del Napoli contro il Cagliari e alle implicazioni per la lotta per la salvezza. L'autore sottolinea il rammarico del Napoli per non aver potuto competere per lo scudetto a causa di ben 39 infortuni, evidenziando come la squadra possa comunque ambire al secondo posto. Inoltre, Schira menziona l'ottimo percorso dell'Inter e il potenziale successo del Milan, suggerendo che il Napoli deve riflettere su ciò che avrebbe potuto essere in una stagione segnata da difficolt",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto 1-0 in trasferta contro il Cagliari.",
+      "polarity": "positive",
+      "claim_id": "ae6ce383-cb52-49ec-aa34-32112a180aa6",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto 1-0 in trasferta contro il Cagliari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli vince 1-0 in Sardegna.",
+          "start_sec": 1.16,
+          "end_sec": 54.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli ha subito 39 infortuni.",
+      "polarity": "negative",
+      "claim_id": "fb64b165-180f-4f77-b44b-c78af8d08396",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha subito 39 infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rimarico per quello che poteva essere e non è stato a casa dei 39 infortuni.",
+          "start_sec": 52.44,
+          "end_sec": 96.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Cagliari",
+      "position": "Cagliari deve guardarsi le spalle nella lotta per la salvezza.",
+      "polarity": "negative",
+      "claim_id": "f326bde3-93d0-4792-8665-31c096fe2c5b",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s0",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cagliari deve guardarsi le spalle nella lotta per la salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...devono guardarsi le spalle perché se dietro dovessero vincere.",
+          "start_sec": 1.16,
+          "end_sec": 54.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Genova",
+      "position": "Genova è in una posizione di rischio per la salvezza.",
+      "polarity": "negative",
+      "claim_id": "a853613c-b088-48e6-b6f6-b8cf210cf88d",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s0",
+      "target_entity": "Genova",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Genova è in una posizione di rischio per la salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cagliari e Genova che secondo me si salveranno, ma che con questi passi falsi...",
+          "start_sec": 1.16,
+          "end_sec": 54.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha un percorso netto con le piccole.",
+      "polarity": "positive",
+      "claim_id": "e6b68a91-ebd4-42ee-be1d-7814d3597f09",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha un percorso netto con le piccole.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter ne ha approfittato facendo percorso netto con le piccole.",
+          "start_sec": 52.44,
+          "end_sec": 96.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il match Milan-Torino influenzerà la lotta per il secondo posto.",
+      "polarity": "neutral",
+      "claim_id": "a512ed63-5801-40a6-bee6-fcefaaf7a9dc",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il match Milan-Torino influenzerà la lotta per il secondo posto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vedremo eh Milan Torino cosa ci dirà in chiave secondo me secondo posto.",
+          "start_sec": 95.079,
+          "end_sec": 144.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kellencamp",
+      "position": "Kellencamp è paragonato a Miners come un centrocampista box to box.",
+      "polarity": "neutral",
+      "claim_id": "2d8b7e23-8117-4d61-a15b-cc3743f90a98",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s2",
+      "target_entity": "Kellencamp",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Kellencamp è paragonato a Miners come un centrocampista box to box.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ad esempio Kellencamp mi ricorda un po' il con Miners Prima Maniera di Bergamo centrocampista box to box con tanti gol nei piedi.",
+          "start_sec": 95.079,
+          "end_sec": 144.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Scott Mccomin",
+      "position": "Scott Mccomin ha segnato il suo undicesimo gol stagionale.",
+      "polarity": "positive",
+      "claim_id": "aac5ac3c-9b45-4ac3-8b37-4ab04e8374e8",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s0",
+      "target_entity": "Scott Mccomin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Scott Mccomin ha segnato il suo undicesimo gol stagionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "11º centro stagionale per lo scozzese volante.",
+          "start_sec": 1.16,
+          "end_sec": 54.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli può ambire al secondo posto.",
+      "polarity": "positive",
+      "claim_id": "dd732b33-225a-493a-99a0-98de784c2655",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli può ambire al secondo posto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli che con questo risultato secondo me può ambire tranquillamente al secondo posto.",
+          "start_sec": 52.44,
+          "end_sec": 96.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus arriva terza in classifica.",
+      "polarity": "neutral",
+      "claim_id": "9dfc3a0f-761c-4732-9993-07b8d1cae28b",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus arriva terza in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arriva terzo, ha fatto bene il suo non avendo le coppe, ma sfruttando l'opportunità di fare eh comunque un bel percorso con Massimiliano Allegri.",
+          "start_sec": 95.079,
+          "end_sec": 144.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe arrivare secondo.",
+      "polarity": "positive",
+      "claim_id": "452b8134-14de-40d6-8b4c-eab552053f35",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan potrebbe arrivare secondo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan se arrivasse secondo farebbe.",
+          "start_sec": 52.44,
+          "end_sec": 96.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Udinese",
+      "position": "L'Udinese è una squadra difficilmente prevedibile.",
+      "polarity": "neutral",
+      "claim_id": "1c565ae2-4296-4ba3-88bb-4a4608c6a0f9",
+      "video_id": "tIpDf-WUEu4",
+      "segment_id": "s2",
+      "target_entity": "Udinese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Udinese è una squadra difficilmente prevedibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Udinese soprattutto è una squadra indecifrabile.",
+          "start_sec": 95.079,
+          "end_sec": 144.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

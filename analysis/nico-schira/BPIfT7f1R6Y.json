@@ -1,0 +1,366 @@
+{
+  "video_id": "BPIfT7f1R6Y",
+  "analyzed_at": "2026-04-08T12:51:09.136922+00:00",
+  "metadata": {
+    "title": "LE ULTIME SUL CASO LUKAKU. GIÙ LE MANI DA LOCATELLI. IL RITORNO DI DE ZERBI. LE MOSSE DELLA ROMA…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sulle ultime novità riguardanti il calciomercato, in particolare sul possibile approdo di Roberto De Zerbi come nuovo allenatore del Tottenham, attualmente in crisi e quartultimo in Premier League. L'autore sottolinea l'urgenza della dirigenza degli Spurs di trovare un allenatore capace di salvare la squadra dalla retrocessione e di costruire un progetto ambizioso per il futuro, puntando a un ritorno in Champions League. Schira evidenzia anche la possibilità che De Zerbi possa portare con sé Sandro Nesta come suo vice, creando così una coppia di allenatori ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "De Zerbi",
+      "position": "De Zerbi ha sempre voluto allenare in prima persona.",
+      "polarity": "neutral",
+      "claim_id": "474c010d-ff08-473b-900b-ae3ec9c13847",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s4",
+      "target_entity": "De Zerbi",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Zerbi ha sempre voluto allenare in prima persona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché lui ha sempre voluto allenare, ha sempre voluto allenare in prima persona",
+          "start_sec": 97.159,
+          "end_sec": 125.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "De Zerbi",
+      "position": "De Zerbi deve costruire un nuovo staff.",
+      "polarity": "positive",
+      "claim_id": "cb0a3068-1223-4a85-a57b-e5447826b4a1",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s3",
+      "target_entity": "De Zerbi",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Zerbi deve costruire un nuovo staff.",
+      "evidence_quotes": [
+        {
+          "quote_text": "deve costruire lo staff perché rispetto all'ultima esperienza a Marsiglia cambieranno diversi collaboratori",
+          "start_sec": 72.32,
+          "end_sec": 98.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Spurs",
+      "position": "Gli Spurs puntano a tornare in Champions League.",
+      "polarity": "positive",
+      "claim_id": "f02cf28e-9cc5-4bd4-b540-2e783b307926",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s3",
+      "target_entity": "Spurs",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gli Spurs puntano a tornare in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una squadra competitiva che possa tornare in Europa, che possa tornare in Champions League",
+          "start_sec": 72.32,
+          "end_sec": 98.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Robinacci",
+      "position": "Robinacci è stato esonerato dopo due mesi alla Reggiana.",
+      "polarity": "negative",
+      "claim_id": "58aa8f0f-d6c0-499d-ac27-304d5c0975eb",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s4",
+      "target_entity": "Robinacci",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Robinacci è stato esonerato dopo due mesi alla Reggiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è andata benissimo perché dopo due mesi è stato esonerato",
+          "start_sec": 97.159,
+          "end_sec": 125.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Tottenham",
+      "position": "Il Tottenham ha un punto di vantaggio sulla zona retrocessione.",
+      "polarity": "negative",
+      "claim_id": "a728fd89-2ff5-488d-aac1-b7d442b75c8e",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s1",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Tottenham ha un punto di vantaggio sulla zona retrocessione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un punto di vantaggio sulla zona retrocessione",
+          "start_sec": 23.0,
+          "end_sec": 49.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "West Ham",
+      "position": "Il West Ham è in forma e potrebbe superare il Tottenham.",
+      "polarity": "positive",
+      "claim_id": "88dd4695-4c5e-47c1-9e01-d5e5bb28c107",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s1",
+      "target_entity": "West Ham",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il West Ham è in forma e potrebbe superare il Tottenham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è il West Ham vivissimo",
+          "start_sec": 23.0,
+          "end_sec": 49.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "De Zerbi",
+      "position": "De Zerbi è pronto ad accettare la proposta degli Spurs.",
+      "polarity": "positive",
+      "claim_id": "a76958ff-f8d6-4e56-bbf0-ba43f55e5b51",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s3",
+      "target_entity": "De Zerbi",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Zerbi è pronto ad accettare la proposta degli Spurs.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Zerby è pronto a dire sì",
+          "start_sec": 72.32,
+          "end_sec": 98.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tottenham",
+      "position": "Il Tottenham sta cercando un allenatore italiano.",
+      "polarity": "neutral",
+      "claim_id": "1f4c82a2-6c4b-434e-8a6f-83e0a899224d",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s0",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Tottenham sta cercando un allenatore italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Tottenham farà un tentativo per prenderlo subito",
+          "start_sec": 0.399,
+          "end_sec": 24.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Tottenham",
+      "position": "Il Tottenham rischia di scendere in Championship.",
+      "polarity": "negative",
+      "claim_id": "5a8dfc87-2ff4-4454-b56e-aad5c073984c",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s1",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Tottenham rischia di scendere in Championship.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rischia di lasciarci le penne, di finire dalla Premier League alla Championship",
+          "start_sec": 23.0,
+          "end_sec": 49.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Tudor",
+      "position": "C'è la possibilità che Tudor venga esonerato.",
+      "polarity": "negative",
+      "claim_id": "1429e964-ba2e-427a-86a1-b7fcfe0c7e23",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s0",
+      "target_entity": "Tudor",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "C'è la possibilità che Tudor venga esonerato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se dovesse esonerare Tudor",
+          "start_sec": 0.399,
+          "end_sec": 24.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Onesta",
+      "position": "Onesta potrebbe diventare vice di De Zerbi.",
+      "polarity": "neutral",
+      "claim_id": "ba3322e1-e980-43a4-bc8c-b8a5015b4e59",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s3",
+      "target_entity": "Onesta",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Onesta potrebbe diventare vice di De Zerbi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è una pazza idea, Sandro Onesta come assistente",
+          "start_sec": 72.32,
+          "end_sec": 98.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Tottenham",
+      "position": "Il Tottenham è quartultimo in campionato.",
+      "polarity": "negative",
+      "claim_id": "d8b6ec72-cf43-47dd-bf5a-3473d46b2c4e",
+      "video_id": "BPIfT7f1R6Y",
+      "segment_id": "s1",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Tottenham è quartultimo in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è quartultimo",
+          "start_sec": 23.0,
+          "end_sec": 49.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "video_id": "i2mjMRG7Qxg",
+  "analyzed_at": "2026-04-08T13:47:30.194504+00:00",
+  "metadata": {
+    "title": "JUVENTUS, UN TOP MONDIALE PER LA PORTA. DOPPIA MOSSA MILAN. IL NO DELL’INTER ALLE BIG. E IL NAPOLI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sulle strategie di calciomercato delle squadre italiane, in particolare il Napoli e l'Inter. L'autore sostiene che il Napoli desidera mantenere Elmas, puntando sulla sua volontà di restare e cercando di ottenere uno sconto sul diritto di riscatto di 16 milioni, con l'obiettivo di chiudere a 12-13 milioni. Inoltre, Schira chiarisce che, nonostante l'interesse del Barcellona, l'Inter non ha intenzione di cedere Alessandro Bastoni a meno di un'offerta molto alta, evidenziando la solidità della squadra nerazzurra in questo frangente.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "difensori",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovani",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Elmas",
+      "position": "Il Napoli ha un diritto di riscatto di 16 milioni per Elmas.",
+      "polarity": "neutral",
+      "claim_id": "8403c643-8d53-4499-87e0-b92ccfab24a4",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha un diritto di riscatto di 16 milioni per Elmas.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha il diritto di riscatto 16 milioni che sono un po' tanti, secondo il Napoli.",
+          "start_sec": 24.199,
+          "end_sec": 52.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Elmas",
+      "position": "Elmas vuole restare al Napoli e ha un accordo fino al 2030.",
+      "polarity": "positive",
+      "claim_id": "dbd39fd8-dc5e-4df8-8a19-bd661909a4da",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s3",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas vuole restare al Napoli e ha un accordo fino al 2030.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas che vuole restare al Napoli e che ha già un accordo con il Napoli sino al 2000.",
+          "start_sec": 75.96,
+          "end_sec": 105.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe chiudere l'acquisto a 12-13 milioni.",
+      "polarity": "positive",
+      "claim_id": "960a9904-a7f8-49ff-b823-68e32ce2b89b",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli potrebbe chiudere l'acquisto a 12-13 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pro a chiudere a 12-13 milioni.",
+          "start_sec": 50.039,
+          "end_sec": 77.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli proverà a tenere Elmas ma con uno sconto.",
+      "polarity": "neutral",
+      "claim_id": "032cdb0b-fa0d-49a6-9e0c-1a62fdd5fe62",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli proverà a tenere Elmas ma con uno sconto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tradotto il Napoli proverà a tenere Elmas ma con uno sconto, forzando la mano con il Lipsia facendo leva sulla volontà del giocatore.",
+          "start_sec": 24.199,
+          "end_sec": 52.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Manna",
+      "position": "Giovanni Manna è coinvolto nella trattativa per Elmas.",
+      "polarity": "neutral",
+      "claim_id": "61744db5-a793-4f39-86d2-e69811b55af6",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s3",
+      "target_entity": "Manna",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanni Manna è coinvolto nella trattativa per Elmas.",
+      "evidence_quotes": [
+        {
+          "quote_text": "strategia di Giovanni Manna e di Aurelio De Laurentis nella trattativa per Elmas.",
+          "start_sec": 75.96,
+          "end_sec": 105.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alessandro Bastoni",
+      "position": "Bastoni potrebbe essere un obiettivo per diverse squadre importanti.",
+      "polarity": "positive",
+      "claim_id": "d384702b-f65f-4e04-a87d-8c1b5ed2f383",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s4",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Bastoni potrebbe essere un obiettivo per diverse squadre importanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è normale che un difensore come Bastoni possa piacere a tante squadre importanti",
+          "start_sec": 103.88,
+          "end_sec": 130.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bastoni",
+      "position": "Bastoni ha attrattiva sul mercato per via della sua giovane età.",
+      "polarity": "neutral",
+      "claim_id": "3d4f4108-64a4-49f9-bcf7-6fc674a94d0b",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s5",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni ha attrattiva sul mercato per via della sua giovane età.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché Bastoni c'ha 26 anni, non ce ne sono tanti in giro",
+          "start_sec": 128.119,
+          "end_sec": 153.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "De Laurentis",
+      "position": "Aurelio De Laurentis sta negoziando per Elmas con il Lipsia.",
+      "polarity": "neutral",
+      "claim_id": "12f016e5-9f41-4c79-9dd0-3aedcb694848",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s3",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Aurelio De Laurentis sta negoziando per Elmas con il Lipsia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aurelio De Laurentis nella trattativa per Elmas.",
+          "start_sec": 75.96,
+          "end_sec": 105.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alessandro Bastoni",
+      "position": "Il Barcellona è interessato ad Alessandro Bastoni.",
+      "polarity": "positive",
+      "claim_id": "256ab88b-9aa2-470a-939a-dcb596eacee1",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s4",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barcellona è interessato ad Alessandro Bastoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Spagna continuano a scrivere di Bastoni al Barcellona",
+          "start_sec": 103.88,
+          "end_sec": 130.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alessandro Bastoni",
+      "position": "I difensori centrali mancini forti sono rari.",
+      "polarity": "positive",
+      "claim_id": "c6a0bdf7-8444-46f0-912d-5568fc04d7e6",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s4",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I difensori centrali mancini forti sono rari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i difensori centrali mancini, forti di livello, tutto sommato ancora abbastanza",
+          "start_sec": 103.88,
+          "end_sec": 130.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Elmas",
+      "position": "Elmas è innamorato del Napoli.",
+      "polarity": "positive",
+      "claim_id": "e0f244a2-67de-4bea-ad0a-730c16ea0b76",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas è innamorato del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas è innamorato del Napoli.",
+          "start_sec": 24.199,
+          "end_sec": 52.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter non valuta una cessione di Bastoni.",
+      "polarity": "neutral",
+      "claim_id": "94f83e4b-e6aa-4c83-ad7d-01a041b295e4",
+      "video_id": "i2mjMRG7Qxg",
+      "segment_id": "s5",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non valuta una cessione di Bastoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter non valuta una cessione di Bastoni",
+          "start_sec": 128.119,
+          "end_sec": 153.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

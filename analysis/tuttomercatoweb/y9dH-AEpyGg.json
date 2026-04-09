@@ -1,0 +1,366 @@
+{
+  "video_id": "y9dH-AEpyGg",
+  "analyzed_at": "2026-04-07T15:28:36.807440+00:00",
+  "metadata": {
+    "title": "TMW News: Sale la febbre Mondiale. L’Italia in Bosnia tra difficoltà di campo e di formazione",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMW News si concentra sulla finale play-off dell'Italia contro la Bosnia, cruciale per l'accesso al Mondiale 2026. L'autore sottolinea le difficoltà che la squadra di Gattuso dovrà affrontare, sia per le pessime condizioni del campo di gioco, sia per le scelte di formazione, con la possibilità che Esposito prenda il posto di Reteghi. Si evidenzia anche il miglioramento mostrato dall'Italia nel secondo tempo della partita precedente contro l'Irlanda del Nord, suggerendo che per avere successo contro la Bosnia, la squadra dovrà replicare quella prestazione.",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "condizioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "regole",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "campo",
+      "relevance": "low"
+    },
+    {
+      "name": "offerta",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Italia",
+      "position": "L'Italia giocherà con lo stesso undici titolari dell'ultima partita contro l'Irlanda del Nord.",
+      "polarity": "neutral",
+      "claim_id": "04400347-e0c8-4e43-88a2-d64dd8710e05",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia giocherà con lo stesso undici titolari dell'ultima partita contro l'Irlanda del Nord.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il CT intenzionato per ora a confermare lo stesso identico 11 che giovedì sera ha battuto a Bergamo l'Irlanda del Nord.",
+          "start_sec": 13.2,
+          "end_sec": 79.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "Le condizioni del campo di gioco in Bosnia sono pessime a causa del maltempo.",
+      "polarity": "neutral",
+      "claim_id": "bc298565-1a27-47e7-894b-41cdc1d7180e",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le condizioni del campo di gioco in Bosnia sono pessime a causa del maltempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un campo già in condizioni tutt'altro che ottimali, vista la neve e le piogge delle scorse ore.",
+          "start_sec": 13.2,
+          "end_sec": 79.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso è il commissario tecnico dell'Italia in questa finale play-off.",
+      "polarity": "positive",
+      "claim_id": "4f2db0d1-eb67-415a-b270-699eefddba30",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s0",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso è il commissario tecnico dell'Italia in questa finale play-off.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Italia di Gennaro Gattuso che domani si gioca la finale play-off.",
+          "start_sec": 13.2,
+          "end_sec": 79.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Italia",
+      "position": "L'Italia deve giocare come nel secondo tempo per affrontare la Bosnia.",
+      "polarity": "positive",
+      "claim_id": "b4861b61-a7dd-4066-bc56-ae9eca16cd1b",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "L'Italia deve giocare come nel secondo tempo per affrontare la Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "spero che riparta da lì adesso con la Bosnia perché per avere il meglio della Bosnia comunque devi giocare come il secondo tempo.",
+          "start_sec": 145.72,
+          "end_sec": 218.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Italia",
+      "position": "Il campo in Bosnia sarà difficile a causa della pioggia.",
+      "polarity": "negative",
+      "claim_id": "d94387e9-926f-4e78-8268-08c7f4c02c58",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il campo in Bosnia sarà difficile a causa della pioggia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Italia trova un campo ostico, anche perché risente delle copiosi piogge dei giorni scorsi.",
+          "start_sec": 145.72,
+          "end_sec": 218.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Italia",
+      "position": "L'Italia ha esperienza nel giocare in vari stadi.",
+      "polarity": "neutral",
+      "claim_id": "c9e0c09a-1a64-4e4f-88d1-56a7b4d8f5e5",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s3",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha esperienza nel giocare in vari stadi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutti i giocatori, insomma, abituati a giocare in qualunque tipo di di stadio",
+          "start_sec": 216.879,
+          "end_sec": 288.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Italia",
+      "position": "L'Italia porterà a casa la partita nonostante le difficoltà.",
+      "polarity": "positive",
+      "claim_id": "e24af5ac-bc00-41e8-8356-090c24af40df",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s3",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Italia porterà a casa la partita nonostante le difficoltà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io credo che l'Italia abbia tutti i mezzi per poter per poter portare a casa la partita",
+          "start_sec": 216.879,
+          "end_sec": 288.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Bosnia",
+      "position": "La Bosnia è abituata a condizioni di campo difficili.",
+      "polarity": "neutral",
+      "claim_id": "9a2d5eb7-ac1d-4d84-93b2-6212a1bcae0a",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s3",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia è abituata a condizioni di campo difficili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Bosnia. Ehm, in più l'ambiente è abbastanza caldo, rovente",
+          "start_sec": 216.879,
+          "end_sec": 288.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Italia",
+      "position": "Il fattore campo può essere una sfida per l'Italia.",
+      "polarity": "neutral",
+      "claim_id": "0c7bc235-c868-4877-bcf3-648c2a81115b",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s3",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il fattore campo può essere una sfida per l'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se ci sarà da combattere anche contro il fattore campo per l'Italia",
+          "start_sec": 216.879,
+          "end_sec": 288.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Reteghi",
+      "position": "Reteghi è attualmente il favorito per partire titolare.",
+      "polarity": "neutral",
+      "claim_id": "bca09493-ae49-48e7-abd9-0442910acf02",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s4",
+      "target_entity": "Reteghi",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Reteghi è attualmente il favorito per partire titolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ex Atalanta resta il favorito per la maglia dal primo minuto.",
+          "start_sec": 285.16,
+          "end_sec": 357.88000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Bosnia",
+      "position": "La Bosnia è descritta come una squadra fastidiosa ma non eccezionale.",
+      "polarity": "neutral",
+      "claim_id": "fb8e8363-0ede-4717-b18e-2f7e3ba5148c",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s2",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia è descritta come una squadra fastidiosa ma non eccezionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una squadra fastidiosa, non non eccezionale.",
+          "start_sec": 145.72,
+          "end_sec": 218.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Esposito",
+      "position": "Esposito potrebbe sostituire Reteghi nell'undici titolare.",
+      "polarity": "neutral",
+      "claim_id": "63e4945d-7c56-4f90-aefe-bf17ff6296a9",
+      "video_id": "y9dH-AEpyGg",
+      "segment_id": "s0",
+      "target_entity": "Esposito",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Esposito potrebbe sostituire Reteghi nell'undici titolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un più Esposito reclamato a furor di popolo rispetto a un Matteo Reteghi.",
+          "start_sec": 13.2,
+          "end_sec": 79.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

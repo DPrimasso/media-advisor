@@ -1,0 +1,366 @@
+{
+  "video_id": "-hXEwIUq6HM",
+  "analyzed_at": "2026-04-08T10:03:21.473826+00:00",
+  "metadata": {
+    "title": "🚨 KONE-FRATTESI: INCASTRI E SCAMBI! BERNARDO, LA JUVE E IL FUTURO PROSSIMO. EDERSON E IL TRAGUARDO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-04T16:48:22+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato riguardanti diversi calciatori, in particolare Manuconé, Davide Frattesi e Bernardo Silva. L'autore sottolinea l'interesse della Juventus per Bernardo Silva, che sarà libero di lasciare il Manchester City a zero a giugno, ma avverte che la concorrenza per il giocatore è alta e le offerte economiche da altre squadre potrebbero superare quelle della Juve. Inoltre, si menziona la possibile partenza di Ederson verso l'Atletico Madrid, confermando l'importanza di questi trasferimenti nel contesto del prossimo campionato di Seri",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "interesse",
+      "relevance": "high"
+    },
+    {
+      "name": "plusvalenza",
+      "relevance": "high"
+    },
+    {
+      "name": "contratti",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "transfers",
+      "relevance": "medium"
+    },
+    {
+      "name": "obiettivi",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Manuconé",
+      "position": "Manuconé della Roma ha un legame con Davide Frattesi.",
+      "polarity": "neutral",
+      "claim_id": "385f160f-5b5a-44e3-b328-9b19baa35506",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s0",
+      "target_entity": "Manuconé",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Manuconé della Roma ha un legame con Davide Frattesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Manuconé della Roma che ha un filo sottile che lo lega a Davide Frattesi.",
+          "start_sec": 0.24,
+          "end_sec": 39.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo Silva",
+      "position": "Bernardo Silva potrebbe trasferirsi in Italia nel prossimo campionato.",
+      "polarity": "neutral",
+      "claim_id": "c5cbbced-2419-4951-8e8a-4d55c51b6f59",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s1",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Bernardo Silva potrebbe trasferirsi in Italia nel prossimo campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la possibilità di vedere Bernardo Silva in Italia nel corso del prossimo campionato.",
+          "start_sec": 36.879,
+          "end_sec": 79.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo",
+      "position": "Bernardo lascerà il Manchester City a zero a giugno.",
+      "polarity": "positive",
+      "claim_id": "6cf66dc5-841e-4827-8742-03f2562eb160",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s2",
+      "target_entity": "Bernardo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo lascerà il Manchester City a zero a giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bernardo è in scadenza e non rinnoverà il proprio contratto con il Manchester City, quindi sarà libero di lasciare il City a zero a partire da giugno.",
+          "start_sec": 76.439,
+          "end_sec": 114.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta contattando Jorge Mendes per studiare l'operazione Bernardo.",
+      "polarity": "positive",
+      "claim_id": "cabc4768-643b-4ecf-9351-b03ea823ade3",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta contattando Jorge Mendes per studiare l'operazione Bernardo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus avesse iniziato a prendere contatto con Jorge Mendes, il procuratore di Bernardo, per capire un po' la fattibilità dell'operazione.",
+          "start_sec": 76.439,
+          "end_sec": 114.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è in competizione con altre squadre per Bernardo.",
+      "polarity": "neutral",
+      "claim_id": "ce278c8c-da08-4297-8623-7a322321a5c6",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus è in competizione con altre squadre per Bernardo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "eh ce ne sono diverse e anche superiori alla Juventus in questo momento",
+          "start_sec": 147.28,
+          "end_sec": 183.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo",
+      "position": "Bernardo è un nome complicato per la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "39136090-4cf3-4839-82cd-24ad80623f81",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s4",
+      "target_entity": "Bernardo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo è un nome complicato per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello che ci risulta, quello che ci dicono è che sia comunque un nome complicato",
+          "start_sec": 147.28,
+          "end_sec": 183.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo Silva",
+      "position": "Bernardo Silva continua ad essere un argomento di discussione.",
+      "polarity": "neutral",
+      "claim_id": "da12bf83-3ca1-43a3-abdc-2e9b67d8e796",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s0",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo Silva continua ad essere un argomento di discussione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aggiungiamo un altro dettaglio in",
+          "start_sec": 0.24,
+          "end_sec": 39.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo Silva",
+      "position": "Bernardo Silva è oggetto di interesse da parte di molte squadre.",
+      "polarity": "neutral",
+      "claim_id": "41e1611e-2a4b-40a8-b3e7-c54e728ea7c0",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s3",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo Silva è oggetto di interesse da parte di molte squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è tantissima concorrenza.",
+          "start_sec": 112.28,
+          "end_sec": 151.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo Silva",
+      "position": "Ci sono molte squadre interessate a Bernardo Silva.",
+      "polarity": "neutral",
+      "claim_id": "9e2690a4-8946-4bc1-ac56-a2b3d7cd01ed",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s3",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono molte squadre interessate a Bernardo Silva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono tante squadre su di lui",
+          "start_sec": 112.28,
+          "end_sec": 151.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è interessata a Bernardo Silva.",
+      "polarity": "neutral",
+      "claim_id": "78f59cbd-7d7b-4a9d-b485-d3e7ff15962f",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è interessata a Bernardo Silva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è vero che la Juventus è interessata a Bernardo Silva.",
+          "start_sec": 112.28,
+          "end_sec": 151.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Davide Frattesi",
+      "position": "Davide Frattesi è legato a Manuconé.",
+      "polarity": "neutral",
+      "claim_id": "4d2d869e-50f1-446a-ac03-31856513c9c7",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s0",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Frattesi è legato a Manuconé.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un filo sottile che lo lega a Davide Frattesi.",
+          "start_sec": 0.24,
+          "end_sec": 39.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson potrebbe trasferirsi all'Atletico Madrid.",
+      "polarity": "neutral",
+      "claim_id": "7e26cf4e-defc-435c-9524-899abff11900",
+      "video_id": "-hXEwIUq6HM",
+      "segment_id": "s1",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Ederson potrebbe trasferirsi all'Atletico Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ederson a direzione Atletico Madrid.",
+          "start_sec": 36.879,
+          "end_sec": 79.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

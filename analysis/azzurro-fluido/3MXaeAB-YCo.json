@@ -1,0 +1,398 @@
+{
+  "video_id": "3MXaeAB-YCo",
+  "analyzed_at": "2026-03-31T16:19:03.755Z",
+  "metadata": {
+    "title": "#CONFERENZA #SUPERCOPPA IN ARAB 👀 #Conte è chiaro sul modulo e su #Lukaku 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-17T12:00:00.000Z"
+  },
+  "summary": "Il video analizza l'importanza della Supercoppa italiana, che si svolge in Arabia, e il ruolo chiave di Lukaku nella squadra. L'opinionista Azzurro Fluido sottolinea come i tifosi continuino a sostenere la squadra nonostante le nuove modalità di competizione e i cambiamenti nel calcio. Conte, allenatore del Napoli, sta adattando il suo approccio per gestire meglio il team, evidenziando l'importanza di mantenere l'entusiasmo e la concentrazione, soprattutto dopo cinque vittorie consecutive, mentre Di Lorenzo esprime fiducia nei prossimi impegni, nonostante i problemi di infortuni.",
+  "topics": [
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "supercoppa",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "modulo",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "team performance",
+      "relevance": "low"
+    },
+    {
+      "name": "victory importance",
+      "relevance": "low"
+    },
+    {
+      "name": "situazione della squadra",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership and motivation",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "6c5063cd-5f6a-490c-9745-6a3a85e77ef3",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s0",
+      "target_entity": "Supercoppa",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La Supercoppa si gioca con nuove modalità in Arabia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le supercoppe che diventano semifinali e finali da giocare in Arabbia.",
+          "start_sec": 0.199,
+          "end_sec": 93.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Supercoppa",
+        "Arabbia",
+        "Modalità"
+      ],
+      "topic": "tactics",
+      "subject": "Supercoppa",
+      "position": "La Supercoppa si gioca con nuove modalità in Arabia.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "995e8d50-9d4b-4330-a302-1f839cfc2fbc",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s0",
+      "target_entity": "tifosi",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi continuano a seguire la squadra nonostante i cambiamenti nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "continuano imperterriti a seguire la squadra col calcio che cambia.",
+          "start_sec": 0.199,
+          "end_sec": 93.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Tifosi",
+        "Seguire",
+        "Cambiamenti"
+      ],
+      "topic": "fan_behavior",
+      "subject": "tifosi",
+      "position": "I tifosi continuano a seguire la squadra nonostante i cambiamenti nel calcio.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "54de94a5-f14f-4725-b659-0858319e019b",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s1",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Di Lorenzo è sicuro riguardo ai prossimi impegni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alla fine ci sta poco a ricere le domande a Di Lorenzo non ve lo dico nemmeno.",
+          "start_sec": 91.32,
+          "end_sec": 153.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Di Lorenzo",
+      "position": "Di Lorenzo è sicuro riguardo ai prossimi impegni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "66ab3c06-2909-41bf-85eb-cef26e0e6a1c",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli potrebbe gestire le partite puntando sui rigori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha proprio detto buttarla ai rigori tanto non ci sono i supplementari.",
+          "start_sec": 91.32,
+          "end_sec": 153.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe gestire le partite puntando sui rigori.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "bdbacfad-c281-4bba-8602-5a6ea43dc3cf",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono problemi di infortuni nel Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avete messo le pezze a colori riguardo gli infortuni.",
+          "start_sec": 91.32,
+          "end_sec": 153.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Ci sono problemi di infortuni nel Napoli.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "b131d0f5-5815-4d50-b3d6-2bb4aa35ff2f",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Conte sottolinea l'importanza di difendere bene per attaccare meglio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dice bisogna difendere bene per poi attaccare meglio.",
+          "start_sec": 151,
+          "end_sec": 209.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "coaching",
+        "defense"
+      ],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte sottolinea l'importanza di difendere bene per attaccare meglio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d17c2890-0b44-4691-8d80-c5183346fa88",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è stato un avversario difficile per Conte negli ultimi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan è stata una spina nel fianco negli ultimi anni.",
+          "start_sec": 151,
+          "end_sec": 209.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rivalry",
+        "Milan",
+        "performance"
+      ],
+      "topic": "rivalry",
+      "subject": "Milan",
+      "position": "Il Milan è stato un avversario difficile per Conte negli ultimi anni.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "ace33ada-b16d-487c-9ee0-b2d357b6710d",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è un elemento chiave per la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è chiaro sul modulo e su Lukaku.",
+          "start_sec": 0.199,
+          "end_sec": 93.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lukaku",
+        "Modulo",
+        "Supercoppa"
+      ],
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku è un elemento chiave per la squadra.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f6302aa1-f326-45d3-914f-5de0ac64cdd1",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte sta adattando il suo approccio per gestire il team meglio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è chiaro sul modulo e su Lukaku.",
+          "start_sec": 0.199,
+          "end_sec": 93.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Conte",
+        "Leadership",
+        "Adattamento"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte sta adattando il suo approccio per gestire il team meglio.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "38baacd8-b08d-4d89-ae34-c38b8932174f",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto cinque partite consecutive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo fatto cinque parti vittorie consecutive.",
+          "start_sec": 91.32,
+          "end_sec": 153.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto cinque partite consecutive.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "e00cd51c-74cc-47f5-8739-c32443fb04f8",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha ottenuto cinque vittorie e due sconfitte di recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cinque vittorie e poi due sconfitte.",
+          "start_sec": 151,
+          "end_sec": 209.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "results",
+        "coaching"
+      ],
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte ha ottenuto cinque vittorie e due sconfitte di recente.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ce79b7b8-0a0f-4c67-b0bd-48dfc4097648",
+      "video_id": "3MXaeAB-YCo",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Conte esorta i suoi giocatori a continuare a lavorare con entusiasmo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dobbiamo continuare a lavorare con entusiasmo.",
+          "start_sec": 151,
+          "end_sec": 209.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "motivation",
+        "team spirit"
+      ],
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte esorta i suoi giocatori a continuare a lavorare con entusiasmo.",
+      "polarity": "positive"
+    }
+  ]
+}

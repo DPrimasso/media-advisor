@@ -1,0 +1,402 @@
+{
+  "video_id": "wWAbi2WEH6w",
+  "analyzed_at": "2026-03-31T15:55:32.071Z",
+  "metadata": {
+    "title": "Anche #Lang IN DISCUSSIONE x #MANNA 👀 #Intervista INTEGRALE completa 🔵 Corriere dello Sport",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-31T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza un'intervista di Manna, evidenziando le sue dichiarazioni su vari temi, in particolare sul miglioramento del reparto offensivo della squadra. L'autore sottolinea che Manna offre spunti sia confermativi che nuovi, e che la sua comunicazione è lontana dalla banalità. Tra le conclusioni chiave, emerge la necessità di cedere alcuni giocatori per fare spazio a nuovi innesti, con il presidente e la dirigenza attivamente impegnati nel mercato per migliorare la rosa senza compromettere gli equilibri esistenti.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "performance analysis",
+      "relevance": "medium"
+    },
+    {
+      "name": "motivazione giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "valore di mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "player potential",
+      "relevance": "low"
+    },
+    {
+      "name": "interview",
+      "relevance": "low"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "improvement",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "fecb915f-9f8f-45f5-ab71-51f6e69c0205",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s0",
+      "target_entity": "Manna",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Manna ha parlato di vari argomenti nell'intervista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Manna perché ha proprio parlato di qualsiasi cosa e ci ha detto delle cose che ci confermano cose che già avevamo intuito.",
+          "start_sec": 4.24,
+          "end_sec": 76.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interview",
+        "analysis"
+      ],
+      "topic": "media",
+      "subject": "Manna",
+      "position": "Manna ha parlato di vari argomenti nell'intervista.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "9debd86c-be78-41d6-9087-b0867477ca9e",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s0",
+      "target_entity": "Manna",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "L'intervista di Manna presenta informazioni sia confermative che nuove.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci ha detto delle cose che ci confermano cose che già avevamo intuito e anche delle cose nuove molto interessanti.",
+          "start_sec": 4.24,
+          "end_sec": 76.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "insight",
+        "disclosure"
+      ],
+      "topic": "media",
+      "subject": "Manna",
+      "position": "L'intervista di Manna presenta informazioni sia confermative che nuove.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "923d35f5-c3c0-43c9-b4e9-214d3e502c94",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s0",
+      "target_entity": "Corriere dello Sport",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'intervista integrale è disponibile solo acquistando il Corriere dello Sport.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'intervista integrale non si trova a meno che non compriate il Corriere dello sport.",
+          "start_sec": 4.24,
+          "end_sec": 76.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "news",
+        "accessibility"
+      ],
+      "topic": "media",
+      "subject": "Corriere dello Sport",
+      "position": "L'intervista integrale è disponibile solo acquistando il Corriere dello Sport.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "4a2eda04-056b-494e-8b94-b4e67df32283",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s0",
+      "target_entity": "Manna",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Manna non è banale nelle sue dichiarazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "conferma di non essere banale quando apre i rubinetti, quando parla ruota libera.",
+          "start_sec": 4.24,
+          "end_sec": 76.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "character",
+        "authenticity"
+      ],
+      "topic": "media",
+      "subject": "Manna",
+      "position": "Manna non è banale nelle sue dichiarazioni.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "abacfbc8-f00d-404d-ae96-87e60ae52cc4",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono riflessioni in corso per migliorare il reparto offensivo della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "già il fatto che se ne parli vuol dire che riflessioni in corso ci sono.",
+          "start_sec": 74.52,
+          "end_sec": 130.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "strategia",
+        "reparto offensivo"
+      ],
+      "topic": "market",
+      "subject": "squadra",
+      "position": "Ci sono riflessioni in corso per migliorare il reparto offensivo della squadra.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "4f908a8a-8ebe-47b0-b32b-a0edd4d84f9a",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s2",
+      "target_entity": "Lang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Lang ha avuto un impatto da riflettere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "evidentemente delle riflessioni su quello che è stato l'impatto di Lang sono in corso onestamente.",
+          "start_sec": 128.399,
+          "end_sec": 191.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "mercato"
+      ],
+      "topic": "market",
+      "subject": "Lang",
+      "position": "Lang ha avuto un impatto da riflettere.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "78d6e4c7-0722-4bef-af84-8a88715330f3",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s2",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "MIXED",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "Ci sono scenari aperti per migliorare la squadra a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Via a gennaio vogliamo migliorare la squadra e non peggiorarla ma gli scenari sono tutti aperti.",
+          "start_sec": 128.399,
+          "end_sec": 191.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "mercato"
+      ],
+      "topic": "market",
+      "subject": "squadra",
+      "position": "Ci sono scenari aperti per migliorare la squadra a gennaio.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "2df4614c-fb73-4951-98b4-24cf9b4bf500",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s2",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "La situazione di Raspadori sul mercato rimane incerta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vi ricordate la frase di cont pure Raspadori volete vendere? E che cacchio?",
+          "start_sec": 128.399,
+          "end_sec": 191.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "mercato"
+      ],
+      "topic": "market",
+      "subject": "Raspadori",
+      "position": "La situazione di Raspadori sul mercato rimane incerta.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "8103df2b-002e-4069-bce4-7af3256f4165",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra deve far uscire alcuni giocatori per farne entrare di nuovi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per far entrare della gente deve uscire della gente.",
+          "start_sec": 74.52,
+          "end_sec": 130.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "innesti"
+      ],
+      "topic": "market",
+      "subject": "squadra",
+      "position": "La squadra deve far uscire alcuni giocatori per farne entrare di nuovi.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "43c89d3c-977b-466b-a3ed-2a0ed972c2c6",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s1",
+      "target_entity": "presidente",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente sta lavorando sulla lista e sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il presidente e la di Chiavelli ci stanno lavorando",
+          "start_sec": 74.52,
+          "end_sec": 130.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finanza",
+        "gestione"
+      ],
+      "topic": "finance",
+      "subject": "presidente",
+      "position": "Il presidente sta lavorando sulla lista e sul mercato.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "3acced6a-71ba-44a7-a4e8-dbcf422d09c6",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci si aspetta un miglioramento del livello della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vorremmo migliorare il livello della squadra",
+          "start_sec": 74.52,
+          "end_sec": 130.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazioni",
+        "ambizioni"
+      ],
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "Ci si aspetta un miglioramento del livello della squadra.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "13ffb594-5137-4717-9457-57f76e7680c0",
+      "video_id": "wWAbi2WEH6w",
+      "segment_id": "s2",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Lucca è descritto come un giocatore che ci mette tempo per brillare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in carriera è sempre stato un diesel.",
+          "start_sec": 128.399,
+          "end_sec": 191.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Lucca",
+      "position": "Lucca è descritto come un giocatore che ci mette tempo per brillare.",
+      "polarity": "neutral"
+    }
+  ]
+}

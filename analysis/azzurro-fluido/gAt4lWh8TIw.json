@@ -1,0 +1,390 @@
+{
+  "video_id": "gAt4lWh8TIw",
+  "analyzed_at": "2026-03-31T15:41:10.082Z",
+  "metadata": {
+    "title": "ANALISI TOP tutte le SQUADRE di #SerieA 👀 BELLISSIMA o SCARSA? 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-09T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la situazione attuale delle squadre di Serie A, focalizzandosi in particolare su Napoli, Inter e Milan. La sua posizione principale è che il campionato è molto competitivo e le prestazioni delle milanesi sono contrastanti, con l'Inter attualmente in vantaggio in classifica. Tra le conclusioni chiave, si sottolinea che il Napoli non può essere dichiarato campione d'inverno a causa di una partita da recuperare, mentre il Milan potrebbe conquistare questo titolo se vincesse e l'Inter perdesse il recupero.",
+  "topics": [
+    {
+      "name": "competizione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione squadre",
+      "relevance": "medium"
+    },
+    {
+      "name": "mini classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "inter's performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "standings",
+      "relevance": "low"
+    },
+    {
+      "name": "lazio",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni squadra",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "06605496-9e41-47da-b06d-79038e7296e3",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter potrebbe vincere il match 2-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Facciamo No, no, bisogna essere precisi, prendere una decisione, dico. 2-1 Inter.",
+          "start_sec": 0.199,
+          "end_sec": 132.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "SerieA",
+        "Inter"
+      ],
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter potrebbe vincere il match 2-1.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "7106f54c-04d8-4c83-9be3-7ffb56344802",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s0",
+      "target_entity": "Gianfranco Tassella",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Gianfranco Tassella è stato introdotto nel video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "do il benvenuto a Gianfranco Tassella e a molti nuovi iscritti.",
+          "start_sec": 0.199,
+          "end_sec": 132.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "personalità"
+      ],
+      "topic": "media",
+      "subject": "Gianfranco Tassella",
+      "position": "Gianfranco Tassella è stato introdotto nel video.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "215c95c0-f2c6-4a66-9a08-1445ba383093",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli non può essere campione d'inverno poiché deve recuperare una partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi il Napoli non può essere campione d'inverno, questo lo sappiamo, perché pure se vincessimo potremmo andare a 41 e quindi l'Inter sta davanti.",
+          "start_sec": 130.64,
+          "end_sec": 226.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Napoli non può essere campione d'inverno poiché deve recuperare una partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "15969bd9-0039-4f71-879b-510e91b6d7f7",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan potrebbe diventare campione d'inverno se vince e l'Inter perde il recupero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E se il Milan vincesse e l'Inter dovesse perdere il recupero, cose entrambi un po' improbabili.",
+          "start_sec": 130.64,
+          "end_sec": 226.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe diventare campione d'inverno se vince e l'Inter perde il recupero.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "0e5cf8b3-db6c-4f42-981f-f56e191028a7",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La classifica avulsa è usata in caso di squadre a pari punti per determinare il campione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se si arrivasse a tre eh a pari punti si va a fare lo spareggio tra le squadre meglio posizionate secondo la classifica avulsa.",
+          "start_sec": 130.64,
+          "end_sec": 226.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "La classifica avulsa è usata in caso di squadre a pari punti per determinare il campione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "fc00d3cd-77ee-4da9-a479-4a8b18bf4d60",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter perde terreno nella classifica di campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perde con l'Udinese l'Inter e perde, come vedete, perde terreno.",
+          "start_sec": 328.8,
+          "end_sec": 421.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "standings",
+        "performance"
+      ],
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter perde terreno nella classifica di campionato.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "ef453eac-658f-49ee-af63-bd128e9f6313",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli potrebbe finire il match in parità o vincere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pareggio che secondo me il Napoli coltiverà 1-1 2-1.",
+          "start_sec": 0.199,
+          "end_sec": 132.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "SerieA",
+        "Napoli"
+      ],
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe finire il match in parità o vincere.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "edc9285b-ece0-4b24-bd81-da59837553a7",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Le milanesi stanno avendo prestazioni opposte in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché le milanesi si stanno comportando in modo opposto.",
+          "start_sec": 0.199,
+          "end_sec": 132.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "SerieA",
+        "Milan"
+      ],
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Le milanesi stanno avendo prestazioni opposte in campionato.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "3d7921ed-f41b-456c-b6d7-42377f9f57df",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non ha ancora pareggiato questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter non pareggia, zero pareggi così come la Roma",
+          "start_sec": 224.959,
+          "end_sec": 330.47900000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Inter",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter non ha ancora pareggiato questa stagione.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "ce4a22c7-08e1-4bf8-be8a-bbd9d47427a6",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan continua a vincere nelle partite importanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "win tutti gli scontri diretti che può vincere.",
+          "start_sec": 328.8,
+          "end_sec": 421.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "tactics"
+      ],
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan continua a vincere nelle partite importanti.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d82ce3b8-e6f9-4dde-8af6-6139528c384b",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha perso contro la Juventus in una partita significativa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter cade con la Juventus.",
+          "start_sec": 328.8,
+          "end_sec": 421.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "rivalry"
+      ],
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "L'Inter ha perso contro la Juventus in una partita significativa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "24df0bf9-5d5e-4c1f-baec-acbdbb6ebb46",
+      "video_id": "gAt4lWh8TIw",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è attualmente più avanti in classifica rispetto al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter sta davanti.",
+          "start_sec": 130.64,
+          "end_sec": 226.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è attualmente più avanti in classifica rispetto al Napoli.",
+      "polarity": "neutral"
+    }
+  ]
+}

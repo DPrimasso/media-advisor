@@ -1,0 +1,378 @@
+{
+  "video_id": "ZS4zN_FoFE4",
+  "analyzed_at": "2026-03-31T14:50:34.597Z",
+  "metadata": {
+    "title": "#McTominay stringe i denti per #Napoli #Roma, ma gli altri?",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-13T21:58:09+00:00"
+  },
+  "summary": "Nel video, l'opinionista Valerio Fluido analizza le condizioni attuali del Napoli e della Roma in vista delle prossime partite, con particolare attenzione all'infortunio di McTominay e alle prestazioni deludenti di Malen. Fluido esprime una certa fiducia nel recupero di McTominay, sottolineando che il Napoli gioca un match a settimana, il che potrebbe favorire il suo ritorno al 100%. Inoltre, l'autore menziona le difficoltà della Roma, suggerendo che la squadra deve affrontare delle lacune evidenti. In conclusione, si evidenzia la necessità di adattamenti tattici da parte del Napoli per affron",
+  "topics": [
+    {
+      "name": "difesa",
+      "relevance": "high"
+    },
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "analisi",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "medium"
+    },
+    {
+      "name": "napoli",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori chiave",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "6aac0cf1-5231-4323-905d-449368a263ea",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha già mostrato delle lacune nelle partite precedenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma l'abbiamo vista già, quindi potremmo anche basarci su quello.",
+          "start_sec": 38.48,
+          "end_sec": 79.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Roma",
+        "lacune"
+      ],
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma ha già mostrato delle lacune nelle partite precedenti.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "36811500-00b6-4a73-a507-b902177ca126",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli gioca un match a settimana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli gioca un match a settimana a tempo poi di tornare al 100% in settimana.",
+          "start_sec": 76.92,
+          "end_sec": 113.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli gioca un match a settimana.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "42dd6a26-3f6f-47d0-a019-24735353587e",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La società non sta seguendo i ragionamenti dell'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sono ragionamenti che sta facendo la società che sta facendo Conte.",
+          "start_sec": 76.92,
+          "end_sec": 113.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "La società non sta seguendo i ragionamenti dell'opinionista.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "6bcd8695-f141-4593-b749-7fc199e4b53a",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "PROBABLE",
+      "claim_text": "McTominay potrebbe ancora stringere i denti come ha fatto in passato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come Mctomini ha stretto i denti prima e come potrebbe stringere i denti anche adesso.",
+          "start_sec": 76.92,
+          "end_sec": 113.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "injury",
+      "subject": "McTominay",
+      "position": "McTominay potrebbe ancora stringere i denti come ha fatto in passato.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "a64daec1-83b3-44e9-bbbd-313dd958a4fa",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s3",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay ha un'infiammazione tendinea.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci hanno detto infiammazione. Un tendine che si infiamma dietro al culo.",
+          "start_sec": 111.52,
+          "end_sec": 151,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infiammazione",
+        "tendine"
+      ],
+      "topic": "injury",
+      "subject": "McTominay",
+      "position": "McTominay ha un'infiammazione tendinea.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "df965daa-0f68-4ce0-baff-a4b021a9c4d0",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay ha un infortunio che potrebbe complicare la sua prestazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se è infiammato, se si fa male, non è che c'è fiducia poim.",
+          "start_sec": 76.92,
+          "end_sec": 113.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "injury",
+      "subject": "McTominay",
+      "position": "McTominay ha un infortunio che potrebbe complicare la sua prestazione.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "bf0979da-c71a-4c84-a87d-e764b05bac94",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s0",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Pisa-Milan è in bilico e può succedere qualsiasi cosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una partita che può succedere qualsiasi cosa.",
+          "start_sec": 4,
+          "end_sec": 41.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Pisa",
+      "position": "La partita Pisa-Milan è in bilico e può succedere qualsiasi cosa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "e254089a-5e9a-4d1c-b885-8f604ecee622",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Pisa-Milan è descritta come una partita comunque in bilico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una partita comunque in bilico,",
+          "start_sec": 4,
+          "end_sec": 41.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Pisa-Milan è descritta come una partita comunque in bilico.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "546de676-d4b5-419c-9626-d1c66c115d50",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s0",
+      "target_entity": "audience",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista si preoccupa di non lasciare il pubblico senza video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non li voglio lasciare senza video,",
+          "start_sec": 4,
+          "end_sec": 41.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "fan_behavior",
+      "subject": "audience",
+      "position": "L'opinionista si preoccupa di non lasciare il pubblico senza video.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "466f5212-0518-47d9-b8e8-f382cbfc11d2",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s0",
+      "target_entity": "audience",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un riferimento a San Valentino riguardo l'impegno dell'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche perché domani è San Valentino",
+          "start_sec": 4,
+          "end_sec": 41.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "fan_behavior",
+      "subject": "audience",
+      "position": "C'è un riferimento a San Valentino riguardo l'impegno dell'opinionista.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "90dcce6a-8c86-496b-bedf-2af8d6536051",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s1",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Malen è stato descritto come molto deludente nelle recenti prestazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malen, male, male male proprio.",
+          "start_sec": 38.48,
+          "end_sec": 79.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Malen",
+        "deludente"
+      ],
+      "topic": "performance",
+      "subject": "Malen",
+      "position": "Malen è stato descritto come molto deludente nelle recenti prestazioni.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "2c932dcb-ee6b-43e7-9ba7-c0ae2fe4e39c",
+      "video_id": "ZS4zN_FoFE4",
+      "segment_id": "s3",
+      "target_entity": "Gilmour",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Non si hanno informazioni attuali su Gilmour.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gilmour che fine fa?",
+          "start_sec": 111.52,
+          "end_sec": 151,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assenza",
+        "informazioni"
+      ],
+      "topic": "market",
+      "subject": "Gilmour",
+      "position": "Non si hanno informazioni attuali su Gilmour.",
+      "polarity": "negative"
+    }
+  ]
+}

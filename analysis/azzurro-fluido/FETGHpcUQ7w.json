@@ -1,0 +1,377 @@
+{
+  "video_id": "FETGHpcUQ7w",
+  "analyzed_at": "2026-03-31T15:49:31.940Z",
+  "metadata": {
+    "title": "La NON #CONFERENZA di #Lazio #Napoli 👀 Formazioni, Piano Gara 🔵 Pronostici #SerieA",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-03T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza la partita di Serie A tra Napoli e Lazio, sottolineando l'interesse tattico dell'incontro. La sua posizione principale è che entrambe le squadre presentano formazioni interessanti, con la Lazio che potrebbe schierare giocatori come Provedel e Romagnoli, mentre il Napoli ha pochi dubbi di formazione. Tra le conclusioni chiave, si evidenzia la presenza di Tavares al centro di trattative di mercato e la possibilità di infortuni dell'ultimora che potrebbero influenzare le scelte finali delle squadre.",
+  "topics": [
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "successi",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan engagement",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione lazio",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "forma",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "22184c11-85f9-43c5-a321-ccf0a0bb8709",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s0",
+      "target_entity": "supporter",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista invita i nuovi iscritti a condividere la passione per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi fa molto piacere condividere la passione che abbiamo per il Napoli,",
+          "start_sec": 2.32,
+          "end_sec": 78.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "fan_behavior",
+      "subject": "supporter",
+      "position": "L'opinionista invita i nuovi iscritti a condividere la passione per il Napoli.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "31e873c6-a01a-45e6-9382-1f4b0e60c8e2",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La formazione della Lazio includerà Provedel, Malusic, Hila e Romagnoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Partirei dalle dalle indiscrezioni di formazione. Partiamo da Fantacalcio che porta la Lazio con Provedel, Malusic, Hila, uno dei miei preferiti, fortissimo. Romagnoli.",
+          "start_sec": 76.439,
+          "end_sec": 112.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "Lazio"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Lazio",
+      "position": "La formazione della Lazio includerà Provedel, Malusic, Hila e Romagnoli.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "0821a115-193a-458d-ae80-9e2e1c29cd67",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s1",
+      "target_entity": "fantacalcistica",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "È iniziata la giornata fantacalcistica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Adesso che è iniziata la giornata fantacalcistica, vi posso dire tutti i bonus che faranno contro di me.",
+          "start_sec": 76.439,
+          "end_sec": 112.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fantacalcio"
+      ],
+      "topic": "fan_behavior",
+      "subject": "fantacalcistica",
+      "position": "È iniziata la giornata fantacalcistica.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f0f97710-edc0-422c-9752-0a0984b63c29",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s2",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha fatto un inizio di campionato deludente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sarri non piace e ha ragione anche perché ha fatto un inizio di campionato.",
+          "start_sec": 109.079,
+          "end_sec": 175.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Sarri",
+      "position": "Sarri ha fatto un inizio di campionato deludente.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "ba09480d-6c74-4925-8e46-6f60654f5767",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s2",
+      "target_entity": "Basic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Basic sta giocando molto bene secondo Falco Nero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...è stato riesumato ed è uno dei giocatori ha detta anche io ascolto molto Falco Nero e dice che insomma sta giocando molto bene...",
+          "start_sec": 109.079,
+          "end_sec": 175.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Basic",
+      "position": "Basic sta giocando molto bene secondo Falco Nero.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "11603f6a-ca0b-4f28-a220-1557d147a10a",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s2",
+      "target_entity": "Cancellieri",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "POSSIBLE",
+      "claim_text": "Cancellieri è in dubbio per la partita e potrebbe essere sostituito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...portano in dubbio Cancellieri e se non Cancellieri è Issaen che noi conosciamo...",
+          "start_sec": 109.079,
+          "end_sec": 175.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "lineup_prediction",
+      "subject": "Cancellieri",
+      "position": "Cancellieri è in dubbio per la partita e potrebbe essere sostituito.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "f1b9ff91-86b0-4624-8e38-3b2156aeb0af",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Napoli contro Lazio è interessante a livello tattico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la partita che è molto interessante a livello tattico.",
+          "start_sec": 2.32,
+          "end_sec": 78.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "La partita Napoli contro Lazio è interessante a livello tattico.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "44869df3-5400-460d-85e7-bad390d225fd",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha giocato ieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "visto che ieri ha giocato il Milan,",
+          "start_sec": 2.32,
+          "end_sec": 78.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha giocato ieri.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "bcf43e57-3663-499a-9ffa-83b5e01e4530",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s0",
+      "target_entity": "infortunio",
+      "entity_type": "other",
+      "dimension": "injury",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Potrebbero esserci infortuni dell'ultimora nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un infortunio last minute, che può capitare",
+          "start_sec": 2.32,
+          "end_sec": 78.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "injury",
+      "subject": "infortunio",
+      "position": "Potrebbero esserci infortuni dell'ultimora nella partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "1add7ed4-027c-4694-a04c-148bfc86ffae",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s1",
+      "target_entity": "Tavares",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Tavares è al centro di trattative di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tavares al centro anche di trattative di mercato.",
+          "start_sec": 76.439,
+          "end_sec": 112.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Tavares"
+      ],
+      "topic": "market",
+      "subject": "Tavares",
+      "position": "Tavares è al centro di trattative di mercato.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "4e1d2491-fb03-4a19-bd1c-a6859b8e2524",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s1",
+      "target_entity": "Hila",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Hila è uno dei giocatori preferiti dell'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno dei miei preferiti, fortissimo.",
+          "start_sec": 76.439,
+          "end_sec": 112.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatori",
+        "Hila"
+      ],
+      "topic": "performance",
+      "subject": "Hila",
+      "position": "Hila è uno dei giocatori preferiti dell'opinionista.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "8af52444-21b5-4387-a375-77900c27a604",
+      "video_id": "FETGHpcUQ7w",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "POSSIBLE",
+      "claim_text": "Lazio dovrebbe schierare Luca Pellegrini in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Comunque dovrebbe giocare Luca Pellegrini.",
+          "start_sec": 109.079,
+          "end_sec": 175.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "lineup_prediction",
+      "subject": "Lazio",
+      "position": "Lazio dovrebbe schierare Luca Pellegrini in campo.",
+      "polarity": "positive"
+    }
+  ]
+}

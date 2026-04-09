@@ -1,0 +1,418 @@
+{
+  "video_id": "n4cs_ZhCUGY",
+  "analyzed_at": "2026-03-31T11:13:51.155799+00:00",
+  "metadata": {
+    "title": "#Romano: #RISCATTO di #HOJLUND e situazione INFORTUNI 👀 #Rrahmani 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "#Romano: #RISCATTO di #HOJLUND e situazione INFORTUNI 👀 #Rrahmani 🔵 — ",
+  "topics": [
+    {
+      "name": "riscatto",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "audience engagement",
+      "relevance": "low"
+    },
+    {
+      "name": "campo",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "calcio fluido",
+      "relevance": "low"
+    },
+    {
+      "name": "sconfitta Juve",
+      "relevance": "low"
+    },
+    {
+      "name": "opinione su Atalanta",
+      "relevance": "low"
+    },
+    {
+      "name": "giudizio su media",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "valutazione giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "recupero",
+      "relevance": "low"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    },
+    {
+      "name": "posizioni",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "analisi Atalanta",
+      "relevance": "low"
+    },
+    {
+      "name": "attaccanti",
+      "relevance": "low"
+    },
+    {
+      "name": "situazione giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "riscatto",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Hojlund",
+      "position": "Hojlund ha bisogno di ritrovare ritmo di gioco.",
+      "polarity": "neutral",
+      "claim_id": "eb54a97b-0521-49dd-983e-61356f51237f",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s0",
+      "target_entity": "Hojlund",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Hojlund ha bisogno di ritrovare ritmo di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mettere minuti nelle gambe quelli là che stanno tornando",
+          "start_sec": 2.879,
+          "end_sec": 44.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Bodoglint",
+      "position": "Il campo di Bodoglint è in condizioni inaccettabili e rischia infortuni.",
+      "polarity": "negative",
+      "claim_id": "ef0d4206-e49a-42c0-92ef-9f9723a34c12",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s1",
+      "target_entity": "Bodoglint",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il campo di Bodoglint è in condizioni inaccettabili e rischia infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il campo tutto storto che la neve poi sono passati con le ruspe e mo seè un campo ondulato",
+          "start_sec": 42.2,
+          "end_sec": 87.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Bodoglint",
+      "position": "Il campo ondulato di Bodoglint influisce sulla qualità del gioco.",
+      "polarity": "neutral",
+      "claim_id": "b813e0d9-21ab-4812-9520-e39fc3473098",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s1",
+      "target_entity": "Bodoglint",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il campo ondulato di Bodoglint influisce sulla qualità del gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un campo ondulato, quindi rischio infortuni, è una roba inaccettabile onestamente",
+          "start_sec": 42.2,
+          "end_sec": 87.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'opinionista ha menzionato l'Atalanta senza averla vista di persona.",
+      "polarity": "neutral",
+      "claim_id": "1204fa9b-9405-4452-9348-055db62fdac1",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'opinionista ha menzionato l'Atalanta senza averla vista di persona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha parlato anche dell'Atalanta che non ho potuto vedere e quindi io mi fido",
+          "start_sec": 85.759,
+          "end_sec": 120.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Wesley",
+      "position": "Wesley è menzionato come un giocatore valutato positivamente.",
+      "polarity": "neutral",
+      "claim_id": "70d11dd6-032b-4654-a6c9-896a900b41dd",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s3",
+      "target_entity": "Wesley",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Wesley è menzionato come un giocatore valutato positivamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la situazione Wesley, Gutierrez loro la fanno vedere molto bene.",
+          "start_sec": 117.399,
+          "end_sec": 153.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Open Bar",
+      "position": "Bordo Cam è giudicata superiore a Open Bar.",
+      "polarity": "negative",
+      "claim_id": "c510129c-3a15-4a82-92c6-bf3ec21c29ec",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s2",
+      "target_entity": "Open Bar",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bordo Cam è giudicata superiore a Open Bar.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bordo Cam, che è molto superiore a Open Bar",
+          "start_sec": 85.759,
+          "end_sec": 120.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Open Var",
+      "position": "Bordo Cam mostra episodi arbitrali in modo migliore rispetto a Open Var.",
+      "polarity": "neutral",
+      "claim_id": "c2b045f4-d0b9-4553-ae7d-42fa7623aea3",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s2",
+      "target_entity": "Open Var",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Bordo Cam mostra episodi arbitrali in modo migliore rispetto a Open Var.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fanno vedere delle cose che Open Var",
+          "start_sec": 85.759,
+          "end_sec": 120.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Hojlund",
+      "position": "Hojlund è al centro dell'attenzione per la questione infortuni.",
+      "polarity": "negative",
+      "claim_id": "b1d0b5df-76f9-4568-984a-754d7242f2f1",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s3",
+      "target_entity": "Hojlund",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Hojlund è al centro dell'attenzione per la questione infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "RISCATTO di HOJLUND e situazione INFORTUNI.",
+          "start_sec": 117.399,
+          "end_sec": 153.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Hojlund",
+      "position": "Hojlund è vicino al riscatto.",
+      "polarity": "positive",
+      "claim_id": "d151cd97-bee0-4631-9171-1cca1438cc2a",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s0",
+      "target_entity": "Hojlund",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Hojlund è vicino al riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la notizia che Fabrizio Romano ha parlato del riscatto di Eund",
+          "start_sec": 2.879,
+          "end_sec": 44.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli sta gestendo infortuni con amichevoli.",
+      "polarity": "positive",
+      "claim_id": "41bcbd6e-b3b5-41e7-b4bf-06457e453dc1",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta gestendo infortuni con amichevoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è stata un'amichevole del Napoli perché bisogna mettere minuti nelle gambe",
+          "start_sec": 2.879,
+          "end_sec": 44.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "audience",
+      "position": "L'audience apprezza il nuovo canale.",
+      "polarity": "positive",
+      "claim_id": "be6d9ed3-db96-44dd-8e2f-9758c38e36ee",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s0",
+      "target_entity": "audience",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'audience apprezza il nuovo canale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ringrazio tutti voi che siete veramente molto bellini e che si vi siete fiondati sul nuovo canale",
+          "start_sec": 2.879,
+          "end_sec": 44.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juve ha subito una sconfitta recente.",
+      "polarity": "negative",
+      "claim_id": "d3caa3ba-eae6-42c7-a649-f0d2b4c57b4b",
+      "video_id": "n4cs_ZhCUGY",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve ha subito una sconfitta recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha postato un video dove ha parlato della Champions e la Juve io l'ho l'ho coperta, I covered la sconfitta della Juve sull'altro canale",
+          "start_sec": 85.759,
+          "end_sec": 120.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

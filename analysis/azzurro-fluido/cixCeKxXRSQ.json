@@ -1,0 +1,402 @@
+{
+  "video_id": "cixCeKxXRSQ",
+  "analyzed_at": "2026-03-31T16:03:58.703Z",
+  "metadata": {
+    "title": "#Mainoo si, #Goretzka no 👀 Mercato e Infortunati del Napoli 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-26T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute del mercato e degli infortuni del Napoli, con particolare attenzione alla situazione di Mainoo e Lukaku. L'autore sottolinea che, sebbene ci siano ottimismi sul ritorno di alcuni giocatori infortunati come De Bruin, non ci sono certezze sui tempi di recupero, in particolare per Lukaku, il quale potrebbe impiegare ancora un mese per tornare in forma. Inoltre, il video celebra la vittoria della Supercoppa e menziona la pizzeria Miramonti, creando un collegamento con la comunità dei tifosi.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "tactics",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "injury",
+      "relevance": "low"
+    },
+    {
+      "name": "market",
+      "relevance": "low"
+    },
+    {
+      "name": "calendario",
+      "relevance": "low"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "c1786549-ffe2-414f-a1f1-0397bd9d6c42",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s0",
+      "target_entity": "Mainoo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrizio Romano ha fornito nuovi dettagli su Mainoo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabrizio Romano ci dà delle delle nuovi dettagli per quanto riguarda Maino.",
+          "start_sec": 2.399,
+          "end_sec": 109.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ],
+      "topic": "market",
+      "subject": "Mainoo",
+      "position": "Fabrizio Romano ha fornito nuovi dettagli su Mainoo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "2465607c-1f0b-41fd-b035-13d824773479",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha un infortunio e non ha minuti nelle gambe.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché Conti ha detto in questo minuto non ha neanche minuti nelle gambe.",
+          "start_sec": 106.68,
+          "end_sec": 201.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "Lukaku"
+      ],
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku ha un infortunio e non ha minuti nelle gambe.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "27db8658-55f0-468a-921b-afc00b6129e7",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "PROBABLE",
+      "claim_text": "Lukaku potrebbe giocare solo degli spezzoni e non da titolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Secondo me può giocare dei minuti, può fare degli spezzoni. Ero convinto che se la super... magari Conte l'avrebbe anche buttato dentro.",
+          "start_sec": 106.68,
+          "end_sec": 201.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Lukaku"
+      ],
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku potrebbe giocare solo degli spezzoni e non da titolare.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "d2e7442b-f275-424c-aa71-34cba011e5cb",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci vorrà ancora un mese per vedere Lukaku in forma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per me ci vuole ancora un mes. Secondo me non ne ho idea, secondo me ci vuole ancora un mesetto per cominciare a vedere.",
+          "start_sec": 106.68,
+          "end_sec": 201.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "Lukaku"
+      ],
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Ci vorrà ancora un mese per vedere Lukaku in forma.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "8e692211-c0a6-45fd-9afd-45ea7f4c6ceb",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s2",
+      "target_entity": "De Bruine",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "PROBABLE",
+      "claim_text": "De Bruine potrebbe tornare a disposizione all'inizio di febbraio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi si parla di inizio febbraio per rivederlo a disposizione prima allenamento, poi partita",
+          "start_sec": 199.44,
+          "end_sec": 296.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "ritorno",
+        "De Bruine"
+      ],
+      "topic": "injury",
+      "subject": "De Bruine",
+      "position": "De Bruine potrebbe tornare a disposizione all'inizio di febbraio.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "85273ee5-cb3d-4d9d-bb14-305881fb1973",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s2",
+      "target_entity": "De Bruine",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono considerazioni sulla vendita di De Bruine.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho detto che dobbiamo vendere De Bruine e se ho detto così va bene, io sono in lacrime",
+          "start_sec": 199.44,
+          "end_sec": 296.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "vendita",
+        "De Bruine"
+      ],
+      "topic": "market",
+      "subject": "De Bruine",
+      "position": "Ci sono considerazioni sulla vendita di De Bruine.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "bf763c84-e7cc-49cf-9c54-0991e260ee2d",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s2",
+      "target_entity": "De Bruine",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "PROBABLE",
+      "claim_text": "De Bruine potrebbe avere un finale di stagione entusiasmante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io voglio che torni e faccia un finale di stagione entusiasmante, magari più vicino alla punta",
+          "start_sec": 199.44,
+          "end_sec": 296.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazioni",
+        "finale stagione",
+        "De Bruine"
+      ],
+      "topic": "performance",
+      "subject": "De Bruine",
+      "position": "De Bruine potrebbe avere un finale di stagione entusiasmante.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a1945235-1d32-4ef9-b459-a092cd72def1",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s0",
+      "target_entity": "Luca Manzi",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il video è dedicato alla vittoria della Supercoppa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dedicamo proprio la vittoria della Supercoppa a Luca Manzi.",
+          "start_sec": 2.399,
+          "end_sec": 109.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Supercoppa"
+      ],
+      "topic": "performance",
+      "subject": "Luca Manzi",
+      "position": "Il video è dedicato alla vittoria della Supercoppa.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "533fbf43-ba48-49d4-9188-e2ac132abc6e",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s2",
+      "target_entity": "Meret",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Meret non tornerà per la partita contro la Cremonese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Meret non torna per la Cremonese, appuntamento al nuovo anno",
+          "start_sec": 199.44,
+          "end_sec": 296.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "Meret",
+        "Cremonese"
+      ],
+      "topic": "injury",
+      "subject": "Meret",
+      "position": "Meret non tornerà per la partita contro la Cremonese.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "415c1889-8024-40fd-8200-a2a61dc90cad",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s0",
+      "target_entity": "Mainoo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non c'è certezza sul ritorno di Mainoo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non c'è sicurezza su quando tornano.",
+          "start_sec": 2.399,
+          "end_sec": 109.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortuni"
+      ],
+      "topic": "injury",
+      "subject": "Mainoo",
+      "position": "Non c'è certezza sul ritorno di Mainoo.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "d009f62f-60e7-431d-8805-a1b935497d99",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s0",
+      "target_entity": "Miramonti",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il video menziona la pizzeria Miramonti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alla e alla pizzeria Miramonti.",
+          "start_sec": 2.399,
+          "end_sec": 109.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Supercoppa"
+      ],
+      "topic": "performance",
+      "subject": "Miramonti",
+      "position": "Il video menziona la pizzeria Miramonti.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "1da57092-477d-4540-bd37-5cde3fb0aab3",
+      "video_id": "cixCeKxXRSQ",
+      "segment_id": "s1",
+      "target_entity": "De Bruin",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "De Bruin è uno degli infortunati che dovrebbe tornare presto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "torna De Bruin",
+          "start_sec": 106.68,
+          "end_sec": 201.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "De Bruin"
+      ],
+      "topic": "injury",
+      "subject": "De Bruin",
+      "position": "De Bruin è uno degli infortunati che dovrebbe tornare presto.",
+      "polarity": "neutral"
+    }
+  ]
+}

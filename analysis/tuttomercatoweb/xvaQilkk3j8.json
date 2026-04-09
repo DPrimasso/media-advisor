@@ -1,0 +1,362 @@
+{
+  "video_id": "xvaQilkk3j8",
+  "analyzed_at": "2026-04-07T15:51:24.398869+00:00",
+  "metadata": {
+    "title": "TMWRadio - Editoriale De Paola:\" Campionato riaperto, MIlan e Napoli sullo stesso piano\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di commento calcistico analizza la situazione attuale del campionato di Serie A, evidenziando come il Milan e il Napoli siano ora considerati sullo stesso piano, mentre l'Inter sta attraversando un momento difficile. L'autore, Paolo De Paola, sottolinea che l'Inter ha mostrato problemi nella fase difensiva e nell'atteggiamento, suggerendo che la squadra potrebbe aver sviluppato una paura di vincere. Nonostante il vantaggio cospicuo in classifica, la recente performance dell'Inter ha riaperto il campionato, offrendo nuove speranze alle inseguitrici.",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "partita",
+      "relevance": "high"
+    },
+    {
+      "name": "campionato",
+      "relevance": "medium"
+    },
+    {
+      "name": "concorrenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan e il Napoli sono considerati sullo stesso piano.",
+      "polarity": "neutral",
+      "claim_id": "9b191abc-2f0b-4b1f-903c-9e1abdac8286",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan e il Napoli sono considerati sullo stesso piano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Campionato riaperto, Milan e Napoli sullo stesso piano",
+          "start_sec": 0.04,
+          "end_sec": 31.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha avuto problemi nella fase difensiva e nell'atteggiamento della squadra.",
+      "polarity": "negative",
+      "claim_id": "9f7c58f7-8dfb-46ea-9e83-b05eeb0ce867",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avuto problemi nella fase difensiva e nell'atteggiamento della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è qualcosa nella fase difensiva, c'è qualcosa nell'atteggiamento della squadra.",
+          "start_sec": 59.519,
+          "end_sec": 91.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha sbloccato la partita con la Fiorentina subito.",
+      "polarity": "neutral",
+      "claim_id": "ddcb0a85-1c4b-4c84-b993-111fd0a2d232",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha sbloccato la partita con la Fiorentina subito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter con l'Atalanta ci ha messo una mezz'ora a sbloccarla, con la Fiorentina l'ha sbloccata subito.",
+          "start_sec": 88.88,
+          "end_sec": 121.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter sembra avere paura di vincere nelle partite recenti.",
+      "polarity": "negative",
+      "claim_id": "14c86239-3b00-43d5-9da2-1ec6d9bc9c68",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sembra avere paura di vincere nelle partite recenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra una, diciamo, un un atteggiamento dovuto a una condizione che non è più quella smagliante di prima",
+          "start_sec": 120.36,
+          "end_sec": 151.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Turam",
+      "position": "Potrebbe esserci una cessione di Turam a fine stagione.",
+      "polarity": "neutral",
+      "claim_id": "ecb59cd6-9c87-40a1-9971-e3a4194a09cf",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s4",
+      "target_entity": "Turam",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Potrebbe esserci una cessione di Turam a fine stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si parla addirittura di una sua possibile cessione a fine stagione",
+          "start_sec": 120.36,
+          "end_sec": 151.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Di Marco",
+      "position": "Di Marco non mostra la freschezza necessaria nelle ultime partite.",
+      "polarity": "negative",
+      "claim_id": "e6a917ec-c8fc-4c44-9b38-28cff05503ba",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s4",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco non mostra la freschezza necessaria nelle ultime partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ha quella freschezza, non ce la faceva più al termine della",
+          "start_sec": 120.36,
+          "end_sec": 151.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Barella",
+      "position": "Barella ha penalizzato la prova dell'Inter con un errore marchiano.",
+      "polarity": "negative",
+      "claim_id": "26627c83-a979-49b0-9db6-c58877cf38ce",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s5",
+      "target_entity": "Barella",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Barella ha penalizzato la prova dell'Inter con un errore marchiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un errore marchiano così chiaramente penalizza la sua prova e penalizza la prova dell'Inter",
+          "start_sec": 149.48,
+          "end_sec": 178.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Milan",
+      "position": "Il campionato è riaperto per Milan e Napoli.",
+      "polarity": "neutral",
+      "claim_id": "5f6b4202-b126-4995-9da6-9982611a6183",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il campionato è riaperto per Milan e Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlare di campionato riaperto.",
+          "start_sec": 59.519,
+          "end_sec": 91.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Turam",
+      "position": "Turam non è più il giocatore smagliante di prima.",
+      "polarity": "negative",
+      "claim_id": "736b907f-4671-4917-afa3-2adcf1a07bfe",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s4",
+      "target_entity": "Turam",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Turam non è più il giocatore smagliante di prima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è più il giocatore di prima",
+          "start_sec": 120.36,
+          "end_sec": 151.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "La stanchezza si è vista nell'atteggiamento dell'Inter.",
+      "polarity": "negative",
+      "claim_id": "69f5525a-46e5-4a1c-94d3-c00a78646dcd",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s5",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La stanchezza si è vista nell'atteggiamento dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la stanchezza è emersa. Si è vista anche nell'atteggiamento di Barella",
+          "start_sec": 149.48,
+          "end_sec": 178.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter è diventata una squadra abbordabile.",
+      "polarity": "negative",
+      "claim_id": "1929956b-325d-45a8-b0cf-4e425470cb68",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s6",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è diventata una squadra abbordabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Beh, insomma, chiaramente diventa una squadra abbordabile",
+          "start_sec": 175.239,
+          "end_sec": 205.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha un vantaggio cospicuo in classifica.",
+      "polarity": "neutral",
+      "claim_id": "7ff2e145-0239-4d32-a146-5970ecdc76f1",
+      "video_id": "xvaQilkk3j8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha un vantaggio cospicuo in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il vantaggio è ancora cospicuo.",
+          "start_sec": 59.519,
+          "end_sec": 91.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

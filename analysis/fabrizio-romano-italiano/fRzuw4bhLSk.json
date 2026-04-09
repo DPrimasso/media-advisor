@@ -1,0 +1,346 @@
+{
+  "video_id": "fRzuw4bhLSk",
+  "analyzed_at": "2026-04-08T10:13:50.443826+00:00",
+  "metadata": {
+    "title": "🚨 MILAN: ECCO IL COLPO, TUTTI I DETTAGLI! VLAHOVIC: GLI AGGIORNAMENTI! ACERBI VA, MCTOMINAY…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-03-29T14:39:59+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti di mercato del Milan, evidenziando l'acquisto di Andrei Kostic, un giovane talento di 19 anni, considerato un colpo interessante per il futuro della squadra. L'autore sottolinea come il Milan abbia lavorato per chiudere l'affare, partendo da offerte iniziali nel dicembre 2025 e arrivando a un accordo di 3,5 milioni di euro più bonus. Inoltre, si accenna a possibili sviluppi per Dusan Vlahovic, McTominay e Acerbi, con quest'ultimo che potrebbe trasferirsi in Arabia. La conclusione chiave è che il Milan sta pianificando strategicamente",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "negoziazione",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha iniziato le prime offerte per Costic a dicembre 2025.",
+      "polarity": "neutral",
+      "claim_id": "3b7bd6a5-9af7-461c-8208-339d59f316a6",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha iniziato le prime offerte per Costic a dicembre 2025.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan eh inizia a inviare le prime offerte al Parisan eh intorno a fine anno.",
+          "start_sec": 75.0,
+          "end_sec": 118.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Costic",
+      "position": "Costic ha 19 anni ed è considerato per il futuro del Milan.",
+      "polarity": "neutral",
+      "claim_id": "6d97123d-34d2-4304-960b-2e21592974ca",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s2",
+      "target_entity": "Costic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Costic ha 19 anni ed è considerato per il futuro del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo ragazzo eh di 19 anni, quindi non è non è giovanissimo.",
+          "start_sec": 75.0,
+          "end_sec": 118.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Partisan",
+      "position": "Il Partisan chiedeva più di 10 milioni per Costic.",
+      "polarity": "neutral",
+      "claim_id": "43a92e4a-18e2-48c6-beff-eb8b7c5e5538",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s2",
+      "target_entity": "Partisan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Partisan chiedeva più di 10 milioni per Costic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ehm il Partisan chiedeva quasi più di 10",
+          "start_sec": 75.0,
+          "end_sec": 118.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha definito l'arrivo di Andrei Kostic.",
+      "polarity": "positive",
+      "claim_id": "28c9e939-dc18-428f-bb69-32ff7aa0be2e",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha definito l'arrivo di Andrei Kostic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan nelle ultime ore ha definito l'arrivo di un calciatore.",
+          "start_sec": 32.32,
+          "end_sec": 77.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan non ha chiuso l'acquisto di Costic.",
+      "polarity": "neutral",
+      "claim_id": "afb3bf2e-b395-4c22-a497-0fa8edf30bff",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non ha chiuso l'acquisto di Costic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alla fine il Club Rossonero non ha chiuso l'acquisto di Costic.",
+          "start_sec": 114.56,
+          "end_sec": 154.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan non voleva spendere oltre i cinque milioni più bonus.",
+      "polarity": "neutral",
+      "claim_id": "4eb067e1-f242-4dfb-b9d2-23c83774c28e",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non voleva spendere oltre i cinque milioni più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh il Milan non voleva spingersi oltre i cinque più bonus.",
+          "start_sec": 114.56,
+          "end_sec": 154.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan stava cercando di definire un attaccante all'ultimo giorno di mercato.",
+      "polarity": "neutral",
+      "claim_id": "c6e25f5f-ceef-4e18-979d-a7ea4b0b73b6",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan stava cercando di definire un attaccante all'ultimo giorno di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'attaccante che il Milan stava provando a definire proprio nelle ultimissime ore del mercato di gennaio era proprio quello.",
+          "start_sec": 114.56,
+          "end_sec": 154.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "McTominay",
+      "position": "McTominay potrebbe avere un futuro in Arabia.",
+      "polarity": "neutral",
+      "claim_id": "848ba2f2-7295-4ee9-9d60-ad33341615de",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "McTominay potrebbe avere un futuro in Arabia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la prima è legata a Mctomini e un suo possibile futuro in Arabia.",
+          "start_sec": 32.32,
+          "end_sec": 77.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Acerbi",
+      "position": "Acerbi potrebbe andare in Arabia quest'estate.",
+      "polarity": "neutral",
+      "claim_id": "ee7fac24-5364-4d9a-93f3-87fc1e08fb04",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s1",
+      "target_entity": "Acerbi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Acerbi potrebbe andare in Arabia quest'estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un futuro di Acerbi che chissà potrebbe veramente andare in Arabia questa volta a partire dall'estate.",
+          "start_sec": 32.32,
+          "end_sec": 77.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "Andrei Kostic è stato acquistato dal Milan.",
+      "polarity": "positive",
+      "claim_id": "95844531-1331-4e8a-a21f-f249cc706be4",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s1",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Andrei Kostic è stato acquistato dal Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha chiuso il colpo Andrei Kostic.",
+          "start_sec": 32.32,
+          "end_sec": 77.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Milan ha fatto un ultimo colpo interessante sul mercato.",
+      "polarity": "positive",
+      "claim_id": "43de61b1-174b-444b-b4ee-bdff4bffbae3",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan ha fatto un ultimo colpo interessante sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ultimo colpo del Milan, un colpo interessante di cui vi svelerò cifre e dettagli.",
+          "start_sec": 0.16,
+          "end_sec": 35.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Dusan Vlahovic",
+      "position": "Ci sono aggiornamenti interessanti sul futuro di Dusan Vlahovic.",
+      "polarity": "positive",
+      "claim_id": "c32cb012-3335-4de9-ad49-e3857e0e24e5",
+      "video_id": "fRzuw4bhLSk",
+      "segment_id": "s0",
+      "target_entity": "Dusan Vlahovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono aggiornamenti interessanti sul futuro di Dusan Vlahovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "toccheremo il tema legato a Dusan Blaovic e al suo futuro perché ci sono degli aggiornamenti interessanti",
+          "start_sec": 0.16,
+          "end_sec": 35.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

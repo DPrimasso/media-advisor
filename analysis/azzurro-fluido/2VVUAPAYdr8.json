@@ -1,0 +1,409 @@
+{
+  "video_id": "2VVUAPAYdr8",
+  "analyzed_at": "2026-03-31T16:08:37.053Z",
+  "metadata": {
+    "title": "IL PIU BEL #NAPOLI di #CONTE visto finora! 👀 Analisi VITTORIA Supercoppa 🔵 vs Bologna di Italiano",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2025-12-23T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista analizza la vittoria del Napoli contro il Bologna nella Supercoppa, evidenziando le numerose occasioni create dalla squadra. L'autore sottolinea la solidità difensiva di Juan Jesus e la crescita di McTominay, mentre critica la conclusione di Elmas, che avrebbe potuto fare meglio. La sua posizione principale è che il Napoli ha mostrato un gioco di alto livello, capace di generare entusiasmo tra i tifosi, e conclude che la prestazione complessiva della squadra è stata impressionante, con un focus particolare sulla tattica e sull'impatto dei singoli giocatori.",
+  "topics": [
+    {
+      "name": "squadra",
+      "relevance": "high"
+    },
+    {
+      "name": "tattiche di gioco",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "tactics",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione napoli",
+      "relevance": "low"
+    },
+    {
+      "name": "team tactics",
+      "relevance": "low"
+    },
+    {
+      "name": "fouls",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "86ef89ca-eece-4c5f-a87c-180061f49639",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s1",
+      "target_entity": "One Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "One Jesus ha giocato una grande partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Insomma, questo è uno dei motivi per cui gioca One Jesus, non è solo perché va preservato, ma perché quan Jesus ti dimostra che poi grande partita.",
+          "start_sec": 134.239,
+          "end_sec": 260.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ],
+      "topic": "performance",
+      "subject": "One Jesus",
+      "position": "One Jesus ha giocato una grande partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "24825e36-c6f7-4dca-983f-a0d988dca81e",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "POSSIBLE",
+      "claim_text": "Elmas non ha concluso bene nonostante le sue capacità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io qua me la sono presa con Elmas perché pensa lui nelle corde ce l'ha il gol in quella zona. allargare il piattone, cercare il secondo palo, ne ha fatti tanti così e non ho capito perché ha stretto sul primo.",
+          "start_sec": 134.239,
+          "end_sec": 260.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ],
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas non ha concluso bene nonostante le sue capacità.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "9896f217-7ec9-4f08-8d28-24916bac31f7",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s2",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Politano ha disputato una buona partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Buona partita di Politano, eh, sottolineiamola perché sennò non siamo non siamo giusti.",
+          "start_sec": 258.44,
+          "end_sec": 400,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "partita"
+      ],
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano ha disputato una buona partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "23310056-a550-4885-9468-958cfde19c0f",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s3",
+      "target_entity": "De Laurentiis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis ha un buon rapporto con Conte, dimostrato dalla sua ammirazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi dà la sensazione che il rispetto che ha De Laurentis per il suo allenatore è quasi un unicum.",
+          "start_sec": 397.56,
+          "end_sec": 526.7600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "relationship"
+      ],
+      "topic": "leadership",
+      "subject": "De Laurentiis",
+      "position": "De Laurentiis ha un buon rapporto con Conte, dimostrato dalla sua ammirazione.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "c23b9f47-81fe-4bbb-bd64-97fa0717f707",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto molte occasioni incredibili durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le occasioni che hai avuto il Napoli sono incredibili.",
+          "start_sec": 2.08,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "supercoppa",
+        "occasioni",
+        "prestazione"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha avuto molte occasioni incredibili durante la partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ed8c6583-ee13-4906-9766-4c03c1728b63",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay ha fatto una partita serissima e in crescita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha fatto una partita in crescenda, una partita serissima.",
+          "start_sec": 134.239,
+          "end_sec": 260.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ],
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay ha fatto una partita serissima e in crescita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "e6ac5e86-9c2d-476c-8f48-31318b3ebfeb",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s2",
+      "target_entity": "Ravaglia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il secondo gol di Neres è colpa di Ravaglia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il gol, il secondo gol di Neres pure colpo di Ravaglia il B.",
+          "start_sec": 258.44,
+          "end_sec": 400,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "performance",
+        "errore"
+      ],
+      "topic": "performance",
+      "subject": "Ravaglia",
+      "position": "Il secondo gol di Neres è colpa di Ravaglia.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "8e25cdeb-1e3e-4cf3-acca-d0ede9628d0e",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli deve migliorare nella finalizzazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo fare cinque gol in questa partita come min.",
+          "start_sec": 258.44,
+          "end_sec": 400,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finalizzazione",
+        "gol",
+        "partita"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli deve migliorare nella finalizzazione.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "38488e9d-eb52-4f47-9d8a-d79dda2bebba",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s0",
+      "target_entity": "Juan Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Juan Jesus ha dimostrato grande solidità in difesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juan Jesus che è tostissimo che resta in piedi.",
+          "start_sec": 2.08,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "giocatore",
+        "solidità"
+      ],
+      "topic": "performance",
+      "subject": "Juan Jesus",
+      "position": "Juan Jesus ha dimostrato grande solidità in difesa.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "99c52128-88e7-4ba8-a263-eef790dab67d",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s0",
+      "target_entity": "Analisi tattica",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'analisi tattica genererà sempre hype tra i tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'hype sull'analisi tattica mi fa sempre piacere.",
+          "start_sec": 2.08,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "hype",
+        "tifosi"
+      ],
+      "topic": "tactics",
+      "subject": "Analisi tattica",
+      "position": "L'analisi tattica genererà sempre hype tra i tifosi.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "fff03d2f-97db-4001-a4d3-4b44748f343b",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s0",
+      "target_entity": "Ancelotti",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La presenza di Ancelotti potrebbe attrarre più attenzioni al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "visto che Noalang ha taggato Ancelotti per Neres.",
+          "start_sec": 2.08,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "attenzione",
+        "mercato"
+      ],
+      "topic": "market",
+      "subject": "Ancelotti",
+      "position": "La presenza di Ancelotti potrebbe attrarre più attenzioni al Napoli.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "d53f4855-7820-4c83-b4b4-b5f7ab6305b9",
+      "video_id": "2VVUAPAYdr8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è stato martellante durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma il Napoli è stato martellante.",
+          "start_sec": 134.239,
+          "end_sec": 260.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "squadra"
+      ],
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli è stato martellante durante la partita.",
+      "polarity": "positive"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "video_id": "rd-vU25s8PY",
+  "analyzed_at": "2026-04-07T15:20:23.046166+00:00",
+  "metadata": {
+    "title": "TMWRadio - Brambati \"In Federezione vedrei Galliani affiancato da Maldini. Serve il modello tedesco\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TMWRadio analizza la possibilità di un nuovo modello di gestione calcistica per la Federazione Italiana, proponendo una coppia di dirigenti formata da Adriano Galliani e Paolo Maldini. L'autore sostiene che entrambi abbiano un'esperienza significativa e competenze complementari: Galliani per le sue capacità politiche e Maldini per la sua profonda conoscenza del calcio. Si conclude con una riflessione sulla necessità di rinnovare la leadership nel calcio italiano, suggerendo che la combinazione di queste due figure potrebbe rappresentare una rinascita per la nazionale.",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "politica",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "storia",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Capello",
+      "position": "Capello è considerato un esperto nella gestione tecnica.",
+      "polarity": "neutral",
+      "claim_id": "2357684c-4531-404f-866a-76d741873ead",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s2",
+      "target_entity": "Capello",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Capello è considerato un esperto nella gestione tecnica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho pensato a Fabio Capello come sa tutto dal basso verso l'alto.",
+          "start_sec": 100.64,
+          "end_sec": 138.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Galliani",
+      "position": "Galliani ha competenze politiche importanti per la federazione.",
+      "polarity": "positive",
+      "claim_id": "dfa72cde-b7d7-452b-91f0-dd09f092f4f7",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s1",
+      "target_entity": "Galliani",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Galliani ha competenze politiche importanti per la federazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha anche un kowhow importante a livello anche politico",
+          "start_sec": 58.76,
+          "end_sec": 102.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Gattuso",
+      "position": "Gattuso non è responsabile della situazione attuale della squadra.",
+      "polarity": "positive",
+      "claim_id": "2679d3f0-0a9e-4138-a677-dd81b19ae208",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s3",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso non è responsabile della situazione attuale della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io credo che Gattuso sia veramente responsabile zero di questa situazione.",
+          "start_sec": 135.879,
+          "end_sec": 191.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Bastoni",
+      "position": "Bastoni ha commesso un errore strategico durante la partita.",
+      "polarity": "negative",
+      "claim_id": "3d0785b4-e12d-4627-8de8-23dbf54efd5f",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s4",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni ha commesso un errore strategico durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la scellerata decisione di un giocatore con una certa esperienza come Bastoni di fare quell'entrata",
+          "start_sec": 187.239,
+          "end_sec": 232.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Galliani",
+      "position": "Galliani è considerato per un ruolo di responsabilità.",
+      "polarity": "positive",
+      "claim_id": "e8cd71ed-892c-47c6-9f2d-f3d89338e865",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s0",
+      "target_entity": "Galliani",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Galliani è considerato per un ruolo di responsabilità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'era sono stati anche abbastanza approvati.",
+          "start_sec": 0.08,
+          "end_sec": 61.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso è venuto per dare una mano alla squadra.",
+      "polarity": "neutral",
+      "claim_id": "458acee3-b847-4d0b-b16f-515187a0516a",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s3",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso è venuto per dare una mano alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è venuto per darci una mano.",
+          "start_sec": 135.879,
+          "end_sec": 191.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bastoni",
+      "position": "Bastoni ha esperienza avendo giocato due finali di Champions League.",
+      "polarity": "neutral",
+      "claim_id": "d40d4f4c-7f87-4b8f-ab5c-338861f41bd2",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s4",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Bastoni ha esperienza avendo giocato due finali di Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hai giocato due finali di Champions League.",
+          "start_sec": 187.239,
+          "end_sec": 232.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso ha avuto un percorso significativo come allenatore.",
+      "polarity": "neutral",
+      "claim_id": "15a7618c-030a-42a2-93e8-58fa642e6947",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s5",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha avuto un percorso significativo come allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se siamo arrivati comunque Gattuso",
+          "start_sec": 230.2,
+          "end_sec": 278.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Maldini",
+      "position": "Maldini ha il calcio nel cuore.",
+      "polarity": "positive",
+      "claim_id": "74731d29-ae4a-4b5c-a479-2fad0f6deec1",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s0",
+      "target_entity": "Maldini",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Maldini ha il calcio nel cuore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un il calcio veramente eh nel cuore, nella testa, sotto la pelle",
+          "start_sec": 0.08,
+          "end_sec": 61.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Milan",
+      "position": "Galliani non dovrebbe essere allontanato dal Milan.",
+      "polarity": "negative",
+      "claim_id": "aff561ad-35e1-41f4-9c4f-b8be44101e4d",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Galliani non dovrebbe essere allontanato dal Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non mi domando come mai è stato allontanato dal Milan.",
+          "start_sec": 100.64,
+          "end_sec": 138.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ancelotti",
+      "position": "Ancelotti sta attualmente allenando la nazionale brasiliana.",
+      "polarity": "neutral",
+      "claim_id": "8d25334b-3674-4fe3-bd36-9381fffd4e62",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s5",
+      "target_entity": "Ancelotti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ancelotti sta attualmente allenando la nazionale brasiliana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ancelotti che fa l'allenatore in Brasile",
+          "start_sec": 230.2,
+          "end_sec": 278.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Maldini",
+      "position": "Maldini è visto come un elemento tecnico importante.",
+      "polarity": "neutral",
+      "claim_id": "633208db-62bc-42a8-b560-cdbc2620d214",
+      "video_id": "rd-vU25s8PY",
+      "segment_id": "s2",
+      "target_entity": "Maldini",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Maldini è visto come un elemento tecnico importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'altro più tecnico che era un po' quello che dicevi tu prima, cioè Maldini di più con un erravolo tecnico.",
+          "start_sec": 100.64,
+          "end_sec": 138.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

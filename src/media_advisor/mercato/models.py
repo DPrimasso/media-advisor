@@ -8,8 +8,8 @@ from pydantic import BaseModel, Field, field_validator
 
 TransferType = Literal["loan", "permanent", "free_agent", "extension", "unknown"]
 ConfidenceLevel = Literal["rumor", "likely", "confirmed", "denied"]
-OutcomeValue = Literal["non_verificata", "confermata", "parziale", "smentita"]
-OutcomeSource = Literal["manual", "transfermarkt", "auto"]
+OutcomeValue = Literal["non_verificata", "confermata", "parziale", "smentita", "non_conclusa"]
+OutcomeSource = Literal["manual", "transfermarkt", "sofascore", "auto"]
 
 # Mapping per compatibilità backward con JSON creati prima della migrazione
 _OUTCOME_MIGRATION: dict[str, OutcomeValue] = {

@@ -1,0 +1,366 @@
+{
+  "video_id": "x-JzVOZukGI",
+  "analyzed_at": "2026-04-08T13:42:58.060794+00:00",
+  "metadata": {
+    "title": "IL CAMBIAMENTO DI CHIVU. GATTUSO PREPARA 2 SORPRESE PER LA NAZIONALE. IL FUTURO DI SARRI E DE ZERBI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira analizza la situazione attuale del campionato di Serie A, con un focus particolare sul Napoli, che ha appena vinto e si sta assicurando un posto in Champions League. L'autore esprime la sua opinione che, senza gli infortuni, il Napoli avrebbe potuto competere per il titolo, ma attualmente vede l'Inter come la favorita per lo scudetto. Inoltre, si discute del futuro di Maurizio Sarri alla Lazio, evidenziando la tensione con la dirigenza e suggerendo che una separazione a fine stagione è probabile, a meno che la Coppa Italia non cambi le dinamiche attuali.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "offerta",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "internazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "low"
+    },
+    {
+      "name": "relazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "risultati",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto e si sta qualificando per la Champions League.",
+      "polarity": "positive",
+      "claim_id": "e85e701a-5538-4497-9ee8-638c8d6e4e41",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto e si sta qualificando per la Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pochi minuti fa il Napoli ha vinto, il Napoli di fatto sta mettendo il timbro sul pass per la qualificazione della prossima Champions League.",
+          "start_sec": 0.76,
+          "end_sec": 54.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe sperare nello scudetto, ma la situazione è complicata.",
+      "polarity": "neutral",
+      "claim_id": "e6c493fd-5b32-49a5-a988-5045ce772048",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli potrebbe sperare nello scudetto, ma la situazione è complicata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una fiammella per lo scudetto, mai dire mai, però davanti ci sono due squadre.",
+          "start_sec": 0.76,
+          "end_sec": 54.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Senza infortuni, il Napoli si sarebbe giocato il campionato.",
+      "polarity": "neutral",
+      "claim_id": "8eed3ad8-c099-4ddb-b63a-9e4b8272100a",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Senza infortuni, il Napoli si sarebbe giocato il campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "senza i 39 infortuni il Napoli per me si sarebbe giocato.",
+          "start_sec": 0.76,
+          "end_sec": 54.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Se il Milan vince contro la Lazio, riapre i giochi per lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "07401199-20da-4c69-bb77-171d721db122",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Se il Milan vince contro la Lazio, riapre i giochi per lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan che se domani vince all'Olimpico contro la Lazio può andare a men5 dalla vetta riaprendo i giochi per lo scudetto.",
+          "start_sec": 52.64,
+          "end_sec": 99.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lazio",
+      "position": "Sarri ha un rapporto problematico con la dirigenza della Lazio.",
+      "polarity": "neutral",
+      "claim_id": "22b3abbf-773f-4c62-8dc2-98ca5ab6764f",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha un rapporto problematico con la dirigenza della Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ha un grande rapporto con la proprietà e con la dirigenza.",
+          "start_sec": 52.64,
+          "end_sec": 99.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "Lazio e Sarri potrebbero separarsi a fine stagione.",
+      "polarity": "neutral",
+      "claim_id": "660934dd-bfd2-494e-b7d3-bf33fb45f5a6",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Lazio e Sarri potrebbero separarsi a fine stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sensazione è che Sarri e la Lazio a fine stagione si separeranno.",
+          "start_sec": 97.36,
+          "end_sec": 123.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli è andato sotto dopo pochi minuti del vantaggio.",
+      "polarity": "positive",
+      "claim_id": "ee4bb07e-1546-4bf7-8c48-a05c8c4daa54",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è andato sotto dopo pochi minuti del vantaggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli che soffre, va sotto dopo pochi minuti il vantaggio di Sibert.",
+          "start_sec": 121.479,
+          "end_sec": 155.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha una Coppa Italia da onorare.",
+      "polarity": "positive",
+      "claim_id": "e642c235-21fa-45f9-8fbb-8923c2823627",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha una Coppa Italia da onorare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è una Coppa Italia da onorare.",
+          "start_sec": 97.36,
+          "end_sec": 123.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Superano",
+      "position": "Superano ha avuto prestazioni eccellenti nel recente match.",
+      "polarity": "positive",
+      "claim_id": "0b5e80df-ec5d-46e3-a459-e46fb921d2dd",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s3",
+      "target_entity": "Superano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Superano ha avuto prestazioni eccellenti nel recente match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la ribalta trascinato da un superano.",
+          "start_sec": 121.479,
+          "end_sec": 155.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli sta blindando il terzo posto.",
+      "polarity": "neutral",
+      "claim_id": "a67ac38c-f91e-47ca-ab7f-ce4d809ef553",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta blindando il terzo posto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta blindando il terzo posto.",
+          "start_sec": 0.76,
+          "end_sec": 54.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter resta favorita per lo scudetto.",
+      "polarity": "neutral",
+      "claim_id": "67974275-7a0b-4517-a792-ec088127bafb",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter resta favorita per lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Inter secondo me resta favorita.",
+          "start_sec": 52.64,
+          "end_sec": 99.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarri",
+      "position": "Sarri è molto legato all'ambiente laziale.",
+      "polarity": "neutral",
+      "claim_id": "617f17ce-b22a-49be-a584-7b1c11226745",
+      "video_id": "x-JzVOZukGI",
+      "segment_id": "s1",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri è molto legato all'ambiente laziale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sarri è molto legato all'ambiente laziale.",
+          "start_sec": 52.64,
+          "end_sec": 99.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

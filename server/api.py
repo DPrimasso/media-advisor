@@ -203,12 +203,31 @@ def _enrich_tips(tips: list, all_tips: list) -> list[dict]:
     return result
 
 
+_SEASONS: dict[str, tuple[str, str]] = {
+    "estate-2025":  ("2025-06-01", "2025-08-31"),
+    "inverno-2026": ("2026-01-01", "2026-02-28"),
+    "estate-2026":  ("2026-06-01", "2026-08-31"),
+    "inverno-2027": ("2027-01-01", "2027-02-28"),
+}
+
+
+@app.get("/api/mercato/seasons")
+async def get_mercato_seasons() -> Any:
+    """Restituisce le stagioni disponibili con le date di riferimento."""
+    return [
+        {"id": k, "label": k.replace("-", " ").title(), "from": v[0], "to": v[1]}
+        for k, v in _SEASONS.items()
+    ]
+
+
 @app.get("/api/mercato/tips")
 async def get_mercato_tips(
     player: str | None = None,
     channel: str | None = None,
     outcome: str | None = None,
+    season: str | None = None,
 ) -> Any:
+    from datetime import date
     from media_advisor.mercato.aggregator import get_all_tips
     all_tips = get_all_tips(_root)
     tips = all_tips
@@ -218,6 +237,13 @@ async def get_mercato_tips(
         tips = [t for t in tips if t.channel_id == channel]
     if outcome:
         tips = [t for t in tips if t.outcome == outcome]
+    if season and season in _SEASONS:
+        date_from = date.fromisoformat(_SEASONS[season][0])
+        date_to = date.fromisoformat(_SEASONS[season][1])
+        tips = [
+            t for t in tips
+            if t.mentioned_at and date_from <= t.mentioned_at.date() <= date_to
+        ]
     from datetime import datetime, timezone
     _epoch = datetime.min.replace(tzinfo=timezone.utc)
     tips_sorted = sorted(tips, key=lambda t: t.mentioned_at or _epoch, reverse=True)

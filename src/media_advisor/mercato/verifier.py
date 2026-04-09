@@ -2,8 +2,8 @@
 
 Logica di matching:
 - stesso player_slug
-- to_club match + transfer_type match  → "confermata"
-- to_club match + transfer_type diverso → "parziale"  (es. prestito vs permanente)
+- to_club match + transfer_type compatibile → "confermata"
+- to_club match + transfer_type diverso (materiale) → "parziale"  (es. prestito vs permanente)
 - giocatore trovato nei trasferimenti ma to_club diverso → "smentita"
 - nessun trasferimento trovato per il giocatore → None (rimane non_verificata)
 """
@@ -28,16 +28,49 @@ def _clubs_match(a: str | None, b: str | None) -> bool:
     return sa == sb or (len(sa) >= 3 and (sa in sb or sb in sa))
 
 
+def _transfer_type_compatible(predicted: str | None, actual: str | None) -> bool:
+    """Ritorna True se la differenza di tipo non è materiale per il verdetto.
+
+    Nota: in molti casi "free_agent" vs "permanent" non cambia il fatto che il trasferimento
+    sia avvenuto verso lo stesso club, quindi lo consideriamo compatibile (confermata).
+    """
+    if not predicted or not actual:
+        return False
+    if predicted == "unknown" or actual == "unknown":
+        return True
+    if predicted == actual:
+        return True
+    equivalent = {"permanent", "free_agent"}
+    return predicted in equivalent and actual in equivalent
+
+
+def _resolve_slug(name: str, root: "Path | None" = None) -> list[str]:
+    """Ritorna tutti gli slug candidati per un nome: originale + canonico via alias."""
+    from pathlib import Path as _Path
+    slugs = [player_slug(name)]
+    if root is not None:
+        try:
+            from media_advisor.mercato.scraper import resolve_player_name
+            canonical = resolve_player_name(name, root)
+            if canonical and canonical != name:
+                slugs.append(player_slug(canonical))
+        except Exception:
+            pass
+    return slugs
+
+
 def verify_tip(
     tip: MercatoTip,
     transfers: list[TransferRecord],
-) -> tuple[OutcomeValue | None, str | None]:
+    root: "Path | None" = None,
+) -> tuple["OutcomeValue | None", "str | None"]:
     """Confronta una tip con i trasferimenti ufficiali disponibili.
 
     Ritorna (outcome, notes) se c'è un match, altrimenti (None, None).
+    Usa aliases per risolvere nomi abbreviati (es. 'Rabiot' -> 'Adrien Rabiot').
     """
-    tip_slug = player_slug(tip.player_name)
-    player_transfers = [t for t in transfers if t.player_slug == tip_slug]
+    candidate_slugs = _resolve_slug(tip.player_name, root)
+    player_transfers = [t for t in transfers if t.player_slug in candidate_slugs]
 
     if not player_transfers:
         return None, None  # nessun dato ufficiale sul giocatore
@@ -46,7 +79,7 @@ def verify_tip(
     for tr in player_transfers:
         if _clubs_match(tip.to_club, tr.to_club):
             # Stesso club di destinazione
-            if tip.transfer_type == tr.transfer_type or tip.transfer_type == "unknown":
+            if _transfer_type_compatible(tip.transfer_type, tr.transfer_type):
                 return "confermata", f"Trasferimento ufficiale: {tr.player_name} → {tr.to_club} ({tr.transfer_type})"
             else:
                 return "parziale", (
@@ -81,14 +114,14 @@ def verify_all_pending(root: Path) -> list[dict]:
         if tip.outcome != "non_verificata":
             continue
 
-        outcome, notes = verify_tip(tip, transfers)
+        outcome, notes = verify_tip(tip, transfers, root=root)
         if outcome is None:
             continue
 
         tip.outcome = outcome
         tip.outcome_notes = notes
         tip.outcome_updated_at = datetime.now(timezone.utc)
-        tip.outcome_source = "transfermarkt"
+        tip.outcome_source = "auto"
 
         updated.append({
             "tip_id": tip.tip_id,
@@ -118,14 +151,14 @@ def verify_single_tip(root: Path, tip_id: str) -> dict | None:
     if tip is None:
         return None
 
-    outcome, notes = verify_tip(tip, transfers)
+    outcome, notes = verify_tip(tip, transfers, root=root)
     if outcome is None:
         return {"tip_id": tip_id, "outcome": tip.outcome, "changed": False, "notes": "Nessun trasferimento ufficiale trovato per questo giocatore"}
 
     tip.outcome = outcome
     tip.outcome_notes = notes
     tip.outcome_updated_at = datetime.now(timezone.utc)
-    tip.outcome_source = "transfermarkt"
+    tip.outcome_source = "auto"
 
     index.updated_at = datetime.now(timezone.utc)
     write_json(mercato_index_path(root), index.model_dump(mode="json"))

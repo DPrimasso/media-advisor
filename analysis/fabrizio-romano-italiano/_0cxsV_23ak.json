@@ -1,0 +1,354 @@
+{
+  "video_id": "_0cxsV_23ak",
+  "analyzed_at": "2026-04-08T10:12:09.160562+00:00",
+  "metadata": {
+    "title": "🚨 BERNARDO: SCELTA FATTA! JUVE E NON SOLO. DIABY E L’INTER IN TESTA, GREENWOOD E L’ITALIA, VERGARA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-03-30T19:52:50+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sul calciomercato, con particolare attenzione alla situazione di Bernardo Silva, che ha deciso di lasciare il Manchester City ma non ha ancora scelto la sua prossima destinazione. L'autore sottolinea che la Juventus ha avviato contatti per esplorare la fattibilità dell'operazione, ma ci sono anche altre squadre interessate. Inoltre, Romano evidenzia l'importanza della prossima partita della nazionale contro la Bosnia, sottolineando l'ansia positiva dei tifosi e l'impatto che il mercato ha anche durante l'International Break. In conclusione, la situazion",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "interesse",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Bernardo Silva",
+      "position": "Bernardo Silva è considerato un nome importante nel mercato estivo 2026.",
+      "polarity": "neutral",
+      "claim_id": "413ac329-ed6a-4251-b36e-f572141bd78f",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s2",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo Silva è considerato un nome importante nel mercato estivo 2026.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è il nome di Bernardo Silva perché è un nome che abbiamo sempre mantenuto qui come un nome da tenere d'occhio per l'estate 2026.",
+          "start_sec": 59.6,
+          "end_sec": 86.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Italia",
+      "position": "La nazionale è descritta come in pericolo a causa di eventi di mercato.",
+      "polarity": "neutral",
+      "claim_id": "cf30f618-c443-424f-b98e-a3bb9f68c463",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale è descritta come in pericolo a causa di eventi di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questione di vita o di morte per la nostra nazionale",
+          "start_sec": 0.32,
+          "end_sec": 34.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Nazionale italiana",
+      "position": "La gara contro la Bosnia è cruciale per il nostro destino mondiale.",
+      "polarity": "neutral",
+      "claim_id": "3626f030-0c9d-437f-82b9-9b4bff2e0b44",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s1",
+      "target_entity": "Nazionale italiana",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La gara contro la Bosnia è cruciale per il nostro destino mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una gara che domani martedì sarà chiaramente cruciale per il nostro destino in destinazione appunto mondiale",
+          "start_sec": 32.719,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Nazionale italiana",
+      "position": "C'è grande ansia positiva e entusiasmo per tornare a giocare.",
+      "polarity": "positive",
+      "claim_id": "e731a0b9-75aa-4817-b018-6c9dd8959794",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s1",
+      "target_entity": "Nazionale italiana",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è grande ansia positiva e entusiasmo per tornare a giocare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutti con con grande ansia, ma un'ansia positiva, con grande entusiasmo",
+          "start_sec": 32.719,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Nazionale italiana",
+      "position": "I tifosi sono impazienti di vedere la squadra in azione.",
+      "polarity": "positive",
+      "claim_id": "9865d476-5649-475b-840f-d18cedb843bc",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s1",
+      "target_entity": "Nazionale italiana",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi sono impazienti di vedere la squadra in azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tanta voglia di tornare a giocare una Coppa del Mondo",
+          "start_sec": 32.719,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo Silva",
+      "position": "Bernardo Silva lascerà il Manchester City questa estate.",
+      "polarity": "positive",
+      "claim_id": "9197f5c0-8444-4895-9b2c-893949da1e71",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s3",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo Silva lascerà il Manchester City questa estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bernardo Silva intanto ha comunicato al Manchester City che lascerà il club questa estate.",
+          "start_sec": 84.52,
+          "end_sec": 112.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Manchester City",
+      "position": "Bernardo Silva ha deciso di non rimanere nel Manchester City.",
+      "polarity": "positive",
+      "claim_id": "9b6a3954-ff88-4762-919c-362af30b0d76",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s3",
+      "target_entity": "Manchester City",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo Silva ha deciso di non rimanere nel Manchester City.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi è finita tra Bernardo Silva e il Manchester City.",
+          "start_sec": 84.52,
+          "end_sec": 112.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Bernardo Silva",
+      "position": "Bernardo Silva prenderà tempo prima di annunciare ufficialmente la sua partenza.",
+      "polarity": "neutral",
+      "claim_id": "7d4d7eb1-aa00-492e-8121-0ec46e178246",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s3",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Bernardo Silva prenderà tempo prima di annunciare ufficialmente la sua partenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bernardo a livello di annuncio ufficiale insieme al City prenderà il suo tempo.",
+          "start_sec": 84.52,
+          "end_sec": 112.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Premier League",
+      "position": "Il Manchester City è ancora in competizione per la Premier League.",
+      "polarity": "positive",
+      "claim_id": "6d9af9f6-4e63-4ad8-93e3-fa140e42e130",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s3",
+      "target_entity": "Premier League",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Manchester City è ancora in competizione per la Premier League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché perché si stanno giocando ancora una Premier League.",
+          "start_sec": 84.52,
+          "end_sec": 112.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Bernardo Silva",
+      "position": "Attualmente, Bernardo Silva non ha comunicato aggiornamenti sulla sua situazione.",
+      "polarity": "neutral",
+      "claim_id": "5b953eda-18bb-4142-bea9-3b98f8f9bb74",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s2",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Attualmente, Bernardo Silva non ha comunicato aggiornamenti sulla sua situazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ad oggi 30 marzo Bernardo Silva non ha",
+          "start_sec": 59.6,
+          "end_sec": 86.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Nazionale italiana",
+      "position": "Il mercato continua anche durante l'International Break.",
+      "polarity": "neutral",
+      "claim_id": "fb37ac54-f046-4d88-8e9e-ba01ce0e96f7",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s1",
+      "target_entity": "Nazionale italiana",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato continua anche durante l'International Break.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mercato non si ferma perché anche durante l'International Break, anche durante la sosta",
+          "start_sec": 32.719,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bernardo Silva",
+      "position": "Bernardo Silva desidera provare qualcosa di nuovo.",
+      "polarity": "neutral",
+      "claim_id": "72e3d0d1-b92d-4031-9191-2c23aa9b3ac2",
+      "video_id": "_0cxsV_23ak",
+      "segment_id": "s4",
+      "target_entity": "Bernardo Silva",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bernardo Silva desidera provare qualcosa di nuovo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'intenzione del giocatore è quella di provare qualcosa di nuovo.",
+          "start_sec": 110.92,
+          "end_sec": 137.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

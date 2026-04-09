@@ -26,7 +26,7 @@ class TransferRecord(BaseModel):
     transfer_type: TransferType = "unknown"
     season: str                           # es. "2025-26"
     confirmed_at: datetime                # data ufficialità trasferimento
-    source: Literal["transfermarkt", "manual"] = "manual"
+    source: Literal["transfermarkt", "sofascore", "manual"] = "manual"
     source_url: str | None = None         # link pagina Transfermarkt
     notes: str | None = None
     added_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))

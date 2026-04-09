@@ -1,0 +1,389 @@
+{
+  "video_id": "iQBgDEtLJdU",
+  "analyzed_at": "2026-03-31T15:45:19.563Z",
+  "metadata": {
+    "title": "Raspa o #Dovbyk (in gol) 👀 Come sostituire NERES x Napoli Verona 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-06T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute della sostituzione di Neres nel Napoli in vista della partita contro il Verona, analizzando le possibili formazioni e le strategie delle due squadre. L'autore suggerisce che Lang potrebbe essere il sostituto ideale per Neres, mentre il Verona potrebbe schierarsi con un 352 o un 3421, con Bernede come giocatore chiave. Tra le conclusioni chiave, si evidenziano le voci su Raspadori legate alla Roma e le scelte tattiche del Napoli, che potrebbero includere anche Gagliardini nel centrocampo avversario.",
+  "topics": [
+    {
+      "name": "sostituzioni",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "medium"
+    },
+    {
+      "name": "transfers",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione verona",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_strategy",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "86842b2f-f552-4d07-b57e-87045f8994c7",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s1",
+      "target_entity": "Verona",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Il Verona potrebbe schierarsi con un 352 o un 3421.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di solito è un 352, a volte un 3421.",
+          "start_sec": 69.52,
+          "end_sec": 135.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattiche"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Verona",
+      "position": "Il Verona potrebbe schierarsi con un 352 o un 3421.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "17c25027-30fa-4105-bf81-798d6a482764",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s0",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono voci su Raspadori legate alla Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e questa voce Raspadori che si sta ci sono degli intrecci con la Roma pazzeschi.",
+          "start_sec": 0.28,
+          "end_sec": 71.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Raspadori",
+      "position": "Ci sono voci su Raspadori legate alla Roma.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "27d8364d-d8ef-45c0-aa4c-87d5a5759728",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s1",
+      "target_entity": "Bernede",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Bernede è un giocatore chiave per il Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dipende molto da quest'uomo qua, Bernede, Bernadette, che insomma fa una mezzala.",
+          "start_sec": 69.52,
+          "end_sec": 135.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "tattiche"
+      ],
+      "topic": "tactics",
+      "subject": "Bernede",
+      "position": "Bernede è un giocatore chiave per il Verona.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "e0dcb4fe-528e-46ea-b46c-8cb026595018",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s1",
+      "target_entity": "Gagliardini",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Gagliardini è previsto nel centrocampo del Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi c'è da capire perché qua portano Gagliardini al centro del del centrocampo.",
+          "start_sec": 69.52,
+          "end_sec": 135.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "formazione"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Gagliardini",
+      "position": "Gagliardini è previsto nel centrocampo del Verona.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "9489873e-7027-4d55-a240-91343834fbee",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s1",
+      "target_entity": "Moschera",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Moschera sta giocando al posto di Orban in attacco per il Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ultimamente sta giocando Moschera al posto di Orban in attacco.",
+          "start_sec": 69.52,
+          "end_sec": 135.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "formazione"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Moschera",
+      "position": "Moschera sta giocando al posto di Orban in attacco per il Verona.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "9789f8b0-46ae-4964-87e8-510ed2a1fc9c",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s2",
+      "target_entity": "Zaniolo",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Zaniolo è stato scelto per sostituire Neres a centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho preso Zaniolo per sostituire il Neres per avere un bug a centrocampo",
+          "start_sec": 133.76,
+          "end_sec": 200.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "centrocampista",
+        "sostituzione"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Zaniolo",
+      "position": "Zaniolo è stato scelto per sostituire Neres a centrocampo.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "907ba10b-bd51-4793-ae81-7b7d210d00a1",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s0",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Neres è in predicato di essere sostituito nella partita col Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sostituzione di Neres, la partita col Verona",
+          "start_sec": 0.28,
+          "end_sec": 71.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "lineup_prediction",
+      "subject": "Neres",
+      "position": "Neres è in predicato di essere sostituito nella partita col Verona.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "09221fcc-8522-4d8b-8eee-14411f20de65",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s0",
+      "target_entity": "Lang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Lang potrebbe voler più minuti di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lang vuole più minuti? Eh, non lo so, non lo so.",
+          "start_sec": 0.28,
+          "end_sec": 71.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "market",
+      "subject": "Lang",
+      "position": "Lang potrebbe voler più minuti di gioco.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "2ac2da42-f5ff-4bf3-a271-f1692d48e18b",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "POSSIBLE",
+      "claim_text": "L'analisi del video tratta della sostituzione di Neres e delle sue implicazioni per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sostituzione di Neres, la partita col Verona",
+          "start_sec": 0.28,
+          "end_sec": 71.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "L'analisi del video tratta della sostituzione di Neres e delle sue implicazioni per il Napoli.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "96c3ad5a-5a0a-4dc2-923e-8c2722b4ede6",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s2",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Neres verrà sostituito con Lang nella formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sostituiscono semplicemente Neres con Lang.",
+          "start_sec": 133.76,
+          "end_sec": 200.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sostituzione",
+        "formazione"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Neres",
+      "position": "Neres verrà sostituito con Lang nella formazione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "0cedfe77-0259-4729-8370-5253b423df0d",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s2",
+      "target_entity": "Gutiérrez",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 0,
+      "modality": "POSSIBLE",
+      "claim_text": "Gutiérrez è considerato leggermente favorito su Spina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gutiérrez leggermente in vantaggio su Spina",
+          "start_sec": 133.76,
+          "end_sec": 200.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "ballottaggio"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Gutiérrez",
+      "position": "Gutiérrez è considerato leggermente favorito su Spina.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "cae4a947-8d82-43fc-828a-ab1f1ea8e0ea",
+      "video_id": "iQBgDEtLJdU",
+      "segment_id": "s2",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 0,
+      "modality": "PROBABLE",
+      "claim_text": "Di Lorenzo potrebbe essere spostato in avanti nella formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "spostando Di Lorenzo in avanti",
+          "start_sec": 133.76,
+          "end_sec": 200.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "sospensione"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Di Lorenzo",
+      "position": "Di Lorenzo potrebbe essere spostato in avanti nella formazione.",
+      "polarity": "positive"
+    }
+  ]
+}

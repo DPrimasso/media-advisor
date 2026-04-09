@@ -1,0 +1,408 @@
+{
+  "video_id": "lVxPF5jCVEM",
+  "analyzed_at": "2026-03-31T15:05:01.212Z",
+  "metadata": {
+    "title": "LA VERITÀ SUL CASO DI LORENZO, basta balle!",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-02-04T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute della situazione di Giovanni Di Lorenzo, in particolare riguardo a dichiarazioni e smentite che circolano intorno al suo stato di salute. L'opinionista esprime la sua frustrazione per le informazioni contrastanti e sottolinea che Di Lorenzo sta giocando nonostante un problema al piede, che potrebbe essere più serio di quanto si pensi. Conclude suggerendo che, data la chiusura del mercato, sarebbe stato opportuno considerare alternative per il ruolo di terzino destro, evidenziando la necessità di una gestione più attenta della situazione del giocatore.",
+  "topics": [
+    {
+      "name": "infortuni",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "tempistiche di recupero",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "informazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "recovery",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "injury",
+      "relevance": "low"
+    },
+    {
+      "name": "incertezza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "93f031fe-2c93-47ed-a08e-c6c44760d103",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s1",
+      "target_entity": "informazioni",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Le informazioni arrivate sono tutte corrette al 100%.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quelle che sono arrivate alle mie orecchie sono state tutte informazioni corrette al 100%.",
+          "start_sec": 72.759,
+          "end_sec": 110.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "informazioni",
+        "verità",
+        "correttezza"
+      ],
+      "topic": "media",
+      "subject": "informazioni",
+      "position": "Le informazioni arrivate sono tutte corrette al 100%.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "d2c4e3ea-8147-4234-b022-98c14111a592",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s0",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono approfondimenti su Di Lorenzo in relazione a dichiarazioni e smentite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono questi approfondimenti su Di Lorenzo che tra smentite, tra misteri, tra cose che si dicono e non si dicono.",
+          "start_sec": 4.48,
+          "end_sec": 76.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "analisi",
+        "tattica",
+        "dichiarazioni"
+      ],
+      "topic": "tactics",
+      "subject": "Di Lorenzo",
+      "position": "Ci sono approfondimenti su Di Lorenzo in relazione a dichiarazioni e smentite.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "06cb6e9d-209c-4dc6-a904-ff1f39589337",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha vinto contro il Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter finisce di vincere col Torino perché non c'era dubbio",
+          "start_sec": 4.48,
+          "end_sec": 76.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "performance"
+      ],
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha vinto contro il Torino.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "b7b112cc-0fdf-46e3-8f16-bdafdb09cf3c",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Lorenzo ha giocato nonostante un problema al piede.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lorenzo fa un post ed è importante quello che scrive perché ci comunica che ha giocato sul dolore su un problema al piede.",
+          "start_sec": 108.92,
+          "end_sec": 181.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "infortunio"
+      ],
+      "topic": "injury",
+      "subject": "Lorenzo",
+      "position": "Lorenzo ha giocato nonostante un problema al piede.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "06ab7ecd-fb75-4ced-8dc7-cf54f70c23e8",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s2",
+      "target_entity": "Trevisani",
+      "entity_type": "other",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Trevisani ha parlato del problema di Lorenzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo ha detto più volte Trevisani, lo ha detto a cronache che insomma Dol Lorenzo stava giocando sul dolore.",
+          "start_sec": 108.92,
+          "end_sec": 181.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "commento",
+        "infortunio",
+        "giocatore"
+      ],
+      "topic": "injury",
+      "subject": "Trevisani",
+      "position": "Trevisani ha parlato del problema di Lorenzo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ea11db49-665a-4c63-a3dd-10b315ee7434",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s0",
+      "target_entity": "Lang",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "Le dichiarazioni di Lang riguardo a Di Lorenzo potrebbero essere state evitate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dichiarazioni di Lang che probabilmente si potevano evitare",
+          "start_sec": 4.48,
+          "end_sec": 76.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "dichiarazioni"
+      ],
+      "topic": "media",
+      "subject": "Lang",
+      "position": "Le dichiarazioni di Lang riguardo a Di Lorenzo potrebbero essere state evitate.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "943dd2af-b8e3-4e6e-915a-5a8421279c1b",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s1",
+      "target_entity": "Lorenzo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato è chiuso e certe cose vanno fatte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mercato è chiuso e se certe cose vanno fatte vanno fatte.",
+          "start_sec": 72.759,
+          "end_sec": 110.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore"
+      ],
+      "topic": "market",
+      "subject": "Lorenzo",
+      "position": "Il mercato è chiuso e certe cose vanno fatte.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "223ca809-d69d-4f10-95af-b9cc67a48e69",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lorenzo è stato sempre titolare nonostante il dolore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo vedi sempre titolare e non ci pensi, non ci ragioni.",
+          "start_sec": 108.92,
+          "end_sec": 181.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "performance",
+        "titolare"
+      ],
+      "topic": "performance",
+      "subject": "Lorenzo",
+      "position": "Lorenzo è stato sempre titolare nonostante il dolore.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "89cc50e5-fbeb-4d1d-94ae-9b1b669ccf00",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha fatto giocare dei giovani nella partita contro il Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno fatto giocare anche un paio di giovanotti.",
+          "start_sec": 4.48,
+          "end_sec": 76.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giovani",
+        "lineup"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Inter",
+      "position": "L'Inter ha fatto giocare dei giovani nella partita contro il Torino.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "26d77729-2b28-4a11-aef2-4d099ac91eaa",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s1",
+      "target_entity": "opinionista",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "HYPOTHESIS",
+      "claim_text": "L'opinionista sembra avere informazioni verificate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devo dirvi quello che so perché.",
+          "start_sec": 72.759,
+          "end_sec": 110.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "opinionista",
+        "analisi"
+      ],
+      "topic": "media",
+      "subject": "opinionista",
+      "position": "L'opinionista sembra avere informazioni verificate.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "324cd44a-3657-4d8b-8c5e-f51ffb408a94",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha menzionato il dolore di Lorenzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però io ricordo che un accenno lo fece Conte.",
+          "start_sec": 108.92,
+          "end_sec": 181.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "giocatore",
+        "commento"
+      ],
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte ha menzionato il dolore di Lorenzo.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "03fd2a80-0d18-4781-b491-40a23285dadb",
+      "video_id": "lVxPF5jCVEM",
+      "segment_id": "s1",
+      "target_entity": "Lorenzo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.3,
+      "modality": "CERTAIN",
+      "claim_text": "Lorenzo non si trova bene in queste circostanze.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non mi trovo non mi trovo.",
+          "start_sec": 72.759,
+          "end_sec": 110.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "situazione",
+        "benessere"
+      ],
+      "topic": "market",
+      "subject": "Lorenzo",
+      "position": "Lorenzo non si trova bene in queste circostanze.",
+      "polarity": "neutral"
+    }
+  ]
+}

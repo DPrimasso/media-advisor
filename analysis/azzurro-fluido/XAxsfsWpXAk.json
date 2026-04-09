@@ -1,0 +1,408 @@
+{
+  "video_id": "XAxsfsWpXAk",
+  "analyzed_at": "2026-03-31T15:53:34.614Z",
+  "metadata": {
+    "title": "#Castellanos #Raspadori e #Lucca 👀 PARTE il VALZER delle PUNTE! 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-01T12:00:00.000Z"
+  },
+  "summary": "Nel video di Azzurro Fluido si discute del mercato di gennaio in Serie A, con particolare attenzione al possibile trasferimento di Castellanos al West Ham, che potrebbe innescare un \"valzer\" di attaccanti. L'autore sottolinea che i fantaallenatori potrebbero non poter più contare su Castellanos e invita a considerare le formazioni in vista della partita Cagliari-Milan. Inoltre, si evidenzia la situazione economica del Napoli, che può operare solo a costo zero, suggerendo la necessità di rivedere gli stipendi dei giocatori per evitare dislivelli problematici.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "transfers",
+      "relevance": "high"
+    },
+    {
+      "name": "tattiche",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "fantaallenatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "partite",
+      "relevance": "low"
+    },
+    {
+      "name": "dislivelli salariali",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "4e140545-fa1d-4bc7-97d2-9e3ecad6a3bd",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s3",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Lucca ha un costo di 17.700 al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Luke è quello che costa al Napoli 17.700, e 700, quindi è quello che ha il costo più alto di tutta la rosa.",
+          "start_sec": 105.719,
+          "end_sec": 139.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "cost",
+        "player_value"
+      ],
+      "topic": "market",
+      "subject": "Lucca",
+      "position": "Lucca ha un costo di 17.700 al Napoli.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "21334ad1-b1cc-4bf4-95d0-82a519f206fe",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s0",
+      "target_entity": "Castellanos",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Castellanos sarà trasferito al West Ham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Castellanos pare che we go, here we go, cioè proprio se ne va in Inghilterra al West Ham.",
+          "start_sec": 0.24,
+          "end_sec": 36.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "transferring",
+        "West Ham",
+        "Serie A"
+      ],
+      "topic": "market",
+      "subject": "Castellanos",
+      "position": "Castellanos sarà trasferito al West Ham.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "1f476b71-5c84-422e-833f-f199734e84fd",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s0",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lucca era tra i giocatori di interesse per il West Ham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che era una delle squadre che forse era anche interessata a Lucca.",
+          "start_sec": 0.24,
+          "end_sec": 36.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lucca",
+        "West Ham",
+        "Serie A"
+      ],
+      "topic": "market",
+      "subject": "Lucca",
+      "position": "Lucca era tra i giocatori di interesse per il West Ham.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "c4a3eaf6-65c2-4954-b3ba-41220ed1d4eb",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s1",
+      "target_entity": "Castellanos",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "I fantaallenatori potrebbero non poter più fare affidamento su Castellanos.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci può fare più affidamento su Castellanos come me in uno dei mantra.",
+          "start_sec": 34.559,
+          "end_sec": 75.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fantaallenatori",
+        "Castellanos"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Castellanos",
+      "position": "I fantaallenatori potrebbero non poter più fare affidamento su Castellanos.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "3dfdddaf-94f0-45bc-80c5-01ed88f87971",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s2",
+      "target_entity": "Castellanos",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Castellanos potrebbe essere coinvolto in discussioni di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa situazione qua potrebbe sganciare una serie di reazioni a catena.",
+          "start_sec": 72.92,
+          "end_sec": 107,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatori",
+        "mercato",
+        "transizioni"
+      ],
+      "topic": "market",
+      "subject": "Castellanos",
+      "position": "Castellanos potrebbe essere coinvolto in discussioni di mercato.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "3610cb05-b48d-42f5-86aa-691656f54cd6",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s2",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Raspadori è uno dei nomi da considerare per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa situazione qua potrebbe sganciare una serie di reazioni a catena.",
+          "start_sec": 72.92,
+          "end_sec": 107,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatori",
+        "mercato",
+        "transizioni"
+      ],
+      "topic": "market",
+      "subject": "Raspadori",
+      "position": "Raspadori è uno dei nomi da considerare per il mercato.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "0dd7486e-8419-405b-b56c-35582042f91c",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s2",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Lucca è un possibile obiettivo per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa situazione qua potrebbe sganciare una serie di reazioni a catena.",
+          "start_sec": 72.92,
+          "end_sec": 107,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatori",
+        "mercato",
+        "transizioni"
+      ],
+      "topic": "market",
+      "subject": "Lucca",
+      "position": "Lucca è un possibile obiettivo per il Napoli.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "39cd3b12-c47d-40b3-a866-3bd5288889ea",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il costo di Lucca è considerato illogico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È un illogico se ci pensate, perché è quello che ti sta rendendo di",
+          "start_sec": 105.719,
+          "end_sec": 139.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "cost",
+        "value"
+      ],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il costo di Lucca è considerato illogico.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "8c4ec423-01f1-4435-9a26-28ae5ef13497",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli può muoversi solo a costo zero sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli sappiamo che può muoversi solo a costo zero.",
+          "start_sec": 72.92,
+          "end_sec": 107,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasferimenti",
+        "mercato",
+        "finanza"
+      ],
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli può muoversi solo a costo zero sul mercato.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "ded835ed-aa63-44ae-a16a-dda741c17e32",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s1",
+      "target_entity": "Sarry",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Sarry sembra essere poco chiaro riguardo alla formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisognerà capire perché Sarry non è",
+          "start_sec": 34.559,
+          "end_sec": 75.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Sarry",
+        "formazione"
+      ],
+      "topic": "tactics",
+      "subject": "Sarry",
+      "position": "Sarry sembra essere poco chiaro riguardo alla formazione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "c16b8370-b299-4453-aa31-04979ab24147",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s1",
+      "target_entity": "fantaallenatori",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "I fantaallenatori sono invitati a tenere in considerazione la formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi raccomando, mettete la formazione",
+          "start_sec": 34.559,
+          "end_sec": 75.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fantaallenatori",
+        "formazione"
+      ],
+      "topic": "fan_behavior",
+      "subject": "fantaallenatori",
+      "position": "I fantaallenatori sono invitati a tenere in considerazione la formazione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "83409490-9f9f-4c77-9e0d-9db6b5ef3733",
+      "video_id": "XAxsfsWpXAk",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "PROBABLE",
+      "claim_text": "Ci si aspetta che il Cagliari sfidi il Milan domani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Domani c'è Cagliari- Milan.",
+          "start_sec": 34.559,
+          "end_sec": 75.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Cagliari",
+        "Milan"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Milan",
+      "position": "Ci si aspetta che il Cagliari sfidi il Milan domani.",
+      "polarity": "neutral"
+    }
+  ]
+}

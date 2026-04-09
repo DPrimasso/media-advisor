@@ -1,0 +1,398 @@
+{
+  "video_id": "XLGgSCw2mh8",
+  "analyzed_at": "2026-03-31T15:39:06.441Z",
+  "metadata": {
+    "title": "#NERES OUT 👀 Che si fa? 🔵 verso #INTER #NAPOLI",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-10T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido discute l'assenza di Neres per la prossima partita tra Napoli e Inter, analizzando le possibili implicazioni tattiche per la squadra partenopea. La sua posizione principale è che la mancanza di Neres potrebbe influenzare negativamente le prestazioni del Napoli, richiedendo un'attenta analisi delle scelte di formazione. Inoltre, si sottolinea come l'Inter sia cambiata rispetto all'andata, suggerendo che il Napoli dovrà adattarsi per ottenere un risultato positivo. L'opinionista esprime anche il suo desiderio di lavorare nel calcio, pur mantenendo il suo a",
+  "topics": [
+    {
+      "name": "tactics",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup",
+      "relevance": "high"
+    },
+    {
+      "name": "performance",
+      "relevance": "high"
+    },
+    {
+      "name": "pressing",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "injury",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattiche di gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "infortuni",
+      "relevance": "low"
+    },
+    {
+      "name": "squadra",
+      "relevance": "low"
+    },
+    {
+      "name": "inter",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "540b431a-f3a1-4fed-b16f-28e1fca2730f",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è cambiata parecchio dalla partita d'andata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le due squadre in questione, perché parliamo ovviamente di InterNOL secondo me cambiate parecchio rispetto alla partita d'andata",
+          "start_sec": 118.24,
+          "end_sec": 218.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics"
+      ],
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "L'Inter è cambiata parecchio dalla partita d'andata.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "080a94b2-bb68-45a3-b6d2-f0fb4eb25846",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria del Napoli richiede un'analisi attenta delle prestazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo rivedere, no? La partita immagino anche tu la vedi due volte",
+          "start_sec": 118.24,
+          "end_sec": 218.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "La vittoria del Napoli richiede un'analisi attenta delle prestazioni.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "39d5ef1c-7f89-4a1e-96c5-811051775929",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s1",
+      "target_entity": "Opinionista",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista rifiuta offerte per allenare e preferisce commentare partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho sempre rifiutato quelle piccole e poche offerte che che ho ricevuto",
+          "start_sec": 118.24,
+          "end_sec": 218.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media"
+      ],
+      "topic": "media",
+      "subject": "Opinionista",
+      "position": "L'opinionista rifiuta offerte per allenare e preferisce commentare partite.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "6fe276c1-d1cb-4a47-90b4-5dca75da1825",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s1",
+      "target_entity": "opinonista",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinionista ha un sogno di lavorare nel campo calcistico ma ha vincoli lavorativi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però non ho non ho mai operato e ho sempre rifiutato quelle piccole e poche offerte",
+          "start_sec": 118.24,
+          "end_sec": 218.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ],
+      "topic": "leadership",
+      "subject": "opinonista",
+      "position": "L'opinionista ha un sogno di lavorare nel campo calcistico ma ha vincoli lavorativi.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "0d37217c-b89c-4dfc-bfd1-0d314988a395",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter esegue pressing posizionale piuttosto che un pressing deciso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter è una squadra che pressa, fa lo fa molto bene, lo fa in maniera diversa rispetto al Napoli.",
+          "start_sec": 216.319,
+          "end_sec": 350.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "pressing"
+      ],
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "L'Inter esegue pressing posizionale piuttosto che un pressing deciso.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "dcd5167b-62d7-426f-a6b1-3af42bb678a9",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ostacola le linee di passaggio avversarie invece di sradicare il pallone.",
+      "evidence_quotes": [
+        {
+          "quote_text": "preoccupandosi maggiormente non di sradicare il pallone dai piedi degli avversari, ma di ostacolare i passaggi.",
+          "start_sec": 216.319,
+          "end_sec": 350.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "defense"
+      ],
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "L'Inter ostacola le linee di passaggio avversarie invece di sradicare il pallone.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "a2499ca2-68ec-4b33-9944-9db5f92bd1f4",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s2",
+      "target_entity": "Napolis",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli utilizzerà Neres come falso nueve nella prossima partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Neres, tra l'altro falso nueve, se non vado errato, quindi un Napoli totalmente diverso.",
+          "start_sec": 216.319,
+          "end_sec": 350.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup",
+        "formation"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Napolis",
+      "position": "Il Napoli utilizzerà Neres come falso nueve nella prossima partita.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "82824c3f-dd51-4529-8f40-5df9a4c245c5",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 0.7,
+      "modality": "HYPOTHESIS",
+      "claim_text": "L'Inter cambia strategia di pressing in modo significativo rispetto al passato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devo dire che questa cosa la sta facendo molto bene e fa una cosa molto particolare.",
+          "start_sec": 216.319,
+          "end_sec": 350.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "strategy"
+      ],
+      "topic": "tactics",
+      "subject": "Inter",
+      "position": "L'Inter cambia strategia di pressing in modo significativo rispetto al passato.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "6d836428-280c-4640-9d32-c7a071b06c70",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 0.7,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli potrebbe avere un cambio di formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cerchiamo di immaginare la partita prima della partita",
+          "start_sec": 2.12,
+          "end_sec": 120.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup",
+        "Napoli"
+      ],
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe avere un cambio di formazione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "2be9b787-521a-4261-8981-6da393546037",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s0",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 0.9,
+      "modality": "CERTAIN",
+      "claim_text": "Neres non sarà disponibile per la prossima partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "purtroppo Neres non ce l'ha fatta",
+          "start_sec": 2.12,
+          "end_sec": 120.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "Neres"
+      ],
+      "topic": "injury",
+      "subject": "Neres",
+      "position": "Neres non sarà disponibile per la prossima partita.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "b1aee36e-33e3-4ead-837c-fbf525eb6849",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s0",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Neres presenta un infortunio che influisce sulla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "purtroppo non filtra proprio niente",
+          "start_sec": 2.12,
+          "end_sec": 120.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "injury",
+        "Neres"
+      ],
+      "topic": "performance",
+      "subject": "Neres",
+      "position": "Neres presenta un infortunio che influisce sulla squadra.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "5e513f23-e0a5-497e-bf0f-512ccf3c1e6e",
+      "video_id": "XLGgSCw2mh8",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "La chiacchierata si concentra su aspetti tattici del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "godetevi questa chiacchierata tattica",
+          "start_sec": 2.12,
+          "end_sec": 120.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tactics",
+        "Napoli"
+      ],
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "La chiacchierata si concentra su aspetti tattici del Napoli.",
+      "polarity": "neutral"
+    }
+  ]
+}

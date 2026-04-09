@@ -1,0 +1,409 @@
+{
+  "video_id": "Ps4K_Ca-db8",
+  "analyzed_at": "2026-03-31T15:33:18.386Z",
+  "metadata": {
+    "title": "Stiamo parlando dell'errore sbagliato 👀 NAPOLI PARMA 0-0 🔵 Analisi",
+    "author_name": "Azzurro Fluido",
+    "published_at": "2026-01-15T12:00:00.000Z"
+  },
+  "summary": "Nel video, l'opinionista Azzurro Fluido analizza il pareggio 0-0 tra Napoli e Parma, focalizzandosi sull'episodio controverso del fuorigioco di Mazzocchi, che ha suscitato confusione riguardo alla decisione arbitrale. L'autore sottolinea l'importanza di andare oltre l'episodio arbitrale, evidenziando che il Parma ha schierato il terzo portiere e che Lorenzo Pellegrini è rimasto in panchina. Tra le conclusioni chiave, si suggerisce che la scelta di controllare il pallone in un'azione decisiva potrebbe non essere stata la migliore, e si fa riferimento a reazioni di frustrazione da parte di alcun",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "fuorigioco",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "rigore",
+      "relevance": "medium"
+    },
+    {
+      "name": "decisioni arbitrali",
+      "relevance": "medium"
+    },
+    {
+      "name": "decisione arbitrale",
+      "relevance": "medium"
+    },
+    {
+      "name": "reazione giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "refereeing",
+      "relevance": "low"
+    },
+    {
+      "name": "episodio contro",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "306f01ec-ac60-4612-8bf7-e6ea52fa853f",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s1",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha pareggiato 0-0 contro il Parma in casa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "0-0 col Parma in casa che quasi ti dà il bollo finale sulla stagione",
+          "start_sec": 114.439,
+          "end_sec": 204,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "Parma",
+        "pareggio"
+      ],
+      "topic": "performance",
+      "subject": "Parma",
+      "position": "Il Napoli ha pareggiato 0-0 contro il Parma in casa.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "e2a674d8-18cf-4b5f-ab1c-f879b87dac1a",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s0",
+      "target_entity": "Mazzocchi",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Il fuorigioco di Mazzocchi ha creato confusione sulla decisione arbitrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il fuorigioco di Mazzocchi, che questo scavalcherebbe addirittura il discorso braccio, bicipite, spalla.",
+          "start_sec": 0.12,
+          "end_sec": 116.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fuorigioco",
+        "decisione_arbitrale"
+      ],
+      "topic": "refereeing",
+      "subject": "Mazzocchi",
+      "position": "Il fuorigioco di Mazzocchi ha creato confusione sulla decisione arbitrale.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a37f5f9a-21ad-4b1c-9542-cd77455b7a7a",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s0",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 0.8,
+      "modality": "CERTAIN",
+      "claim_text": "Il Parma ha giocato con il terzo portiere durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Parma stava giocando con le secondi, con il terzo portiere.",
+          "start_sec": 0.12,
+          "end_sec": 116.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portieri",
+        "squadra"
+      ],
+      "topic": "performance",
+      "subject": "Parma",
+      "position": "Il Parma ha giocato con il terzo portiere durante la partita.",
+      "polarity": "positive"
+    },
+    {
+      "claim_id": "839699c3-975e-461c-9811-b7f14e54c969",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s0",
+      "target_entity": "autore",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "L'autore si sente responsabile di analizzare la partita oltre l'episodio arbitrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho una reputaz, io sento di avere una reputazione di quelli che vanno oltre anche quello che è l'episodio arbitrale.",
+          "start_sec": 0.12,
+          "end_sec": 116.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "analisi",
+        "responsabilità"
+      ],
+      "topic": "media",
+      "subject": "autore",
+      "position": "L'autore si sente responsabile di analizzare la partita oltre l'episodio arbitrale.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "dd9887d3-ef50-4fd1-a927-f42cf87584d9",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s1",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "La scelta di controllare il pallone potrebbe essere stata meno efficace.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un passaggio anche di prima senza metterla a terra...poteva essere una scelta migliore.",
+          "start_sec": 114.439,
+          "end_sec": 204,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Spinazzola",
+        "tattica",
+        "passaggio"
+      ],
+      "topic": "tactics",
+      "subject": "Spinazzola",
+      "position": "La scelta di controllare il pallone potrebbe essere stata meno efficace.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "a7f93dfb-3502-49ad-8ebd-245ba9cc8471",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s2",
+      "target_entity": "Lobo",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.7,
+      "modality": "CERTAIN",
+      "claim_text": "Lobo mostra una reazione disperata per l'errore dell'arbitro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lobo che proprio si dispera, dice \"Eh, ma che come ti viene in mente?\".",
+          "start_sec": 201.36,
+          "end_sec": 313.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "arbitro",
+        "reazione"
+      ],
+      "topic": "refereeing",
+      "subject": "Lobo",
+      "position": "Lobo mostra una reazione disperata per l'errore dell'arbitro.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "5a446bcb-c65f-492f-a727-6e63a6b4ccbb",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s2",
+      "target_entity": "teechnology",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono molte domande sulla tecnologia utilizzata per il fuorigioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ci sono tantissime domande che si potrebbero fare sulla tecnologia stessa.",
+          "start_sec": 201.36,
+          "end_sec": 313.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tecnologia",
+        "fuorigioco",
+        "domande"
+      ],
+      "topic": "refereeing",
+      "subject": "teechnology",
+      "position": "Ci sono molte domande sulla tecnologia utilizzata per il fuorigioco.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "368f31fb-9724-44a9-bec6-5e442e3b3237",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s1",
+      "target_entity": "Vergara",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "CERTAIN",
+      "claim_text": "Vergara si è disperato durante l'azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ci aggiungo purtroppo le reazioni di Vergara che si dispera",
+          "start_sec": 114.439,
+          "end_sec": 204,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Vergara",
+        "reazioni",
+        "azione"
+      ],
+      "topic": "performance",
+      "subject": "Vergara",
+      "position": "Vergara si è disperato durante l'azione.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "1b0efa0b-ac85-4c0f-aa74-a77c6b2b5c5e",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s2",
+      "target_entity": "Candreva",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 0.4,
+      "modality": "CERTAIN",
+      "claim_text": "Il fatto di Candreva è considerato storico come danno alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il fatto di Candreva resta storico come danno alla Juventus.",
+          "start_sec": 201.36,
+          "end_sec": 313.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "storia",
+        "danno",
+        "Juventus"
+      ],
+      "topic": "refereeing",
+      "subject": "Candreva",
+      "position": "Il fatto di Candreva è considerato storico come danno alla Juventus.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "501ecd11-6c60-46c9-9c64-2c3dab65e9bd",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s1",
+      "target_entity": "Pellegrini",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 0.6,
+      "modality": "CERTAIN",
+      "claim_text": "Lorenzo Pellegrini è rimasto in panchina durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lasciando Bernabé Pellegrini in panchina.",
+          "start_sec": 114.439,
+          "end_sec": 204,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Pellegrini",
+        "panchina"
+      ],
+      "topic": "performance",
+      "subject": "Pellegrini",
+      "position": "Lorenzo Pellegrini è rimasto in panchina durante la partita.",
+      "polarity": "negative"
+    },
+    {
+      "claim_id": "79c8cb16-27d5-49de-a666-9475b6909a49",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 0.5,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli potrebbe lamentarsi per decisioni arbitrali in futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi già sappiamo se possiamo lamentarci o no.",
+          "start_sec": 201.36,
+          "end_sec": 313.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Napoli",
+        "lamentela",
+        "arbitro"
+      ],
+      "topic": "refereeing",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe lamentarsi per decisioni arbitrali in futuro.",
+      "polarity": "neutral"
+    },
+    {
+      "claim_id": "3595233d-01a5-444c-9d51-ae4f38d77dda",
+      "video_id": "Ps4K_Ca-db8",
+      "segment_id": "s0",
+      "target_entity": "Candreva",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 0.5,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il caso di Mazzocchi ricorda un episodio simile di Candreva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un nuovo caso Candreva.",
+          "start_sec": 0.12,
+          "end_sec": 116.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "confronto",
+        "episodi_simili"
+      ],
+      "topic": "refereeing",
+      "subject": "Candreva",
+      "position": "Il caso di Mazzocchi ricorda un episodio simile di Candreva.",
+      "polarity": "neutral"
+    }
+  ]
+}

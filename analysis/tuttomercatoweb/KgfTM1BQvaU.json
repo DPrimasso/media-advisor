@@ -1,0 +1,362 @@
+{
+  "video_id": "KgfTM1BQvaU",
+  "analyzed_at": "2026-04-07T16:02:46.761725+00:00",
+  "metadata": {
+    "title": "TMW News: Roma-Bologna può valere la stagione. Cremonese, ecco Giampaolo",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video di TuttoMercatoWeb analizza l'importanza della partita Roma-Bologna, sottolineando che potrebbe influenzare significativamente la stagione della Roma. L'autore evidenzia che la squadra giallorossa non sta attraversando un buon momento, penalizzata da episodi controversi, ma suggerisce che questa situazione potrebbe stimolarla a reagire. Inoltre, si pone l'accento sul ruolo cruciale di Lukumi, definito un giocatore di alto livello, ma con margini di miglioramento per ridurre gli errori che possono compromettere le prestazioni difensive.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "libro",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma non è in un momento brillantissimo.",
+      "polarity": "negative",
+      "claim_id": "f235c1fb-0f38-4987-bfb8-f4adca369a5d",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma non è in un momento brillantissimo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma sicuramente non è in un momento brillantissimo",
+          "start_sec": 12.599,
+          "end_sec": 124.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La dinamica negativa potrebbe stimolare la Roma a reagire.",
+      "polarity": "neutral",
+      "claim_id": "c78d0917-ee10-463f-9bef-978a444d9ff9",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La dinamica negativa potrebbe stimolare la Roma a reagire.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa diciamo questa dinamica potrebbe essere da un lato deprimente e quindi essere negativa",
+          "start_sec": 12.599,
+          "end_sec": 124.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukumi",
+      "position": "Lukumi ha ancora bisogno di migliorare per raggiungere il massimo potenziale.",
+      "polarity": "neutral",
+      "claim_id": "09521e69-1739-4815-bd4e-02487c2a4c1c",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s1",
+      "target_entity": "Lukumi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Lukumi ha ancora bisogno di migliorare per raggiungere il massimo potenziale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io credo che gli manchi l'ultimo step perché fa degli interventi.",
+          "start_sec": 121.0,
+          "end_sec": 205.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukumi",
+      "position": "Lukumi ha colpi di alto livello come difensore centrale.",
+      "polarity": "positive",
+      "claim_id": "07e0de9d-68a8-41b0-81f6-cfcad1ab0f8b",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s1",
+      "target_entity": "Lukumi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukumi ha colpi di alto livello come difensore centrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha dei colpi come difensore centrale veramente di alto livello.",
+          "start_sec": 121.0,
+          "end_sec": 205.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukumi",
+      "position": "Lukumi ha una percentuale di errori che può portare a situazioni delicate.",
+      "polarity": "neutral",
+      "claim_id": "c8aef0c1-6618-4a14-a8fb-9548a1ef420a",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s1",
+      "target_entity": "Lukumi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Lukumi ha una percentuale di errori che può portare a situazioni delicate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha un una percentuale di errori, ma non errori errori importanti che molte volte o ti portano a prendere gol.",
+          "start_sec": 121.0,
+          "end_sec": 205.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Skorupski",
+      "position": "Skorupski è infortunato e ha affrontato una stagione sfortunata.",
+      "polarity": "negative",
+      "claim_id": "f0fff4e8-0f71-4948-8e5c-64d32843a832",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s2",
+      "target_entity": "Skorupski",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Skorupski è infortunato e ha affrontato una stagione sfortunata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "infortunato Skorupski che ha dovuto fare i conti con la cattiva sorte in questa stagione.",
+          "start_sec": 205.04,
+          "end_sec": 275.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ravaglia",
+      "position": "Ravaglia ha dimostrato di essere un portiere molto affidabile.",
+      "polarity": "positive",
+      "claim_id": "e167748c-fc18-420e-8250-02a92dbaa2d9",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s2",
+      "target_entity": "Ravaglia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ravaglia ha dimostrato di essere un portiere molto affidabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ravaglia sicuramente ha già dimostrato che è un portiere molto affidabile.",
+          "start_sec": 205.04,
+          "end_sec": 275.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bologna",
+      "position": "Bologna è noto per i suoi colpi di mercato eccellenti.",
+      "polarity": "positive",
+      "claim_id": "9231c0b1-b6f0-4e38-b473-825137189209",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna è noto per i suoi colpi di mercato eccellenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bologna vive di vive di eccellenze, di di diciamo di colpi di mercato che hanno una percentuale altissima.",
+          "start_sec": 205.04,
+          "end_sec": 275.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna ha esaurito i cambi disponibili durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "c2a2d772-24e1-4689-b55e-471a726a91e1",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna ha esaurito i cambi disponibili durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche se di cambi non si poteva parlare perché l'avevano terminati.",
+          "start_sec": 205.04,
+          "end_sec": 275.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Italiano",
+      "position": "Italiano è un allenatore che gioca a viso aperto.",
+      "polarity": "positive",
+      "claim_id": "611c7745-9ec7-4f67-8602-4ca81b29e719",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s0",
+      "target_entity": "Italiano",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Italiano è un allenatore che gioca a viso aperto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un allenatore che gioca a viso aperto",
+          "start_sec": 12.599,
+          "end_sec": 124.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Roma",
+      "position": "La Roma è penalizzata negli episodi dubbi.",
+      "polarity": "negative",
+      "claim_id": "d4fd6dfc-addc-4afe-adb9-8508bcfe5bbc",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma è penalizzata negli episodi dubbi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma sicuramente negli episodi dubbi è sempre stata onestamente penalizzata",
+          "start_sec": 12.599,
+          "end_sec": 124.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukumi",
+      "position": "Lukumi è un giocatore imprescindibile e fortissimo.",
+      "polarity": "positive",
+      "claim_id": "5110be8a-fd64-4f38-b256-0897e17f17e7",
+      "video_id": "KgfTM1BQvaU",
+      "segment_id": "s1",
+      "target_entity": "Lukumi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukumi è un giocatore imprescindibile e fortissimo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fa grande affidamento su Lukumi, che sembra essere ormai un giocatore imprescindibile, fortissimo.",
+          "start_sec": 121.0,
+          "end_sec": 205.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

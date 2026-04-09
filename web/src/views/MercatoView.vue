@@ -39,6 +39,8 @@ const filterPlayer = ref('')
 const filterChannel = ref('')
 const filterOutcome = ref('')
 const filterConfidence = ref('')
+const filterSeason = ref('')
+const seasons = ref([])
 
 function channelLabel(id) {
   return id.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
@@ -68,6 +70,7 @@ async function fetchTips() {
     if (filterPlayer.value) params.set('player', filterPlayer.value)
     if (filterChannel.value) params.set('channel', filterChannel.value)
     if (filterOutcome.value) params.set('outcome', filterOutcome.value)
+    if (filterSeason.value) params.set('season', filterSeason.value)
     const res = await fetch(`/api/mercato/tips?${params}`)
     if (!res.ok) throw new Error(`HTTP ${res.status}`)
     const data = await res.json()
@@ -132,11 +135,17 @@ async function verifyAll() {
 }
 
 async function setOutcome(tipId, outcome) {
+  let notes = null
+  if (outcome === 'non_conclusa') {
+    notes = prompt('Motivo per cui la trattativa non si è conclusa (obbligatorio):')
+    if (!notes || !notes.trim()) return
+    notes = notes.trim()
+  }
   try {
     await fetch(`/api/mercato/tip/${tipId}/outcome`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ outcome, source: 'manual' }),
+      body: JSON.stringify({ outcome, source: 'manual', notes }),
     })
     await Promise.all([fetchTips(), fetchStats()])
   } catch (e) {
@@ -232,7 +241,14 @@ async function submitDateEdit(tipId) {
   }
 }
 
-onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
+async function fetchSeasons() {
+  try {
+    const res = await fetch('/api/mercato/seasons')
+    if (res.ok) seasons.value = await res.json()
+  } catch { /* ignore */ }
+}
+
+onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchSeasons()]))
 </script>
 
 <template>
@@ -344,6 +360,11 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
         <option value="confermata">Confermate</option>
         <option value="parziale">Parziali</option>
         <option value="smentita">Smentite</option>
+        <option value="non_conclusa">Non concluse</option>
+      </select>
+      <select v-model="filterSeason" class="filter-select" @change="fetchTips">
+        <option value="">Tutte le sessioni</option>
+        <option v-for="s in seasons" :key="s.id" :value="s.id">{{ s.label }}</option>
       </select>
       <select v-model="filterConfidence" class="filter-select">
         <option value="">Tutte le confidenze</option>
@@ -487,6 +508,7 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
               <button class="btn-outcome btn-true" @click="setOutcome(tip.tip_id, 'confermata')">Confermata</button>
               <button class="btn-outcome btn-partial" @click="setOutcome(tip.tip_id, 'parziale')">Parziale</button>
               <button class="btn-outcome btn-false" @click="setOutcome(tip.tip_id, 'smentita')">Smentita</button>
+              <button class="btn-outcome btn-stalled" @click="setOutcome(tip.tip_id, 'non_conclusa')">Non conclusa</button>
               <button class="btn-outcome btn-reset" @click="setOutcome(tip.tip_id, 'non_verificata')">Non verif.</button>
             </template>
           </div>
@@ -619,10 +641,11 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
 .badge-same-ko { background: #fef9c3; color: #854d0e; }
 .badge-corr    { background: #d1fae5; color: #065f46; }
 .badge-contr   { background: #fee2e2; color: #991b1b; }
-.outcome-pending { background: #f0f0f0; color: #555; }
-.outcome-true    { background: #d1e7dd; color: #0a3622; }
-.outcome-false   { background: #f8d7da; color: #842029; }
-.outcome-partial { background: #fff3cd; color: #856404; }
+.outcome-pending  { background: #f0f0f0; color: #555; }
+.outcome-true     { background: #d1e7dd; color: #0a3622; }
+.outcome-false    { background: #f8d7da; color: #842029; }
+.outcome-partial  { background: #fff3cd; color: #856404; }
+.outcome-stalled  { background: #ffedd5; color: #9a3412; }
 
 .tip-transfer { display: flex; align-items: center; gap: .4rem; margin-bottom: .4rem; font-size: .875rem; }
 .club { font-weight: 600; }
@@ -670,10 +693,12 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers()]))
 .btn-true    { background: #d1e7dd; color: #0a3622; }
 .btn-partial { background: #fff3cd; color: #856404; }
 .btn-false   { background: #f8d7da; color: #842029; }
+.btn-stalled { background: #ffedd5; color: #9a3412; }
 .btn-reset   { background: #f0f0f0; color: #555; }
 .btn-true:hover    { background: #a3cfbb; }
 .btn-partial:hover { background: #ffe69c; }
 .btn-false:hover   { background: #f1aeb5; }
+.btn-stalled:hover { background: #fed7aa; }
 .btn-reset:hover   { background: #e0e0e0; }
 .outcome-note-row { margin-top: .25rem; font-size: .8rem; }
 .note-text { color: var(--color-text-muted, #666); font-style: italic; }

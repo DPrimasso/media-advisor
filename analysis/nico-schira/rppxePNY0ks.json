@@ -1,0 +1,358 @@
+{
+  "video_id": "rppxePNY0ks",
+  "analyzed_at": "2026-04-08T13:14:08.965540+00:00",
+  "metadata": {
+    "title": "PIOVONO CONFERME SUL FUTURO DI VLAHOVIC. LA PREMIER LEAGUE IN PRESSING SU 2 ITALIANI. E L’INTER…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra sul futuro del Cagliari e sull'interesse di un fondo americano che sta acquisendo quote del club, con l'obiettivo di raggiungere il 70-80% delle azioni entro la fine dell'anno. L'autore esprime preoccupazione per la possibile perdita di controllo italiano su una storica realtà del calcio, sottolineando il valore degli investimenti passati di presidenti italiani come Giulini. Inoltre, Schira menziona l'emergere di giovani talenti nel Cagliari, come Elia Caprile e Marco Palestra, che attirano l'attenzione di club stranieri, in particolare inglesi, suggerendo ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "storia",
+      "relevance": "medium"
+    },
+    {
+      "name": "stadio",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Cagliari",
+      "position": "Un fondo americano possiede il 30% del Cagliari.",
+      "polarity": "neutral",
+      "claim_id": "cfab9f9d-42d3-4876-91eb-5b7245406477",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s1",
+      "target_entity": "Cagliari",
+      "entity_type": "club",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un fondo americano possiede il 30% del Cagliari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "30% del club appartiene a questo gruppo statunitense",
+          "start_sec": 26.519,
+          "end_sec": 62.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Cagliari",
+      "position": "Il fondo americano punta a raggiungere il 50% delle quote entro fine stagione.",
+      "polarity": "positive",
+      "claim_id": "9c1f5344-156f-4270-b7f6-f5998152f91b",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s1",
+      "target_entity": "Cagliari",
+      "entity_type": "club",
+      "dimension": "finance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il fondo americano punta a raggiungere il 50% delle quote entro fine stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "punta a raggiungere il 50% delle quote entro fine stagione",
+          "start_sec": 26.519,
+          "end_sec": 62.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha vinto uno scudetto nel 1970.",
+      "polarity": "neutral",
+      "claim_id": "4cd455b8-3a1b-455b-afa0-611a1689e7e0",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha vinto uno scudetto nel 1970.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha vinto anche uno scudetto nel 1970.",
+          "start_sec": 1.079,
+          "end_sec": 28.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter è una grande realtà del calcio italiano.",
+      "polarity": "neutral",
+      "claim_id": "e0df405e-356e-484c-bb80-ae9f51aa3c1a",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è una grande realtà del calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una grande realtà del nostro calcio, una realtà storica.",
+          "start_sec": 1.079,
+          "end_sec": 28.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Cagliari",
+      "position": "Il progetto del nuovo stadio è legato al fondo americano.",
+      "polarity": "neutral",
+      "claim_id": "9da9da8a-0a39-46c7-9136-edf47eebd910",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s1",
+      "target_entity": "Cagliari",
+      "entity_type": "club",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il progetto del nuovo stadio è legato al fondo americano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il tutto è legato anche al progetto del nuovo stadio.",
+          "start_sec": 26.519,
+          "end_sec": 62.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cagliari",
+      "position": "Cagliari è una realtà stabilmente presente nella massima serie.",
+      "polarity": "neutral",
+      "claim_id": "389a17cc-297d-40b2-b00b-4e45bb5e8beb",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s3",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cagliari è una realtà stabilmente presente nella massima serie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ormai Cagliari da anni stabilmente comunque una realtà del nostro calcio nella massima serie",
+          "start_sec": 83.4,
+          "end_sec": 111.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cagliari",
+      "position": "Cagliari ha avuto esperienze contrastanti con proprietà straniere.",
+      "polarity": "neutral",
+      "claim_id": "6eb23436-6191-4507-9d81-70fa7152b937",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s3",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cagliari ha avuto esperienze contrastanti con proprietà straniere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "aperte le proprietà straniere. Finora lo score e alcune esperienze positive, altre meno",
+          "start_sec": 83.4,
+          "end_sec": 111.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Cagliari",
+      "position": "Il Cagliari è tornato a livelli importanti grazie agli investimenti di Giulini.",
+      "polarity": "positive",
+      "claim_id": "d22e6394-ef97-448b-b6e3-1f14923ac6f8",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s2",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Cagliari è tornato a livelli importanti grazie agli investimenti di Giulini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha riportato il Cagliari a livelli importanti",
+          "start_sec": 59.199,
+          "end_sec": 85.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cagliari",
+      "position": "La situazione economica del Cagliari è incerta ed equilibrata.",
+      "polarity": "neutral",
+      "claim_id": "c8dab403-f73b-437a-8fab-726f3308d4ee",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s3",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La situazione economica del Cagliari è incerta ed equilibrata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi è sempre un po' 50 e50",
+          "start_sec": 83.4,
+          "end_sec": 111.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter rischia di passare in mani straniere.",
+      "polarity": "negative",
+      "claim_id": "1a4c68dd-d94d-403f-ad62-7937ac0d2168",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter rischia di passare in mani straniere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una società che rischia però e sarebbe l'ennesimo caso del nostro calcio, di passare in mani.",
+          "start_sec": 1.079,
+          "end_sec": 28.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cagliari",
+      "position": "Cagliari potrebbe attrarre nuovi investitori importanti.",
+      "polarity": "neutral",
+      "claim_id": "a654c465-7b10-4ef4-a74a-c48c4d9aa6da",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s3",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Cagliari potrebbe attrarre nuovi investitori importanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chissà, poi magari invece arriveranno investitori importanti",
+          "start_sec": 83.4,
+          "end_sec": 111.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giulini",
+      "position": "Giulini si è svenato per il Cagliari.",
+      "polarity": "positive",
+      "claim_id": "9f3eeb0c-3a78-4364-a0f2-6d4ab70baa58",
+      "video_id": "rppxePNY0ks",
+      "segment_id": "s2",
+      "target_entity": "Giulini",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giulini si è svenato per il Cagliari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è svenato, preso anche",
+          "start_sec": 59.199,
+          "end_sec": 85.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

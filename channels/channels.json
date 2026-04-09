@@ -8,7 +8,7 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@FabrizioRomanoItaliano",
-        "last_n": 30,
+        "last_n": 500,
         "exclude_live": true
       }
     },
@@ -57,7 +57,7 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@TuttoMercatoWeb_com",
-        "last_n": 30,
+        "last_n": 400,
         "exclude_live": true
       }
     },
@@ -69,7 +69,7 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@Calciomercato_it",
-        "last_n": 30,
+        "last_n": 400,
         "exclude_live": true
       }
     },
@@ -81,7 +81,7 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@NicoSchira",
-        "last_n": 30,
+        "last_n": 400,
         "exclude_live": true
       }
     }
