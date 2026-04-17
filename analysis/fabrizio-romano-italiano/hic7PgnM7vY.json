@@ -1,0 +1,354 @@
+{
+  "video_id": "hic7PgnM7vY",
+  "analyzed_at": "2026-04-16T16:22:58.282340+00:00",
+  "metadata": {
+    "title": "🚨 DUE AFFARI FATTI! NAPOLI: CONTATTO SULEMANA! BLITZ PERISIC, POLVERIERA DIABY, STANKOVIC, KOLO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-29"
+  },
+  "summary": "Il video di Fabrizio Romano analizza le ultime operazioni di mercato nel calcio italiano, con particolare attenzione ai trasferimenti di giovani talenti. L'autore sottolinea che l'operazione per Disas non è in fase avanzata, mentre conferma il trasferimento di Esad Deniz dall'Ajax alla Juventus, un affare che prevede un contratto di tre anni. Inoltre, si segnala l'accordo del Como per Caiki e il passaggio di Cristian Aslani dall'Inter al Besiktas in prestito. Queste notizie evidenziano un mercato attivo e dinamico, con molte opportunità per i club italiani.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "high"
+    },
+    {
+      "name": "giovani",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Cruseiro",
+      "position": "L'accordo per Caiki prevede un investimento di 10 milioni di euro più bonus.",
+      "polarity": "positive",
+      "claim_id": "7d81c372-d1f1-4785-be28-9fb10bad0f7b",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s2",
+      "target_entity": "Cruseiro",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'accordo per Caiki prevede un investimento di 10 milioni di euro più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'operazione da 10 milioni di euro più due di bonus",
+          "start_sec": 67.88,
+          "end_sec": 94.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Esad Deniz",
+      "position": "Esad Deniz ha un contratto di tre anni con la Juventus.",
+      "polarity": "positive",
+      "claim_id": "41d97bc4-162f-479f-b1f5-4342f9366e6a",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s1",
+      "target_entity": "Esad Deniz",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Esad Deniz ha un contratto di tre anni con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "3 anni di contratto, quindi fino al 2000, anzi 2 e mezzo fino al 2028",
+          "start_sec": 37.16,
+          "end_sec": 69.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Como",
+      "position": "Il Como ha raggiunto un accordo per l'acquisto di Caiki.",
+      "polarity": "positive",
+      "claim_id": "bbb8b2f5-6cce-4305-add6-679c4119b5a6",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha raggiunto un accordo per l'acquisto di Caiki.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como ha un accordo per questo laterale mancino del Cruseiro",
+          "start_sec": 67.88,
+          "end_sec": 94.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cristian Aslani",
+      "position": "Cristian Aslani passerà da un prestito al Torino a un prestito al Besiktas.",
+      "polarity": "positive",
+      "claim_id": "f02f19fd-81da-40cc-bdbb-3686c643ad79",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s3",
+      "target_entity": "Cristian Aslani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cristian Aslani passerà da un prestito al Torino a un prestito al Besiktas.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in realtà saluta il Torino dove era in prestito. Passerà dal prestito al Toro ad un prestito al Besictas.",
+          "start_sec": 93.0,
+          "end_sec": 125.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cristian Aslani",
+      "position": "Cristian Aslani ha un volo prenotato per Istanbul.",
+      "polarity": "positive",
+      "claim_id": "143ea8d4-730a-4b1d-8f6f-f90de74c23e4",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s3",
+      "target_entity": "Cristian Aslani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cristian Aslani ha un volo prenotato per Istanbul.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è già un volo prenotato per Aslani nelle prossime ore, quindi già in serata sarà ad Istanbul.",
+          "start_sec": 93.0,
+          "end_sec": 125.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cristian Aslani",
+      "position": "Il prestito di Aslani al Besiktas include un diritto di riscatto.",
+      "polarity": "positive",
+      "claim_id": "0ab7501f-434e-4963-8881-bc4baf3c78f5",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s3",
+      "target_entity": "Cristian Aslani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il prestito di Aslani al Besiktas include un diritto di riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È un prestito con diritto di riscatto, da quello che mi dicono, 11 milioni di euro più bonus.",
+          "start_sec": 93.0,
+          "end_sec": 125.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha concluso un accordo per Esad Deniz.",
+      "polarity": "positive",
+      "claim_id": "e1b0b825-135b-457b-9a09-1f971234c3ea",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha concluso un accordo per Esad Deniz.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo non sia mai uscito... andrà la Juventus",
+          "start_sec": 37.16,
+          "end_sec": 69.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Cristian Aslani",
+      "position": "I documenti di Aslani devono ancora essere approvati.",
+      "polarity": "neutral",
+      "claim_id": "7ce8247a-bf02-4289-ac6f-eb13270a155d",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s3",
+      "target_entity": "Cristian Aslani",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I documenti di Aslani devono ancora essere approvati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se i documenti verranno approvati.",
+          "start_sec": 93.0,
+          "end_sec": 125.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fiorentina",
+      "position": "L'operazione Disas non è avanzata né vicina.",
+      "polarity": "neutral",
+      "claim_id": "9265eebc-77ef-4be2-8427-a27351f00efa",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione Disas non è avanzata né vicina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è un'operazione che in questo momento risulta essere né avanzata né vicina",
+          "start_sec": 0.0,
+          "end_sec": 39.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cristian Aslani",
+      "position": "Cristian Aslani è trasferito al Besiktas dall'Inter.",
+      "polarity": "neutral",
+      "claim_id": "2ee855d2-9984-45c1-8462-e48dd167dd4e",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s4",
+      "target_entity": "Cristian Aslani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cristian Aslani è trasferito al Besiktas dall'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cristian Aslani al Besictas e insomma tanto movimento a livello di opportunità, di idee e in questo caso per il Besictas che prende Cristian Aslani dall'Inter.",
+          "start_sec": 122.56,
+          "end_sec": 152.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Esad Deniz",
+      "position": "Esad Deniz si trasferirà alla Juventus dall'Ajax.",
+      "polarity": "positive",
+      "claim_id": "966fc056-45a5-4f24-99f0-b89040038eef",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s1",
+      "target_entity": "Esad Deniz",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Esad Deniz si trasferirà alla Juventus dall'Ajax.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si chiama Esad Deniz dall'Ajax, andrà la Juventus",
+          "start_sec": 37.16,
+          "end_sec": 69.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ajax",
+      "position": "Esad Deniz proviene dalle giovanili dell'Ajax.",
+      "polarity": "positive",
+      "claim_id": "654a15f5-2fdd-4671-b4e4-07bfb2296933",
+      "video_id": "hic7PgnM7vY",
+      "segment_id": "s1",
+      "target_entity": "Ajax",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Esad Deniz proviene dalle giovanili dell'Ajax.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dalle giovanili dell'Ajax",
+          "start_sec": 37.16,
+          "end_sec": 69.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

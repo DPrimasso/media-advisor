@@ -1,0 +1,354 @@
+{
+  "video_id": "igwDa68PT4s",
+  "analyzed_at": "2026-04-17T11:09:56.483721+00:00",
+  "metadata": null,
+  "summary": "Nel video, l'autore Neschio analizza le scelte di Gattuso riguardo alla nazionale, sottolineando che non ci sono strade complicate da percorrere: si può optare per il gruppo o per la meritocrazia. Sostiene che la scelta di portare Chiesa è ponderata e razionale, ma esprime preoccupazione per eventuali problemi di salute del giocatore, temendo che ciò possa riflettere una partenza sbagliata per la squadra. Neschio conclude che la pressione è necessaria, ma spera che le sensazioni negative attuali siano infondate e non preannuncino ulteriori difficoltà.",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "medium"
+    },
+    {
+      "name": "comportamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "carattere",
+      "relevance": "medium"
+    },
+    {
+      "name": "pressione",
+      "relevance": "low"
+    },
+    {
+      "name": "scelte",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "giocatore",
+      "position": "Non ci sono strade complicate da percorrere riguardo alla scelta dei giocatori.",
+      "polarity": "neutral",
+      "claim_id": "508c5acb-00fd-48a1-881f-3a459fed3b0b",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s1",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono strade complicate da percorrere riguardo alla scelta dei giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è che ci siano chissà quale strade da percorrere.",
+          "start_sec": 8.92,
+          "end_sec": 57.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "giocatore",
+      "position": "Si può optare per il gruppo o per la meritocrazia.",
+      "polarity": "neutral",
+      "claim_id": "3de2fa1f-b6c9-4fb2-923f-5bfc03762eac",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s1",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si può optare per il gruppo o per la meritocrazia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "o vai con la via del gruppo o quella del o la la strada della meritocrazia.",
+          "start_sec": 8.92,
+          "end_sec": 57.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "giocatore",
+      "position": "Ci sono giocatori a cui ci si sente più legati.",
+      "polarity": "neutral",
+      "claim_id": "bb5a67b7-c967-49f5-abc1-04e8c7d4ff1e",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s1",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono giocatori a cui ci si sente più legati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quelli che stanno bene o porti quelli che so tuoi, li senti tuoi.",
+          "start_sec": 8.92,
+          "end_sec": 57.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "giocatore",
+      "position": "Ci sono polemiche sul giocatore da non considerare.",
+      "polarity": "neutral",
+      "claim_id": "a73f4843-5a32-45d0-bec4-f639eba567f9",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s1",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono polemiche sul giocatore da non considerare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci voglio mettere bocca mai come adesso la polemica sterile sul giocatore che non porti.",
+          "start_sec": 8.92,
+          "end_sec": 57.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Chiesa",
+      "position": "C'è preoccupazione riguardo la condizione fisica di Chiesa.",
+      "polarity": "neutral",
+      "claim_id": "2d675cf4-ef4e-4ad0-a460-3aa4cbded645",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s3",
+      "target_entity": "Chiesa",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "HYPOTHESIS",
+      "claim_text": "C'è preoccupazione riguardo la condizione fisica di Chiesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...mi sembra che ancora una volta... andiamo un po' a tarallucce e vino.",
+          "start_sec": 96.96,
+          "end_sec": 136.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "La squadra non sembra essere in ottima forma.",
+      "polarity": "negative",
+      "claim_id": "080d777c-e5fb-43d0-84d9-51c2475f572c",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s3",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra non sembra essere in ottima forma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi pare che stiamo già facendo un po' acqua da tutte le parti.",
+          "start_sec": 96.96,
+          "end_sec": 136.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "La situazione potrebbe peggiorare se non si risolvono i problemi.",
+      "polarity": "negative",
+      "claim_id": "ad236814-4ebc-4b13-8f88-2798c0cf8432",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s3",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La situazione potrebbe peggiorare se non si risolvono i problemi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spero che sia solo una mia sensazione personalissima e che rimanga tale.",
+          "start_sec": 96.96,
+          "end_sec": 136.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "squadra",
+      "position": "La squadra parte con un atteggiamento negativo dopo recenti umiliazioni.",
+      "polarity": "neutral",
+      "claim_id": "74ff01ae-da44-4a96-900a-59e391dfaf74",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s4",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra parte con un atteggiamento negativo dopo recenti umiliazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partiamo col piede sbagliato, non ci arriviamo certamente eh con le ali dell'entusiasmo.",
+          "start_sec": 133.72,
+          "end_sec": 169.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Chiesa",
+      "position": "Chiesa è una scelta ponderata per la squadra.",
+      "polarity": "neutral",
+      "claim_id": "02e720e4-b334-4c1f-9447-0b45a7f7883e",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s2",
+      "target_entity": "Chiesa",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chiesa è una scelta ponderata per la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sta bene che tu porti Chiesa.",
+          "start_sec": 54.359,
+          "end_sec": 99.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "squadra",
+      "position": "C'è una mancanza di entusiasmo nella squadra.",
+      "polarity": "neutral",
+      "claim_id": "26fe7f2c-3140-444a-a177-2ba8a21e9b55",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s4",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è una mancanza di entusiasmo nella squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci arriviamo certamente eh con le ali dell'entusiasmo.",
+          "start_sec": 133.72,
+          "end_sec": 169.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Chiesa",
+      "position": "La scelta di Chiesa mostra raziocinio.",
+      "polarity": "positive",
+      "claim_id": "d6c96bfb-572a-4412-a345-6b7fa6ad9433",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s2",
+      "target_entity": "Chiesa",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La scelta di Chiesa mostra raziocinio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è del raziocinio, avete degli accordi voi.",
+          "start_sec": 54.359,
+          "end_sec": 99.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Chiesa",
+      "position": "Chiesa ha avuto alcuni problemi di salute.",
+      "polarity": "neutral",
+      "claim_id": "b93b9bba-ee06-43ee-8988-731febc81bcf",
+      "video_id": "igwDa68PT4s",
+      "segment_id": "s3",
+      "target_entity": "Chiesa",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Chiesa ha avuto alcuni problemi di salute.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chiesa aveva dei problemini!",
+          "start_sec": 96.96,
+          "end_sec": 136.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "video_id": "jLMqbmu7ouc",
+  "analyzed_at": "2026-04-17T09:52:25.611637+00:00",
+  "metadata": {
+    "title": "🚨💣 INCONTRO KESSIÉ! INTER: PERISIC, IL COLPO CHIUSO E LA VERITÀ SU MLACIC. DIBU MARTINEZ E GIOVANE…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-21"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti attività di calciomercato dell'Inter, evidenziando l'acquisto di Leonakirovic dalla Dinamo Zagabria, un'operazione già conclusa senza intoppi. L'autore sottolinea che, mentre l'affare per Yakirovic è stato chiuso, la situazione riguardante Mlacic rimane in standby a causa di complicazioni legate al suo nuovo procuratore. Romano conclude affermando che l'Inter continua a lavorare attivamente sul mercato, con ulteriori sviluppi attesi nei prossimi giorni.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "inter",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "portieri",
+      "relevance": "medium"
+    },
+    {
+      "name": "operazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "economia",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Jakirovic",
+      "position": "L'Inter ha preso Jakirovic, un ragazzo di 18 anni croato.",
+      "polarity": "neutral",
+      "claim_id": "ff306f3f-e2d5-4225-8b73-fe2ce259b786",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s3",
+      "target_entity": "Jakirovic",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha preso Jakirovic, un ragazzo di 18 anni croato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Jakirovic all'Inter. inizialmente in under 23 e poi eventualmente con un futuro in prima squadra da verificare per quanto riguarda questo ragazzo di 18 anni croato che l'Inter ha preso.",
+          "start_sec": 84.84,
+          "end_sec": 114.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'operazione per Jakirovic è conclusa e si aspettano firme.",
+      "polarity": "positive",
+      "claim_id": "56bab1fe-f030-47c3-aeb8-d2662f35bcb2",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione per Jakirovic è conclusa e si aspettano firme.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi questa è un'operazione fatta finita per cui si aspettano visite mediche firme, gli agenti sono già in Italia.",
+          "start_sec": 84.84,
+          "end_sec": 114.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mlacic",
+      "position": "L'operazione per Mlacic all'Inter rimane al momento completamente ferma.",
+      "polarity": "neutral",
+      "claim_id": "d3e31e7a-5f14-4aaa-a618-781177ea99dc",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s3",
+      "target_entity": "Mlacic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione per Mlacic all'Inter rimane al momento completamente ferma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allora, quello che posso dirvi è che al momento l'operazione rimane completamente.",
+          "start_sec": 84.84,
+          "end_sec": 114.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter potrebbe sbloccare l'operazione per Mlacic la prossima settimana.",
+      "polarity": "neutral",
+      "claim_id": "d7b9fb5d-7fc4-45f4-8795-d85f586ff274",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s5",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter potrebbe sbloccare l'operazione per Mlacic la prossima settimana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se settimana prossima l'Inter la sbloccherà questo lo vedremo.",
+          "start_sec": 140.599,
+          "end_sec": 169.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ausilio",
+      "position": "Il direttore Piero Ausilio ha buoni rapporti con Perisic.",
+      "polarity": "positive",
+      "claim_id": "9b6f2e76-fea8-4753-ae6c-04d7417c7a68",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s6",
+      "target_entity": "Ausilio",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il direttore Piero Ausilio ha buoni rapporti con Perisic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tra l'Inter, il direttore Piero Ausilio, lo stesso Cristian Kivu, i Vanisici, i rapporti sono molto buoni.",
+          "start_sec": 168.2,
+          "end_sec": 195.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "PSV",
+      "position": "Il PSV potrebbe avere difficoltà a liberare Van Perisic se avanza in Champions League.",
+      "polarity": "positive",
+      "claim_id": "c7565836-62a8-442d-af7f-b028d9057388",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s7",
+      "target_entity": "PSV",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Il PSV potrebbe avere difficoltà a liberare Van Perisic se avanza in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se il PSV dovesse andare avanti in Champions League, anche solo ai play-off, sarà molto difficile riuscire a sbloccare questa operazione.",
+          "start_sec": 193.4,
+          "end_sec": 221.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "C'è un grande desiderio comune tra l'Inter e Perisic.",
+      "polarity": "positive",
+      "claim_id": "95c33106-c416-4e43-a059-afbdef08e27b",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s6",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un grande desiderio comune tra l'Inter e Perisic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è un grande desiderio comune.",
+          "start_sec": 168.2,
+          "end_sec": 195.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Bayern",
+      "position": "Il PSV giocherà contro il Bayern settimana prossima.",
+      "polarity": "neutral",
+      "claim_id": "4d5bd12c-ad76-493a-aeae-8c908ea71beb",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s7",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il PSV giocherà contro il Bayern settimana prossima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giocherà settimana prossima contro il Bayern.",
+          "start_sec": 193.4,
+          "end_sec": 221.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Inter",
+      "position": "Inter pagherà una percentuale minore sulla rivendita.",
+      "polarity": "positive",
+      "claim_id": "04b7cab8-910b-413d-b0d6-b9acf622c6e1",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter pagherà una percentuale minore sulla rivendita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sarà del 15%, sarà più bassa.",
+          "start_sec": 57.6,
+          "end_sec": 87.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mlacic",
+      "position": "Mlacic è attualmente un'operazione in standby.",
+      "polarity": "neutral",
+      "claim_id": "a00aafea-f537-4846-9bb1-11d2701c31d8",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s5",
+      "target_entity": "Mlacic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mlacic è attualmente un'operazione in standby.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi risulta ancora in standby.",
+          "start_sec": 140.599,
+          "end_sec": 169.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Yakirović",
+      "position": "L'operazione per Yakirović è già completata.",
+      "polarity": "positive",
+      "claim_id": "ffdd272e-b62e-4886-b4c1-d6b3b1bb604d",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s5",
+      "target_entity": "Yakirović",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione per Yakirović è già completata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Yakirović è fatto.",
+          "start_sec": 140.599,
+          "end_sec": 169.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Perisic",
+      "position": "Perisic vuole tornare all'Inter.",
+      "polarity": "positive",
+      "claim_id": "c442da92-cd82-48fd-9569-92b488dc69e5",
+      "video_id": "jLMqbmu7ouc",
+      "segment_id": "s6",
+      "target_entity": "Perisic",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Perisic vuole tornare all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ivan Perisic vuol tornare all'Inter? Sì.",
+          "start_sec": 168.2,
+          "end_sec": 195.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

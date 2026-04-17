@@ -1,0 +1,362 @@
+{
+  "video_id": "ab9CfMQWNno",
+  "analyzed_at": "2026-04-17T09:53:49.663704+00:00",
+  "metadata": {
+    "title": "🚨 NAPOLI: TRE VERDETTI! MATETA, IL GIOCO È LO STESSO. STERLING-LANG-LUCCA, DZEKO, GABRIEL JESUS…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-21"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità del calciomercato riguardanti il Napoli, evidenziando l'importanza di questo periodo per la squadra e per altri club come Juventus e Atalanta. L'autore conferma che Noang non ha subito un infortunio serio e che il Napoli sta cercando di chiudere l'accordo per il suo riscatto, attualmente in trattativa con il Galatasaray. Inoltre, si discute della situazione di Lucca, che sta valutando un'offerta dal Napoli, mentre il club partenopeo esplora anche la possibilità di ingaggiare Raheem Sterling dal Chelsea. Le decisioni dei giocatori sar",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "high"
+    },
+    {
+      "name": "riscatto",
+      "relevance": "medium"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "scelte",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "speranza",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Il Galatasaray vuole un riscatto tra 26 e 27 milioni.",
+      "polarity": "neutral",
+      "claim_id": "c58775a8-90e5-4063-9e15-1d0a5b5c0bad",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s2",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray vuole un riscatto tra 26 e 27 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Galatasaray vuole tenerla tra i 26 e i 27 milioni",
+          "start_sec": 60.879,
+          "end_sec": 89.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Noang",
+      "position": "Noang non ha un infortunio serio al momento.",
+      "polarity": "neutral",
+      "claim_id": "ca3eef6f-66ba-4144-b19c-2a8f117776dd",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s1",
+      "target_entity": "Noang",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Noang non ha un infortunio serio al momento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nonostante questo, eh non c'è un infortunio al momento ritenuto serio",
+          "start_sec": 29.4,
+          "end_sec": 62.279999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nolang",
+      "position": "Nolang è in prestito con diritto di riscatto al Nottingham Forest.",
+      "polarity": "positive",
+      "claim_id": "bb1a6013-5c6b-4efd-9d74-b60c80a30f80",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s3",
+      "target_entity": "Nolang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nolang è in prestito con diritto di riscatto al Nottingham Forest.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cessione di Nolang, come detto in prestito con diritto di riscatto.",
+          "start_sec": 87.799,
+          "end_sec": 114.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Napoli ha un accordo imminente per il prestito di Nolang.",
+      "polarity": "neutral",
+      "claim_id": "0c0d191e-9a7e-4279-8dbe-465a462f9927",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha un accordo imminente per il prestito di Nolang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Questo l'accordo imminente, aspettando di chiudere questa cessione di Nolang.",
+          "start_sec": 87.799,
+          "end_sec": 114.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Rahim Sterling",
+      "position": "Il Napoli si metterà in contatto con gli agenti di Rahim Sterling.",
+      "polarity": "neutral",
+      "claim_id": "73c6c4ad-8e15-473a-bc0b-3496f87a25ca",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s5",
+      "target_entity": "Rahim Sterling",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli si metterà in contatto con gli agenti di Rahim Sterling.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Da oggi il Napoli si metterà in contatto anche con gli agenti di Rahim Sterling del Chelsea per capire se procedere con questa operazione o meno.",
+          "start_sec": 139.68,
+          "end_sec": 172.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Ci si può incontrare a metà strada per il riscatto.",
+      "polarity": "neutral",
+      "claim_id": "f0521c49-bc4c-45ed-908b-f73f9b3a8961",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci si può incontrare a metà strada per il riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci si può incontrare al metà strada",
+          "start_sec": 60.879,
+          "end_sec": 89.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lucca",
+      "position": "Lucca dipende dalla sua scelta per il futuro.",
+      "polarity": "neutral",
+      "claim_id": "bc183e87-3b09-4d57-a9a6-2b3de3e5ec1b",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s4",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lucca dipende dalla sua scelta per il futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dipende soprattutto dal giocatore",
+          "start_sec": 112.88,
+          "end_sec": 142.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lucca",
+      "position": "Lucca spera di restare in Italia.",
+      "polarity": "neutral",
+      "claim_id": "a1570807-6d66-4032-b493-16342afa88c8",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s4",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lucca spera di restare in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lucca che continua a coltivare la speranza di restare in Italia",
+          "start_sec": 112.88,
+          "end_sec": 142.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nottingham Forest",
+      "position": "Nottingham Forest non vuole aspettare per sempre.",
+      "polarity": "neutral",
+      "claim_id": "cfe66dde-4531-4bbf-860a-bce1d150c41f",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s4",
+      "target_entity": "Nottingham Forest",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nottingham Forest non vuole aspettare per sempre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nottingham Forest che non vuole aspettare per sempre",
+          "start_sec": 112.88,
+          "end_sec": 142.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lucca",
+      "position": "Lucca sta considerando un'offerta dal Napoli.",
+      "polarity": "positive",
+      "claim_id": "b0abca34-76bd-4202-8ea4-5de791015b7e",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s3",
+      "target_entity": "Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lucca sta considerando un'offerta dal Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si aspettano risposte dal giocatore.",
+          "start_sec": 87.799,
+          "end_sec": 114.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Pisa",
+      "position": "Pisa sogna il ritorno di Lorenzo Lucca.",
+      "polarity": "positive",
+      "claim_id": "98183b2e-983d-425e-8201-501f7e11e905",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s4",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pisa sogna il ritorno di Lorenzo Lucca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Pisa sogna il ritorno di Lorenzo Lucca",
+          "start_sec": 112.88,
+          "end_sec": 142.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Juventus",
+      "position": "La Juventus sarà un tema importante per il mercato.",
+      "polarity": "neutral",
+      "claim_id": "1d4b85fd-d815-4e82-8714-75f1b1999b58",
+      "video_id": "ab9CfMQWNno",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sarà un tema importante per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...sarà importante anche in ottica Juventus...",
+          "start_sec": 0.599,
+          "end_sec": 32.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

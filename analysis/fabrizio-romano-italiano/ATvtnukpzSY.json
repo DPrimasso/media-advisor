@@ -1,0 +1,346 @@
+{
+  "video_id": "ATvtnukpzSY",
+  "analyzed_at": "2026-04-17T10:01:43.401521+00:00",
+  "metadata": {
+    "title": "🚨 NAPOLI: CI SIAMO! INTER, COLPO VICINO. LANG IN CHIUSURA, LUCCA, DZEKO, BIJLOW, AKANJI, JAKIROVIC…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-19"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti del mercato calcistico, in particolare sul Genoa e sul Napoli. L'autore sottolinea che il Genoa ha trovato un accordo per l'acquisto del portiere Bijlow, che firmerà fino alla fine della stagione con un contratto triennale, mentre il Napoli è attivamente impegnato nel mercato in vista della sua importante partita di Champions League contro il Copenhagen. Tra le conclusioni chiave, si evidenzia che l'operazione per il prestito di Noalang al Galatasaray è praticamente chiusa, con dettagli finali da definire, mentre il Genoa potrebbe ri",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "investimento",
+      "relevance": "high"
+    },
+    {
+      "name": "prospettive",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Noalang",
+      "position": "Noalang sarà ceduto in prestito al Galatasaray per 2 milioni.",
+      "polarity": "neutral",
+      "claim_id": "b8940262-0444-4783-bfd6-3d915621c17d",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s3",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Noalang sarà ceduto in prestito al Galatasaray per 2 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È un prestito che mi dicono sarà da 2 milioni.",
+          "start_sec": 82.56,
+          "end_sec": 111.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa ha trovato un accordo per il portiere Bijlow.",
+      "polarity": "positive",
+      "claim_id": "10410cb9-ec63-4f24-8d32-79f0cd5dcd07",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha trovato un accordo per il portiere Bijlow.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Genoa ha trovato il suo portiere, è Below del Finor.",
+          "start_sec": 24.56,
+          "end_sec": 60.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bijlow",
+      "position": "Bijlow firmerà con il Genoa fino alla fine della stagione, più un triennale.",
+      "polarity": "positive",
+      "claim_id": "57a78c7e-6bef-455e-b0a1-57e5ac336522",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s1",
+      "target_entity": "Bijlow",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bijlow firmerà con il Genoa fino alla fine della stagione, più un triennale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calciatore firmerà ovviamente fino alla fine della stagione più eventuale triennale.",
+          "start_sec": 24.56,
+          "end_sec": 60.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Napoli",
+      "position": "Il Napoli ha una partita di Champions League contro il Copenhagen.",
+      "polarity": "neutral",
+      "claim_id": "1e796adf-3655-4dca-982f-77be28bd0e3f",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha una partita di Champions League contro il Copenhagen.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la partita di Champions League fondamentale contro il Copenhagen",
+          "start_sec": 58.199,
+          "end_sec": 84.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa ha un accordo finanziario con il Feyenoord.",
+      "polarity": "neutral",
+      "claim_id": "3f88a7fd-e503-47f5-8120-e7903ae259f2",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s2",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha un accordo finanziario con il Feyenoord.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nella futura vendita, eh insomma tra nell'accordo tra Genoa e Feyen Nord",
+          "start_sec": 58.199,
+          "end_sec": 84.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli sta per chiudere l'operazione di prestito per Noalang.",
+      "polarity": "neutral",
+      "claim_id": "6f692f3d-7c21-4fdd-8f9a-6f6692ecd2e3",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta per chiudere l'operazione di prestito per Noalang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'operazione praticamente fatta, impostata tra Napoli e Galatasaray.",
+          "start_sec": 82.56,
+          "end_sec": 111.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Noalang",
+      "position": "Il diritto di riscatto di Noalang sarà più basso.",
+      "polarity": "neutral",
+      "claim_id": "45970a82-419e-4b89-9ef2-7c315329f34c",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s4",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il diritto di riscatto di Noalang sarà più basso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il diritto di riscatto sarà invece un po' più basso rispetto a quanto si è detto negli ultimi giorni.",
+          "start_sec": 109.92,
+          "end_sec": 134.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "Il Genoa potrebbe ricevere un indennizzo dal Feyenoord.",
+      "polarity": "positive",
+      "claim_id": "8e0ea540-569c-4034-a77e-72f2282311bf",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa potrebbe ricevere un indennizzo dal Feyenoord.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un piccolo indennizzo nei confronti del Feyenord.",
+          "start_sec": 24.56,
+          "end_sec": 60.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il mercato del Napoli è attivo in vista della partita.",
+      "polarity": "neutral",
+      "claim_id": "92b1d581-fd2c-4379-bfc3-3cf59906265e",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato del Napoli è attivo in vista della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mercato del Napoli, dobbiamo parlare del Napoli",
+          "start_sec": 58.199,
+          "end_sec": 84.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Il Galatasaray non è obbligato a riscattare Noalang.",
+      "polarity": "neutral",
+      "claim_id": "bc936430-47c6-4ad6-a84d-265508430212",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s4",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray non è obbligato a riscattare Noalang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché non c'è un obbligo e un diritto.",
+          "start_sec": 109.92,
+          "end_sec": 134.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa ha acquisito un nuovo portiere.",
+      "polarity": "neutral",
+      "claim_id": "6d5d21eb-7f86-493f-885a-1160ddd603f7",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s2",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha acquisito un nuovo portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il nuovo colpo del Genoa in porta",
+          "start_sec": 58.199,
+          "end_sec": 84.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bento",
+      "position": "Bento resta all'Al Nassr.",
+      "polarity": "neutral",
+      "claim_id": "9bcabfe0-88e6-4323-93e5-17fb3492918c",
+      "video_id": "ATvtnukpzSY",
+      "segment_id": "s1",
+      "target_entity": "Bento",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bento resta all'Al Nassr.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bento resta all'Alnasser.",
+          "start_sec": 24.56,
+          "end_sec": 60.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

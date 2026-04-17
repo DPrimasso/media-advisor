@@ -1,0 +1,350 @@
+{
+  "video_id": "w_SJm1-DIOs",
+  "analyzed_at": "2026-04-16T14:59:35.482639+00:00",
+  "metadata": {
+    "title": "🚨💣 COLPO MILAN: CASO LEGALE E LE FIRME MANCATE! INTER: CONTATTI PER KOSTOV! ISMAEL KONE…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-03-01"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli sviluppi del mercato calcistico, in particolare sul caso del giovane centrocampista André, bloccato dal Milan ma ancora in attesa della firma finale del presidente del Corinthians, che potrebbe complicare l'operazione. L'autore sottolinea l'importanza di questo giocatore, paragonato a Ederson, e menziona anche l'interesse dell'Inter per Kostov della Stella Rossa e un focus su Ismael Coné. Inoltre, si ipotizza che il Milan stia considerando azioni legali con la FIFA per risolvere la situazione di André, evidenziando le tensioni e le incertezze che ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "high"
+    },
+    {
+      "name": "giovani",
+      "relevance": "high"
+    },
+    {
+      "name": "interesse",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha bloccato il centrocampista André, classe 2006.",
+      "polarity": "positive",
+      "claim_id": "99a0371a-a62b-4582-9924-9fe6c34c7c51",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha bloccato il centrocampista André, classe 2006.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan di fatto ha bloccato, però c'è un retroscena.",
+          "start_sec": 0.04,
+          "end_sec": 32.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson è bloccato dal Milan per 12-13 milioni di euro.",
+      "polarity": "neutral",
+      "claim_id": "a1a1d9a4-04fe-46d0-a372-25fec9e1696a",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s3",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson è bloccato dal Milan per 12-13 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan di fatto lo ha bloccato per 12-13 milioni di euro più bonus",
+          "start_sec": 107.92,
+          "end_sec": 142.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha un accordo pressoché chiuso per un giocatore fino al 2031.",
+      "polarity": "positive",
+      "claim_id": "e4eabff9-52e7-442e-a040-377faa36249f",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha un accordo pressoché chiuso per un giocatore fino al 2031.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un accordo praticamente chiuso con il Milan per un contratto fino al 2031.",
+          "start_sec": 140.04,
+          "end_sec": 182.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Inter è interessata a Kostov della Stella Rossa.",
+      "polarity": "neutral",
+      "claim_id": "1b721268-c9dc-4d99-a3b2-a544e65736f4",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter è interessata a Kostov della Stella Rossa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kostov della Stella Rossa, perché interessa moltissimo all'Inter.",
+          "start_sec": 30.759,
+          "end_sec": 74.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Il Milan sta affrontando un caso legale in corso.",
+      "polarity": "neutral",
+      "claim_id": "42960f2e-27a5-4bcd-b1be-6ffeeb767955",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta affrontando un caso legale in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo caso sta comunque eh prendendo sempre più forza in queste ore anche a livello mediatico.",
+          "start_sec": 72.68,
+          "end_sec": 110.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha un'operazione di mercato in corso con Ederson.",
+      "polarity": "neutral",
+      "claim_id": "ee4c92f1-7665-44ae-bf0c-aa594e751498",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha un'operazione di mercato in corso con Ederson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, ribadiamo un po' le cifre dell'operazione perché il Milan di fatto lo ha bloccato per 12-13 milioni di euro.",
+          "start_sec": 107.92,
+          "end_sec": 142.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "L'operazione per André Milan non è ancora del tutto conclusa.",
+      "polarity": "neutral",
+      "claim_id": "257b3ad2-779f-47dc-815a-5067d9371dbd",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "L'operazione per André Milan non è ancora del tutto conclusa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'operazione André Milan non è ancora chiusa al 100%.",
+          "start_sec": 140.04,
+          "end_sec": 182.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Corinthians",
+      "position": "Manca la firma del presidente del Corinthians per completare l'accordo.",
+      "polarity": "positive",
+      "claim_id": "3015db6f-61e7-41e4-a477-eb0e6d383047",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s4",
+      "target_entity": "Corinthians",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Manca la firma del presidente del Corinthians per completare l'accordo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "manca l'ultima firma firma da parte del presidente del Corinthians Stabile.",
+          "start_sec": 140.04,
+          "end_sec": 182.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ederson",
+      "position": "Ederson è descritto come un centrocampista box to box forte fisicamente.",
+      "polarity": "neutral",
+      "claim_id": "4e8975c5-9835-485e-aa7e-83519d22ed94",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s3",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson è descritto come un centrocampista box to box forte fisicamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un centrocampista box to box forte fisicamente",
+          "start_sec": 107.92,
+          "end_sec": 142.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ederson",
+      "position": "Ederson ha grandissime qualità e grande potenziale.",
+      "polarity": "neutral",
+      "claim_id": "10ce2e03-96cd-4c92-b729-52214a42dc84",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s3",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson ha grandissime qualità e grande potenziale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un centrocampista dalle grandissime qualità e dal grande potenziale",
+          "start_sec": 107.92,
+          "end_sec": 142.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ismael Coné",
+      "position": "C'è un focus su Ismael Coné.",
+      "polarity": "neutral",
+      "claim_id": "4031b625-c9bf-4469-a4be-0747c3f3f443",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s1",
+      "target_entity": "Ismael Coné",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un focus su Ismael Coné.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi un focus su Ismael Coné",
+          "start_sec": 30.759,
+          "end_sec": 74.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Andrè",
+      "position": "Andrè è l'argomento del giorno.",
+      "polarity": "neutral",
+      "claim_id": "9652ee16-f29a-48b9-b087-2ae0d586c4d8",
+      "video_id": "w_SJm1-DIOs",
+      "segment_id": "s1",
+      "target_entity": "Andrè",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Andrè è l'argomento del giorno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Andrè che di fatto è l'argomento del giorno.",
+          "start_sec": 30.759,
+          "end_sec": 74.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "video_id": "nMMY15vnYig",
+  "analyzed_at": "2026-04-17T10:17:17.977173+00:00",
+  "metadata": {
+    "title": "🚨 JUVE, LA VERITÀ SULL’OFFERTA! NUNO TAVARES, EN NESYRI, MATETA, SORPRESA FABBIAN, FORTINI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-17"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità del mercato calcistico, con particolare attenzione alle trattative che coinvolgono la Juventus e la Lazio. L'autore evidenzia che la Juventus è attivamente in cerca di un attaccante, valutando Mateta ed En Nesyri, mentre la Lazio sta pianificando diverse uscite, tra cui quella di Mandas, che sembra vicino al trasferimento al Bormut in Premier League. Romano conclude che le trattative sono in fase avanzata, con Mandas che ha già accettato l'offerta del Bormut, il quale sta discutendo le modalità del trasferimento con la Lazio.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "giovani",
+      "relevance": "high"
+    },
+    {
+      "name": "contratti",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "proposta",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Bournemouth",
+      "position": "Il Bournemouth può permettersi un riscatto di circa 20 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "6188166c-3496-4a5a-94c2-876d48bb6a95",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s4",
+      "target_entity": "Bournemouth",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bournemouth può permettersi un riscatto di circa 20 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un riscatto anche che il Bormut per le cifre che girano in Premier League potrebbe sicuramente permettersi.",
+          "start_sec": 146.48,
+          "end_sec": 178.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "Un'uscita della Lazio potrebbe concretizzarsi nei prossimi giorni.",
+      "polarity": "positive",
+      "claim_id": "f534168e-897f-437f-95f2-67a8e3f92f4c",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Un'uscita della Lazio potrebbe concretizzarsi nei prossimi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una in particolare che potrebbe davvero concretizzarsi nei prossimi giorni",
+          "start_sec": 28.92,
+          "end_sec": 76.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mandas",
+      "position": "Mandas ha già dato il suo sì al trasferimento al Bormut.",
+      "polarity": "positive",
+      "claim_id": "1d9c7bbb-a494-4cfb-87ab-5709cb5e5fce",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s2",
+      "target_entity": "Mandas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mandas ha già dato il suo sì al trasferimento al Bormut.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calciatore ha già l'accordo con il Bormut, ha già dato il suo sì al trasferimento",
+          "start_sec": 73.92,
+          "end_sec": 110.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio chiede un titolo definitivo o prestito con diritto di riscatto.",
+      "polarity": "neutral",
+      "claim_id": "21c881d1-4323-443b-b3d5-c61ab72d4a2b",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio chiede un titolo definitivo o prestito con diritto di riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio chiede un titolo definitivo o comunque un prestito con diritto di riscatto",
+          "start_sec": 108.719,
+          "end_sec": 148.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "Il calciatore si aspetta che la Lazio accetti la proposta del Bormut.",
+      "polarity": "neutral",
+      "claim_id": "a6a888ce-7280-493c-bba9-356d9c0040f4",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il calciatore si aspetta che la Lazio accetti la proposta del Bormut.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calciatore, non essendo comunque un titolare, ehm si aspetta che la Lazio possa accettare una proposta come quella",
+          "start_sec": 108.719,
+          "end_sec": 148.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio sta cercando di acquisire un giocatore a titolo definitivo.",
+      "polarity": "positive",
+      "claim_id": "56ce404a-21cf-4634-881d-66115cf76522",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s4",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta cercando di acquisire un giocatore a titolo definitivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è vero, la Lazio sta spingendo per averlo per provare a chiuderlo a titolo definitivo",
+          "start_sec": 146.48,
+          "end_sec": 178.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nuno Tavares",
+      "position": "La Lazio cerca ancora una soluzione per Nuno Tavares.",
+      "polarity": "neutral",
+      "claim_id": "aba4b2e0-2f2e-41cf-a4c4-2fbfa540ee80",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s5",
+      "target_entity": "Nuno Tavares",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio cerca ancora una soluzione per Nuno Tavares.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio è ancora alla ricerca di una soluzione per lui.",
+          "start_sec": 176.0,
+          "end_sec": 210.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juventus è in trattativa per Mateta e En Nesyri.",
+      "polarity": "neutral",
+      "claim_id": "e848211f-157b-47cf-8634-db082c543aad",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus è in trattativa per Mateta e En Nesyri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus facendo un punto tra Matetà e Eln Siri.",
+          "start_sec": 28.92,
+          "end_sec": 76.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bournemouth",
+      "position": "Il Bournemouth ha avanzato un'offerta per un giocatore non specificato.",
+      "polarity": "positive",
+      "claim_id": "6861b59c-c322-4aa1-b389-404b62caa3b7",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s4",
+      "target_entity": "Bournemouth",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bournemouth ha avanzato un'offerta per un giocatore non specificato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ha avanzato il Bormut.",
+          "start_sec": 146.48,
+          "end_sec": 178.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fortini",
+      "position": "Fortini della Fiorentina ha diverse squadre interessate.",
+      "polarity": "neutral",
+      "claim_id": "d8455d14-6242-4ade-9735-7d58c51f3e84",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s0",
+      "target_entity": "Fortini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fortini della Fiorentina ha diverse squadre interessate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fortini della Fiorentina che ha diverse squadre interessate.",
+          "start_sec": 0.16,
+          "end_sec": 32.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio sta lavorando a diverse uscite.",
+      "polarity": "neutral",
+      "claim_id": "7076df7a-2ccb-4632-8501-9fb28221edbc",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta lavorando a diverse uscite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Lazio sta lavorando ad alcune uscite",
+          "start_sec": 28.92,
+          "end_sec": 76.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mandas",
+      "position": "Mandas è vicinissimo alla Premier League.",
+      "polarity": "neutral",
+      "claim_id": "a450b050-33e6-4a30-8acd-4a78e512d1af",
+      "video_id": "nMMY15vnYig",
+      "segment_id": "s1",
+      "target_entity": "Mandas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mandas è vicinissimo alla Premier League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mandas vicinissimo alla Premier League.",
+          "start_sec": 28.92,
+          "end_sec": 76.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

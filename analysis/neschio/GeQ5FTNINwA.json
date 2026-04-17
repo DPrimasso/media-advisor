@@ -1,0 +1,148 @@
+{
+  "video_id": "GeQ5FTNINwA",
+  "analyzed_at": "2026-04-17T11:10:12.865151+00:00",
+  "metadata": null,
+  "summary": "Il video analizza la deludente prestazione dell'Inter in una partita recente, con un focus particolare su Barella e il portiere Sommer. L'autore esprime una forte critica nei confronti di Barella, definendo la sua prestazione come \"brutta\" e sottolineando che il tiro non parato da Sommer ha contribuito al risultato negativo della squadra. Si conclude con l'ipotesi che Sommer potrebbe migliorare le sue prestazioni, mentre l'Inter continua a ricevere pesanti critiche per il suo gioco complessivo.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "critica",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Sommer",
+      "position": "Sommer non è riuscito a parare il tiro di Barella.",
+      "polarity": "negative",
+      "claim_id": "fe9e0789-85ba-4a12-b0d5-e6a4dbd89e94",
+      "video_id": "GeQ5FTNINwA",
+      "segment_id": "s0",
+      "target_entity": "Sommer",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sommer non è riuscito a parare il tiro di Barella.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Parella che romana da Sommer che giustamente non la può parare.",
+          "start_sec": 0.04,
+          "end_sec": 69.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Barella",
+      "position": "Barella ha fatto una brutta prestazione durante la partita.",
+      "polarity": "negative",
+      "claim_id": "f20a4caf-b287-4ee7-8aa2-e8415799f77f",
+      "video_id": "GeQ5FTNINwA",
+      "segment_id": "s0",
+      "target_entity": "Barella",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Barella ha fatto una brutta prestazione durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mamma mia stas facendo veramente pietà.",
+          "start_sec": 0.04,
+          "end_sec": 69.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter sta subendo molte critiche per la sua prestazione.",
+      "polarity": "negative",
+      "claim_id": "95cfb9c8-5597-4b41-ba8a-4ba2586a0635",
+      "video_id": "GeQ5FTNINwA",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta subendo molte critiche per la sua prestazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mamma mia, che schifo. Mamma mia.",
+          "start_sec": 0.04,
+          "end_sec": 69.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sommer",
+      "position": "Sommer potrebbe migliorare le sue prestazioni.",
+      "polarity": "neutral",
+      "claim_id": "94d9d2af-77d7-4892-ba09-28210592bd78",
+      "video_id": "GeQ5FTNINwA",
+      "segment_id": "s1",
+      "target_entity": "Sommer",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Sommer potrebbe migliorare le sue prestazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Forse poteva spinger ancora più",
+          "start_sec": 73.84,
+          "end_sec": 89.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter sta giocando male in questa partita.",
+      "polarity": "negative",
+      "claim_id": "429120c6-4f4f-4453-9327-e9d3a8fc79d3",
+      "video_id": "GeQ5FTNINwA",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta giocando male in questa partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mamma mia, mamma mia. Mamma mia, Barella che romana da Sommer.",
+          "start_sec": 0.04,
+          "end_sec": 69.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "video_id": "XMolqnIoD4Y",
+  "analyzed_at": "2026-04-17T11:25:43.310650+00:00",
+  "metadata": null,
+  "summary": "Il video di calciomercato.it analizza il clima di tristezza e disillusione che ha seguito la sconfitta dell'Italia contro la Bosnia. L'autore critica la mancanza di responsabilità da parte del presidente della FIGC, Gravina, che non ha chiesto scusa né ha mostrato intenzione di dimettersi, nonostante le gravi conseguenze della disfatta. Si sottolinea come la situazione attuale del calcio italiano richieda una presa di coscienza e un cambio di leadership, ma Gravina sembra rimanere fermo nella sua posizione, affermando che non sarà facile allontanare Allegri.",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "medium"
+    },
+    {
+      "name": "responsabilità",
+      "relevance": "medium"
+    },
+    {
+      "name": "tristezza",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "crisi",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "risultato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina non ha chiesto scusa dopo la disfatta del 2022.",
+      "polarity": "negative",
+      "claim_id": "e585942b-4449-4890-a98f-8faa69196a6d",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina non ha chiesto scusa dopo la disfatta del 2022.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io non l'ho sentita Gattuso in Rai e però Gravino non l'ho sentito che era quello che doveva scusa chiedere scusa più di tutti",
+          "start_sec": 81.32,
+          "end_sec": 152.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "Il clima è di tristezza dopo la partita Bosnia Italia.",
+      "polarity": "negative",
+      "claim_id": "7fe27ae0-95a8-4fac-bdba-f5f114fe4299",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il clima è di tristezza dopo la partita Bosnia Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non abbiamo purtroppo il sorriso che avevamo ieri oggi in questo contenuto...tristissima pagina del calcio italiano",
+          "start_sec": 0.64,
+          "end_sec": 84.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "La sconfitta fa riflettere e provoca ulteriore tristezza.",
+      "polarity": "negative",
+      "claim_id": "e199a221-f234-402e-94c2-a3cf42bd840e",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La sconfitta fa riflettere e provoca ulteriore tristezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi il giorno dopo fa ancora più male perché poi ci pensi, ci ripensi",
+          "start_sec": 0.64,
+          "end_sec": 84.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina sembra non voler assumere responsabilità per la situazione attuale.",
+      "polarity": "negative",
+      "claim_id": "d46de5e4-e061-4d88-a7d1-37dfc51435c2",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina sembra non voler assumere responsabilità per la situazione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un continuo eh dare la colpa ad altri e mai dire 'Sì, è colpa mia'",
+          "start_sec": 81.32,
+          "end_sec": 152.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Gravina afferma che Allegri non sarà allontanato facilmente.",
+      "polarity": "positive",
+      "claim_id": "7d309eae-d27b-4458-9acf-3e0157e53b23",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina afferma che Allegri non sarà allontanato facilmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se mi vogliono via mi devono cacciare, mi devono prendere di peso",
+          "start_sec": 81.32,
+          "end_sec": 152.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "federazione",
+      "position": "La federazione è stata citata riguardo a problemi di sicurezza dopo la partita.",
+      "polarity": "neutral",
+      "claim_id": "e3142461-540b-459f-ba19-e7641ddaed88",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s2",
+      "target_entity": "federazione",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La federazione è stata citata riguardo a problemi di sicurezza dopo la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi devono prendere proprio e lanciare fuori da dalla finestra perché è l'unico modo in cui io mire posso andare dalla federazione.",
+          "start_sec": 149.519,
+          "end_sec": 216.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "partita",
+      "position": "Non c'è stata alcuna zona mista per la partita a causa di problemi di sicurezza.",
+      "polarity": "neutral",
+      "claim_id": "feab6f28-9d9a-4de6-a001-3c2e6cd8d017",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s2",
+      "target_entity": "partita",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non c'è stata alcuna zona mista per la partita a causa di problemi di sicurezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non se ne parla, visto anche un po' l'impianto com'era, non se n'è parlato.",
+          "start_sec": 149.519,
+          "end_sec": 216.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "stadio",
+      "position": "Lo stadio non ha fornito condizioni di sicurezza per la zona mista.",
+      "polarity": "neutral",
+      "claim_id": "6153332c-7450-49e7-8250-4a20406c254e",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s2",
+      "target_entity": "stadio",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lo stadio non ha fornito condizioni di sicurezza per la zona mista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in uno stadio in cui la zona mista non c'è stata perché mancavano le condizioni di sicurezza.",
+          "start_sec": 149.519,
+          "end_sec": 216.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "ambulanza",
+      "position": "Un'ambulanza era situata sotto la curva dello stadio.",
+      "polarity": "neutral",
+      "claim_id": "20dac97f-8d7a-466f-9db2-ab2f107deefb",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s2",
+      "target_entity": "ambulanza",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un'ambulanza era situata sotto la curva dello stadio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era vicino a un'ambulanza sotto la tribuna, sotto la curva.",
+          "start_sec": 149.519,
+          "end_sec": 216.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "I membri dello staff erano silenziosi dopo la partita.",
+      "polarity": "negative",
+      "claim_id": "bca62c54-81ba-49c0-8f88-a4db2083e7c6",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I membri dello staff erano silenziosi dopo la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era mutismo totale tutta tutto il tempo",
+          "start_sec": 0.64,
+          "end_sec": 84.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina non ha intenzione di dare le dimissioni.",
+      "polarity": "negative",
+      "claim_id": "3c885885-cc41-4e69-a3f5-2bc7f13d710b",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina non ha intenzione di dare le dimissioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non le ha date e non le darà, soprattutto",
+          "start_sec": 81.32,
+          "end_sec": 152.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "calcio italiano",
+      "position": "Ci si aspettava una presa di responsabilità.",
+      "polarity": "negative",
+      "claim_id": "cd4db64e-64a2-4e5b-90a3-eccdfbff475d",
+      "video_id": "XMolqnIoD4Y",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci si aspettava una presa di responsabilità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pensavo di sentire un barlume di presa di responsabilità",
+          "start_sec": 0.64,
+          "end_sec": 84.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

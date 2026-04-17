@@ -1,17 +1,54 @@
 """TranscriptAPI.com async client — porting of src/transcript-client.ts.
 
 Uses httpx with exponential backoff on retryable status codes (408, 429, 503).
+Falls back to youtube-transcript-api (free) when the paid plan is unavailable.
 """
 
 import asyncio
+import re
 from typing import Any
 
 import httpx
 
-from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
+from media_advisor.models.transcript import TranscriptResponse, TranscriptSegment, VideoMetadata
 
 BASE_URL = "https://transcriptapi.com/api/v2"
 RETRYABLE_CODES = {408, 429, 503}
+
+# Error substrings that indicate the paid plan is inactive (not a transient error).
+_PLAN_ERROR_SIGNALS = ("paid plan", "active plan", "subscription", "quota", "credits")
+
+
+def _extract_video_id(video_url_or_id: str) -> str:
+    """Extract YouTube video ID from a URL or return as-is if already an ID."""
+    # Match ?v=ID or youtu.be/ID patterns
+    m = re.search(r"(?:v=|youtu\.be/)([A-Za-z0-9_-]{11})", video_url_or_id)
+    if m:
+        return m.group(1)
+    # Assume it's already an ID if it looks like one
+    if re.fullmatch(r"[A-Za-z0-9_-]{11}", video_url_or_id.strip()):
+        return video_url_or_id.strip()
+    return video_url_or_id
+
+
+async def _fetch_via_yt_transcript_api(video_id: str) -> TranscriptResponse:
+    """Fallback: fetch transcript using the free youtube-transcript-api library."""
+    loop = asyncio.get_event_loop()
+
+    def _sync_fetch() -> list[dict]:
+        from youtube_transcript_api import YouTubeTranscriptApi  # type: ignore[import-untyped]
+        api = YouTubeTranscriptApi()
+        fetched = api.fetch(video_id, languages=["it", "en"])
+        return [{"text": s.text, "start": s.start, "duration": s.duration} for s in fetched.snippets]
+
+    snippets = await loop.run_in_executor(None, _sync_fetch)
+    segments = [TranscriptSegment(**s) for s in snippets]
+    return TranscriptResponse(
+        video_id=video_id,
+        language="it",
+        transcript=segments,
+        metadata=None,
+    )
 
 
 class TranscriptAPIError(Exception):
@@ -85,6 +122,15 @@ class TranscriptClient:
             body = resp.json() if resp.content else {}
             msg, action_url = _extract_error(body, resp.reason_phrase or str(resp.status_code))
             code = body.get("code") if isinstance(body, dict) else None
+            # If the paid plan is not active, fall back to the free youtube-transcript-api.
+            if any(sig in msg.lower() for sig in _PLAN_ERROR_SIGNALS):
+                try:
+                    vid = _extract_video_id(video_url_or_id)
+                    return await _fetch_via_yt_transcript_api(vid)
+                except Exception as fb_err:
+                    raise TranscriptAPIError(
+                        f"{msg} (fallback also failed: {fb_err})", resp.status_code, code, action_url
+                    ) from fb_err
             raise TranscriptAPIError(msg, resp.status_code, code, action_url)
         return TranscriptResponse.model_validate(resp.json())
 

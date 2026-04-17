@@ -1,0 +1,350 @@
+{
+  "video_id": "ItNFRaqJB6s",
+  "analyzed_at": "2026-04-16T15:32:08.443192+00:00",
+  "metadata": {
+    "title": "🚨 EDERSON BLOCCATO? MCKENNIE E IL FUTURO, DIMARCO E QUELL’ASSALTO DIETRO LE QUINTE, MIRANDA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-09"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato riguardanti diversi calciatori, tra cui Ederson dell'Atalanta, Weston McKennie della Juventus e Juan Miranda del Bologna. L'autore sottolinea l'interesse dell'Atletico Madrid per Ederson, con piani di contatti per un possibile trasferimento in estate, mentre evidenzia il crescente valore di Miranda, che ha dimostrato di essere un elemento chiave per il Bologna, contribuendo alla vittoria della Coppa Italia. Romano conclude che, nonostante le offerte ricevute, Miranda ha scelto di rimanere fedele al club emiliano.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratti",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Nottingham Forest",
+      "position": "Il Nottingham Forest ha avanzato un'offerta per Juan Miranda.",
+      "polarity": "negative",
+      "claim_id": "3d8ffe88-6e0d-4abd-b95c-8a36830fafe9",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s3",
+      "target_entity": "Nottingham Forest",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Nottingham Forest ha avanzato un'offerta per Juan Miranda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Nottingham durante l'ultima finestra invernale di mercato si è fatto avanti per quanto riguarda Juan Miranda.",
+          "start_sec": 110.479,
+          "end_sec": 151.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson dell'Atalanta è stato collegato a un trasferimento in Spagna.",
+      "polarity": "neutral",
+      "claim_id": "96e24346-2ba1-4745-80fe-ffcc70a2d701",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s4",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson dell'Atalanta è stato collegato a un trasferimento in Spagna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un calciatore come Ederson brasiliano che può andare a giocare in Spagna",
+          "start_sec": 149.2,
+          "end_sec": 186.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "L'Atletico Madrid sta monitorando il futuro di Ederson.",
+      "polarity": "neutral",
+      "claim_id": "be627554-b2fb-4daf-a4e3-9b7d3e0ea766",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s5",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid sta monitorando il futuro di Ederson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atletico Madrid che ha ottimi rapporti con l'Atalanta, eh continua a monitorare con grande attenzione il futuro di Ederson",
+          "start_sec": 184.519,
+          "end_sec": 228.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson dell'Atalanta è un tema discusso nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "7aa63e60-61ad-46bf-bc62-4b340392b8a9",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s0",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson dell'Atalanta è un tema discusso nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ederson dell'Atalanta, perché ci",
+          "start_sec": 0.08,
+          "end_sec": 35.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Weston McKennie",
+      "position": "Weston McKennie sarà al centro di un aggiornamento.",
+      "polarity": "neutral",
+      "claim_id": "ed3d3dd7-9964-4bf3-8963-45b9e7c74738",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s1",
+      "target_entity": "Weston McKennie",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Weston McKennie sarà al centro di un aggiornamento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi Weston McCenny della Juventus, faremo un punto",
+          "start_sec": 32.92,
+          "end_sec": 78.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juan Miranda",
+      "position": "Juan Miranda è un terzino spagnolo del Bologna.",
+      "polarity": "neutral",
+      "claim_id": "d28cdc5c-c05d-4b21-b1f9-394d4ce6cf6e",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s1",
+      "target_entity": "Juan Miranda",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juan Miranda è un terzino spagnolo del Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juan Miranda, terzino spagnolo del Bologna",
+          "start_sec": 32.92,
+          "end_sec": 78.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha vinto la Coppa Italia con Miranda.",
+      "polarity": "positive",
+      "claim_id": "7ae59683-769a-4bbc-9eef-ad5ac803cb0b",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha vinto la Coppa Italia con Miranda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha vinto la Coppa Italia con il Bologna",
+          "start_sec": 76.08,
+          "end_sec": 113.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Federico Di Marco",
+      "position": "Federico Di Marco è menzionato per un'assalto.",
+      "polarity": "neutral",
+      "claim_id": "1ffd440d-cd1d-409b-9d98-64a0d9027a80",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s1",
+      "target_entity": "Federico Di Marco",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Federico Di Marco è menzionato per un'assalto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oltre a Wan Miranda del Bologna perché in inverno ha avuto durante l'inverno hanno avuto un'offerta importante dalla Premier e Federico Di Marco.",
+          "start_sec": 32.92,
+          "end_sec": 78.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna affronta difficoltà nella stagione attuale.",
+      "polarity": "negative",
+      "claim_id": "7ee6ae96-4305-4b0a-933d-50654588cd3e",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna affronta difficoltà nella stagione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nonostante comunque le difficoltà della squadra",
+          "start_sec": 76.08,
+          "end_sec": 113.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Miranda",
+      "position": "Miranda sta dimostrando di essere un calciatore importante per il Bologna.",
+      "polarity": "positive",
+      "claim_id": "5066979c-b74c-4f28-9db1-6d62e9312ef9",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s2",
+      "target_entity": "Miranda",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Miranda sta dimostrando di essere un calciatore importante per il Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta dimostrando di essere un calciatore importante per il Bologna",
+          "start_sec": 76.08,
+          "end_sec": 113.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson ha novità interessanti sul suo futuro.",
+      "polarity": "neutral",
+      "claim_id": "08bc17ad-4e8a-4b68-b9a8-219dd72bf95b",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s1",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson ha novità interessanti sul suo futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono aggiornamenti interessanti sul futuro di Ederson",
+          "start_sec": 32.92,
+          "end_sec": 78.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Miranda",
+      "position": "Miranda continua ad avere un rendimento importante.",
+      "polarity": "positive",
+      "claim_id": "e0f051be-e474-4209-a4c1-59e145e882c6",
+      "video_id": "ItNFRaqJB6s",
+      "segment_id": "s2",
+      "target_entity": "Miranda",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Miranda continua ad avere un rendimento importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta continuando ad avere un rendimento piuttosto importante",
+          "start_sec": 76.08,
+          "end_sec": 113.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

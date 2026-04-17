@@ -1,0 +1,362 @@
+{
+  "video_id": "MIuxnxPloQI",
+  "analyzed_at": "2026-04-17T10:44:30.727358+00:00",
+  "metadata": null,
+  "summary": "Il video di azzurro-fluido affronta la crisi del calcio italiano, evidenziando contraddizioni nelle reazioni culturali e la necessità di una rivoluzione. L'autore sottolinea che le sorti delle nazionali sono legate a quelle delle squadre di club e critica la presunzione mostrata da alcuni giocatori, come Di Marco, che ha esultato per un avversario considerato inferiore. Inoltre, mette in luce la paura che ha caratterizzato il gioco dell'Italia, evidenziando una mancanza di mentalità vincente e una strategia di gioco poco efficace, come dimostrato dalla scelta di non giocare dal basso. La concl",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "risultato",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "critica",
+      "relevance": "low"
+    },
+    {
+      "name": "comportamento dei tifosi",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia deve affrontare una crisi nel calcio che conta.",
+      "polarity": "neutral",
+      "claim_id": "b6a9bca0-9af8-4325-a36a-3047767468dd",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia deve affrontare una crisi nel calcio che conta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché non possiamo lasciarci andare così e accettare di essere di scomparire dal calcio che conta",
+          "start_sec": 74.88,
+          "end_sec": 174.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Nazionali",
+      "position": "Le sorti delle nazionali sono legate a quelle delle squadre di club.",
+      "polarity": "neutral",
+      "claim_id": "4d336c62-1e51-4bf8-8435-9e69c86e24ab",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s1",
+      "target_entity": "Nazionali",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le sorti delle nazionali sono legate a quelle delle squadre di club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le sorti della nazionali si legano anche alle sorti delle nostre squadre",
+          "start_sec": 74.88,
+          "end_sec": 174.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Di Marco",
+      "position": "Di Marco ha mostrato presunzione esultando per la Bosnia.",
+      "polarity": "neutral",
+      "claim_id": "846db86b-5432-44bb-a357-8ed40a5ee233",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s1",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco ha mostrato presunzione esultando per la Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'esultanza di Di Marco al momento dei rigori tra Galles e Bosnia",
+          "start_sec": 74.88,
+          "end_sec": 174.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli non ha mai provato a giocare dal basso.",
+      "polarity": "negative",
+      "claim_id": "1c0c1797-9cb4-4f97-b871-c7c5fdcaf6b9",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli non ha mai provato a giocare dal basso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una squadra che non provava mai a giocare dal basso",
+          "start_sec": 172.44,
+          "end_sec": 249.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso ha raggiunto il picco della sua carriera col Napoli.",
+      "polarity": "positive",
+      "claim_id": "0c6541ef-5d28-4ae6-b028-6b81d200a86c",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s2",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha raggiunto il picco della sua carriera col Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gattuso è un allenatore che col Napoli ha è stato il picco della sua carriera",
+          "start_sec": 172.44,
+          "end_sec": 249.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Donnarumma",
+      "position": "Donnarumma compie buone parate, ma alcuni tiri subiscono gol.",
+      "polarity": "neutral",
+      "claim_id": "d89fe4cc-3489-4d0d-955c-77d5224e28d5",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s2",
+      "target_entity": "Donnarumma",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Donnarumma compie buone parate, ma alcuni tiri subiscono gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Donnarumma fa le parate che riesce a fare, ma alla fine un pallone va dentro",
+          "start_sec": 172.44,
+          "end_sec": 249.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gattuso",
+      "position": "Gattuso ha ricevuto critiche a posteriori sulle convocazioni dei giocatori.",
+      "polarity": "neutral",
+      "claim_id": "7bf81258-e7b1-4a45-a897-8dc50422f4dc",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s3",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha ricevuto critiche a posteriori sulle convocazioni dei giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho ascoltato le critiche a posteriori sulle convocazioni",
+          "start_sec": 247.159,
+          "end_sec": 342.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bosnia",
+      "position": "Battere la Bosnia è considerata una vittoria probabile.",
+      "polarity": "positive",
+      "claim_id": "ee5880b0-0ac1-415a-b584-949be5cfc025",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s3",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Battere la Bosnia è considerata una vittoria probabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Battere la Bosnia non è un'impresa e dovrebbe essere una cosa che 80 su 100 e lo fai",
+          "start_sec": 247.159,
+          "end_sec": 342.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "cultura",
+      "position": "Ci sono contraddizioni nelle reazioni riguardo alla cultura italiana.",
+      "polarity": "neutral",
+      "claim_id": "27e6f1b3-7257-4abb-bd74-ee102be7456e",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s0",
+      "target_entity": "cultura",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono contraddizioni nelle reazioni riguardo alla cultura italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono molte contraddizioni.",
+          "start_sec": 2.0,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "La mentalità del Napoli è influenzata dalla paura piuttosto che dalla presunzione.",
+      "polarity": "negative",
+      "claim_id": "789b158b-3897-417b-be8f-86734b5f5a51",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La mentalità del Napoli è influenzata dalla paura piuttosto che dalla presunzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tra presunzione e paura ha prevalso la paura",
+          "start_sec": 172.44,
+          "end_sec": 249.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia ha giocato distratta contro gli avversari.",
+      "polarity": "neutral",
+      "claim_id": "9905c000-c52b-423b-9da4-e07aa5a2c401",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha giocato distratta contro gli avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ho visto una squadra che ehm si sentiva più forte dell'avversario, che ha giocato distratta",
+          "start_sec": 74.88,
+          "end_sec": 174.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "giocatori italiani",
+      "position": "È importante affrontare la rivoluzione culturale italiana.",
+      "polarity": "neutral",
+      "claim_id": "d320a0ef-4ead-4254-a300-85f030a86fe9",
+      "video_id": "MIuxnxPloQI",
+      "segment_id": "s0",
+      "target_entity": "giocatori italiani",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È importante affrontare la rivoluzione culturale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho un po' di giorni, un po' di settimane che parlo di rivoluzione culturale.",
+          "start_sec": 2.0,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "video_id": "ol_WWbin2Ow",
+  "analyzed_at": "2026-04-16T16:18:37.419158+00:00",
+  "metadata": {
+    "title": "🚨 LOOKMAN-NORTON CUFFY: GLI INCASTRI! DURAN E LA JUVE, KOLO MUANI, FRATTESI, GORETZKA, CARRASCO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-29"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli sviluppi del calciomercato di gennaio, con particolare attenzione alle trattative che coinvolgono il Fenerbahce e l'Atalanta per Ademola Lookman. L'autore sottolinea che l'Atalanta ha fissato un prezzo di 40 milioni di euro per il giocatore, mentre il Fenerbahce sta valutando se avvicinarsi a tale cifra. Inoltre, si menziona che John Duran è stato offerto alla Juventus, ma al momento non ci sono progressi significativi. Romano conclude che le dinamiche di mercato sono in continua evoluzione e promette aggiornamenti futuri.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha fissato un prezzo di 40 milioni di euro per Lookman.",
+      "polarity": "positive",
+      "claim_id": "3bb7a236-ff7c-465b-a1a7-0bc83edfe9d9",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha fissato un prezzo di 40 milioni di euro per Lookman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta ha fissato un prezzo, nel senso che l'Atalanta chiede 40 milioni di euro di base fissa per Lukman",
+          "start_sec": 75.04,
+          "end_sec": 122.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lookman",
+      "position": "Lookman è valutato 40 milioni di euro più bonus dall'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "b1342d94-010f-43ec-b1b4-27293bde6392",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s2",
+      "target_entity": "Lookman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lookman è valutato 40 milioni di euro più bonus dall'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta chiede 40 milioni di euro di base fissa per Lukman più eventuali bonus",
+          "start_sec": 75.04,
+          "end_sec": 122.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbahce",
+      "position": "Fenerbahce è attivamente coinvolto in operazioni di mercato in Italia.",
+      "polarity": "neutral",
+      "claim_id": "ae543134-c4de-4267-8367-59088406013a",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s1",
+      "target_entity": "Fenerbahce",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fenerbahce è attivamente coinvolto in operazioni di mercato in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fenerbahce con il suo direttore sportivo Devin Ozek presente in Italia",
+          "start_sec": 38.92,
+          "end_sec": 79.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta è in corsa per le fasi avanzate della Champions.",
+      "polarity": "neutral",
+      "claim_id": "194797d5-1d48-4ad2-96ed-ff763eea1b03",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta è in corsa per le fasi avanzate della Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta si gioca un pezzo importante dell'accesso alle prime otto",
+          "start_sec": 38.92,
+          "end_sec": 79.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Lukman non è vicino alla chiusura del trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "5d9c590c-5784-490d-ad62-8aff80e16f73",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s3",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman non è vicino alla chiusura del trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parti non sono ancora vicine eh alla chiusura",
+          "start_sec": 119.92,
+          "end_sec": 152.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mana",
+      "position": "Il trasferimento di Mana è legato all'uscita di Lukman.",
+      "polarity": "neutral",
+      "claim_id": "1a21a07a-5aa4-4072-88b0-df4a60cab29a",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s3",
+      "target_entity": "Mana",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il trasferimento di Mana è legato all'uscita di Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se esce Lukman si può bloccare su Mana",
+          "start_sec": 119.92,
+          "end_sec": 152.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ademola Lukman",
+      "position": "Lukman potrebbe trasferirsi dopo la Champions.",
+      "polarity": "neutral",
+      "claim_id": "fa999739-84b1-41c6-8e8d-58e4c99e849f",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s1",
+      "target_entity": "Ademola Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Lukman potrebbe trasferirsi dopo la Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo quel momento sarà l'ora anche della verità sul Lukman",
+          "start_sec": 38.92,
+          "end_sec": 79.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Devin Ozek",
+      "position": "Devin Ozek è in Italia per trattative.",
+      "polarity": "neutral",
+      "claim_id": "abbea643-1246-48fd-87e6-0345c0e4e189",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s1",
+      "target_entity": "Devin Ozek",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Devin Ozek è in Italia per trattative.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Devin Ozek presente in Italia tra Milano e Bergamo per l'operazione Ademola Lukman",
+          "start_sec": 38.92,
+          "end_sec": 79.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbahce",
+      "position": "Il Fenerbahce sta valutando un'offerta per Lookman.",
+      "polarity": "neutral",
+      "claim_id": "08c449f7-bd40-4d7d-ae88-82de499ae93d",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s2",
+      "target_entity": "Fenerbahce",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Fenerbahce sta valutando un'offerta per Lookman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci risulta che il Fenerba stia ancora capendo, valutando se riesce ad avvicinarsi.",
+          "start_sec": 75.04,
+          "end_sec": 122.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Fabrizio Romano",
+      "position": "Fabrizio Romano fornisce aggiornamenti frequenti sul calciomercato.",
+      "polarity": "neutral",
+      "claim_id": "72c22d06-1e38-4164-ba04-e174b3c8e1a4",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s0",
+      "target_entity": "Fabrizio Romano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrizio Romano fornisce aggiornamenti frequenti sul calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli aggiornamenti arrivano a tutte le ore.",
+          "start_sec": 0.0,
+          "end_sec": 41.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli è interessato a Mana.",
+      "polarity": "neutral",
+      "claim_id": "5b35acfa-d4f1-4d2a-8b26-9cd28d9f3ea2",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è interessato a Mana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "su cui c'è il Napoli in prima fila",
+          "start_sec": 119.92,
+          "end_sec": 152.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma ha contattato Mana.",
+      "polarity": "neutral",
+      "claim_id": "934a925e-4e20-4b4c-b068-6b3293a438ee",
+      "video_id": "ol_WWbin2Ow",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha contattato Mana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma che ha chiamato",
+          "start_sec": 119.92,
+          "end_sec": 152.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

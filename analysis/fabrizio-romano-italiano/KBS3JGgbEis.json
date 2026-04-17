@@ -1,0 +1,366 @@
+{
+  "video_id": "KBS3JGgbEis",
+  "analyzed_at": "2026-04-17T08:59:56.243032+00:00",
+  "metadata": {
+    "title": "🚨💣 BOMBA MAIGNAN! GIRO TERZINI  NUOVA MOSSA! METHAILE, FORTINI, TSIMIKAS, CAMBIA GIOVANE…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-24"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sul futuro di Mike Magnan, portiere del Milan, che è vicino al rinnovo del contratto fino al 2031. L'autore sottolinea che, sebbene l'accordo sia stato raggiunto verbalmente, manca ancora l'ufficialità, e Magnan diventerà uno dei giocatori più pagati della squadra con uno stipendio di 5 milioni di euro netti più bonus. Inoltre, si accenna alla ricerca di un nuovo terzino sinistro da parte della Roma, evidenziando i movimenti di mercato e le dinamiche interne delle squadre.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "progetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "stipendio",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Milan",
+      "position": "Il Milan ha un stipendio di 5 milioni di euro netti per Maignan.",
+      "polarity": "neutral",
+      "claim_id": "c085fdd9-05db-4920-a43a-ec0ccb2c3005",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha un stipendio di 5 milioni di euro netti per Maignan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan. stipendio di 5 milioni di euro netti l'anno più due di bonus",
+          "start_sec": 114.88,
+          "end_sec": 151.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mike Magnan",
+      "position": "Gli accordi per il rinnovo di Magnan sono stati raggiunti verbalmente.",
+      "polarity": "positive",
+      "claim_id": "c974a904-4e17-437c-bd47-2232e85590fd",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s2",
+      "target_entity": "Mike Magnan",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli accordi per il rinnovo di Magnan sono stati raggiunti verbalmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gli accordi sono stati raggiunti sia sullo stipendio di Magnan, sia sulla volontà di Magnan, sia sulle commissioni.",
+          "start_sec": 78.439,
+          "end_sec": 117.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Magnan diventerà uno dei giocatori più pagati della squadra.",
+      "polarity": "positive",
+      "claim_id": "b6cb544a-5907-4f30-a961-330b330e18f0",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Magnan diventerà uno dei giocatori più pagati della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "diventerà il calciatore, uno dei calciatori più pagati della rosa.",
+          "start_sec": 78.439,
+          "end_sec": 117.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Rafa Leao",
+      "position": "Lo stipendio di Maignan è simile a quello di Rafa Leao.",
+      "polarity": "neutral",
+      "claim_id": "41abd570-4643-40b3-bfd2-1c8285d09932",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s3",
+      "target_entity": "Rafa Leao",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lo stipendio di Maignan è simile a quello di Rafa Leao.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ovvero lo stesso all'incirca lo stesso stipendio di Rafa Leao",
+          "start_sec": 114.88,
+          "end_sec": 151.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "La trattativa per Maignan è stata lunga e complicata.",
+      "polarity": "neutral",
+      "claim_id": "d6106b29-1528-4335-8ac3-4080b9e8c0aa",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La trattativa per Maignan è stata lunga e complicata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Insomma, è stata una trattativa lunga. Insomma, vi abbiamo raccontato in questi mesi quanto sia stato complicato",
+          "start_sec": 114.88,
+          "end_sec": 151.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Maignan",
+      "position": "Maignan aveva già accettato le condizioni proposte dal Milan un anno fa.",
+      "polarity": "positive",
+      "claim_id": "067eed60-2f07-4c63-b141-f851aaac15bb",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s3",
+      "target_entity": "Maignan",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Maignan aveva già accettato le condizioni proposte dal Milan un anno fa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vi ricordate di come praticamente un anno fa Magnan aveva già detto di sì al Milan, aveva già accettato tutte le condizioni proposte",
+          "start_sec": 114.88,
+          "end_sec": 151.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Maignan",
+      "position": "Le trattative per il rinnovo di Maignan non hanno avuto seguito.",
+      "polarity": "negative",
+      "claim_id": "7b17ce2d-0eda-48fa-aa88-de37593d50ff",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s4",
+      "target_entity": "Maignan",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le trattative per il rinnovo di Maignan non hanno avuto seguito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le parti sono arrivate ai documenti, alle firme, il Milan ha deciso di prendere tempo.",
+          "start_sec": 148.56,
+          "end_sec": 188.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma sta cercando un nuovo terzino sinistro.",
+      "polarity": "neutral",
+      "claim_id": "f52d8b2c-5441-44ef-8ff9-06024914b91c",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma sta cercando un nuovo terzino sinistro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma sta cercando un nuovo terzino sinistro",
+          "start_sec": 33.32,
+          "end_sec": 82.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mike Magnan",
+      "position": "Il rinnovo di Magnan è imminente ma manca l'ufficialità.",
+      "polarity": "positive",
+      "claim_id": "6ea88d66-2b69-47d8-adac-55f363b74e76",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s2",
+      "target_entity": "Mike Magnan",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il rinnovo di Magnan è imminente ma manca l'ufficialità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Manca solo la firma, manca solo l'ufficialità.",
+          "start_sec": 78.439,
+          "end_sec": 117.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Milan",
+      "position": "Il Milan sta affrontando questioni economiche per il rinnovo di Maignan.",
+      "polarity": "negative",
+      "claim_id": "af76b0e5-7756-4ed1-8a6c-0dbea26c599f",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "finance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta affrontando questioni economiche per il rinnovo di Maignan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un po' una questione economica",
+          "start_sec": 148.56,
+          "end_sec": 188.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Tra il Milan e l'entourage di Maignan c'è stato gelo.",
+      "polarity": "neutral",
+      "claim_id": "7274842e-179f-4e64-b305-1d42495bdf4f",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tra il Milan e l'entourage di Maignan c'è stato gelo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è sempre stato molto gelo.",
+          "start_sec": 148.56,
+          "end_sec": 188.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Maignan",
+      "position": "Il rinnovo di Maignan si è congelato.",
+      "polarity": "positive",
+      "claim_id": "0d5dde11-2532-493d-ad33-a49fbcef8cfe",
+      "video_id": "KBS3JGgbEis",
+      "segment_id": "s4",
+      "target_entity": "Maignan",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rinnovo di Maignan si è congelato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il discorso rinnovo Magnan si è congelato",
+          "start_sec": 148.56,
+          "end_sec": 188.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

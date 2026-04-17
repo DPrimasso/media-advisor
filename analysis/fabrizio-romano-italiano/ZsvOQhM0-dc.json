@@ -1,0 +1,362 @@
+{
+  "video_id": "ZsvOQhM0-dc",
+  "analyzed_at": "2026-04-17T10:34:45.857994+00:00",
+  "metadata": {
+    "title": "🚨 FRATTESI E GLI SCAMBI! JUVE, SCATTO PER IL COLPO. MILAN, LE CIFRE PER KOSTIC. SENESI E NICO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-15"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli sviluppi del mercato invernale di calcio, con particolare attenzione a Davide Frattesi e alla Juventus. L'autore sottolinea che la Juventus è attivamente coinvolta in trattative, esplorando possibili scambi e interessandosi a Kostic, attaccante del Partizan, che suscita l'interesse anche del Milan. Inoltre, si evidenzia l'importanza di Frattesi per l'Inter, soprattutto in seguito all'infortunio di Calhanoglu, con la possibilità di un'uscita dal club. In conclusione, il mercato è in continua evoluzione e le dinamiche degli infortuni possono influen",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "frattesi",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "integrazione",
+      "relevance": "low"
+    },
+    {
+      "name": "scambi",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha chiuso per Frattesi per 7 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "7042e83b-8c2c-405d-94a1-0de5d58383a9",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha chiuso per Frattesi per 7 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Bologna ha chiuso per lui per 7 milioni di euro più uno di bonus",
+          "start_sec": 75.159,
+          "end_sec": 114.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Davide Frattesi",
+      "position": "Davide Frattesi è un giocatore in discussione per il mercato.",
+      "polarity": "neutral",
+      "claim_id": "2488d4dd-e5a8-405f-af97-89a7ff70f92f",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s0",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Frattesi è un giocatore in discussione per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parleremo di Davide Frattesi, sulla Juventus, parlando della difesa della Juventus",
+          "start_sec": 0.04,
+          "end_sec": 33.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La difesa della Juventus è un argomento di discussione nel mercato attuale.",
+      "polarity": "neutral",
+      "claim_id": "5cafce06-1b19-457f-a9da-516513627e1e",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La difesa della Juventus è un argomento di discussione nel mercato attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlando della difesa della Juventus, sui due nomi su cui la.",
+          "start_sec": 0.04,
+          "end_sec": 33.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Serie A",
+      "position": "Si attende di vedere come Kostic si adatterà alla Serie A.",
+      "polarity": "neutral",
+      "claim_id": "ece3dc2e-e8b4-4c74-803d-a0dc08ef9d12",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s1",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si attende di vedere come Kostic si adatterà alla Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avremo modo di vedere eh, insomma in campo come si adatterà alla nostra Serie A.",
+          "start_sec": 30.16,
+          "end_sec": 79.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Bologna",
+      "position": "Mancano solo gli annunci ufficiali per il trasferimento di Frattesi.",
+      "polarity": "positive",
+      "claim_id": "f84ae981-69e4-43fd-8b1a-f8acdf260a6a",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mancano solo gli annunci ufficiali per il trasferimento di Frattesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mancano solo gli annunci ufficiali, ma il Bologna mette le mani su",
+          "start_sec": 75.159,
+          "end_sec": 114.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Davide Frattesi",
+      "position": "Frattesi ha avuto una partita positiva contro il Lecce.",
+      "polarity": "positive",
+      "claim_id": "a8ad26bb-ed80-4c7a-bac4-5e543fafc4d3",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s3",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Frattesi ha avuto una partita positiva contro il Lecce.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la partita di Davide Frattesi contro Lecce è stata una partita positiva.",
+          "start_sec": 111.92,
+          "end_sec": 146.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è attiva sul mercato invernale.",
+      "polarity": "neutral",
+      "claim_id": "c13d120a-92a9-46a8-914e-68be377ee428",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è attiva sul mercato invernale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo al 15 di gennaio, quindi a metà, esattamente a metà della finestra invernale di mercato.",
+          "start_sec": 0.04,
+          "end_sec": 33.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bologna",
+      "position": "Il Bologna ha un nuovo acquisto.",
+      "polarity": "neutral",
+      "claim_id": "4df124c4-02c0-4091-8d27-7c08549af805",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha un nuovo acquisto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa mattina è arrivato per le visite mediche un nuovo acquisto del Bologna.",
+          "start_sec": 0.04,
+          "end_sec": 33.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "Kostic interessa molto al Milan.",
+      "polarity": "positive",
+      "claim_id": "15855a02-ebce-44a1-a85b-b3f04af8d988",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s1",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kostic interessa molto al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "attaccante del Partisan che interessa molto al Milan.",
+          "start_sec": 30.16,
+          "end_sec": 79.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bran",
+      "position": "Juventus ha un nuovo acquisto dal Bran.",
+      "polarity": "positive",
+      "claim_id": "624204a2-b262-4645-a7d9-9b78ac180bd4",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s1",
+      "target_entity": "Bran",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus ha un nuovo acquisto dal Bran.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si tratta del norvegese, difensore norvegese del Bran.",
+          "start_sec": 30.16,
+          "end_sec": 79.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Davide Frattesi",
+      "position": "Frattesi ha dimostrato di essere in forma.",
+      "polarity": "positive",
+      "claim_id": "7c43f3b6-861c-48d8-a69b-bf9ecf9e618d",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s3",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Frattesi ha dimostrato di essere in forma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha dimostrato di star bene e di essere in forma.",
+          "start_sec": 111.92,
+          "end_sec": 146.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Frattesi",
+      "position": "Frattesi è al centro di un'importante trattativa di mercato.",
+      "polarity": "neutral",
+      "claim_id": "44c324ee-9abc-4352-801d-55c240a187b2",
+      "video_id": "ZsvOQhM0-dc",
+      "segment_id": "s2",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Frattesi è al centro di un'importante trattativa di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a un capitolo importante, interessante del mercato di gennaio",
+          "start_sec": 75.159,
+          "end_sec": 114.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

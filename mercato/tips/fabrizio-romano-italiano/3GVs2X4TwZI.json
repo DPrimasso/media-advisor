@@ -1,8 +1,55 @@
 {
   "video_id": "3GVs2X4TwZI",
   "channel_id": "fabrizio-romano-italiano",
-  "extracted_at": "2026-04-07T12:50:07.682189Z",
+  "extracted_at": "2026-04-15T14:28:35.691636Z",
   "video_title": "🚨 MILAN  SALTA L’OPERAZIONE! GASPERINI, MASSARA E LE TENSIONI  DA ANDRÉ A FAGIOLI…",
   "video_published_at": "2026-03-31T15:36:37Z",
-  "tips": []
+  "tips": [
+    {
+      "tip_id": "87dcc1e8-1404-4c46-9e17-0adeb2c06265",
+      "video_id": "3GVs2X4TwZI",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-03-31T15:36:37Z",
+      "extracted_at": "2026-04-15T14:28:35.691113Z",
+      "player_name": "Andrè",
+      "from_club": "Corinthians",
+      "to_club": "Milan",
+      "transfer_type": "permanent",
+      "confidence": "denied",
+      "confidence_note": "trattativa chiusa, non ci sono margini",
+      "tip_text": "Andrè non andrà al Milan, operazione saltata.",
+      "quote_text": "André non arriverà al Milan, la trattativa è chiusa",
+      "quote_start_sec": 151.0,
+      "quote_end_sec": 191.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
+      "tip_id": "02521026-ee9b-47b5-a00f-ed6e34fb8a5b",
+      "video_id": "3GVs2X4TwZI",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-03-31T15:36:37Z",
+      "extracted_at": "2026-04-15T14:28:35.691113Z",
+      "player_name": "Fagioli",
+      "from_club": "Fiorentina",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "cambio agente ma resta in Fiorentina",
+      "tip_text": "Fagioli cambia agente ma la Fiorentina punta su di lui.",
+      "quote_text": "Fagioli ha da poco cambiato agente, si affiderà a Branchini",
+      "quote_start_sec": 284.0,
+      "quote_end_sec": 334.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    }
+  ]
 }

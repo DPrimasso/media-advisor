@@ -1,0 +1,354 @@
+{
+  "video_id": "dJNLTPzDGC8",
+  "analyzed_at": "2026-04-16T16:21:35.434694+00:00",
+  "metadata": {
+    "title": "🚨 BLITZ LOOKMAN! PERISIC: ALTRO ROUND! DURAN E L’OFFERTA JUVE, LA VERITÀ. FRATTESI, NDOYE, EKATOR…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-29"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato calcistico, con particolare attenzione ai movimenti di giocatori tra club italiani e stranieri. L'autore evidenzia che il Fenerbahce sta cercando di acquisire Ademola Lukman dall'Atalanta, con trattative in corso e il giocatore disponibile ad ascoltare l'offerta. Inoltre, si menzionano altri trasferimenti significativi, come l'acquisto di Cader Meite da parte dell'Alilal e l'interesse della Juventus per John Duran. La situazione di Lukman rappresenta un punto cruciale, poiché le richieste economiche dell'Atalanta potrebbe",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "offerta",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "interesse",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Cader Meite",
+      "position": "Cader Meite è stato acquistato dall'Alilal per 30 milioni di euro più bonus.",
+      "polarity": "neutral",
+      "claim_id": "13dffe61-6a9a-4741-b378-010b259f136a",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s1",
+      "target_entity": "Cader Meite",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cader Meite è stato acquistato dall'Alilal per 30 milioni di euro più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cader Meite, centravanti del Ren, 18 anni... sarà a Cader Me per 30 milioni di euro più bonus.",
+          "start_sec": 31.759,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa è in movimento per diversi giocatori.",
+      "polarity": "neutral",
+      "claim_id": "99e31a81-c9bd-4f11-adba-686c791d2676",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa è in movimento per diversi giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "movimenti che continuano per diverse squadre anche all'estero",
+          "start_sec": 0.76,
+          "end_sec": 33.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Simone Inzaghi",
+      "position": "Simone Inzaghi avrà una nuova punta con l'arrivo di Cader Meite.",
+      "polarity": "neutral",
+      "claim_id": "613b360d-7b9f-4eb2-a6e9-b8683751d92b",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s1",
+      "target_entity": "Simone Inzaghi",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Simone Inzaghi avrà una nuova punta con l'arrivo di Cader Meite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi Simone Inzaghi avrà la sua nuova punta e sarà a Caderme Me",
+          "start_sec": 31.759,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ademola Lukman",
+      "position": "Il direttore sportivo del Fenerbahce è in Italia per Ademola Lukman.",
+      "polarity": "neutral",
+      "claim_id": "24ee5f3b-eeda-4a73-9ff4-8889abf8d1f6",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s2",
+      "target_entity": "Ademola Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il direttore sportivo del Fenerbahce è in Italia per Ademola Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il direttore sportivo del Fenerbach è in Italia per Ademola Lukman",
+          "start_sec": 59.76,
+          "end_sec": 95.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "Ci sono in corso conversazioni tra le parti riguardo Lukman.",
+      "polarity": "neutral",
+      "claim_id": "addb405d-1faf-4520-95a8-d360ade344be",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono in corso conversazioni tra le parti riguardo Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono in corso delle conversazioni, delle dei dialoghi tra le parti.",
+          "start_sec": 59.76,
+          "end_sec": 95.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbahce",
+      "position": "Fenerbahce sta cercando di avanzare con la trattativa per Demola Lukman.",
+      "polarity": "positive",
+      "claim_id": "8da60a14-4d3b-472b-8f00-3924ac9f0f4a",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s3",
+      "target_entity": "Fenerbahce",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fenerbahce sta cercando di avanzare con la trattativa per Demola Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Fenerbace sta provando sta provando ad avanzare concretamente su questa pista a Demola Lukman.",
+          "start_sec": 92.399,
+          "end_sec": 124.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Demola Lukman",
+      "position": "Demola Lukman è in trattativa con il Fenerbahce.",
+      "polarity": "positive",
+      "claim_id": "a80942b5-0082-456b-876b-caa4417816ed",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s3",
+      "target_entity": "Demola Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Demola Lukman è in trattativa con il Fenerbahce.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la trattativa è ancora tutta da portare avanti, però sicuramente il Fenerbace sta provando... su questa pista a Demola Lukman.",
+          "start_sec": 92.399,
+          "end_sec": 124.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Lukman ha suscitato interesse da club come il Galatasaray e il Bayern.",
+      "polarity": "neutral",
+      "claim_id": "c88367f6-bee9-4ffc-be50-e0f543fabcb5",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s4",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman ha suscitato interesse da club come il Galatasaray e il Bayern.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto quel tentativo che però era lontanissimo dalle pretese dell'Atalanta.",
+          "start_sec": 122.439,
+          "end_sec": 145.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "Atalanta richiede sempre somme economiche elevate per i suoi giocatori.",
+      "polarity": "positive",
+      "claim_id": "e0210c9e-eeef-4eb9-8cb0-ddcbc178358c",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta richiede sempre somme economiche elevate per i suoi giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Atalanta fa sempre delle richieste importanti.",
+          "start_sec": 92.399,
+          "end_sec": 124.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbace",
+      "position": "Il Fenerbace sta osservando la situazione su Lukman.",
+      "polarity": "neutral",
+      "claim_id": "0a3101f1-1628-47d3-a315-b75b5330c369",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s4",
+      "target_entity": "Fenerbace",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Fenerbace sta osservando la situazione su Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vedremo adesso il Fenerbace come si comporterà.",
+          "start_sec": 122.439,
+          "end_sec": 145.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo ha preso Onzolà per l'attacco.",
+      "polarity": "neutral",
+      "claim_id": "ca68d30e-a601-4a11-ac66-910ed5f802dc",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s0",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo ha preso Onzolà per l'attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Sassuolo ha preso Onzolà per l'attacco.",
+          "start_sec": 0.76,
+          "end_sec": 33.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbahce",
+      "position": "Fenerbahce cerca di strappare Lukman all'Atalanta.",
+      "polarity": "neutral",
+      "claim_id": "2fcce740-32ed-4a41-b3a4-a9ccc4c3b63b",
+      "video_id": "dJNLTPzDGC8",
+      "segment_id": "s2",
+      "target_entity": "Fenerbahce",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fenerbahce cerca di strappare Lukman all'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cercare di strappare Lukman all'Atalanta",
+          "start_sec": 59.76,
+          "end_sec": 95.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

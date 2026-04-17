@@ -1,0 +1,362 @@
+{
+  "video_id": "krmvr6ObDA0",
+  "analyzed_at": "2026-04-17T11:17:53.892171+00:00",
+  "metadata": null,
+  "summary": "Il video di tuttomercatoweb analizza la pesante sconfitta dell'Atalanta contro il Bayern Monaco in Champions League, evidenziando la distanza tra il calcio italiano e le squadre d'élite europee. L'autore sottolinea che la sconfitta, con un punteggio di 6-1, potrebbe avere conseguenze negative per l'Atalanta e per il movimento calcistico italiano in generale, che sembra stagnare in una mediocrità preoccupante. Inoltre, si evidenzia come il Napoli e l'Inter siano stati eliminati dalla competizione, lasciando l'Atalanta come ultima rappresentante italiana, ma con poche speranze di recupero nel ri",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "competizione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "eliminazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "mediocrità",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "champions",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Champions League",
+      "position": "L'ultima Champions League vinta dall'Italia risale al 2010.",
+      "polarity": "negative",
+      "claim_id": "f69c5ca0-76d9-4a72-8459-7c140795a483",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s2",
+      "target_entity": "Champions League",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'ultima Champions League vinta dall'Italia risale al 2010.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ultima Champions League l'abbiamo vinta nel 2010",
+          "start_sec": 138.4,
+          "end_sec": 204.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta ha subito una sconfitta pesante in Champions League.",
+      "polarity": "negative",
+      "claim_id": "fa984270-60e9-4153-a590-c29f27345067",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta ha subito una sconfitta pesante in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la terribile sconfitta dell'Atalanta contro il Bayern Monaco ieri sera in Champions 6-1 per i tedeschi",
+          "start_sec": 12.719,
+          "end_sec": 79.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Calcio italiano",
+      "position": "La distanza tra il calcio italiano e quello d'élite è evidente.",
+      "polarity": "negative",
+      "claim_id": "1b1c5d46-8eeb-47e4-8ee8-1eb9265f3b62",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s0",
+      "target_entity": "Calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La distanza tra il calcio italiano e quello d'élite è evidente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo proprio avuto la misura precisa della distanza che ci separa dal calcio d'elite degli altri campionati.",
+          "start_sec": 12.719,
+          "end_sec": 79.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano è appiattito su una mediocrità.",
+      "polarity": "negative",
+      "claim_id": "f2c77e51-b466-4e5a-bc1b-b6da483be4fd",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s2",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano è appiattito su una mediocrità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il campionato italiano purtroppo è quello che è, cioè si è appiattito su una mediocrità",
+          "start_sec": 138.4,
+          "end_sec": 204.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter è arrivata due volte in finale di Champions League negli ultimi anni.",
+      "polarity": "neutral",
+      "claim_id": "46cc6b53-1ab9-46d7-a7b1-99d9b687e26b",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è arrivata due volte in finale di Champions League negli ultimi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel negli ultimi anni due volte l'Inter di Inzaghi è arrivata fino in finale",
+          "start_sec": 138.4,
+          "end_sec": 204.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano ha un'intensità diversa rispetto alle big europee.",
+      "polarity": "neutral",
+      "claim_id": "7f15970d-74f4-49dc-9722-3fda292d0a3c",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s3",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano ha un'intensità diversa rispetto alle big europee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'intensità del nostro calcio fosse estremamente diversa rispetto a quella delle big europee.",
+          "start_sec": 202.36,
+          "end_sec": 266.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern Monaco",
+      "position": "Il Bayern Monaco è considerato una squadra ingiocabile.",
+      "polarity": "positive",
+      "claim_id": "51aec652-309c-41a5-9551-2403119bd50a",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s0",
+      "target_entity": "Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern Monaco è considerato una squadra ingiocabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bayern certamente ingiocabile",
+          "start_sec": 12.719,
+          "end_sec": 79.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Champions League",
+      "position": "Il movimento calcistico italiano fa fatica a competere in Champions League.",
+      "polarity": "negative",
+      "claim_id": "7b54a7a7-fcfa-4594-bd47-6e3d6aa094b2",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s2",
+      "target_entity": "Champions League",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il movimento calcistico italiano fa fatica a competere in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il movimento italiano fa davvero fatica",
+          "start_sec": 138.4,
+          "end_sec": 204.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "La sconfitta dell'Atalanta potrebbe avere conseguenze negative.",
+      "polarity": "negative",
+      "claim_id": "7906134e-16a6-48bc-b1be-a38c2ab871f9",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La sconfitta dell'Atalanta potrebbe avere conseguenze negative.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa sconfitta con punteggio tennistico rischia a tuo parere di lasciare qualche strascico?",
+          "start_sec": 12.719,
+          "end_sec": 79.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Napoli",
+      "position": "Il Napoli è uscito dalla Champions.",
+      "polarity": "neutral",
+      "claim_id": "3aea130d-7bbf-43d4-97d8-696d89650f13",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è uscito dalla Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che sono uscite dalla Champions, dal girone di Champions sciagurato che ha fatto il Napoli",
+          "start_sec": 77.88,
+          "end_sec": 140.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Atalanta",
+      "position": "L'Atalanta era l'ultima squadra italiana in Champions.",
+      "polarity": "neutral",
+      "claim_id": "a6a9cc22-bfa8-4e40-97e9-14126fdf7ce3",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta era l'ultima squadra italiana in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "spiace per l'Atalanta perché era rimasta l'ultima squadra italiana in Champions",
+          "start_sec": 77.88,
+          "end_sec": 140.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Atalanta",
+      "position": "È improbabile che l'Atalanta recuperi nel ritorno.",
+      "polarity": "neutral",
+      "claim_id": "409be78d-f7fc-4d1e-8578-9278169426ac",
+      "video_id": "krmvr6ObDA0",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "È improbabile che l'Atalanta recuperi nel ritorno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra del tutto del tutto improbabile al neto della prestazione che poi potrà potrà offrire l'Atalanta",
+          "start_sec": 77.88,
+          "end_sec": 140.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

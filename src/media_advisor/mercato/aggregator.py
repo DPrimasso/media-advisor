@@ -7,6 +7,7 @@ from pathlib import Path
 
 from media_advisor.io.json_io import read_json_or_default
 from media_advisor.io.paths import mercato_index_path
+from media_advisor.mercato.corroborator import _is_renewal_tip, _same_session
 from media_advisor.mercato.models import (
     ChannelVeracityStats,
     MercatoIndex,
@@ -28,7 +29,12 @@ def load_index(root: Path) -> MercatoIndex:
 
 
 def get_all_tips(root: Path) -> list[MercatoTip]:
-    return load_index(root).tips
+    tips = load_index(root).tips
+    mercato_dir = root / "mercato"
+    from media_advisor.mercato.player_normalizer import normalize_player_name
+    for tip in tips:
+        tip.player_name = normalize_player_name(tip.player_name, mercato_dir)
+    return tips
 
 
 def get_tips_for_player(root: Path, player_slug: str) -> PlayerSummary | None:
@@ -121,18 +127,22 @@ def build_tip_context(all_tips: list[MercatoTip]) -> dict[str, dict]:
     """Per ogni tip, calcola le tip correlate divise per canale e coerenza.
 
     Stesso canale, video diverso:
-      - stesso to_club (o entrambi None) → "same_channel_consistent" (coerente)
-      - to_club diversi → "same_channel_inconsistent" (incoerente)
+      - stesso to_club (o entrambi None) → "same_channel_consistent"
+      - to_club diversi → "same_channel_inconsistent"
 
     Canale diverso:
-      - stesso to_club (o entrambi None) → "other_channel_confirming" (conferma)
-      - to_club diversi → "other_channel_contradicting" (smentita)
+      - stesso to_club (o entrambi None) → "other_channel_confirming"
+      - to_club diversi → "other_channel_contradicting"
+
+    Coppie ignorate: sessioni diverse (>7 mesi) o rinnovo vs cessione.
     """
     from collections import defaultdict
 
     by_player: dict[str, list[MercatoTip]] = defaultdict(list)
     for tip in all_tips:
         by_player[_player_slug(tip.player_name)].append(tip)
+
+    is_renewal: dict[str, bool] = {t.tip_id: _is_renewal_tip(t) for t in all_tips}
 
     context: dict[str, dict] = {}
 
@@ -145,11 +155,17 @@ def build_tip_context(all_tips: list[MercatoTip]) -> dict[str, dict]:
         other_confirming: list[dict] = []
         other_contradicting: list[dict] = []
 
+        tip_is_renewal = is_renewal[tip.tip_id]
+
         for other in player_tips:
             if other.tip_id == tip.tip_id:
                 continue
             if other.video_id == tip.video_id:
                 continue  # stesso video, skip
+            if not _same_session(tip, other):
+                continue
+            if tip_is_renewal != is_renewal[other.tip_id]:
+                continue
 
             preview = {
                 "tip_id": other.tip_id,
@@ -164,21 +180,16 @@ def build_tip_context(all_tips: list[MercatoTip]) -> dict[str, dict]:
 
             clubs_agree = _clubs_match(tip.to_club, other.to_club) or (not tip.to_club and not other.to_club)
             clubs_conflict = tip.to_club and other.to_club and not _clubs_match(tip.to_club, other.to_club)
-            # Anche stesso club ma una "denied" e l'altra no = incoerente/smentita
-            confidence_conflict = (
-                clubs_agree
-                and (tip.confidence == "denied") != (other.confidence == "denied")
-            )
 
             same_channel = other.channel_id == tip.channel_id
 
             if same_channel:
-                if clubs_conflict or confidence_conflict:
+                if clubs_conflict:
                     same_inconsistent.append(preview)
                 elif clubs_agree:
                     same_consistent.append(preview)
             else:
-                if clubs_conflict or confidence_conflict:
+                if clubs_conflict:
                     other_contradicting.append(preview)
                 elif clubs_agree:
                     other_confirming.append(preview)

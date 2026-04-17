@@ -1,0 +1,350 @@
+{
+  "video_id": "JXNNO6Jahjg",
+  "analyzed_at": "2026-04-16T15:14:53.239744+00:00",
+  "metadata": {
+    "title": "🚨 CELIK A ZERO: LA VERITÀ! AKANJI E MCTOMINAY, TUTTO SUL FUTURO. MOSSA MILAN E BARTESAGHI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-21"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle strategie di mercato del Milan, in particolare sul futuro di Davide Bartesaghi, un giovane talento valorizzato dal club. L'autore sottolinea l'intenzione del Milan di rinnovare il contratto di Bartesaghi, migliorandone le condizioni economiche, e di respingere le offerte provenienti dalla Premier League. Inoltre, si accenna alla situazione di Zeki Celik della Roma, il cui rinnovo contrattuale è incerto, evidenziando un mercato attivo e dinamico in Serie A.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Davide Bartesaghi",
+      "position": "Davide Bartesaghi è uno dei giocatori più valorizzati dal Milan.",
+      "polarity": "positive",
+      "claim_id": "83a64623-4082-4a3c-8dfb-3fd2e97c5d8c",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s1",
+      "target_entity": "Davide Bartesaghi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Bartesaghi è uno dei giocatori più valorizzati dal Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Davide Bartesaghi, uno dei giocatori più valorizzati dal Milan durante gli ultimi mesi",
+          "start_sec": 34.48,
+          "end_sec": 62.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha fatto una scommessa su Bartesaghi.",
+      "polarity": "positive",
+      "claim_id": "14d3d649-3a57-4220-aae0-722c2f722871",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha fatto una scommessa su Bartesaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata una scommessa alle spalle dell'acquisto di Estupnan.",
+          "start_sec": 34.48,
+          "end_sec": 62.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan respinge le offerte dalla Premier League per Bartesaghi.",
+      "polarity": "positive",
+      "claim_id": "390fcdcf-1a10-4238-8992-5071e667582e",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan respinge le offerte dalla Premier League per Bartesaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha tutta l'intenzione di respingere quelli che sono stati i corteggiamenti.",
+          "start_sec": 59.719,
+          "end_sec": 84.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bartesaghi",
+      "position": "Il rinnovo di Bartesaghi è sempre più certo.",
+      "polarity": "positive",
+      "claim_id": "126ffed9-9902-4761-af6e-8d223a8c3fbc",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s3",
+      "target_entity": "Bartesaghi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rinnovo di Bartesaghi è sempre più certo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la destinazione rinnovo si fa sempre più certa, sempre più sicura",
+          "start_sec": 81.72,
+          "end_sec": 109.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta lavorando sui dettagli del contratto di Bartesaghi.",
+      "polarity": "positive",
+      "claim_id": "c6ced115-cda6-4349-9eb9-633cc429c500",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan sta lavorando sui dettagli del contratto di Bartesaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "andranno limati durante gli ultimi mesi di questa stagione i dettagli di questo nuovo contratto",
+          "start_sec": 81.72,
+          "end_sec": 109.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Celik",
+      "position": "Celik ha una scadenza di contratto e molte voci circolano su di lui.",
+      "polarity": "neutral",
+      "claim_id": "72732be2-d5c1-4037-8cdc-6498ca91401f",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s4",
+      "target_entity": "Celik",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Celik ha una scadenza di contratto e molte voci circolano su di lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "scadenza di contratto, per cui stanno circolando tante, tantissime voci",
+          "start_sec": 107.84,
+          "end_sec": 136.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Il Milan è atteso da un mercato attivo.",
+      "polarity": "neutral",
+      "claim_id": "d9f46def-a631-4289-a1ba-e440e870a0a9",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è atteso da un mercato attivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan che è atteso da un",
+          "start_sec": 0.08,
+          "end_sec": 36.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Max Allegri",
+      "position": "Max Allegri ha contribuito alla valorizzazione di Bartesaghi.",
+      "polarity": "positive",
+      "claim_id": "ab9b448c-54b8-42c6-b7f8-0e0161c795c6",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s1",
+      "target_entity": "Max Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Max Allegri ha contribuito alla valorizzazione di Bartesaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "grazie al lavoro di Max Allegri",
+          "start_sec": 34.48,
+          "end_sec": 62.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bartesaghi",
+      "position": "Il Milan ha in programma colloqui per il rinnovo di Bartesaghi.",
+      "polarity": "positive",
+      "claim_id": "7a5d80ee-6917-4a93-af39-3c8afc90f289",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s2",
+      "target_entity": "Bartesaghi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha in programma colloqui per il rinnovo di Bartesaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan ha già programmato dei colloqui.",
+          "start_sec": 59.719,
+          "end_sec": 84.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta programmando il suo futuro.",
+      "polarity": "positive",
+      "claim_id": "35f04740-713e-4a8b-a39e-603a89e54ee9",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta programmando il suo futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Milan che continua a programmare il suo futuro",
+          "start_sec": 34.48,
+          "end_sec": 62.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bartesaghi",
+      "position": "Bartesaghi sta avendo un ottimo rendimento.",
+      "polarity": "neutral",
+      "claim_id": "a57cc904-3fc8-4ec7-b074-2ce4e591d059",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s4",
+      "target_entity": "Bartesaghi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bartesaghi sta avendo un ottimo rendimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ottimo rendimento di Bartesaghi",
+          "start_sec": 107.84,
+          "end_sec": 136.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bartesaghi",
+      "position": "Bartesaghi è considerato una pedina importante per il progetto del Milan.",
+      "polarity": "positive",
+      "claim_id": "032f26a2-80f0-41e3-959c-e19e58f43122",
+      "video_id": "JXNNO6Jahjg",
+      "segment_id": "s3",
+      "target_entity": "Bartesaghi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bartesaghi è considerato una pedina importante per il progetto del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo vede come una delle spedine più importanti su cui costruire",
+          "start_sec": 81.72,
+          "end_sec": 109.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

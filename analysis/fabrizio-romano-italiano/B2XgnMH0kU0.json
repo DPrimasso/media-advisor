@@ -1,0 +1,350 @@
+{
+  "video_id": "B2XgnMH0kU0",
+  "analyzed_at": "2026-04-17T09:10:53.739094+00:00",
+  "metadata": {
+    "title": "🚨 ZIRKZEE-EN NESYRI: LA SITUAZIONE! ROMA, VIA LIBERA E ALTRO AFFARE. DIBU E DOUGLAS LUIZ…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-23"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato calcistico, in particolare sui trasferimenti di Giovanni al Napoli e di En Nesyri alla Juventus. L'autore evidenzia che Giovanni è atteso per le visite mediche e la firma, con l'obiettivo di essere disponibile per la prossima partita, mentre la Juventus sta intensificando i contatti con il Fenerbahce per acquisire En Nesyri, il quale preferirebbe un trasferimento a titolo definitivo. Romano conclude sottolineando l'importanza di questi movimenti per le rispettive squadre, in un periodo di grande fermento sul mercato.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "transfer",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "high"
+    },
+    {
+      "name": "ritorno",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "Il Napoli sta lavorando per avere Giovanni a disposizione per la prossima partita.",
+      "polarity": "positive",
+      "claim_id": "bb5a6d9b-8645-46ca-b4dc-be25434f0be9",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta lavorando per avere Giovanni a disposizione per la prossima partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli farà di tutto per provare a, come dire, ad averlo già a disposizione per la prossima partita.",
+          "start_sec": 37.64,
+          "end_sec": 70.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli ha liberato Lang e Lucca per prepararsi al match contro la Juventus.",
+      "polarity": "positive",
+      "claim_id": "97a24ad7-74c2-40a8-bbbb-9309e73e0ab9",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il Napoli ha liberato Lang e Lucca per prepararsi al match contro la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è liberato sia Lang che Lucca prima di un Napoli Juve.",
+          "start_sec": 37.64,
+          "end_sec": 70.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbahce",
+      "position": "Fenerbahce ha dato un'apertura totale alle condizioni offerte dalla Juventus.",
+      "polarity": "positive",
+      "claim_id": "56a5ff72-f7be-4ca8-bf80-824bacc8f442",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s2",
+      "target_entity": "Fenerbahce",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fenerbahce ha dato un'apertura totale alle condizioni offerte dalla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Fenerbace ha dato un'apertura totale alle condizioni offerte della Juventus.",
+          "start_sec": 67.68,
+          "end_sec": 94.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta lavorando a un'operazione per En Nesyri.",
+      "polarity": "positive",
+      "claim_id": "0eb20c21-67f7-4588-bc01-5e91f1902a37",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta lavorando a un'operazione per En Nesyri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono ore frenetiche, sono ore di contatti costanti tra Marco Tollini, direttore sportivo della Juventus in Turchia... a questa operazione en NES Siri.",
+          "start_sec": 67.68,
+          "end_sec": 94.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "En Nesyri",
+      "position": "En Nesyri è in via di trasferimento alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "c441e56d-8bd7-4166-9f11-29715d1609c1",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s2",
+      "target_entity": "En Nesyri",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "En Nesyri è in via di trasferimento alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pronte per questa operazione Nesiri per un prestito con diritto di riscatto.",
+          "start_sec": 67.68,
+          "end_sec": 94.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nesiri",
+      "position": "Nesiri non ha dato un'apertura totale ad alcuno club.",
+      "polarity": "neutral",
+      "claim_id": "cdf8cf1f-d73a-4b41-92f5-3c408479997b",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s3",
+      "target_entity": "Nesiri",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nesiri non ha dato un'apertura totale ad alcuno club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Everton ha chiamato il ragazzo, non era convinto, l'Aston Villa, poi ancora il Napoli, la Juve, insomma e Nesiri non ha dato un'apertura totale ad alcuno di questi club fino ad oggi.",
+          "start_sec": 92.04,
+          "end_sec": 119.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juve sta arrivando molto forte per acquistare Nesiri.",
+      "polarity": "positive",
+      "claim_id": "8bcc59dd-039c-41fb-b7c3-be49e4cf4ae2",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve sta arrivando molto forte per acquistare Nesiri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve, chiaramente adesso sta arrivando molto forte, spera di riuscire a chiudere.",
+          "start_sec": 92.04,
+          "end_sec": 119.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Giovanni",
+      "position": "Giovanni è atteso per visite mediche e firma domani.",
+      "polarity": "positive",
+      "claim_id": "59884312-2e67-4c4a-ae4f-4066bbde9b3d",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s1",
+      "target_entity": "Giovanni",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Giovanni è atteso per visite mediche e firma domani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giovanni è atteso per visite mediche e firma.",
+          "start_sec": 37.64,
+          "end_sec": 70.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus vuole chiudere rapidamente l'affare con Enesri.",
+      "polarity": "positive",
+      "claim_id": "12941288-177f-46a4-9bec-1f7884fcadf6",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus vuole chiudere rapidamente l'affare con Enesri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve vuole riuscire a chiudere quanto prima.",
+          "start_sec": 118.24,
+          "end_sec": 142.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Marco Tollini",
+      "position": "Marco Tollini è direttore sportivo della Juventus.",
+      "polarity": "neutral",
+      "claim_id": "4666851d-b5cf-47ac-bd50-832c84ec49c3",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s2",
+      "target_entity": "Marco Tollini",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marco Tollini è direttore sportivo della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Marco Tollini, direttore sportivo della Juventus in Turchia",
+          "start_sec": 67.68,
+          "end_sec": 94.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nesiri",
+      "position": "Nesiri vorrebbe essere acquistato a titolo definitivo.",
+      "polarity": "positive",
+      "claim_id": "a62dd4ab-cfff-447a-acc5-af0f73c805ff",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s3",
+      "target_entity": "Nesiri",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Nesiri vorrebbe essere acquistato a titolo definitivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nesiri vorrebbe essere acquistato a titolo definitivo.",
+          "start_sec": 92.04,
+          "end_sec": 119.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Giovanni sta per arrivare al Napoli.",
+      "polarity": "positive",
+      "claim_id": "1cc3cfdb-b237-41a1-846f-ea4ce9c950d3",
+      "video_id": "B2XgnMH0kU0",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanni sta per arrivare al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta arrivando Giovanni al Napoli",
+          "start_sec": 0.0,
+          "end_sec": 39.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "video_id": "uitZPZ6KWeg",
+  "analyzed_at": "2026-04-17T11:31:48.456303+00:00",
+  "metadata": null,
+  "summary": "Il video di Nico Schira si concentra sul calciomercato e sull'analisi della recente vittoria della Lazio contro il Sassuolo. L'autore evidenzia le buone prestazioni della Lazio, in particolare nel primo tempo, e sottolinea che il Sassuolo ha mostrato segni di crescita nella ripresa. Schira suggerisce che la Lazio deve ora focalizzarsi sui prossimi impegni, in particolare sulla semifinale di Coppa Italia, mentre anticipa che il Milan è interessato a Mario Ghila come potenziale rinforzo difensivo per la prossima stagione. Inoltre, si ipotizza che l'Atalanta potrebbe non rientrare nella corsa per",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifoseria",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestito",
+      "relevance": "low"
+    },
+    {
+      "name": "promozione",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Torsvelt",
+      "position": "Torsvelt continua a rifiutare la proposta del Sassuolo.",
+      "polarity": "negative",
+      "claim_id": "e46b1378-21f3-43f2-8bff-4a1a560395c6",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s0",
+      "target_entity": "Torsvelt",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Torsvelt continua a rifiutare la proposta del Sassuolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "continua a declinare la proposta del club emiliano.",
+          "start_sec": 0.76,
+          "end_sec": 51.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "L'Atalanta potrebbe non rientrare nella corsa per la conference.",
+      "polarity": "neutral",
+      "claim_id": "7b629e4b-9af4-4d09-a432-338a210be020",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Atalanta potrebbe non rientrare nella corsa per la conference.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che il post conference alla fine, salvo cataclismi, sarà in questo momento dell'Atalanta",
+          "start_sec": 48.84,
+          "end_sec": 74.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Milan sta cercando di acquistare un difensore in estate.",
+      "polarity": "positive",
+      "claim_id": "6bcbc636-0dc9-4514-8658-897ca19fa54c",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan sta cercando di acquistare un difensore in estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan prenderà almeno un difensore in estate, ne sta seguendo diversi.",
+          "start_sec": 72.84,
+          "end_sec": 122.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Milan ha bisogno di un difensore con esperienza nel campionato.",
+      "polarity": "positive",
+      "claim_id": "73a45b42-6b10-4826-82f2-a35684c7bb30",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Milan ha bisogno di un difensore con esperienza nel campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri vorrebbe anche uno che già abbia dimesticanza col campionato.",
+          "start_sec": 72.84,
+          "end_sec": 122.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lazio",
+      "position": "Lazio affronterà il Milan senza Cataldi e Romagnoli.",
+      "polarity": "negative",
+      "claim_id": "f3eb99be-672a-495c-b17a-fd39020491c9",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio affronterà il Milan senza Cataldi e Romagnoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sono fatti male Cataldi e Romagnoli non dovrebbero essere della sfida.",
+          "start_sec": 72.84,
+          "end_sec": 122.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Pario Ghila",
+      "position": "Pario Ghila è pronto a fare il salto in una squadra che gioca la Champions.",
+      "polarity": "neutral",
+      "claim_id": "1624f90d-98f6-45a4-9fb2-e435d1e3d665",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s3",
+      "target_entity": "Pario Ghila",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pario Ghila è pronto a fare il salto in una squadra che gioca la Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pario Ghila sembra cotto a puntino, classe 2000, va per i 26 anni, pronto a fare il salto in una squadra che gioca la Champions.",
+          "start_sec": 120.479,
+          "end_sec": 150.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan è una seria candidata per ingaggiare Pario Ghila.",
+      "polarity": "positive",
+      "claim_id": "5cd9a709-8e6b-45b7-b8e7-65d2dc791894",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è una seria candidata per ingaggiare Pario Ghila.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan è sicuramente una serissima candidata, anche in virtù della grande stima di Gitare.",
+          "start_sec": 120.479,
+          "end_sec": 150.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mario Ghila",
+      "position": "Mario Ghila è molto apprezzato dal Milan.",
+      "polarity": "positive",
+      "claim_id": "59e23f19-96b1-4836-b82c-350b9482ff78",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s2",
+      "target_entity": "Mario Ghila",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mario Ghila è molto apprezzato dal Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fare i puntati sempre su Mario Ghila che piace molto.",
+          "start_sec": 72.84,
+          "end_sec": 122.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha vinto contro il Sassuolo.",
+      "polarity": "positive",
+      "claim_id": "3664ad4f-57f4-4b33-8adf-9088c219266c",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha vinto contro il Sassuolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una bella vittoria della Lazio contro il Sassuolo.",
+          "start_sec": 0.76,
+          "end_sec": 51.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo è cresciuto nel secondo tempo.",
+      "polarity": "positive",
+      "claim_id": "0fac8460-e0f0-41c9-93b5-f78426a5887c",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s0",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo è cresciuto nel secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi il Sassuolo è cresciuto, ha pareggiato.",
+          "start_sec": 0.76,
+          "end_sec": 51.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Lazio",
+      "position": "La Lazio deve concentrarsi sui prossimi impegni.",
+      "polarity": "neutral",
+      "claim_id": "daab8f82-68a0-4be4-90e3-dc4010edb02e",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio deve concentrarsi sui prossimi impegni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Lazio deve concentrarsi a proposito",
+          "start_sec": 48.84,
+          "end_sec": 74.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha giocato molto bene nel primo tempo.",
+      "polarity": "positive",
+      "claim_id": "df7023a9-5b53-47c9-a7b0-49994ecd7986",
+      "video_id": "uitZPZ6KWeg",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha giocato molto bene nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una Lazio che ha giocato molto bene prima mezz'ora ha creato tre quattro palle gol nitide.",
+          "start_sec": 0.76,
+          "end_sec": 51.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

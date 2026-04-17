@@ -29,10 +29,17 @@ onMounted(() => {
   <div class="app">
     <header class="topbar">
       <div class="topbar-inner">
-        <router-link to="/mercato" class="logo-link">
+        <router-link to="/rassegna" class="logo-link">
           <h1 class="logo">Media Advisor</h1>
         </router-link>
         <div class="channel-pills">
+          <router-link
+            to="/rassegna"
+            class="pill"
+            :class="{ active: $route.path === '/rassegna' }"
+          >
+            Rassegna
+          </router-link>
           <router-link
             to="/canali"
             class="pill"

@@ -7,11 +7,13 @@ trasversale e non vale la pena suddividere per topic.
 import os
 import uuid
 from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any
 
 from pydantic import BaseModel, Field
 
 from media_advisor.mercato.models import ConfidenceLevel, MercatoTip, TransferType
+from media_advisor.mercato.player_normalizer import get_player_list_for_prompt, normalize_player_name
 from media_advisor.models.transcript import TranscriptResponse
 from media_advisor.pipeline.entity_normalizer import normalize_entity
 
@@ -33,22 +35,32 @@ Per ogni indiscrezione estratta devi fornire:
     "likely"    → probabile, ci siamo quasi, avanzata
     "confirmed" → è fatta, confermato, ufficiale
     "denied"    → smentito, non si farà
+- confidence_note: breve nota (max 10 parole) che spiega il livello di fiducia, es.:
+    "fasi finali dell'accordo", "obbligo di riscatto scattato", "smentito dall'agente",
+    "non sta trattando con nessuno", "trattativa avanzata", "basi dell'accordo raggiunte"
+    (null se non c'è nulla di specifico da aggiungere)
 - tip_text: sintesi in max 30 parole (italiano)
 - quote_text: citazione VERBATIM dal transcript (sottostringa esatta)
 - quote_start_sec: timestamp inizio (null se non disponibile)
 - quote_end_sec: timestamp fine (null se non disponibile)
 
 REGOLE:
+- ESAURISCI tutti i giocatori con notizie di mercato menzionati nel transcript: non fermarti al primo
 - Estrai SOLO indiscrezioni che riguardano un calciatore specifico con almeno from_club O to_club
+- ESTRAI ANCHE le smentite/denied: se l'opinionista dice che una trattativa NON esiste, NON sta avvenendo, è smentita → confidence "denied", extracta come tip
+- ESTRAI ANCHE operazioni separate per lo stesso giocatore: riscatto confermato + cessione pianificata = 2 tip distinte
 - NON estrarre: commenti tattici, prestazioni in campo, infortuni, formazioni, episodi di partita, arbitri, classifiche
 - NON estrarre: opinioni generiche ("serve un difensore", "dovrebbero comprare X") senza notizia/rumor concreto
 - NON estrarre: semplici DATI BIOGRAFICI o di appartenenza ("X è al Y", "milita nel Y") se NON è parte di una notizia di mercato
 - NON estrarre: notizie già ufficiali pubbliche ovvie dette come contesto narrativo (es. "Lukaku è al Napoli" come premessa)
-- Se lo stesso calciatore è menzionato più volte per la stessa trattativa, estrai UNA sola tip (la più dettagliata)
-- confidence "confirmed" solo se l'opinionista dice esplicitamente "è fatta", "confermato", "ufficiale"
+- Se lo stesso calciatore è menzionato più volte per LA STESSA operazione, estrai UNA sola tip (la più dettagliata)
+- confidence "confirmed" solo se l'opinionista dice esplicitamente "è fatta", "confermato", "ufficiale", "è scattato l'obbligo"
+- confidence "denied" se dice esplicitamente "non sta trattando", "non c'è trattativa", "è smentita", "l'agente nega"
 - quote_text deve essere una substring esatta del transcript fornito
-- from_club / to_club: impostali SOLO se compaiono esplicitamente nella quote_text (niente inferenze tipo "Napoli" perché si parla del Napoli)
-- Se non trovi segnali linguistici di MERCATO (trattativa/offerta/contatti/rinnovo/visite/firma/prestito/clausola ecc.), NON estrarre"""
+- from_club / to_club: impostali SOLO se compaiono esplicitamente nel contesto della quote_text (niente inferenze)
+- Per rinnovi/extension: from_club e to_club sono lo stesso club (es. Juventus→Juventus)
+- Per tip "denied": from_club/to_club rappresentano il trasferimento VOCIFERATO che viene smentito (es. "non va al Besiktas" → to_club="Besiktas")
+- Se non trovi segnali linguistici di MERCATO (trattativa/offerta/contatti/rinnovo/visite/firma/prestito/clausola/riscatto/cessione/smentita ecc.), NON estrarre"""
 
 
 class _RawMercatoTip(BaseModel):
@@ -57,6 +69,7 @@ class _RawMercatoTip(BaseModel):
     to_club: str | None = None
     transfer_type: TransferType = "unknown"
     confidence: ConfidenceLevel = "rumor"
+    confidence_note: str | None = None
     tip_text: str
     quote_text: str
     quote_start_sec: float | None = None
@@ -129,6 +142,8 @@ _MERCATO_SIGNAL: tuple[str, ...] = (
     "mercato",
     "calciomercato",
     "trattativa",
+    "trattative",
+    "trattativ",
     "trattando",
     "contatti",
     "contatto",
@@ -162,6 +177,11 @@ _MERCATO_SIGNAL: tuple[str, ...] = (
     "va via",
     "cedere",
     "cessione",
+    "non tratta",
+    "nega ",
+    "riscatt",     # riscatto / riscattare / riscattato
+    "vend",        # vendere / venduto / vendibile
+    "acquist",     # acquistare / acquisto
 )
 
 _NON_MERCATO_SIGNAL: tuple[str, ...] = (
@@ -219,7 +239,11 @@ def _is_plausible_mercato_tip(raw: _RawMercatoTip) -> bool:
     if not _contains_any(quote, _MERCATO_SIGNAL):
         # allow explicit denied/confirmed phrasing even if short
         if raw.confidence in ("confirmed", "denied") and _contains_any(
-            quote, ("ufficial", "è fatta", "fatta", "conferm", "smentit", "non si fa", "saltata")
+            quote, (
+                "ufficial", "è fatta", "fatta", "conferm", "smentit", "non si fa", "saltata",
+                "non sta trattando", "non c'è stata", "nessuna trattativa", "nega", "non ci sono state",
+                "non ci sono trattativ",
+            )
         ):
             return True
         return False
@@ -235,8 +259,14 @@ def _is_plausible_mercato_tip(raw: _RawMercatoTip) -> bool:
 
     # If the model produced clubs but none are actually present in the quote AND player isn't either, drop.
     # (This keeps recall for cases where the quote has "Juve" vs "Juventus", etc.)
+    # Exception: denied tips may have the denial statement in a separate sentence that doesn't
+    # repeat the entity name (e.g. "non ci sono state trattative [col Galatasaray]"). Accept them
+    # if the quote has strong mercato signals, trusting the AI's broader context reading.
     if (raw.from_club or raw.to_club) and not (from_in_quote or to_in_quote or player_in_quote):
-        return False
+        if raw.confidence == "denied":
+            pass  # trust the AI for denied tips with mercato signals in the quote
+        else:
+            return False
 
     # Drop "is at club" statements unless tied to renewal/transfer verbs.
     if _contains_any(quote, (" è al ", " sta al ", " gioca nel ", " milita nel ")) and not _contains_any(
@@ -263,6 +293,22 @@ def is_plausible_mercato_tip(tip: MercatoTip) -> bool:
     return _is_plausible_mercato_tip(raw)
 
 
+def _build_system_prompt(data_dir: Path | None) -> str:
+    """Costruisce il system prompt, iniettando la lista giocatori se disponibile."""
+    if data_dir is None:
+        return MERCATO_SYSTEM
+    try:
+        player_list = get_player_list_for_prompt(data_dir)
+    except Exception:
+        return MERCATO_SYSTEM
+    if not player_list:
+        return MERCATO_SYSTEM
+    return (
+        MERCATO_SYSTEM
+        + f"\n\nCALCIATORI NOTI (usa questi nomi canonici se riconosci il giocatore nel transcript):\n{player_list}"
+    )
+
+
 async def extract_mercato_tips(
     data: TranscriptResponse,
     video_id: str,
@@ -270,8 +316,14 @@ async def extract_mercato_tips(
     api_key: str,
     model: str = "gpt-4o-mini",
     context: dict[str, Any] | None = None,
+    data_dir: Path | None = None,
 ) -> list[MercatoTip]:
     """Estrae indiscrezioni di mercato da un transcript.
+
+    Args:
+        data_dir: percorso alla directory mercato/ del progetto, usato per
+            caricare il registry giocatori (alias + transfer confermati) e
+            iniettarlo nel prompt. Se None, si usa solo normalize_entity().
 
     Returns lista di MercatoTip (può essere vuota se il video non è di mercato).
     """
@@ -290,7 +342,8 @@ async def extract_mercato_tips(
     user_parts.append(f"\nTranscript:\n{text}")
     user_content = "\n".join(user_parts)
 
-    parsed = await _run_extraction(api_key, model, user_content)
+    system_prompt = _build_system_prompt(data_dir)
+    parsed = await _run_extraction(api_key, model, user_content, system_prompt=system_prompt)
 
     now = datetime.now(timezone.utc)
     mentioned_at = ctx.get("mentioned_at") or now
@@ -299,9 +352,16 @@ async def extract_mercato_tips(
     for raw in parsed.tips:
         if not _is_plausible_mercato_tip(raw):
             continue
-        player = normalize_entity(raw.player_name) or raw.player_name
-        from_club = normalize_entity(raw.from_club) if raw.from_club else None
-        to_club = normalize_entity(raw.to_club) if raw.to_club else None
+        _PLACEHOLDER_CLUBS = {"unknown", "null", "none", "n/a", "?", "-", ""}
+
+        if data_dir is not None:
+            player = normalize_player_name(raw.player_name, data_dir) or raw.player_name
+        else:
+            player = normalize_entity(raw.player_name) or raw.player_name
+        _fc = raw.from_club if raw.from_club and raw.from_club.lower() not in _PLACEHOLDER_CLUBS else None
+        _tc = raw.to_club if raw.to_club and raw.to_club.lower() not in _PLACEHOLDER_CLUBS else None
+        from_club = normalize_entity(_fc) if _fc else None
+        to_club = normalize_entity(_tc) if _tc else None
 
         tips.append(
             MercatoTip(
@@ -315,6 +375,7 @@ async def extract_mercato_tips(
                 to_club=to_club,
                 transfer_type=raw.transfer_type,
                 confidence=raw.confidence,
+                confidence_note=raw.confidence_note,
                 tip_text=raw.tip_text,
                 quote_text=raw.quote_text,
                 quote_start_sec=raw.quote_start_sec,
@@ -324,7 +385,12 @@ async def extract_mercato_tips(
     return tips
 
 
-async def _run_extraction(api_key: str, model: str, user_content: str) -> _ExtractMercatoResult:
+async def _run_extraction(
+    api_key: str,
+    model: str,
+    user_content: str,
+    system_prompt: str = MERCATO_SYSTEM,
+) -> _ExtractMercatoResult:
     """Lancia l'estrazione AI. Prova PydanticAI, fallback su OpenAI diretto."""
     try:
         from pydantic_ai import Agent  # type: ignore[import-untyped]
@@ -339,23 +405,33 @@ async def _run_extraction(api_key: str, model: str, user_content: str) -> _Extra
         agent: Agent[None, _ExtractMercatoResult] = Agent(
             llm,
             output_type=_ExtractMercatoResult,
-            system_prompt=MERCATO_SYSTEM,
+            system_prompt=system_prompt,
         )
-        result = await agent.run(user_content)
+        try:
+            from pydantic_ai.settings import ModelSettings  # type: ignore[import-untyped]
+            result = await agent.run(user_content, model_settings=ModelSettings(temperature=1.0))
+        except (ImportError, TypeError):
+            result = await agent.run(user_content)
         return result.output
     except Exception:
-        return await _openai_fallback(api_key, model, user_content)
+        return await _openai_fallback(api_key, model, user_content, system_prompt=system_prompt)
 
 
-async def _openai_fallback(api_key: str, model: str, user_content: str) -> _ExtractMercatoResult:
+async def _openai_fallback(
+    api_key: str,
+    model: str,
+    user_content: str,
+    system_prompt: str = MERCATO_SYSTEM,
+) -> _ExtractMercatoResult:
     import json
     import openai  # type: ignore[import-untyped]
 
     client = openai.AsyncOpenAI(api_key=api_key)
     completion = await client.chat.completions.create(
         model=model,
+        temperature=1.0,
         messages=[
-            {"role": "system", "content": MERCATO_SYSTEM},
+            {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_content},
         ],
         response_format={"type": "json_object"},

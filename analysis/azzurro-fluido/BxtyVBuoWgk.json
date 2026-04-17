@@ -1,0 +1,350 @@
+{
+  "video_id": "BxtyVBuoWgk",
+  "analyzed_at": "2026-04-17T10:46:32.003720+00:00",
+  "metadata": null,
+  "summary": "Il video analizza la situazione attuale di Romelu Lukaku, che non ha risposto alla convocazione per gli allenamenti del Napoli, suscitando preoccupazioni e discussioni. L'autore, Valerio Fluido, sottolinea che sia Lukaku che il club sembrano focalizzarsi più sui propri interessi personali piuttosto che su una risoluzione comune. La società sta considerando provvedimenti disciplinari, ma non ha ancora preso decisioni definitive, lasciando aperta la questione sul futuro del calciatore nel gruppo squadra.",
+  "topics": [
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "comunicazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "injury",
+      "subject": "Di Lorenzo",
+      "position": "Di Lorenzo ha giocato per 6 mesi con un dito rotto.",
+      "polarity": "neutral",
+      "claim_id": "68509edd-6d67-420b-8dd1-4943767a5581",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s5",
+      "target_entity": "Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Di Lorenzo ha giocato per 6 mesi con un dito rotto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di Lorenzo ha giocato per 6 mesi con un dito rotto",
+          "start_sec": 317.84,
+          "end_sec": 352.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Italia",
+      "position": "L'Italia deve occuparsi della partita con la Bosnia.",
+      "polarity": "neutral",
+      "claim_id": "c99e4f9f-248b-4d6e-9b86-a7bd4d23bea0",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia deve occuparsi della partita con la Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Italia si si deve occupare della partita con la Bosnia.",
+          "start_sec": 2.879,
+          "end_sec": 76.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Romero Lukaku",
+      "position": "Lukaku non ha risposto alla convocazione per gli allenamenti.",
+      "polarity": "neutral",
+      "claim_id": "d66b2e66-4a56-4523-9948-e1442efcb370",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s1",
+      "target_entity": "Romero Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku non ha risposto alla convocazione per gli allenamenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calciatore Romero Lukaku non ha risposto alla convocazione di oggi in vista della ripresa degli allenamenti.",
+          "start_sec": 73.479,
+          "end_sec": 136.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Il club valuta possibili provvedimenti disciplinari nei confronti di Lukaku.",
+      "polarity": "neutral",
+      "claim_id": "c1e58814-0101-41ff-a49f-123123362685",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "club",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il club valuta possibili provvedimenti disciplinari nei confronti di Lukaku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la società si riserva di valutare l'adozione a distanza degli opportuni provvedimenti disciplinari.",
+          "start_sec": 73.479,
+          "end_sec": 136.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli non ha ancora multato né messo fuori rosa Lukaku.",
+      "polarity": "neutral",
+      "claim_id": "d9720ef7-8ea5-4b81-9dc0-2074864c52be",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "club",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli non ha ancora multato né messo fuori rosa Lukaku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi non è che la società lo ha multato, la società lo ha messo fuori rosa, come qualcuno sta dicendo.",
+          "start_sec": 73.479,
+          "end_sec": 136.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Lukaku sembra più interessato ai suoi interessi personali.",
+      "polarity": "negative",
+      "claim_id": "9312e3b1-a785-425d-b293-e5a27f7e127f",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku sembra più interessato ai suoi interessi personali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me Lukaku sta pensando a se stesso più che a noi",
+          "start_sec": 135.319,
+          "end_sec": 189.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Il Napoli sembra prioritizzare i propri interessi rispetto a Lukaku.",
+      "polarity": "negative",
+      "claim_id": "d82ae7e7-9d98-4e59-8bfa-15e9518b3f8c",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sembra prioritizzare i propri interessi rispetto a Lukaku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo anche il Napoli stia pensando a se stesso più che a Lukaku",
+          "start_sec": 135.319,
+          "end_sec": 189.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "La comunicazione ufficiale del Napoli non è stata corretta.",
+      "polarity": "neutral",
+      "claim_id": "ea03f2c2-9a90-40b1-9052-5ae0c1eb0ad1",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La comunicazione ufficiale del Napoli non è stata corretta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'unica che di cui noi ci dovremmo fidare è la fonte ufficiale del dottore del Napoli e quando ha parlato ci ha detto cose che non si sono rivelate giuste o corrette o vere",
+          "start_sec": 317.84,
+          "end_sec": 352.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "De Bruin",
+      "position": "De Bruin si è operato e si è riabilitato.",
+      "polarity": "positive",
+      "claim_id": "003916bc-26c6-4526-b1f5-cdcc617b3c47",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s6",
+      "target_entity": "De Bruin",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Bruin si è operato e si è riabilitato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ha fatto di testa sua, che si è operato e si è riabilitato là",
+          "start_sec": 350.16,
+          "end_sec": 381.71999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Romero Lukaku",
+      "position": "Lukaku aveva già comunicato la sua assenza alla società.",
+      "polarity": "neutral",
+      "claim_id": "852b6495-7b5d-4ca7-8d1d-d9f10db5d2ac",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s1",
+      "target_entity": "Romero Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku aveva già comunicato la sua assenza alla società.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo sapevamo perché Lukaku ce l'aveva detto prima",
+          "start_sec": 73.479,
+          "end_sec": 136.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Il Napoli ha bisogno di maggiore chiarezza sulla situazione infortunati.",
+      "polarity": "neutral",
+      "claim_id": "a765353b-d933-4af5-b548-a526a2974911",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il Napoli ha bisogno di maggiore chiarezza sulla situazione infortunati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "benissimo, vieni a casa che ti dobbiamo",
+          "start_sec": 317.84,
+          "end_sec": 352.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Lukaku",
+      "position": "C'è molta attenzione su Lukaku.",
+      "polarity": "neutral",
+      "claim_id": "8bcc9d1a-1ff0-4018-bdfb-6786d3fc3604",
+      "video_id": "BxtyVBuoWgk",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è molta attenzione su Lukaku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stanno tittando a pazzi su Lukaku.",
+          "start_sec": 2.879,
+          "end_sec": 76.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

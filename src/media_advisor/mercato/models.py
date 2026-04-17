@@ -6,7 +6,7 @@ from typing import Literal
 from pydantic import BaseModel, Field, field_validator
 
 
-TransferType = Literal["loan", "permanent", "free_agent", "extension", "unknown"]
+TransferType = Literal["loan", "permanent", "free_agent", "extension", "renewal", "unknown"]
 ConfidenceLevel = Literal["rumor", "likely", "confirmed", "denied"]
 OutcomeValue = Literal["non_verificata", "confermata", "parziale", "smentita", "non_conclusa"]
 OutcomeSource = Literal["manual", "transfermarkt", "sofascore", "auto"]
@@ -33,6 +33,7 @@ class MercatoTip(BaseModel):
     to_club: str | None = None
     transfer_type: TransferType = "unknown"
     confidence: ConfidenceLevel = "rumor"
+    confidence_note: str | None = None   # breve nota esplicativa (es. "obbligo scattato")
 
     tip_text: str                        # sintesi max 30 parole
     quote_text: str                      # verbatim dal transcript

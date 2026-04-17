@@ -1,0 +1,358 @@
+{
+  "video_id": "Zjs7qcbVvUY",
+  "analyzed_at": "2026-04-16T16:09:03.103100+00:00",
+  "metadata": {
+    "title": "🚨💣 COLPO A SORPRESA! TENSIONE LOOKMAN! JONES-INTER, LA VERITÀ. DISASI E IL MILAN, MATETA, SULEMANA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-30"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti sorprese del calciomercato, in particolare sull'inaspettato trasferimento di Ciro Immobile dalla Serie A al Paris FC. L'autore sottolinea come questa mossa rappresenti una grande novità per i tifosi e il fantacalcio, evidenziando l'ambizione del Paris FC nel voler costruire una squadra competitiva. Romano conclude anticipando che l'accordo tra Immobile e il club parigino è praticamente concluso, con la firma attesa nelle prossime ore, segnando così un'importante svolta nella carriera del calciatore.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "opportunità",
+      "relevance": "medium"
+    },
+    {
+      "name": "cambiamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "interesse",
+      "relevance": "low"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha offerto 3 milioni e mezzo netti a Mateta.",
+      "polarity": "positive",
+      "claim_id": "15e69264-b41c-44ad-ab0d-88c1f8d41c23",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha offerto 3 milioni e mezzo netti a Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "3 milioni e mezzo netti al ragazzo",
+          "start_sec": 116.24,
+          "end_sec": 143.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ciro Immobile",
+      "position": "Ciro Immobile lascia la Serie A in modo inaspettato.",
+      "polarity": "negative",
+      "claim_id": "96de76e9-650f-480d-8b48-2aa0aac33dc3",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s0",
+      "target_entity": "Ciro Immobile",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ciro Immobile lascia la Serie A in modo inaspettato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ciro Immobile completamente inaspettato lascia la nostra Serie A.",
+          "start_sec": 0.44,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ciro Immobile",
+      "position": "Il Paris FC ha sperato di acquisire Immobile.",
+      "polarity": "positive",
+      "claim_id": "74027bad-d25c-42da-b646-1b55d9badffd",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s2",
+      "target_entity": "Ciro Immobile",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris FC ha sperato di acquisire Immobile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Paris FC ha veramente sperato di poter prendere Mati Stell.",
+          "start_sec": 62.0,
+          "end_sec": 91.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ciro Immobile",
+      "position": "Le visite mediche e le firme di Immobile sono attese a breve.",
+      "polarity": "positive",
+      "claim_id": "0f8df7fc-b9e6-4b4c-8b69-b4b81b14e977",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s2",
+      "target_entity": "Ciro Immobile",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Le visite mediche e le firme di Immobile sono attese a breve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si aspetta l'ultimo ok ai contratti che verranno controllati nella notte",
+          "start_sec": 62.0,
+          "end_sec": 91.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan è in contatto costante a Milano con l'avvocato di Jean Philippe.",
+      "polarity": "neutral",
+      "claim_id": "f6c81f5a-e137-468e-9d09-edf1f924ff33",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è in contatto costante a Milano con l'avvocato di Jean Philippe.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Milan in contatto costante a Milano con l'avvocato di Jean Philippe.",
+          "start_sec": 89.64,
+          "end_sec": 118.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan è in attesa dell'ok dal Crystal Palace per l'operazione.",
+      "polarity": "positive",
+      "claim_id": "18b09ce8-ca39-4acb-b4bb-74fbbe7ac09a",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è in attesa dell'ok dal Crystal Palace per l'operazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan che aspetta l'ultimo ok dal Crystal Palace per fare l'operazione adesso",
+          "start_sec": 116.24,
+          "end_sec": 143.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Paul Mateta",
+      "position": "Paul Mateta coordina le operazioni per la sua cessione al Milan.",
+      "polarity": "positive",
+      "claim_id": "1df4582f-95f8-4118-bc1d-40e72e8bb16a",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s4",
+      "target_entity": "Paul Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Paul Mateta coordina le operazioni per la sua cessione al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si chiama Paul ed è lui che sta coordinando le operazioni su questa operazione",
+          "start_sec": 116.24,
+          "end_sec": 143.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matetà",
+      "position": "Matetà è atteso per visite mediche e firme sui contratti.",
+      "polarity": "positive",
+      "claim_id": "57186611-67cf-4f96-9ac8-8c971db12b19",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s5",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà è atteso per visite mediche e firme sui contratti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "far volare Matetà per visite mediche e firme sui contratti.",
+          "start_sec": 141.239,
+          "end_sec": 170.72000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Paris FC",
+      "position": "Il Paris FC è considerato un club molto ambizioso.",
+      "polarity": "positive",
+      "claim_id": "2700f502-ccd5-4803-b683-f3a92995cfb2",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s1",
+      "target_entity": "Paris FC",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris FC è considerato un club molto ambizioso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un club molto ambizioso.",
+          "start_sec": 27.119,
+          "end_sec": 64.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Crystal Palace",
+      "position": "L'operazione di Mateta dipende dall'ok del Crystal Palace.",
+      "polarity": "positive",
+      "claim_id": "a42a7dc2-a6c2-4dcd-b1f0-16834c654b54",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s4",
+      "target_entity": "Crystal Palace",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione di Mateta dipende dall'ok del Crystal Palace.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dipende dal Crystal Palace.",
+          "start_sec": 116.24,
+          "end_sec": 143.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "Lazio ha vinto contro il Genoa.",
+      "polarity": "positive",
+      "claim_id": "74dac781-ab9f-47b8-901b-627430297f4d",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio ha vinto contro il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la vittoria last minute della Lazio contro il Genoa.",
+          "start_sec": 0.44,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta pianificando di acquistare Matetà.",
+      "polarity": "positive",
+      "claim_id": "2af1b592-a403-4e1b-8d79-ec1a2b990be1",
+      "video_id": "Zjs7qcbVvUY",
+      "segment_id": "s5",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta pianificando di acquistare Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Questo è il piano del Milan.",
+          "start_sec": 141.239,
+          "end_sec": 170.72000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

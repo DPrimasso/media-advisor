@@ -48,6 +48,7 @@ class ChannelConfig(BaseModel):
     order: int = 999
     video_list: str
     fetch_rule: FetchRule | None = None
+    mercato_channel: bool = False  # True → analizza tutti i video per mercato; False → mai
 
 
 class ChannelsConfig(BaseModel):

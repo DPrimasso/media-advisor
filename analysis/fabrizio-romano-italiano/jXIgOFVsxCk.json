@@ -1,0 +1,366 @@
+{
+  "video_id": "jXIgOFVsxCk",
+  "analyzed_at": "2026-04-16T16:00:19.001558+00:00",
+  "metadata": {
+    "title": "🚨 COLPI VICINI! SORPRESE LOOKMAN, MATETA, ALLISON, BRYAN ZARAGOZA, HOLM, CUFFY, JOAO MARIO, KAIKY…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-31"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato calcistico, in particolare riguardo alla situazione di Alessio Romagnoli e alle operazioni in corso tra i club. L'autore sottolinea l'urgenza delle trattative, poiché il mercato in Qatar sta per chiudere, e il Napoli deve affrontare l'assenza di Giovanni Di Lorenzo, infortunatosi gravemente. Romano ipotizza che il Napoli potrebbe cercare di rinforzarsi con nuovi acquisti, mentre le trattative per Romagnoli e altri giocatori rimangono in evoluzione, con l'Inter e la Juventus attivamente coinvolte.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "transazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "vittoria",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    },
+    {
+      "name": "prestito",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Alessio Romagnoli",
+      "position": "Romagnoli è al centro di trattative tra club.",
+      "polarity": "neutral",
+      "claim_id": "ff00db8b-3e05-4e56-bace-41ecb8ed15fc",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s0",
+      "target_entity": "Alessio Romagnoli",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Romagnoli è al centro di trattative tra club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutti stanno ancora provando a incastrare questa operazione Romagnoli",
+          "start_sec": 0.64,
+          "end_sec": 37.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "I club stanno cercando di risolvere la questione Romagnoli.",
+      "polarity": "neutral",
+      "claim_id": "8c962cc9-8a73-41ea-92ef-8aaea13a0a3f",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "I club stanno cercando di risolvere la questione Romagnoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i due club stanno cercando di risolvere questa questione alle 20:53",
+          "start_sec": 0.64,
+          "end_sec": 37.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "Il mercato in Qatar influenzerà le decisioni sui trasferimenti della Lazio.",
+      "polarity": "neutral",
+      "claim_id": "5cf56a7a-fca1-496b-9dc3-2b48de5668ae",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il mercato in Qatar influenzerà le decisioni sui trasferimenti della Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il tempo, eh però scorre velocemente e eh tra pochissimo chiude il mercato in Qatar",
+          "start_sec": 0.64,
+          "end_sec": 37.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Giovanni Di Lorenzo",
+      "position": "Giovanni Di Lorenzo ha subito un infortunio serio al ginocchio.",
+      "polarity": "negative",
+      "claim_id": "3727dfb9-c71c-4851-ac79-bf61734494db",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s2",
+      "target_entity": "Giovanni Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanni Di Lorenzo ha subito un infortunio serio al ginocchio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giovanni Di Lorenzo si è fatto male. È un infortunio serio al ginocchio.",
+          "start_sec": 61.28,
+          "end_sec": 88.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli deve prepararsi per affrontare l'assenza di Di Lorenzo.",
+      "polarity": "neutral",
+      "claim_id": "4e191c44-316d-4944-92a7-eac99b88abe7",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli deve prepararsi per affrontare l'assenza di Di Lorenzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli deve cautelarsi perché manca pochissimo la chiusura del mercato",
+          "start_sec": 61.28,
+          "end_sec": 88.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha sondato Holm e Norton Caffi per il mercato.",
+      "polarity": "neutral",
+      "claim_id": "c750382d-ccc5-4021-82d1-7f51c7cb0b0c",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha sondato Holm e Norton Caffi per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ha sondato negli ultimi 1015 giorni... sono Holm e Norton Caffi",
+          "start_sec": 87.36,
+          "end_sec": 115.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Norton Caffi",
+      "position": "Norton Caffi è un sondaggio di mercato del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "560930e7-6c99-496e-9e36-b60ed3e180bb",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s3",
+      "target_entity": "Norton Caffi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Norton Caffi è un sondaggio di mercato del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono Holm e Norton Caffi, due giocatori su cui il Napoli aveva già messo gli occhi",
+          "start_sec": 87.36,
+          "end_sec": 115.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe provare a inserirsi per Caffy.",
+      "polarity": "neutral",
+      "claim_id": "c945d065-0056-4836-b813-00a485b92985",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli potrebbe provare a inserirsi per Caffy.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Caffy e allora vediamo se il Napoli proverà ad inserirsi.",
+          "start_sec": 139.08,
+          "end_sec": 165.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è stata limitata nella trattativa per Caffy a causa delle richieste del Genoa.",
+      "polarity": "neutral",
+      "claim_id": "f7920e00-e104-46c6-b835-91e241153941",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è stata limitata nella trattativa per Caffy a causa delle richieste del Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ha un po' limitato anche la Juventus durante le scorse settimane.",
+          "start_sec": 139.08,
+          "end_sec": 165.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto la partita contro la Fiorentina.",
+      "polarity": "positive",
+      "claim_id": "1e366568-1ead-47ac-b031-cfd1cd205307",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto la partita contro la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli torna a vincere",
+          "start_sec": 35.719,
+          "end_sec": 63.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "Il mercato in Qatar sta per chiudere.",
+      "polarity": "neutral",
+      "claim_id": "738a5e99-afa9-4507-9906-28524c0e6152",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato in Qatar sta per chiudere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chiude il mercato in Qatar",
+          "start_sec": 0.64,
+          "end_sec": 37.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa richiede un obbligo per Caffy.",
+      "polarity": "neutral",
+      "claim_id": "64beac2e-ce0b-4a03-99f6-695c0f8f52ee",
+      "video_id": "jXIgOFVsxCk",
+      "segment_id": "s5",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa richiede un obbligo per Caffy.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Genoa ha sempre chiesto però l'obbligo.",
+          "start_sec": 139.08,
+          "end_sec": 165.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

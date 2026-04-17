@@ -1,0 +1,358 @@
+{
+  "video_id": "n0WJxjvndEo",
+  "analyzed_at": "2026-04-16T15:47:22.332061+00:00",
+  "metadata": {
+    "title": "🚨💣 ORE FOLLI! MATETA, LE VOCI DI JUVE, SORLOTH, CHIAMATA INTER, FRATTESI, PERISIC, BAKAMBU, RUGANI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-02"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato riguardanti Jean-Filip Matetà, attaccante in procinto di trasferirsi al Milan, ma attualmente sottoposto a visite mediche per valutare la condizione del suo ginocchio. L'autore sottolinea che, sebbene Matetà stia bene e giochi regolarmente, ci sono preoccupazioni per la sua situazione fisica futura, il che rende il Milan cauto nell'approvare l'operazione da oltre 30 milioni di euro. Inoltre, si evidenzia che la Juventus ha perso interesse per Matetà, mentre la situazione di mercato rimane in continua evoluzione, con poten",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "visite mediche",
+      "relevance": "high"
+    },
+    {
+      "name": "società",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "struttura",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Jean-Filip Matetà",
+      "position": "Jean-Filip Matetà sta emergendo come obiettivo di mercato.",
+      "polarity": "positive",
+      "claim_id": "cae5e9e6-b291-4779-aed5-ed0138b5ad0a",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s0",
+      "target_entity": "Jean-Filip Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jean-Filip Matetà sta emergendo come obiettivo di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Jean-Filip Matetà sta emergendo di tutto in questo minuto.",
+          "start_sec": 0.56,
+          "end_sec": 30.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Il Milan attende un verdetto sulle visite mediche.",
+      "polarity": "neutral",
+      "claim_id": "84c2de9a-612d-455e-b2bd-99c2ebdb8775",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan attende un verdetto sulle visite mediche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci aspettiamo il verdetto del Milan sulle visite mediche.",
+          "start_sec": 0.56,
+          "end_sec": 30.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Matetà",
+      "position": "Matetà sta subendo accertamenti medici per il ginocchio.",
+      "polarity": "neutral",
+      "claim_id": "aad9ed4d-b1ae-42f1-874d-94665a9129d1",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s1",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà sta subendo accertamenti medici per il ginocchio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questi accertamenti ulteriori, queste visite mediche supplementari per capire la condizione del ginocchio di Matetà.",
+          "start_sec": 28.679,
+          "end_sec": 65.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Matetà",
+      "position": "Il ginocchio di Matetà potrebbe essere a rischio in futuro.",
+      "polarity": "neutral",
+      "claim_id": "e1ced65f-0ae3-408e-a4e5-564d9840cf3e",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s2",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il ginocchio di Matetà potrebbe essere a rischio in futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da capire se eh poi in futuro eh il ginocchio di Matetà potrà essere comunque a rischio",
+          "start_sec": 63.879,
+          "end_sec": 99.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan deve valutare i rischi legati al ginocchio di Matetà.",
+      "polarity": "neutral",
+      "claim_id": "db868b6a-497b-44f9-982f-f672c5075e6a",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il Milan deve valutare i rischi legati al ginocchio di Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan deve capire quanto quanti rischi comporta questo tipo di",
+          "start_sec": 63.879,
+          "end_sec": 99.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus non ha ricevuto segnali positivi dal Tottenham per Randar Colom.",
+      "polarity": "neutral",
+      "claim_id": "e2620b37-d8d7-4871-b012-1695e1f322fe",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus non ha ricevuto segnali positivi dal Tottenham per Randar Colom.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus non ha ricevuto ancora alcun tipo di segnale positivo di apertura dal Tottenham per Randar Colom.",
+          "start_sec": 121.0,
+          "end_sec": 149.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tottenham",
+      "position": "Il discorso su Randar Colom è attualmente spento.",
+      "polarity": "neutral",
+      "claim_id": "2fa38a93-58c9-4ea0-84f2-15bcf597a7c2",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s4",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il discorso su Randar Colom è attualmente spento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È un discorso che in questo momento è completamente spento.",
+          "start_sec": 121.0,
+          "end_sec": 149.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juventus e Milan stanno affrontando operazioni di mercato diverse.",
+      "polarity": "neutral",
+      "claim_id": "a2bc7654-055c-4c25-aa5f-26f5f9f100cd",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s6",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus e Milan stanno affrontando operazioni di mercato diverse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus comunque in ogni caso il tipo di operazione anche a livello di struttura e di formula era diverso, era diversa rispetto a quella che sta portando avanti il Milan.",
+          "start_sec": 184.04,
+          "end_sec": 221.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Matetà",
+      "position": "Non si comprende lo stato fisico di Matetà.",
+      "polarity": "neutral",
+      "claim_id": "3bcf21d1-0bd5-4e95-b513-a40a937b0b72",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s1",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non si comprende lo stato fisico di Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si sta capendo lo stato fisico.",
+          "start_sec": 28.679,
+          "end_sec": 65.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matetà",
+      "position": "Matetà è collegato a Stran Larsen secondo alcune fonti.",
+      "polarity": "neutral",
+      "claim_id": "aa269e50-b7a3-462f-84ba-b07062539560",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s4",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà è collegato a Stran Larsen secondo alcune fonti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Matetà, almeno da quanto mi risulta.",
+          "start_sec": 121.0,
+          "end_sec": 149.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Matetà",
+      "position": "Il ginocchio di Matetà è delicato.",
+      "polarity": "neutral",
+      "claim_id": "698cd7d1-aed8-49fe-9e0a-75afb65cb561",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s2",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il ginocchio di Matetà è delicato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quanto tipo quanto è delicato, diciamo, il ginocchio di Matetà",
+          "start_sec": 63.879,
+          "end_sec": 99.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Matetà",
+      "position": "Matetà sta bene e gioca attualmente.",
+      "polarity": "positive",
+      "claim_id": "c6615a87-4770-4f0f-9e3c-ce534df5d01f",
+      "video_id": "n0WJxjvndEo",
+      "segment_id": "s2",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà sta bene e gioca attualmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Matetà in realtà sta bene, gioca, sta giocando e continuerà a giocare",
+          "start_sec": 63.879,
+          "end_sec": 99.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

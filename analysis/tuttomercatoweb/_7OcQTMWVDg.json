@@ -1,0 +1,362 @@
+{
+  "video_id": "_7OcQTMWVDg",
+  "analyzed_at": "2026-04-17T11:15:45.732326+00:00",
+  "metadata": null,
+  "summary": "Il video analizza le differenze nella preparazione atletica tra le squadre italiane e quelle europee, evidenziando come alcune formazioni stiano adattando il loro ritmo di gioco a standard più elevati. L'autore critica il precampionato in casa, ritenendolo inefficace e sottolinea che i tanti infortuni, come quelli del Napoli, sono spesso il risultato di un cattivo adattamento muscolare e della mancanza di riposo. Conclude affermando che, sebbene la preparazione atletica sia scientifica e rispettosa, è fondamentale migliorare la gestione dei calendari e garantire un adeguato recupero per i gioc",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "ritiro",
+      "relevance": "high"
+    },
+    {
+      "name": "umidità",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "preparazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "andamento",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli ha avuto 35-36 infortuni muscolari in questa stagione.",
+      "polarity": "negative",
+      "claim_id": "8ec0496f-e59b-400e-aa0f-5f287b2b5c64",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto 35-36 infortuni muscolari in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'esempio è il Napoli con 35-36 infortuni muscolari in questa stagione.",
+          "start_sec": 149.72,
+          "end_sec": 247.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "squadre",
+      "position": "Alcune squadre si stanno adattando a un ritmo gara diverso.",
+      "polarity": "neutral",
+      "claim_id": "edb6bcdf-c5a3-4e76-a7ee-23a2a3f4ffd5",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s1",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alcune squadre si stanno adattando a un ritmo gara diverso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...alcune squadre si portano in quella direzione e riescono a avere delle risposte più importanti...",
+          "start_sec": 67.0,
+          "end_sec": 152.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "calcio",
+      "position": "Il precampionato in casa non è ben visto.",
+      "polarity": "negative",
+      "claim_id": "7b1470a5-fa34-4796-a9c0-eefc43fe04cc",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s1",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il precampionato in casa non è ben visto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...questa è una cosa che io non condivido perché una delle cose più importanti del calcio...",
+          "start_sec": 67.0,
+          "end_sec": 152.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "infortuni",
+      "position": "I tanti infortuni sono causati da cattivo adattamento muscolare.",
+      "polarity": "neutral",
+      "claim_id": "86037bb9-a9d8-475a-b3db-8690948cc1aa",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s1",
+      "target_entity": "infortuni",
+      "entity_type": "other",
+      "dimension": "injury",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I tanti infortuni sono causati da cattivo adattamento muscolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...tanti infortuni vengono anche perché c'è una cattiva, diciamo, un cattivo adattamento muscolare al clima.",
+          "start_sec": 67.0,
+          "end_sec": 152.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "preparatori atletici",
+      "position": "La preparazione atletica è scientifica e fatta con criteri di rispetto.",
+      "polarity": "neutral",
+      "claim_id": "1fbd9895-58ca-44cc-a214-858924cb5093",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s2",
+      "target_entity": "preparatori atletici",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La preparazione atletica è scientifica e fatta con criteri di rispetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la preparazione atletica oggi non è inventata, è scientifica, viene fatta con dei criteri che sono criteri eh di assoluto rispetto",
+          "start_sec": 149.72,
+          "end_sec": 247.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "calendari",
+      "position": "La mancanza di riposo è un problema per i giocatori.",
+      "polarity": "neutral",
+      "claim_id": "40aa695b-ac05-46db-ab7b-907bf7d973a3",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s2",
+      "target_entity": "calendari",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La mancanza di riposo è un problema per i giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna dare però ai ai calendari soprattutto e alla mancanza di riposo.",
+          "start_sec": 149.72,
+          "end_sec": 247.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatori",
+      "position": "I giocatori spesso non riescono a mantenere elevati ritmi di gioco per lungo tempo.",
+      "polarity": "neutral",
+      "claim_id": "752e7367-7fa6-4695-a6b3-0f9cdf08df3c",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s2",
+      "target_entity": "giocatori",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori spesso non riescono a mantenere elevati ritmi di gioco per lungo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tanti giocatori giocano a ritmi elevati per troppo tempo e poi non ce la fanno più.",
+          "start_sec": 149.72,
+          "end_sec": 247.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "squadre",
+      "position": "Le squadre devono adattarsi all'altura e umidità del mondiale.",
+      "polarity": "neutral",
+      "claim_id": "55a57182-3204-40d4-9db5-037310566511",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s3",
+      "target_entity": "squadre",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre devono adattarsi all'altura e umidità del mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono molte le squadre che stanno cercando di comprendere come attivarsi in questa direzione.",
+          "start_sec": 249.68,
+          "end_sec": 308.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "squadre",
+      "position": "Le squadre si allenano in altura per prepararsi al mondiale.",
+      "polarity": "neutral",
+      "claim_id": "34f5d3fe-8863-4a6c-b1fc-69a8ed874df0",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s3",
+      "target_entity": "squadre",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre si allenano in altura per prepararsi al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si cerca di andare ancora alla forma classica in cui si va in altura.",
+          "start_sec": 249.68,
+          "end_sec": 308.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "squadre",
+      "position": "Il cambio di umidità influisce sulle prestazioni muscolari.",
+      "polarity": "neutral",
+      "claim_id": "54e189af-5a58-4cc8-8195-f5245e52e299",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s3",
+      "target_entity": "squadre",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il cambio di umidità influisce sulle prestazioni muscolari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'umidità è quella che incide in maniera più importante su tutte le meccaniche dei muscoli accessori.",
+          "start_sec": 249.68,
+          "end_sec": 308.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "squadre",
+      "position": "Le squadre potrebbero avere difficoltà nella transizione dal campo di allenamento a quello di gioco.",
+      "polarity": "neutral",
+      "claim_id": "6d27dc35-3d0e-4967-af76-29280488e41e",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s3",
+      "target_entity": "squadre",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Le squadre potrebbero avere difficoltà nella transizione dal campo di allenamento a quello di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è una variazione e non tanto di temperatura, ma di umidità.",
+          "start_sec": 249.68,
+          "end_sec": 308.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "clima",
+      "position": "Il clima della città impatta sull'allenamento.",
+      "polarity": "neutral",
+      "claim_id": "25bb41f1-b51b-45b9-95a0-8b9a76c12b10",
+      "video_id": "_7OcQTMWVDg",
+      "segment_id": "s1",
+      "target_entity": "clima",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il clima della città impatta sull'allenamento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...il clima il clima della città è totalmente diverso rispetto alla...",
+          "start_sec": 67.0,
+          "end_sec": 152.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica"
+      ]
+    }
+  ]
+}

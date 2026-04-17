@@ -1,0 +1,358 @@
+{
+  "video_id": "OFkI6qZTpVA",
+  "analyzed_at": "2026-04-17T07:35:07.085540+00:00",
+  "metadata": {
+    "title": "🚨 LA JUVE CHIAMA! OFFERTA ROMA! KEAN, KOLO MUANI, MLACIC E L’INTER, DRAGUSIN, CARRASCO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-26"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti attività di mercato della Roma, in particolare dopo l'infortunio di Manu Coné, che sarà assente per un mese. L'autore sottolinea che la Roma è molto attiva sul mercato, avendo già presentato un'offerta per il terzino sinistro Wolfe del Wolverhampton, puntando a un acquisto definitivo. Inoltre, si menziona l'interesse per Jannik Ferreira Carrasco, con il giocatore che preferirebbe trasferirsi a Roma nonostante altre offerte. La situazione attuale evidenzia la necessità della Roma di rinforzarsi in un momento difficile, sia per gli infortuni",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "dirigente",
+      "relevance": "low"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "injury",
+      "subject": "Roma",
+      "position": "Manu Coné sarà fuori per circa un mese per infortunio.",
+      "polarity": "negative",
+      "claim_id": "d8e9c3bf-2266-4213-b955-6fbfcff1ff87",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Manu Coné sarà fuori per circa un mese per infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'infortunio di Manu Coné che starà fuori all'incirca un mese",
+          "start_sec": 36.84,
+          "end_sec": 63.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma ha fatto un'offerta per Wolfe, terzino sinistro del Wolverhampton.",
+      "polarity": "positive",
+      "claim_id": "531cedf1-cfc3-473c-ba46-cf29691904b8",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha fatto un'offerta per Wolfe, terzino sinistro del Wolverhampton.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma ha fatto un'offerta in queste ore in mattinata per Wolfe, il terzino sinistro del Wolverhampton",
+          "start_sec": 36.84,
+          "end_sec": 63.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Roma",
+      "position": "La Roma sta vivendo un periodo difficile a causa degli infortuni.",
+      "polarity": "negative",
+      "claim_id": "f5e0c713-e366-43c6-b787-3e51ec7478d8",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma sta vivendo un periodo difficile a causa degli infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi chiaramente per la Roma un'altra batostra dal punto di vista degli infortuni",
+          "start_sec": 36.84,
+          "end_sec": 63.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma sarà molto attiva sul mercato in questa settimana.",
+      "polarity": "positive",
+      "claim_id": "ea1fd72d-6ba7-4987-89ab-15690bad2539",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma sarà molto attiva sul mercato in questa settimana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una Roma allo stesso tempo molto attiva sul mercato e lo sarà, ve lo dicevo già nei giorni scorsi, durante questa settimana ci farà parlare tanto.",
+          "start_sec": 36.84,
+          "end_sec": 63.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma sta considerando un'offerta per l'acquisto definitivo di un giocatore.",
+      "polarity": "positive",
+      "claim_id": "1cec35bb-da17-467e-958c-5b88c472e045",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma sta considerando un'offerta per l'acquisto definitivo di un giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una possibilità che la Roma ha preso in considerazione.",
+          "start_sec": 62.079,
+          "end_sec": 87.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Liverpool",
+      "position": "Ci saranno conseguenze per giocatori come Zimikas e Robertson.",
+      "polarity": "neutral",
+      "claim_id": "f085c7d0-c366-45ea-bdc0-33bfe2dbb319",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s2",
+      "target_entity": "Liverpool",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci saranno conseguenze per giocatori come Zimikas e Robertson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che tipo di conseguenza avrà sul giro Zimikas, Robertson, Liverpool.",
+          "start_sec": 62.079,
+          "end_sec": 87.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma ha fatto una proposta per Wolfe.",
+      "polarity": "neutral",
+      "claim_id": "a9756341-52ae-43b3-b4d3-c7313269d9fe",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha fatto una proposta per Wolfe.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma si muove con il direttore Massara che fa una proposta per Wolfe",
+          "start_sec": 85.68,
+          "end_sec": 113.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma sta cercando di sbloccare questa operazione.",
+      "polarity": "neutral",
+      "claim_id": "d63218de-0603-4e8d-bed8-c11cbfa9a2fd",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma sta cercando di sbloccare questa operazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Roma che sta provando a lavorarci.",
+          "start_sec": 62.079,
+          "end_sec": 87.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massara",
+      "position": "Massara sta seguendo Wolfe da tempo.",
+      "polarity": "positive",
+      "claim_id": "d1ef1eb5-427e-4c5e-9de6-7b368b84cdbb",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s3",
+      "target_entity": "Massara",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Massara sta seguendo Wolfe da tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Massara già conosceva e seguiva da tempo il laterale",
+          "start_sec": 85.68,
+          "end_sec": 113.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Jannik Ferreira Carrasco",
+      "position": "Carrasco sta lavorando per trasferirsi alla Roma.",
+      "polarity": "positive",
+      "claim_id": "1bb68c87-c11a-42dc-ad47-ad813692246d",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s4",
+      "target_entity": "Jannik Ferreira Carrasco",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Carrasco sta lavorando per trasferirsi alla Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma sta continuando anche in queste ore a lavorare con l'appoggio del giocatore.",
+          "start_sec": 110.92,
+          "end_sec": 136.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Roma",
+      "position": "La Roma ha ricevuto brutte notizie dall'infermeria.",
+      "polarity": "negative",
+      "claim_id": "4490ee44-3b10-42bf-85b3-051b1cf3cf78",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha ricevuto brutte notizie dall'infermeria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sono arrivate buone notizie dall'infermeria",
+          "start_sec": 0.08,
+          "end_sec": 37.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Wolverhampton",
+      "position": "Il Wolverhampton non vuole liberare Wolfe.",
+      "polarity": "negative",
+      "claim_id": "aaf43506-c69f-4c9c-b1c4-a8b93178f369",
+      "video_id": "OFkI6qZTpVA",
+      "segment_id": "s3",
+      "target_entity": "Wolverhampton",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Wolverhampton non vuole liberare Wolfe.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ha molta voglia di liberare il giocatore",
+          "start_sec": 85.68,
+          "end_sec": 113.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "video_id": "5TIY85qNMoo",
+  "analyzed_at": "2026-04-17T09:03:57.871902+00:00",
+  "metadata": {
+    "title": "🚨💣 COLPO JUVE: CI SIAMO! TONALI E KESSIÉ, DUE STORIE DIVERSE. PIO ESPOSITO E IL CONTRATTO, GIOVANE…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-24"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sull'imminente ingaggio dell'attaccante Youussef Enesi da parte della Juventus, previsto per gennaio. L'autore sottolinea che l'accordo è quasi concluso, con dettagli finali da definire, e che la Juventus ha optato per un prestito con diritto di riscatto, piuttosto che un prestito con obbligo, dopo aver tentato senza successo di acquisire Jean-Pilip Matetà. La conclusione chiave è che la Juventus è pronta a chiudere l'operazione, segnando un passo significativo nel rafforzamento della propria squadra.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "convocazione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Juventus",
+      "position": "Il prestito iniziale per il giocatore costerà meno di 4 milioni.",
+      "polarity": "positive",
+      "claim_id": "29dedbbb-3be7-44ff-b092-694a87d6d526",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il prestito iniziale per il giocatore costerà meno di 4 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non arriverà a 4 milioni, un po' meno.",
+          "start_sec": 59.84,
+          "end_sec": 87.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta per ingaggiare un attaccante a gennaio.",
+      "polarity": "neutral",
+      "claim_id": "26bf2c1c-eae7-4160-b752-a80a90de4ccb",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta per ingaggiare un attaccante a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'attaccante che vestirà la maglia della Juventus da gennaio",
+          "start_sec": 0.64,
+          "end_sec": 31.560000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Youussef Enesi",
+      "position": "L'accordo per Enesi alla Juventus è praticamente impostato.",
+      "polarity": "positive",
+      "claim_id": "1d485bf7-01e8-4bac-bcb7-c01c53150361",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s1",
+      "target_entity": "Youussef Enesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'accordo per Enesi alla Juventus è praticamente impostato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'accordo è praticamente impostato per Ennesi alla Juve.",
+          "start_sec": 28.48,
+          "end_sec": 61.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha un prestito con diritto di riscatto per un giocatore.",
+      "polarity": "positive",
+      "claim_id": "8168326f-6055-4376-9d88-1d23d87bb388",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha un prestito con diritto di riscatto per un giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus farà un prestito con diritto di riscatto.",
+          "start_sec": 59.84,
+          "end_sec": 87.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Marco Ottolini",
+      "position": "Marco Ottolini ha lavorato per limare distanze con il Fenerbahce.",
+      "polarity": "positive",
+      "claim_id": "e222da4c-0f83-4a22-89bf-9e3009e235d5",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s2",
+      "target_entity": "Marco Ottolini",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marco Ottolini ha lavorato per limare distanze con il Fenerbahce.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il lavoro del direttore sportivo della Juventus Marco Ottolini a Istanbul è stato importante per limare tutte le distanze.",
+          "start_sec": 59.84,
+          "end_sec": 87.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta finalizzando i dettagli del contratto con NESIRI.",
+      "polarity": "positive",
+      "claim_id": "4418d1f3-f70e-496b-8453-80fd6e5a1bf1",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta finalizzando i dettagli del contratto con NESIRI.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve anche in questo caso ha praticamente limato. Eh, siamo ai dettagli finali con la gente.",
+          "start_sec": 85.799,
+          "end_sec": 114.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ennesi",
+      "position": "Ennesi è pronto a diventare un nuovo giocatore della Juventus.",
+      "polarity": "positive",
+      "claim_id": "a11536e4-280a-4d78-bc99-00595186150f",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s4",
+      "target_entity": "Ennesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ennesi è pronto a diventare un nuovo giocatore della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi Ennesi pronto a diventare un nuovo giocatore della Juventus.",
+          "start_sec": 112.399,
+          "end_sec": 142.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è in chiusura per Youussef Enesi.",
+      "polarity": "positive",
+      "claim_id": "f4a20471-caf7-40ef-8ec5-d40c1aeaa236",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è in chiusura per Youussef Enesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus è in chiusura per Youussef Enesi.",
+          "start_sec": 28.48,
+          "end_sec": 61.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Fabrizio Romano",
+      "position": "Fabrizio Romano fornisce aggiornamenti frequenti sul calciomercato.",
+      "polarity": "neutral",
+      "claim_id": "8b77696e-d14d-4ca2-91e1-17682439d4a5",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s0",
+      "target_entity": "Fabrizio Romano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrizio Romano fornisce aggiornamenti frequenti sul calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come sempre per tenervi aggiornati sul calciomercato.",
+          "start_sec": 0.64,
+          "end_sec": 31.560000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Mancano ancora dei passaggi finali per l'operazione.",
+      "polarity": "positive",
+      "claim_id": "08872080-0a25-4f88-8105-6849be7ac67d",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mancano ancora dei passaggi finali per l'operazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mancano ancora dei passaggi finali, ma siamo veramente al traguardo.",
+          "start_sec": 28.48,
+          "end_sec": 61.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "L'accordo sull'ingaggio per Ennesi è già raggiunto.",
+      "polarity": "positive",
+      "claim_id": "4cae59a3-a8d8-4a2f-bfe2-031dbbc7fd8a",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'accordo sull'ingaggio per Ennesi è già raggiunto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sull'ingaggio l'accordo c'è.",
+          "start_sec": 112.399,
+          "end_sec": 142.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "NESIRI",
+      "position": "Se NESIRI gioca bene, la Juventus potrebbe tenerlo.",
+      "polarity": "positive",
+      "claim_id": "af1416c8-9e62-43f2-b287-920a603e99ce",
+      "video_id": "5TIY85qNMoo",
+      "segment_id": "s3",
+      "target_entity": "NESIRI",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se NESIRI gioca bene, la Juventus potrebbe tenerlo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dovesse far bene NESIRI, la Juve potrà tenerlo con sé oppure decidere di rimandarlo a Istanbul.",
+          "start_sec": 85.799,
+          "end_sec": 114.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

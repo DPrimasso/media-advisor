@@ -1,0 +1,362 @@
+{
+  "video_id": "rMNyzgifXew",
+  "analyzed_at": "2026-04-16T15:53:18.196923+00:00",
+  "metadata": {
+    "title": "🚨💣 JUVE: SCAMBIO FATTO! MATETA, ICARDI, KOLO, DIABY, HOLM, FRATTESI, ALISSON, DISASI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-01"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di calciomercato riguardanti la Juventus, con particolare attenzione a diverse operazioni concluse e in corso. L'autore conferma che l'arrivo di Emil Holm e il trasferimento di John Mario al Bologna sono ufficiali, mentre Boga ha già svolto le visite mediche per unirsi alla squadra. Inoltre, Romano sottolinea che Mauro Icardi è stato proposto alla Juventus e che ci sono discussioni in corso per valutare questa opzione, evidenziando la necessità di una decisione rapida da parte del club.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "decisione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "medium"
+    },
+    {
+      "name": "indiscrezione",
+      "relevance": "low"
+    },
+    {
+      "name": "visite",
+      "relevance": "low"
+    },
+    {
+      "name": "fan",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Boga",
+      "position": "Boga ha già fatto le visite mediche con la Juventus.",
+      "polarity": "positive",
+      "claim_id": "db9cb09d-ba88-4188-945c-96098a0727ee",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s1",
+      "target_entity": "Boga",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Boga ha già fatto le visite mediche con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Boga alla Juve fatta, Holm alla Juve fatta, Jo Mario al Bologna fatto Holmgia stasera.",
+          "start_sec": 67.84,
+          "end_sec": 100.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Icardi",
+      "position": "Ci sono molte domande riguardo a Mauro Icardi.",
+      "polarity": "neutral",
+      "claim_id": "00c315af-7b84-4971-b70f-9333c9971cf6",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s1",
+      "target_entity": "Icardi",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono molte domande riguardo a Mauro Icardi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in tantissimi ci state chiedendo del nome di Mauro Icardi.",
+          "start_sec": 67.84,
+          "end_sec": 100.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mauro Icardi",
+      "position": "La Juventus ha avuto contatti per Mauro Icardi.",
+      "polarity": "neutral",
+      "claim_id": "9b499dc6-afaa-4b22-a405-616a31aa9f63",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s2",
+      "target_entity": "Mauro Icardi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus ha avuto contatti per Mauro Icardi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è stato un contatto partito da chi è vicino Mauro Icardi",
+          "start_sec": 98.799,
+          "end_sec": 130.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus deve decidere sul trasferimento entro stasera.",
+      "polarity": "neutral",
+      "claim_id": "294ab2ad-291e-48b6-b610-73a16ee1e7a6",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus deve decidere sul trasferimento entro stasera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus dovrà decidere che tipo di strada prendere eh nel giro di qualche ora, entro stasera.",
+          "start_sec": 128.479,
+          "end_sec": 161.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Icardi",
+      "position": "Icardi ha un contratto in scadenza a giugno e non verrà rinnovato.",
+      "polarity": "negative",
+      "claim_id": "82734924-c09f-4fae-a110-e69fc5447e78",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s3",
+      "target_entity": "Icardi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Icardi ha un contratto in scadenza a giugno e non verrà rinnovato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Icardi ha un contratto in scadenza a giugno, non lo rinnoverà.",
+          "start_sec": 128.479,
+          "end_sec": 161.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Se Juventus prenderà Icardi, dovrà pagare un indennizzo al Galatasaray.",
+      "polarity": "positive",
+      "claim_id": "5c9e0ab8-af73-42d9-8795-de526117a4cc",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se Juventus prenderà Icardi, dovrà pagare un indennizzo al Galatasaray.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qualora lo dovesse arrivare a prendere dovrà pagare comunque un indennizzo al Galatasaray.",
+          "start_sec": 128.479,
+          "end_sec": 161.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "John Mario",
+      "position": "John Mario ha accettato il trasferimento al Bologna.",
+      "polarity": "positive",
+      "claim_id": "d636eb2e-aa17-478d-906b-9e33d2079ba3",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s0",
+      "target_entity": "John Mario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "John Mario ha accettato il trasferimento al Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha accettato anche John Mario",
+          "start_sec": 0.12,
+          "end_sec": 70.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bogga",
+      "position": "Bogga è arrivato a Torino per svolgere le visite.",
+      "polarity": "positive",
+      "claim_id": "19c2d38b-bfe3-46b7-90fe-5f204f683d01",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s0",
+      "target_entity": "Bogga",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bogga è arrivato a Torino per svolgere le visite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bogga è arrivato a Torino per svolgere le visite",
+          "start_sec": 0.12,
+          "end_sec": 70.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Holm",
+      "position": "Holm è confermato alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "3de33a89-e3de-4285-8503-9474850baa99",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s1",
+      "target_entity": "Holm",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Holm è confermato alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Holm alla Juve fatta, Jo Mario al Bologna fatto Holmgia stasera.",
+          "start_sec": 67.84,
+          "end_sec": 100.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mauro Icardi",
+      "position": "Icardi è un'opzione discussa dalla Juventus.",
+      "polarity": "neutral",
+      "claim_id": "2f0498f0-bed3-426a-9ef1-f36b07981a66",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s2",
+      "target_entity": "Mauro Icardi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Icardi è un'opzione discussa dalla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un'opzione sicuramente eh in piedi, nel senso che comunque eh le parti ne hanno discusso",
+          "start_sec": 98.799,
+          "end_sec": 130.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta valutando l'opzione Icardi.",
+      "polarity": "neutral",
+      "claim_id": "c638eab1-24c6-4121-96f3-a1b62eda800e",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta valutando l'opzione Icardi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus di fare un tentativo per Mauro Icardi",
+          "start_sec": 98.799,
+          "end_sec": 130.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus continua le trattative per Colom.",
+      "polarity": "neutral",
+      "claim_id": "0dad0c34-3b8f-43c2-b4b4-912eb00a6b54",
+      "video_id": "rMNyzgifXew",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus continua le trattative per Colom.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve ha continuato a chiamare per Colom",
+          "start_sec": 160.68,
+          "end_sec": 191.51899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

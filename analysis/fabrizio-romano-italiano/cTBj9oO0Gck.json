@@ -1,0 +1,350 @@
+{
+  "video_id": "cTBj9oO0Gck",
+  "analyzed_at": "2026-04-17T09:50:36.068208+00:00",
+  "metadata": {
+    "title": "🚨 LOFTUS CHEEK, OLIVERA, GUDMUNDSSON-JUVE: PASSATO E FUTURO  CARDINALE E IL RIFINANZIAMENTO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-21"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti di mercato riguardanti il Milan e altri club italiani, evidenziando movimenti significativi come l'acquisto di Ryan da parte del Bournemouth e le potenziali novità per Olivera. L'autore sottolinea la presenza di Jerry Cardinale a Milano, che rappresenta un segnale di supporto per la squadra e conferma il rifinanziamento del debito verso Elliot. Inoltre, si discute della situazione di Loftus-Cheek, che potrebbe essere un rinforzo per il Genoa, mentre il Milan fatica a soddisfare le richieste del Partisan per Kostic.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "uscite",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "tempistiche",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Bournemouth",
+      "position": "Il Bournemouth ha acquistato Ryan dal Vasco da Gama.",
+      "polarity": "positive",
+      "claim_id": "7c28d016-ab7c-477b-b042-aabbf673bd0c",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s0",
+      "target_entity": "Bournemouth",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bournemouth ha acquistato Ryan dal Vasco da Gama.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ryan, per esempio, l'esterno del Vasco da Gama...sarà un nuovo calciatore del Bormut.",
+          "start_sec": 0.199,
+          "end_sec": 35.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Jerry Cardinale è arrivato a Milano per incontrare Allegri.",
+      "polarity": "neutral",
+      "claim_id": "fba4aa82-af92-4cc0-9e16-f44333f760cb",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jerry Cardinale è arrivato a Milano per incontrare Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il proprietario del Milan Jerry Cardinale è a Milano, è arrivato a Milano, ha già incontrato sia Allegri",
+          "start_sec": 32.0,
+          "end_sec": 78.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Cardinale",
+      "position": "Cardinale porterà a termine il rifinanziamento del debito.",
+      "polarity": "positive",
+      "claim_id": "db1c3cdc-fbd5-406e-a094-7fac83d66dc7",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s2",
+      "target_entity": "Cardinale",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cardinale porterà a termine il rifinanziamento del debito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cardinale attraverso Convenst eh porterà a termine questo rifinanziamento del debito",
+          "start_sec": 75.2,
+          "end_sec": 114.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Cardinale",
+      "position": "La presenza di Cardinale è un segnale di vicinanza alla squadra.",
+      "polarity": "positive",
+      "claim_id": "19632a9d-87d1-4d67-86e6-7b19075f5753",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s2",
+      "target_entity": "Cardinale",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La presenza di Cardinale è un segnale di vicinanza alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la presenza di Cardinale a Milano è comunque un segnale ulteriore, un segnale forte",
+          "start_sec": 75.2,
+          "end_sec": 114.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan non riesce ad avvicinarsi alle richieste del Partisan.",
+      "polarity": "negative",
+      "claim_id": "32c490c1-a1ab-4c35-a983-618887908426",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non riesce ad avvicinarsi alle richieste del Partisan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan non riesce ad avvicinarsi alle richieste del club serbo.",
+          "start_sec": 110.84,
+          "end_sec": 149.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ruben Loftus-Cheek",
+      "position": "Loftus-Cheek è un possibile rinforzo per il Genoa.",
+      "polarity": "neutral",
+      "claim_id": "eec0ca3e-bbcc-4a4b-81b4-c495675063ab",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s1",
+      "target_entity": "Ruben Loftus-Cheek",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Loftus-Cheek è un possibile rinforzo per il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Possibile nuovo rinforzo del Genoa.",
+          "start_sec": 32.0,
+          "end_sec": 78.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Ci sono movimenti a livello di seconda squadra per il Milan.",
+      "polarity": "neutral",
+      "claim_id": "0a205604-4993-431e-b823-cbb87a84ee63",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono movimenti a livello di seconda squadra per il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si muove qualcosa a livello di seconda squadra?",
+          "start_sec": 110.84,
+          "end_sec": 149.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "La distanza tra Milan e Partisan per Kostic è ampia.",
+      "polarity": "neutral",
+      "claim_id": "82e00301-4e21-4625-b8de-e1f714e4ebe0",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s3",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La distanza tra Milan e Partisan per Kostic è ampia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la distanza tra club... resta comunque ampia.",
+          "start_sec": 110.84,
+          "end_sec": 149.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Elliot",
+      "position": "Il debito è nei confronti di Elliot.",
+      "polarity": "positive",
+      "claim_id": "07374cbb-d8e5-4c4d-b164-43f3bfcd5f4c",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s2",
+      "target_entity": "Elliot",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il debito è nei confronti di Elliot.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rifinanziamento del debito eh nei confronti di Elliot",
+          "start_sec": 75.2,
+          "end_sec": 114.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "Kostic è un attaccante molto promettente.",
+      "polarity": "neutral",
+      "claim_id": "44053585-fa91-48ee-9594-558019b562fc",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s3",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kostic è un attaccante molto promettente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "attaccante del Partisan, molto promettente perché mi dicono che...",
+          "start_sec": 110.84,
+          "end_sec": 149.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Olivera",
+      "position": "Olivera potrebbe avere un nuovo destino.",
+      "polarity": "neutral",
+      "claim_id": "d787ccf7-1041-4578-9c6a-d1e12686f7b3",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s1",
+      "target_entity": "Olivera",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Olivera potrebbe avere un nuovo destino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbe esserci eh un nuovo destino per lui",
+          "start_sec": 32.0,
+          "end_sec": 78.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "Kostic potrebbe partire dal Milan.",
+      "polarity": "neutral",
+      "claim_id": "2f042c61-d5fc-4d4b-860b-660df97d1b5f",
+      "video_id": "cTBj9oO0Gck",
+      "segment_id": "s4",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kostic potrebbe partire dal Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questo momento Kostic è più no che sì.",
+          "start_sec": 147.599,
+          "end_sec": 186.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

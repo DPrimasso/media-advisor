@@ -1,0 +1,358 @@
+{
+  "video_id": "SIeC3m10Bxg",
+  "analyzed_at": "2026-04-17T07:29:45.217719+00:00",
+  "metadata": {
+    "title": "🚨 KOLO E LA JUVE, DOUGLAS LUIZ TORNA INDIETRO! LOFTUS CHEEK, SUMMERVILLE, WOLFE, JONATHAN DAVID…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-26"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di calciomercato riguardanti la Roma, in particolare l'offerta di 8-9 milioni per il laterale mancino Wolfe, attualmente al Wolverhampton. L'autore sottolinea che, nonostante le difficoltà, l'operazione non è considerata conclusa e la Roma sta continuando a lavorare per convincere il club inglese a liberare il giocatore. Romano ipotizza che nei prossimi giorni ci potrebbero essere sviluppi significativi, suggerendo che la Roma sta esplorando anche altre opzioni di mercato.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Wolverhampton",
+      "position": "La Roma ha fatto una proposta di 8-9 milioni per Wolfe.",
+      "polarity": "neutral",
+      "claim_id": "6de7a2cc-2e3b-4cf5-9248-52ea82c3a889",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s1",
+      "target_entity": "Wolverhampton",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha fatto una proposta di 8-9 milioni per Wolfe.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata fatta durante il pomeriggio, come come raccontato, ed è una proposta intorno agli 8-9 milioni di euro.",
+          "start_sec": 27.76,
+          "end_sec": 55.718999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Wolfe",
+      "position": "Wolfe è un laterale mancino acquistato di recente dal Wolverhampton.",
+      "polarity": "neutral",
+      "claim_id": "89bca3fe-216c-4d0b-b3f0-a2068b985a20",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s1",
+      "target_entity": "Wolfe",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Wolfe è un laterale mancino acquistato di recente dal Wolverhampton.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Wolfe, laterale mancino che il Wolverampton ha preso da poco.",
+          "start_sec": 27.76,
+          "end_sec": 55.718999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma cerca di convincere il Wolverhampton a liberare Wolfe.",
+      "polarity": "neutral",
+      "claim_id": "ad55f235-939c-4808-b69f-20c30cdab735",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma cerca di convincere il Wolverhampton a liberare Wolfe.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedremo se poi la Roma riuscirà a convincere il Wolverhampton.",
+          "start_sec": 27.76,
+          "end_sec": 55.718999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Roma",
+      "position": "L'operazione non è definita come morta o finita.",
+      "polarity": "neutral",
+      "claim_id": "b44c14b1-5bb4-49c3-98cd-673606294173",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione non è definita come morta o finita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'operazione non viene definita come morta o finita",
+          "start_sec": 54.199,
+          "end_sec": 84.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma potrebbe sbloccare la situazione nei prossimi giorni.",
+      "polarity": "positive",
+      "claim_id": "0c54fb14-4b55-426b-afe4-7feaeee75641",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Roma potrebbe sbloccare la situazione nei prossimi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vedremo se riuscirà a sbloccare questa situazione nei prossimi giorni",
+          "start_sec": 54.199,
+          "end_sec": 84.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La questione del terzino è legata ad un incastro di trasferimenti.",
+      "polarity": "neutral",
+      "claim_id": "87aa025f-77ea-49d8-8aed-8890a94af518",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "La questione del terzino è legata ad un incastro di trasferimenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la questione legata al terzino è legata anche ad un incastro",
+          "start_sec": 54.199,
+          "end_sec": 84.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma ha fatto un tentativo di acquisto per Crisenio Sumbervy.",
+      "polarity": "positive",
+      "claim_id": "36f7ee7b-75f0-4fc2-81a2-84bcc820ae89",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha fatto un tentativo di acquisto per Crisenio Sumbervy.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma ha fatto un tentativo importante per Crisenio Sumbervy",
+          "start_sec": 81.56,
+          "end_sec": 106.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma intende acquistare Summerville con prestito obbligatorio.",
+      "polarity": "positive",
+      "claim_id": "4481e07f-85a3-4d6a-a96a-83fc42fa79d5",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma intende acquistare Summerville con prestito obbligatorio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tentativo anche con la volontà di comprare Summerville da parte della Roma, quindi anche con la volontà di fare un prestito con obbligo definitivo",
+          "start_sec": 81.56,
+          "end_sec": 106.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Douglas Luiz",
+      "position": "Douglas Luiz è vicino al ritorno all'Aston Villa.",
+      "polarity": "neutral",
+      "claim_id": "fa4a6480-5860-4d0e-9186-249b412ddb69",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s6",
+      "target_entity": "Douglas Luiz",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Douglas Luiz è vicino al ritorno all'Aston Villa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Douglas Lewiis è vicinissimo al ritorno all'Aston Villa.",
+          "start_sec": 162.72,
+          "end_sec": 197.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Aston Villa",
+      "position": "È in corso una trattativa avanzata tra Aston Villa e Juventus.",
+      "polarity": "neutral",
+      "claim_id": "1e4bf897-6be0-4b07-831e-d41d88893723",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s6",
+      "target_entity": "Aston Villa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È in corso una trattativa avanzata tra Aston Villa e Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una trattativa avanzata tra Aston Villa, Juventus e agenti del giocatore.",
+          "start_sec": 162.72,
+          "end_sec": 197.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma sta continuando a lavorare su un'operazione di mercato.",
+      "polarity": "positive",
+      "claim_id": "c867fe8b-1fce-4f5e-bb1d-a2400315e222",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Roma sta continuando a lavorare su un'operazione di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma sta continuando a lavorarci",
+          "start_sec": 54.199,
+          "end_sec": 84.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Douglas Luiz",
+      "position": "L'operazione per Douglas Luiz non è andata a buon fine.",
+      "polarity": "neutral",
+      "claim_id": "092266e7-1725-4f07-9f3f-26d61b503255",
+      "video_id": "SIeC3m10Bxg",
+      "segment_id": "s5",
+      "target_entity": "Douglas Luiz",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione per Douglas Luiz non è andata a buon fine.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si è arrivati all'accordo totale",
+          "start_sec": 126.6,
+          "end_sec": 165.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "video_id": "_WftaCZDhfA",
+  "analyzed_at": "2026-04-17T09:32:37.522759+00:00",
+  "metadata": {
+    "title": "🚨 PERISIC E L’INTER, MAIGNAN E IL MILAN: CHE SUCCEDE! BLITZ COPPOLA, INSIGNE E IL COMO FA PER TRE",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-23"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità del calciomercato, con particolare attenzione ai movimenti delle squadre italiane come Lazio e Milan. L'autore esprime ottimismo riguardo al rinnovo di Mike Maignan con il Milan, mentre sottolinea l'attività della Lazio nel mercato dei portieri, con l'arrivo di Edoardo Motta e il trasferimento di Mandas al Barout. Inoltre, si chiarisce che, nonostante le voci, il Milan non ha fatto passi concreti per Diego Coppola, il quale è accostato a diverse squadre, ma senza sviluppi definitivi.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "portiere",
+      "relevance": "medium"
+    },
+    {
+      "name": "portieri",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "low"
+    },
+    {
+      "name": "ottimismo",
+      "relevance": "low"
+    },
+    {
+      "name": "porta",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Paris",
+      "position": "Il Paris ha piani ambiziosi per costruire una squadra importante.",
+      "polarity": "neutral",
+      "claim_id": "34848cbe-9db8-426c-aff7-918517c2d64c",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s3",
+      "target_entity": "Paris",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris ha piani ambiziosi per costruire una squadra importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha piani ambiziosi, che sta facendo una squadra importante",
+          "start_sec": 88.28,
+          "end_sec": 118.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juve ha un 50% sulla futura rivendita di Edoardo Motta.",
+      "polarity": "positive",
+      "claim_id": "be4014cb-5a32-4629-a034-1da0d603c803",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve ha un 50% sulla futura rivendita di Edoardo Motta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "su cui la Juve ha un 50% sulla futura rivendita,",
+          "start_sec": 33.92,
+          "end_sec": 63.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio è coinvolta in un incastro di portieri.",
+      "polarity": "neutral",
+      "claim_id": "958e7422-aca6-46dc-a84f-fb234f5496e5",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio è coinvolta in un incastro di portieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aggiornamento eh per quanto riguarda un discorso legato all'incastro portieri.",
+          "start_sec": 0.76,
+          "end_sec": 36.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Barout",
+      "position": "Mandas è pronto a diventare un nuovo giocatore del Barout.",
+      "polarity": "positive",
+      "claim_id": "d239c216-0c7f-4b0a-8209-08224aa8c69f",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s1",
+      "target_entity": "Barout",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mandas è pronto a diventare un nuovo giocatore del Barout.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mandas pronto a diventare un nuovo giocatore del Barout in prestito con riscatto",
+          "start_sec": 33.92,
+          "end_sec": 63.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan non ha effettuato movimenti concreti per Diego Coppola.",
+      "polarity": "negative",
+      "claim_id": "6af1e7d0-ae8d-4504-9902-f44e5b590d65",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non ha effettuato movimenti concreti per Diego Coppola.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan non ha mai fatto fino ad oggi, almeno passi caldi, concreti per quanto riguarda Diego Coppola.",
+          "start_sec": 59.8,
+          "end_sec": 90.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Marco Nep",
+      "position": "Marco Nep è un direttore sportivo di rilievo.",
+      "polarity": "neutral",
+      "claim_id": "1b3ed9a4-1184-42c3-ae55-d72332ae6d00",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s3",
+      "target_entity": "Marco Nep",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marco Nep è un direttore sportivo di rilievo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un direttore sportivo importante per chi segue il mercato anche internazionale è Marco Nep",
+          "start_sec": 88.28,
+          "end_sec": 118.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan mostra ottimismo sulla situazione di Mike Maignan.",
+      "polarity": "positive",
+      "claim_id": "e34505f8-6dcf-45b6-973b-9a20d2b1137d",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan mostra ottimismo sulla situazione di Mike Maignan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Partiamo invece in questo caso dall'ottimismo crescente assoluto, totale da parte del Milan su Mike Megnan.",
+          "start_sec": 116.479,
+          "end_sec": 148.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Coppola",
+      "position": "Diego Coppola è accostato al Milan senza concreti sviluppi.",
+      "polarity": "neutral",
+      "claim_id": "5069c94f-5d5a-496c-85b8-16939566bcc1",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s2",
+      "target_entity": "Coppola",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Diego Coppola è accostato al Milan senza concreti sviluppi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stato detto di un affare vicino con il Milan.",
+          "start_sec": 59.8,
+          "end_sec": 90.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Coppola",
+      "position": "Ci sono stati molte voci su Diego Coppola.",
+      "polarity": "neutral",
+      "claim_id": "c7bc6d3f-f56d-4151-91f6-79ed0dc4e472",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s2",
+      "target_entity": "Coppola",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono stati molte voci su Diego Coppola.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono state dette tante cose.",
+          "start_sec": 59.8,
+          "end_sec": 90.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio sta chiudendo per Edoardo Motta.",
+      "polarity": "positive",
+      "claim_id": "91e7473b-ceaa-4cb2-868b-ef2c2c6cbcaf",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta chiudendo per Edoardo Motta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Lazio sta chiudendo per Edoardo Motta, portiere della Reggiana,",
+          "start_sec": 33.92,
+          "end_sec": 63.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Barout",
+      "position": "Lazio manda Sandra al Barout.",
+      "polarity": "neutral",
+      "claim_id": "58698cd6-556b-4af6-9ac2-816d8c3c045e",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s0",
+      "target_entity": "Barout",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio manda Sandra al Barout.",
+      "evidence_quotes": [
+        {
+          "quote_text": "manda Sandra al Barout",
+          "start_sec": 0.76,
+          "end_sec": 36.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina sta considerando un trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "d24ada02-f59d-4667-8f95-e2064c912a9a",
+      "video_id": "_WftaCZDhfA",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina sta considerando un trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, la Fiorentina da dicembre ci sta pensando",
+          "start_sec": 88.28,
+          "end_sec": 118.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "video_id": "Udu4Lus1qKY",
+  "analyzed_at": "2026-04-16T16:14:02.699042+00:00",
+  "metadata": {
+    "title": "🚨 OFFERTA FRATTESI: I PIANI INTER! MATETA, TUTTE LE CIFRE. INCASTRI LAZIO, NKUNKU, ROMAGNOLI, TEL…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-30"
+  },
+  "summary": "Il video di Fabrizio Romano analizza le ultime novità del mercato calcistico, focalizzandosi principalmente sulla situazione di Ademola Lukman, per il quale l'Atalanta ha raggiunto un'intesa di 40 milioni di euro con il Fenerbahçe, ma attende conferme sui termini di pagamento. L'autore sottolinea l'importanza di questi dettagli bancari, che hanno già causato ritardi in altre operazioni, come quella di Victor Osimen. Inoltre, si menziona la posizione di Alessio Romagnoli, che sta cercando di lasciare la Lazio, aprendo la possibilità per un nuovo acquisto in difesa.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "high"
+    },
+    {
+      "name": "contratti",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Lukman ha raggiunto un'intesa con il Fenerbace per un contratto di 4 anni e mezzo.",
+      "polarity": "positive",
+      "claim_id": "981a71a7-1aef-4b73-9512-d21b6e8e2bbc",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s2",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman ha raggiunto un'intesa con il Fenerbace per un contratto di 4 anni e mezzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukman ha unintesa raggiunta con il Fenerbace per questo contratto di 4 anni e mezzo.",
+          "start_sec": 57.48,
+          "end_sec": 97.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Alessio Romagnoli",
+      "position": "Romagnoli non sarà presente nella formazione titolare della Lazio questo weekend.",
+      "polarity": "neutral",
+      "claim_id": "58b88a81-e475-466d-903d-ce35a71dda70",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s4",
+      "target_entity": "Alessio Romagnoli",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Romagnoli non sarà presente nella formazione titolare della Lazio questo weekend.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Romagnoli non è in squadra con la Lazio per questo weekend.",
+          "start_sec": 128.879,
+          "end_sec": 162.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta è pronta a lasciar partire Ademola Lukman.",
+      "polarity": "positive",
+      "claim_id": "d76fdf34-2768-41a6-b344-d4989ffaabd1",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta è pronta a lasciar partire Ademola Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta è pronta è pronta a lasciarre a Demolla Lukman",
+          "start_sec": 26.24,
+          "end_sec": 62.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Victor Osimen",
+      "position": "Victor Osimen ha avuto una partenza ritardata al Galatasaray per questioni bancarie.",
+      "polarity": "positive",
+      "claim_id": "54145fe6-f54a-4b32-b82b-d0ea95a52c7f",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s2",
+      "target_entity": "Victor Osimen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Victor Osimen ha avuto una partenza ritardata al Galatasaray per questioni bancarie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno protratto anche la partenza di Victor Osimen al Galatasaray nel corso della scorsa estate.",
+          "start_sec": 57.48,
+          "end_sec": 97.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atletico Madrid è pronto a presentare un'offerta per Lukman all'Atalanta.",
+      "polarity": "neutral",
+      "claim_id": "39e81962-b54e-4e59-84b1-a557e7925d7b",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid è pronto a presentare un'offerta per Lukman all'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta facendo capire all'Atalanta che è pronto a presentare un'offerta ufficiale per Lukman.",
+          "start_sec": 95.799,
+          "end_sec": 131.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "mercato",
+      "position": "La squadra sta fornendo aggiornamenti costanti sul mercato.",
+      "polarity": "neutral",
+      "claim_id": "08b06192-9ae4-4e87-a336-97140389d67b",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s0",
+      "target_entity": "mercato",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra sta fornendo aggiornamenti costanti sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aggiornamenti costanti sul mercato.",
+          "start_sec": 0.399,
+          "end_sec": 27.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Bia",
+      "position": "Bia è stato citato tra i soggetti di discussione.",
+      "polarity": "neutral",
+      "claim_id": "a24d9fbd-e923-49e2-888d-4b63baf2261c",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s0",
+      "target_entity": "Bia",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bia è stato citato tra i soggetti di discussione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo parlato di tante cose, da Bia...",
+          "start_sec": 0.399,
+          "end_sec": 27.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ademola Lukman",
+      "position": "Si attende un'ok sui termini di pagamento per Lukman.",
+      "polarity": "neutral",
+      "claim_id": "33fc2271-20b0-4371-991d-a4894de0e9d3",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s1",
+      "target_entity": "Ademola Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si attende un'ok sui termini di pagamento per Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si aspetta però un ok sui termini di pagamento",
+          "start_sec": 26.24,
+          "end_sec": 62.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Lukman percepirà circa sette milioni netti più bonus.",
+      "polarity": "positive",
+      "claim_id": "7f9fda41-a724-4a55-99f8-34976fbe3970",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s2",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman percepirà circa sette milioni netti più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha circa sette netti più bonus.",
+          "start_sec": 57.48,
+          "end_sec": 97.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha una richiesta specifica per la chiusura dell'affare Lukman.",
+      "polarity": "neutral",
+      "claim_id": "f769c35b-5c60-40ef-a00f-ba8c3c1da74d",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s4",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha una richiesta specifica per la chiusura dell'affare Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "offrire quello che l'Atalanta vuole.",
+          "start_sec": 128.879,
+          "end_sec": 162.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico Madrid ha contattato di nuovo l'Atalanta.",
+      "polarity": "neutral",
+      "claim_id": "8f54a2da-c7ae-455b-adb2-5edc99e1dc85",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s3",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid ha contattato di nuovo l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atletico Madrid è tornato a chiamare",
+          "start_sec": 95.799,
+          "end_sec": 131.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "L'affare per Lukman potrebbe chiudersi a breve.",
+      "polarity": "neutral",
+      "claim_id": "58713460-15a0-4e97-9906-4444cc37085f",
+      "video_id": "Udu4Lus1qKY",
+      "segment_id": "s4",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "L'affare per Lukman potrebbe chiudersi a breve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si aspetta le le garanzie bancarie.",
+          "start_sec": 128.879,
+          "end_sec": 162.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

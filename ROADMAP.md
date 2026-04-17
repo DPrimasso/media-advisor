@@ -1,91 +1,90 @@
 # Media Advisor — ROADMAP
 
-## Stato attuale (da ultimi commit main)
+_Aggiornato: aprile 2026_
 
-### Fatto ✅
+---
 
-#### Pipeline principale (commit 72ec954)
-- **Video discovery**: `fetch-new-videos.ts` con fetch rules (transcript_api, rss, playlist)
-- **Channel resolver**: `channel-resolver.ts` per ottenere channel_id da URL YouTube
-- **Inbox flow**: pending.json → UI InboxView → /api/confirm → merge in video_list
-- **API server** (`server/api.ts`): GET /api/pending, POST /api/confirm, POST /api/fetch-now
-- **run-from-list**: `--from-pending` merge pending nelle liste canali, poi pipeline
-- **auto-update**: `npm run auto-update` — fetch → merge → pipeline (nessun passo manuale)
-- **Dashboard Vue**: HomeView, ChannelView, InboxView, TrendView, SquadreView, TrendMacroView
+## Stato attuale ✅
+
+### Core pipeline (Python — completo)
+
+- **Fetch video**: `fetch-now` via TranscriptAPI, con fetch rules per canale (last_n, title_contains, exclude_live)
+- **Inbox flow**: `pending.json` → UI InboxView → `/api/confirm` → merge in video list
+- **Transcript download**: client async httpx con retry
+- **Pipeline analisi v2**: transcript → clean → segment → extract (PydanticAI + gpt-4o-mini) → aggregate → specificity filter → summary
+- **Output**: `analysis/<channel_id>/<video_id>.json` con claims + evidence_quotes + summary
+- **auto-update**: `media-advisor auto-update` — fetch → merge → pipeline (no passi manuali)
+
+### Calciomercato (Python — avanzato)
+
+- **Tip extraction**: `mercato-scan` / `mercato-analyze` estraggono indiscrezioni strutturate da transcript
+- **Transfer DB**: `mercato/transfers.json` — trasferimenti ufficiali (manuale + Transfermarkt scraping)
+- **Verifica outcome**: `mercato-verify` confronta tip vs DB, imposta `confermata`/`smentita`
+- **Corroborazione incrociata**: tip corroborate tra canali diversi
+- **Index globale**: `mercato/index.json` — 1350+ tip, filtrabili per player/canale/stagione/outcome
+- **UI**: MercatoView, MercatoPlayerView con filtri, corroborazione, link YouTube
+
+### Server + Frontend
+
+- **FastAPI server** (`server/api.py`, porta 3001): endpoint video + mercato + static SPA fallback
+- **Vue 3 + Vite** (porta 5173 in dev): 11 view (Home, Channel, Inbox, Mercato, Player, Squadre, Trend, TrendMacro)
 - **Vite proxy**: `/api` → localhost:3001
 
-#### Pipeline v2 (commit 8063890 + integrazione)
-- **analyze-v2.ts**: transcript → clean → segment → extract → aggregate → filter
-- **runFromList** usa analyzeVideoV2 per default (`--no-v2` per baseline)
-- **Output**: analysis/\<channel_id\>/\<video_id\>.json con claims + evidence_quotes
+### Canali attivi
 
-#### Eval framework
-- **eval/run-baseline.ts**: baseline (vecchia pipeline)
-- **eval/run-eval.ts**: confronta baseline vs v2 su human_gold
-- **eval/videos_sample.json**: sample per azzurro-fluido, umberto-chiariello, open-var
-
-#### Canali configurati
-| id | fetch_rule | video_list |
-|----|------------|------------|
-| azzurro-fluido | transcript_api, last_n:15 | azzurro-fluido.json |
-| umberto-chiariello | transcript_api, title_contains "Il punto chiaro" | umberto-chiariello.json |
-| neschio | transcript_api, last_n:50 | neschio.json |
+| id | Nome | Tipo | Mercato | Video |
+|----|------|------|---------|-------|
+| fabrizio-romano-italiano | Fabrizio Romano Italiano | TranscriptAPI | ✅ | 500 max |
+| azzurro-fluido | Azzurro Fluido | TranscriptAPI | — | 148 |
+| umberto-chiariello | Umberto Chiariello | TranscriptAPI | — | last 50 |
+| neschio | Neschio | TranscriptAPI | — | last 50 |
+| tuttomercatoweb | TuttoMercatoWeb.com | TranscriptAPI | ✅ | 400 max |
+| calciomercato-it | Calciomercato.it | TranscriptAPI | ✅ | 400 max |
+| nico-schira | Nicolò Schira | TranscriptAPI | ✅ | 400 max |
 
 ---
 
-### Dove si è interrotto / gap (aggiornato)
+## Da fare / Gap aperti
 
-1. **open-var** — saltato per ora. Eval lo usa; pipeline principale no.
+### 1. Analisi aggregata canale (TS → Python, sospeso)
 
-2. **Dev workflow** — ✅ fatto: `npm run dev` avvia server + web con concurrently.
+`src/cli-channel-analyze.ts` + `src/analyzer/` fanno analisi a livello canale (profiling, inconsistency detection).
+Non ancora portati in Python. Usati raramente — bassa priorità.
 
-3. **prepare-public** — eseguito da run-list alla fine; web dev fa `prepare-public && vite` all'avvio.
+### 2. open-var non configurato
+
+`channels/open-var.json` esiste ma `channels.json` non ha il canale. Serve URL YouTube di Open VAR.
+
+### 3. Test suite
+
+Dipendenze pytest/mypy/ruff presenti in `pyproject.toml` ma nessun test scritto.
+Candidati: `mercato/verifier.py`, `pipeline/extractor.py`, `pipeline/aggregator.py`.
+
+### 4. Eval framework
+
+`eval/` ha `run_baseline.py` (Python) + `run-eval.ts` + `run-baseline.ts` (TypeScript, non aggiornati).
+Il framework di valutazione non è integrato nella pipeline corrente.
+
+### 5. Date tip mancanti
+
+~1198 tip su 1350 hanno `mentioned_at: null`. Il campo `quote_start_sec` / `quote_end_sec`
+è a `0.0` per molte tip estratte vecchie. Non bloccante, ma degrada la UI.
+
+### 6. Transfermarkt scraping
+
+`mercato-fetch-transfers` usa `curl_cffi` + BeautifulSoup per estrarre dati da Transfermarkt.
+Funziona, ma fragile (HTML scraping). Da monitorare se cambia il sito.
 
 ---
 
-## Piano modifiche
+## Comandi principali
 
-### 1. Open-var in channels.json (sospeso)
-Aggiungere open-var a channels.json con fetch_rule. Serve l’URL del canale YouTube di Open VAR per configurarlo.
+Vedi [docs/commands.md](docs/commands.md) per la lista completa.
 
-```json
-{
-  "id": "open-var",
-  "name": "Open VAR",
-  "order": 4,
-  "video_list": "open-var.json",
-  "fetch_rule": {
-    "type": "transcript_api",
-    "channel_url": "https://www.youtube.com/...",
-    "last_n": 20
-  }
-}
+```bash
+npm run dev                                          # server + frontend
+media-advisor auto-update                            # fetch → merge → analisi
+media-advisor run-list --channel <id> --force-analyze
+media-advisor mercato-scan --channel fabrizio-romano-italiano
+media-advisor mercato-verify
 ```
-
-### 2. Script dev unificato — ✅ fatto
-
-### 3. README — ✅ aggiornato
-- Per usare Inbox: `npm run dev` (avvia server + dashboard)
-- In alternativa: due terminali (`npm run server` + `cd web && npm run dev`)
-
-### 3. Optional: evalsample da channels
-`eval/videos_sample.json` è mantenuto a mano. Opzionale: script che lo genera da channels + analysis esistenti per refresh periodico.
-
-### 4. Optional: feed RSS per canali senza TranscriptAPI
-Alcuni canali possono fallire con TranscriptAPI; c’è già fallback a RSS in `fetch-new-videos`. Verificare che i canali abbiano channel_url valido per il fallback.
-
----
-
-## Comandi utili
-
-| Comando | Descrizione |
-|---------|-------------|
-| `npm run run-list` | Pipeline completa (transcript + analisi v2) |
-| `npm run run-list -- --from-pending` | Merge pending → pipeline |
-| `npm run auto-update` | Fetch → merge → pipeline (tutto automatico) |
-| `npm run run-list -- --channel=open-var` | Solo un canale |
-| `npm run server` | API server (3001) |
-| `npm run dev` | Server + dashboard |
-| `npm run eval:baseline` | Eval baseline |
-| `npm run eval:v2` | Pipeline v2 su videos_sample → eval/out_v2 |
-| `npm run eval:run -- --system=v2` | Metriche eval |

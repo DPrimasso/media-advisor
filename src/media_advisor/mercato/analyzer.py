@@ -148,6 +148,7 @@ async def analyze_video_mercato(
         api_key=api_key,
         model=model,
         context=context,
+        data_dir=root / "mercato",
     )
 
     result = VideoMercatoResult(

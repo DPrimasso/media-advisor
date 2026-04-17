@@ -258,3 +258,206 @@ async def run_fetch_new_videos(root: Path, transcript_api_key: str) -> PendingRe
     )
     print(f"Wrote pending.json with {len(all_new)} pending videos")
     return result
+
+
+def _normalize_date(value: str | None) -> str | None:
+    """Returns first 10 chars (YYYY-MM-DD) of a date string, or None if unparseable."""
+    if not value:
+        return None
+    s = str(value).strip()
+    # Must start with 4-digit year to be a real ISO date
+    if len(s) >= 10 and s[4] == "-" and s[7] == "-":
+        return s[:10]
+    return None
+
+
+async def _fetch_since_cutoff(
+    rule: "FetchRuleTranscriptApi",
+    client: TranscriptClient,
+    cutoff_date: str | None,
+) -> list[dict]:
+    """Fetch raw API video dicts published strictly AFTER cutoff_date.
+
+    Paginates until a page returns only videos on/before the cutoff, or runs out of pages.
+    If cutoff_date is None, falls back to fetching last_n videos (same as before).
+    Returns raw dicts (unfiltered, without existing-check) so the caller can apply filters.
+    """
+    channel_input = rule.channel_url or rule.channel_id
+    if not channel_input:
+        return []
+
+    if cutoff_date is None:
+        # No cutoff info: just collect last_n as usual
+        last_n = rule.last_n or 15
+        videos: list[dict] = []
+        continuation: str | None = None
+        while len(videos) < last_n:
+            page = await client.get_channel_videos(
+                channel=channel_input if not continuation else None,
+                continuation=continuation,
+            )
+            videos.extend(page.get("results", []))
+            continuation = page.get("continuation_token")
+            if not continuation or not page.get("has_more"):
+                break
+        return videos[:last_n]
+
+    # Date-based fetch: go page by page until we hit the cutoff
+    cutoff_str = cutoff_date[:10]
+    videos_since: list[dict] = []
+    continuation = None
+    MAX_PAGES = 30  # safety cap (~600 videos)
+
+    for _ in range(MAX_PAGES):
+        page = await client.get_channel_videos(
+            channel=channel_input if not continuation else None,
+            continuation=continuation,
+        )
+        results = page.get("results", [])
+        if not results:
+            break
+
+        found_older = False
+        for v in results:
+            published = v.get("published") or v.get("published_at")
+            pub_date = _normalize_date(published)
+
+            if pub_date is not None:
+                if pub_date <= cutoff_str:
+                    # This video is as old as (or older than) the last known
+                    found_older = True
+                    continue  # skip, but keep scanning this page for any newer ones
+            # Include: either newer than cutoff, or date unparseable (conservative)
+            videos_since.append(v)
+
+        if found_older:
+            # This page had old videos → we've gone back far enough; don't fetch more pages
+            break
+
+        continuation = page.get("continuation_token")
+        if not continuation or not page.get("has_more"):
+            break
+
+    return videos_since
+
+
+async def run_fetch_since_last_video(root: Path, transcript_api_key: str) -> PendingResult:
+    """Fetch videos published AFTER the most recent video already in each channel's list.
+
+    Uses date-based pagination — unlike run_fetch_new_videos (which caps at last_n),
+    this will fetch as many pages as needed to capture every video since the last sync.
+    """
+    config_path = channels_config_path(root)
+    raw = read_json(config_path)
+    config = ChannelsConfig.model_validate(raw)
+
+    channels = sorted(
+        [c for c in config.channels if c.fetch_rule and c.fetch_rule.type != "manual"],
+        key=lambda c: c.order,
+    )
+
+    dates_path = video_dates_cache_path(root)
+    dates_cache: dict[str, str] = read_json_or_default(dates_path, default={}) or {}
+
+    client = TranscriptClient(transcript_api_key)
+    all_new: list[PendingVideo] = []
+
+    for channel in channels:
+        rule = channel.fetch_rule
+        if rule is None:
+            continue
+        existing = _get_existing_ids(root, channel.video_list)
+
+        # Cutoff = most recent YYYY-MM-DD date among videos already in the channel list
+        channel_dates = [
+            nd
+            for vid in existing
+            if vid in dates_cache and (nd := _normalize_date(dates_cache[vid]))
+        ]
+        cutoff_date: str | None = max(channel_dates) if channel_dates else None
+        print(f"[{channel.id}] since_last: cutoff={cutoff_date}, existing={len(existing)}")
+
+        fetched_raw: list[dict] = []
+
+        if rule.type == "transcript_api":
+            try:
+                fetched_raw = await _fetch_since_cutoff(rule, client, cutoff_date)
+            except (TranscriptAPIError, Exception) as e:
+                print(f"[{channel.id}] fetch_since_cutoff failed ({e}), skip")
+                continue
+        elif rule.type == "rss":
+            yt_id = getattr(rule, "channel_id", None)
+            if yt_id and yt_id.startswith("UC"):
+                all_rss = await _fetch_from_rss(
+                    channel.id, channel.name, yt_id,
+                    last_n=getattr(rule, "last_n", 50) or 50,
+                )
+                # Filter by date if we have a cutoff
+                if cutoff_date:
+                    cut_str = cutoff_date[:10]
+                    all_rss = [
+                        v for v in all_rss
+                        if (_normalize_date(v.published_at) or "") > cut_str
+                    ]
+                fetched_raw = []  # already PendingVideo objects; handle below
+                # Re-use existing filter + new logic
+                new_rss = [v for v in all_rss if v.video_id not in existing]
+                all_new.extend(new_rss)
+                for v in all_rss:
+                    if v.published_at:
+                        dates_cache[v.video_id] = v.published_at
+                print(f"[{channel.id}] rss: {len(all_rss)} since cutoff, {len(new_rss)} new")
+                continue
+            else:
+                print(f"[{channel.id}] RSS rule requires channel_id (UC...), skip")
+                continue
+        else:
+            continue
+
+        # Build PendingVideo list from raw dicts
+        pending: list[PendingVideo] = []
+        for v in fetched_raw:
+            vid = v.get("videoId") or _extract_video_id(v.get("url", ""))
+            if not vid:
+                continue
+            pending.append(PendingVideo(
+                video_id=vid,
+                title=v.get("title", ""),
+                channel_id=channel.id,
+                channel_name=channel.name,
+                url=f"https://www.youtube.com/watch?v={vid}",
+                published_at=v.get("published") or v.get("published_at"),
+            ))
+
+        # Apply rule filters
+        if hasattr(rule, "title_contains") and rule.title_contains:
+            needle = rule.title_contains.lower()
+            pending = [v for v in pending if needle in v.title.lower()]
+
+        exclude = getattr(rule, "exclude_title_contains", None)
+        if exclude:
+            excl_lower = exclude.lower()
+            pending = [v for v in pending if excl_lower not in v.title.lower()]
+
+        if getattr(rule, "exclude_live", False):
+            pending = [v for v in pending if not _LIVE_RE.search(v.title)]
+
+        # Keep only videos not already in the channel list
+        new_videos = [v for v in pending if v.video_id not in existing]
+        all_new.extend(new_videos)
+        print(f"[{channel.id}] {len(pending)} since cutoff, {len(new_videos)} new")
+
+        # Update dates cache
+        for v in pending:
+            if v.published_at:
+                dates_cache[v.video_id] = v.published_at
+
+    write_json(dates_path, dates_cache)
+
+    result = PendingResult(
+        fetched_at=datetime.now(timezone.utc),
+        items=all_new,
+    )
+    write_json(pending_path(root), result.model_dump(mode="json"))
+    print(f"Wrote pending.json with {len(all_new)} recent new videos")
+    return result

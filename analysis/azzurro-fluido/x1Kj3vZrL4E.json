@@ -1,0 +1,362 @@
+{
+  "video_id": "x1Kj3vZrL4E",
+  "analyzed_at": "2026-04-17T09:20:38.566722+00:00",
+  "metadata": null,
+  "summary": "Il video di azzurro-fluido si concentra sul ritorno della Serie A e sulla situazione attuale del Napoli, che appare silenzioso e privo di comunicazioni significative. L'autore esprime preoccupazione per la condizione di Paulitano, ipotizzando un possibile affaticamento, e sottolinea l'importanza della prossima partita del Napoli. Inoltre, evidenzia le decisioni arbitrali controverse che hanno caratterizzato le ultime partite, in particolare il rigore assegnato al Sassuolo, ritenuto discutibile. In conclusione, il Cagliari è in crisi, e il video suggerisce che le squadre più piccole stanno infl",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "salvezza",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "squadre",
+      "position": "Il video potrebbe riferirsi a diverse squadre senza approfondimenti specifici.",
+      "polarity": "neutral",
+      "claim_id": "ca58f92e-a83a-422c-a933-2333c6e90934",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s1",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il video potrebbe riferirsi a diverse squadre senza approfondimenti specifici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo è un video che poteva finire tranquillamente su calcio fluido",
+          "start_sec": 41.36,
+          "end_sec": 78.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pisag",
+      "position": "Ci si aspettava di più da Pisag, ma non sta portando risultati.",
+      "polarity": "negative",
+      "claim_id": "910a6a9c-c6d8-4feb-92c4-08a8d8b5b813",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s2",
+      "target_entity": "Pisag",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci si aspettava di più da Pisag, ma non sta portando risultati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si parlava molto bene di Pisag, ma sono troppe giornate che non fanno risultato",
+          "start_sec": 76.759,
+          "end_sec": 116.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gutierre",
+      "position": "Gutierre viene immaginato a piede invertito in caso di necessità.",
+      "polarity": "neutral",
+      "claim_id": "79f657b2-dcaa-4c90-b6a4-b5b943f89f31",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s1",
+      "target_entity": "Gutierre",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gutierre viene immaginato a piede invertito in caso di necessità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ovviamente Gutierre a piede invertito",
+          "start_sec": 41.36,
+          "end_sec": 78.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Cagliari",
+      "position": "Il Cagliari è in crisi dopo troppe giornate senza risultati.",
+      "polarity": "negative",
+      "claim_id": "48dc95bd-3395-448b-b69a-94e556522963",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s2",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Cagliari è in crisi dopo troppe giornate senza risultati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Cagliari diventa seriamente in crisi",
+          "start_sec": 76.759,
+          "end_sec": 116.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo è un avversario difficile in questa situazione.",
+      "polarity": "neutral",
+      "claim_id": "b063e520-8e0b-4c67-ac87-09aa8369aa5a",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s2",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Sassuolo è un avversario difficile in questa situazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vanno pure avanti col Sassuolo",
+          "start_sec": 76.759,
+          "end_sec": 116.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Le decisioni arbitrali sono state grigie e dubbie nel recente passato.",
+      "polarity": "neutral",
+      "claim_id": "0bd0ead6-eb4b-47d0-b9b7-ee9ea7596f0c",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le decisioni arbitrali sono state grigie e dubbie nel recente passato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le decisioni arbitrali onestamente grigie e dubbie",
+          "start_sec": 76.759,
+          "end_sec": 116.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Seba Esposito",
+      "position": "Seba Esposito non doveva essere convocato per l'Italia.",
+      "polarity": "neutral",
+      "claim_id": "a9a0a400-b064-44e7-a6bb-14533debf8fa",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s3",
+      "target_entity": "Seba Esposito",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Seba Esposito non doveva essere convocato per l'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Seba Esposito non doveva essere un convocato",
+          "start_sec": 113.439,
+          "end_sec": 150.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli è silenzioso riguardo la situazione attuale.",
+      "polarity": "neutral",
+      "claim_id": "148fdd93-826b-4355-b940-6f3baf5b98bc",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è silenzioso riguardo la situazione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si parla.",
+          "start_sec": 3.439,
+          "end_sec": 45.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Non ci sono comunicazioni sul Napoli.",
+      "polarity": "neutral",
+      "claim_id": "e579f635-ccc2-4542-84c5-570774162015",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono comunicazioni sul Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sta succedendo niente.",
+          "start_sec": 3.439,
+          "end_sec": 45.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Seba Esposito",
+      "position": "Seba Esposito ha segnato un gol.",
+      "polarity": "positive",
+      "claim_id": "b98af596-c230-4d3f-b1df-16fb9ec32987",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s3",
+      "target_entity": "Seba Esposito",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Seba Esposito ha segnato un gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Seba Esposito segna il rigore",
+          "start_sec": 113.439,
+          "end_sec": 150.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "La prossima partita del Napoli è considerata importante.",
+      "polarity": "neutral",
+      "claim_id": "278c9593-b1c8-4835-a269-aa36ae6b4d21",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La prossima partita del Napoli è considerata importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la partita è importante.",
+          "start_sec": 3.439,
+          "end_sec": 45.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Paulitano",
+      "position": "Paulitano potrebbe essere affaticato.",
+      "polarity": "neutral",
+      "claim_id": "fb7e5407-9378-48e9-b0cf-89313d6109cf",
+      "video_id": "x1Kj3vZrL4E",
+      "segment_id": "s1",
+      "target_entity": "Paulitano",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Paulitano potrebbe essere affaticato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si sa se sta affaticato o no",
+          "start_sec": 41.36,
+          "end_sec": 78.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

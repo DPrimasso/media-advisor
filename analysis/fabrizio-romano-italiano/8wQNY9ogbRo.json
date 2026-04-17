@@ -1,0 +1,353 @@
+{
+  "video_id": "8wQNY9ogbRo",
+  "analyzed_at": "2026-04-16T15:16:26.516306+00:00",
+  "metadata": {
+    "title": "🚨 INTER: CONTATTI PER IL COLPO! EDERSON, SI TRATTA IN ANTICIPO  MUHAREMOVIC, DOVBYK, TOMORI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-19"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle trattative di mercato dell'Inter, con un focus particolare su Muaremovic, giovane talento del Sassuolo, considerato il rinforzo più vicino per la prossima estate. L'autore sottolinea che l'Inter ha già avviato contatti diretti e una proposta verbale per il calciatore, evidenziando anche l'importanza dei buoni rapporti tra i due club. Oltre a Muaremovic, si discutono anche altri nomi come Ederson, Tomori e Dovbik, suggerendo che l'Inter sta pianificando significativi cambiamenti nella sua rosa.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "centrocampo",
+      "relevance": "high"
+    },
+    {
+      "name": "calciatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo beneficerà del 50% della futura vendita di Muovic.",
+      "polarity": "positive",
+      "claim_id": "9e35e978-41d0-4748-9c07-4188135b3a58",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s2",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo beneficerà del 50% della futura vendita di Muovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il 50% della futura vendita di Muovic da parte del Sassuolo sarà a favore della",
+          "start_sec": 74.6,
+          "end_sec": 113.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "ottimizzazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'Inter sta attivamente trattando per rinforzi di mercato.",
+      "polarity": "neutral",
+      "claim_id": "f22f8b22-487e-4e0b-92f7-eedc3b95bd55",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta attivamente trattando per rinforzi di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta parlando tanto delle coppe tra Champions League, Europa League, tanti calciatori impiegati e impegnati sul campo",
+          "start_sec": 0.199,
+          "end_sec": 34.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "club",
+      "position": "I club sono attivamente coinvolti in trattative per rinnovi di contratto.",
+      "polarity": "neutral",
+      "claim_id": "7c4dbe7b-95a2-4170-87f1-840ad42b1eeb",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s0",
+      "target_entity": "club",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I club sono attivamente coinvolti in trattative per rinnovi di contratto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "situazioni, su trattative che i club stanno già portando avanti ora o per determinati rinnovi di contratto",
+          "start_sec": 0.199,
+          "end_sec": 34.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Muaremovic",
+      "position": "Muaremovic è il giocatore più vicino all'Inter per il mercato estivo.",
+      "polarity": "positive",
+      "claim_id": "38c22b47-6f72-441f-96fa-703f8a46cdbd",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s1",
+      "target_entity": "Muaremovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Muaremovic è il giocatore più vicino all'Inter per il mercato estivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è una squadra in Italia che è più vicina delle altre in vista di giugno.",
+          "start_sec": 31.24,
+          "end_sec": 78.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Muharemovic",
+      "position": "Muharemovic è apprezzato a livello nazionale e internazionale.",
+      "polarity": "positive",
+      "claim_id": "dad37802-94e4-4aa1-8f7b-92bd0d649496",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s2",
+      "target_entity": "Muharemovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Muharemovic è apprezzato a livello nazionale e internazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un calciatore molto molto apprezzato, non solo in Italia, ma anche all'estero.",
+          "start_sec": 74.6,
+          "end_sec": 113.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatori",
+        "mercato",
+        "apprezzamento"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Moremovic",
+      "position": "Moremovic è un profilo da tenere sotto controllo.",
+      "polarity": "positive",
+      "claim_id": "4eaed177-a4d7-4671-a5f8-0e4d51591fed",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s4",
+      "target_entity": "Moremovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Moremovic è un profilo da tenere sotto controllo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il profilo di Moremović in vista e in chiave nerazzurra è un profilo da tenere molto molto eh sott'occhio e sotto controllo.",
+          "start_sec": 151.599,
+          "end_sec": 186.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "calciatori",
+      "position": "Ci sono aggiornamenti su vari calciatori nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "11d83733-dd47-4984-930c-cb034167fe28",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s0",
+      "target_entity": "calciatori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono aggiornamenti su vari calciatori nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tantissimi aggiornamenti di mercato anche oggi",
+          "start_sec": 0.199,
+          "end_sec": 34.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson è uno dei giocatori trattati in questo video per il mercato.",
+      "polarity": "positive",
+      "claim_id": "b7184d37-d6b9-47dd-8a3b-c360a5641747",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s1",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson è uno dei giocatori trattati in questo video per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi toccheremo i temi Ederson.",
+          "start_sec": 31.24,
+          "end_sec": 78.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tomori",
+      "position": "Tomori è tra i calciatori discussi per il futuro dell'Inter.",
+      "polarity": "positive",
+      "claim_id": "f0202d43-66ac-451e-bd10-e22b272b1fad",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s1",
+      "target_entity": "Tomori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tomori è tra i calciatori discussi per il futuro dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi toccheremo i temi Tomori.",
+          "start_sec": 31.24,
+          "end_sec": 78.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Dovbik",
+      "position": "Dovbik è un altro calciatore menzionato per le trattative estive.",
+      "polarity": "positive",
+      "claim_id": "f9a7b14f-a2fd-4528-a6e5-8cb1c0270b68",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s1",
+      "target_entity": "Dovbik",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dovbik è un altro calciatore menzionato per le trattative estive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e Dovbik.",
+          "start_sec": 31.24,
+          "end_sec": 78.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Moremovic",
+      "position": "L'Inter ha avviato negoziati per Moremovic.",
+      "polarity": "positive",
+      "claim_id": "75e9f83e-cb01-415c-9ca6-2642f62ee04c",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s4",
+      "target_entity": "Moremovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avviato negoziati per Moremovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha avanzato una proposta verbale all'entourage di Moremovic.",
+          "start_sec": 151.599,
+          "end_sec": 186.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha avuto contatti diretti con Moremovic.",
+      "polarity": "positive",
+      "claim_id": "ff2067c4-854f-455b-a375-1ed2e066f44b",
+      "video_id": "8wQNY9ogbRo",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avuto contatti diretti con Moremovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I due club hanno già avuto dei contatti diretti.",
+          "start_sec": 151.599,
+          "end_sec": 186.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "video_id": "xwG8xCHVoAY",
+  "analyzed_at": "2026-04-16T15:06:56.114293+00:00",
+  "metadata": {
+    "title": "🚨 OSIMHEN-JUVE:  FEELING E CLAUSOLA! SENESI ROMA, LA VERITÀ! WESTON FIRMA, SPALLETTI CONFERMA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-26"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti recenti riguardanti la Juventus e il mercato calcistico. L'autore esprime una posizione positiva sul rinnovo di Weston McKennie, sottolineando l'importanza del giocatore per la squadra e il suo desiderio di rimanere a Torino, nonostante le difficoltà passate nella trattativa. Inoltre, si evidenzia la settimana complicata per le italiane in Champions League, con la Juventus e l'Inter eliminate, mentre l'Atalanta avanza agli ottavi, confermando che la Juventus ha bisogno di una strategia solida per il futuro.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "europe",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "McKennie",
+      "position": "Il contratto di McKennie prevede uno stipendio di circa 4 milioni di euro netti a stagione.",
+      "polarity": "positive",
+      "claim_id": "6614611e-d255-47f6-83c4-b4d3af56265f",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s3",
+      "target_entity": "McKennie",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il contratto di McKennie prevede uno stipendio di circa 4 milioni di euro netti a stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le cifre del suo contratto sono comunque le cifre meritate importanti. intorno ai 4 milioni di euro netti a stagione.",
+          "start_sec": 88.52,
+          "end_sec": 121.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Juventus",
+      "position": "La Juventus ha avuto una settimana complicata in Champions League.",
+      "polarity": "neutral",
+      "claim_id": "ab232d8f-59f7-4c92-9d32-46c4765650ee",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha avuto una settimana complicata in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata una settimana di Champions League complicata per le italiane con l'Inter eliminata dal Bodo",
+          "start_sec": 0.0,
+          "end_sec": 39.559000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha ribaltato il risultato contro il Borussia Dortmund.",
+      "polarity": "positive",
+      "claim_id": "53a369ce-c736-43b1-8749-53c19294a034",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha ribaltato il risultato contro il Borussia Dortmund.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una grande Atalanta quella di Raffaele Palladino che ha ribaltato il risultato contro il Borussia Dortmund",
+          "start_sec": 38.16,
+          "end_sec": 64.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Borussia Dortmund",
+      "position": "Il Borussia Dortmund è stato eliminato dalla Champions League.",
+      "polarity": "negative",
+      "claim_id": "5633e1a6-d658-47c2-b04c-ce6fb38ea088",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s1",
+      "target_entity": "Borussia Dortmund",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Borussia Dortmund è stato eliminato dalla Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "contro il Borussia Dortmund ed è riuscito ad accedere agli ottavi di finale di Champions League",
+          "start_sec": 38.16,
+          "end_sec": 64.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Champions League",
+      "position": "L'Atalanta ha raggiunto gli ottavi di finale di Champions League.",
+      "polarity": "positive",
+      "claim_id": "865899a3-26e5-4097-9cbe-42804791db6a",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s1",
+      "target_entity": "Champions League",
+      "entity_type": "other",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha raggiunto gli ottavi di finale di Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è riuscito ad accedere agli ottavi di finale di Champions League",
+          "start_sec": 38.16,
+          "end_sec": 64.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Il rinnovo di McKennie è una notizia eccezionale per la Juventus.",
+      "polarity": "positive",
+      "claim_id": "41e752c9-6838-4b8c-aa05-c586d8edae8b",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il rinnovo di McKennie è una notizia eccezionale per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una notizia eccezionale perché perché McCenny resta in bianconero",
+          "start_sec": 62.719,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Weston McKennie",
+      "position": "Il rinnovo di McKennie arriverà all'inizio della prossima settimana.",
+      "polarity": "neutral",
+      "claim_id": "17d73c3b-9329-479b-8255-3d00962ceb3f",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s2",
+      "target_entity": "Weston McKennie",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il rinnovo di McKennie arriverà all'inizio della prossima settimana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un rinnovo che formalmente verrà firmato all'inizio della prossima settimana",
+          "start_sec": 62.719,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è stata eliminata dal Bodo in Champions League.",
+      "polarity": "negative",
+      "claim_id": "8061be96-cb4d-44bd-a546-d57a79fdea5c",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è stata eliminata dal Bodo in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con l'Inter eliminata dal Bodo",
+          "start_sec": 0.0,
+          "end_sec": 39.559000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "McKennie",
+      "position": "McKennie ha fortemente voluto restare alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "d742927d-a42a-4ba0-926a-3c7f65349976",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s3",
+      "target_entity": "McKennie",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "McKennie ha fortemente voluto restare alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il calciatore ha fortemente voluto restare alla Juventus.",
+          "start_sec": 88.52,
+          "end_sec": 121.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "McKennie",
+      "position": "McKennie è un calciatore molto versatile.",
+      "polarity": "positive",
+      "claim_id": "806c85e0-6940-4321-ba73-183d1fb0c89c",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s3",
+      "target_entity": "McKennie",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "McKennie è un calciatore molto versatile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "facendo Mcenny è fantastico, terzino centrocampista, mezzala, seconda punta, prima punta, insomma un qualcosa di incredibile.",
+          "start_sec": 88.52,
+          "end_sec": 121.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Weston McKennie",
+      "position": "Weston McKennie rinnova con la Juventus.",
+      "polarity": "positive",
+      "claim_id": "6eda9ea9-a95e-4beb-84fb-c7f57df2e345",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s2",
+      "target_entity": "Weston McKennie",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Weston McKennie rinnova con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "McCenny resta in bianconero",
+          "start_sec": 62.719,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Weston McKennie",
+      "position": "McKennie è considerato un giocatore sottovalutato.",
+      "polarity": "neutral",
+      "claim_id": "637a96c9-5c55-431a-8336-dd76fee40cd4",
+      "video_id": "xwG8xCHVoAY",
+      "segment_id": "s2",
+      "target_entity": "Weston McKennie",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "McKennie è considerato un giocatore sottovalutato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un giocatore un po' anche sottovalutato",
+          "start_sec": 62.719,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

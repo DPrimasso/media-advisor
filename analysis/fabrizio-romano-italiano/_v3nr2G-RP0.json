@@ -1,0 +1,354 @@
+{
+  "video_id": "_v3nr2G-RP0",
+  "analyzed_at": "2026-04-16T15:40:49.985549+00:00",
+  "metadata": {
+    "title": "🚨 YILDIZ, GLI SMS DI ICARDI, KOLO VERSO GIUGNO, I VOLI DA ISTANBUL, BENZEMA, DURAN: LA VERITÀ JUVE",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-03"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle dinamiche del calciomercato della Juventus, in particolare riguardo al rinnovo del contratto di Cananild e all'assenza di nuovi attaccanti. L'autore sottolinea l'ottimismo della Juventus riguardo al rinnovo di Cananild, evidenziando gli sforzi economici compiuti per raggiungere un accordo, sebbene non ci siano ancora tempistiche certe per la firma. Inoltre, viene chiarito che la Juventus non ha mai avanzato un'offerta per Mauro Icardi, nonostante l'interesse iniziale, e che non ci sono stati messaggi da parte del calciatore.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "ottimismo",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratti",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Cananild",
+      "position": "Cananild deve firmare un nuovo contratto con Juventus.",
+      "polarity": "positive",
+      "claim_id": "e2fa7003-1287-41b7-afb1-8b07d6ca9afd",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s1",
+      "target_entity": "Cananild",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cananild deve firmare un nuovo contratto con Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "domande sulle firme imminenti di Cananildes sul nuovo contratto per la Juventus",
+          "start_sec": 53.239,
+          "end_sec": 114.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Il rinnovamento di Cananild sarebbe un traguardo rilevante per Juventus.",
+      "polarity": "positive",
+      "claim_id": "b6e5acec-2c0e-4fa9-9e40-68c5f8a2bb03",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rinnovamento di Cananild sarebbe un traguardo rilevante per Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se la Juventus rinnoverà Ildit sarà veramente veramente un qualcosa di di rilevante",
+          "start_sec": 53.239,
+          "end_sec": 114.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mauro Icardi",
+      "position": "Icardi ha dato un'apertura ai suoi procuratori per la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "be6b2624-3515-48cf-94b7-8943d337f408",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s3",
+      "target_entity": "Mauro Icardi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Icardi ha dato un'apertura ai suoi procuratori per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Icardi avesse dato un'apertura ai suoi procuratori.",
+          "start_sec": 165.4,
+          "end_sec": 219.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha valutato l'opportunità di Icardi ma ha scelto di non procedere.",
+      "polarity": "neutral",
+      "claim_id": "2f641f5d-6e49-4ba9-ae66-ce4b1aba6288",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha valutato l'opportunità di Icardi ma ha scelto di non procedere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve ha scelto di non procedere, di non fare neanche un'offerta.",
+          "start_sec": 165.4,
+          "end_sec": 219.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mauro Icardi",
+      "position": "Icardi ha proposto la sua opportunità alla Juventus.",
+      "polarity": "neutral",
+      "claim_id": "e7a05efb-fec4-47f7-8c13-521a8bacc802",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s3",
+      "target_entity": "Mauro Icardi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Icardi ha proposto la sua opportunità alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato lato Icardi eh a proporre questa opportunità alla Juventus.",
+          "start_sec": 165.4,
+          "end_sec": 219.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Icardi",
+      "position": "Icardi ha segnato dopo essere tornato in campo.",
+      "polarity": "positive",
+      "claim_id": "97d9e3a3-cd0c-47ad-8014-e91714e170ae",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s4",
+      "target_entity": "Icardi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Icardi ha segnato dopo essere tornato in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Icardi, eh, insomma, poi ha risposto sul campo segnando subito dopo per il Galatasaray",
+          "start_sec": 217.599,
+          "end_sec": 269.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha trovato accordi con il Fenerbahce per Nesiri.",
+      "polarity": "positive",
+      "claim_id": "f1c80d94-af28-4e77-ab56-32ebf458c7f8",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha trovato accordi con il Fenerbahce per Nesiri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus ha trovato tutti gli accordi col Fenerbace erano proprio fatti",
+          "start_sec": 217.599,
+          "end_sec": 269.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nesiri",
+      "position": "Il Fenerbahce ha tentato di trattenere Nesiri fino all'ultimo.",
+      "polarity": "neutral",
+      "claim_id": "0a76f737-3061-4b8d-9dfa-59855e176e25",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s4",
+      "target_entity": "Nesiri",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Fenerbahce ha tentato di trattenere Nesiri fino all'ultimo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fenerbace che ha provato fino all'ultimo di questo mercato a spinger fuori Ennesi più a livello dirigenziale che non di allenatore.",
+          "start_sec": 217.599,
+          "end_sec": 269.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbahce",
+      "position": "Il Fenerbahce ha cercato di liberare Kanté in modo aggressivo.",
+      "polarity": "positive",
+      "claim_id": "26fd5fa4-c4f8-486a-89d6-36972c4ff057",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s5",
+      "target_entity": "Fenerbahce",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Fenerbahce ha cercato di liberare Kanté in modo aggressivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fenerba ci ha provato in tutti i modi a spingerlo fuori.",
+          "start_sec": 268.36,
+          "end_sec": 315.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus non ha acquistato nessun attaccante nel mercato di gennaio.",
+      "polarity": "neutral",
+      "claim_id": "3ee5b41a-761d-4da5-a16a-2306ef45faa1",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus non ha acquistato nessun attaccante nel mercato di gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è arrivato nessuno a livello di centravanti",
+          "start_sec": 0.48,
+          "end_sec": 54.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mauro Icardi",
+      "position": "La Juventus non ha mai fatto un'offerta per Mauro Icardi.",
+      "polarity": "neutral",
+      "claim_id": "f5c62227-4657-4156-be85-a70f205df883",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s3",
+      "target_entity": "Mauro Icardi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus non ha mai fatto un'offerta per Mauro Icardi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve non ha mai fatto un'offerta per Icardi.",
+          "start_sec": 165.4,
+          "end_sec": 219.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Icardi",
+      "position": "Icardi è contento di restare al Galatasaray.",
+      "polarity": "neutral",
+      "claim_id": "3c56244b-83fe-4e1d-a450-2ecc01d76c03",
+      "video_id": "_v3nr2G-RP0",
+      "segment_id": "s4",
+      "target_entity": "Icardi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Icardi è contento di restare al Galatasaray.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Icardi è contento di restare al Galatasaray",
+          "start_sec": 217.599,
+          "end_sec": 269.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

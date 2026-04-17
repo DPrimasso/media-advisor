@@ -331,6 +331,22 @@ def cmd_analyze(
 
 
 # ---------------------------------------------------------------------------
+# Shared helpers for mercato commands
+# ---------------------------------------------------------------------------
+
+
+def _collect_tip_files(tips_root: Path, channel: Optional[str]) -> list[Path]:
+    """Raccoglie tutti i file .json in mercato/tips/, opzionalmente filtrati per canale."""
+    if channel:
+        ch_dir = tips_root / channel
+        return sorted(ch_dir.glob("*.json")) if ch_dir.exists() else []
+    files: list[Path] = []
+    for ch_dir in sorted(p for p in tips_root.iterdir() if p.is_dir()):
+        files.extend(sorted(ch_dir.glob("*.json")))
+    return files
+
+
+# ---------------------------------------------------------------------------
 # mercato-analyze
 # ---------------------------------------------------------------------------
 
@@ -484,13 +500,19 @@ def cmd_mercato_scan(
         # Dates cache persistente salvata da fetch-now
         _dates_cache: dict[str, str] = read_json_or_default(video_dates_cache_path(root), default={}) or {}
 
+        _channels_cfg = ChannelsConfig.model_validate(read_json(root / "channels" / "channels.json"))
+        _channels_map = {c.id: c for c in _channels_cfg.channels}
+
         def _get_channel_url(ch_id: str) -> str | None:
             try:
-                cfg = ChannelsConfig.model_validate(read_json(root / "channels" / "channels.json"))
-                ch = next((c for c in cfg.channels if c.id == ch_id), None)
+                ch = _channels_map.get(ch_id)
                 return (ch.fetch_rule.channel_url if ch and ch.fetch_rule else None)  # type: ignore[attr-defined]
             except Exception:
                 return None
+
+        def _is_mercato_channel(ch_id: str) -> bool:
+            ch = _channels_map.get(ch_id)
+            return ch.mercato_channel if ch else False
 
         async def _ensure_metadata(ch_id: str, vid: str) -> None:
             t_path = transcript_path(root, ch_id, vid)
@@ -515,9 +537,12 @@ def cmd_mercato_scan(
             if not channel_url:
                 return
             if ch_id not in latest_cache:
-                client = TranscriptClient(s.transcript_api_key)
-                data = await client.get_channel_latest(channel_url)
-                latest_cache[ch_id] = data.get("results", []) if isinstance(data, dict) else []
+                try:
+                    client = TranscriptClient(s.transcript_api_key)
+                    data = await client.get_channel_latest(channel_url)
+                    latest_cache[ch_id] = data.get("results", []) if isinstance(data, dict) else []
+                except Exception:
+                    latest_cache[ch_id] = []  # non bloccare l'analisi per mancanza di metadata
             match = next((it for it in latest_cache[ch_id] if it.get("videoId") == tr.video_id), None)
             if not match:
                 return
@@ -541,13 +566,21 @@ def cmd_mercato_scan(
             if not ch_dir.is_dir():
                 continue
             ch_id = ch_dir.name
+            is_mercato_ch = _is_mercato_channel(ch_id)
+            # Canali non-mercato: salta sempre (no costo GPT su analisi partite)
+            if not all_videos and not is_mercato_ch:
+                n = sum(1 for _ in ch_dir.glob("*.json"))
+                total += n
+                skipped += n
+                continue
             for t_file in sorted(ch_dir.glob("*.json")):
                 vid = t_file.stem
                 total += 1
                 try:
                     data = read_json(t_file)
                     title = (data.get("metadata") or {}).get("title") or ""
-                    if not all_videos and not _MERCATO_KW.search(title):
+                    # Canali mercato: analizza tutto; altri: filtra per keyword titolo
+                    if not all_videos and not is_mercato_ch and not _MERCATO_KW.search(title):
                         skipped += 1
                         continue
                     await _ensure_metadata(ch_id, vid)
@@ -1039,6 +1072,75 @@ def cmd_mercato_report() -> None:
 
 
 # ---------------------------------------------------------------------------
+# mercato-normalize-players
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-normalize-players")
+def cmd_mercato_normalize_players(
+    channel: Optional[str] = typer.Option(None, "--channel", help="Limita a un canale"),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Mostra le modifiche senza salvarle"),
+) -> None:
+    """Re-normalizza i player_name in tutti i tip file esistenti usando il registry + fuzzy.
+
+    Utile dopo aver aggiunto nuovi alias in player-aliases.json o nuovi transfer confermati.
+    Eseguire seguito da mercato-rebuild-index per aggiornare l'index globale.
+    """
+    from media_advisor.io.json_io import read_json, write_json
+    from media_advisor.mercato.models import VideoMercatoResult
+    from media_advisor.mercato.player_normalizer import load_player_registry, normalize_player_name
+
+    root = _root()
+    mercato_dir = root / "mercato"
+    tips_root = mercato_dir / "tips"
+
+    if not tips_root.exists():
+        typer.echo("Nessuna tip trovata: manca la cartella mercato/tips/")
+        raise typer.Exit(1)
+
+    registry = load_player_registry(mercato_dir)
+    typer.echo(f"Registry caricato: {len(set(registry.values()))} giocatori canonici")
+
+    files = _collect_tip_files(tips_root, channel)
+
+    total_tips = 0
+    changed_tips = 0
+    changed_files = 0
+
+    for f in files:
+        try:
+            vr = VideoMercatoResult.model_validate(read_json(f))
+        except Exception:
+            continue
+
+        file_changed = False
+        for tip in (vr.tips or []):
+            if not tip.player_name:
+                continue
+            normalized = normalize_player_name(tip.player_name, mercato_dir)
+            total_tips += 1
+            if normalized != tip.player_name:
+                if dry_run:
+                    typer.echo(f"  [{tip.video_id}] {tip.player_name!r} → {normalized!r}")
+                tip.player_name = normalized
+                changed_tips += 1
+                file_changed = True
+
+        if file_changed:
+            changed_files += 1
+            if not dry_run:
+                write_json(f, vr.model_dump(mode="json"))
+
+    suffix = " (DRY RUN)" if dry_run else ""
+    typer.echo(
+        f"Done{suffix}: {total_tips} tip analizzate, "
+        f"{changed_tips} nomi corretti in {changed_files} file."
+    )
+    if not dry_run and changed_tips > 0:
+        typer.echo("Riesegui 'mercato-rebuild-index' per aggiornare l'index globale.")
+
+
+# ---------------------------------------------------------------------------
 # mercato-rebuild-index
 # ---------------------------------------------------------------------------
 
@@ -1102,13 +1204,7 @@ def cmd_mercato_rebuild_index(
         typer.echo("Nessuna tip trovata: manca la cartella mercato/tips/")
         raise typer.Exit(1)
 
-    files: list[Path] = []
-    if channel:
-        ch_dir = tips_root / channel
-        files = sorted(ch_dir.glob("*.json")) if ch_dir.exists() else []
-    else:
-        for ch_dir in sorted(p for p in tips_root.iterdir() if p.is_dir()):
-            files.extend(sorted(ch_dir.glob("*.json")))
+    files = _collect_tip_files(tips_root, channel)
 
     if not files:
         typer.echo("Nessun file trovato in mercato/tips/ (hai già runnato mercato-scan/mercato-analyze?)")

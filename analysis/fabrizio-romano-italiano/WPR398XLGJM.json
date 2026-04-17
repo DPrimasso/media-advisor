@@ -1,0 +1,358 @@
+{
+  "video_id": "WPR398XLGJM",
+  "analyzed_at": "2026-04-16T16:11:00.526392+00:00",
+  "metadata": {
+    "title": "🚨💣 BOOM INTER! JONES-FRATTESI, FATTO IL COLPO FUTURO. LOOKMAN? OCCHIO A SULEMANA! JUVE: FUORI UNO",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-30"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato riguardanti l'Inter, il Napoli e il Milan. L'autore evidenzia che l'Inter è molto vicina a concludere l'accordo per il trasferimento di Davide Frattesi al Nottingham Forest, ma il giocatore deve ancora dare una risposta. Se Frattesi dovesse partire, l'Inter è pronta a ingaggiare un nuovo centrocampista, con Cartis Jones del Liverpool come potenziale obiettivo. Romano conclude sottolineando che la situazione è in evoluzione e che ulteriori sviluppi sono attesi a breve.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "centrocampista",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "uscita",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter è molto vicina a chiudere l'accordo per Frattesi.",
+      "polarity": "neutral",
+      "claim_id": "5a28896e-8b32-4556-a0b9-719f24956da7",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è molto vicina a chiudere l'accordo per Frattesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Accordo Interns Nottingham Forest veramente vicino.",
+          "start_sec": 24.16,
+          "end_sec": 51.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Davide Frattesi",
+      "position": "Frattesi è al momento in attesa di una risposta dal Nottingham Forest.",
+      "polarity": "neutral",
+      "claim_id": "0fde81c9-0c57-40a8-a84c-3d9cfa04f4d0",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s1",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Frattesi è al momento in attesa di una risposta dal Nottingham Forest.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta ancora aspettando una risposta di Davide Frattesi al Nottingham Forest.",
+          "start_sec": 24.16,
+          "end_sec": 51.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nottingham Forest",
+      "position": "Frattesi potrebbe vedere altre offerte se non accetta il Nottingham Forest.",
+      "polarity": "positive",
+      "claim_id": "09d2416a-5d19-4a60-b45b-a978ccf74171",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s1",
+      "target_entity": "Nottingham Forest",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Frattesi potrebbe vedere altre offerte se non accetta il Nottingham Forest.",
+      "evidence_quotes": [
+        {
+          "quote_text": "eventualmente altre squadre che possono presentarsi se Frattesi non dovesse accettare il Forest.",
+          "start_sec": 24.16,
+          "end_sec": 51.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Frattesi",
+      "position": "Davide Frattesi ha ricevuto offerte da Lazio e Atletico Madrid.",
+      "polarity": "positive",
+      "claim_id": "2b7a5542-9a52-4654-a52d-d86706e935df",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s2",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Frattesi ha ricevuto offerte da Lazio e Atletico Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le altre due squadre che hanno chiamato sono la Lazio e l'Atletico Madrid.",
+          "start_sec": 49.719,
+          "end_sec": 77.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Forest",
+      "position": "Il Nottingham Forest sta aspettando una risposta da Frattesi.",
+      "polarity": "positive",
+      "claim_id": "b9c43510-22bf-4bba-aabf-74562acd0aa7",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s2",
+      "target_entity": "Forest",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Nottingham Forest sta aspettando una risposta da Frattesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Nottingham a Forest, da Davide Frattesi. Cosa vuol fare? Se vuole accettare o meno.",
+          "start_sec": 49.719,
+          "end_sec": 77.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha una base d'accordo con il Nottingham Forest.",
+      "polarity": "neutral",
+      "claim_id": "60a78688-e966-4987-8221-425de87773c1",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha una base d'accordo con il Nottingham Forest.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Nottingham Forest ha una base d'accordo pronta con l'Inter.",
+          "start_sec": 76.04,
+          "end_sec": 100.55999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cartis Jones",
+      "position": "L'Inter ha avuto conversazioni positive su Cartis Jones.",
+      "polarity": "neutral",
+      "claim_id": "f64bb8fa-5151-41c4-998a-bd13baf321ea",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s5",
+      "target_entity": "Cartis Jones",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avuto conversazioni positive su Cartis Jones.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cura gli interessi di Cartis Jones sono molto buoni. È la stessa agenzia che ha fatto l'operazione Akji",
+          "start_sec": 124.96,
+          "end_sec": 154.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha effettuato un acquisto nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "2a9c435b-1276-431e-98e3-15d2b15f554c",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha effettuato un acquisto nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli, il Milan che chiude il colpo matetà.",
+          "start_sec": 0.399,
+          "end_sec": 26.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter sta pianificando di prendere un centrocampista in caso di uscita di Frattesi.",
+      "polarity": "neutral",
+      "claim_id": "75e2415a-d9a4-4192-b35b-644e0c66fdb6",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta pianificando di prendere un centrocampista in caso di uscita di Frattesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter prende un centrocampista se esce Frattesi.",
+          "start_sec": 24.16,
+          "end_sec": 51.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Liverpool",
+      "position": "Inter e Liverpool hanno parlato riguardo a Domfis.",
+      "polarity": "neutral",
+      "claim_id": "357df088-9392-4f38-ac48-96a2f02c0a09",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s3",
+      "target_entity": "Liverpool",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter e Liverpool hanno parlato riguardo a Domfis.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter e Liverpool l'hanno trattato durante la.",
+          "start_sec": 76.04,
+          "end_sec": 100.55999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Frattesi",
+      "position": "L'Inter prenderà un centrocampista se Frattesi esce.",
+      "polarity": "neutral",
+      "claim_id": "289c3d00-f7a5-4b9a-9bfc-a26e55d837b9",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s3",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter prenderà un centrocampista se Frattesi esce.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter prende un centrocampista se esce Frattesi.",
+          "start_sec": 76.04,
+          "end_sec": 100.55999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha chiuso un colpo di mercato importante.",
+      "polarity": "neutral",
+      "claim_id": "95129af5-ba29-4a36-a466-61b021c3ab8c",
+      "video_id": "WPR398XLGJM",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha chiuso un colpo di mercato importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli, il Milan che chiude il colpo matetà.",
+          "start_sec": 0.399,
+          "end_sec": 26.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

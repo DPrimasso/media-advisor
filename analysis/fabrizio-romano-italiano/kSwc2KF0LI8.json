@@ -1,0 +1,366 @@
+{
+  "video_id": "kSwc2KF0LI8",
+  "analyzed_at": "2026-04-16T15:58:24.333596+00:00",
+  "metadata": {
+    "title": "🚨💣 FOLLIA LOOKMAN! KOLO-JUVE, DISASI, ALISSON, ZARAGOZA, MLACIC, HOLM, MATETA: LE ULTIME",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-31"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato calcistico, evidenziando in particolare l'esonero di Alberto Gilardino dal Pisa e le trattative per il trasferimento di Ademola Lukman. L'autore sottolinea che, nonostante l'accordo tra Lukman e il Fenerbahce, l'Atalanta ha rifiutato l'offerta per mancanza di garanzie bancarie, mentre l'Atletico Madrid sta cercando di convincere il giocatore con un'offerta simile. La situazione è in continua evoluzione, con la possibilità di un finale clamoroso per il mercato.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "sostituzione",
+      "relevance": "medium"
+    },
+    {
+      "name": "garanzie",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "salariale",
+      "relevance": "low"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Il Fenerbahce ha offerto un contratto di 8 milioni a Lukman.",
+      "polarity": "neutral",
+      "claim_id": "55854905-0e06-4d09-81bf-50c87f5d124a",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s5",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Fenerbahce ha offerto un contratto di 8 milioni a Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Fenerbace ha rilanciato proponendo un nuovo contratto a Lukman da 8 e me più bonus per arrivare quasi a 11 e me totali.",
+          "start_sec": 168.04,
+          "end_sec": 201.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gilardino",
+      "position": "Gilardino è stato esonerato dalla sua posizione di allenatore.",
+      "polarity": "negative",
+      "claim_id": "61cf79bc-8805-43d5-9d8c-fb86d6e8931b",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s1",
+      "target_entity": "Gilardino",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gilardino è stato esonerato dalla sua posizione di allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gilardino siamo alle conclusioni finali perché è stato esonerato.",
+          "start_sec": 30.359,
+          "end_sec": 63.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Pisa",
+      "position": "I possibili sostituti di Gilardino a Pisa sono Daversa o Cioffi.",
+      "polarity": "positive",
+      "claim_id": "e0833271-da28-417e-9841-d48050e0243e",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s1",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "I possibili sostituti di Gilardino a Pisa sono Daversa o Cioffi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i possibili sostituti di Gilardino a Pisa possono essere due, ovvero o Daversa che è già stato contattato, oppure Cioffi.",
+          "start_sec": 30.359,
+          "end_sec": 63.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Lukman ha raggiunto un accordo con il Fenerbahce per un stipendio di sette milioni.",
+      "polarity": "neutral",
+      "claim_id": "10b3f862-f91a-44d0-bde2-3d0bece26cc4",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s2",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman ha raggiunto un accordo con il Fenerbahce per un stipendio di sette milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Fenerbace ha raggiunto un accordo con Lukman per questo eh stipendio da sette netti più bonus a sfiorare i 10 totali",
+          "start_sec": 61.68,
+          "end_sec": 97.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico Madrid ha trovato un accordo con l'Atalanta per Lukman.",
+      "polarity": "positive",
+      "claim_id": "a866ccf1-57e3-48ac-84ec-bbf5020efe3a",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s3",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid ha trovato un accordo con l'Atalanta per Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Atletico Madrid... ha trovato un accordo con eh l'Atalanta alle stesse cifre dell'Atletico 35 + 5.",
+          "start_sec": 94.96,
+          "end_sec": 140.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "L'Atletico Madrid sta cercando di convincere Lukman a trasferirsi.",
+      "polarity": "neutral",
+      "claim_id": "95c1233e-81a0-41eb-b462-d015dc6830e6",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s3",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid sta cercando di convincere Lukman a trasferirsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha iniziato a trattare con il calciatore cercando di convincerlo con chiamate.",
+          "start_sec": 94.96,
+          "end_sec": 140.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Lukman chiede un salario di sette più bonus.",
+      "polarity": "neutral",
+      "claim_id": "52a1b13e-45ea-4734-97ef-4c7af3cfe741",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s4",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman chiede un salario di sette più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giocatore che avrebbe preso eh sette più bonus dal Fenerbace ne vorrebbe altrettanti dall'Atletico Madrid.",
+          "start_sec": 137.76,
+          "end_sec": 170.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Daversa",
+      "position": "Daversa è già stato contattato come possibile sostituto di Gilardino.",
+      "polarity": "neutral",
+      "claim_id": "0970fb64-6227-4e7f-ac99-fb9b4a5d08f0",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s1",
+      "target_entity": "Daversa",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Daversa è già stato contattato come possibile sostituto di Gilardino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Daversa che è già stato contattato.",
+          "start_sec": 30.359,
+          "end_sec": 63.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha rifiutato l'accordo con il Fenerbahce per mancanza di garanzie bancarie.",
+      "polarity": "neutral",
+      "claim_id": "90de732c-12c9-441e-ad27-50e6097d8066",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha rifiutato l'accordo con il Fenerbahce per mancanza di garanzie bancarie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sono state accettate le garanzie bancarie.",
+          "start_sec": 94.96,
+          "end_sec": 140.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Alberto Gilardino",
+      "position": "Alberto Gilardino potrebbe essere esonerato dal Pisa.",
+      "polarity": "neutral",
+      "claim_id": "903ce03f-8647-45ca-a875-56b47413bc79",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s0",
+      "target_entity": "Alberto Gilardino",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alberto Gilardino potrebbe essere esonerato dal Pisa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si va verso l'esonero sia per Alberto Gilardino a Pisa",
+          "start_sec": 0.599,
+          "end_sec": 32.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Lukman apre alla trattativa con l'Atletico.",
+      "polarity": "neutral",
+      "claim_id": "09abf343-1ba3-4ee7-b49d-5833e47c59ff",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s4",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman apre alla trattativa con l'Atletico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukman apre all'Atletico.",
+          "start_sec": 137.76,
+          "end_sec": 170.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico Madrid spera di chiudere l'accordo.",
+      "polarity": "neutral",
+      "claim_id": "82398851-ad51-4db4-83ad-8a3139acc09f",
+      "video_id": "kSwc2KF0LI8",
+      "segment_id": "s4",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid spera di chiudere l'accordo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atletico spera di arrivare alla chiusura.",
+          "start_sec": 137.76,
+          "end_sec": 170.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

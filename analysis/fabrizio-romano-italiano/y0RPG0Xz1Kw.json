@@ -1,0 +1,366 @@
+{
+  "video_id": "y0RPG0Xz1Kw",
+  "analyzed_at": "2026-04-17T07:22:45.878682+00:00",
+  "metadata": {
+    "title": "🚨💣 JUVE: KOLO APRE! NOVITÀ MILAN! KESSIÈ, ALTRO BLITZ. AKE, GORETZKA, NICO PAZ, MARCOS LEONARDO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-27"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti dinamiche di mercato calcistico, con particolare attenzione ai movimenti in corso e alle prestazioni dei giocatori. L'autore sottolinea che diversi club, tra cui il Milan, stanno monitorando nomi come Colomani, Lukman e Norton Caffi, mentre si discute anche del futuro di Nico Paz, che ha segnato per il Como e ha già un accordo con il Real Madrid. Romano conclude evidenziando che, nonostante l'interesse del Real, Paz è concentrato sul suo attuale club, suggerendo che il suo futuro sarà definito in estate, a meno di un clamoroso successo del",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "emergenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "novità",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Real Madrid",
+      "position": "Il prezzo di compra di Nico Paz è di circa 9 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "4bdeae0e-07f7-446b-83a3-dd01cd642e45",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s2",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il prezzo di compra di Nico Paz è di circa 9 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le compra che si aggira intorno ai 9 milioni di euro.",
+          "start_sec": 53.399,
+          "end_sec": 80.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Paz",
+      "position": "Il Real Madrid sta già pianificando il futuro di Nico Paz.",
+      "polarity": "positive",
+      "claim_id": "f94459e7-7f71-4582-986b-3d4c52773dc6",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s2",
+      "target_entity": "Nico Paz",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid sta già pianificando il futuro di Nico Paz.",
+      "evidence_quotes": [
+        {
+          "quote_text": "real sta già pianificando il suo futuro con Nico Paz.",
+          "start_sec": 53.399,
+          "end_sec": 80.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Como",
+      "position": "Il Como potrebbe fare qualcosa di storico e andare in Champions.",
+      "polarity": "positive",
+      "claim_id": "70344c41-834b-4d59-81c3-5fbf6b5b1672",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Como potrebbe fare qualcosa di storico e andare in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se il Como dovesse fare qualcosa di storico, andare in Champions.",
+          "start_sec": 53.399,
+          "end_sec": 80.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta sondando la fattibilità dell'operazione Nathan.",
+      "polarity": "neutral",
+      "claim_id": "21403c41-8bd6-4507-9548-3747e7f06f8a",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta sondando la fattibilità dell'operazione Nathan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan sta sondando la fattibilità nei numeri eh dell'operazione Nathan",
+          "start_sec": 105.479,
+          "end_sec": 143.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Manchester City",
+      "position": "Ci sono complicazioni nel trasferimento di Nathan a causa del suo stipendio.",
+      "polarity": "neutral",
+      "claim_id": "e4cdc997-a023-4eaa-8b62-d3ff31a85710",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s4",
+      "target_entity": "Manchester City",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono complicazioni nel trasferimento di Nathan a causa del suo stipendio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il primo è sicuramente lo stipendio perché a che guadagna guadagna tanto in Premier League al City",
+          "start_sec": 105.479,
+          "end_sec": 143.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Colomani",
+      "position": "Colomani è un nome da tenere d'occhio nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "5fffe4db-19ab-4541-b249-19035c82b58c",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s0",
+      "target_entity": "Colomani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Colomani è un nome da tenere d'occhio nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Colomani è un altro nome da tenere d'occhio",
+          "start_sec": 0.28,
+          "end_sec": 29.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "club",
+      "position": "Diversi club stanno aspettando le novità di mercato.",
+      "polarity": "neutral",
+      "claim_id": "0547ee0a-de1b-4c15-8c07-456fba000810",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s0",
+      "target_entity": "club",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Diversi club stanno aspettando le novità di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È il mercoledì che tanti club aspettano",
+          "start_sec": 0.28,
+          "end_sec": 29.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta facendo sondaggi per un difensore centrale.",
+      "polarity": "neutral",
+      "claim_id": "2ea3b41d-f69d-4add-9db7-82efefa55f3a",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta facendo sondaggi per un difensore centrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un nome su cui dobbiamo approfondire.",
+          "start_sec": 78.2,
+          "end_sec": 108.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nathan",
+      "position": "Nathan è un difensore che piace al Milan.",
+      "polarity": "neutral",
+      "claim_id": "15a293ea-5507-4810-b4cf-c1f7f13293cc",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s4",
+      "target_entity": "Nathan",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nathan è un difensore che piace al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un difensore che piace al Milan",
+          "start_sec": 105.479,
+          "end_sec": 143.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Nico Paz",
+      "position": "Nico Paz ha segnato contro la Fiorentina.",
+      "polarity": "positive",
+      "claim_id": "4523e8e7-b58c-4d4b-a891-77819c50bd04",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s1",
+      "target_entity": "Nico Paz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Nico Paz ha segnato contro la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nico Paz segna tanto per cambiare",
+          "start_sec": 27.439,
+          "end_sec": 55.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Paz",
+      "position": "Nico Paz vuole contribuire alla crescita del Como.",
+      "polarity": "positive",
+      "claim_id": "5e7d182d-7be0-4166-880a-00070041a44f",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s2",
+      "target_entity": "Nico Paz",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nico Paz vuole contribuire alla crescita del Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nico Paz davvero vuole contribuire la crescita del Como.",
+          "start_sec": 53.399,
+          "end_sec": 80.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Norton Caffi",
+      "position": "Norton Caffi è un nome interessante per il mercato.",
+      "polarity": "neutral",
+      "claim_id": "31c61e20-1a2e-48c6-9dc7-e3ec7200eb47",
+      "video_id": "y0RPG0Xz1Kw",
+      "segment_id": "s0",
+      "target_entity": "Norton Caffi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Norton Caffi è un nome interessante per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo detto di Norton Caffi",
+          "start_sec": 0.28,
+          "end_sec": 29.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+{
+  "video_id": "2u3PlsvS3Qk",
+  "analyzed_at": "2026-04-17T10:38:00.690650+00:00",
+  "metadata": null,
+  "summary": "Il video di Azzurro-Fluido si concentra sulla partita imminente tra Napoli e Milan, analizzando le dichiarazioni di Allegri e di Sabatini, che sollevano questioni importanti riguardo alla nazionale italiana. L'autore esprime preoccupazione per l'assenza dell'Italia al prossimo Mondiale, evidenziando come il livello del calcio europeo stia aumentando e rendendo difficile per le squadre tradizionali ottenere risultati. Inoltre, mette in risalto la figura di Kevin De Bruyne, il quale, nonostante il suo atteggiamento riservato, desidera supportare la nuova generazione di calciatori. In conclusione",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Kevin De Bruyne",
+      "position": "Kevin De Bruyne vuole aiutare la nuova generazione.",
+      "polarity": "positive",
+      "claim_id": "fcee6cd6-32cb-4e13-bafd-3e83ea61b1a4",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s1",
+      "target_entity": "Kevin De Bruyne",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kevin De Bruyne vuole aiutare la nuova generazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Devo aiutare questa nuova generazione che si aspetta",
+          "start_sec": 105.6,
+          "end_sec": 188.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli è messo in parallelo con il Verona e Bastoni.",
+      "polarity": "neutral",
+      "claim_id": "65bb77f9-65e3-4c0e-9702-856c9c86a07a",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli è messo in parallelo con il Verona e Bastoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Italia al paragone col Napoli Verona e Bastoni",
+          "start_sec": 3.159,
+          "end_sec": 108.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Italia",
+      "position": "Si parla di dichiarazioni gravi riguardo alla nazionale.",
+      "polarity": "negative",
+      "claim_id": "f2ddaeba-6922-4df1-82f7-f88dd64393c9",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si parla di dichiarazioni gravi riguardo alla nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "roba veramente grave",
+          "start_sec": 3.159,
+          "end_sec": 108.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kevin De Bruyne",
+      "position": "Kevin De Bruyne ha un atteggiamento riservato.",
+      "polarity": "neutral",
+      "claim_id": "c95b1419-691d-4590-9f7c-9db4f76ae4ab",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s1",
+      "target_entity": "Kevin De Bruyne",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kevin De Bruyne ha un atteggiamento riservato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'atteggiamento dativo e nel privato è piuttosto riservato",
+          "start_sec": 105.6,
+          "end_sec": 188.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Italia",
+      "position": "L'Italia non parteciperà al Mondiale.",
+      "polarity": "negative",
+      "claim_id": "c9595b6a-ff9d-4b3c-9184-72d097da611d",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia non parteciperà al Mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Certo che non andare al mondiale per un paese come l'Italia è",
+          "start_sec": 105.6,
+          "end_sec": 188.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Italia",
+      "position": "Il calcio italiano è in crisi.",
+      "polarity": "negative",
+      "claim_id": "e6db8570-4746-4c8a-be98-d7c61ba03211",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano è in crisi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il calcio italiano è in crisi, forse se non fai il mondiale per tre edizioni di fila, forse lo sei.",
+          "start_sec": 186.56,
+          "end_sec": 276.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Italia",
+      "position": "La filosofia di gioco italiana è criticata.",
+      "polarity": "neutral",
+      "claim_id": "f9f744d8-9fe7-43a5-b20c-3ac117f64e05",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La filosofia di gioco italiana è criticata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "basta col 352, il catenaccio, la filosofia, la mentalità avrebbero esaltato.",
+          "start_sec": 186.56,
+          "end_sec": 276.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "De Bruine",
+      "position": "De Bruine è stato intervistato dalla Gazzetta.",
+      "polarity": "neutral",
+      "claim_id": "cec7d390-ae3a-444a-b74b-1a77dad7700d",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s0",
+      "target_entity": "De Bruine",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Bruine è stato intervistato dalla Gazzetta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Gazzetta che ha intervistato De Bruine",
+          "start_sec": 3.159,
+          "end_sec": 108.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ken",
+      "position": "Ken potrebbe influenzare il risultato se segnasse.",
+      "polarity": "neutral",
+      "claim_id": "74632227-32a8-4c70-984b-944cefa5a539",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s2",
+      "target_entity": "Ken",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Ken potrebbe influenzare il risultato se segnasse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se Ken alla fine fa quel gol in contropiede.",
+          "start_sec": 186.56,
+          "end_sec": 276.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Caressa",
+      "position": "Caressa critica l'eccesso di possesso palla.",
+      "polarity": "neutral",
+      "claim_id": "43c9ca49-6da0-4125-a2c1-1325794af9f4",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s2",
+      "target_entity": "Caressa",
+      "entity_type": "player",
+      "dimension": "rivalry",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Caressa critica l'eccesso di possesso palla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non serve a niente.",
+          "start_sec": 186.56,
+          "end_sec": 276.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kevin De Bruyne",
+      "position": "Kevin De Bruyne si sente bene dopo la sua amichevole.",
+      "polarity": "positive",
+      "claim_id": "cd4b2cec-eb52-4f37-92d0-af5011ce8276",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s1",
+      "target_entity": "Kevin De Bruyne",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kevin De Bruyne si sente bene dopo la sua amichevole.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sto bene. Un po' di jet leg da smaltire dopo il ritorno dalla me",
+          "start_sec": 105.6,
+          "end_sec": 188.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Milan",
+      "position": "Napoli affronterà il Milan in una partita importante.",
+      "polarity": "neutral",
+      "claim_id": "0a56af6d-1e36-44e5-982b-562db64e271b",
+      "video_id": "2u3PlsvS3Qk",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Napoli affronterà il Milan in una partita importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli- Milan ha parlato Allegri",
+          "start_sec": 3.159,
+          "end_sec": 108.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

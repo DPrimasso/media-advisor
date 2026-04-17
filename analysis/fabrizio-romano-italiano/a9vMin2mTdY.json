@@ -1,0 +1,358 @@
+{
+  "video_id": "a9vMin2mTdY",
+  "analyzed_at": "2026-04-17T09:33:59.632460+00:00",
+  "metadata": {
+    "title": "🚨 NAPOLI: È FATTA! NIENTE EN NESYRI: LA JUVE ALLO SPRINT. DIBU MARTINEZ, LA VERITÀ MLACIC, CARRASCO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-23"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti operazioni di calciomercato del Napoli e sulla partenza di Noalang verso il Galatasaray. L'autore sottolinea che, nonostante il mercato sia bloccato, il Napoli è riuscito a chiudere l'acquisto di Giovanni dal Verona per un pacchetto complessivo di 20 milioni di euro, dimostrando una strategia efficace per gestire le uscite e le entrate. Inoltre, si evidenzia che la Juventus ha preso una posizione decisiva su En Nesyri, sottraendolo così alla corsa del Napoli, suggerendo che il club partenopeo non è ancora soddisfatto e sta esplorando ulter",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "high"
+    },
+    {
+      "name": "attacco",
+      "relevance": "high"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli incassa più di 4-5 milioni dai prestiti di Noalang e Lucca.",
+      "polarity": "positive",
+      "claim_id": "af7e3005-7be4-461b-88ce-f4b2c68eb5e4",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli incassa più di 4-5 milioni dai prestiti di Noalang e Lucca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un gruzzoletto non da poco che supera i 4-5 milioni",
+          "start_sec": 87.479,
+          "end_sec": 120.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Noalang",
+      "position": "Non c'era possibilità che Noalang partisse dopo Juventus-Napoli.",
+      "polarity": "negative",
+      "claim_id": "82c3825e-ddef-4d7a-97b3-9ffed2c583c8",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s0",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non c'era possibilità che Noalang partisse dopo Juventus-Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per il Galatasaray non è mai esistita questa possibilità, sennò saltava l'intera",
+          "start_sec": 0.68,
+          "end_sec": 29.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli riesce a operare sul mercato nonostante il blocco.",
+      "polarity": "positive",
+      "claim_id": "77dbb68d-b475-435c-87d0-b861b61bceb3",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli riesce a operare sul mercato nonostante il blocco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Come fa il Napoli a fare questa operazione col mercato bloccato?",
+          "start_sec": 55.719,
+          "end_sec": 89.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli sta studiando diverse soluzioni per il mercato.",
+      "polarity": "positive",
+      "claim_id": "210b349b-c016-4ebd-b40f-cafd47d4849e",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta studiando diverse soluzioni per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché il Napoli vuole fare qualcos'altro, sta studiando diverse soluzioni.",
+          "start_sec": 117.24,
+          "end_sec": 149.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta trattando il prestito di En Nesyri.",
+      "polarity": "positive",
+      "claim_id": "a7dc3d17-768e-433f-9050-cd7faacf71b0",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s6",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta trattando il prestito di En Nesyri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus e Fenerbace sperano di arrivare al traguardo sulla cifra del prestito.",
+          "start_sec": 179.959,
+          "end_sec": 207.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbace",
+      "position": "Il Fenerbace è coinvolto nella trattativa per En Nesyri.",
+      "polarity": "positive",
+      "claim_id": "29525be5-bc14-4392-b7c7-efe3f29646a8",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s6",
+      "target_entity": "Fenerbace",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Fenerbace è coinvolto nella trattativa per En Nesyri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus e Fenerbace sperano di arrivare al traguardo sulla cifra del prestito.",
+          "start_sec": 179.959,
+          "end_sec": 207.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "prestito",
+      "position": "Il prestito di En Nesyri non sarà a costo zero.",
+      "polarity": "positive",
+      "claim_id": "3281273c-ae01-420f-996f-12939b774059",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s6",
+      "target_entity": "prestito",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il prestito di En Nesyri non sarà a costo zero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sarà un prestito gratuito, non sarà un prestito da 1 milione.",
+          "start_sec": 179.959,
+          "end_sec": 207.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Noalang",
+      "position": "Noalang è atterrato a Istanbul per unirsi al Galatasaray.",
+      "polarity": "positive",
+      "claim_id": "d8c1df9d-b3e0-4fe7-956c-8d8818fd0dbe",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s0",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Noalang è atterrato a Istanbul per unirsi al Galatasaray.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Noalang è atterrato a Istanbul.",
+          "start_sec": 0.68,
+          "end_sec": 29.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli non ha finito con il mercato.",
+      "polarity": "positive",
+      "claim_id": "734e310b-0425-483e-8e38-b586c3808d06",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli non ha finito con il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma sicuramente un Napoli che non ha finito qui.",
+          "start_sec": 117.24,
+          "end_sec": 149.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Crystal Palace",
+      "position": "Il Crystal Palace mantiene la sua posizione sulla cessione di Matetà.",
+      "polarity": "neutral",
+      "claim_id": "9d86e3f1-31cd-40a1-971c-87cafe71dea6",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s7",
+      "target_entity": "Crystal Palace",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Crystal Palace mantiene la sua posizione sulla cessione di Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Palace non cambia la sua posizione.",
+          "start_sec": 205.319,
+          "end_sec": 234.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha sondato diversi nomi recentemente.",
+      "polarity": "neutral",
+      "claim_id": "e3562a96-42bb-4bd1-a677-3fd958300058",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha sondato diversi nomi recentemente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un nome che il Napoli ha sondato durante i giorni scorsi.",
+          "start_sec": 117.24,
+          "end_sec": 149.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "En Nesyri",
+      "position": "En Nesyri ha dato un'apertura alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "38b8cd77-9e68-4ee5-8c3e-d932dd52e75f",
+      "video_id": "a9vMin2mTdY",
+      "segment_id": "s6",
+      "target_entity": "En Nesyri",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "En Nesyri ha dato un'apertura alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "En Nesir che ha dato un'apertura alla Juventus importante durante la giornata di giovedì.",
+          "start_sec": 179.959,
+          "end_sec": 207.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

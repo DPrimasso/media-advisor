@@ -1,0 +1,366 @@
+{
+  "video_id": "uP20UngmFmQ",
+  "analyzed_at": "2026-04-16T15:03:56.078877+00:00",
+  "metadata": {
+    "title": "🚨 CHIAMATA PER GORETZKA! CALHANOGLU, CASEMIRO, MAINOO, STANKOVIC: A TUTTO CENTROCAMPO",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-27"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sul mercato dei centrocampisti, con particolare attenzione a nomi di spicco come Casemiro. L'autore sottolinea che, nonostante i rumor che lo accostano al Milan, attualmente non ci sono trattative concrete e il club rossonero ha altre priorità. Romano conclude che, essendo Casemiro un giocatore di grande valore, le sue opzioni potrebbero cambiare rapidamente, specialmente in vista di un possibile trasferimento a parametro zero.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "opportunità",
+      "relevance": "high"
+    },
+    {
+      "name": "centrocampisti",
+      "relevance": "high"
+    },
+    {
+      "name": "notizie",
+      "relevance": "medium"
+    },
+    {
+      "name": "centrocampo",
+      "relevance": "medium"
+    },
+    {
+      "name": "ingaggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    },
+    {
+      "name": "priorità",
+      "relevance": "low"
+    },
+    {
+      "name": "obiettivi",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Casemiro",
+      "position": "Casemiro è descritto come una leggenda del Manchester United.",
+      "polarity": "neutral",
+      "claim_id": "9ac7ae9c-6c7f-4069-9e3c-706995274772",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s3",
+      "target_entity": "Casemiro",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Casemiro è descritto come una leggenda del Manchester United.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è sicuramente una leggenda che ha fatto benissimo nel corso della sua carriera.",
+          "start_sec": 81.28,
+          "end_sec": 112.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Non ci sono collegamenti tra il calciatore e il Milan.",
+      "polarity": "neutral",
+      "claim_id": "6fbc9683-4b35-432c-aa6f-fee471302a66",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono collegamenti tra il calciatore e il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sia un calciatore che ad oggi diciamo che non è accostabile al Club Rossonero",
+          "start_sec": 109.399,
+          "end_sec": 143.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Goretzka",
+      "position": "Goretzka non è un obiettivo concreto per il Milan.",
+      "polarity": "negative",
+      "claim_id": "44ef11fc-5373-4681-82a1-bd5c315fccea",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s4",
+      "target_entity": "Goretzka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Goretzka non è un obiettivo concreto per il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è accostabile al Club Rossonero, che il Milan ha altri obiettivi",
+          "start_sec": 109.399,
+          "end_sec": 143.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe cambiare obiettivi di mercato con i parametri zero.",
+      "polarity": "neutral",
+      "claim_id": "38aacb83-89b0-46d0-bd62-58d7df1002ff",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Milan potrebbe cambiare obiettivi di mercato con i parametri zero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per i parametri zero può succedere di tutto in qualsiasi momento, può cambiare tutto",
+          "start_sec": 109.399,
+          "end_sec": 143.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "centrocampisti",
+      "position": "Ci saranno notizie sui centrocampisti durante il weekend.",
+      "polarity": "neutral",
+      "claim_id": "1bc9afbf-ba7b-41df-b54b-ce15c1de7d4c",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s1",
+      "target_entity": "centrocampisti",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci saranno notizie sui centrocampisti durante il weekend.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci saranno delle notizie eh durante il weekend",
+          "start_sec": 32.52,
+          "end_sec": 56.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "centrocampisti",
+      "position": "Saranno date opportunità e aggiornamenti sui centrocampisti.",
+      "polarity": "neutral",
+      "claim_id": "ad65930d-4180-403a-b243-fcec27f5ee2f",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s1",
+      "target_entity": "centrocampisti",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Saranno date opportunità e aggiornamenti sui centrocampisti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parliamo più di scenari, di opportunità, di sensazioni",
+          "start_sec": 32.52,
+          "end_sec": 56.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Casemiro",
+      "position": "Ci sono rumors sul futuro di Casemiro.",
+      "polarity": "neutral",
+      "claim_id": "bdc2e99e-1906-4b84-8121-cbca78963152",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s3",
+      "target_entity": "Casemiro",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono rumors sul futuro di Casemiro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo tipo di situazione, perché in questi giorni è uscito il rumor, no, che lo per",
+          "start_sec": 81.28,
+          "end_sec": 112.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha altre priorità nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "e2379a67-2dc5-4da8-831c-b336295fceb7",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha altre priorità nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan ha altri obiettivi, altre priorità, sta guardando altre situazioni di mercato",
+          "start_sec": 109.399,
+          "end_sec": 143.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Casemiro",
+      "position": "Casemiro potrebbe avere opportunità di mercato.",
+      "polarity": "neutral",
+      "claim_id": "8c923e57-ce0e-4574-8aba-a96cbe349218",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s5",
+      "target_entity": "Casemiro",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Casemiro potrebbe avere opportunità di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando un giocatore come Casimiro si mette sul mercato, insomma, vedremo che tipo di opportunità avrà.",
+          "start_sec": 141.84,
+          "end_sec": 164.44000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Fabrizio Romano",
+      "position": "Romano annuncia una diretta nel weekend.",
+      "polarity": "neutral",
+      "claim_id": "e310443b-d415-439a-b0a3-0ce6011158fb",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s0",
+      "target_entity": "Fabrizio Romano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Romano annuncia una diretta nel weekend.",
+      "evidence_quotes": [
+        {
+          "quote_text": "torneremo in diretta con voi nel weekend.",
+          "start_sec": 0.08,
+          "end_sec": 33.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Fabrizio Romano",
+      "position": "Il video discute di mercato e centrocampisti.",
+      "polarity": "neutral",
+      "claim_id": "46f32ef9-14b3-4b9c-835a-d52c4edb036a",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s0",
+      "target_entity": "Fabrizio Romano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il video discute di mercato e centrocampisti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parliamo di mercato, parliamo di centrocampisti.",
+          "start_sec": 0.08,
+          "end_sec": 33.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Manchester United",
+      "position": "Il Manchester United è accostato al Milan.",
+      "polarity": "neutral",
+      "claim_id": "823da334-6ea0-4b3b-82fb-bd70539b9dba",
+      "video_id": "uP20UngmFmQ",
+      "segment_id": "s3",
+      "target_entity": "Manchester United",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Manchester United è accostato al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono arrivati degli accostamenti con il Milan.",
+          "start_sec": 81.28,
+          "end_sec": 112.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

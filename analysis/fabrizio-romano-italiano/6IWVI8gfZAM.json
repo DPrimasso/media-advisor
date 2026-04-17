@@ -1,0 +1,358 @@
+{
+  "video_id": "6IWVI8gfZAM",
+  "analyzed_at": "2026-04-16T16:05:19.585175+00:00",
+  "metadata": {
+    "title": "🚨💣 JUVE  NON È FINITA! KOLO, MATETA, LOOKMAN  CHE SUCCEDE! FRATTESI E IL DOMINO INTER, DISASI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-31"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità del mercato calcistico, con particolare attenzione alla Juventus e alla sua ricerca di Randal Colom Muani. L'autore esprime ottimismo riguardo alla possibilità che la Juventus riesca a portare l'attaccante francese in bianconero, sottolineando la volontà del giocatore di tornare e la necessità di risposte definitive da parte del Tottenham e del Paris Saint-Germain. Inoltre, si accenna a trattative riguardanti Matetà e Lukman, evidenziando un periodo di grande fermento nel mercato invernale.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Lukman",
+      "position": "Lukman è al centro di trattative tra diverse squadre.",
+      "polarity": "neutral",
+      "claim_id": "eee21922-7d95-424f-a3ec-4a4efd91d052",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s0",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman è al centro di trattative tra diverse squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parleremo della situazione della vicenda di Lukman tra Fenerbace, Atalanta e chissà Atletico Madrid.",
+          "start_sec": 0.16,
+          "end_sec": 36.120000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus non ha perso le speranze di arrivare a Collo Muani.",
+      "polarity": "positive",
+      "claim_id": "4e87be0e-3dcd-4ee1-8f68-0eeea77a78d6",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus non ha perso le speranze di arrivare a Collo Muani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus non ha perso le speranze di arrivare a Collo Muani.",
+          "start_sec": 33.559,
+          "end_sec": 82.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus si aspetta delle risposte definitive oggi.",
+      "polarity": "positive",
+      "claim_id": "33eb1e59-1b49-434f-8864-9e3999323dda",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus si aspetta delle risposte definitive oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dato che la Juventus si aspetta delle risposte definitive sia lato Tottenham, sia lato Paris Saint-Germain",
+          "start_sec": 79.72,
+          "end_sec": 117.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Attaccante francese",
+      "position": "L'attaccante francese sta provando a liberarsi dalla situazione attuale.",
+      "polarity": "positive",
+      "claim_id": "01ee2e5b-48a8-4491-8972-8b5aca1e11a0",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s2",
+      "target_entity": "Attaccante francese",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'attaccante francese sta provando a liberarsi dalla situazione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta provando a liberarsi dalla situazione per avvicinarsi a un ritorno",
+          "start_sec": 79.72,
+          "end_sec": 117.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tottenham",
+      "position": "I rapporti tra Colom e il Tottenham non sono buoni.",
+      "polarity": "negative",
+      "claim_id": "b2b276be-4253-4030-8747-452bb5509ff1",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s3",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I rapporti tra Colom e il Tottenham non sono buoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ormai i rapporti tra Colomie e il Tottenham non sono buoni.",
+          "start_sec": 115.479,
+          "end_sec": 154.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta lavorando su una potenziale pista di trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "44ad2edd-203e-4134-8e43-43434fc9ac16",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta lavorando su una potenziale pista di trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è ancora potenzialmente una pista fattibile per la Juventus che su cui la Juventus sta lavorando",
+          "start_sec": 150.28,
+          "end_sec": 184.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "PSG",
+      "position": "Il Paris Saint-Germain è il club proprietario del cartellino di un calciatore.",
+      "polarity": "neutral",
+      "claim_id": "a5602fb9-afb9-492a-be01-bc5960663e30",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s4",
+      "target_entity": "PSG",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris Saint-Germain è il club proprietario del cartellino di un calciatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Paris Saint-Germain è il club proprietario del cartellino del calciatore",
+          "start_sec": 150.28,
+          "end_sec": 184.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus crede ancora nella trattativa per Colom.",
+      "polarity": "positive",
+      "claim_id": "5464dfe4-574f-4e42-8b71-a512c8bfa3c4",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus crede ancora nella trattativa per Colom.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus adesso ci crede, ci crede ancora.",
+          "start_sec": 115.479,
+          "end_sec": 154.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matetà",
+      "position": "Matetà è discusso nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "ee06105c-2959-4330-b837-e1c845b9cd69",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s0",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà è discusso nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parleremo di Matetà, della situazione della vicenda di Lukman tra Fenerbace, Atalanta e chissà Atletico Madrid.",
+          "start_sec": 0.16,
+          "end_sec": 36.120000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Collo Muani",
+      "position": "Collo Muani è nel mirino della Juventus.",
+      "polarity": "positive",
+      "claim_id": "37950459-b0d8-466c-8bfb-8e0946599c95",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s1",
+      "target_entity": "Collo Muani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Collo Muani è nel mirino della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbe essere il tema del weekend perché la Juventus non ha perso le speranze di arrivare a Collo Muani.",
+          "start_sec": 33.559,
+          "end_sec": 82.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "Il Milan avrà nuovi contatti per Mateta.",
+      "polarity": "neutral",
+      "claim_id": "76583e29-c54d-4c1a-ae77-34303f3bf7a4",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s4",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan avrà nuovi contatti per Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan oggi avrà nuovi contatti",
+          "start_sec": 150.28,
+          "end_sec": 184.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Oggi potrebbe essere una giornata molto importante per la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "3493f48f-fa78-4e13-befe-0c653a5c0b15",
+      "video_id": "6IWVI8gfZAM",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Oggi potrebbe essere una giornata molto importante per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ocio perché potrebbe essere una giornata molto importante oggi",
+          "start_sec": 79.72,
+          "end_sec": 117.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

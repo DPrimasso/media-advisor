@@ -1,0 +1,358 @@
+{
+  "video_id": "1A5gnGlUPRU",
+  "analyzed_at": "2026-04-16T16:24:29.495295+00:00",
+  "metadata": {
+    "title": "🚨💣 INTER: UN ADDIO E DUE AFFARI! KOLO-JUVE, E ORA? ALISSON, DIABY AVANZA, PERISIC, AKE, COLPO LAZIO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-29"
+  },
+  "summary": "Il video di Fabrizio Romano analizza gli sviluppi recenti del calciomercato italiano, focalizzandosi su diverse operazioni in corso. L'autore sottolinea l'interesse della Juventus per Randal Colomani, evidenziando che il giocatore è aperto a un ritorno, ma che il Tottenham potrebbe ostacolare l'operazione. Inoltre, si menzionano le manovre dell'Udinese per Jannik Eduardo e l'acquisto della Lazio di Adrian Perek, indicando un mercato attivo e dinamico. In conclusione, Romano suggerisce che, nonostante le difficoltà, la Juventus continuerà a perseguire Colomani, mentre altre squadre stanno cerca",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "corteggiamento",
+      "relevance": "high"
+    },
+    {
+      "name": "trattative",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Adrian Perek",
+      "position": "Adrian Perek è stato acquistato per 4,5 milioni di euro più bonus.",
+      "polarity": "positive",
+      "claim_id": "70b8db2f-219c-4e13-ae3b-e43d9657e4ee",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s1",
+      "target_entity": "Adrian Perek",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Adrian Perek è stato acquistato per 4,5 milioni di euro più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "operazione fatta per 4, mil5 milioni e mezzo più bonus.",
+          "start_sec": 27.4,
+          "end_sec": 57.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Jannik Eduardo",
+      "position": "Jannik Eduardo è attaccante dell'IPSIA e attualmente in prestito in Olanda.",
+      "polarity": "neutral",
+      "claim_id": "f0988a97-bb26-495a-9040-7d7069d47886",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s0",
+      "target_entity": "Jannik Eduardo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jannik Eduardo è attaccante dell'IPSIA e attualmente in prestito in Olanda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "attaccante dell'IPSIA. sondaggio del club in queste ore per provare a prenderlo. Al momento è in prestito in Olanda",
+          "start_sec": 0.44,
+          "end_sec": 28.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio ha concluso un accordo per Adrian Perek.",
+      "polarity": "positive",
+      "claim_id": "5fd77350-2a75-4f5e-a859-2ab9c0f6ddd0",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha concluso un accordo per Adrian Perek.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio, invece, come raccontato nella serata di ieri, ... ha chiuso tutti i dettagli con il Pogon Club Polacco dell'operazione per prendere questo centrocampista Adrian Perek.",
+          "start_sec": 27.4,
+          "end_sec": 57.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio sta cercando di rinforzarsi nel mercato.",
+      "polarity": "positive",
+      "claim_id": "8d9a3232-2c97-47d1-bd1e-93ea2bbdbae1",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta cercando di rinforzarsi nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un rinforzo in più per la Lazio, insomma si muove sempre il mercato.",
+          "start_sec": 27.4,
+          "end_sec": 57.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta considerando di acquisire Randal Col Money.",
+      "polarity": "neutral",
+      "claim_id": "d0edf98b-17bf-4cb9-9d2f-8740e4cb2405",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta considerando di acquisire Randal Col Money.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus che oggi cercherà di capire se il Tottenham può dare aperture all'uscita di Randal Col Money o meno.",
+          "start_sec": 56.399,
+          "end_sec": 87.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus sta lavorando positivamentente per il mercato.",
+      "polarity": "positive",
+      "claim_id": "e72253fd-56ab-4444-a331-e0df91a25108",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta lavorando positivamentente per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus che è concentrato i suoi sforzi lato giocatore fino ad oggi e lo ha fatto in maniera positiva.",
+          "start_sec": 56.399,
+          "end_sec": 87.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Tottenham",
+      "position": "Il Tottenham è nelle prime otto della Champions League.",
+      "polarity": "neutral",
+      "claim_id": "758f46fc-31c5-4979-b7a3-bab0774a31f0",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s4",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Tottenham è nelle prime otto della Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "...portare il Tottenham tra le prime otto di questa prima fase della Champions League.",
+          "start_sec": 108.119,
+          "end_sec": 132.95899999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Udinese",
+      "position": "L'Udinese sta sondando per Jannik Eduardo.",
+      "polarity": "neutral",
+      "claim_id": "05869ff1-75e3-40ed-8cde-f5e0b720a25b",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s0",
+      "target_entity": "Udinese",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Udinese sta sondando per Jannik Eduardo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sondaggio del club in queste ore per provare a prenderlo",
+          "start_sec": 0.44,
+          "end_sec": 28.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta corteggiando Colomani.",
+      "polarity": "positive",
+      "claim_id": "a982e620-6612-4fc4-be4e-a19942923118",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta corteggiando Colomani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un corteggiamento che la Juve ha fatto partire dai piani più alti fino al campo",
+          "start_sec": 85.84,
+          "end_sec": 109.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Colomani",
+      "position": "Colomani lascia tutto nelle mani del Tottenham.",
+      "polarity": "neutral",
+      "claim_id": "332457cc-acb2-4dcb-9fd0-c331709f3038",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s3",
+      "target_entity": "Colomani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Colomani lascia tutto nelle mani del Tottenham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giocatore lascia tutto tra le mani del Tottenham",
+          "start_sec": 85.84,
+          "end_sec": 109.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Ex compagni della Juventus hanno contattato Colomani.",
+      "polarity": "neutral",
+      "claim_id": "035b2659-d558-47dc-b233-ab097f0daf8a",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ex compagni della Juventus hanno contattato Colomani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli ex compagni giocatori della Juventus di Randal Colomani si sono fatti sentire messaggi anche chiamate",
+          "start_sec": 85.84,
+          "end_sec": 109.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Colomani",
+      "position": "Colomani è aperto a tornare alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "0334bad1-2b7a-4899-aa28-651db439844f",
+      "video_id": "1A5gnGlUPRU",
+      "segment_id": "s3",
+      "target_entity": "Colomani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Colomani è aperto a tornare alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giocatore è aperto a tornare alla Juventus",
+          "start_sec": 85.84,
+          "end_sec": 109.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

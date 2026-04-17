@@ -1,0 +1,366 @@
+{
+  "video_id": "aWO6MMR0lNg",
+  "analyzed_at": "2026-04-16T15:20:10.925990+00:00",
+  "metadata": {
+    "title": "🚨 TENTATIVO VLAHOVIC! JUVE: OFFERTA PER SENESI. CAMARDA, BARTESAGHI E IL FUTURO MILAN",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-17"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle strategie di mercato delle squadre di calcio italiane, in particolare Juventus e Milan, in vista di possibili trasferimenti e rinnovi contrattuali. L'autore sottolinea che, nonostante non siamo ufficialmente in una finestra di mercato, i club stanno già pianificando mosse per bloccare giovani talenti e gestire situazioni contrattuali, come nel caso di Dusan Vlaovic e Marcos Senesi per la Juve, e di Francesco Camarda e Davide Bartesaghi per il Milan. Romano conclude che i colloqui per il rinnovo di Bartesaghi sono previsti per la fine della stagion",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovani",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "ingaggio",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "low"
+    },
+    {
+      "name": "ruolo",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "club",
+      "position": "Non siamo ufficialmente all'interno di una finestra di mercato.",
+      "polarity": "neutral",
+      "claim_id": "d6eca9a3-a285-4e07-8d22-65e8d5ce5155",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s0",
+      "target_entity": "club",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non siamo ufficialmente all'interno di una finestra di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non siamo ufficialmente all'interno di una finestra di mercato",
+          "start_sec": 0.24,
+          "end_sec": 37.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatori",
+      "position": "Le squadre si muoveranno per bloccare obiettivi prima del mondiale.",
+      "polarity": "neutral",
+      "claim_id": "b50a198e-71fa-4d85-b92a-6997af74d5d0",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s0",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Le squadre si muoveranno per bloccare obiettivi prima del mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "diverse squadre si muoveranno anche prima del mondiale per cercare di bloccare determinati obiettivi",
+          "start_sec": 0.24,
+          "end_sec": 37.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Dusan Vlaovicć",
+      "position": "Dusan Vlaovicć è ancora sotto contratto con la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "21be7595-8d48-4849-a4df-610b2ec96943",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s1",
+      "target_entity": "Dusan Vlaovicć",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Dusan Vlaovicć è ancora sotto contratto con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno perché è ancora sotto contratto, ovvero Dusan Vlaovicć.",
+          "start_sec": 34.04,
+          "end_sec": 80.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il rendimento di Bartesaghi ha contribuito al Milan attuale.",
+      "polarity": "positive",
+      "claim_id": "e0528a8a-2570-4954-a9fa-370e09c72136",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il rendimento di Bartesaghi ha contribuito al Milan attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno garantito un certo rendimento a Massimiliano Allegri",
+          "start_sec": 77.84,
+          "end_sec": 116.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Marcos Senesi",
+      "position": "Marcos Senesi è legato al mondo della Juventus.",
+      "polarity": "neutral",
+      "claim_id": "4665034f-bba9-43ec-9289-39b351e29836",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s1",
+      "target_entity": "Marcos Senesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marcos Senesi è legato al mondo della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'altro è Marcos Senesi.",
+          "start_sec": 34.04,
+          "end_sec": 80.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Francesco Camarda",
+      "position": "Francesco Camarda è una giovane promessa del Milan.",
+      "polarity": "neutral",
+      "claim_id": "c456b76d-cc90-4e67-ab9a-184557ef7ed8",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s1",
+      "target_entity": "Francesco Camarda",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Francesco Camarda è una giovane promessa del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il futuro di Francesco Camarda.",
+          "start_sec": 34.04,
+          "end_sec": 80.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta puntando su giovani promesse.",
+      "polarity": "neutral",
+      "claim_id": "589c56b4-33c6-4c2c-a1aa-d5abf5b4e911",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta puntando su giovani promesse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono due giovani in primo piano, il futuro di Francesco Camarda e quello di Davide Bartesaghi.",
+          "start_sec": 34.04,
+          "end_sec": 80.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri ha beneficiato del rendimento di Bartesaghi.",
+      "polarity": "positive",
+      "claim_id": "10df8dfd-6a3a-4057-8a78-2cfa63a657be",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s2",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri ha beneficiato del rendimento di Bartesaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prestazioni di livello comunque che hanno garantito un certo rendimento a Massimiliano Allegri",
+          "start_sec": 77.84,
+          "end_sec": 116.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatori",
+      "position": "Ci sono giocatori in scadenza nei contratti.",
+      "polarity": "neutral",
+      "claim_id": "c13c7197-11fe-43dc-bf91-8a9219e6c328",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s0",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono giocatori in scadenza nei contratti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giocatori in scadenza",
+          "start_sec": 0.24,
+          "end_sec": 37.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Davide Bartesaghi",
+      "position": "Bartesaghi si è ritagliato un ruolo importante nel Milan.",
+      "polarity": "positive",
+      "claim_id": "c4218d67-731c-41a0-a41e-f5a22fd1feab",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s2",
+      "target_entity": "Davide Bartesaghi",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bartesaghi si è ritagliato un ruolo importante nel Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è costruito, si è ricoperto e ritagliato un determinato ruolo all'interno di questo Milan",
+          "start_sec": 77.84,
+          "end_sec": 116.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Davide Bartesaghi",
+      "position": "Bartesaghi ha mostrato una crescita esponenziale quest'anno.",
+      "polarity": "positive",
+      "claim_id": "04b0fd9a-44e1-4f3b-9b08-9b3485649328",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s2",
+      "target_entity": "Davide Bartesaghi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bartesaghi ha mostrato una crescita esponenziale quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bartesaghi che quest'anno ha avuto una crescita esponenziale",
+          "start_sec": 77.84,
+          "end_sec": 116.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "club",
+      "position": "I club stanno considerando situazioni contrattuali particolari.",
+      "polarity": "neutral",
+      "claim_id": "81ba1163-8f28-4c2f-b001-a569bc5d8271",
+      "video_id": "aWO6MMR0lNg",
+      "segment_id": "s0",
+      "target_entity": "club",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "I club stanno considerando situazioni contrattuali particolari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "situazioni contrattuali un po' particolari",
+          "start_sec": 0.24,
+          "end_sec": 37.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

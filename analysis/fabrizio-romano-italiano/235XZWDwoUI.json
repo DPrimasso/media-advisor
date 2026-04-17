@@ -1,0 +1,366 @@
+{
+  "video_id": "235XZWDwoUI",
+  "analyzed_at": "2026-04-17T09:49:04.328707+00:00",
+  "metadata": {
+    "title": "🚨 MATETA CHIEDE L’ADDIO! CHIESA, GIOVANE, EN NESYRI, MARCOS LEONARDO, PERISIC, SAMARDZIC, MINGUEZA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-21"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato riguardanti il Milan e la Juventus. L'autore evidenzia che il Milan è attualmente cauto nelle operazioni di mercato, in attesa di risolvere questioni legate al rinnovo di Magnan, mentre sta monitorando opportunità in difesa e possibili uscite di giocatori. Inoltre, si segnala che Jean-Filip Mateta ha richiesto di lasciare il Crystal Palace, con la Juventus interessata al suo ingaggio, mentre l'Aston Villa sta cercando un centrocampista a causa dell'infortunio di Bubakar Camara.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovani",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "progetto sportivo",
+      "relevance": "low"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "low"
+    },
+    {
+      "name": "europeo",
+      "relevance": "low"
+    },
+    {
+      "name": "strategia",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta aspettando di capire se risolverà il nodo delle commissioni per il rinnovo di Magnan.",
+      "polarity": "neutral",
+      "claim_id": "5c9e3fa8-0be7-4ad8-a590-4a36b3dd408d",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta aspettando di capire se risolverà il nodo delle commissioni per il rinnovo di Magnan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan sta aspettando di capire se riesce a risolvere questo eh nodo legato alle commissioni eh insomma eh per il rinnovo di Magnan.",
+          "start_sec": 0.199,
+          "end_sec": 69.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Attualmente, il Milan è più cauto nel mercato in entrata.",
+      "polarity": "neutral",
+      "claim_id": "4beaf66b-ebaa-4523-b6d2-3a50a21689bd",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Attualmente, il Milan è più cauto nel mercato in entrata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per quanto riguarda il mercato in entrata, dicevo, Fabri, è molto attivo il mercato relativo al Milan futuro, ma per la prima squadra in questo momento il Milan è più sornione.",
+          "start_sec": 0.199,
+          "end_sec": 69.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta monitorando eventuali occasioni di mercato in difesa.",
+      "polarity": "neutral",
+      "claim_id": "dd545877-88d2-4fbe-9e90-4906af3eb376",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta monitorando eventuali occasioni di mercato in difesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "guarda se ci saranno delle occasionissime in difesa.",
+          "start_sec": 0.199,
+          "end_sec": 69.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Aston Villa",
+      "position": "L'Aston Villa è in contatto con Ruben Loftus-Cheek attraverso i suoi procuratori.",
+      "polarity": "neutral",
+      "claim_id": "4434050b-bafc-4022-9fd2-e592741abacd",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s1",
+      "target_entity": "Aston Villa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Aston Villa è in contatto con Ruben Loftus-Cheek attraverso i suoi procuratori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Ston Villa si è messo in contatto con il gruppo Stellar che sono i procuratori di Ruben Loftus Chick",
+          "start_sec": 67.799,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Aston Villa",
+      "position": "Bubakar Camara ha subito un infortunio che ha spinto l'Aston Villa a cercare un centrocampista.",
+      "polarity": "neutral",
+      "claim_id": "b8b061cc-9d08-41b4-a875-b3f9813e018b",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s1",
+      "target_entity": "Aston Villa",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bubakar Camara ha subito un infortunio che ha spinto l'Aston Villa a cercare un centrocampista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è fatto male Bubakar Camaraccio, centrocampista molto importante per l'Astonvilla",
+          "start_sec": 67.799,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ruben Loftus-Cheek",
+      "position": "Ruben Loftus-Cheek sta negoziando il rinnovo del contratto con il Milan.",
+      "polarity": "neutral",
+      "claim_id": "e2418210-0c7f-456f-a057-2a7e7274ba29",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s1",
+      "target_entity": "Ruben Loftus-Cheek",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ruben Loftus-Cheek sta negoziando il rinnovo del contratto con il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da quanto mi risulta ha già iniziato dei dialoghi durante le ultime settimane... col Milan per rinnovare il suo contratto",
+          "start_sec": 67.799,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Jean-Filip Mateta",
+      "position": "Jean-Filip Mateta si è presentato al Crystal Palace con il suo avvocato.",
+      "polarity": "neutral",
+      "claim_id": "12bf7477-e819-423c-8fa5-37d7e627d4db",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s1",
+      "target_entity": "Jean-Filip Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jean-Filip Mateta si è presentato al Crystal Palace con il suo avvocato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Jean-Filip Matetà si è presentato personalmente in sede al Crystal Palace insieme al suo avvocato",
+          "start_sec": 67.799,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matetà",
+      "position": "Matetà non vuole andare in Arabia Saudita o in Turchia.",
+      "polarity": "neutral",
+      "claim_id": "304f8cfd-e633-4292-9522-c58540227734",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s2",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà non vuole andare in Arabia Saudita o in Turchia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giocatore non vuole andare in Arabia Saudita, il giocatore non vuole andare in Turchia.",
+          "start_sec": 139.08,
+          "end_sec": 187.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha domande relative a possibili uscite di giocatori.",
+      "polarity": "neutral",
+      "claim_id": "c4136ae5-ce56-4753-a253-28d1853181e7",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha domande relative a possibili uscite di giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vediamo se ci sono delle uscite.",
+          "start_sec": 0.199,
+          "end_sec": 69.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha un accordo economico con Matetà.",
+      "polarity": "positive",
+      "claim_id": "74df0aab-3a2f-4b61-a2c3-97b0288aa4b4",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus ha un accordo economico con Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Matetà ha un accordo economico con la Juve.",
+          "start_sec": 139.08,
+          "end_sec": 187.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Aston Villa",
+      "position": "L'Aston Villa è una delle squadre interessate a Matetà.",
+      "polarity": "positive",
+      "claim_id": "a4b1482c-c2d3-42e8-a457-708809e9f4f5",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s2",
+      "target_entity": "Aston Villa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Aston Villa è una delle squadre interessate a Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mat Tetac è stato cercato anche dallston Villa.",
+          "start_sec": 139.08,
+          "end_sec": 187.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matetà",
+      "position": "Matetà ha chiesto di andare via.",
+      "polarity": "neutral",
+      "claim_id": "ed71accc-d7c8-4989-bfdd-8879c51ed92f",
+      "video_id": "235XZWDwoUI",
+      "segment_id": "s2",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà ha chiesto di andare via.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Matetà ha chiesto di andare via.",
+          "start_sec": 139.08,
+          "end_sec": 187.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

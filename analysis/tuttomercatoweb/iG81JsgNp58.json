@@ -1,0 +1,362 @@
+{
+  "video_id": "iG81JsgNp58",
+  "analyzed_at": "2026-04-17T11:12:21.377398+00:00",
+  "metadata": null,
+  "summary": "Il video di commento calcistico analizza la situazione dei vivai nel calcio italiano, evidenziando la scarsità di giocatori italiani in campo, come dimostrato dalla partita Udinese-Como. L'autore sostiene che sarebbe utile abbassare l'età della primavera e introdurre un giocatore under 19 in ogni squadra di Serie A per migliorare la qualità dei vivai e garantire un futuro più competitivo. Inoltre, viene sottolineato che le regole UEFA, che richiedono un certo numero di giocatori cresciuti nel vivaio, non vengono sempre rispettate in Italia, portando a performance deludenti nelle competizioni e",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "giovani",
+      "relevance": "high"
+    },
+    {
+      "name": "settore giovanile",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "settori giovanili",
+      "relevance": "medium"
+    },
+    {
+      "name": "vivaio",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "regole",
+      "relevance": "low"
+    },
+    {
+      "name": "sviluppo",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Juventus",
+      "position": "Juventus deve avere quattro under 19 a disposizione.",
+      "polarity": "positive",
+      "claim_id": "ed3bcb60-d7e7-468b-8ad3-a30e071a7859",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus deve avere quattro under 19 a disposizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Noi come Juventus siamo costretti ad averne quattro a disposizione per farne giocare uno.",
+          "start_sec": 0.48,
+          "end_sec": 39.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Serie A",
+      "position": "Ogni squadra di Serie A dovrebbe far giocare un under 19.",
+      "polarity": "neutral",
+      "claim_id": "21608d12-8002-42c0-a5ce-399d60378f37",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s0",
+      "target_entity": "Serie A",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Ogni squadra di Serie A dovrebbe far giocare un under 19.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se noi si facesse giocare un under 19 in ogni squadra fisso in campo in ogni squadra di Serie A.",
+          "start_sec": 0.48,
+          "end_sec": 39.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "allenatore",
+      "position": "Un allenatore deve esporsi per le regole UEFA sui giocatori.",
+      "polarity": "neutral",
+      "claim_id": "50a3eb32-058b-48a3-8dc2-dc1b1d723e0a",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s1",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un allenatore deve esporsi per le regole UEFA sui giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "già il fatto che si espone un allenatore, quando è ufficiale e il primo anno, eh tre giocatori obbligatori nella diciamo nella rosa del tuo vivaio",
+          "start_sec": 36.6,
+          "end_sec": 115.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "UEFA",
+      "position": "La UEFA incoraggia la trasferta di giovani giocatori in competizioni continentali.",
+      "polarity": "neutral",
+      "claim_id": "4ff1d993-f190-48ed-93e4-c0743fe072c0",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s2",
+      "target_entity": "UEFA",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La UEFA incoraggia la trasferta di giovani giocatori in competizioni continentali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la filosofia della UEFA era quella di far viaggiare eventualmente in trasferta un gruppo che potesse in qualche modo essere, diciamo, un serbatoio già nel posto eh sul posto.",
+          "start_sec": 113.159,
+          "end_sec": 192.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roberto Baronio",
+      "position": "L'esperienza di Roberto Baronio è considerata rilevante nel contesto del settore giovanile.",
+      "polarity": "neutral",
+      "claim_id": "cfa34e70-9ea0-46af-8ac2-9835761d94c8",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s2",
+      "target_entity": "Roberto Baronio",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'esperienza di Roberto Baronio è considerata rilevante nel contesto del settore giovanile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi farebbe piacere ascoltassi l'esperienza di Roberto Baronio un po' di anni fa in questa in questa circostanza",
+          "start_sec": 113.159,
+          "end_sec": 192.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "big team",
+      "position": "Le grandi squadre italiane mantengono un numero significativo di giocatori del vivaio.",
+      "polarity": "neutral",
+      "claim_id": "1a738690-e7f3-4aa9-80ca-2f4eac428557",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s2",
+      "target_entity": "big team",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le grandi squadre italiane mantengono un numero significativo di giocatori del vivaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le big comunque quasi tutte in casa, quattro o cinque giocatori cresciuti nel vivaio ce l'hanno.",
+          "start_sec": 113.159,
+          "end_sec": 192.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "national youth academy",
+      "position": "Le squadre italiane acquistano anche giocatori provenienti da vivai nazionali.",
+      "polarity": "neutral",
+      "claim_id": "5d7f91c1-8372-44d6-9260-7cc7f40ec345",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s2",
+      "target_entity": "national youth academy",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre italiane acquistano anche giocatori provenienti da vivai nazionali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vanno a prendere giocatori, mi vien da dire, di un livello accettabile, se non da altre da altre realtà, vivaio nazionale.",
+          "start_sec": 113.159,
+          "end_sec": 192.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha venduto giocatori con una certa filosofia.",
+      "polarity": "positive",
+      "claim_id": "29354ecd-46ab-43b4-a60c-d0c61cd968a0",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha venduto giocatori con una certa filosofia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta, sia la Juventus, sia quella che negli ultimi anni, partendo con questo tipo di filosofia ha portato in prima squadra e poi stravenduto.",
+          "start_sec": 189.68,
+          "end_sec": 270.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "Alcune squadre con vivaio scarso non superano il primo turno nelle competizioni.",
+      "polarity": "neutral",
+      "claim_id": "755ffe05-7118-48c7-8dc7-31d2ac8c2196",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alcune squadre con vivaio scarso non superano il primo turno nelle competizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non passino mai il primo turno",
+          "start_sec": 36.6,
+          "end_sec": 115.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "youth league",
+      "position": "Esiste una regola UEFA riguardante il vivaio e le squadre.",
+      "polarity": "neutral",
+      "claim_id": "ccd5365c-aa6c-4498-bb91-da0ad7792a60",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s1",
+      "target_entity": "youth league",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Esiste una regola UEFA riguardante il vivaio e le squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella è una regola fatta dalla UEFA",
+          "start_sec": 36.6,
+          "end_sec": 115.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Udinese",
+      "position": "Bisognerebbe abbassare l'età della primavera.",
+      "polarity": "neutral",
+      "claim_id": "8cf0794f-d74d-42b3-bd92-0d8781015de0",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s0",
+      "target_entity": "Udinese",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Bisognerebbe abbassare l'età della primavera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisognerebbe abbassare l'età della primavera.",
+          "start_sec": 0.48,
+          "end_sec": 39.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "squadra",
+      "position": "Le squadre devono avere un buon vivaio per competere efficacemente.",
+      "polarity": "neutral",
+      "claim_id": "36643011-5d0f-45a6-ab94-83a7fb509659",
+      "video_id": "iG81JsgNp58",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre devono avere un buon vivaio per competere efficacemente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci meravigliamo poi se alcune che hanno un vivaio imbarazzante, mi viene da dire",
+          "start_sec": 36.6,
+          "end_sec": 115.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

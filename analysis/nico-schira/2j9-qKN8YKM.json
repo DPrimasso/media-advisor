@@ -1,0 +1,362 @@
+{
+  "video_id": "2j9-qKN8YKM",
+  "analyzed_at": "2026-04-17T11:33:56.560296+00:00",
+  "metadata": null,
+  "summary": "Il video di Nico Schira analizza la situazione critica della Sampdoria, attualmente in zona retrocessione in Serie B, e il recente esonero della coppia di allenatori Grelucci e Foti. L'autore sottolinea che la squadra sta cercando un traghettatore per il resto della stagione, con Beppe Ichini come principale candidato, mentre Roberto Mancini è considerato un sogno difficile da realizzare. Schira conclude evidenziando la necessità di un cambio di rotta immediato per evitare ulteriori complicazioni nella lotta per la salvezza.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "rimpianto",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "champions_league",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Sampdoria",
+      "position": "Sampdoria è di nuovo in zona retrocessione in Serie B.",
+      "polarity": "negative",
+      "claim_id": "abf21166-825e-4544-81af-d13b66575e73",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s0",
+      "target_entity": "Sampdoria",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sampdoria è di nuovo in zona retrocessione in Serie B.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Sampdoria in Serie B, Piazza Nobile precipitata di nuovo in zona retrocessione",
+          "start_sec": 1.04,
+          "end_sec": 31.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roberto Mancini",
+      "position": "Roberto Mancini è visto come un possibile nuovo allenatore.",
+      "polarity": "neutral",
+      "claim_id": "0767a1c5-e187-4621-8de0-7e6d54953026",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s1",
+      "target_entity": "Roberto Mancini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Roberto Mancini è visto come un possibile nuovo allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse anche del presidente Manfredi e Roberto Mancini.",
+          "start_sec": 29.279,
+          "end_sec": 59.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Beppe Ichini",
+      "position": "La Samp sta valutando la candidatura di Beppe Ichini come traghettatore.",
+      "polarity": "neutral",
+      "claim_id": "0185dba0-eb56-46c4-b6d1-b15d264cb5eb",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s2",
+      "target_entity": "Beppe Ichini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Samp sta valutando la candidatura di Beppe Ichini come traghettatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un'auto candidatura che sta comunque prendendo quota che in casa Samp stanno valutando che è quella di Beppe Ichini",
+          "start_sec": 56.199,
+          "end_sec": 81.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luca D'Angelo",
+      "position": "Luca D'Angelo ha un contratto di un altro anno e mezzo con lo Spezia.",
+      "polarity": "neutral",
+      "claim_id": "1bdfb323-3e17-4eb0-bc00-dc09247cef01",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s2",
+      "target_entity": "Luca D'Angelo",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Luca D'Angelo ha un contratto di un altro anno e mezzo con lo Spezia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "D'Angelo ha un altro anno e mezzo di contratto con lo Spezia",
+          "start_sec": 56.199,
+          "end_sec": 81.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sampdoria",
+      "position": "La Sampdoria cerca un traghettatore fino alla fine della stagione.",
+      "polarity": "neutral",
+      "claim_id": "e6564d59-652b-4031-b85f-981122b0f034",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s2",
+      "target_entity": "Sampdoria",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Sampdoria cerca un traghettatore fino alla fine della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Sampdoria non l'ha intenzionata ad accontentarlo, vuole un traghettatore da qui a fine stagione",
+          "start_sec": 56.199,
+          "end_sec": 81.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Rolando Maran",
+      "position": "Rolando Maran è un piano C per la Sampdoria.",
+      "polarity": "neutral",
+      "claim_id": "b7e1f1e1-4f4f-40df-b29d-630419bbbcb0",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s3",
+      "target_entity": "Rolando Maran",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rolando Maran è un piano C per la Sampdoria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "defilati Maran e Bisoli che sono dei piani B barra piani C",
+          "start_sec": 79.88,
+          "end_sec": 114.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cristian Kivu",
+      "position": "Cristian Kivu ha deluso con la sua squadra nelle grandi partite di Champions League.",
+      "polarity": "neutral",
+      "claim_id": "542100a3-a09d-4265-8f61-0348d336b849",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s4",
+      "target_entity": "Cristian Kivu",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cristian Kivu ha deluso con la sua squadra nelle grandi partite di Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la squadra nelle grandi partite ha deluso in Champions League",
+          "start_sec": 113.0,
+          "end_sec": 148.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Guido Pagliau",
+      "position": "Guido Pagliau è un'ipotesi per la prossima stagione.",
+      "polarity": "neutral",
+      "claim_id": "e4d462fa-d455-4d24-a044-b31f4c29cd08",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s3",
+      "target_entity": "Guido Pagliau",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Guido Pagliau è un'ipotesi per la prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è Guido Pagliau che è un'ipotesi",
+          "start_sec": 79.88,
+          "end_sec": 114.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "D'Angelo",
+      "position": "D'Angelo ha già rifiutato un'offerta per la panchina.",
+      "polarity": "negative",
+      "claim_id": "05813507-df9e-42d0-bf97-d2dfa74a648f",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s3",
+      "target_entity": "D'Angelo",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "D'Angelo ha già rifiutato un'offerta per la panchina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "D'Angelo ha già detto no.",
+          "start_sec": 79.88,
+          "end_sec": 114.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sampdoria",
+      "position": "Sampdoria cambia allenatore dopo una sconfitta.",
+      "polarity": "neutral",
+      "claim_id": "93384626-546e-48cc-9340-716a466a42c6",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s1",
+      "target_entity": "Sampdoria",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sampdoria cambia allenatore dopo una sconfitta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sampdoria che cambia allenatore, dopo la brutta sconfitta di ieri a Frosinole.",
+          "start_sec": 29.279,
+          "end_sec": 59.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Angelo Grelucci",
+      "position": "Angelo Grelucci è esonerato dal Sampdoria.",
+      "polarity": "negative",
+      "claim_id": "187a0339-d3ee-4d7c-9417-5b2c7c89b88d",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s1",
+      "target_entity": "Angelo Grelucci",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Angelo Grelucci è esonerato dal Sampdoria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha deciso di esonerare la coppia. Angelo Grelucci Salvatore Foti.",
+          "start_sec": 29.279,
+          "end_sec": 59.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sampdoria",
+      "position": "La Samp vuole un traghettatore immediato.",
+      "polarity": "neutral",
+      "claim_id": "54ab467e-6a6a-40ff-8c5f-230bea34451b",
+      "video_id": "2j9-qKN8YKM",
+      "segment_id": "s2",
+      "target_entity": "Sampdoria",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Samp vuole un traghettatore immediato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Samp vuole un traghettatore.",
+          "start_sec": 56.199,
+          "end_sec": 81.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

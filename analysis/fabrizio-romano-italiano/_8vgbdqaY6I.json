@@ -1,0 +1,342 @@
+{
+  "video_id": "_8vgbdqaY6I",
+  "analyzed_at": "2026-04-16T15:56:43.038811+00:00",
+  "metadata": {
+    "title": "🚨💣 COLPO A SORPRESA! ECCO BOGA! SCENARI E DETTAGLI: SULEMANA, GLI INCASTRI DEI TERZINI E NON SOLO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-01"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sul recente acquisto a sorpresa della Juventus, che ha chiuso un accordo per riportare Jeremy Boga in Italia. L'autore sottolinea che la Juventus ha cercato un giocatore che possa fungere da vice per Hildiz, senza però oscurarne il ruolo di titolare. La posizione principale di Romano è che, nonostante le altre opzioni esplorate, Boga rappresenta una scelta strategica, in grado di accettare un ruolo di supporto. Inoltre, il video accenna a situazioni di allenatori in difficoltà, come l'esonero di Gilardino dal Pisa e la precarietà di Paolo Zanetti a Vero",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "esonero",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "canale",
+      "position": "Il canale continuerà a funzionare anche dopo il mercato.",
+      "polarity": "neutral",
+      "claim_id": "7dbaba4b-c9f0-4f2a-82c2-60315d1515d0",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s0",
+      "target_entity": "canale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il canale continuerà a funzionare anche dopo il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo canale non muore, anzi stiamo lavorando a tante cose",
+          "start_sec": 0.359,
+          "end_sec": 26.759999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Zanetti",
+      "position": "La situazione di Paolo Zanetti a Verona è molto delicata.",
+      "polarity": "neutral",
+      "claim_id": "cd9d0439-b79f-4448-add5-dd946b1c32f5",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s1",
+      "target_entity": "Zanetti",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La situazione di Paolo Zanetti a Verona è molto delicata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la situazione di Paolo Zanetti a Verona è molto delicata.",
+          "start_sec": 25.0,
+          "end_sec": 52.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha chiuso un colpo a sorpresa per Jeremy Boga.",
+      "polarity": "positive",
+      "claim_id": "bcb7379e-6769-4f5b-9891-0ad4d0797277",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha chiuso un colpo a sorpresa per Jeremy Boga.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus chiude un colpo a sorpresa. Torna in Italia Jeremy Bogà.",
+          "start_sec": 50.719,
+          "end_sec": 83.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Juventus",
+      "position": "La Juventus non voleva un giocatore che oscurasse Hildiz.",
+      "polarity": "neutral",
+      "claim_id": "1a9e52b7-42ca-47fe-80c7-9c317a8aad35",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus non voleva un giocatore che oscurasse Hildiz.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus non voleva prendere un profilo di primissimo livello che potesse comunque oscurare Hildiz.",
+          "start_sec": 50.719,
+          "end_sec": 83.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Jeremy Boga",
+      "position": "Jeremy Boga torna in Italia per giocare con la Juventus.",
+      "polarity": "positive",
+      "claim_id": "741ac877-b7e9-4ee4-9e40-4018f117fcf4",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s2",
+      "target_entity": "Jeremy Boga",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jeremy Boga torna in Italia per giocare con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Torna in Italia Jeremy Bogà.",
+          "start_sec": 50.719,
+          "end_sec": 83.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha raggiunto un accordo su Bogà.",
+      "polarity": "positive",
+      "claim_id": "e0cc598a-a3f1-4546-98fb-7c42ceee9d51",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha raggiunto un accordo su Bogà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le parti hanno raggiunto un accordo totale.",
+          "start_sec": 81.56,
+          "end_sec": 118.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Hildiz",
+      "position": "Hildiz deve essere il titolare.",
+      "polarity": "positive",
+      "claim_id": "c246cce3-3e09-48fc-9035-d9c8208ccf7b",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s3",
+      "target_entity": "Hildiz",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Hildiz deve essere il titolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Hildiz deve essere il titolare, deve essere il protagonista e continuerà ad esserlo.",
+          "start_sec": 81.56,
+          "end_sec": 118.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bogà",
+      "position": "Bogà è atteso a Torino.",
+      "polarity": "positive",
+      "claim_id": "fead9389-6744-4b71-8d46-ed2efe35854b",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s3",
+      "target_entity": "Bogà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bogà è atteso a Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bogà è atteso a Torino già eh tra la mattinata e il insomma vediamo l'orario.",
+          "start_sec": 81.56,
+          "end_sec": 118.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Hildiz",
+      "position": "Serve un calciatore diverso per supportare Hildiz.",
+      "polarity": "positive",
+      "claim_id": "68b4bef4-264e-4c6d-a242-572f343d482a",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s3",
+      "target_entity": "Hildiz",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Serve un calciatore diverso per supportare Hildiz.",
+      "evidence_quotes": [
+        {
+          "quote_text": "serve un calciatore diverso che possa accettare comunque di essere anche subentrante.",
+          "start_sec": 81.56,
+          "end_sec": 118.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gilardino",
+      "position": "Gilardino è stato esonerato dal Pisa.",
+      "polarity": "neutral",
+      "claim_id": "93d4594c-e275-4fd7-8034-bf44e16abc24",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s1",
+      "target_entity": "Gilardino",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gilardino è stato esonerato dal Pisa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato esonerato Gilardino a Pisa",
+          "start_sec": 25.0,
+          "end_sec": 52.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Juventus",
+      "position": "La Juventus stava cercando un vice Hildiz.",
+      "polarity": "neutral",
+      "claim_id": "9df44a10-d5ac-42b4-b05e-9c0248b22ba0",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus stava cercando un vice Hildiz.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus stava cercando questo vice Cananildiz.",
+          "start_sec": 50.719,
+          "end_sec": 83.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Holm",
+      "position": "La Juventus sta considerando Holm come acquisto.",
+      "polarity": "negative",
+      "claim_id": "e22aeeaf-1654-4e63-a79a-369a5211e744",
+      "video_id": "_8vgbdqaY6I",
+      "segment_id": "s4",
+      "target_entity": "Holm",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus sta considerando Holm come acquisto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve sta continuando a lavorare su Holm.",
+          "start_sec": 115.079,
+          "end_sec": 142.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

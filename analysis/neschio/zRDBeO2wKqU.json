@@ -1,0 +1,354 @@
+{
+  "video_id": "zRDBeO2wKqU",
+  "analyzed_at": "2026-04-17T11:04:31.960328+00:00",
+  "metadata": null,
+  "summary": "Il video di Neschio analizza la partita tra Italia e Irlanda del Nord, evidenziando un primo tempo deludente e una ripresa in cui la squadra ha mostrato maggiore determinazione. L'autore esprime un misto di preoccupazione e speranza, sottolineando l'importanza di qualificarsi per il mondiale, nonostante le attuali difficoltà della squadra. Conclude che, sebbene l'Italia non sia nelle condizioni di aspirare a vincere il torneo, la qualificazione rimane un obiettivo fondamentale e necessario.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "high"
+    },
+    {
+      "name": "giovani",
+      "relevance": "high"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "esperienza",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "Ci sono stati 50-60 minuti bruttini durante la partita.",
+      "polarity": "negative",
+      "claim_id": "c9ce710b-ab95-4a21-887a-bc18dc681cf4",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono stati 50-60 minuti bruttini durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono stati 50-60 minuti bruttini",
+          "start_sec": 0.599,
+          "end_sec": 85.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "C'è la possibilità che l'Italia vada al mondiale.",
+      "polarity": "positive",
+      "claim_id": "8cf8056f-030d-45cb-a9e3-e721108df6bf",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "C'è la possibilità che l'Italia vada al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pensare a un'Italia che forse ci vada a questo mondiale",
+          "start_sec": 0.599,
+          "end_sec": 85.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "Nel secondo tempo la squadra ha alzato il livello di gioco.",
+      "polarity": "positive",
+      "claim_id": "30905c74-9bfa-45ee-8047-e673c0d44c11",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Nel secondo tempo la squadra ha alzato il livello di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fortunatamente secondo me abbiamo, come dire alzato un po' il livello.",
+          "start_sec": 85.72,
+          "end_sec": 148.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "squadra",
+      "position": "La squadra avrà la possibilità di partecipare ai mondiali.",
+      "polarity": "positive",
+      "claim_id": "544473be-3082-456e-b421-37ca1613d4cb",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La squadra avrà la possibilità di partecipare ai mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sperando che poi martedì riusciamo a prenderci questo biglietto per il mondiale.",
+          "start_sec": 85.72,
+          "end_sec": 148.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "squadra",
+      "position": "I tifosi mostrano entusiasmo e voglia di vincere.",
+      "polarity": "positive",
+      "claim_id": "ed807842-5683-4af1-9a09-879c104e5354",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi mostrano entusiasmo e voglia di vincere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedevo piano piano che la volevano vincere questa partita.",
+          "start_sec": 85.72,
+          "end_sec": 148.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Italia",
+      "position": "L'Italia non è attualmente nelle condizioni di pensare a vincere i mondiali.",
+      "polarity": "neutral",
+      "claim_id": "4b0a2c47-e9d7-4fd1-ba2e-80e39891ea89",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia non è attualmente nelle condizioni di pensare a vincere i mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi non è che dobbiamo vincerli i mondiali, cioè non siamo nella condizione oggi di pensare a un'Italia che deve vincere i mondiali",
+          "start_sec": 146.239,
+          "end_sec": 228.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Gattuso",
+      "position": "Gattuso è il primo allenatore a vincere un play-off con la nazionale italiana.",
+      "polarity": "positive",
+      "claim_id": "0fc3a073-1583-4836-8ef4-7c9c3ca977b1",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s2",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso è il primo allenatore a vincere un play-off con la nazionale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gattusa è il primo allenatore che ha vinto un play-off nella storia dell'Italia",
+          "start_sec": 146.239,
+          "end_sec": 228.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Italia",
+      "position": "L'Italia ha segnato per la prima volta in un play-off.",
+      "polarity": "positive",
+      "claim_id": "b509f9b0-0c6b-4fed-bd12-26b014893a02",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha segnato per la prima volta in un play-off.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non abbiamo mai fatto gol nei play-off, i primi due gol li abbiamo fatti ieri",
+          "start_sec": 146.239,
+          "end_sec": 228.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Tonali",
+      "position": "Tonali ha fatto una prestazione incredibile come trascinatore.",
+      "polarity": "positive",
+      "claim_id": "8fe6b245-da1d-466a-b94f-cc9fcb8be2c6",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s3",
+      "target_entity": "Tonali",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tonali ha fatto una prestazione incredibile come trascinatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per me senza un paio di dubbio Tonali e ha fatto una una prestazione incredibile.",
+          "start_sec": 228.28,
+          "end_sec": 316.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia ha avuto un primo tempo atroce.",
+      "polarity": "negative",
+      "claim_id": "8de8f7b7-98e7-489e-9d01-46f3216d9bce",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha avuto un primo tempo atroce.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato un primo tempo atroce",
+          "start_sec": 0.599,
+          "end_sec": 85.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "squadra",
+      "position": "La squadra ha vinto la partita.",
+      "polarity": "positive",
+      "claim_id": "d97d817b-cd3b-4714-a013-1ebd23f35ddc",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha vinto la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo vinto.",
+          "start_sec": 85.72,
+          "end_sec": 148.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Italia",
+      "position": "È importante che l'Italia partecipi ai prossimi mondiali.",
+      "polarity": "positive",
+      "claim_id": "f3b83fae-1ca6-4cae-8bcb-57447da970c4",
+      "video_id": "zRDBeO2wKqU",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "È importante che l'Italia partecipi ai prossimi mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna andarci a questi mondiali. Oh Prince, troppo importante, ragazzi",
+          "start_sec": 146.239,
+          "end_sec": 228.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

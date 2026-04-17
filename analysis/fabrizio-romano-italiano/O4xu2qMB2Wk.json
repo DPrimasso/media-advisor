@@ -1,0 +1,366 @@
+{
+  "video_id": "O4xu2qMB2Wk",
+  "analyzed_at": "2026-04-17T09:35:54.146044+00:00",
+  "metadata": {
+    "title": "🚨💣 RIBALTONE NAPOLI! BLITZ JUVE, EN NESYRI E MATETA INSISTE. GIOVANE-LANG-LUCCA: DETTAGLI E NUMERI",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-22"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti operazioni di mercato che coinvolgono il Napoli, il Genoa e il Galatasaray. L'autore conferma il trasferimento di Noalang al Galatasaray, sottolineando che il Napoli ha tentato di trattenerlo per la partita contro la Juventus, ma il club turco ha insistito per un trasferimento immediato. Inoltre, si annuncia il prestito di Lorenzo Lucca al Nottingham Forest, evidenziando l'attivismo del Napoli sul mercato invernale dopo le partenze di alcuni giocatori.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "transazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "ingaggio",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Noalang",
+      "position": "Noalang si trasferisce al Galatasaray per 2 milioni di prestito e 30 di riscatto.",
+      "polarity": "positive",
+      "claim_id": "ab6d937d-81a8-443d-9837-7940fead1fba",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s3",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Noalang si trasferisce al Galatasaray per 2 milioni di prestito e 30 di riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "2 milioni per il prestito, 30 per il diritto di riscatto.",
+          "start_sec": 76.28,
+          "end_sec": 104.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Lucca",
+      "position": "Il pagamento del diritto di riscatto di Lorenzo Lucca è di potenziale 40 milioni.",
+      "polarity": "neutral",
+      "claim_id": "2e085af2-a6ed-45d1-9152-3051b08499a3",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s5",
+      "target_entity": "Lorenzo Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il pagamento del diritto di riscatto di Lorenzo Lucca è di potenziale 40 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi risulta essere di potenziale pacchetto da 40 milioni bonus compresi",
+          "start_sec": 132.04,
+          "end_sec": 161.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Lucca",
+      "position": "Il Napoli paga poco più di 1 milione subito per Lorenzo Lucca.",
+      "polarity": "neutral",
+      "claim_id": "ea217391-2258-4406-96d0-9e11bd63422a",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s5",
+      "target_entity": "Lorenzo Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli paga poco più di 1 milione subito per Lorenzo Lucca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poco più di 1 milione subito per il Napoli",
+          "start_sec": 132.04,
+          "end_sec": 161.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa sta per firmare un nuovo difensore centrale.",
+      "polarity": "positive",
+      "claim_id": "52148406-b250-4ef3-bf94-35cf74cf1514",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa sta per firmare un nuovo difensore centrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nuovo difensore centrale per il Genoa di Daniele De Rossi.",
+          "start_sec": 26.76,
+          "end_sec": 53.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Galatasaray",
+      "position": "Il Galatasaray ha compiuto un'operazione durante la Champions League.",
+      "polarity": "positive",
+      "claim_id": "c77de1a0-738b-4231-9687-77226b1452e9",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s1",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray ha compiuto un'operazione durante la Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "durante la Champions League fatta Noalanga al Galatasaray.",
+          "start_sec": 26.76,
+          "end_sec": 53.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Il Galatasaray ha chiarito di voler Noalang immediatamente.",
+      "polarity": "positive",
+      "claim_id": "c290215f-7077-4d67-a90b-ee94266a92d5",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s2",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray ha chiarito di voler Noalang immediatamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vogliamo Noalang subito, non aspettiamo niente nessuno.",
+          "start_sec": 52.239,
+          "end_sec": 78.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Noalang",
+      "position": "Il Napoli voleva trattenere Noalang per la partita contro la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "b937587a-63fb-4533-ae7c-a75a7060a6ed",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s2",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli voleva trattenere Noalang per la partita contro la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Napoli che volesse trattenere Noalang anche per la partita contro la Juventus.",
+          "start_sec": 52.239,
+          "end_sec": 78.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Noalang",
+      "position": "Il Galatasaray ha cambiato obiettivo in caso di mancata firma di Noalang.",
+      "polarity": "positive",
+      "claim_id": "cf02cf8b-3751-4773-9087-efcd45d96296",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s2",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray ha cambiato obiettivo in caso di mancata firma di Noalang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Galatasaray in quel caso avrebbe cambiato obiettivo.",
+          "start_sec": 52.239,
+          "end_sec": 78.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nottingham Forest",
+      "position": "Il Nottingham Forest accoglie Lorenzo Lucca per la seconda parte di stagione.",
+      "polarity": "positive",
+      "claim_id": "9ea739f3-dd73-4944-84e6-c6b22d99478d",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s4",
+      "target_entity": "Nottingham Forest",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Nottingham Forest accoglie Lorenzo Lucca per la seconda parte di stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "destinazione Nottingham Forest, City Ground, il suo nuovo stadio per questa seconda parte di stagione",
+          "start_sec": 102.92,
+          "end_sec": 133.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Club Nottingham Forest",
+      "position": "Il Nottingham Forest deciderà sul diritto di riscatto di Lorenzo Lucca.",
+      "polarity": "neutral",
+      "claim_id": "cc591776-03f9-43c7-be48-5afa0c7f0a04",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s5",
+      "target_entity": "Club Nottingham Forest",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Nottingham Forest deciderà sul diritto di riscatto di Lorenzo Lucca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarà il Forest a decidere che come detto tocca i 40 milioni di pacchetto.",
+          "start_sec": 132.04,
+          "end_sec": 161.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli ha firmato ufficialmente il contratto per Noalang.",
+      "polarity": "neutral",
+      "claim_id": "cad9e7bd-5e6f-453b-82e3-0028b31b1c26",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha firmato ufficialmente il contratto per Noalang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È arrivata anche la firma del Napoli.",
+          "start_sec": 52.239,
+          "end_sec": 78.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Questo è il primo trasferimento del Napoli in questa sessione di mercato.",
+      "polarity": "positive",
+      "claim_id": "60fea7c1-24a8-43a6-9602-1317a6f8f274",
+      "video_id": "O4xu2qMB2Wk",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Questo è il primo trasferimento del Napoli in questa sessione di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la prima uscita del Napoli in questo mercato",
+          "start_sec": 76.28,
+          "end_sec": 104.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "video_id": "rXWm_67XQjg",
+  "analyzed_at": "2026-04-17T10:14:40.699499+00:00",
+  "metadata": {
+    "title": "🚨 OCCHIO A EDERSON! I SEGNALI PER ZIRKZEE, NOVITÀ SOCIETARIE PER IL MILAN. JAVI GUERRA E RUGGERI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-18"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti novità di mercato e societarie riguardanti il Milan e alcuni calciatori interessanti. L'autore sottolinea che ci sono movimenti concreti per il club rossonero, con Red Bird Cardinale che sta cercando finanziatori per estinguere il debito con Elliott, suggerendo possibili cambiamenti nell'organigramma societario. Inoltre, si parla di calciatori come Ruggeri e Zirkzee, con Ruggeri che potrebbe tornare dalla Liga alla Serie A, evidenziando un mercato attivo e dinamico.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "società",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "high"
+    },
+    {
+      "name": "debito",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanziamenti",
+      "relevance": "low"
+    },
+    {
+      "name": "situazione",
+      "relevance": "low"
+    },
+    {
+      "name": "incertezza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Ci sono indiscrezioni su movimenti societari per il Milan.",
+      "polarity": "neutral",
+      "claim_id": "f9e679e2-9185-4e68-8270-7128428564f2",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono indiscrezioni su movimenti societari per il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono adesso indiscrezioni che escono da più parti",
+          "start_sec": 77.439,
+          "end_sec": 112.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Movimenti importanti e concreti stanno prendendo corpo per il Milan.",
+      "polarity": "neutral",
+      "claim_id": "6f04d858-686a-4e43-945e-6e21485c63ed",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Movimenti importanti e concreti stanno prendendo corpo per il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'erano dei movimenti importanti, movimenti concreti e questi movimenti stanno prendendo sempre più corpo",
+          "start_sec": 77.439,
+          "end_sec": 112.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Milan",
+      "position": "Red Bird Cardinale sta cercando di ripagare parte del debito.",
+      "polarity": "neutral",
+      "claim_id": "f3ed36d1-16ae-4113-9c99-ee2c496f01ce",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Red Bird Cardinale sta cercando di ripagare parte del debito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Red Bird Cardinale sta cercando di ripagare parte del debito, se non in toto ad Elliot",
+          "start_sec": 110.0,
+          "end_sec": 157.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ruggeri",
+      "position": "Ruggeri potrebbe trasferirsi dalla Liga alla Serie A.",
+      "polarity": "neutral",
+      "claim_id": "300e8644-e624-4b71-9221-56f45e8ecf97",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s0",
+      "target_entity": "Ruggeri",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ruggeri potrebbe trasferirsi dalla Liga alla Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "occhio ai nomi di Ruggeri dell'Atletico Madrid",
+          "start_sec": 0.32,
+          "end_sec": 38.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Ederson",
+      "position": "Ederson è citato come argomento di discussione nel video.",
+      "polarity": "neutral",
+      "claim_id": "c9790642-fb26-4a4a-9d08-f489e1a8a9e2",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s1",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson è citato come argomento di discussione nel video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlando sia sulla situazione di Ederson",
+          "start_sec": 34.96,
+          "end_sec": 80.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Zirkzee",
+      "position": "Joshua Zirkzee è menzionato come argomento di discussione.",
+      "polarity": "neutral",
+      "claim_id": "82d03af3-6cc0-459e-9040-00b7e2c9c552",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s1",
+      "target_entity": "Zirkzee",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Joshua Zirkzee è menzionato come argomento di discussione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlando su Joshua Zirze",
+          "start_sec": 34.96,
+          "end_sec": 80.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Il video include dettagli aggiornati sulla situazione del Milan.",
+      "polarity": "neutral",
+      "claim_id": "1b85443e-d27e-44a4-a8b4-1f7a9bcb9ac8",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il video include dettagli aggiornati sulla situazione del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tutti i dettagli qui all'interno di questo video.",
+          "start_sec": 34.96,
+          "end_sec": 80.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Red Bird Cardinale",
+      "position": "Cardinale sta lavorando da diverso tempo per risolvere la situazione debitoria.",
+      "polarity": "neutral",
+      "claim_id": "1c02c8da-35ea-49bf-9383-8db284ea2b04",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s3",
+      "target_entity": "Red Bird Cardinale",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cardinale sta lavorando da diverso tempo per risolvere la situazione debitoria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per cui Cardinale sta lavorando da diverso tempo",
+          "start_sec": 110.0,
+          "end_sec": 157.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Milan",
+      "position": "Redwood è vicino ad estinguere il debito del Milan.",
+      "polarity": "neutral",
+      "claim_id": "6714466e-03d6-4327-bd59-4fcf46d642d3",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Redwood è vicino ad estinguere il debito del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Redwood è vicino è vicina ad estinguere il debito",
+          "start_sec": 154.04,
+          "end_sec": 195.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Ci sono novità societarie riguardo il Milan.",
+      "polarity": "neutral",
+      "claim_id": "0b561f02-9069-49d8-a568-b91f3cfde977",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono novità societarie riguardo il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "novità dal punto di vista societario, quindi mi raccomando seguiteci.",
+          "start_sec": 34.96,
+          "end_sec": 80.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Milan",
+      "position": "La situazione è in una fase importante e i lavori sono in corso.",
+      "polarity": "neutral",
+      "claim_id": "2a49e561-efd4-4361-9faa-09f9e8970a2e",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La situazione è in una fase importante e i lavori sono in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo comunque in una fase importante di questa situazione",
+          "start_sec": 110.0,
+          "end_sec": 157.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ruggeri",
+      "position": "Ruggeri è considerato un calciatore interessante nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "dcc52b10-ec4c-4caf-9e76-408ef65ed9b7",
+      "video_id": "rXWm_67XQjg",
+      "segment_id": "s0",
+      "target_entity": "Ruggeri",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Ruggeri è considerato un calciatore interessante nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nomi anche molto interessanti e nomi esclusivi",
+          "start_sec": 0.32,
+          "end_sec": 38.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

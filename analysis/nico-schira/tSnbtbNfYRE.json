@@ -1,0 +1,354 @@
+{
+  "video_id": "tSnbtbNfYRE",
+  "analyzed_at": "2026-04-17T11:29:30.133457+00:00",
+  "metadata": null,
+  "summary": "Il video di Nico Schira analizza la pesante sconfitta dell'Atalanta contro il Bayern Monaco in Champions League, evidenziando un risultato devastante di 6-1. L'autore critica aspramente la scelta tattica di Palladino, che ha snaturato la squadra con un modulo difensivo inadeguato, portando a una prestazione deludente e a un dominio bavarese. Schira conclude che il calcio italiano è in declino, con una mancanza di fuoriclasse e una crescente distanza rispetto ad altre leghe europee, suggerendo la necessità di una riflessione profonda sul futuro del nostro calcio.",
+  "topics": [
+    {
+      "name": "competizione",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "emozioni",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha perso 6-1 contro il suo avversario.",
+      "polarity": "negative",
+      "claim_id": "9522d8be-848e-404e-a533-6a53f42dcd0d",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha perso 6-1 contro il suo avversario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "6-1 col gol della bandiera di Pasari è arrivato al minuto 92",
+          "start_sec": 0.96,
+          "end_sec": 37.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Atalanta",
+      "position": "L'Atalanta non giocava in difesa a quattro da oltre 10 anni.",
+      "polarity": "negative",
+      "claim_id": "0ed6f5dc-9651-4ad3-9ec5-a3fbb96c195e",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta non giocava in difesa a quattro da oltre 10 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Era più di 10 anni che l'Atalanta non giocava in difesa a quattro.",
+          "start_sec": 61.48,
+          "end_sec": 88.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha subito una disfatta umiliante in Champions League.",
+      "polarity": "negative",
+      "claim_id": "d783300e-6233-43d5-9aa4-85936ac8f534",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha subito una disfatta umiliante in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "disfatta umiliante dell'Atalanta che era l'unica superstite italiana in Champions League",
+          "start_sec": 0.96,
+          "end_sec": 37.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Il Bayern ha dilapidato almeno tre o quattro occasioni.",
+      "polarity": "neutral",
+      "claim_id": "f6ccdc67-fe7a-487d-aecb-9b93cc620201",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s1",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern ha dilapidato almeno tre o quattro occasioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "almeno tre, quattro occasioni dilapidate dai bavaresi",
+          "start_sec": 35.28,
+          "end_sec": 62.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Atalanta",
+      "position": "L'Atalanta non ha giocato la partita come ci si aspettava.",
+      "polarity": "neutral",
+      "claim_id": "69430703-c05c-464d-a51f-567b4045650e",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta non ha giocato la partita come ci si aspettava.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si poteva pensare che l'Atalanta facesse l'impresa col Bayern, ma si poteva pensare che magari, insomma, se la giocasse diversamente",
+          "start_sec": 35.28,
+          "end_sec": 62.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Palladino",
+      "position": "Palladino ha sbagliato totalmente la tattica giocando a quattro.",
+      "polarity": "negative",
+      "claim_id": "d6f62759-41bd-4d3f-8c89-26f31d98519c",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s1",
+      "target_entity": "Palladino",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Palladino ha sbagliato totalmente la tattica giocando a quattro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha sbagliato totalmente la tattica Palladino che ha snaturato la squadra in maniera scritariata giocando a quattro.",
+          "start_sec": 35.28,
+          "end_sec": 62.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Italiane",
+      "position": "Nessuna squadra italiana passerà agli ottavi di finale.",
+      "polarity": "negative",
+      "claim_id": "7428ea12-b9a3-439d-9f83-18d850d0ab41",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s2",
+      "target_entity": "Italiane",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Nessuna squadra italiana passerà agli ottavi di finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avremo zero squadre italiane agli ottavi di finale.",
+          "start_sec": 61.48,
+          "end_sec": 88.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta è stata asfaltata in lungo e largo.",
+      "polarity": "negative",
+      "claim_id": "46f99e23-3af9-44b7-abde-9272d65ad35b",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta è stata asfaltata in lungo e largo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atalanta riconoscibile asfaltata in lungo e largo",
+          "start_sec": 0.96,
+          "end_sec": 37.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Il Bayern ha dominato la partita contro l'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "deb4bf57-a43b-4163-b797-a8030e931a4e",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s2",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern ha dominato la partita contro l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bayern che ha dominato in lungo e in largo.",
+          "start_sec": 61.48,
+          "end_sec": 88.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha subìto una pesante sconfitta contro il Bayern.",
+      "polarity": "negative",
+      "claim_id": "fc79f218-51cd-49e1-8432-cd8ee9b63311",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha subìto una pesante sconfitta contro il Bayern.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è finita poi 6-1",
+          "start_sec": 61.48,
+          "end_sec": 88.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Atalanta",
+      "position": "Il risultato finale è stato considerato devastante.",
+      "polarity": "negative",
+      "claim_id": "a16b2691-53a6-49cc-9eb1-b625f7fdb3cc",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il risultato finale è stato considerato devastante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "risultato fraoso, pesantissimo, devastante",
+          "start_sec": 0.96,
+          "end_sec": 37.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Carne Secchi",
+      "position": "Carne Secchi ha effettuato due grandi parate.",
+      "polarity": "neutral",
+      "claim_id": "352ffae9-40ba-4509-87db-95fa7cedb2e4",
+      "video_id": "tSnbtbNfYRE",
+      "segment_id": "s1",
+      "target_entity": "Carne Secchi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Carne Secchi ha effettuato due grandi parate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "due grandi parate di carne secchi",
+          "start_sec": 35.28,
+          "end_sec": 62.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

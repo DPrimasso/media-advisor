@@ -1,0 +1,346 @@
+{
+  "video_id": "NkLVfcRKdZY",
+  "analyzed_at": "2026-04-17T11:27:43.219877+00:00",
+  "metadata": null,
+  "summary": "Il video di Nico Schira analizza le sorprese dei quarti di finale di Champions League, con particolare attenzione alla sconfitta del Barcellona contro l'Atletico Madrid. L'autore sottolinea l'ottima prestazione di Matteo Ruggeri, che ha fornito un assist e non è stato convocato da Gattuso, evidenziando un errore del commissario tecnico. Inoltre, si discute del futuro di Robert Lewandowski, il quale potrebbe lasciare il Barcellona a parametro zero, con interesse da parte di Milan e Juventus, mentre il Paris Saint-Germain ha dominato la sua partita, lasciando il Liverpool con qualche speranza pe",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "selezione",
+      "relevance": "high"
+    },
+    {
+      "name": "stipendio",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico Madrid ha vinto 2-0 in trasferta contro il Barcellona.",
+      "polarity": "positive",
+      "claim_id": "9f741b4c-9c3c-4b20-8f4a-6f8066eb8b82",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s0",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid ha vinto 2-0 in trasferta contro il Barcellona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il raddoppio di Sorot su assist di Matteo Ruggeri.",
+          "start_sec": 0.919,
+          "end_sec": 27.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Barcellona",
+      "position": "Il Barcellona ha perso in casa contro l'Atletico Madrid.",
+      "polarity": "negative",
+      "claim_id": "c6ed3ebb-cecd-43d3-86fd-aca38c87e6e4",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s0",
+      "target_entity": "Barcellona",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barcellona ha perso in casa contro l'Atletico Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Barça che perde 2-0 in casa contro l'Atletico Madrid.",
+          "start_sec": 0.919,
+          "end_sec": 27.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gattuso",
+      "position": "Gattuso ha commesso l'errore di non convocare Sordot.",
+      "polarity": "negative",
+      "claim_id": "a406d244-0aeb-4f42-9d02-6f37154fe0a2",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s2",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha commesso l'errore di non convocare Sordot.",
+      "evidence_quotes": [
+        {
+          "quote_text": "snobbato, ignorato da Gattuso, uno dei tanti errori da parte dell'ex commissario tecnico",
+          "start_sec": 48.76,
+          "end_sec": 76.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Liverpool",
+      "position": "Il Liverpool ha qualche speranza per la gara di ritorno.",
+      "polarity": "positive",
+      "claim_id": "d6691c44-f45c-46c8-8643-d5827c9ccadc",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s2",
+      "target_entity": "Liverpool",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Liverpool ha qualche speranza per la gara di ritorno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi il Liverpool tiene un po' di speranze per la gara di ritorno martedì ad Anfield",
+          "start_sec": 48.76,
+          "end_sec": 76.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "Lewandowski ha un anno di contratto con il Barcellona.",
+      "polarity": "neutral",
+      "claim_id": "0bc3a471-3fd3-4e06-a6b8-1150e36c250b",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s3",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski ha un anno di contratto con il Barcellona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un anno solo di contratto, non c'è l'accordo per rinnovare",
+          "start_sec": 74.72,
+          "end_sec": 101.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Matteo Ruggeri",
+      "position": "Matteo Ruggeri ha fornito un assist nella partita.",
+      "polarity": "positive",
+      "claim_id": "57e648b7-3eee-404e-a680-a19bb740d74e",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s0",
+      "target_entity": "Matteo Ruggeri",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Matteo Ruggeri ha fornito un assist nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "assist di Matteo Ruggeri.",
+          "start_sec": 0.919,
+          "end_sec": 27.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sordot",
+      "position": "Sordot ha fornito un assist per il secondo gol.",
+      "polarity": "positive",
+      "claim_id": "dfcff547-4666-4694-802f-98a841657398",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s2",
+      "target_entity": "Sordot",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sordot ha fornito un assist per il secondo gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "assist per i 2-0 di Sordot",
+          "start_sec": 48.76,
+          "end_sec": 76.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "Lewandowski potrebbe andare via a parametro zero.",
+      "polarity": "neutral",
+      "claim_id": "0cf698f4-d7f6-4d27-922d-3aee81b049f6",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s3",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski potrebbe andare via a parametro zero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lewandowski potrebbe anche andare via parametro zero.",
+          "start_sec": 74.72,
+          "end_sec": 101.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "Lewandowski ha un'offerta biennale dai Chicago Fire.",
+      "polarity": "neutral",
+      "claim_id": "bc24fbb1-e32b-4994-9b11-d22bdb7eb239",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s3",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski ha un'offerta biennale dai Chicago Fire.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha sul piatto un biennale, anzi per la precisione sono 2 anni e mezzo di contratto a 20 milioni e passa stagione dai Chicago Fire",
+          "start_sec": 74.72,
+          "end_sec": 101.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lewandowski",
+      "position": "Lewandowski è inseguito da Milan e Juventus.",
+      "polarity": "neutral",
+      "claim_id": "c11a3d23-b69a-4dff-b830-5f901f272c27",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s4",
+      "target_entity": "Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski è inseguito da Milan e Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "due squadre italiane, Milan e Juve, che pensano a Lewandowski, che hanno sondato il",
+          "start_sec": 99.32,
+          "end_sec": 126.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "William Alvarez",
+      "position": "William Alvarez ha segnato un gol decisivo.",
+      "polarity": "positive",
+      "claim_id": "24bb469c-977e-4715-a26c-68c1a2fab9f8",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s0",
+      "target_entity": "William Alvarez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "William Alvarez ha segnato un gol decisivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Golasso di William Alvarez.",
+          "start_sec": 0.919,
+          "end_sec": 27.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain",
+      "position": "Il Paris Saint-Germain ha vinto facilmente.",
+      "polarity": "positive",
+      "claim_id": "4ddb7646-2130-4dfb-8517-f3cf1800bd26",
+      "video_id": "NkLVfcRKdZY",
+      "segment_id": "s2",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris Saint-Germain ha vinto facilmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Paris Saint-Germain che ha vinto in scioltezza",
+          "start_sec": 48.76,
+          "end_sec": 76.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

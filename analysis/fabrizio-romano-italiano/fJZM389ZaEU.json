@@ -1,0 +1,358 @@
+{
+  "video_id": "fJZM389ZaEU",
+  "analyzed_at": "2026-04-16T15:30:51.703578+00:00",
+  "metadata": {
+    "title": "🚨 VLAHOVIC -TRA FIRME E FUTURO! INTER NO A 27 MILIONI, VERGARA E IL RINNOVO, I PIANI DI NKUNKU, JIM",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-10"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di calciomercato, con particolare attenzione al Milan e al giocatore Nkunku. L'autore sottolinea che Nkunku ha confermato la sua intenzione di rimanere al Milan, respingendo le voci di trasferimento verso altre squadre. Inoltre, si menzionano le offerte ricevute da Vlahovic e il rifiuto dell'Inter di un'offerta di 27 milioni, mentre si discute anche di un possibile rinnovo per Vergara. La posizione principale dell'autore è chiara: Nkunku è determinato a restare al Milan, evidenziando la stabilità e l'importanza del club per il gioca",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "prestigio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha rifiutato un'offerta di 27 milioni.",
+      "polarity": "neutral",
+      "claim_id": "9d8ac01c-2515-4c51-9803-7339c70351d1",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha rifiutato un'offerta di 27 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "INTER NO A 27 MILIONI.",
+          "start_sec": 0.0,
+          "end_sec": 33.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Christopher Ancunku",
+      "position": "Ancunku ha parlato in un'intervista per la Gazzetta dello Sport.",
+      "polarity": "neutral",
+      "claim_id": "9e4585a3-a9c8-4735-a994-e0b94286c04c",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s1",
+      "target_entity": "Christopher Ancunku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ancunku ha parlato in un'intervista per la Gazzetta dello Sport.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è stata un'intervista che credo sia importante raccontarvi e spiegarvi alla Gazzetta dello Sport da parte di Christopher Ancunku",
+          "start_sec": 31.16,
+          "end_sec": 57.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Milan è il tema principale dell'analisi di oggi.",
+      "polarity": "neutral",
+      "claim_id": "5066ea4f-fd59-48e7-aa3a-6d9a8455b7ce",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan è il tema principale dell'analisi di oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Voglio partire dal Milan. Voglio partire dal Milan perché intanto c'è stata un'intervista",
+          "start_sec": 31.16,
+          "end_sec": 57.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "canale",
+      "position": "Il canale fornisce aggiornamenti e approfondimenti su vari temi calcistici.",
+      "polarity": "neutral",
+      "claim_id": "44215b81-573e-4a48-82d7-031e7fa7c6d2",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s1",
+      "target_entity": "canale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il canale fornisce aggiornamenti e approfondimenti su vari temi calcistici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "importanti raccontarvi e spiegarvi alla Gazzetta dello Sport da parte di Christopher Ancunku che ha confermato quello che vi ho raccontato qui sul canale per settimane.",
+          "start_sec": 31.16,
+          "end_sec": 57.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Christopher Kunku",
+      "position": "Kunku non ha mai avuto intenzione di lasciare il Milan.",
+      "polarity": "neutral",
+      "claim_id": "c0e79880-dfec-4fbc-a0ea-5f29db2f840e",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s2",
+      "target_entity": "Christopher Kunku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kunku non ha mai avuto intenzione di lasciare il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Posso dirvi ragazzi che Christopher Kunku non ha mai minimamente avuto alcuna intenzione di lasciare il Milan.",
+          "start_sec": 55.879,
+          "end_sec": 86.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kunku",
+      "position": "Kunku ha respinto molte offerte nel mercato invernale.",
+      "polarity": "neutral",
+      "claim_id": "0013eaf4-d843-4546-abac-dc56fa5cd310",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s2",
+      "target_entity": "Kunku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kunku ha respinto molte offerte nel mercato invernale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma quelle squadre non sono mai state veramente un'opzione.",
+          "start_sec": 55.879,
+          "end_sec": 86.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "concù",
+      "position": "concù ha dichiarato la sua lealtà al Milan.",
+      "polarity": "positive",
+      "claim_id": "85908b9c-01a0-4105-a122-3a65408b5821",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s3",
+      "target_entity": "concù",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "concù ha dichiarato la sua lealtà al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho scelto questo club, l'ho scelto con convinzione, voglio stare qui, il Milan è il club più importante d'Italia.",
+          "start_sec": 84.36,
+          "end_sec": 108.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbahce",
+      "position": "Fenerbahce si è interessato a Kunku ma senza successo.",
+      "polarity": "neutral",
+      "claim_id": "a865ad82-0b56-4f2b-a6b9-e54a3de212ff",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s2",
+      "target_entity": "Fenerbahce",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fenerbahce si è interessato a Kunku ma senza successo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "né quando si è fatto avanti il Fenerbace.",
+          "start_sec": 55.879,
+          "end_sec": 86.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Vlahovic",
+      "position": "Vlahovic ha ricevuto proposte di trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "76192e34-c501-454f-9c7f-898ee16ae1cd",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s0",
+      "target_entity": "Vlahovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vlahovic ha ricevuto proposte di trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono diverse cose da raccontarvi oggi.",
+          "start_sec": 0.0,
+          "end_sec": 33.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Vergara",
+      "position": "Si parla di un rinnovo per Vergara.",
+      "polarity": "neutral",
+      "claim_id": "1eaaa512-51cb-4de8-8a3e-d4753b0b9f88",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s0",
+      "target_entity": "Vergara",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si parla di un rinnovo per Vergara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "VERGARA E IL RINNOVO.",
+          "start_sec": 0.0,
+          "end_sec": 33.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nkunku",
+      "position": "Ci sono piani in corso riguardo Nkunku.",
+      "polarity": "neutral",
+      "claim_id": "8f6cece9-a9c2-462b-988d-7cb0c0dadbb3",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s0",
+      "target_entity": "Nkunku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono piani in corso riguardo Nkunku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I PIANI DI NKUNKU.",
+          "start_sec": 0.0,
+          "end_sec": 33.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan è considerato il club più importante d'Italia.",
+      "polarity": "positive",
+      "claim_id": "7508256d-985a-4421-9087-c7885d519571",
+      "video_id": "fJZM389ZaEU",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan è considerato il club più importante d'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan è il club più importante d'Italia.",
+          "start_sec": 84.36,
+          "end_sec": 108.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

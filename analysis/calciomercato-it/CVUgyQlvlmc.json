@@ -1,0 +1,260 @@
+{
+  "video_id": "CVUgyQlvlmc",
+  "analyzed_at": "2026-04-17T11:19:20.897917+00:00",
+  "metadata": null,
+  "summary": "Il video analizza il rischio di sanzioni che la Bosnia potrebbe affrontare dalla UEFA a causa del comportamento antisportivo dei calciatori della nazionale Under 21 durante una partita di qualificazione agli europei. L'autore sottolinea che i giocatori, guidati dal CT Krunici, si sono rifiutati di stringere la mano agli avversari, giustificando il gesto con motivazioni politiche. Si attende ora la decisione del giudice sportivo, che potrebbe includere squalifiche e multe, evidenziando la sensibilità della UEFA verso il fair play e le proteste legate a questioni politiche.",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "comportamento antisportivo",
+      "relevance": "high"
+    },
+    {
+      "name": "fair play",
+      "relevance": "high"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "nazione bosnieca Under 21",
+      "position": "UEFA sta indagando sul comportamento dei calciatori della nazionale bosnieca Under 21.",
+      "polarity": "neutral",
+      "claim_id": "37e1dfb0-6b28-49bd-a5a6-b344a1cd393b",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s1",
+      "target_entity": "nazione bosnieca Under 21",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "UEFA sta indagando sul comportamento dei calciatori della nazionale bosnieca Under 21.",
+      "evidence_quotes": [
+        {
+          "quote_text": "UEFA per il comportamento dei suoi calciatori nel match di martedì scorso.",
+          "start_sec": 2.32,
+          "end_sec": 33.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "nazione bosnieca Under 21",
+      "position": "C'è attesa per le sanzioni che potrebbero colpire la nazionale bosnieca Under 21.",
+      "polarity": "neutral",
+      "claim_id": "7d18690e-be01-422f-9199-bcd032bd1350",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s1",
+      "target_entity": "nazione bosnieca Under 21",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è attesa per le sanzioni che potrebbero colpire la nazionale bosnieca Under 21.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è attesa per la sentenza del giudice sportivo che potrebbe combinare squalifiche e forti multe.",
+          "start_sec": 2.32,
+          "end_sec": 33.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "nazione bosnieca Under 21",
+      "position": "La nazionale bosnieca Under 21 potrebbe affrontare conseguenze in vista degli europei.",
+      "polarity": "neutral",
+      "claim_id": "d9856ba2-0408-4526-a897-9a069e2d9829",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s1",
+      "target_entity": "nazione bosnieca Under 21",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La nazionale bosnieca Under 21 potrebbe affrontare conseguenze in vista degli europei.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bensì alla gara di qualificazione agli europei di categoria della nazionale bosnieca Under 21.",
+          "start_sec": 2.32,
+          "end_sec": 33.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "CT Krunici",
+      "position": "I calciatori rifiutano di stringere la mano per decisioni del CT Krunici.",
+      "polarity": "neutral",
+      "claim_id": "f4b32840-cd81-4c25-a6e7-2aa3eebac206",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s1",
+      "target_entity": "CT Krunici",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I calciatori rifiutano di stringere la mano per decisioni del CT Krunici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i calciatori del CT Krunici si sono rifiutati di stringere la mano",
+          "start_sec": 2.32,
+          "end_sec": 33.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro De Gabriele",
+      "position": "L'arbitro De Gabriele ha ignorato il comportamento antisportivo nel prepartita.",
+      "polarity": "neutral",
+      "claim_id": "0421b347-bdee-49f6-b5ef-bd1a5634f66e",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s2",
+      "target_entity": "arbitro De Gabriele",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro De Gabriele ha ignorato il comportamento antisportivo nel prepartita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'arbitro maltese De Gabriele ha fatto finta di niente e in effetti sul regolamento non è menzionato espressamente l'andshake protocol.",
+          "start_sec": 31.56,
+          "end_sec": 63.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bosnia",
+      "position": "La UEFA probabilmente prenderà provvedimenti contro la Bosnia per le proteste.",
+      "polarity": "neutral",
+      "claim_id": "25df5220-f85f-4b82-b48b-435ae9d28fe8",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s2",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La UEFA probabilmente prenderà provvedimenti contro la Bosnia per le proteste.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e probabilmente prenderà provvedimenti contro la Bosnia.",
+          "start_sec": 31.56,
+          "end_sec": 63.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "captain Bulubasić",
+      "position": "Il capitano Bulubasić ha giustificato un gesto antisportivo.",
+      "polarity": "positive",
+      "claim_id": "57e8b132-9336-4d48-95d7-5dfdd3c8a81a",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s2",
+      "target_entity": "captain Bulubasić",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il capitano Bulubasić ha giustificato un gesto antisportivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il capitano Bulubasić ha giustificato il gesto con queste.",
+          "start_sec": 31.56,
+          "end_sec": 63.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Bosnia",
+      "position": "La Bosnia è a rischio di sanzioni.",
+      "polarity": "negative",
+      "claim_id": "04fd9546-cf95-42d0-b973-0c20f5623381",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s0",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia è a rischio di sanzioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Bosnia rischia pesanti sanzioni",
+          "start_sec": 0.24,
+          "end_sec": 4.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "giudice sportivo",
+      "position": "La responsabilità ora è del giudice sportivo.",
+      "polarity": "neutral",
+      "claim_id": "337c686b-5ca8-4f19-8981-6aa1503a221d",
+      "video_id": "CVUgyQlvlmc",
+      "segment_id": "s3",
+      "target_entity": "giudice sportivo",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La responsabilità ora è del giudice sportivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Adesso la palla passa al giudice sportivo.",
+          "start_sec": 61.079,
+          "end_sec": 76.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

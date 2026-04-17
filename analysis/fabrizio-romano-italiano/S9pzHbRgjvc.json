@@ -1,0 +1,366 @@
+{
+  "video_id": "S9pzHbRgjvc",
+  "analyzed_at": "2026-04-17T09:58:30.074938+00:00",
+  "metadata": {
+    "title": "🚨 MATETA E I DUE COLPI A ZERO: IL BORSINO JUVE  KESSIE, TEL, DRAGUSIN, LANG E LA ROTTURA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-20"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità del calciomercato, in particolare riguardo al Napoli e alla sua situazione in Champions League. L'autore sottolinea che il club partenopeo è in attesa della risposta di Lorenzo Lucca, per il quale è già stato raggiunto un accordo di prestito con il Nottingham Forest. Inoltre, si evidenzia una rottura nei rapporti tra il Napoli e Noang, con Antonio Conte che ha le sue ragioni in merito. La situazione è delicata, con il Napoli che cerca di definire i dettagli del trasferimento di Noang al Galatasaray, mentre si attende l'esito della tr",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "accordo",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "scadenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestito",
+      "relevance": "low"
+    },
+    {
+      "name": "relazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "ingaggio",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli cerca di avvicinarsi a un riscatto di 30 milioni.",
+      "polarity": "neutral",
+      "claim_id": "b2789285-14a8-4b3d-80e5-c4b5708c49e6",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli cerca di avvicinarsi a un riscatto di 30 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli vuole avvicinarsi quanto più possibile a 30.",
+          "start_sec": 113.24,
+          "end_sec": 140.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Lucca",
+      "position": "Lorenzo Lucca è in prestito con diritto di riscatto per 35 milioni.",
+      "polarity": "positive",
+      "claim_id": "d0cb8c23-d87a-4573-9215-f592f7c59749",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s1",
+      "target_entity": "Lorenzo Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lorenzo Lucca è in prestito con diritto di riscatto per 35 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prestito 1 milione, diritto di riscatto da 35",
+          "start_sec": 33.2,
+          "end_sec": 61.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Lucca",
+      "position": "Lorenzo Lucca ha già proposto il contratto al Nottingham Forest.",
+      "polarity": "positive",
+      "claim_id": "df2c91ff-92bd-45e7-b3da-fdc0751a747f",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s1",
+      "target_entity": "Lorenzo Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lorenzo Lucca ha già proposto il contratto al Nottingham Forest.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche eh il contratto eventuale di Lucca al Nottingham Forest è stato già proposto dal giocatore",
+          "start_sec": 33.2,
+          "end_sec": 61.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte ha le sue ragioni riguardo alla situazione di Noang.",
+      "polarity": "neutral",
+      "claim_id": "89608d06-65cd-497e-8abd-6df426b4b9e8",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte ha le sue ragioni riguardo alla situazione di Noang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, ovviamente Noang ha le sue ragioni, eh, Antonio Conte ha le sue.",
+          "start_sec": 59.44,
+          "end_sec": 90.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "I rapporti tra Noalang e Antonio Conte sono incrinati.",
+      "polarity": "neutral",
+      "claim_id": "939fde4b-36e7-4167-a607-b5b0b2f24fc4",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I rapporti tra Noalang e Antonio Conte sono incrinati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo feeling con Antonio Conte non è veramente mai",
+          "start_sec": 89.28,
+          "end_sec": 115.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Noalang",
+      "position": "Noalang ha avuto momenti di rilevanza in campo.",
+      "polarity": "neutral",
+      "claim_id": "f266f257-e1ce-4d44-b321-65cfb4126ead",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s3",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Noalang ha avuto momenti di rilevanza in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "com'è stata la partita contro l'Inter, avere una sua rilevanza",
+          "start_sec": 89.28,
+          "end_sec": 115.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli e il Galatasaray hanno un accordo quasi pronto per un trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "5dd133d9-8c0d-44b1-aa93-eb54a2f1fa24",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli e il Galatasaray hanno un accordo quasi pronto per un trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi risulta una base d'accordo praticamente pronta tra Napoli e Galata Sarai",
+          "start_sec": 113.24,
+          "end_sec": 140.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Il Galatasaray vuole tenere la cifra del riscatto più bassa.",
+      "polarity": "neutral",
+      "claim_id": "ec3ec850-c086-4095-b1f2-0833d7008630",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s4",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray vuole tenere la cifra del riscatto più bassa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Galatasaray sta provando a tenerla un po' più bassa intorno ai 26-27 milioni",
+          "start_sec": 113.24,
+          "end_sec": 140.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Il Galatasaray sta aspettando l'ok finale per il trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "71af226b-cd7c-4151-aa1e-d0bd37759e27",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s5",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray sta aspettando l'ok finale per il trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Galatasaray aspetta un ultimo ok, l'ok del giocatore ce l'ha già.",
+          "start_sec": 139.12,
+          "end_sec": 170.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Lucca",
+      "position": "C'è un accordo di base tra il Napoli e il Nottingham Forest per Lorenzo Lucca.",
+      "polarity": "positive",
+      "claim_id": "570f0b5b-e590-4479-8859-858522f1ea8b",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s1",
+      "target_entity": "Lorenzo Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un accordo di base tra il Napoli e il Nottingham Forest per Lorenzo Lucca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la base di intesa tra club è già fatta",
+          "start_sec": 33.2,
+          "end_sec": 61.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli deve ancora rispondere riguardo al trasferimento di Noalang.",
+      "polarity": "neutral",
+      "claim_id": "5df63cdb-151d-4dd6-80fa-2f3279491e86",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli deve ancora rispondere riguardo al trasferimento di Noalang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è tutto nelle mani del Napoli.",
+          "start_sec": 139.12,
+          "end_sec": 170.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "L'unico passaggio mancante è il riscatto finale.",
+      "polarity": "neutral",
+      "claim_id": "7aa210ea-73e9-4c2c-9ce2-8a123b854ee1",
+      "video_id": "S9pzHbRgjvc",
+      "segment_id": "s4",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'unico passaggio mancante è il riscatto finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo è l'unico passaggio che manca prima dell'ok da parte del Napoli.",
+          "start_sec": 113.24,
+          "end_sec": 140.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

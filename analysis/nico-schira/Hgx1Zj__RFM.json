@@ -1,0 +1,362 @@
+{
+  "video_id": "Hgx1Zj__RFM",
+  "analyzed_at": "2026-04-17T11:35:49.785369+00:00",
+  "metadata": null,
+  "summary": "Il video di Nico Schira analizza le partite di campionato della domenica, con particolare attenzione alla vittoria del Lecce e alla difficile situazione della Cremonese. L'autore sottolinea come il Lecce, grazie ai gol di Sturicć, stia lottando per la salvezza, mentre la Cremonese, attualmente in zona retrocessione, potrebbe vedere la sua situazione complicarsi ulteriormente. Schira ipotizza che le polemiche arbitrali potrebbero offrire un'ultima chance a Davide Nicola per mantenere la sua panchina, mentre il Milan è in cerca di un grande acquisto per rinforzare la squadra.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "retrocessione",
+      "relevance": "medium"
+    },
+    {
+      "name": "controversie",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    },
+    {
+      "name": "fiducia",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "prestiti",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "Cremonese ha guadagnato solo quattro punti nelle ultime 14 partite.",
+      "polarity": "negative",
+      "claim_id": "eebed007-cb38-4862-97f9-039fbef356a1",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s4",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese ha guadagnato solo quattro punti nelle ultime 14 partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ultime 14 partite, la Cremonese ha fatto appena quattro punti.",
+          "start_sec": 97.84,
+          "end_sec": 122.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kstovicć",
+      "position": "Sturicć è visto come sostituto di Kstovicć, ma ha avuto prestazioni miste.",
+      "polarity": "neutral",
+      "claim_id": "a3b62cce-0cea-4061-88c4-e805984b4f1a",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s2",
+      "target_entity": "Kstovicć",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Sturicć è visto come sostituto di Kstovicć, ma ha avuto prestazioni miste.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'attaccante che era arrivato per sostituire, non far rimpiangere Kstovicć, l'ha fatto un po' rimpiangere",
+          "start_sec": 54.719,
+          "end_sec": 77.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Cremonese",
+      "position": "Cremonese è in zona retrocessione per la prima volta.",
+      "polarity": "negative",
+      "claim_id": "d18299c2-07dd-48b7-b3a8-fe2c417f6453",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s3",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese è in zona retrocessione per la prima volta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è passata dal decimo posto di tre mesi fa a essere per una prima volta a nove giornate dalla fine in zona retrocessione",
+          "start_sec": 76.52,
+          "end_sec": 99.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan è attivamente alla ricerca di un grande acquisto.",
+      "polarity": "neutral",
+      "claim_id": "fa58fa77-affd-42e3-bf26-b3396c174633",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è attivamente alla ricerca di un grande acquisto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è il Milan che va a caccia di un grande",
+          "start_sec": 1.12,
+          "end_sec": 28.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lecce",
+      "position": "Lecce ha vinto tutte le partite in cui Sturicć ha segnato.",
+      "polarity": "positive",
+      "claim_id": "4e4e9f4f-c48e-42b2-8c92-37b49598c1a2",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s2",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lecce ha vinto tutte le partite in cui Sturicć ha segnato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutte e tre le volte Lecce ha vinto",
+          "start_sec": 54.719,
+          "end_sec": 77.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Koulibali",
+      "position": "Koulibali è stato oggetto di un fallo che ha portato a un rigore.",
+      "polarity": "positive",
+      "claim_id": "f55c9292-a7e9-4d95-958b-3fae772303fd",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s2",
+      "target_entity": "Koulibali",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Koulibali è stato oggetto di un fallo che ha portato a un rigore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "calcio di rigore, fallo su Koulibali",
+          "start_sec": 54.719,
+          "end_sec": 77.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bonazzoli",
+      "position": "Bonazzoli segna per la Cremonese accorciando le distanze.",
+      "polarity": "positive",
+      "claim_id": "968a52a6-9b98-4eaf-a7fc-eb0d8e13a22a",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s3",
+      "target_entity": "Bonazzoli",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bonazzoli segna per la Cremonese accorciando le distanze.",
+      "evidence_quotes": [
+        {
+          "quote_text": "accorcia le distanze con Bonazzoli",
+          "start_sec": 76.52,
+          "end_sec": 99.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Davide Nicola",
+      "position": "Le polemiche potrebbero salvare Davide Nicola dalla crisi.",
+      "polarity": "neutral",
+      "claim_id": "e9393cd1-1450-4772-b7f1-b12d6cfb57a4",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s3",
+      "target_entity": "Davide Nicola",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Le polemiche potrebbero salvare Davide Nicola dalla crisi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Queste polemiche potrebbero salvare Davide Nicola",
+          "start_sec": 76.52,
+          "end_sec": 99.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Cremonese",
+      "position": "Il direttore sportivo Giacchetta si lamenta del VAR.",
+      "polarity": "neutral",
+      "claim_id": "6d5141af-2492-408c-b598-a096876679a6",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s3",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il direttore sportivo Giacchetta si lamenta del VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si lamenta del VAR.",
+          "start_sec": 76.52,
+          "end_sec": 99.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sturicć",
+      "position": "Sturicć ha segnato tre gol in campionato.",
+      "polarity": "positive",
+      "claim_id": "472d5ca4-fbd7-4caf-958a-47f25e032be0",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s2",
+      "target_entity": "Sturicć",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sturicć ha segnato tre gol in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "terzo gol in campionato",
+          "start_sec": 54.719,
+          "end_sec": 77.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Cremonese",
+      "position": "Cremonese è attualmente terzultima in classifica.",
+      "polarity": "negative",
+      "claim_id": "1b650718-dbb2-43af-8cad-d5f0e70b41e5",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s4",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese è attualmente terzultima in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cremonese è terzultima.",
+          "start_sec": 97.84,
+          "end_sec": 122.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "Cremonese non vince da tre mesi.",
+      "polarity": "negative",
+      "claim_id": "6737174b-2686-428f-95b4-5d858d6ff8e6",
+      "video_id": "Hgx1Zj__RFM",
+      "segment_id": "s4",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese non vince da tre mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non vince da 3 mesi.",
+          "start_sec": 97.84,
+          "end_sec": 122.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

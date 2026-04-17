@@ -59,19 +59,19 @@ media-advisor/
 
 ```bash
 cd web && npm install
-npm run dev   # solo frontend (richiede server su 3001 per Inbox)
+npm run dev   # solo frontend (richiede server su 3002 per Inbox)
 ```
 
 **Dev completo** (server API + dashboard, per Inbox e conferma video):
 ```bash
-npm run dev   # avvia server (3001) + Vite in parallelo
+npm run dev   # avvia server (3002) + Vite in parallelo
 ```
 
 La dashboard legge:
 - `analysis/` via `web/public/analysis/` (copiato con `npm run prepare-public`)
-- `mercato/` via API `http://localhost:3001/api/mercato/*`
+- `mercato/` via API `http://localhost:3002/api/mercato/*`
 
-Nota: `npm run dev` in root ora esegue un pre-step `dev:kill` per liberare le porte `3001/5173/5174` e avviare sempre istanze “pulite”.
+Nota: `npm run dev` in root ora esegue un pre-step `dev:kill` per liberare le porte `3001/3002/5173/5174` e avviare sempre istanze “pulite”.
 
 ## Piano Creator Advisor (quality upgrade)
 

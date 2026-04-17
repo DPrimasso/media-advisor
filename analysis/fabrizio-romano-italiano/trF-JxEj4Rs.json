@@ -1,0 +1,346 @@
+{
+  "video_id": "trF-JxEj4Rs",
+  "analyzed_at": "2026-04-17T07:39:52.201704+00:00",
+  "metadata": {
+    "title": "🚨💣 COLPO FATTO! MILAN: NON È FINITA! MATETA, MALDINI, STOP ROMA-GIRO TERZINI, 22 MILIONI IN ARRIVO….",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-25"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità del calciomercato, in particolare riguardanti il Milan e la Lazio. L'autore sottolinea che Daniel Maldini, molto ambito da diverse squadre, è vicino a un prestito alla Lazio, con un accordo verbale già raggiunto con l'Atalanta. Inoltre, si evidenzia l'incertezza riguardo alla situazione di Alessio Romagnoli e le difficoltà della Roma nel trovare terzini sinistri, suggerendo che il mercato invernale è ancora molto attivo e ricco di colpi di scena.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta attuando strategie di mercato per il prossimo mese.",
+      "polarity": "positive",
+      "claim_id": "19d14fb8-1273-4065-b45b-a36d7d87e097",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta attuando strategie di mercato per il prossimo mese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "settimana di calciomercato. 7 giorni alla fine per questo mercato invernale.",
+          "start_sec": 0.76,
+          "end_sec": 30.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il mercato invernale del Milan è molto attivo.",
+      "polarity": "neutral",
+      "claim_id": "7e8a6313-cedd-4ae9-9ff6-7b958f5cd4fd",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato invernale del Milan è molto attivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stato un weekend molto intenso e allora partiamo subito con gli aggiornamenti.",
+          "start_sec": 0.76,
+          "end_sec": 30.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio ha raggiunto un accordo verbale con l'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "c4088583-5c88-4f82-adf1-d2f581fd81df",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha raggiunto un accordo verbale con l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'accordo verbale è è totale tra la Lazio e l'Atalanta",
+          "start_sec": 28.039,
+          "end_sec": 62.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Daniel Maldini",
+      "position": "Daniel Maldini sarà in prestito alla Lazio fino alla fine della stagione.",
+      "polarity": "positive",
+      "claim_id": "156c0590-45b9-4378-a29c-25a762fd48a6",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s2",
+      "target_entity": "Daniel Maldini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Maldini sarà in prestito alla Lazio fino alla fine della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Daniel Maldini, se non ci saranno sorprese dell'ultima ora sarà un nuovo calciatore della Lazio da qui fino alla fine della stagione",
+          "start_sec": 58.719,
+          "end_sec": 95.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Alessio Romagnolli",
+      "position": "Non c'è ancora via libera dalla Lazio per Alessio Romagnolli.",
+      "polarity": "positive",
+      "claim_id": "7e40e4fb-9b6a-46f0-b399-640c64ce09c6",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s2",
+      "target_entity": "Alessio Romagnolli",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non c'è ancora via libera dalla Lazio per Alessio Romagnolli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ancora non c'è un via libera della Lazio di Alessio Romagnolli",
+          "start_sec": 58.719,
+          "end_sec": 95.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio sta gestendo la situazione contrattuale di Romagnoli.",
+      "polarity": "neutral",
+      "claim_id": "acb7c569-e987-46c6-b627-472436a12297",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta gestendo la situazione contrattuale di Romagnoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio che è il pallino di questa vicenda tra le mani.",
+          "start_sec": 93.84,
+          "end_sec": 122.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Romagnoli",
+      "position": "Romagnoli ha chiesto di essere liberato dal suo contratto.",
+      "polarity": "neutral",
+      "claim_id": "82f92ccf-8d90-4c3f-a918-bfd4a57bf842",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s3",
+      "target_entity": "Romagnoli",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Romagnoli ha chiesto di essere liberato dal suo contratto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giocatore, da quanto risulta più volte ha chiesto di essere liberato.",
+          "start_sec": 93.84,
+          "end_sec": 122.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lotito",
+      "position": "Romagnoli ha contattato Lotito riguardo la sua situazione.",
+      "polarity": "neutral",
+      "claim_id": "d098e8cc-7de9-4148-891d-c6509acac07f",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s3",
+      "target_entity": "Lotito",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Romagnoli ha contattato Lotito riguardo la sua situazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sia con Maurizio Sarri sia con il presidente Lotito.",
+          "start_sec": 93.84,
+          "end_sec": 122.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio sta pianificando lo scambio di documenti nei prossimi giorni.",
+      "polarity": "neutral",
+      "claim_id": "38268e42-b83e-4a09-a593-37db29abe7ea",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta pianificando lo scambio di documenti nei prossimi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Scambio di documenti previsto nelle prossime ore",
+          "start_sec": 58.719,
+          "end_sec": 95.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Daniel Maldini",
+      "position": "Daniel Maldini è ricercato da diverse squadre.",
+      "polarity": "neutral",
+      "claim_id": "fe2b2011-d801-4bd4-bab8-f28f56fd90db",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s1",
+      "target_entity": "Daniel Maldini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Maldini è ricercato da diverse squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tante squadre ci hanno pensato perché rappresentava un'opportunità, cioè Daniel Maldini",
+          "start_sec": 28.039,
+          "end_sec": 62.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarri",
+      "position": "Romagnoli ha contattato direttamente Maurizio Sarri.",
+      "polarity": "neutral",
+      "claim_id": "88abd24e-1755-4027-94f6-3412c039fc55",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s3",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Romagnoli ha contattato direttamente Maurizio Sarri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo ha fatto in dei contatti diretti sia con Maurizio Sarri.",
+          "start_sec": 93.84,
+          "end_sec": 122.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ricky Massara",
+      "position": "Ricky Massara ha confermato interesse per Carrasco.",
+      "polarity": "neutral",
+      "claim_id": "397fd19a-e395-4636-8382-799e0633e539",
+      "video_id": "trF-JxEj4Rs",
+      "segment_id": "s4",
+      "target_entity": "Ricky Massara",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ricky Massara ha confermato interesse per Carrasco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha confermato Ricky Massara sia il gradimento per Carrasco",
+          "start_sec": 120.96,
+          "end_sec": 147.04000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interesse calciatori",
+        "mercato",
+        "Roma"
+      ]
+    }
+  ]
+}

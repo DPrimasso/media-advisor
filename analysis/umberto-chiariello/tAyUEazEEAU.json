@@ -1,0 +1,350 @@
+{
+  "video_id": "tAyUEazEEAU",
+  "analyzed_at": "2026-04-17T11:02:39.831901+00:00",
+  "metadata": null,
+  "summary": "Il video di Umberto Chiariello affronta il tema degli infortuni dei giocatori durante le pause per le nazionali, evidenziando le difficoltà che ne derivano per le squadre di club, in particolare il Milan. L'autore critica la situazione attuale, sottolineando come il club rossonero stia affrontando gravi problemi di formazione a causa degli infortuni di Salemakers e Racmani, quest'ultimo scomparso dalle prestazioni dopo un inizio promettente. Chiariello esprime preoccupazione per il futuro della nazionale italiana, che rischia di non qualificarsi per il mondiale del 2026, lasciando una generazi",
+  "topics": [
+    {
+      "name": "generazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "europa",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Allegri",
+      "position": "Allegri ha impostato la squadra con un modulo 3-5-2.",
+      "polarity": "neutral",
+      "claim_id": "7b34e9e1-b063-4d06-a90c-233fb9304190",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s0",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri ha impostato la squadra con un modulo 3-5-2.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri ha fatto una squadra col tre 5-2.",
+          "start_sec": 0.0,
+          "end_sec": 47.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe avere difficoltà nella formazione a causa degli infortuni.",
+      "polarity": "negative",
+      "claim_id": "e99acfb3-e501-4ed3-96ce-ef05f30d7813",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Milan potrebbe avere difficoltà nella formazione a causa degli infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E mo chi fa giocare?",
+          "start_sec": 0.0,
+          "end_sec": 47.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Racmani",
+      "position": "Racmani è scomparso dopo due partite a causa di un infortunio in nazionale.",
+      "polarity": "negative",
+      "claim_id": "a71fa2f3-0f54-4638-a606-0b1468eba2c4",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s1",
+      "target_entity": "Racmani",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Racmani è scomparso dopo due partite a causa di un infortunio in nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso abbiamo chiamato Lasciarelli per chiedere a chi l'ha visto se qualcuno incrocia Raccamani da qualche parte perché ha fatto due partite. ed è scomparso letteralmente dove si è fatto male in nazionale.",
+          "start_sec": 45.92,
+          "end_sec": 93.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Allegri viene menzionato rispetto alla bellezza di vedere i giocatori in nazionale.",
+      "polarity": "neutral",
+      "claim_id": "8c979aac-138c-4bbc-aa3b-c63950b35c80",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Allegri viene menzionato rispetto alla bellezza di vedere i giocatori in nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Diteglielo ad Allegri quanto è bello mandare i giocatori in nazionale.",
+          "start_sec": 45.92,
+          "end_sec": 93.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lasciarelli",
+      "position": "Lasciarelli è stato chiamato per cercare di rintracciare Racmani.",
+      "polarity": "neutral",
+      "claim_id": "eb5ed29b-d5a7-4c27-a6ff-c469f626bfd0",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s1",
+      "target_entity": "Lasciarelli",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lasciarelli è stato chiamato per cercare di rintracciare Racmani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso abbiamo chiamato Lasciarelli per chiedere a chi l'ha visto se qualcuno incrocia Raccamani.",
+          "start_sec": 45.92,
+          "end_sec": 93.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Racmani",
+      "position": "Racmani non ha mantenuto le aspettative dopo un inizio promettente.",
+      "polarity": "negative",
+      "claim_id": "ebe32503-6f70-4964-9602-1cf578414bb9",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s1",
+      "target_entity": "Racmani",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Racmani non ha mantenuto le aspettative dopo un inizio promettente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa stagione sulla capacità di Racmani di marcare il cartellino tutte le sante partite, adesso abbiamo chiamato Lasciarelli.",
+          "start_sec": 45.92,
+          "end_sec": 93.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "calciatori",
+      "position": "I calciatori hanno pause frequenti durante la stagione.",
+      "polarity": "negative",
+      "claim_id": "69de9a3f-af6f-4946-8210-f5b59e3f0ab9",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s2",
+      "target_entity": "calciatori",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I calciatori hanno pause frequenti durante la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si fa una pausa a settembre, una pausa a ottobre, una pausa a novembre",
+          "start_sec": 90.28,
+          "end_sec": 143.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Milan",
+      "position": "Il Milan ha perso i due uomini di fascia per infortunio.",
+      "polarity": "negative",
+      "claim_id": "5889c8b8-616a-4070-b3f2-ea9169997407",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha perso i due uomini di fascia per infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan che ha perso i due uomini di fascia",
+          "start_sec": 0.0,
+          "end_sec": 47.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Italia",
+      "position": "I giocatori in nazionale si infortunano durante le trasferte.",
+      "polarity": "negative",
+      "claim_id": "f1165578-4dab-4f5b-a60f-f3f1d74a54cb",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori in nazionale si infortunano durante le trasferte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vanno in nazionale e si fanno male",
+          "start_sec": 90.28,
+          "end_sec": 143.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "assicurazione",
+      "position": "L'assicurazione non sembra utile per i calciatori infortunati.",
+      "polarity": "negative",
+      "claim_id": "3614739a-585f-41ba-9878-bf12a483f802",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s2",
+      "target_entity": "assicurazione",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'assicurazione non sembra utile per i calciatori infortunati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E a che serve sta assicurazione?",
+          "start_sec": 90.28,
+          "end_sec": 143.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli spende milioni per acquistare calciatori.",
+      "polarity": "positive",
+      "claim_id": "e53afb42-d10f-4b14-b839-eb0975983aef",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli spende milioni per acquistare calciatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "solo il Napoli arriva a queste cifre milioni di euro",
+          "start_sec": 90.28,
+          "end_sec": 143.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Salemakers",
+      "position": "Salemakers è infortunato.",
+      "polarity": "negative",
+      "claim_id": "2c475beb-9813-4f1e-a774-b3fa2b86640d",
+      "video_id": "tAyUEazEEAU",
+      "segment_id": "s0",
+      "target_entity": "Salemakers",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Salemakers è infortunato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Salemakers di qua e Stupignan di qua. Si so fatti male tutti e due.",
+          "start_sec": 0.0,
+          "end_sec": 47.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

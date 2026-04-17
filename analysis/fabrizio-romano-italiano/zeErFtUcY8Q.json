@@ -1,0 +1,358 @@
+{
+  "video_id": "zeErFtUcY8Q",
+  "analyzed_at": "2026-04-16T16:15:34.701933+00:00",
+  "metadata": {
+    "title": "🚨💣 MATETA-SCAMBIO JUVE-DIABY ATTACCA! MILAN, ALTRO COLPO! ALISSON E IL NAPOLI, GUESSAND, HOLM…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-30"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle attive trattative di mercato delle principali squadre di calcio italiane, in particolare la Juventus, il Milan e l'Inter. L'autore evidenzia che la Juventus sta cercando di rinforzare la propria rosa, con un focus specifico sull'acquisto del terzino destro Emil Holm dal Bologna, in uno scambio che coinvolge Joao Mario. Inoltre, si menzionano altre operazioni di mercato, come il Napoli che lavora per Alison Santos, suggerendo un periodo di intensa attività e opportunità per i club italiani.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestiti",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "transazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "attività",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta preparando un colpo di mercato.",
+      "polarity": "neutral",
+      "claim_id": "5fdabd16-04cc-4023-ab49-8297fb302456",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta preparando un colpo di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo qualcosa sul Milan, qualcosa sull'Inter, Lukman",
+          "start_sec": 0.08,
+          "end_sec": 44.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter è coinvolta in molte trattative di mercato attive.",
+      "polarity": "neutral",
+      "claim_id": "b60e5a6e-bac3-4655-9897-2fac89b43146",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è coinvolta in molte trattative di mercato attive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo parlare tanto eh di Milan, qualcosa sull'Inter",
+          "start_sec": 0.08,
+          "end_sec": 44.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bologna",
+      "position": "I due club stanno parlando riguardo a un trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "8a43428f-604f-4f31-8a02-abf1dfd87dd7",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "I due club stanno parlando riguardo a un trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i due club ne stanno parlando eh anche in questi minuti.",
+          "start_sec": 42.0,
+          "end_sec": 75.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha praticamente messo le mani su Emil Holm.",
+      "polarity": "neutral",
+      "claim_id": "d8fde9d6-2979-413c-885e-c22e771430e7",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha praticamente messo le mani su Emil Holm.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus ha praticamente messo le mani su Holm, Emil Holm, al Bologna andrebbe Joao Mario.",
+          "start_sec": 72.68,
+          "end_sec": 107.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Rui",
+      "position": "Rui della Juventus è rappresentato dagli stessi agenti di Holm.",
+      "polarity": "neutral",
+      "claim_id": "dfab3277-a7b9-45ff-af45-064caa36ddd9",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s2",
+      "target_entity": "Rui",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rui della Juventus è rappresentato dagli stessi agenti di Holm.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche perché insomma gli agenti di Holm sono gli stessi agenti di Rui, giovane della Juve.",
+          "start_sec": 72.68,
+          "end_sec": 107.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta attivamente cercando di rinforzare la rosa.",
+      "polarity": "neutral",
+      "claim_id": "37e0e646-f616-4063-897d-6c992385ff8b",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta attivamente cercando di rinforzare la rosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono conferme su un'operazione per aggiungere",
+          "start_sec": 0.08,
+          "end_sec": 44.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta valutando una proposta per Mateta.",
+      "polarity": "neutral",
+      "claim_id": "9f39aeee-9f58-4576-b571-ffffaddaf72d",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta valutando una proposta per Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus eh lo sta valutando.",
+          "start_sec": 130.0,
+          "end_sec": 167.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Joo Mario",
+      "position": "La Juventus non ha convinto Joo Mario.",
+      "polarity": "neutral",
+      "claim_id": "b88d4600-bc56-4c48-b0f1-6a3a9d7c9e90",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s1",
+      "target_entity": "Joo Mario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus non ha convinto Joo Mario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve non ha convinto, e di aggiungerne un altro.",
+          "start_sec": 42.0,
+          "end_sec": 75.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Holm",
+      "position": "La Juventus sta trattando Holm del Bologna.",
+      "polarity": "neutral",
+      "claim_id": "f4c81907-6523-4467-9dbb-4df1c267e563",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s1",
+      "target_entity": "Holm",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta trattando Holm del Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta lavorando forte sul nome di Holm del Bologna.",
+          "start_sec": 42.0,
+          "end_sec": 75.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mercato",
+      "position": "Il mercato è attualmente molto attivo.",
+      "polarity": "neutral",
+      "claim_id": "bd6544db-7655-484e-9393-b166ad6d6423",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s0",
+      "target_entity": "Mercato",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato è attualmente molto attivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mercato è molto molto attivo",
+          "start_sec": 0.08,
+          "end_sec": 44.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bologna",
+      "position": "Joao Mario andrebbe al Bologna.",
+      "polarity": "neutral",
+      "claim_id": "fbd513df-2387-4c34-8d0c-e3702c44b951",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Joao Mario andrebbe al Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "al Bologna andrebbe Joao Mario.",
+          "start_sec": 72.68,
+          "end_sec": 107.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Mateta è stato proposto alla Juventus.",
+      "polarity": "neutral",
+      "claim_id": "189bb29b-ada3-42e5-939e-354a42f668ba",
+      "video_id": "zeErFtUcY8Q",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mateta è stato proposto alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stato proposto alla Juventus.",
+          "start_sec": 130.0,
+          "end_sec": 167.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

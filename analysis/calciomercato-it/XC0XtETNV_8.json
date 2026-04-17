@@ -1,0 +1,191 @@
+{
+  "video_id": "XC0XtETNV_8",
+  "analyzed_at": "2026-04-17T11:23:48.812552+00:00",
+  "metadata": null,
+  "summary": "Il video analizza gli errori arbitrali che hanno penalizzato l'Inter, evidenziando come le decisioni di Manganiello e Gariglio abbiano avuto conseguenze significative per la squadra. L'autore sostiene che Kivu ha riconosciuto il danno subito dalla sua squadra a causa di queste scelte arbitrali, mentre Sozza, che dirigerà il big match tra Inter e Roma, ha mostrato prestazioni miste, alternando decisioni corrette a errori, come nel caso del rigore negato all'Inter contro la Fiorentina. In conclusione, si sottolinea l'importanza di una maggiore attenzione da parte degli arbitri per evitare simili",
+  "topics": [],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Manganiello",
+      "position": "Manganiello ha avuto errori arbitrali costosi per l'Inter.",
+      "polarity": "negative",
+      "claim_id": "a95c9c0c-8789-48e1-9261-2a89be288b54",
+      "video_id": "XC0XtETNV_8",
+      "segment_id": "s0",
+      "target_entity": "Manganiello",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Manganiello ha avuto errori arbitrali costosi per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gli errori arbitrali contro l'Inter costano cari a Manganiello e Gariglio.",
+          "start_sec": 0.199,
+          "end_sec": 30.720000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kivu",
+      "position": "Kivu ha ammesso che la sua squadra è stata danneggiata dagli arbitri.",
+      "polarity": "neutral",
+      "claim_id": "4f4c1c41-5120-481a-8f5d-49662a80830d",
+      "video_id": "XC0XtETNV_8",
+      "segment_id": "s0",
+      "target_entity": "Kivu",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kivu ha ammesso che la sua squadra è stata danneggiata dagli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La aveva ammesso che la squadra di Kivu era stata danneggiata da arbitro e VAR contro l'Atalanta.",
+          "start_sec": 0.199,
+          "end_sec": 30.720000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "La Penna",
+      "position": "La Penna ha diretto una partita simile e ripartirà dalla Serie B.",
+      "polarity": "neutral",
+      "claim_id": "7ad7dd7a-cfec-42cf-a3ce-4f8017752dff",
+      "video_id": "XC0XtETNV_8",
+      "segment_id": "s0",
+      "target_entity": "La Penna",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Penna ha diretto una partita simile e ripartirà dalla Serie B.",
+      "evidence_quotes": [
+        {
+          "quote_text": "proprio come successo alla Penna dopo Inter- Juventus.",
+          "start_sec": 0.199,
+          "end_sec": 30.720000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Sozza",
+      "position": "Sozza ha diretto il big match tra Inter e Roma e non ha commesso sbavature.",
+      "polarity": "neutral",
+      "claim_id": "d6aa0f61-590c-4373-9e63-748a98d5c989",
+      "video_id": "XC0XtETNV_8",
+      "segment_id": "s1",
+      "target_entity": "Sozza",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sozza ha diretto il big match tra Inter e Roma e non ha commesso sbavature.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Sozza, tre precedenti stagionali con i giallorossi senza sbavature",
+          "start_sec": 28.32,
+          "end_sec": 55.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Sozza",
+      "position": "Sozza ha negato un rigore all'Inter contro la Fiorentina.",
+      "polarity": "neutral",
+      "claim_id": "a7c05948-e4ec-41d4-823c-b5d2986fa278",
+      "video_id": "XC0XtETNV_8",
+      "segment_id": "s1",
+      "target_entity": "Sozza",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sozza ha negato un rigore all'Inter contro la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mentre ai nerazzurri negò un rigore contro la Fiorentina",
+          "start_sec": 28.32,
+          "end_sec": 55.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Sozza",
+      "position": "Sozza ha commesso un errore non espellendo Lukman.",
+      "polarity": "neutral",
+      "claim_id": "5c4220bc-c8a3-4867-b077-089580273bfe",
+      "video_id": "XC0XtETNV_8",
+      "segment_id": "s1",
+      "target_entity": "Sozza",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sozza ha commesso un errore non espellendo Lukman.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mentre coi rossoneri sbagliò a non espellere Lukman nel pareggio con l'Atalanta",
+          "start_sec": 28.32,
+          "end_sec": 55.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Sozza",
+      "position": "Sozza ha diretto con buona prestazione Napoli-Milan.",
+      "polarity": "neutral",
+      "claim_id": "02f996c2-5dbb-4f07-aa1a-001a39eafc42",
+      "video_id": "XC0XtETNV_8",
+      "segment_id": "s1",
+      "target_entity": "Sozza",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sozza ha diretto con buona prestazione Napoli-Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dirette bene la sfida tra Parenopei ed Inter",
+          "start_sec": 28.32,
+          "end_sec": 55.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

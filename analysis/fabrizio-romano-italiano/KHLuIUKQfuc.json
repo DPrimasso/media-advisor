@@ -1,0 +1,358 @@
+{
+  "video_id": "KHLuIUKQfuc",
+  "analyzed_at": "2026-04-17T09:39:06.522255+00:00",
+  "metadata": {
+    "title": "🚨💣 OFFERTA CARRASCO! LOOKMAN, IL NAPOLI E I COSTI. LANG-GALATASARAY: DETTAGLI. DA GIOVANE A BALDANZI",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-21"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti di mercato riguardanti il Napoli e il Galatasaray, in particolare sull'accordo per il trasferimento di Noalang. L'autore sottolinea che il Galatasaray ha accettato la proposta di prestito del Napoli, fissando il riscatto a 30 milioni di euro, e che l'accordo con il giocatore è già stato raggiunto. Inoltre, si ipotizza che, una volta formalizzato l'accordo, il Napoli potrà accelerare le sue operazioni di mercato in entrata, continuando a lavorare su altri profili come Giovanni e Daniel Maldini.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "high"
+    },
+    {
+      "name": "interesse",
+      "relevance": "high"
+    },
+    {
+      "name": "opportunità",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha un'opzione di riscatto fissata a 30 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "19fc1249-cb29-4486-b643-3c2c5db4216a",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha un'opzione di riscatto fissata a 30 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "30 milioni di euro di diritto di riscatto, quindi praticamente il Gala accetta la richiesta del Napoli che voleva 30.",
+          "start_sec": 28.519,
+          "end_sec": 57.120000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha avuto una serata di campo sfortunata contro l'Athletic Bilbao.",
+      "polarity": "negative",
+      "claim_id": "8ad094ea-6ea1-41e3-9b36-0751d39269bb",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha avuto una serata di campo sfortunata contro l'Athletic Bilbao.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stata una serata di campo importante per le squadre italiane. Sfortunata l'Atalanta con l'Athletic Bilbao.",
+          "start_sec": 0.52,
+          "end_sec": 30.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Galatasaray ha accettato i termini proposti dal Napoli per il giocatore.",
+      "polarity": "positive",
+      "claim_id": "e748b8ca-8461-445d-9e41-258ff107851a",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s2",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Galatasaray ha accettato i termini proposti dal Napoli per il giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Galatasaray ha capito che rischiava di perdere il giocatore e ha scelto di accettare i termini proposti dal Napoli.",
+          "start_sec": 54.44,
+          "end_sec": 81.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli sta procedendo con l'acquisto del giocatore.",
+      "polarity": "positive",
+      "claim_id": "3d2122c7-5200-4da2-896e-adabc63bb60b",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta procedendo con l'acquisto del giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha scelto di accettare i termini proposti dal Napoli.",
+          "start_sec": 54.44,
+          "end_sec": 81.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe accelerare sul mercato in entrata.",
+      "polarity": "positive",
+      "claim_id": "38a11e75-14b6-459b-964a-1e76a867f2f4",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli potrebbe accelerare sul mercato in entrata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "significherebbe anche per il Napoli la possibilità di poter accelerare sul mercato in entrata.",
+          "start_sec": 79.72,
+          "end_sec": 104.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli sta tornando a fare operazioni di prestito.",
+      "polarity": "positive",
+      "claim_id": "b6e742c9-6866-4bcb-8e3c-d793d57223e8",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta tornando a fare operazioni di prestito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli comunque eh sta facendo uscire determinati calciatori in prestito con diritto",
+          "start_sec": 103.2,
+          "end_sec": 136.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "calciatore",
+      "position": "C'è un accordo tra Galatasaray e il calciatore.",
+      "polarity": "positive",
+      "claim_id": "7e333555-7f53-4993-aa00-e3c0f9bbe218",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s2",
+      "target_entity": "calciatore",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un accordo tra Galatasaray e il calciatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'accordo col giocatore c'è, è fatto.",
+          "start_sec": 54.44,
+          "end_sec": 81.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Daniel Maldini",
+      "position": "Daniel Maldini è in trattativa per un prestito.",
+      "polarity": "positive",
+      "claim_id": "39e4c33c-a8dd-4160-93dc-41aabb4a5031",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s4",
+      "target_entity": "Daniel Maldini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Maldini è in trattativa per un prestito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, stessa formula anche per Daniel Maldini",
+          "start_sec": 103.2,
+          "end_sec": 136.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Elnesi",
+      "position": "Elnesi è su un prestito con diritto in entrata.",
+      "polarity": "positive",
+      "claim_id": "498d5499-c25b-498a-bf8e-f0504dd060f7",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s4",
+      "target_entity": "Elnesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Elnesi è su un prestito con diritto in entrata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stessa formula anche per Elnesi",
+          "start_sec": 103.2,
+          "end_sec": 136.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Galatasaray è in dirittura d'arrivo per Noalang.",
+      "polarity": "positive",
+      "claim_id": "09e08fdd-2734-411b-92e9-13d0b1a7071d",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s3",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Galatasaray è in dirittura d'arrivo per Noalang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'operazione è in dirittura d'arrivo per Noalang al Galatasaray.",
+          "start_sec": 79.72,
+          "end_sec": 104.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Giovanni",
+      "position": "Giovanni potrebbe andare in prestito al Verona.",
+      "polarity": "positive",
+      "claim_id": "12cb3557-689b-4907-a7a1-bddbf8e787e9",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s4",
+      "target_entity": "Giovanni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanni potrebbe andare in prestito al Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, infatti si sta parlando con il Verona di Giovanni proprio con questo tipo di formula",
+          "start_sec": 103.2,
+          "end_sec": 136.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha ottenuto una vittoria importante in Champions League.",
+      "polarity": "positive",
+      "claim_id": "54699a3d-1a95-458d-a731-90721bd16c9d",
+      "video_id": "KHLuIUKQfuc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha ottenuto una vittoria importante in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vittoria importante per la Juventus in Champions League.",
+          "start_sec": 0.52,
+          "end_sec": 30.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

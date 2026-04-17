@@ -1,0 +1,342 @@
+{
+  "video_id": "DWQcwJaMyRw",
+  "analyzed_at": "2026-04-17T10:41:44.561877+00:00",
+  "metadata": null,
+  "summary": "Il video di azzurro-fluido analizza la controversa figura di Antonio Conte nel contesto del calcio italiano, evidenziando come sia considerato inadatto al di fuori della Serie A, nonostante il suo successo nel campionato. L'autore critica le polemiche sollevate dai media, in particolare riguardo al presunto \"mal di Napoli\", sostenendo che le dichiarazioni di Conte non giustificherebbero tale interpretazione. Conclude che la discussione attorno alla sua possibile nomina in nazionale è influenzata da pregiudizi e malintesi, suggerendo che Conte rimane un leader capace di risollevare le sorti del",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "opinione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte è considerato inadatto al di fuori della Serie A.",
+      "polarity": "negative",
+      "claim_id": "014df2ed-0b49-4abd-a99e-af1c78ebfa0b",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è considerato inadatto al di fuori della Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte l'avete dichiarato inadatto nel momento in cui mette i piedi fuori dalla Serie A, non è bu, è il migliore in Serie A",
+          "start_sec": 40.12,
+          "end_sec": 73.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "Ci sono polemiche sul miglioramento del calcio italiano.",
+      "polarity": "neutral",
+      "claim_id": "0d36e64c-3a09-441f-91ba-74aed85ede5e",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s2",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono polemiche sul miglioramento del calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il primo punto per migliorare il calcio italiano e però pare che lo fate apposta dividerci",
+          "start_sec": 69.479,
+          "end_sec": 102.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "nazionale",
+      "position": "Il condottiero in nazionale è apprezzato per la sua leadership.",
+      "polarity": "neutral",
+      "claim_id": "4b73aef3-18a8-43e9-bddb-ed68576c28eb",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s3",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il condottiero in nazionale è apprezzato per la sua leadership.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un condottiero che ci dice \"Mi mi è piaciuta quell'Italia che aveva\"",
+          "start_sec": 100.399,
+          "end_sec": 133.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Le dichiarazioni di Conte non indicano un mal di Napoli.",
+      "polarity": "negative",
+      "claim_id": "1066f3ab-49b9-4f73-b90d-871a42543be6",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le dichiarazioni di Conte non indicano un mal di Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le ultime dichiarazioni di Conte non sono affatto di un Conte che c'ha il mal di Napoli",
+          "start_sec": 131.039,
+          "end_sec": 161.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "La notizia del mal di Napoli sembra infondata e mal interpretata.",
+      "polarity": "negative",
+      "claim_id": "79203269-954d-489b-a92d-29fcfa2c83a4",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La notizia del mal di Napoli sembra infondata e mal interpretata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cioè, pur scrivere Mal di Napoli, non rispettate nemmeno la logica di un sondaggio.",
+          "start_sec": 131.039,
+          "end_sec": 161.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "De Laurentiis",
+      "position": "ADL deve trovare un accordo per il futuro.",
+      "polarity": "neutral",
+      "claim_id": "006019a5-f086-4a87-a870-4527a4ce70b6",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s6",
+      "target_entity": "De Laurentiis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "ADL deve trovare un accordo per il futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a quel punto andrebbe dovrebbe trovata una quadra con ADL.",
+          "start_sec": 188.799,
+          "end_sec": 226.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "De Laurentis",
+      "position": "De Laurentiis è in rotta con l'ambiente attuale.",
+      "polarity": "negative",
+      "claim_id": "0cb018e8-0fb8-44c8-922c-a54c9a0ac25f",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s5",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis è in rotta con l'ambiente attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che sta in rotta con De Laurentis",
+          "start_sec": 159.64,
+          "end_sec": 190.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte è visto come un sogno dalla FGC.",
+      "polarity": "neutral",
+      "claim_id": "1fb3aa6b-ea80-4f69-8df6-8a8e37d1321b",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s5",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è visto come un sogno dalla FGC.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, Conte, il sogno della FGC.",
+          "start_sec": 159.64,
+          "end_sec": 190.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Sport Mediaset",
+      "position": "Sport Mediaset ha condotto un sondaggio.",
+      "polarity": "neutral",
+      "claim_id": "30fcbb39-cbfa-405d-bd21-c3f030af9a21",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s2",
+      "target_entity": "Sport Mediaset",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sport Mediaset ha condotto un sondaggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il sondaggio di Sport Mediaset.",
+          "start_sec": 69.479,
+          "end_sec": 102.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Olivieri",
+      "position": "Olivieri è dispiaciuto per la situazione.",
+      "polarity": "neutral",
+      "claim_id": "c96ab08b-880d-4f03-afea-22d03b57e57c",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s6",
+      "target_entity": "Olivieri",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Olivieri è dispiaciuto per la situazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Olivieri pure in lacrima.",
+          "start_sec": 188.799,
+          "end_sec": 226.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bast",
+      "position": "Bast è stato espulso durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "3303affe-e6c3-43cc-9d82-411b1ef0d0a0",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s1",
+      "target_entity": "Bast",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bast è stato espulso durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "viene espulso Bast",
+          "start_sec": 40.12,
+          "end_sec": 73.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina si è dimesso.",
+      "polarity": "neutral",
+      "claim_id": "6fcf7c84-20d0-42e1-8029-274c3933ac1e",
+      "video_id": "DWQcwJaMyRw",
+      "segment_id": "s5",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina si è dimesso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è si è dimesso Gravina",
+          "start_sec": 159.64,
+          "end_sec": 190.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

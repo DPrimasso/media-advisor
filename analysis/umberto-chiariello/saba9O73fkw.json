@@ -1,0 +1,362 @@
+{
+  "video_id": "saba9O73fkw",
+  "analyzed_at": "2026-04-17T10:55:10.568910+00:00",
+  "metadata": null,
+  "summary": "Nel video, Umberto Chiariello affronta il tema del \"fuoco amico\" contro il Napoli, sottolineando come alcune critiche provengano da motivi personali e da una ricerca di visibilità. L'autore esprime il suo discontento per essere frainteso e chiarisce la sua posizione: non crede nella tesi del complotto contro la squadra, ritenendola pericolosa e strumentalizzata da chi cerca notorietà. Chiariello avverte che questa narrativa può portare a conseguenze gravi, come atti di violenza, e denuncia il clima di intolleranza verso chi non condivide tali teorie.",
+  "topics": [
+    {
+      "name": "arbitri",
+      "relevance": "high"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "titolo",
+      "relevance": "medium"
+    },
+    {
+      "name": "penalizzazione",
+      "relevance": "low"
+    },
+    {
+      "name": "decisioni",
+      "relevance": "low"
+    },
+    {
+      "name": "complottismo",
+      "relevance": "low"
+    },
+    {
+      "name": "complotto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "C'è chi rema contro il Napoli per motivi personali e per calo di visibilità.",
+      "polarity": "negative",
+      "claim_id": "031dad31-cd02-4f9f-9f57-56502c5d510c",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è chi rema contro il Napoli per motivi personali e per calo di visibilità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello di chi veramente per motivi personali rema o ha remato contro il Napoli.",
+          "start_sec": 2.04,
+          "end_sec": 103.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Esiste un fenomeno di fuoco amico contro il Napoli.",
+      "polarity": "negative",
+      "claim_id": "216a1f3d-6342-4a29-ba97-428437cd3cbe",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Esiste un fenomeno di fuoco amico contro il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ho denunciato più volte il fuoco amico, quello vero.",
+          "start_sec": 2.04,
+          "end_sec": 103.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Umberto Chiariello",
+      "position": "Chiariello richiede chiarezza sulla sua posizione riguardo al Napoli.",
+      "polarity": "neutral",
+      "claim_id": "95fa7c56-30b3-4eba-99b2-49beeb817b94",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s0",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Chiariello richiede chiarezza sulla sua posizione riguardo al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vorrei poter fare un punto chiaro sereno in cui in maniera piana spiego una volta per tutte la mia posizione.",
+          "start_sec": 2.04,
+          "end_sec": 103.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Audero",
+      "position": "Chi critica Audero è stato massacrato per una fesseria.",
+      "polarity": "neutral",
+      "claim_id": "0bc99ccb-75d7-431f-8b69-530475dcb908",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s2",
+      "target_entity": "Audero",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chi critica Audero è stato massacrato per una fesseria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho detto una fesseria so Audero, per esempio, non non m'ero reso conto che il petardo era nel secondo tempo e non nel primo",
+          "start_sec": 193.599,
+          "end_sec": 290.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "tifosi della Napoli",
+      "position": "C'è chi cavalca la tesi del complotto per tornaconto personale.",
+      "polarity": "neutral",
+      "claim_id": "0ae7e3c2-2018-4821-8a6c-f7784205611f",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s2",
+      "target_entity": "tifosi della Napoli",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "C'è chi cavalca la tesi del complotto per tornaconto personale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Trovo ridicolo e trovo anche agghiacciante che c'è chi cavalca quest'onda per tornaconto personale",
+          "start_sec": 193.599,
+          "end_sec": 290.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "tifosi",
+      "position": "La tesi complottista è considerata pericolosa dagli opinionisti.",
+      "polarity": "neutral",
+      "claim_id": "9df13241-dc59-4cb4-8a73-1524ef41931d",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s2",
+      "target_entity": "tifosi",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La tesi complottista è considerata pericolosa dagli opinionisti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci si rende conto della pericolosità di questa tesi",
+          "start_sec": 193.599,
+          "end_sec": 290.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoletani",
+      "position": "Chi non accetta il complotto è visto dai tifosi come un venduto.",
+      "polarity": "negative",
+      "claim_id": "497462dd-2c20-4dd0-aa7c-0348daa97dab",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s2",
+      "target_entity": "Napoletani",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chi non accetta il complotto è visto dai tifosi come un venduto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in nome della purezza della difesa della napoletan contro questi venduti al nord quale io sarei perché non accetto",
+          "start_sec": 193.599,
+          "end_sec": 290.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli è oggetto di un complotto economico.",
+      "polarity": "positive",
+      "claim_id": "315020a0-94fc-4247-a371-f3072f673321",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è oggetto di un complotto economico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allora, la prima tesi qual è? Juve, Milan, Inter e Roma si sono qualizzate contro il Napoli.",
+          "start_sec": 287.32,
+          "end_sec": 370.88000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il mercato del Napoli è stato bloccato dalle altre squadre.",
+      "polarity": "positive",
+      "claim_id": "9b04e4d5-825c-425d-8e98-a0c465e22225",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato del Napoli è stato bloccato dalle altre squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tantoè vero che hanno bloccato il mercato del Napoli.",
+          "start_sec": 287.32,
+          "end_sec": 370.88000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha iniziato la stagione in modo molto forte.",
+      "polarity": "positive",
+      "claim_id": "d799599e-3e1d-443f-b12f-66d91f6a7cc1",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha iniziato la stagione in modo molto forte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però poi vedo che il Milan partito a razzo con una.",
+          "start_sec": 287.32,
+          "end_sec": 370.88000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Juventus",
+      "position": "La Juventus è vista come parte di un complotto contro il Napoli.",
+      "polarity": "positive",
+      "claim_id": "1c1bb2dd-798d-4ce5-a763-9a9b43306c9a",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è vista come parte di un complotto contro il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte dà fastidio, De Juventus dà fastidio, fuori.",
+          "start_sec": 287.32,
+          "end_sec": 370.88000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Umberto Chiariello",
+      "position": "Umberto Chiariello esprime discontento per essere frainteso.",
+      "polarity": "neutral",
+      "claim_id": "856ff849-295c-456c-abbf-39e6a794f2c6",
+      "video_id": "saba9O73fkw",
+      "segment_id": "s0",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Umberto Chiariello esprime discontento per essere frainteso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi disturba parecchio perché poi non è giusto né corretto che io debba passare per un antinapoli.",
+          "start_sec": 2.04,
+          "end_sec": 103.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

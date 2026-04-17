@@ -1,0 +1,366 @@
+{
+  "video_id": "ezqZPKPpfEw",
+  "analyzed_at": "2026-04-17T10:25:03.372985+00:00",
+  "metadata": {
+    "title": "🚨 JUVE: FUORI UNO! CALHANOGLU E IL GALATASARAY, MAIGNAN, FOFANA, MATETA, IL FUTURO DI HOJBJERG…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-15"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità del calciomercato, in particolare sul futuro di giocatori chiave come Mike Maignan e il possibile trasferimento di Mlacic all'Inter. L'autore sottolinea l'importanza di Maignan per il Milan, evidenziando che il portiere è vicino al rinnovo del contratto grazie a un accordo economico già stabilito e a segnali positivi da parte dei suoi agenti. Inoltre, si accenna ai movimenti del Galatasaray riguardo a Calhanoglu, suggerendo che il mercato è in fermento e che ci sono molte trattative in corso.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "high"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "investimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Maignan",
+      "position": "Maignan potrebbe firmare un contratto valido per i prossimi 5 anni.",
+      "polarity": "positive",
+      "claim_id": "c955e0d5-b328-4840-b3cd-89f83d255cb6",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s4",
+      "target_entity": "Maignan",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Maignan potrebbe firmare un contratto valido per i prossimi 5 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi procedere alle firme per un nuovo contratto valido per i prossimi 5 anni.",
+          "start_sec": 106.2,
+          "end_sec": 133.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Mike Maignan",
+      "position": "Maignan è uno dei protagonisti della Serie A.",
+      "polarity": "positive",
+      "claim_id": "932088bd-5492-46b7-b5ad-88988f4fe3b7",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s2",
+      "target_entity": "Mike Maignan",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Maignan è uno dei protagonisti della Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mike Megnan con le sue parate da campione è uno dei protagonisti di questa Serie A.",
+          "start_sec": 51.96,
+          "end_sec": 82.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan rincorre l'Inter in testa alla classifica.",
+      "polarity": "positive",
+      "claim_id": "a6935ad7-21cd-4d5e-be28-bc964cfea5e8",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan rincorre l'Inter in testa alla classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È certamente una delle firme di questo Milan che rincorre l'Inter in testa alla classifica.",
+          "start_sec": 51.96,
+          "end_sec": 82.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Mike Maignan",
+      "position": "Maignan fa filtrare ottimismo sul rinnovo con il Milan.",
+      "polarity": "positive",
+      "claim_id": "fd8a895f-79de-4fd3-af4f-ab24a07468d6",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s2",
+      "target_entity": "Mike Maignan",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Maignan fa filtrare ottimismo sul rinnovo con il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Megan che, come vi dicevo già durante le ultime settimane fa filtrare un ottimismo tramite anche i suoi agenti al rinnovo con il Milan.",
+          "start_sec": 51.96,
+          "end_sec": 82.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "C'è una base d'accordo per il rinnovo di Maignan.",
+      "polarity": "positive",
+      "claim_id": "ea257ea8-136c-4b33-be55-c0cc7da97566",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è una base d'accordo per il rinnovo di Maignan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La base d'accordo è fatta da giorni tra il Milan e Megnan.",
+          "start_sec": 51.96,
+          "end_sec": 82.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mike Magnan",
+      "position": "Mike Magnan è vicino al rinnovo del contratto con il Milan.",
+      "polarity": "positive",
+      "claim_id": "a89bde6e-b2b7-4cb5-86e2-b12f54af38ad",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s3",
+      "target_entity": "Mike Magnan",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mike Magnan è vicino al rinnovo del contratto con il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta lavorando alle commissioni che porteranno al rinnovo di Mike Magnan con il Milan",
+          "start_sec": 80.799,
+          "end_sec": 107.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mike Magnan",
+      "position": "Ci sono segnali ottimisti sul rinnovo di Mike Magnan.",
+      "polarity": "positive",
+      "claim_id": "024562d4-0c47-4379-afac-45e216acd784",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s3",
+      "target_entity": "Mike Magnan",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Ci sono segnali ottimisti sul rinnovo di Mike Magnan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arrivino messaggi sempre più positivi, sempre più ottimisti a proposito della possibilità di accordarsi sulle commissioni.",
+          "start_sec": 80.799,
+          "end_sec": 107.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "I dirigenti del Galatasaray sono arrivati in Italia per trattative.",
+      "polarity": "neutral",
+      "claim_id": "8ac2456d-0030-4def-8553-41c859453b9d",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s5",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I dirigenti del Galatasaray sono arrivati in Italia per trattative.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono arrivati in Italia i dirigenti del Galatasaray",
+          "start_sec": 131.56,
+          "end_sec": 160.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Calhanoglu",
+      "position": "Calhanoglu è oggetto di rumors riguardanti il Galatasaray.",
+      "polarity": "neutral",
+      "claim_id": "b39e0b50-a260-4202-9268-9ef6545c2597",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s5",
+      "target_entity": "Calhanoglu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Calhanoglu è oggetto di rumors riguardanti il Galatasaray.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una giornata di rumors a proposito del Galatasaray",
+          "start_sec": 131.56,
+          "end_sec": 160.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'Inter sta lavorando per Mlacic.",
+      "polarity": "neutral",
+      "claim_id": "b2b35cd9-aa7f-40fc-bba6-37368f2ad87f",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta lavorando per Mlacic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta continuando a lavorare, quello di Mlacic all'Inter.",
+          "start_sec": 0.48,
+          "end_sec": 25.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "George Gardy",
+      "position": "George Gardy gestisce le operazioni del Galatasaray.",
+      "polarity": "neutral",
+      "claim_id": "a2916b3e-0ec3-4c9e-9bd3-255939845883",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s5",
+      "target_entity": "George Gardy",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "George Gardy gestisce le operazioni del Galatasaray.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'uomo che porta avanti le operazioni del Galatasaray",
+          "start_sec": 131.56,
+          "end_sec": 160.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha ricevuto una richiesta economica importante per il rinnovo di Magnan.",
+      "polarity": "positive",
+      "claim_id": "64c17ae4-913c-4b0e-9ccb-a588f2292810",
+      "video_id": "ezqZPKPpfEw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha ricevuto una richiesta economica importante per il rinnovo di Magnan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stata fatta una richiesta economica importante al Milan.",
+          "start_sec": 80.799,
+          "end_sec": 107.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

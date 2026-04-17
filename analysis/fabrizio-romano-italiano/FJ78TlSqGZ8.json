@@ -1,0 +1,365 @@
+{
+  "video_id": "FJ78TlSqGZ8",
+  "analyzed_at": "2026-04-17T07:33:13.937230+00:00",
+  "metadata": {
+    "title": "🚨 LUIS HENRIQUE, FOFANA, BETO, NDOYE, SAMARDZIC, SUMMERVILLE, MINGUEZA, ASLLANI: LE ULTIME",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-26"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato riguardanti diverse squadre italiane, in particolare il Genoa e il Barout. L'autore sottolinea che il Genoa sta cercando di ingaggiare Casseres Junior, ma ci sono notevoli difficoltà nella trattativa, mentre sta anche esplorando la possibilità di acquisire Asllani, sebbene ci siano problemi legati al suo stipendio. Inoltre, Romano rivela che il Barout è interessato a Luis Enrique, ma l'Inter non ha ancora dato il via libera per questa operazione, creando incertezze sui tempi decisionali. La settimana di chiusura del merca",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "trattative",
+      "relevance": "medium"
+    },
+    {
+      "name": "inter",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "scambio",
+      "relevance": "low"
+    },
+    {
+      "name": "transfert",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa ha offerto oltre 7-8 milioni di euro per Casseres Junior.",
+      "polarity": "neutral",
+      "claim_id": "3b3c2a7a-b867-4fac-bbc8-a81ce4ad5bc1",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha offerto oltre 7-8 milioni di euro per Casseres Junior.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nonostante il Genoa abbia fatto uno sforzo importante offrendo comunque una cifra superiore ai 7-8 milioni di euro",
+          "start_sec": 0.44,
+          "end_sec": 106.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fofanà",
+      "position": "Fofanà ha rifiutato un'offerta tra i 25 e 30 milioni di euro dal Napoli.",
+      "polarity": "neutral",
+      "claim_id": "c7ce5dd6-0347-4811-9330-bf5de4917170",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s5",
+      "target_entity": "Fofanà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fofanà ha rifiutato un'offerta tra i 25 e 30 milioni di euro dal Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fofanà ha detto di no, non era convinto e quindi ecco, poi dopo i dialoghi si sono interrotti in quel momento là.",
+          "start_sec": 364.56,
+          "end_sec": 441.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa sta cercando di ingaggiare Casseres Junior.",
+      "polarity": "neutral",
+      "claim_id": "c10f38b0-91c1-4ad9-a9b4-209fc4d856ae",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Genoa sta cercando di ingaggiare Casseres Junior.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ti dico che eh la distanza tra club è veramente molto molto ampia ed è un'operazione ehm ti direi quasi impossibile in questo momento",
+          "start_sec": 0.44,
+          "end_sec": 106.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Ci sono difficoltà sullo stipendio di Asllani per il Genoa.",
+      "polarity": "neutral",
+      "claim_id": "6ba007e0-bce5-4b37-8375-1aec4f143a2f",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono difficoltà sullo stipendio di Asllani per il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono delle difficoltà sullo stipendio, però potrebbe essere un'idea del degli ultimi",
+          "start_sec": 0.44,
+          "end_sec": 106.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter non dà via libera al Barout per Luis Enrique.",
+      "polarity": "neutral",
+      "claim_id": "5ab3d682-4661-43ac-a959-c2ec3b87e538",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non dà via libera al Barout per Luis Enrique.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il tema è che l'Inter non è il sostituto e quindi al momento è un discorso su cui l'Inter non dà via libera",
+          "start_sec": 105.759,
+          "end_sec": 159.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Robertson",
+      "position": "Robertson potrebbe lasciare il Tottenham per il Liverpool.",
+      "polarity": "neutral",
+      "claim_id": "936f48a3-2987-43ca-ac19-3516c43a52ba",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s2",
+      "target_entity": "Robertson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Robertson potrebbe lasciare il Tottenham per il Liverpool.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Simikas lascia la Roma e va a Liverpool e all Roma prende il terzino",
+          "start_sec": 157.16,
+          "end_sec": 237.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasferimento",
+        "calciomercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Fenerbahçe",
+      "position": "Fenerbahçe ha considerato di investire su Randal Colomoni.",
+      "polarity": "neutral",
+      "claim_id": "ae218dc6-ea6a-49cc-b3c9-0465604e84e5",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s3",
+      "target_entity": "Fenerbahçe",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fenerbahçe ha considerato di investire su Randal Colomoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giocatore è stato eh per diversi giorni il nome a cui ha pensato il Fenerbace",
+          "start_sec": 235.239,
+          "end_sec": 311.52000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Thomas Frank",
+      "position": "Thomas Frank non vuole cedere Matisistel e Colomoni.",
+      "polarity": "neutral",
+      "claim_id": "840f00a3-2d48-4712-be5b-9fd401ecdbb1",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s3",
+      "target_entity": "Thomas Frank",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Thomas Frank non vuole cedere Matisistel e Colomoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Thomas Frank, allenatore del Tottenham, non vuole dar via Matisistel, non vuole dar via Colomonie",
+          "start_sec": 235.239,
+          "end_sec": 311.52000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Luis Enrique",
+      "position": "Il Barmaut sta considerando un'offerta per Luis Enrique.",
+      "polarity": "neutral",
+      "claim_id": "1cc053c6-7096-4863-b5ec-036c81af56e7",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s1",
+      "target_entity": "Luis Enrique",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barmaut sta considerando un'offerta per Luis Enrique.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Barout sta pensando a Luis Enrique da tempo",
+          "start_sec": 105.759,
+          "end_sec": 159.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Barout",
+      "position": "Il Barout è interessato a Luis Enrique prima della vicenda Cancello.",
+      "polarity": "neutral",
+      "claim_id": "9f28bc7b-346b-462e-9b3d-18e41d838f6b",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s1",
+      "target_entity": "Barout",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barout è interessato a Luis Enrique prima della vicenda Cancello.",
+      "evidence_quotes": [
+        {
+          "quote_text": "già prima ancora della vicenda Cancello",
+          "start_sec": 105.759,
+          "end_sec": 159.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta contattando i procuratori di Colomon.",
+      "polarity": "neutral",
+      "claim_id": "d153a399-3175-4325-96d3-455085af844e",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta contattando i procuratori di Colomon.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve delle chiamate per Colomon le ha fatte",
+          "start_sec": 235.239,
+          "end_sec": 311.52000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa ha ripreso informazioni su Asllani.",
+      "polarity": "neutral",
+      "claim_id": "65d8cb60-f17f-473c-a567-27e903dc2d01",
+      "video_id": "FJ78TlSqGZ8",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Genoa ha ripreso informazioni su Asllani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Genoa nelle ultime ore è tornato a chiedere informazioni su a Slani",
+          "start_sec": 0.44,
+          "end_sec": 106.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

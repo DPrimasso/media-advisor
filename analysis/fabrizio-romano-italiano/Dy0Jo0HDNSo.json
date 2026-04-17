@@ -1,0 +1,354 @@
+{
+  "video_id": "Dy0Jo0HDNSo",
+  "analyzed_at": "2026-04-17T07:26:21.171801+00:00",
+  "metadata": {
+    "title": "🚨 IDEA STERLING, GILA, PIO ESPOSITO E LE OFFERTE, GORETZKA, PERISIC, KEAN, KOLO, CISSE AL MILAN…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-27"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di calciomercato, con particolare attenzione a Rahim Sterling, che potrebbe lasciare il Chelsea nei prossimi giorni, attirando l'interesse di club come Napoli e Roma. L'autore esprime ottimismo riguardo alla possibilità che Sterling si metta sul mercato, suggerendo che potrebbe rappresentare un'opportunità per diverse squadre italiane. Inoltre, si menzionano altre trattative in corso, come quella per Moise Kean, indicato come il preferito per rinforzare l'Inter, e il continuo lavoro della Fiorentina per migliorare la propria rosa.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "high"
+    },
+    {
+      "name": "team",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "risultati",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Rahim Sterling",
+      "position": "Rahim Sterling potrebbe lasciare il Chelsea nei prossimi giorni.",
+      "polarity": "positive",
+      "claim_id": "63cfa528-6172-45de-9cfb-e983c1996d41",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s1",
+      "target_entity": "Rahim Sterling",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Rahim Sterling potrebbe lasciare il Chelsea nei prossimi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sterling non sarà un giocatore del Chelsea in questa seconda parte di stagione.",
+          "start_sec": 69.159,
+          "end_sec": 122.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Randal Colom",
+      "position": "Randal Colom è visto come una stella per la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "fc75d1c0-f914-430c-9d57-adb0716020a7",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s5",
+      "target_entity": "Randal Colom",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Randal Colom è visto come una stella per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è un'altra opzione, non è un cautelarsi, sarebbe, insomma, una stella per questa Juventus",
+          "start_sec": 308.88,
+          "end_sec": 362.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il giovane Siss firmerà un contratto con il Milan.",
+      "polarity": "positive",
+      "claim_id": "1581ddaa-e309-4292-864a-60e17dc26518",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s7",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il giovane Siss firmerà un contratto con il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giovane che firmerà per il Milan, firma un contratto fino al 2030",
+          "start_sec": 420.639,
+          "end_sec": 472.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cagliari",
+      "position": "Attualmente non ci sono novità sul mercato del Cagliari.",
+      "polarity": "neutral",
+      "claim_id": "249740e9-50d9-4f41-87ec-b7fd8e027251",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s7",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Attualmente non ci sono novità sul mercato del Cagliari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sul Cagliari è al momento nulla ancora di imminente",
+          "start_sec": 420.639,
+          "end_sec": 472.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nottingham",
+      "position": "Nottingham è ancora interessato a Olivera per rinforzi.",
+      "polarity": "neutral",
+      "claim_id": "965a0a3d-badb-4007-9db7-3f8171c5ebd6",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s3",
+      "target_entity": "Nottingham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Nottingham è ancora interessato a Olivera per rinforzi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Nottingham è ancora su Olivera",
+          "start_sec": 186.159,
+          "end_sec": 254.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta continuando a lavorare su Randal Colom.",
+      "polarity": "neutral",
+      "claim_id": "7bb64fa4-6439-4f53-ba53-c4fc0025d475",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta continuando a lavorare su Randal Colom.",
+      "evidence_quotes": [
+        {
+          "quote_text": "su cui la Juve sta continuando a lavorare",
+          "start_sec": 308.88,
+          "end_sec": 362.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Perisic",
+      "position": "Perisic è la priorità dell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "84a31fcc-237d-447c-88ae-610cb910e5f2",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s5",
+      "target_entity": "Perisic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Perisic è la priorità dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io direi che sicuramente Perisic è la priorità dell'Inter",
+          "start_sec": 308.88,
+          "end_sec": 362.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter deve cautelarsi e avere altre opzioni.",
+      "polarity": "neutral",
+      "claim_id": "f9363679-6752-4537-a5e3-765c632de70e",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s5",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter deve cautelarsi e avere altre opzioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna comunque cautelarsi ed avere altre altre opzioni.",
+          "start_sec": 308.88,
+          "end_sec": 362.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli è interessato a Rahim Sterling.",
+      "polarity": "neutral",
+      "claim_id": "cb86d93f-5b45-413e-8929-ef6ea2c39de2",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è interessato a Rahim Sterling.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli lo ha tenuto in lista a lungo.",
+          "start_sec": 69.159,
+          "end_sec": 122.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Rahim Sterling",
+      "position": "Rahim Sterling si sta mettendo sul mercato.",
+      "polarity": "neutral",
+      "claim_id": "e509758c-8163-4bb0-b958-3d15c721df62",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s1",
+      "target_entity": "Rahim Sterling",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rahim Sterling si sta mettendo sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sterling si mette sul mercato.",
+          "start_sec": 69.159,
+          "end_sec": 122.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Inter aspetta una risposta da un giocatore.",
+      "polarity": "neutral",
+      "claim_id": "a5ec2cd2-67cc-442b-b8ff-f08aad3768b4",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Inter aspetta una risposta da un giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter sta aspettando una risposta dal giocatore",
+          "start_sec": 186.159,
+          "end_sec": 254.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta partecipando attivamente al mercato.",
+      "polarity": "neutral",
+      "claim_id": "ce479a71-ae70-4fcc-af59-7cd5249bcbc2",
+      "video_id": "Dy0Jo0HDNSo",
+      "segment_id": "s7",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta partecipando attivamente al mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve ne ha trattati tanti",
+          "start_sec": 420.639,
+          "end_sec": 472.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

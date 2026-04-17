@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 const router = createRouter({
   history: createWebHistory(),
   routes: [
-    { path: '/', redirect: '/mercato' },
+    { path: '/', redirect: '/rassegna' },
     {
       path: '/canali',
       name: 'home',
@@ -17,7 +17,8 @@ const router = createRouter({
     { path: '/trend/:macroId', name: 'trend-macro', component: () => import('../views/TrendMacroView.vue') },
     { path: '/mercato', name: 'mercato', component: () => import('../views/MercatoView.vue') },
     { path: '/mercato/player/:slug', name: 'mercato-player', component: () => import('../views/MercatoPlayerView.vue') },
-    { path: '/:pathMatch(.*)*', redirect: '/mercato' }
+    { path: '/rassegna', name: 'rassegna', component: () => import('../views/RassegnaView.vue') },
+    { path: '/:pathMatch(.*)*', redirect: '/rassegna' }
   ]
 })
 

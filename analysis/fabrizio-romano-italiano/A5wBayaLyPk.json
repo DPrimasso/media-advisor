@@ -1,0 +1,342 @@
+{
+  "video_id": "A5wBayaLyPk",
+  "analyzed_at": "2026-04-16T15:45:54.226200+00:00",
+  "metadata": {
+    "title": "🚨💣 MATETA: È FINITA! KOLO NO… MA OCCHIO AL FUTURO! VLAHOVIC E GLI INCASTRI, PERISIC, DIABY-INTER…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-02"
+  },
+  "summary": "Il video di Fabrizio Romano analizza la recente situazione di mercato riguardante Jeanfilip Matetà, il cui trasferimento al Milan è saltato all'ultimo momento a causa di problemi medici legati al ginocchio. L'autore sottolinea come, nonostante l'accordo iniziale tra il Milan e il calciatore, la decisione finale del club rossonero di non procedere con l'operazione sia stata influenzata dalla scoperta di complicazioni fisiche. Inoltre, si evidenzia che il Crystal Palace ha già trovato un sostituto per Matetà, ovvero l'Arsenal, suggerendo che le dinamiche di mercato sono collegate e che il futuro",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Jeanfilip Matetà",
+      "position": "Ci sono aggiornamenti sulle ultime ore di mercato riguardo Matetà.",
+      "polarity": "neutral",
+      "claim_id": "33695e8a-53b3-48cc-8f6a-936df52956fa",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s0",
+      "target_entity": "Jeanfilip Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono aggiornamenti sulle ultime ore di mercato riguardo Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo partire dagli aggiornamenti ricevuti su Jeanfilip Matetà perché salta il passaggio.",
+          "start_sec": 0.44,
+          "end_sec": 30.198999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha chiuso l'accordo economico con l'agente di Mateta.",
+      "polarity": "positive",
+      "claim_id": "633a3fc4-4e86-4d09-bf8a-709a17671bfb",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha chiuso l'accordo economico con l'agente di Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "aver chiuso l'accordo economico con l'agente del calciatore su commissioni e su stipendio.",
+          "start_sec": 27.4,
+          "end_sec": 59.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Crystal Palace",
+      "position": "Il Crystal Palace ha trovato il sostituto di Mateta.",
+      "polarity": "positive",
+      "claim_id": "872bd82c-a025-4f87-a6cf-e20e7bcf4893",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s1",
+      "target_entity": "Crystal Palace",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Crystal Palace ha trovato il sostituto di Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha trovato e ha chiuso l'accordo per il sostituto di Matetà.",
+          "start_sec": 27.4,
+          "end_sec": 59.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha deciso di non procedere con l'operazione Matetà.",
+      "polarity": "negative",
+      "claim_id": "4950341e-de35-47aa-8a84-54d49c4599c5",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha deciso di non procedere con l'operazione Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alla fine di tutto il Milan ha detto di no è fermato lasciando il tavolo delle trattative.",
+          "start_sec": 57.879,
+          "end_sec": 94.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Crystal Palace",
+      "position": "Il Crystal Palace è bloccato da una situazione di mercato.",
+      "polarity": "neutral",
+      "claim_id": "00b4f245-5d04-4b68-9664-4efb1e2018a5",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s4",
+      "target_entity": "Crystal Palace",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Crystal Palace è bloccato da una situazione di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma il Palace viene completamente bloccato da questa situazione.",
+          "start_sec": 116.479,
+          "end_sec": 143.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha ottenuto il sì di Mateta per il trasferimento.",
+      "polarity": "positive",
+      "claim_id": "be3bfc1e-1952-4b19-a771-49e5e992ad32",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha ottenuto il sì di Mateta per il trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo aver ottenuto il s il sì del calciatore.",
+          "start_sec": 27.4,
+          "end_sec": 59.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matetà",
+      "position": "Matetà non verrà al Milan né ora né a giugno.",
+      "polarity": "negative",
+      "claim_id": "54a337f9-3b64-460c-b128-d0ebcb3ec9d2",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s2",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà non verrà al Milan né ora né a giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Matetà non verrà al Milan né ora né giugno.",
+          "start_sec": 57.879,
+          "end_sec": 94.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matetà",
+      "position": "Matetà torna al Crystal Palace dopo il mancato trasferimento al Milan.",
+      "polarity": "neutral",
+      "claim_id": "0998f8b7-0a19-4f6f-bbaa-75c2df630389",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s2",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Matetà torna al Crystal Palace dopo il mancato trasferimento al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di fatto Matetà torna al Crystal Palace.",
+          "start_sec": 57.879,
+          "end_sec": 94.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Arsenal",
+      "position": "L'Arsenal è il nuovo acquisto del Crystal Palace.",
+      "polarity": "positive",
+      "claim_id": "dbeb59df-6637-4ffd-b2e3-bb05ff1c6c95",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s1",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal è il nuovo acquisto del Crystal Palace.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ovvero l'Arsen.",
+          "start_sec": 27.4,
+          "end_sec": 59.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Matetà",
+      "position": "Matetà ha subito accertamenti approfonditi sul ginocchio.",
+      "polarity": "negative",
+      "claim_id": "f7388076-4a73-4b85-aff8-9b9a7c27b3eb",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s2",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà ha subito accertamenti approfonditi sul ginocchio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Matetà ha svolto ulteriori accertamenti un po' più approfonditi sul ginocchio.",
+          "start_sec": 57.879,
+          "end_sec": 94.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Stran Larsen",
+      "position": "Stran Larsen potrebbe non trasferirsi.",
+      "polarity": "neutral",
+      "claim_id": "f5adb00d-4da0-407d-9352-7577a6e6a4f0",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s4",
+      "target_entity": "Stran Larsen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Stran Larsen potrebbe non trasferirsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non hanno la sensazione che Stranarsen si faccia lo stesso.",
+          "start_sec": 116.479,
+          "end_sec": 143.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Jeanfilip Matetà",
+      "position": "Jeanfilip Matetà salta il passaggio.",
+      "polarity": "neutral",
+      "claim_id": "d67c78ed-a731-4543-bcab-f12846819015",
+      "video_id": "A5wBayaLyPk",
+      "segment_id": "s0",
+      "target_entity": "Jeanfilip Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jeanfilip Matetà salta il passaggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "salta il passaggio.",
+          "start_sec": 0.44,
+          "end_sec": 30.198999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

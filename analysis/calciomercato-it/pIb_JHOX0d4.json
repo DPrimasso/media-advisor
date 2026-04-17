@@ -1,0 +1,354 @@
+{
+  "video_id": "pIb_JHOX0d4",
+  "analyzed_at": "2026-04-17T11:23:25.128620+00:00",
+  "metadata": null,
+  "summary": "Il video di calciomercato-it analizza le dimissioni del presidente della Federazione Italiana Gioco Calcio, Gravina, sottolineando che si tratta di un atto dovuto dopo le recenti delusioni della nazionale. L'autore sostiene che è necessario un cambiamento radicale nel movimento calcistico italiano, evidenziando l'importanza di introdurre nuove figure e riforme concrete per affrontare la crisi attuale. Si ipotizza anche che potrebbero seguire ulteriori dimissioni, come quelle del commissario tecnico Gattuso e di Buffon, suggerendo che il calcio italiano ha bisogno di una ristrutturazione profon",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "strategia",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "FGC",
+      "position": "La FGC svolgerà normali funzioni ordinarie in attesa del nuovo presidente.",
+      "polarity": "neutral",
+      "claim_id": "ed61bcd3-88ec-40d3-8023-da0c13bb5d99",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s1",
+      "target_entity": "FGC",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La FGC svolgerà normali funzioni ordinarie in attesa del nuovo presidente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si limiterà, quindi adesso a svolgere le eh diciamo le le normali funzioni ordinarie",
+          "start_sec": 38.48,
+          "end_sec": 74.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina ha fatto parte delle spedizioni fallimentari italiane verso il mondiale.",
+      "polarity": "neutral",
+      "claim_id": "d9a5c4f6-0172-4280-a283-7f32bf4a479a",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha fatto parte delle spedizioni fallimentari italiane verso il mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "diciamo che Gravina ha fatto parte delle ultime due, no, eh spedizioni fallimentari italiane verso il mondiale",
+          "start_sec": 73.2,
+          "end_sec": 121.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "movimento italiano",
+      "position": "C'è bisogno di ripartire con nuovi volti nel movimento italiano.",
+      "polarity": "positive",
+      "claim_id": "71e55b66-6451-434f-98f4-16762055e952",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s2",
+      "target_entity": "movimento italiano",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "C'è bisogno di ripartire con nuovi volti nel movimento italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che fossero esatto dovute e ci sia bisogno di ripartire con nuovi volti",
+          "start_sec": 73.2,
+          "end_sec": 121.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "riforme",
+      "position": "Proporre riforme concrete è fondamentale per un cambio di marcia.",
+      "polarity": "positive",
+      "claim_id": "0440354d-4fa4-44a0-b861-e946eefc79ac",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s2",
+      "target_entity": "riforme",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Proporre riforme concrete è fondamentale per un cambio di marcia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "proporre delle riforme che siano concrete, che possano dare",
+          "start_sec": 73.2,
+          "end_sec": 121.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "movimento italiano",
+      "position": "Il movimento italiano ha bisogno di cambiamenti significativi.",
+      "polarity": "negative",
+      "claim_id": "9e8cbdf5-bae9-48a3-9fed-a02d0efaa8f4",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s2",
+      "target_entity": "movimento italiano",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il movimento italiano ha bisogno di cambiamenti significativi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "persone in grado di dare un cambio di marcia a quello che è tutto il movimento italiano",
+          "start_sec": 73.2,
+          "end_sec": 121.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha avuto buone prestazioni in Europa negli ultimi tre anni.",
+      "polarity": "positive",
+      "claim_id": "6da72772-9096-417f-99be-85861b6170e4",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avuto buone prestazioni in Europa negli ultimi tre anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "eccezione fatta, insomma, per l'Inter negli ultimi 3 anni",
+          "start_sec": 117.56,
+          "end_sec": 156.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano ristagna in una mediocrità crescente.",
+      "polarity": "neutral",
+      "claim_id": "4955ee23-da37-436b-8700-e6e01ee0d6cd",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s4",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano ristagna in una mediocrità crescente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo calcio ristagna in questa mediocrità sempre peggiore ormai dagli anni 90 in poi.",
+          "start_sec": 154.56,
+          "end_sec": 185.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale italiana",
+      "position": "La nazionale italiana sta attraversando un periodo difficile.",
+      "polarity": "negative",
+      "claim_id": "880e2453-8834-4e17-bdaa-9dbe9b404a4d",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s3",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana sta attraversando un periodo difficile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo vediamo dalla nazionale",
+          "start_sec": 117.56,
+          "end_sec": 156.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "FGC",
+      "position": "Le dimissioni del presidente sono considerate un atto dovuto.",
+      "polarity": "neutral",
+      "claim_id": "f3999d29-f356-487e-abf6-69ffcb5d5611",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s1",
+      "target_entity": "FGC",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le dimissioni del presidente sono considerate un atto dovuto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È un atto dovuto",
+          "start_sec": 38.48,
+          "end_sec": 74.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "club italiani",
+      "position": "I club italiani fanno fatica in Europa.",
+      "polarity": "negative",
+      "claim_id": "145f65ac-b599-4d4a-a0fa-9ad4550ef0f6",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s3",
+      "target_entity": "club italiani",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I club italiani fanno fatica in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dai club, no, stessi che in Europa fanno una fatica enorme",
+          "start_sec": 117.56,
+          "end_sec": 156.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "FGC",
+      "position": "Non ci sarà il commissariamento della FGC.",
+      "polarity": "neutral",
+      "claim_id": "fe74280f-26a4-4160-9fc8-83f5e4c43687",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s1",
+      "target_entity": "FGC",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sarà il commissariamento della FGC.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci sarà il commissariamento della FGC",
+          "start_sec": 38.48,
+          "end_sec": 74.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "FGC",
+      "position": "Il commissario tecnico è un tema importante dopo le dimissioni del presidente.",
+      "polarity": "neutral",
+      "claim_id": "2f38fcf2-4f7d-41a3-9f70-0fd7db80d4e0",
+      "video_id": "pIb_JHOX0d4",
+      "segment_id": "s1",
+      "target_entity": "FGC",
+      "entity_type": "club",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il commissario tecnico è un tema importante dopo le dimissioni del presidente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tema anche del commissario tecnico e non solo",
+          "start_sec": 38.48,
+          "end_sec": 74.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

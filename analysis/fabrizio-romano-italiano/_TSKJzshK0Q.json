@@ -1,0 +1,350 @@
+{
+  "video_id": "_TSKJzshK0Q",
+  "analyzed_at": "2026-04-17T07:30:58.618313+00:00",
+  "metadata": {
+    "title": "🚨 LA VERITÀ LOOKMAN! OFFERTA MATETA! SANCHO, DOMINO LUIS HENRIQUE, TALENTO PER IL MILAN, TERRIER…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-26"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato calcistico, con particolare attenzione al trasferimento di Nicolussi Cania al Parma, che appare ormai virtualmente chiuso e dovrebbe concludersi entro il 27 gennaio. L'autore sottolinea anche l'interesse del Milan per l'attaccante Matetà, il quale sta attirando l'attenzione del Nottingham Forest, che ha presentato un'offerta significativa al Crystal Palace. Romano evidenzia che, mentre il Parma si prepara a un nuovo acquisto, la situazione di Matetà rimane incerta, con il Nottingham che si posiziona come contendente forte",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "high"
+    },
+    {
+      "name": "valutazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "club",
+      "position": "Si prevede che l'affare venga concluso entro il 27 gennaio.",
+      "polarity": "positive",
+      "claim_id": "ffe9c272-2a80-4020-9b0c-049c662efff7",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s1",
+      "target_entity": "club",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Si prevede che l'affare venga concluso entro il 27 gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nella giornata di domani, martedì 27 gennaio, mi aspetto che eh si arrivi eh finalmente a ad AMA.",
+          "start_sec": 27.92,
+          "end_sec": 61.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Parma",
+      "position": "Il Parma sta pianificando un acquisto nel centrocampo.",
+      "polarity": "positive",
+      "claim_id": "c8da2e22-29c8-4bdc-9757-a33a58f6df10",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s0",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Parma sta pianificando un acquisto nel centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta avvicinando uno dei primi colpi del Parma per il centrocampo",
+          "start_sec": 0.64,
+          "end_sec": 30.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "club",
+      "position": "Le trattative sono a uno stato molto avanzato.",
+      "polarity": "positive",
+      "claim_id": "252a8357-722e-4958-9245-b06836812a5d",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s1",
+      "target_entity": "club",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le trattative sono a uno stato molto avanzato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo in una in uno stato veramente molto avanzato della trattativa.",
+          "start_sec": 27.92,
+          "end_sec": 61.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatore",
+      "position": "Il giocatore potrebbe avere una nuova opportunità di carriera.",
+      "polarity": "neutral",
+      "claim_id": "b1f25ba2-6675-4371-b263-c20d211de0d9",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s1",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Il giocatore potrebbe avere una nuova opportunità di carriera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pronto per una nuova opportunità della sua carriera.",
+          "start_sec": 27.92,
+          "end_sec": 61.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "Mateta è stato menzionato come possibile acquisto per la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "5aa1d0cd-d62c-46e7-b324-f0941bb5b05c",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s2",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mateta è stato menzionato come possibile acquisto per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il nome di Gianfilip Matetà ve l'abbiamo menzionato diverse volte",
+          "start_sec": 59.559,
+          "end_sec": 84.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha proposto un prestito con obbligo per Mateta.",
+      "polarity": "neutral",
+      "claim_id": "7ffe3f10-34bd-470f-b33a-e0aebfeef2ad",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha proposto un prestito con obbligo per Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i tentativi della Juventus ormai una settimana fa prestito con obbligo intorno ai 28-29",
+          "start_sec": 59.559,
+          "end_sec": 84.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inconq",
+      "position": "Il futuro di Inconq è legato all'interesse del Milan per Matetà.",
+      "polarity": "neutral",
+      "claim_id": "f19bb922-6496-4133-8631-456b76b11fa9",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s3",
+      "target_entity": "Inconq",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il futuro di Inconq è legato all'interesse del Milan per Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "restano legati anche a quello che potrà essere eventualmente il futuro di Inconq",
+          "start_sec": 83.159,
+          "end_sec": 109.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nicolussi Cania",
+      "position": "Nicolussi Cania è il candidato per il centrocampo del Parma.",
+      "polarity": "positive",
+      "claim_id": "229fc7e1-2230-4073-94bc-7db1f167710f",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s0",
+      "target_entity": "Nicolussi Cania",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nicolussi Cania è il candidato per il centrocampo del Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ed è il nome di Nicolussi Cania",
+          "start_sec": 0.64,
+          "end_sec": 30.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Colomani",
+      "position": "Colomani è un sogno di difficile realizzazione per i club.",
+      "polarity": "neutral",
+      "claim_id": "41125afa-fa3d-4e7e-be3f-22fecc907ead",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s2",
+      "target_entity": "Colomani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Colomani è un sogno di difficile realizzazione per i club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sogno Colomani di difficile realizzazione",
+          "start_sec": 59.559,
+          "end_sec": 84.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Palace",
+      "position": "Il Crystal Palace potrebbe non accettare l'offerta della Juventus per Mateta.",
+      "polarity": "neutral",
+      "claim_id": "b640a593-c729-4717-96aa-5a12a36ce00a",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s2",
+      "target_entity": "Palace",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Crystal Palace potrebbe non accettare l'offerta della Juventus per Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è troppo poco per convincere il Palace",
+          "start_sec": 59.559,
+          "end_sec": 84.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nottingham Forest",
+      "position": "Nottingham Forest ha presentato un'offerta per Matetà.",
+      "polarity": "positive",
+      "claim_id": "67100406-94b7-450d-8d0a-3f878b161038",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s3",
+      "target_entity": "Nottingham Forest",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nottingham Forest ha presentato un'offerta per Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questi giorni del Nottingham Forest che si è presentato con un'offerta",
+          "start_sec": 83.159,
+          "end_sec": 109.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "club",
+      "position": "L'operazione per il trasferimento è virtualmente chiusa.",
+      "polarity": "positive",
+      "claim_id": "ec6e4e55-8865-4a72-b003-b381b9c0a49a",
+      "video_id": "_TSKJzshK0Q",
+      "segment_id": "s1",
+      "target_entity": "club",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione per il trasferimento è virtualmente chiusa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'operazione chiusa, eh, virtualmente chiusa",
+          "start_sec": 27.92,
+          "end_sec": 61.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

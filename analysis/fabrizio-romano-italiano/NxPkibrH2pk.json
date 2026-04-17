@@ -1,0 +1,350 @@
+{
+  "video_id": "NxPkibrH2pk",
+  "analyzed_at": "2026-04-16T15:23:30.833738+00:00",
+  "metadata": {
+    "title": "🚨 TONALI E IL PIANO FUTURO, IDEA MILAN DAL BARÇA! INTER  LE CIFRE PER MASSOLIN  HERMOSO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-15"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato calcistico, con particolare attenzione all'acquisto da parte dell'Inter di Janis Massolen, un giovane talento del Modena. L'autore sottolinea come Massolen stia brillando con prestazioni positive, contribuendo in modo significativo ai risultati della sua squadra. Inoltre, si accenna alla situazione contrattuale di Mario Hermoso con la Roma e al potenziale interesse del Milan per giovani calciatori come Victor Valde Pegnas e Gerard Martin, evidenziando la strategia dei club italiani di investire su talenti emergenti per il ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Modena",
+      "position": "Il Modena ha un centrocampista offensivo di talento in Janis Massolen.",
+      "polarity": "positive",
+      "claim_id": "5a08b637-2969-41c4-8b03-864acb5641d0",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s1",
+      "target_entity": "Modena",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Modena ha un centrocampista offensivo di talento in Janis Massolen.",
+      "evidence_quotes": [
+        {
+          "quote_text": "centrocampista offensivo offensivo talento del Modena",
+          "start_sec": 28.48,
+          "end_sec": 76.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "Si parlerà anche del contratto di Mario Hermoso con la Roma.",
+      "polarity": "neutral",
+      "claim_id": "5f646cec-4d4c-451a-9972-81d3b608ee02",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si parlerà anche del contratto di Mario Hermoso con la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "contrattuale di Mario Ermoso con la Roma, quindi si parlerà anche di Roma",
+          "start_sec": 28.48,
+          "end_sec": 76.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Modena",
+      "position": "Modena ha ottenuto punti importanti grazie a un gol decisivo.",
+      "polarity": "neutral",
+      "claim_id": "3199fa67-2fe3-427c-8d53-33ceef9ae477",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s2",
+      "target_entity": "Modena",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Modena ha ottenuto punti importanti grazie a un gol decisivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da un gol importante che ha regalato punti pesanti al Modena dopo un periodo difficile del Modena.",
+          "start_sec": 72.24,
+          "end_sec": 113.36000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Andrea Sottil",
+      "position": "Andrea Sottil sta valorizzando giovani calciatori nel Modena.",
+      "polarity": "neutral",
+      "claim_id": "d66582f4-fb56-470e-a43e-d6b773f2db42",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s2",
+      "target_entity": "Andrea Sottil",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Andrea Sottil sta valorizzando giovani calciatori nel Modena.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Modena che comunque eh sta valorizzando molto certi calciatori anche grazie al lavoro di Andrea Sottil.",
+          "start_sec": 72.24,
+          "end_sec": 113.36000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta lavorando per rinforzarsi in vista del futuro.",
+      "polarity": "neutral",
+      "claim_id": "2deaf844-9cee-4480-a8ba-4aba66f5fd07",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta lavorando per rinforzarsi in vista del futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan sta lavorando per capire come rinforzarsi in vista del futuro.",
+          "start_sec": 148.519,
+          "end_sec": 185.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Victor Valdes Pegnas",
+      "position": "Il Milan ha fatto il nome di Victor Valdes Pegnas come possibile rinforzo.",
+      "polarity": "neutral",
+      "claim_id": "1db428e8-2410-4d0a-a63b-03142c6cb76e",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s4",
+      "target_entity": "Victor Valdes Pegnas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha fatto il nome di Victor Valdes Pegnas come possibile rinforzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vi abbiamo fatto in esclusiva il nome di Victor Valdes Pegnas.",
+          "start_sec": 148.519,
+          "end_sec": 185.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Gerard Martin",
+      "position": "Il Milan sta valutando Gerard Martin come potenziale acquisto.",
+      "polarity": "neutral",
+      "claim_id": "97668289-f132-4380-b65b-ed02ff15dfc7",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s5",
+      "target_entity": "Gerard Martin",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta valutando Gerard Martin come potenziale acquisto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan comunque sta valutando, sondando, toccando anche altre porte, tra cui quella che porterebbe a Gerard Martin",
+          "start_sec": 182.519,
+          "end_sec": 222.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha ufficializzato l'acquisto di Janis Massolen.",
+      "polarity": "positive",
+      "claim_id": "27baed3b-b330-4774-8ff0-5266f11a1dfe",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha ufficializzato l'acquisto di Janis Massolen.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter a gennaio ha definito, ha ufficializzato l'acquisto di Janis Massolen, centrocampista offensivo",
+          "start_sec": 28.48,
+          "end_sec": 76.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Nador",
+      "position": "Nador è un giovane promettente da seguire.",
+      "polarity": "neutral",
+      "claim_id": "d4d52f70-b6a4-4432-b211-d5e6ac944c5b",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s2",
+      "target_entity": "Nador",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nador è un giovane promettente da seguire.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come per esempio Nador, Nilling o Tonoli, quindi altri nomi molto ehm utilizzati e valorizzati da Sottil.",
+          "start_sec": 72.24,
+          "end_sec": 113.36000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Valde Pegnas",
+      "position": "Valde Pegnas è considerato un giovane fenomeno.",
+      "polarity": "neutral",
+      "claim_id": "c97e156e-ea3e-4c81-ad4e-4bde6709e4b0",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s5",
+      "target_entity": "Valde Pegnas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Valde Pegnas è considerato un giovane fenomeno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dicono che sia veramente un fenomeno.",
+          "start_sec": 182.519,
+          "end_sec": 222.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Massolen",
+      "position": "Massolen è un giocatore interessante tenuto d'occhio dall'Inter.",
+      "polarity": "neutral",
+      "claim_id": "cf0bb0bd-a099-4e9e-8c84-33cf9732a931",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s2",
+      "target_entity": "Massolen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Massolen è un giocatore interessante tenuto d'occhio dall'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi parliamo di massolen perché l'Inter lo ha chiuso.",
+          "start_sec": 72.24,
+          "end_sec": 113.36000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Janis Massolen",
+      "position": "Janis Massolen sta facendo molto bene con il Modena.",
+      "polarity": "positive",
+      "claim_id": "430e8419-ac78-4e85-aac5-213f767c34db",
+      "video_id": "NxPkibrH2pk",
+      "segment_id": "s1",
+      "target_entity": "Janis Massolen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Janis Massolen sta facendo molto bene con il Modena.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che sta facendo molto bene con il Modena",
+          "start_sec": 28.48,
+          "end_sec": 76.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

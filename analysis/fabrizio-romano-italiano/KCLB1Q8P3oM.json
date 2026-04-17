@@ -1,0 +1,354 @@
+{
+  "video_id": "KCLB1Q8P3oM",
+  "analyzed_at": "2026-04-16T16:03:56.059829+00:00",
+  "metadata": {
+    "title": "🚨 SORPRESA ROMA! JUVE-MILAN: DUE GIOIELLI! JONES, DIABY, PERISIC, KOLO, SULEMANA, ALISSON: LE ULTIME",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-31"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli ultimi sviluppi di mercato riguardanti Juventus e Roma. L'autore sottolinea l'acquisto da parte della Juventus del giovane talento Adin Licina dal Bayern Monaco, evidenziando l'importanza di questa operazione e la clausola di matching rights a favore del club tedesco. Inoltre, si discute dell'interesse della Juventus per Randal Colomoni, con la situazione che dipende dalle decisioni del Tottenham. Per quanto riguarda la Roma, si menziona un'offerta per Brian Zaragoza, mirata a interrompere il prestito attuale al Celta Vigo. In conclusione, il merc",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "high"
+    },
+    {
+      "name": "accordo",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha concluso un'operazione per Adin Licina.",
+      "polarity": "positive",
+      "claim_id": "b8546851-c0da-4af5-ab1b-31a929f3e31a",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha concluso un'operazione per Adin Licina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus su cui dobbiamo dire che arriva un talento molto interessante, si chiama Adin Licina, arriva dal Bayern di Monaco, è un'operazione chiusa in queste ore dalla Juventus con il Bayern",
+          "start_sec": 0.28,
+          "end_sec": 35.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bayern",
+      "position": "Il Bayern avrà una corsia prioritaria per le offerte su Licina.",
+      "polarity": "neutral",
+      "claim_id": "834f41ed-9571-4b7c-a8c6-cea9e077c543",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s1",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern avrà una corsia prioritaria per le offerte su Licina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Bayern avrà anche eh un clausola di matching rights. Praticamente se arriveranno offerte alla Juventus e in futuro per questo ragazzo, il Bayern avrà una corsia prioritaria.",
+          "start_sec": 32.84,
+          "end_sec": 62.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha raggiunto un accordo per Lecina.",
+      "polarity": "positive",
+      "claim_id": "7776a19a-6dab-4efb-8003-2b18379683fc",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha raggiunto un accordo per Lecina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "accordo raggiunto Lecina sarà un giocatore della Juventus",
+          "start_sec": 60.719,
+          "end_sec": 88.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Randal Colo Moi",
+      "position": "Randal Colo Moi è oggetto di contatti tra la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "21dbffad-56ba-4790-9b05-7086bd141861",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s2",
+      "target_entity": "Randal Colo Moi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Randal Colo Moi è oggetto di contatti tra la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "continuano sono continuati i contatti per Randal Colo Moi",
+          "start_sec": 60.719,
+          "end_sec": 88.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Randal Colomani",
+      "position": "Randal Colomani potrebbe vestire la maglia della Juventus.",
+      "polarity": "neutral",
+      "claim_id": "745ff4f6-2cfb-45cd-b34f-fd4f2b9ba46e",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s3",
+      "target_entity": "Randal Colomani",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Randal Colomani potrebbe vestire la maglia della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "spera che qualcosa possa cambiare con la volontà del giocatore di vestire bianconero",
+          "start_sec": 87.119,
+          "end_sec": 111.07900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha ricevuto molte offerte per attaccanti.",
+      "polarity": "neutral",
+      "claim_id": "2b67feed-faaf-491e-ba48-1d0da562c574",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha ricevuto molte offerte per attaccanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alla Juve sono stati offerti tanti attaccanti",
+          "start_sec": 60.719,
+          "end_sec": 88.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus acquisisce Adill Licina dal Bayern.",
+      "polarity": "neutral",
+      "claim_id": "ea71d3f4-f3fb-4ef5-9035-374ee3063a52",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus acquisisce Adill Licina dal Bayern.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve prende un altro giocatore dal Bayern e dalla stessa agenzia, si chiama Adill Licina.",
+          "start_sec": 32.84,
+          "end_sec": 62.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Licina",
+      "position": "Licina avrà un'elaborazione della futura rivendita.",
+      "polarity": "neutral",
+      "claim_id": "48814379-bc55-4917-86ce-797a4ef321f8",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s1",
+      "target_entity": "Licina",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Licina avrà un'elaborazione della futura rivendita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'operazione che includerà il 30% della futura rivendita per il Bayern.",
+          "start_sec": 32.84,
+          "end_sec": 62.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Leaderbrock",
+      "position": "Adin Licina è rappresentato dall'agenzia Leaderbrock.",
+      "polarity": "positive",
+      "claim_id": "5ee560f1-ef09-4b1c-a605-c76370a357b0",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s0",
+      "target_entity": "Leaderbrock",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Adin Licina è rappresentato dall'agenzia Leaderbrock.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è rappresentato da Leaderbrock",
+          "start_sec": 0.28,
+          "end_sec": 35.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Demirovicć",
+      "position": "Demirovicć è stato offerto alla Juventus.",
+      "polarity": "neutral",
+      "claim_id": "09a83712-cbeb-4963-b461-be5b9600e07f",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s2",
+      "target_entity": "Demirovicć",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Demirovicć è stato offerto alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato offerto anche Demirovicć dello Stocarda",
+          "start_sec": 60.719,
+          "end_sec": 88.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus aspetta ancora Randal Colomani.",
+      "polarity": "neutral",
+      "claim_id": "2826414e-5323-4756-9902-008e9749c5b8",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus aspetta ancora Randal Colomani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve aspetta ancora Randal Colomani",
+          "start_sec": 87.119,
+          "end_sec": 111.07900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus vuole farsi trovare pronta.",
+      "polarity": "neutral",
+      "claim_id": "08e12836-3cbf-42b5-9d05-2c340dddceb3",
+      "video_id": "KCLB1Q8P3oM",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus vuole farsi trovare pronta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una Juve che vorrebbe farsi trovare pronta",
+          "start_sec": 87.119,
+          "end_sec": 111.07900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "video_id": "YfZPHKZZVz8",
+  "analyzed_at": "2026-04-16T15:11:37.385444+00:00",
+  "metadata": {
+    "title": "🚨 AFFARE FATTO! DOPPIA BOMBA JUVE! NOVITÀ SOCIETÁ MILAN, BASTONI E IL BARÇA, MCKENNIE, SPALLETTI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-24"
+  },
+  "summary": "Nel video di Fabrizio Romano, si discute dell'attività di mercato della Juventus, che continua nonostante la chiusura della finestra ufficiale. L'autore sottolinea che Weston McKennie ha deciso di rimanere con i bianconeri, rinnovando il contratto fino al 2030, grazie alla sua crescente convinzione nel progetto juventino e alla volontà di Spalletti di trattenerlo. Inoltre, si accenna a novità riguardanti la dirigenza del Milan e alla trattativa in corso per il rinnovo di Spalletti, evidenziando le incertezze legate ai costi accessori dell'operazione e la lunga durata delle trattative.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "notizie",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Weston McKennie",
+      "position": "McKennie rinnoverà il contratto con la Juventus fino al 2030.",
+      "polarity": "positive",
+      "claim_id": "308fbcce-9e12-4dd0-97b2-5722bbcec69c",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s1",
+      "target_entity": "Weston McKennie",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "McKennie rinnoverà il contratto con la Juventus fino al 2030.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Weston McCenny, il centrocampista americano della Juventus, in scadenza di contratto con la Juventus a giugno, dice sì al progetto bianconero e rinnoverà il contratto fino al 2030.",
+          "start_sec": 31.84,
+          "end_sec": 77.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "McKennie",
+      "position": "Il nuovo contratto per McKennie prevede una cifra di 4 milioni di euro netti a stagione.",
+      "polarity": "positive",
+      "claim_id": "5f36fb57-44c1-4237-9618-09a5046e8d12",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s3",
+      "target_entity": "McKennie",
+      "entity_type": "player",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il nuovo contratto per McKennie prevede una cifra di 4 milioni di euro netti a stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cifra intorno ai 4 milioni di euro netti a stagione",
+          "start_sec": 109.52,
+          "end_sec": 147.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Il mercato della Juventus è attivamente in corso nonostante la finestra di mercato ufficiale sia chiusa.",
+      "polarity": "neutral",
+      "claim_id": "bfd3a435-8647-42b4-9236-37a701c56dcd",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato della Juventus è attivamente in corso nonostante la finestra di mercato ufficiale sia chiusa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mercato, come sapete, continua sempre tra rinnovi, voci di mercato in vista del futuro, trattative già impostate.",
+          "start_sec": 0.08,
+          "end_sec": 35.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha un progetto a lungo termine con McKennie.",
+      "polarity": "positive",
+      "claim_id": "651e080b-9aa9-43f7-a80d-6dda9439c247",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha un progetto a lungo termine con McKennie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "McCenny... dice sì al progetto bianconero e rinnoverà il contratto fino al 2030.",
+          "start_sec": 31.84,
+          "end_sec": 77.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "parte",
+      "position": "Ci sono state sempre incertezze nei costi accessori dell'operazione.",
+      "polarity": "neutral",
+      "claim_id": "2e216b67-dbc1-496e-ba39-549e3fc4ae58",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s2",
+      "target_entity": "parte",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono state sempre incertezze nei costi accessori dell'operazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è sempre stata un po' di incertezza eh per quanto riguarda questa distanza tra commissioni, stipendio e la volontà delle parti.",
+          "start_sec": 75.439,
+          "end_sec": 112.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "parte",
+      "position": "Le parti stanno cercando di trovare un accordo.",
+      "polarity": "neutral",
+      "claim_id": "b4cd16e9-c4e9-467e-b264-c4bec2bb3961",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s2",
+      "target_entity": "parte",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Le parti stanno cercando di trovare un accordo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno cercato di trovare un accordo in questi mesi.",
+          "start_sec": 75.439,
+          "end_sec": 112.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "McKennie",
+      "position": "La Juventus ha proposto un nuovo contratto a McKennie.",
+      "polarity": "positive",
+      "claim_id": "58e47e4b-e8e8-4513-aa0b-b39ff0c2c60d",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s3",
+      "target_entity": "McKennie",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha proposto un nuovo contratto a McKennie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus ha proposto eh un nuovo contratto proprio in questi ultimi giorni",
+          "start_sec": 109.52,
+          "end_sec": 147.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La trattativa per un giocatore della Juventus dura da più di un anno.",
+      "polarity": "neutral",
+      "claim_id": "2716f31a-49b6-4978-878d-a87ccfc637ae",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La trattativa per un giocatore della Juventus dura da più di un anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una trattativa lunga che dura da più di un anno.",
+          "start_sec": 75.439,
+          "end_sec": 112.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "parte",
+      "position": "C'è stata incertezza riguardo alla volontà delle parti di continuare insieme.",
+      "polarity": "neutral",
+      "claim_id": "a06e152e-dd2c-4c9a-9c14-f55fd2e8c60b",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s2",
+      "target_entity": "parte",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è stata incertezza riguardo alla volontà delle parti di continuare insieme.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la volontà delle parti poi di continuare insieme.",
+          "start_sec": 75.439,
+          "end_sec": 112.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Ci sono novità sulla società Milan.",
+      "polarity": "neutral",
+      "claim_id": "0df8f7d6-7fea-400f-b731-a690946aa5f0",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono novità sulla società Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tante novità anche oggi, martedì 24 febbraio, fuori dalla finestra di mercato ufficialmente, ma il mercato, come sapete, continua sempre.",
+          "start_sec": 0.08,
+          "end_sec": 35.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "McKennie",
+      "position": "McKennie ha una volontà decisiva nella trattativa.",
+      "polarity": "positive",
+      "claim_id": "fe47f764-6aba-4dd1-ba99-17ced64e63ed",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s3",
+      "target_entity": "McKennie",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "McKennie ha una volontà decisiva nella trattativa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata decisiva ed è decisiva la volontà di Mcenny",
+          "start_sec": 109.52,
+          "end_sec": 147.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico Madrid si era interessato a McKennie.",
+      "polarity": "neutral",
+      "claim_id": "33f67c21-1740-41c1-ae24-89ceafb54a28",
+      "video_id": "YfZPHKZZVz8",
+      "segment_id": "s4",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid si era interessato a McKennie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atletico si era mosso.",
+          "start_sec": 145.16,
+          "end_sec": 181.11999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

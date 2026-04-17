@@ -1,0 +1,350 @@
+{
+  "video_id": "ayojEVn6VsY",
+  "analyzed_at": "2026-04-17T09:59:52.295265+00:00",
+  "metadata": {
+    "title": "🚨 COLPO INTER! MATETA, SI TOTALE ALLA JUVE. STERLING, EN NESYRI, MALDINI: SALDI DI GENNAIO",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-19"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità del mercato calcistico, in particolare sugli affari dell'Inter e della Juventus. L'autore annuncia con entusiasmo che l'Inter ha concluso l'acquisto del giovane difensore Leonirovicć dalla Dinamo Zagabria, mentre il trasferimento di Mateta alla Juventus è in fase di definizione. Inoltre, si menzionano altri nomi sul mercato, come Sterling ed En Nesyri, e si sottolinea che il trasferimento di Mlacic è attualmente bloccato. In sintesi, il video evidenzia un mercato in fermento, con l'Inter che si assicura un talento promettente e la Ju",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "high"
+    },
+    {
+      "name": "offerta",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha chiuso per Yakirovicć con un accordo da 2,5 milioni fissi.",
+      "polarity": "positive",
+      "claim_id": "37c1f259-c4ae-4fce-ad00-dd73851cb50c",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha chiuso per Yakirovicć con un accordo da 2,5 milioni fissi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter chiude per Yakirovicć con un accordo da 2 milioni e mezzo fissi.",
+          "start_sec": 63.16,
+          "end_sec": 89.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Inter",
+      "position": "Yakirovic inizierà con l'Under 23 e poi si allenerà con la prima squadra.",
+      "polarity": "positive",
+      "claim_id": "d8892d24-6aaf-4da0-ba00-5306e1561b25",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Yakirovic inizierà con l'Under 23 e poi si allenerà con la prima squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "inizierà con l'Under 23, quindi un percorso iniziale... e poi iniziare anche ad allenarsi con la prima squadra.",
+          "start_sec": 88.079,
+          "end_sec": 120.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha fatto un'offerta per Leonirovicć della Dinamo Zagabria.",
+      "polarity": "positive",
+      "claim_id": "7e618a58-cec7-4829-a3b2-6a1243f9cdfa",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha fatto un'offerta per Leonirovicć della Dinamo Zagabria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'offerta migliorata per Leonirovicć, difensore centrale diciottenne classe 2008 della Dinamo Zagabria da parte dell'Inter.",
+          "start_sec": 34.6,
+          "end_sec": 65.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Leonirovicć",
+      "position": "Leonirovicć ha accettato l'offerta dell'Inter e andrà in visita medica.",
+      "polarity": "positive",
+      "claim_id": "8af644df-179e-4bd7-a8ec-81b71bdf7eb6",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s1",
+      "target_entity": "Leonirovicć",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Leonirovicć ha accettato l'offerta dell'Inter e andrà in visita medica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questaofferta è stata accettata intorno alle 20 di questa sera e il giocatore viaggerà questa settimana per visite mediche e firme sul contratto.",
+          "start_sec": 34.6,
+          "end_sec": 65.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Yakirovicć",
+      "position": "Yakirovicć era seguito da diversi club importanti come Ajax e Salisburgo.",
+      "polarity": "positive",
+      "claim_id": "f0a7e320-877d-43df-b0d0-f1951883553d",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s2",
+      "target_entity": "Yakirovicć",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Yakirovicć era seguito da diversi club importanti come Ajax e Salisburgo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sul ragazzo c'era l'Ajax, c'era il Salisburgo, il gruppo Red Bull che voleva portarlo prima a Salisburgo.",
+          "start_sec": 63.16,
+          "end_sec": 89.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Piero Ausilio",
+      "position": "Piero Ausilio ha lavorato per più di un anno per chiudere l'affare di Yakirovicć.",
+      "polarity": "positive",
+      "claim_id": "6b71d0a0-5208-4b85-84bb-0d34be58ec32",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s2",
+      "target_entity": "Piero Ausilio",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Piero Ausilio ha lavorato per più di un anno per chiudere l'affare di Yakirovicć.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ha lavorato per più di un anno su questa operazione.",
+          "start_sec": 63.16,
+          "end_sec": 89.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "En Nesyri",
+      "position": "En Nesyri è un obiettivo per il mercato.",
+      "polarity": "positive",
+      "claim_id": "39b330b0-fb7e-4114-a8ec-a591e0d0735f",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s0",
+      "target_entity": "En Nesyri",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "En Nesyri è un obiettivo per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "STERLING, EN NESYRI, MALDINI: SALDI DI GENNAIO.",
+          "start_sec": 0.0,
+          "end_sec": 36.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mlacic",
+      "position": "Il trasferimento di Mlacic si è bloccato.",
+      "polarity": "negative",
+      "claim_id": "f3791d1b-31d6-49f5-979e-221168be490b",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s1",
+      "target_entity": "Mlacic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il trasferimento di Mlacic si è bloccato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il discorso Mlacic si è completamente bloccato, fermato per le vicende che vi abbiamo raccontato.",
+          "start_sec": 34.6,
+          "end_sec": 65.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli vede Daniel Maldini come un'opportunità.",
+      "polarity": "neutral",
+      "claim_id": "80ae7766-0c3a-4e70-a6be-08a02b1825f6",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli vede Daniel Maldini come un'opportunità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per il Napoli rappresenta una delle opportunità in considerazione.",
+          "start_sec": 118.719,
+          "end_sec": 151.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter sta facendo un colpo di mercato.",
+      "polarity": "positive",
+      "claim_id": "60cd9c02-f802-4ba1-aa72-4a92c3a5ab6b",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter sta facendo un colpo di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "COLPO INTER! MATETA, SI TOTALE ALLA JUVE.",
+          "start_sec": 0.0,
+          "end_sec": 36.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Mateta si trasferirà alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "84ff92a4-0e57-427f-84df-87c3824eccb3",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mateta si trasferirà alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "MATETA, SI TOTALE ALLA JUVE.",
+          "start_sec": 0.0,
+          "end_sec": 36.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sterling",
+      "position": "Sterling è uno dei nomi sul mercato.",
+      "polarity": "positive",
+      "claim_id": "cc3ab5e4-c4c5-4a40-b1b3-c57d592c8fee",
+      "video_id": "ayojEVn6VsY",
+      "segment_id": "s0",
+      "target_entity": "Sterling",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sterling è uno dei nomi sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "STERLING, EN NESYRI, MALDINI: SALDI DI GENNAIO.",
+          "start_sec": 0.0,
+          "end_sec": 36.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

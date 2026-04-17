@@ -1,0 +1,362 @@
+{
+  "video_id": "_mO1xg-sixE",
+  "analyzed_at": "2026-04-17T11:00:51.933654+00:00",
+  "metadata": null,
+  "summary": "Il video di Umberto Chiariello si concentra sulle prestazioni dell'arbitro Chiffi, definito mediocre, e sul suo impatto negativo sulle sconfitte del Napoli in campionato. L'autore critica l'arbitraggio di Chiffi, sottolineando che tre delle sei sconfitte del Napoli sono attribuibili a sue decisioni discutibili, ma respinge le teorie complottiste che lo vedono come un \"killer\" designato. Chiariello conclude affermando che, sebbene Chiffi abbia commesso errori, non è l'unico responsabile e il Napoli ha subito un numero eccessivo di rigori sfavorevoli, rendendo la situazione ancora più frustrante",
+  "topics": [
+    {
+      "name": "arbitro",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitri",
+      "relevance": "high"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanze",
+      "relevance": "low"
+    },
+    {
+      "name": "calciatori",
+      "relevance": "low"
+    },
+    {
+      "name": "giustizia",
+      "relevance": "low"
+    },
+    {
+      "name": "sconfitta",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Chiffi",
+      "position": "Tre delle sei sconfitte in campionato sono firmate dall'arbitraggio di Chiffi.",
+      "polarity": "negative",
+      "claim_id": "dfd6818f-b44e-4f7c-9f90-8de40ed15481",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s0",
+      "target_entity": "Chiffi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tre delle sei sconfitte in campionato sono firmate dall'arbitraggio di Chiffi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tre tre delle sei sconfitte in campionato sono firmate con l'arbitraggio di Chiffi.",
+          "start_sec": 2.52,
+          "end_sec": 83.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Chiffi",
+      "position": "Chiffi non è il killer mandato dal designatore.",
+      "polarity": "negative",
+      "claim_id": "15ee5172-1df4-4071-8393-533f1f898831",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s0",
+      "target_entity": "Chiffi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Chiffi non è il killer mandato dal designatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi se uno vuol vedere in chiffi il killer mandato dal designatore sta fuori strada.",
+          "start_sec": 2.52,
+          "end_sec": 83.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Kiffi",
+      "position": "Kiffi ha sbagliato due volte secondo alcuni arbitri.",
+      "polarity": "negative",
+      "claim_id": "4e1d50a7-1b73-4422-b172-6beac9aacaf7",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s1",
+      "target_entity": "Kiffi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kiffi ha sbagliato due volte secondo alcuni arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arbitri che ritengono che Kiffi abbia sbagliato due volte.",
+          "start_sec": 81.2,
+          "end_sec": 150.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Napoli",
+      "position": "Il Napoli ha ricevuto il maggior numero di rigori sfavorevoli.",
+      "polarity": "negative",
+      "claim_id": "916e194b-47ea-4120-8829-7d439e217c82",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha ricevuto il maggior numero di rigori sfavorevoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli è la squadra che ha preso più rigori di tutti al negativo, cioè contro.",
+          "start_sec": 81.2,
+          "end_sec": 150.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Vergara",
+      "position": "Vergara è vittima di una shitstorm mediatica dopo il rigore assegnato.",
+      "polarity": "neutral",
+      "claim_id": "fc620d5a-3afe-4377-b0e9-748de6700882",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s4",
+      "target_entity": "Vergara",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vergara è vittima di una shitstorm mediatica dopo il rigore assegnato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si apre una shitstorm contro il povero Vergara e contro il Napoli clamorosa, clamorosa",
+          "start_sec": 295.56,
+          "end_sec": 391.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Napoli",
+      "position": "In alcune partite il Napoli non si è lamentato dell'arbitraggio di Chiffi.",
+      "polarity": "neutral",
+      "claim_id": "276ec636-81d0-4690-bb8c-195fa547a19c",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "In alcune partite il Napoli non si è lamentato dell'arbitraggio di Chiffi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ci siamo lamentati dell'arbitraggio.",
+          "start_sec": 2.52,
+          "end_sec": 83.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Meret",
+      "position": "Il rigore fischiato contro Meret non è considerato giusto.",
+      "polarity": "negative",
+      "claim_id": "6508a353-e9a2-4bc9-b1bb-80c5b34a0797",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s1",
+      "target_entity": "Meret",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rigore fischiato contro Meret non è considerato giusto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Per me quello non è mai rigore.",
+          "start_sec": 81.2,
+          "end_sec": 150.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Aureliano",
+      "position": "Aureliano doveva intervenire sull'errore clamoroso del gol annullato.",
+      "polarity": "negative",
+      "claim_id": "ff52bd42-9cd4-40a3-8272-226e740ea5e7",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s5",
+      "target_entity": "Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aureliano doveva intervenire sull'errore clamoroso del gol annullato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lì Aureliano doveva intervenire.",
+          "start_sec": 389.44,
+          "end_sec": 475.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gazzetta",
+      "position": "La linea editoriale della Gazzetta è considerata insopportabile.",
+      "polarity": "negative",
+      "claim_id": "bc132601-d052-44a8-b0b7-80a80c69845c",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s5",
+      "target_entity": "Gazzetta",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La linea editoriale della Gazzetta è considerata insopportabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la linea di questo direttore è insopportabile.",
+          "start_sec": 389.44,
+          "end_sec": 475.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Cairo",
+      "position": "L'operato di Cairo come editore è considerato insopportabile.",
+      "polarity": "negative",
+      "claim_id": "c3b756d4-ac50-4f60-aaee-ae29c4586693",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s5",
+      "target_entity": "Cairo",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'operato di Cairo come editore è considerato insopportabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cairo editore è insopportabile.",
+          "start_sec": 389.44,
+          "end_sec": 475.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Kiffi",
+      "position": "Kiffi ha causato danni importanti nella partita.",
+      "polarity": "negative",
+      "claim_id": "b9bc747c-7c82-4b04-bfd4-d4a2fec4f579",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s1",
+      "target_entity": "Kiffi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kiffi ha causato danni importanti nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è la prima partita dove Kiffi ci fa dei danni inenarrabili.",
+          "start_sec": 81.2,
+          "end_sec": 150.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Chiffi",
+      "position": "Chiffi è un arbitro mediocre.",
+      "polarity": "negative",
+      "claim_id": "e0cef390-d135-4194-8349-1871ce1bb86d",
+      "video_id": "_mO1xg-sixE",
+      "segment_id": "s0",
+      "target_entity": "Chiffi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chiffi è un arbitro mediocre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chiffi è un arbitro mediocre.",
+          "start_sec": 2.52,
+          "end_sec": 83.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

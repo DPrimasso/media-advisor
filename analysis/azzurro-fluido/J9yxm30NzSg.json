@@ -1,0 +1,362 @@
+{
+  "video_id": "J9yxm30NzSg",
+  "analyzed_at": "2026-04-17T10:40:01.708750+00:00",
+  "metadata": null,
+  "summary": "Il video di Azzurro-Fluido si concentra sulla situazione attuale della nazionale italiana di calcio, esprimendo frustrazione per la mancanza di decisioni concrete riguardo all'allenatore e alle riforme necessarie. L'autore sottolinea che, nonostante le dimissioni di Gravina, non ci sarà un cambiamento significativo, poiché nessuno voleva la sua uscita. Inoltre, evidenzia che questa è la più pesante sconfitta della storia del calcio italiano, suggerendo che è necessaria una trasformazione della mentalità calcistica nel paese. Infine, il commentatore si sposta a parlare del Milan, riportando not",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "sconfitta",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "statistiche",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "elezioni",
+      "relevance": "low"
+    },
+    {
+      "name": "speranza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina è stato eletto con il 98% delle preferenze.",
+      "polarity": "positive",
+      "claim_id": "c7895c51-4717-416d-a765-241d5ddfb3f1",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina è stato eletto con il 98% delle preferenze.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gravina l'hanno l'hanno eletto con il 98% di delle preferenze.",
+          "start_sec": 73.68,
+          "end_sec": 143.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "nazionale",
+      "position": "Non si fa altro che parlare dell'allenatore della nazionale senza decisioni concrete.",
+      "polarity": "negative",
+      "claim_id": "ee6902ca-a5b9-4a08-b97f-33a07b544768",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s0",
+      "target_entity": "nazionale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non si fa altro che parlare dell'allenatore della nazionale senza decisioni concrete.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si fa altro che parlare dell'allenatore quando non è stato scelto ancora nemmeno il nuovo il successore di Gravina",
+          "start_sec": 2.159,
+          "end_sec": 76.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "nazionale",
+      "position": "Ci sono interpretazioni fantasiose su ciò che è stato detto riguardo alla nazionale.",
+      "polarity": "negative",
+      "claim_id": "85d723d2-8639-4755-8d65-d834dd86eaf5",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s0",
+      "target_entity": "nazionale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono interpretazioni fantasiose su ciò che è stato detto riguardo alla nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono delle interpretazioni un po' fantasiose su quello che ho detto ieri",
+          "start_sec": 2.159,
+          "end_sec": 76.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale italiana",
+      "position": "Questa è la più pesante sconfitta della storia del calcio italiano.",
+      "polarity": "negative",
+      "claim_id": "c49242d2-db15-4f8a-b435-0dfb2f7d91bc",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s1",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Questa è la più pesante sconfitta della storia del calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa è la più pesante sconfitta della storia del calcio italiano",
+          "start_sec": 73.68,
+          "end_sec": 143.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fulkrug",
+      "position": "Fulkrug non viene utilizzato come punto di riferimento.",
+      "polarity": "neutral",
+      "claim_id": "3fccc5aa-f635-42cb-a88d-f9dc4981df61",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s4",
+      "target_entity": "Fulkrug",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fulkrug non viene utilizzato come punto di riferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non lo stanno utilizzando Fulkrug se non a partita in corso come punto di riferimento per i colpi di testa",
+          "start_sec": 269.72,
+          "end_sec": 329.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Il commentatore inizia a parlare del Milan dopo le riflessioni sulla nazionale.",
+      "polarity": "neutral",
+      "claim_id": "1a1d28ab-6c65-4cb4-88d3-af8e7f4c742a",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il commentatore inizia a parlare del Milan dopo le riflessioni sulla nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io comincio a parlare del Milan",
+          "start_sec": 2.159,
+          "end_sec": 76.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Jimenez",
+      "position": "Jimenez è recuperato e disponibile per il Napoli.",
+      "polarity": "positive",
+      "claim_id": "fd2e645f-f7f8-4ab7-9508-770e36ae5e37",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s3",
+      "target_entity": "Jimenez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Jimenez è recuperato e disponibile per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno recuperato Jimenez",
+          "start_sec": 202.36,
+          "end_sec": 272.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Anghissà",
+      "position": "Si spera che Anghissà migliori a livello fisico.",
+      "polarity": "positive",
+      "claim_id": "a3035f3f-232f-47f8-aa6e-93e37c27c1f8",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s4",
+      "target_entity": "Anghissà",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Si spera che Anghissà migliori a livello fisico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "speriamo stia migliorando a livello fisico",
+          "start_sec": 269.72,
+          "end_sec": 329.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Politano",
+      "position": "Politano è un po' affaticato.",
+      "polarity": "neutral",
+      "claim_id": "fd6cc6bf-13a6-4004-8ed2-260edcdadb72",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s3",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Politano è un po' affaticato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse Politano è un po' affaticato dalle fatiche di coppa",
+          "start_sec": 202.36,
+          "end_sec": 272.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Nessuno voleva che Gravina si dimettesse.",
+      "polarity": "neutral",
+      "claim_id": "305c4d0f-a3a2-4e86-bfb1-eddc4d2b57a1",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nessuno voleva che Gravina si dimettesse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nessuno voleva che se ne andasse",
+          "start_sec": 73.68,
+          "end_sec": 143.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Spinazzola",
+      "position": "Spinazzola è attualmente indisponibile.",
+      "polarity": "neutral",
+      "claim_id": "5b7b2e3b-9742-4734-8aff-70f6841c1301",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s5",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spinazzola è attualmente indisponibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spinazzolo...non dei nostri indisponibili sono i soliti che sappiamo.",
+          "start_sec": 326.96,
+          "end_sec": 392.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Jesus",
+      "position": "Jesus dovrebbe aver recuperato.",
+      "polarity": "positive",
+      "claim_id": "bfca5c5f-4daf-449c-9738-a8e74f5d28aa",
+      "video_id": "J9yxm30NzSg",
+      "segment_id": "s4",
+      "target_entity": "Jesus",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jesus dovrebbe aver recuperato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché lo abbiamo visto nel finale di partita",
+          "start_sec": 269.72,
+          "end_sec": 329.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

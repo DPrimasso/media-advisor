@@ -1,0 +1,346 @@
+{
+  "video_id": "q1_9q3svS3M",
+  "analyzed_at": "2026-04-17T10:20:12.217355+00:00",
+  "metadata": {
+    "title": "🚨💣 JUVE: BLITZ IN SERATA! INTER: BRUTTA SORPRESA! MILAN, KOSTIC HA SCELTO. LUCCA, MLACIC, MATETA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-16"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli sviluppi del calciomercato, in particolare sulla trattativa tra l'Inter e il difensore croato Branimir Mlacic. L'autore sottolinea che, nonostante l'accordo verbale tra l'Inter e il club AID, l'affare non è ancora concluso a causa della scelta di Mlacic di cambiare procuratore, il che potrebbe rallentare ulteriormente i tempi. Romano avverte che l'Inter non attenderà indefinitamente la conferma del giocatore, suggerendo che l'operazione potrebbe saltare se non arriverà un ok imminente.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "traffico",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Inter è al centro di diverse notizie di mercato.",
+      "polarity": "neutral",
+      "claim_id": "c76b3d09-9946-4283-bb6d-e202ea589d11",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter è al centro di diverse notizie di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le notizie e gli aggiornamenti qui sul nostro canale non mancano come tutti i giorni.",
+          "start_sec": 0.799,
+          "end_sec": 34.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha raggiunto un accordo verbale con Mlacic.",
+      "polarity": "neutral",
+      "claim_id": "06cc2fac-dec6-441d-ba26-028a505edc43",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha raggiunto un accordo verbale con Mlacic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "accordo fatto verbale da novembre, eh fine novembre inizio dicembre",
+          "start_sec": 33.0,
+          "end_sec": 66.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mlacic",
+      "position": "Mlacic ha scelto un nuovo procuratore, Fali Ramadani.",
+      "polarity": "neutral",
+      "claim_id": "ad8dce1d-2bca-4bfe-9643-55c7a8b1d629",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s3",
+      "target_entity": "Mlacic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mlacic ha scelto un nuovo procuratore, Fali Ramadani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la scelta da parte di Mlacic e del suo papà di firmare con un nuovo procuratore",
+          "start_sec": 92.56,
+          "end_sec": 123.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fali Ramadani",
+      "position": "Fali Ramadani è un agente di livello internazionale.",
+      "polarity": "neutral",
+      "claim_id": "75c10b8f-291b-46ef-b67a-a2aff70ebee6",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s3",
+      "target_entity": "Fali Ramadani",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fali Ramadani è un agente di livello internazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un agente molto importante di livello internazionale",
+          "start_sec": 92.56,
+          "end_sec": 123.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mlacic",
+      "position": "Mlacic potrebbe non trasferirsi se non dà l'ok.",
+      "polarity": "neutral",
+      "claim_id": "d50029c0-af02-4093-bd06-d5e6de024bd5",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s5",
+      "target_entity": "Mlacic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Mlacic potrebbe non trasferirsi se non dà l'ok.",
+      "evidence_quotes": [
+        {
+          "quote_text": "può trasformarsi in un'operazione a rischio di saltare a meno che il giocatore non decida di dare l'ok",
+          "start_sec": 148.0,
+          "end_sec": 182.11999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mlacic",
+      "position": "La scelta di un nuovo procuratore da parte di Mlacic rappresenta una novità.",
+      "polarity": "neutral",
+      "claim_id": "530f8d40-813b-4e1e-995f-756216dfe198",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s3",
+      "target_entity": "Mlacic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La scelta di un nuovo procuratore da parte di Mlacic rappresenta una novità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è chiaro che rappresenta una novità",
+          "start_sec": 92.56,
+          "end_sec": 123.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'affare Mlacic è stato dato per chiuso.",
+      "polarity": "neutral",
+      "claim_id": "f5c447b1-dee5-41e1-9a5a-1a08008a4c40",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'affare Mlacic è stato dato per chiuso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il discorso legato a Mlacic che è stato dato per chiuso eh più volte in giro nelle ultime 24-48 ore",
+          "start_sec": 0.799,
+          "end_sec": 34.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Romano",
+      "position": "Romano fornisce aggiornamenti quotidiani sul calciomercato.",
+      "polarity": "neutral",
+      "claim_id": "9e3ea302-62af-4291-8466-32ad109b875b",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s0",
+      "target_entity": "Romano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Romano fornisce aggiornamenti quotidiani sul calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come sempre per tenervi aggiornati sul calciomercato",
+          "start_sec": 0.799,
+          "end_sec": 34.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mlacic",
+      "position": "Mlacic potrebbe avere altre opportunità di mercato.",
+      "polarity": "neutral",
+      "claim_id": "98ae8661-0070-43ff-82b3-2aeee46e85d8",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s4",
+      "target_entity": "Mlacic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Mlacic potrebbe avere altre opportunità di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrà, insomma, avere anche altre opportunità di mercato.",
+          "start_sec": 121.479,
+          "end_sec": 150.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'operazione per Mlacic rischia di saltare.",
+      "polarity": "neutral",
+      "claim_id": "8cd6fb5f-7b55-4991-a0fa-bf5759de5f68",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione per Mlacic rischia di saltare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'operazione rischia di saltare per quanto riguarda Branimir Mlacic.",
+          "start_sec": 121.479,
+          "end_sec": 150.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mlacic",
+      "position": "Mlacic è stato citato come affare fatto.",
+      "polarity": "neutral",
+      "claim_id": "81725f4f-eae7-47bc-a238-10351f594276",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s0",
+      "target_entity": "Mlacic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mlacic è stato citato come affare fatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "affare fatto e definito",
+          "start_sec": 0.799,
+          "end_sec": 34.440000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter non aspetterà Mlacic per sempre.",
+      "polarity": "neutral",
+      "claim_id": "e1906619-a46e-40dd-9d6b-a243f6a23000",
+      "video_id": "q1_9q3svS3M",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non aspetterà Mlacic per sempre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter non aspetterà Mlacic per sempre.",
+          "start_sec": 121.479,
+          "end_sec": 150.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "video_id": "tMhComUYq_k",
+  "analyzed_at": "2026-04-17T11:18:53.165515+00:00",
+  "metadata": null,
+  "summary": "Il video analizza le potenzialità di tre squadre in corsa per il quarto posto in campionato, con un focus particolare su Como, Juventus e Roma. L'autore sottolinea che, nonostante la Juventus abbia una grande storia, attualmente presenta delle lacune in attacco, mentre la Roma, pur essendo forte e compatta, ha bisogno di un centravanti per ottenere risultati decisivi. Il Como, invece, è visto come una squadra con giocatori ben posizionati e in grado di fare la differenza, nonostante le sue difficoltà offensive. In conclusione, si evidenzia l'importanza dei singoli nel determinare gli equilibri",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "situazione attuale",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "pass",
+      "position": "Pass ha avuto una flessione nel rendimento negli ultimi due mesi.",
+      "polarity": "neutral",
+      "claim_id": "c63deca6-afc7-438b-9d9d-7166ff4bafdd",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s0",
+      "target_entity": "pass",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Pass ha avuto una flessione nel rendimento negli ultimi due mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha avuto una flessione un mese e mezzo, due mesi non è stato il miglior pass.",
+          "start_sec": 0.16,
+          "end_sec": 34.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatori",
+      "position": "I singoli possono spostare gli equilibri in una partita.",
+      "polarity": "neutral",
+      "claim_id": "83af8d17-6854-4af7-aabe-ef3d6b3c4eab",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s3",
+      "target_entity": "giocatori",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I singoli possono spostare gli equilibri in una partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però poi sono i giocatori che in alcuni momenti diventano fondamentali per spostare gli equilibri",
+          "start_sec": 101.56,
+          "end_sec": 135.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "giocatori",
+      "position": "La mancanza di un centravanti non ha impedito di guadagnare punti.",
+      "polarity": "neutral",
+      "claim_id": "616b87c0-b3e2-4421-b96e-6344e947ae99",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s3",
+      "target_entity": "giocatori",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La mancanza di un centravanti non ha impedito di guadagnare punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Senza centravanti ha giocato alcune partite, ha fatto punti.",
+          "start_sec": 101.56,
+          "end_sec": 135.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "allenatori",
+      "position": "Gli allenatori sono importanti ma i singoli decidono le partite.",
+      "polarity": "neutral",
+      "claim_id": "0294c429-fd2d-409f-b389-a6837d8e4383",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s3",
+      "target_entity": "allenatori",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Gli allenatori sono importanti ma i singoli decidono le partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi diciamo sempre sì gli allenatori, il gioco e tutto, però poi sono i giocatori.",
+          "start_sec": 101.56,
+          "end_sec": 135.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus è rispettata per la sua storia calcistica.",
+      "polarity": "neutral",
+      "claim_id": "d64c82b5-fe7c-46cf-bce3-0a0a44204223",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è rispettata per la sua storia calcistica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la rispetto per la storia",
+          "start_sec": 31.759,
+          "end_sec": 70.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha i giocatori giusti al posto giusto.",
+      "polarity": "positive",
+      "claim_id": "20cf8c98-e04a-4c9c-98c8-162f806134d7",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha i giocatori giusti al posto giusto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'ha i giocatori giusti al posto giusto",
+          "start_sec": 68.96,
+          "end_sec": 103.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Cagar",
+      "position": "L'allenatore del Como ha scelto Cagar come centravanti.",
+      "polarity": "positive",
+      "claim_id": "e6af2c64-6a0f-4f5b-97fd-a67fad049d84",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s2",
+      "target_entity": "Cagar",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore del Como ha scelto Cagar come centravanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'allenatore che fa giocare Cagar centravanti",
+          "start_sec": 68.96,
+          "end_sec": 103.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Baturina",
+      "position": "Baturina ha mostrato miglioramenti nelle ultime partite.",
+      "polarity": "neutral",
+      "claim_id": "7b86330c-0227-437e-a6d7-b881c5b6b92f",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s1",
+      "target_entity": "Baturina",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Baturina ha mostrato miglioramenti nelle ultime partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo visto più Baturina nel nel possono incidere",
+          "start_sec": 31.759,
+          "end_sec": 70.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma ha problemi in attacco.",
+      "polarity": "negative",
+      "claim_id": "5ef7cb2c-ab5f-4a0e-b21b-f6dc5aad596a",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha problemi in attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma non no. Dybala il suo lehe sommai Dobbik Ferguson problemi in avanti",
+          "start_sec": 68.96,
+          "end_sec": 103.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "pass",
+      "position": "Pass potrebbe recuperare in primavera.",
+      "polarity": "positive",
+      "claim_id": "d0f128b4-8ca4-43a1-83df-469fb24be8ae",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s0",
+      "target_entity": "pass",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Pass potrebbe recuperare in primavera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbe in primavera in adesso in questo momento.",
+          "start_sec": 0.16,
+          "end_sec": 34.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma è considerata forte e compatta.",
+      "polarity": "neutral",
+      "claim_id": "c3e19b45-06d2-4ac5-8c39-e0d55dbef84f",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma è considerata forte e compatta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma è forte, è compatta",
+          "start_sec": 31.759,
+          "end_sec": 70.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Alla Juventus manca qualcosa in attacco.",
+      "polarity": "negative",
+      "claim_id": "fbb48764-6575-44c4-9907-5c2149e25ee6",
+      "video_id": "tMhComUYq_k",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alla Juventus manca qualcosa in attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alla Juve gli manca un pochino qualcosa",
+          "start_sec": 68.96,
+          "end_sec": 103.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

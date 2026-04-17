@@ -5,9 +5,9 @@ Dettagli completi in `docs/`.
 
 ## Cos'è il progetto
 
-Strumento per analizzare video YouTube di opinionisti di calcio italiano (principalmente Napoli).
-Scarica transcript via TranscriptAPI, li analizza con GPT-4o-mini estraendo claim strutturati,
-li visualizza in una dashboard Vue.js.
+Strumento per analizzare video YouTube di opinionisti di calcio italiano.
+Scarica transcript via TranscriptAPI, li analizza con GPT-4o-mini estraendo claim strutturati
+e indiscrezioni di calciomercato, li visualizza in una dashboard Vue.js.
 
 ## Stack
 
@@ -16,7 +16,7 @@ li visualizza in una dashboard Vue.js.
 | Pipeline + CLI | Python 3.13, PydanticAI, OpenAI gpt-4o-mini |
 | API server | FastAPI + uvicorn (`server/api.py`) |
 | Frontend | Vue 3 + Vite (`web/`) |
-| Dev runner | `npm run dev` → uvicorn (3001) + Vite (5173) |
+| Dev runner | `npm run dev` → uvicorn (3002) + Vite (5173) |
 
 ## Regole critiche
 
@@ -30,10 +30,15 @@ li visualizza in una dashboard Vue.js.
 # Dev
 npm run dev                          # uvicorn + Vite in parallelo
 
-# Pipeline
+# Pipeline claims
 media-advisor analyze <id> --channel <ch> --force   # test singolo video
-media-advisor run-list --channel azzurro-fluido --force-analyze  # batch canale
+media-advisor run-list --channel <ch> --force-analyze  # batch canale
 media-advisor auto-update            # fetch → merge → pipeline automatico
+
+# Pipeline mercato
+media-advisor mercato-scan --channel fabrizio-romano-italiano
+media-advisor mercato-verify
+media-advisor mercato-rebuild-index
 
 # Installazione dipendenze Python
 python -m pip install -e ".[dev]"
@@ -41,23 +46,26 @@ python -m pip install -e ".[dev]"
 
 ## Canali
 
-| id | Video list | Note |
-|----|------------|------|
-| azzurro-fluido | 148 video | principale, validato |
-| umberto-chiariello | ~50 | "Il punto chiaro" |
-| neschio | ~50 | |
-| open-var | — | non ancora configurato |
+| id | Nome | mercato | Note |
+|----|------|---------|------|
+| fabrizio-romano-italiano | Fabrizio Romano Italiano | ✅ | canale mercato principale |
+| azzurro-fluido | Azzurro Fluido | — | canale claims principale, 148 video |
+| umberto-chiariello | Umberto Chiariello | — | "Il punto chiaro" |
+| neschio | Neschio | — | |
+| tuttomercatoweb | TuttoMercatoWeb.com | ✅ | |
+| calciomercato-it | Calciomercato.it | ✅ | |
+| nico-schira | Nicolò Schira | ✅ | |
 
 ## Cosa NON è ancora Python (rimane TS)
 
-- `src/analyzer/` + `src/cli-channel-analyze.ts` — analisi aggregata canale (da portare)
-- `eval/` — framework valutazione
+- `src/analyzer/` + `src/cli-channel-analyze.ts` — analisi aggregata canale (da portare in Python)
+- `eval/` — framework valutazione (parzialmente obsoleto)
 - `web/` — frontend Vue (rimane sempre Vite/JS)
 
 ## Documentazione dettagliata
 
-- [docs/project-overview.md](docs/project-overview.md) — architettura, struttura directory
-- [docs/project-state.md](docs/project-state.md) — fatto / da fare / decisioni
-- [docs/pipeline-design.md](docs/pipeline-design.md) — come funziona la pipeline, schema claim
-- [docs/tech-stack.md](docs/tech-stack.md) — dipendenze, versioni, problemi noti
-- [docs/commands.md](docs/commands.md) — tutti i comandi
+- [docs/project-overview.md](docs/project-overview.md) — architettura, struttura directory, canali, schema output
+- [docs/commands.md](docs/commands.md) — tutti i comandi CLI + npm
+- [docs/pipeline-design.md](docs/pipeline-design.md) — come funziona la pipeline, schema claim e mercato tip
+- [docs/tech-stack.md](docs/tech-stack.md) — dipendenze, versioni, vincoli ambiente
+- [ROADMAP.md](ROADMAP.md) — stato progetto e gap aperti

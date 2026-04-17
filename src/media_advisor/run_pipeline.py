@@ -5,6 +5,7 @@ Porting of src/run-from-list.ts.
 
 import asyncio
 import re
+from collections.abc import Callable
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -50,6 +51,8 @@ async def run_from_list(
     force_analyze: bool = False,
     model: str = "gpt-4o-mini",
     transcript_only: bool = False,
+    only_video_ids: set[str] | None = None,
+    progress_callback: Callable[[str, str], None] | None = None,
 ) -> RunFromListResult:
     config_raw = read_json(channels_config_path(root))
     config = ChannelsConfig.model_validate(config_raw)
@@ -62,6 +65,7 @@ async def run_from_list(
 
     transcript_client = TranscriptClient(transcript_api_key)
     result = RunFromListResult()
+    _progress = progress_callback or (lambda *_: None)
 
     for channel in channels:
         ch_result = ChannelResult(id=channel.id)
@@ -72,6 +76,8 @@ async def run_from_list(
         for url in urls:
             vid = _extract_video_id(url)
             if not vid:
+                continue
+            if only_video_ids is not None and vid not in only_video_ids:
                 continue
 
             t_path = transcript_path(root, channel.id, vid)
@@ -96,19 +102,23 @@ async def run_from_list(
                 except TranscriptAPIError as e:
                     print(f"  [{channel.id}/{vid}] Transcript failed: {e}")
                     ch_result.failed += 1
+                    _progress(channel.id, vid)
                     continue
                 except Exception as e:
                     print(f"  [{channel.id}/{vid}] Transcript error: {e}")
                     ch_result.failed += 1
+                    _progress(channel.id, vid)
                     continue
 
             # -- Analysis step --
             if transcript_only:
                 ch_result.skipped += 1
+                _progress(channel.id, vid)
                 continue
             if a_path.exists() and not force_analyze:
                 print(f"  [{channel.id}/{vid}] analysis: cached (skip)", flush=True)
                 ch_result.skipped += 1
+                _progress(channel.id, vid)
                 continue
 
             try:
@@ -135,10 +145,12 @@ async def run_from_list(
                 write_json(a_path, analysis.model_dump(mode="json"))
                 ch_result.analyzed += 1
                 print(f"  [{channel.id}/{vid}] analysis: saved -> {a_path}", flush=True)
+                _progress(channel.id, vid)
                 await asyncio.sleep(RATE_LIMIT_SECONDS)
             except Exception as e:
                 print(f"  [{channel.id}/{vid}] Analysis failed: {e}")
                 ch_result.failed += 1
+                _progress(channel.id, vid)
 
         print(
             f"[{channel.id}] transcripts={ch_result.transcripts_fetched} "

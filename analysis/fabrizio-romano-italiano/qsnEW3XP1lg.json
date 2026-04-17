@@ -1,0 +1,358 @@
+{
+  "video_id": "qsnEW3XP1lg",
+  "analyzed_at": "2026-04-17T10:36:10.149084+00:00",
+  "metadata": {
+    "title": "🚨 INTER: AFFARE VICINO! SOGNO TONALI: COLPO E CONCORRENZA. PERISIC, MINGUEZA, LA JUVE, OBRADOR…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-14"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di mercato riguardanti l'Inter e altri club italiani, in particolare il Genoa e il Torino. L'autore esprime un forte ottimismo riguardo alla chiusura dell'affare per il difensore Mlacic da parte dell'Inter, con la possibilità di finalizzare l'operazione entro il weekend. Inoltre, si evidenzia che il Genoa è vicino all'acquisto di Tommaso Baldanzi, mentre il Torino attende l'approvazione finale del Real Madrid per il prestito di Obrador. Queste trattative sono cruciali per il rafforzamento delle rispettive squadre.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "high"
+    },
+    {
+      "name": "incontro",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Tommaso Baldanzi",
+      "position": "Tommaso Baldanzi è molto vicino a diventare un calciatore del Genoa.",
+      "polarity": "positive",
+      "claim_id": "09ea05bd-aee1-4bac-ab32-3ef5decbd39c",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s0",
+      "target_entity": "Tommaso Baldanzi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tommaso Baldanzi è molto vicino a diventare un calciatore del Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "virtualmente, ma è veramente molto molto vicino a diventare un nuovo calciatore",
+          "start_sec": 0.56,
+          "end_sec": 31.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa sta trattando l'acquisto di Tommaso Baldanzi.",
+      "polarity": "positive",
+      "claim_id": "fa8e3dfb-941c-4c6c-9be0-ac7d615087f2",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa sta trattando l'acquisto di Tommaso Baldanzi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parlato di Genoa in questi giorni e anche nelle ultime 24 ore",
+          "start_sec": 0.56,
+          "end_sec": 31.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Benfica",
+      "position": "C'è un accordo con il Benfica per un prestito con diritto di riscatto.",
+      "polarity": "positive",
+      "claim_id": "0aca6550-2ccb-4f2e-b4b8-8b499092aac7",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s2",
+      "target_entity": "Benfica",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un accordo con il Benfica per un prestito con diritto di riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un accordo fatto praticamente con il Benfica per un prestito con diritto di riscatto.",
+          "start_sec": 58.28,
+          "end_sec": 83.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Real Madrid",
+      "position": "Il Real Madrid deve dare l'ultimo ok per l'operazione.",
+      "polarity": "positive",
+      "claim_id": "3c80a39f-44c2-4bd7-8e3b-de2d7c0ee2bf",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s2",
+      "target_entity": "Real Madrid",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid deve dare l'ultimo ok per l'operazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quello che manca è l'ultimo ok da parte del Real Madrid.",
+          "start_sec": 58.28,
+          "end_sec": 83.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Obrador",
+      "position": "Obrador è stato dato in prestito al Benfica.",
+      "polarity": "positive",
+      "claim_id": "8ddc1bac-ab60-421f-959c-a9c5dd02cdf3",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s2",
+      "target_entity": "Obrador",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Obrador è stato dato in prestito al Benfica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha dato Obrador al Benfica in un'operazione parallela.",
+          "start_sec": 58.28,
+          "end_sec": 83.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Real Madrid",
+      "position": "Il Real Madrid potrebbe decidere di riportare indietro giocatori come Nico Paz o Jacobo Ramon.",
+      "polarity": "neutral",
+      "claim_id": "7f476d87-d762-437e-83a8-9166aeda67d2",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s3",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid potrebbe decidere di riportare indietro giocatori come Nico Paz o Jacobo Ramon.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Real può intervenire, come per esempio per Nico Paz o Jacobo Ramon",
+          "start_sec": 82.24,
+          "end_sec": 110.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter è coinvolta nella discussione su Mlacic, un difensore centrale.",
+      "polarity": "neutral",
+      "claim_id": "7bb77f17-4912-42a9-9661-39711c9dec5f",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è coinvolta nella discussione su Mlacic, un difensore centrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Parliamo anche di Inter perché sono state anche queste le ore in cui vi abbiamo aggiornato su Mlacic, questo difensore centrale",
+          "start_sec": 82.24,
+          "end_sec": 110.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'operazione di mercato dell'Inter è vicina alla conclusione.",
+      "polarity": "positive",
+      "claim_id": "e0b4c105-98ab-4f7a-be2b-c9a09e971e3d",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'operazione di mercato dell'Inter è vicina alla conclusione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Adesso Matte, diciamo che dall'ottimismo, dalle trattative, dalla negoziazione raccontata nelle ultime settimane si vede il traguardo.",
+          "start_sec": 109.0,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Le trattative per il giocatore sono considerate decisive nei prossimi giorni.",
+      "polarity": "positive",
+      "claim_id": "25a31bb6-28c2-4ef5-92bd-9f54fa289cb6",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Le trattative per il giocatore sono considerate decisive nei prossimi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ti voglio dire che sono i giorni finali e decisivi per questo tipo di operazione.",
+          "start_sec": 109.0,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alvaro Carreras",
+      "position": "Alvaro Carreras è stato preso dal Real Madrid dal Benfica.",
+      "polarity": "positive",
+      "claim_id": "2fcec5ac-7018-4fb3-aa50-b35acb140883",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s2",
+      "target_entity": "Alvaro Carreras",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alvaro Carreras è stato preso dal Real Madrid dal Benfica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando il Real ha preso Carreras dal Benfica",
+          "start_sec": 58.28,
+          "end_sec": 83.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha un accordo totale con l'Iduk.",
+      "polarity": "positive",
+      "claim_id": "2d6da1f2-2bec-4d83-b0fb-fd9f7abbc820",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha un accordo totale con l'Iduk.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter e l'Iduk hanno un accordo totale, un accordo fatto.",
+          "start_sec": 109.0,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Ci sono state grandi concorrenze per l'affare.",
+      "polarity": "neutral",
+      "claim_id": "a044ec4b-77aa-4877-83ff-19a8107896ea",
+      "video_id": "qsnEW3XP1lg",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono state grandi concorrenze per l'affare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è stata grande concorrenza.",
+          "start_sec": 109.0,
+          "end_sec": 141.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

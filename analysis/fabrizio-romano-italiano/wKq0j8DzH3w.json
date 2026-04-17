@@ -1,0 +1,362 @@
+{
+  "video_id": "wKq0j8DzH3w",
+  "analyzed_at": "2026-04-16T15:48:51.080738+00:00",
+  "metadata": {
+    "title": "🚨💣 CI SIAMO QUASI! NAPOLI: SCELTA FATTA! MATETA E I DOTTORI, DIABY, KOLO MUANI, ICARDI, VECINO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-01"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime ore del mercato calcistico italiano, con un focus particolare sul Napoli e l'acquisto di Alisson Santos. L'autore sottolinea che, nonostante l'interesse per un terzino destro, il club ha deciso di non procedere all'acquisto, poiché l'infortunio di Giovanni Di Lorenzo si è rivelato meno grave del previsto. Inoltre, viene annunciato che Mattia Vecino firmerà con il Celta Vigo, lasciando la Lazio, che non rinnoverà il suo contratto. In conclusione, il Napoli sembra aver fatto scelte strategiche per rinforzare la squadra, mantenendo un occhio a",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "medium"
+    },
+    {
+      "name": "ingaggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il diritto di riscatto per Alisson Santos è di 15 milioni.",
+      "polarity": "positive",
+      "claim_id": "15fc8b79-a243-4bee-b3aa-f4962691ade0",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il diritto di riscatto per Alisson Santos è di 15 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "15 di diritto di riscatto.",
+          "start_sec": 60.44,
+          "end_sec": 84.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mattia Vecino",
+      "position": "Mattia Vecino firmerà un contratto con il Celta Vigo.",
+      "polarity": "neutral",
+      "claim_id": "79412101-8d9a-4951-a388-b49985a7b010",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s1",
+      "target_entity": "Mattia Vecino",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mattia Vecino firmerà un contratto con il Celta Vigo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mattia Svessino è in viaggio per Vigo, dove firmerà un contratto con il Celta Vigo.",
+          "start_sec": 28.64,
+          "end_sec": 62.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "La Lazio non rinnoverà il contratto di Vecino.",
+      "polarity": "neutral",
+      "claim_id": "20cdb9e2-8886-412f-a543-6014cfb829ee",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio non rinnoverà il contratto di Vecino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il contratto di Vessino scadeva a giugno, non sarebbe stato rinnovato.",
+          "start_sec": 28.64,
+          "end_sec": 62.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Celta Vigo",
+      "position": "Il Celta Vigo paga un indennizzo per acquisire Vecino.",
+      "polarity": "neutral",
+      "claim_id": "e6d627bc-76c2-415b-820e-3bca65674ae6",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s1",
+      "target_entity": "Celta Vigo",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Celta Vigo paga un indennizzo per acquisire Vecino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Celta paga una piccola un piccolo indennizzo alla Lazio.",
+          "start_sec": 28.64,
+          "end_sec": 62.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha aperto a un acquisto per un nuovo giocatore.",
+      "polarity": "positive",
+      "claim_id": "2e8c7517-0aa5-4b90-bd9b-493f4e11b968",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha aperto a un acquisto per un nuovo giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'unica squadra per cui c'è stata un'apertura su questa formula è stata del Napoli",
+          "start_sec": 82.479,
+          "end_sec": 107.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Antonio Conte ha ricevuto un nuovo acquisto dal Napoli.",
+      "polarity": "positive",
+      "claim_id": "5ace83c0-955e-4b56-acb5-5281534b2715",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte ha ricevuto un nuovo acquisto dal Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha affruttato questo nuovo acquisto per Antonio Conte",
+          "start_sec": 82.479,
+          "end_sec": 107.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Giovanni Di Lorenzo",
+      "position": "L'infortunio di Giovanni Di Lorenzo non è così grave come si temeva.",
+      "polarity": "positive",
+      "claim_id": "c284505c-4669-4f71-a434-214ca5dcab5a",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s4",
+      "target_entity": "Giovanni Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'infortunio di Giovanni Di Lorenzo non è così grave come si temeva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'infortunio di Lorenzo non è così grave come si temeva appena dopo la partita",
+          "start_sec": 106.159,
+          "end_sec": 135.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli sta valutando la situazione dopo aver parlato con lo staff medico.",
+      "polarity": "positive",
+      "claim_id": "273021db-248b-48a6-8618-b8237dc798fd",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli sta valutando la situazione dopo aver parlato con lo staff medico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli ha deciso in queste ore dopo essersi parlati tutti insieme, insomma, sia il direttore sportivo Manna che Conte, soprattutto lo staff medico.",
+          "start_sec": 106.159,
+          "end_sec": 135.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Alisson Santos",
+      "position": "Alisson Santos ha giocato e ha fatto un assist con lo Sporting.",
+      "polarity": "positive",
+      "claim_id": "54f00495-e407-4133-b956-f075cab44224",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s2",
+      "target_entity": "Alisson Santos",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson Santos ha giocato e ha fatto un assist con lo Sporting.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha giocato, ha fatto assist con lo Sporting.",
+          "start_sec": 60.44,
+          "end_sec": 84.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "La notizia dell'infortunio di Di Lorenzo è una splendida notizia per il Napoli.",
+      "polarity": "positive",
+      "claim_id": "0831ec6e-3dde-4468-ac5e-025e50ccdb21",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La notizia dell'infortunio di Di Lorenzo è una splendida notizia per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una splendida notizia per il Napoli",
+          "start_sec": 106.159,
+          "end_sec": 135.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giovanni Di Lorenzo",
+      "position": "La squadra è contenta per la condizione di Di Lorenzo.",
+      "polarity": "positive",
+      "claim_id": "c0ea7249-db3a-4345-8860-448761ede75d",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s4",
+      "target_entity": "Giovanni Di Lorenzo",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra è contenta per la condizione di Di Lorenzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo contentissimi per Giovanni Di Lorenzo",
+          "start_sec": 106.159,
+          "end_sec": 135.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Mattia Vecino",
+      "position": "Vecino ritroverà compagni di squadra al Celta.",
+      "polarity": "neutral",
+      "claim_id": "86c1de07-3b44-4ab4-a692-af60eacd32a3",
+      "video_id": "wKq0j8DzH3w",
+      "segment_id": "s1",
+      "target_entity": "Mattia Vecino",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vecino ritroverà compagni di squadra al Celta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ritroverà dei compagni con cui ha giocato, per esempio Marcos Alonso.",
+          "start_sec": 28.64,
+          "end_sec": 62.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

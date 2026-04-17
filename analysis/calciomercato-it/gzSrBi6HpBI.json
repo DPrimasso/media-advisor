@@ -1,0 +1,350 @@
+{
+  "video_id": "gzSrBi6HpBI",
+  "analyzed_at": "2026-04-17T11:21:28.599025+00:00",
+  "metadata": null,
+  "summary": "Il video di calciomercato.it analizza la situazione attuale del calcio italiano, evidenziando le recenti dimissioni di Gravina e Buffon, e il futuro incerto di Gennaro Gattuso come commissario tecnico. L'autore, Claudio Goluppi, sottolinea che, sebbene la FGC abbia chiesto a Gattuso di rimanere fino a giugno per guidare la nazionale nelle amichevoli, questa scelta potrebbe non essere la più edificante per il calcio italiano, considerando le sue motivazioni attuali. Si ipotizza la necessità di un nuovo commissario tecnico per avviare un ciclo di rinnovamento, suggerendo che un CT federale tempo",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "dimissioni",
+      "relevance": "high"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Nazionale Italiana",
+      "position": "L'Italia sta cercando di costruire un nuovo ciclo.",
+      "polarity": "neutral",
+      "claim_id": "4f9cebef-d3f0-4fe6-9ea1-e3bf501d8a29",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s0",
+      "target_entity": "Nazionale Italiana",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "L'Italia sta cercando di costruire un nuovo ciclo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rimettersi in sesto e di costruire quello che sarà il prossimo ciclo",
+          "start_sec": 1.319,
+          "end_sec": 61.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gennaro Gattuso",
+      "position": "Le dimissioni di Gattuso non sono ancora arrivate.",
+      "polarity": "neutral",
+      "claim_id": "1cc3b9b9-8f6b-4669-be9c-efdac0f949ef",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s0",
+      "target_entity": "Gennaro Gattuso",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le dimissioni di Gattuso non sono ancora arrivate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sono ancora arrivate le dimissioni di Gennaro Gattuso",
+          "start_sec": 1.319,
+          "end_sec": 61.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gattuso",
+      "position": "La FGC ha chiesto a Gattuso di guidare la squadra fino a giugno.",
+      "polarity": "neutral",
+      "claim_id": "f2f6d8d3-70a2-4b44-b68c-ce70b70f3cb5",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s1",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La FGC ha chiesto a Gattuso di guidare la squadra fino a giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che la FGC mi abbia chiesto a Gattuso di portare avanti il lavoro fino alla fine di fatto della stagione completa.",
+          "start_sec": 59.28,
+          "end_sec": 138.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Italia",
+      "position": "L'Italia parteciperà a delle amichevoli come sparring partner.",
+      "polarity": "positive",
+      "claim_id": "f3ecaf06-8ec5-4e3f-a965-111ba9245e5a",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Italia parteciperà a delle amichevoli come sparring partner.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la squadra eh per le amichevoli ehm che ci saranno di fatto che l'Italia farà come da sparring partner.",
+          "start_sec": 59.28,
+          "end_sec": 138.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "FGC",
+      "position": "La scelta della FGC di mantenere Gattuso è comprensibile.",
+      "polarity": "neutral",
+      "claim_id": "054cc67b-9e56-4236-a6eb-0afb5e9d69da",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s1",
+      "target_entity": "FGC",
+      "entity_type": "club",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La scelta della FGC di mantenere Gattuso è comprensibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una scelta che si può comprendere da un certo punto di vista.",
+          "start_sec": 59.28,
+          "end_sec": 138.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "nazionale italiana",
+      "position": "L'obiettivo principale attuale della nazionale è la qualificazione agli europei.",
+      "polarity": "neutral",
+      "claim_id": "a52e0090-83c4-438c-b3f9-344cf0628be8",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s2",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'obiettivo principale attuale della nazionale è la qualificazione agli europei.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è chiaramente impegnato con l'Under 21 nella ricerca della qualificazione agli europei.",
+          "start_sec": 135.56,
+          "end_sec": 213.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "nazionale italiana",
+      "position": "La nazionale dovrebbe considerare l'inserimento di un CT federale.",
+      "polarity": "neutral",
+      "claim_id": "4b3a2ddf-657e-4db4-9699-8f13237a1b12",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s2",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La nazionale dovrebbe considerare l'inserimento di un CT federale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io valuterei, diciamo, probabilmente l'inserimento di un CT federale.",
+          "start_sec": 135.56,
+          "end_sec": 213.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Claudio Goluppi",
+      "position": "Goluppi è citato per analizzare la situazione attuale.",
+      "polarity": "neutral",
+      "claim_id": "2b4c1aa8-dbc5-43e0-bffd-872e23773d6a",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s0",
+      "target_entity": "Claudio Goluppi",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Goluppi è citato per analizzare la situazione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Claudio Goluppi con noi",
+          "start_sec": 1.319,
+          "end_sec": 61.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giorgio Gravina",
+      "position": "Gravina ha rassegnato le dimissioni, segnando un cambiamento per il calcio italiano.",
+      "polarity": "neutral",
+      "claim_id": "a93bba09-7753-4f14-9e50-ef84a479f95e",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s0",
+      "target_entity": "Giorgio Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha rassegnato le dimissioni, segnando un cambiamento per il calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le dimissioni di Gravina",
+          "start_sec": 1.319,
+          "end_sec": 61.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso non si è dimesso dopo il fallimento del giro di qualificazione.",
+      "polarity": "neutral",
+      "claim_id": "92b29697-822f-4449-b4b2-911f65d5ca0b",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s1",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso non si è dimesso dopo il fallimento del giro di qualificazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potesse fare un passo indietro.",
+          "start_sec": 59.28,
+          "end_sec": 138.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "nazionale italiana",
+      "position": "La nazionale italiana potrebbe aver bisogno di un nuovo CT.",
+      "polarity": "neutral",
+      "claim_id": "e3d6e547-dd61-4c3a-add0-c043dc0bf896",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s2",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La nazionale italiana potrebbe aver bisogno di un nuovo CT.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non credo sia la mossa più corretta da attuare.",
+          "start_sec": 135.56,
+          "end_sec": 213.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Baldini",
+      "position": "Baldini potrebbe ricoprire un ruolo di CT.",
+      "polarity": "neutral",
+      "claim_id": "9711cbc4-37bd-4357-81ab-1f655790b615",
+      "video_id": "gzSrBi6HpBI",
+      "segment_id": "s2",
+      "target_entity": "Baldini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Baldini potrebbe ricoprire un ruolo di CT.",
+      "evidence_quotes": [
+        {
+          "quote_text": "probabilmente è un ruolo che potrebbe ricoprire anche Baldini stesso.",
+          "start_sec": 135.56,
+          "end_sec": 213.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

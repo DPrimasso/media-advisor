@@ -3,25 +3,16 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "transcript": "tsx src/cli-transcript.ts",
-    "analyze": "tsx src/cli-analyze.ts",
-    "run-list": "tsx src/cli-from-list.ts",
-    "fetch-preview": "tsx src/cli-fetch-preview.ts",
-    "server": "python -m uvicorn server.api:app --host 0.0.0.0 --port 3001 --reload --reload-dir server --reload-dir src",
+    "server": "python -m uvicorn server.api:app --host 0.0.0.0 --port 3002 --reload --reload-dir server --reload-dir src",
     "prepare-public": "node web/scripts/prepare-public.js",
-    "dev:kill": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$ports=@(3001,5173,5174); $pids=@(); foreach($p in $ports){ try{ $pids += (Get-NetTCPConnection -LocalPort $p -State Listen -ErrorAction Stop | Select-Object -ExpandProperty OwningProcess) } catch {} }; $pids = $pids | Sort-Object -Unique; foreach($procId in $pids){ try{ Stop-Process -Id $procId -Force -ErrorAction Stop } catch {} }; if($pids.Count -gt 0){ Write-Host ('Killed PIDs: ' + ($pids -join ',')) } else { Write-Host 'No dev ports to kill.' }\"",
+    "dev:kill": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"$ports=@(3001,3002,5173,5174); $pids=@(); foreach($p in $ports){ try{ $pids += (Get-NetTCPConnection -LocalPort $p -ErrorAction Stop | Select-Object -ExpandProperty OwningProcess) } catch {} }; $pids = $pids | Sort-Object -Unique | Where-Object { $_ -gt 0 }; foreach($procId in $pids){ try{ taskkill /F /T /PID $procId 2>$null | Out-Null } catch {} }; if($pids.Count -gt 0){ Start-Sleep -Milliseconds 800; Write-Host ('Killed PIDs: ' + ($pids -join ',')) } else { Write-Host 'No dev ports to kill.' }\"",
     "dev": "npm run dev:kill && concurrently -n s,w \"npm run server\" \"npm run dev:web\"",
-    "dev:web": "npm run dev --prefix web",
-    "build": "tsc"
+    "dev:web": "npm run dev --prefix web"
   },
   "dependencies": {
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
-    "openai": "^4.77.0",
-    "youtube-transcript": "^1.2.1"
+    "dotenv": "^16.4.5"
   },
   "devDependencies": {
-    "@types/express": "^4.17.21",
     "@types/node": "^22.10.0",
     "concurrently": "^9.2.1",
     "tsx": "^4.19.2",

@@ -1,0 +1,366 @@
+{
+  "video_id": "EGHgsFa8_bg",
+  "analyzed_at": "2026-04-16T15:27:15.302770+00:00",
+  "metadata": {
+    "title": "🚨 JUVE: SCELTA PRONTA! GATTI, IL COLPO SENESI, IL RINNOVO DI PULISIC, KOSTIC, CARNESECCHI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-11"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato riguardanti la Juventus, con particolare attenzione ai calciatori Federico Gatti e Kostic. L'autore sottolinea che la Juventus non intende rinnovare il contratto di Kostic, il quale potrebbe lasciare il club a breve, mentre la situazione di Gatti è più complessa, essendo stato recentemente rinnovato fino al 2030, ma con possibilità di trasferimento. Inoltre, si discute del futuro di Pulisic al Milan e del rendimento di Marco Carnesecchi, considerato uno dei migliori portieri, la cui situazione contrattuale è particolare. I",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "contratti",
+      "relevance": "low"
+    },
+    {
+      "name": "scadenza",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "Kostic ha un contratto in scadenza nel 2026.",
+      "polarity": "neutral",
+      "claim_id": "8eb2b7a1-1014-4f84-aac8-5bf39f2d1084",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s2",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kostic ha un contratto in scadenza nel 2026.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kostic, 33 anni, ehm, ha un contratto in scadenza nel 2026.",
+          "start_sec": 69.6,
+          "end_sec": 110.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Pulisic",
+      "position": "Pulisic è al centro dell'attenzione riguardo al suo futuro al Milan.",
+      "polarity": "neutral",
+      "claim_id": "7d86c4e1-2169-4e39-9db4-e5f73f2508c4",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s1",
+      "target_entity": "Pulisic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pulisic è al centro dell'attenzione riguardo al suo futuro al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "del centrocampista americano, del suo futuro al Milan",
+          "start_sec": 31.279,
+          "end_sec": 72.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Carnesecchi",
+      "position": "Carnesecchi è considerato uno dei migliori portieri in circolazione.",
+      "polarity": "positive",
+      "claim_id": "1c7f2106-f896-411e-be5f-ff1c8c83ba13",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s1",
+      "target_entity": "Carnesecchi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Carnesecchi è considerato uno dei migliori portieri in circolazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Carnesecchi, che è uno dei migliori portieri in circolazione, non solo in Italia",
+          "start_sec": 31.279,
+          "end_sec": 72.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Federico Gatti",
+      "position": "La Juventus potrebbe lasciare Federico Gatti nel mercato estivo.",
+      "polarity": "neutral",
+      "claim_id": "4e51dfd8-3e93-49a5-a2cd-7c00a391beca",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s2",
+      "target_entity": "Federico Gatti",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus potrebbe lasciare Federico Gatti nel mercato estivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbero lasciare la Juventus nel corso del mercato estivo.",
+          "start_sec": 69.6,
+          "end_sec": 110.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kostic",
+      "position": "Le possibilità di vedere Kostic in bianconero sono molto basse.",
+      "polarity": "negative",
+      "claim_id": "2269a108-193d-47d9-95a7-788d38e202ae",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s3",
+      "target_entity": "Kostic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Le possibilità di vedere Kostic in bianconero sono molto basse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le possibilità di vedere di vedere Kostic eh in bianconero anche nel corso delle prossime stagioni sono molto basse.",
+          "start_sec": 108.399,
+          "end_sec": 144.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Costić",
+      "position": "Costić ha avuto poche opportunità di gioco sotto Spalletti.",
+      "polarity": "neutral",
+      "claim_id": "39e72c1e-8381-42c1-acc4-2ef405c7fad1",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s4",
+      "target_entity": "Costić",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Costić ha avuto poche opportunità di gioco sotto Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quest'anno Costic è stato impiegato poco da Spalletti.",
+          "start_sec": 142.64,
+          "end_sec": 173.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Costić",
+      "position": "Costić ha avuto esperienza con diversi prestiti prima della Juventus.",
+      "polarity": "negative",
+      "claim_id": "486b89aa-b632-4d80-a464-17931305c8b2",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s4",
+      "target_entity": "Costić",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Costić ha avuto esperienza con diversi prestiti prima della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'esperienza intervallata anche da diversi prestiti.",
+          "start_sec": 142.64,
+          "end_sec": 173.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta è molto contenta del rendimento di Carnesecchi.",
+      "polarity": "positive",
+      "claim_id": "d01b5837-40c7-438e-838e-8706e00e35ad",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta è molto contenta del rendimento di Carnesecchi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta è molto contenta con il suo rendimento",
+          "start_sec": 31.279,
+          "end_sec": 72.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus non intende rinnovare il contratto di Kostic.",
+      "polarity": "neutral",
+      "claim_id": "7ba40b0e-acb0-4bf3-b489-282a06420806",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus non intende rinnovare il contratto di Kostic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'idea della Juventus è quella di non proporre un",
+          "start_sec": 69.6,
+          "end_sec": 110.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Costić",
+      "position": "Costić potrebbe diventare uno svincolato nei prossimi mesi.",
+      "polarity": "neutral",
+      "claim_id": "8959cfec-e4cd-4436-b375-32679d50e3ce",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s4",
+      "target_entity": "Costić",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Costić potrebbe diventare uno svincolato nei prossimi mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qualche mese potrebbe diventare uno svincolato.",
+          "start_sec": 142.64,
+          "end_sec": 173.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Costić",
+      "position": "Costić ha reso bene in quelle poche occasioni in cui è stato utilizzato.",
+      "polarity": "positive",
+      "claim_id": "cae2a7f8-ccf6-49ca-bdf8-30b185b1c02e",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s4",
+      "target_entity": "Costić",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Costić ha reso bene in quelle poche occasioni in cui è stato utilizzato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha sempre reso e ha sempre dimostrato tutta la propria professionalità.",
+          "start_sec": 142.64,
+          "end_sec": 173.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Carnesecchi",
+      "position": "Carnesecchi ha una situazione contrattuale molto particolare.",
+      "polarity": "neutral",
+      "claim_id": "cfdf88a9-386e-4944-b752-ab11853768be",
+      "video_id": "EGHgsFa8_bg",
+      "segment_id": "s1",
+      "target_entity": "Carnesecchi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Carnesecchi ha una situazione contrattuale molto particolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha una situazione contrattuale molto particolare",
+          "start_sec": 31.279,
+          "end_sec": 72.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

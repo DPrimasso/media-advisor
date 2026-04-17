@@ -211,6 +211,26 @@ function formatDate(iso) {
   return new Date(iso).toLocaleDateString('it-IT', { day: '2-digit', month: 'short', year: 'numeric' })
 }
 
+function pad2(n) {
+  return String(n).padStart(2, '0')
+}
+
+function formatTime(seconds) {
+  if (seconds == null || Number.isNaN(seconds)) return null
+  const s = Math.max(0, Math.floor(Number(seconds)))
+  const h = Math.floor(s / 3600)
+  const m = Math.floor((s % 3600) / 60)
+  const ss = s % 60
+  return h > 0 ? `${h}:${pad2(m)}:${pad2(ss)}` : `${m}:${pad2(ss)}`
+}
+
+function tipVideoUrl(tip) {
+  if (!tip?.video_id) return null
+  const t = tip?.quote_start_sec != null ? Math.max(0, Math.floor(Number(tip.quote_start_sec))) : null
+  const base = `https://www.youtube.com/watch?v=${encodeURIComponent(tip.video_id)}`
+  return t != null ? `${base}&t=${t}s` : base
+}
+
 // Editing della data di una tip senza data
 const dateEditingTip = ref(null)
 const dateEditValue = ref('')
@@ -416,6 +436,11 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchS
         </div>
 
         <p class="tip-text">{{ tip.tip_text }}</p>
+        <div v-if="tipVideoUrl(tip)" class="tip-source-row">
+          <a class="tip-video-link" :href="tipVideoUrl(tip)" target="_blank" rel="noopener noreferrer">
+            Apri video<span v-if="formatTime(tip.quote_start_sec)"> @ {{ formatTime(tip.quote_start_sec) }}</span>
+          </a>
+        </div>
 
         <!-- Sezione fonti correlate -->
         <div v-if="tip.same_channel_consistent?.length || tip.same_channel_inconsistent?.length || tip.other_channel_confirming?.length || tip.other_channel_contradicting?.length" class="related-section">
@@ -660,6 +685,13 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchS
   font-size: .9rem;
   color: var(--color-text, var(--text-secondary));
 }
+.tip-source-row { margin: 0 0 .5rem; }
+.tip-video-link {
+  font-size: .78rem;
+  color: var(--color-accent, #0066cc);
+  text-decoration: underline;
+}
+.tip-video-link:hover { color: #0052a3; }
 .tip-quote {
   margin: 0 0 .6rem; padding: .3rem .6rem;
   border-left: 3px solid var(--color-border, #ddd);

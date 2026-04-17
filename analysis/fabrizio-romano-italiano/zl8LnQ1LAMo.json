@@ -1,0 +1,354 @@
+{
+  "video_id": "zl8LnQ1LAMo",
+  "analyzed_at": "2026-04-17T10:09:20.731068+00:00",
+  "metadata": {
+    "title": "🚨 SCAMBIO CHIUSO! MALDINI PER DUE. MILAN, IL RIFINANZIAMENTO E IL FUTURO DI CAMARDA. MANDAS…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-19"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti di mercato del Milan, con particolare attenzione alla situazione di Francesco Camarda, che ha subito un grave infortunio alla spalla e dovrà operarsi. L'autore sottolinea che il Milan sta cercando di gestire la riabilitazione di Camarda, mentre si avvicina un periodo cruciale per il mercato, con diverse operazioni in corso, tra cui il trasferimento di Fabian alla Fiorentina. Romano evidenzia anche il rifinanziamento della società, con Redbird che prenderà il controllo del Milan, suggerendo che ci sono molte trattative in corso e che ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Francesco Camarda",
+      "position": "Francesco Camarda è il primo tema di discussione nel video.",
+      "polarity": "neutral",
+      "claim_id": "5ca5e2c8-afc9-4b0b-92e7-4860d11dd8fb",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s0",
+      "target_entity": "Francesco Camarda",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Francesco Camarda è il primo tema di discussione nel video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a partire da Francesco Camarda perché daremo un punto di vista chiaro e netto sulla",
+          "start_sec": 0.199,
+          "end_sec": 34.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il mercato è attivo per il Milan con diversi trasferimenti in corso.",
+      "polarity": "neutral",
+      "claim_id": "6e1903eb-cb93-4b02-9984-60803c4ca742",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato è attivo per il Milan con diversi trasferimenti in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "numerosi trasferimenti, numerose operazioni che si possono concludere",
+          "start_sec": 0.199,
+          "end_sec": 34.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "C'è una forte discussione sul futuro di Camarda nel Milan.",
+      "polarity": "neutral",
+      "claim_id": "9c8411ac-b67b-4584-85b0-0f9da2b6929d",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è una forte discussione sul futuro di Camarda nel Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta ehm parlando molto, si sta discutendo molto su quello che sarà il futuro di Francesco Camarda.",
+          "start_sec": 32.559,
+          "end_sec": 80.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Camarda",
+      "position": "L'infortunio di Camarda è più grave del previsto.",
+      "polarity": "negative",
+      "claim_id": "f6f2ba42-9821-4946-8e6c-99ba666cfefd",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s2",
+      "target_entity": "Camarda",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'infortunio di Camarda è più grave del previsto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'infortunio era molto più grave di quello che si pensava.",
+          "start_sec": 77.2,
+          "end_sec": 115.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Camarda",
+      "position": "Non è stata ancora presa una decisione sul futuro di Camarda.",
+      "polarity": "neutral",
+      "claim_id": "5def51f3-f681-40ba-bb54-aae681dde751",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s2",
+      "target_entity": "Camarda",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Non è stata ancora presa una decisione sul futuro di Camarda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è ancora stata presa una decisione sul tipo di futuro di Camarda.",
+          "start_sec": 77.2,
+          "end_sec": 115.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il mercato del Milan si avvicina alla fase calda.",
+      "polarity": "positive",
+      "claim_id": "933494ed-adbe-40ae-8f47-f9b73494e580",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il mercato del Milan si avvicina alla fase calda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci avviciniamo alla fase caldissima del mercato",
+          "start_sec": 0.199,
+          "end_sec": 34.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Ci sono operazioni di rifinanziamento in corso per il Milan.",
+      "polarity": "neutral",
+      "claim_id": "db7a8ff5-ed1b-4be4-b80d-fea253d04318",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono operazioni di rifinanziamento in corso per il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parleremo di rifinanziamento in casa Milan.",
+          "start_sec": 32.559,
+          "end_sec": 80.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Milan",
+      "position": "Il Milan si occupa della riabilitazione di Camarda.",
+      "polarity": "positive",
+      "claim_id": "f89d0f39-ab04-4616-a0a5-981a29ad4669",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan si occupa della riabilitazione di Camarda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan vorrebbe prendersi carico di tutto questo",
+          "start_sec": 113.079,
+          "end_sec": 150.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Camarda",
+      "position": "Camarda sta affrontando un infortunio.",
+      "polarity": "positive",
+      "claim_id": "4def11e6-7d2c-4e66-8f1c-c7aeaeebb7d0",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s3",
+      "target_entity": "Camarda",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Camarda sta affrontando un infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutta la parte legata all'infortunio e alla riabilitazione di Camarda",
+          "start_sec": 113.079,
+          "end_sec": 150.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Camarda",
+      "position": "Camarda ha subito un infortunio alla spalla.",
+      "polarity": "neutral",
+      "claim_id": "50fc4e3a-3e08-4f8e-a3c1-9243fda77c7e",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s1",
+      "target_entity": "Camarda",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Camarda ha subito un infortunio alla spalla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "infortunio alla spalla",
+          "start_sec": 32.559,
+          "end_sec": 80.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Camarda",
+      "position": "Camarda resterà fermo per molto tempo.",
+      "polarity": "negative",
+      "claim_id": "9330d358-1521-4e45-b1e0-77d660417e99",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s2",
+      "target_entity": "Camarda",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Camarda resterà fermo per molto tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Camarda resterà fermo per molto più tempo.",
+          "start_sec": 77.2,
+          "end_sec": 115.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lecce",
+      "position": "Il Milan chiede buon senso al Lecce per gestire l'infortunio di Camarda.",
+      "polarity": "neutral",
+      "claim_id": "d9257c94-8b2f-41df-bee7-bc7757fe3a52",
+      "video_id": "zl8LnQ1LAMo",
+      "segment_id": "s3",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan chiede buon senso al Lecce per gestire l'infortunio di Camarda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta chiedendo a Lecce buon senso per cercare di gestire in prima persona tutta la parte legata all'infortunio",
+          "start_sec": 113.079,
+          "end_sec": 150.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

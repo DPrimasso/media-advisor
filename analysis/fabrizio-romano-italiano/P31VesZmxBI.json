@@ -1,0 +1,350 @@
+{
+  "video_id": "P31VesZmxBI",
+  "analyzed_at": "2026-04-17T10:18:45.347025+00:00",
+  "metadata": {
+    "title": "🚨 FRATTESI-MALDINI-MATETA: GLI INCASTRI! OFFERTA FORTINI, NDOYE E GLI SCAMBI, ROMAGNOLI E L’ADDIO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-17"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle dinamiche del calciomercato, in particolare sull'interesse della Juventus per Jean-Philip Matetà. L'autore sottolinea che ci sono segnali positivi da parte del giocatore, ma la situazione è complicata dalla richiesta economica del Crystal Palace e dalla concorrenza di altri club inglesi. Romano conclude che la Juventus continuerà a monitorare la situazione nei prossimi giorni, con l'obiettivo di trovare un accordo vantaggioso per entrambe le parti.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "novità",
+      "relevance": "high"
+    },
+    {
+      "name": "investimento",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "scambio",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Matetà",
+      "position": "Jean-Philip Matetà è un tema centrale di discussione sul mercato.",
+      "polarity": "neutral",
+      "claim_id": "3db6dae4-b67b-45f1-a091-74e45c66cc88",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s0",
+      "target_entity": "Matetà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jean-Philip Matetà è un tema centrale di discussione sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la notizia che vi abbiamo dato nella serata di ieri su Jean-Philip Matetà",
+          "start_sec": 0.719,
+          "end_sec": 30.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "C'è un feeling positivo tra Juventus e Mateta.",
+      "polarity": "positive",
+      "claim_id": "94eb93bb-d863-4a22-8805-003511e84431",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "C'è un feeling positivo tra Juventus e Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vi confermo le sensazioni molto positive lato giocatore di ieri sera.",
+          "start_sec": 57.92,
+          "end_sec": 84.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatori",
+      "position": "Un club di media classifica in Inghilterra può offrire ingaggi elevati ai giocatori.",
+      "polarity": "neutral",
+      "claim_id": "b9eb8191-632e-4a47-8d78-333f852821b5",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s3",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Un club di media classifica in Inghilterra può offrire ingaggi elevati ai giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Inghilterra un club anche di media classifica possa arrivare e mettere sul piatto cifre molto importanti",
+          "start_sec": 82.96,
+          "end_sec": 110.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatore",
+      "position": "L'effetto della concorrenza inglese ha influenzato il giocatore.",
+      "polarity": "positive",
+      "claim_id": "af281031-f41d-49fd-98b3-f1432c86a888",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s3",
+      "target_entity": "giocatore",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'effetto della concorrenza inglese ha influenzato il giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'effetto sul giocatore è stato un effetto importante",
+          "start_sec": 82.96,
+          "end_sec": 110.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Il Crystal Palace rappresenta un ostacolo per la trattativa di Mateta.",
+      "polarity": "neutral",
+      "claim_id": "af3e8e16-bb37-4b68-b709-5037e922410c",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Crystal Palace rappresenta un ostacolo per la trattativa di Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Crystal Palace resta il grande scoglio di questa vicenda sulla formula, sui costi e sulla scelta di vendere Matetà",
+          "start_sec": 108.32,
+          "end_sec": 134.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "Mateta potrebbe essere venduto dal Crystal Palace dopo la perdita del capitano Mark Ghi.",
+      "polarity": "neutral",
+      "claim_id": "32fa74ba-028e-49c6-a79e-2f091f86863d",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s4",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mateta potrebbe essere venduto dal Crystal Palace dopo la perdita del capitano Mark Ghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sulla scelta di vendere Matetà dopo aver perso il capitano Mark Ghi",
+          "start_sec": 108.32,
+          "end_sec": 134.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Maldini",
+      "position": "Daniel Maldini è stato proposto per primo nel contesto di questa trattativa.",
+      "polarity": "neutral",
+      "claim_id": "b813e53f-d28f-44c8-aa1b-83f12b4e350e",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s4",
+      "target_entity": "Maldini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Maldini è stato proposto per primo nel contesto di questa trattativa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Daniel Maldini è un nome che vi abbiamo fatto per primi qui",
+          "start_sec": 108.32,
+          "end_sec": 134.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "Non c'è mai risultato un accordo tra Atalanta e Lazio.",
+      "polarity": "neutral",
+      "claim_id": "5cb8cd80-7ff1-4a7f-8880-a7c3eb6df560",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s6",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non c'è mai risultato un accordo tra Atalanta e Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non c'è mai risultato un accordo tra i due club, Atalanta e Lazio.",
+          "start_sec": 156.48,
+          "end_sec": 182.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è citata per gli aggiornamenti sul calciomercato.",
+      "polarity": "neutral",
+      "claim_id": "8b12aeb4-1a83-465f-a249-8ae92b51993c",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è citata per gli aggiornamenti sul calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus",
+          "start_sec": 0.719,
+          "end_sec": 30.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mark Ghi",
+      "position": "Mark Ghi lascerà il Crystal Palace per trasferirsi al City.",
+      "polarity": "neutral",
+      "claim_id": "b4daaa8d-f6dc-4e7a-a765-bc3e57a076c4",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s4",
+      "target_entity": "Mark Ghi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mark Ghi lascerà il Crystal Palace per trasferirsi al City.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che andrà al City",
+          "start_sec": 108.32,
+          "end_sec": 134.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è consapevole della concorrenza inglese.",
+      "polarity": "neutral",
+      "claim_id": "6b443474-c63a-45a3-be58-62e348ed1129",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è consapevole della concorrenza inglese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve è assolutamente al corrente della concorrenza inglese",
+          "start_sec": 82.96,
+          "end_sec": 110.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Topalace",
+      "position": "Topalace rappresenta una preoccupazione per la Juventus.",
+      "polarity": "negative",
+      "claim_id": "5ac7f8f6-4287-4788-881c-6306d6f698b1",
+      "video_id": "P31VesZmxBI",
+      "segment_id": "s3",
+      "target_entity": "Topalace",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Topalace rappresenta una preoccupazione per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Topalace che è quello che spaventa un po' di più",
+          "start_sec": 82.96,
+          "end_sec": 110.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

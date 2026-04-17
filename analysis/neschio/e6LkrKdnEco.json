@@ -1,0 +1,354 @@
+{
+  "video_id": "e6LkrKdnEco",
+  "analyzed_at": "2026-04-17T11:08:09.385796+00:00",
+  "metadata": null,
+  "summary": "Il video di Neschio analizza le recenti prestazioni della nazionale italiana di calcio, sottolineando le difficoltà e le emozioni suscitate dalla vittoria contro l'Irlanda del Nord. L'autore esprime la sua preoccupazione per la mancanza di garanzie e la necessità di un trascinatore, identificando in Tonali la figura chiave per guidare la squadra verso il successo. Neschio conclude evidenziando l'importanza di rimanere uniti e di sostenere la nazionale, poiché il cammino verso il mondiale è impervio e richiede un cambiamento significativo rispetto al passato.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "medium"
+    },
+    {
+      "name": "emozione",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Tonali",
+      "position": "Dopo 60 minuti, ha mostrato poca influenza nel gioco.",
+      "polarity": "neutral",
+      "claim_id": "1a24c04c-ee5e-4a66-9614-e77778bcf8a3",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s2",
+      "target_entity": "Tonali",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dopo 60 minuti, ha mostrato poca influenza nel gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo 60 minuti o quasi di poco, eh, di poco nulla.",
+          "start_sec": 101.36,
+          "end_sec": 139.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale",
+      "position": "Le ultime uscite della nazionale sono state difficili e dolorose.",
+      "polarity": "neutral",
+      "claim_id": "f1c6da7f-a579-4f0c-ac57-cb4b120db07a",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s0",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le ultime uscite della nazionale sono state difficili e dolorose.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Le ultime uscite della nostra nazionale sono state così scottanti, così cocenti, così anche dolorose.",
+          "start_sec": 5.359,
+          "end_sec": 52.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale",
+      "position": "La vittoria contro l'Irlanda del Nord provoca emozioni forti.",
+      "polarity": "positive",
+      "claim_id": "fdd972da-eff1-4792-85b2-2f049daf31e4",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s0",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria contro l'Irlanda del Nord provoca emozioni forti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa vittoria comunque mi mi no, mi comporta un'emozione.",
+          "start_sec": 5.359,
+          "end_sec": 52.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "nazionale",
+      "position": "La nazionale deve giocare una finale per qualificarsi.",
+      "polarity": "positive",
+      "claim_id": "c61107b6-57d2-47c9-b171-30857022e11b",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s0",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale deve giocare una finale per qualificarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dovrai andarti a giocare una finale per andare, mi sembra.",
+          "start_sec": 5.359,
+          "end_sec": 52.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "nazionale",
+      "position": "Il commentatore ha interagito con i tifosi su TikTok.",
+      "polarity": "neutral",
+      "claim_id": "e51b1d23-06f0-43c4-a895-fa59f00c4425",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s4",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il commentatore ha interagito con i tifosi su TikTok.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho fatto una live prima su TikTok e qualcuno scriveva \"Forza Orlando\".",
+          "start_sec": 179.0,
+          "end_sec": 216.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia ha mostrato una prestazione deludente nel primo tempo.",
+      "polarity": "negative",
+      "claim_id": "c3c51b85-2c26-4734-8131-7ec919405344",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s5",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha mostrato una prestazione deludente nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi primo tempo veramente mi sembrava un film visto e rivisto, eh, squadra lenta con questo giro palla",
+          "start_sec": 214.4,
+          "end_sec": 256.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale",
+      "position": "La nazionale è lontana dai suoi vecchi fasti.",
+      "polarity": "negative",
+      "claim_id": "0348dd38-4dd4-435c-8b10-6085deb7339c",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s4",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale è lontana dai suoi vecchi fasti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una nazionale che è lontana da dai vecchi fasti",
+          "start_sec": 179.0,
+          "end_sec": 216.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "nazionale",
+      "position": "La squadra ha bisogno del supporto dei tifosi.",
+      "polarity": "positive",
+      "claim_id": "42c85980-8989-4e1f-a42a-36823f763b6e",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s4",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La squadra ha bisogno del supporto dei tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha bisogno anche un po' un po' di noi",
+          "start_sec": 179.0,
+          "end_sec": 216.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale",
+      "position": "La gara di stasera funge da controprova per le difficoltà della nazionale.",
+      "polarity": "negative",
+      "claim_id": "d0d72f22-7bae-4700-a023-b00f6d144a83",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s4",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La gara di stasera funge da controprova per le difficoltà della nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la gara di stasera nè la controprova",
+          "start_sec": 179.0,
+          "end_sec": 216.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "squadra",
+      "position": "La squadra ha bisogno di un trascinatore.",
+      "polarity": "neutral",
+      "claim_id": "b4b7e0b5-d321-4e75-b122-b0662c3993a0",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha bisogno di un trascinatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa squadra aveva ha e avrà bisogno di un trascinatore",
+          "start_sec": 50.079,
+          "end_sec": 103.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gennaro Gattuso",
+      "position": "Gattuso sente molto la pressione.",
+      "polarity": "neutral",
+      "claim_id": "722e5dcb-3aaa-4405-bde3-57bfa1a850ef",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s3",
+      "target_entity": "Gennaro Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso sente molto la pressione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui più di tutti e molto molto teso, sente sente la giust sente la la pressione",
+          "start_sec": 139.72,
+          "end_sec": 181.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gennaro Gattuso",
+      "position": "Gattuso si trova nella sua città natale.",
+      "polarity": "neutral",
+      "claim_id": "b15111eb-51bf-4d78-8a8a-565e6bbb8923",
+      "video_id": "e6LkrKdnEco",
+      "segment_id": "s3",
+      "target_entity": "Gennaro Gattuso",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso si trova nella sua città natale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono proprio nel paese città natale del caro Gennaro Gattuso, no? Corigliano Rossano.",
+          "start_sec": 139.72,
+          "end_sec": 181.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

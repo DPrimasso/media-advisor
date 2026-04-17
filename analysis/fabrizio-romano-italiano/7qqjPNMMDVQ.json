@@ -1,0 +1,346 @@
+{
+  "video_id": "7qqjPNMMDVQ",
+  "analyzed_at": "2026-04-17T07:21:00.740935+00:00",
+  "metadata": {
+    "title": "🚨 PERISIC, AKE, KOLO E LA JUVE, NOVITÀ NAPOLI, LUIS HENRIQUE, COPPOLA, NORTON CUFFY: LE ULTIME",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-28"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti del mercato calcistico, con particolare attenzione ai terzini, in un mercoledì cruciale per la Champions League. L'autore sottolinea che il mercato si sta muovendo e che nomi come Norton Caffy e Holm sono al centro delle valutazioni delle squadre, in particolare di Juventus e Napoli. Si ipotizza che la Juventus possa considerare Caffy, mentre il Napoli sta esplorando la possibilità di acquisire Holm, suggerendo che il mercato dei terzini potrebbe subire sviluppi significativi nelle prossime ore.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "high"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Norton Caffy",
+      "position": "Norton Caffy potrebbe essere al centro delle attenzioni.",
+      "polarity": "positive",
+      "claim_id": "dbba681b-b6a4-44ba-9e49-b1dcc7e5cc21",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s1",
+      "target_entity": "Norton Caffy",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Norton Caffy potrebbe essere al centro delle attenzioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "attenzione al discorso terzini dalle prossime ore in avanti",
+          "start_sec": 34.48,
+          "end_sec": 61.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa è a conoscenza di diverse richieste per Norton Caffi.",
+      "polarity": "neutral",
+      "claim_id": "b26ccda7-5890-4cf1-9802-43d3806400a4",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s2",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa è a conoscenza di diverse richieste per Norton Caffi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Genoa ha saputo che da parte degli agenti del giocatore c'è stato movimento in questi giorni con diverse richieste",
+          "start_sec": 59.0,
+          "end_sec": 87.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter non ha fatto sondaggi concreti per Norton Caffi fino ad oggi.",
+      "polarity": "negative",
+      "claim_id": "f3c4a7e6-b99e-482d-b38f-0d6715fe5318",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non ha fatto sondaggi concreti per Norton Caffi fino ad oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non risultano sondaggi concreti da parte dell'Inter, almeno fino ad oggi",
+          "start_sec": 59.0,
+          "end_sec": 87.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta considerando di acquistare Norton Caffy.",
+      "polarity": "neutral",
+      "claim_id": "c43d01ca-cf7f-4212-9316-d46ca5bf51d8",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus sta considerando di acquistare Norton Caffy.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedremo se la Juventus sceglierà di procedere in questo senso",
+          "start_sec": 85.2,
+          "end_sec": 119.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mercato",
+      "position": "Il mercato calcistico si muove e offre nuovi spunti.",
+      "polarity": "neutral",
+      "claim_id": "429b16a2-3abe-411d-8454-4cb6e493db04",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s0",
+      "target_entity": "Mercato",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato calcistico si muove e offre nuovi spunti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un mercato che si muove, che ci dà tanti spunti.",
+          "start_sec": 0.0,
+          "end_sec": 36.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Norton Caffy",
+      "position": "Norton Caffy è stato acquistato dal Genoa dall'Arsenal.",
+      "polarity": "positive",
+      "claim_id": "15e4c775-ae97-4755-a7b9-a6822aac0966",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s3",
+      "target_entity": "Norton Caffy",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Norton Caffy è stato acquistato dal Genoa dall'Arsenal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Genoa l'ha preso dall'Arsenal",
+          "start_sec": 85.2,
+          "end_sec": 119.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Fabrizio Romano",
+      "position": "Fabrizio Romano fornisce aggiornamenti sul mercato calcistico.",
+      "polarity": "neutral",
+      "claim_id": "9580de64-b2a4-4568-8530-a7d8bf1813d1",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s0",
+      "target_entity": "Fabrizio Romano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrizio Romano fornisce aggiornamenti sul mercato calcistico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci tengo a darvi aggiornamenti, informazioni e news sul mercato.",
+          "start_sec": 0.0,
+          "end_sec": 36.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Holm",
+      "position": "Holm è un obiettivo del Napoli.",
+      "polarity": "positive",
+      "claim_id": "c44df83a-194a-4a0d-89e2-d0780830f8cc",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s3",
+      "target_entity": "Holm",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Holm è un obiettivo del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il nome di Holm è un nome che dobbiamo tenere in considerazione",
+          "start_sec": 85.2,
+          "end_sec": 119.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli sta cercando un terzino destro.",
+      "polarity": "neutral",
+      "claim_id": "e2417cb4-1c61-4a13-be97-3507a290e198",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli sta cercando un terzino destro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli sta cercando un terzino a destra",
+          "start_sec": 85.2,
+          "end_sec": 119.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Norton Caffi",
+      "position": "Norton Caffi è un nome interessante per il finale di mercato.",
+      "polarity": "neutral",
+      "claim_id": "b0a9ba29-f6d8-461b-b647-a59d90b473e9",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s2",
+      "target_entity": "Norton Caffi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Norton Caffi è un nome interessante per il finale di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo manteniamo come uno dei nomi interessanti per questo finale di mercato",
+          "start_sec": 59.0,
+          "end_sec": 87.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Norton Caffy",
+      "position": "Sarà importante monitorare l'andamento dei terzini.",
+      "polarity": "neutral",
+      "claim_id": "2af45b19-8275-416e-b022-b7a118a2edd7",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s1",
+      "target_entity": "Norton Caffy",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sarà importante monitorare l'andamento dei terzini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sui terzini dovremmo fare attenzione non oggi, ma dalla giornata di domani in avanti",
+          "start_sec": 34.48,
+          "end_sec": 61.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "team",
+      "position": "Si prevede un focus particolare sui terzini.",
+      "polarity": "neutral",
+      "claim_id": "dbf621da-b43d-4ee5-85d8-b973c07427e0",
+      "video_id": "7qqjPNMMDVQ",
+      "segment_id": "s1",
+      "target_entity": "team",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si prevede un focus particolare sui terzini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sui terzini dovremmo fare attenzione non oggi, ma dalla giornata di domani in avanti",
+          "start_sec": 34.48,
+          "end_sec": 61.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

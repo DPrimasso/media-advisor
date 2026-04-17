@@ -1,0 +1,362 @@
+{
+  "video_id": "gFsodLhvEn8",
+  "analyzed_at": "2026-04-16T14:45:30.744234+00:00",
+  "metadata": null,
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti del calciomercato, in particolare sul rinnovo del contratto di Manuel Locatelli con la Juventus. L'autore sottolinea che la Juventus è in fase finale di accordo con Locatelli e che entrambi sono pronti a continuare la loro collaborazione, nonostante le voci su un possibile trasferimento al Tottenham. Inoltre, si menzionano altri rinnovi in corso, come quelli di Giorgio Chiellini e Franuiso de St, evidenziando un piano strategico della Juventus per mantenere i suoi giocatori chiave. In conclusione, il video suggerisce che la Juventus ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "futuro",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "opportunità",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "rinnovi",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta trattando il rinnovo del contratto con Manuel Locatelli.",
+      "polarity": "positive",
+      "claim_id": "d87fb91e-c131-4940-8f10-adb08605000e",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta trattando il rinnovo del contratto con Manuel Locatelli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus ha praticamente raggiunto una base di accordo con Manuel Locatelli sul nuovo contratto",
+          "start_sec": 34.879,
+          "end_sec": 64.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Manuel Locatelli",
+      "position": "Manuel Locatelli e la Juventus sono pronti a continuare la loro collaborazione.",
+      "polarity": "positive",
+      "claim_id": "61c80cd4-e65c-4b5e-aa62-1710cd3af794",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s1",
+      "target_entity": "Manuel Locatelli",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Manuel Locatelli e la Juventus sono pronti a continuare la loro collaborazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus e Locatelli pronti ad andare avanti insieme",
+          "start_sec": 34.879,
+          "end_sec": 64.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Jorge Chiellini",
+      "position": "Il piano rinnovi della Juventus include anche Giorgio Chiellini.",
+      "polarity": "positive",
+      "claim_id": "7f423679-4e85-4025-ba89-6f50b66b5385",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s1",
+      "target_entity": "Jorge Chiellini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il piano rinnovi della Juventus include anche Giorgio Chiellini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il piano rinnovi della Juventus di Damianco Mollì, di Giorgio Chiellini",
+          "start_sec": 34.879,
+          "end_sec": 64.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus è in fase finale per il rinnovo di Locatelli.",
+      "polarity": "positive",
+      "claim_id": "8dc7b42c-ccab-4214-b11e-35771578301d",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è in fase finale per il rinnovo di Locatelli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus e Locatelli sono alle fasi finali dell'accordo per il rinnovo.",
+          "start_sec": 62.64,
+          "end_sec": 90.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Locatelli",
+      "position": "Locatelli sta per rinnovare il contratto con la Juventus.",
+      "polarity": "positive",
+      "claim_id": "4be4696d-22b7-4990-9b2a-d6c6c7e5cf32",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s2",
+      "target_entity": "Locatelli",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Locatelli sta per rinnovare il contratto con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'accordo è impostato tra la Juve e Locatelli per continuare insieme.",
+          "start_sec": 62.64,
+          "end_sec": 90.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus darà presto dettagli sul contratto di Locatelli.",
+      "polarity": "positive",
+      "claim_id": "ddafdfdc-9f0a-4498-94e3-446a97ad5419",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus darà presto dettagli sul contratto di Locatelli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo in questi giorni, sicuramente prima di fine stagione, vi darò i dettagli di questo nuovo contratto.",
+          "start_sec": 62.64,
+          "end_sec": 90.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Weston McKennie",
+      "position": "Weston McKennie ha recentemente rinnovato il suo contratto con la Juventus.",
+      "polarity": "positive",
+      "claim_id": "7688a39b-508d-46c9-b1f9-47f8da360c42",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s3",
+      "target_entity": "Weston McKennie",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Weston McKennie ha recentemente rinnovato il suo contratto con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prima ancora a livello di giocatori abbiamo visto Weston Mcenny.",
+          "start_sec": 88.119,
+          "end_sec": 113.07900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Zegrova",
+      "position": "Zegrova vuole lottare per un posto nella Juventus.",
+      "polarity": "positive",
+      "claim_id": "52dd460a-4395-47fe-8ba2-d912759918bc",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s4",
+      "target_entity": "Zegrova",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zegrova vuole lottare per un posto nella Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Zegrova vuole lottare per giocarsi un posto nella Juventus anche nel prossimo anno del futuro.",
+          "start_sec": 111.399,
+          "end_sec": 139.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tottenham",
+      "position": "Si è parlato del Tottenham come potenziale destino di Locatelli.",
+      "polarity": "negative",
+      "claim_id": "19904e77-10fe-4a91-bb96-4d440135feb6",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s2",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si è parlato del Tottenham come potenziale destino di Locatelli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si era detto del Tottenham.",
+          "start_sec": 62.64,
+          "end_sec": 90.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus si sta muovendo sui rinnovi dei contratti.",
+      "polarity": "positive",
+      "claim_id": "a18ac9fa-c40f-4cee-825d-1ee0a4ede31e",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus si sta muovendo sui rinnovi dei contratti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una Juve che sui rinnovi si sta muovendo molto.",
+          "start_sec": 88.119,
+          "end_sec": 113.07900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Luciano Spalletti ha rinnovato il suo contratto recentemente.",
+      "polarity": "positive",
+      "claim_id": "454444d5-5b68-4358-8aea-098663a514f1",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s3",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Luciano Spalletti ha rinnovato il suo contratto recentemente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pochi giorni fa ha rinnovato Luciano Spalletti.",
+          "start_sec": 88.119,
+          "end_sec": 113.07900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Zegrova",
+      "position": "Zegrova potrebbe lasciare la Juventus in estate.",
+      "polarity": "neutral",
+      "claim_id": "449fb2e4-07a7-4963-bf1b-1eb449ca2ff2",
+      "video_id": "gFsodLhvEn8",
+      "segment_id": "s4",
+      "target_entity": "Zegrova",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Zegrova potrebbe lasciare la Juventus in estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non posso escludere che Zegrova possa andar via dalla Juventus.",
+          "start_sec": 111.399,
+          "end_sec": 139.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

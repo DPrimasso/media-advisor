@@ -1,0 +1,366 @@
+{
+  "video_id": "z1hp23pXklM",
+  "analyzed_at": "2026-04-16T15:42:17.442327+00:00",
+  "metadata": {
+    "title": "🚨 NKUNKU, VLAHOVIC, MATETA, IL COLPO FUTURO, LEÃO E IL RINNOVO, FULLKRUG, KOSTIC…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-03"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti vicende legate all'attacco del Milan, con particolare attenzione all'attaccante Mateta, il quale è stato al centro di numerose trattative. L'autore sottolinea come il Milan abbia mostrato un interesse costante per Mateta, superando la concorrenza della Juventus, ma la trattativa si è complicata a causa di un problema di salute del giocatore. Romano conclude evidenziando che, nonostante il mercato sia chiuso, il Milan continua a monitorare la situazione e a pianificare per il futuro, suggerendo che il club rossonero potrebbe avere ulteriori",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "calciatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "attacco",
+      "relevance": "medium"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "medium"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "squadradr",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Il Milan sta attraversando un periodo di silenzio comunicativo sul mercato.",
+      "polarity": "neutral",
+      "claim_id": "6f94aa61-78d9-41e0-9828-08a69296f7ea",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta attraversando un periodo di silenzio comunicativo sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è mercato, siamo fuori dalla finestra di calciomercato",
+          "start_sec": 0.04,
+          "end_sec": 34.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "Mateta è stato l'attaccante più discusso nell'ultima settimana e mezza.",
+      "polarity": "neutral",
+      "claim_id": "56a98413-16e3-423e-980a-2a2f8b4186e9",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s1",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mateta è stato l'attaccante più discusso nell'ultima settimana e mezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mateta perché è stato il nome dell'inverno, forse l'attaccante più discusso nella ultime una settimana e mezza, due.",
+          "start_sec": 31.8,
+          "end_sec": 78.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "Mateta è stato accostato alla Juventus e al Milan.",
+      "polarity": "neutral",
+      "claim_id": "0577ea78-9862-47fc-8e00-0e4a83bb251e",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s2",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mateta è stato accostato alla Juventus e al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mateta prima è stata accostata alla Juventus, perché prima la Juventus effettivamente lo ha trattato e lo ha cercato eh in prestito con diritto di riscatto e poi sornione è arrivato il Milan.",
+          "start_sec": 76.92,
+          "end_sec": 111.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha seguito Mateta per un periodo più lungo rispetto alla Juventus.",
+      "polarity": "neutral",
+      "claim_id": "fff1bb71-fec1-44ec-bc48-610f98a7c92a",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha seguito Mateta per un periodo più lungo rispetto alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Milan che lo stava seguendo, lo stava trattando in realtà da più tempo.",
+          "start_sec": 76.92,
+          "end_sec": 111.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha trattato Mateta in prestito con diritto di riscatto.",
+      "polarity": "neutral",
+      "claim_id": "cb64e154-58dc-4ad6-8904-fa3e3dd3cd5b",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha trattato Mateta in prestito con diritto di riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché prima la Juventus effettivamente lo ha trattato e lo ha cercato eh in prestito con diritto di riscatto.",
+          "start_sec": 76.92,
+          "end_sec": 111.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan trova un accordo con l'agente del calciatore per il trasferimento.",
+      "polarity": "positive",
+      "claim_id": "8c5841e1-129a-47cf-ac83-2abfa042eef7",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan trova un accordo con l'agente del calciatore per il trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan subito trova l'accordo con il con l'agente del calciatore per quanto riguarda stipendio, circa 3 e meo più commissioni.",
+          "start_sec": 142.64,
+          "end_sec": 180.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Cristal Palace",
+      "position": "Il Milan chiude anche l'accordo con il Crystal Palace.",
+      "polarity": "positive",
+      "claim_id": "cafbb1b6-ea8b-4dca-90cd-34d9b4548ced",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s4",
+      "target_entity": "Cristal Palace",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan chiude anche l'accordo con il Crystal Palace.",
+      "evidence_quotes": [
+        {
+          "quote_text": "trova l'accordo anche con il Crystal Palace perché il giocatore spingeva per un trasferimento già a gennaio.",
+          "start_sec": 142.64,
+          "end_sec": 180.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Fabrizio Romano",
+      "position": "Fabrizio Romano continua a pubblicare video sul Milan nonostante la chiusura del mercato.",
+      "polarity": "neutral",
+      "claim_id": "24307113-a8c6-447f-93d4-186f062f6982",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s0",
+      "target_entity": "Fabrizio Romano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrizio Romano continua a pubblicare video sul Milan nonostante la chiusura del mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i nostri video non finiscono lì, anzi continuano",
+          "start_sec": 0.04,
+          "end_sec": 34.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "attacco del Milan",
+      "position": "C'è un focus attuale sulle vicende riguardanti l'attacco del Milan.",
+      "polarity": "neutral",
+      "claim_id": "1dc65736-41d3-4feb-baa0-2d9195f75cac",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s0",
+      "target_entity": "attacco del Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è un focus attuale sulle vicende riguardanti l'attacco del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "voglio farvi il punto sull'attacco del Milan",
+          "start_sec": 0.04,
+          "end_sec": 34.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatore",
+      "position": "Il giocatore voleva trasferirsi subito e non a giugno.",
+      "polarity": "positive",
+      "claim_id": "8be9607a-a90f-4f13-865c-3b6fd0efc3e8",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s4",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore voleva trasferirsi subito e non a giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il giocatore voleva cambiare aria subito.",
+          "start_sec": 142.64,
+          "end_sec": 180.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "C'è interesse crescente attorno a Mateta.",
+      "polarity": "neutral",
+      "claim_id": "f33233bf-fab5-49c3-b320-e66bf527c2b2",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s1",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è interesse crescente attorno a Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mateta perché è stato il nome dell'inverno, forse l'attaccante più discusso nella ultime una settimana e mezza, due.",
+          "start_sec": 31.8,
+          "end_sec": 78.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "Mateta è un attaccante interessante per il mercato.",
+      "polarity": "neutral",
+      "claim_id": "2f62cad0-2b4d-49c5-9853-6c6daab68d54",
+      "video_id": "z1hp23pXklM",
+      "segment_id": "s2",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mateta è un attaccante interessante per il mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ehm, è un attaccante che è sempre.",
+          "start_sec": 76.92,
+          "end_sec": 111.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

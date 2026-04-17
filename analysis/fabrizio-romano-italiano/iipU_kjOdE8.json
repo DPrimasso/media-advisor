@@ -1,0 +1,362 @@
+{
+  "video_id": "iipU_kjOdE8",
+  "analyzed_at": "2026-04-16T15:18:41.571776+00:00",
+  "metadata": {
+    "title": "🚨 PROPOSTA DE ZERBI, IL MILAN FA CASSA! VICARIO: SÌ ALL’INTER! HOJLUND, SCELTA FATTA. E KALULU…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-18"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti operazioni di calciomercato del Milan e della Juventus. L'autore sottolinea che il Milan ha incassato 8 milioni di euro dalla cessione di Tommaso Pobega al Bologna, contribuendo a un totale di circa 15-20 milioni da altre operazioni, come quella di Alex Jimenez. Romano evidenzia come queste entrate possano influenzare le future strategie di mercato del Milan, nonostante attualmente il club sembri silenzioso. Inoltre, menziona le ottime prestazioni di Pierre Cullu con la Juventus, che lo considera un elemento chiave per il presente e il fut",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "silenzio",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "opportunità",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Milan",
+      "position": "Il Milan guadagna 8 milioni di euro dalla cessione di Pobega.",
+      "polarity": "positive",
+      "claim_id": "8970354f-dd68-4fde-a08a-9461a49ed5bf",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan guadagna 8 milioni di euro dalla cessione di Pobega.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Bologna riscatta intanto Tommaso Pobega dal Milan lo fa in maniera automatica versando al Milan un totale da 8 milioni di euro",
+          "start_sec": 32.68,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Real Madrid",
+      "position": "Il 50% della cifra va al Real Madrid.",
+      "polarity": "positive",
+      "claim_id": "0844272a-6c18-437d-ac1a-50a35749440a",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s2",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il 50% della cifra va al Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il resto andrà a Real Madrid.",
+          "start_sec": 64.799,
+          "end_sec": 94.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pierre Cullu",
+      "position": "Pierre Cullu è uno dei giocatori più affidabili del campionato.",
+      "polarity": "positive",
+      "claim_id": "1913a154-b78e-43ef-a354-fdf1c11e1383",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s4",
+      "target_entity": "Pierre Cullu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pierre Cullu è uno dei giocatori più affidabili del campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Certamente uno dei giocatori più affidabili del nostro campionato, sempre in campo con la Juventus.",
+          "start_sec": 119.039,
+          "end_sec": 146.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus è molto contenta delle prestazioni di Pierre Cullu.",
+      "polarity": "positive",
+      "claim_id": "15cb29ab-2956-40f5-83b6-3ba7467970d8",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è molto contenta delle prestazioni di Pierre Cullu.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve è molto contenta di quello che è stato fatto con Culu.",
+          "start_sec": 119.039,
+          "end_sec": 146.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kalulu",
+      "position": "Kalulu è considerato un giocatore centrale dalla Juventus.",
+      "polarity": "positive",
+      "claim_id": "03aaa6e4-bf41-421e-94fc-ffa219b32ba5",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s5",
+      "target_entity": "Kalulu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kalulu è considerato un giocatore centrale dalla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus considera, da quanto mi risulta Kalulu, un giocatore assolutamente centrale nel proprio progetto.",
+          "start_sec": 143.64,
+          "end_sec": 169.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta monitorando i difensori di talento come Kalulu.",
+      "polarity": "positive",
+      "claim_id": "9612ad8a-4ad6-4d6a-85db-b53cd4e813f0",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta monitorando i difensori di talento come Kalulu.",
+      "evidence_quotes": [
+        {
+          "quote_text": "seguire un difensore di talento come Kalulu è normale, come accade con tutti i difensori di talento.",
+          "start_sec": 143.64,
+          "end_sec": 169.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Juventus",
+      "position": "La Juventus considera Calulu un perno del proprio progetto.",
+      "polarity": "positive",
+      "claim_id": "c4c6242b-bbcb-4641-b180-ac070588be9f",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s6",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus considera Calulu un perno del proprio progetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve considera Calulu un perno del proprio progetto.",
+          "start_sec": 166.879,
+          "end_sec": 196.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pierre Cullu",
+      "position": "Pierre Cullu è descritto come un'operazione perfetta per la Juventus.",
+      "polarity": "positive",
+      "claim_id": "463dbdd4-b31f-4ffb-be74-0f7acc46a2ff",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s4",
+      "target_entity": "Pierre Cullu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pierre Cullu è descritto come un'operazione perfetta per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rappresenta il tipo di operazione perfetta.",
+          "start_sec": 119.039,
+          "end_sec": 146.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Rasmus Hojlund",
+      "position": "Si continua a parlare di Rasmus Hojlund in Premier League.",
+      "polarity": "neutral",
+      "claim_id": "225886cb-1b5b-44fc-bce4-a928709e0ea4",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s7",
+      "target_entity": "Rasmus Hojlund",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si continua a parlare di Rasmus Hojlund in Premier League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si continua a parlare di lui in Inghilterra",
+          "start_sec": 195.68,
+          "end_sec": 223.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Bologna",
+      "position": "Il Bologna riscatta Tommaso Pobega dal Milan.",
+      "polarity": "positive",
+      "claim_id": "d00bb127-0896-41a9-9a2c-8a66cf07e960",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna riscatta Tommaso Pobega dal Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Bologna riscatta intanto Tommaso Pobega dal Milan lo fa in maniera automatica",
+          "start_sec": 32.68,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Pierre Cullu",
+      "position": "Pierre Cullu rappresenta il futuro della Juventus.",
+      "polarity": "positive",
+      "claim_id": "a1db388c-5cda-46d0-973c-53749fc40b0a",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s4",
+      "target_entity": "Pierre Cullu",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pierre Cullu rappresenta il futuro della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un giocatore che per la Juve rappresenta presente ma anche futuro.",
+          "start_sec": 119.039,
+          "end_sec": 146.07999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Il Milan è silenzioso nel mercato attuale.",
+      "polarity": "negative",
+      "claim_id": "d0c11e80-df71-41d1-becd-05b58974925e",
+      "video_id": "iipU_kjOdE8",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è silenzioso nel mercato attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche quando è chiuso e sta in silenzio",
+          "start_sec": 32.68,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "video_id": "GDi1b2OKqHs",
+  "analyzed_at": "2026-04-17T10:16:11.957280+00:00",
+  "metadata": {
+    "title": "🚨 DUE COLPI SALTANO! JUVE: L’OFFERTA MATETA E L’INFERNO PALACE. STERLING, MAINOO, MLACIC, EN NESYRI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-18"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime notizie di calciomercato, in particolare sul trasferimento di Edoardo Bove dalla Roma al Watford. L'autore esprime entusiasmo per questa operazione, sottolineando che Bove, dopo aver affrontato momenti difficili, rappresenta un esempio positivo del calcio italiano. Tuttavia, il video menziona anche la situazione complicata riguardante Kobby Maino, il cui trasferimento al Napoli è saltato a causa di vari fattori, tra cui il blocco del mercato e il cambio di allenatore al Manchester United.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestito",
+      "relevance": "low"
+    },
+    {
+      "name": "notizie",
+      "relevance": "low"
+    },
+    {
+      "name": "opportunità",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Edoardo Bove",
+      "position": "Edoardo Bove ha un contratto con il Watford fino alla fine della stagione.",
+      "polarity": "positive",
+      "claim_id": "dae45902-ab0f-4fcc-bbfa-f7fdb5fb158d",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s1",
+      "target_entity": "Edoardo Bove",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Edoardo Bove ha un contratto con il Watford fino alla fine della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "accordo fatto contratto fino alla fine di questa stagione per Edoardo Bove",
+          "start_sec": 29.72,
+          "end_sec": 58.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Edoardo Bove",
+      "position": "Edoardo Bove non potrà giocare in Italia a causa di regolamento.",
+      "polarity": "positive",
+      "claim_id": "94bfdc9e-1aad-4c37-941a-7bba5a5bc6fa",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s1",
+      "target_entity": "Edoardo Bove",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Edoardo Bove non potrà giocare in Italia a causa di regolamento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per termini di regolamento non potrà giocare in Italia",
+          "start_sec": 29.72,
+          "end_sec": 58.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Edo Bove",
+      "position": "Edo Bove ha vissuto una grande paura ma torna in campo.",
+      "polarity": "positive",
+      "claim_id": "794b55ae-5321-447d-bb9f-cca20224a6f2",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s2",
+      "target_entity": "Edo Bove",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Edo Bove ha vissuto una grande paura ma torna in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dopo la grande paura che abbiamo vissuto tutti con Edoardo Bove, vederlo tornare in campo sarà davvero un'emozione forte.",
+          "start_sec": 56.879,
+          "end_sec": 88.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Watford",
+      "position": "Il Watford ha prenotato il viaggio per Edo Bove.",
+      "polarity": "positive",
+      "claim_id": "60f0a3da-13a8-4170-a397-f2e94593462d",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s2",
+      "target_entity": "Watford",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Watford ha prenotato il viaggio per Edo Bove.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Watford che ha prenotato già il viaggio per Edo Bove.",
+          "start_sec": 56.879,
+          "end_sec": 88.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Edo Bove",
+      "position": "Il ritorno di Edo Bove in campo è visto come un'emozione forte.",
+      "polarity": "positive",
+      "claim_id": "38f28af9-0ea4-4264-ba2d-a7ccacaefdde",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s2",
+      "target_entity": "Edo Bove",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il ritorno di Edo Bove in campo è visto come un'emozione forte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vederlo tornare in campo sarà davvero un'emozione forte.",
+          "start_sec": 56.879,
+          "end_sec": 88.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Edoardo Bove",
+      "position": "Edoardo Bove è un nuovo giocatore del Watford.",
+      "polarity": "positive",
+      "claim_id": "bc63428a-5992-47a9-b3c8-a64f77e143fc",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s3",
+      "target_entity": "Edoardo Bove",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Edoardo Bove è un nuovo giocatore del Watford.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bellissima e quindi un grande in bocca al lupo Edoardo Bove, nuovo giocatore del Watford già dalla prossima settimana.",
+          "start_sec": 86.52,
+          "end_sec": 116.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Koby Maino",
+      "position": "Koby Maino è stato considerato dal Napoli per un prestito.",
+      "polarity": "neutral",
+      "claim_id": "7a3ab8e9-0f26-45cd-a21c-0469e706edee",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s4",
+      "target_entity": "Koby Maino",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Koby Maino è stato considerato dal Napoli per un prestito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ha premuto tanto per prendere Koby Maino.",
+          "start_sec": 115.32,
+          "end_sec": 141.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Edoardo Bove",
+      "position": "Edoardo Bove lascia la Roma e si appresta a firmare per una nuova squadra.",
+      "polarity": "neutral",
+      "claim_id": "d29ebbe3-e9e4-4d83-ae2d-1bd7eceeac48",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s0",
+      "target_entity": "Edoardo Bove",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Edoardo Bove lascia la Roma e si appresta a firmare per una nuova squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Edoardo Bove che lascia la Roma risolve",
+          "start_sec": 0.44,
+          "end_sec": 30.919999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Watford",
+      "position": "Il Watford ha firmato un accordo con Edoardo Bove.",
+      "polarity": "positive",
+      "claim_id": "5b6d5867-25d8-4313-bf79-1fb7a24d589b",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s1",
+      "target_entity": "Watford",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Watford ha firmato un accordo con Edoardo Bove.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È tutto fatto tra Bove e Watford.",
+          "start_sec": 29.72,
+          "end_sec": 58.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Manchester United",
+      "position": "Il prestito di Koby Maino dipende dal Manchester United.",
+      "polarity": "neutral",
+      "claim_id": "bc187794-a94a-43ab-a778-db23c709e9e3",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s4",
+      "target_entity": "Manchester United",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il prestito di Koby Maino dipende dal Manchester United.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è sempre dipesa dal Manchester United.",
+          "start_sec": 115.32,
+          "end_sec": 141.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kobby Maino",
+      "position": "Notizie negative riguardano Kobby Maino.",
+      "polarity": "negative",
+      "claim_id": "eeac21c3-b314-425e-8037-47899137121a",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s3",
+      "target_entity": "Kobby Maino",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Notizie negative riguardano Kobby Maino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dall'Inghilterra invece non arrivano buone notizie per quanto riguarda un discorso che vi ho sempre raccontato",
+          "start_sec": 86.52,
+          "end_sec": 116.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Edo Bove",
+      "position": "Edo Bove rappresenta il bello del nostro calcio.",
+      "polarity": "positive",
+      "claim_id": "c212a075-3967-4cbc-83cf-43bd362af98e",
+      "video_id": "GDi1b2OKqHs",
+      "segment_id": "s2",
+      "target_entity": "Edo Bove",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Edo Bove rappresenta il bello del nostro calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per un ragazzo che rappresenta sicuramente eh davvero il bello del nostro calcio.",
+          "start_sec": 56.879,
+          "end_sec": 88.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

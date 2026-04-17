@@ -1,0 +1,354 @@
+{
+  "video_id": "I4u9CoABvf4",
+  "analyzed_at": "2026-04-16T16:16:59.634708+00:00",
+  "metadata": {
+    "title": "🚨💣 DOPPIO ASSALTO MILAN! MATETA, LOOKMAN, CISSÈ, FRATTESI, GORETZKA, SULEMANA, DURAN, STERLING…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-30"
+  },
+  "summary": "Il video di Fabrizio Romano analizza l'attività di mercato del Milan, focalizzandosi su potenziali acquisti come Jean-Filip Matetà e Sissé. L'autore sottolinea che il Milan sta lavorando per bloccare Matetà per giugno, nonostante la concorrenza del Nottingham Forest che ha offerto oltre 35 milioni di euro. La posizione principale di Romano è che il giocatore preferirebbe trasferirsi in Italia, evidenziando l'interesse costante del Milan nei suoi confronti. Inoltre, si accenna a un possibile inserimento del Milan nell'operazione per Sissé, rendendo chiaro che il club è attivamente impegnato a r",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestito",
+      "relevance": "high"
+    },
+    {
+      "name": "guerra",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Nottingham",
+      "position": "Il Nottingham ha offerto più di 35 milioni di euro per Mateta.",
+      "polarity": "positive",
+      "claim_id": "9e31cd39-9aaa-4820-9f66-5b2620d75bd1",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s2",
+      "target_entity": "Nottingham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Nottingham ha offerto più di 35 milioni di euro per Mateta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Nottingham ha offerto comunque più di 35 milioni di euro.",
+          "start_sec": 57.399,
+          "end_sec": 98.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatore",
+      "position": "Il giocatore spera che l'interesse del Milan si concretizzi entro l'estate.",
+      "polarity": "neutral",
+      "claim_id": "190b8d7b-d085-415c-96cd-a2b422d957fd",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s3",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il giocatore spera che l'interesse del Milan si concretizzi entro l'estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sperando da parte del ragazzo che possa tentare di concretizzarsi da qui all'estate.",
+          "start_sec": 97.04,
+          "end_sec": 124.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatore",
+      "position": "Il giocatore sta aspettando sviluppi sulla sua possibile trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "27296c53-a97a-495a-b0e6-d18224346e1e",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s3",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore sta aspettando sviluppi sulla sua possibile trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il ragazzo ha un po' aspettato questo interesse del Milan.",
+          "start_sec": 97.04,
+          "end_sec": 124.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta tentando di fare affari sul mercato.",
+      "polarity": "neutral",
+      "claim_id": "0366547f-68ef-48cd-b764-b1f3597609c4",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s5",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan sta tentando di fare affari sul mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ti dico che il Milan c'è, non è ancora vicino al traguardo, ma ci sta provando.",
+          "start_sec": 155.12,
+          "end_sec": 186.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inkunku",
+      "position": "Il futuro di Christopher Inkunku dipende dalle decisioni attuali.",
+      "polarity": "positive",
+      "claim_id": "23559566-b460-4808-bffe-074ff9c85405",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s5",
+      "target_entity": "Inkunku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Christopher Inkunku dipende dalle decisioni attuali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In questo momento, ragazzi, come da inizio mercato, il futuro di Inkunku passa dalle decisioni del.",
+          "start_sec": 155.12,
+          "end_sec": 186.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Christopher Nkunku",
+      "position": "Non ci sono novità imminenti riguardo a Christopher Nkunku.",
+      "polarity": "neutral",
+      "claim_id": "7a4b1a4b-6290-45ab-a8fd-985e7e8d1b5f",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s6",
+      "target_entity": "Christopher Nkunku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono novità imminenti riguardo a Christopher Nkunku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non ci risulta nulla di imminente in questo senso per quanto riguarda il francese.",
+          "start_sec": 184.84,
+          "end_sec": 211.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan sta lavorando a un'operazione per Jean-Filip Matetà.",
+      "polarity": "positive",
+      "claim_id": "43682534-6987-4f14-80a4-c9473aece652",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sta lavorando a un'operazione per Jean-Filip Matetà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan sempre nell'orbita Matetà",
+          "start_sec": 29.32,
+          "end_sec": 60.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "Mateta è al Palace fino a fine stagione.",
+      "polarity": "neutral",
+      "claim_id": "540692e9-27ef-4626-850e-18793ba6a8b2",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s2",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mateta è al Palace fino a fine stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Matetà al Palace fino a fine stagione",
+          "start_sec": 57.399,
+          "end_sec": 98.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan è in trattativa per un giocatore che preferirebbe giocare in Italia.",
+      "polarity": "positive",
+      "claim_id": "020e1499-36d0-40e4-b887-311d8f1e50db",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan è in trattativa per un giocatore che preferirebbe giocare in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giocatore ... preferirebbe l'Italia.",
+          "start_sec": 97.04,
+          "end_sec": 124.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha mostrato un interesse costante per il giocatore.",
+      "polarity": "neutral",
+      "claim_id": "5a964aff-cbde-4519-b666-1f3e6c1c5b27",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha mostrato un interesse costante per il giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è sempre stato interesse del Milan.",
+          "start_sec": 97.04,
+          "end_sec": 124.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe bloccare Matetà per giugno.",
+      "polarity": "positive",
+      "claim_id": "2e6c4ce0-1c77-4c60-9344-da7e9a658e80",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan potrebbe bloccare Matetà per giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan vorrebbe provare a bloccare, a trovare degli accordi ora per giugno.",
+          "start_sec": 29.32,
+          "end_sec": 60.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Mateta",
+      "position": "Mateta ha voglia di giocare in Italia.",
+      "polarity": "positive",
+      "claim_id": "370ab951-9fdb-4ce0-9ffb-7d6962f5b79b",
+      "video_id": "I4u9CoABvf4",
+      "segment_id": "s2",
+      "target_entity": "Mateta",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Mateta ha voglia di giocare in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giocatore a grande voglia di Italia.",
+          "start_sec": 57.399,
+          "end_sec": 98.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

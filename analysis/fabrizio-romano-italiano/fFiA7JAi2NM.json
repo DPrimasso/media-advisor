@@ -1,0 +1,366 @@
+{
+  "video_id": "fFiA7JAi2NM",
+  "analyzed_at": "2026-04-17T09:55:58.490717+00:00",
+  "metadata": {
+    "title": "🚨 INSERIMENTO MATETA, PERISIC, EDERSON, LANG, NORTON CUFFY, FERGUSON: LE RISPOSTE!",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-20"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato riguardanti diversi calciatori, in particolare Noalang, Ederson e Lorenzo Lucca. L'autore sottolinea che il Napoli sta cercando di fissare il diritto di riscatto per Noalang a 30 milioni, mentre il Galatasaray offre 26-27 milioni, senza evidenze di ripensamenti sull'operazione. Inoltre, Romano informa che l'Atalanta non ha ricevuto offerte ufficiali per Ederson, considerato uno dei migliori centrocampisti in Europa, e menziona che la Fiorentina è in trattativa per un difensore centrale del Braga.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestito",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanze",
+      "relevance": "low"
+    },
+    {
+      "name": "decisione",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "strategia",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli vuole fissare il diritto di riscatto per Noalang a 30 milioni.",
+      "polarity": "positive",
+      "claim_id": "e3e96899-f0f5-43ec-93b9-31066d29df72",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli vuole fissare il diritto di riscatto per Noalang a 30 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli vuole tenere più vicina possibile 30 milioni",
+          "start_sec": 8.24,
+          "end_sec": 97.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Il Galatasaray offre 26-27 milioni per il riscatto di Noalang.",
+      "polarity": "positive",
+      "claim_id": "d8fbe4a5-f728-4a4b-b445-27f5815caae0",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s0",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray offre 26-27 milioni per il riscatto di Noalang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Galatasaray vuole portare intorno ai 26-27",
+          "start_sec": 8.24,
+          "end_sec": 97.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson è considerato uno dei più forti centrocampisti in Europa.",
+      "polarity": "positive",
+      "claim_id": "fd1d34c1-9c5e-4779-86e1-42c9d6294177",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s1",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson è considerato uno dei più forti centrocampisti in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ederson è uno dei centrocampisti eh anche secondo me è uno dei più forti in Europa in quel ruolo.",
+          "start_sec": 95.36,
+          "end_sec": 187.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina sta trattando un difensore centrale del Braga.",
+      "polarity": "neutral",
+      "claim_id": "bc980972-d4c9-487a-b016-39549f5e5f12",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina sta trattando un difensore centrale del Braga.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Fiorentina sta trattando un difensore centrale del Braga.",
+          "start_sec": 95.36,
+          "end_sec": 187.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Lucca",
+      "position": "Lorenzo Lucca deve decidere se accettare l'offerta del Forest.",
+      "polarity": "neutral",
+      "claim_id": "741f7a3f-f600-4ec3-9b95-f05dc06638d8",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s1",
+      "target_entity": "Lorenzo Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Lorenzo Lucca deve decidere se accettare l'offerta del Forest.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la scelta che dovrà prendere Lorenzo Lucca se accettare il Forest o meno.",
+          "start_sec": 95.36,
+          "end_sec": 187.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Siku Niate",
+      "position": "La Fiorentina sta lavorando per il trasferimento di Siku Niate.",
+      "polarity": "neutral",
+      "claim_id": "dfddc2a2-e563-463e-8d9e-b164bfa44003",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s2",
+      "target_entity": "Siku Niate",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina sta lavorando per il trasferimento di Siku Niate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Braga vorrebbe definitivo, ma la Fiorentina sta lavorando a questa possibilità.",
+          "start_sec": 184.64,
+          "end_sec": 259.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Lucca",
+      "position": "La mancanza di risposta di Lucca indica che ci sta pensando attentamente.",
+      "polarity": "neutral",
+      "claim_id": "28c8770c-86c2-4ddc-8376-e11fbe6fd3b5",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La mancanza di risposta di Lucca indica che ci sta pensando attentamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se passa un giorno, 2 giorni, tre giorni significa che non forse non vedi l'ora di salire sull'aereo, no, però stai prendendo il tuo tempo per decidere.",
+          "start_sec": 184.64,
+          "end_sec": 259.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "L'Atalanta non ha ricevuto offerte ufficiali per Ederson.",
+      "polarity": "neutral",
+      "claim_id": "e0620dcb-3d55-4a32-b731-0762d7055566",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s1",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta non ha ricevuto offerte ufficiali per Ederson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta ha ricevuto zero offerte per Ederson.",
+          "start_sec": 95.36,
+          "end_sec": 187.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Lucca",
+      "position": "Lorenzo Lucca non ha ancora risposto al trasferimento proposto.",
+      "polarity": "neutral",
+      "claim_id": "a2de6d22-8133-4535-a0cb-45a3d9a70bca",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo Lucca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lorenzo Lucca non ha ancora risposto al trasferimento proposto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A oggi non ha ancora risposto.",
+          "start_sec": 184.64,
+          "end_sec": 259.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Matetà ha un accordo aperto con la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "4543cd3b-5d77-4cb5-aaa2-55342485a92c",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Matetà ha un accordo aperto con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Matetà ha una base d'accordo con la Juve",
+          "start_sec": 257.84,
+          "end_sec": 306.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Noalang",
+      "position": "Non ci sono grandi ripensamenti sull'operazione Noalang.",
+      "polarity": "neutral",
+      "claim_id": "569c0010-f9e9-4270-9b6e-8e85fa46d074",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s0",
+      "target_entity": "Noalang",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono grandi ripensamenti sull'operazione Noalang.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nonostante quello che si sta dicendo a me non risultano che ci siano grandi ripensamenti",
+          "start_sec": 8.24,
+          "end_sec": 97.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli gioca oggi.",
+      "polarity": "positive",
+      "claim_id": "04504a99-ab16-4081-baad-d05f51469304",
+      "video_id": "fFiA7JAi2NM",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli gioca oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli oggi gioca",
+          "start_sec": 8.24,
+          "end_sec": 97.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

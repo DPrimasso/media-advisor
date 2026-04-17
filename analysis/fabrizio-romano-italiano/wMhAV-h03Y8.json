@@ -1,0 +1,366 @@
+{
+  "video_id": "wMhAV-h03Y8",
+  "analyzed_at": "2026-04-16T15:22:05.102972+00:00",
+  "metadata": {
+    "title": "🚨 MALEN: CIFRE, OBBLIGO, SEGRETI! ALISSON SANTOS, MOSSA MANNA E QUEI 15 MILIONI. PER PELLEGRINO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-02-16"
+  },
+  "summary": "Il video di Fabrizio Romano analizza le recenti dinamiche del calciomercato, focalizzandosi su Daniel Malen e Alisson Santos, protagonisti della partita tra Napoli e Roma. L'autore sottolinea come Malen, grazie alla sua qualità e capacità di sentirsi centrale in un progetto, rappresenti un acquisto strategico per la Roma, che ha saputo superare la concorrenza del Napoli grazie a un accordo con obbligo di riscatto. Inoltre, Romano evidenzia come le prestazioni di entrambi i giocatori stiano influenzando positivamente le rispettive squadre, contribuendo a un mercato di gennaio che ha già portato",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "economia",
+      "relevance": "medium"
+    },
+    {
+      "name": "pressione",
+      "relevance": "medium"
+    },
+    {
+      "name": "progetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Daniel Malen",
+      "position": "Daniel Malen ha fornito un assist nella partita contro il Napoli.",
+      "polarity": "positive",
+      "claim_id": "406e0115-baa9-4f55-b807-bb4931268e66",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s1",
+      "target_entity": "Daniel Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Malen ha fornito un assist nella partita contro il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Daniel Malen che prende per mano la Roma con l'assist di Brian Saragozza",
+          "start_sec": 29.64,
+          "end_sec": 59.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il mercato di gennaio ha portato frutti al Napoli.",
+      "polarity": "positive",
+      "claim_id": "13b07701-8d4a-4bf5-a0c9-688d8b5b77d9",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato di gennaio ha portato frutti al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mercato di gennaio che ha portato in alcuni casi, come in questi del Napoli",
+          "start_sec": 29.64,
+          "end_sec": 59.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malen",
+      "position": "Malen voleva sentirsi un giocatore al centro di un progetto.",
+      "polarity": "neutral",
+      "claim_id": "f635a121-d489-4299-a13d-ecdcd2468feb",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s3",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malen voleva sentirsi un giocatore al centro di un progetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mallen voleva sentirsi un giocatore importante. Voleva sentirsi un giocatore al centro di un progetto.",
+          "start_sec": 85.84,
+          "end_sec": 116.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Malen",
+      "position": "Il Napoli ha provato a trattenere Malen a gennaio.",
+      "polarity": "positive",
+      "claim_id": "73746154-4c97-400b-9078-a5f91403a411",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s4",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha provato a trattenere Malen a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ci ha provato per Daniel Malen al massimo delle sue possibilità",
+          "start_sec": 114.64,
+          "end_sec": 139.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli non ha potuto inserire un obbligo per Malen.",
+      "polarity": "negative",
+      "claim_id": "0b2cd10b-6083-46b9-bbc3-f4ed3e923e9a",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli non ha potuto inserire un obbligo per Malen.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non dipende dal Napoli il fatto che il Napoli non potesse a gennaio inserire un obbligo di",
+          "start_sec": 114.64,
+          "end_sec": 139.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "La Roma ha bisogno di un centravanti di livello.",
+      "polarity": "neutral",
+      "claim_id": "b4e2352b-9e29-47a1-9e72-7c7a2f89710c",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Roma ha bisogno di un centravanti di livello.",
+      "evidence_quotes": [
+        {
+          "quote_text": "voglia di avere un centravanti di questo livello.",
+          "start_sec": 85.84,
+          "end_sec": 116.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Malen",
+      "position": "Malen è coinvolto in discussioni di mercato.",
+      "polarity": "neutral",
+      "claim_id": "939b89a0-d4e7-41c6-8c14-66ecfe5b811a",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s0",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malen è coinvolto in discussioni di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi ripartiamo proprio dal presente e dal futuro, dalle prospettive che il mercato porta con sé dal campo.",
+          "start_sec": 0.719,
+          "end_sec": 32.519999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Doni Malen",
+      "position": "Doni Malen offre qualità alla squadra.",
+      "polarity": "positive",
+      "claim_id": "7742fd6f-bdea-4ad0-b707-0ab8dc468eea",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s2",
+      "target_entity": "Doni Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Doni Malen offre qualità alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giocatore che può aggiungere qualità, la manovra",
+          "start_sec": 57.52,
+          "end_sec": 87.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Malen",
+      "position": "Malen ha trasformato la pressione in leggerezza.",
+      "polarity": "neutral",
+      "claim_id": "7ce4266f-0998-4347-9a42-3a91b7cd3da0",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s3",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malen ha trasformato la pressione in leggerezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anzi ha trasformata in leggerezza.",
+          "start_sec": 85.84,
+          "end_sec": 116.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Malen",
+      "position": "Malen ha avvertito la pressione di essere un centravanti importante.",
+      "polarity": "neutral",
+      "claim_id": "28554dc5-50d8-4f31-b14c-9242d9aef9fa",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s3",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malen ha avvertito la pressione di essere un centravanti importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco, Malen assolutamente avvertito la pressione.",
+          "start_sec": 85.84,
+          "end_sec": 116.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Doni Malen",
+      "position": "Malen ha una tecnica di base importante.",
+      "polarity": "positive",
+      "claim_id": "cbb35407-5d4b-4614-bf06-c5163599ff7d",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s2",
+      "target_entity": "Doni Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malen ha una tecnica di base importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una tecnica di base importante",
+          "start_sec": 57.52,
+          "end_sec": 87.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Doni Malen",
+      "position": "Malen si sente importante in squadra.",
+      "polarity": "positive",
+      "claim_id": "4512a9b4-378f-4722-a981-93340a901aaf",
+      "video_id": "wMhAV-h03Y8",
+      "segment_id": "s2",
+      "target_entity": "Doni Malen",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malen si sente importante in squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sente importante",
+          "start_sec": 57.52,
+          "end_sec": 87.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}
