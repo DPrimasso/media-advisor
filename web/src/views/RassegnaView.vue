@@ -23,11 +23,41 @@ async function fetchTips() {
   }
 }
 
-onMounted(fetchTips)
-
-// Sync
+// Sync: stato letto da /api/sync/status al mount (se running sul server, UI + poll riprendono)
 const syncStatus = ref(null)   // null | { status, log, result, error }
 let syncPollInterval = null
+
+function ensurePollStopped() {
+  if (syncPollInterval) {
+    clearInterval(syncPollInterval)
+    syncPollInterval = null
+  }
+}
+
+function ensurePollRunning() {
+  if (syncPollInterval) return
+  syncPollInterval = setInterval(pollSync, 2000)
+}
+
+async function hydrateSyncFromServer() {
+  try {
+    const res = await fetch('/api/sync/status')
+    if (!res.ok) return
+    const data = await res.json()
+    if (data.status === 'idle') {
+      syncStatus.value = null
+      ensurePollStopped()
+      return
+    }
+    syncStatus.value = data
+    if (data.status === 'running') ensurePollRunning()
+    else ensurePollStopped()
+  } catch {}
+}
+
+onMounted(async () => {
+  await Promise.all([fetchTips(), hydrateSyncFromServer()])
+})
 
 async function _doSync(endpoint) {
   const res = await fetch(endpoint, { method: 'POST' })
@@ -37,7 +67,7 @@ async function _doSync(endpoint) {
     return
   }
   syncStatus.value = { status: 'running', log: [], result: null, error: null }
-  syncPollInterval = setInterval(pollSync, 2000)
+  ensurePollRunning()
 }
 
 function startSyncRecent() { return _doSync('/api/sync/recent') }
@@ -50,10 +80,8 @@ async function pollSync() {
     const data = await res.json()
     syncStatus.value = data
     if (data.status === 'done' || data.status === 'error') {
-      clearInterval(syncPollInterval)
-      syncPollInterval = null
+      ensurePollStopped()
       if (data.status === 'done') {
-        // Ricarica i dati
         await fetchTips()
         await loadAnalyses()
       }
@@ -62,7 +90,7 @@ async function pollSync() {
 }
 
 onUnmounted(() => {
-  if (syncPollInterval) clearInterval(syncPollInterval)
+  ensurePollStopped()
 })
 
 const loading = computed(() => tipsLoading.value || analysesLoading.value)
@@ -70,22 +98,24 @@ const loading = computed(() => tipsLoading.value || analysesLoading.value)
 const { feedDays, isEmpty } = useFeed(tips, channelsData)
 
 // Sommario
+const todayISO = new Date().toISOString().slice(0, 10)
 const digest = ref(null)
 const digestLoading = ref(false)
 const digestError = ref(null)
+const digestDate = ref(todayISO)
 
 async function generateDigest() {
   digestLoading.value = true
   digestError.value = null
+  digest.value = null
   try {
-    const today = new Date().toISOString().slice(0, 10)
-    const res = await fetch(`/api/feed/digest?date=${today}`)
+    const res = await fetch(`/api/feed/digest?date=${digestDate.value}`)
     if (!res.ok) throw new Error(`Errore ${res.status}`)
     const data = await res.json()
     if (data.digest) {
       digest.value = data.digest
     } else {
-      digestError.value = data.message || 'Nessun contenuto per oggi'
+      digestError.value = data.message || 'Nessun contenuto per questa data'
     }
   } catch (e) {
     digestError.value = e.message
@@ -94,14 +124,12 @@ async function generateDigest() {
   }
 }
 
-const formattedToday = computed(() => {
-  return new Date().toLocaleDateString('it-IT', {
-    weekday: 'long',
-    day: 'numeric',
-    month: 'long',
-    year: 'numeric',
-  }).replace(/\b\w/g, (c) => c.toUpperCase())
-})
+const formattedToday = new Date().toLocaleDateString('it-IT', {
+  weekday: 'long',
+  day: 'numeric',
+  month: 'long',
+  year: 'numeric',
+}).replace(/\b\w/g, (c) => c.toUpperCase())
 
 function formatTime(dateObj) {
   return dateObj.toLocaleTimeString('it-IT', { hour: '2-digit', minute: '2-digit' })
@@ -177,7 +205,6 @@ function analysisSourceLabel(item) {
         <p class="rassegna-date">{{ formattedToday }}</p>
       </div>
       <div class="sync-buttons">
-        <!-- Sincronizza Recenti: solo video nuovi dall'ultima sync -->
         <button
           class="btn-sync"
           :class="{
@@ -201,7 +228,6 @@ function analysisSourceLabel(item) {
           </span>
         </button>
 
-        <!-- Sincronizza Totale: comportamento originale, tutti i video mancanti -->
         <button
           class="btn-sync btn-sync--secondary"
           :disabled="syncStatus?.status === 'running'"
@@ -217,7 +243,6 @@ function analysisSourceLabel(item) {
       </div>
     </header>
 
-    <!-- Pannello log sync -->
     <div v-if="syncStatus && syncStatus.status !== 'idle'" class="sync-panel">
       <div class="sync-panel-header">
         <span class="sync-panel-title">
@@ -232,7 +257,6 @@ function analysisSourceLabel(item) {
         </div>
         <button v-if="syncStatus.status !== 'running'" class="sync-panel-close" @click="syncStatus = null">✕</button>
       </div>
-      <!-- Progress bar (solo durante il run, quando abbiamo total > 0) -->
       <div v-if="syncStatus.status === 'running' && syncStatus.progress?.total > 0" class="sync-progress-wrap">
         <div class="sync-progress-bar">
           <div
@@ -260,13 +284,21 @@ function analysisSourceLabel(item) {
     <section class="sommario-section">
       <div class="sommario-header">
         <h3 class="sommario-title">Sommario del Giorno</h3>
-        <button
-          class="btn-genera"
-          :disabled="digestLoading"
-          @click="generateDigest"
-        >
-          {{ digestLoading ? 'Generando…' : digest ? '↺ Rigenera' : '✦ Genera Sommario' }}
-        </button>
+        <div class="sommario-controls">
+          <input
+            type="date"
+            class="digest-date-input"
+            v-model="digestDate"
+            :max="todayISO"
+          />
+          <button
+            class="btn-genera"
+            :disabled="digestLoading"
+            @click="generateDigest"
+          >
+            {{ digestLoading ? 'Generando…' : digest ? '↺ Rigenera' : '✦ Genera Sommario' }}
+          </button>
+        </div>
       </div>
       <p v-if="digest" class="sommario-text">{{ digest }}</p>
       <p v-else-if="digestError" class="sommario-error">{{ digestError }}</p>
@@ -290,7 +322,6 @@ function analysisSourceLabel(item) {
             v-for="item in day.items"
             :key="item.type + '-' + (item.tip_id || item.video_id)"
           >
-            <!-- Tip card -->
             <div v-if="item.type === 'tip'" class="feed-card feed-card--tip">
               <div class="fc-meta">
                 <span class="fc-type-badge fc-type-badge--tip">Mercato</span>
@@ -324,7 +355,6 @@ function analysisSourceLabel(item) {
               <p class="fc-text">{{ item.tip_text }}</p>
             </div>
 
-            <!-- Analysis card -->
             <div v-else-if="item.type === 'analysis'" class="feed-card feed-card--analysis">
               <div class="fc-meta">
                 <span class="fc-type-badge fc-type-badge--analysis">Video</span>
@@ -620,6 +650,32 @@ function analysisSourceLabel(item) {
   margin-bottom: 0.75rem;
 }
 
+.sommario-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.digest-date-input {
+  padding: 0.4rem 0.65rem;
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  font-size: 0.82rem;
+  font-family: inherit;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.15s;
+  color-scheme: dark;
+}
+
+.digest-date-input:hover,
+.digest-date-input:focus {
+  border-color: var(--accent);
+}
+
 .sommario-title {
   font-size: 0.8rem;
   font-weight: 700;
@@ -881,6 +937,12 @@ function analysisSourceLabel(item) {
   .sommario-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .sommario-controls {
+    width: 100%;
+  }
+  .digest-date-input {
+    flex: 1;
   }
 }
 </style>

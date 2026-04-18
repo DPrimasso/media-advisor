@@ -124,8 +124,13 @@ def cmd_fetch_now() -> None:
 def cmd_auto_update(
     channel: Optional[str] = typer.Option(None, "--channel", help="Limit to one channel"),
     model: str = typer.Option("gpt-4o-mini", "--model"),
+    all_unanalyzed: bool = typer.Option(False, "--all", help="Analyze all unanalyzed videos, not just newly fetched ones"),
 ) -> None:
-    """Fetch -> merge -> pipeline (fully automated, no manual Inbox step)."""
+    """Fetch -> merge -> pipeline (fully automated, no manual Inbox step).
+
+    By default analyzes only newly fetched videos. Use --all to catch up on
+    all historically unanalyzed videos in every channel list.
+    """
     s = _get_settings()
     if not s.transcript_api_key:
         typer.echo("Error: TRANSCRIPT_API_KEY not set", err=True)
@@ -154,6 +159,10 @@ def cmd_auto_update(
     typer.echo("[auto-update] Step 3: Running pipeline...")
     from media_advisor.run_pipeline import run_from_list
 
+    new_ids = None if all_unanalyzed else {v.video_id for v in pending.items}
+    if new_ids:
+        typer.echo(f"[auto-update] Analyzing {len(new_ids)} newly fetched videos (use --all for full catch-up)")
+
     result = asyncio.run(
         run_from_list(
             root=root,
@@ -161,6 +170,7 @@ def cmd_auto_update(
             openai_api_key=s.openai_api_key,
             channel_id=channel,
             model=model,
+            only_video_ids=new_ids,
         )
     )
 

@@ -1,0 +1,350 @@
+{
+  "video_id": "bhNXOKvKNf4",
+  "analyzed_at": "2026-04-18T11:30:35.416657+00:00",
+  "metadata": {
+    "title": "🚨 SCAMBIO TENTATO! BERNARDO SILVA, COLPO LAZIO, SAMARDZIC, MALEN, FRATTESI, NDOYE, MALDINI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-14"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli ultimi sviluppi del mercato calcistico, con particolare attenzione al trasferimento di Giacomo Raspadori all'Atalanta e alle trattative in corso per altri giocatori come Malen e Samardzic. L'autore sottolinea come l'Atalanta sia riuscita a superare la concorrenza della Roma per Raspadori, mentre la squadra giallorossa è in attesa di chiudere l'affare per Malen. Tra le conclusioni chiave, si evidenzia che la Lazio sta preparando operazioni future, con un accordo verbale già trovato per Pedrasa, mentre la Roma spera di completare le sue trattative s",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "performanza",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "Atalanta ha superato la concorrenza della Roma per Raspadolio.",
+      "polarity": "positive",
+      "claim_id": "07eeb18e-99cc-4aa4-9dff-3e29bb72bd32",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Atalanta ha superato la concorrenza della Roma per Raspadolio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fondamentale questo dettaglio per superare poi la concorrenza soprattutto della Roma.",
+          "start_sec": 0.48,
+          "end_sec": 44.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma era interessata a Raspadolio ma non è riuscita a concludere il trasferimento.",
+      "polarity": "positive",
+      "claim_id": "347a5f87-bb90-41ad-b968-b41063519c11",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Roma era interessata a Raspadolio ma non è riuscita a concludere il trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche se comunque ti ripeto, come già abbiamo raccontato, la Roma non.",
+          "start_sec": 0.48,
+          "end_sec": 44.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Malen",
+      "position": "L'Aston Villa è in attesa di chiudere l'operazione Malen.",
+      "polarity": "neutral",
+      "claim_id": "223d4817-c7ab-4482-9af6-1525d49faadb",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s1",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Aston Villa è in attesa di chiudere l'operazione Malen.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche dall'Aston Villa si aspettano gli ultimi passaggi burocratici per poter arrivare alla chiusura dell'operazione Malen.",
+          "start_sec": 42.76,
+          "end_sec": 70.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma spera di chiudere il trasferimento oggi.",
+      "polarity": "positive",
+      "claim_id": "e49fcfa4-af09-4e7f-8dc8-6c8b6f7dd500",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Roma spera di chiudere il trasferimento oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma spera di chiudere oggi, quindi è una giornata che può essere determinante per chiudere.",
+          "start_sec": 42.76,
+          "end_sec": 70.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha completato l'attacco con l'acquisto di Raspadori.",
+      "polarity": "positive",
+      "claim_id": "4dfd2516-7eba-482d-9c3c-7a1d46d2fc4a",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha completato l'attacco con l'acquisto di Raspadori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta prende Raspadori, completa l'attacco",
+          "start_sec": 69.119,
+          "end_sec": 103.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "Raspadolio è stato trasferito all'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "ab0f4ca1-1d97-4e6f-8f26-e54825d1e986",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Raspadolio è stato trasferito all'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Raspadolio all'Atalanta.",
+          "start_sec": 0.48,
+          "end_sec": 44.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Raspadolio",
+      "position": "Raspadolio è arrivato in Italia da Madrid.",
+      "polarity": "positive",
+      "claim_id": "89a359fd-57c5-4422-84ef-5fbd618350b2",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s0",
+      "target_entity": "Raspadolio",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Raspadolio è arrivato in Italia da Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Raspadolio che è arrivato in Italia da Madrid.",
+          "start_sec": 0.48,
+          "end_sec": 44.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Raspadori",
+      "position": "Raspadori ha mai ricevuto il sì definitivo.",
+      "polarity": "neutral",
+      "claim_id": "8235909c-63cc-4c57-966f-fdc97d4c3dfc",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s1",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Raspadori ha mai ricevuto il sì definitivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha mai ricevuto il sì definitivo di Raspadori.",
+          "start_sec": 42.76,
+          "end_sec": 70.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Samarzic",
+      "position": "L'Atalanta considera offerte per Samarzic.",
+      "polarity": "neutral",
+      "claim_id": "ba0e510e-7ecf-4f4d-8312-25899deabc2d",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s2",
+      "target_entity": "Samarzic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta considera offerte per Samarzic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta ascolta offerte per Samarzic.",
+          "start_sec": 69.119,
+          "end_sec": 103.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Daniel Maldini",
+      "position": "Daniel Maldini è nella lista della Juventus.",
+      "polarity": "neutral",
+      "claim_id": "aa2f18ea-dfff-483b-be9f-c512b461b779",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s3",
+      "target_entity": "Daniel Maldini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Maldini è nella lista della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Maldini è nella lista della Juventus",
+          "start_sec": 101.88,
+          "end_sec": 132.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Malen",
+      "position": "Malen può essere protagonista oggi.",
+      "polarity": "neutral",
+      "claim_id": "fb3ce464-b778-401c-b543-f5abe3996f26",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s3",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malen può essere protagonista oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malen e può essere la sua giornata",
+          "start_sec": 101.88,
+          "end_sec": 132.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Malen",
+      "position": "Malen potrebbe avere un'importante novità oggi.",
+      "polarity": "positive",
+      "claim_id": "f1141ddd-2cf6-46db-963c-6344b292bc83",
+      "video_id": "bhNXOKvKNf4",
+      "segment_id": "s1",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Malen potrebbe avere un'importante novità oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbe essere una giornata importante per l'attaccante olandese dell'Aston Villa.",
+          "start_sec": 42.76,
+          "end_sec": 70.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}
