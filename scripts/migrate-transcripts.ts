@@ -1,6 +1,6 @@
 /**
- * Migra i transcript dalla struttura flat (transcripts/*.json)
- * alla struttura per canale (transcripts/channel_id/*.json).
+ * Migra i transcript dalla struttura flat (data/transcripts/*.json)
+ * alla struttura per canale (data/transcripts/channel_id/*.json).
  * Esegui una sola volta: npm run migrate-transcripts
  */
 
@@ -11,7 +11,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, "..");
 const channelsPath = join(root, "channels", "channels.json");
-const transcriptsDir = join(root, "transcripts");
+const transcriptsDir = join(root, "data", "transcripts");
 
 function extractVideoId(url: string): string {
   const m = url.match(/(?:v=|\/)([a-zA-Z0-9_-]{11})/);
@@ -20,7 +20,7 @@ function extractVideoId(url: string): string {
 
 function main() {
   if (!existsSync(transcriptsDir)) {
-    console.log("Nessuna cartella transcripts/ da migrare.");
+    console.log("Nessuna cartella data/transcripts/ da migrare.");
     return;
   }
 
@@ -71,7 +71,7 @@ function main() {
   }
 
   console.log(`Migrati ${migrated} transcript, ${skipped} saltati.`);
-  console.log("Struttura: transcripts/<channel_id>/<video_id>.json");
+  console.log("Struttura: data/transcripts/<channel_id>/<video_id>.json");
 }
 
 main();

@@ -103,16 +103,16 @@ def _ensure_schema(con: sqlite3.Connection) -> None:
 # ---------------------------------------------------------------------------
 
 
-@mcp.tool(description="Index all analysis JSON files from analysis/ into SQLite FTS5.")
+@mcp.tool(description="Index all analysis JSON files from data/analysis/ into SQLite FTS5.")
 def index_transcripts(
     root: str = "",
     channel_id: str = "",
 ) -> dict[str, Any]:
-    """Scan analysis/<channel_id>/<video_id>.json and upsert into SQLite FTS5."""
+    """Scan data/analysis/<channel_id>/<video_id>.json and upsert into SQLite FTS5."""
     r = Path(root).resolve() if root else _ROOT
-    analysis_dir = r / "analysis"
+    analysis_dir = r / "data" / "analysis"
     if not analysis_dir.exists():
-        return {"ok": False, "error": f"analysis/ not found at {analysis_dir}"}
+        return {"ok": False, "error": f"data/analysis/ not found at {analysis_dir}"}
 
     con = _get_db()
     _ensure_schema(con)

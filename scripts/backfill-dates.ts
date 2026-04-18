@@ -25,8 +25,8 @@ import { createTranscriptClient } from "../src/transcript-client.js";
 import { fetchVideoPublished, parseDateFromTitle } from "../src/video-metadata.js";
 
 const root = resolve(__scriptDir, "..");
-const analysisDir = join(root, "analysis");
-const transcriptsDir = join(root, "transcripts");
+const analysisDir = join(root, "data", "analysis");
+const transcriptsDir = join(root, "data", "transcripts");
 const RATE_LIMIT_MS = 300;
 
 function sleep(ms: number): Promise<void> {

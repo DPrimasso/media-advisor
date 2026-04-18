@@ -35,5 +35,5 @@ L’`order` definisce l’ordine di visualizzazione nella dashboard.
 
 ## Struttura dati
 
-- **Transcript**: `transcripts/{channel_id}/{video_id}.json`
-- **Analisi**: `analysis/{channel_id}/{video_id}.json`
+- **Transcript**: `data/transcripts/{channel_id}/{video_id}.json`
+- **Analisi**: `data/analysis/{channel_id}/{video_id}.json`

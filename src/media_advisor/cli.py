@@ -480,7 +480,7 @@ def cmd_mercato_scan(
     from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
     from media_advisor.models.channels import ChannelsConfig
 
-    transcripts_root = root / "transcripts"
+    transcripts_root = root / "data" / "transcripts"
     if not transcripts_root.exists():
         typer.echo("Nessun transcript trovato.")
         return
@@ -491,7 +491,7 @@ def cmd_mercato_scan(
 
     async def _run() -> None:
         from media_advisor.io.json_io import read_json_or_default
-        from media_advisor.io.paths import video_dates_cache_path
+        from media_advisor.io.paths import mercato_tips_path, video_dates_cache_path
         from media_advisor.mercato.analyzer import update_index_with_new_tips
         from media_advisor.mercato.models import MercatoTip
 
@@ -598,6 +598,7 @@ def cmd_mercato_scan(
                         if date_to and pub_d > date_to:
                             skipped += 1
                             continue
+                    _tip_file_existed = mercato_tips_path(root, ch_id, vid).exists() and not force
                     result = await analyze_video_mercato(
                         root=root,
                         video_id=vid,
@@ -607,7 +608,8 @@ def cmd_mercato_scan(
                         force=force,
                         update_index=False,  # batch: aggiorna index una sola volta alla fine
                     )
-                    all_new_tips.extend(result.tips)
+                    if not _tip_file_existed:
+                        all_new_tips.extend(result.tips)
                     analyzed += 1
                     typer.echo(f"  [{ch_id}] {vid} — {len(result.tips)} tip ({title[:60]})")
                 except Exception as exc:
@@ -1307,7 +1309,7 @@ def cmd_mercato_enrich_dates(
     from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
 
     enriched = 0
-    transcripts_root = root / "transcripts"
+    transcripts_root = root / "data" / "transcripts"
     channel_dirs = (
         [transcripts_root / channel] if channel and (transcripts_root / channel).exists()
         else list(transcripts_root.iterdir()) if transcripts_root.exists() else []

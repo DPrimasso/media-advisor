@@ -45,8 +45,8 @@ line-length = 100
 extend-exclude = [
   "node_modules",
   "dist",
-  "analysis",
-  "transcripts",
+  "data/analysis",
+  "data/transcripts",
   "web",
 ]
 

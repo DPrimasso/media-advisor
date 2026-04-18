@@ -39,7 +39,7 @@ class Settings(BaseSettings):
         return self.channels_dir or (self.root_dir / "channels")
 
     def get_analysis_dir(self) -> Path:
-        return self.analysis_dir or (self.root_dir / "analysis")
+        return self.analysis_dir or (self.root_dir / "data" / "analysis")
 
     def get_transcripts_dir(self) -> Path:
-        return self.transcripts_dir or (self.root_dir / "transcripts")
+        return self.transcripts_dir or (self.root_dir / "data" / "transcripts")

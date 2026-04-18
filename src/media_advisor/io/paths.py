@@ -2,20 +2,24 @@
 
 from pathlib import Path
 
+DATA_DIR = "data"
+TRANSCRIPTS_DIR = "transcripts"
+ANALYSIS_DIR = "analysis"
+
 
 def transcript_path(root: Path, channel_id: str, video_id: str) -> Path:
-    """transcripts/<channel_id>/<video_id>.json"""
-    return root / "transcripts" / channel_id / f"{video_id}.json"
+    """data/transcripts/<channel_id>/<video_id>.json"""
+    return root / DATA_DIR / TRANSCRIPTS_DIR / channel_id / f"{video_id}.json"
 
 
 def analysis_path(root: Path, channel_id: str, video_id: str) -> Path:
-    """analysis/<channel_id>/<video_id>.json"""
-    return root / "analysis" / channel_id / f"{video_id}.json"
+    """data/analysis/<channel_id>/<video_id>.json"""
+    return root / DATA_DIR / ANALYSIS_DIR / channel_id / f"{video_id}.json"
 
 
 def misc_transcript_path(root: Path, video_id: str) -> Path:
-    """transcripts/_misc/<video_id>.json"""
-    return root / "transcripts" / "_misc" / f"{video_id}.json"
+    """data/transcripts/_misc/<video_id>.json"""
+    return root / DATA_DIR / TRANSCRIPTS_DIR / "_misc" / f"{video_id}.json"
 
 
 def channels_config_path(root: Path) -> Path:

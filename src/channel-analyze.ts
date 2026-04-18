@@ -5,7 +5,7 @@ import { join } from "node:path";
 import { createChannelOpenAIClient } from "./analyzer/channel-openai.js";
 import type { AnalysisResult } from "./analyzer/types.js";
 
-const ANALYSIS_DIR = "analysis";
+const ANALYSIS_DIR = "data/analysis";
 const CHANNELS_DIR = "channels";
 const CHANNEL_ANALYSIS_FILE = "_channel.json";
 const BATCH_SIZE = 20;

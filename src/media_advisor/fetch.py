@@ -206,15 +206,18 @@ async def run_fetch_new_videos(root: Path, transcript_api_key: str) -> PendingRe
             try:
                 fetched = await _fetch_from_transcript_api(channel.id, channel.name, rule, client)
             except (TranscriptAPIError, Exception) as e:
-                channel_url = getattr(rule, "channel_url", None)
-                if channel_url:
+                yt_id = getattr(rule, "channel_id", None)
+                if yt_id and yt_id.startswith("UC"):
                     print(f"[{channel.id}] TranscriptAPI failed ({e}), trying RSS fallback")
-                    # resolve channel_id via oembed would require another call;
-                    # for now skip RSS fallback (channel_id not available here)
-                    print(f"[{channel.id}] RSS fallback requires UC channel_id, skip")
+                    fetched = await _fetch_from_rss(
+                        channel.id,
+                        channel.name,
+                        yt_id,
+                        last_n=getattr(rule, "last_n", 15) or 15,
+                    )
                 else:
-                    print(f"[{channel.id}] TranscriptAPI failed, skip: {e}")
-                continue
+                    print(f"[{channel.id}] TranscriptAPI failed, RSS fallback unavailable (missing channel_id): {e}")
+                    continue
         elif rule.type == "rss":
             yt_id = getattr(rule, "channel_id", None)
             if yt_id and yt_id.startswith("UC"):

@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url'
 import { readdirSync, writeFileSync, mkdirSync, copyFileSync, readFileSync, existsSync } from 'fs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
-const analysisDir = resolve(root, 'analysis')
+const analysisDir = resolve(root, 'data/analysis')
 const channelsPath = resolve(root, 'channels', 'channels.json')
 
 export default defineConfig({

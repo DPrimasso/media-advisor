@@ -17,16 +17,17 @@ media-advisor/
 ├── channels/           # Config canali e liste video
 │   ├── channels.json   # Registro canali (versionato)
 │   └── {id}.json       # URL video per canale (locale, non in git)
-├── transcripts/        # Trascrizioni (per canale)
-│   ├── {channel_id}/   # transcript per canale
-│   └── _misc/          # Fetch singoli senza canale
-├── analysis/           # Output analisi (per canale)
+├── data/
+│   ├── transcripts/    # Trascrizioni (per canale)
+│   │   ├── {channel_id}/   # transcript per canale
+│   │   └── _misc/          # Fetch singoli senza canale
+│   └── analysis/       # Output analisi (per canale)
 ├── web/                # Dashboard Vue.js
 ├── mercato/            # Tip mercato + index (locale, non in git)
 └── scripts/            # Utility
 ```
 
-**Dati locali (non in git):** `transcripts/`, `analysis/`, `mercato/`, liste `channels/*.json` (tranne che il registro `channels/channels.json`). Dopo un clone crea le liste video e lancia pipeline / `mercato-scan` come al solito.
+**Dati locali (non in git):** `data/transcripts/`, `data/analysis/`, `mercato/`, liste `channels/*.json` (tranne che il registro `channels/channels.json`). Dopo un clone crea le liste video e lancia pipeline / `mercato-scan` come al solito.
 
 ## Comandi
 
@@ -34,8 +35,8 @@ media-advisor/
 |---------|-------------|
 | `npm run run-list` | Pipeline principale: scarica transcript, analizza video, analisi canale |
 | `npm run run-list -- --channel=id` | Solo un canale |
-| `npm run transcript <url>` | Transcript singolo → `transcripts/_misc/` |
-| `npm run transcript <url> --channel=id` | Transcript singolo → `transcripts/{id}/` |
+| `npm run transcript <url>` | Transcript singolo -> `data/transcripts/_misc/` |
+| `npm run transcript <url> --channel=id` | Transcript singolo -> `data/transcripts/{id}/` |
 | `npm run add-punto-chiaro` | Aggiunge "Il punto chiaro" da @radiocrc2023 a Umberto Chiariello |
 | `npm run migrate-transcripts` | Migra transcript flat → per-canale (una tantum) |
 | `npm run backfill-dates` | Recupera solo le date mancanti (TranscriptAPI/yt-dlp/Piped/Invidious) |
@@ -68,7 +69,7 @@ npm run dev   # avvia server (3002) + Vite in parallelo
 ```
 
 La dashboard legge:
-- `analysis/` via `web/public/analysis/` (copiato con `npm run prepare-public`)
+- `data/analysis/` via `web/public/analysis/` (copiato con `npm run prepare-public`)
 - `mercato/` via API `http://localhost:3002/api/mercato/*`
 
 Nota: `npm run dev` in root ora esegue un pre-step `dev:kill` per liberare le porte `3001/3002/5173/5174` e avviare sempre istanze “pulite”.

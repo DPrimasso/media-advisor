@@ -482,12 +482,12 @@ async def get_feed_digest(date: str | None = None) -> Any:
 
     # 2. Analisi video del giorno
     day_analyses: list[dict] = []
-    analysis_index = _root / "analysis" / "index.json"
+    analysis_index = _root / "data" / "analysis" / "index.json"
     if analysis_index.exists():
         index = json_mod.loads(analysis_index.read_text(encoding="utf-8"))
         for ch in (index if isinstance(index, list) else []):
             for vf in (ch.get("videos") or []):
-                apath = _root / "analysis" / ch["id"] / vf
+                apath = _root / "data" / "analysis" / ch["id"] / vf
                 if not apath.exists():
                     continue
                 try:
@@ -514,6 +514,17 @@ async def get_feed_digest(date: str | None = None) -> Any:
     ]
     date_it = f"{target_date.day} {months_it[target_date.month]} {target_date.year}"
 
+    # Mappa channel_id → nome leggibile
+    _channel_names: dict[str, str] = {
+        "fabrizio-romano-italiano": "Fabrizio Romano",
+        "azzurro-fluido": "Azzurro Fluido",
+        "umberto-chiariello": "Umberto Chiariello",
+        "neschio": "Neschio",
+        "tuttomercatoweb": "TuttoMercatoWeb",
+        "calciomercato-it": "Calciomercato.it",
+        "nico-schira": "Nicolò Schira",
+    }
+
     lines: list[str] = []
     if day_tips:
         lines.append("INDISCREZIONI DI MERCATO:")
@@ -521,7 +532,8 @@ async def get_feed_digest(date: str | None = None) -> Any:
             conf = {"rumor": "voce", "likely": "probabile", "confirmed": "confermata", "denied": "smentita"}.get(
                 str(t.confidence), str(t.confidence)
             )
-            line = f"- {t.player_name}"
+            source = _channel_names.get(t.channel_id, t.channel_id)
+            line = f"- FONTE: {source} | {t.player_name}"
             if t.from_club or t.to_club:
                 line += f" ({t.from_club or '?'} → {t.to_club or '?'})"
             line += f" [{conf}]: {t.tip_text}"
@@ -529,16 +541,20 @@ async def get_feed_digest(date: str | None = None) -> Any:
     if day_analyses:
         lines.append("\nANALISI VIDEO:")
         for a in day_analyses[:10]:
-            lines.append(f"- [{a['channel']}] {a['title']}: {a['summary']}")
+            lines.append(f"- FONTE: {a['channel']} | {a['title']}: {a['summary']}")
 
     # 4. GPT-4o-mini
     import openai
     client = openai.AsyncOpenAI(api_key=s.openai_api_key)
     system_prompt = (
-        "Sei il redattore di un quotidiano sportivo italiano specializzato in calcio. "
-        "Ti viene fornito un elenco di notizie di mercato e analisi video del giorno. "
-        "Scrivi un sommario giornalistico in italiano di 3-5 frasi, come apertura della rassegna stampa. "
-        "Stile diretto, nomi dei giocatori in evidenza, prosa fluida. Niente elenchi puntati. Max 120 parole."
+        "Sei il redattore di una rassegna stampa sportiva italiana specializzata in calcio. "
+        "Ricevi un elenco di notizie, ciascuna con la sua FONTE (il giornalista o la testata che la riporta). "
+        "Scrivi la rassegna in italiano con queste regole:\n"
+        "1. Ogni notizia distinta è un paragrafo separato (non mescolare argomenti diversi nello stesso paragrafo).\n"
+        "2. Cita sempre la fonte all'inizio del paragrafo: 'Secondo [Fonte],' oppure '[Fonte] riporta che...'.\n"
+        "3. Stile giornalistico diretto, nomi dei giocatori in evidenza, prosa fluida.\n"
+        "4. Niente elenchi puntati, solo paragrafi.\n"
+        "5. Massimo 40 parole per paragrafo."
     )
     completion = await client.chat.completions.create(
         model="gpt-4o-mini",
@@ -546,8 +562,8 @@ async def get_feed_digest(date: str | None = None) -> Any:
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": f"Notizie del {date_it}:\n\n" + "\n".join(lines)},
         ],
-        max_tokens=200,
-        temperature=0.5,
+        max_tokens=500,
+        temperature=0.4,
     )
     digest_text = (completion.choices[0].message.content or "").strip()
     return {"digest": digest_text, "date": target_date.isoformat()}
@@ -720,8 +736,8 @@ async def _run_full_sync() -> None:
         pairs: list[tuple[str, str]] = [
             (t_file.stem, ch.id)
             for ch in mercato_channels
-            if (root / "transcripts" / ch.id).exists()
-            for t_file in sorted((root / "transcripts" / ch.id).glob("*.json"))
+            if (root / "data" / "transcripts" / ch.id).exists()
+            for t_file in sorted((root / "data" / "transcripts" / ch.id).glob("*.json"))
         ]
         mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, s.openai_api_key, pairs)
 

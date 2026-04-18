@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const root = resolve(__dirname, '../..')
-const analysisDir = resolve(root, 'analysis')
+const analysisDir = resolve(root, 'data/analysis')
 const channelsPath = resolve(root, 'channels', 'channels.json')
 const publicDir = resolve(__dirname, '../public/analysis')
 

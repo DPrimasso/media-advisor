@@ -109,7 +109,7 @@ async def analyze_video_mercato(
 ) -> VideoMercatoResult:
     """Analizza un video per indiscrezioni di mercato.
 
-    Il transcript deve già essere in transcripts/{channel_id}/{video_id}.json.
+    Il transcript deve già essere in data/transcripts/{channel_id}/{video_id}.json.
     Se update_index=False, salva solo il file video e non tocca l'index globale
     (utile per batch: chiamare update_index_with_new_tips() alla fine).
     """

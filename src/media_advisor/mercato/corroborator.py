@@ -78,7 +78,10 @@ def corroborate(index: MercatoIndex, new_tips: list[MercatoTip]) -> MercatoIndex
 
     Modifica l'index in-place e lo restituisce.
     """
-    for new_tip in new_tips:
+    existing_ids = {t.tip_id for t in index.tips}
+    truly_new = [t for t in new_tips if t.tip_id not in existing_ids]
+
+    for new_tip in truly_new:
         for existing in index.tips:
             if _tips_match(existing, new_tip):
                 # Aggiungi nuovo video a corroborated_by dell'esistente
@@ -94,6 +97,6 @@ def corroborate(index: MercatoIndex, new_tips: list[MercatoTip]) -> MercatoIndex
                         1.0, len(new_tip.corroborated_by) / 5
                     )
 
-    # Aggiungi le nuove tip all'index
-    index.tips.extend(new_tips)
+    # Aggiungi le nuove tip all'index (solo quelle non già presenti)
+    index.tips.extend(truly_new)
     return index

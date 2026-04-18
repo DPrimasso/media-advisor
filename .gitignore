@@ -14,8 +14,8 @@ build/
 web/public/analysis/
 
 # Data folders (tracked to sync work across machines)
-# - transcripts/  : raw transcripts + metadata
-# - analysis/     : per-video analysis outputs
+# - data/transcripts/  : raw transcripts + metadata
+# - data/analysis/     : per-video analysis outputs
 # - mercato/      : mercato index + tips + transfers + caches
 # - channels/*.json: channel registry + per-channel video lists + dates cache
 

@@ -118,6 +118,55 @@ function truncate(text, len) {
   if (!text) return ''
   return text.length > len ? text.slice(0, len) + '…' : text
 }
+
+function formatYoutubeOffset(sec) {
+  if (sec == null || Number.isNaN(Number(sec))) return ''
+  const s = Math.max(0, Math.floor(Number(sec)))
+  const h = Math.floor(s / 3600)
+  const m = Math.floor((s % 3600) / 60)
+  const ss = s % 60
+  return h > 0
+    ? `${h}:${String(m).padStart(2, '0')}:${String(ss).padStart(2, '0')}`
+    : `${m}:${String(ss).padStart(2, '0')}`
+}
+
+function youtubeWatchUrl(videoId, startSec) {
+  if (!videoId) return ''
+  const base = `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`
+  if (startSec == null || Number.isNaN(Number(startSec))) return base
+  const t = Math.max(0, Math.floor(Number(startSec)))
+  return `${base}&t=${t}s`
+}
+
+function tipSourceHref(item) {
+  return youtubeWatchUrl(item.video_id, item.quote_start_sec)
+}
+
+function tipSourceLabel(item) {
+  const off = formatYoutubeOffset(item.quote_start_sec)
+  return off ? `▶ ${off}` : '▶ Video'
+}
+
+function analysisEarliestQuoteSec(item) {
+  let min = null
+  for (const c of item.claims || []) {
+    const s = c.evidence_quotes?.[0]?.start_sec
+    if (s != null && !Number.isNaN(Number(s))) {
+      const n = Number(s)
+      min = min == null ? n : Math.min(min, n)
+    }
+  }
+  return min
+}
+
+function analysisSourceHref(item) {
+  return youtubeWatchUrl(item.video_id, analysisEarliestQuoteSec(item))
+}
+
+function analysisSourceLabel(item) {
+  const off = formatYoutubeOffset(analysisEarliestQuoteSec(item))
+  return off ? `▶ ${off}` : '▶ Video'
+}
 </script>
 
 <template>
@@ -246,6 +295,15 @@ function truncate(text, len) {
               <div class="fc-meta">
                 <span class="fc-type-badge fc-type-badge--tip">Mercato</span>
                 <span class="fc-channel">{{ item.channel_name || formatChannelName(item.channel_id) }}</span>
+                <a
+                  v-if="item.video_id"
+                  class="fc-yt-link"
+                  :href="tipSourceHref(item)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  :title="item.quote_start_sec != null ? 'Apri il video al momento citato' : 'Apri il video'"
+                  @click.stop
+                >{{ tipSourceLabel(item) }}</a>
                 <span class="fc-time">{{ formatTime(item.date) }}</span>
               </div>
               <div class="fc-tip-header">
@@ -271,6 +329,15 @@ function truncate(text, len) {
               <div class="fc-meta">
                 <span class="fc-type-badge fc-type-badge--analysis">Video</span>
                 <span class="fc-channel">{{ item.channel_name || formatChannelName(item.channel_id) }}</span>
+                <a
+                  v-if="item.video_id"
+                  class="fc-yt-link"
+                  :href="analysisSourceHref(item)"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  :title="analysisEarliestQuoteSec(item) != null ? 'Apre il primo claim con citazione nel video' : 'Apri il video'"
+                  @click.stop
+                >{{ analysisSourceLabel(item) }}</a>
                 <span class="fc-time">{{ formatTime(item.date) }}</span>
               </div>
               <h4 class="fc-video-title">{{ item.metadata?.title }}</h4>
@@ -692,6 +759,19 @@ function truncate(text, len) {
 .fc-channel {
   font-weight: 600;
   color: var(--accent);
+}
+
+.fc-yt-link {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.fc-yt-link:hover {
+  text-decoration: underline;
 }
 
 .fc-time {

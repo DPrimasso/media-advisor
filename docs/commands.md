@@ -11,7 +11,7 @@ npm run dev          # Kill porte 3001/5173 + avvia uvicorn (3001) + Vite (5173)
 npm run server       # Solo FastAPI uvicorn su porta 3001
 npm run dev:web      # Solo Vite (web/) su porta 5173
 npm run dev:kill     # Kill porte 3001, 5173, 5174
-npm run prepare-public  # Copia analysis/ → web/public/analysis/ (per build statica)
+npm run prepare-public  # Copia data/analysis/ → web/public/analysis/ (per build statica)
 ```
 
 ---
@@ -92,5 +92,5 @@ media-advisor mercato-report
 - Il comando `media-advisor` è disponibile solo dopo `python -m pip install -e ".[dev]"`
 - In alternativa: `python -m media_advisor.cli <comando> [args]`
 - `--force` e `--force-analyze` sono equivalenti per `run-list`
-- `run-list` salta automaticamente i video già analizzati (vedi `analysis/<channel>/<video>.json`)
+- `run-list` salta automaticamente i video già analizzati (vedi `data/analysis/<channel>/<video>.json`)
 - `mercato-scan` salta automaticamente i video già analizzati per mercato (vedi `mercato/tips/`)

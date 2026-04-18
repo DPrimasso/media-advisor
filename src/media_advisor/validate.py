@@ -1,6 +1,6 @@
 """Validation/migration script for existing JSON files.
 
-Loads all channels/*.json, transcripts/**/*.json, analysis/**/*.json and
+Loads all channels/*.json, data/transcripts/**/*.json, data/analysis/**/*.json and
 validates them against the Pydantic models. Prints a summary of any schema
 drift so it can be fixed before the Python pipeline takes over.
 
@@ -20,6 +20,7 @@ from typing import Any
 from pydantic import ValidationError
 
 from media_advisor.config import Settings
+from media_advisor.io.paths import ANALYSIS_DIR, DATA_DIR, TRANSCRIPTS_DIR
 from media_advisor.models.analysis import AnalysisResult
 from media_advisor.models.channels import ChannelsConfig
 from media_advisor.models.pending import PendingResult
@@ -52,8 +53,8 @@ def run_validation(root: Path, fix: bool = False) -> int:
     """Validate all JSON files. Returns number of failures."""
     failures = 0
     channels_dir = root / "channels"
-    analysis_dir = root / "analysis"
-    transcripts_dir = root / "transcripts"
+    analysis_dir = root / DATA_DIR / ANALYSIS_DIR
+    transcripts_dir = root / DATA_DIR / TRANSCRIPTS_DIR
 
     # channels/channels.json
     print("\n=== channels/channels.json ===")

@@ -23,7 +23,7 @@ import type { TranscriptResponse } from "../src/transcript-client.js";
 const EVAL_DIR = join(ROOT, "eval");
 const VIDEOS_SAMPLE = join(EVAL_DIR, "videos_sample.json");
 const OUT_BASELINE = join(EVAL_DIR, "out_baseline");
-const TRANSCRIPTS_DIR = join(ROOT, "transcripts");
+const TRANSCRIPTS_DIR = join(ROOT, "data", "transcripts");
 
 function sleep(ms: number): Promise<void> {
   return new Promise((r) => setTimeout(r, ms));
