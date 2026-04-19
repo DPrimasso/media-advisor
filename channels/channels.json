@@ -10,7 +10,7 @@
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@FabrizioRomanoItaliano",
         "channel_id": "UC7pT9g1-oKwVgbpipZODvBA",
-        "last_n": 500,
+        "last_n": 30,
         "exclude_live": true
       }
     },
@@ -22,7 +22,8 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@AzzurroFluido",
-        "last_n": 15,
+        "channel_id": "UCrXpaY2E4glX7Syy9xQiDIg",
+        "last_n": 30,
         "exclude_title_contains": "reaction",
         "exclude_live": true
       }
@@ -35,8 +36,9 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@radiocrc2023",
+        "channel_id": "UC7zfZ72tXvtjBBHfgQOE0SQ",
         "title_contains": "Il punto chiaro",
-        "last_n": 50
+        "last_n": 30
       }
     },
     {
@@ -47,7 +49,8 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@Neschio",
-        "last_n": 50,
+        "channel_id": "UCQgDSf4MLFuEx7CIAiPEOUA",
+        "last_n": 30,
         "exclude_title_contains": "reaction"
       }
     },
@@ -60,7 +63,8 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@TuttoMercatoWeb_com",
-        "last_n": 400,
+        "channel_id": "UC4dcatUbKAn8sZHVMO_MLVw",
+        "last_n": 30,
         "exclude_live": true
       }
     },
@@ -73,7 +77,8 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@Calciomercato_it",
-        "last_n": 400,
+        "channel_id": "UCK_XsewqRB43-64dPCH-t0Q",
+        "last_n": 30,
         "exclude_live": true
       }
     },
@@ -86,7 +91,8 @@
       "fetch_rule": {
         "type": "transcript_api",
         "channel_url": "https://www.youtube.com/@NicoSchira",
-        "last_n": 400,
+        "channel_id": "UCYd-Nhkp7ep5xk2HMyKBTRA",
+        "last_n": 30,
         "exclude_live": true
       }
     }

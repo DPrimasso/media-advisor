@@ -1,0 +1,366 @@
+{
+  "video_id": "VU51vW1gXEY",
+  "analyzed_at": "2026-04-19T12:28:23.581752+00:00",
+  "metadata": {
+    "title": "🚨💣 TRIPLO COLPO FATTO! CLAMOROSO RASPADORI! VAZ È IN ARRIVO, FIORENTINA SI, JOAO GOMES…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-13"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sul clamoroso trasferimento di Giacomo Raspadori all'Atalanta, sottolineando che l'operazione è stata chiusa a titolo definitivo per circa 23 milioni di euro. L'autore evidenzia come Raspadori fosse l'obiettivo numero uno per il club bergamasco, che ha saputo muoversi con decisione rispetto ad altre squadre, come la Roma, che ha visto diminuire le sue possibilità di acquisirlo. La conclusione chiave è che questo colpo potrebbe avere un impatto significativo sulle ambizioni europee dell'Atalanta, grazie alla scelta del giocatore di puntare su un progetto",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "transazioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    },
+    {
+      "name": "sviluppo",
+      "relevance": "low"
+    },
+    {
+      "name": "convocazione",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Raspadori",
+      "position": "L'Atalanta ha effettuato un'operazione per Raspadori da 23 milioni di euro.",
+      "polarity": "neutral",
+      "claim_id": "10127bb1-8027-4f85-8c4c-dd4e01b9ec41",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s2",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha effettuato un'operazione per Raspadori da 23 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Operazione che si aggira intorno ai 23 milioni di euro totali.",
+          "start_sec": 72.6,
+          "end_sec": 107.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "Atalanta ha chiuso l'operazione Raspadori a titolo definitivo.",
+      "polarity": "positive",
+      "claim_id": "463fd208-accf-446c-b726-99b172f5e44e",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta ha chiuso l'operazione Raspadori a titolo definitivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta ha chiuso l'operazione Raspadori in eh non in prestito con delitto di riscatto, bensì a titolo",
+          "start_sec": 39.76,
+          "end_sec": 75.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Giovanni",
+      "position": "Si è parlato di Giovanni del Verona come obiettivo, ma non era il principale.",
+      "polarity": "negative",
+      "claim_id": "10379d19-a6af-4919-99ba-11d0d15c7d69",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s1",
+      "target_entity": "Giovanni",
+      "entity_type": "player",
+      "dimension": "rivalry",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si è parlato di Giovanni del Verona come obiettivo, ma non era il principale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, si è parlato tanto di Giovanni del Verona, ma l'obiettivo numero uno dell'Atalanta è sempre stato Raspadori",
+          "start_sec": 39.76,
+          "end_sec": 75.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Roma",
+      "position": "La Roma ha visto diminuire l'entusiasmo verso Raspadori.",
+      "polarity": "negative",
+      "claim_id": "ba0d3c52-c6d9-4305-bd21-c19fdaa4ffc5",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha visto diminuire l'entusiasmo verso Raspadori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "più passano i giorni più diciamo passa l'entusiasmo tra la Roma e Raspadori",
+          "start_sec": 104.92,
+          "end_sec": 138.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Giacomo Raspadori",
+      "position": "Raspadori è coinvolto in un trasferimento.",
+      "polarity": "positive",
+      "claim_id": "8c61862e-9496-44ef-9939-19551e03bee0",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s0",
+      "target_entity": "Giacomo Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Raspadori è coinvolto in un trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un here we go perché Giacomo Raspadori giocherà",
+          "start_sec": 0.0,
+          "end_sec": 42.519999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Raspadori",
+      "position": "Raspadori è l'obiettivo numero uno dell'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "60653fa3-487a-4729-b781-d22cd6530922",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s1",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Raspadori è l'obiettivo numero uno dell'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'obiettivo numero uno dell'Atalanta è sempre stato Raspadori",
+          "start_sec": 39.76,
+          "end_sec": 75.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Atalanta",
+      "position": "Atalanta stava cercando un calciatore specifico.",
+      "polarity": "neutral",
+      "claim_id": "af7dad8a-0f5e-42a6-a853-b9437e62b07b",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta stava cercando un calciatore specifico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta stava cercando quel tipo di calciatore lì",
+          "start_sec": 39.76,
+          "end_sec": 75.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Raspadori",
+      "position": "Raspadori ha avuto colloqui diretti con l'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "234296f0-ac16-4d85-904c-3790d4ba85ab",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s2",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Raspadori ha avuto colloqui diretti con l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Raspadori ha parlato con con Palladino, ha già avuto dei colloqui diretti con eh chi comanda all'interno dell'Atalanta.",
+          "start_sec": 72.6,
+          "end_sec": 107.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Percassi",
+      "position": "Luca Percassi ha condotto l'operazione per Raspadori.",
+      "polarity": "positive",
+      "claim_id": "3684c89b-856a-4664-afdd-32e4d7df092a",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s2",
+      "target_entity": "Percassi",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Luca Percassi ha condotto l'operazione per Raspadori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Operazione condotta e portata avanti dal presidente Luca Percassi.",
+          "start_sec": 72.6,
+          "end_sec": 107.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Betson Sport",
+      "position": "Il video è sponsorizzato da Betson Sport.",
+      "polarity": "positive",
+      "claim_id": "ed69145d-1bfe-4472-af3d-9a2419a150fc",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s0",
+      "target_entity": "Betson Sport",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il video è sponsorizzato da Betson Sport.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli amici di Betson Sport",
+          "start_sec": 0.0,
+          "end_sec": 42.519999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha deciso di puntare su Raspadori.",
+      "polarity": "positive",
+      "claim_id": "7f799592-8426-42b4-a07c-873ade48fa0e",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha deciso di puntare su Raspadori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Atalanta è andata decisa su Raspadori.",
+          "start_sec": 72.6,
+          "end_sec": 107.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Giacomo Raspadori",
+      "position": "Giacomo Raspadori giocherà.",
+      "polarity": "positive",
+      "claim_id": "1c061966-e7a2-4fb3-a9f5-0901df4491b1",
+      "video_id": "VU51vW1gXEY",
+      "segment_id": "s0",
+      "target_entity": "Giacomo Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giacomo Raspadori giocherà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un here we go perché Giacomo Raspadori giocherà",
+          "start_sec": 0.0,
+          "end_sec": 42.519999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

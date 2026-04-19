@@ -50,13 +50,15 @@ def merge_pending_into_channels(root: Path) -> int:
     for list_path, urls in to_append.items():
         existing = read_video_list(list_path)
         existing_ids = {_extract_id(u) for u in existing} - {None}
-        combined = list(existing)
+        # Prepend: le liste canale sono tenute newest-first; append rompeva sync recenti / ordine UI.
+        new_front: list[str] = []
         for url in urls:
             vid = _extract_id(url)
             if vid and vid not in existing_ids:
-                combined.append(url)
+                new_front.append(url)
                 existing_ids.add(vid)
                 added += 1
+        combined = new_front + list(existing)
         write_video_list(list_path, combined)
 
     # Clear pending

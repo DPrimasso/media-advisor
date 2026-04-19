@@ -1,0 +1,346 @@
+{
+  "video_id": "WGHrdbBlwDo",
+  "analyzed_at": "2026-04-19T12:26:51.103343+00:00",
+  "metadata": {
+    "title": "🚨 ALTRO COLPO IN CHIUSURA! BLITZ GALATASARAY! LOOKMAN, FRATTESI-JUVE, KOOPMEINERS, MALEN, FOFANA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-01-13"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle recenti operazioni di calciomercato in Serie A, evidenziando i trasferimenti di giocatori come Harrison e Raspadori. L'autore sottolinea che l'Atalanta ha concluso con successo l'acquisto di Raspadori per un massimo di 25 milioni di euro, mentre la Fiorentina ha rinforzato la squadra con Harrison e Brescianini. Romano conclude che la Roma sta lavorando per chiudere l'acquisto di Robinho Vataz, cambiando strategia dopo la mancanza di risposte da Raspadori, evidenziando l'importanza di adattarsi rapidamente nel calciomercato.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "frattesi",
+      "relevance": "high"
+    },
+    {
+      "name": "galatasaray",
+      "relevance": "medium"
+    },
+    {
+      "name": "acquisto",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha chiuso l'operazione Raspadori con un costo massimo di 25 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "57acba7a-a274-4437-bcef-8e882056f6bd",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha chiuso l'operazione Raspadori con un costo massimo di 25 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta ha chiuso l'operazione con il direttore sportivo dell'Atletico Madrid Matteu Alemani che ha accettato un'offerta che porterà fino a un tetto di 25 milioni di euro.",
+          "start_sec": 25.16,
+          "end_sec": 53.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha preso Harrison in prestito con diritto di riscatto.",
+      "polarity": "positive",
+      "claim_id": "fdbc2adc-3ad3-40e7-9965-69d248a93125",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha preso Harrison in prestito con diritto di riscatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Fiorentina che ha preso Harrison da Ledz, prestito con diritto di riscatto 10 milioni di euro",
+          "start_sec": 0.56,
+          "end_sec": 28.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha chiuso un'operazione di mercato semplice con Raspadori.",
+      "polarity": "positive",
+      "claim_id": "c739cbd1-08b3-44d2-a534-70ae378a5045",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha chiuso un'operazione di mercato semplice con Raspadori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un'operazione molto semplice che l'Atalanta ha chiuso grazie anche ad un'offerta di contratto importante.",
+          "start_sec": 52.039,
+          "end_sec": 79.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Raspadori",
+      "position": "Raspadori è atteso per visite mediche e firme del contratto.",
+      "polarity": "positive",
+      "claim_id": "e082e8e2-785b-4181-a5cd-8115192c5e20",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s2",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Raspadori è atteso per visite mediche e firme del contratto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si stanno organizzando visite mediche, firme del contratto e poi Jack Raspadori.",
+          "start_sec": 52.039,
+          "end_sec": 79.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ricky Massara",
+      "position": "Ricky Massara è stato in Francia per conferire su Robinho Vazza.",
+      "polarity": "positive",
+      "claim_id": "e1e9f54b-736c-435a-a71a-5216bc2d87fe",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s3",
+      "target_entity": "Ricky Massara",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ricky Massara è stato in Francia per conferire su Robinho Vazza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ricky Massara, direttore sportivo della Roma, sia stato in Francia ieri a Parigi.",
+          "start_sec": 76.68,
+          "end_sec": 105.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Raffaele",
+      "position": "Raffaele avrà un nuovo rinforzo con l'arrivo di Raspadori.",
+      "polarity": "positive",
+      "claim_id": "e80f241a-7007-4ca1-ac61-b6e1d8fe90ae",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s2",
+      "target_entity": "Raffaele",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Raffaele avrà un nuovo rinforzo con l'arrivo di Raspadori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nuovo rinforzo in arrivo per Raffaele.",
+          "start_sec": 52.039,
+          "end_sec": 79.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Robinho Vazza",
+      "position": "Robinho Vazza arriverà a Ciampino per chiudere l'operazione.",
+      "polarity": "positive",
+      "claim_id": "c8726d7e-867e-49bc-ba06-72c0ed0c404a",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s3",
+      "target_entity": "Robinho Vazza",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Robinho Vazza arriverà a Ciampino per chiudere l'operazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Robinho Vazza che tra poche ore sarà a Ciampino.",
+          "start_sec": 76.68,
+          "end_sec": 105.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Jack Raspadori",
+      "position": "Jack Raspadori ha accettato un'offerta dall'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "74e0cd19-7d80-4db4-a9d9-1d42bbc01265",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s1",
+      "target_entity": "Jack Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Jack Raspadori ha accettato un'offerta dall'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Jack Raspadori che ha detto sì all'Atalanta durante la tarda serata di ieri.",
+          "start_sec": 25.16,
+          "end_sec": 53.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Harrison",
+      "position": "Harrison è indirizzato verso la Fiorentina.",
+      "polarity": "positive",
+      "claim_id": "a795b3be-fc00-4098-b6d2-87edda91c7db",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s0",
+      "target_entity": "Harrison",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Harrison è indirizzato verso la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giocatore indirittura d'arrivo ad una Fiorentina",
+          "start_sec": 0.56,
+          "end_sec": 28.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha anche preso Brescianini.",
+      "polarity": "positive",
+      "claim_id": "c67da426-7572-4e46-94b0-51434721b30b",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha anche preso Brescianini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha preso Brescianini",
+          "start_sec": 0.56,
+          "end_sec": 28.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Brescianini",
+      "position": "Brescianini è stato acquistato dalla Fiorentina.",
+      "polarity": "positive",
+      "claim_id": "0579cb5d-5cd5-43bf-8c80-8dcfbc5df0de",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s0",
+      "target_entity": "Brescianini",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Brescianini è stato acquistato dalla Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha preso Brescianini",
+          "start_sec": 0.56,
+          "end_sec": 28.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Raspadori",
+      "position": "L'Atalanta ha acquistato Raspadori con un'offerta di contratto importante.",
+      "polarity": "positive",
+      "claim_id": "95f7d906-dc37-49da-95c5-4c5440e18a34",
+      "video_id": "WGHrdbBlwDo",
+      "segment_id": "s2",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha acquistato Raspadori con un'offerta di contratto importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atalanta che compra Raspadori, quindi non è un'operazione strutturata con dei prestiti.",
+          "start_sec": 52.039,
+          "end_sec": 79.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

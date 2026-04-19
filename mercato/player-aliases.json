@@ -2,7 +2,6 @@
   "_comment": "Mappa alias_slug → nome canonico. Organizzato per campionato/squadra per facilità di manutenzione.",
   "_format": "Le chiavi che iniziano con '_' sono metadati e vengono ignorate. Ogni sezione è un dizionario di slug → canonical (stringa) oppure null (rumore/nome ambiguo da filtrare).",
   "_instructions": "Per aggiungere un alias: trovare la sezione corretta e aggiungere 'slug-del-transcript': 'Nome Canonico'. Per silenziare rumore noto: 'slug-sbagliato': null.",
-
   "napoli": {
     "_label": "Napoli (Serie A)",
     "raspadori": "Giacomo Raspadori",
@@ -29,7 +28,6 @@
     "simeone": "Giovanni Simeone",
     "folorunsho": "Michael Folorunsho"
   },
-
   "inter": {
     "_label": "Inter (Serie A)",
     "bastoni": "Alessandro Bastoni",
@@ -60,7 +58,6 @@
     "dimarco": "Federico Dimarco",
     "de-vrij": "Stefan de Vrij"
   },
-
   "juventus": {
     "_label": "Juventus (Serie A)",
     "vlahovic": "Dusan Vlahovic",
@@ -88,7 +85,6 @@
     "mbangula": "Samuel Mbangula",
     "thiago-motta": "Thiago Motta"
   },
-
   "milan": {
     "_label": "Milan (Serie A)",
     "leao": "Rafael Leao",
@@ -113,7 +109,6 @@
     "tomori": "Fikayo Tomori",
     "fikayo-tomori": "Fikayo Tomori"
   },
-
   "roma": {
     "_label": "Roma (Serie A)",
     "dovbyk": "Artem Dovbyk",
@@ -130,7 +125,6 @@
     "pellegrini": "Lorenzo Pellegrini",
     "lorenzo-pellegrini": "Lorenzo Pellegrini"
   },
-
   "atalanta": {
     "_label": "Atalanta (Serie A)",
     "scalvini": "Giorgio Scalvini",
@@ -150,7 +144,6 @@
     "kolasinac": "Sead Kolasinac",
     "pasalic": "Mario Pasalic"
   },
-
   "lazio": {
     "_label": "Lazio (Serie A)",
     "castellanos": "Taty Castellanos",
@@ -164,7 +157,6 @@
     "romagnoli": "Alessio Romagnoli",
     "patric": "Patric"
   },
-
   "fiorentina": {
     "_label": "Fiorentina (Serie A)",
     "terracciano": "Pietro Terracciano",
@@ -175,7 +167,6 @@
     "gudmundsson": "Albert Gudmundsson",
     "pongracic": "Marin Pongracic"
   },
-
   "bologna": {
     "_label": "Bologna (Serie A)",
     "pobega": "Tommaso Pobega",
@@ -185,7 +176,6 @@
     "orsolini": "Riccardo Orsolini",
     "ndoye": "Dan Ndoye"
   },
-
   "torino": {
     "_label": "Torino (Serie A)",
     "zapata": "Duvan Zapata",
@@ -194,7 +184,6 @@
     "ricci": "Samuele Ricci",
     "samuele-ricci": "Samuele Ricci"
   },
-
   "genoa": {
     "_label": "Genoa (Serie A)",
     "gudmundsson-genoa": "Albert Gudmundsson",
@@ -204,7 +193,6 @@
     "coni-de-vinter": "Koni De Winter",
     "the-winter": "Koni De Winter"
   },
-
   "serie_a_altri": {
     "_label": "Altri club Serie A",
     "ghilardi": "Daniele Ghilardi",
@@ -241,7 +229,6 @@
     "fabian": "Fabian Ruiz",
     "fabian-ruiz": "Fabian Ruiz"
   },
-
   "premier_league": {
     "_label": "Premier League",
     "mainoo": "Kobbie Mainoo",
@@ -275,7 +262,6 @@
     "james-jordan": "Jordan James",
     "jordan-james": "Jordan James"
   },
-
   "la_liga": {
     "_label": "La Liga",
     "juanlu": "Juanlu Sanchez",
@@ -284,7 +270,6 @@
     "abdulhamid": "Saud Abdulhamid",
     "saud-abdulhamid": "Saud Abdulhamid"
   },
-
   "bundesliga_eredivisie": {
     "_label": "Bundesliga / Eredivisie / Ligue 1",
     "openda": "Lois Openda",
@@ -313,7 +298,6 @@
     "donnarumma": "Gianluigi Donnarumma",
     "gigio-donnarumma": "Gianluigi Donnarumma"
   },
-
   "noise": {
     "_label": "Nomi ambigui o rumore da transcript — mappati a null per escluderli",
     "_note": "Usare null per nomi che il transcript genera spesso ma che sono troppo generici o incomprensibili per essere associati a un giocatore specifico.",
@@ -342,5 +326,12 @@
     "lukman-ambiguo": null,
     "salahedin": null,
     "chihab": null
+  },
+  "custom": {
+    "_label": "Alias personalizzati (dashboard)",
+    "cristian kivu": "Cristian Chivu",
+    "ken": "Kean",
+    "open dai": "Openda",
+    "kanan davis": "Keinan Davis"
   }
 }

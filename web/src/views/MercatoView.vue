@@ -231,6 +231,41 @@ function tipVideoUrl(tip) {
   return t != null ? `${base}&t=${t}s` : base
 }
 
+// Mapping nomi
+const aliasModal = ref({ show: false, alias: '', canonical: '', saving: false, error: null })
+
+function openAliasModal(playerName) {
+  aliasModal.value = { show: true, alias: playerName, canonical: '', saving: false, error: null }
+}
+
+function closeAliasModal() {
+  aliasModal.value.show = false
+}
+
+async function submitAlias() {
+  const m = aliasModal.value
+  if (!m.alias || !m.canonical.trim()) return
+  m.saving = true
+  m.error = null
+  try {
+    const res = await fetch('/api/mercato/aliases', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ alias: m.alias, canonical: m.canonical.trim() }),
+    })
+    if (!res.ok) {
+      const data = await res.json()
+      throw new Error(data.detail || `HTTP ${res.status}`)
+    }
+    closeAliasModal()
+    await fetchTips()
+  } catch (e) {
+    m.error = e.message
+  } finally {
+    m.saving = false
+  }
+}
+
 // Editing della data di una tip senza data
 const dateEditingTip = ref(null)
 const dateEditValue = ref('')
@@ -406,6 +441,9 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchS
           <button class="player-link" @click="goToPlayer(tip.player_name)">
             {{ tip.player_name }}
           </button>
+          <button class="btn-map-alias" @click="openAliasModal(tip.player_name)" title="Mappa nome sbagliato">
+            Mappa nome
+          </button>
           <span :class="['badge', CONFIDENCE_CLASSES[tip.confidence]]">
             {{ CONFIDENCE_LABELS[tip.confidence] }}
           </span>
@@ -542,6 +580,39 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchS
         <!-- Note outcome -->
         <div v-if="tip.outcome_notes" class="outcome-note-row">
           <span class="note-text">{{ tip.outcome_notes }}</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal mappa nome -->
+    <div v-if="aliasModal.show" class="alias-overlay" @click.self="closeAliasModal">
+      <div class="alias-modal">
+        <h3 class="alias-title">Mappa nome giocatore</h3>
+        <p class="alias-desc">Il nome sbagliato verrà sostituito con quello corretto al prossimo caricamento.</p>
+        <div class="alias-field">
+          <label class="alias-label">Nome attuale (sbagliato)</label>
+          <input class="alias-input alias-input-readonly" :value="aliasModal.alias" readonly />
+        </div>
+        <div class="alias-field">
+          <label class="alias-label">Nome corretto</label>
+          <input
+            class="alias-input"
+            v-model="aliasModal.canonical"
+            placeholder="Es. Victor Osimhen"
+            @keyup.enter="submitAlias"
+            autofocus
+          />
+        </div>
+        <p v-if="aliasModal.error" class="alias-error">{{ aliasModal.error }}</p>
+        <div class="alias-actions">
+          <button class="btn-alias-cancel" @click="closeAliasModal">Annulla</button>
+          <button
+            class="btn-alias-save"
+            :disabled="aliasModal.saving || !aliasModal.canonical.trim()"
+            @click="submitAlias"
+          >
+            {{ aliasModal.saving ? 'Salvataggio...' : 'Salva mapping' }}
+          </button>
         </div>
       </div>
     </div>
@@ -771,4 +842,45 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchS
 .rel-club { font-size: .78rem; font-weight: 600; }
 .contr-club { color: #dc2626; }
 .rel-text { margin: 0; color: var(--color-text, #222); }
+
+/* Mappa nome */
+.btn-map-alias {
+  background: none; border: 1px solid var(--color-border, #ddd);
+  border-radius: 4px; padding: .1rem .45rem; font-size: .7rem;
+  color: var(--color-text-muted, #888); cursor: pointer;
+  white-space: nowrap;
+}
+.btn-map-alias:hover { border-color: #0066cc; color: #0066cc; }
+
+.alias-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,.45);
+  display: flex; align-items: center; justify-content: center; z-index: 1000;
+}
+.alias-modal {
+  background: var(--color-bg, #fff); border-radius: 12px;
+  padding: 1.5rem 1.75rem; max-width: 420px; width: 90%;
+  box-shadow: 0 8px 32px rgba(0,0,0,.2);
+}
+.alias-title { font-size: 1.1rem; font-weight: 700; margin: 0 0 .4rem; }
+.alias-desc { font-size: .82rem; color: var(--color-text-muted, #888); margin: 0 0 1rem; }
+.alias-field { display: flex; flex-direction: column; gap: .25rem; margin-bottom: .8rem; }
+.alias-label { font-size: .78rem; font-weight: 600; color: var(--color-text-muted, #666); }
+.alias-input {
+  padding: .45rem .65rem; border: 1px solid var(--color-border, #ddd); border-radius: 6px;
+  background: var(--color-bg, #fff); color: var(--color-text, #111); font-size: .9rem;
+}
+.alias-input:focus { outline: 2px solid #0066cc; border-color: transparent; }
+.alias-input-readonly { background: var(--color-surface, #f5f5f5); color: var(--color-text-muted, #666); }
+.alias-error { color: #dc2626; font-size: .82rem; margin: 0 0 .75rem; }
+.alias-actions { display: flex; gap: .6rem; justify-content: flex-end; margin-top: .5rem; }
+.btn-alias-cancel {
+  background: none; border: 1px solid var(--color-border, #ddd); border-radius: 6px;
+  padding: .4rem .9rem; font-size: .85rem; cursor: pointer; color: var(--color-text, #111);
+}
+.btn-alias-save {
+  background: #0066cc; color: #fff; border: none; border-radius: 6px;
+  padding: .4rem .9rem; font-size: .85rem; font-weight: 600; cursor: pointer;
+}
+.btn-alias-save:disabled { opacity: .6; cursor: default; }
+.btn-alias-save:hover:not(:disabled) { background: #0052a3; }
 </style>

@@ -20,7 +20,7 @@ from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 
 from media_advisor.config import Settings
-from media_advisor.io.json_io import read_json_or_default, write_json, read_video_list, write_video_list
+from media_advisor.io.json_io import read_json, read_json_or_default, write_json, read_video_list, write_video_list
 from media_advisor.io.paths import channels_config_path, channel_list_path, pending_path
 from media_advisor.models.channels import ChannelsConfig
 from media_advisor.models.pending import PendingResult
@@ -179,6 +179,11 @@ class AddTransferRequest(BaseModel):
 class FetchTransfersRequest(BaseModel):
     player_name: str
     season: str | None = None   # es. "2025" (anno di inizio)
+
+
+class AddAliasRequest(BaseModel):
+    alias: str       # nome sbagliato (come appare nella UI)
+    canonical: str   # nome corretto da usare
 
 
 def _enrich_tips(tips: list, all_tips: list) -> list[dict]:
@@ -438,6 +443,36 @@ async def post_mercato_fetch_transfers(body: FetchTransfersRequest) -> Any:
     return {"ok": True, "added": len(added), "transfers": added}
 
 
+@app.post("/api/mercato/aliases")
+async def add_player_alias(body: AddAliasRequest) -> Any:
+    """Aggiunge un alias giocatore a player-aliases.json e invalida la cache."""
+    import json as json_mod
+
+    alias = body.alias.strip()
+    canonical = body.canonical.strip()
+    if not alias or not canonical:
+        raise HTTPException(status_code=400, detail="alias e canonical sono obbligatori")
+
+    aliases_path = _root / "mercato" / "player-aliases.json"
+    if aliases_path.exists():
+        data: dict = json_mod.loads(aliases_path.read_text(encoding="utf-8"))
+    else:
+        data = {}
+
+    if "custom" not in data:
+        data["custom"] = {"_label": "Alias personalizzati (dashboard)"}
+    data["custom"][alias.lower()] = canonical
+
+    aliases_path.write_text(
+        json_mod.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    from media_advisor.mercato.player_normalizer import load_player_registry
+    load_player_registry.cache_clear()
+
+    return {"ok": True, "alias": alias, "canonical": canonical}
+
+
 @app.post("/api/mercato/analyze")
 async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
     s = Settings()
@@ -672,7 +707,6 @@ async def _scan_mercato_videos(
 
 
 async def _run_full_sync() -> None:
-    from media_advisor.io.json_io import read_json
     from media_advisor.models.channels import ChannelsConfig
 
     s = Settings()
@@ -767,18 +801,13 @@ async def _run_full_sync() -> None:
 
 
 async def _run_recent_sync() -> None:
-    """Sync recenti: processa i primi N video per canale che non hanno ancora l'analisi.
+    """Sync recenti: fetch+merge come il totale, poi pipeline solo sui video appena scoperti in questa run.
 
-    Non dipende dall'API di listing canale (che richiede piano a pagamento).
-    Scorre le channel list (ordinate newest-first) e processa solo i video in cima
-    che mancano di transcript o analisi.
+    Non processa backlog senza analisi (quello resta a POST /api/sync). Se il fetch non trova
+    nulla di nuovo, termina senza chiamare transcript.
     """
-    from media_advisor.io.json_io import read_json
-    from media_advisor.io.paths import analysis_path as _ap, transcript_path as _tp
+    from media_advisor.io.paths import transcript_path as _tp
     from media_advisor.models.channels import ChannelsConfig
-    from media_advisor.run_pipeline import _extract_video_id
-
-    RECENT_LIMIT = 5  # video per canale da guardare dalla testa della lista
 
     s = Settings()
     root = _root
@@ -795,45 +824,55 @@ async def _run_recent_sync() -> None:
     )
 
     try:
+        # Step 1 — Stesso fetch del sync totale: nuovi upload → pending.json
+        _sync_log("Step 1/5: Recupero nuovi video dai canali (come sync totale)...")
+        from media_advisor.fetch import run_fetch_new_videos
+
+        pending = await run_fetch_new_videos(root, s.transcript_api_key)
+        n_fetched_new = len(pending.items)
+        _sync_log(f"  {n_fetched_new} nuovi video trovati dall'API")
+        result_summary["new_videos"] = n_fetched_new
+
+        # Step 2 — Merge nelle liste canale (newest-first: prepend in merge)
+        _sync_log("Step 2/5: Aggiungo video alle liste canale...")
+        from media_advisor.merge import merge_pending_into_channels
+
+        added = merge_pending_into_channels(root)
+        _sync_log(f"  {added} video aggiunti alle liste")
+        result_summary["added_to_lists"] = added
+
         cfg_raw = read_json(channels_config_path(root))
         cfg = ChannelsConfig.model_validate(cfg_raw)
 
-        # Step 1 — Trova i video recenti non analizzati nelle channel list
-        _sync_log(f"Step 1/3: Cerco video recenti non analizzati (max {RECENT_LIMIT} per canale)...")
+        # Step 3 — Solo i video in pending di questa run (dopo merge sono già in lista)
         recent_ids: set[str] = set()
         channel_of: dict[str, str] = {}
-
-        for ch in sorted(cfg.channels, key=lambda c: c.order):
-            list_path = channel_list_path(root, ch.video_list)
-            if not list_path.exists():
+        for item in pending.items:
+            if not item.video_id:
                 continue
-            urls = read_video_list(list_path)
+            recent_ids.add(item.video_id)
+            channel_of[item.video_id] = item.channel_id
 
-            found = 0
-            for url in urls:  # lista ordinata newest-first
-                vid = _extract_video_id(str(url))
-                if not vid:
-                    continue
-                if not _ap(root, ch.id, vid).exists():
-                    recent_ids.add(vid)
-                    channel_of[vid] = ch.id
-                    found += 1
-                if found >= RECENT_LIMIT:
-                    break
-
-            if found:
-                _sync_log(f"  [{ch.id}] {found} video recenti senza analisi")
-
-        result_summary["new_videos"] = len(recent_ids)
+        result_summary["recent_pending_analysis"] = len(recent_ids)
 
         if not recent_ids:
-            _sync_log("Tutto aggiornato: tutti i video recenti sono già analizzati.")
+            _sync_log(
+                "Step 3/5: Nessun video nuovo in questa run. Per transcript/analisi arretrati usa sync totale."
+            )
             _sync_state.update(
                 status="done",
                 finished_at=datetime.now(_tz.utc).isoformat(),
                 result=result_summary,
             )
             return
+
+        from collections import Counter
+
+        _sync_log(
+            f"Step 3/5: Pipeline solo sui {len(recent_ids)} video nuovi di questa run (non il backlog)..."
+        )
+        for ch_id, n in sorted(Counter(channel_of[v] for v in recent_ids).items()):
+            _sync_log(f"  [{ch_id}] {n} da processare")
 
         total_to_process = len(recent_ids)
         _sync_log(f"  → {total_to_process} video da processare in totale")
@@ -845,9 +884,10 @@ async def _run_recent_sync() -> None:
             _sync_state["progress"]["current"] += 1
             _sync_state["progress"]["channel"] = ch_id
 
-        # Step 2 — Transcript + analisi claims (progress aggiornato per ogni video)
-        _sync_log("Step 2/3: Transcript e analisi claims...")
+        # Step 4 — Transcript + analisi claims solo su recent_ids
+        _sync_log("Step 4/5: Transcript e analisi claims (solo coda recenti)...")
         from media_advisor.run_pipeline import run_from_list
+
         pipeline_result = await run_from_list(
             root=root,
             transcript_api_key=s.transcript_api_key,
@@ -867,8 +907,8 @@ async def _run_recent_sync() -> None:
         result_summary["analyzed"] = total_analyzed
         result_summary["failed"] = total_failed
 
-        # Step 3 — Mercato scan sui video recenti dei canali mercato
-        _sync_log("Step 3/3: Mercato scan (video recenti)...")
+        # Step 5 — Mercato scan sui video recenti dei canali mercato
+        _sync_log("Step 5/5: Mercato scan (video recenti)...")
         mercato_ch_ids = {c.id for c in cfg.channels if getattr(c, "mercato_channel", False)}
 
         recent_pairs = [
