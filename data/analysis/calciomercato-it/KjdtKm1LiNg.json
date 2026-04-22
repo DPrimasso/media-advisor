@@ -1,0 +1,202 @@
+{
+  "video_id": "KjdtKm1LiNg",
+  "analyzed_at": "2026-04-21T14:51:03.565771+00:00",
+  "metadata": {
+    "title": "Juventus-Genoa e il mondo delle favole degli arbitri #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video analizza la controversa decisione arbitrale durante Juventus-Genoa, focalizzandosi sul gol di Bremer convalidato nonostante le proteste per un presunto fallo su Colombo. L'autore critica l'arbitro Massa, che ammette di non aver visto l'azione e si affida al VAR, il quale conferma la decisione dopo un solo replay, suscitando dubbi sulla correttezza del controllo. Viene inoltre sottolineato il comportamento di Massa che invita il capitano del Genoa a non protestare per evitare \"una brutta figura\" e loda il VAR, evidenziando un clima di favoritismi e mancanza di trasparenza nelle decisio",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "comunicazione",
+      "relevance": "high"
+    },
+    {
+      "name": "azione di gioco",
+      "relevance": "high"
+    },
+    {
+      "name": "contestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Juventus",
+      "position": "Il gol di Bremer è stato convalidato nonostante le proteste del Genoa per un fallo non visto dall'arbitro.",
+      "polarity": "negative",
+      "claim_id": "5125f88f-0ba2-4d98-ab2d-f7f032e4a6cc",
+      "video_id": "KjdtKm1LiNg",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il gol di Bremer è stato convalidato nonostante le proteste del Genoa per un fallo non visto dall'arbitro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gli ospiti protestano per il gol di Bremer dopo pochi minuti con Colombo a terra con la scarpetta in mano.",
+          "start_sec": 0.16,
+          "end_sec": 28.240000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Massa",
+      "position": "L'arbitro Massa afferma di non aver visto l'azione contestata durante Juventus-Genoa.",
+      "polarity": "negative",
+      "claim_id": "2ad526ad-d6c9-4e50-849e-52aa2033adaf",
+      "video_id": "KjdtKm1LiNg",
+      "segment_id": "s0",
+      "target_entity": "Massa",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro Massa afferma di non aver visto l'azione contestata durante Juventus-Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'arbitro internazionale Massa fa come Ponzio Pilato e ai giocatori rossoblu dice subito: \"Io non l'ho vista\".",
+          "start_sec": 0.16,
+          "end_sec": 28.240000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR con Paterna e Meraviglia avalla la decisione di campo dopo un solo replay.",
+      "polarity": "negative",
+      "claim_id": "960afc88-5939-440e-865a-fe8b0529a6a2",
+      "video_id": "KjdtKm1LiNg",
+      "segment_id": "s0",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR con Paterna e Meraviglia avalla la decisione di campo dopo un solo replay.",
+      "evidence_quotes": [
+        {
+          "quote_text": "controllano al VAR ci sono Paterna e Meraviglia che dopo un solo replay avallano la decisione di campo.",
+          "start_sec": 0.16,
+          "end_sec": 28.240000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bremer",
+      "position": "Il check sull'azione si concentra sul contatto tra Bremer e Colombo e su eventuali irregolarità.",
+      "polarity": "neutral",
+      "claim_id": "318b0267-c283-4761-9cac-45768c300a0e",
+      "video_id": "KjdtKm1LiNg",
+      "segment_id": "s1",
+      "target_entity": "Bremer",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il check sull'azione si concentra sul contatto tra Bremer e Colombo e su eventuali irregolarità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il check va avanti, ma invece del contatto tra Bremer e Colombo, allsone si focalizzano sul resto dell'azione per verificare che non ci siano altre irregolarità",
+          "start_sec": 25.92,
+          "end_sec": 56.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "contatto",
+        "VAR"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Massa",
+      "position": "L'arbitro Massa consiglia al capitano Vasquez di non protestare per evitare una brutta figura.",
+      "polarity": "positive",
+      "claim_id": "b0f1f353-192e-444f-96fd-3c624e7a10c0",
+      "video_id": "KjdtKm1LiNg",
+      "segment_id": "s1",
+      "target_entity": "Massa",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro Massa consiglia al capitano Vasquez di non protestare per evitare una brutta figura.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Massa si rivolge al capitano Vasquez dicendogli di non protestare perché sennò facciamo brutta figura",
+          "start_sec": 25.92,
+          "end_sec": 56.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "protesta",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Massa",
+      "position": "Massa fa i complimenti a Paterna per la sua decisione.",
+      "polarity": "positive",
+      "claim_id": "0343bcf2-91e0-463c-9b70-f26e83ab06d4",
+      "video_id": "KjdtKm1LiNg",
+      "segment_id": "s1",
+      "target_entity": "Massa",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Massa fa i complimenti a Paterna per la sua decisione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "riparla con Paterna per fargli i complimenti",
+          "start_sec": 25.92,
+          "end_sec": 56.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "complimenti",
+        "leadership"
+      ]
+    }
+  ]
+}

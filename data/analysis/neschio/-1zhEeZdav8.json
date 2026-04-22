@@ -1,0 +1,407 @@
+{
+  "video_id": "-1zhEeZdav8",
+  "analyzed_at": "2026-04-21T14:38:17.433474+00:00",
+  "metadata": {
+    "title": "SCHIAFFI, SEMPRE SCHIAFFI‼️ BOLOGNA-ASTON VILLA 1-3 e CRYSTAL PALACE-FIORENTINA 3-0",
+    "author_name": "Neschio",
+    "published_at": "2026-04-09"
+  },
+  "summary": "Il video analizza le recenti sconfitte delle squadre italiane Bologna e Fiorentina in Europa, sottolineando come spesso le prestazioni degli italiani all'estero si traducano in \"schiaffi\", ovvero risultati negativi. L'autore critica in particolare la difesa del Bologna, che ha concesso tre, quasi quattro gol, e la Fiorentina, che ha subito un gol finale decisivo. Nonostante ciò, emerge una nota positiva nella buona prestazione del giocatore Roque del Bologna, che ha quasi segnato. La conclusione è che, sebbene le partite siano compromesse, ci sono segnali di qualità che meritano attenzione, ma",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "partita",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "errore difensivo",
+      "relevance": "medium"
+    },
+    {
+      "name": "fase difensiva",
+      "relevance": "medium"
+    },
+    {
+      "name": "errore",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "pressione",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "gol subiti",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Crystal Palace",
+      "position": "Crystal Palace is doing an excellent league championship despite finishing 14th recently.",
+      "polarity": "positive",
+      "claim_id": "813fcc17-3bb6-4f58-b162-c72e63dd3f10",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s6",
+      "target_entity": "Crystal Palace",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Crystal Palace is doing an excellent league championship despite finishing 14th recently.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a crystal palace a team that in any case despite being 14th just finished however is doing an excellent league championship",
+          "start_sec": 207.56,
+          "end_sec": 267.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "italiani in europa",
+      "position": "Quando ci sono italiani in Europa, ci sono frequentemente schiaffi (battute negative).",
+      "polarity": "negative",
+      "claim_id": "9fa1f3c4-0ff9-46cc-a966-d1dd5d32eb61",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s0",
+      "target_entity": "italiani in europa",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Quando ci sono italiani in Europa, ci sono frequentemente schiaffi (battute negative).",
+      "evidence_quotes": [
+        {
+          "quote_text": "Slaps, slaps, more slaps, always slaps, when there are Italians in Europe they are obviously slaps",
+          "start_sec": 0.5,
+          "end_sec": 29.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "italiani",
+        "europa",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "The games involving Bologna are already quite compromised.",
+      "polarity": "negative",
+      "claim_id": "df42933d-a75a-48ed-bbd8-8864175b82ed",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The games involving Bologna are already quite compromised.",
+      "evidence_quotes": [
+        {
+          "quote_text": "inevitably these are two games that are already quite compromise guys",
+          "start_sec": 33.62,
+          "end_sec": 82.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "roque",
+      "position": "Roque played well enough to almost score a goal in the Bologna match.",
+      "polarity": "positive",
+      "claim_id": "d0c6237d-45b6-4e36-ae15-9e1edb32e041",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s3",
+      "target_entity": "roque",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Roque played well enough to almost score a goal in the Bologna match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bologna that is of a player in particular then I must say roque but he really did that he stopped because if not he also scored the goal",
+          "start_sec": 82.66,
+          "end_sec": 120.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Crystal Palace",
+      "position": "La partita Crystal Palace-Fiorentina è quasi finita con un punteggio netto.",
+      "polarity": "positive",
+      "claim_id": "47386f14-6f11-41cc-adcb-ebfcce147fb8",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s5",
+      "target_entity": "Crystal Palace",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Crystal Palace-Fiorentina è quasi finita con un punteggio netto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "crystal palace florentina is almost almost finished",
+          "start_sec": 163.06,
+          "end_sec": 207.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Gasperini",
+      "position": "The speaker is struggling to forgive Gasperini's coaching.",
+      "polarity": "negative",
+      "claim_id": "d16e0033-d57c-4168-9b1f-c857b91c00ea",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s6",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "The speaker is struggling to forgive Gasperini's coaching.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the coach gas gas I don't know gas gas I can't what I'm struggling to forgive",
+          "start_sec": 207.56,
+          "end_sec": 267.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna has played a game with the capital.",
+      "polarity": "neutral",
+      "claim_id": "75ab149d-d2d8-4680-a276-f7123293ee43",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna has played a game with the capital.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bologna has played a game with the capital",
+          "start_sec": 29.24,
+          "end_sec": 33.62,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "Bologna"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Crystal Palace",
+      "position": "Crystal Palace potrebbe segnare un quarto gol nella partita contro la Fiorentina.",
+      "polarity": "positive",
+      "claim_id": "4e9621a0-1b70-4241-bd80-89bfbcee6497",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s5",
+      "target_entity": "Crystal Palace",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Crystal Palace potrebbe segnare un quarto gol nella partita contro la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "now he could he could also do the fourth",
+          "start_sec": 163.06,
+          "end_sec": 207.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "fiorentina",
+      "position": "La Fiorentina ha subito un gol finale.",
+      "polarity": "negative",
+      "claim_id": "3de251ee-a352-46b0-b7a7-4148c7048f2e",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s0",
+      "target_entity": "fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha subito un gol finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "for these final goals, for the one just suffered by Fiorentina",
+          "start_sec": 0.5,
+          "end_sec": 29.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "gol finale",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "P",
+      "position": "P has conceded three goals in the game.",
+      "polarity": "negative",
+      "claim_id": "0c089949-c70d-4f0f-b45f-e9f383d4b7f1",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s2",
+      "target_entity": "P",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "P has conceded three goals in the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he takes three, or better, he gives away three, he gives away three, that is, three goals",
+          "start_sec": 33.62,
+          "end_sec": 82.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol subiti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "bologna",
+      "position": "Il Bologna ha permesso un gol.",
+      "polarity": "negative",
+      "claim_id": "edcbde8b-167d-4fde-97fa-4a11ca30e2af",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s0",
+      "target_entity": "bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha permesso un gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "for what the Bologna has allowed",
+          "start_sec": 0.5,
+          "end_sec": 29.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "bologna",
+        "gol subito",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "P",
+      "position": "P also concedes a fourth goal in the game.",
+      "polarity": "negative",
+      "claim_id": "e4780c66-6637-4e59-9bed-54881a69d5ff",
+      "video_id": "-1zhEeZdav8",
+      "segment_id": "s2",
+      "target_entity": "P",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "P also concedes a fourth goal in the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he also takes the fourth",
+          "start_sec": 33.62,
+          "end_sec": 82.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol subiti"
+      ]
+    }
+  ]
+}

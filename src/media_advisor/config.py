@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     transcripts_dir: Path | None = Field(default=None, alias="MEDIA_ADVISOR_TRANSCRIPTS_DIR")
 
     # Pipeline
-    llm_model: str = Field(default="gpt-4o-mini", alias="MEDIA_ADVISOR_LLM_MODEL")
+    llm_model: str = Field(default="gpt-4.1-mini", alias="MEDIA_ADVISOR_LLM_MODEL")
     max_segments: int = Field(default=12, alias="MEDIA_ADVISOR_MAX_SEGMENTS")
     max_claims: int = Field(default=12, alias="MEDIA_ADVISOR_MAX_CLAIMS")
 

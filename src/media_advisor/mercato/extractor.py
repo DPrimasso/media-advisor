@@ -17,7 +17,7 @@ from media_advisor.mercato.player_normalizer import get_player_list_for_prompt, 
 from media_advisor.models.transcript import TranscriptResponse
 from media_advisor.pipeline.entity_normalizer import normalize_entity
 
-# gpt-4o-mini has 128K context, but very long transcripts waste tokens and cost.
+# gpt-4.1-mini has 128K context, but very long transcripts waste tokens and cost.
 # ~80K chars ≈ 20K tokens — sufficient for any realistic video length.
 _MAX_TRANSCRIPT_CHARS = 80_000
 
@@ -47,20 +47,24 @@ Per ogni indiscrezione estratta devi fornire:
 REGOLE:
 - ESAURISCI tutti i giocatori con notizie di mercato menzionati nel transcript: non fermarti al primo
 - Estrai SOLO indiscrezioni che riguardano un calciatore specifico con almeno from_club O to_club
+- ESTRAI ANCHE le partenze senza destinazione: se si dice "X lascerà il club", "addio pianificato", "in uscita" → from_club=club attuale, to_club=null, transfer_type="permanent" o "unknown"
+- ESTRAI ANCHE l'interesse iniziale: "il club parla con l'entourage", "sondaggio per X", "X è una pista", "voci che accostano X a Y", "X è accostato a Y" → confidence "rumor", to_club=club interessato
 - ESTRAI ANCHE le smentite/denied: se l'opinionista dice che una trattativa NON esiste, NON sta avvenendo, è smentita → confidence "denied", extracta come tip
+- ESTRAI ANCHE i denied di richiesta di cessione: "non ha mai chiesto la cessione", "non ha mai chiesto di andare via", "rifiuta di lasciare il club" → confidence "denied", from_club=club attuale, to_club=null
 - ESTRAI ANCHE operazioni separate per lo stesso giocatore: riscatto confermato + cessione pianificata = 2 tip distinte
+- ATTENZIONE ai rinnovi vs trasferimenti: se un giocatore è accostato al club X ma sta RINNOVANDO con il club Y, estrai il RINNOVO come tip principale (extension, from_club=Y, to_club=Y) e opzionalmente il denied per X
 - NON estrarre: commenti tattici, prestazioni in campo, infortuni, formazioni, episodi di partita, arbitri, classifiche
 - NON estrarre: opinioni generiche ("serve un difensore", "dovrebbero comprare X") senza notizia/rumor concreto
 - NON estrarre: semplici DATI BIOGRAFICI o di appartenenza ("X è al Y", "milita nel Y") se NON è parte di una notizia di mercato
 - NON estrarre: notizie già ufficiali pubbliche ovvie dette come contesto narrativo (es. "Lukaku è al Napoli" come premessa)
 - Se lo stesso calciatore è menzionato più volte per LA STESSA operazione, estrai UNA sola tip (la più dettagliata)
 - confidence "confirmed" solo se l'opinionista dice esplicitamente "è fatta", "confermato", "ufficiale", "è scattato l'obbligo"
-- confidence "denied" se dice esplicitamente "non sta trattando", "non c'è trattativa", "è smentita", "l'agente nega"
+- confidence "denied" se dice esplicitamente "non sta trattando", "non c'è trattativa", "è smentita", "l'agente nega", "non ha mai chiesto la cessione"
 - quote_text deve essere una substring esatta del transcript fornito
 - from_club / to_club: impostali SOLO se compaiono esplicitamente nel contesto della quote_text (niente inferenze)
-- Per rinnovi/extension: from_club e to_club sono lo stesso club (es. Juventus→Juventus)
+- Per rinnovi/extension: from_club e to_club sono lo stesso club (es. Real Madrid→Real Madrid)
 - Per tip "denied": from_club/to_club rappresentano il trasferimento VOCIFERATO che viene smentito (es. "non va al Besiktas" → to_club="Besiktas")
-- Se non trovi segnali linguistici di MERCATO (trattativa/offerta/contatti/rinnovo/visite/firma/prestito/clausola/riscatto/cessione/smentita ecc.), NON estrarre"""
+- Se non trovi segnali linguistici di MERCATO (trattativa/offerta/contatti/rinnovo/entourage/partenza/addio/visite/firma/prestito/clausola/riscatto/cessione/smentita ecc.), NON estrarre"""
 
 
 class _RawMercatoTip(BaseModel):
@@ -170,6 +174,7 @@ _MERCATO_SIGNAL: tuple[str, ...] = (
     "visite mediche",
     "commissioni",
     "agente",
+    "entourage",
     "procura",
     "trovato l'accordo",
     "operazione",
@@ -182,6 +187,21 @@ _MERCATO_SIGNAL: tuple[str, ...] = (
     "riscatt",     # riscatto / riscattare / riscattato
     "vend",        # vendere / venduto / vendibile
     "acquist",     # acquistare / acquisto
+    "partenza",    # addio/partenza senza destinazione specifica
+    "addio",
+    "in uscita",
+    "separazion",
+    "lascer",      # lascerà / lascerà il club
+    "sondagg",     # sondaggio / sondaggi
+    "sondato",
+    "interessa",   # interessa al / interessato
+    "pista",       # sulla pista di
+    "ingaggio",
+    "svincol",     # svincolato / svincolarsi
+    "parametro zero",
+    "scadenza",
+    "accostament", # accostato/accostamento a un club
+    "voce",        # voci che girano / voci di mercato
 )
 
 _NON_MERCATO_SIGNAL: tuple[str, ...] = (
@@ -231,50 +251,56 @@ def _is_plausible_mercato_tip(raw: _RawMercatoTip) -> bool:
     if len(quote) < 15:
         return False
 
-    # If it screams match analysis and doesn't contain mercato signals -> drop.
-    if _contains_any(quote, _NON_MERCATO_SIGNAL) and not _contains_any(quote, _MERCATO_SIGNAL):
-        return False
-
-    # Requires mercato language in the quote (otherwise it's usually generic chatter).
-    if not _contains_any(quote, _MERCATO_SIGNAL):
-        # allow explicit denied/confirmed phrasing even if short
-        if raw.confidence in ("confirmed", "denied") and _contains_any(
-            quote, (
-                "ufficial", "è fatta", "fatta", "conferm", "smentit", "non si fa", "saltata",
-                "non sta trattando", "non c'è stata", "nessuna trattativa", "nega", "non ci sono state",
-                "non ci sono trattativ",
-            )
-        ):
-            return True
-        return False
-
-    # Player name should appear in the quote to reduce hallucinations.
-    player_in_quote = bool(raw.player_name) and _quote_mentions_entity(quote, raw.player_name)
-
-    # At least one club must exist and must appear in the quote if provided.
+    # Require at least one club — tips without entity context are noise.
     if not (raw.from_club or raw.to_club):
         return False
+
+    has_mercato_signal = _contains_any(quote, _MERCATO_SIGNAL)
+
+    # If the quote screams match analysis and contains no mercato signals → drop.
+    if _contains_any(quote, _NON_MERCATO_SIGNAL) and not has_mercato_signal:
+        return False
+
+    player_in_quote = bool(raw.player_name) and _quote_mentions_entity(quote, raw.player_name)
     from_in_quote = _club_in_quote(raw.from_club, quote) if raw.from_club else False
     to_in_quote = _club_in_quote(raw.to_club, quote) if raw.to_club else False
 
-    # If the model produced clubs but none are actually present in the quote AND player isn't either, drop.
-    # (This keeps recall for cases where the quote has "Juve" vs "Juventus", etc.)
-    # Exception: denied tips may have the denial statement in a separate sentence that doesn't
-    # repeat the entity name (e.g. "non ci sono state trattative [col Galatasaray]"). Accept them
-    # if the quote has strong mercato signals, trusting the AI's broader context reading.
-    if (raw.from_club or raw.to_club) and not (from_in_quote or to_in_quote or player_in_quote):
-        if raw.confidence == "denied":
-            pass  # trust the AI for denied tips with mercato signals in the quote
-        else:
-            return False
+    # Fast-pass: player + at least one club in quote → trust the AI's extraction.
+    # The AI may pick an informative quote that doesn't contain trigger words but is
+    # clearly about a transfer (the club/player context is sufficient evidence).
+    if player_in_quote and (from_in_quote or to_in_quote):
+        return True
 
-    # Drop "is at club" statements unless tied to renewal/transfer verbs.
+    # Fast-pass: renewal/extension — from_club == to_club and club appears in quote.
+    # Player often doesn't say their own name; club presence is sufficient context.
+    if raw.from_club and raw.from_club == raw.to_club and from_in_quote:
+        return True
+
+    # Fast-pass: mercato signal in quote + player or club present → accept.
+    if has_mercato_signal and (player_in_quote or from_in_quote or to_in_quote):
+        return True
+
+    # Allow explicit confirmed/denied phrasing even if quote is short or lacks signals.
+    if raw.confidence in ("confirmed", "denied") and _contains_any(
+        quote, (
+            "ufficial", "è fatta", "fatta", "conferm", "smentit", "non si fa", "saltata",
+            "non sta trattando", "non c'è stata", "nessuna trattativa", "nega", "non ci sono state",
+            "non ci sono trattativ",
+        )
+    ):
+        return True
+
+    # Denied tips: trust AI context even when no entity appears verbatim in the quote.
+    if raw.confidence == "denied" and has_mercato_signal:
+        return True
+
+    # Drop "is at club" statements without transfer verbs.
     if _contains_any(quote, (" è al ", " sta al ", " gioca nel ", " milita nel ")) and not _contains_any(
         quote, ("rinn", "firma", "tratt", "offert", "contatt", "arriv", "ced", "va via", "prest")
     ):
         return False
 
-    return True
+    return False
 
 
 def is_plausible_mercato_tip(tip: MercatoTip) -> bool:
@@ -314,7 +340,7 @@ async def extract_mercato_tips(
     video_id: str,
     channel_id: str,
     api_key: str,
-    model: str = "gpt-4o-mini",
+    model: str = "gpt-4.1-mini",
     context: dict[str, Any] | None = None,
     data_dir: Path | None = None,
 ) -> list[MercatoTip]:

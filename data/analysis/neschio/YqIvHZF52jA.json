@@ -1,0 +1,406 @@
+{
+  "video_id": "YqIvHZF52jA",
+  "analyzed_at": "2026-04-21T14:47:06.445417+00:00",
+  "metadata": {
+    "title": "CONTE è il PRESCELTO come CT della NAZIONALE‼️ QUALCOSA NON TORNA",
+    "author_name": "Neschio",
+    "published_at": "2026-04-03"
+  },
+  "summary": "Il video analizza il dibattito attuale sulla nomina del nuovo commissario tecnico della Nazionale italiana, con Antonio Conte indicato come il favorito, mentre emergono anche nomi come Roberto Mancini. L’autore esprime scetticismo riguardo alla gestione della situazione, sottolineando come si continui a guardare al passato senza una reale volontà di progettare un futuro a lungo termine per il calcio italiano. Viene inoltre evidenziato che la scelta del ct richiede un impegno pluriennale, i cui frutti non sono immediatamente visibili, e che la decisione definitiva potrebbe dipendere anche dall’",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "high"
+    },
+    {
+      "name": "riforma",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "decisione",
+      "relevance": "medium"
+    },
+    {
+      "name": "elezione",
+      "relevance": "low"
+    },
+    {
+      "name": "problema",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Italian Football Federation President Election",
+      "position": "The election for the new Italian Football Federation president is expected to be on June 22 but remains unclear now.",
+      "polarity": "neutral",
+      "claim_id": "2084207f-404a-442d-8307-f7148e740114",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s2",
+      "target_entity": "Italian Football Federation President Election",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The election for the new Italian Football Federation president is expected to be on June 22 but remains unclear now.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the elections, the votes to elect this blessed new president, will not fall on June 22",
+          "start_sec": 45.85,
+          "end_sec": 87.85,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "elezioni",
+        "media",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "program for player development",
+      "position": "A player development program must be evaluated over 10 to 20 years for long-term results.",
+      "polarity": "neutral",
+      "claim_id": "a88e8cdd-67f6-4871-a101-573e9c863431",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s9",
+      "target_entity": "program for player development",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "A player development program must be evaluated over 10 to 20 years for long-term results.",
+      "evidence_quotes": [
+        {
+          "quote_text": "there must be a program that must be evaluated between ten and twenty years",
+          "start_sec": 430.61,
+          "end_sec": 459.59,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "programma",
+        "leadership",
+        "performance"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Italia nazionale",
+      "position": "Si discute molto di riforme e nomi per la panchina dell'Italia.",
+      "polarity": "neutral",
+      "claim_id": "95424717-1657-47ff-a70e-076400340504",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s1",
+      "target_entity": "Italia nazionale",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si discute molto di riforme e nomi per la panchina dell'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "as usual, more to talk about reforms, what to do, where to go to act, all possible names are thrown out for the bench of Italy",
+          "start_sec": 3.99,
+          "end_sec": 45.73,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "riforma",
+        "media",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Italia nazionale",
+      "position": "Si continua a parlare e a tirare fuori nomi del passato per la nazionale.",
+      "polarity": "neutral",
+      "claim_id": "7578b9cc-a412-450b-8c3a-0627830f535c",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s7",
+      "target_entity": "Italia nazionale",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Si continua a parlare e a tirare fuori nomi del passato per la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "But it seems to me that even talking and pulling out these names, this already seems to me a clear signal",
+          "start_sec": 146.69,
+          "end_sec": 415.69,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "nazionale",
+        "passato"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Italia nazionale",
+      "position": "Dalle scelte dei nomi sembra che non ci sia voglia di proiettarsi nel futuro.",
+      "polarity": "negative",
+      "claim_id": "730dd49b-6cf4-4e39-b5b7-061efd066f96",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s7",
+      "target_entity": "Italia nazionale",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dalle scelte dei nomi sembra che non ci sia voglia di proiettarsi nel futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "from these choices it seems to me that there is no desire to project ourselves into the future",
+          "start_sec": 146.69,
+          "end_sec": 415.69,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "scelte",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Il lavoro del ct non mostra benefici immediati.",
+      "polarity": "neutral",
+      "claim_id": "ab0d0b8e-3dd8-4458-a438-fa514a91985b",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s8",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il lavoro del ct non mostra benefici immediati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "you do not immediately see the benefits of your work",
+          "start_sec": 415.69,
+          "end_sec": 430.60999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "player development",
+      "position": "The effects of player development seeds planted today will grow and bear fruit over many years.",
+      "polarity": "neutral",
+      "claim_id": "85d38fc2-884a-48e4-9c1f-649d468850ab",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s9",
+      "target_entity": "player development",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The effects of player development seeds planted today will grow and bear fruit over many years.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the seed that you plant today, the plant grows for years and years and years and years",
+          "start_sec": 430.61,
+          "end_sec": 459.59,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sviluppo",
+        "performance",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "ct nazionale italiana",
+      "position": "La scelta del ct della nazionale non è il problema principale, sembra l'ultimo dei problemi da affrontare.",
+      "polarity": "neutral",
+      "claim_id": "68a8d5e3-7d6a-456f-afb8-da5c490d8677",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s11",
+      "target_entity": "ct nazionale italiana",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La scelta del ct della nazionale non è il problema principale, sembra l'ultimo dei problemi da affrontare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è quello che lanciano subito, quindi ribadisco ancora una volta, per portarci un po' di respiro, no, fallo, fallo, perché poi arriva proprio il giorno in cui non vuoi più sederti su quella panchina",
+          "start_sec": 463.97,
+          "end_sec": 567.89,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "decisione",
+        "problema"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "ct nazionale italiana",
+      "position": "Scegliere un ct che piaccia a tutti non è sufficiente per risolvere i problemi della nazionale.",
+      "polarity": "neutral",
+      "claim_id": "82921348-ba00-44ce-8db4-a5b9f50c4e30",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s11",
+      "target_entity": "ct nazionale italiana",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Scegliere un ct che piaccia a tutti non è sufficiente per risolvere i problemi della nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non basta mettere il ct che piace un po' a tutti, non basta",
+          "start_sec": 463.97,
+          "end_sec": 567.89,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "scelta",
+        "problema"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte is the favorite for the role of Italy's national team head coach.",
+      "polarity": "neutral",
+      "claim_id": "56d745bd-6783-41ab-ac92-7c1f26a2818d",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Conte is the favorite for the role of Italy's national team head coach.",
+      "evidence_quotes": [
+        {
+          "quote_text": "now, Conte, favorite for the role of CT of Italy",
+          "start_sec": 45.85,
+          "end_sec": 87.85,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Roberto Mancini",
+      "position": "Roberto Mancini is mentioned as a hot name for the Italy coaching role.",
+      "polarity": "neutral",
+      "claim_id": "60e6fc7b-6f15-4cb8-8831-b16bff1588e1",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s2",
+      "target_entity": "Roberto Mancini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Roberto Mancini is mentioned as a hot name for the Italy coaching role.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hot name also that of Roberto Mancini",
+          "start_sec": 45.85,
+          "end_sec": 87.85,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "media",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte sarà il prossimo ct della nazionale.",
+      "polarity": "neutral",
+      "claim_id": "e80f3004-d331-4f90-ab25-d4e733eebc9d",
+      "video_id": "YqIvHZF52jA",
+      "segment_id": "s8",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte sarà il prossimo ct della nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "CONTE è il PRESCELTO come CT della NAZIONALE‼️ QUALCOSA NON TORNA",
+          "start_sec": 415.69,
+          "end_sec": 430.60999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "nazione",
+        "leadership"
+      ]
+    }
+  ]
+}

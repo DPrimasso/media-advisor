@@ -1,0 +1,396 @@
+{
+  "video_id": "2Vj4WgmcbxI",
+  "analyzed_at": "2026-04-21T14:39:25.345889+00:00",
+  "metadata": {
+    "title": "QUESTA VOLTA LA SPARO GROSSA‼️ BARÇA-ATLETICO MADRID 0-2 e PSG-LIVERPOOL 2-0",
+    "author_name": "Neschio",
+    "published_at": "2026-04-08"
+  },
+  "summary": "Il video analizza le partite Barça-Atletico Madrid e PSG-Liverpool, concentrandosi soprattutto sull'espulsione controversa di Koubarsi, ritenuta ingiustificata dall'autore. Neschio sottolinea come il calcio moderno sia anche intrattenimento e che l'inferiorità numerica in campo riduca il divertimento e la qualità dello spettacolo. Pur riconoscendo che l'espulsione è stata confermata dopo revisione, l'autore critica la decisione, evidenziando che l'azione non meritava un cartellino rosso e che il giocatore coinvolto ha semplicemente rallentato il gioco senza commettere fallo grave.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "intrattenimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "espulsione",
+      "relevance": "medium"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "europa",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    },
+    {
+      "name": "divertimento",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "football",
+      "position": "Il calcio oggi è anche intrattenimento più che mai.",
+      "polarity": "neutral",
+      "claim_id": "e1ffc7a3-cab7-46ff-bf8a-6aa572c16d54",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s3",
+      "target_entity": "football",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio oggi è anche intrattenimento più che mai.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Today, more than ever, football is also entertainment.",
+          "start_sec": 149.36,
+          "end_sec": 193.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intrattenimento",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "un giocatore non identificato",
+      "position": "Un giocatore rallenta il gioco mentre la palla è dietro e non avanti.",
+      "polarity": "neutral",
+      "claim_id": "01298605-340d-4b05-8d3b-cce4897c642b",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s4",
+      "target_entity": "un giocatore non identificato",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un giocatore rallenta il gioco mentre la palla è dietro e non avanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A player who slows down. The ball is behind. So it's not ahead.",
+          "start_sec": 193.76,
+          "end_sec": 240.26,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gioco",
+        "performance",
+        "azioni"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "gioco a inferiorità numerica",
+      "position": "Con inferiorità numerica il contenuto cambia ed il divertimento diminuisce.",
+      "polarity": "negative",
+      "claim_id": "e88853f4-7cc6-4efe-aaed-cb2a8cbbf2d1",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s4",
+      "target_entity": "gioco a inferiorità numerica",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Con inferiorità numerica il contenuto cambia ed il divertimento diminuisce.",
+      "evidence_quotes": [
+        {
+          "quote_text": "If there is numerical inferiority, you see a different content. And I have a lot less fun.",
+          "start_sec": 193.76,
+          "end_sec": 240.26,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inferiorità numerica",
+        "performance",
+        "gioco"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Koubarsi",
+      "position": "Koubarsi was expelled after a review to confirm the decision.",
+      "polarity": "neutral",
+      "claim_id": "c184ef73-a7dd-4f70-a07e-fe209acf8846",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s5",
+      "target_entity": "Koubarsi",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Koubarsi was expelled after a review to confirm the decision.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Another expulsion. Not for me. Not for me. Even at the short approved interval of his. But it came out with a zero. Because maybe yes. I don't know. I'm not an expert. The fact is that they called him back to make sure he was thrown out.",
+          "start_sec": 242.32,
+          "end_sec": 293.19,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "espulsione",
+        "regolamento",
+        "arbitro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "difensore",
+      "position": "Il difensore rallenta per evitare di togliere il pallone al giocatore.",
+      "polarity": "neutral",
+      "claim_id": "28d9515a-28cf-4a9e-8050-0d6e4d71f21c",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s6",
+      "target_entity": "difensore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il difensore rallenta per evitare di togliere il pallone al giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A defender who in that condition really does nothing to catch the player. On the contrary, he slows down",
+          "start_sec": 293.19,
+          "end_sec": 340.41,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "partita",
+      "position": "Un'espulsione cambierebbe l'equilibrio tattico e lo spettacolo della partita.",
+      "polarity": "neutral",
+      "claim_id": "106aad26-efa9-4c68-a2aa-ada3da432aa0",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s6",
+      "target_entity": "partita",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Un'espulsione cambierebbe l'equilibrio tattico e lo spettacolo della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "For something like this. The game changes. Not only in terms of tactical balance. But also in terms of entertainment and show.",
+          "start_sec": 293.19,
+          "end_sec": 340.41,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Yamal",
+      "position": "Yamal repeatedly overcomes opponents with magnificent skill, including jumping past three defenders.",
+      "polarity": "positive",
+      "claim_id": "8725ecbe-65fc-48d2-9135-33d713de170d",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s7",
+      "target_entity": "Yamal",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Yamal repeatedly overcomes opponents with magnificent skill, including jumping past three defenders.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Then Yamal. Many times. Overcoming opponents. When he jumps three in that loophole. It's something magnificent.",
+          "start_sec": 344.29,
+          "end_sec": 386.15,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "abilità",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Yamal",
+      "position": "Yamal has a trademark skill of hitting the ball in a distinctive way, though not demonstrated tonight.",
+      "polarity": "positive",
+      "claim_id": "00df86cc-fce2-4f32-a1fe-fbf66242d723",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s7",
+      "target_entity": "Yamal",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Yamal has a trademark skill of hitting the ball in a distinctive way, though not demonstrated tonight.",
+      "evidence_quotes": [
+        {
+          "quote_text": "How many times have I seen him? Hit the ball in that way. Not tonight. Tonight in that circumstance. But it's his trademark.",
+          "start_sec": 344.29,
+          "end_sec": 386.15,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "abilità",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Barcelona",
+      "position": "Barcelona showed a positive performance in the first half and could have scored from created chances.",
+      "polarity": "neutral",
+      "claim_id": "f0bb1816-c579-4a76-bca0-0b81f7e2c8bf",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s7",
+      "target_entity": "Barcelona",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Barcelona showed a positive performance in the first half and could have scored from created chances.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I liked Barcelona. Certainly. Maybe. In the first half. Maybe he could have found it. Already the goal for the created chances.",
+          "start_sec": 344.29,
+          "end_sec": 386.15,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "metà partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain",
+      "position": "Il Paris Saint-Germain sta giocando a calcio in modo che potrebbe essere considerato.",
+      "polarity": "neutral",
+      "claim_id": "2459ed8a-42f3-41e4-ae5b-9e9597c7d036",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s3",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Paris Saint-Germain sta giocando a calcio in modo che potrebbe essere considerato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The Paris Saint-Germain is playing football.",
+          "start_sec": 149.36,
+          "end_sec": 193.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "intrattenimento"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Un'espulsione non è giustificata in questa situazione di gioco.",
+      "polarity": "negative",
+      "claim_id": "08128b75-cfdd-42e3-b940-949a6599d62d",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s6",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Un'espulsione non è giustificata in questa situazione di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "For me this can't be an expulsion.",
+          "start_sec": 293.19,
+          "end_sec": 340.41,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Il giocatore ha alzato il piede durante l'azione.",
+      "polarity": "neutral",
+      "claim_id": "5a4af9cb-55bb-4b2e-9e1d-8b388561a2b6",
+      "video_id": "2Vj4WgmcbxI",
+      "segment_id": "s6",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore ha alzato il piede durante l'azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The player who raises his foot.",
+          "start_sec": 293.19,
+          "end_sec": 340.41,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

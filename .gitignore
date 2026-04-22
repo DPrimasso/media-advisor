@@ -13,6 +13,9 @@ build/
 # Generated data copied into web public (always regenerated)
 web/public/analysis/
 
+# Daily report output (generated files, not tracked)
+reports/
+
 # Data folders (tracked to sync work across machines)
 # - data/transcripts/  : raw transcripts + metadata
 # - data/analysis/     : per-video analysis outputs

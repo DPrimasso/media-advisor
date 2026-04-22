@@ -56,7 +56,7 @@ def cmd_run_list(
     from_pending: bool = typer.Option(
         False, "--from-pending", help="Merge pending.json into lists before running"
     ),
-    model: str = typer.Option("gpt-4o-mini", "--model", help="LLM model for extraction"),
+    model: str = typer.Option("gpt-4.1-mini", "--model", help="LLM model for extraction"),
     transcript_only: bool = typer.Option(False, "--transcript-only", help="Scarica solo i transcript, senza analisi GPT"),
 ) -> None:
     """Fetch transcripts + analyze all videos in channel video lists."""
@@ -123,7 +123,7 @@ def cmd_fetch_now() -> None:
 @app.command("auto-update")
 def cmd_auto_update(
     channel: Optional[str] = typer.Option(None, "--channel", help="Limit to one channel"),
-    model: str = typer.Option("gpt-4o-mini", "--model"),
+    model: str = typer.Option("gpt-4.1-mini", "--model"),
     all_unanalyzed: bool = typer.Option(False, "--all", help="Analyze all unanalyzed videos, not just newly fetched ones"),
 ) -> None:
     """Fetch -> merge -> pipeline (fully automated, no manual Inbox step).
@@ -290,7 +290,7 @@ def cmd_transcript(
 def cmd_analyze(
     video_id: str = typer.Argument(..., help="Video ID"),
     channel: str = typer.Option(..., "--channel", help="Channel id"),
-    model: str = typer.Option("gpt-4o-mini", "--model"),
+    model: str = typer.Option("gpt-4.1-mini", "--model"),
     force: bool = typer.Option(False, "--force", help="Re-analyze even if analysis exists"),
 ) -> None:
     """Analyze a single video (transcript must already be saved)."""
@@ -365,7 +365,7 @@ def _collect_tip_files(tips_root: Path, channel: Optional[str]) -> list[Path]:
 def cmd_mercato_analyze(
     video_id: str = typer.Argument(..., help="Video ID"),
     channel: str = typer.Option(..., "--channel", help="Channel id"),
-    model: str = typer.Option("gpt-4o-mini", "--model"),
+    model: str = typer.Option("gpt-4.1-mini", "--model"),
     force: bool = typer.Option(False, "--force", help="Re-analizza anche se già presente"),
 ) -> None:
     """Analizza un singolo video per indiscrezioni di mercato (transcript già salvato)."""
@@ -455,7 +455,7 @@ def cmd_mercato_analyze(
 @app.command("mercato-scan")
 def cmd_mercato_scan(
     channel: Optional[str] = typer.Option(None, "--channel", help="Limita a un canale"),
-    model: str = typer.Option("gpt-4o-mini", "--model"),
+    model: str = typer.Option("gpt-4.1-mini", "--model"),
     force: bool = typer.Option(False, "--force", help="Re-analizza anche se già presente"),
     all_videos: bool = typer.Option(False, "--all-videos", help="Analizza tutti i video senza filtrare per keyword nel titolo"),
     from_date: Optional[str] = typer.Option(None, "--from-date", help="Filtra video pubblicati da questa data (YYYY-MM-DD)"),
@@ -1350,6 +1350,156 @@ def cmd_mercato_enrich_dates(
 
 
 # ---------------------------------------------------------------------------
+# mercato-backfill-dates
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-backfill-dates")
+def cmd_mercato_backfill_dates(
+    channel: Optional[str] = typer.Option(None, "--channel", help="Limita a un canale"),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Mostra cosa cambierebbe senza scrivere"),
+) -> None:
+    """Popola mentioned_at nei tip esistenti leggendo published_at dai transcript.
+
+    Da eseguire dopo mercato-enrich-dates per aggiornare i tip storici
+    senza ri-estrarre nulla con GPT. Ricostruisce l'index al termine.
+    """
+    from datetime import datetime, timezone
+    from media_advisor.io.json_io import read_json, write_json, read_json_or_default
+    from media_advisor.io.paths import video_dates_cache_path, transcript_path
+
+    root = _root()
+    tips_root = root / "mercato" / "tips"
+    if not tips_root.exists():
+        typer.echo("Nessun tip trovato.")
+        return
+
+    dates_cache: dict[str, str] = read_json_or_default(video_dates_cache_path(root), default={}) or {}
+
+    channel_dirs = (
+        [tips_root / channel] if channel and (tips_root / channel).exists()
+        else [d for d in tips_root.iterdir() if d.is_dir()]
+    )
+
+    updated_files, updated_tips, missing_date = 0, 0, 0
+
+    for ch_dir in channel_dirs:
+        for tip_file in sorted(ch_dir.glob("*.json")):
+            vid = tip_file.stem
+            ch_id = ch_dir.name
+
+            # Cerca la data: prima nella dates cache, poi nel transcript
+            date_str: str | None = dates_cache.get(vid)
+            if not date_str:
+                t_path = transcript_path(root, ch_id, vid)
+                if t_path.exists():
+                    try:
+                        raw = read_json(t_path)
+                        date_str = (raw.get("metadata") or {}).get("published_at")
+                    except Exception:
+                        pass
+
+            if not date_str:
+                missing_date += 1
+                continue
+
+            try:
+                dt = datetime.fromisoformat(date_str)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=timezone.utc)
+                mentioned_at_iso = dt.isoformat()
+            except ValueError:
+                missing_date += 1
+                continue
+
+            try:
+                data = read_json(tip_file)
+            except Exception:
+                continue
+
+            tips_list = data.get("tips") or []
+            changed = False
+            for tip in tips_list:
+                if not tip.get("mentioned_at"):
+                    tip["mentioned_at"] = mentioned_at_iso
+                    updated_tips += 1
+                    changed = True
+
+            if changed:
+                updated_files += 1
+                if not dry_run:
+                    write_json(tip_file, data)
+
+    action = "Aggiornerei" if dry_run else "Aggiornati"
+    typer.echo(f"{action} {updated_tips} tip in {updated_files} file.")
+    typer.echo(f"Video senza data trovata: {missing_date}")
+
+    if updated_files > 0 and not dry_run:
+        typer.echo("\nRicostruzione index mercato...")
+        from media_advisor.mercato.aggregator import rebuild_index
+        rebuild_index(root)
+        typer.echo("Index ricostruito.")
+    elif dry_run:
+        typer.echo("\n(dry-run: nessuna modifica applicata)")
+
+
+# ---------------------------------------------------------------------------
+# analysis-backfill-dates
+# ---------------------------------------------------------------------------
+
+
+@app.command("analysis-backfill-dates")
+def cmd_analysis_backfill_dates(
+    channel: str | None = typer.Option(None, "--channel", help="Limita a un canale specifico"),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Mostra cosa cambierebbe senza scrivere"),
+) -> None:
+    """Popola published_at nei file di analisi che ce l'hanno null, leggendo da video-dates.json."""
+    from media_advisor.io.json_io import read_json, write_json, read_json_or_default
+    from media_advisor.io.paths import video_dates_cache_path
+
+    root = _root()
+    analysis_root = root / "data" / "analysis"
+    if not analysis_root.exists():
+        typer.echo("Nessuna analisi trovata.")
+        return
+
+    dates_cache: dict[str, str] = read_json_or_default(video_dates_cache_path(root), default={}) or {}
+
+    ch_dirs = (
+        [analysis_root / channel] if channel and (analysis_root / channel).exists()
+        else [d for d in analysis_root.iterdir() if d.is_dir()]
+    )
+
+    updated, already_ok, missing_date = 0, 0, 0
+
+    for ch_dir in sorted(ch_dirs):
+        for a_file in sorted(ch_dir.glob("*.json")):
+            vid = a_file.stem
+            data = read_json(a_file)
+            if data is None:
+                continue
+            meta = data.get("metadata") or {}
+            if meta.get("published_at"):
+                already_ok += 1
+                continue
+            date = dates_cache.get(vid)
+            if not date:
+                missing_date += 1
+                typer.echo(f"  [missing] {ch_dir.name}/{vid}")
+                continue
+            if not dry_run:
+                meta["published_at"] = date
+                data["metadata"] = meta
+                write_json(a_file, data)
+            updated += 1
+            typer.echo(f"  [ok] {ch_dir.name}/{vid} -> {date}")
+
+    typer.echo(f"\nRisultato: {updated} aggiornati, {already_ok} già ok, {missing_date} senza data")
+    if dry_run:
+        typer.echo("(dry-run: nessuna modifica applicata)")
+
+
+# ---------------------------------------------------------------------------
 # mercato-set-player-tm-id
 # ---------------------------------------------------------------------------
 
@@ -1405,6 +1555,141 @@ def cmd_mercato_set_player_tm_id(
     set_player_tm_id(_root(), player, tm_id)
     typer.echo(f"Salvato: '{player}' -> TM ID {tm_id}")
     typer.echo("Ora puoi rieseguire mercato-fetch-transfers o mercato-import-season.")
+
+
+# ---------------------------------------------------------------------------
+# daily-report
+# ---------------------------------------------------------------------------
+
+
+@app.command("daily-report")
+def cmd_daily_report(
+    date: Optional[str] = typer.Option(None, "--date", help="Data YYYY-MM-DD (default: oggi)"),
+    no_update: bool = typer.Option(False, "--no-update", help="Salta auto-update e mercato-scan, usa i dati già presenti"),
+    model: str = typer.Option("gpt-4.1-mini", "--model", help="Modello OpenAI per la pipeline claims"),
+) -> None:
+    """Fetch → mercato-scan → sommario giornaliero in reports/YYYY-MM-DD.md.
+
+    Flusso completo:
+      1. Scarica i nuovi video dai canali mercato (auto-update)
+      2. Estrae le indiscrezioni dai transcript (mercato-scan)
+      3. Genera il sommario in italiano ottimizzato per i social
+      4. Salva in reports/YYYY-MM-DD.md e stampa su stdout
+
+    Usa --no-update per saltare i passi 1 e 2 (es. per rigenerare il report su dati già presenti).
+    """
+    from datetime import date as date_type, datetime as datetime_type
+    from media_advisor.digest import generate_mercato_digest, MONTHS_IT
+
+    s = _get_settings()
+    if not s.openai_api_key:
+        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+        raise typer.Exit(1)
+
+    try:
+        target_date = date_type.fromisoformat(date) if date else date_type.today()
+    except ValueError:
+        typer.echo(f"Error: formato data non valido '{date}', usa YYYY-MM-DD", err=True)
+        raise typer.Exit(1)
+
+    root = _root()
+
+    if not no_update:
+        if not s.transcript_api_key:
+            typer.echo("Error: TRANSCRIPT_API_KEY not set", err=True)
+            raise typer.Exit(1)
+
+        # Step 1: fetch → merge → pipeline claims
+        typer.echo("[daily-report] 1/3  Fetch + merge + analisi claims...")
+        from media_advisor.fetch import run_fetch_new_videos
+        from media_advisor.merge import merge_pending_into_channels
+        from media_advisor.run_pipeline import run_from_list
+
+        pending = asyncio.run(run_fetch_new_videos(root, s.transcript_api_key))
+        new_ids: set[str] = set()
+        if pending.items:
+            merge_pending_into_channels(root)
+            new_ids = {v.video_id for v in pending.items}
+            asyncio.run(
+                run_from_list(
+                    root=root,
+                    transcript_api_key=s.transcript_api_key,
+                    openai_api_key=s.openai_api_key,
+                    model=model,
+                    only_video_ids=new_ids,
+                )
+            )
+            typer.echo(f"    Nuovi video analizzati: {len(new_ids)}")
+        else:
+            typer.echo("    Nessun nuovo video.")
+
+        # Step 2: mercato-scan sui nuovi video dei canali mercato
+        typer.echo("[daily-report] 2/3  Mercato scan sui nuovi video...")
+        if new_ids:
+            from media_advisor.mercato.analyzer import analyze_video_mercato
+            from media_advisor.mercato.aggregator import rebuild_index
+            from media_advisor.io.paths import mercato_tips_path
+            from media_advisor.models.channels import ChannelsConfig
+            from media_advisor.io.json_io import read_json
+
+            cfg = ChannelsConfig.model_validate(read_json(root / "channels" / "channels.json"))
+            mercato_ch_ids = {c.id for c in cfg.channels if c.mercato_channel}
+
+            mercato_items = [v for v in pending.items if v.channel_id in mercato_ch_ids]
+
+            async def _scan_new() -> None:
+                for v in mercato_items:
+                    if mercato_tips_path(root, v.channel_id, v.video_id).exists():
+                        continue
+                    t_path = root / "data" / "transcripts" / v.channel_id / f"{v.video_id}.json"
+                    if not t_path.exists():
+                        continue
+                    try:
+                        await analyze_video_mercato(
+                            root=root,
+                            video_id=v.video_id,
+                            channel_id=v.channel_id,
+                            api_key=s.openai_api_key,
+                            model=model,
+                            force=False,
+                            update_index=False,
+                        )
+                    except Exception as exc:
+                        typer.echo(f"    [warn] mercato-scan {v.video_id}: {exc}", err=True)
+
+            asyncio.run(_scan_new())
+            if mercato_items:
+                rebuild_index(root)
+                typer.echo(f"    Scan mercato: {len(mercato_items)} video processati.")
+        else:
+            typer.echo("    Nessun nuovo video mercato da scansionare.")
+
+    # Step 3: genera digest
+    typer.echo("[daily-report] 3/3  Generazione sommario...")
+    digest_text = asyncio.run(generate_mercato_digest(root, target_date, s.openai_api_key))
+
+    if not digest_text:
+        typer.echo(f"Nessuna indiscrezione trovata per il {target_date.isoformat()}.")
+        typer.echo("Suggerimento: verifica che i tip abbiano 'mentioned_at' valorizzato (mercato-enrich-dates).")
+        raise typer.Exit(0)
+
+    reports_dir = root / "reports"
+    reports_dir.mkdir(exist_ok=True)
+    report_file = reports_dir / f"{target_date.isoformat()}.md"
+
+    date_it = f"{target_date.day} {MONTHS_IT[target_date.month]} {target_date.year}"
+    now_str = datetime_type.now().strftime("%H:%M del %d/%m/%Y")
+    content = (
+        f"# Calciomercato — {date_it}\n\n"
+        f"{digest_text}\n\n"
+        f"---\n_Generato da Media Advisor alle {now_str}_\n"
+    )
+
+    report_file.write_text(content, encoding="utf-8")
+    typer.echo(f"\n{'='*60}")
+    typer.echo(content)
+    typer.echo(f"{'='*60}")
+    typer.echo(f"\nSalvato in: {report_file}")
 
 
 if __name__ == "__main__":

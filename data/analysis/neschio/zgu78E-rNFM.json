@@ -1,0 +1,408 @@
+{
+  "video_id": "zgu78E-rNFM",
+  "analyzed_at": "2026-04-21T14:42:16.288741+00:00",
+  "metadata": {
+    "title": "🔴 LIVE NAPOLI-MILAN 1-0",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta la partita Napoli-Milan, sottolineando come il Napoli, considerato più attrezzato a parità di rosa, abbia dominato soprattutto nel secondo tempo con un gioco più incisivo e pericoloso. L’autore evidenzia la tattica di possesso palla e speculazione adottata dal Milan, ritenuta poco efficace, e il ruolo decisivo di Politano ed Elison Santos nel cambiare l’andamento del match. Si conclude che il Milan ha mostrato scarsa determinazione nel secondo tempo, senza mai tirare in porta, mentre il Napoli ha incrementato le occasioni soprattutto negli ultimi 20 minuti, confermando la sup",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "lotta per il quarto posto",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "previsioni classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha avuto 0.75 expected goal contro 0.45 del Milan nella partita.",
+      "polarity": "positive",
+      "claim_id": "363dbe27-cffa-41f7-acad-9ab59d37268b",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto 0.75 expected goal contro 0.45 del Milan nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "guardato un po' gli expected goal, era 075 il Napoli e 045 il Milan",
+          "start_sec": 577.2,
+          "end_sec": 827.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "expected goal",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha cercato di più soprattutto negli ultimi 20 minuti dopo le mosse di Conte.",
+      "polarity": "positive",
+      "claim_id": "fc8172bc-2906-4cdd-9592-7a883e41495f",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha cercato di più soprattutto negli ultimi 20 minuti dopo le mosse di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi sembra che però il Napoli abbia cercato un po' di più di soprattutto negli ultimi 20 minuti quando Conte ha un po' sparigliato le carte",
+          "start_sec": 577.2,
+          "end_sec": 827.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dinamiche partita",
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte ha fatto bene a mettere Alison negli ultimi 20-25 minuti.",
+      "polarity": "positive",
+      "claim_id": "a62b76df-e8cc-4668-8a65-a9180589405d",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha fatto bene a mettere Alison negli ultimi 20-25 minuti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto bene Conte, secondo me, a tenerlo lì per gli ultimi 20 minuti, 25 ha fatto proprio bene",
+          "start_sec": 824.76,
+          "end_sec": 1109.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scelta tattica",
+        "gestione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli è considerata più attrezzata a parità di rosa rispetto al Milan.",
+      "polarity": "positive",
+      "claim_id": "2ee91815-1034-4ee6-aa87-a266bfa99226",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli è considerata più attrezzata a parità di rosa rispetto al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A parità di rosa l'abbiamo sempre detto, no? Il Napoli sicuramente più attrezzato",
+          "start_sec": 3.274,
+          "end_sec": 578.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rosa",
+        "prestazione",
+        "confronto"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Max",
+      "position": "Max ha fatto una tattica di possesso palla e speculazione nella partita.",
+      "polarity": "negative",
+      "claim_id": "98497e18-755a-44d0-9ba4-4bc844d4900c",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s0",
+      "target_entity": "Max",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Max ha fatto una tattica di possesso palla e speculazione nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "facevi un po' di melina, un po' di possesso palla, stavi anche un po' a speculare come il caro signor Max secondo me ha fatto un po' stasera",
+          "start_sec": 3.274,
+          "end_sec": 578.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "possesso palla",
+        "speculazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano è stato uno dei giocatori decisivi che ha cambiato la partita a destra.",
+      "polarity": "positive",
+      "claim_id": "7bb48e6a-7235-4b46-bd75-21d0c2ce8327",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s0",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Politano è stato uno dei giocatori decisivi che ha cambiato la partita a destra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è stato un giocatore, due giocatori hanno cambiato la partita stasera, eh azzeccati, Politano a destra",
+          "start_sec": 3.274,
+          "end_sec": 578.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "impulso partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha mostrato veramente poca voglia di provare a vincere nel secondo tempo.",
+      "polarity": "negative",
+      "claim_id": "a96b1905-a17d-4d7e-a020-5b1bdb3969a4",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha mostrato veramente poca voglia di provare a vincere nel secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per me non è non è non voglio dire accettabile, ma davvero veramente poca poca roba",
+          "start_sec": 577.2,
+          "end_sec": 827.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "atteggiamento",
+        "secondo tempo",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Elison Santos",
+      "position": "Elison Santos ha cambiato la partita giocando a sinistra.",
+      "polarity": "positive",
+      "claim_id": "b73d97e5-f070-4d8f-a88b-1911cb276229",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s0",
+      "target_entity": "Elison Santos",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Elison Santos ha cambiato la partita giocando a sinistra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e Elison Santos a sinistra",
+          "start_sec": 3.274,
+          "end_sec": 578.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "impulso partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Nel secondo tempo il Milan non ha fatto nessun tiro in porta.",
+      "polarity": "negative",
+      "claim_id": "0133d018-7491-42de-b83e-6ccb3bf0c31b",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nel secondo tempo il Milan non ha fatto nessun tiro in porta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel secondo tempo il Milan fa zero tiro in porta",
+          "start_sec": 577.2,
+          "end_sec": 827.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "secondo tempo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Pulic",
+      "position": "Pulic è considerato più forte di Fulkrug nel ruolo di centravanti.",
+      "polarity": "positive",
+      "claim_id": "cbbe4fe0-869a-4c96-9f3a-8d38e4931ffb",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s2",
+      "target_entity": "Pulic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pulic è considerato più forte di Fulkrug nel ruolo di centravanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Secondo me Pulic è più forte di Fulkrug",
+          "start_sec": 824.76,
+          "end_sec": 1109.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "confronto",
+        "centravanti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao è valutato più forte di Inkunku nella sua posizione.",
+      "polarity": "positive",
+      "claim_id": "6d4e8cef-1f50-4214-a1a1-e27103ede59d",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s2",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Leao è valutato più forte di Inkunku nella sua posizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Leao è più forte di Inkunku",
+          "start_sec": 824.76,
+          "end_sec": 1109.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "confronto",
+        "attaccante"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli sembra aver portato a casa la partita alla portata.",
+      "polarity": "positive",
+      "claim_id": "75949f6d-4865-427a-9701-ddb81380befc",
+      "video_id": "zgu78E-rNFM",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli sembra aver portato a casa la partita alla portata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli secondo me alla portata a casa",
+          "start_sec": 824.76,
+          "end_sec": 1109.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "esito partita"
+      ]
+    }
+  ]
+}

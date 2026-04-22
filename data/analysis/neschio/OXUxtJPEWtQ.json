@@ -1,0 +1,393 @@
+{
+  "video_id": "OXUxtJPEWtQ",
+  "analyzed_at": "2026-04-21T14:36:21.388410+00:00",
+  "metadata": {
+    "title": "I SILURI di RANIERI a GASP FANNO MALEN‼️ ROMA-PISA 3-0",
+    "author_name": "Neschio",
+    "published_at": "2026-04-10"
+  },
+  "summary": "Il video si concentra sulla straordinaria prestazione di Daniel Malen, autore del primo tris stagionale in Serie A e già a quota 10 gol da gennaio, sottolineando il suo impatto decisivo nella Roma. L'autore evidenzia inoltre le parole forti di Claudio Ranieri, senior advisor del club, che esprime critiche e tensioni nei confronti di Gasperini, scelto dalla società per guidare un progetto di crescita con i giovani. Ranieri, pur amando la Roma, lascia intendere dubbi sul futuro del suo ruolo e sulla gestione tecnica, suggerendo una frattura interna che potrebbe influenzare l'andamento del club.",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "investimento",
+      "relevance": "low"
+    },
+    {
+      "name": "europa",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Daniel Malen",
+      "position": "Daniel Malen has scored 10 goals since arriving in January.",
+      "polarity": "positive",
+      "claim_id": "f59b7194-fb17-4ca8-9cd0-1b5d84e04542",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s0",
+      "target_entity": "Daniel Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Malen has scored 10 goals since arriving in January.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A player who arrived in January and has already scored 10 goals.",
+          "start_sec": 0.62,
+          "end_sec": 58.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Malen",
+      "position": "Malen arrived in January and has already scored 10 goals.",
+      "polarity": "positive",
+      "claim_id": "b8b5e204-f0f1-4970-bdfc-04d3c55b8c2f",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s1",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malen arrived in January and has already scored 10 goals.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A player who arrived in January and has already scored 10 goals",
+          "start_sec": 59.9,
+          "end_sec": 107.94,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "La società ha scelto Gasperini come allenatore dopo aver rifiutato altri 3 candidati.",
+      "polarity": "neutral",
+      "claim_id": "cbc46f46-e8bb-40b5-b95b-946e8f941779",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s4",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La società ha scelto Gasperini come allenatore dopo aver rifiutato altri 3 candidati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The company chose Gasperini.",
+          "start_sec": 151.32,
+          "end_sec": 186.62,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "scelta",
+        "società"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Daniel Malen",
+      "position": "Daniel Malen scored three goals in the first treble in Serie A this season.",
+      "polarity": "positive",
+      "claim_id": "2ccd91a2-4a84-4241-8657-d057a84bd3d1",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s0",
+      "target_entity": "Daniel Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Malen scored three goals in the first treble in Serie A this season.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Daniel Malen's three goals in the first treble in Serie A.",
+          "start_sec": 0.62,
+          "end_sec": 58.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Daniel Malen",
+      "position": "Daniel Malen is one goal behind Duvicas in scoring, level with Ildiz and Ugo Oliund.",
+      "polarity": "positive",
+      "claim_id": "b3461651-9cca-403e-82e6-160a1b3d4de6",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s0",
+      "target_entity": "Daniel Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Daniel Malen is one goal behind Duvicas in scoring, level with Ildiz and Ugo Oliund.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he's one under Duvicas and then together with Ildiz, Ugo Oliund.",
+          "start_sec": 0.62,
+          "end_sec": 58.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Gian Piero Gasperini",
+      "position": "Luo e Gasperini hanno scelto insieme i giocatori arrivati nella squadra.",
+      "polarity": "neutral",
+      "claim_id": "8afdb24f-5b00-4cef-a796-cf98611981f3",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s4",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Luo e Gasperini hanno scelto insieme i giocatori arrivati nella squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini and I chose the players together. They all arrived with his approval.",
+          "start_sec": 151.32,
+          "end_sec": 186.62,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "scelta",
+        "giocatori"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri might continue in a leadership role either as a coach or as a senior advisor.",
+      "polarity": "neutral",
+      "claim_id": "3a9183a6-ee8f-4d9a-815e-af6161200fc2",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s5",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ranieri might continue in a leadership role either as a coach or as a senior advisor.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Just as I did as a coach, I can also do it as a senior advisor.",
+          "start_sec": 187.9,
+          "end_sec": 234.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "role"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri acknowledges having a hard time in his current role.",
+      "polarity": "negative",
+      "claim_id": "492a57d7-357f-4ee0-a0dc-4fa9a7e991b8",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s5",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri acknowledges having a hard time in his current role.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I'm having a hard time, forgive me.",
+          "start_sec": 187.9,
+          "end_sec": 234.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "difficulty"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri loves Rome as a city and club.",
+      "polarity": "positive",
+      "claim_id": "835a0e83-fe39-4f75-a5d4-db8b02624df5",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s5",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri loves Rome as a city and club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I love Rome.",
+          "start_sec": 187.9,
+          "end_sec": 234.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "sentiment"
+      ]
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Ranieri",
+      "position": "Ranieri expects friction with Gasperini.",
+      "polarity": "negative",
+      "claim_id": "418b38a4-1cf2-467a-8964-479d5bda6f0f",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s5",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri expects friction with Gasperini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "There will certainly be a friction with Gasperini.",
+          "start_sec": 187.9,
+          "end_sec": 234.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rivalry"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini è stato scelto per il suo lavoro all'Atalanta, avviando un progetto con giovani e crescita graduale.",
+      "polarity": "neutral",
+      "claim_id": "db5a32a0-c94e-4eb9-aa18-8df440fa1e33",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s4",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini è stato scelto per il suo lavoro all'Atalanta, avviando un progetto con giovani e crescita graduale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "We turned to him for what he did at Atalanta. To start with the young and slowly move on to the big stages.",
+          "start_sec": 151.32,
+          "end_sec": 186.62,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "progetto",
+        "giovani",
+        "performance"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Ranieri",
+      "position": "Ranieri ha lasciato un'impronta importante.",
+      "polarity": "neutral",
+      "claim_id": "5040e101-933d-4d31-9453-4ac17df116b5",
+      "video_id": "OXUxtJPEWtQ",
+      "segment_id": "s3",
+      "target_entity": "Ranieri",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri ha lasciato un'impronta importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri, who left an important mark.",
+          "start_sec": 109.72,
+          "end_sec": 150.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "impronta",
+        "media"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "video_id": "H0f7dTxmORY",
+  "analyzed_at": "2026-04-21T14:46:24.732704+00:00",
+  "metadata": {
+    "title": "I GIOCATORI della NAZIONALE avrebbero RICHIESTO un BONUS MONDIALE‼️",
+    "author_name": "Neschio",
+    "published_at": "2026-04-04"
+  },
+  "summary": "Il video affronta il tema della presunta richiesta di un bonus economico da parte dei giocatori della Nazionale italiana in vista del Mondiale, come ricostruito da La Repubblica e riportato anche da Sport Media Set. L'autore esprime sorpresa e delusione, sottolineando come sia inaccettabile che calciatori miliardari si concentrino su una cifra relativamente modesta, mettendo in secondo piano l'onore e la passione per la maglia azzurra. Viene inoltre citato l'esempio di Gattuso, che ha sempre anteposto dignità e impegno personale ai premi economici, evidenziando un cambiamento di valori nel gru",
+  "topics": [
+    {
+      "name": "bonus",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "psicologia",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "un calciatore miliardario",
+      "position": "È sorprendente che un calciatore miliardario possa curarsi di una somma come 10.000 euro in più.",
+      "polarity": "negative",
+      "claim_id": "b856e6e2-b63c-4217-bf99-784d6437b465",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s1",
+      "target_entity": "un calciatore miliardario",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È sorprendente che un calciatore miliardario possa curarsi di una somma come 10.000 euro in più.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un calciatore che almeno è miliardario, cosa può fregargli di 10.000 euro in più",
+          "start_sec": 51.53,
+          "end_sec": 224.13,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "valori",
+        "economia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Nazionale",
+      "position": "La Repubblica ha ricostruito un dramma sportivo con speculazioni ma con sempre un fondo di verità.",
+      "polarity": "neutral",
+      "claim_id": "9ee5f292-3860-43b4-be0a-23d728eac16f",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s0",
+      "target_entity": "Nazionale",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Repubblica ha ricostruito un dramma sportivo con speculazioni ma con sempre un fondo di verità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Today the Republic has pulled out a really succulent reconstruction, let's say, when there is a sports drama, then obviously maybe there are speculations, but I allow myself to say that there is always a background of truth",
+          "start_sec": 1.07,
+          "end_sec": 51.53,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dramma sportivo",
+        "media",
+        "speculazione"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "la nazionale",
+      "position": "I giocatori della nazionale avrebbero richiesto un bonus mondiale.",
+      "polarity": "positive",
+      "claim_id": "e1145cc6-be60-4821-ac6e-2e7b3f4677d1",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s1",
+      "target_entity": "la nazionale",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori della nazionale avrebbero richiesto un bonus mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I GIOCATORI della NAZIONALE avrebbero RICHIESTO un BONUS MONDIALE",
+          "start_sec": 51.53,
+          "end_sec": 224.13,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "bonus",
+        "finanza",
+        "giocatori"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "sport media set",
+      "position": "Sport media set ha riportato dinamiche simili riguardo l'articolo sul bonus mondiale.",
+      "polarity": "neutral",
+      "claim_id": "6c7d73d8-6dd8-45c4-916b-134b295fee3b",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s1",
+      "target_entity": "sport media set",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sport media set ha riportato dinamiche simili riguardo l'articolo sul bonus mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sport media set ha riportato più o meno le stesse dinamiche",
+          "start_sec": 51.53,
+          "end_sec": 224.13,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "informazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "nazionale",
+      "position": "I giocatori della Nazionale sembrano più interessati al bonus mondiale che al risultato della competizione.",
+      "polarity": "negative",
+      "claim_id": "9c7f0e8f-0d20-4282-b18d-8d053afc4252",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s2",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori della Nazionale sembrano più interessati al bonus mondiale che al risultato della competizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se il pensiero di un calciatore medio è, prima fammi sapere quanto mi dai e poi vediamo cosa succede col risultato quando dovrebbe essere esattamente il contrario",
+          "start_sec": 224.13,
+          "end_sec": 300.66999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "bonus mondiale",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso ha rinunciato più volte ai premi mettendo anima, desiderio e dignità davanti ai soldi.",
+      "polarity": "positive",
+      "claim_id": "82a99eb7-cb12-42f4-aa91-5537b2b93bca",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s2",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha rinunciato più volte ai premi mettendo anima, desiderio e dignità davanti ai soldi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'uomo Gattuso, perché ha già rinunciato più volte a premi rinunciando, mettendo l'anima, il suo desiderio, la sua dignità davanti ai soldi",
+          "start_sec": 224.13,
+          "end_sec": 300.66999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Gattuso",
+        "premi",
+        "dignità",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "giocatori ultra-miliardari",
+      "position": "I giocatori ultra-miliardari cercano di massimizzare i guadagni dal calcio.",
+      "polarity": "neutral",
+      "claim_id": "e8aa67a8-8255-48bb-b8d3-635a7b6e7385",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s3",
+      "target_entity": "giocatori ultra-miliardari",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori ultra-miliardari cercano di massimizzare i guadagni dal calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "at the moment when these ultra -billionaire players, as you said, basically the more there is the possibility of having a gain and why not, you still try",
+          "start_sec": 300.67,
+          "end_sec": 348.63,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatori ultra-miliardari",
+        "guadagni"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "nazionale",
+      "position": "La nazionale potrebbe richiedere un bonus mondiale aggiuntivo rispetto a quanto già percepisce.",
+      "polarity": "neutral",
+      "claim_id": "077cc4f1-1c14-404b-b856-aead464663ab",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s4",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La nazionale potrebbe richiedere un bonus mondiale aggiuntivo rispetto a quanto già percepisce.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I GIOCATORI della NAZIONALE avrebbero RICHIESTO un BONUS MONDIALE",
+          "start_sec": 348.63,
+          "end_sec": 417.96999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "bonus",
+        "finanza",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "nazionale",
+      "position": "I giocatori della nazionale ricevono già guadagni, e chiedere di più potrebbe essere visto come un'ulteriore aggiunta.",
+      "polarity": "neutral",
+      "claim_id": "59f6ea12-2482-422f-af41-ab9e1968a029",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s4",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori della nazionale ricevono già guadagni, e chiedere di più potrebbe essere visto come un'ulteriore aggiunta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "here I would prefer that they get a quarter and I also keep myself high enough, a quarter of what they perceive",
+          "start_sec": 348.63,
+          "end_sec": 417.96999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "bonus",
+        "finanza",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "La notizia del bonus mondiale è uscita dopo la sconfitta dell'Italia al mondiale per suscitare reazioni.",
+      "polarity": "neutral",
+      "claim_id": "df0d66ff-b472-44ec-8c36-0c6b78253912",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s5",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La notizia del bonus mondiale è uscita dopo la sconfitta dell'Italia al mondiale per suscitare reazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "why this news was thrown in the pan after we left the World Cup",
+          "start_sec": 417.97,
+          "end_sec": 488.71,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "notizia",
+        "tempistica",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "giocatori della nazionale",
+      "position": "La notizia del bonus ha causato fastidio tra i giocatori e nell'opinione pubblica.",
+      "polarity": "negative",
+      "claim_id": "774a8fc5-cae5-4545-bd54-2a7640687e9d",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s5",
+      "target_entity": "giocatori della nazionale",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La notizia del bonus ha causato fastidio tra i giocatori e nell'opinione pubblica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "actually the annoyance, the purr, we all had it, at least it bothered me to read these things",
+          "start_sec": 417.97,
+          "end_sec": 488.71,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "reazione",
+        "fastidio",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Pio Esposito",
+      "position": "Pio Esposito asked to take the first penalty in a crucial World Cup qualifying match.",
+      "polarity": "positive",
+      "claim_id": "48397f7e-7d9d-409b-a328-9f5a3ded2aeb",
+      "video_id": "H0f7dTxmORY",
+      "segment_id": "s6",
+      "target_entity": "Pio Esposito",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pio Esposito asked to take the first penalty in a crucial World Cup qualifying match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it was the same Pio Esposito to ask to beat the first penalty",
+          "start_sec": 488.71,
+          "end_sec": 554.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "nazionale",
+        "penalty"
+      ]
+    }
+  ]
+}

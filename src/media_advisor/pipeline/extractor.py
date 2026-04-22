@@ -98,7 +98,7 @@ async def extract_claims_from_segment(
     segment: Segment,
     video_id: str,
     api_key: str,
-    model: str = "gpt-4o-mini",
+    model: str = "gpt-4.1-mini",
     context: dict[str, Any] | None = None,
 ) -> tuple[list[Claim], list[Theme]]:
     """Extract claims from a single segment using PydanticAI structured output."""

@@ -1,0 +1,364 @@
+{
+  "video_id": "DTPeXNowYII",
+  "analyzed_at": "2026-04-21T14:37:13.843151+00:00",
+  "metadata": {
+    "title": "LAUTARO OUT‼️",
+    "author_name": "Neschio",
+    "published_at": "2026-04-10"
+  },
+  "summary": "Il video di Neschio si concentra sull'infortunio di Lautaro Martinez, capitano dell'Inter, che sarà assente per almeno 15 giorni a causa di un risentimento muscolare alla gamba sinistra. L'autore sottolinea l'importanza del ruolo di leadership di Lautaro e l'impatto negativo della sua assenza sulla squadra, evidenziando il pessimismo diffuso tra i tifosi. Nonostante ciò, Neschio invita a mantenere la calma, ricordando che anche altre squadre avversarie affrontano assenze importanti, e anticipa ulteriori approfondimenti sulle partite imminenti.",
+  "topics": [
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "assenza",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "injury",
+      "subject": "Fontescai",
+      "position": "Fontescai is out for at least 15 days due to a muscle injury in the left leg.",
+      "polarity": "negative",
+      "claim_id": "6729968b-11a8-48c2-9b61-25076097ef5b",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s5",
+      "target_entity": "Fontescai",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fontescai is out for at least 15 days due to a muscle injury in the left leg.",
+      "evidence_quotes": [
+        {
+          "quote_text": "muscle resentment in the sun of the left leg, out for at least 15 days",
+          "start_sec": 163.0,
+          "end_sec": 211.98000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro Martinez has stopped playing or been stopped.",
+      "polarity": "negative",
+      "claim_id": "29f04fe4-7abc-40a1-aa5e-806c7d53bc7c",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s0",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro Martinez has stopped playing or been stopped.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it has stopped lautaro martinez the captain has stopped",
+          "start_sec": 0.28,
+          "end_sec": 37.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Opinionista neschio",
+      "position": "Opinionista Neschio will not watch the game to keep maximum concentration while driving.",
+      "polarity": "neutral",
+      "claim_id": "aa54eb63-eb0d-4f40-b55c-94a94ec5b464",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s0",
+      "target_entity": "Opinionista neschio",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Opinionista Neschio will not watch the game to keep maximum concentration while driving.",
+      "evidence_quotes": [
+        {
+          "quote_text": "maximum concentration on the road and for this reason I will not look at you forgive me in advance",
+          "start_sec": 0.28,
+          "end_sec": 37.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro is involved in some anticipated trouble according to a message received by the speaker's cousin.",
+      "polarity": "neutral",
+      "claim_id": "6dde059a-6768-4668-bffa-013fe088d2c9",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s1",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lautaro is involved in some anticipated trouble according to a message received by the speaker's cousin.",
+      "evidence_quotes": [
+        {
+          "quote_text": "my cousin writes to me, you are lucky Lautaro, I foresee trouble",
+          "start_sec": 37.84,
+          "end_sec": 85.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "anticipation"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro will have another stop due to injury after already returning from a medium-long stop.",
+      "polarity": "negative",
+      "claim_id": "aceb7688-2faa-4241-a0dd-827a938d31da",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s6",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro will have another stop due to injury after already returning from a medium-long stop.",
+      "evidence_quotes": [
+        {
+          "quote_text": "having already returned from a medium-long stop and it will have another stop",
+          "start_sec": 211.98,
+          "end_sec": 254.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli has lost a key forward player who had not missed a game until now.",
+      "polarity": "neutral",
+      "claim_id": "ac91d0de-eb54-401b-b6d3-627fe6105f65",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s6",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli has lost a key forward player who had not missed a game until now.",
+      "evidence_quotes": [
+        {
+          "quote_text": "now they have lost, if not the most important player, however, they have lost the player who was there in front, he had not skipped a game",
+          "start_sec": 211.98,
+          "end_sec": 254.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter does not have the attacker Lukaku available.",
+      "polarity": "neutral",
+      "claim_id": "85504a0d-2f6b-4879-8688-7a7d17ad8257",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s7",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter does not have the attacker Lukaku available.",
+      "evidence_quotes": [
+        {
+          "quote_text": "they don't have the attacker, Conni, Milan had to play with Jovani",
+          "start_sec": 254.44,
+          "end_sec": 285.73999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Some people say Inter lost the league and the scudetto to Napoli because of Lautaro's absence, sometimes ironically.",
+      "polarity": "neutral",
+      "claim_id": "37ed1482-1997-4adb-8528-2647cb3a94fa",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s7",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Some people say Inter lost the league and the scudetto to Napoli because of Lautaro's absence, sometimes ironically.",
+      "evidence_quotes": [
+        {
+          "quote_text": "if Inter now get lucky with Lautaro and I hear saying lost league, scudetto to Naples, that is, there are those who obviously say it also to be ironic",
+          "start_sec": 254.44,
+          "end_sec": 285.73999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro cannot be used as an alibi for Inter's performance.",
+      "polarity": "negative",
+      "claim_id": "52739c6c-25c1-41bf-897a-fded8ebb4bd6",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s7",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Lautaro cannot be used as an alibi for Inter's performance.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he cannot be an alibi, this is the first message that must pass",
+          "start_sec": 254.44,
+          "end_sec": 285.73999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Teammates make the most of Lautaro's presence when he is playing.",
+      "polarity": "positive",
+      "claim_id": "07e8a9e0-174f-4254-ad72-030a8b6c4655",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s3",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Teammates make the most of Lautaro's presence when he is playing.",
+      "evidence_quotes": [
+        {
+          "quote_text": "who makes the most of it when he is there",
+          "start_sec": 99.54,
+          "end_sec": 141.54000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli’s key forward player was paired with Olliund as their front players.",
+      "polarity": "neutral",
+      "claim_id": "fadc7bac-761a-48c5-94b2-9c73a3ae6986",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s6",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli’s key forward player was paired with Olliund as their front players.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Olliund, together with him, you",
+          "start_sec": 211.98,
+          "end_sec": 254.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro is an important player for Inter.",
+      "polarity": "positive",
+      "claim_id": "111e2086-38b5-4fae-9d61-5f7838ad7253",
+      "video_id": "DTPeXNowYII",
+      "segment_id": "s7",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro is an important player for Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lautaro is important",
+          "start_sec": 254.44,
+          "end_sec": 285.73999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

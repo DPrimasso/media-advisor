@@ -70,8 +70,9 @@ async function _doSync(endpoint) {
   ensurePollRunning()
 }
 
-function startSyncRecent() { return _doSync('/api/sync/recent') }
-function startSync()       { return _doSync('/api/sync') }
+function startSyncRecent()    { return _doSync('/api/sync/recent') }
+function startSync()          { return _doSync('/api/sync') }
+function startDailyReport()   { return _doSync('/api/sync/daily-report') }
 
 async function pollSync() {
   try {
@@ -84,6 +85,10 @@ async function pollSync() {
       if (data.status === 'done') {
         await fetchTips()
         await loadAnalyses()
+        if (data.result?.digest) {
+          digest.value = data.result.digest
+          digestDate.value = new Date().toISOString().slice(0, 10)
+        }
       }
     }
   } catch {}
@@ -103,6 +108,18 @@ const digest = ref(null)
 const digestLoading = ref(false)
 const digestError = ref(null)
 const digestDate = ref(todayISO)
+const digestCopied = ref(false)
+
+async function copyDigest() {
+  if (!digest.value) return
+  try {
+    await navigator.clipboard.writeText(digest.value)
+    digestCopied.value = true
+    setTimeout(() => { digestCopied.value = false }, 2000)
+  } catch {
+    // fallback silenzioso se clipboard non disponibile
+  }
+}
 
 async function generateDigest() {
   digestLoading.value = true
@@ -240,6 +257,19 @@ function analysisSourceLabel(item) {
           </span>
           <span class="btn-sync-label">Sincronizza Totale</span>
         </button>
+
+        <button
+          class="btn-sync btn-sync--report"
+          :disabled="syncStatus?.status === 'running'"
+          @click="startDailyReport"
+          title="Scarica nuovi video, estrae tip mercato e genera il sommario del giorno"
+        >
+          <span class="btn-sync-icon">
+            <svg v-if="syncStatus?.status !== 'running'" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            <span v-else class="sync-spinner"></span>
+          </span>
+          <span class="btn-sync-label">Report del Giorno</span>
+        </button>
       </div>
     </header>
 
@@ -254,6 +284,7 @@ function analysisSourceLabel(item) {
           <span class="sync-badge">+{{ syncStatus.result.new_videos ?? 0 }} video</span>
           <span class="sync-badge">{{ syncStatus.result.analyzed ?? 0 }} analisi</span>
           <span v-if="syncStatus.result.mercato_tips" class="sync-badge sync-badge--mercato">{{ syncStatus.result.mercato_tips }} tip mercato</span>
+          <span v-if="syncStatus.result.digest" class="sync-badge sync-badge--digest">Sommario generato</span>
         </div>
         <button v-if="syncStatus.status !== 'running'" class="sync-panel-close" @click="syncStatus = null">✕</button>
       </div>
@@ -300,7 +331,12 @@ function analysisSourceLabel(item) {
           </button>
         </div>
       </div>
-      <p v-if="digest" class="sommario-text">{{ digest }}</p>
+      <div v-if="digest" class="sommario-body">
+        <p class="sommario-text">{{ digest }}</p>
+        <button class="btn-copia" @click="copyDigest">
+          {{ digestCopied ? '✓ Copiato!' : 'Copia' }}
+        </button>
+      </div>
       <p v-else-if="digestError" class="sommario-error">{{ digestError }}</p>
       <p v-else-if="!digestLoading" class="sommario-placeholder">
         Clicca "Genera Sommario" per ricevere un briefing giornalistico generato da AI.
@@ -481,6 +517,16 @@ function analysisSourceLabel(item) {
   font-size: 0.8rem;
 }
 
+.btn-sync--report {
+  background: var(--accent);
+  color: white;
+}
+
+.btn-sync--report:hover:not(:disabled) {
+  background: var(--accent-hover);
+  border-color: transparent;
+}
+
 .btn-sync-icon {
   display: flex;
   align-items: center;
@@ -542,6 +588,11 @@ function analysisSourceLabel(item) {
 .sync-badge--mercato {
   background: rgba(217, 119, 6, 0.1);
   color: var(--warning);
+}
+
+.sync-badge--digest {
+  background: rgba(var(--accent-rgb, 99, 102, 241), 0.1);
+  color: var(--accent);
 }
 
 .sync-panel-close {
@@ -708,12 +759,38 @@ function analysisSourceLabel(item) {
   cursor: not-allowed;
 }
 
+.sommario-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
 .sommario-text {
   font-size: 1rem;
   line-height: 1.7;
   color: var(--text);
   margin: 0;
   font-style: italic;
+  white-space: pre-wrap;
+}
+
+.btn-copia {
+  align-self: flex-start;
+  padding: 0.35rem 0.85rem;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: inherit;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.btn-copia:hover {
+  color: var(--text);
+  border-color: var(--text-muted);
 }
 
 .sommario-placeholder {

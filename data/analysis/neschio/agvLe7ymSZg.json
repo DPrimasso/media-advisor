@@ -1,0 +1,408 @@
+{
+  "video_id": "agvLe7ymSZg",
+  "analyzed_at": "2026-04-21T14:40:28.577315+00:00",
+  "metadata": {
+    "title": "CAPITO PERCHÉ NON ANDIAMO AL MONDIALE⁉️ R.MADRID-BAYERN 1-2 e Sporting-Arsenal 0-1",
+    "author_name": "Neschio",
+    "published_at": "2026-04-07"
+  },
+  "summary": "Il video analizza la differenza di qualità e intensità tra il calcio italiano e le grandi squadre europee come Bayern Monaco e Real Madrid, evidenziando come questa disparità spieghi l'assenza dell'Italia ai Mondiali. L'autore sottolinea la superiorità del Bayern, che ha meritato la vittoria contro un Real Madrid comunque molto intenso, e mette in luce la difficoltà di seguire partite di alto livello contemporaneamente a causa del ritmo elevatissimo. Conclude che il calcio italiano, pur offrendo partite seguibili in parallelo, non raggiunge mai questi standard di qualità e intensità, motivo pe",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "intensità",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "qualità",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "gioco offensivo",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "There was a 15-minute period dominated only by Real Madrid's play.",
+      "polarity": "neutral",
+      "claim_id": "6530efb4-3c84-4d19-9d3c-ff0c127eec18",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s5",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "There was a 15-minute period dominated only by Real Madrid's play.",
+      "evidence_quotes": [
+        {
+          "quote_text": "there were 15 minutes in which he only played Real Madrid",
+          "start_sec": 216.61,
+          "end_sec": 252.64999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dominanza",
+        "periodo",
+        "gioco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Neuer",
+      "position": "Neuer played excellently despite being 40 years old, showing prime form with careful and tempestuous goalkeeping.",
+      "polarity": "positive",
+      "claim_id": "4562ac86-045d-498f-b8ff-69325361c741",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s6",
+      "target_entity": "Neuer",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Neuer played excellently despite being 40 years old, showing prime form with careful and tempestuous goalkeeping.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I repeat, 40 years, Neuer seems almost in his prime. Always tempestuous exits or always careful between the poles. Really a great game.",
+          "start_sec": 252.77,
+          "end_sec": 290.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "Real Madrid lost their match against Bayern and could have lost by a larger margin.",
+      "polarity": "negative",
+      "claim_id": "e42e7738-5a43-4ecb-ad73-924b1f04accb",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s0",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Real Madrid lost their match against Bayern and could have lost by a larger margin.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Real Madrid lost tonight and could easily have taken the double",
+          "start_sec": 0.39,
+          "end_sec": 51.75,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sconfitta",
+        "performance",
+        "partita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italian national team",
+      "position": "Italy does not qualify for the World Cup due to lower team quality compared to top European clubs.",
+      "polarity": "negative",
+      "claim_id": "c59ae0f4-4478-4999-b7a1-0f5a06c4c554",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s0",
+      "target_entity": "Italian national team",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Italy does not qualify for the World Cup due to lower team quality compared to top European clubs.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Do you understand why we don't go to the World Cup? But when I watched the game tonight and every time I found myself entertaining myself, when in front of the TV there were teams like Bayern, Barcelona, Real Madrid",
+          "start_sec": 0.39,
+          "end_sec": 51.75,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiale",
+        "qualificazione",
+        "confronto"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Serie A",
+      "position": "Si possono seguire due partite di Serie A contemporaneamente.",
+      "polarity": "neutral",
+      "claim_id": "001e46ff-a4e6-4ddd-8ef5-d0becd497ec5",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s3",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si possono seguire due partite di Serie A contemporaneamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "more than once it happened to me to see two matches in the same time, but two matches in the same time of Serie A",
+          "start_sec": 135.33,
+          "end_sec": 170.01000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita contemporanea",
+        "serie a",
+        "osservazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "Real Madrid match was played with very high intensity.",
+      "polarity": "positive",
+      "claim_id": "6760fa43-f6b5-4722-bc5e-2b3f44c25cab",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s4",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Real Madrid match was played with very high intensity.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Because, really, it's useless to say the intensity, it was a thousand per hour.",
+          "start_sec": 170.01,
+          "end_sec": 215.81,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intensità",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Real Madrid and Bayern Munich",
+      "position": "Watching Real Madrid and Bayern Munich matches simultaneously is nearly impossible due to intensity.",
+      "polarity": "neutral",
+      "claim_id": "8f7c1967-9d23-4791-8057-37fb9e4a4bfe",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s4",
+      "target_entity": "Real Madrid and Bayern Munich",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Watching Real Madrid and Bayern Munich matches simultaneously is nearly impossible due to intensity.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Real and Bayern Munich on two different devices, at the same time, you can't even follow them.",
+          "start_sec": 170.01,
+          "end_sec": 215.81,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "intensità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Bayern appeared totally in control during the match, including the second half.",
+      "polarity": "positive",
+      "claim_id": "cb3149a3-55c8-4b07-8b38-5f023fffe4be",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s5",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bayern appeared totally in control during the match, including the second half.",
+      "evidence_quotes": [
+        {
+          "quote_text": "You saw how Bayern seemed and was also totally in control, even in the second half.",
+          "start_sec": 216.61,
+          "end_sec": 252.64999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "controllo",
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Bayern scored two goals at Bernabéu and won the match.",
+      "polarity": "positive",
+      "claim_id": "2e2ebdc6-9aa6-4823-986b-e248a8a631b4",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s5",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Bayern scored two goals at Bernabéu and won the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he scored two goals against Bernabéu and took home the victory",
+          "start_sec": 216.61,
+          "end_sec": 252.64999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "goal",
+        "vittoria",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Upamecano",
+      "position": "Upamecano was clearly the worst player on the pitch in this match.",
+      "polarity": "negative",
+      "claim_id": "efb4457d-3979-4e43-9aa9-25dc0e2e97f8",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s6",
+      "target_entity": "Upamecano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Upamecano was clearly the worst player on the pitch in this match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Upamecano was perhaps clearly the worst on the pitch.",
+          "start_sec": 252.77,
+          "end_sec": 290.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Upamecano",
+      "position": "Upamecano left Vinicius free to score a goal for Mbappé.",
+      "polarity": "negative",
+      "claim_id": "d28cd7a3-b1fd-4858-b93a-8d542babb8cf",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s6",
+      "target_entity": "Upamecano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Upamecano left Vinicius free to score a goal for Mbappé.",
+      "evidence_quotes": [
+        {
+          "quote_text": "He had practically sent Vinicius to goal, on the goal of Mbappé, completely dormant.",
+          "start_sec": 252.77,
+          "end_sec": 290.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "difesa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Vincent Kompany",
+      "position": "Vincent Kompany's team showed some defensive fragility.",
+      "polarity": "negative",
+      "claim_id": "9463b600-840a-4503-8779-54c7f1fef3b9",
+      "video_id": "agvLe7ymSZg",
+      "segment_id": "s6",
+      "target_entity": "Vincent Kompany",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vincent Kompany's team showed some defensive fragility.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Who, in my opinion, had some defensive fragility, especially because Upamecano was perhaps clearly the worst on the pitch.",
+          "start_sec": 252.77,
+          "end_sec": 290.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "performance"
+      ]
+    }
+  ]
+}

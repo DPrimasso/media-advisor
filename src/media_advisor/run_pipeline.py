@@ -9,8 +9,8 @@ from collections.abc import Callable
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from media_advisor.io.json_io import read_json, read_video_list, write_json
-from media_advisor.io.paths import analysis_path, channels_config_path, transcript_path
+from media_advisor.io.json_io import read_json, read_json_or_default, read_video_list, write_json
+from media_advisor.io.paths import analysis_path, channels_config_path, transcript_path, video_dates_cache_path
 from media_advisor.models.channels import ChannelsConfig
 from media_advisor.pipeline.analyze_v2 import analyze_video_v2
 from media_advisor.transcript_api.client import TranscriptAPIError, TranscriptClient
@@ -49,7 +49,7 @@ async def run_from_list(
     channel_id: str | None = None,
     force_transcript: bool = False,
     force_analyze: bool = False,
-    model: str = "gpt-4o-mini",
+    model: str = "gpt-4.1-mini",
     transcript_only: bool = False,
     only_video_ids: set[str] | None = None,
     progress_callback: Callable[[str, str], None] | None = None,
@@ -66,6 +66,7 @@ async def run_from_list(
     transcript_client = TranscriptClient(transcript_api_key)
     result = RunFromListResult()
     _progress = progress_callback or (lambda *_: None)
+    dates_cache: dict[str, str] = read_json_or_default(video_dates_cache_path(root), default={}) or {}
 
     for channel in channels:
         ch_result = ChannelResult(id=channel.id)
@@ -127,9 +128,10 @@ async def run_from_list(
                 transcript_obj = TranscriptResponse.model_validate(raw_transcript)
                 meta = {}
                 if transcript_obj.metadata:
+                    pub = transcript_obj.metadata.published_at or dates_cache.get(vid)
                     meta = {
                         "title": transcript_obj.metadata.title,
-                        "published_at": transcript_obj.metadata.published_at,
+                        "published_at": pub,
                     }
 
                 print(f"  [{channel.id}/{vid}] analysis: running (model={model})...", flush=True)

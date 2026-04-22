@@ -103,7 +103,7 @@ async def analyze_video_mercato(
     video_id: str,
     channel_id: str,
     api_key: str,
-    model: str = "gpt-4o-mini",
+    model: str = "gpt-4.1-mini",
     force: bool = False,
     update_index: bool = True,
 ) -> VideoMercatoResult:

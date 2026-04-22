@@ -1,0 +1,116 @@
+{
+  "video_id": "ZszKZbB1xns",
+  "analyzed_at": "2026-04-21T14:45:01.974966+00:00",
+  "metadata": {
+    "title": "Non succede ma se succede… almeno per questa volta non è successo! #InterRoma",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta un episodio chiave della partita Inter-Roma, focalizzandosi su un'occasione mancata da Mancini, che si è trovato solo davanti alla porta ma non è riuscito a segnare. L'autore sottolinea come l'azione si sia sviluppata con spazio sufficiente per il tiro e una difesa poco efficace, evidenziando la bellezza del gol che avrebbe potuto concretizzarsi. La posizione principale è che, sebbene l'occasione non si sia concretizzata, momenti simili sono rari e preziosi, e la qualità dell'azione resta comunque degna di nota.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Mancini",
+      "position": "Mancini ha avuto una occasione da solo ma non ha segnato",
+      "polarity": "positive",
+      "claim_id": "e7847cca-1d56-4000-932d-2a38af23c81d",
+      "video_id": "ZszKZbB1xns",
+      "segment_id": "s0",
+      "target_entity": "Mancini",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Mancini ha avuto una occasione da solo ma non ha segnato",
+      "evidence_quotes": [
+        {
+          "quote_text": "Manco ritardo Mancini tutto solo",
+          "start_sec": 0.32,
+          "end_sec": 67.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "occasione",
+        "gol mancato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'azione si è sviluppata con spazio per il tiro e difesa non riuscita",
+      "polarity": "positive",
+      "claim_id": "6f79f999-8dac-4152-9b23-8b1541449ea3",
+      "video_id": "ZszKZbB1xns",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'azione si è sviluppata con spazio per il tiro e difesa non riuscita",
+      "evidence_quotes": [
+        {
+          "quote_text": "difendere anche con spazio anche per il tiro",
+          "start_sec": 0.32,
+          "end_sec": 67.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "spazio",
+        "tiro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "gol",
+      "position": "Il gol descritto è stato molto bello",
+      "polarity": "positive",
+      "claim_id": "70c2caa3-96c4-4c42-a02d-d82598cdea25",
+      "video_id": "ZszKZbB1xns",
+      "segment_id": "s0",
+      "target_entity": "gol",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il gol descritto è stato molto bello",
+      "evidence_quotes": [
+        {
+          "quote_text": "bello è! Ma quanto è bello questo gol! Quanto?",
+          "start_sec": 0.32,
+          "end_sec": 67.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "bellezza",
+        "prestazione"
+      ]
+    }
+  ]
+}

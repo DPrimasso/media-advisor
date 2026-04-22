@@ -1,0 +1,406 @@
+{
+  "video_id": "ZBGvyM55_2g",
+  "analyzed_at": "2026-04-21T14:43:19.950407+00:00",
+  "metadata": {
+    "title": "GIUSTO COSÌ‼️ NAPOLI-MILAN 1-0",
+    "author_name": "Neschio",
+    "published_at": "2026-04-06"
+  },
+  "summary": "Il video analizza la partita Napoli-Milan terminata 1-0, evidenziando un gioco bloccato e poco spettacolare con poche occasioni da entrambe le squadre. L’autore sottolinea come il Napoli abbia migliorato la prestazione nella seconda metà, nonostante l’assenza pesante di Olympé, out per febbre, e l’infortunio di Neres che ha condizionato la formazione. Pur riconoscendo che il Milan ha giocato bene nel primo tempo creando occasioni, la vittoria finale del Napoli è vista come meritata e rappresenta un segnale positivo per il prosieguo della stagione, con il potenziale di lottare fino alla fine de",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "assenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocata",
+      "relevance": "medium"
+    },
+    {
+      "name": "impegno",
+      "relevance": "low"
+    },
+    {
+      "name": "errore",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatore giovane",
+      "relevance": "low"
+    },
+    {
+      "name": "gioco",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il gioco è stato bloccato con poche occasioni e un equilibrio tra le squadre",
+      "polarity": "neutral",
+      "claim_id": "cf1fc584-9b2f-44a3-985a-5580b004435b",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il gioco è stato bloccato con poche occasioni e un equilibrio tra le squadre",
+      "evidence_quotes": [
+        {
+          "quote_text": "it was a blocked game, little chance on the one hand and on the other there was balance",
+          "start_sec": 0.07,
+          "end_sec": 35.53,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gioco",
+        "equilibrio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Olympe",
+      "position": "Olympe has not missed a game since October and has played practically all matches.",
+      "polarity": "positive",
+      "claim_id": "f522bbb3-53cc-43eb-b980-e591defa9cd8",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s1",
+      "target_entity": "Olympe",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Olympe has not missed a game since October and has played practically all matches.",
+      "evidence_quotes": [
+        {
+          "quote_text": "player who has not skipped a game since October he has played them practically all the reference there in front olympe",
+          "start_sec": 35.53,
+          "end_sec": 66.97000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "presenza",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan played the game they wanted and created chances in the first half.",
+      "polarity": "positive",
+      "claim_id": "80d47ea4-2ea4-4c30-9c92-abb78b275cc0",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan played the game they wanted and created chances in the first half.",
+      "evidence_quotes": [
+        {
+          "quote_text": "if we want I liked the Milan more because he played the game he wanted to play and also created something",
+          "start_sec": 66.97,
+          "end_sec": 105.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Olympé is out for fever, not a minor issue.",
+      "polarity": "neutral",
+      "claim_id": "6fe62c7b-fd24-4903-afcd-592cbbaf9fb4",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Olympé is out for fever, not a minor issue.",
+      "evidence_quotes": [
+        {
+          "quote_text": "recovering olympe today out for a fever not for little",
+          "start_sec": 66.97,
+          "end_sec": 105.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "salute"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli has the potential to make a shot from here at the end of the season.",
+      "polarity": "neutral",
+      "claim_id": "1e5bdab1-f1c6-4f29-b7ad-7ce423dc48d0",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Napoli has the potential to make a shot from here at the end of the season.",
+      "evidence_quotes": [
+        {
+          "quote_text": "napoli has the potential to make a shot from here at the end of the season",
+          "start_sec": 105.39,
+          "end_sec": 142.57,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "potenzialità",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Napoli has a wide space in the Serie A league table.",
+      "polarity": "neutral",
+      "claim_id": "a8731705-fdcd-481d-be5f-29596bdcd472",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli has a wide space in the Serie A league table.",
+      "evidence_quotes": [
+        {
+          "quote_text": "then wide wide space throughout the day of series a to the league table",
+          "start_sec": 142.57,
+          "end_sec": 190.41,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "classifica",
+        "spazio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli vs Milan",
+      "position": "The Napoli vs Milan game was certainly not entertaining and not the show one expects from the second.",
+      "polarity": "neutral",
+      "claim_id": "a70f05cf-8624-4bbe-b0c6-fcf204dbda8f",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s4",
+      "target_entity": "Napoli vs Milan",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The Napoli vs Milan game was certainly not entertaining and not the show one expects from the second.",
+      "evidence_quotes": [
+        {
+          "quote_text": "talking about the game itself it was certainly not entertaining it is not the show that one expects from the second",
+          "start_sec": 142.57,
+          "end_sec": 190.41,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "spettacolo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "L'assenza di Olympe è molto pesante per il Napoli.",
+      "polarity": "negative",
+      "claim_id": "614b5074-4f9f-4cab-9e54-90ff83592491",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'assenza di Olympe è molto pesante per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "then I have to tell the truth I think the absence of olympe is very heavy very heavy for napoli",
+          "start_sec": 190.41,
+          "end_sec": 237.17,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assenza",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli ha avuto una performance iniziale molto negativa con un giocatore giovane completamente sprecato.",
+      "polarity": "negative",
+      "claim_id": "83ab9c1f-fd8d-4f8f-a200-3ae04a891e8c",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha avuto una performance iniziale molto negativa con un giocatore giovane completamente sprecato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giovane at the beginning just completely wasted he could not keep a ball",
+          "start_sec": 190.41,
+          "end_sec": 237.17,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giovane",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli improved their performance in the second half of the game.",
+      "polarity": "neutral",
+      "claim_id": "274be6dd-f6c6-49cd-a8b9-35bbb232837b",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli improved their performance in the second half of the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "so napoli sprung up in the second half",
+          "start_sec": 35.53,
+          "end_sec": 66.97000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "secondo tempo",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Neres",
+      "position": "Neres had an injury which affected Napoli's lineup.",
+      "polarity": "negative",
+      "claim_id": "aac919db-b0e2-4d17-9597-06a7d1840010",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s1",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Neres had an injury which affected Napoli's lineup.",
+      "evidence_quotes": [
+        {
+          "quote_text": "then without adding maybe also the injury of neres",
+          "start_sec": 35.53,
+          "end_sec": 66.97000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "giocatore",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli ultimately wins over the long run.",
+      "polarity": "positive",
+      "claim_id": "bd39f252-8af8-42c1-ac62-209c00021bd9",
+      "video_id": "ZBGvyM55_2g",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ultimately wins over the long run.",
+      "evidence_quotes": [
+        {
+          "quote_text": "but in the long run wins napoli",
+          "start_sec": 66.97,
+          "end_sec": 105.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione"
+      ]
+    }
+  ]
+}

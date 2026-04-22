@@ -96,7 +96,7 @@ async def analyze_video_v2(
     video_id: str,
     channel_id: str,
     api_key: str,
-    model: str = "gpt-4o-mini",
+    model: str = "gpt-4.1-mini",
     metadata: dict[str, Any] | None = None,
     max_segments: int = 12,
     max_claims: int = 12,

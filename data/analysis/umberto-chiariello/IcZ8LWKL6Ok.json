@@ -1,0 +1,404 @@
+{
+  "video_id": "IcZ8LWKL6Ok",
+  "analyzed_at": "2026-04-21T14:35:11.891959+00:00",
+  "metadata": {
+    "title": "#CHIARIELLO IL PUNTO CHIARO 25/03/26: «Spazio alle NAZIONALI...»",
+    "author_name": "Radio CRC ",
+    "published_at": "2026-03-25"
+  },
+  "summary": "Il video di Umberto Chiariello si concentra sull'importanza delle prossime partite delle nazionali, in particolare sull'Italia che deve battere l'Irlanda del Nord per mantenere viva la speranza di qualificarsi ai mondiali, considerata la \"normalità\" per una squadra con il prestigio azzurro. L'autore sottolinea come l'assenza dell'Italia dai mondiali rappresenterebbe un fallimento epocale, dato il ricco palmarès azzurro, secondo solo al Brasile. Chiariello evidenzia inoltre il confronto con altre nazionali europee, come l'Inghilterra e la Germania, e auspica che la Bosnia vinca la semifinale pl",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "titolo",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionali",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "campionato europeo",
+      "relevance": "low"
+    },
+    {
+      "name": "gol irregolare",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "europe",
+      "subject": "George Arst",
+      "position": "Il titolo mondiale inglese del 66 è associato a un gol irregolare di George Arst.",
+      "polarity": "negative",
+      "claim_id": "82b48dcc-caa4-40cb-90ba-8ccdb48143a0",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s3",
+      "target_entity": "George Arst",
+      "entity_type": "player",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il titolo mondiale inglese del 66 è associato a un gol irregolare di George Arst.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quel titolo mondiale l'ha pure rubato con un gol irregolare di George Arst, il famoso gol fantasma ai supplementari di Inghilterra Germania del 66",
+          "start_sec": 148.879,
+          "end_sec": 184.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol irregolare",
+        "titolo mondiale"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Goretka",
+      "position": "Il nome di Goretka è conteso a destra e a manca nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "1379d9cf-8876-42bb-956e-5d3f9c9bcdbd",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s1",
+      "target_entity": "Goretka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il nome di Goretka è conteso a destra e a manca nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "già gira il nome di Goretka conteso a destra e a manca",
+          "start_sec": 56.199,
+          "end_sec": 107.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "Se l'Italia vince domani, è considerato la norma e non un evento straordinario.",
+      "polarity": "positive",
+      "claim_id": "001f946a-a30e-4a15-ab92-e2346544bb04",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Se l'Italia vince domani, è considerato la norma e non un evento straordinario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se l'Italia vince non è successo niente di strano e di anormale, è la norma",
+          "start_sec": 56.199,
+          "end_sec": 107.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "vittoria"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia deve vincere contro Irlanda del Nord per aspirare a partecipare ai mondiali.",
+      "polarity": "positive",
+      "claim_id": "a36a1246-7dd1-4e61-bb59-5bea3cb4a748",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia deve vincere contro Irlanda del Nord per aspirare a partecipare ai mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "battere Irlanda del Nord domani a Bergamo nella condizio sinequanon per aspirare alla normalità calcistica che prevede che l'Italia partecipi ai mondiali",
+          "start_sec": 105.04,
+          "end_sec": 150.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionali",
+        "qualificazione mondiali"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Inghilterra",
+      "position": "L'Inghilterra ha un solo titolo mondiale e zero campionati europei.",
+      "polarity": "neutral",
+      "claim_id": "a863350e-98df-4024-a3d9-60d2b8a7e755",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s3",
+      "target_entity": "Inghilterra",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inghilterra ha un solo titolo mondiale e zero campionati europei.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inghilterra c'ha un solo titolo mondiale e zero campionati europei",
+          "start_sec": 148.879,
+          "end_sec": 184.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "titolo",
+        "mondiale",
+        "campionato europeo"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Premier League",
+      "position": "La Premier League è considerata la grande lega del calcio europeo.",
+      "polarity": "positive",
+      "claim_id": "d212d9fe-235d-4770-83df-a81b22467d2f",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s3",
+      "target_entity": "Premier League",
+      "entity_type": "other",
+      "dimension": "europe",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Premier League è considerata la grande lega del calcio europeo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la grande Premier League che rappresenta il campionato inglese",
+          "start_sec": 148.879,
+          "end_sec": 184.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Premier League",
+        "campionato inglese"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Inghilterra",
+      "position": "L'Inghilterra è stata eliminata agli ottavi negli ultimi titoli europei.",
+      "polarity": "negative",
+      "claim_id": "3e4b3026-f872-487b-9f26-f1202ae9a11b",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s3",
+      "target_entity": "Inghilterra",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inghilterra è stata eliminata agli ottavi negli ultimi titoli europei.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che sono i padroni del football europeo, insomma padroni hanno preso una bella mazzata gli ottavi",
+          "start_sec": 148.879,
+          "end_sec": 184.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "eliminazione",
+        "ottavi",
+        "titolo europeo"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Germania",
+      "position": "La Germania ha più titoli mondiali e europei rispetto all'Italia.",
+      "polarity": "neutral",
+      "claim_id": "0fcec513-9902-4d37-8ee6-32c87d44f7c2",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s4",
+      "target_entity": "Germania",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Germania ha più titoli mondiali e europei rispetto all'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Germania ha più titoli di noi, ha quattro mondiali, ma c'ha anche più europei",
+          "start_sec": 181.56,
+          "end_sec": 225.51899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "titolo",
+        "mondiale",
+        "europeo"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia non è qualificata ai prossimi mondiali, un fatto incredibile.",
+      "polarity": "negative",
+      "claim_id": "2d59e07c-764f-46a0-a9c6-68e71fe6420f",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s4",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia non è qualificata ai prossimi mondiali, un fatto incredibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non essere al mondiale è veramente qualcosa di incredibile",
+          "start_sec": 181.56,
+          "end_sec": 225.51899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiale",
+        "non qualificazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia è seconda nel Palmares mondiale per titoli vinti dopo il Brasile.",
+      "polarity": "positive",
+      "claim_id": "fb5dfe16-d19b-46c8-aaa2-708a2f1ff390",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia è seconda nel Palmares mondiale per titoli vinti dopo il Brasile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Siamo per Palmares secondi dietro al Brasile",
+          "start_sec": 105.04,
+          "end_sec": 150.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionali",
+        "palmares"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Brasile",
+      "position": "Il Brasile è la nazionale con il maggior numero di titoli mondiali vinti.",
+      "polarity": "positive",
+      "claim_id": "6e9fa807-f532-481c-8845-ef8314d3e4b7",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s2",
+      "target_entity": "Brasile",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Brasile è la nazionale con il maggior numero di titoli mondiali vinti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Siamo per Palmares secondi dietro al Brasile",
+          "start_sec": 105.04,
+          "end_sec": 150.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionali",
+        "palmares"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia ha vinto quattro titoli mondiali di calcio.",
+      "polarity": "positive",
+      "claim_id": "1b947820-6c68-4068-bf19-d1ce5abfb2f2",
+      "video_id": "IcZ8LWKL6Ok",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha vinto quattro titoli mondiali di calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Noi abbiamo quattro titoli mondiali",
+          "start_sec": 105.04,
+          "end_sec": 150.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionali",
+        "palmares"
+      ]
+    }
+  ]
+}

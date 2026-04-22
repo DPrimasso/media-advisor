@@ -495,8 +495,8 @@ async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
 
 @app.get("/api/feed/digest")
 async def get_feed_digest(date: str | None = None) -> Any:
-    from datetime import date as date_type, datetime as datetime_type
-    import json as json_mod
+    from datetime import date as date_type
+    from media_advisor.digest import generate_mercato_digest
 
     s = Settings()
     if not s.openai_api_key:
@@ -507,100 +507,9 @@ async def get_feed_digest(date: str | None = None) -> Any:
     except ValueError:
         raise HTTPException(status_code=400, detail="Formato data non valido, usa YYYY-MM-DD")
 
-    # 1. Tips del giorno
-    from media_advisor.mercato.aggregator import get_all_tips
-    all_tips = get_all_tips(_root)
-    day_tips = [
-        t for t in all_tips
-        if t.mentioned_at and t.mentioned_at.date() == target_date
-    ]
-
-    # 2. Analisi video del giorno
-    day_analyses: list[dict] = []
-    analysis_index = _root / "data" / "analysis" / "index.json"
-    if analysis_index.exists():
-        index = json_mod.loads(analysis_index.read_text(encoding="utf-8"))
-        for ch in (index if isinstance(index, list) else []):
-            for vf in (ch.get("videos") or []):
-                apath = _root / "data" / "analysis" / ch["id"] / vf
-                if not apath.exists():
-                    continue
-                try:
-                    adata = json_mod.loads(apath.read_text(encoding="utf-8"))
-                    pub = (adata.get("metadata") or {}).get("published_at", "")
-                    if pub:
-                        pub_date = datetime_type.fromisoformat(pub).date()
-                        if pub_date == target_date:
-                            day_analyses.append({
-                                "channel": ch.get("name", ch["id"]),
-                                "title": (adata.get("metadata") or {}).get("title", ""),
-                                "summary": (adata.get("summary") or "")[:200],
-                            })
-                except Exception:
-                    continue
-
-    if not day_tips and not day_analyses:
+    digest_text = await generate_mercato_digest(_root, target_date, s.openai_api_key)
+    if not digest_text:
         return {"digest": None, "message": "Nessun contenuto per questa data"}
-
-    # 3. Build prompt
-    months_it = [
-        "", "Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
-        "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre",
-    ]
-    date_it = f"{target_date.day} {months_it[target_date.month]} {target_date.year}"
-
-    # Mappa channel_id → nome leggibile
-    _channel_names: dict[str, str] = {
-        "fabrizio-romano-italiano": "Fabrizio Romano",
-        "azzurro-fluido": "Azzurro Fluido",
-        "umberto-chiariello": "Umberto Chiariello",
-        "neschio": "Neschio",
-        "tuttomercatoweb": "TuttoMercatoWeb",
-        "calciomercato-it": "Calciomercato.it",
-        "nico-schira": "Nicolò Schira",
-    }
-
-    lines: list[str] = []
-    if day_tips:
-        lines.append("INDISCREZIONI DI MERCATO:")
-        for t in day_tips[:15]:
-            conf = {"rumor": "voce", "likely": "probabile", "confirmed": "confermata", "denied": "smentita"}.get(
-                str(t.confidence), str(t.confidence)
-            )
-            source = _channel_names.get(t.channel_id, t.channel_id)
-            line = f"- FONTE: {source} | {t.player_name}"
-            if t.from_club or t.to_club:
-                line += f" ({t.from_club or '?'} → {t.to_club or '?'})"
-            line += f" [{conf}]: {t.tip_text}"
-            lines.append(line)
-    if day_analyses:
-        lines.append("\nANALISI VIDEO:")
-        for a in day_analyses[:10]:
-            lines.append(f"- FONTE: {a['channel']} | {a['title']}: {a['summary']}")
-
-    # 4. GPT-4o-mini
-    import openai
-    client = openai.AsyncOpenAI(api_key=s.openai_api_key)
-    system_prompt = (
-        "Sei il redattore di una rassegna stampa sportiva italiana specializzata in calcio. "
-        "Ricevi un elenco di notizie, ciascuna con la sua FONTE (il giornalista o la testata che la riporta). "
-        "Scrivi la rassegna in italiano con queste regole:\n"
-        "1. Ogni notizia distinta è un paragrafo separato (non mescolare argomenti diversi nello stesso paragrafo).\n"
-        "2. Cita sempre la fonte all'inizio del paragrafo: 'Secondo [Fonte],' oppure '[Fonte] riporta che...'.\n"
-        "3. Stile giornalistico diretto, nomi dei giocatori in evidenza, prosa fluida.\n"
-        "4. Niente elenchi puntati, solo paragrafi.\n"
-        "5. Massimo 40 parole per paragrafo."
-    )
-    completion = await client.chat.completions.create(
-        model="gpt-4o-mini",
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": f"Notizie del {date_it}:\n\n" + "\n".join(lines)},
-        ],
-        max_tokens=500,
-        temperature=0.4,
-    )
-    digest_text = (completion.choices[0].message.content or "").strip()
     return {"digest": digest_text, "date": target_date.isoformat()}
 
 
@@ -673,6 +582,19 @@ async def post_sync_recent() -> Any:
     if not s.openai_api_key:
         raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
     asyncio.create_task(_run_recent_sync())
+    return {"status": "started"}
+
+
+@app.post("/api/sync/daily-report")
+async def post_sync_daily_report() -> Any:
+    if _sync_state["status"] == "running":
+        raise HTTPException(status_code=409, detail="Sync già in esecuzione")
+    s = Settings()
+    if not s.transcript_api_key:
+        raise HTTPException(status_code=500, detail="TRANSCRIPT_API_KEY non configurato")
+    if not s.openai_api_key:
+        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
+    asyncio.create_task(_run_daily_report())
     return {"status": "started"}
 
 
@@ -928,6 +850,124 @@ async def _run_recent_sync() -> None:
         result_summary["mercato_tips"] = len(all_new_tips)
 
         _sync_log("Sincronizzazione recenti completata.")
+        _sync_state.update(
+            status="done",
+            finished_at=datetime.now(_tz.utc).isoformat(),
+            result=result_summary,
+        )
+
+    except Exception as exc:
+        _sync_log(f"Errore: {exc}")
+        _sync_state.update(
+            status="error",
+            finished_at=datetime.now(_tz.utc).isoformat(),
+            error=str(exc),
+        )
+
+
+async def _run_daily_report() -> None:
+    """Fetch recenti → pipeline → mercato-scan → genera digest del giorno."""
+    from datetime import date as date_type
+    from media_advisor.io.paths import transcript_path as _tp
+    from media_advisor.models.channels import ChannelsConfig
+    from media_advisor.digest import generate_mercato_digest, MONTHS_IT
+
+    s = Settings()
+    root = _root
+    result_summary: dict = {}
+
+    _sync_state.update(
+        status="running",
+        started_at=datetime.now(_tz.utc).isoformat(),
+        finished_at=None,
+        log=[],
+        result=None,
+        error=None,
+        progress=None,
+    )
+
+    try:
+        # Step 1 — Fetch nuovi video
+        _sync_log("Step 1/6: Recupero nuovi video dai canali...")
+        from media_advisor.fetch import run_fetch_new_videos
+        pending = await run_fetch_new_videos(root, s.transcript_api_key)
+        n_fetched_new = len(pending.items)
+        _sync_log(f"  {n_fetched_new} nuovi video trovati")
+        result_summary["new_videos"] = n_fetched_new
+
+        # Step 2 — Merge nelle liste canale
+        _sync_log("Step 2/6: Aggiungo video alle liste canale...")
+        from media_advisor.merge import merge_pending_into_channels
+        added = merge_pending_into_channels(root)
+        _sync_log(f"  {added} video aggiunti")
+        result_summary["added_to_lists"] = added
+
+        cfg_raw = read_json(channels_config_path(root))
+        cfg = ChannelsConfig.model_validate(cfg_raw)
+
+        recent_ids: set[str] = {v.video_id for v in pending.items if v.video_id}
+        channel_of: dict[str, str] = {v.video_id: v.channel_id for v in pending.items if v.video_id}
+
+        if recent_ids:
+            # Step 3 — Pipeline claims sui video nuovi
+            _sync_log(f"Step 3/6: Pipeline claims su {len(recent_ids)} video nuovi...")
+            from media_advisor.run_pipeline import run_from_list
+            pipeline_result = await run_from_list(
+                root=root,
+                transcript_api_key=s.transcript_api_key,
+                openai_api_key=s.openai_api_key,
+                only_video_ids=recent_ids,
+            )
+            total_analyzed = sum(c.analyzed for c in pipeline_result.channels)
+            total_failed = sum(c.failed for c in pipeline_result.channels)
+            _sync_log(f"  analizzati={total_analyzed} falliti={total_failed}")
+            result_summary["analyzed"] = total_analyzed
+            result_summary["failed"] = total_failed
+
+            # Step 4 — Mercato scan sui video nuovi dei canali mercato
+            _sync_log("Step 4/6: Mercato scan (video nuovi)...")
+            mercato_ch_ids = {c.id for c in cfg.channels if getattr(c, "mercato_channel", False)}
+            recent_pairs = [
+                (vid, channel_of[vid])
+                for vid in recent_ids
+                if channel_of.get(vid) in mercato_ch_ids and _tp(root, channel_of[vid], vid).exists()
+            ]
+            mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, s.openai_api_key, recent_pairs)
+            if all_new_tips:
+                from media_advisor.mercato.analyzer import update_index_with_new_tips
+                update_index_with_new_tips(root, all_new_tips)
+            _sync_log(f"  mercato: {mercato_analyzed} video, {len(all_new_tips)} tip estratti")
+            result_summary["mercato_analyzed"] = mercato_analyzed
+            result_summary["mercato_tips"] = len(all_new_tips)
+        else:
+            _sync_log("Step 3-4/6: Nessun video nuovo, salto pipeline e mercato-scan.")
+            result_summary.update(analyzed=0, failed=0, mercato_analyzed=0, mercato_tips=0)
+
+        today = date_type.today()
+        reports_dir = root / "reports"
+        reports_dir.mkdir(exist_ok=True)
+
+        # Step 5 — Genera digest
+        _sync_log("Step 5/6: Generazione sommario mercato...")
+        digest_text = await generate_mercato_digest(root, today, s.openai_api_key)
+        if digest_text:
+            date_it = f"{today.day} {MONTHS_IT[today.month]} {today.year}"
+            now_str = datetime.now().strftime("%H:%M del %d/%m/%Y")
+            md_content = (
+                f"# Calciomercato — {date_it}\n\n"
+                f"{digest_text}\n\n"
+                f"---\n_Generato da Media Advisor alle {now_str}_\n"
+            )
+            report_file = reports_dir / f"{today.isoformat()}.md"
+            report_file.write_text(md_content, encoding="utf-8")
+            _sync_log(f"  Sommario generato ({len(digest_text)} caratteri), salvato in {report_file.name}")
+            result_summary["digest"] = digest_text
+        else:
+            _sync_log("  Nessun tip con data per oggi — sommario non generato.")
+            _sync_log("  Suggerimento: esegui 'mercato-enrich-dates' per popolare le date dei tip.")
+            result_summary["digest"] = None
+
+        _sync_log("Report giornaliero completato.")
         _sync_state.update(
             status="done",
             finished_at=datetime.now(_tz.utc).isoformat(),

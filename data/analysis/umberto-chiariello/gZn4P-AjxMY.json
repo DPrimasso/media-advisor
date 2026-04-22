@@ -1,0 +1,386 @@
+{
+  "video_id": "gZn4P-AjxMY",
+  "analyzed_at": "2026-04-21T14:27:53.583730+00:00",
+  "metadata": {
+    "title": "#CHIARIELLO IL PUNTO CHIARO 02/04/26: «Voi siete IPOCRITI: vi spiego il teorema HASA»",
+    "author_name": "Radio CRC ",
+    "published_at": "2026-04-02"
+  },
+  "summary": "Il video analizza la situazione del Napoli in vista della prossima stagione, sottolineando l’ambizione di vincere lo scudetto con Antonio Conte, al terzo anno sulla panchina, ma con possibili incertezze legate a voci di un suo addio alla nazionale. L’autore critica l’ipocrisia del sistema calcistico italiano, evidenziando come si continui a inseguire giocatori ormai in declino, mentre talenti emergenti come Manna, acquistato dal Napoli a basso costo, vengono sottovalutati. Viene inoltre messa in discussione la reale utilità del Lecce per il calcio italiano, nonostante le sue operazioni di merc",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovani",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatore giovane",
+      "relevance": "low"
+    },
+    {
+      "name": "storia",
+      "relevance": "low"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Modric",
+      "position": "Modric a 40 anni fa la differenza in Italia nonostante non fosse più titolare al Real Madrid.",
+      "polarity": "positive",
+      "claim_id": "65d610e4-a104-4b8a-bbd7-cb0ce0e67fdc",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s1",
+      "target_entity": "Modric",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Modric a 40 anni fa la differenza in Italia nonostante non fosse più titolare al Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vedi Modric al Real Madrid giocava ormai spicciolì a 40 anni in Italia fa la differenza",
+          "start_sec": 95.52,
+          "end_sec": 179.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "età",
+        "prestazione",
+        "differenza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha acquistato Manna per 500.000 euro, un giocatore che si era comportato bene in ritiro.",
+      "polarity": "positive",
+      "claim_id": "20f96807-fb69-4a6f-a032-94d56f24e56f",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha acquistato Manna per 500.000 euro, un giocatore che si era comportato bene in ritiro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli ha un ragazzo che in ritiro si era comportato molto bene, lo ha voluto fortissimamente Manna che l'ha pagato appena €500.000",
+          "start_sec": 95.52,
+          "end_sec": 179.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "acquisto",
+        "ritiro",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Dorgu",
+      "position": "Dorgu è stato venduto dal Lecce alla Premier League per 40 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "6a59e5f6-2a58-4ac2-8005-51e595871d45",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s1",
+      "target_entity": "Dorgu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Dorgu è stato venduto dal Lecce alla Premier League per 40 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dorgu che lo prende dal nulla e lo vende in Inghilterra in Premier per 40 milioni",
+          "start_sec": 95.52,
+          "end_sec": 179.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vendita",
+        "premier league",
+        "valore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Asa",
+      "position": "Asa fu eletto miglior giocatore dell'Europeo Under 19.",
+      "polarity": "positive",
+      "claim_id": "46e7324e-2a71-4a75-adaf-8ad02a9a3b09",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s2",
+      "target_entity": "Asa",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Asa fu eletto miglior giocatore dell'Europeo Under 19.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Man ha creduto in Asa, lo aveva la Juventus. Questo ragazzo nell'Under 19 italiana fu eletto miglior giocatore dell'Europeo.",
+          "start_sec": 177.319,
+          "end_sec": 253.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli vuole vincere lo scudetto l'anno prossimo con Antonio Conte.",
+      "polarity": "positive",
+      "claim_id": "19fe81db-91e3-4210-940f-586646551830",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli vuole vincere lo scudetto l'anno prossimo con Antonio Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli vuole vincere lo scudetto l'anno prossimo? Sì, sì, con Antonio Conte al terzo anno",
+          "start_sec": 0.16,
+          "end_sec": 98.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte potrebbe lasciare il Napoli a causa di voci sulla nazionale.",
+      "polarity": "neutral",
+      "claim_id": "f9ba730b-c5e0-4315-99d4-15a9bf76a928",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Antonio Conte potrebbe lasciare il Napoli a causa di voci sulla nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sempre che rimanca, perché ora ci sono pure le voci in nazionale",
+          "start_sec": 0.16,
+          "end_sec": 98.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Goretzka",
+      "position": "Goretzka è considerato un giocatore forte per vincere lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "e7b7cd0b-4a91-4a52-a9ef-10d90a1bbf2b",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s1",
+      "target_entity": "Goretzka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Goretzka è considerato un giocatore forte per vincere lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'hanno giocatori forti per vincere lo scudetto, non c'è dubbio, bisogna rinforzarsi",
+          "start_sec": 95.52,
+          "end_sec": 179.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "scudetto",
+        "forza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lecce",
+      "position": "Il Lecce non apporta benefici significativi al calcio italiano.",
+      "polarity": "negative",
+      "claim_id": "9507fd6d-9251-47ef-b5bd-9a9e97e1e53d",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s2",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Lecce non apporta benefici significativi al calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma il bene che fa il Lecce a calcio italiano qual è? 0,0 dice",
+          "start_sec": 177.319,
+          "end_sec": 253.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano è in rovina e ha già naufragato a causa della logica egoistica delle squadre.",
+      "polarity": "negative",
+      "claim_id": "fafcef97-8bc7-4b87-94f4-1cc760445aa7",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s2",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano è in rovina e ha già naufragato a causa della logica egoistica delle squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma questa è la logica di Bottega che sta portando il calcio italiano alla deriva. Alla rovina c'è già alla deriva proprio al naufraggio. È già naufragato.",
+          "start_sec": 177.319,
+          "end_sec": 253.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Asa",
+      "position": "Asa è un giocatore giovane, tecnico, veloce e con buona capacità aerobica paragonato a Rui Barrosch.",
+      "polarity": "positive",
+      "claim_id": "f343de17-427b-4e0a-822d-6718df4ce940",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s2",
+      "target_entity": "Asa",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Asa è un giocatore giovane, tecnico, veloce e con buona capacità aerobica paragonato a Rui Barrosch.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io l'ho paragonato a Rui Barrosch, l'ex furetto portoghese della Juventus. Piccolo, tignoso, veloce, grande capacità aerobica, tanta corsa, tiro dal limite, buone idee, buona tecnica",
+          "start_sec": 177.319,
+          "end_sec": 253.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "ASA",
+      "position": "ASA è un giocatore poliedrico che può giocare in vari ruoli del centrocampo.",
+      "polarity": "positive",
+      "claim_id": "6a6d52d7-ce18-4c34-9341-7d120926727e",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s3",
+      "target_entity": "ASA",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "ASA è un giocatore poliedrico che può giocare in vari ruoli del centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poliedrico, polifunzionale, fa la mezzala, fa il brigista, fa la fa il trequartista, gioca in ogni ruolo del centrocampo",
+          "start_sec": 251.0,
+          "end_sec": 327.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "poliedrico",
+        "centrocampo",
+        "ruolo"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte è al terzo anno come allenatore del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "4c4683c0-aaa3-4f50-b3a5-8c966a22e46a",
+      "video_id": "gZn4P-AjxMY",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte è al terzo anno come allenatore del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con Antonio Conte al terzo anno",
+          "start_sec": 0.16,
+          "end_sec": 98.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "video_id": "1aZpOAnNG7s",
+  "analyzed_at": "2026-04-21T14:52:29.776478+00:00",
+  "metadata": {
+    "title": "DUELLO MILAN-PREMIER PER UN GIOVANE TALENTO. L’INTER BLINDA UNA STELLA. NAPOLI-LUKAKU ECCO LA VERITÀ",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulle strategie di mercato e sulle scelte di formazione dell'Inter in vista della prossima stagione, con particolare attenzione al centrocampista Calhanoglu. L'autore sottolinea la decisione dell'Inter di trattenere Calhanoglu, valutato almeno 20 milioni di euro, nonostante offerte ritenute insufficienti dal Galatasaray, evidenziando il suo ruolo chiave, soprattutto dopo il gol decisivo che ha rilanciato la squadra verso lo scudetto. Inoltre, si fa il punto sulle trattative per il rinnovo contrattuale e sulle possibili cessioni, come quella di Frattesi, mentre si anticipa",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "stipendio",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Coppa Italia",
+      "position": "La Coppa Italia avrà una finale Inter-Como contro Atalanta-Lazio il 13 maggio all'Olimpico.",
+      "polarity": "neutral",
+      "claim_id": "c7fb101b-ead4-41b8-8ad0-8c19b2322643",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s0",
+      "target_entity": "Coppa Italia",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Coppa Italia avrà una finale Inter-Como contro Atalanta-Lazio il 13 maggio all'Olimpico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una due giorni di Coppa Italia che darà il verdetto per chi si affronterà in finale all'Olimpico il 13 di maggio, Inter-C Como e Atalanta- Lazio",
+          "start_sec": 0.16,
+          "end_sec": 30.038999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa_italia",
+        "finale",
+        "inter",
+        "atalanta",
+        "lazio"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Inter valuta Calhanoglu almeno 20 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "7af646ab-306f-4c12-a03c-452e8757416b",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter valuta Calhanoglu almeno 20 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter dice all'anno di contratto un giocatore che per noi vale 20 milioni.",
+          "start_sec": 28.16,
+          "end_sec": 54.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "valutazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Galatasaray ha offerto 8 milioni più bonus per Ranorlu, ma l'offerta è stata ritenuta inaccettabile.",
+      "polarity": "negative",
+      "claim_id": "f2ede918-4c8e-458a-a643-909d1a454a68",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s1",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Galatasaray ha offerto 8 milioni più bonus per Ranorlu, ma l'offerta è stata ritenuta inaccettabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in estate 8 milioni più du di bonus offerta ritenuta inaccettabile",
+          "start_sec": 28.16,
+          "end_sec": 54.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "offerta",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Galatasaray",
+      "position": "Galatasaray pensa di liberare gratis Ranorlu con un'offerta di 10 milioni a stagione per 3 anni.",
+      "polarity": "negative",
+      "claim_id": "e656c82e-160f-4360-b179-522e04c693c4",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s1",
+      "target_entity": "Galatasaray",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Galatasaray pensa di liberare gratis Ranorlu con un'offerta di 10 milioni a stagione per 3 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Adesso addirittura il Galata 3 pensava do c'an 10 milioni all'anno per 3 anni si libera gratis.",
+          "start_sec": 28.16,
+          "end_sec": 54.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Calhanoglu",
+      "position": "Calhanoglu ha un contratto in scadenza nel 2027 con stipendio di 6,5 milioni più bonus.",
+      "polarity": "positive",
+      "claim_id": "784f59ec-78ad-4b8e-b74a-b57bd2112140",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s3",
+      "target_entity": "Calhanoglu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Calhanoglu ha un contratto in scadenza nel 2027 con stipendio di 6,5 milioni più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ceranoglu che è in scadenza nel 2027, guadagna 6 milioni e mezzo stagione più bonus",
+          "start_sec": 73.759,
+          "end_sec": 99.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "stipendio",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter vuole rinnovare il contratto di Calhanoglu fino al 2028 con possibile estensione al 2029.",
+      "polarity": "positive",
+      "claim_id": "9b9e4e4f-83cc-410b-bc06-eb1203278b78",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter vuole rinnovare il contratto di Calhanoglu fino al 2028 con possibile estensione al 2029.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter vorrebbe abbassare un pochino le cifre, sarebbe disposta a concedere il rinnovo sino al 2028 con opzione per il 29",
+          "start_sec": 73.759,
+          "end_sec": 99.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "mercato",
+        "rinnovo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Calanogu",
+      "position": "Calanogu ha segnato il gol scudetto decisivo per l'Inter in difficoltà contro la Roma.",
+      "polarity": "positive",
+      "claim_id": "fecb388c-9c00-46bb-9db5-ee0d70e76c15",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s2",
+      "target_entity": "Calanogu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Calanogu ha segnato il gol scudetto decisivo per l'Inter in difficoltà contro la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se vogliamo il gol scudetto di Calanogu, perché l'Inter era in calo, stava facendo fatica nel primo tempo con la Roma",
+          "start_sec": 53.64,
+          "end_sec": 75.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Il gol di Calanogu ha rilanciato definitivamente l'Inter verso lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "84894a81-de2f-40f6-b072-5184db8afc17",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il gol di Calanogu ha rilanciato definitivamente l'Inter verso lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quel missile dalla distanza che finisce all'incrocio, taglia le gambe alla Roma che poi ne avrebbe prese cinque e lancia l'Inter definitivamente verso lo scudetto",
+          "start_sec": 53.64,
+          "end_sec": 75.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter conta di acquisire nuovi talenti come Gordon Stipic e Solé nei prossimi giorni.",
+      "polarity": "neutral",
+      "claim_id": "6022543e-26dd-4437-9f22-7ae6860e3ba0",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter conta di acquisire nuovi talenti come Gordon Stipic e Solé nei prossimi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter nei prossimi giorni conterà la gente Gordon Stipic che anche la gente di Solé",
+          "start_sec": 53.64,
+          "end_sec": 75.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter considera Calhanoglu un giocatore determinante da trattenere.",
+      "polarity": "positive",
+      "claim_id": "91b2da2c-f479-43f5-b171-6304f6609eb9",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter considera Calhanoglu un giocatore determinante da trattenere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Comunque l'Inter vuol tenersi stretta Calanoglu. L'Inter ritiene Calanog un giocatore determinante",
+          "start_sec": 73.759,
+          "end_sec": 99.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "valutazione",
+        "politica"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Inter",
+      "position": "L'Inter ha deciso di trattenere Cancialanogu.",
+      "polarity": "positive",
+      "claim_id": "0dd40753-54ea-4ce9-a93e-04d7cbc5e7c0",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha deciso di trattenere Cancialanogu.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter ha deciso di trattenere a Cancialanogu",
+          "start_sec": 0.16,
+          "end_sec": 30.038999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato",
+        "lineup_prediction",
+        "inter"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter manterrà Calanogu nel prossimo futuro.",
+      "polarity": "positive",
+      "claim_id": "90c478b9-4355-4ffb-b0c5-e066d49ca8aa",
+      "video_id": "1aZpOAnNG7s",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter manterrà Calanogu nel prossimo futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter si terrà stretta Calanogu",
+          "start_sec": 53.64,
+          "end_sec": 75.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

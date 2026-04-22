@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-17T12:51:33.841587Z",
+  "updated_at": "2026-04-22T08:58:20.569101Z",
   "tips": [
     {
       "tip_id": "13820ae1-f6b5-44bd-ad13-b34ea29e9b70",
@@ -470,6 +470,52 @@
       "corroboration_score": 0.0
     },
     {
+      "tip_id": "3def958b-275a-46d9-b688-2e338cf4e07d",
+      "video_id": "_oOb7JXG5xo",
+      "channel_id": "calciomercato-it",
+      "mentioned_at": "2026-04-20T09:32:26Z",
+      "extracted_at": "2026-04-21T10:13:09.802733Z",
+      "player_name": "Adrien Rabiot",
+      "from_club": "Juventus",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "denied",
+      "confidence_note": "non c'è trattativa con altre squadre",
+      "tip_text": "Rabiot non lascerà la Juventus, smentito.",
+      "quote_text": "non c'è trattativa con altre squadre",
+      "quote_start_sec": 165.0,
+      "quote_end_sec": 175.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
+      "tip_id": "2fa8ceb5-6008-457c-a648-d7763d5cf044",
+      "video_id": "1w3_9mTS2C4",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-18T10:23:08Z",
+      "extracted_at": "2026-04-21T10:13:58.989260Z",
+      "player_name": "Adrien Rabiot",
+      "from_club": "Milan",
+      "to_club": null,
+      "transfer_type": "extension",
+      "confidence": "confirmed",
+      "confidence_note": "Rinnovo annuale già pronto",
+      "tip_text": "Rabiot intoccabile, il Milan ha pronto il rinnovo annuale.",
+      "quote_text": "il Milan ha già pronto al rinnovo annuale, 4 milioni e mezzo stagione più bonus.",
+      "quote_start_sec": null,
+      "quote_end_sec": null,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "879b6663-6e5e-4f46-a5db-7882734cb253",
       "video_id": "btH8Se00_Xg",
       "channel_id": "fabrizio-romano-italiano",
@@ -925,12 +971,74 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
+        "_FBbFjDNpcA",
+        "Tll0avbbLTU",
         "KgfTM1BQvaU",
         "4YnnRgonFLI",
         "i2mjMRG7Qxg",
         "oKClknI3FSI"
       ],
-      "corroboration_score": 0.8
+      "corroboration_score": 1.0
+    },
+    {
+      "tip_id": "dfa87dd4-9ab1-4b80-9221-571289b8cd33",
+      "video_id": "_FBbFjDNpcA",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-15T11:47:38Z",
+      "extracted_at": "2026-04-21T10:11:37.645897Z",
+      "player_name": "Alessandro Bastoni",
+      "from_club": "Inter",
+      "to_club": "Barcellona",
+      "transfer_type": "unknown",
+      "confidence": "likely",
+      "confidence_note": "contatti tra club e entourage",
+      "tip_text": "Contatti tra Inter e Barcellona per Bastoni.",
+      "quote_text": "c'è da dire che c'è una trattativa, ci sono stati dei contatti in questi mesi per bastoni al Barcellona.",
+      "quote_start_sec": 174.0,
+      "quote_end_sec": 205.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "C_8MJARRAHY",
+        "Tll0avbbLTU",
+        "KgfTM1BQvaU",
+        "4YnnRgonFLI",
+        "i2mjMRG7Qxg",
+        "oKClknI3FSI"
+      ],
+      "corroboration_score": 1.0
+    },
+    {
+      "tip_id": "f1a212fc-8dec-480e-889c-b9fe60d40de0",
+      "video_id": "Tll0avbbLTU",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-21T00:11:24Z",
+      "extracted_at": "2026-04-21T10:42:45.522465Z",
+      "player_name": "Alessandro Bastoni",
+      "from_club": "Inter",
+      "to_club": "Barcellona",
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "il Barcellona vuole Bastoni",
+      "tip_text": "Il Barcellona sta dialogando con l'entourage di Bastoni.",
+      "quote_text": "Bastoni e il Barcellona, il suo entourage e il Barcellona parlano da tempo.",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "C_8MJARRAHY",
+        "_FBbFjDNpcA",
+        "KgfTM1BQvaU",
+        "4YnnRgonFLI",
+        "i2mjMRG7Qxg",
+        "oKClknI3FSI"
+      ],
+      "corroboration_score": 1.0
     },
     {
       "tip_id": "549d24de-9ee4-4371-b426-ad6f3d5242e4",
@@ -1014,6 +1122,29 @@
         "kzwhdqE2Tps"
       ],
       "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "3c06fc01-a68c-4e8c-8e39-a00e572b9541",
+      "video_id": "_FBbFjDNpcA",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-15T11:47:38Z",
+      "extracted_at": "2026-04-21T10:11:37.645897Z",
+      "player_name": "Alexander Stankovic",
+      "from_club": "Club Brugge",
+      "to_club": "Inter",
+      "transfer_type": "permanent",
+      "confidence": "confirmed",
+      "confidence_note": "diritto di recompra di 23 milioni",
+      "tip_text": "Inter eserciterà il diritto di ricompra su Stankovic.",
+      "quote_text": "l'intenzione dell'Inter è quella di esercitare il il diritto di compra ehm fissato per 23 milioni di euro.",
+      "quote_start_sec": 122.0,
+      "quote_end_sec": 146.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
     },
     {
       "tip_id": "514585fb-ca52-4d4e-ae45-d0d6b072ef8f",
@@ -1718,6 +1849,29 @@
       "corroboration_score": 0.2
     },
     {
+      "tip_id": "f70add81-4b0e-412d-af53-6fa6fa5c372a",
+      "video_id": "Tll0avbbLTU",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-21T00:11:24Z",
+      "extracted_at": "2026-04-21T10:42:45.522465Z",
+      "player_name": "Antonio Rudiger",
+      "from_club": "Real Madrid",
+      "to_club": "Juventus",
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "interessamento della Juventus",
+      "tip_text": "Rudiger accostato alla Juventus ma in rinnovo col Real.",
+      "quote_text": "Tony Rudiger... si è parlato a lungo di Juventus durante le ultime settimane.",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "8077f550-f763-47c7-be90-5aa10361e72b",
       "video_id": "fJZM389ZaEU",
       "channel_id": "fabrizio-romano-italiano",
@@ -2241,9 +2395,10 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
-        "Ctwd5VxXR_o"
+        "Ctwd5VxXR_o",
+        "TdzxRoTAD3g"
       ],
-      "corroboration_score": 0.2
+      "corroboration_score": 0.4
     },
     {
       "tip_id": "5b595636-90b9-4283-9c4e-4e5bfa89ce5a",
@@ -2442,11 +2597,13 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "C_8MJARRAHY",
+        "_FBbFjDNpcA",
+        "Tll0avbbLTU",
         "4YnnRgonFLI",
         "i2mjMRG7Qxg",
         "oKClknI3FSI"
       ],
-      "corroboration_score": 0.8
+      "corroboration_score": 1.0
     },
     {
       "tip_id": "0826971b-19f2-46ac-92f5-dcf514b5c63b",
@@ -2470,11 +2627,13 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "C_8MJARRAHY",
+        "_FBbFjDNpcA",
+        "Tll0avbbLTU",
         "KgfTM1BQvaU",
         "i2mjMRG7Qxg",
         "oKClknI3FSI"
       ],
-      "corroboration_score": 0.8
+      "corroboration_score": 1.0
     },
     {
       "tip_id": "e18e95bd-699d-494c-b2f7-53c2ce177c83",
@@ -2498,11 +2657,13 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "C_8MJARRAHY",
+        "_FBbFjDNpcA",
+        "Tll0avbbLTU",
         "KgfTM1BQvaU",
         "4YnnRgonFLI",
         "oKClknI3FSI"
       ],
-      "corroboration_score": 0.8
+      "corroboration_score": 1.0
     },
     {
       "tip_id": "dca68130-1eb2-4553-903b-66c93e1ba331",
@@ -2526,11 +2687,13 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "C_8MJARRAHY",
+        "_FBbFjDNpcA",
+        "Tll0avbbLTU",
         "KgfTM1BQvaU",
         "4YnnRgonFLI",
         "i2mjMRG7Qxg"
       ],
-      "corroboration_score": 0.8
+      "corroboration_score": 1.0
     },
     {
       "tip_id": "433ebef0-a3ae-4ae5-9875-2bd7797531ce",
@@ -3080,9 +3243,10 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "rdtheUFt4yo",
+        "LI9E_00LKUk",
         "_8vgbdqaY6I"
       ],
-      "corroboration_score": 0.4
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "a0de3b7a-866d-43d3-a4b6-e0c5a6b52aba",
@@ -3106,9 +3270,37 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "rMNyzgifXew",
+        "LI9E_00LKUk",
         "_8vgbdqaY6I"
       ],
-      "corroboration_score": 0.4
+      "corroboration_score": 0.6
+    },
+    {
+      "tip_id": "f5ade4b7-86d1-4da7-b838-9db4eb6f0a78",
+      "video_id": "LI9E_00LKUk",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-17T21:06:20Z",
+      "extracted_at": "2026-04-21T10:14:53.080890Z",
+      "player_name": "Boga",
+      "from_club": "Sassuolo",
+      "to_club": "Juventus",
+      "transfer_type": "permanent",
+      "confidence": "confirmed",
+      "confidence_note": "riscatto comunicato all'entourage",
+      "tip_text": "Boga verrà riscattato dalla Juventus per 4,8 milioni.",
+      "quote_text": "Boga che verrà riscattato 4 milioni e 8, non ci sono dubbi.",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "rMNyzgifXew",
+        "rdtheUFt4yo",
+        "_8vgbdqaY6I"
+      ],
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "148b05a2-3b57-4b53-90d6-9cc6d075fa28",
@@ -5082,6 +5274,29 @@
       "corroboration_score": 0.0
     },
     {
+      "tip_id": "f17852fc-7592-417e-b3f2-9578e485b802",
+      "video_id": "_FBbFjDNpcA",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-15T11:47:38Z",
+      "extracted_at": "2026-04-21T10:11:37.645897Z",
+      "player_name": "Cristiano Giuntoli",
+      "from_club": null,
+      "to_club": "Olympique Marsiglia",
+      "transfer_type": "unknown",
+      "confidence": "likely",
+      "confidence_note": "aperte piste nella Premier e in Francia",
+      "tip_text": "Giuntoli potrebbe diventare DS dell'Olympique Marsiglia.",
+      "quote_text": "Giuntoli è uno dei nomi papabili. uno dei nomi concreti eh per prendere in mano il mercato dell'OM.",
+      "quote_start_sec": 311.0,
+      "quote_end_sec": 319.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "2915fb68-6379-474d-81d6-826210ad3d43",
       "video_id": "U4sYOmH3qDY",
       "channel_id": "fabrizio-romano-italiano",
@@ -5853,6 +6068,75 @@
         "GD5rCS1XoPk"
       ],
       "corroboration_score": 0.8
+    },
+    {
+      "tip_id": "411205d9-5d49-4e86-9198-7a9f2dd82b7f",
+      "video_id": "mluc7FscHA0",
+      "channel_id": "tuttomercatoweb",
+      "mentioned_at": "2026-04-21T12:39:36Z",
+      "extracted_at": "2026-04-22T08:58:05.862066Z",
+      "player_name": "Davide Palestra",
+      "from_club": "Atalanta",
+      "to_club": "Cagliari",
+      "transfer_type": "loan",
+      "confidence": "rumor",
+      "confidence_note": "attualmente al Cagliari in prestito",
+      "tip_text": "Davide Palestra attualmente in prestito al Cagliari da Atalanta.",
+      "quote_text": "Un nome che certamente sarà al centro del mercato estivo è quello di palestra, attualmente al Cagliari, ma di proprietà dell'Atalanta.",
+      "quote_start_sec": 1107.0,
+      "quote_end_sec": 1118.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
+      "tip_id": "694c3650-b33c-4931-9446-bc51ce1c7967",
+      "video_id": "mluc7FscHA0",
+      "channel_id": "tuttomercatoweb",
+      "mentioned_at": "2026-04-21T12:39:36Z",
+      "extracted_at": "2026-04-22T08:58:05.862066Z",
+      "player_name": "Davide Palestra",
+      "from_club": "Cagliari",
+      "to_club": "Inter",
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "voci di interesse dall'Inter per il futuro",
+      "tip_text": "Voci di mercato sull'interesse dell'Inter per Davide Palestra in futuro.",
+      "quote_text": "Sai che l'Inter ti vuole per dopo Ducis? No, io onestamente penso solo a concentrarmi col Cagliari perché la cosa più importante ad oggi è conquistare la salvezza. Poi le voci che girano ovviamente fanevi accostamenti da parte di Grandi Club, ma ripeto sono solo focalizzato sul Cagliari e poi in estate vedremo tutto.",
+      "quote_start_sec": 1182.0,
+      "quote_end_sec": 1199.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
+      "tip_id": "243d4755-8f80-4a8e-a6eb-c5572fcc1f39",
+      "video_id": "LI9E_00LKUk",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-17T21:06:20Z",
+      "extracted_at": "2026-04-21T10:14:53.080890Z",
+      "player_name": "Davis",
+      "from_club": "Udinese",
+      "to_club": null,
+      "transfer_type": "extension",
+      "confidence": "likely",
+      "confidence_note": "Rinnovo in trattativa",
+      "tip_text": "Udinese vuole rinnovare il contratto di Davis.",
+      "quote_text": "l'Udinese vuole bindare con Rinnovo, ma che ha tanti estimatori.",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
     },
     {
       "tip_id": "f42b7db7-24a2-4f6a-8f7e-fa6e856dfc35",
@@ -7094,9 +7378,11 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
+        "r1dhTsBLXto",
+        "2Qv5NqGRGv8",
         "20uiVL_7z0Y"
       ],
-      "corroboration_score": 0.2
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "c9adb4de-6833-47c3-9ab9-eacc0e179ce5",
@@ -7123,6 +7409,60 @@
         "WrNdQEJKV-U"
       ],
       "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "17427e53-d211-4cf1-830a-0152ab8e88f7",
+      "video_id": "r1dhTsBLXto",
+      "channel_id": "calciomercato-it",
+      "mentioned_at": "2026-04-16T10:42:01Z",
+      "extracted_at": "2026-04-21T10:13:19.500831Z",
+      "player_name": "Dusan Vlahovic",
+      "from_club": "Juventus",
+      "to_club": null,
+      "transfer_type": "extension",
+      "confidence": "likely",
+      "confidence_note": "offerta al ribasso per rinnovo",
+      "tip_text": "La Juve potrebbe proporre un ingaggio ridotto a Vlahovic.",
+      "quote_text": "la Juve addirittura starebbe pensando di eh presentare un'offerta al ribasso.",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "1R0sMgweVbU",
+        "2Qv5NqGRGv8",
+        "20uiVL_7z0Y"
+      ],
+      "corroboration_score": 0.6
+    },
+    {
+      "tip_id": "06908ffe-5b23-471a-8c72-3e13d39f43be",
+      "video_id": "2Qv5NqGRGv8",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-20T16:15:33Z",
+      "extracted_at": "2026-04-21T10:11:25.253108Z",
+      "player_name": "Dusan Vlahovic",
+      "from_club": "Juventus",
+      "to_club": null,
+      "transfer_type": "extension",
+      "confidence": "likely",
+      "confidence_note": "dialoghi congelati per il rinnovo",
+      "tip_text": "Vlahovic non ha progressi nel rinnovo con la Juventus.",
+      "quote_text": "ancora non ci sono passi in avanti per il rinnovo di Vlaovicć alla Juventus.",
+      "quote_start_sec": null,
+      "quote_end_sec": null,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "1R0sMgweVbU",
+        "r1dhTsBLXto",
+        "20uiVL_7z0Y"
+      ],
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "6b153371-5b7e-47ed-ba25-a1ee404d525b",
@@ -8142,6 +8482,32 @@
       "corroboration_score": 0.4
     },
     {
+      "tip_id": "412eb76a-aa79-47ac-99a8-1d4254ced855",
+      "video_id": "LI9E_00LKUk",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-17T21:06:20Z",
+      "extracted_at": "2026-04-21T10:14:53.080890Z",
+      "player_name": "Emily Holm",
+      "from_club": "Bologna",
+      "to_club": "Juventus",
+      "transfer_type": "loan",
+      "confidence": "likely",
+      "confidence_note": "trattativa per prestito oneroso in corso",
+      "tip_text": "La Juventus sta trattando un prestito oneroso per Holm.",
+      "quote_text": "Più facile che la Juve possa sedersi col Bologna per negoziare magari un prestito oneroso con obbligo di riscatto",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "rMNyzgifXew",
+        "zeErFtUcY8Q"
+      ],
+      "corroboration_score": 0.4
+    },
+    {
       "tip_id": "0d552b5a-e2d2-4634-a260-caff74572cd0",
       "video_id": "O4xu2qMB2Wk",
       "channel_id": "fabrizio-romano-italiano",
@@ -8817,11 +9183,40 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
+        "v6KipaGU1lI",
         "4YnnRgonFLI",
         "QdNq3TrGOaM",
         "hWMSBzqKzNs"
       ],
-      "corroboration_score": 0.6
+      "corroboration_score": 0.8
+    },
+    {
+      "tip_id": "cdd15534-fc96-414c-b51e-66ac2b3a6cf9",
+      "video_id": "v6KipaGU1lI",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-20T04:45:04Z",
+      "extracted_at": "2026-04-21T10:15:15.169146Z",
+      "player_name": "Federico Gatti",
+      "from_club": "Juventus",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "likely",
+      "confidence_note": "la Juve segue offerte per Gatti",
+      "tip_text": "La Juventus sta valutando la situazione di Gatti in caso di offerta.",
+      "quote_text": "se arriva un'offerta da 20-25 milioni Gatti può partire",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "Au3aUMy7b1Q",
+        "4YnnRgonFLI",
+        "QdNq3TrGOaM",
+        "hWMSBzqKzNs"
+      ],
+      "corroboration_score": 0.8
     },
     {
       "tip_id": "341616de-3d4a-49ec-a59a-790577f7b3d7",
@@ -9574,10 +9969,11 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "Au3aUMy7b1Q",
+        "v6KipaGU1lI",
         "QdNq3TrGOaM",
         "hWMSBzqKzNs"
       ],
-      "corroboration_score": 0.6
+      "corroboration_score": 0.8
     },
     {
       "tip_id": "11bb31a3-73c2-4719-a0f6-42b96849ad34",
@@ -9601,10 +9997,11 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "Au3aUMy7b1Q",
+        "v6KipaGU1lI",
         "4YnnRgonFLI",
         "hWMSBzqKzNs"
       ],
-      "corroboration_score": 0.6
+      "corroboration_score": 0.8
     },
     {
       "tip_id": "763ba106-40b6-43b6-857e-b9d21918666c",
@@ -9628,10 +10025,11 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "Au3aUMy7b1Q",
+        "v6KipaGU1lI",
         "4YnnRgonFLI",
         "QdNq3TrGOaM"
       ],
-      "corroboration_score": 0.6
+      "corroboration_score": 0.8
     },
     {
       "tip_id": "da274e3a-1cfe-4ea8-aaea-cf449b17c044",
@@ -9815,6 +10213,29 @@
         "k07_NJu7WV8"
       ],
       "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "b296a063-2480-4dc6-bc32-1c36646d6080",
+      "video_id": "-OfY0hDmD7I",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-16T22:40:31Z",
+      "extracted_at": "2026-04-21T10:13:48.534849Z",
+      "player_name": "Gianluca Mancini",
+      "from_club": "Roma",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "rinnovo in standby",
+      "tip_text": "Mancini ha un rinnovo di contratto in attesa con la Roma.",
+      "quote_text": "Rinnovo in standby la Roma. Cristante Mancini, rinnovi ne parleremo e chiuderemo eventualmente a fine stagione",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
     },
     {
       "tip_id": "2d10df1a-d415-41db-8b28-3577ef2b6f7b",
@@ -10577,6 +10998,29 @@
       "corroboration_score": 0.0
     },
     {
+      "tip_id": "fff76a19-76e9-4432-8cec-b8d424c86c0d",
+      "video_id": "LBP1C0Z0RJk",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-19T18:11:05Z",
+      "extracted_at": "2026-04-21T10:14:42.653056Z",
+      "player_name": "Hans Nicolussi Caviglia",
+      "from_club": "Venezia",
+      "to_club": "Parma",
+      "transfer_type": "permanent",
+      "confidence": "confirmed",
+      "confidence_note": "obbligo di riscatto scattato",
+      "tip_text": "Il Parma riscatterà Nicolussi Caviglia dal Venezia.",
+      "quote_text": "il Parma manca solo l'aritmetica salvezza per far scattare l'obbligo di riscatto di Hans Nicolussi Caviglia dal Venezia.",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "95a98cd7-8485-40b1-a426-0072ccfa24a8",
       "video_id": "z5tyTfzD3Ws",
       "channel_id": "fabrizio-romano-italiano",
@@ -10813,9 +11257,10 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "_v3nr2G-RP0",
+        "LI9E_00LKUk",
         "zeErFtUcY8Q"
       ],
-      "corroboration_score": 0.4
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "f6fb0093-b21d-4207-ba33-c22a009d3e03",
@@ -10839,9 +11284,10 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "_v3nr2G-RP0",
+        "LI9E_00LKUk",
         "rMNyzgifXew"
       ],
-      "corroboration_score": 0.4
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "6d813784-3ba3-4886-8c39-05ed0a134517",
@@ -10971,6 +11417,29 @@
       "corroboration_score": 1.0
     },
     {
+      "tip_id": "bcd9f79d-ae34-4a27-9e34-b521c8d9fe1a",
+      "video_id": "2Qv5NqGRGv8",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-20T16:15:33Z",
+      "extracted_at": "2026-04-21T10:11:25.253108Z",
+      "player_name": "Ibrahima Konate",
+      "from_club": "Liverpool",
+      "to_club": null,
+      "transfer_type": "extension",
+      "confidence": "likely",
+      "confidence_note": "vicino al rinnovo con il Liverpool",
+      "tip_text": "Konate si sta avvicinando al rinnovo con il Liverpool.",
+      "quote_text": "siamo molto vicini al rinnovo. Spero di restare a Liverpool per tanti altri anni.",
+      "quote_start_sec": null,
+      "quote_end_sec": null,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "28806595-cebe-466d-9301-4477bf9c81ec",
       "video_id": "L-bqmav-B5w",
       "channel_id": "fabrizio-romano-italiano",
@@ -11068,6 +11537,29 @@
         "Dy5lwowGTU0"
       ],
       "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "d7641e92-cb43-4ac3-aa6a-0cf28784e465",
+      "video_id": "_2v-Edql5Bk",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-17T15:30:19Z",
+      "extracted_at": "2026-04-21T10:14:07.390116Z",
+      "player_name": "Ismael Bennacer",
+      "from_club": "Dinamo Zagabria",
+      "to_club": "Milan",
+      "transfer_type": "permanent",
+      "confidence": "denied",
+      "confidence_note": "non verrà riscattato",
+      "tip_text": "Bennacer tornerà alla Dinamo, riscatto non esercitato.",
+      "quote_text": "Non verrà riscattato dalla Dinamo Zagabria",
+      "quote_start_sec": 462.0,
+      "quote_end_sec": 470.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
     },
     {
       "tip_id": "0d7ab01b-94c5-41bb-9e38-0deaf4d9ff0f",
@@ -12022,9 +12514,10 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "rMNyzgifXew",
-        "rdtheUFt4yo"
+        "rdtheUFt4yo",
+        "LI9E_00LKUk"
       ],
-      "corroboration_score": 0.4
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "76babd53-8085-4c1d-8ee8-b8114c14ee5d",
@@ -13841,9 +14334,10 @@
       "corroborated_by": [
         "U4sYOmH3qDY",
         "SBj4zgVeT_U",
-        "7UisFfwOEZ0"
+        "7UisFfwOEZ0",
+        "2Qv5NqGRGv8"
       ],
-      "corroboration_score": 0.6
+      "corroboration_score": 0.8
     },
     {
       "tip_id": "1e717a86-7f38-4137-bcd8-42ce96596eb6",
@@ -13893,9 +14387,10 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "GIEL8aJmwUQ",
-        "SBj4zgVeT_U"
+        "SBj4zgVeT_U",
+        "2Qv5NqGRGv8"
       ],
-      "corroboration_score": 0.4
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "8989c932-77ac-431d-a084-72ff52684de6",
@@ -13919,9 +14414,10 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "GIEL8aJmwUQ",
-        "U4sYOmH3qDY"
+        "U4sYOmH3qDY",
+        "2Qv5NqGRGv8"
       ],
-      "corroboration_score": 0.4
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "3d8e682b-a069-4d34-a57e-c4421a23aebd",
@@ -14130,7 +14626,33 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
-        "ol_WWbin2Ow"
+        "ol_WWbin2Ow",
+        "MNXXk_DA6-U"
+      ],
+      "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "106913f3-a558-4118-9841-2fe065e162e2",
+      "video_id": "MNXXk_DA6-U",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-16T17:36:02Z",
+      "extracted_at": "2026-04-21T10:15:05.710225Z",
+      "player_name": "Leon Goretzka",
+      "from_club": "Bayern Monaco",
+      "to_club": "Milan",
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "Milan ha fatto un'offerta, Goretzka valuta altre opzioni",
+      "tip_text": "Il Milan insegue Goretzka, ma la concorrenza è alta.",
+      "quote_text": "Milan che insegue Goretka il sogno. Offerto un trennale da 5 milioni.",
+      "quote_start_sec": 136.0,
+      "quote_end_sec": 143.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "I4u9CoABvf4"
       ],
       "corroboration_score": 0.2
     },
@@ -14300,9 +14822,11 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
-        "gFsodLhvEn8"
+        "gFsodLhvEn8",
+        "nt5lCNTCj60",
+        "MNXXk_DA6-U"
       ],
-      "corroboration_score": 0.2
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "bccc1021-5e1c-403f-9312-9db806880950",
@@ -14738,6 +15262,58 @@
       "corroboration_score": 0.0
     },
     {
+      "tip_id": "6cf1c3a6-d1cb-466d-8423-80d92541cdde",
+      "video_id": "MNXXk_DA6-U",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-16T17:36:02Z",
+      "extracted_at": "2026-04-21T10:15:05.710225Z",
+      "player_name": "Lorenzo Pellegrini",
+      "from_club": "Roma",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "Roma sta trattando il rinnovo, Pellegrini accetterebbe una riduzione stipendio",
+      "tip_text": "Pellegrini potrebbe rimanere alla Roma con un nuovo contratto.",
+      "quote_text": "la Roma rinnoverebbe volentieri Pellegrini a 2 milioni e mezzo più bonus per due anni con opzione per il terzo.",
+      "quote_start_sec": 112.0,
+      "quote_end_sec": 120.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "mluc7FscHA0",
+        "5sLn6b59PCQ"
+      ],
+      "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "dfd6961f-bf9a-4c85-bf04-0f2dd7fad001",
+      "video_id": "mluc7FscHA0",
+      "channel_id": "tuttomercatoweb",
+      "mentioned_at": "2026-04-21T12:39:36Z",
+      "extracted_at": "2026-04-22T08:58:05.862066Z",
+      "player_name": "Lorenzo Pellegrini",
+      "from_club": "Roma",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "futuro da decidere dopo fine stagione",
+      "tip_text": "Lorenzo Pellegrini concentrato su fine stagione, futuro da decidere dopo.",
+      "quote_text": "Futuro di Pellegrini sono queste cinque partite, poi dopo poi dopo se ne parlerà.",
+      "quote_start_sec": 52.0,
+      "quote_end_sec": 63.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "MNXXk_DA6-U",
+        "5sLn6b59PCQ"
+      ],
+      "corroboration_score": 0.4
+    },
+    {
       "tip_id": "baad6d1b-a85c-4eec-8646-97db86db6a93",
       "video_id": "5sLn6b59PCQ",
       "channel_id": "fabrizio-romano-italiano",
@@ -14757,8 +15333,11 @@
       "outcome_updated_at": null,
       "outcome_notes": null,
       "outcome_source": "manual",
-      "corroborated_by": [],
-      "corroboration_score": 0.0
+      "corroborated_by": [
+        "MNXXk_DA6-U",
+        "mluc7FscHA0"
+      ],
+      "corroboration_score": 0.4
     },
     {
       "tip_id": "7f94025d-8312-447a-9c9d-929c089cac2f",
@@ -15098,6 +15677,29 @@
       "corroboration_score": 0.0
     },
     {
+      "tip_id": "ed89bdbd-d6b5-40de-9b94-583e8eeef978",
+      "video_id": "wUAbllnY2oU",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-15T12:51:02Z",
+      "extracted_at": "2026-04-21T10:15:21.009084Z",
+      "player_name": "Luis Enrique",
+      "from_club": null,
+      "to_club": "Paris Saint-Germain",
+      "transfer_type": "extension",
+      "confidence": "confirmed",
+      "confidence_note": "accordo di massima sino al 2029",
+      "tip_text": "Rinnovo imminente del contratto di Luis Enrique con PSG.",
+      "quote_text": "il Paris Saint-Germain vuole blindare il suo allenatore, si va verso il rinnovo.",
+      "quote_start_sec": 42.0,
+      "quote_end_sec": 45.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "48b2f715-3e0b-41d9-bc92-8d91945b8353",
       "video_id": "MtMnLqcRKRA",
       "channel_id": "nico-schira",
@@ -15118,9 +15720,10 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
-        "99-y_aJIQLU"
+        "99-y_aJIQLU",
+        "rKEQsCzCkEc"
       ],
-      "corroboration_score": 0.2
+      "corroboration_score": 0.4
     },
     {
       "tip_id": "520639ed-4f90-464b-8fd5-cf9991d18e85",
@@ -15143,9 +15746,36 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
-        "MtMnLqcRKRA"
+        "MtMnLqcRKRA",
+        "rKEQsCzCkEc"
       ],
-      "corroboration_score": 0.2
+      "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "021dba40-5757-458e-967f-7ae7efc9d1fe",
+      "video_id": "rKEQsCzCkEc",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-19T16:34:01Z",
+      "extracted_at": "2026-04-21T10:12:05.303794Z",
+      "player_name": "Luka Modric",
+      "from_club": "Milan",
+      "to_club": "Milan",
+      "transfer_type": "extension",
+      "confidence": "likely",
+      "confidence_note": "Milan pronto a rinnovare appena Modric da segnale",
+      "tip_text": "Il Milan è pronto a rinnovare il contratto di Modric.",
+      "quote_text": "il Milan ha dato carta bianca a Modric dal punto di vista del rinnovo",
+      "quote_start_sec": 321.0,
+      "quote_end_sec": 325.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "MtMnLqcRKRA",
+        "99-y_aJIQLU"
+      ],
+      "corroboration_score": 0.4
     },
     {
       "tip_id": "db4e9f76-ef86-4d95-9e86-8aa676da2e99",
@@ -15190,8 +15820,10 @@
       "outcome_updated_at": null,
       "outcome_notes": null,
       "outcome_source": "manual",
-      "corroborated_by": [],
-      "corroboration_score": 0.0
+      "corroborated_by": [
+        "Tll0avbbLTU"
+      ],
+      "corroboration_score": 0.2
     },
     {
       "tip_id": "74ad17ad-d2c5-4e4a-b13d-f55915724c3d",
@@ -16554,6 +17186,29 @@
       "corroboration_score": 0.2
     },
     {
+      "tip_id": "878d4849-5d62-47d1-a487-aca3dff42796",
+      "video_id": "_oOb7JXG5xo",
+      "channel_id": "calciomercato-it",
+      "mentioned_at": "2026-04-20T09:32:26Z",
+      "extracted_at": "2026-04-21T10:13:09.802733Z",
+      "player_name": "Manuel Locatelli",
+      "from_club": "Juventus",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "denied",
+      "confidence_note": "non sta trattando con nessuno",
+      "tip_text": "Locatelli non è a rischio cessione, trattativa smentita.",
+      "quote_text": "non sta trattando con nessuno",
+      "quote_start_sec": 70.0,
+      "quote_end_sec": 80.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "5bb7b10f-f38e-45a2-846a-4cd6c4ce176d",
       "video_id": "gFsodLhvEn8",
       "channel_id": "fabrizio-romano-italiano",
@@ -16574,9 +17229,65 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
-        "4YnnRgonFLI"
+        "4YnnRgonFLI",
+        "nt5lCNTCj60",
+        "MNXXk_DA6-U"
       ],
-      "corroboration_score": 0.2
+      "corroboration_score": 0.6
+    },
+    {
+      "tip_id": "0a8f4525-f598-4a54-a277-15a51b9af8ce",
+      "video_id": "nt5lCNTCj60",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-16T17:04:16Z",
+      "extracted_at": "2026-04-21T10:11:47.471715Z",
+      "player_name": "Manuel Locatelli",
+      "from_club": "Juventus",
+      "to_club": "Juventus",
+      "transfer_type": "extension",
+      "confidence": "confirmed",
+      "confidence_note": "accordo fino al 2030 raggiunto",
+      "tip_text": "Locatelli rinnoverà il contratto con la Juventus fino al 2030.",
+      "quote_text": "Manuel Locatelli rinnoverà il suo contratto con la Juventus. È fatta fino al 2030",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "4YnnRgonFLI",
+        "gFsodLhvEn8",
+        "MNXXk_DA6-U"
+      ],
+      "corroboration_score": 0.6
+    },
+    {
+      "tip_id": "c840926b-45a4-43e3-9985-a9da61fd1484",
+      "video_id": "MNXXk_DA6-U",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-16T17:36:02Z",
+      "extracted_at": "2026-04-21T10:15:05.710225Z",
+      "player_name": "Manuel Locatelli",
+      "from_club": "Juventus",
+      "to_club": "Juventus",
+      "transfer_type": "extension",
+      "confidence": "confirmed",
+      "confidence_note": "tutto fatto per il rinnovo di Locatelli fino al 2030",
+      "tip_text": "Locatelli rinnova con la Juve fino al 2030 con aumento di stipendio.",
+      "quote_text": "avanti insieme,... per il rinnovo di Manuel Locatelli. Sino al 2030",
+      "quote_start_sec": 70.0,
+      "quote_end_sec": 73.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "4YnnRgonFLI",
+        "gFsodLhvEn8",
+        "nt5lCNTCj60"
+      ],
+      "corroboration_score": 0.6
     },
     {
       "tip_id": "e626aff8-512a-4e4c-9ba0-0aacf20028a8",
@@ -16917,6 +17628,29 @@
       "quote_text": "la valutazione su Greenwood non è ancora quella di una trattativa vera e propria o di contatti veri e propri con club italiani.",
       "quote_start_sec": null,
       "quote_end_sec": null,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
+      "tip_id": "7ca92777-dc80-4749-b98d-db393c145b4a",
+      "video_id": "v6KipaGU1lI",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-20T04:45:04Z",
+      "extracted_at": "2026-04-21T10:15:15.169146Z",
+      "player_name": "Massimiliano Allegri",
+      "from_club": "Milan",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "denied",
+      "confidence_note": "non ci sono trattative con il Real Madrid",
+      "tip_text": "Allegri non è in trattativa con il Real Madrid.",
+      "quote_text": "non mi risulta che ci siano trattative in corso, tanto che poi la voce si è spenta",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
       "outcome": "non_verificata",
       "outcome_updated_at": null,
       "outcome_notes": null,
@@ -18399,6 +19133,29 @@
       "corroboration_score": 0.2
     },
     {
+      "tip_id": "8127d73c-1703-4dcb-8c4e-b66cd22c0922",
+      "video_id": "1w3_9mTS2C4",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-18T10:23:08Z",
+      "extracted_at": "2026-04-21T10:13:58.989260Z",
+      "player_name": "Modric",
+      "from_club": null,
+      "to_club": "Milan",
+      "transfer_type": "unknown",
+      "confidence": "likely",
+      "confidence_note": "Desidera continuare con il Milan",
+      "tip_text": "Modric spera di rimanere e vincere trofei con il Milan.",
+      "quote_text": "Modric vorrebbe anche eh un Milan competitivo per cercare di chiudere la carriera con un trofeo.",
+      "quote_start_sec": null,
+      "quote_end_sec": null,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "a420c5f4-d9dd-400a-953d-319d958d66e5",
       "video_id": "q0_Air3bpdg",
       "channel_id": "fabrizio-romano-italiano",
@@ -19678,6 +20435,29 @@
         "ojyicMZpn6A"
       ],
       "corroboration_score": 0.8
+    },
+    {
+      "tip_id": "516c9c9d-f3dc-4f80-b482-4096c896a66f",
+      "video_id": "nt5lCNTCj60",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-16T17:04:16Z",
+      "extracted_at": "2026-04-21T10:11:47.471715Z",
+      "player_name": "Nicolo Zaniolo",
+      "from_club": "Galatasaray",
+      "to_club": "Udinese",
+      "transfer_type": "permanent",
+      "confidence": "likely",
+      "confidence_note": "Udinese vuole riscattarlo",
+      "tip_text": "L'Udinese intende riscattare Zaniolo dal Galatasaray.",
+      "quote_text": "l'Udinese possa acquistare Zaniolo e poi rivenderlo",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
     },
     {
       "tip_id": "35cb5c5d-930f-4dfb-b2c2-773fad07dd93",
@@ -21390,6 +22170,33 @@
       "corroboration_score": 0.4
     },
     {
+      "tip_id": "07366f23-bed3-49be-8fb5-debb7868b035",
+      "video_id": "2Qv5NqGRGv8",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-20T16:15:33Z",
+      "extracted_at": "2026-04-21T10:11:25.253108Z",
+      "player_name": "Rafael Leao",
+      "from_club": "Milan",
+      "to_club": "Barcelona",
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "no trattativa attuale",
+      "tip_text": "Leao potrebbe essere un nome valido per l'uscita.",
+      "quote_text": "sicuramente Leao è un nome da tenere in considerazione per il mercato estivo in uscita del Milan.",
+      "quote_start_sec": null,
+      "quote_end_sec": null,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "GIEL8aJmwUQ",
+        "U4sYOmH3qDY",
+        "SBj4zgVeT_U"
+      ],
+      "corroboration_score": 0.6
+    },
+    {
       "tip_id": "d503159a-06da-4928-b5d5-f06a5a691c3a",
       "video_id": "BY1Q9AePBeE",
       "channel_id": "fabrizio-romano-italiano",
@@ -21660,6 +22467,29 @@
         "I8yi8a_fz2I"
       ],
       "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "5c1ffff5-ed8b-454c-84db-d22ab36292d4",
+      "video_id": "mluc7FscHA0",
+      "channel_id": "tuttomercatoweb",
+      "mentioned_at": "2026-04-21T12:39:36Z",
+      "extracted_at": "2026-04-22T08:58:05.862066Z",
+      "player_name": "Ranieri",
+      "from_club": "Fiorentina",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "denied",
+      "confidence_note": "non ha mai chiesto la cessione",
+      "tip_text": "Ranieri della Fiorentina non ha mai chiesto la cessione nonostante le difficoltà.",
+      "quote_text": "Senza chiedere la cessione, perché questo andrebbe detto, senza mai chiedere la cessione, perché secondo me eh era da Vigliacchi lasciare la Fiorentina eh nel momento più complicato e difficile.",
+      "quote_start_sec": 968.0,
+      "quote_end_sec": 983.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
     },
     {
       "tip_id": "29d98aca-f179-4821-82d6-2ad9972c978a",
@@ -22807,6 +23637,29 @@
       "corroboration_score": 0.0
     },
     {
+      "tip_id": "92f9bf2a-c230-4e4a-b16d-dd2b9127c7a6",
+      "video_id": "nt5lCNTCj60",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-16T17:04:16Z",
+      "extracted_at": "2026-04-21T10:11:47.471715Z",
+      "player_name": "Robert Lewandowski",
+      "from_club": "Barcelona",
+      "to_club": null,
+      "transfer_type": "renewal",
+      "confidence": "likely",
+      "confidence_note": "offerta di rinnovo al ribasso dal Barcellona",
+      "tip_text": "Barcellona ha offerto a Lewandowski un rinnovo al ribasso.",
+      "quote_text": "il Barcellona ha proposto a Robert Lewandowski un rinnovo del contratto al ribasso",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "04dc5c0a-2886-4edd-b49f-dc7d10b399de",
       "video_id": "NkLVfcRKdZY",
       "channel_id": "nico-schira",
@@ -23044,6 +23897,56 @@
       "outcome_source": "manual",
       "corroborated_by": [],
       "corroboration_score": 0.0
+    },
+    {
+      "tip_id": "5f481633-87a8-4acc-b05d-3085e10e4ef5",
+      "video_id": "Tll0avbbLTU",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-21T00:11:24Z",
+      "extracted_at": "2026-04-21T10:42:45.522465Z",
+      "player_name": "Romelu Lukaku",
+      "from_club": "Napoli",
+      "to_club": null,
+      "transfer_type": "permanent",
+      "confidence": "likely",
+      "confidence_note": "separazione prospettata per l'estate",
+      "tip_text": "Lukaku potrebbe lasciare il Napoli in estate.",
+      "quote_text": "la separazione Lukaku Napoli è una prospettiva da tenere assolutamente.",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "vQl7kPcj7hs"
+      ],
+      "corroboration_score": 0.2
+    },
+    {
+      "tip_id": "ac3ab373-540a-489d-8e47-abb5b1cab280",
+      "video_id": "Tll0avbbLTU",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-21T00:11:24Z",
+      "extracted_at": "2026-04-21T10:42:45.522465Z",
+      "player_name": "Romelu Lukaku",
+      "from_club": "Napoli",
+      "to_club": null,
+      "transfer_type": "permanent",
+      "confidence": "likely",
+      "confidence_note": "pianificazione di una partenza",
+      "tip_text": "Lukaku e Napoli pianificano una partenza in estate.",
+      "quote_text": "Romero Lukaku... pianificano una partenza in estate.",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "vQl7kPcj7hs"
+      ],
+      "corroboration_score": 0.2
     },
     {
       "tip_id": "25ac7259-989b-4e24-b063-254306f44229",
@@ -23682,6 +24585,29 @@
       "corroboration_score": 0.2
     },
     {
+      "tip_id": "16301e00-a757-4784-9621-ed25b3ba49fa",
+      "video_id": "mluc7FscHA0",
+      "channel_id": "tuttomercatoweb",
+      "mentioned_at": "2026-04-21T12:39:36Z",
+      "extracted_at": "2026-04-22T08:58:05.862066Z",
+      "player_name": "Sebastiano Esposito",
+      "from_club": "Inter",
+      "to_club": null,
+      "transfer_type": "unknown",
+      "confidence": "denied",
+      "confidence_note": "volontà comune di resterà all'Inter per 10 anni",
+      "tip_text": "Più Esposito e l'Inter non considerano il mercato: resterà a lungo.",
+      "quote_text": "Pertanto per noi il mercato per più Esposito non è mai iniziato e mai inizierà, quindi perché è felice di rimanere all'Inter e di fare la sua carriera all'Inter.",
+      "quote_start_sec": 754.0,
+      "quote_end_sec": 772.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "39ba0638-d1b2-4328-87a6-8b1e22008a2e",
       "video_id": "r4b4Voo3qM0",
       "channel_id": "fabrizio-romano-italiano",
@@ -24274,6 +25200,29 @@
       "corroboration_score": 0.8
     },
     {
+      "tip_id": "ef3ff865-8fa3-4290-b09b-e80e18249558",
+      "video_id": "MNXXk_DA6-U",
+      "channel_id": "nico-schira",
+      "mentioned_at": "2026-04-16T17:36:02Z",
+      "extracted_at": "2026-04-21T10:15:05.710225Z",
+      "player_name": "Stanislav Lobotka",
+      "from_club": "Napoli",
+      "to_club": "Juventus",
+      "transfer_type": "unknown",
+      "confidence": "rumor",
+      "confidence_note": "trattativa complicata con De Laurentiis",
+      "tip_text": "La Juve è interessata a Lobotka, ma la clausola è valida solo per club stranieri.",
+      "quote_text": "C'è stato anche qualche contatto coi suoi rappresentanti, con la Juve,...",
+      "quote_start_sec": 29.0,
+      "quote_end_sec": 39.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
       "tip_id": "c19ecb8d-95b7-4a86-9b55-19f44c2339b2",
       "video_id": "zIZUDNyoaLk",
       "channel_id": "fabrizio-romano-italiano",
@@ -24345,6 +25294,29 @@
         "DcN1HZfshOA"
       ],
       "corroboration_score": 0.2
+    },
+    {
+      "tip_id": "1d657d14-816b-4577-b8f6-91689c23ef0a",
+      "video_id": "rKEQsCzCkEc",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-19T16:34:01Z",
+      "extracted_at": "2026-04-21T10:12:05.303794Z",
+      "player_name": "Stefan de Vrij",
+      "from_club": "Inter",
+      "to_club": "Inter",
+      "transfer_type": "extension",
+      "confidence": "likely",
+      "confidence_note": "l'Inter prepara una proposta di rinnovo",
+      "tip_text": "L'Inter sta preparando un'offerta di rinnovo per de Vrij.",
+      "quote_text": "l'Inter stia preparando una proposta di rinnovo per Stefan De Vraay",
+      "quote_start_sec": 427.0,
+      "quote_end_sec": 430.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
     },
     {
       "tip_id": "5a9053d4-474b-498f-80de-bfd44ca1fea8",
@@ -24793,9 +25765,36 @@
       "outcome_notes": null,
       "outcome_source": "manual",
       "corroborated_by": [
-        "S8QA8ysi6hI"
+        "S8QA8ysi6hI",
+        "TdzxRoTAD3g"
       ],
-      "corroboration_score": 0.2
+      "corroboration_score": 0.4
+    },
+    {
+      "tip_id": "115f1e8f-8fb2-4d94-a87b-a1f41bee34b0",
+      "video_id": "TdzxRoTAD3g",
+      "channel_id": "fabrizio-romano-italiano",
+      "mentioned_at": "2026-04-17T18:08:31Z",
+      "extracted_at": "2026-04-21T10:12:18.104224Z",
+      "player_name": "Tommaso Baldanzi",
+      "from_club": "Roma",
+      "to_club": "Genoa",
+      "transfer_type": "loan",
+      "confidence": "likely",
+      "confidence_note": "Genoa sta lavorando per il riscatto",
+      "tip_text": "Il Genoa vuole esercitare il diritto di riscatto su Baldanzi.",
+      "quote_text": "il Genoa sta lavorando duramente per arrivare a capire come riuscire a esercitare questo diritto di riscatto",
+      "quote_start_sec": 0.0,
+      "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [
+        "S8QA8ysi6hI",
+        "Ctwd5VxXR_o"
+      ],
+      "corroboration_score": 0.4
     },
     {
       "tip_id": "c5e339eb-6055-498b-91e6-a8532312f6bd",
@@ -25817,9 +26816,11 @@
       "outcome_source": "manual",
       "corroborated_by": [
         "pFcT_4GTiOM",
-        "1R0sMgweVbU"
+        "1R0sMgweVbU",
+        "r1dhTsBLXto",
+        "2Qv5NqGRGv8"
       ],
-      "corroboration_score": 0.4
+      "corroboration_score": 0.8
     },
     {
       "tip_id": "e2117721-1f25-4f4b-a465-f6ceb6688030",
@@ -26581,6 +27582,29 @@
       "quote_text": "Il Nottingham è pronto a presentare la prima offerta ufficiale per lui. parlano di 25-26 milioni di pound per Musa.",
       "quote_start_sec": 0.0,
       "quote_end_sec": 0.0,
+      "outcome": "non_verificata",
+      "outcome_updated_at": null,
+      "outcome_notes": null,
+      "outcome_source": "manual",
+      "corroborated_by": [],
+      "corroboration_score": 0.0
+    },
+    {
+      "tip_id": "3ffb8bea-775c-49fb-a604-bfd90f933305",
+      "video_id": "TpiU_zW6EsI",
+      "channel_id": "calciomercato-it",
+      "mentioned_at": "2026-04-17T11:03:53Z",
+      "extracted_at": "2026-04-21T10:13:26.735696Z",
+      "player_name": "Yuri Alberto",
+      "from_club": "Corinthians",
+      "to_club": "Juventus",
+      "transfer_type": "unknown",
+      "confidence": "likely",
+      "confidence_note": "Interesse di Juventus e Milan",
+      "tip_text": "Juventus e Milan interessati a Yuri Alberto da 40 milioni.",
+      "quote_text": "Stiamo parlando di Yuri Alberto, ci racconti un po' la situazione, vi condivido anche l'articolo da calciomercato.it.",
+      "quote_start_sec": 274.0,
+      "quote_end_sec": 276.0,
       "outcome": "non_verificata",
       "outcome_updated_at": null,
       "outcome_notes": null,

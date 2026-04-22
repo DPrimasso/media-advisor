@@ -1,0 +1,337 @@
+{
+  "video_id": "t06NLwNT1zE",
+  "analyzed_at": "2026-04-21T15:34:42.629557+00:00",
+  "metadata": {
+    "title": "Polemica anche sugli ultimi episodi di Open VAR #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video analizza le recenti polemiche sugli episodi arbitrali commentati nel programma Open VAR, evidenziando come molti interventi siano stati facilmente valutabili anche dai non esperti. L’autore critica in particolare la durata eccessiva della revisione VAR, come nel caso del gol annullato a Baschirotto, e sottolinea la mancanza di spiegazioni chiare sulle differenze di giudizio tra situazioni simili di fuorigioco, come quelle riguardanti Juventus e Milan. Viene inoltre messa in discussione la coerenza nelle decisioni arbitrali, con esempi di valutazioni discordanti su posizioni di fuorigi",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "episodio",
+      "relevance": "high"
+    },
+    {
+      "name": "fuorigioco",
+      "relevance": "medium"
+    },
+    {
+      "name": "episodio di gioco",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Open VAR",
+      "position": "La revisione VAR di 4 minuti e 39 secondi è considerata eccessiva.",
+      "polarity": "negative",
+      "claim_id": "bfb1afa8-1283-400a-a0b8-80d5c59d2dfe",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s1",
+      "target_entity": "Open VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La revisione VAR di 4 minuti e 39 secondi è considerata eccessiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma 4 minuti e 39 secondi di revisione sono davvero troppi",
+          "start_sec": 27.08,
+          "end_sec": 55.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "var",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "designatore arbitrale Rocchi",
+      "position": "Rocchi ha commentato quattro episodi per Open Var.",
+      "polarity": "neutral",
+      "claim_id": "827f3b9f-552e-4bdb-a685-83481c438ecc",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s0",
+      "target_entity": "designatore arbitrale Rocchi",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi ha commentato quattro episodi per Open Var.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quattro commentati dal designatore arbitrale Rocchi a Daon",
+          "start_sec": 0.12,
+          "end_sec": 30.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "VAR",
+        "episodi"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Baschirotto",
+      "position": "L'intervento VAR per annullare il gol a Baschirotto è giusto per fallo su Paleari.",
+      "polarity": "positive",
+      "claim_id": "e1cf4b16-1e63-4c65-9d6e-b5cb04536407",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s0",
+      "target_entity": "Baschirotto",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'intervento VAR per annullare il gol a Baschirotto è giusto per fallo su Paleari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gol annullato a Baschirotto che in effetti commette fallo su Paleari. Intervento VAR giusto",
+          "start_sec": 0.12,
+          "end_sec": 30.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "gol annullato",
+        "fallo"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchy",
+      "position": "Sarebbe stato utile che Rocchy spiegasse la differenza tra il gol convalidato alla Juventus e quello annullato al Milan.",
+      "polarity": "positive",
+      "claim_id": "497c58d6-526e-46f0-b78a-989d31ae66e3",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s1",
+      "target_entity": "Rocchy",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Sarebbe stato utile che Rocchy spiegasse la differenza tra il gol convalidato alla Juventus e quello annullato al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sarebbe stato meglio sentire la spiegazione di Rocchy sulla differenza tra il gol convalidato alla Juventus e quello annullato al Milan",
+          "start_sec": 27.08,
+          "end_sec": 55.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "var",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Kelly",
+      "position": "Kelly ha considerato ininfluente la posizione di fuorigioco di un giocatore nel gol contro il Bologna.",
+      "polarity": "neutral",
+      "claim_id": "beb6c6a1-0b4f-452d-9260-af97c581daef",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s1",
+      "target_entity": "Kelly",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kelly ha considerato ininfluente la posizione di fuorigioco di un giocatore nel gol contro il Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella di Kelly contro il Bologna viene considerata ininfluente",
+          "start_sec": 27.08,
+          "end_sec": 55.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "var",
+        "fuorigioco"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR ha avvisato l'arbitro ma ha deciso che non era rigore.",
+      "polarity": "neutral",
+      "claim_id": "877a6727-28db-4c0b-87b4-a4ce649b8f19",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR ha avvisato l'arbitro ma ha deciso che non era rigore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il VAR in questo caso si è sostituito all'arbitro decidendo che non era rigore, ma almeno l' ha avvisato",
+          "start_sec": 52.719,
+          "end_sec": 66.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "arbitro",
+        "decisione",
+        "rigore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cagliari",
+      "position": "Cagliari ha avuto un episodio a pallone lontano tra Jerry Mina ed Esposito con Marchetti girato dall'altra parte.",
+      "polarity": "neutral",
+      "claim_id": "fd435660-55d4-49ba-8afe-56332b18232b",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s2",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cagliari ha avuto un episodio a pallone lontano tra Jerry Mina ed Esposito con Marchetti girato dall'altra parte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cagliari tra Jerry Mina e più Esposito a pallone lontano e con Marchetti girato dall'altra parte",
+          "start_sec": 52.719,
+          "end_sec": 66.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Cagliari",
+        "giocatori",
+        "episodio",
+        "partita"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Deon",
+      "position": "Il tocco di mano di Deon sul gol di Kstovicć è evidente anche ai non esperti di calcio.",
+      "polarity": "neutral",
+      "claim_id": "e68ec17d-7c89-4831-9cab-3950f8d45313",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s0",
+      "target_entity": "Deon",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il tocco di mano di Deon sul gol di Kstovicć è evidente anche ai non esperti di calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dal tocco di mano di Deon sul gol di Kstovicć",
+          "start_sec": 0.12,
+          "end_sec": 30.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "episodio",
+        "gol",
+        "tosco di mano"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Pisilli",
+      "position": "L'ammonizione di Pisilli in Roma-Atalanta è un episodio facile da valutare.",
+      "polarity": "neutral",
+      "claim_id": "28770554-56d2-4a22-adc0-746072e84a44",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s0",
+      "target_entity": "Pisilli",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'ammonizione di Pisilli in Roma-Atalanta è un episodio facile da valutare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "all'ammonizione di Pisilli in Roma-Atalanta",
+          "start_sec": 0.12,
+          "end_sec": 30.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ammonizione",
+        "episodio",
+        "partita"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro non ha fischiato rigore per la situazione tra Cagliari, Jerry Mina e Esposito.",
+      "polarity": "neutral",
+      "claim_id": "2cf88f6c-030c-4020-81d1-d3e263d943ed",
+      "video_id": "t06NLwNT1zE",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro non ha fischiato rigore per la situazione tra Cagliari, Jerry Mina e Esposito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "decidendo che non era rigore",
+          "start_sec": 52.719,
+          "end_sec": 66.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "decisione",
+        "rigore"
+      ]
+    }
+  ]
+}

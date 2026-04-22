@@ -1,0 +1,397 @@
+{
+  "video_id": "fCViszAXo8U",
+  "analyzed_at": "2026-04-21T14:44:47.123908+00:00",
+  "metadata": {
+    "title": "BIANCONERI A -1‼️ JUVE-GENOA 2-0, UDINESE-COMO e LECCE-ATALANTA",
+    "author_name": "Neschio",
+    "published_at": "2026-04-06"
+  },
+  "summary": "Il video analizza le ultime partite di Serie A, focalizzandosi soprattutto sulla prestazione della Juventus, che ha dominato il primo tempo contro il Genoa con un gioco quasi perfetto. L'autore sottolinea come, nonostante alcune critiche, la squadra bianconera abbia mostrato grande efficacia e controllo, mentre l'Udinese ha offerto una gara povera di contenuti ma ricca di controversie. Inoltre, si evidenzia la vittoria netta dell'Atalanta, che mantiene vivo il campionato con un distacco di soli cinque punti dal Napoli, lasciando aperta la corsa al titolo. L’analisi suggerisce quindi che la lot",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "rosa",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "errore tecnico",
+      "relevance": "low"
+    },
+    {
+      "name": "controversia",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha ottenuto una vittoria per 3-0 che la porta a 5 punti dal Napoli in classifica.",
+      "polarity": "positive",
+      "claim_id": "fa21bf71-1a8d-403e-9aa9-531b889dc8c2",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha ottenuto una vittoria per 3-0 che la porta a 5 punti dal Napoli in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "atalanta Follows the step three goals victory three points and is five Lengths",
+          "start_sec": 0.16,
+          "end_sec": 93.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "classifica",
+        "Atalanta"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il campionato non è chiuso per il Napoli, dato il distacco di soli 5 punti dall'Atalanta.",
+      "polarity": "neutral",
+      "claim_id": "7a98fdd1-2277-49d6-8713-9295e0c53abc",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il campionato non è chiuso per il Napoli, dato il distacco di soli 5 punti dall'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "if we say maybe not open but at least not closed championship with Napoli at 7,000 6 A team like Atalanta and what a team that has only five points of distance",
+          "start_sec": 0.16,
+          "end_sec": 93.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "campionato",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha giocato un primo tempo praticamente perfetto contro il Genoa.",
+      "polarity": "positive",
+      "claim_id": "8177f59f-a7bc-44cd-8320-1643a31a40ef",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha giocato un primo tempo praticamente perfetto contro il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The Juve with its first half practically perfect heel and elbow",
+          "start_sec": 0.16,
+          "end_sec": 93.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "Juventus"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Udinese",
+      "position": "L'Udinese ha mostrato una gara povera di contenuti ma ricca di controversie.",
+      "polarity": "negative",
+      "claim_id": "ef5b2658-6f30-4aad-9e2f-3640dbc66c2c",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s0",
+      "target_entity": "Udinese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Udinese ha mostrato una gara povera di contenuti ma ricca di controversie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Udinese as a race that has given little nothing but many many Controversies",
+          "start_sec": 0.16,
+          "end_sec": 93.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "controversia",
+        "Udinese"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus has made a clamorous game with multiple opportunities.",
+      "polarity": "positive",
+      "claim_id": "8a751dbc-71a6-4955-8642-a1502861790a",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus has made a clamorous game with multiple opportunities.",
+      "evidence_quotes": [
+        {
+          "quote_text": "there is a game today that could be 450 and it is not the first time that we find ourselves to argue in this in this way because the opportunities",
+          "start_sec": 93.56,
+          "end_sec": 181.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Juventus",
+      "position": "There is still a majority support for Juventus despite some negative criticism.",
+      "polarity": "positive",
+      "claim_id": "002fda51-88a0-48a5-8b91-6c14cf2b3dde",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "There is still a majority support for Juventus despite some negative criticism.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the majority still says registered and we do not make it become a minority",
+          "start_sec": 93.56,
+          "end_sec": 181.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Spalletti",
+      "position": "Spalletti was rarely seen in difficulty during the game.",
+      "polarity": "positive",
+      "claim_id": "fda81a0f-13f3-449c-9c3a-f13bb60f980b",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti was rarely seen in difficulty during the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I have never seen in difficulty the teacher spalletti",
+          "start_sec": 181.72,
+          "end_sec": 254.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "allenatore",
+        "difficoltà"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus scored two goals in the game through McKinney and Bremer.",
+      "polarity": "positive",
+      "claim_id": "d574d62d-b077-4a1b-bf95-2006542fd4fd",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus scored two goals in the game through McKinney and Bremer.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he did it Divinely with with McKinney found goal then with Bremer from a Inactive ball continuation",
+          "start_sec": 181.72,
+          "end_sec": 254.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Eventus",
+      "position": "Eventus played a very concrete game in the match compared to usual.",
+      "polarity": "positive",
+      "claim_id": "5984e4a2-b27e-44e9-aeeb-eebd4c0b7288",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s2",
+      "target_entity": "Eventus",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Eventus played a very concrete game in the match compared to usual.",
+      "evidence_quotes": [
+        {
+          "quote_text": "but it was an eventus I reiterate today also also quite Concrete compared to the usual",
+          "start_sec": 181.72,
+          "end_sec": 254.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "concretezza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "McKinney",
+      "position": "McKinney is a player who knows how to cut space in the air effectively.",
+      "polarity": "positive",
+      "claim_id": "da0b0532-3bbc-4791-8568-2771c5652e6c",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s3",
+      "target_entity": "McKinney",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "McKinney is a player who knows how to cut space in the air effectively.",
+      "evidence_quotes": [
+        {
+          "quote_text": "McKinney is really a player That if he always cuts that space in the air",
+          "start_sec": 254.24,
+          "end_sec": 315.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus played a monstrous first half in the game against Genoa.",
+      "polarity": "positive",
+      "claim_id": "b6f4d8ec-60df-4de2-9423-ef8464ef9aa1",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus played a monstrous first half in the game against Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a really monstrous first half",
+          "start_sec": 93.56,
+          "end_sec": 181.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus exploited spaces between starts and restarts very effectively in the game.",
+      "polarity": "positive",
+      "claim_id": "32c3c5c9-de70-4aa6-9d75-62df2a74d549",
+      "video_id": "fCViszAXo8U",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus exploited spaces between starts and restarts very effectively in the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus knew how to attach that space very well",
+          "start_sec": 181.72,
+          "end_sec": 254.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica",
+        "spazio"
+      ]
+    }
+  ]
+}

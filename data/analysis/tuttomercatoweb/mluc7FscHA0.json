@@ -1,0 +1,377 @@
+{
+  "video_id": "mluc7FscHA0",
+  "analyzed_at": "2026-04-21T14:48:45.535512+00:00",
+  "metadata": {
+    "title": "TMW News: Roma, il futuro di Pellegrini. Le emozioni di Mancini a Coverciano",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-21T12:39:36+00:00"
+  },
+  "summary": "Il video si concentra sul futuro di Lorenzo Pellegrini e sulla situazione della Roma nelle ultime cinque partite di campionato. L'autore evidenzia come Pellegrini e la squadra si stiano focalizzando esclusivamente sul lavoro e sulla preparazione delle partite, senza guardare alla classifica, con un Gasperini descritto come ancora più motivato. La stagione è stata in crescita nonostante un calo a marzo e un infortunio che ha complicato il percorso di Pellegrini; la valutazione finale dipenderà dai risultati delle ultime partite, mentre la squadra promette di dare il massimo seguendo le indicazi",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatore giovane",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "coraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "interesse di mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "sistema calcio italiano",
+      "relevance": "low"
+    },
+    {
+      "name": "obiettivo",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "injury",
+      "subject": "Lorenzo Pellegrini",
+      "position": "Pellegrini ha subito un secondo infortunio dopo quello di Pisa, che lo ha fermato al 100% della forma fisica.",
+      "polarity": "negative",
+      "claim_id": "b2c44dc4-9566-4a4f-a617-f15b99bea602",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo Pellegrini",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pellegrini ha subito un secondo infortunio dopo quello di Pisa, che lo ha fermato al 100% della forma fisica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "incidente di di Pisa che ha portato a mi ha portato ad avere quest'altro infortunio che in questo momento proprio non ci voleva perché sentivo di di aver ritrovato proprio la condizione al 100%",
+          "start_sec": 169.48,
+          "end_sec": 268.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia ha vinto diversi europei negli ultimi 10 anni.",
+      "polarity": "positive",
+      "claim_id": "d4999f45-97dd-4c14-92b3-7f17fa7dbb4d",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s3",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha vinto diversi europei negli ultimi 10 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Italia ha vinto di più di noi negli ultimi 10 anni",
+          "start_sec": 265.6,
+          "end_sec": 376.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lorenzo Pellegrini",
+      "position": "Lorenzo Pellegrini si concentra solo sul lavoro della squadra e non sulla classifica.",
+      "polarity": "positive",
+      "claim_id": "3ba947c3-df29-4e50-9602-c68efe333405",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s0",
+      "target_entity": "Lorenzo Pellegrini",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lorenzo Pellegrini si concentra solo sul lavoro della squadra e non sulla classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi abbiamo, diciamo, sempre fatto dall'inizio della stagione è stata pensare a noi, non non guardare troppo i numeri della classifica",
+          "start_sec": 13.24,
+          "end_sec": 104.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "mentalità",
+        "concentrazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma si concentra a preparare le partite rimanenti per cercare di vincerle.",
+      "polarity": "neutral",
+      "claim_id": "61bbacbc-64b2-4e73-acd7-66b9fb97d75e",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma si concentra a preparare le partite rimanenti per cercare di vincerle.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi ci siamo concentrati solo su quello, solo su sul preparare l'Atalanta in questa settimana e e via discorrendo per le altre partite",
+          "start_sec": 13.24,
+          "end_sec": 104.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "tattica",
+        "preparazione_partite"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma ha avuto una stagione in crescendo nonostante un calo a marzo.",
+      "polarity": "positive",
+      "claim_id": "09679b16-68d2-438d-afde-e660fcacb58c",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha avuto una stagione in crescendo nonostante un calo a marzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo fatto una stagione veramente in crescendo che io credo potrebbe essere un grande punto di partenza",
+          "start_sec": 104.439,
+          "end_sec": 172.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "La Roma darà il massimo nelle ultime cinque partite della stagione.",
+      "polarity": "neutral",
+      "claim_id": "0cfd01f1-18a7-4231-b58b-f4a4fe38acb1",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma darà il massimo nelle ultime cinque partite della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma darà tutto queste cinque partite che mancano",
+          "start_sec": 104.439,
+          "end_sec": 172.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La valutazione complessiva della stagione della Roma dipenderà dal risultato finale.",
+      "polarity": "neutral",
+      "claim_id": "55e2bd11-870e-498e-b5ec-b928ddcec707",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La valutazione complessiva della stagione della Roma dipenderà dal risultato finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che sia importante, no, vedere dove si arriva alla fine per poi poter dare dei giudizi complessivi alla stagione",
+          "start_sec": 104.439,
+          "end_sec": 172.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "La squadra seguirà il mister per vincere le partite rimanenti.",
+      "polarity": "positive",
+      "claim_id": "f1f90175-7eb7-491d-817c-f489f1baa4a6",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra seguirà il mister per vincere le partite rimanenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello che abbiamo fatto per tutta la stagione sarà semplicemente seguire seguire il mister per quello che ci chiederà",
+          "start_sec": 104.439,
+          "end_sec": 172.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lorenzo Pellegrini",
+      "position": "Pellegrini ha subito un infortunio che ha complicato la sua stagione difficile.",
+      "polarity": "negative",
+      "claim_id": "f77ba9e7-3105-4f05-bf5e-68558afc47cb",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo Pellegrini",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pellegrini ha subito un infortunio che ha complicato la sua stagione difficile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'anno scorso è stata una stagione veramente molto difficile e l'infortunio alla fine è stato la la cilegina sulla torta",
+          "start_sec": 169.48,
+          "end_sec": 268.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lorenzo Pellegrini",
+      "position": "Pellegrini vuole rimanere alla Roma e aiutare la squadra a vincere.",
+      "polarity": "positive",
+      "claim_id": "ec067fa6-5584-4cef-90eb-516fb04e7e90",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo Pellegrini",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Pellegrini vuole rimanere alla Roma e aiutare la squadra a vincere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il mio obiettivo è ritornare come ho lasciato per per aiutare i miei compagni e il mio mister a a vincere per la Roma",
+          "start_sec": 169.48,
+          "end_sec": 268.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore Gasperini",
+      "position": "Gasperini è più carico di prima secondo i giocatori.",
+      "polarity": "positive",
+      "claim_id": "e3c2fe68-a668-4241-8bac-8d72fe2d7b68",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s0",
+      "target_entity": "allenatore Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini è più carico di prima secondo i giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il mister, anzi, è è più carico di prima",
+          "start_sec": 13.24,
+          "end_sec": 104.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lorenzo Pellegrini",
+      "position": "Pellegrini ha mostrato crescita e continuità nella stagione prima del secondo infortunio.",
+      "polarity": "positive",
+      "claim_id": "3ac6c835-bee4-4161-b0bf-177969ff8d6b",
+      "video_id": "mluc7FscHA0",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo Pellegrini",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pellegrini ha mostrato crescita e continuità nella stagione prima del secondo infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono contento anche io della della mia crescita, della mia della continuità, soprattutto che ho avuto fino purtroppo all'incidente di di Pisa",
+          "start_sec": 169.48,
+          "end_sec": 268.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

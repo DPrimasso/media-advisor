@@ -1,0 +1,401 @@
+{
+  "video_id": "AoJCd6fISI0",
+  "analyzed_at": "2026-04-21T14:31:11.322924+00:00",
+  "metadata": {
+    "title": "#CHIARIELLO IL PUNTO CHIARO 30/03/26: «Che fortino è a ZENICA per l'Italia?»",
+    "author_name": "Radio CRC ",
+    "published_at": "2026-03-31"
+  },
+  "summary": "Il video analizza la scelta della Bosnia di giocare le partite casalinghe a Zenica, in uno stadio piccolo e con capienza ridotta a causa di restrizioni UEFA, definito ironicamente un \"fortino\" nonostante le sue dimensioni modeste. L’autore sottolinea il contrasto tra la qualità dei calciatori italiani, spesso impegnati in grandi club e stadi prestigiosi all’estero, e l’ambiente raccolto e quasi amatoriale di Zenica, paragonandolo a piccoli impianti locali italiani. La conclusione principale è che, nonostante la professionalità dei giocatori, la scelta di Zenica come \"fortino\" appare più simbol",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "stadio",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "convocati",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "campo di gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "atteggiamento",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "stadio di Zenica",
+      "position": "Solo 8.800 posti dello stadio di Zenica potranno essere utilizzati per motivi di sicurezza UEFA.",
+      "polarity": "negative",
+      "claim_id": "36de2168-aed1-444f-9b9e-2da10eb83f28",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s1",
+      "target_entity": "stadio di Zenica",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Solo 8.800 posti dello stadio di Zenica potranno essere utilizzati per motivi di sicurezza UEFA.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se ne potranno occupare solo 8800 perché il 20% della capienza è stato interdetto dalla UEFA",
+          "start_sec": 62.6,
+          "end_sec": 119.63999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stadio",
+        "capienza",
+        "sicurezza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "stadio di Zenica",
+      "position": "Lo stadio di Zenica ha una capienza inferiore a 13.000 posti.",
+      "polarity": "neutral",
+      "claim_id": "8a9b52ef-7e78-418a-94a8-bd3af4f31a78",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s1",
+      "target_entity": "stadio di Zenica",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lo stadio di Zenica ha una capienza inferiore a 13.000 posti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è uno stadio da meno di 13.000 posti",
+          "start_sec": 62.6,
+          "end_sec": 119.63999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stadio",
+        "capienza",
+        "luogo"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Politano",
+      "position": "Politano è un giocatore del Napoli incluso nella formazione.",
+      "polarity": "neutral",
+      "claim_id": "6da4252c-2059-44c1-b518-c1098fdc415b",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s4",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Politano è un giocatore del Napoli incluso nella formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano e Napoli",
+          "start_sec": 190.959,
+          "end_sec": 238.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bosnia nazionale",
+      "position": "La Bosnia gioca le partite casalinghe a Zenica invece che a Sarajevo.",
+      "polarity": "neutral",
+      "claim_id": "b3f93d3f-d259-49f4-bc60-41fb1c3cdae6",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s1",
+      "target_entity": "Bosnia nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia gioca le partite casalinghe a Zenica invece che a Sarajevo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questi non giocano a Sarajevo perché boh, reputano Zeniza il loro fortino",
+          "start_sec": 62.6,
+          "end_sec": 119.63999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "campo",
+        "location"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "italia",
+      "position": "A Zenica l'atmosfera è simile a quella di piccoli stadi con tifoserie calde e fumogeni.",
+      "polarity": "neutral",
+      "claim_id": "7dda268a-2674-4224-8a35-11d9cbb2007f",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s2",
+      "target_entity": "italia",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "A Zenica l'atmosfera è simile a quella di piccoli stadi con tifoserie calde e fumogeni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fumogeni, petardi e quant'altro. Mi ricorda tanto quelle partite che ci giocavo io in questi stati così piccoli piccoli.",
+          "start_sec": 116.36,
+          "end_sec": 156.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "atmosfera",
+        "tifoseria",
+        "stadio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Collana",
+      "position": "Il Collana è uno stadio più grande dello stadio di Cercola ma più piccolo di altri stadi come San Giuseppe Vesuviano.",
+      "polarity": "neutral",
+      "claim_id": "fde415d3-249b-4ce1-8017-4e76b39ac6ad",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s2",
+      "target_entity": "Collana",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Collana è uno stadio più grande dello stadio di Cercola ma più piccolo di altri stadi come San Giuseppe Vesuviano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, è più grande il Collana, cioè lo stadio di San Giuseppe Vesuviano, la San Giuseppese, l'Angri",
+          "start_sec": 116.36,
+          "end_sec": 156.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stadio",
+        "dimensione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "calciatori dell'Inter e del Milan",
+      "position": "Calciatori professionisti e strapagati dell'Inter e Milan stanno giocando in stadi dalle dimensioni molto piccole.",
+      "polarity": "negative",
+      "claim_id": "20917134-a4fe-40c2-93dd-20ab3dfb1d3d",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s2",
+      "target_entity": "calciatori dell'Inter e del Milan",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Calciatori professionisti e strapagati dell'Inter e Milan stanno giocando in stadi dalle dimensioni molto piccole.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci giocano sti calciatori che sono professionisti strapagati che giocano nell'Inter, nel nel Milan",
+          "start_sec": 116.36,
+          "end_sec": 156.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "stipendio",
+        "stadio"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Ken",
+      "position": "Ken della Fiorentina è uno dei giocatori menzionati come titolari.",
+      "polarity": "neutral",
+      "claim_id": "b7b69b4c-93c7-4924-963f-acfef06c0c04",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s4",
+      "target_entity": "Ken",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ken della Fiorentina è uno dei giocatori menzionati come titolari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "TOLTO Ken della Fiorentina",
+          "start_sec": 190.959,
+          "end_sec": 238.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Calafiori",
+      "position": "Calafiori gioca nell'Emirates Stadium dell'Arsenal.",
+      "polarity": "neutral",
+      "claim_id": "778eb49a-82f4-44fd-84d2-c0c1fec05aaa",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s3",
+      "target_entity": "Calafiori",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Calafiori gioca nell'Emirates Stadium dell'Arsenal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pensate che Calafiori gioca nell'Emirates Stadium dell'Arsenal",
+          "start_sec": 154.239,
+          "end_sec": 194.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stadio",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Tonali",
+      "position": "Tonali gioca nello stadio nuovo del Newcastle.",
+      "polarity": "neutral",
+      "claim_id": "2ed229cc-1976-49c3-9e9e-8758da6868a3",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s3",
+      "target_entity": "Tonali",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tonali gioca nello stadio nuovo del Newcastle.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tonali che pure gioca in uno stadio bello quello del Newcastle che mo c'ho lo stadio nuovo tra l'altro che è fantastico",
+          "start_sec": 154.239,
+          "end_sec": 194.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stadio",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Manchester City",
+      "position": "Il Manchester City gioca nell'Allianz Stadium.",
+      "polarity": "neutral",
+      "claim_id": "03708c0b-7ced-40dd-8935-b9a646db7f43",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s3",
+      "target_entity": "Manchester City",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Manchester City gioca nell'Allianz Stadium.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il City gioca nel Allead",
+          "start_sec": 154.239,
+          "end_sec": 194.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stadio",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Donnarumma",
+      "position": "Donnarumma gioca allo stadio Tiad.",
+      "polarity": "neutral",
+      "claim_id": "abf976df-7d59-4559-a306-ca390ee404f9",
+      "video_id": "AoJCd6fISI0",
+      "segment_id": "s3",
+      "target_entity": "Donnarumma",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Donnarumma gioca allo stadio Tiad.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Donnarumma gioca alle Tiad",
+          "start_sec": 154.239,
+          "end_sec": 194.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stadio",
+        "prestazione"
+      ]
+    }
+  ]
+}

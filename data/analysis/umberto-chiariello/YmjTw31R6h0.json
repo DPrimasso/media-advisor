@@ -1,0 +1,395 @@
+{
+  "video_id": "YmjTw31R6h0",
+  "analyzed_at": "2026-04-21T14:32:41.056068+00:00",
+  "metadata": {
+    "title": "#CHIARIELLO IL PUNTO CHIARO 27/03/26: «Non c'era bisogno di far vedere QUELLE IMMAGINI: grazie RAI»",
+    "author_name": "Radio CRC ",
+    "published_at": "2026-03-27"
+  },
+  "summary": "Il video di Umberto Chiariello analizza la situazione delle semifinali dei play-off per la qualificazione, focalizzandosi sulla vittoria dell'Italia contro l'Irlanda del Nord e sull'imprevisto pareggio della Bosnia contro il Galles. L'autore condivide la posizione di Di Marco, che preferisce affrontare la Bosnia piuttosto che il Galles, ritenendo la squadra bosniaca un avversario meno temibile sia per motivi tecnici che ambientali. Chiariello sottolinea come, nonostante il Galles sia stato più forte durante la partita, la Bosnia è riuscita a difendersi efficacemente e a vincere ai rigori, camb",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "giornalismo",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "campionato mondiale",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "low"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    },
+    {
+      "name": "conflitto",
+      "relevance": "low"
+    },
+    {
+      "name": "confronto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia ha vinto regolarmente la partita contro l'Irlanda del Nord per 2-0.",
+      "polarity": "positive",
+      "claim_id": "589f93b3-79a5-466f-a0f9-ec3d0f85b2af",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha vinto regolarmente la partita contro l'Irlanda del Nord per 2-0.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Italia finiva la sua partita vinta regolarmente col più classico dei risultati, il 2-0.",
+          "start_sec": 0.16,
+          "end_sec": 109.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "vittoria",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Geko",
+      "position": "All'86º minuto Geko ha segnato il gol del pareggio per la Bosnia.",
+      "polarity": "positive",
+      "claim_id": "4fd8d754-a6e9-4b79-b62a-668fc496ab66",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s0",
+      "target_entity": "Geko",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "All'86º minuto Geko ha segnato il gol del pareggio per la Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "all'86º l'anziano e sempre valido Geko segnava il gol del pareggio dei bosniaci",
+          "start_sec": 0.16,
+          "end_sec": 109.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "pareggio",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan doveva essere l'ossatura su cui costruire la squadra nazionale per il mondiale in Cile.",
+      "polarity": "neutral",
+      "claim_id": "fcd7df3d-15ae-45fd-a202-d47eca8fdee4",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan doveva essere l'ossatura su cui costruire la squadra nazionale per il mondiale in Cile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sull'ossatura del Milan avrebbe dovuto costruire la squadra. squadra della nazionale che si apprestava a giocare il titolo, la competizione mondiale in Cile",
+          "start_sec": 245.879,
+          "end_sec": 335.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "mondiale",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente della Spal",
+      "position": "Il presidente della Spal aveva un potere immenso nel calcio italiano degli anni '60.",
+      "polarity": "neutral",
+      "claim_id": "380bddb4-cce7-4950-b5ba-6aa96c425e10",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s3",
+      "target_entity": "presidente della Spal",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente della Spal aveva un potere immenso nel calcio italiano degli anni '60.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era il presidente della Spal, una piccola società, ma lui aveva un grande potere",
+          "start_sec": 245.879,
+          "end_sec": 335.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "potere"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Galles",
+      "position": "La partita tra Galles e Bosnia stava finendo a favore del Galles.",
+      "polarity": "neutral",
+      "claim_id": "51c5111f-ad68-4c79-b319-c396119db5eb",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s0",
+      "target_entity": "Galles",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Galles e Bosnia stava finendo a favore del Galles.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'altra partita che sembrava finita a favore del Galles",
+          "start_sec": 0.16,
+          "end_sec": 109.71900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Di Marco",
+      "position": "Di Marco ha esultato alla vittoria ai rigori della Bosnia.",
+      "polarity": "positive",
+      "claim_id": "c98d866f-7aff-4f57-b9b0-f68161f84c03",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s1",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco ha esultato alla vittoria ai rigori della Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alla vittoria ai rigori della Bosnia Di Marco ha esultato",
+          "start_sec": 105.68,
+          "end_sec": 195.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Di Marco",
+      "position": "Di Marco preferisce andare a giocare in Bosnia piuttosto che in Galles per ragioni ambientali e tecniche.",
+      "polarity": "positive",
+      "claim_id": "ba2111c0-b1bc-442a-9636-ab82c37645b2",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s1",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco preferisce andare a giocare in Bosnia piuttosto che in Galles per ragioni ambientali e tecniche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Perché a suo giudizio è meglio andare a giocare in uno stadio piccolo come quello di Zenica e in Bosnia piuttosto che andare a Cardif in Galles",
+          "start_sec": 105.68,
+          "end_sec": 195.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bosnia",
+      "position": "La Bosnia ha eliminato un avversario considerato più abbordabile sia per ambiente che per qualità tecnica.",
+      "polarity": "positive",
+      "claim_id": "97855d78-fed1-4658-a2fb-13dfb0cd5625",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s1",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia ha eliminato un avversario considerato più abbordabile sia per ambiente che per qualità tecnica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Bosnia ha tolto ragione un avversario più abbordabile sia per il fattore ambientale sia per il fattore tecnico",
+          "start_sec": 105.68,
+          "end_sec": 195.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Umberto Chiariello",
+      "position": "Umberto Chiariello condivide il giudizio di Di Marco che la Bosnia è un avversario meno difficile del Galles.",
+      "polarity": "positive",
+      "claim_id": "30ff9da2-210f-4ff7-a901-d745e0f294dc",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s1",
+      "target_entity": "Umberto Chiariello",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Umberto Chiariello condivide il giudizio di Di Marco che la Bosnia è un avversario meno difficile del Galles.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È un giudizio di Di Marco, è un giudizio che io condivido in pieno",
+          "start_sec": 105.68,
+          "end_sec": 195.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "nazionale italiana anni '60",
+      "position": "La nazionale italiana fu gestita da una troica formata da un tecnico federale, un dirigente del Milan e il commentator Mazza.",
+      "polarity": "neutral",
+      "claim_id": "3edc81ab-b3d7-4106-aeea-d4aefbc2efd3",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s3",
+      "target_entity": "nazionale italiana anni '60",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana fu gestita da una troica formata da un tecnico federale, un dirigente del Milan e il commentator Mazza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "addirittura si fece un triunirato, una troica al comando della nazionale. un tecnico federale, l'antico Ferrari che aveva vinto il mondiale del 34, del 38, un dirigente del Milan e il commentator Mazza",
+          "start_sec": 245.879,
+          "end_sec": 335.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "troica",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Galles",
+      "position": "Il Galles è stato nettamente più forte della Bosnia nella partita citata.",
+      "polarity": "positive",
+      "claim_id": "d26614aa-b22f-4523-a5f1-c85645ecd2f1",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s2",
+      "target_entity": "Galles",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galles è stato nettamente più forte della Bosnia nella partita citata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "visto un Galles nettamente più forte della Bosnia",
+          "start_sec": 193.879,
+          "end_sec": 248.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "confronto"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bosnia",
+      "position": "La Bosnia si è difesa strenuamente e non ha trovato il gol della vittoria.",
+      "polarity": "negative",
+      "claim_id": "d0807985-459d-4489-8ce5-b194342647ed",
+      "video_id": "YmjTw31R6h0",
+      "segment_id": "s2",
+      "target_entity": "Bosnia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Bosnia si è difesa strenuamente e non ha trovato il gol della vittoria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Bosnia che si è difesa strenuamente",
+          "start_sec": 193.879,
+          "end_sec": 248.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "difesa",
+        "risultato"
+      ]
+    }
+  ]
+}
