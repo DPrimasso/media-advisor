@@ -1,0 +1,85 @@
+{
+  "video_id": "lyVVpBL8rck",
+  "analyzed_at": "2026-04-23T09:01:19.442343+00:00",
+  "metadata": {
+    "title": "È la pazza Inter‼️ #InterComo",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta una partita dell'Inter evidenziando un mix di momenti di sufficienza e mancanza di concretezza nel gioco, che infastidisce l'autore. Tuttavia, il tema centrale è la celebrazione di un gol spettacolare e decisivo, definito \"la pazza Inter\", che riscatta la prestazione complessiva. L'autore conclude sottolineando come, nonostante le difficoltà, la squadra riesca a regalare emozioni e risultati importanti.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "emozione",
+      "relevance": "high"
+    },
+    {
+      "name": "atteggiamento",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Nel gioco si nota sufficienza e scarsa concretezza da parte dell'Inter.",
+      "polarity": "negative",
+      "claim_id": "d54d95d3-ac3b-4417-9d25-f3623d3f85d0",
+      "video_id": "lyVVpBL8rck",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nel gioco si nota sufficienza e scarsa concretezza da parte dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mamma mia che uffa che che sufficienza. Come mi dà fastidio la sufficienza a dai.",
+          "start_sec": 0.199,
+          "end_sec": 77.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "atteggiamento",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Il video celebra un gol importante e spettacolare dell'Inter.",
+      "polarity": "positive",
+      "claim_id": "b7338490-389c-4dfa-a787-4bebc32ba3ef",
+      "video_id": "lyVVpBL8rck",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il video celebra un gol importante e spettacolare dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mamma che ma che Ma che gol! Ma che bello! E la pazza!",
+          "start_sec": 0.199,
+          "end_sec": 77.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione",
+        "emozione"
+      ]
+    }
+  ]
+}

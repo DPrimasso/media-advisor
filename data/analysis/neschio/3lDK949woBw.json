@@ -1,0 +1,397 @@
+{
+  "video_id": "3lDK949woBw",
+  "analyzed_at": "2026-04-23T09:00:58.323934+00:00",
+  "metadata": {
+    "title": "REAZIONE IN DIRETTA ai MIRACOLI di MOTTA‼️ ATALANTA-LAZIO 2-3 d.c.r.",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta la partita Atalanta-Lazio, sottolineando come l'Atalanta abbia dominato il gioco ma sia stata sconfitta ai rigori, nonostante una prestazione superiore e alcune occasioni clamorose, tra cui un grande intervento del portiere Motta. L'autore evidenzia anche episodi controversi arbitrali, come un possibile rigore non concesso per un tocco di mano di Aguila, e riflette su come una vittoria contro la Juventus potrebbe rilanciare le ambizioni Champions dell'Atalanta. In conclusione, pur riconoscendo la buona difesa della Lazio e la qualit? del match, la sconfitta resta amara per l'Atalanta.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "rigore",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "episodio controverso",
+      "relevance": "medium"
+    },
+    {
+      "name": "portiere",
+      "relevance": "medium"
+    },
+    {
+      "name": "parata",
+      "relevance": "low"
+    },
+    {
+      "name": "intervento",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "contrasto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "Winning against Juventus could help Atalanta reopen the Champions League race.",
+      "polarity": "positive",
+      "claim_id": "21b3ad87-fe88-426b-8e93-ccded57a9691",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Winning against Juventus could help Atalanta reopen the Champions League race.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atalanta, in the decisive moment of the season, faces Juventus and, winning, can go a little too far and reopen the entire Champions League race",
+          "start_sec": 12.85,
+          "end_sec": 60.07,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "champions league",
+        "importanza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "Lazio played a great game.",
+      "polarity": "positive",
+      "claim_id": "a02dfa04-7b93-48cf-85bc-0bc2a0237018",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio played a great game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi per la Lazio, poi andremo, gioca un'altra grande, ma grande partita e non riescono",
+          "start_sec": 12.85,
+          "end_sec": 60.07,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gara"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Aguila",
+      "position": "Aguila made a clamorous goal at the beginning of the match.",
+      "polarity": "positive",
+      "claim_id": "5bbaf365-1cf2-4427-8f99-54ba82e55c46",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s2",
+      "target_entity": "Aguila",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aguila made a clamorous goal at the beginning of the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I saw at the beginning of the match a clamorous goal by Aguila.",
+          "start_sec": 60.39,
+          "end_sec": 107.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "inizio partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Motta",
+      "position": "Motta's performance was perceived as not fully in control during the match.",
+      "polarity": "positive",
+      "claim_id": "fc670e82-37dd-473d-80b7-5ae5bee0f162",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s4",
+      "target_entity": "Motta",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Motta's performance was perceived as not fully in control during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "It seems to me that he didn't have it in his hands, Motta, and so ...",
+          "start_sec": 153.95,
+          "end_sec": 194.35,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta showed a great performance in the match.",
+      "polarity": "positive",
+      "claim_id": "61f5535a-7408-4b17-8ceb-cb5f1aef8fb1",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s4",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta showed a great performance in the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I must say, I saw a great Atalanta. A great Atalanta.",
+          "start_sec": 153.95,
+          "end_sec": 194.35,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta was superior in the match leading to the penalty kicks.",
+      "polarity": "positive",
+      "claim_id": "fea57e19-1360-49c6-9db9-5d5c57d0a631",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta was superior in the match leading to the penalty kicks.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atalanta was superior, for what it has expressed",
+          "start_sec": 12.85,
+          "end_sec": 60.07,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gara",
+        "penalty"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Aguila",
+      "position": "Aguila first hits the ball on the foot, then on the arm in a key close-to-penalty incident.",
+      "polarity": "neutral",
+      "claim_id": "c1ceb6f0-a4f7-496f-8c8a-b191d8a91e80",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s3",
+      "target_entity": "Aguila",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Aguila first hits the ball on the foot, then on the arm in a key close-to-penalty incident.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aguila first hits it on the foot, then on the arm",
+          "start_sec": 107.39,
+          "end_sec": 153.95,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "episodio controverso",
+        "var",
+        "intervento"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Chiera",
+      "position": "Chiera takes the ball in the incident with Scalvini.",
+      "polarity": "positive",
+      "claim_id": "acbac696-15c6-4dab-8dc1-d216aeee4294",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s3",
+      "target_entity": "Chiera",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Chiera takes the ball in the incident with Scalvini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chiera, who takes it, Scalvini",
+          "start_sec": 107.39,
+          "end_sec": 153.95,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "episodio",
+        "azione difensiva"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Pasalic",
+      "position": "Pasalic scored a goal to bring Atalanta back in the game.",
+      "polarity": "positive",
+      "claim_id": "55149db7-ef8c-4407-99cd-f2270530aa81",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s5",
+      "target_entity": "Pasalic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pasalic scored a goal to bring Atalanta back in the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atalanta gets it back with Pasalic's goal",
+          "start_sec": 194.75,
+          "end_sec": 246.87,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione",
+        "Atalanta"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Raspadori",
+      "position": "Raspadori scored a penalty against Motta's team.",
+      "polarity": "positive",
+      "claim_id": "c44144f8-5d3d-4c39-8c1e-04b912e362d3",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s4",
+      "target_entity": "Raspadori",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Raspadori scored a penalty against Motta's team.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Penalty, Raspadori, against Motta, Raspadori, scores.",
+          "start_sec": 153.95,
+          "end_sec": 194.35,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Scamacca",
+      "position": "Scamacca fell leading to a headbutt event.",
+      "polarity": "neutral",
+      "claim_id": "cedded76-d4ee-4dc4-80b6-b8488a295a68",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s2",
+      "target_entity": "Scamacca",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Scamacca fell leading to a headbutt event.",
+      "evidence_quotes": [
+        {
+          "quote_text": "when Scamacca falls, they make a great headbutt",
+          "start_sec": 60.39,
+          "end_sec": 107.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fallimento",
+        "contrast"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "Lazio defended themselves well in the match.",
+      "polarity": "positive",
+      "claim_id": "5f991f1d-2b86-44e5-a3b1-a4419b88bca4",
+      "video_id": "3lDK949woBw",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio defended themselves well in the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In the end, Lazio defended themselves.",
+          "start_sec": 60.39,
+          "end_sec": 107.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "resistenza"
+      ]
+    }
+  ]
+}
