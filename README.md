@@ -7,8 +7,49 @@ Analisi AI di video YouTube: estrae trascrizioni, identifica temi, claim e bias 
 ```bash
 npm install
 cp .env.example .env
-# Modifica .env con TRANSCRIPT_API_KEY e OPENAI_API_KEY
+# Modifica .env: TRANSCRIPT_API_KEY, OPENAI_API_KEY
+# Opzionale Telegram: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, TELEGRAM_THREAD_ID
 ```
+
+## Pubblicazione Telegram (daily report)
+
+Con Telegram configurato, ogni `POST /api/sync/daily-report` pubblica automaticamente il digest in chat/canale.
+Se Telegram fallisce, il daily report resta completato: errore tracciato nello stato di sync (comportamento non bloccante).
+
+### 1) Crea bot e recupera token
+
+- Apri `@BotFather` su Telegram.
+- Esegui `/newbot` e copia il token.
+- Salva il token in `.env` come `TELEGRAM_BOT_TOKEN`.
+
+### 2) Recupera `chat_id`
+
+- Aggiungi il bot alla chat/canale target (e promuovilo admin se canale).
+- Invia almeno un messaggio nella chat, oppure pubblica un post nel canale (o nel topic, se usi i forum topic).
+- Leggi gli update:
+
+```bash
+curl "https://api.telegram.org/bot<TELEGRAM_BOT_TOKEN>/getUpdates"
+```
+
+- Usa il valore `message.chat.id` come `TELEGRAM_CHAT_ID`.
+- Se pubblichi su topic/thread, usa anche `message.message_thread_id` come `TELEGRAM_THREAD_ID`.
+
+Config minima in `.env`:
+
+```bash
+TELEGRAM_BOT_TOKEN=...
+TELEGRAM_CHAT_ID=...
+# TELEGRAM_THREAD_ID=123456   # opzionale
+```
+
+### 3) Trigger automatico
+
+- API: `POST /api/sync/daily-report`
+- UI: bottone Daily Report in dashboard (`Rassegna`)
+- Con variabili Telegram valide, il report viene inviato automaticamente a fine run.
+- Senza variabili Telegram, il daily report viene comunque generato localmente (nessuna pubblicazione).
+- In caso di errore Telegram, il run resta `done`; dettagli in `GET /api/sync/status`.
 
 ## Struttura progetto
 
