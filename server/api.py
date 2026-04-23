@@ -883,6 +883,7 @@ async def _run_daily_report() -> None:
     from media_advisor.io.paths import transcript_path as _tp
     from media_advisor.models.channels import ChannelsConfig
     from media_advisor.digest import generate_mercato_digest, write_mercato_report
+    from media_advisor.telegram.client import TelegramClient, TelegramClientError
 
     s = Settings()
     root = _root
@@ -959,6 +960,7 @@ async def _run_daily_report() -> None:
         # Step 5 — Genera digest
         _sync_log("Step 5/6: Generazione sommario mercato...")
         digest_text = await generate_mercato_digest(root, today, s.openai_api_key)
+        report_content: str | None = None
         if digest_text:
             report_file, report_content = write_mercato_report(
                 root,
@@ -973,6 +975,45 @@ async def _run_daily_report() -> None:
             _sync_log("  Nessun tip con data per oggi — sommario non generato.")
             _sync_log("  Suggerimento: esegui 'mercato-enrich-dates' per popolare le date dei tip.")
             result_summary["digest"] = None
+
+        # Step 6 — Publish Telegram (non bloccante)
+        telegram_enabled = bool(s.telegram_bot_token and s.telegram_chat_id)
+        telegram_result: dict[str, Any] = {
+            "published": False,
+            "chunks_sent": 0,
+            "message_ids": [],
+            "error": None,
+            "enabled": telegram_enabled,
+        }
+        result_summary["telegram"] = telegram_result
+
+        if report_content is None:
+            _sync_log("Step 6/6: Salto publish Telegram (digest assente).")
+        elif not telegram_enabled:
+            _sync_log("Step 6/6: Telegram non configurato, publish saltato.")
+        else:
+            _sync_log("Step 6/6: Pubblicazione report su Telegram...")
+            try:
+                tg_send = await TelegramClient(
+                    s.telegram_bot_token,
+                    chat_id=s.telegram_chat_id,
+                    thread_id=s.telegram_thread_id,
+                ).send_message(report_content)
+                telegram_result["published"] = tg_send.chunks_sent > 0
+                telegram_result["chunks_sent"] = tg_send.chunks_sent
+                telegram_result["message_ids"] = tg_send.message_ids
+                _sync_log(
+                    f"  Telegram publish OK: {tg_send.chunks_sent} chunk inviati"
+                )
+            except Exception as exc:
+                telegram_result["error"] = str(exc)
+                if isinstance(exc, (TelegramClientError, ValueError)):
+                    _sync_log(f"  WARNING Telegram publish fallito (non bloccante): {exc}")
+                else:
+                    _sync_log(
+                        "  WARNING Telegram publish fallito con errore inatteso "
+                        f"(non bloccante): {exc}"
+                    )
 
         _sync_log("Report giornaliero completato.")
         _sync_state.update(
