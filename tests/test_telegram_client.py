@@ -7,6 +7,16 @@ import pytest
 from media_advisor.telegram.client import TelegramClient, TelegramClientError, _chunk_message
 
 
+def _send_and_capture_error(post_mock: AsyncMock) -> TelegramClientError:
+    client = TelegramClient("token", chat_id="-100123")
+    with (
+        patch("media_advisor.telegram.client.httpx.AsyncClient.post", post_mock),
+        pytest.raises(TelegramClientError) as exc_info,
+    ):
+        asyncio.run(client.send_message("hello"))
+    return exc_info.value
+
+
 def test_send_message_single_chunk() -> None:
     client = TelegramClient("token", chat_id="-100123")
 
@@ -55,37 +65,29 @@ def test_send_message_rejects_chunked_parse_mode() -> None:
 
 
 def test_send_message_raises_contextual_error() -> None:
-    client = TelegramClient("token", chat_id="-100123")
     response = httpx.Response(
         400,
         json={"ok": False, "error_code": 400, "description": "Bad Request: chat not found"},
     )
     post_mock = AsyncMock(return_value=response)
-
-    with (
-        patch("media_advisor.telegram.client.httpx.AsyncClient.post", post_mock),
-        pytest.raises(TelegramClientError) as exc_info,
-    ):
-        asyncio.run(client.send_message("hello"))
-
-    err = exc_info.value
+    err = _send_and_capture_error(post_mock)
     assert "chat not found" in str(err)
     assert err.status_code == 400
     assert err.telegram_error_code == 400
 
 
+def test_send_message_raises_on_request_error() -> None:
+    post_mock = AsyncMock(side_effect=httpx.RequestError("network down"))
+    err = _send_and_capture_error(post_mock)
+    assert "Telegram request failed" in str(err)
+    assert err.status_code is None
+    assert err.telegram_error_code is None
+
+
 def test_send_message_raises_on_invalid_json_success() -> None:
-    client = TelegramClient("token", chat_id="-100123")
     response = httpx.Response(200, content=b"<html>gateway</html>")
     post_mock = AsyncMock(return_value=response)
-
-    with (
-        patch("media_advisor.telegram.client.httpx.AsyncClient.post", post_mock),
-        pytest.raises(TelegramClientError) as exc_info,
-    ):
-        asyncio.run(client.send_message("hello"))
-
-    err = exc_info.value
+    err = _send_and_capture_error(post_mock)
     assert "invalid JSON" in str(err)
     assert err.status_code == 200
 
@@ -100,4 +102,11 @@ def test_chunk_message_splits_by_lines() -> None:
 def test_chunk_message_preserves_newlines_exactly() -> None:
     text = ("A" * 8) + "\n\n" + ("B" * 8) + "\n" + ("C" * 8)
     chunks = _chunk_message(text, max_length=10)
+    assert "".join(chunks) == text
+
+
+def test_chunk_message_hard_splits_without_newlines() -> None:
+    text = "X" * 25
+    chunks = _chunk_message(text, max_length=10)
+    assert chunks == ["X" * 10, "X" * 10, "X" * 5]
     assert "".join(chunks) == text
