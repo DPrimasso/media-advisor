@@ -110,6 +110,65 @@ const digestError = ref(null)
 const digestDate = ref(todayISO)
 const digestCopied = ref(false)
 
+const DIGEST_SECTIONS = [
+  { title: '✅ Situazioni calde / scenari aperti', toneClass: 'sommario-digest-section--hot' },
+  { title: '🕐 Situazioni da monitorare', toneClass: 'sommario-digest-section--watch' },
+  { title: '🚫 Voci ridimensionate / smentite', toneClass: 'sommario-digest-section--deny' },
+]
+const DIGEST_SECTION_ORDER = DIGEST_SECTIONS.map((section) => section.title)
+const DIGEST_SECTION_SET = new Set(DIGEST_SECTION_ORDER)
+const DIGEST_SECTION_TONE_CLASS = Object.fromEntries(
+  DIGEST_SECTIONS.map((section) => [section.title, section.toneClass]),
+)
+
+function parseDigestSections(rawDigest) {
+  if (!rawDigest || typeof rawDigest !== 'string') return null
+
+  const lines = rawDigest
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean)
+
+  if (!lines.length) return null
+
+  const sections = []
+  let currentSection = null
+  let expectedSectionIndex = 0
+
+  for (const rawLine of lines) {
+    const normalizedLine = rawLine
+      .replace(/^#{1,6}\s+/, '')
+      .replace(/^\*\*(.+)\*\*$/, '$1')
+      .replace(/:$/, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+
+    if (DIGEST_SECTION_SET.has(normalizedLine)) {
+      if (normalizedLine !== DIGEST_SECTION_ORDER[expectedSectionIndex]) return null
+      currentSection = { title: normalizedLine, items: [] }
+      sections.push(currentSection)
+      expectedSectionIndex += 1
+      continue
+    }
+
+    if (!currentSection) return null
+
+    const item = rawLine
+      .replace(/^[-*•](?:\s+|$)/, '')
+      .replace(/^\d+[.)]\s+/, '')
+      .trim()
+    if (!item) continue
+    currentSection.items.push(item)
+  }
+
+  if (expectedSectionIndex !== DIGEST_SECTION_ORDER.length) return null
+  if (sections.some((section) => section.items.length === 0)) return null
+
+  return sections
+}
+
+const parsedDigestSections = computed(() => parseDigestSections(digest.value))
+
 async function copyDigest() {
   if (!digest.value) return
   try {
@@ -332,7 +391,25 @@ function analysisSourceLabel(item) {
         </div>
       </div>
       <div v-if="digest" class="sommario-body">
-        <p class="sommario-text">{{ digest }}</p>
+        <div v-if="parsedDigestSections" class="sommario-structured">
+          <section
+            v-for="section in parsedDigestSections"
+            :key="section.title"
+            :class="['sommario-digest-section', DIGEST_SECTION_TONE_CLASS[section.title] || '']"
+          >
+            <h4 class="sommario-digest-title">{{ section.title }}</h4>
+            <ul class="sommario-digest-list">
+              <li
+                v-for="(item, index) in section.items"
+                :key="`${section.title}-${index}`"
+                class="sommario-digest-item"
+              >
+                {{ item }}
+              </li>
+            </ul>
+          </section>
+        </div>
+        <p v-else class="sommario-text sommario-text--plain">{{ digest }}</p>
         <button class="btn-copia" @click="copyDigest">
           {{ digestCopied ? '✓ Copiato!' : 'Copia' }}
         </button>
@@ -762,15 +839,69 @@ function analysisSourceLabel(item) {
 .sommario-body {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
+  max-width: 880px;
+}
+
+.sommario-structured {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.sommario-digest-section {
+  background: var(--bg-hover);
+  border: 1px solid var(--border);
+  border-left-width: 3px;
+  border-left-color: var(--border);
+  border-radius: var(--radius-sm);
+  padding: 0.75rem 0.9rem;
+}
+
+.sommario-digest-section--hot {
+  border-left-color: var(--success);
+  background: rgba(5, 150, 105, 0.08);
+}
+
+.sommario-digest-section--watch {
+  border-left-color: var(--warning);
+  background: rgba(217, 119, 6, 0.09);
+}
+
+.sommario-digest-section--deny {
+  border-left-color: var(--danger);
+  background: rgba(220, 38, 38, 0.08);
+}
+
+.sommario-digest-title {
+  margin: 0 0 0.55rem;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.sommario-digest-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.38rem;
+}
+
+.sommario-digest-item {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text-secondary);
 }
 
 .sommario-text {
   font-size: 1rem;
-  line-height: 1.7;
+  line-height: 1.65;
   color: var(--text);
   margin: 0;
-  font-style: italic;
+}
+
+.sommario-text--plain {
   white-space: pre-wrap;
 }
 
