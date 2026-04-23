@@ -1,0 +1,367 @@
+{
+  "video_id": "bGZFonKq3f4",
+  "analyzed_at": "2026-04-23T08:04:34.476325+00:00",
+  "metadata": {
+    "title": "TMWRadio- Ursino (ds):\" Gasperini deve rimanere e può fare pace con Massara. Ranieri andrà via\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulla situazione dirigenziale e tecnica di una squadra di calcio, con particolare attenzione al ruolo di Claudio Ranieri e Gian Piero Gasperini. L'autore sostiene che Ranieri, pur intelligente, manca dell'esperienza necessaria per un ruolo dirigenziale e probabilmente lascerà la società, mentre Gasperini è definito un allenatore eccezionale che valorizza i giocatori e agisce nell'interesse del club. Si ipotizza che Gasperini possa restare e riconciliarsi con il direttore sportivo Massara, anche se è necessario un cambiamento nella dirigenza per costruire un progetto solid",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    },
+    {
+      "name": "relazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Ranieri manca di esperienza necessaria per il ruolo di direttore sportivo o generale.",
+      "polarity": "negative",
+      "claim_id": "8b71330d-01fd-43e3-b783-113eb2f9f8ea",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s0",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri manca di esperienza necessaria per il ruolo di direttore sportivo o generale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per fare determinati ruoli in una società uno deve avere una certa esperienza di quel ruolo",
+          "start_sec": 0.399,
+          "end_sec": 56.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini deve rimanere e può fare pace con Massara.",
+      "polarity": "positive",
+      "claim_id": "4b122dc0-0131-4659-abe8-f24e87fa3f34",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s0",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini deve rimanere e può fare pace con Massara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini deve rimanere e può fare pace con Massara",
+          "start_sec": 0.399,
+          "end_sec": 56.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "società non specificata",
+      "position": "La squadra non ha ancora acquistato un attaccante a fine calciomercato.",
+      "polarity": "negative",
+      "claim_id": "29bb3c73-db67-40b5-a0bf-3235efc1ce08",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s1",
+      "target_entity": "società non specificata",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra non ha ancora acquistato un attaccante a fine calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo alla fine del calciomercato e ancora non abbiamo preso un attaccante",
+          "start_sec": 54.0,
+          "end_sec": 102.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "attaccante"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "Non si può mandare via sempre l'allenatore perché così non si fa un progetto serio nella Roma.",
+      "polarity": "negative",
+      "claim_id": "646a61da-3490-43e9-afd4-5605b9cbdba7",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non si può mandare via sempre l'allenatore perché così non si fa un progetto serio nella Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Perché altri anni di mandare via sempre l'allenatore così non si fa un progetto",
+          "start_sec": 104.439,
+          "end_sec": 167.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini ha una lunga esperienza e vita professionale riconosciuta nel calcio.",
+      "polarity": "positive",
+      "claim_id": "389c88a6-28cd-43ba-b22d-8eff4ebf93de",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s5",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha una lunga esperienza e vita professionale riconosciuta nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'esperienza, cioè la vita lavorativa professionale di di Gasperini parla chiaro",
+          "start_sec": 219.4,
+          "end_sec": 270.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini ha bisogno di parlare di calcio durante la settimana con lo staff.",
+      "polarity": "positive",
+      "claim_id": "507a6c8c-8e20-4d06-9fe0-6eb309b10f7b",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s5",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha bisogno di parlare di calcio durante la settimana con lo staff.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha bisogno di di parlare di calcio",
+          "start_sec": 219.4,
+          "end_sec": 270.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini dovrebbe rimanere come allenatore.",
+      "polarity": "positive",
+      "claim_id": "157ca531-cebf-45d0-a455-736937a3aebe",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s4",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Gasperini dovrebbe rimanere come allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'allenatore deve rimanere secondo me. direttore Stefano che è impossibile che possono rimanere tutti e due",
+          "start_sec": 167.12,
+          "end_sec": 221.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massara",
+      "position": "Massara potrebbe continuare a lavorare nel club.",
+      "polarity": "positive",
+      "claim_id": "1a472f06-96ab-4ec1-8f23-ff3540e80b89",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s4",
+      "target_entity": "Massara",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Massara potrebbe continuare a lavorare nel club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "solo un ruolo di Massara che potrebbe continuare a lavorare",
+          "start_sec": 167.12,
+          "end_sec": 221.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Ranieri è considerato una persona intelligente.",
+      "polarity": "neutral",
+      "claim_id": "aff9d4be-ef1a-45e7-b268-0f86b97fa719",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s0",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri è considerato una persona intelligente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri io lo reputo una persona intelligente",
+          "start_sec": 0.399,
+          "end_sec": 56.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini agisce nell'interesse della società.",
+      "polarity": "positive",
+      "claim_id": "342d9e33-5793-4939-a2e7-f65f9b07111e",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s1",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini agisce nell'interesse della società.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lui fa l'interesse della società",
+          "start_sec": 54.0,
+          "end_sec": 102.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Gasperini",
+      "position": "Gasperini è uno degli allenatori europei che fa giocare bene la sua squadra e valorizza i giocatori.",
+      "polarity": "positive",
+      "claim_id": "085b428f-90b5-48e4-9a3f-fe98316fe03b",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s1",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Gasperini è uno degli allenatori europei che fa giocare bene la sua squadra e valorizza i giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un allenatore, secondo me, in Europa che ci sono pochissimi perché fa giocare bene la squadra, valorizza i giocatori",
+          "start_sec": 54.0,
+          "end_sec": 102.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "valorizzazione",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma merita di qualificarsi in Champions League con la stessa squadra rafforzata.",
+      "polarity": "positive",
+      "claim_id": "3fdac176-2fff-4b84-84ce-eb83eb41449b",
+      "video_id": "bGZFonKq3f4",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma merita di qualificarsi in Champions League con la stessa squadra rafforzata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Roma merita veramente di di di di non dico di di vincere lo scudetto, ma almeno in Champions League deve andare eh con la stessa squadra rafforzando la squadra",
+          "start_sec": 104.439,
+          "end_sec": 167.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

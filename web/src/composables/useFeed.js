@@ -17,14 +17,6 @@ function toDayKey(dateObj) {
   return `${y}-${m}-${d}`
 }
 
-function hasSyntheticMentionedAt(tip) {
-  if (!tip?.mentioned_at || !tip?.extracted_at) return false
-  const mentioned = new Date(tip.mentioned_at)
-  const extracted = new Date(tip.extracted_at)
-  if (Number.isNaN(mentioned.getTime()) || Number.isNaN(extracted.getTime())) return false
-  // Quando coincide al millisecondo è quasi certamente un fallback (no data reale del video).
-  return mentioned.getTime() === extracted.getTime()
-}
 
 function italianDayLabel(dateObj) {
   const today = startOfDay(new Date())
@@ -63,7 +55,6 @@ export function useFeed(tipsRef, channelsDataRef) {
     // 2. Filter tips (must have mentioned_at; beyond 7 days only resolved)
     const visibleTips = tips
       .filter((t) => t.mentioned_at)
-      .filter((t) => !hasSyntheticMentionedAt(t))
       .filter((t) => {
         const d = startOfDay(new Date(t.mentioned_at))
         return d >= cutoff || t.outcome !== 'non_verificata'

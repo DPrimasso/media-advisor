@@ -1,0 +1,404 @@
+{
+  "video_id": "MoSGLRtOqLY",
+  "analyzed_at": "2026-04-23T08:05:52.800276+00:00",
+  "metadata": {
+    "title": "MILAN, PASSI AVANTI PER IL PRIMO COLPO ESTIVO. DOPPIA MOSSA JUVE. AVEVA RAGIONE MARESCA! IL NAPOLI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulle trattative di calciomercato estivo, con particolare attenzione al possibile arrivo di Leon Goretzka al Milan come rinforzo per il centrocampo. L’autore sottolinea come Allegri consideri Goretzka la prima scelta per la mediana, e che un centrocampo formato da Goretzka, Modric e Rabiot renderebbe il Milan molto competitivo in Europa. Viene inoltre evidenziata la concorrenza inglese, in particolare il Tottenham di De Zerbi e il Manchester United, che stanno monitorando diversi centrocampisti, mentre l’Inter valuta un centrocampista brasiliano in uscita dall’Atalanta. L",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "centrocampista",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Newcastle",
+      "position": "Newcastle chiede 100 milioni per Sandro Tonali.",
+      "polarity": "neutral",
+      "claim_id": "0df588a9-dc69-49b7-aaf5-6dd2b7ce7827",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s3",
+      "target_entity": "Newcastle",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Newcastle chiede 100 milioni per Sandro Tonali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per il quale Newcastle chiede 100 milioni",
+          "start_sec": 82.28,
+          "end_sec": 110.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "valore",
+        "centrocampista"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Leon Gorzka",
+      "position": "Leon Gorzka potrebbe trasferirsi al Milan a parametro zero per il centrocampo.",
+      "polarity": "positive",
+      "claim_id": "ba51d28a-d1da-4102-9c9b-9cfe72fbd38f",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s0",
+      "target_entity": "Leon Gorzka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Leon Gorzka potrebbe trasferirsi al Milan a parametro zero per il centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan avanza per Leon Gorzka, colpo a parametro zero per il centrocampo.",
+          "start_sec": 1.199,
+          "end_sec": 28.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Leon Gorzka",
+      "position": "Leon Gorzka desidera uno stipendio di sette milioni ma è aperto a trattare col Milan.",
+      "polarity": "neutral",
+      "claim_id": "2d836459-63cc-4605-b6b6-24ff2c58d667",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s0",
+      "target_entity": "Leon Gorzka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Leon Gorzka desidera uno stipendio di sette milioni ma è aperto a trattare col Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "5 milioni netti a stagione più bonus per 3 anni. Un bonus alla firma. Lui ne vorrebbe sette di milioni, ma aperto al Milan.",
+          "start_sec": 1.199,
+          "end_sec": 28.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri considera Leon Goretka la prima scelta per la mediana.",
+      "polarity": "positive",
+      "claim_id": "81c4f213-3d8d-4b51-b548-f191eba2c240",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s1",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri considera Leon Goretka la prima scelta per la mediana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "spingendo molto per Leon Goretka Massimiliano Allegri che lo considera la prima scelta per la mediana",
+          "start_sec": 26.8,
+          "end_sec": 55.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mediana"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "centrocampo Milan",
+      "position": "La mediana con Goretzka, Modric e Rabio sarebbe molto competitiva in Europa.",
+      "polarity": "positive",
+      "claim_id": "1cb8b741-ca4f-47de-8a4f-45d0cb15d932",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s1",
+      "target_entity": "centrocampo Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La mediana con Goretzka, Modric e Rabio sarebbe molto competitiva in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Goretzka, Modric, Rabio sarebbe una mediana, un centrocampo, un trio da Champions, da un Milan molto molto competitivo anche in Europa",
+          "start_sec": 26.8,
+          "end_sec": 55.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "centrocampo",
+        "performance"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan vuole accontentare Allegri con l'acquisto di Goretzka.",
+      "polarity": "positive",
+      "claim_id": "d15e4034-11b9-4c68-b487-fee7bd2632d2",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan vuole accontentare Allegri con l'acquisto di Goretzka.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco perché Allegri spinge per Gorzka, ecco perché Milan vuole accontentarlo",
+          "start_sec": 26.8,
+          "end_sec": 55.358999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore",
+        "acquisto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha fatto dei sondaggi per un centrocampista brasiliano ex Salernitana in uscita dall'Atalanta.",
+      "polarity": "neutral",
+      "claim_id": "2769227b-4844-4f6c-8218-fefc18e16071",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha fatto dei sondaggi per un centrocampista brasiliano ex Salernitana in uscita dall'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter ha fatto dei sondaggi per quanto riguarda il centrocampista brasiliano ex Salernitana in uscita dall'Atalanta",
+          "start_sec": 53.16,
+          "end_sec": 83.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "centrocampista",
+        "Inter"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Arsenal",
+      "position": "L'Arsenal è molto interessato a Sandro Tonali come centrocampista.",
+      "polarity": "neutral",
+      "claim_id": "a725eb13-7f7e-42fc-8143-67d3e641f729",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s3",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal è molto interessato a Sandro Tonali come centrocampista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Arsenal è molto molto molto caldo sul fronte Sandro Tonali",
+          "start_sec": 82.28,
+          "end_sec": 110.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "centrocampista",
+        "interesse"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Roberto De Zerbi",
+      "position": "Roberto De Zerbi vorrebbe prendere Goretka al Tottenham.",
+      "polarity": "positive",
+      "claim_id": "a3c769ac-c074-4387-8369-e226cc69d9ee",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s4",
+      "target_entity": "Roberto De Zerbi",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Roberto De Zerbi vorrebbe prendere Goretka al Tottenham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il vero pericolo per il Milan è a Londra ed è un allenatore italiano, Roberto De Zerbi che lo vorrebbe al Tottenham.",
+          "start_sec": 108.52,
+          "end_sec": 131.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Milan",
+      "position": "La vera competitor per il Milan in questo momento è il Tottenham di De Zerbi.",
+      "polarity": "negative",
+      "claim_id": "4c292da9-0bca-4938-b380-a6ed5b92292f",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vera competitor per il Milan in questo momento è il Tottenham di De Zerbi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la vera competitor in questo momento, il vero pericolo per il Milan è a Londra",
+          "start_sec": 108.52,
+          "end_sec": 131.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "rivalry"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Manchester United",
+      "position": "Il Manchester United sta provando a prendere Ederson come centrocampista in estate.",
+      "polarity": "neutral",
+      "claim_id": "a941d1de-16b8-494b-91d1-655d98834911",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s2",
+      "target_entity": "Manchester United",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Manchester United sta provando a prendere Ederson come centrocampista in estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo United sta provando ad avanzare",
+          "start_sec": 53.16,
+          "end_sec": 83.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "centrocampista",
+        "Manchester United"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico Madrid è coinvolto nel mercato per il centrocampista Ederson.",
+      "polarity": "neutral",
+      "claim_id": "c6c1e12a-7f14-4c69-9d7c-30deb6c23418",
+      "video_id": "MoSGLRtOqLY",
+      "segment_id": "s2",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Atletico Madrid è coinvolto nel mercato per il centrocampista Ederson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atletico in poll",
+          "start_sec": 53.16,
+          "end_sec": 83.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "centrocampista",
+        "Atletico Madrid"
+      ]
+    }
+  ]
+}

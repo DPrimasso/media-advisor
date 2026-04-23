@@ -1,0 +1,405 @@
+{
+  "video_id": "FUFhmiXZeXg",
+  "analyzed_at": "2026-04-22T09:55:52.527987+00:00",
+  "metadata": {
+    "title": "NOVITÀ IMPORTANTI SUL FUTURO DI LEWANDOWSKI. INIZIA IL VALZER PANCHINE. LE MOSSE DI NAPOLI E GENOA…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulle ultime novità di calciomercato riguardanti Genoa e Napoli, con particolare attenzione al futuro di giovani talenti e alle strategie di acquisto e rinnovo. L’autore evidenzia come il Genoa abbia quasi raggiunto la salvezza, attivando così il riscatto di Lorenzo Colombo dal Milan e puntando su giovani promettenti come Baldanzi, Jeff e Cator, oltre a rinnovare contratti importanti come quello di Eccuban. Sul fronte Napoli, invece, si parla di un interesse concreto per un centrocampista colombiano, con trattative in corso ma ancora in fase embrionale. La posizione princ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "trattative",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "giovane",
+      "relevance": "low"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Milan",
+      "position": "Il Milan riceverà 10 milioni come plusvalenza dal riscatto di Lorenzo Colombo.",
+      "polarity": "positive",
+      "claim_id": "5f805f2b-368f-47c8-9b00-ba4c4fd5111a",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "club",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan riceverà 10 milioni come plusvalenza dal riscatto di Lorenzo Colombo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "10 milioni nelle casse del Milan, tutta plusvalenza per l'attaccante di Vimercate",
+          "start_sec": 0.96,
+          "end_sec": 28.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finanza",
+        "plusvalenza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Genoa",
+      "position": "Il Genoa intende spendere 10 milioni per riscattare Tommaso Baldanzi dalla Roma.",
+      "polarity": "positive",
+      "claim_id": "c878ebf3-60af-442a-8222-2778f7e58141",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa intende spendere 10 milioni per riscattare Tommaso Baldanzi dalla Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Altri 10 milioni il Genoa ha intenzionato a spenderli per riscattare Tommaso Baldanzi dalla Roma",
+          "start_sec": 27.92,
+          "end_sec": 55.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giovane"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Wolverton",
+      "position": "Wolverton demands at least 40 million euros despite relegation.",
+      "polarity": "neutral",
+      "claim_id": "f1c9bf24-2f52-48b6-9f22-fd6f34b2a88f",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s3",
+      "target_entity": "Wolverton",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Wolverton demands at least 40 million euros despite relegation.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Wolverton, nonostante la retrocessione, non va sotto i 40 milioni",
+          "start_sec": 80.52,
+          "end_sec": 108.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "finanza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "club italiani",
+      "position": "40 million euros is considered too expensive for Italian clubs.",
+      "polarity": "negative",
+      "claim_id": "7d1777af-a7f4-4dfa-8b0b-d10dbddfee78",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s3",
+      "target_entity": "club italiani",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "40 million euros is considered too expensive for Italian clubs.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non va sotto i 40 milioni, tanti, forse troppi per i club italiani",
+          "start_sec": 80.52,
+          "end_sec": 108.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "finanza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Eccuban",
+      "position": "Eccuban is ready to renew his contract until 2028 with Genoa.",
+      "polarity": "positive",
+      "claim_id": "db9536c0-81d7-4047-9180-d4091c2a8533",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s2",
+      "target_entity": "Eccuban",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Eccuban is ready to renew his contract until 2028 with Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eccuban che è pronto a rinnovare sino al 2028",
+          "start_sec": 53.28,
+          "end_sec": 82.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "rinnovo",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Malinowski",
+      "position": "Malinowski could extend his contract until 2028.",
+      "polarity": "positive",
+      "claim_id": "cce23bc4-d66e-43c1-bc92-8fae3068fd3c",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s2",
+      "target_entity": "Malinowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Malinowski could extend his contract until 2028.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malinowski che potrebbe allungare sino al 2028",
+          "start_sec": 53.28,
+          "end_sec": 82.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "rinnovo",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Lorenzo Colombo",
+      "position": "Il riscatto di Lorenzo Colombo scatterà al verificarsi della salvezza matematica del Genoa.",
+      "polarity": "positive",
+      "claim_id": "83de8621-0646-4be5-8c79-3e3c19d16a66",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s0",
+      "target_entity": "Lorenzo Colombo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il riscatto di Lorenzo Colombo scatterà al verificarsi della salvezza matematica del Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Manca solo l'aritmetica che farà scattare l'obbligo di riscatto per Lorenzo Colombo",
+          "start_sec": 0.96,
+          "end_sec": 28.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "riscatto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Venturino",
+      "position": "Il futuro di Venturino è incerto tra Roma e il suo ritorno a Genova.",
+      "polarity": "neutral",
+      "claim_id": "031288a3-2db3-498d-9633-646a9faac1d3",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s1",
+      "target_entity": "Venturino",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il futuro di Venturino è incerto tra Roma e il suo ritorno a Genova.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se Venturino tornerà all'ovile e poi si vedrà quale sarà il destino del talentuoso esterno offensivo classe 2006",
+          "start_sec": 27.92,
+          "end_sec": 55.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giovane"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Jeff e Cator",
+      "position": "Il Genoa ha rifiutato offerte di gennaio per Jeff e Cator da Benfica e Alilal.",
+      "polarity": "positive",
+      "claim_id": "4dcc65e9-297c-44c1-bfe9-ac2e412391e0",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s1",
+      "target_entity": "Jeff e Cator",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha rifiutato offerte di gennaio per Jeff e Cator da Benfica e Alilal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Genoa, apparito di giovani talenti, ha detto no al Benfica e all'Alilal a gennaio per Jeff e Cator",
+          "start_sec": 27.92,
+          "end_sec": 55.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giovane"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Rios",
+      "position": "Rios was the best midfielder of the last Copa America.",
+      "polarity": "positive",
+      "claim_id": "475395de-82e3-42a0-996c-ef98dc85ac91",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s3",
+      "target_entity": "Rios",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rios was the best midfielder of the last Copa America.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rios che è stato il miglior centrocampista dell'ultima Coppa America",
+          "start_sec": 80.52,
+          "end_sec": 108.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "coppa america"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Genoa",
+      "position": "Il Genoa ha praticamente ipotecato la salvezza in Serie A.",
+      "polarity": "positive",
+      "claim_id": "96f95ea9-c60c-4bf4-aba6-2ea3168d918e",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha praticamente ipotecato la salvezza in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Genoa che ad esempio ha ipotecato la salvezza",
+          "start_sec": 0.96,
+          "end_sec": 28.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "salvezza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Napoli is looking for a midfielder.",
+      "polarity": "neutral",
+      "claim_id": "7b68d7f3-3cfb-4069-9b6b-d844281854cb",
+      "video_id": "FUFhmiXZeXg",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli is looking for a midfielder.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli, invece, il Napoli cerca un centrocampista",
+          "start_sec": 53.28,
+          "end_sec": 82.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "ricerca",
+        "centrocampista"
+      ]
+    }
+  ]
+}

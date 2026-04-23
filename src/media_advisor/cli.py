@@ -1578,8 +1578,8 @@ def cmd_daily_report(
 
     Usa --no-update per saltare i passi 1 e 2 (es. per rigenerare il report su dati già presenti).
     """
-    from datetime import date as date_type, datetime as datetime_type
-    from media_advisor.digest import generate_mercato_digest, MONTHS_IT
+    from datetime import date as date_type
+    from media_advisor.digest import generate_mercato_digest, format_mercato_report_markdown
 
     s = _get_settings()
     if not s.openai_api_key:
@@ -1628,11 +1628,11 @@ def cmd_daily_report(
         if new_ids:
             from media_advisor.mercato.analyzer import analyze_video_mercato
             from media_advisor.mercato.aggregator import rebuild_index
-            from media_advisor.io.paths import mercato_tips_path
+            from media_advisor.io.paths import channels_config_path, mercato_tips_path
             from media_advisor.models.channels import ChannelsConfig
             from media_advisor.io.json_io import read_json
 
-            cfg = ChannelsConfig.model_validate(read_json(root / "channels" / "channels.json"))
+            cfg = ChannelsConfig.model_validate(read_json(channels_config_path(root)))
             mercato_ch_ids = {c.id for c in cfg.channels if c.mercato_channel}
 
             mercato_items = [v for v in pending.items if v.channel_id in mercato_ch_ids]
@@ -1677,13 +1677,7 @@ def cmd_daily_report(
     reports_dir.mkdir(exist_ok=True)
     report_file = reports_dir / f"{target_date.isoformat()}.md"
 
-    date_it = f"{target_date.day} {MONTHS_IT[target_date.month]} {target_date.year}"
-    now_str = datetime_type.now().strftime("%H:%M del %d/%m/%Y")
-    content = (
-        f"# Calciomercato — {date_it}\n\n"
-        f"{digest_text}\n\n"
-        f"---\n_Generato da Media Advisor alle {now_str}_\n"
-    )
+    content = format_mercato_report_markdown(target_date, digest_text)
 
     report_file.write_text(content, encoding="utf-8")
     typer.echo(f"\n{'='*60}")

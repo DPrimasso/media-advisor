@@ -1,0 +1,383 @@
+{
+  "video_id": "zm6iQLYomKI",
+  "analyzed_at": "2026-04-23T08:03:40.785437+00:00",
+  "metadata": {
+    "title": "TMWRadio - Chivu meglio di Conte e Inzaghi?",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza la stagione dell’Inter sotto la guida di Cristian Chivu, confrontandola con i precedenti allenatori Conte e Inzaghi. L’autore riconosce il grande merito di Chivu nel gestire una squadra psicologicamente devastata e con un mercato limitato, sottolineando però che l’Inter necessita di una ricostruzione mentale e morale. Pur apprezzando i progressi fatti, si evidenzia come sia ancora presto per paragonare Chivu ai suoi predecessori, soprattutto considerando il contesto e le risorse a disposizione. La partita di Coppa Italia contro Atalanta o Lazio rappresenta un momento chiave p",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "ruolo",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "critica",
+      "relevance": "low"
+    },
+    {
+      "name": "confronto",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Recalcati",
+      "position": "Recalcati ha giocato 16 partite segnando un gol.",
+      "polarity": "neutral",
+      "claim_id": "8cd2ddd9-99ab-413e-8c98-53101005e5b5",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s2",
+      "target_entity": "Recalcati",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Recalcati ha giocato 16 partite segnando un gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho 16 partite un gol, facciamoci un pensiero, siamoci al tavolo.",
+          "start_sec": 39.36,
+          "end_sec": 84.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Chivu",
+      "position": "Chivu potrebbe aver fatto meglio di Conte e Inzaghi secondo una domanda posta nel segmento.",
+      "polarity": "positive",
+      "claim_id": "c0087554-4811-44e8-9363-4960294acc45",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s1",
+      "target_entity": "Chivu",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Chivu potrebbe aver fatto meglio di Conte e Inzaghi secondo una domanda posta nel segmento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se uno dice che ha fatto meglio di Conte Inzaghi, come gli rispondete?",
+          "start_sec": 3.6,
+          "end_sec": 41.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter è considerata mentalmente e moralmente crollata e da ricostruire.",
+      "polarity": "negative",
+      "claim_id": "faabc5b7-1aaf-4420-8cfc-364bfabc02c8",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è considerata mentalmente e moralmente crollata e da ricostruire.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter è rovinata. L'Inter non c'è più mentalmente. L'Inter moralmente è sotto i tacchi. L'Inter non c'è più. Va ricostruita.",
+          "start_sec": 3.6,
+          "end_sec": 41.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "squadra",
+      "position": "La squadra ha fatto un mercato con giocatori più che normali a basso costo.",
+      "polarity": "neutral",
+      "claim_id": "d923f3c7-e3a9-4f5c-8ff3-9faea143a729",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s2",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha fatto un mercato con giocatori più che normali a basso costo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli han fatto un mercato non di alto costo, ma di di giocatori più che normali",
+          "start_sec": 39.36,
+          "end_sec": 84.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Suic",
+      "position": "Suic ha mostrato una buona performance ieri ma ci si aspettava qualcosa in più su un anno intero.",
+      "polarity": "positive",
+      "claim_id": "373cba1b-9240-425a-885e-c43751c49021",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s3",
+      "target_entity": "Suic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Suic ha mostrato una buona performance ieri ma ci si aspettava qualcosa in più su un anno intero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cioè ieri suic bravissimo, però calcoliamolo su un anno intero e io mi aspettavo qualcosina in più, qualcosina in più.",
+          "start_sec": 82.04,
+          "end_sec": 115.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "valutazione giocatore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è passata dal quinto posto a una situazione molto negativa.",
+      "polarity": "negative",
+      "claim_id": "2ca28cdb-a7d4-4e13-935d-febb8cfd8094",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è passata dal quinto posto a una situazione molto negativa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Era l'Inter da quinto posto.",
+          "start_sec": 3.6,
+          "end_sec": 41.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Chivu",
+      "position": "Stasera Chivu conoscerà l'avversario tra Atalanta o Lazio in Coppa Italia.",
+      "polarity": "neutral",
+      "claim_id": "6c074811-dec7-472d-8fe7-2c0abf055c37",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s1",
+      "target_entity": "Chivu",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Stasera Chivu conoscerà l'avversario tra Atalanta o Lazio in Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stasera conoscerà l'avversario o Atalanta o Lazio.",
+          "start_sec": 3.6,
+          "end_sec": 41.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Chivu",
+      "position": "Chivu is considered better than Conte and Inzaghi.",
+      "polarity": "positive",
+      "claim_id": "c9f6fae0-87d8-4a8b-bf45-a7398c4f6ed0",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s4",
+      "target_entity": "Chivu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Chivu is considered better than Conte and Inzaghi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "TMWRadio - Chivu meglio di Conte e Inzaghi?",
+          "start_sec": 114.28,
+          "end_sec": 183.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "confronto",
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte ha vinto lo scudetto al secondo anno all'Inter",
+      "polarity": "positive",
+      "claim_id": "cbb6abad-3842-4bf7-a9f0-8423513d2162",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s5",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha vinto lo scudetto al secondo anno all'Inter",
+      "evidence_quotes": [
+        {
+          "quote_text": "il secondo anno ha vinto lo scudetto",
+          "start_sec": 181.12,
+          "end_sec": 218.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "scudetto"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Duf",
+      "position": "Il ruolo di Duf non è ancora chiaro, ma è importante quando entra con i suoi doppi passi.",
+      "polarity": "neutral",
+      "claim_id": "df2b154f-d765-42d9-8db0-58d771c3dcfb",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s3",
+      "target_entity": "Duf",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il ruolo di Duf non è ancora chiaro, ma è importante quando entra con i suoi doppi passi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Duf non ho ancora capito che ruolo ha, ma quando entra comunque con i suoi 1400 doppi passi è importante.",
+          "start_sec": 82.04,
+          "end_sec": 115.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ruolo",
+        "prestazione giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "La squadra è devastata.",
+      "polarity": "negative",
+      "claim_id": "f3f8a02c-e24c-4322-b15e-95b67d42b1eb",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s2",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra è devastata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la squadra sì. devastata",
+          "start_sec": 39.36,
+          "end_sec": 84.15899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Valeria Pavard",
+      "position": "Valeria Pavard is criticized.",
+      "polarity": "neutral",
+      "claim_id": "67745cd3-212b-459d-9381-2f4c2c0a531b",
+      "video_id": "zm6iQLYomKI",
+      "segment_id": "s4",
+      "target_entity": "Valeria Pavard",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Valeria Pavard is criticized.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chi è criticato? Valeria Pavard.",
+          "start_sec": 114.28,
+          "end_sec": 183.64000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "critica",
+        "giocatore"
+      ]
+    }
+  ]
+}

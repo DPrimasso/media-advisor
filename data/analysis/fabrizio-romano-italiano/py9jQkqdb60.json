@@ -1,0 +1,395 @@
+{
+  "video_id": "py9jQkqdb60",
+  "analyzed_at": "2026-04-23T08:00:48.426608+00:00",
+  "metadata": {
+    "title": "🚨 GORETZKA E ALISSON: TUTTO SUI GRANDI COLPI! KONE, IL FUTURO E L’OPERAZIONE GRIMALDO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti principali del calciomercato estivo, con particolare attenzione alla Juventus e ai suoi piani per il ruolo di portiere. L’autore sottolinea come Alisson, portiere brasiliano del Liverpool con contratto fino al 2027, sia il nome preferito dalla Juventus, che ha già un’intesa verbale con il giocatore, il quale è attratto dal progetto bianconero; resta da definire l’accordo con il Liverpool. Inoltre, si parla di Goretzka, il cui contratto scade a giugno e che è stato accostato a club italiani, oltre a menzionare operazioni riguardanti G",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "carriera",
+      "relevance": "high"
+    },
+    {
+      "name": "scelta personale",
+      "relevance": "medium"
+    },
+    {
+      "name": "obiettivo",
+      "relevance": "medium"
+    },
+    {
+      "name": "portiere",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "volontà del giocatore",
+      "relevance": "low"
+    },
+    {
+      "name": "serie a",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Alisson",
+      "position": "Alisson ha giocato 254 partite in Premier League.",
+      "polarity": "positive",
+      "claim_id": "dc0b3574-2bd5-490d-be6c-3fc648ba3cc5",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s4",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson ha giocato 254 partite in Premier League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha giocato tantissime partite in Premier League, 254 partite in Premier",
+          "start_sec": 152.68,
+          "end_sec": 192.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "carriera"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Fabrizio Romano",
+      "position": "Fabrizio Romano fornisce aggiornamenti di mercato nel canale YouTube e WhatsApp dedicato al calciomercato.",
+      "polarity": "neutral",
+      "claim_id": "69cdea7c-79ed-4ffe-84aa-e648c2006967",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s0",
+      "target_entity": "Fabrizio Romano",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrizio Romano fornisce aggiornamenti di mercato nel canale YouTube e WhatsApp dedicato al calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tanti aggiornamenti di mercato anche oggi... Vi ricordo di seguirci sempre anche sul canale WhatsApp dedicato proprio al calciomercato, oltre che ovviamente qui su YouTube",
+          "start_sec": 0.04,
+          "end_sec": 35.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "canale YouTube"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Il mercato estivo della Juventus include la ricerca di un portiere.",
+      "polarity": "neutral",
+      "claim_id": "a033fae8-185d-4e3c-8ecd-aa02709ae156",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato estivo della Juventus include la ricerca di un portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "faremo un punto per quanto riguarda il portiere della Juventus con un nome in particolare e che conosce molto bene anche la nostra Serie A",
+          "start_sec": 0.04,
+          "end_sec": 35.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "juventus",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Goretzka",
+      "position": "Goretzka is a very important player whose contract is expiring soon.",
+      "polarity": "neutral",
+      "claim_id": "91aaf819-272b-4e03-9da4-0d155202ac2f",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s1",
+      "target_entity": "Goretzka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Goretzka is a very important player whose contract is expiring soon.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gorzka, che è un nome molto molto molto importante in scadenza di contratto",
+          "start_sec": 31.119,
+          "end_sec": 78.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "importanza",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Goretzka",
+      "position": "Some Italian clubs have been related to Goretzka for potential signing.",
+      "polarity": "neutral",
+      "claim_id": "ba7f0b62-ec54-4cf7-bf20-70b21927332e",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s1",
+      "target_entity": "Goretzka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Some Italian clubs have been related to Goretzka for potential signing.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato relazionato soprattutto da alcuni club italiani",
+          "start_sec": 31.119,
+          "end_sec": 78.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "club italiani"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta lavorando per acquistare Alisson come portiere.",
+      "polarity": "positive",
+      "claim_id": "bb107e8b-9d88-413f-be7f-c04e83ddbbda",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus sta lavorando per acquistare Alisson come portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus stesse lavorando alla ricerca di un nome forte, di un nome importante, di una garanzia per la porta e il nome di Allison è il nome scelto",
+          "start_sec": 75.92,
+          "end_sec": 116.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Allison",
+      "position": "Allison ha un'intesa verbale con la Juventus per un possibile trasferimento.",
+      "polarity": "positive",
+      "claim_id": "4722e155-cedb-4d5b-91ab-e574093e7dae",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s3",
+      "target_entity": "Allison",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Allison ha un'intesa verbale con la Juventus per un possibile trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è già una base di intesa verbale tra la Juventus e Allison.",
+          "start_sec": 114.799,
+          "end_sec": 156.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allison",
+      "position": "Allison è attratto e affascinato dal progetto della Juventus.",
+      "polarity": "positive",
+      "claim_id": "5bc7ef39-f792-4ca8-97e7-89e0b86dcb2d",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s3",
+      "target_entity": "Allison",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allison è attratto e affascinato dal progetto della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il calciatore apre chiaramente ehm alla Serie A. È veramente molto molto affascinato, attratto dal progetto bianconero.",
+          "start_sec": 114.799,
+          "end_sec": 156.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Liverpool",
+      "position": "Liverpool deve decidere la richiesta economica e la disponibilità al trasferimento di Allison.",
+      "polarity": "neutral",
+      "claim_id": "035bbbf9-70e2-456d-ae0e-41f7e8b13546",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s3",
+      "target_entity": "Liverpool",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Liverpool deve decidere la richiesta economica e la disponibilità al trasferimento di Allison.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bisogna capire Liverpool eh cosa vuole fare con Allison. Bisogna capire quanto chiederà per il trasferimento e se aprirà le porte eh ad Allison.",
+          "start_sec": 114.799,
+          "end_sec": 156.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Grimaldo",
+      "position": "Grimaldo is a left-back of Bayern Leverkusen mentioned in the transfer discussion.",
+      "polarity": "neutral",
+      "claim_id": "51d60d5e-dd0c-4354-bbe2-d16a06880cb5",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s1",
+      "target_entity": "Grimaldo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Grimaldo is a left-back of Bayern Leverkusen mentioned in the transfer discussion.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Grimaldo, terzino sinistro del Bayern Leverkusen",
+          "start_sec": 31.119,
+          "end_sec": 78.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "terzino sinistro",
+        "Bayern Leverkusen"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ismael Coné",
+      "position": "Ismael Coné is a midfielder of Sassuolo involved in transfer talks.",
+      "polarity": "neutral",
+      "claim_id": "156a6f4a-4b4d-4e7f-8b3f-a8ccccbfe2d9",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s1",
+      "target_entity": "Ismael Coné",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ismael Coné is a midfielder of Sassuolo involved in transfer talks.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ismael Coné, giocatore centrocampista del Sassuolo",
+          "start_sec": 31.119,
+          "end_sec": 78.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "centrocampista",
+        "Sassuolo"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Alisson",
+      "position": "Alisson vuole lasciare il Liverpool in buon rapporti.",
+      "polarity": "positive",
+      "claim_id": "7160bff8-7c1d-4a3a-b378-bf3547cdd837",
+      "video_id": "py9jQkqdb60",
+      "segment_id": "s4",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson vuole lasciare il Liverpool in buon rapporti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vuole lasciarsi bene con il Liverpool, vuole che il Liverpool sia comunque soddisfatto da una sua possibile partenza",
+          "start_sec": 152.68,
+          "end_sec": 192.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rapporti",
+        "leadership"
+      ]
+    }
+  ]
+}

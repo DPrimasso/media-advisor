@@ -2,6 +2,7 @@
 
 import re
 import unicodedata
+from datetime import date
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -28,13 +29,25 @@ def load_index(root: Path) -> MercatoIndex:
     return MercatoIndex.model_validate(data)
 
 
-def get_all_tips(root: Path) -> list[MercatoTip]:
-    tips = load_index(root).tips
+def _normalize_player_names_inplace(tips: list[MercatoTip], root: Path) -> list[MercatoTip]:
     mercato_dir = root / "mercato"
     from media_advisor.mercato.player_normalizer import normalize_player_name
+
     for tip in tips:
         tip.player_name = normalize_player_name(tip.player_name, mercato_dir)
     return tips
+
+
+def get_all_tips(root: Path) -> list[MercatoTip]:
+    return _normalize_player_names_inplace(load_index(root).tips, root)
+
+
+def get_tips_for_date(root: Path, target_date: date) -> list[MercatoTip]:
+    tips = [
+        tip for tip in load_index(root).tips
+        if tip.mentioned_at and tip.mentioned_at.date() == target_date
+    ]
+    return _normalize_player_names_inplace(tips, root)
 
 
 def get_tips_for_player(root: Path, player_slug: str) -> PlayerSummary | None:

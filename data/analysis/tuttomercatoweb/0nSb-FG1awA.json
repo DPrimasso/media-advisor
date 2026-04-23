@@ -1,0 +1,411 @@
+{
+  "video_id": "0nSb-FG1awA",
+  "analyzed_at": "2026-04-22T09:54:37.220135+00:00",
+  "metadata": {
+    "title": "TMWRadio - Maspero:\" Cairo ha dato una stabilità\" Garzya:\" Oggi vendere un club non è facile.\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video affronta il clima di tensione tra i tifosi del Torino e il presidente Urbano Cairo, evidenziando un gesto simbolico di contestazione da parte di un grande ex capitano, Pulici, che ha indossato una fascia con la scritta \"Cairo Vattene\". L'autore riconosce che, nonostante le critiche, Cairo ha garantito una stabilità economica e gestionale importante al club, elemento non scontato nel calcio italiano. Tuttavia, emerge l'ipotesi che, vista l’esigenza di una piazza ambiziosa come Torino, potrebbe essere giusto un cambio di proprietà qualora si presentasse un acquirente capace di migliorar",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tifoso",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "comportamento dei tifosi",
+      "relevance": "medium"
+    },
+    {
+      "name": "critica",
+      "relevance": "low"
+    },
+    {
+      "name": "clima",
+      "relevance": "low"
+    },
+    {
+      "name": "gestione",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "fan_behavior",
+      "subject": "Torino",
+      "position": "Un grande simbolo del Torino ha indossato una fascia da capitano con scritto 'Cairo Vattene Pulici'.",
+      "polarity": "neutral",
+      "claim_id": "befbf4fb-f49e-405c-8205-a10803bbd376",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s1",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un grande simbolo del Torino ha indossato una fascia da capitano con scritto 'Cairo Vattene Pulici'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un grande simbolo del Torino con la fascia da capitano giorni fa in una esibizione, fascia da capitano con scritto Cairo Vattene Pulici",
+          "start_sec": 1.599,
+          "end_sec": 46.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "simbolo",
+        "torino",
+        "fan_behavior"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Torino",
+      "position": "Torino è una piazza esigente che vuole tornare competitiva in classifica.",
+      "polarity": "neutral",
+      "claim_id": "4ae7b93a-531d-408b-9321-e3135316d157",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s2",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Torino è una piazza esigente che vuole tornare competitiva in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Torino, il Toro, è una piazza esigente, una piazza che vuole sicuramente tornare a essere competitiva per determinate posizioni di classifica",
+          "start_sec": 42.559,
+          "end_sec": 83.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esigenza",
+        "classifica",
+        "competitività"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "Cairo",
+      "position": "Cairo è un precedente che ha messo soldi nella società Torino.",
+      "polarity": "positive",
+      "claim_id": "a02ab576-ebb2-46d1-9697-5dcffa3dfb5b",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s2",
+      "target_entity": "Cairo",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cairo è un precedente che ha messo soldi nella società Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un precedente che tira fuori i soldi è un precedente da da a cui battere le mani",
+          "start_sec": 42.559,
+          "end_sec": 83.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finanza",
+        "precedente",
+        "investimento"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Urbano Cairo",
+      "position": "Urbano Cairo non ha ancora venduto la società nonostante la situazione negativa con i tifosi.",
+      "polarity": "neutral",
+      "claim_id": "89a83278-932d-491e-b8cf-9f04fe46803b",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s4",
+      "target_entity": "Urbano Cairo",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Urbano Cairo non ha ancora venduto la società nonostante la situazione negativa con i tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non abbia fatto la la il quel passo per per vendere la società",
+          "start_sec": 117.399,
+          "end_sec": 155.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vendita",
+        "società"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Torino negli ultimi anni ha fatto campionati apatici senza entusiasmare i tifosi.",
+      "polarity": "negative",
+      "claim_id": "f2078973-231d-4f40-9b95-d2533052a9c5",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s5",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Torino negli ultimi anni ha fatto campionati apatici senza entusiasmare i tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Torino è è sempre lì, fa sempre gli ultimi anni campionati eh apatici, cioè capito senza né car né carne né pesce",
+          "start_sec": 152.16,
+          "end_sec": 190.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "torino",
+        "prestazione",
+        "stagione",
+        "tifosi"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Torino",
+      "position": "Torino vive all'ombra della Juventus nel contesto calcistico.",
+      "polarity": "negative",
+      "claim_id": "c5fb6897-2de1-44ec-ab5a-d85516ecc010",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s5",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Torino vive all'ombra della Juventus nel contesto calcistico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Torino chiaramente poi vive all'ombra della Juventus",
+          "start_sec": 152.16,
+          "end_sec": 190.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "torino",
+        "contesto",
+        "rivalità"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "società di calcio",
+      "position": "Oggi è difficile trovare chi acquisti una squadra di calcio.",
+      "polarity": "negative",
+      "claim_id": "f1545f96-8560-4c09-adbe-94c196852c0c",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s5",
+      "target_entity": "società di calcio",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Oggi è difficile trovare chi acquisti una squadra di calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è difficile già trovare chi che acquista una squadra di calcio",
+          "start_sec": 152.16,
+          "end_sec": 190.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "acquisto",
+        "società"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Torino si salva dall'ultimo posto ma senza dare soddisfazioni ai tifosi.",
+      "polarity": "negative",
+      "claim_id": "be83d9b7-1a9d-4868-9783-b7e5d3dc4297",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s5",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Torino si salva dall'ultimo posto ma senza dare soddisfazioni ai tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "li vedi lì che ti salvi tre qu gi, però non dai soddisfazione ai tifosi",
+          "start_sec": 152.16,
+          "end_sec": 190.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "torino",
+        "prestazione",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Urbano Cairo",
+      "position": "Urbano Cairo è contestato dai tifosi ogni domenica.",
+      "polarity": "negative",
+      "claim_id": "7225ca4e-c518-4521-a70d-bd317e3420c2",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s4",
+      "target_entity": "Urbano Cairo",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Urbano Cairo è contestato dai tifosi ogni domenica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è contestato tutte le domeniche",
+          "start_sec": 117.399,
+          "end_sec": 155.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "contestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Cairo",
+      "position": "Cairo ha dato stabilità al club.",
+      "polarity": "positive",
+      "claim_id": "b385775f-720a-46b7-b0f3-ba75dfbf04fc",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s3",
+      "target_entity": "Cairo",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cairo ha dato stabilità al club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cairo ha dato una stabilità",
+          "start_sec": 81.64,
+          "end_sec": 119.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "stabilità",
+        "club"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Pulici",
+      "position": "Pulici ha compiuto un forte gesto.",
+      "polarity": "neutral",
+      "claim_id": "079c0cb3-e739-454e-bf52-1f8418abbd16",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s3",
+      "target_entity": "Pulici",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Pulici ha compiuto un forte gesto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo forte, no, gesto di Pulici",
+          "start_sec": 81.64,
+          "end_sec": 119.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gesto",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Torino FC",
+      "position": "A Torino c'è un clima non bello da diversi anni riguardo alla società.",
+      "polarity": "negative",
+      "claim_id": "5186b4fe-bb5e-4c09-9563-c17beae4d0db",
+      "video_id": "0nSb-FG1awA",
+      "segment_id": "s4",
+      "target_entity": "Torino FC",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "A Torino c'è un clima non bello da diversi anni riguardo alla società.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un clima non bello a Torino, ma già da diversi anni",
+          "start_sec": 117.399,
+          "end_sec": 155.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "clima",
+        "tifosi"
+      ]
+    }
+  ]
+}

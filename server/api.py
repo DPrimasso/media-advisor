@@ -870,7 +870,7 @@ async def _run_daily_report() -> None:
     from datetime import date as date_type
     from media_advisor.io.paths import transcript_path as _tp
     from media_advisor.models.channels import ChannelsConfig
-    from media_advisor.digest import generate_mercato_digest, MONTHS_IT
+    from media_advisor.digest import generate_mercato_digest, format_mercato_report_markdown
 
     s = Settings()
     root = _root
@@ -951,13 +951,7 @@ async def _run_daily_report() -> None:
         _sync_log("Step 5/6: Generazione sommario mercato...")
         digest_text = await generate_mercato_digest(root, today, s.openai_api_key)
         if digest_text:
-            date_it = f"{today.day} {MONTHS_IT[today.month]} {today.year}"
-            now_str = datetime.now().strftime("%H:%M del %d/%m/%Y")
-            md_content = (
-                f"# Calciomercato — {date_it}\n\n"
-                f"{digest_text}\n\n"
-                f"---\n_Generato da Media Advisor alle {now_str}_\n"
-            )
+            md_content = format_mercato_report_markdown(today, digest_text, generated_at=datetime.now())
             report_file = reports_dir / f"{today.isoformat()}.md"
             report_file.write_text(md_content, encoding="utf-8")
             _sync_log(f"  Sommario generato ({len(digest_text)} caratteri), salvato in {report_file.name}")

@@ -1,0 +1,400 @@
+{
+  "video_id": "2o0dWtyAdwE",
+  "analyzed_at": "2026-04-22T13:36:53.641367+00:00",
+  "metadata": {
+    "title": "L'annuncio ESCLUSIVO dell'agente di Josep MARTINEZ dopo Inter-Como 3-2",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video commenta la vittoria dell’Inter sul Como per 3-2, risultato che ha permesso ai nerazzurri di accedere alla finale di Coppa Italia, evidenziando la capacità della squadra di rimontare nonostante un vantaggio iniziale. L’autore sottolinea la gestione coraggiosa e pragmatica di Kivu, che non esita a sostituire anche giocatori di spessore se non in forma, e la rosa corta che ha costretto a cambi obbligati. Viene inoltre evidenziata la prestazione decisiva del portiere Martinez, la cui parata chiave ha mantenuto viva la partita, alimentando il dibattito sul suo ruolo in squadra rispetto a ",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "rimonta",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "provocazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha mostrato personalità e qualità dopo un vantaggio di 2-0 nella partita.",
+      "polarity": "positive",
+      "claim_id": "a894195a-8898-4e2f-b21e-b59c6a941251",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha mostrato personalità e qualità dopo un vantaggio di 2-0 nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è riemersa nuovamente la personalità e la qualità dei giocatori dell'Inter",
+          "start_sec": 34.96,
+          "end_sec": 67.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "personalità",
+        "qualità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha rimontato il Como due volte nel giro di pochi giorni.",
+      "polarity": "positive",
+      "claim_id": "1e391964-e3c1-48e4-a7e3-90ae6ac2a521",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha rimontato il Como due volte nel giro di pochi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una pazza rimonta dell'Inter sul Como nel giro di pochi giorni",
+          "start_sec": 1.079,
+          "end_sec": 34.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rimonta",
+        "prestazione",
+        "coppa italia"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Kivu",
+      "position": "I cambi effettuati da Kivu sono stati indovinati anche se in parte obbligati.",
+      "polarity": "positive",
+      "claim_id": "900a5709-76f4-40b2-8c8a-0d8e6e487ff7",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s1",
+      "target_entity": "Kivu",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I cambi effettuati da Kivu sono stati indovinati anche se in parte obbligati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche i cambi di Kivu sono stati indovinati un pochino obbligate",
+          "start_sec": 34.96,
+          "end_sec": 67.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "cambi",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Domfis",
+      "position": "Domfis ha avuto problemi di infortunio confermati da Kivu in conferenza stampa.",
+      "polarity": "negative",
+      "claim_id": "3ec8e8fb-ce4f-4425-b5bb-6ca4b7e783b4",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s1",
+      "target_entity": "Domfis",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Domfis ha avuto problemi di infortunio confermati da Kivu in conferenza stampa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "problemi anche per Domfis, come ha poi rivelato Kivu nel post partita in conferenza stampa",
+          "start_sec": 34.96,
+          "end_sec": 67.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "problema fisico"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro è stato cambiato presto in alcune partite.",
+      "polarity": "negative",
+      "claim_id": "8dd163a3-dd38-40fc-85cd-d089d67327aa",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s2",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro è stato cambiato presto in alcune partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "così come era stato anche con Lautaro e Barella in altre partite, cioè se non stanno girando bene, anche se sono dei senatori, KiW non si fa grossi problemi.",
+          "start_sec": 65.72,
+          "end_sec": 92.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "cambiamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Raffaele Kivu",
+      "position": "Raffaele Kivu si avvicina a un doppio obiettivo con lo scudetto e una finale di Coppa Italia.",
+      "polarity": "positive",
+      "claim_id": "36ad54a8-5046-4b07-b70c-8faee1e5b305",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s2",
+      "target_entity": "Raffaele Kivu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Raffaele Kivu si avvicina a un doppio obiettivo con lo scudetto e una finale di Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco Raffaele Kivu che si avvicina ad un doppio obiettivo clamoroso con lo scudetto ormai ad un passo e anche una finale di di Coppa Italia",
+          "start_sec": 65.72,
+          "end_sec": 92.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "obiettivo",
+        "scudetto",
+        "finale coppa italia"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Kivu",
+      "position": "Kivu probabilmente firmerà un rinnovo di contratto a fine stagione o inizio estate.",
+      "polarity": "positive",
+      "claim_id": "870cb064-c85e-432f-aabe-f96cef119ad1",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s3",
+      "target_entity": "Kivu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Kivu probabilmente firmerà un rinnovo di contratto a fine stagione o inizio estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'obiettivo, tra l'altro, della società, ma di Kivu stesso, è appunto il rinnovo del contratto che avverrà a fine stagione, inizio estate",
+          "start_sec": 91.079,
+          "end_sec": 129.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kivu",
+      "position": "La società potrebbe offrirgli un contratto a tempo abbastanza lungo.",
+      "polarity": "positive",
+      "claim_id": "759d04b8-1038-4749-9249-110abedeab61",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s3",
+      "target_entity": "Kivu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La società potrebbe offrirgli un contratto a tempo abbastanza lungo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potremmo fare un contratto, non dico indeterminato perché è impossibile nel calcio soprattutto, ma a tempo abbastanza lungo potrebbero farcelo",
+          "start_sec": 91.079,
+          "end_sec": 129.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sucic",
+      "position": "Sucic ha avuto un grande impatto sulla partita indipendentemente dal gol segnato.",
+      "polarity": "positive",
+      "claim_id": "eb85fb32-0226-41dd-82bb-2e5cc86ae96a",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s3",
+      "target_entity": "Sucic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sucic ha avuto un grande impatto sulla partita indipendentemente dal gol segnato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi è piaciuto molto Sucic, al di là del gol, ha avuto un grande impatto",
+          "start_sec": 91.079,
+          "end_sec": 129.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "La vittoria dell'Inter contro il Como vale l'accesso alla finale di Coppa Italia.",
+      "polarity": "neutral",
+      "claim_id": "1079a8ba-d41c-455d-b54f-2c551740f273",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria dell'Inter contro il Como vale l'accesso alla finale di Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vale l'accesso alla finale di Coppa Italia",
+          "start_sec": 1.079,
+          "end_sec": 34.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "accesso finale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha avuto una rosa corta che ha costretto Kivu a fare cambi obbligati.",
+      "polarity": "negative",
+      "claim_id": "56e202e1-323e-4cc2-8fb4-29c762332514",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avuto una rosa corta che ha costretto Kivu a fare cambi obbligati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché comunque la la rosa era corta",
+          "start_sec": 34.96,
+          "end_sec": 67.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "organico",
+        "performance",
+        "problemi"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kiwomya",
+      "position": "Kiwomya cambia facilmente i giocatori di un certo spessore che non stanno facendo bene.",
+      "polarity": "negative",
+      "claim_id": "929a60c5-b91d-4e31-a387-41375f4cc609",
+      "video_id": "2o0dWtyAdwE",
+      "segment_id": "s2",
+      "target_entity": "Kiwomya",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kiwomya cambia facilmente i giocatori di un certo spessore che non stanno facendo bene.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo caso giocatori di un certo spessore non stanno facendo bene, possono uscire anche loro. Vengono cambiati anche molto presto, così come era stato anche con Lautaro e Barella in altre partite, cioè se non stanno girando bene, anche se sono dei senatori, KiW non si fa grossi problemi.",
+          "start_sec": 65.72,
+          "end_sec": 92.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "cambiamento"
+      ]
+    }
+  ]
+}

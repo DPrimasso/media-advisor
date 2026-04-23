@@ -1,0 +1,396 @@
+{
+  "video_id": "axp5b4m6pJw",
+  "analyzed_at": "2026-04-22T09:53:32.321025+00:00",
+  "metadata": {
+    "title": "MAMMA MIA CHE HANNO COMBINATO‼️ INTER-COMO 3-2",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta la partita Inter-Como terminata 3-2, focalizzandosi sulla resilienza e lo spirito \"pazzo\" tipico dell’Inter, che ha saputo rimontare nonostante un avvio difficile. L’autore esprime grande apprezzamento per il gioco spettacolare e per la capacità della squadra di reagire, sottolineando come la vittoria sia stata decisa da due protagonisti chiave. Viene inoltre riconosciuto il valore tecnico dell’avversario Como, che ha dominato per gran parte del match, rendendo la rimonta nerazzurra ancora più significativa e appagante.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "forza mentale",
+      "relevance": "high"
+    },
+    {
+      "name": "sostituzione",
+      "relevance": "high"
+    },
+    {
+      "name": "volonta",
+      "relevance": "medium"
+    },
+    {
+      "name": "bellezza",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "carattere",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Il risultato tra Inter e Sampdoria è stato 3-2.",
+      "polarity": "neutral",
+      "claim_id": "c8043fb7-45be-485a-a2fd-78f74200c9b2",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il risultato tra Inter e Sampdoria è stato 3-2.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Maybe it's because I was born with the Inter-Samp 3-2",
+          "start_sec": 99.77,
+          "end_sec": 153.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como dominated most of the game even after Inter reopened the score at 2-1.",
+      "polarity": "positive",
+      "claim_id": "c1aa9497-5de2-4b44-9e48-25af977bb336",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s4",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como dominated most of the game even after Inter reopened the score at 2-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the expression of Como, who for most of the game, even on 2-1, when Inter somehow reopened it",
+          "start_sec": 198.31,
+          "end_sec": 243.57,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como had the match point ball with Diao ready to go after 2-1.",
+      "polarity": "positive",
+      "claim_id": "d7215202-ff97-44ca-ae1a-e09498b3b2cf",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s4",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como had the match point ball with Diao ready to go after 2-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "they had the ball of the match point with Diao again, ready to go",
+          "start_sec": 198.31,
+          "end_sec": 243.57,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "momentum"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter is known for its 'crazy' and resilient style of play reflecting the team's DNA.",
+      "polarity": "positive",
+      "claim_id": "4e4fc89e-848d-495e-b9bb-62704e10e79b",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter is known for its 'crazy' and resilient style of play reflecting the team's DNA.",
+      "evidence_quotes": [
+        {
+          "quote_text": "going a little to retrace what is our DNA, the crazy Inter",
+          "start_sec": 0.58,
+          "end_sec": 50.769999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "carattere"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "The team showed resilience by making a comeback and rebounding during the match.",
+      "polarity": "positive",
+      "claim_id": "be08cd32-6d33-4702-b767-9ce838d3cd88",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The team showed resilience by making a comeback and rebounding during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "when you see a team that does the switch, that takes it back, that rebounds it",
+          "start_sec": 0.58,
+          "end_sec": 50.769999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "resilienza",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "due giocatori non specificati",
+      "position": "Ci sono stati due vincitori della partita che hanno deciso la storia in modo diverso.",
+      "polarity": "positive",
+      "claim_id": "b1fc6897-dc55-4078-9b19-76a375540b25",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s1",
+      "target_entity": "due giocatori non specificati",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono stati due vincitori della partita che hanno deciso la storia in modo diverso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Then there are two match winners, not one, two match winners out of all of them, who today said, no, history must go differently, it must go differently.",
+          "start_sec": 50.77,
+          "end_sec": 99.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "vincitore",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter-Samp",
+      "position": "La partita di calcio tra Inter e Sampdoria è un evento di gioco significativo.",
+      "polarity": "neutral",
+      "claim_id": "d77b20ee-b187-4937-9567-1272d3aabea9",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s2",
+      "target_entity": "Inter-Samp",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita di calcio tra Inter e Sampdoria è un evento di gioco significativo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sometimes it's also a game, it's football, it's football",
+          "start_sec": 99.77,
+          "end_sec": 153.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter-Samp",
+      "position": "Il video cerca di aumentare la visibilità tramite un micro-algoritmo e interazioni degli spettatori.",
+      "polarity": "neutral",
+      "claim_id": "c6d63cb9-8dba-449a-a898-d402f29ab9b7",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s2",
+      "target_entity": "Inter-Samp",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il video cerca di aumentare la visibilità tramite un micro-algoritmo e interazioni degli spettatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "if you want, I invite you to click to satisfy the micro-algorithm and give more and more push",
+          "start_sec": 99.77,
+          "end_sec": 153.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como has technical quality on the pitch for the match against Inter.",
+      "polarity": "neutral",
+      "claim_id": "a55ee9c6-a6e5-4370-ad8c-110c7bce5148",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Como has technical quality on the pitch for the match against Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the technical quality that Coma has put on the pitch",
+          "start_sec": 153.77,
+          "end_sec": 198.07,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "qualità tecnica",
+        "prestazione",
+        " Como"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter's comeback win should not diminish the recognition of Como's performance.",
+      "polarity": "positive",
+      "claim_id": "c8f321eb-1139-4306-a721-e2a2c991428c",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Inter's comeback win should not diminish the recognition of Como's performance.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the fogging up of the result, of the comeback, of the victory must not minimally affect and diminish what has been",
+          "start_sec": 153.77,
+          "end_sec": 198.07,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "comeback",
+        " Inter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Mancini",
+      "position": "Mancini ha rivolto uno sguardo al pubblico durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "5e5d770d-53d2-4f3a-87cb-7a5e6da2619d",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s2",
+      "target_entity": "Mancini",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mancini ha rivolto uno sguardo al pubblico durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "with Mancini who turned to the audience",
+          "start_sec": 99.77,
+          "end_sec": 153.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Il gioco di Inter è stato definito bello dall'opinionista.",
+      "polarity": "positive",
+      "claim_id": "8cc1d46d-e6ee-4537-9de8-aed762c316ce",
+      "video_id": "axp5b4m6pJw",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il gioco di Inter è stato definito bello dall'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Beautiful, beautiful, beautiful the game, beautiful, beautiful.",
+          "start_sec": 50.77,
+          "end_sec": 99.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gioco",
+        "performance",
+        "bellezza"
+      ]
+    }
+  ]
+}

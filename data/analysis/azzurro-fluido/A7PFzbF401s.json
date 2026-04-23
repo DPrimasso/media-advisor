@@ -1,0 +1,406 @@
+{
+  "video_id": "A7PFzbF401s",
+  "analyzed_at": "2026-04-22T09:52:33.812529+00:00",
+  "metadata": {
+    "title": "Inter Como 3-2 , dallo 0-2 ! Sono giovani..",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita Inter-Como, sottolineando come la giovane squadra del Como abbia affrontato con calma uno svantaggio iniziale, nonostante sia stata dominata numericamente dall’Inter. L’autore evidenzia il cambio tattico di Fabregas, che per la seconda volta ha schierato una difesa a tre (3-5-2 o 3-4-2-1), con particolari movimenti di Tacugna e Nico Pazz. Viene inoltre commentata la prestazione del portiere Martinez, protagonista con parate decisive, e alcune difficoltà iniziali di Van Brem. La riflessione principale riguarda la capacità dei giovani del Como di reagire in partita, ",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "abbigliamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "occasione",
+      "relevance": "low"
+    },
+    {
+      "name": "errore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Fabregas",
+      "position": "Il modulo usato da Fabregas è un 3-5-2 o un 3-4-2-1 quasi puro.",
+      "polarity": "neutral",
+      "claim_id": "64e53c0b-0777-4543-be6e-d090579b8f69",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s1",
+      "target_entity": "Fabregas",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il modulo usato da Fabregas è un 3-5-2 o un 3-4-2-1 quasi puro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un 352, un 3421 quasi puro",
+          "start_sec": 38.44,
+          "end_sec": 81.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "modulo",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fabregas",
+      "position": "Fabregas ha cambiato modulo schierandosi con una difesa a tre per la seconda volta.",
+      "polarity": "neutral",
+      "claim_id": "b5de2116-27b8-4ace-8afd-0e59e8500b91",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s1",
+      "target_entity": "Fabregas",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas ha cambiato modulo schierandosi con una difesa a tre per la seconda volta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per la seconda volta Fabre si mette a tre",
+          "start_sec": 38.44,
+          "end_sec": 81.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "modulo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter Como",
+      "position": "Inter Como ha una squadra giovane che affronta situazioni di svantaggio con calma.",
+      "polarity": "neutral",
+      "claim_id": "cece241d-79cb-4e78-a5b6-ff935b70f28c",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s0",
+      "target_entity": "Inter Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter Como ha una squadra giovane che affronta situazioni di svantaggio con calma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sono giovani, sono giovani ancora e di fronte a a una squadra che con più calma, anche quando va in svantaggio, si mette là alla fine.",
+          "start_sec": 1.319,
+          "end_sec": 41.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giovane",
+        "calma",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como è stato dominato a livello numerico di statistiche in questa partita.",
+      "polarity": "negative",
+      "claim_id": "a9079d8e-5689-4fe7-8578-ea4241eb9bb5",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como è stato dominato a livello numerico di statistiche in questa partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como a livello proprio numerico di statistiche è stato dominato",
+          "start_sec": 38.44,
+          "end_sec": 81.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "statistica",
+        "performance"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Tacugna",
+      "position": "Tacugna alternava la posizione con Nico Pazz durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "5074c09e-8b10-475c-909a-f748fc1925ec",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s1",
+      "target_entity": "Tacugna",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tacugna alternava la posizione con Nico Pazz durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la posizione di Tacugna che si alternava con Nico Pazz",
+          "start_sec": 38.44,
+          "end_sec": 81.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "posizione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Fabrica",
+      "position": "Fabrica indossava pantaloni bianchi non conformi al regolamento.",
+      "polarity": "negative",
+      "claim_id": "af42a0fc-ae55-47cc-8e8e-7bbb40f2eb9d",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s2",
+      "target_entity": "Fabrica",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrica indossava pantaloni bianchi non conformi al regolamento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabrica aveva dei pantaloni bianchi che io so che non si può fare",
+          "start_sec": 79.52,
+          "end_sec": 110.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "abbigliamento",
+        "regolamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha avuto occasioni importanti durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "c8c6abff-9ad1-450a-a824-762c450c54d6",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha avuto occasioni importanti durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma arrivano le prime occasioni importanti per il Como",
+          "start_sec": 107.0,
+          "end_sec": 144.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "occasione",
+        "performance",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Josepinez Martinez",
+      "position": "Josepinez Martinez è stato protagonista assoluto con grandi parate e molta tranquillità.",
+      "polarity": "positive",
+      "claim_id": "309d9b67-279e-46b8-99e0-39b5bb342086",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s3",
+      "target_entity": "Josepinez Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Josepinez Martinez è stato protagonista assoluto con grandi parate e molta tranquillità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Martinez è protagonista assoluto il portiere dell'Inter...Josepinez ha fatto una partita importante di grandi parate e di anche grande tranquillità",
+          "start_sec": 107.0,
+          "end_sec": 144.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "portiere",
+        "parata"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Kivu",
+      "position": "Kivu ha indossato un giubino blu come la squadra.",
+      "polarity": "neutral",
+      "claim_id": "a10614ed-230c-4888-acc1-626c852f5e6d",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s2",
+      "target_entity": "Kivu",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kivu ha indossato un giubino blu come la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il giubino di Kivu che blu come la squadra",
+          "start_sec": 79.52,
+          "end_sec": 110.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "abbigliamento",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bonuori",
+      "position": "Bonuori ha effettuato un tiro centrale, definito \"tirò di pazza\".",
+      "polarity": "neutral",
+      "claim_id": "c0fd83c3-348a-47c7-a962-de380d1270a6",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s2",
+      "target_entity": "Bonuori",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bonuori ha effettuato un tiro centrale, definito \"tirò di pazza\".",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tiro di pazza centrale, Bonuori con uno",
+          "start_sec": 79.52,
+          "end_sec": 110.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tiro",
+        "azione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Zielinski",
+      "position": "Zielinski ha messo in difficoltà con il suo dribbling.",
+      "polarity": "positive",
+      "claim_id": "9ee3b3c0-e174-465c-b7f7-da7c8106d238",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s3",
+      "target_entity": "Zielinski",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zielinski ha messo in difficoltà con il suo dribbling.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Zielinski che fa il panico a livello di dribbling",
+          "start_sec": 107.0,
+          "end_sec": 144.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dribbling",
+        "performance",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Baturino",
+      "position": "Baturino ha avuto un'occasione neutralizzata dal portiere avversario.",
+      "polarity": "neutral",
+      "claim_id": "4246ba44-4be6-43b8-be0a-c537d893183e",
+      "video_id": "A7PFzbF401s",
+      "segment_id": "s3",
+      "target_entity": "Baturino",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Baturino ha avuto un'occasione neutralizzata dal portiere avversario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Occasione per Baturino parata",
+          "start_sec": 107.0,
+          "end_sec": 144.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "occasione",
+        "performance"
+      ]
+    }
+  ]
+}

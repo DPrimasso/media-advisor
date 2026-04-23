@@ -372,7 +372,8 @@ async def extract_mercato_tips(
     parsed = await _run_extraction(api_key, model, user_content, system_prompt=system_prompt)
 
     now = datetime.now(timezone.utc)
-    mentioned_at = ctx.get("mentioned_at") or now
+    # Fallback to start-of-day UTC so mentioned_at != extracted_at when publication date is unknown
+    mentioned_at = ctx.get("mentioned_at") or now.replace(hour=0, minute=0, second=0, microsecond=0)
 
     tips: list[MercatoTip] = []
     for raw in parsed.tips:

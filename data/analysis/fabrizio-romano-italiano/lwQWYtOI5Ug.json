@@ -1,0 +1,402 @@
+{
+  "video_id": "lwQWYtOI5Ug",
+  "analyzed_at": "2026-04-23T07:59:28.372126+00:00",
+  "metadata": {
+    "title": "🚨 JUVE: TUTTI I DETTAGLI DEL COLPO TOP! STONES A ZERO, CALHANOGLU CAMBIA TUTTO, CESC E IL FUTURO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle strategie di mercato della Juventus per la prossima estate, con particolare attenzione all'acquisto di un portiere di alto livello. L'autore evidenzia che la Juve sta lavorando con decisione per ingaggiare Alisson dal Liverpool, offrendo un contratto pluriennale più lungo rispetto all'attuale opzione automatica del giocatore fino al 2027. Alisson, tentato dall'idea di rimanere in Europa e fare un salto di qualità, rappresenterebbe una risposta alle carenze recenti della squadra nel ruolo di portiere. Tuttavia, la trattativa presenta ancora incerte",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "difensore",
+      "relevance": "low"
+    },
+    {
+      "name": "visionedi gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Alison",
+      "position": "Alison has signed an automatic contract extension with Liverpool until 2027.",
+      "polarity": "neutral",
+      "claim_id": "233127b2-a084-49e3-b884-186dfbbe78dc",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s3",
+      "target_entity": "Alison",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alison has signed an automatic contract extension with Liverpool until 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Liverpool ha attivato l'opzione automatica fino al 2027",
+          "start_sec": 91.28,
+          "end_sec": 117.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juventus would offer Alison a longer contract potentially for 2 or 3 years.",
+      "polarity": "neutral",
+      "claim_id": "28f54967-e7c6-4991-8f1a-68cf1bff0885",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus would offer Alison a longer contract potentially for 2 or 3 years.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus invece offrirebbe ad Alison un contratto più lungo che può essere di 2 o 3 anni",
+          "start_sec": 91.28,
+          "end_sec": 117.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alison",
+      "position": "The exact length of Alison's offered contract by Juventus is unclear, possibly 2+1, 2 years or 3 years.",
+      "polarity": "neutral",
+      "claim_id": "84109ffd-544e-42f6-b98b-9fdf053ea53a",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s3",
+      "target_entity": "Alison",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "The exact length of Alison's offered contract by Juventus is unclear, possibly 2+1, 2 years or 3 years.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da capire se 2 + 1, 2 anni, 3 anni",
+          "start_sec": 91.28,
+          "end_sec": 117.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus lavorerà sul mercato questa estate con nuovi dettagli da scoprire nei prossimi giorni.",
+      "polarity": "neutral",
+      "claim_id": "f9049872-41bb-4ead-86cc-c3bbc0875149",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus lavorerà sul mercato questa estate con nuovi dettagli da scoprire nei prossimi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vi ripeto, nei prossimi giorni vi spiegherò di più di come lavoreremo sul mercato quest'estate",
+          "start_sec": 35.12,
+          "end_sec": 63.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Juventus",
+        "estate"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Alisson",
+      "position": "La Juventus sta lavorando con discreta forza all'operazione per portare Alisson come portiere.",
+      "polarity": "positive",
+      "claim_id": "44e89400-e9df-4ac9-905e-c79702585ab5",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s2",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta lavorando con discreta forza all'operazione per portare Alisson come portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un discorso Alison Juventus, un discorso che è in piedi, assolutamente in piedi, tra il portiere brasiliano, la Juventus, gli agenti del ragazzo, insomma si sta lavorando all'operazione Alison e si sta lavorando con discreta forza lato giocatore perche",
+          "start_sec": 61.76,
+          "end_sec": 92.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "portiere",
+        "operazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Alisson",
+      "position": "Alisson è tentato dalla possibilità di trasferirsi alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "1295db3a-6638-4a54-99c0-ebbb502ac134",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s4",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Alisson è tentato dalla possibilità di trasferirsi alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alisson anche come tipologia di prossimo step della sua carriera non vede tanto un paese come possa essere magari l'Arabia dove andare a prendere tanti soldi, ma preferirebbe restare nel calcio europeo e allora è tentato dalla possibilità Juventus.",
+          "start_sec": 115.079,
+          "end_sec": 142.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato",
+        "portiere",
+        "Juventus"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus vuole prendere un portiere di esperienza internazionale.",
+      "polarity": "positive",
+      "claim_id": "d1012b8c-87a4-48e3-9c69-8d124a11ceb2",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus vuole prendere un portiere di esperienza internazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dall'altra parte c'è la volontà della Juve di prendere un portiere molto importante, di prendere un portiere eh di esperienza internazionale",
+          "start_sec": 115.079,
+          "end_sec": 142.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Juventus",
+        "mercato",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha avuto mancanze nel ruolo di portiere negli ultimi mesi.",
+      "polarity": "neutral",
+      "claim_id": "73ee6290-2c3e-48f8-8a20-9da462cbd0be",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha avuto mancanze nel ruolo di portiere negli ultimi mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un ruolo che è stato fondamentale a livello anche di mancanze durante gli ultimi mesi per la Juventus",
+          "start_sec": 140.959,
+          "end_sec": 167.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ruolo",
+        "portiere",
+        "mancanze"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus sta lavorando a un'operazione di mercato collegata al ruolo di portiere.",
+      "polarity": "neutral",
+      "claim_id": "6409b31d-e674-490c-88ca-b09486ec90e4",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus sta lavorando a un'operazione di mercato collegata al ruolo di portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi la Juve ci sta lavorando forte, è un'operazione che ha un grosso punto interrogativo",
+          "start_sec": 140.959,
+          "end_sec": 167.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "operazione",
+        "mercato",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Liverpool",
+      "position": "Il Liverpool perderà due leader molto importanti, Mohamed Salah e Andy Robertson.",
+      "polarity": "neutral",
+      "claim_id": "15410feb-342a-4bfa-b1d6-7091189cae65",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s5",
+      "target_entity": "Liverpool",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Liverpool perderà due leader molto importanti, Mohamed Salah e Andy Robertson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Liverpool perché perderà Mohamed Salah, perderà Andy Robertson. sono dei leader molto importanti",
+          "start_sec": 140.959,
+          "end_sec": 167.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "partenze",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Liverpool",
+      "position": "Il Liverpool ha attivato l'opzione per un altro anno su un giocatore.",
+      "polarity": "neutral",
+      "claim_id": "8ababb39-44c5-4680-9883-a7abd0dfc3a6",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s5",
+      "target_entity": "Liverpool",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Liverpool ha attivato l'opzione per un altro anno su un giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Liverpool. Il Liverpool perché ha attivato l'opzione per un altro anno",
+          "start_sec": 140.959,
+          "end_sec": 167.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "opzione",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Alisson",
+      "position": "Alisson è considerato un leader importante nello spogliatoio del Liverpool.",
+      "polarity": "positive",
+      "claim_id": "1ce43356-3d7a-4fec-950f-613f0c0f6612",
+      "video_id": "lwQWYtOI5Ug",
+      "segment_id": "s6",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson è considerato un leader importante nello spogliatoio del Liverpool.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa squadra che a Liverpool con Jürgen Clop ha fatto veramente la storia del club e quindi perdere anche Alisson nella stessa estate proprio a livello di pezzi grossi, di leadership, di spogliatoio potrebbe essere importante",
+          "start_sec": 166.28,
+          "end_sec": 192.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leader",
+        "spogliatoio",
+        "Liverpool"
+      ]
+    }
+  ]
+}

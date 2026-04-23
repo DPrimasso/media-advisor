@@ -1,0 +1,396 @@
+{
+  "video_id": "2ZyrjHYtONo",
+  "analyzed_at": "2026-04-23T08:02:22.506620+00:00",
+  "metadata": {
+    "title": "#Lukaku torna in Belgio e si rompe 👀 #PINAMONTI al posto suo? 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video di Azzurro Fluido si concentra principalmente sulla situazione di Romelu Lukaku, tornato in Belgio e subito infortunatosi alla caviglia, un evento che complica ulteriormente la gestione della rosa del Napoli. L'autore sottolinea i dubbi sul futuro di vari calciatori in prestito o infortunati, evidenziando come Conte stia escludendo alcuni giocatori ritenuti non utili, mentre si ipotizza che Pinamonti possa prendere il posto di Lukaku in squadra. Inoltre, si riflette sul modulo attuale, che teoricamente dovrebbe valorizzare giocatori come Lindstrom, ma con risultati ancora incerti, las",
+  "topics": [
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "serie a",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "inchiesta",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "riabilitazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Lindstrom",
+      "position": "Lindstrom si sarebbe dovuto trovare meglio col modulo attuale con cui si gioca.",
+      "polarity": "neutral",
+      "claim_id": "0fee963e-6e30-46ec-afda-2d5f425fdb9c",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s2",
+      "target_entity": "Lindstrom",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lindstrom si sarebbe dovuto trovare meglio col modulo attuale con cui si gioca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sta parlando di nuovo di Lindstrom. È paradossale. Adesso noi stiamo giocando con quel modulo che con cui Linstrom si sarebbe dovuto trovare meglio, insomma, tra le linee eccetera eccetera.",
+          "start_sec": 108.6,
+          "end_sec": 143.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "modulo",
+        "gioco",
+        "linee"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Romelu Lukaku",
+      "position": "Lukaku è tornato in Belgio e si è rotto la caviglia.",
+      "polarity": "negative",
+      "claim_id": "2a436399-7597-45d9-9284-320bf4b550e8",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s0",
+      "target_entity": "Romelu Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è tornato in Belgio e si è rotto la caviglia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku è tornato in Belgio e si è fatto male a caviglia",
+          "start_sec": 2.28,
+          "end_sec": 47.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Romelu Lukaku",
+      "position": "Ci sono dubbi sul riscatto o il ritorno di alcuni calciatori, tra cui Lukaku.",
+      "polarity": "neutral",
+      "claim_id": "af8fef88-bfc6-4d26-b61d-ed4527d62d77",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s0",
+      "target_entity": "Romelu Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono dubbi sul riscatto o il ritorno di alcuni calciatori, tra cui Lukaku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quelli che infortunati, quelli che ritornano e dobbiamo capire se se li riscattano o ritornano da noi",
+          "start_sec": 2.28,
+          "end_sec": 47.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Romelu Lukaku",
+      "position": "Lukaku è tornato a Napoli per un incontro con la società.",
+      "polarity": "neutral",
+      "claim_id": "fe4b5c4b-9757-461e-9fbc-b6083ef6a873",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s3",
+      "target_entity": "Romelu Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è tornato a Napoli per un incontro con la società.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku era tornato a Napoli, ha avuto un incontro con Manna, con De Laurentis, con la società",
+          "start_sec": 141.16,
+          "end_sec": 173.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "incontro",
+        "calciatore"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku ha interrotto la seduta di riabilitazione a causa di un problema alla caviglia.",
+      "polarity": "neutral",
+      "claim_id": "35edf097-a3d2-459c-9265-0e845546fcff",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha interrotto la seduta di riabilitazione a causa di un problema alla caviglia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato costretto a interrompere la seduta dopo meno di un'ora a causa di un problema alla caviga",
+          "start_sec": 172.04,
+          "end_sec": 232.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "riabilitazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Lukaku potrebbe aver avuto un confronto sul comportamento con la squadra quando è tornato in Belgio.",
+      "polarity": "neutral",
+      "claim_id": "1f605e23-e504-404d-bfdf-dd3d0a120a4a",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lukaku potrebbe aver avuto un confronto sul comportamento con la squadra quando è tornato in Belgio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci potrebbe essere stata, diciamo, una discussione dove tu dici \"Non dovevi fare così, questa è la multina, una maxi multina che ti diamo\"",
+          "start_sec": 172.04,
+          "end_sec": 232.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "discussione",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku sta effettuando la riabilitazione in Belgio presso il centro sportivo di Anversa.",
+      "polarity": "neutral",
+      "claim_id": "647eb274-d3df-4916-9b33-4aafd362d121",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku sta effettuando la riabilitazione in Belgio presso il centro sportivo di Anversa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sta svolgendo la riabilitazione al centro sportivo, no? A versa",
+          "start_sec": 172.04,
+          "end_sec": 232.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "riabilitazione",
+        "centro sportivo"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku è sceso dall'aereo per un allenamento preoccupato e sarà sottoposto a esami per valutare le sue condizioni.",
+      "polarity": "neutral",
+      "claim_id": "e8af3acd-7604-4b21-9f2d-42f4e4fd3e8a",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s5",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Lukaku è sceso dall'aereo per un allenamento preoccupato e sarà sottoposto a esami per valutare le sue condizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'hanno fatta scendere. No. allenamento visibilmente preoccupato e le sue condizioni saranno valutate nelle prossime ore con esami più approfonditi",
+          "start_sec": 232.4,
+          "end_sec": 277.03900000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku è infortunato e non è stato molto considerato affidabile in questa stagione.",
+      "polarity": "neutral",
+      "claim_id": "b04f22ff-06ac-4013-b56c-f5240f1c0cf6",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s6",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è infortunato e non è stato molto considerato affidabile in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sempre Lukaku a prescindere, infortunato, non ci ho fatto grande affidamento",
+          "start_sec": 275.28,
+          "end_sec": 308.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte esclude alcuni giocatori che non ritiene utili.",
+      "polarity": "neutral",
+      "claim_id": "0ee9fa8e-fc83-4f45-9d6f-3cd57674940a",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte esclude alcuni giocatori che non ritiene utili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se è Conte alcuni li escludi",
+          "start_sec": 44.879,
+          "end_sec": 110.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "esclusione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra",
+      "position": "Alcuni giocatori erano infortunati all'ultimo controllo.",
+      "polarity": "neutral",
+      "claim_id": "f22ab0f4-031b-4f59-b9d6-781c9c82af1d",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s1",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Alcuni giocatori erano infortunati all'ultimo controllo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io qua in rosso avevo messo quelli là un po' infortunati all'epoca",
+          "start_sec": 44.879,
+          "end_sec": 110.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Andrea Pinamonti",
+      "position": "Pinamonti potrebbe sostituire Lukaku in squadra.",
+      "polarity": "neutral",
+      "claim_id": "b30f4593-8771-4529-83bd-0acfd7945705",
+      "video_id": "2ZyrjHYtONo",
+      "segment_id": "s0",
+      "target_entity": "Andrea Pinamonti",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Pinamonti potrebbe sostituire Lukaku in squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "#PINAMONTI al posto suo?",
+          "start_sec": 2.28,
+          "end_sec": 47.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}
