@@ -16,6 +16,9 @@ class Settings(BaseSettings):
     # API keys
     transcript_api_key: str = Field(default="", alias="TRANSCRIPT_API_KEY")
     openai_api_key: str = Field(default="", alias="OPENAI_API_KEY")
+    telegram_bot_token: str = Field(default="", alias="TELEGRAM_BOT_TOKEN")
+    telegram_chat_id: str = Field(default="", alias="TELEGRAM_CHAT_ID")
+    telegram_thread_id: int | None = Field(default=None, alias="TELEGRAM_THREAD_ID")
 
     # Paths (relative to project root by default)
     root_dir: Path = Field(default=Path("."), alias="MEDIA_ADVISOR_ROOT")
