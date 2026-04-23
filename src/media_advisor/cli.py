@@ -1579,7 +1579,7 @@ def cmd_daily_report(
     Usa --no-update per saltare i passi 1 e 2 (es. per rigenerare il report su dati già presenti).
     """
     from datetime import date as date_type
-    from media_advisor.digest import generate_mercato_digest, write_mercato_report
+    from media_advisor.digest import DigestGenerationError, generate_mercato_digest, write_mercato_report
 
     s = _get_settings()
     if not s.openai_api_key:
@@ -1666,7 +1666,11 @@ def cmd_daily_report(
 
     # Step 3: genera digest
     typer.echo("[daily-report] 3/3  Generazione sommario...")
-    digest_text = asyncio.run(generate_mercato_digest(root, target_date, s.openai_api_key))
+    try:
+        digest_text = asyncio.run(generate_mercato_digest(root, target_date, s.openai_api_key))
+    except DigestGenerationError as exc:
+        typer.echo(f"Errore: digest non valido/non pubblicabile ({exc})", err=True)
+        raise typer.Exit(1)
 
     if not digest_text:
         typer.echo(f"Nessuna indiscrezione trovata per il {target_date.isoformat()}.")

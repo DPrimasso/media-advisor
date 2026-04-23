@@ -4,6 +4,7 @@ from datetime import date, datetime
 import heapq
 from json import JSONDecodeError
 from pathlib import Path
+import re
 
 import openai
 from pydantic import ValidationError
@@ -27,6 +28,21 @@ MONTHS_IT = [
     "", "Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno",
     "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre",
 ]
+_DIGEST_REQUIRED_HEADERS = (
+    "✅ Situazioni calde / scenari aperti",
+    "🕐 Situazioni da monitorare",
+    "🚫 Voci ridimensionate / smentite",
+)
+_SECTION_EXPECTED_STATE = {
+    "✅ Situazioni calde / scenari aperti": "caldo",
+    "🕐 Situazioni da monitorare": "monitorare",
+    "🚫 Voci ridimensionate / smentite": "smentita",
+}
+_DIGEST_ITEM_RE = re.compile(
+    r"^(?P<player>.+?) \((?P<club>[^)]+)\) - Movimento: (?P<movimento>[^;]+); "
+    r"Stato: (?P<stato>caldo|monitorare|smentita); "
+    r"Motivo: (?P<motivo>[^;]+); Fonte: (?P<fonte>.+)$"
+)
 
 _SYSTEM_PROMPT = (
     "Sei il redattore di una rassegna calciomercato italiana. "
@@ -48,6 +64,10 @@ _SYSTEM_PROMPT = (
     "9. Il campo Fonte e sempre obbligatorio e deve usare solo il prefisso 'Fonte:'.\n"
     "10. Mantieni output completo: nessuna sezione mancante, nessuna riga tronca."
 )
+
+
+class DigestGenerationError(RuntimeError):
+    """Raised when the LLM output is not publishable after retries."""
 
 
 def _truncate_tip_text(text: str, max_chars: int = DIGEST_MAX_TIP_TEXT_CHARS) -> str:
@@ -98,23 +118,67 @@ def _load_channel_name_map(root: Path) -> dict[str, str]:
         return {}
 
 
-def _is_valid_digest_output(text: str) -> bool:
-    required_headers = (
-        "✅ Situazioni calde / scenari aperti",
-        "🕐 Situazioni da monitorare",
-        "🚫 Voci ridimensionate / smentite",
-    )
+def _validate_digest_output(text: str) -> list[str]:
+    errors: list[str] = []
     stripped = text.strip()
     if not stripped:
-        return False
-    if any(header not in stripped for header in required_headers):
-        return False
+        return ["Digest vuoto."]
 
     lines = [line.strip() for line in stripped.splitlines() if line.strip()]
-    news_lines = [line for line in lines if line not in required_headers]
-    if not news_lines:
-        return False
-    return all("Fonte: " in line and line.split("Fonte: ", 1)[1].strip() for line in news_lines)
+    header_positions = {header: [] for header in _DIGEST_REQUIRED_HEADERS}
+    for idx, line in enumerate(lines):
+        if line in header_positions:
+            header_positions[line].append(idx)
+
+    for header in _DIGEST_REQUIRED_HEADERS:
+        pos = header_positions[header]
+        if not pos:
+            errors.append(f"Header mancante: '{header}'.")
+        elif len(pos) > 1:
+            errors.append(f"Header duplicato: '{header}'.")
+
+    if all(header_positions[h] for h in _DIGEST_REQUIRED_HEADERS):
+        ordered_positions = [header_positions[h][0] for h in _DIGEST_REQUIRED_HEADERS]
+        if ordered_positions != sorted(ordered_positions):
+            errors.append("Ordine sezioni non valido.")
+
+    current_header: str | None = None
+    section_item_count = {header: 0 for header in _DIGEST_REQUIRED_HEADERS}
+    for line in lines:
+        if line in _DIGEST_REQUIRED_HEADERS:
+            current_header = line
+            continue
+
+        if current_header is None:
+            errors.append(f"Testo fuori sezione: '{line}'.")
+            continue
+
+        match = _DIGEST_ITEM_RE.match(line)
+        if not match:
+            errors.append(f"Formato riga non valido: '{line}'.")
+            continue
+
+        section_item_count[current_header] += 1
+        expected_state = _SECTION_EXPECTED_STATE[current_header]
+        actual_state = match.group("stato")
+        if actual_state != expected_state:
+            errors.append(
+                f"Stato '{actual_state}' non coerente con sezione '{current_header}' "
+                f"(atteso '{expected_state}')."
+            )
+
+        if not match.group("fonte").strip():
+            errors.append(f"Fonte vuota nella riga: '{line}'.")
+
+    for header, count in section_item_count.items():
+        if count == 0:
+            errors.append(f"Sezione vuota: '{header}'.")
+
+    return errors
+
+
+def _is_valid_digest_output(text: str) -> bool:
+    return not _validate_digest_output(text)
 
 
 async def _complete_digest_with_token_retry(
@@ -171,20 +235,31 @@ async def generate_mercato_digest(
         {"role": "user", "content": f"Indiscrezioni del {_format_date_it(target_date)}:\n\n" + "\n".join(lines)},
     ]
     digest_text = await _complete_digest_with_token_retry(client, messages)
-    if digest_text and _is_valid_digest_output(digest_text):
+    if not digest_text:
+        raise DigestGenerationError("Output digest vuoto ricevuto dal modello.")
+
+    first_errors = _validate_digest_output(digest_text)
+    if not first_errors:
         return digest_text
-    if digest_text:
-        retry_messages = messages + [
-            {"role": "assistant", "content": digest_text},
-            {
-                "role": "user",
-                "content": (
-                    "Rigenera il sommario completo senza troncare righe finali. "
-                    "Mantieni esattamente le 3 sezioni richieste e la fonte su ogni voce."
-                ),
-            },
-        ]
-        retry_text = await _complete_digest_with_token_retry(client, retry_messages)
-        if retry_text and _is_valid_digest_output(retry_text):
-            return retry_text
-    return digest_text
+
+    retry_messages = messages + [
+        {"role": "assistant", "content": digest_text},
+        {
+            "role": "user",
+            "content": (
+                "Rigenera il digest da zero in modo completo e pubblicabile. "
+                "Correggi tutti i seguenti errori di validazione:\n"
+                + "\n".join(f"- {err}" for err in first_errors)
+                + "\n\nRispetta rigorosamente formato, ordine sezioni e sintassi riga."
+            ),
+        },
+    ]
+    retry_text = await _complete_digest_with_token_retry(client, retry_messages)
+    retry_errors = _validate_digest_output(retry_text or "")
+    if retry_text and not retry_errors:
+        return retry_text
+
+    raise DigestGenerationError(
+        "Digest non pubblicabile dopo retry. Errori residui: "
+        + "; ".join(retry_errors[:6])
+    )

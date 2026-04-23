@@ -496,7 +496,7 @@ async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
 @app.get("/api/feed/digest")
 async def get_feed_digest(date: str | None = None) -> Any:
     from datetime import date as date_type
-    from media_advisor.digest import generate_mercato_digest
+    from media_advisor.digest import DigestGenerationError, generate_mercato_digest
 
     s = Settings()
     if not s.openai_api_key:
@@ -507,7 +507,10 @@ async def get_feed_digest(date: str | None = None) -> Any:
     except ValueError:
         raise HTTPException(status_code=400, detail="Formato data non valido, usa YYYY-MM-DD")
 
-    digest_text = await generate_mercato_digest(_root, target_date, s.openai_api_key)
+    try:
+        digest_text = await generate_mercato_digest(_root, target_date, s.openai_api_key)
+    except DigestGenerationError as exc:
+        raise HTTPException(status_code=502, detail=f"Digest non pubblicabile: {exc}")
     if not digest_text:
         return {"digest": None, "message": "Nessun contenuto per questa data"}
     return {"digest": digest_text, "date": target_date.isoformat()}
