@@ -496,7 +496,11 @@ async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
 @app.get("/api/feed/digest")
 async def get_feed_digest(date: str | None = None) -> Any:
     from datetime import date as date_type
-    from media_advisor.digest import DigestGenerationError, generate_mercato_digest
+    from media_advisor.digest import (
+        DigestGenerationError,
+        format_mercato_report_markdown,
+        generate_mercato_digest,
+    )
 
     s = Settings()
     if not s.openai_api_key:
@@ -513,7 +517,12 @@ async def get_feed_digest(date: str | None = None) -> Any:
         raise HTTPException(status_code=502, detail=f"Digest non pubblicabile: {exc}")
     if not digest_text:
         return {"digest": None, "message": "Nessun contenuto per questa data"}
-    return {"digest": digest_text, "date": target_date.isoformat()}
+    digest_formatted = format_mercato_report_markdown(target_date, digest_text)
+    return {
+        "digest": digest_formatted,
+        "digest_raw": digest_text,
+        "date": target_date.isoformat(),
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -951,9 +960,15 @@ async def _run_daily_report() -> None:
         _sync_log("Step 5/6: Generazione sommario mercato...")
         digest_text = await generate_mercato_digest(root, today, s.openai_api_key)
         if digest_text:
-            report_file, _ = write_mercato_report(root, today, digest_text, generated_at=datetime.now())
+            report_file, report_content = write_mercato_report(
+                root,
+                today,
+                digest_text,
+                generated_at=datetime.now(),
+            )
             _sync_log(f"  Sommario generato ({len(digest_text)} caratteri), salvato in {report_file.name}")
-            result_summary["digest"] = digest_text
+            result_summary["digest"] = report_content
+            result_summary["digest_raw"] = digest_text
         else:
             _sync_log("  Nessun tip con data per oggi — sommario non generato.")
             _sync_log("  Suggerimento: esegui 'mercato-enrich-dates' per popolare le date dei tip.")

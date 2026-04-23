@@ -1,4 +1,8 @@
-from media_advisor.digest import _is_valid_digest_output, _validate_digest_output
+from media_advisor.digest import (
+    _is_valid_digest_output,
+    _normalize_digest_output,
+    _validate_digest_output,
+)
 
 
 VALID_DIGEST = """✅ Situazioni calde / scenari aperti
@@ -87,3 +91,32 @@ Victor Osimhen (Napoli) - Movimento: scambio con top club; Stato: smentita; Moti
     errors = _validate_digest_output(digest)
     assert any("Sezione vuota" in err for err in errors)
     assert _is_valid_digest_output(digest) is False
+
+
+def test_validate_digest_output_rejects_same_story_across_states() -> None:
+    digest = """✅ Situazioni calde / scenari aperti
+Alisson (Liverpool) - Movimento: possibile addio; Stato: caldo; Motivo: pista italiana aperta; Fonte: Fabrizio Romano
+
+🕐 Situazioni da monitorare
+Ederson (Atalanta) - Movimento: sondaggio; Stato: monitorare; Motivo: interesse non confermato; Fonte: Nicolò Schira
+
+🚫 Voci ridimensionate / smentite
+Ederson (Atalanta) - Movimento: sondaggio; Stato: smentita; Motivo: nessun contatto concreto; Fonte: Nicolò Schira
+"""
+    errors = _validate_digest_output(digest)
+    assert any("Notizia duplicata in stati diversi" in err for err in errors)
+
+
+def test_normalize_digest_output_merges_cross_state_duplicates() -> None:
+    digest = """✅ Situazioni calde / scenari aperti
+Alisson (Liverpool) - Movimento: possibile addio; Stato: caldo; Motivo: pista italiana aperta; Fonte: Fabrizio Romano
+
+🕐 Situazioni da monitorare
+Ederson (Atalanta) - Movimento: sondaggio; Stato: monitorare; Motivo: interesse non confermato; Fonte: Nicolò Schira
+
+🚫 Voci ridimensionate / smentite
+Ederson (Atalanta) - Movimento: sondaggio; Stato: smentita; Motivo: nessun contatto concreto; Fonte: Fabrizio Romano Italiano
+"""
+    normalized = _normalize_digest_output(digest)
+    assert "Stato: monitorare; Motivo: interesse non confermato; Fonte: Nicolò Schira" not in normalized
+    assert "Stato: smentita; Motivo: nessun contatto concreto; Fonte: Nicolò Schira, Fabrizio Romano Italiano" in normalized

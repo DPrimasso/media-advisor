@@ -5,6 +5,7 @@ import heapq
 from json import JSONDecodeError
 from pathlib import Path
 import re
+import unicodedata
 
 import openai
 from pydantic import ValidationError
@@ -62,7 +63,9 @@ _SYSTEM_PROMPT = (
     "8. Ogni voce deve rispettare ESATTAMENTE questo formato su singola riga:\n"
     "   'Giocatore (Club) - Movimento: <azione sintetica>; Stato: <caldo|monitorare|smentita>; Motivo: <perche in 3-8 parole>; Fonte: <nome fonte>'.\n"
     "9. Il campo Fonte e sempre obbligatorio e deve usare solo il prefisso 'Fonte:'.\n"
-    "10. Mantieni output completo: nessuna sezione mancante, nessuna riga tronca."
+    "10. Se due o piu input parlano della stessa notizia (stesso giocatore e stesso scenario), scrivi UNA sola riga fusa.\n"
+    "11. Quando fondi notizie simili, nel campo Fonte elenca tutte le fonti separate da virgola.\n"
+    "12. Mantieni output completo: nessuna sezione mancante, nessuna riga tronca."
 )
 
 
@@ -81,6 +84,276 @@ def _format_date_it(value: date) -> str:
     return f"{value.day} {MONTHS_IT[value.month]} {value.year}"
 
 
+def _normalize_token(value: str | None) -> str:
+    if not value:
+        return ""
+    ascii_value = (
+        unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
+    )
+    return re.sub(r"[^a-z0-9]", "", ascii_value.lower())
+
+
+def _names_are_similar(a: str | None, b: str | None) -> bool:
+    sa = _normalize_token(a)
+    sb = _normalize_token(b)
+    if not sa or not sb:
+        return False
+    if sa == sb:
+        return True
+    if min(len(sa), len(sb)) >= 4 and (sa in sb or sb in sa):
+        return True
+    return False
+
+
+def _is_normalized_name_match(sa: str, sb: str) -> bool:
+    if not sa or not sb:
+        return False
+    if sa == sb:
+        return True
+    return min(len(sa), len(sb)) >= 4 and (sa in sb or sb in sa)
+
+
+def _tip_story_signature(tip) -> dict[str, object]:
+    return {
+        "player": _normalize_token(tip.player_name),
+        "to_club": _normalize_token(tip.to_club),
+        "from_club": _normalize_token(tip.from_club),
+        "is_renewal": tip.transfer_type in {"extension", "renewal"},
+    }
+
+
+def _is_same_tip_story(signature_a: dict[str, object], signature_b: dict[str, object]) -> bool:
+    player_a = str(signature_a["player"])
+    player_b = str(signature_b["player"])
+    if not _is_normalized_name_match(player_a, player_b):
+        return False
+
+    if bool(signature_a["is_renewal"]) != bool(signature_b["is_renewal"]):
+        return False
+
+    to_a = str(signature_a["to_club"])
+    to_b = str(signature_b["to_club"])
+    if to_a and to_b:
+        return _is_normalized_name_match(to_a, to_b)
+
+    from_a = str(signature_a["from_club"])
+    from_b = str(signature_b["from_club"])
+    if from_a and from_b:
+        return _is_normalized_name_match(from_a, from_b)
+
+    known_a = [club for club in (to_a, from_a) if club]
+    known_b = [club for club in (to_b, from_b) if club]
+    if not known_a or not known_b:
+        return True
+    return any(_is_normalized_name_match(ca, cb) for ca in known_a for cb in known_b)
+
+
+def _dedupe_tips_with_sources(day_tips: list) -> list[dict]:
+    ranked_tips = sorted(
+        day_tips,
+        key=lambda t: (
+            _CONFIDENCE_ORDER.get(str(t.confidence), 99),
+            -float(t.corroboration_score),
+            t.player_name.lower(),
+        ),
+    )
+    grouped: list[dict] = []
+    for tip in ranked_tips:
+        tip_signature = _tip_story_signature(tip)
+        group = next(
+            (g for g in grouped if _is_same_tip_story(g["lead_signature"], tip_signature)),
+            None,
+        )
+        if group is None:
+            grouped.append(
+                {
+                    "lead": tip,
+                    "lead_signature": tip_signature,
+                    "tips": [tip],
+                    "channel_ids": {tip.channel_id},
+                }
+            )
+            continue
+        group["tips"].append(tip)
+        group["channel_ids"].add(tip.channel_id)
+        lead_rank = _CONFIDENCE_ORDER.get(str(group["lead"].confidence), 99)
+        tip_rank = _CONFIDENCE_ORDER.get(str(tip.confidence), 99)
+        if tip_rank < lead_rank or (
+            tip_rank == lead_rank
+            and float(tip.corroboration_score) > float(group["lead"].corroboration_score)
+        ):
+            group["lead"] = tip
+            group["lead_signature"] = tip_signature
+    return grouped
+
+
+def _format_digest_for_report(digest_text: str) -> str:
+    section_items: dict[str, list[dict[str, str]]] = {header: [] for header in _DIGEST_REQUIRED_HEADERS}
+    fallback_lines: list[str] = []
+    current_header: str | None = None
+
+    for raw_line in digest_text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+        if line in _DIGEST_REQUIRED_HEADERS:
+            current_header = line
+            continue
+
+        match = _DIGEST_ITEM_RE.match(line)
+        if not match or current_header is None:
+            fallback_lines.append(line)
+            continue
+
+        section_items[current_header].append(
+            {
+                "player": match.group("player").strip(),
+                "club": match.group("club").strip(),
+                "movimento": match.group("movimento").strip(),
+                "stato": match.group("stato").strip(),
+                "motivo": match.group("motivo").strip(),
+                "fonte": match.group("fonte").strip(),
+            }
+        )
+
+    total_items = sum(len(items) for items in section_items.values())
+    summary_line = (
+        f"📌 **Quadro rapido**: {total_items} notizie consolidate "
+        f"({len(section_items['✅ Situazioni calde / scenari aperti'])} calde, "
+        f"{len(section_items['🕐 Situazioni da monitorare'])} da monitorare, "
+        f"{len(section_items['🚫 Voci ridimensionate / smentite'])} ridimensionate/smentite)."
+    )
+
+    section_intro = {
+        "✅ Situazioni calde / scenari aperti": "Le situazioni piu concrete e con maggior trazione.",
+        "🕐 Situazioni da monitorare": "Piste aperte ma ancora senza conferme forti.",
+        "🚫 Voci ridimensionate / smentite": "Voci depotenziate o non supportate dai riscontri.",
+    }
+    state_icon = {"caldo": "🔥", "monitorare": "👀", "smentita": "🧊"}
+    formatted_lines: list[str] = [summary_line, ""]
+    for header in _DIGEST_REQUIRED_HEADERS:
+        items = section_items[header]
+        formatted_lines.append(f"## {header} ({len(items)})")
+        formatted_lines.append(section_intro[header])
+        formatted_lines.append("")
+
+        if not items:
+            formatted_lines.append("- Nessuna notizia rilevante in questa sezione.")
+            formatted_lines.append("")
+            continue
+
+        for item in items:
+            icon = state_icon.get(item["stato"], "•")
+            formatted_lines.append(
+                f"- {icon} **{item['player']}** ({item['club']}): aggiornamento su **{item['movimento']}**."
+            )
+            formatted_lines.append(
+                f"  _Contesto:_ {item['motivo']}.  \n  _Fonti:_ {item['fonte']}."
+            )
+        formatted_lines.append("")
+
+    if fallback_lines:
+        formatted_lines.append("## Note tecniche")
+        for line in fallback_lines:
+            formatted_lines.append(f"- {line}")
+
+    return "\n".join(formatted_lines).strip()
+
+
+def _story_key_for_match(match: re.Match[str]) -> tuple[str, str, str] | None:
+    player = _normalize_token(match.group("player"))
+    club = _normalize_token(match.group("club"))
+    movimento = _normalize_token(match.group("movimento"))
+    if not player:
+        return None
+    return (player, club, movimento)
+
+
+def _story_key_for_line(line: str) -> tuple[str, str, str] | None:
+    match = _DIGEST_ITEM_RE.match(line)
+    if not match:
+        return None
+    return _story_key_for_match(match)
+
+
+def _preferred_state(states: set[str]) -> str:
+    # Regola deterministica:
+    # se esiste una smentita prevale sulla stessa voce in monitorare/caldo;
+    # altrimenti prevale caldo su monitorare.
+    if "smentita" in states:
+        return "smentita"
+    if "caldo" in states:
+        return "caldo"
+    return "monitorare"
+
+
+def _normalize_digest_output(text: str) -> str:
+    lines = [line.strip() for line in text.strip().splitlines() if line.strip()]
+    if not lines:
+        return text
+
+    items_by_story: dict[tuple[str, str, str], list[dict[str, str]]] = {}
+    passthrough: list[str] = []
+
+    for line in lines:
+        if line in _DIGEST_REQUIRED_HEADERS:
+            continue
+        match = _DIGEST_ITEM_RE.match(line)
+        key = _story_key_for_match(match) if match else None
+        if not match or not key:
+            passthrough.append(line)
+            continue
+        items_by_story.setdefault(key, []).append(
+            {
+                "line": line,
+                "player": match.group("player").strip(),
+                "club": match.group("club").strip(),
+                "movimento": match.group("movimento").strip(),
+                "stato": match.group("stato").strip(),
+                "motivo": match.group("motivo").strip(),
+                "fonte": match.group("fonte").strip(),
+            }
+        )
+
+    section_items: dict[str, list[str]] = {header: [] for header in _DIGEST_REQUIRED_HEADERS}
+    header_for_state = {
+        "caldo": "✅ Situazioni calde / scenari aperti",
+        "monitorare": "🕐 Situazioni da monitorare",
+        "smentita": "🚫 Voci ridimensionate / smentite",
+    }
+
+    for story_items in items_by_story.values():
+        states = {item["stato"] for item in story_items}
+        chosen_state = _preferred_state(states)
+        chosen = next((item for item in story_items if item["stato"] == chosen_state), story_items[0])
+
+        all_sources: list[str] = []
+        seen_sources: set[str] = set()
+        for item in story_items:
+            for source in [s.strip() for s in item["fonte"].split(",") if s.strip()]:
+                source_key = source.lower()
+                if source_key in seen_sources:
+                    continue
+                seen_sources.add(source_key)
+                all_sources.append(source)
+
+        merged_source = ", ".join(all_sources) if all_sources else chosen["fonte"]
+        merged_line = (
+            f"{chosen['player']} ({chosen['club']}) - Movimento: {chosen['movimento']}; "
+            f"Stato: {chosen_state}; Motivo: {chosen['motivo']}; Fonte: {merged_source}"
+        )
+        section_items[header_for_state[chosen_state]].append(merged_line)
+
+    out_lines: list[str] = []
+    for header in _DIGEST_REQUIRED_HEADERS:
+        out_lines.append(header)
+        out_lines.extend(section_items[header])
+        out_lines.append("")
+
+    out_lines.extend(passthrough)
+    return "\n".join(out_lines).strip()
+
+
 def format_mercato_report_markdown(
     target_date: date,
     digest_text: str,
@@ -89,9 +362,15 @@ def format_mercato_report_markdown(
     generated = generated_at or datetime.now()
     date_it = _format_date_it(target_date)
     now_str = generated.strftime("%H:%M del %d/%m/%Y")
+    rendered_digest = _format_digest_for_report(digest_text)
     return (
         f"# Calciomercato — {date_it}\n\n"
-        f"{digest_text.strip()}\n\n"
+        "> Rassegna giornaliera consolidata (notizie simili accorpate, fonti aggregate).\n\n"
+        "## Legenda\n"
+        "- ✅ `caldo`: scenario forte o avanzato\n"
+        "- 🕐 `monitorare`: rumor in evoluzione\n"
+        "- 🚫 `smentita`: voce ridimensionata o negata\n\n"
+        f"{rendered_digest}\n\n"
         f"---\n_Generato da Media Advisor alle {now_str}_\n"
     )
 
@@ -144,6 +423,8 @@ def _validate_digest_output(text: str) -> list[str]:
 
     current_header: str | None = None
     section_item_count = {header: 0 for header in _DIGEST_REQUIRED_HEADERS}
+    story_states: dict[tuple[str, str, str], set[str]] = {}
+    story_lines: dict[tuple[str, str, str], list[str]] = {}
     for line in lines:
         if line in _DIGEST_REQUIRED_HEADERS:
             current_header = line
@@ -170,6 +451,23 @@ def _validate_digest_output(text: str) -> list[str]:
         if not match.group("fonte").strip():
             errors.append(f"Fonte vuota nella riga: '{line}'.")
 
+        key = _story_key_for_match(match)
+        if key:
+            states = story_states.setdefault(key, set())
+            states.add(match.group("stato"))
+            story_lines.setdefault(key, []).append(line)
+
+    for key, states in story_states.items():
+        if len(states) <= 1:
+            continue
+        # Duplicate story across sections with different states is invalid:
+        # the digest must contain one consolidated line per story.
+        lines_for_story = story_lines.get(key, [])
+        errors.append(
+            "Notizia duplicata in stati diversi: "
+            + " | ".join(lines_for_story[:3])
+        )
+
     for header, count in section_item_count.items():
         if count == 0:
             errors.append(f"Sezione vuota: '{header}'.")
@@ -193,6 +491,8 @@ async def _complete_digest_with_token_retry(
             max_tokens=max_tokens,
             temperature=0.4,
         )
+        if not completion.choices:
+            continue
         choice = completion.choices[0]
         text = (choice.message.content or "").strip()
         if text:
@@ -215,16 +515,21 @@ async def generate_mercato_digest(
         return None
 
     channel_names = _load_channel_name_map(root)
-    day_tips = heapq.nsmallest(
+    grouped_tips = _dedupe_tips_with_sources(day_tips)
+    grouped_tips = heapq.nsmallest(
         DIGEST_MAX_INPUT_TIPS,
-        day_tips,
-        key=lambda t: _CONFIDENCE_ORDER.get(str(t.confidence), 99),
+        grouped_tips,
+        key=lambda g: _CONFIDENCE_ORDER.get(str(g["lead"].confidence), 99),
     )
 
     lines: list[str] = []
-    for tip in day_tips:
+    for group in grouped_tips:
+        tip = group["lead"]
         emoji = _CONFIDENCE_EMOJI.get(str(tip.confidence), "🔴")
-        source = channel_names.get(tip.channel_id, tip.channel_id)
+        sources = sorted(
+            {channel_names.get(channel_id, channel_id) for channel_id in group["channel_ids"]}
+        )
+        source = ", ".join(sources)
         route = f" ({tip.from_club or '?'} → {tip.to_club or '?'})" if (tip.from_club or tip.to_club) else ""
         tip_text = _truncate_tip_text(tip.tip_text)
         lines.append(f"{emoji} FONTE: {source} | {tip.player_name}{route}: {tip_text}")
@@ -237,6 +542,7 @@ async def generate_mercato_digest(
     digest_text = await _complete_digest_with_token_retry(client, messages)
     if not digest_text:
         raise DigestGenerationError("Output digest vuoto ricevuto dal modello.")
+    digest_text = _normalize_digest_output(digest_text)
 
     first_errors = _validate_digest_output(digest_text)
     if not first_errors:
@@ -255,6 +561,7 @@ async def generate_mercato_digest(
         },
     ]
     retry_text = await _complete_digest_with_token_retry(client, retry_messages)
+    retry_text = _normalize_digest_output(retry_text or "")
     retry_errors = _validate_digest_output(retry_text or "")
     if retry_text and not retry_errors:
         return retry_text
