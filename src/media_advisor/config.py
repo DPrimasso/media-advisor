@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-from pydantic import Field
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -37,6 +37,13 @@ class Settings(BaseSettings):
         alias="TRANSCRIPT_API_BASE_URL",
     )
     transcript_api_max_retries: int = Field(default=3, alias="TRANSCRIPT_API_MAX_RETRIES")
+
+    @field_validator("telegram_thread_id", mode="before")
+    @classmethod
+    def _empty_thread_id_to_none(cls, value: str | int | None) -> str | int | None:
+        if isinstance(value, str) and value.strip() == "":
+            return None
+        return value
 
     def get_channels_dir(self) -> Path:
         return self.channels_dir or (self.root_dir / "channels")
