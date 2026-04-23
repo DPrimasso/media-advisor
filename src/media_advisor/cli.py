@@ -1579,7 +1579,7 @@ def cmd_daily_report(
     Usa --no-update per saltare i passi 1 e 2 (es. per rigenerare il report su dati già presenti).
     """
     from datetime import date as date_type
-    from media_advisor.digest import generate_mercato_digest, format_mercato_report_markdown
+    from media_advisor.digest import generate_mercato_digest, write_mercato_report
 
     s = _get_settings()
     if not s.openai_api_key:
@@ -1673,13 +1673,7 @@ def cmd_daily_report(
         typer.echo("Suggerimento: verifica che i tip abbiano 'mentioned_at' valorizzato (mercato-enrich-dates).")
         raise typer.Exit(0)
 
-    reports_dir = root / "reports"
-    reports_dir.mkdir(exist_ok=True)
-    report_file = reports_dir / f"{target_date.isoformat()}.md"
-
-    content = format_mercato_report_markdown(target_date, digest_text)
-
-    report_file.write_text(content, encoding="utf-8")
+    report_file, content = write_mercato_report(root, target_date, digest_text)
     typer.echo(f"\n{'='*60}")
     typer.echo(content)
     typer.echo(f"{'='*60}")

@@ -76,6 +76,19 @@ def format_mercato_report_markdown(
     )
 
 
+def write_mercato_report(
+    root: Path,
+    target_date: date,
+    digest_text: str,
+    generated_at: datetime | None = None,
+) -> tuple[Path, str]:
+    report_path = root / "reports" / f"{target_date.isoformat()}.md"
+    report_path.parent.mkdir(exist_ok=True)
+    content = format_mercato_report_markdown(target_date, digest_text, generated_at=generated_at)
+    report_path.write_text(content, encoding="utf-8")
+    return report_path, content
+
+
 def _load_channel_name_map(root: Path) -> dict[str, str]:
     try:
         raw = read_json(channels_config_path(root))
