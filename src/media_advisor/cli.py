@@ -146,7 +146,7 @@ def cmd_auto_update(
 
     pending = asyncio.run(run_fetch_new_videos(root, s.transcript_api_key))
 
-    if not pending.items:
+    if not pending.items and not all_unanalyzed:
         typer.echo("[auto-update] No new videos. Nothing to do.")
         return
 
@@ -1682,6 +1682,68 @@ def cmd_daily_report(
     typer.echo(content)
     typer.echo(f"{'='*60}")
     typer.echo(f"\nSalvato in: {report_file}")
+
+
+# ---------------------------------------------------------------------------
+# publish-telegram
+# ---------------------------------------------------------------------------
+
+
+@app.command("publish-telegram")
+def cmd_publish_telegram(
+    date: Optional[str] = typer.Option(None, "--date", help="Data YYYY-MM-DD (default: oggi)"),
+) -> None:
+    """Genera il digest mercato per una data e lo pubblica su Telegram.
+
+    Usa --date per pubblicare una data precedente (es. --date 2026-04-23).
+    Richiede TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID nelle variabili d'ambiente.
+    """
+    from datetime import date as date_type
+    from media_advisor.digest import DigestGenerationError, format_mercato_report_telegram, generate_mercato_digest
+    from media_advisor.telegram.client import TelegramClient, TelegramClientError
+
+    s = _get_settings()
+    if not s.openai_api_key:
+        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+        raise typer.Exit(1)
+    if not s.telegram_bot_token or not s.telegram_chat_id:
+        typer.echo("Error: TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID devono essere configurati", err=True)
+        raise typer.Exit(1)
+
+    try:
+        target_date = date_type.fromisoformat(date) if date else date_type.today()
+    except ValueError:
+        typer.echo(f"Error: formato data non valido '{date}', usa YYYY-MM-DD", err=True)
+        raise typer.Exit(1)
+
+    root = _root()
+
+    typer.echo(f"Generazione digest per {target_date.isoformat()}...")
+    try:
+        digest_text = asyncio.run(generate_mercato_digest(root, target_date, s.openai_api_key))
+    except DigestGenerationError as exc:
+        typer.echo(f"Errore: digest non valido/non pubblicabile ({exc})", err=True)
+        raise typer.Exit(1)
+
+    if not digest_text:
+        typer.echo(f"Nessuna indiscrezione trovata per il {target_date.isoformat()}.")
+        typer.echo("Suggerimento: verifica che i tip abbiano 'mentioned_at' valorizzato (mercato-enrich-dates).")
+        raise typer.Exit(0)
+
+    telegram_content = format_mercato_report_telegram(target_date, digest_text)
+    typer.echo(f"Invio su Telegram (chat_id={s.telegram_chat_id})...")
+    try:
+        result = asyncio.run(
+            TelegramClient(
+                s.telegram_bot_token,
+                chat_id=s.telegram_chat_id,
+                thread_id=s.telegram_thread_id,
+            ).send_message(telegram_content, parse_mode="HTML")
+        )
+        typer.echo(f"Pubblicato: {result.chunks_sent} chunk inviati, message_ids={result.message_ids}")
+    except TelegramClientError as exc:
+        typer.echo(f"Errore Telegram: {exc}", err=True)
+        raise typer.Exit(1)
 
 
 if __name__ == "__main__":

@@ -2,7 +2,7 @@
 
 import re
 import unicodedata
-from datetime import date
+from datetime import date, timedelta
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -29,6 +29,10 @@ def load_index(root: Path) -> MercatoIndex:
     return MercatoIndex.model_validate(data)
 
 
+def _is_pending_outcome(outcome: str) -> bool:
+    return outcome in {"non_verificata", "non_conclusa"}
+
+
 def _normalize_player_names_inplace(tips: list[MercatoTip], root: Path) -> list[MercatoTip]:
     mercato_dir = root / "mercato"
     from media_advisor.mercato.player_normalizer import normalize_player_name
@@ -43,9 +47,23 @@ def get_all_tips(root: Path) -> list[MercatoTip]:
 
 
 def get_tips_for_date(root: Path, target_date: date) -> list[MercatoTip]:
+    next_day = target_date + timedelta(days=1)
     tips = [
         tip for tip in load_index(root).tips
-        if tip.mentioned_at and tip.mentioned_at.date() == target_date
+        if tip.mentioned_at and (
+            tip.mentioned_at.date() == target_date
+            # Tip estratte il giorno dopo con mentioned_at = mezzanotte esatta UTC:
+            # firma del fallback in extractor.py quando il video non aveva data disponibile.
+            # Quei video erano quasi certamente pubblicati il giorno target.
+            or (
+                tip.mentioned_at.date() == next_day
+                and tip.mentioned_at.hour == 0
+                and tip.mentioned_at.minute == 0
+                and tip.mentioned_at.second == 0
+                and tip.extracted_at is not None
+                and tip.extracted_at.date() == next_day
+            )
+        )
     ]
     return _normalize_player_names_inplace(tips, root)
 
@@ -67,10 +85,10 @@ def get_tips_for_player(root: Path, player_slug: str) -> PlayerSummary | None:
         player_name=player_name,
         player_slug=player_slug,
         total_tips=len(matched),
-        pending_tips=sum(1 for t in matched if t.outcome == "pending"),
-        true_tips=sum(1 for t in matched if t.outcome == "true"),
-        false_tips=sum(1 for t in matched if t.outcome == "false"),
-        partial_tips=sum(1 for t in matched if t.outcome == "partial"),
+        pending_tips=sum(1 for t in matched if _is_pending_outcome(t.outcome)),
+        true_tips=sum(1 for t in matched if t.outcome == "confermata"),
+        false_tips=sum(1 for t in matched if t.outcome == "smentita"),
+        partial_tips=sum(1 for t in matched if t.outcome == "parziale"),
         channels_mentioned=sorted({t.channel_id for t in matched}),
         latest_mention=latest,
         tips=sorted(matched, key=lambda t: t.mentioned_at or _epoch, reverse=True),
@@ -96,10 +114,10 @@ def get_all_players(root: Path) -> list[PlayerSummary]:
                 player_name=tips[0].player_name,
                 player_slug=slug,
                 total_tips=len(tips),
-                pending_tips=sum(1 for t in tips if t.outcome == "pending"),
-                true_tips=sum(1 for t in tips if t.outcome == "true"),
-                false_tips=sum(1 for t in tips if t.outcome == "false"),
-                partial_tips=sum(1 for t in tips if t.outcome == "partial"),
+                pending_tips=sum(1 for t in tips if _is_pending_outcome(t.outcome)),
+                true_tips=sum(1 for t in tips if t.outcome == "confermata"),
+                false_tips=sum(1 for t in tips if t.outcome == "smentita"),
+                partial_tips=sum(1 for t in tips if t.outcome == "parziale"),
                 channels_mentioned=sorted({t.channel_id for t in tips}),
                 latest_mention=latest,
                 tips=sorted(tips, key=lambda t: t.mentioned_at or _epoch, reverse=True),
@@ -227,9 +245,9 @@ def get_channel_stats(root: Path) -> list[ChannelVeracityStats]:
 
     stats: list[ChannelVeracityStats] = []
     for channel_id, tips in by_channel.items():
-        true_n = sum(1 for t in tips if t.outcome == "true")
-        false_n = sum(1 for t in tips if t.outcome == "false")
-        partial_n = sum(1 for t in tips if t.outcome == "partial")
+        true_n = sum(1 for t in tips if t.outcome == "confermata")
+        false_n = sum(1 for t in tips if t.outcome == "smentita")
+        partial_n = sum(1 for t in tips if t.outcome == "parziale")
         resolved = true_n + false_n + partial_n
 
         # partial conta 0.5

@@ -54,14 +54,29 @@ def test_send_message_chunks_long_text() -> None:
     assert second_payload["text"].endswith("B" * 20)
 
 
-def test_send_message_rejects_chunked_parse_mode() -> None:
+def test_send_message_allows_chunked_parse_mode() -> None:
+    long_text = ("A" * 4000 + "\n\n") + ("B" * 200)
+    responses = [
+        httpx.Response(200, json={"ok": True, "result": {"message_id": 1}}),
+        httpx.Response(200, json={"ok": True, "result": {"message_id": 2}}),
+    ]
+    post_mock = AsyncMock(side_effect=responses)
+
     client = TelegramClient("token", chat_id="-100123")
-    long_text = ("A" * 4096) + "B"
+    with patch("httpx.AsyncClient.post", post_mock):
+        result = asyncio.run(client.send_message(long_text, parse_mode="HTML"))
 
-    with pytest.raises(TelegramClientError) as exc_info:
-        asyncio.run(client.send_message(long_text, parse_mode="MarkdownV2"))
-
-    assert "Cannot safely chunk formatted messages" in str(exc_info.value)
+    assert result.chunks_sent == 2
+    assert result.message_ids == [1, 2]
+    # Verifica che parse_mode sia passato in ogni chunk
+    for call in post_mock.call_args_list:
+        if "json" in call.kwargs:
+            payload = call.kwargs["json"]
+        elif len(call.args) > 1:
+            payload = call.args[1]
+        else:
+            payload = {}
+        assert payload.get("parse_mode") == "HTML"
 
 
 def test_send_message_raises_contextual_error() -> None:

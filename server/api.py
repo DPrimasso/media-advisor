@@ -106,15 +106,15 @@ async def post_confirm(body: ConfirmRequest) -> ConfirmResponse:
     for list_path, urls in to_append.items():
         existing = read_video_list(list_path)
         existing_ids = {
-            m.group(1)
+            vid
             for u in existing
-            if (m := re.search(r"v=([a-zA-Z0-9_-]{11})", u))
+            if (vid := _extract_video_id(u))
         }
         for url in urls:
-            m = re.search(r"v=([a-zA-Z0-9_-]{11})", url)
-            if m and m.group(1) not in existing_ids:
+            vid = _extract_video_id(url)
+            if vid and vid not in existing_ids:
                 existing.append(url)
-                existing_ids.add(m.group(1))
+                existing_ids.add(vid)
         write_video_list(list_path, existing)
 
     # Remove confirmed from pending
@@ -292,7 +292,7 @@ async def post_mercato_outcome(tip_id: str, body: OutcomeRequest) -> Any:
     from media_advisor.mercato.analyzer import update_tip_outcome
     from media_advisor.mercato.models import OutcomeValue
 
-    valid = {"non_verificata", "confermata", "parziale", "smentita"}
+    valid = {"non_verificata", "confermata", "parziale", "smentita", "non_conclusa"}
     if body.outcome not in valid:
         raise HTTPException(status_code=400, detail=f"outcome deve essere: {valid}")
 
@@ -362,9 +362,13 @@ async def post_mercato_add_transfer(body: AddTransferRequest) -> Any:
     from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, player_slug as make_slug
 
     try:
-        confirmed_at = datetime.fromisoformat(body.confirmed_at).replace(tzinfo=timezone.utc)
+        confirmed_at = datetime.fromisoformat(body.confirmed_at)
     except ValueError:
         raise HTTPException(status_code=400, detail="confirmed_at deve essere una data ISO (es. 2026-07-01)")
+    if confirmed_at.tzinfo is None:
+        confirmed_at = confirmed_at.replace(tzinfo=timezone.utc)
+    else:
+        confirmed_at = confirmed_at.astimezone(timezone.utc)
 
     record = TransferRecord(
         player_name=body.player_name,
@@ -494,12 +498,14 @@ async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
 
 
 @app.get("/api/feed/digest")
-async def get_feed_digest(date: str | None = None) -> Any:
+async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
     from datetime import date as date_type
     from media_advisor.digest import (
         DigestGenerationError,
         format_mercato_report_markdown,
         generate_mercato_digest,
+        load_report_cache,
+        write_mercato_report,
     )
 
     s = Settings()
@@ -511,17 +517,33 @@ async def get_feed_digest(date: str | None = None) -> Any:
     except ValueError:
         raise HTTPException(status_code=400, detail="Formato data non valido, usa YYYY-MM-DD")
 
+    if not force:
+        cached = load_report_cache(_root, target_date)
+        if cached and cached.get("digest_raw"):
+            digest_text = cached["digest_raw"]
+            digest_formatted = format_mercato_report_markdown(target_date, digest_text)
+            return {
+                "digest": digest_formatted,
+                "digest_raw": digest_text,
+                "date": target_date.isoformat(),
+                "cached": True,
+            }
+
     try:
         digest_text = await generate_mercato_digest(_root, target_date, s.openai_api_key)
     except DigestGenerationError as exc:
         raise HTTPException(status_code=502, detail=f"Digest non pubblicabile: {exc}")
     if not digest_text:
         return {"digest": None, "message": "Nessun contenuto per questa data"}
-    digest_formatted = format_mercato_report_markdown(target_date, digest_text)
+
+    now = datetime.now()
+    write_mercato_report(_root, target_date, digest_text, generated_at=now)
+    digest_formatted = format_mercato_report_markdown(target_date, digest_text, generated_at=now)
     return {
         "digest": digest_formatted,
         "digest_raw": digest_text,
         "date": target_date.isoformat(),
+        "cached": False,
     }
 
 
@@ -559,6 +581,8 @@ _sync_state: dict = {
 }
 
 _MAX_LOG = 40
+_YOUTUBE_ID_RE = re.compile(r"v=([a-zA-Z0-9_-]{11})")
+_BACKFILL_PER_CHANNEL = 5
 
 
 def _sync_log(msg: str) -> None:
@@ -569,6 +593,59 @@ def _sync_log(msg: str) -> None:
         print(f"[sync] {msg}", flush=True)
     except UnicodeEncodeError:
         print(f"[sync] {msg.encode('ascii', errors='replace').decode()}", flush=True)
+
+
+def _extract_video_id(url: str) -> str | None:
+    m = _YOUTUBE_ID_RE.search(url)
+    return m.group(1) if m else None
+
+
+def _collect_processing_candidates(
+    root: Path,
+    cfg: ChannelsConfig,
+    pending_items: list,
+) -> tuple[set[str], dict[str, str], int]:
+    """Build processing set from fresh pending + unprocessed backlog in channel lists.
+
+    Backfill scans newest-first and picks up to `_BACKFILL_PER_CHANNEL` videos/channel
+    that are missing transcript or analysis, so transient fetch misses are recovered.
+    """
+    recent_ids: set[str] = {item.video_id for item in pending_items if item.video_id}
+    channel_of: dict[str, str] = {
+        item.video_id: item.channel_id for item in pending_items if item.video_id
+    }
+    backfill_count = 0
+
+    for channel in cfg.channels:
+        list_path = channel_list_path(root, channel.video_list)
+        if not list_path.exists():
+            continue
+        transcripts_dir = root / "data" / "transcripts" / channel.id
+        analysis_dir = root / "data" / "analysis" / channel.id
+        transcript_ids = (
+            {p.stem for p in transcripts_dir.glob("*.json")} if transcripts_dir.exists() else set()
+        )
+        analysis_ids = (
+            {p.stem for p in analysis_dir.glob("*.json")} if analysis_dir.exists() else set()
+        )
+        urls = read_video_list(list_path)
+        added_for_channel = 0
+        for url in urls:
+            if added_for_channel >= _BACKFILL_PER_CHANNEL:
+                break
+            vid = _extract_video_id(url)
+            if not vid or vid in channel_of:
+                continue
+
+            if vid in transcript_ids and vid in analysis_ids:
+                continue
+
+            recent_ids.add(vid)
+            channel_of[vid] = channel.id
+            added_for_channel += 1
+            backfill_count += 1
+
+    return recent_ids, channel_of, backfill_count
 
 
 @app.post("/api/sync")
@@ -610,6 +687,41 @@ async def post_sync_daily_report() -> Any:
     return {"status": "started"}
 
 
+@app.post("/api/feed/digest/publish-telegram")
+async def post_publish_telegram(body: dict) -> Any:
+    """Pubblica un digest già generato su Telegram. Riceve { digest, date } dal frontend."""
+    from datetime import date as date_type
+    from media_advisor.digest import format_mercato_report_telegram
+    from media_advisor.telegram.client import TelegramClient, TelegramClientError
+
+    digest_text: str | None = body.get("digest")
+    date_str: str | None = body.get("date")
+
+    if not digest_text:
+        raise HTTPException(status_code=400, detail="Campo 'digest' mancante o vuoto")
+
+    s = Settings()
+    if not s.telegram_bot_token or not s.telegram_chat_id:
+        raise HTTPException(status_code=500, detail="Telegram non configurato (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID)")
+
+    try:
+        target_date = date_type.fromisoformat(date_str) if date_str else date_type.today()
+    except ValueError:
+        raise HTTPException(status_code=400, detail=f"Data non valida: {date_str}")
+
+    telegram_text = format_mercato_report_telegram(target_date, digest_text, generated_at=datetime.now())
+
+    try:
+        result = await TelegramClient(
+            s.telegram_bot_token,
+            chat_id=s.telegram_chat_id,
+            thread_id=s.telegram_thread_id,
+        ).send_message(telegram_text, parse_mode="HTML")
+        return {"published": True, "chunks_sent": result.chunks_sent, "message_ids": result.message_ids}
+    except TelegramClientError as exc:
+        raise HTTPException(status_code=502, detail=f"Telegram error: {exc}")
+
+
 @app.get("/api/sync/status")
 async def get_sync_status() -> Any:
     return _sync_state
@@ -621,8 +733,11 @@ async def _scan_mercato_videos(
     vid_channel_pairs: list[tuple[str, str]],
 ) -> tuple[int, list]:
     """Analyze each (video_id, channel_id) pair for mercato tips. Returns (count, tips)."""
-    from media_advisor.io.paths import mercato_tips_path
+    from media_advisor.io.json_io import read_json_or_default
+    from media_advisor.io.paths import mercato_tips_path, video_dates_cache_path
     from media_advisor.mercato.analyzer import analyze_video_mercato
+
+    dates_cache: dict = read_json_or_default(video_dates_cache_path(root)) or {}
 
     mercato_analyzed = 0
     all_new_tips: list = []
@@ -630,7 +745,9 @@ async def _scan_mercato_videos(
         if mercato_tips_path(root, ch_id, vid).exists():
             continue
         try:
-            result = await analyze_video_mercato(root=root, video_id=vid, channel_id=ch_id, api_key=api_key)
+            result = await analyze_video_mercato(
+                root=root, video_id=vid, channel_id=ch_id, api_key=api_key, dates_cache=dates_cache
+            )
             all_new_tips.extend(result.tips)
             mercato_analyzed += 1
             if result.tips:
@@ -735,10 +852,11 @@ async def _run_full_sync() -> None:
 
 
 async def _run_recent_sync() -> None:
-    """Sync recenti: fetch+merge come il totale, poi pipeline solo sui video appena scoperti in questa run.
+    """Sync recenti: fetch+merge come il totale, poi pipeline su nuovi + piccolo backfill.
 
-    Non processa backlog senza analisi (quello resta a POST /api/sync). Se il fetch non trova
-    nulla di nuovo, termina senza chiamare transcript.
+    Oltre ai pending appena scoperti, recupera fino a `_BACKFILL_PER_CHANNEL` video/canale
+    presenti in lista ma senza transcript/analisi. Se non trova candidati, termina senza
+    chiamare transcript.
     """
     from media_advisor.io.paths import transcript_path as _tp
     from media_advisor.models.channels import ChannelsConfig
@@ -778,20 +896,18 @@ async def _run_recent_sync() -> None:
         cfg_raw = read_json(channels_config_path(root))
         cfg = ChannelsConfig.model_validate(cfg_raw)
 
-        # Step 3 — Solo i video in pending di questa run (dopo merge sono già in lista)
-        recent_ids: set[str] = set()
-        channel_of: dict[str, str] = {}
-        for item in pending.items:
-            if not item.video_id:
-                continue
-            recent_ids.add(item.video_id)
-            channel_of[item.video_id] = item.channel_id
-
-        result_summary["recent_pending_analysis"] = len(recent_ids)
+        # Step 3 — Video da processare: nuovi pending + backlog non processato (recupero automatico)
+        recent_ids, channel_of, backfill_count = _collect_processing_candidates(
+            root, cfg, pending.items
+        )
+        result_summary["recent_pending_analysis"] = len(
+            [item for item in pending.items if item.video_id]
+        )
+        result_summary["backfill_analysis"] = backfill_count
 
         if not recent_ids:
             _sync_log(
-                "Step 3/5: Nessun video nuovo in questa run. Per transcript/analisi arretrati usa sync totale."
+                "Step 3/5: Nessun video nuovo o arretrato da recuperare. Sync recent terminata."
             )
             _sync_state.update(
                 status="done",
@@ -803,7 +919,8 @@ async def _run_recent_sync() -> None:
         from collections import Counter
 
         _sync_log(
-            f"Step 3/5: Pipeline solo sui {len(recent_ids)} video nuovi di questa run (non il backlog)..."
+            f"Step 3/5: Pipeline su {len(recent_ids)} video "
+            f"(nuovi + {backfill_count} recuperati dalle liste)..."
         )
         for ch_id, n in sorted(Counter(channel_of[v] for v in recent_ids).items()):
             _sync_log(f"  [{ch_id}] {n} da processare")
@@ -882,7 +999,11 @@ async def _run_daily_report() -> None:
     from datetime import date as date_type
     from media_advisor.io.paths import transcript_path as _tp
     from media_advisor.models.channels import ChannelsConfig
-    from media_advisor.digest import generate_mercato_digest, write_mercato_report
+    from media_advisor.digest import (
+        format_mercato_report_telegram,
+        generate_mercato_digest,
+        write_mercato_report,
+    )
     from media_advisor.telegram.client import TelegramClient, TelegramClientError
 
     s = Settings()
@@ -918,12 +1039,20 @@ async def _run_daily_report() -> None:
         cfg_raw = read_json(channels_config_path(root))
         cfg = ChannelsConfig.model_validate(cfg_raw)
 
-        recent_ids: set[str] = {v.video_id for v in pending.items if v.video_id}
-        channel_of: dict[str, str] = {v.video_id: v.channel_id for v in pending.items if v.video_id}
+        recent_ids, channel_of, backfill_count = _collect_processing_candidates(
+            root, cfg, pending.items
+        )
+        result_summary["recent_pending_analysis"] = len(
+            [item for item in pending.items if item.video_id]
+        )
+        result_summary["backfill_analysis"] = backfill_count
 
         if recent_ids:
             # Step 3 — Pipeline claims sui video nuovi
-            _sync_log(f"Step 3/6: Pipeline claims su {len(recent_ids)} video nuovi...")
+            _sync_log(
+                f"Step 3/6: Pipeline claims su {len(recent_ids)} video "
+                f"(nuovi + {backfill_count} recuperati)..."
+            )
             from media_advisor.run_pipeline import run_from_list
             pipeline_result = await run_from_list(
                 root=root,
@@ -938,7 +1067,7 @@ async def _run_daily_report() -> None:
             result_summary["failed"] = total_failed
 
             # Step 4 — Mercato scan sui video nuovi dei canali mercato
-            _sync_log("Step 4/6: Mercato scan (video nuovi)...")
+            _sync_log("Step 4/6: Mercato scan (video processati in questa run)...")
             mercato_ch_ids = {c.id for c in cfg.channels if getattr(c, "mercato_channel", False)}
             recent_pairs = [
                 (vid, channel_of[vid])
@@ -953,7 +1082,9 @@ async def _run_daily_report() -> None:
             result_summary["mercato_analyzed"] = mercato_analyzed
             result_summary["mercato_tips"] = len(all_new_tips)
         else:
-            _sync_log("Step 3-4/6: Nessun video nuovo, salto pipeline e mercato-scan.")
+            _sync_log(
+                "Step 3-4/6: Nessun video nuovo o arretrato da recuperare, salto pipeline e mercato-scan."
+            )
             result_summary.update(analyzed=0, failed=0, mercato_analyzed=0, mercato_tips=0)
 
         today = date_type.today()
@@ -961,12 +1092,19 @@ async def _run_daily_report() -> None:
         _sync_log("Step 5/6: Generazione sommario mercato...")
         digest_text = await generate_mercato_digest(root, today, s.openai_api_key)
         report_content: str | None = None
+        telegram_content: str | None = None
         if digest_text:
+            generated_at = datetime.now()
             report_file, report_content = write_mercato_report(
                 root,
                 today,
                 digest_text,
-                generated_at=datetime.now(),
+                generated_at=generated_at,
+            )
+            telegram_content = format_mercato_report_telegram(
+                today,
+                digest_text,
+                generated_at=generated_at,
             )
             _sync_log(f"  Sommario generato ({len(digest_text)} caratteri), salvato in {report_file.name}")
             result_summary["digest"] = report_content
@@ -987,7 +1125,7 @@ async def _run_daily_report() -> None:
         }
         result_summary["telegram"] = telegram_result
 
-        if report_content is None:
+        if telegram_content is None:
             _sync_log("Step 6/6: Salto publish Telegram (digest assente).")
         elif not telegram_enabled:
             _sync_log("Step 6/6: Telegram non configurato, publish saltato.")
@@ -998,7 +1136,7 @@ async def _run_daily_report() -> None:
                     s.telegram_bot_token,
                     chat_id=s.telegram_chat_id,
                     thread_id=s.telegram_thread_id,
-                ).send_message(report_content)
+                ).send_message(telegram_content, parse_mode="HTML")
                 telegram_result["published"] = tg_send.chunks_sent > 0
                 telegram_result["chunks_sent"] = tg_send.chunks_sent
                 telegram_result["message_ids"] = tg_send.message_ids
