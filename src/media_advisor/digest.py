@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from datetime import date, datetime
 import heapq
+import html as _html_lib
+import json as _json
 from json import JSONDecodeError
 from pathlib import Path
 import re
@@ -34,6 +36,12 @@ _DIGEST_REQUIRED_HEADERS = (
     "🕐 Situazioni da monitorare",
     "🚫 Voci ridimensionate / smentite",
 )
+_DIGEST_SMENTITA_HEADER = _DIGEST_REQUIRED_HEADERS[2]
+_DIGEST_HEADERS_BY_CANONICAL = {
+    "situazionicaldescenariaperti": "✅ Situazioni calde / scenari aperti",
+    "situazionidamonitorare": "🕐 Situazioni da monitorare",
+    "vociridimensionatesmentite": "🚫 Voci ridimensionate / smentite",
+}
 _SECTION_EXPECTED_STATE = {
     "✅ Situazioni calde / scenari aperti": "caldo",
     "🕐 Situazioni da monitorare": "monitorare",
@@ -91,6 +99,12 @@ def _normalize_token(value: str | None) -> str:
         unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
     )
     return re.sub(r"[^a-z0-9]", "", ascii_value.lower())
+
+
+def _canonical_digest_header(line: str) -> str | None:
+    cleaned = re.sub(r"^[^A-Za-zÀ-ÖØ-öø-ÿ]+", "", line.strip())
+    canonical = _normalize_token(cleaned)
+    return _DIGEST_HEADERS_BY_CANONICAL.get(canonical)
 
 
 def _names_are_similar(a: str | None, b: str | None) -> bool:
@@ -187,7 +201,9 @@ def _dedupe_tips_with_sources(day_tips: list) -> list[dict]:
     return grouped
 
 
-def _format_digest_for_report(digest_text: str) -> str:
+def _parse_digest_sections(
+    digest_text: str,
+) -> tuple[dict[str, list[dict[str, str]]], list[str]]:
     section_items: dict[str, list[dict[str, str]]] = {header: [] for header in _DIGEST_REQUIRED_HEADERS}
     fallback_lines: list[str] = []
     current_header: str | None = None
@@ -196,8 +212,9 @@ def _format_digest_for_report(digest_text: str) -> str:
         line = raw_line.strip()
         if not line:
             continue
-        if line in _DIGEST_REQUIRED_HEADERS:
-            current_header = line
+        canonical_header = _canonical_digest_header(line)
+        if canonical_header is not None:
+            current_header = canonical_header
             continue
 
         match = _DIGEST_ITEM_RE.match(line)
@@ -215,6 +232,12 @@ def _format_digest_for_report(digest_text: str) -> str:
                 "fonte": match.group("fonte").strip(),
             }
         )
+
+    return section_items, fallback_lines
+
+
+def _format_digest_for_report(digest_text: str) -> str:
+    section_items, fallback_lines = _parse_digest_sections(digest_text)
 
     total_items = sum(len(items) for items in section_items.values())
     summary_line = (
@@ -260,6 +283,65 @@ def _format_digest_for_report(digest_text: str) -> str:
     return "\n".join(formatted_lines).strip()
 
 
+def format_mercato_report_telegram(
+    target_date: date,
+    digest_text: str,
+    generated_at: datetime | None = None,
+) -> str:
+    """Formatta il digest per Telegram con HTML parse mode."""
+    def _h(t: str) -> str:
+        return _html_lib.escape(str(t)) if t else ""
+
+    generated = generated_at or datetime.now()
+    date_it = _format_date_it(target_date)
+    now_str = generated.strftime("%H:%M")
+    section_items, fallback_lines = _parse_digest_sections(digest_text)
+
+    total_items = sum(len(items) for items in section_items.values())
+    hot_count = len(section_items["✅ Situazioni calde / scenari aperti"])
+    monitor_count = len(section_items["🕐 Situazioni da monitorare"])
+    denied_count = len(section_items["🚫 Voci ridimensionate / smentite"])
+
+    section_meta = {
+        "✅ Situazioni calde / scenari aperti": ("✅ <b>CALDE</b>", "🔥"),
+        "🕐 Situazioni da monitorare": ("🕐 <b>DA MONITORARE</b>", "👀"),
+        "🚫 Voci ridimensionate / smentite": ("🚫 <b>RIDIMENSIONATE</b>", "🧊"),
+    }
+
+    div = "─" * 18
+
+    lines: list[str] = [
+        f"📣 <b>CALCIOMERCATO</b>  |  <i>{_h(date_it)}</i>",
+        "<i>Rassegna consolidata · Media Advisor</i>",
+        "",
+        f"📊 <b>{total_items}</b> notizie  ·  🔥 {hot_count} calde  ·  👀 {monitor_count} monitorate  ·  🧊 {denied_count} smentite",
+    ]
+
+    for header in _DIGEST_REQUIRED_HEADERS:
+        label, icon = section_meta[header]
+        items = section_items[header]
+        lines.extend(["", div, "", f"{label}  ({len(items)})"])
+
+        if not items:
+            lines.append("• Nessuna notizia rilevante.")
+            continue
+
+        for item in items:
+            lines.append("")
+            lines.append(f"{icon} <b>{_h(item['player'])}</b>")
+            lines.append(f"<i>{_h(item['club'])} → {_h(item['movimento'])}</i>")
+            lines.append(_h(item["motivo"]))
+            lines.append(f"<i>Fonte:</i> {_h(item['fonte'])}")
+
+    if fallback_lines:
+        lines.extend(["", div, "", "ℹ️ <b>Note</b>"])
+        for line in fallback_lines:
+            lines.append(f"• {_h(line)}")
+
+    lines.extend(["", div, f"⏱ <i>Aggiornato alle {now_str}</i>"])
+    return "\n".join(lines).strip()
+
+
 def _story_key_for_match(match: re.Match[str]) -> tuple[str, str, str] | None:
     player = _normalize_token(match.group("player"))
     club = _normalize_token(match.group("club"))
@@ -296,7 +378,7 @@ def _normalize_digest_output(text: str) -> str:
     passthrough: list[str] = []
 
     for line in lines:
-        if line in _DIGEST_REQUIRED_HEADERS:
+        if _canonical_digest_header(line) is not None:
             continue
         match = _DIGEST_ITEM_RE.match(line)
         key = _story_key_for_match(match) if match else None
@@ -381,11 +463,29 @@ def write_mercato_report(
     digest_text: str,
     generated_at: datetime | None = None,
 ) -> tuple[Path, str]:
+    generated_at = generated_at or datetime.now()
     report_path = root / "reports" / f"{target_date.isoformat()}.md"
     report_path.parent.mkdir(exist_ok=True)
     content = format_mercato_report_markdown(target_date, digest_text, generated_at=generated_at)
     report_path.write_text(content, encoding="utf-8")
+
+    cache_path = root / "reports" / f"{target_date.isoformat()}.json"
+    cache_path.write_text(
+        _json.dumps({"digest_raw": digest_text, "generated_at": generated_at.isoformat()}, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
     return report_path, content
+
+
+def load_report_cache(root: Path, target_date: date) -> dict | None:
+    """Legge il report salvato per una data. Ritorna {digest_raw, generated_at} o None."""
+    cache_path = root / "reports" / f"{target_date.isoformat()}.json"
+    if not cache_path.exists():
+        return None
+    try:
+        return _json.loads(cache_path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
 
 
 def _load_channel_name_map(root: Path) -> dict[str, str]:
@@ -397,7 +497,12 @@ def _load_channel_name_map(root: Path) -> dict[str, str]:
         return {}
 
 
-def _validate_digest_output(text: str) -> list[str]:
+def _validate_digest_output(
+    text: str,
+    *,
+    allow_empty_smentita_section: bool = False,
+) -> list[str]:
+    """Se allow_empty_smentita_section è True, la terza sezione può essere vuota (nessun tip denied in input)."""
     errors: list[str] = []
     stripped = text.strip()
     if not stripped:
@@ -406,8 +511,9 @@ def _validate_digest_output(text: str) -> list[str]:
     lines = [line.strip() for line in stripped.splitlines() if line.strip()]
     header_positions = {header: [] for header in _DIGEST_REQUIRED_HEADERS}
     for idx, line in enumerate(lines):
-        if line in header_positions:
-            header_positions[line].append(idx)
+        canonical_header = _canonical_digest_header(line)
+        if canonical_header in header_positions:
+            header_positions[canonical_header].append(idx)
 
     for header in _DIGEST_REQUIRED_HEADERS:
         pos = header_positions[header]
@@ -426,8 +532,9 @@ def _validate_digest_output(text: str) -> list[str]:
     story_states: dict[tuple[str, str, str], set[str]] = {}
     story_lines: dict[tuple[str, str, str], list[str]] = {}
     for line in lines:
-        if line in _DIGEST_REQUIRED_HEADERS:
-            current_header = line
+        canonical_header = _canonical_digest_header(line)
+        if canonical_header is not None:
+            current_header = canonical_header
             continue
 
         if current_header is None:
@@ -470,13 +577,93 @@ def _validate_digest_output(text: str) -> list[str]:
 
     for header, count in section_item_count.items():
         if count == 0:
+            if allow_empty_smentita_section and header == _DIGEST_SMENTITA_HEADER:
+                continue
             errors.append(f"Sezione vuota: '{header}'.")
 
     return errors
 
 
-def _is_valid_digest_output(text: str) -> bool:
-    return not _validate_digest_output(text)
+def _is_valid_digest_output(
+    text: str,
+    *,
+    allow_empty_smentita_section: bool = False,
+) -> bool:
+    return not _validate_digest_output(
+        text, allow_empty_smentita_section=allow_empty_smentita_section
+    )
+
+
+def _sanitize_digest_field(value: str | None, fallback: str) -> str:
+    raw = (value or "").replace("\n", " ").replace(";", ",").strip()
+    return raw or fallback
+
+
+def _build_denied_fallback_lines(
+    day_tips: list,
+    channel_names: dict[str, str],
+    *,
+    max_items: int = 3,
+) -> list[str]:
+    denied_tips = [t for t in day_tips if t.confidence == "denied"]
+    if not denied_tips:
+        return []
+    denied_tips.sort(key=lambda t: float(t.corroboration_score), reverse=True)
+
+    fallback_lines: list[str] = []
+    for tip in denied_tips[:max_items]:
+        player = (tip.player_name or "").strip()
+        if not player:
+            continue
+        club = _sanitize_digest_field(tip.from_club or tip.to_club, "N/D")
+        movement = _sanitize_digest_field(_truncate_tip_text(tip.tip_text, 120), "voce ridimensionata")
+        source = _sanitize_digest_field(channel_names.get(tip.channel_id, tip.channel_id), tip.channel_id)
+        fallback_lines.append(
+            f"{player} ({club}) - Movimento: {movement}; "
+            f"Stato: smentita; Motivo: voce ridimensionata dalla fonte; Fonte: {source}"
+        )
+    return fallback_lines
+
+
+def _repair_smentita_section(text: str, fallback_lines: list[str]) -> str:
+    """Keep only valid rows in smentita section; inject fallback lines if section is empty."""
+    if not text.strip():
+        return text
+
+    lines = text.splitlines()
+    out: list[str] = []
+    in_smentita = False
+    smentita_kept = 0
+
+    for line in lines:
+        stripped = line.strip()
+        canonical_header = _canonical_digest_header(stripped) if stripped else None
+        if canonical_header is not None:
+            if in_smentita and smentita_kept == 0 and fallback_lines:
+                out.extend(fallback_lines)
+            in_smentita = canonical_header == _DIGEST_SMENTITA_HEADER
+            out.append(line)
+            continue
+
+        if not in_smentita:
+            out.append(line)
+            continue
+
+        if not stripped:
+            out.append(line)
+            continue
+
+        match = _DIGEST_ITEM_RE.match(stripped)
+        if match and match.group("stato") == "smentita":
+            out.append(line)
+            smentita_kept += 1
+            continue
+        # Drop invalid placeholder/noise rows inside smentita section.
+
+    if in_smentita and smentita_kept == 0 and fallback_lines:
+        out.extend(fallback_lines)
+
+    return "\n".join(out).strip()
 
 
 async def _complete_digest_with_token_retry(
@@ -534,17 +721,42 @@ async def generate_mercato_digest(
         tip_text = _truncate_tip_text(tip.tip_text)
         lines.append(f"{emoji} FONTE: {source} | {tip.player_name}{route}: {tip_text}")
 
+    has_denied_tip = any(t.confidence == "denied" for t in day_tips)
+    allow_empty_smentita = not has_denied_tip
+
     client = openai.AsyncOpenAI(api_key=openai_api_key)
+    denied_section_constraint = (
+        "\n\nVINCOLO DATI: nell'input sono presenti una o piu voci con livello denied/smentita. "
+        "La sezione '🚫 Voci ridimensionate / smentite' deve contenere almeno 1 riga "
+        "reale e valida nel formato richiesto. Non usare righe placeholder/generiche "
+        "(es. 'Nessuna voce...')."
+        if has_denied_tip
+        else ""
+    )
     messages = [
         {"role": "system", "content": _SYSTEM_PROMPT},
-        {"role": "user", "content": f"Indiscrezioni del {_format_date_it(target_date)}:\n\n" + "\n".join(lines)},
+        {
+            "role": "user",
+            "content": (
+                f"Indiscrezioni del {_format_date_it(target_date)}:\n\n"
+                + "\n".join(lines)
+                + denied_section_constraint
+            ),
+        },
     ]
+    denied_fallback_lines = _build_denied_fallback_lines(day_tips, channel_names)
+
     digest_text = await _complete_digest_with_token_retry(client, messages)
     if not digest_text:
         raise DigestGenerationError("Output digest vuoto ricevuto dal modello.")
     digest_text = _normalize_digest_output(digest_text)
+    if has_denied_tip:
+        digest_text = _repair_smentita_section(digest_text, denied_fallback_lines)
+        digest_text = _normalize_digest_output(digest_text)
 
-    first_errors = _validate_digest_output(digest_text)
+    first_errors = _validate_digest_output(
+        digest_text, allow_empty_smentita_section=allow_empty_smentita
+    )
     if not first_errors:
         return digest_text
 
@@ -557,12 +769,19 @@ async def generate_mercato_digest(
                 "Correggi tutti i seguenti errori di validazione:\n"
                 + "\n".join(f"- {err}" for err in first_errors)
                 + "\n\nRispetta rigorosamente formato, ordine sezioni e sintassi riga."
+                + denied_section_constraint
             ),
         },
     ]
     retry_text = await _complete_digest_with_token_retry(client, retry_messages)
     retry_text = _normalize_digest_output(retry_text or "")
-    retry_errors = _validate_digest_output(retry_text or "")
+    if has_denied_tip:
+        retry_text = _repair_smentita_section(retry_text, denied_fallback_lines)
+        retry_text = _normalize_digest_output(retry_text)
+    retry_errors = _validate_digest_output(
+        retry_text or "",
+        allow_empty_smentita_section=allow_empty_smentita,
+    )
     if retry_text and not retry_errors:
         return retry_text
 
