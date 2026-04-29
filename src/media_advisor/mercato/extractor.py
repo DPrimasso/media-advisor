@@ -142,6 +142,18 @@ def _club_in_quote(club: str | None, quote: str) -> bool:
     return False
 
 
+def _sanitize_clubs_against_quote(
+    from_club: str | None,
+    to_club: str | None,
+    quote: str,
+) -> tuple[str | None, str | None]:
+    """Keep only clubs explicitly grounded in the extracted quote."""
+    return (
+        from_club if _club_in_quote(from_club, quote) else None,
+        to_club if _club_in_quote(to_club, quote) else None,
+    )
+
+
 _MERCATO_SIGNAL: tuple[str, ...] = (
     "mercato",
     "calciomercato",
@@ -276,10 +288,6 @@ def _is_plausible_mercato_tip(raw: _RawMercatoTip) -> bool:
     if raw.from_club and raw.from_club == raw.to_club and from_in_quote:
         return True
 
-    # Fast-pass: mercato signal in quote + player or club present → accept.
-    if has_mercato_signal and (player_in_quote or from_in_quote or to_in_quote):
-        return True
-
     # Allow explicit confirmed/denied phrasing even if quote is short or lacks signals.
     if raw.confidence in ("confirmed", "denied") and _contains_any(
         quote, (
@@ -389,6 +397,9 @@ async def extract_mercato_tips(
         _tc = raw.to_club if raw.to_club and raw.to_club.lower() not in _PLACEHOLDER_CLUBS else None
         from_club = normalize_entity(_fc) if _fc else None
         to_club = normalize_entity(_tc) if _tc else None
+        from_club, to_club = _sanitize_clubs_against_quote(from_club, to_club, raw.quote_text or "")
+        if not (from_club or to_club):
+            continue
 
         tips.append(
             MercatoTip(
