@@ -96,6 +96,9 @@ async function pollSync() {
           digest.value = data.result.digest
           digestDate.value = new Date().toISOString().slice(0, 10)
         }
+        if (Array.isArray(data.result?.digest_items)) {
+          digestItems.value = data.result.digest_items
+        }
       }
     }
   } catch {}
@@ -113,6 +116,7 @@ const { feedDays, isEmpty } = useFeed(tips, channelsData)
 const todayISO = new Date().toISOString().slice(0, 10)
 const digest = ref(null)
 const digestRaw = ref(null)
+const digestItems = ref([])
 const digestFromCache = ref(false)
 const digestLoading = ref(false)
 const digestError = ref(null)
@@ -180,6 +184,33 @@ function parseDigestSections(rawDigest) {
 
 const parsedDigestSections = computed(() => parseDigestSections(digest.value))
 
+const digestStructuredSections = computed(() => {
+  if (!Array.isArray(digestItems.value) || digestItems.value.length === 0) return null
+  const map = new Map()
+  for (const row of digestItems.value) {
+    const sec = row.section
+    if (typeof sec !== 'string' || !DIGEST_SECTION_SET.has(sec)) continue
+    if (!map.has(sec)) map.set(sec, [])
+    map.get(sec).push(row)
+  }
+  return DIGEST_SECTION_ORDER.map((title) => ({
+    title,
+    items: map.get(title) || [],
+  }))
+})
+
+function digestStateIcon(stato) {
+  if (stato === 'caldo') return '🔥'
+  if (stato === 'monitorare') return '👀'
+  if (stato === 'smentita') return '🧊'
+  return '•'
+}
+
+function digestSourceTimeLabel(startSec) {
+  const off = formatYoutubeOffset(startSec)
+  return off || '??:??'
+}
+
 async function copyDigest() {
   if (!digest.value) return
   try {
@@ -215,6 +246,7 @@ async function generateDigest(force = false) {
   digestError.value = null
   digest.value = null
   digestRaw.value = null
+  digestItems.value = []
   digestFromCache.value = false
   telegramStatus.value = null
   telegramError.value = null
@@ -226,6 +258,7 @@ async function generateDigest(force = false) {
     if (data.digest) {
       digest.value = data.digest
       digestRaw.value = data.digest_raw ?? null
+      digestItems.value = Array.isArray(data.digest_items) ? data.digest_items : []
       digestFromCache.value = data.cached === true
     } else {
       digestError.value = data.message || 'Nessun contenuto per questa data'
@@ -408,7 +441,51 @@ function analysisSourceLabel(item) {
       </div>
 
       <div v-if="digest" class="digest-body">
-        <div v-if="parsedDigestSections">
+        <div v-if="digestStructuredSections">
+          <div
+            v-for="section in digestStructuredSections"
+            :key="section.title"
+            :class="['digest-sec', DIGEST_SECTION_TONE_CLASS[section.title] || '']"
+          >
+            <div class="digest-sec-title">{{ section.title }}</div>
+            <ul class="digest-list">
+              <li
+                v-for="(item, index) in section.items"
+                :key="`${section.title}-${index}-${item.player}`"
+                class="digest-item digest-item--structured"
+              >
+                <span class="digest-item-dot"></span>
+                <div class="digest-item-stack">
+                  <div class="digest-item-line1">
+                    <span class="digest-item-icon">{{ digestStateIcon(item.stato) }}</span>
+                    <strong>{{ item.player }}</strong>
+                    <span class="digest-item-club">({{ item.club }})</span>
+                    <span class="digest-item-dash">—</span>
+                    <span>{{ item.movimento }}</span>
+                  </div>
+                  <div v-if="item.motivo" class="digest-item-motivo">{{ item.motivo }}</div>
+                  <div v-if="item.fonte" class="digest-item-fonte">
+                    <span class="digest-item-fonte-lbl">Fonti:</span> {{ item.fonte }}
+                  </div>
+                  <div v-if="item.sources?.length" class="digest-verifica">
+                    <span class="digest-verifica-lbl">Verifica:</span>
+                    <template v-for="(s, si) in item.sources" :key="`${s.channel_id}-${s.video_id}-${si}`">
+                      <a
+                        class="digest-verifica-link"
+                        :href="s.watch_url"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        @click.stop
+                      >{{ s.channel_label }} ({{ digestSourceTimeLabel(s.start_sec) }})</a>
+                      <span v-if="si < item.sources.length - 1" class="digest-verifica-sep" aria-hidden="true">·</span>
+                    </template>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div v-else-if="parsedDigestSections">
           <div
             v-for="section in parsedDigestSections"
             :key="section.title"

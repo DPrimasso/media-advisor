@@ -40,9 +40,9 @@ Per ogni indiscrezione estratta devi fornire:
     "non sta trattando con nessuno", "trattativa avanzata", "basi dell'accordo raggiunte"
     (null se non c'è nulla di specifico da aggiungere)
 - tip_text: sintesi in max 30 parole (italiano)
-- quote_text: citazione VERBATIM dal transcript (sottostringa esatta)
-- quote_start_sec: timestamp inizio (null se non disponibile)
-- quote_end_sec: timestamp fine (null se non disponibile)
+- quote_text: citazione VERBATIM dal transcript (sottostringa esatta del testo, senza prefisso [secondi]s)
+- quote_start_sec: secondo di inizio della citazione (usa il numero tra [ e s] della riga dove inizia la quote)
+- quote_end_sec: secondo di fine (della riga dove finisce la quote, o stesso di inizio se una sola riga)
 
 REGOLE:
 - ESAURISCI tutti i giocatori con notizie di mercato menzionati nel transcript: non fermarti al primo
@@ -60,7 +60,8 @@ REGOLE:
 - Se lo stesso calciatore è menzionato più volte per LA STESSA operazione, estrai UNA sola tip (la più dettagliata)
 - confidence "confirmed" solo se l'opinionista dice esplicitamente "è fatta", "confermato", "ufficiale", "è scattato l'obbligo"
 - confidence "denied" se dice esplicitamente "non sta trattando", "non c'è trattativa", "è smentita", "l'agente nega", "non ha mai chiesto la cessione"
-- quote_text deve essere una substring esatta del transcript fornito
+- quote_text deve essere una substring esatta del transcript fornito (solo testo parole, mai la parte [12.3s])
+- Il transcript ha una riga per segmento con prefisso [secondi.decimali]s: allinea quote_start_sec al valore [..]s della prima riga coperta dalla quote
 - from_club / to_club: impostali SOLO se compaiono esplicitamente nel contesto della quote_text (niente inferenze)
 - Per rinnovi/extension: from_club e to_club sono lo stesso club (es. Real Madrid→Real Madrid)
 - Per tip "denied": from_club/to_club rappresentano il trasferimento VOCIFERATO che viene smentito (es. "non va al Besiktas" → to_club="Besiktas")
@@ -89,6 +90,22 @@ def _transcript_to_text(data: TranscriptResponse) -> str:
         text = " ".join(seg.text for seg in data.transcript if seg.text)
     else:
         text = str(data.transcript or "")
+    return text[:_MAX_TRANSCRIPT_CHARS]
+
+
+def _transcript_to_timestamped_text(data: TranscriptResponse) -> str:
+    """Una riga per segmento con [start_sec]s così il modello può indicare tempi reali."""
+    if not isinstance(data.transcript, list):
+        return _transcript_to_text(data)
+    lines: list[str] = []
+    for seg in data.transcript:
+        if not seg.text:
+            continue
+        if seg.start is not None:
+            lines.append(f"[{float(seg.start):.1f}s] {seg.text}")
+        else:
+            lines.append(seg.text)
+    text = "\n".join(lines)
     return text[:_MAX_TRANSCRIPT_CHARS]
 
 
@@ -361,7 +378,7 @@ async def extract_mercato_tips(
 
     Returns lista di MercatoTip (può essere vuota se il video non è di mercato).
     """
-    text = _transcript_to_text(data)
+    text = _transcript_to_timestamped_text(data)
     if len(text) < 100:
         return []
 
@@ -373,7 +390,10 @@ async def extract_mercato_tips(
         user_parts.append(f"Opinionista: {ctx['opinionist']}")
     if ctx.get("published_at"):
         user_parts.append(f"Data pubblicazione: {ctx['published_at']}")
-    user_parts.append(f"\nTranscript:\n{text}")
+    user_parts.append(
+        "\nTranscript (ogni riga: [secondi]s testo — copia quote_text solo dal testo, senza [..]s):\n"
+        f"{text}"
+    )
     user_content = "\n".join(user_parts)
 
     system_prompt = _build_system_prompt(data_dir)

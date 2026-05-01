@@ -503,7 +503,9 @@ async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
     from media_advisor.digest import (
         DigestGenerationError,
         format_mercato_report_markdown,
+        flatten_digest_items_for_api,
         generate_mercato_digest,
+        hydrate_digest_sections_from_cache,
         load_report_cache,
         write_mercato_report,
     )
@@ -521,10 +523,18 @@ async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
         cached = load_report_cache(_root, target_date)
         if cached and cached.get("digest_raw"):
             digest_text = cached["digest_raw"]
-            digest_formatted = format_mercato_report_markdown(target_date, digest_text)
+            sections = hydrate_digest_sections_from_cache(
+                _root, target_date, digest_text, cached
+            )
+            digest_formatted = format_mercato_report_markdown(
+                target_date,
+                digest_text,
+                section_items_enriched=sections,
+            )
             return {
                 "digest": digest_formatted,
                 "digest_raw": digest_text,
+                "digest_items": flatten_digest_items_for_api(sections),
                 "date": target_date.isoformat(),
                 "cached": True,
             }
@@ -537,11 +547,13 @@ async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
         return {"digest": None, "message": "Nessun contenuto per questa data"}
 
     now = datetime.now()
-    write_mercato_report(_root, target_date, digest_text, generated_at=now)
-    digest_formatted = format_mercato_report_markdown(target_date, digest_text, generated_at=now)
+    _, digest_formatted, sections = write_mercato_report(
+        _root, target_date, digest_text, generated_at=now
+    )
     return {
         "digest": digest_formatted,
         "digest_raw": digest_text,
+        "digest_items": flatten_digest_items_for_api(sections),
         "date": target_date.isoformat(),
         "cached": False,
     }
@@ -691,7 +703,11 @@ async def post_sync_daily_report() -> Any:
 async def post_publish_telegram(body: dict) -> Any:
     """Pubblica un digest già generato su Telegram. Riceve { digest, date } dal frontend."""
     from datetime import date as date_type
-    from media_advisor.digest import format_mercato_report_telegram
+    from media_advisor.digest import (
+        build_enriched_digest_sections,
+        format_mercato_report_telegram,
+    )
+    from media_advisor.mercato.aggregator import get_tips_for_date
     from media_advisor.telegram.client import TelegramClient, TelegramClientError
 
     digest_text: str | None = body.get("digest")
@@ -709,7 +725,14 @@ async def post_publish_telegram(body: dict) -> Any:
     except ValueError:
         raise HTTPException(status_code=400, detail=f"Data non valida: {date_str}")
 
-    telegram_text = format_mercato_report_telegram(target_date, digest_text, generated_at=datetime.now())
+    tips = get_tips_for_date(_root, target_date)
+    sections, _ = build_enriched_digest_sections(_root, target_date, digest_text, tips=tips)
+    telegram_text = format_mercato_report_telegram(
+        target_date,
+        digest_text,
+        generated_at=datetime.now(),
+        section_items_enriched=sections,
+    )
 
     try:
         result = await TelegramClient(
@@ -1000,6 +1023,7 @@ async def _run_daily_report() -> None:
     from media_advisor.io.paths import transcript_path as _tp
     from media_advisor.models.channels import ChannelsConfig
     from media_advisor.digest import (
+        flatten_digest_items_for_api,
         format_mercato_report_telegram,
         generate_mercato_digest,
         write_mercato_report,
@@ -1095,7 +1119,7 @@ async def _run_daily_report() -> None:
         telegram_content: str | None = None
         if digest_text:
             generated_at = datetime.now()
-            report_file, report_content = write_mercato_report(
+            report_file, report_content, section_enriched = write_mercato_report(
                 root,
                 today,
                 digest_text,
@@ -1105,10 +1129,12 @@ async def _run_daily_report() -> None:
                 today,
                 digest_text,
                 generated_at=generated_at,
+                section_items_enriched=section_enriched,
             )
             _sync_log(f"  Sommario generato ({len(digest_text)} caratteri), salvato in {report_file.name}")
             result_summary["digest"] = report_content
             result_summary["digest_raw"] = digest_text
+            result_summary["digest_items"] = flatten_digest_items_for_api(section_enriched)
         else:
             _sync_log("  Nessun tip con data per oggi — sommario non generato.")
             _sync_log("  Suggerimento: esegui 'mercato-enrich-dates' per popolare le date dei tip.")

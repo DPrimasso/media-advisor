@@ -23,6 +23,7 @@ from media_advisor.mercato.aggregator import load_index
 from media_advisor.mercato.corroborator import corroborate
 from media_advisor.mercato.extractor import extract_mercato_tips
 from media_advisor.mercato.models import MercatoIndex, MercatoTip, OutcomeValue, VideoMercatoResult
+from media_advisor.mercato.quote_timing import try_align_mercato_tip
 from media_advisor.models.transcript import TranscriptResponse
 
 
@@ -169,6 +170,17 @@ async def analyze_video_mercato(
         context=context,
         data_dir=root / "mercato",
     )
+
+    adjusted: list[MercatoTip] = []
+    for tip in tips:
+        st, en = try_align_mercato_tip(root, tip)
+        upd: dict = {}
+        if st is not None:
+            upd["quote_start_sec"] = st
+        if en is not None:
+            upd["quote_end_sec"] = en
+        adjusted.append(tip.model_copy(update=upd) if upd else tip)
+    tips = adjusted
 
     result = VideoMercatoResult(
         video_id=video_id,

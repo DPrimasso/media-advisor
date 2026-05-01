@@ -6,14 +6,18 @@ import html as _html_lib
 import json as _json
 from json import JSONDecodeError
 from pathlib import Path
+import math
 import re
 import unicodedata
+from typing import Any
 
 import openai
-from pydantic import ValidationError
+from pydantic import BaseModel, ConfigDict, Field, ValidationError
 from media_advisor.io.json_io import read_json
 from media_advisor.io.paths import channels_config_path
-from media_advisor.models.channels import ChannelsConfig
+from media_advisor.mercato.models import MercatoTip
+from media_advisor.mercato.quote_timing import refined_start_sec_for_digest
+from media_advisor.models.channels import ChannelConfig, ChannelsConfig
 
 DIGEST_MODEL = "gpt-4.1-mini"
 DIGEST_TOKEN_STEPS = (900, 1500)
@@ -67,6 +71,32 @@ _DIGEST_ITEM_RE = re.compile(
     r"Stato: (?P<stato>caldo|monitorare|smentita); "
     r"Motivo: (?P<motivo>[^;]+); Fonte: (?P<fonte>.+)$"
 )
+
+TWITTER_VERIFICA_MAX_SOURCES = 3
+
+
+class DigestItemSource(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    channel_id: str
+    channel_label: str
+    video_id: str
+    video_title: str | None = None
+    start_sec: float | None = None
+    watch_url: str
+
+
+class DigestItem(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    player: str
+    club: str
+    movimento: str
+    stato: str
+    motivo: str
+    fonte: str
+    sources: list[DigestItemSource] = Field(default_factory=list)
+
 
 _SYSTEM_PROMPT = (
     "Sei il redattore di una rassegna calciomercato italiana. "
@@ -251,6 +281,248 @@ def _parse_digest_sections(
     return section_items, fallback_lines
 
 
+def _split_fonte_tokens(fonte: str) -> list[str]:
+    out: list[str] = []
+    for chunk in re.split(r"[,;]", fonte):
+        c = chunk.strip()
+        if not c:
+            continue
+        low = c.lower()
+        if " e " in low and len(c) < 80:
+            idx = low.find(" e ")
+            left, right = c[:idx].strip(), c[idx + 3 :].strip()
+            if left:
+                out.append(left)
+            if right:
+                out.append(right)
+        else:
+            out.append(c)
+    return out
+
+
+def _channel_fonte_match_score(t_norm: str, ch: ChannelConfig) -> int:
+    """Score token normalizzato vs canale (id + name)."""
+    nid = _normalize_token(ch.id)
+    nn = _normalize_token(ch.name)
+    if not t_norm:
+        return 0
+    if t_norm == nid:
+        return 95
+    if t_norm == nn:
+        return 100
+    if len(t_norm) >= 4 and t_norm in nn:
+        return 72
+    if len(nn) >= 4 and nn in t_norm:
+        return 68
+    return 0
+
+
+def _best_channel_id_for_fonte_token(token: str, cfg: ChannelsConfig) -> str | None:
+    t_norm = _normalize_token(token)
+    if not t_norm:
+        return None
+    best_id: str | None = None
+    best_score = 0
+    for ch in cfg.channels:
+        score = _channel_fonte_match_score(t_norm, ch)
+        if score > best_score:
+            best_score = score
+            best_id = ch.id
+    return best_id if best_score >= 60 else None
+
+
+def _ordered_channel_ids_from_fonte(fonte: str, cfg: ChannelsConfig) -> list[str]:
+    ordered: list[str] = []
+    seen: set[str] = set()
+    for token in _split_fonte_tokens(fonte):
+        cid = _best_channel_id_for_fonte_token(token, cfg)
+        if cid and cid not in seen:
+            seen.add(cid)
+            ordered.append(cid)
+    return ordered
+
+
+def _club_match_score_digest(digest_club: str, tip: MercatoTip) -> int:
+    s = 0
+    for c in (tip.from_club, tip.to_club):
+        if c and _names_are_similar(digest_club, c):
+            s += 10
+    return s
+
+
+def _movimento_overlap_score(movimento: str, tip: MercatoTip) -> int:
+    """Quante parole significative del movimento compaiono in tip/quote (normalizzate)."""
+    if not movimento or not movimento.strip():
+        return 0
+    tokens = [w for w in re.findall(r"[\wàèéìòùÀÈÉÌÒÙ]+", movimento) if len(w) > 2]
+    blob = _normalize_token((tip.tip_text or "") + " " + (tip.quote_text or ""))
+    return sum(1 for w in tokens if _normalize_token(w) in blob)
+
+
+def _pick_best_tip_for_channel(
+    pool: list[MercatoTip],
+    digest_club: str,
+    row_movimento: str,
+    root: Path,
+) -> MercatoTip | None:
+    if not pool:
+        return None
+    max_club = max(_club_match_score_digest(digest_club, t) for t in pool)
+    narrowed = [t for t in pool if _club_match_score_digest(digest_club, t) == max_club]
+
+    def rank(t: MercatoTip) -> tuple:
+        _start, src = refined_start_sec_for_digest(root, t)
+        aligned = src == "aligned"
+        ov = _movimento_overlap_score(row_movimento, t)
+        st = _start if _start is not None else 1e12
+        return (0 if aligned else 1, -ov, st)
+
+    return min(narrowed, key=rank)
+
+
+def _watch_url_digest(video_id: str, start_sec: float | None) -> str:
+    """Deep link YouTube: parametro t in secondi interi (senza suffisso 's', compat massima)."""
+    base = f"https://www.youtube.com/watch?v={video_id}"
+    if start_sec is None:
+        return base
+    try:
+        t = float(start_sec)
+    except (TypeError, ValueError):
+        return base
+    if math.isnan(t):
+        return base
+    ti = max(0, int(round(t)))
+    return f"{base}&t={ti}"
+
+
+def _format_seconds_mmss_digest(sec: float | None) -> str:
+    if sec is None:
+        return "??:??"
+    try:
+        s = float(sec)
+    except (TypeError, ValueError):
+        return "??:??"
+    if math.isnan(s):
+        return "??:??"
+    s = max(0, int(s))
+    h, rem = divmod(s, 3600)
+    m, ss = divmod(rem, 60)
+    if h:
+        return f"{h}:{m:02d}:{ss:02d}"
+    return f"{m}:{ss:02d}"
+
+
+def _resolve_digest_sources_for_row(
+    row: dict[str, str],
+    tips: list[MercatoTip],
+    cfg: ChannelsConfig,
+    id_to_name: dict[str, str],
+    root: Path,
+) -> list[DigestItemSource]:
+    dp = _normalize_token(row["player"])
+    if not dp:
+        return []
+    player_tips = [
+        t for t in tips if _is_normalized_name_match(dp, _normalize_token(t.player_name))
+    ]
+    channel_order = _ordered_channel_ids_from_fonte(row["fonte"], cfg)
+    sources: list[DigestItemSource] = []
+    for cid in channel_order:
+        pool = [t for t in player_tips if t.channel_id == cid]
+        best = _pick_best_tip_for_channel(pool, row["club"], row.get("movimento", ""), root)
+        if not best:
+            continue
+        start_f, _src = refined_start_sec_for_digest(root, best)
+        sources.append(
+            DigestItemSource(
+                channel_id=best.channel_id,
+                channel_label=id_to_name.get(best.channel_id, best.channel_id),
+                video_id=best.video_id,
+                video_title=None,
+                start_sec=start_f,
+                watch_url=_watch_url_digest(best.video_id, start_f),
+            )
+        )
+    return sources
+
+
+def build_enriched_digest_sections(
+    root: Path,
+    target_date: date,
+    digest_text: str,
+    tips: list[MercatoTip] | None = None,
+) -> tuple[dict[str, list[DigestItem]], list[str]]:
+    """Parse digest + risolve link YouTube per ogni voce dai MercatoTip del giorno."""
+    from media_advisor.mercato.aggregator import get_tips_for_date
+
+    if tips is None:
+        tips = get_tips_for_date(root, target_date)
+    raw_sections, fallback = _parse_digest_sections(digest_text)
+    try:
+        raw_cfg = read_json(channels_config_path(root))
+        cfg = ChannelsConfig.model_validate(raw_cfg)
+    except (FileNotFoundError, JSONDecodeError, OSError, ValidationError):
+        cfg = ChannelsConfig(channels=[])
+    id_to_name = {ch.id: ch.name for ch in cfg.channels}
+    if not id_to_name:
+        id_to_name = _load_channel_name_map(root)
+
+    enriched: dict[str, list[DigestItem]] = {h: [] for h in _DIGEST_REQUIRED_HEADERS}
+    for header in _DIGEST_REQUIRED_HEADERS:
+        for row in raw_sections[header]:
+            sources = _resolve_digest_sources_for_row(row, tips, cfg, id_to_name, root)
+            enriched[header].append(
+                DigestItem(
+                    player=row["player"],
+                    club=row["club"],
+                    movimento=row["movimento"],
+                    stato=row["stato"],
+                    motivo=row["motivo"],
+                    fonte=row["fonte"],
+                    sources=sources,
+                )
+            )
+    return enriched, fallback
+
+
+def flatten_digest_items_for_api(section_items: dict[str, list[DigestItem]]) -> list[dict[str, Any]]:
+    out: list[dict[str, Any]] = []
+    for header in _DIGEST_REQUIRED_HEADERS:
+        for it in section_items.get(header, []):
+            d = it.model_dump(mode="json")
+            d["section"] = header
+            out.append(d)
+    return out
+
+
+def sections_from_flat_digest_items(items: list[dict[str, Any]]) -> dict[str, list[DigestItem]]:
+    out: dict[str, list[DigestItem]] = {h: [] for h in _DIGEST_REQUIRED_HEADERS}
+    for row in items:
+        sec = row.get("section")
+        if sec not in out:
+            continue
+        data = {k: v for k, v in row.items() if k != "section"}
+        out[sec].append(DigestItem.model_validate(data))
+    return out
+
+
+def hydrate_digest_sections_from_cache(
+    root: Path,
+    target_date: date,
+    digest_text: str,
+    cached: dict | None,
+) -> dict[str, list[DigestItem]]:
+    """Usa digest_items dalla cache JSON se valido; altrimenti ricalcola senza LLM."""
+    raw_items = (cached or {}).get("digest_items")
+    if isinstance(raw_items, list) and raw_items:
+        try:
+            return sections_from_flat_digest_items(raw_items)
+        except Exception:
+            pass
+    section, _ = build_enriched_digest_sections(root, target_date, digest_text)
+    return section
+
+
 def _digest_item_counts(section_items: dict[str, list[dict[str, str]]]) -> tuple[int, int, int, int]:
     hot = len(section_items["✅ Situazioni calde / scenari aperti"])
     monitor = len(section_items["🕐 Situazioni da monitorare"])
@@ -258,15 +530,35 @@ def _digest_item_counts(section_items: dict[str, list[dict[str, str]]]) -> tuple
     return hot + monitor + denied, hot, monitor, denied
 
 
-def _format_digest_for_report(digest_text: str) -> str:
-    section_items, fallback_lines = _parse_digest_sections(digest_text)
+def _format_verifica_markdown(sources: list[DigestItemSource]) -> str | None:
+    if not sources:
+        return None
+    parts: list[str] = []
+    for s in sources:
+        label = f"{s.channel_label} ({_format_seconds_mmss_digest(s.start_sec)})"
+        parts.append(f"[{label}]({s.watch_url})")
+    return "  > *Verifica*: " + " · ".join(parts)
 
-    total_items = sum(len(items) for items in section_items.values())
+
+def _format_digest_for_report(
+    digest_text: str,
+    *,
+    section_items_enriched: dict[str, list[DigestItem]] | None = None,
+) -> str:
+    if section_items_enriched is None:
+        section_items, fallback_lines = _parse_digest_sections(digest_text)
+        counts = section_items
+    else:
+        section_items = None
+        _, fallback_lines = _parse_digest_sections(digest_text)
+        counts = section_items_enriched
+
+    total_items = sum(len(items) for items in counts.values())
     summary_line = (
         f"📌 **Quadro rapido**: {total_items} notizie consolidate "
-        f"({len(section_items['✅ Situazioni calde / scenari aperti'])} calde, "
-        f"{len(section_items['🕐 Situazioni da monitorare'])} da monitorare, "
-        f"{len(section_items['🚫 Voci ridimensionate / smentite'])} ridimensionate/smentite)."
+        f"({len(counts['✅ Situazioni calde / scenari aperti'])} calde, "
+        f"{len(counts['🕐 Situazioni da monitorare'])} da monitorare, "
+        f"{len(counts['🚫 Voci ridimensionate / smentite'])} ridimensionate/smentite)."
     )
 
     section_intro = {
@@ -277,24 +569,39 @@ def _format_digest_for_report(digest_text: str) -> str:
     state_icon = {"caldo": "🔥", "monitorare": "👀", "smentita": "🧊"}
     formatted_lines: list[str] = [summary_line, ""]
     for header in _DIGEST_REQUIRED_HEADERS:
-        items = section_items[header]
-        formatted_lines.append(f"## {header} ({len(items)})")
+        items_raw = counts[header] if section_items is None else None
+        items_en = section_items_enriched[header] if section_items_enriched is not None else None
+        n = len(items_raw or items_en or [])
+        formatted_lines.append(f"## {header} ({n})")
         formatted_lines.append(section_intro[header])
         formatted_lines.append("")
 
-        if not items:
+        if n == 0:
             formatted_lines.append("- Nessuna notizia rilevante in questa sezione.")
             formatted_lines.append("")
             continue
 
-        for item in items:
-            icon = state_icon.get(item["stato"], "•")
-            formatted_lines.append(
-                f"- {icon} **{item['player']}** ({item['club']}): aggiornamento su **{item['movimento']}**."
-            )
-            formatted_lines.append(
-                f"  _Contesto:_ {item['motivo']}.  \n  _Fonti:_ {item['fonte']}."
-            )
+        if section_items_enriched is not None and items_en is not None:
+            for item in items_en:
+                icon = state_icon.get(item.stato, "•")
+                formatted_lines.append(
+                    f"- {icon} **{item.player}** ({item.club}): aggiornamento su **{item.movimento}**."
+                )
+                formatted_lines.append(
+                    f"  _Contesto:_ {item.motivo}.  \n  _Fonti:_ {item.fonte}."
+                )
+                vm = _format_verifica_markdown(item.sources)
+                if vm:
+                    formatted_lines.append(vm)
+        elif items_raw is not None:
+            for item in items_raw:
+                icon = state_icon.get(item["stato"], "•")
+                formatted_lines.append(
+                    f"- {icon} **{item['player']}** ({item['club']}): aggiornamento su **{item['movimento']}**."
+                )
+                formatted_lines.append(
+                    f"  _Contesto:_ {item['motivo']}.  \n  _Fonti:_ {item['fonte']}."
+                )
         formatted_lines.append("")
 
     if fallback_lines:
@@ -309,6 +616,8 @@ def format_mercato_report_telegram(
     target_date: date,
     digest_text: str,
     generated_at: datetime | None = None,
+    *,
+    section_items_enriched: dict[str, list[DigestItem]] | None = None,
 ) -> str:
     """Formatta il digest per Telegram con HTML parse mode."""
     def _h(t: str) -> str:
@@ -317,8 +626,16 @@ def format_mercato_report_telegram(
     generated = generated_at or datetime.now()
     date_it = _format_date_it(target_date)
     now_str = generated.strftime("%H:%M")
-    section_items, fallback_lines = _parse_digest_sections(digest_text)
-    total_items, hot_count, monitor_count, denied_count = _digest_item_counts(section_items)
+    if section_items_enriched is None:
+        section_items, fallback_lines = _parse_digest_sections(digest_text)
+        total_items, hot_count, monitor_count, denied_count = _digest_item_counts(section_items)
+    else:
+        section_items = None
+        _, fallback_lines = _parse_digest_sections(digest_text)
+        total_items = sum(len(section_items_enriched[h]) for h in _DIGEST_REQUIRED_HEADERS)
+        hot_count = len(section_items_enriched["✅ Situazioni calde / scenari aperti"])
+        monitor_count = len(section_items_enriched["🕐 Situazioni da monitorare"])
+        denied_count = len(section_items_enriched["🚫 Voci ridimensionate / smentite"])
 
     div = "─" * 18
 
@@ -332,19 +649,39 @@ def format_mercato_report_telegram(
     for header in _DIGEST_REQUIRED_HEADERS:
         label = _DIGEST_SECTION_LABELS_TELEGRAM[header]
         icon = _DIGEST_SECTION_ICONS[header]
-        items = section_items[header]
-        lines.extend(["", div, "", f"{label}  ({len(items)})"])
+        if section_items_enriched is None:
+            items_dict = section_items[header] if section_items is not None else []
+            items_en = None
+        else:
+            items_dict = None
+            items_en = section_items_enriched[header]
+        n = len(items_dict or items_en or [])
+        lines.extend(["", div, "", f"{label}  ({n})"])
 
-        if not items:
+        if n == 0:
             lines.append("• Nessuna notizia rilevante.")
             continue
 
-        for item in items:
-            lines.append("")
-            lines.append(f"{icon} <b>{_h(item['player'])}</b>")
-            lines.append(f"<i>{_h(item['club'])} → {_h(item['movimento'])}</i>")
-            lines.append(_h(item["motivo"]))
-            lines.append(f"<i>Fonte:</i> {_h(item['fonte'])}")
+        if section_items_enriched is not None and items_en is not None:
+            for item in items_en:
+                lines.append("")
+                lines.append(f"{icon} <b>{_h(item.player)}</b>")
+                lines.append(f"<i>{_h(item.club)} → {_h(item.movimento)}</i>")
+                lines.append(_h(item.motivo))
+                lines.append(f"<i>Fonte:</i> {_h(item.fonte)}")
+                if item.sources:
+                    v_parts: list[str] = []
+                    for s in item.sources:
+                        lab = f"{s.channel_label} ({_format_seconds_mmss_digest(s.start_sec)})"
+                        v_parts.append(f"<a href=\"{_h(s.watch_url)}\">{_h(lab)}</a>")
+                    lines.append("<i>Verifica:</i> " + " · ".join(v_parts))
+        elif items_dict is not None:
+            for item in items_dict:
+                lines.append("")
+                lines.append(f"{icon} <b>{_h(item['player'])}</b>")
+                lines.append(f"<i>{_h(item['club'])} → {_h(item['movimento'])}</i>")
+                lines.append(_h(item["motivo"]))
+                lines.append(f"<i>Fonte:</i> {_h(item['fonte'])}")
 
     if fallback_lines:
         lines.extend(["", div, "", "ℹ️ <b>Note</b>"])
@@ -359,13 +696,22 @@ def format_mercato_report_twitter(
     target_date: date,
     digest_text: str,
     generated_at: datetime | None = None,
+    *,
+    section_items_enriched: dict[str, list[DigestItem]] | None = None,
 ) -> str:
     """Formatta il digest per Twitter/X in testo plain."""
     generated = generated_at or datetime.now()
     date_it = _format_date_it(target_date)
     now_str = generated.strftime("%H:%M")
-    section_items, _ = _parse_digest_sections(digest_text)
-    total_items, hot_count, monitor_count, denied_count = _digest_item_counts(section_items)
+    if section_items_enriched is None:
+        section_items, _ = _parse_digest_sections(digest_text)
+        total_items, hot_count, monitor_count, denied_count = _digest_item_counts(section_items)
+    else:
+        section_items = None
+        total_items = sum(len(section_items_enriched[h]) for h in _DIGEST_REQUIRED_HEADERS)
+        hot_count = len(section_items_enriched["✅ Situazioni calde / scenari aperti"])
+        monitor_count = len(section_items_enriched["🕐 Situazioni da monitorare"])
+        denied_count = len(section_items_enriched["🚫 Voci ridimensionate / smentite"])
 
     lines: list[str] = [
         f"CALCIOMERCATO | {date_it}",
@@ -376,17 +722,36 @@ def format_mercato_report_twitter(
     for header in _DIGEST_REQUIRED_HEADERS:
         label = _DIGEST_SECTION_LABELS_TWITTER[header]
         icon = _DIGEST_SECTION_ICONS[header]
-        items = section_items[header]
+        if section_items_enriched is None:
+            items = section_items[header] if section_items is not None else []
+            items_en_tw: list[DigestItem] | None = None
+        else:
+            items = None
+            items_en_tw = section_items_enriched[header]
+        n = len(items or items_en_tw or [])
         lines.append(label)
-        if not items:
+        if not n:
             lines.append("- Nessun aggiornamento rilevante.")
             lines.append("")
             continue
-        for item in items:
-            lines.append(
-                f"- {icon} {item['player']} ({item['club']}): {item['movimento']}. "
-                f"{item['motivo']}. Fonte: {item['fonte']}."
-            )
+        if section_items_enriched is not None and items_en_tw is not None:
+            for item in items_en_tw:
+                lines.append(
+                    f"- {icon} {item.player} ({item.club}): {item.movimento}. "
+                    f"{item.motivo}. Fonte: {item.fonte}."
+                )
+                if item.sources:
+                    parts_tw: list[str] = []
+                    for s in item.sources[:TWITTER_VERIFICA_MAX_SOURCES]:
+                        parts_tw.append(f"{s.channel_label} {_watch_url_digest(s.video_id, s.start_sec)}")
+                    suffix = " …" if len(item.sources) > TWITTER_VERIFICA_MAX_SOURCES else ""
+                    lines.append(f"  Verifica: {' | '.join(parts_tw)}{suffix}")
+        elif items is not None:
+            for item in items:
+                lines.append(
+                    f"- {icon} {item['player']} ({item['club']}): {item['movimento']}. "
+                    f"{item['motivo']}. Fonte: {item['fonte']}."
+                )
         lines.append("")
 
     lines.extend(
@@ -496,11 +861,16 @@ def format_mercato_report_markdown(
     target_date: date,
     digest_text: str,
     generated_at: datetime | None = None,
+    *,
+    section_items_enriched: dict[str, list[DigestItem]] | None = None,
 ) -> str:
     generated = generated_at or datetime.now()
     date_it = _format_date_it(target_date)
     now_str = generated.strftime("%H:%M del %d/%m/%Y")
-    rendered_digest = _format_digest_for_report(digest_text)
+    rendered_digest = _format_digest_for_report(
+        digest_text,
+        section_items_enriched=section_items_enriched,
+    )
     return (
         f"# Calciomercato — {date_it}\n\n"
         "> Rassegna giornaliera consolidata (notizie simili accorpate, fonti aggregate).\n\n"
@@ -518,24 +888,47 @@ def write_mercato_report(
     target_date: date,
     digest_text: str,
     generated_at: datetime | None = None,
-) -> tuple[Path, str]:
+) -> tuple[Path, str, dict[str, list[DigestItem]]]:
+    from media_advisor.mercato.aggregator import get_tips_for_date
+
     generated_at = generated_at or datetime.now()
+    tips = get_tips_for_date(root, target_date)
+    section_enriched, _ = build_enriched_digest_sections(
+        root, target_date, digest_text, tips=tips
+    )
     day = target_date.isoformat()
     reports_dir = root / "reports"
     report_path = reports_dir / f"{day}.md"
     reports_dir.mkdir(parents=True, exist_ok=True)
-    content = format_mercato_report_markdown(target_date, digest_text, generated_at=generated_at)
+    content = format_mercato_report_markdown(
+        target_date,
+        digest_text,
+        generated_at=generated_at,
+        section_items_enriched=section_enriched,
+    )
     report_path.write_text(content, encoding="utf-8")
-    telegram_content = format_mercato_report_telegram(target_date, digest_text, generated_at=generated_at)
-    twitter_content = format_mercato_report_twitter(target_date, digest_text, generated_at=generated_at)
+    telegram_content = format_mercato_report_telegram(
+        target_date,
+        digest_text,
+        generated_at=generated_at,
+        section_items_enriched=section_enriched,
+    )
+    twitter_content = format_mercato_report_twitter(
+        target_date,
+        digest_text,
+        generated_at=generated_at,
+        section_items_enriched=section_enriched,
+    )
     (reports_dir / f"{day}.telegram.html").write_text(telegram_content, encoding="utf-8")
     (reports_dir / f"{day}.twitter.txt").write_text(twitter_content, encoding="utf-8")
 
+    digest_items_flat = flatten_digest_items_for_api(section_enriched)
     cache_path = reports_dir / f"{day}.json"
     cache_path.write_text(
         _json.dumps(
             {
                 "digest_raw": digest_text,
+                "digest_items": digest_items_flat,
                 "generated_at": generated_at.isoformat(),
                 "telegram_path": f"reports/{day}.telegram.html",
                 "twitter_path": f"reports/{day}.twitter.txt",
@@ -545,11 +938,11 @@ def write_mercato_report(
         ),
         encoding="utf-8",
     )
-    return report_path, content
+    return report_path, content, section_enriched
 
 
 def load_report_cache(root: Path, target_date: date) -> dict | None:
-    """Legge il report salvato per una data. Ritorna {digest_raw, generated_at} o None."""
+    """Legge il report salvato per una data. Ritorna dict con digest_raw, digest_items (opz.), generated_at, … o None."""
     cache_path = root / "reports" / f"{target_date.isoformat()}.json"
     if not cache_path.exists():
         return None

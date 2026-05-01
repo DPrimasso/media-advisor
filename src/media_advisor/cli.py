@@ -1677,7 +1677,7 @@ def cmd_daily_report(
         typer.echo("Suggerimento: verifica che i tip abbiano 'mentioned_at' valorizzato (mercato-enrich-dates).")
         raise typer.Exit(0)
 
-    report_file, content = write_mercato_report(root, target_date, digest_text)
+    report_file, content, _ = write_mercato_report(root, target_date, digest_text)
     typer.echo(f"\n{'='*60}")
     typer.echo(content)
     typer.echo(f"{'='*60}")
