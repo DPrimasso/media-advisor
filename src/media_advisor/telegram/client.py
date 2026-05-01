@@ -94,11 +94,6 @@ class TelegramClient:
         chunks = _chunk_message(text)
         if not chunks:
             return TelegramSendResult(chunks_sent=0, message_ids=[])
-        if parse_mode and len(chunks) > 1:
-            raise TelegramClientError(
-                "Cannot safely chunk formatted messages with parse_mode; "
-                "send plain text or pre-split content"
-            )
 
         message_ids: list[int] = []
         async with httpx.AsyncClient(timeout=self._timeout) as client:

@@ -6,6 +6,10 @@ import {
   CONFIDENCE_CLASSES,
   OUTCOME_LABELS,
   OUTCOME_CLASSES,
+  CONFIDENCE_CHIP,
+  CONFIDENCE_DOT,
+  OUTCOME_CHIP,
+  OUTCOME_DOT,
 } from '../composables/useMercatoLabels.js'
 
 const { channelsData, loading: analysesLoading, loadAnalyses } = inject('channelsData')
@@ -25,6 +29,7 @@ async function fetchTips() {
 
 // Sync: stato letto da /api/sync/status al mount (se running sul server, UI + poll riprendono)
 const syncStatus = ref(null)   // null | { status, log, result, error }
+const syncType = ref(null)     // 'recent' | 'total' | 'daily' | null
 let syncPollInterval = null
 
 function ensurePollStopped() {
@@ -59,20 +64,22 @@ onMounted(async () => {
   await Promise.all([fetchTips(), hydrateSyncFromServer()])
 })
 
-async function _doSync(endpoint) {
+async function _doSync(endpoint, type) {
   const res = await fetch(endpoint, { method: 'POST' })
   if (!res.ok) {
     const data = await res.json().catch(() => ({}))
     syncStatus.value = { status: 'error', error: data.detail || `Errore ${res.status}`, log: [] }
+    syncType.value = type
     return
   }
   syncStatus.value = { status: 'running', log: [], result: null, error: null }
+  syncType.value = type
   ensurePollRunning()
 }
 
-function startSyncRecent()    { return _doSync('/api/sync/recent') }
-function startSync()          { return _doSync('/api/sync') }
-function startDailyReport()   { return _doSync('/api/sync/daily-report') }
+function startSyncRecent()    { return _doSync('/api/sync/recent', 'recent') }
+function startSync()          { return _doSync('/api/sync', 'total') }
+function startDailyReport()   { return _doSync('/api/sync/daily-report', 'daily') }
 
 async function pollSync() {
   try {
@@ -105,15 +112,19 @@ const { feedDays, isEmpty } = useFeed(tips, channelsData)
 // Sommario
 const todayISO = new Date().toISOString().slice(0, 10)
 const digest = ref(null)
+const digestRaw = ref(null)
+const digestFromCache = ref(false)
 const digestLoading = ref(false)
 const digestError = ref(null)
 const digestDate = ref(todayISO)
 const digestCopied = ref(false)
+const telegramStatus = ref(null)  // null | 'loading' | 'done' | 'error'
+const telegramError = ref(null)
 
 const DIGEST_SECTIONS = [
-  { title: '✅ Situazioni calde / scenari aperti', toneClass: 'sommario-digest-section--hot' },
-  { title: '🕐 Situazioni da monitorare', toneClass: 'sommario-digest-section--watch' },
-  { title: '🚫 Voci ridimensionate / smentite', toneClass: 'sommario-digest-section--deny' },
+  { title: '✅ Situazioni calde / scenari aperti', toneClass: 'digest-sec--hot' },
+  { title: '🕐 Situazioni da monitorare', toneClass: 'digest-sec--watch' },
+  { title: '🚫 Voci ridimensionate / smentite', toneClass: 'digest-sec--deny' },
 ]
 const DIGEST_SECTION_ORDER = DIGEST_SECTIONS.map((section) => section.title)
 const DIGEST_SECTION_SET = new Set(DIGEST_SECTION_ORDER)
@@ -180,16 +191,42 @@ async function copyDigest() {
   }
 }
 
-async function generateDigest() {
+async function publishToTelegram() {
+  if (!digestRaw.value) return
+  telegramStatus.value = 'loading'
+  telegramError.value = null
+  try {
+    const res = await fetch('/api/feed/digest/publish-telegram', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ digest: digestRaw.value, date: digestDate.value }),
+    })
+    const data = await res.json().catch(() => ({}))
+    if (!res.ok) throw new Error(data.detail || `Errore ${res.status}`)
+    telegramStatus.value = 'done'
+  } catch (e) {
+    telegramStatus.value = 'error'
+    telegramError.value = e.message
+  }
+}
+
+async function generateDigest(force = false) {
   digestLoading.value = true
   digestError.value = null
   digest.value = null
+  digestRaw.value = null
+  digestFromCache.value = false
+  telegramStatus.value = null
+  telegramError.value = null
   try {
-    const res = await fetch(`/api/feed/digest?date=${digestDate.value}`)
+    const url = `/api/feed/digest?date=${digestDate.value}${force ? '&force=true' : ''}`
+    const res = await fetch(url)
     if (!res.ok) throw new Error(`Errore ${res.status}`)
     const data = await res.json()
     if (data.digest) {
       digest.value = data.digest
+      digestRaw.value = data.digest_raw ?? null
+      digestFromCache.value = data.cached === true
     } else {
       digestError.value = data.message || 'Nessun contenuto per questa data'
     }
@@ -274,883 +311,247 @@ function analysisSourceLabel(item) {
 </script>
 
 <template>
-  <div class="rassegna-view">
-    <header class="rassegna-masthead">
-      <div class="rassegna-masthead-left">
-        <h2 class="rassegna-title">Rassegna Stampa</h2>
-        <p class="rassegna-date">{{ formattedToday }}</p>
+  <div class="page">
+    <header class="masthead">
+      <div>
+        <h2 class="masthead-title">Rassegna Stampa</h2>
+        <p class="masthead-date">{{ formattedToday }}</p>
       </div>
-      <div class="sync-buttons">
+      <div class="masthead-actions">
         <button
-          class="btn-sync"
-          :class="{
-            'btn-sync--running': syncStatus?.status === 'running',
-            'btn-sync--done': syncStatus?.status === 'done',
-            'btn-sync--error': syncStatus?.status === 'error',
-          }"
+          class="btn btn-primary"
           :disabled="syncStatus?.status === 'running'"
           @click="startSyncRecent"
-          title="Scarica solo i video usciti dopo l'ultima sincronizzazione"
+          title="Scarica i nuovi video, esegue transcript e analisi"
         >
-          <span class="btn-sync-icon">
-            <svg v-if="syncStatus?.status !== 'running'" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
-            <span v-else class="sync-spinner"></span>
-          </span>
-          <span class="btn-sync-label">
-            <template v-if="!syncStatus || syncStatus.status === 'idle'">Sincronizza Recenti</template>
-            <template v-else-if="syncStatus.status === 'running'">In corso…</template>
-            <template v-else-if="syncStatus.status === 'done'">Aggiornato</template>
-            <template v-else-if="syncStatus.status === 'error'">Errore</template>
-          </span>
+          <svg v-if="!(syncStatus?.status === 'running' && syncType === 'recent')" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
+          <span v-else class="spin-sm"></span>
+          {{ syncStatus?.status === 'running' && syncType === 'recent' ? 'Sincronizzando…' : 'Sincronizza' }}
         </button>
-
         <button
-          class="btn-sync btn-sync--secondary"
+          class="btn btn-secondary"
+          style="opacity:0.55;font-size:12px"
           :disabled="syncStatus?.status === 'running'"
           @click="startSync"
-          title="Scarica tutti i video e ri-analizza quelli mancanti"
+          title="Riscarica e analizza tutti i video"
         >
-          <span class="btn-sync-icon">
-            <svg v-if="syncStatus?.status !== 'running'" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/><path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"/><path d="M8 16H3v5"/></svg>
-            <span v-else class="sync-spinner"></span>
-          </span>
-          <span class="btn-sync-label">Sincronizza Totale</span>
-        </button>
-
-        <button
-          class="btn-sync btn-sync--report"
-          :disabled="syncStatus?.status === 'running'"
-          @click="startDailyReport"
-          title="Scarica nuovi video, estrae tip mercato e genera il sommario del giorno"
-        >
-          <span class="btn-sync-icon">
-            <svg v-if="syncStatus?.status !== 'running'" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-            <span v-else class="sync-spinner"></span>
-          </span>
-          <span class="btn-sync-label">Report del Giorno</span>
+          Totale
         </button>
       </div>
     </header>
 
     <div v-if="syncStatus && syncStatus.status !== 'idle'" class="sync-panel">
-      <div class="sync-panel-header">
-        <span class="sync-panel-title">
-          <template v-if="syncStatus.status === 'running'">Sincronizzazione in corso</template>
-          <template v-else-if="syncStatus.status === 'done'">Sincronizzazione completata</template>
-          <template v-else>Sincronizzazione fallita</template>
+      <div class="sync-head">
+        <span class="sync-lbl">
+          <template v-if="syncStatus.status === 'running'">
+            {{ syncType === 'daily' ? 'Pubblicazione in corso' : 'Sincronizzazione' }}
+          </template>
+          <template v-else-if="syncStatus.status === 'done'">Completata</template>
+          <template v-else>Errore</template>
         </span>
-        <div v-if="syncStatus.status === 'done' && syncStatus.result" class="sync-result-badges">
-          <span class="sync-badge">+{{ syncStatus.result.new_videos ?? 0 }} video</span>
-          <span class="sync-badge">{{ syncStatus.result.analyzed ?? 0 }} analisi</span>
-          <span v-if="syncStatus.result.mercato_tips" class="sync-badge sync-badge--mercato">{{ syncStatus.result.mercato_tips }} tip mercato</span>
-          <span v-if="syncStatus.result.digest" class="sync-badge sync-badge--digest">Sommario generato</span>
+        <div v-if="syncStatus.status === 'done' && syncStatus.result" style="display:flex;gap:5px;flex-wrap:wrap">
+          <span class="chip chip--green">+{{ syncStatus.result.new_videos ?? 0 }} video</span>
+          <span class="chip chip--green">{{ syncStatus.result.analyzed ?? 0 }} analisi</span>
+          <span v-if="syncStatus.result.mercato_tips" class="chip chip--amber">{{ syncStatus.result.mercato_tips }} tip</span>
+          <span v-if="syncStatus.result.digest" class="chip chip--gold">Sommario generato</span>
         </div>
-        <button v-if="syncStatus.status !== 'running'" class="sync-panel-close" @click="syncStatus = null">✕</button>
+        <button v-if="syncStatus.status !== 'running'" class="btn-icon" style="width:24px;height:24px;font-size:11px;margin-left:auto" @click="syncStatus = null">✕</button>
       </div>
-      <div v-if="syncStatus.status === 'running' && syncStatus.progress?.total > 0" class="sync-progress-wrap">
-        <div class="sync-progress-bar">
+      <div v-if="syncStatus.status === 'running' && syncStatus.progress?.total > 0">
+        <div class="progress-track">
           <div
-            class="sync-progress-fill"
+            class="progress-fill"
             :style="{ width: Math.round((syncStatus.progress.current / syncStatus.progress.total) * 100) + '%' }"
           ></div>
         </div>
-        <div class="sync-progress-meta">
-          <span class="sync-progress-count">{{ syncStatus.progress.current }} / {{ syncStatus.progress.total }} video</span>
-          <span v-if="syncStatus.progress.channel" class="sync-progress-channel">{{ syncStatus.progress.channel }}</span>
-          <span class="sync-progress-pct">{{ Math.round((syncStatus.progress.current / syncStatus.progress.total) * 100) }}%</span>
+        <div style="display:flex;justify-content:space-between;font-family:var(--m);font-size:11px;color:var(--tm);margin-bottom:7px">
+          <span>{{ syncStatus.progress.channel || '' }}</span>
+          <span>{{ Math.round((syncStatus.progress.current / syncStatus.progress.total) * 100) }}%</span>
         </div>
       </div>
-
       <div v-if="syncStatus.log?.length" class="sync-log">
-        <div
-          v-for="(line, i) in syncStatus.log.slice(-8)"
-          :key="i"
-          class="sync-log-line"
-        >{{ line }}</div>
+        <div v-for="(line, i) in syncStatus.log.slice(-8)" :key="i">{{ line }}</div>
       </div>
-      <p v-if="syncStatus.error" class="sync-error">{{ syncStatus.error }}</p>
+      <p v-if="syncStatus.error" style="font-size:12px;color:var(--re);margin-top:6px">{{ syncStatus.error }}</p>
     </div>
 
-    <section class="sommario-section">
-      <div class="sommario-header">
-        <h3 class="sommario-title">Sommario del Giorno</h3>
-        <div class="sommario-controls">
+    <div class="digest">
+      <div class="digest-head">
+        <div>
+          <div class="label digest-eyebrow">Sommario AI</div>
+          <h3 class="digest-title">Briefing del Giorno</h3>
+        </div>
+        <div class="digest-controls">
           <input
             type="date"
-            class="digest-date-input"
+            class="digest-input"
             v-model="digestDate"
             :max="todayISO"
           />
           <button
-            class="btn-genera"
+            class="btn btn-primary btn-sm"
             :disabled="digestLoading"
-            @click="generateDigest"
+            @click="generateDigest(false)"
           >
-            {{ digestLoading ? 'Generando…' : digest ? '↺ Rigenera' : '✦ Genera Sommario' }}
+            {{ digestLoading && !digest ? '…' : '✦ Genera' }}
           </button>
+          <button
+            v-if="digest"
+            class="btn btn-secondary btn-sm"
+            :disabled="digestLoading"
+            @click="generateDigest(true)"
+          >
+            {{ digestLoading ? '…' : '↺ Rigenera' }}
+          </button>
+          <span v-if="digestFromCache && !digestLoading" class="chip chip--gold" style="font-size:11px">salvato</span>
         </div>
       </div>
-      <div v-if="digest" class="sommario-body">
-        <div v-if="parsedDigestSections" class="sommario-structured">
-          <section
+
+      <div v-if="digest" class="digest-body">
+        <div v-if="parsedDigestSections">
+          <div
             v-for="section in parsedDigestSections"
             :key="section.title"
-            :class="['sommario-digest-section', DIGEST_SECTION_TONE_CLASS[section.title] || '']"
+            :class="['digest-sec', DIGEST_SECTION_TONE_CLASS[section.title] || '']"
           >
-            <h4 class="sommario-digest-title">{{ section.title }}</h4>
-            <ul class="sommario-digest-list">
+            <div class="digest-sec-title">{{ section.title }}</div>
+            <ul class="digest-list">
               <li
                 v-for="(item, index) in section.items"
                 :key="`${section.title}-${index}`"
-                class="sommario-digest-item"
+                class="digest-item"
               >
-                {{ item }}
+                <span class="digest-item-dot"></span>
+                <span>{{ item }}</span>
               </li>
             </ul>
-          </section>
+          </div>
         </div>
-        <p v-else class="sommario-text sommario-text--plain">{{ digest }}</p>
-        <button class="btn-copia" @click="copyDigest">
-          {{ digestCopied ? '✓ Copiato!' : 'Copia' }}
-        </button>
+        <div v-else style="padding:16px 22px">
+          <p style="font-size:13.5px;color:var(--t2);white-space:pre-wrap">{{ digest }}</p>
+        </div>
+        <div class="digest-foot">
+          <button class="btn btn-secondary btn-sm" @click="copyDigest">
+            {{ digestCopied ? '✓ Copiato' : 'Copia testo' }}
+          </button>
+          <button
+            class="btn btn-secondary btn-sm"
+            :disabled="telegramStatus === 'loading' || !digestRaw"
+            @click="publishToTelegram"
+            title="Invia il sommario su Telegram"
+          >
+            <svg v-if="telegramStatus !== 'loading'" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            <span v-else class="spin-sm"></span>
+            <span v-if="telegramStatus === 'done'">Inviato ✓</span>
+            <span v-else-if="telegramStatus === 'error'">Errore</span>
+            <span v-else>Telegram</span>
+          </button>
+          <span v-if="telegramStatus === 'error' && telegramError" style="font-size:12px;color:var(--re)">{{ telegramError }}</span>
+          <span style="margin-left:auto;font-family:var(--m);font-size:11px;color:var(--tm)">{{ digestDate }}</span>
+        </div>
       </div>
-      <p v-else-if="digestError" class="sommario-error">{{ digestError }}</p>
-      <p v-else-if="!digestLoading" class="sommario-placeholder">
-        Clicca "Genera Sommario" per ricevere un briefing giornalistico generato da AI.
-      </p>
-    </section>
-
-    <div v-if="loading" class="loading">Caricamento…</div>
-
-    <div v-else-if="isEmpty" class="empty-state">
-      <p class="empty-state-title">Nessun contenuto recente</p>
-      <p class="empty-state-text">Non ci sono notizie o analisi negli ultimi 7 giorni.</p>
+      <p v-else-if="digestError" style="padding:16px 22px;font-size:13px;color:var(--re)">{{ digestError }}</p>
+      <div v-else class="digest-placeholder">
+        Clicca <strong>Genera</strong> per ricevere il briefing giornaliero elaborato dall'AI.
+      </div>
     </div>
 
-    <div v-else class="feed-days">
-      <section v-for="day in feedDays" :key="day.key" class="feed-day">
-        <h3 class="day-header">{{ day.label }}</h3>
+    <div v-if="loading" class="loading-wrap">
+      <div class="spinner"></div>
+      <span>Caricamento…</span>
+    </div>
+
+    <div v-else-if="isEmpty" class="empty">
+      <div class="empty-icon">◦</div>
+      <div class="empty-title">Nessun contenuto recente</div>
+      <div class="empty-sub">Non ci sono notizie o analisi negli ultimi 7 giorni.</div>
+    </div>
+
+    <template v-else>
+      <div v-for="day in feedDays" :key="day.key" class="day-group">
+        <h3 class="day-head">
+          {{ day.label }}
+          <span class="day-count">{{ day.items.length }}</span>
+        </h3>
         <div class="day-items">
           <template
             v-for="item in day.items"
             :key="item.type + '-' + (item.tip_id || item.video_id)"
           >
-            <div v-if="item.type === 'tip'" class="feed-card feed-card--tip">
+            <article v-if="item.type === 'tip'" class="fc">
               <div class="fc-meta">
-                <span class="fc-type-badge fc-type-badge--tip">Mercato</span>
-                <span class="fc-channel">{{ item.channel_name || formatChannelName(item.channel_id) }}</span>
+                <span class="cat-tag cat-tag--mercato">Mercato</span>
+                <span class="fc-src">{{ item.channel_name || formatChannelName(item.channel_id) }}</span>
                 <a
                   v-if="item.video_id"
-                  class="fc-yt-link"
+                  class="fc-yt"
                   :href="tipSourceHref(item)"
                   target="_blank"
                   rel="noopener noreferrer"
-                  :title="item.quote_start_sec != null ? 'Apri il video al momento citato' : 'Apri il video'"
                   @click.stop
                 >{{ tipSourceLabel(item) }}</a>
                 <span class="fc-time">{{ formatTime(item.date) }}</span>
               </div>
-              <div class="fc-tip-header">
-                <span class="fc-player">{{ item.player_name }}</span>
-                <span :class="['badge', CONFIDENCE_CLASSES[item.confidence]]">
+              <div class="fc-chips">
+                <span class="chip" :class="CONFIDENCE_CHIP[item.confidence] || 'chip--muted'">
+                  <span class="status-dot" :class="CONFIDENCE_DOT[item.confidence] || 'dot-muted'"></span>
                   {{ CONFIDENCE_LABELS[item.confidence] || item.confidence }}
                 </span>
-                <span :class="['badge', OUTCOME_CLASSES[item.outcome]]">
+                <span class="chip" :class="OUTCOME_CHIP[item.outcome] || 'chip--muted'">
+                  <span class="status-dot" :class="OUTCOME_DOT[item.outcome] || 'dot-muted'"></span>
                   {{ OUTCOME_LABELS[item.outcome] || item.outcome }}
                 </span>
               </div>
+              <button class="fc-player">{{ item.player_name }}</button>
               <div v-if="item.from_club || item.to_club" class="fc-transfer">
                 <span v-if="item.from_club" class="fc-from">{{ item.from_club }}</span>
-                <span class="fc-arrow">→</span>
+                <span class="fc-arr">→</span>
                 <span v-if="item.to_club" class="fc-to">{{ item.to_club }}</span>
-                <span v-else class="fc-to fc-to--unknown">?</span>
+                <span v-else class="fc-to-unk">destinazione aperta</span>
               </div>
               <p class="fc-text">{{ item.tip_text }}</p>
-            </div>
+            </article>
 
-            <div v-else-if="item.type === 'analysis'" class="feed-card feed-card--analysis">
+            <article v-else-if="item.type === 'analysis'" class="fc">
               <div class="fc-meta">
-                <span class="fc-type-badge fc-type-badge--analysis">Video</span>
-                <span class="fc-channel">{{ item.channel_name || formatChannelName(item.channel_id) }}</span>
+                <span class="cat-tag cat-tag--video">Analisi</span>
+                <span class="fc-src">{{ item.channel_name || formatChannelName(item.channel_id) }}</span>
                 <a
                   v-if="item.video_id"
-                  class="fc-yt-link"
+                  class="fc-yt"
                   :href="analysisSourceHref(item)"
                   target="_blank"
                   rel="noopener noreferrer"
-                  :title="analysisEarliestQuoteSec(item) != null ? 'Apre il primo claim con citazione nel video' : 'Apri il video'"
                   @click.stop
                 >{{ analysisSourceLabel(item) }}</a>
                 <span class="fc-time">{{ formatTime(item.date) }}</span>
               </div>
-              <h4 class="fc-video-title">{{ item.metadata?.title }}</h4>
+              <h4 class="fc-title">{{ item.metadata?.title }}</h4>
               <p v-if="item.summary" class="fc-text">{{ truncate(item.summary, 220) }}</p>
               <div v-if="item.topics?.length" class="fc-topics">
                 <span
                   v-for="t in item.topics.slice(0, 4)"
                   :key="t.name || t"
-                  class="fc-topic-tag"
+                  :class="['fc-topic', t.relevance === 'high' ? 'fc-topic--hi' : '']"
                 >{{ t.name || t }}</span>
               </div>
-            </div>
+            </article>
           </template>
         </div>
-      </section>
-    </div>
+      </div>
+    </template>
   </div>
 </template>
 
 <style scoped>
-.rassegna-view {
-  min-height: 60vh;
-}
-
-/* Masthead */
-.rassegna-masthead {
-  padding: 1.5rem 0 1rem;
-  border-bottom: 2px solid var(--text);
-  margin-bottom: 1.5rem;
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.rassegna-masthead-left {
-  flex: 1;
-  min-width: 0;
-}
-
-.rassegna-title {
-  font-size: 2rem;
-  font-weight: 800;
-  letter-spacing: -0.03em;
-  margin: 0 0 0.2rem;
-  color: var(--text);
-  text-transform: uppercase;
-}
-
-.rassegna-date {
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--text-muted);
-  margin: 0;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-/* Sync buttons wrapper */
-.sync-buttons {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-shrink: 0;
-  flex-wrap: wrap;
-}
-
-/* Sync button */
-.btn-sync {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  padding: 0.5rem 1rem;
-  background: var(--bg-card);
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-pill);
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-
-.btn-sync:hover:not(:disabled) {
-  background: var(--bg-hover);
-  color: var(--text);
-  border-color: var(--accent);
-}
-
-.btn-sync:disabled {
-  cursor: not-allowed;
-  opacity: 0.75;
-}
-
-.btn-sync--done {
-  border-color: var(--success);
-  color: var(--success);
-}
-
-.btn-sync--error {
-  border-color: var(--danger);
-  color: var(--danger);
-}
-
-.btn-sync--secondary {
-  opacity: 0.7;
-  font-size: 0.8rem;
-}
-
-.btn-sync--report {
-  background: var(--accent);
-  color: white;
-}
-
-.btn-sync--report:hover:not(:disabled) {
-  background: var(--accent-hover);
-  border-color: transparent;
-}
-
-.btn-sync-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 14px;
-  height: 14px;
-}
-
-.sync-spinner {
-  display: block;
-  width: 13px;
-  height: 13px;
-  border: 2px solid var(--border);
-  border-top-color: var(--accent);
+.spin-sm {
+  display: inline-block;
+  width: 12px; height: 12px;
+  border: 2px solid var(--line-md);
+  border-top-color: #0B0C10;
   border-radius: 50%;
   animation: spin 0.7s linear infinite;
+  flex-shrink: 0;
 }
-
-/* Sync panel */
-.sync-panel {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1rem 1.25rem;
-  margin-bottom: 1.5rem;
-}
-
-.sync-panel-header {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-  margin-bottom: 0.5rem;
-}
-
-.sync-panel-title {
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--text-muted);
-}
-
-.sync-result-badges {
-  display: flex;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-}
-
-.sync-badge {
-  font-size: 0.75rem;
-  padding: 0.15rem 0.5rem;
-  background: rgba(5, 150, 105, 0.1);
-  color: var(--success);
-  border-radius: 4px;
-  font-weight: 600;
-}
-
-.sync-badge--mercato {
-  background: rgba(217, 119, 6, 0.1);
-  color: var(--warning);
-}
-
-.sync-badge--digest {
-  background: rgba(var(--accent-rgb, 99, 102, 241), 0.1);
-  color: var(--accent);
-}
-
-.sync-panel-close {
-  margin-left: auto;
-  background: none;
-  border: none;
-  color: var(--text-muted);
-  cursor: pointer;
-  font-size: 0.85rem;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  font-family: inherit;
-}
-
-.sync-panel-close:hover {
-  background: var(--bg-hover);
-  color: var(--text);
-}
-
-/* Progress bar */
-.sync-progress-wrap {
-  margin-bottom: 0.75rem;
-}
-
-.sync-progress-bar {
-  height: 6px;
-  background: var(--bg-hover);
-  border-radius: 99px;
-  overflow: hidden;
-  margin-bottom: 0.35rem;
-}
-
-.sync-progress-fill {
-  height: 100%;
-  background: var(--accent);
-  border-radius: 99px;
-  transition: width 0.4s ease;
-  min-width: 2px;
-}
-
-.sync-progress-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.6rem;
-  font-size: 0.75rem;
-}
-
-.sync-progress-count {
-  font-weight: 600;
-  color: var(--text-secondary);
-  font-variant-numeric: tabular-nums;
-}
-
-.sync-progress-channel {
-  color: var(--accent);
-  font-weight: 500;
-  flex: 1;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.sync-progress-pct {
-  margin-left: auto;
-  color: var(--text-muted);
-  font-variant-numeric: tabular-nums;
-}
-
-.sync-log {
-  font-size: 0.8rem;
-  color: var(--text-muted);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  line-height: 1.6;
-  background: var(--bg-hover);
-  border-radius: var(--radius-sm);
-  padding: 0.5rem 0.75rem;
-  max-height: 160px;
-  overflow-y: auto;
-}
-
-.sync-log-line {
-  white-space: pre-wrap;
-  word-break: break-all;
-}
-
-.sync-error {
-  font-size: 0.85rem;
-  color: var(--danger);
-  margin: 0.5rem 0 0;
-}
-
-/* Sommario */
-.sommario-section {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.25rem 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.sommario-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 0.75rem;
-}
-
-.sommario-controls {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.digest-date-input {
-  padding: 0.4rem 0.65rem;
-  background: var(--bg-card);
-  color: var(--text-secondary);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-pill);
-  font-size: 0.82rem;
-  font-family: inherit;
-  cursor: pointer;
-  outline: none;
-  transition: border-color 0.15s;
-  color-scheme: dark;
-}
-
-.digest-date-input:hover,
-.digest-date-input:focus {
-  border-color: var(--accent);
-}
-
-.sommario-title {
-  font-size: 0.8rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--text-muted);
-  margin: 0;
-}
-
-.btn-genera {
-  padding: 0.45rem 1rem;
-  background: var(--accent);
-  color: white;
-  border: none;
-  border-radius: var(--radius-pill);
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  font-family: inherit;
-  transition: background 0.15s, opacity 0.15s;
-  white-space: nowrap;
-}
-
-.btn-genera:hover:not(:disabled) {
-  background: var(--accent-hover);
-}
-
-.btn-genera:disabled {
-  opacity: 0.65;
-  cursor: not-allowed;
-}
-
-.sommario-body {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 880px;
-}
-
-.sommario-structured {
-  display: flex;
-  flex-direction: column;
-  gap: 0.85rem;
-}
-
-.sommario-digest-section {
-  background: var(--bg-hover);
-  border: 1px solid var(--border);
-  border-left-width: 3px;
-  border-left-color: var(--border);
-  border-radius: var(--radius-sm);
-  padding: 0.75rem 0.9rem;
-}
-
-.sommario-digest-section--hot {
-  border-left-color: var(--success);
-  background: rgba(5, 150, 105, 0.08);
-}
-
-.sommario-digest-section--watch {
-  border-left-color: var(--warning);
-  background: rgba(217, 119, 6, 0.09);
-}
-
-.sommario-digest-section--deny {
-  border-left-color: var(--danger);
-  background: rgba(220, 38, 38, 0.08);
-}
-
-.sommario-digest-title {
-  margin: 0 0 0.55rem;
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.sommario-digest-list {
-  margin: 0;
-  padding-left: 1.1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.38rem;
-}
-
-.sommario-digest-item {
-  font-size: 0.9rem;
-  line-height: 1.5;
-  color: var(--text-secondary);
-}
-
-.sommario-text {
-  font-size: 1rem;
-  line-height: 1.65;
-  color: var(--text);
-  margin: 0;
-}
-
-.sommario-text--plain {
-  white-space: pre-wrap;
-}
-
-.btn-copia {
-  align-self: flex-start;
-  padding: 0.35rem 0.85rem;
-  background: transparent;
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-pill);
-  font-size: 0.8rem;
-  font-weight: 500;
-  cursor: pointer;
-  font-family: inherit;
-  transition: color 0.15s, border-color 0.15s;
-}
-
-.btn-copia:hover {
-  color: var(--text);
-  border-color: var(--text-muted);
-}
-
-.sommario-placeholder {
-  font-size: 0.9rem;
-  color: var(--text-muted);
-  margin: 0;
-}
-
-.sommario-error {
-  font-size: 0.9rem;
-  color: var(--danger);
-  margin: 0;
-}
-
-/* Feed days */
-.feed-days {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.feed-day {
-  display: flex;
-  flex-direction: column;
-  gap: 0;
-}
-
-.day-header {
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  margin: 0 0 0.75rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.day-items {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-/* Feed card base */
-.feed-card {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1rem 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  transition: box-shadow 0.18s;
-}
-
-.feed-card:hover {
-  box-shadow: var(--shadow-card);
-}
-
-/* Left accent line per tipo */
-.feed-card--tip {
-  border-left: 3px solid var(--warning);
-}
-
-.feed-card--analysis {
-  border-left: 3px solid var(--accent);
-}
-
-/* Meta row */
-.fc-meta {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  flex-wrap: wrap;
-}
-
-.fc-type-badge {
-  font-size: 0.68rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  padding: 0.15rem 0.45rem;
-  border-radius: 4px;
-}
-
-.fc-type-badge--tip {
-  background: rgba(217, 119, 6, 0.14);
-  color: var(--warning);
-}
-
-.fc-type-badge--analysis {
-  background: var(--accent-soft);
-  color: var(--accent);
-}
-
-.fc-channel {
-  font-weight: 600;
-  color: var(--accent);
-}
-
-.fc-yt-link {
-  font-size: 0.78rem;
-  font-weight: 600;
-  color: var(--accent);
-  text-decoration: none;
-  white-space: nowrap;
-  font-variant-numeric: tabular-nums;
-}
-
-.fc-yt-link:hover {
-  text-decoration: underline;
-}
-
-.fc-time {
-  color: var(--text-muted);
-  margin-left: auto;
-}
-
-/* Tip header */
-.fc-tip-header {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.fc-player {
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--text);
-}
-
-/* Transfer arrow */
-.fc-transfer {
-  display: flex;
-  align-items: center;
-  gap: 0.4rem;
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-}
-
-.fc-from {
-  font-weight: 500;
-}
-
-.fc-arrow {
-  color: var(--text-muted);
-}
-
-.fc-to {
-  font-weight: 500;
-}
-
-.fc-to--unknown {
-  color: var(--text-muted);
-  font-style: italic;
-}
-
-/* Text */
-.fc-text {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  line-height: 1.55;
-  margin: 0;
-}
-
-/* Analysis title */
-.fc-video-title {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-  margin: 0;
-  line-height: 1.4;
-}
-
-/* Topics */
-.fc-topics {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin-top: 0.1rem;
-}
-
-.fc-topic-tag {
-  font-size: 0.72rem;
-  padding: 0.2rem 0.5rem;
-  background: var(--bg-hover);
-  color: var(--text-secondary);
-  border-radius: 6px;
-}
-
-/* Reuse badge styles from mercato */
-.badge {
-  display: inline-flex;
-  align-items: center;
-  font-size: 0.72rem;
-  font-weight: 600;
-  padding: 0.15rem 0.45rem;
-  border-radius: 4px;
-  white-space: nowrap;
-}
-
-.conf-rumor { background: rgba(148,163,184,.14); color: var(--text-muted); }
-.conf-likely { background: rgba(217,119,6,.12); color: var(--warning); }
-.conf-confirmed { background: rgba(5,150,105,.12); color: var(--success); }
-.conf-denied { background: rgba(220,38,38,.10); color: var(--danger); }
-
-.outcome-pending { background: rgba(148,163,184,.14); color: var(--text-muted); }
-.outcome-true { background: rgba(5,150,105,.12); color: var(--success); }
-.outcome-partial { background: rgba(217,119,6,.12); color: var(--warning); }
-.outcome-false { background: rgba(220,38,38,.10); color: var(--danger); }
-.outcome-stalled { background: rgba(79,70,229,.10); color: var(--accent); }
-
-@media (max-width: 700px) {
-  .rassegna-title {
-    font-size: 1.4rem;
-  }
-  .sommario-header {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .sommario-controls {
-    width: 100%;
-  }
-  .digest-date-input {
-    flex: 1;
-  }
-}
+@keyframes spin { to { transform: rotate(360deg); } }
 </style>

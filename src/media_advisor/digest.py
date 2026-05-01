@@ -36,6 +36,21 @@ _DIGEST_REQUIRED_HEADERS = (
     "🕐 Situazioni da monitorare",
     "🚫 Voci ridimensionate / smentite",
 )
+_DIGEST_SECTION_ICONS = {
+    _DIGEST_REQUIRED_HEADERS[0]: "🔥",
+    _DIGEST_REQUIRED_HEADERS[1]: "👀",
+    _DIGEST_REQUIRED_HEADERS[2]: "🧊",
+}
+_DIGEST_SECTION_LABELS_TELEGRAM = {
+    _DIGEST_REQUIRED_HEADERS[0]: "✅ <b>CALDE</b>",
+    _DIGEST_REQUIRED_HEADERS[1]: "🕐 <b>DA MONITORARE</b>",
+    _DIGEST_REQUIRED_HEADERS[2]: "🚫 <b>RIDIMENSIONATE</b>",
+}
+_DIGEST_SECTION_LABELS_TWITTER = {
+    _DIGEST_REQUIRED_HEADERS[0]: "🔥 CALDE",
+    _DIGEST_REQUIRED_HEADERS[1]: "👀 MONITORARE",
+    _DIGEST_REQUIRED_HEADERS[2]: "🧊 RIDIMENSIONATE",
+}
 _DIGEST_SMENTITA_HEADER = _DIGEST_REQUIRED_HEADERS[2]
 _DIGEST_HEADERS_BY_CANONICAL = {
     "situazionicaldescenariaperti": "✅ Situazioni calde / scenari aperti",
@@ -236,6 +251,13 @@ def _parse_digest_sections(
     return section_items, fallback_lines
 
 
+def _digest_item_counts(section_items: dict[str, list[dict[str, str]]]) -> tuple[int, int, int, int]:
+    hot = len(section_items["✅ Situazioni calde / scenari aperti"])
+    monitor = len(section_items["🕐 Situazioni da monitorare"])
+    denied = len(section_items["🚫 Voci ridimensionate / smentite"])
+    return hot + monitor + denied, hot, monitor, denied
+
+
 def _format_digest_for_report(digest_text: str) -> str:
     section_items, fallback_lines = _parse_digest_sections(digest_text)
 
@@ -296,17 +318,7 @@ def format_mercato_report_telegram(
     date_it = _format_date_it(target_date)
     now_str = generated.strftime("%H:%M")
     section_items, fallback_lines = _parse_digest_sections(digest_text)
-
-    total_items = sum(len(items) for items in section_items.values())
-    hot_count = len(section_items["✅ Situazioni calde / scenari aperti"])
-    monitor_count = len(section_items["🕐 Situazioni da monitorare"])
-    denied_count = len(section_items["🚫 Voci ridimensionate / smentite"])
-
-    section_meta = {
-        "✅ Situazioni calde / scenari aperti": ("✅ <b>CALDE</b>", "🔥"),
-        "🕐 Situazioni da monitorare": ("🕐 <b>DA MONITORARE</b>", "👀"),
-        "🚫 Voci ridimensionate / smentite": ("🚫 <b>RIDIMENSIONATE</b>", "🧊"),
-    }
+    total_items, hot_count, monitor_count, denied_count = _digest_item_counts(section_items)
 
     div = "─" * 18
 
@@ -318,7 +330,8 @@ def format_mercato_report_telegram(
     ]
 
     for header in _DIGEST_REQUIRED_HEADERS:
-        label, icon = section_meta[header]
+        label = _DIGEST_SECTION_LABELS_TELEGRAM[header]
+        icon = _DIGEST_SECTION_ICONS[header]
         items = section_items[header]
         lines.extend(["", div, "", f"{label}  ({len(items)})"])
 
@@ -339,6 +352,49 @@ def format_mercato_report_telegram(
             lines.append(f"• {_h(line)}")
 
     lines.extend(["", div, f"⏱ <i>Aggiornato alle {now_str}</i>"])
+    return "\n".join(lines).strip()
+
+
+def format_mercato_report_twitter(
+    target_date: date,
+    digest_text: str,
+    generated_at: datetime | None = None,
+) -> str:
+    """Formatta il digest per Twitter/X in testo plain."""
+    generated = generated_at or datetime.now()
+    date_it = _format_date_it(target_date)
+    now_str = generated.strftime("%H:%M")
+    section_items, _ = _parse_digest_sections(digest_text)
+    total_items, hot_count, monitor_count, denied_count = _digest_item_counts(section_items)
+
+    lines: list[str] = [
+        f"CALCIOMERCATO | {date_it}",
+        f"{total_items} notizie: {hot_count} calde, {monitor_count} monitorare, {denied_count} ridimensionate",
+        "",
+    ]
+
+    for header in _DIGEST_REQUIRED_HEADERS:
+        label = _DIGEST_SECTION_LABELS_TWITTER[header]
+        icon = _DIGEST_SECTION_ICONS[header]
+        items = section_items[header]
+        lines.append(label)
+        if not items:
+            lines.append("- Nessun aggiornamento rilevante.")
+            lines.append("")
+            continue
+        for item in items:
+            lines.append(
+                f"- {icon} {item['player']} ({item['club']}): {item['movimento']}. "
+                f"{item['motivo']}. Fonte: {item['fonte']}."
+            )
+        lines.append("")
+
+    lines.extend(
+        [
+            f"Aggiornato alle {now_str}",
+            "#Calciomercato #SerieA",
+        ]
+    )
     return "\n".join(lines).strip()
 
 
@@ -464,14 +520,29 @@ def write_mercato_report(
     generated_at: datetime | None = None,
 ) -> tuple[Path, str]:
     generated_at = generated_at or datetime.now()
-    report_path = root / "reports" / f"{target_date.isoformat()}.md"
-    report_path.parent.mkdir(exist_ok=True)
+    day = target_date.isoformat()
+    reports_dir = root / "reports"
+    report_path = reports_dir / f"{day}.md"
+    reports_dir.mkdir(parents=True, exist_ok=True)
     content = format_mercato_report_markdown(target_date, digest_text, generated_at=generated_at)
     report_path.write_text(content, encoding="utf-8")
+    telegram_content = format_mercato_report_telegram(target_date, digest_text, generated_at=generated_at)
+    twitter_content = format_mercato_report_twitter(target_date, digest_text, generated_at=generated_at)
+    (reports_dir / f"{day}.telegram.html").write_text(telegram_content, encoding="utf-8")
+    (reports_dir / f"{day}.twitter.txt").write_text(twitter_content, encoding="utf-8")
 
-    cache_path = root / "reports" / f"{target_date.isoformat()}.json"
+    cache_path = reports_dir / f"{day}.json"
     cache_path.write_text(
-        _json.dumps({"digest_raw": digest_text, "generated_at": generated_at.isoformat()}, ensure_ascii=False, indent=2),
+        _json.dumps(
+            {
+                "digest_raw": digest_text,
+                "generated_at": generated_at.isoformat(),
+                "telegram_path": f"reports/{day}.telegram.html",
+                "twitter_path": f"reports/{day}.twitter.txt",
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
         encoding="utf-8",
     )
     return report_path, content

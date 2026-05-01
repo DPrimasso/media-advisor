@@ -119,46 +119,39 @@ onMounted(loadPending)
 </script>
 
 <template>
-  <div class="inbox-view">
-    <div class="inbox-header">
-      <h2 class="inbox-title">Inbox — Video da confermare</h2>
-      <p class="inbox-intro">
-        I video qui sotto sono stati trovati dai canali configurati e non sono ancora nella lista di download.
-        Seleziona quelli da aggiungere e conferma per avviare transcript e analisi.
-      </p>
+  <div class="page">
+    <div class="masthead">
+      <div style="flex:1">
+        <h1 class="masthead-title">Inbox</h1>
+        <div class="masthead-date">Video da confermare per download e analisi</div>
+      </div>
     </div>
 
-    <div v-if="message" class="inbox-message" :class="message.type">
+    <div v-if="message" class="inbox-msg" :class="message.type === 'error' ? 'inbox-msg--err' : 'inbox-msg--ok'">
       {{ message.text }}
     </div>
 
-    <div v-if="loading" class="loading">Caricamento...</div>
+    <div v-if="loading" class="loading-wrap"><span class="spinner"></span></div>
 
-    <div v-else-if="!items.length" class="inbox-empty">
-      <p class="empty-state-title">Nessun video in attesa</p>
-      <p class="empty-state-text">
-        Esegui una ricerca per trovare nuovi video dai canali configurati.
-      </p>
-      <button
-        type="button"
-        class="inbox-fetch-btn"
-        :disabled="fetching"
-        @click="fetchNow"
-      >
+    <div v-else-if="!items.length" class="empty">
+      <div class="empty-icon">📭</div>
+      <div class="empty-title">Nessun video in attesa</div>
+      <div class="empty-sub">Esegui una ricerca per trovare nuovi video dai canali configurati.</div>
+      <button type="button" class="btn btn-primary" style="margin-top:1rem" :disabled="fetching" @click="fetchNow">
         {{ fetching ? 'Ricerca in corso...' : 'Cerca nuovi video' }}
       </button>
     </div>
 
-    <div v-else class="inbox-content">
+    <div v-else>
       <div class="inbox-toolbar">
         <label class="inbox-select-all">
           <input type="checkbox" :checked="allSelected" @change="allSelected = $event.target.checked" />
           Seleziona tutti
         </label>
-        <span class="inbox-count">{{ items.length }} video · {{ selectedCount }} selezionati</span>
+        <span class="tip-meta">{{ items.length }} video · {{ selectedCount }} selezionati</span>
         <button
           type="button"
-          class="inbox-confirm-btn"
+          class="btn btn-primary btn-sm"
           :disabled="selectedCount === 0 || confirming"
           @click="confirmSelected"
         >
@@ -166,14 +159,14 @@ onMounted(loadPending)
         </button>
       </div>
 
-      <div class="feed-grid inbox-grid">
+      <div class="inbox-grid">
         <article
           v-for="item in items"
           :key="itemKey(item)"
-          class="video-card inbox-card"
-          :class="{ selected: isSelected(item) }"
+          class="inbox-item"
+          :class="{ 'inbox-item--sel': isSelected(item) }"
         >
-          <label class="inbox-card-inner">
+          <label class="inbox-item-inner">
             <input
               type="checkbox"
               :checked="isSelected(item)"
@@ -184,25 +177,23 @@ onMounted(loadPending)
               :href="item.url"
               target="_blank"
               rel="noopener"
-              class="video-card-thumb-link"
+              class="inbox-thumb-link"
               @click.stop
             >
-              <div class="video-card-thumb">
+              <div class="inbox-thumb">
                 <img
                   :src="`https://i.ytimg.com/vi/${item.video_id}/mqdefault.jpg`"
                   :alt="item.title"
                   loading="lazy"
                 />
-                <span class="video-card-badge">▶</span>
+                <span class="inbox-play">▶</span>
               </div>
             </a>
-            <div class="video-card-body">
-              <h3 class="video-card-title">{{ item.title || 'Senza titolo' }}</h3>
-              <div class="video-card-meta">
-                <span class="video-card-channel">{{ item.channel_name }}</span>
-                <span v-if="item.published" class="video-card-date">
-                  {{ formatDate(item.published) }}
-                </span>
+            <div class="inbox-body">
+              <h3 class="inbox-title-text">{{ item.title || 'Senza titolo' }}</h3>
+              <div class="inbox-meta">
+                <span class="fc-src">{{ item.channel_name }}</span>
+                <span v-if="item.published" class="fc-time">{{ formatDate(item.published) }}</span>
               </div>
             </div>
           </label>
@@ -211,3 +202,23 @@ onMounted(loadPending)
     </div>
   </div>
 </template>
+
+<style scoped>
+.inbox-toolbar { display: flex; align-items: center; gap: .75rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.inbox-select-all { display: flex; align-items: center; gap: .35rem; font-size: .875rem; color: var(--t2); cursor: pointer; }
+.inbox-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .75rem; }
+.inbox-item { display: block; padding: 0; margin-bottom: 0; border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; background: var(--bg-card); transition: border-color .15s; }
+.inbox-item--sel { border-color: var(--au); }
+.inbox-item-inner { display: flex; flex-direction: column; cursor: pointer; position: relative; }
+.inbox-checkbox { position: absolute; top: .5rem; left: .5rem; accent-color: var(--au); z-index: 1; }
+.inbox-thumb-link { display: block; }
+.inbox-thumb { position: relative; aspect-ratio: 16/9; overflow: hidden; background: var(--bg-el); }
+.inbox-thumb img { width: 100%; height: 100%; object-fit: cover; }
+.inbox-play { position: absolute; bottom: .4rem; right: .4rem; background: rgba(0,0,0,.7); color: #fff; font-size: .7rem; padding: .15rem .35rem; border-radius: 3px; }
+.inbox-body { padding: .6rem .75rem .75rem; }
+.inbox-title-text { margin: 0 0 .35rem; font-size: .875rem; font-weight: 600; line-height: 1.3; color: var(--t1); }
+.inbox-meta { display: flex; gap: .5rem; flex-wrap: wrap; }
+.inbox-msg { padding: .6rem 1rem; border-radius: var(--rs); margin-bottom: 1rem; font-size: .875rem; }
+.inbox-msg--ok { background: rgba(122,185,138,0.15); color: var(--gr); border: 1px solid var(--gr); }
+.inbox-msg--err { background: rgba(184,122,122,0.15); color: var(--re); border: 1px solid var(--re); }
+</style>

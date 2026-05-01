@@ -1682,6 +1682,8 @@ def cmd_daily_report(
     typer.echo(content)
     typer.echo(f"{'='*60}")
     typer.echo(f"\nSalvato in: {report_file}")
+    typer.echo(f"Versione Telegram: {report_file.with_suffix('.telegram.html')}")
+    typer.echo(f"Versione Twitter: {report_file.with_suffix('.twitter.txt')}")
 
 
 # ---------------------------------------------------------------------------

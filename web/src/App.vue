@@ -5,12 +5,15 @@ import { ref, onMounted, provide } from 'vue'
 const channelsContext = useChannelsData()
 provide('channelsData', channelsContext)
 
-const theme = ref('light')
+const theme = ref('dark')
+
+const formattedToday = new Date().toLocaleDateString('it-IT', {
+  day: 'numeric', month: 'long', year: 'numeric',
+})
 
 function initTheme() {
   const stored = localStorage.getItem('media-advisor-theme')
-  const prefersDark = matchMedia('(prefers-color-scheme: dark)').matches
-  theme.value = stored ?? (prefersDark ? 'dark' : 'light')
+  theme.value = stored ?? 'dark'
   document.documentElement.setAttribute('data-theme', theme.value)
 }
 
@@ -28,49 +31,50 @@ onMounted(() => {
 <template>
   <div class="app">
     <header class="topbar">
-      <div class="topbar-inner">
-        <router-link to="/rassegna" class="logo-link">
-          <h1 class="logo">Media Advisor</h1>
+      <router-link to="/rassegna" class="topbar-brand">
+        Media<em> Advisor</em>
+      </router-link>
+
+      <nav class="topbar-nav">
+        <router-link
+          to="/rassegna"
+          class="nav-item"
+          :class="{ active: $route.path === '/rassegna' }"
+        >
+          Rassegna
         </router-link>
-        <div class="channel-pills">
-          <router-link
-            to="/rassegna"
-            class="pill"
-            :class="{ active: $route.path === '/rassegna' }"
-          >
-            Rassegna
-          </router-link>
-          <router-link
-            to="/canali"
-            class="pill"
-            :class="{ active: $route.path === '/canali' }"
-          >
-            Analisi video
-          </router-link>
-          <router-link
-            to="/mercato"
-            class="pill"
-            :class="{ active: $route.path.startsWith('/mercato') }"
-          >
-            Mercato
-          </router-link>
-        </div>
-        <div class="topbar-right">
-          <button
-            type="button"
-            class="theme-toggle"
-            :title="theme === 'light' ? 'Modalità scura' : 'Modalità chiara'"
-            @click="toggleTheme"
-          >
-            <span v-if="theme === 'light'" class="theme-icon">☀</span>
-            <span v-else class="theme-icon">☽</span>
-          </button>
-        </div>
+        <router-link
+          to="/canali"
+          class="nav-item"
+          :class="{ active: $route.path === '/canali' }"
+        >
+          Analisi video
+        </router-link>
+        <router-link
+          to="/mercato"
+          class="nav-item"
+          :class="{ active: $route.path.startsWith('/mercato') }"
+        >
+          Mercato
+        </router-link>
+      </nav>
+
+      <div class="topbar-right">
+        <span class="topbar-date">{{ formattedToday }}</span>
+        <button
+          type="button"
+          class="theme-btn"
+          :title="theme === 'light' ? 'Modalità scura' : 'Modalità chiara'"
+          @click="toggleTheme"
+        >
+          <span v-if="theme === 'light'">☀</span>
+          <span v-else>☽</span>
+        </button>
       </div>
     </header>
 
-    <main class="feed">
+    <div class="page-scroll">
       <router-view />
-    </main>
+    </div>
   </div>
 </template>

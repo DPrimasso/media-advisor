@@ -6,7 +6,7 @@ Outputs channels/pending.json with videos not yet in the video_list.
 
 import asyncio
 import re
-from datetime import datetime, timezone
+from datetime import date as _date, datetime, timedelta, timezone
 from pathlib import Path
 
 import httpx
@@ -22,6 +22,48 @@ from media_advisor.transcript_api.client import TranscriptAPIError, TranscriptCl
 
 _VIDEO_ID_RE = re.compile(r"(?:v=)([a-zA-Z0-9_-]{11})")
 _LIVE_RE = re.compile(r"\b(live|livestream|streaming|diretta)\b|🔴", re.IGNORECASE)
+_RELATIVE_DATE_RE = re.compile(r"(\d+)\s+(second|minute|hour|day|week|month|year)s?\s+ago", re.IGNORECASE)
+
+
+def _normalize_date(value: str | None) -> str | None:
+    """Returns first 10 chars (YYYY-MM-DD) of a date string, or None if unparseable."""
+    if not value:
+        return None
+    s = str(value).strip()
+    if len(s) >= 10 and s[4] == "-" and s[7] == "-":
+        return s[:10]
+    return None
+
+
+def _parse_any_date(value: str | None) -> str | None:
+    """Parse any date string to YYYY-MM-DD, including relative strings like '2 days ago'."""
+    if not value:
+        return None
+    s = str(value).strip()
+    if iso := _normalize_date(s):
+        return iso
+    # "yesterday"
+    if s.lower() == "yesterday":
+        return (_date.today() - timedelta(days=1)).isoformat()
+    # "today"
+    if s.lower() in ("today", "just now"):
+        return _date.today().isoformat()
+    # "N unit ago"
+    m = _RELATIVE_DATE_RE.match(s)
+    if m:
+        n, unit = int(m.group(1)), m.group(2).lower()
+        today = _date.today()
+        if unit in ("second", "minute", "hour"):
+            return today.isoformat()
+        elif unit == "day":
+            return (today - timedelta(days=n)).isoformat()
+        elif unit == "week":
+            return (today - timedelta(weeks=n)).isoformat()
+        elif unit == "month":
+            return (today - timedelta(days=n * 30)).isoformat()
+        elif unit == "year":
+            return (today - timedelta(days=n * 365)).isoformat()
+    return None
 
 
 def fetch_channel_dates_ytdlp(channel_url: str, max_videos: int = 600) -> dict[str, str]:
@@ -127,7 +169,7 @@ async def _fetch_from_transcript_api(
                 channel_id=channel_id,
                 channel_name=channel_name,
                 url=f"https://www.youtube.com/watch?v={vid}",
-                published_at=v.get("published") or v.get("published_at"),
+                published_at=_parse_any_date(v.get("published") or v.get("published_at")),
             )
         )
     return pending
@@ -263,17 +305,6 @@ async def run_fetch_new_videos(root: Path, transcript_api_key: str) -> PendingRe
     return result
 
 
-def _normalize_date(value: str | None) -> str | None:
-    """Returns first 10 chars (YYYY-MM-DD) of a date string, or None if unparseable."""
-    if not value:
-        return None
-    s = str(value).strip()
-    # Must start with 4-digit year to be a real ISO date
-    if len(s) >= 10 and s[4] == "-" and s[7] == "-":
-        return s[:10]
-    return None
-
-
 async def _fetch_since_cutoff(
     rule: "FetchRuleTranscriptApi",
     client: TranscriptClient,
@@ -323,7 +354,7 @@ async def _fetch_since_cutoff(
         found_older = False
         for v in results:
             published = v.get("published") or v.get("published_at")
-            pub_date = _normalize_date(published)
+            pub_date = _parse_any_date(published)
 
             if pub_date is not None:
                 if pub_date <= cutoff_str:
@@ -429,7 +460,7 @@ async def run_fetch_since_last_video(root: Path, transcript_api_key: str) -> Pen
                 channel_id=channel.id,
                 channel_name=channel.name,
                 url=f"https://www.youtube.com/watch?v={vid}",
-                published_at=v.get("published") or v.get("published_at"),
+                published_at=_parse_any_date(v.get("published") or v.get("published_at")),
             ))
 
         # Apply rule filters

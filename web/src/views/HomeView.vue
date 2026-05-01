@@ -17,80 +17,80 @@ const router = useRouter()
 </script>
 
 <template>
-  <div class="home-view">
-    <div v-if="loading" class="loading">Caricamento...</div>
-    <div v-else-if="error" class="error">{{ error }}</div>
-    <div v-else-if="channelList?.length === 0" class="empty-state">
-      <p class="empty-state-title">Nessuna analisi</p>
-      <p class="empty-state-text">
+  <div class="page page--wide">
+    <div v-if="loading" class="loading-wrap"><span class="spinner"></span></div>
+    <div v-else-if="error" class="empty" style="color:var(--re)">{{ error }}</div>
+    <div v-else-if="channelList?.length === 0" class="empty">
+      <div class="empty-icon">📭</div>
+      <div class="empty-title">Nessuna analisi</div>
+      <div class="empty-sub">
         Aggiungi canali in <code>channels/channels.json</code> e esegui <code>npm run run-list</code>.
-      </p>
+      </div>
     </div>
-    <div v-else class="home-content">
-      <section class="home-intro">
-        <h2 class="home-intro-title">Riepilogo degli argomenti</h2>
-        <p class="home-intro-text">
-          Argomenti maggiormente trattati dai canali in analisi negli ultimi periodi.
-        </p>
-      </section>
+    <template v-else>
 
-      <section class="topics-section">
-        <h3 class="topics-section-title">Ultima settimana</h3>
-        <div v-if="topicsWeek.length" class="topics-list topics-list-detailed">
-          <div v-for="t in topicsWeek" :key="t.name" class="topic-card">
-            <div class="topic-card-header">
-              <span class="topic-name">{{ t.name }}</span>
-              <span class="topic-badges">
-                <span class="topic-total">{{ t.count }} video</span>
-                <span class="topic-channels">{{ t.channelCount }} {{ t.channelCount === 1 ? 'canale' : 'canali' }}</span>
-              </span>
-            </div>
-            <div class="topic-card-channels">
-              <span v-for="ch in t.channels" :key="ch.id" class="topic-channel-tag">
-                {{ ch.name }} ({{ ch.videoCount }})
-              </span>
-            </div>
+      <div class="sec-head">
+        <span class="sec-label">Canali</span>
+      </div>
+      <div class="ch-grid">
+        <button
+          v-for="ch in channelList"
+          :key="ch.id"
+          type="button"
+          class="ch-card"
+          @click="router.push({ name: 'channel', params: { id: ch.id } })"
+        >
+          <span class="ch-name">{{ ch.name }}</span>
+          <span class="ch-n">{{ ch.count }}<span class="ch-u"> video</span></span>
+        </button>
+      </div>
+
+      <div class="sec-head">
+        <span class="sec-label">Ultima settimana</span>
+      </div>
+      <div v-if="topicsWeek.length" class="topics-list">
+        <div v-for="t in topicsWeek" :key="t.name" class="topic-row">
+          <span class="topic-name">{{ t.name }}</span>
+          <span class="topic-counts">
+            <span class="chip chip--muted">{{ t.count }} video</span>
+            <span class="chip chip--muted">{{ t.channelCount }} {{ t.channelCount === 1 ? 'canale' : 'canali' }}</span>
+          </span>
+          <div class="topic-channels">
+            <span v-for="ch in t.channels" :key="ch.id" class="fc-topic">
+              {{ ch.name }} ({{ ch.videoCount }})
+            </span>
           </div>
         </div>
-        <p v-else class="topics-empty">Nessun video negli ultimi 7 giorni</p>
-      </section>
+      </div>
+      <p v-else class="empty" style="padding:1rem 0">Nessun video negli ultimi 7 giorni</p>
 
-      <section class="topics-section">
-        <h3 class="topics-section-title">Ultimo mese</h3>
-        <div v-if="topicsMonth.length" class="topics-list topics-list-detailed">
-          <div v-for="t in topicsMonth" :key="t.name" class="topic-card">
-            <div class="topic-card-header">
-              <span class="topic-name">{{ t.name }}</span>
-              <span class="topic-badges">
-                <span class="topic-total">{{ t.count }} video</span>
-                <span class="topic-channels">{{ t.channelCount }} {{ t.channelCount === 1 ? 'canale' : 'canali' }}</span>
-              </span>
-            </div>
-            <div class="topic-card-channels">
-              <span v-for="ch in t.channels" :key="ch.id" class="topic-channel-tag">
-                {{ ch.name }} ({{ ch.videoCount }})
-              </span>
-            </div>
+      <div class="sec-head">
+        <span class="sec-label">Ultimo mese</span>
+      </div>
+      <div v-if="topicsMonth.length" class="topics-list">
+        <div v-for="t in topicsMonth" :key="t.name" class="topic-row">
+          <span class="topic-name">{{ t.name }}</span>
+          <span class="topic-counts">
+            <span class="chip chip--muted">{{ t.count }} video</span>
+            <span class="chip chip--muted">{{ t.channelCount }} {{ t.channelCount === 1 ? 'canale' : 'canali' }}</span>
+          </span>
+          <div class="topic-channels">
+            <span v-for="ch in t.channels" :key="ch.id" class="fc-topic">
+              {{ ch.name }} ({{ ch.videoCount }})
+            </span>
           </div>
         </div>
-        <p v-else class="topics-empty">Nessun video negli ultimi 30 giorni</p>
-      </section>
+      </div>
+      <p v-else class="empty" style="padding:1rem 0">Nessun video negli ultimi 30 giorni</p>
 
-      <section class="channel-links-section">
-        <h3 class="channel-links-title">Canali</h3>
-        <div class="channel-cards">
-          <button
-            v-for="ch in channelList"
-            :key="ch.id"
-            type="button"
-            class="channel-card"
-            @click="router.push({ name: 'channel', params: { id: ch.id } })"
-          >
-            <span class="channel-card-name">{{ ch.name }}</span>
-            <span class="channel-card-count">{{ ch.count }} video</span>
-          </button>
-        </div>
-      </section>
-    </div>
+    </template>
   </div>
 </template>
+
+<style scoped>
+.topics-list { display: flex; flex-direction: column; gap: 0; margin-bottom: 1.5rem; }
+.topic-row { display: flex; align-items: baseline; gap: .5rem; flex-wrap: wrap; padding: .5rem 0; border-bottom: 1px solid var(--line); }
+.topic-name { font-family: var(--s); font-size: 1rem; font-weight: 600; flex: 1; min-width: 140px; }
+.topic-counts { display: flex; gap: .25rem; flex-wrap: wrap; }
+.topic-channels { width: 100%; display: flex; gap: .25rem; flex-wrap: wrap; margin-top: .25rem; }
+</style>

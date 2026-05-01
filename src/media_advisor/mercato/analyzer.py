@@ -13,12 +13,29 @@ from pathlib import Path
 from typing import cast
 
 from media_advisor.io.json_io import read_json, read_json_or_default, write_json
-from media_advisor.io.paths import mercato_index_path, mercato_tips_path, transcript_path
+from media_advisor.io.paths import (
+    mercato_index_path,
+    mercato_tips_path,
+    transcript_path,
+    video_dates_cache_path,
+)
 from media_advisor.mercato.aggregator import load_index
 from media_advisor.mercato.corroborator import corroborate
 from media_advisor.mercato.extractor import extract_mercato_tips
 from media_advisor.mercato.models import MercatoIndex, MercatoTip, OutcomeValue, VideoMercatoResult
 from media_advisor.models.transcript import TranscriptResponse
+
+
+def _mentioned_at_from_string(value: object | None) -> datetime | None:
+    if value is None:
+        return None
+    try:
+        dt = datetime.fromisoformat(str(value))
+    except ValueError:
+        return None
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
 
 
 def _save_index(root: Path, index: MercatoIndex) -> None:
@@ -106,6 +123,7 @@ async def analyze_video_mercato(
     model: str = "gpt-4.1-mini",
     force: bool = False,
     update_index: bool = True,
+    dates_cache: dict | None = None,
 ) -> VideoMercatoResult:
     """Analizza un video per indiscrezioni di mercato.
 
@@ -128,11 +146,12 @@ async def analyze_video_mercato(
 
     mentioned_at: datetime | None = None
     if meta and meta.published_at:
-        dt = datetime.fromisoformat(str(meta.published_at))
-        # Ensure timezone-aware
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        mentioned_at = dt
+        mentioned_at = _mentioned_at_from_string(meta.published_at)
+
+    if mentioned_at is None:
+        if dates_cache is None:
+            dates_cache = read_json_or_default(video_dates_cache_path(root)) or {}
+        mentioned_at = _mentioned_at_from_string(dates_cache.get(video_id))
 
     context = {
         "title": meta.title if meta else None,
