@@ -1,0 +1,405 @@
+{
+  "video_id": "xTRAXPa74yk",
+  "analyzed_at": "2026-05-01T11:45:06.460659+00:00",
+  "metadata": {
+    "title": "GRAVINA DA LILLI: SI INTERVISTI DA SOLO. OPEN BAR E ARBITRI IN CASERMA: NON BASTA QUESTO?",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà affronta il grave degrado attuale del calcio italiano, evidenziando come la situazione sia peggiorata sotto la guida di Gravina, che non sembra consapevole del danno arrecato. L’autore critica aspramente la gestione della Lega Pro e la sparizione di molte società, soprattutto in Serie D, denunciando la superficialità con cui si affrontano questi problemi. Inoltre, Pedullà contesta l’intervista a Gravina condotta da Lily Gruber, definendola un monologo senza contraddittorio, che ha impedito un confronto serio e critico sulla crisi del calcio nazionale.",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "giornalismo",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "high"
+    },
+    {
+      "name": "governance",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "degrado",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "stato delle cose",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "opinione generale",
+      "position": "Quando succedono gravi fatti, l'attenzione dura pochi giorni prima di tornare alla normalità.",
+      "polarity": "neutral",
+      "claim_id": "c8ae13e7-0ed9-49ee-bd94-ee27acffeaf2",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s0",
+      "target_entity": "opinione generale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Quando succedono gravi fatti, l'attenzione dura pochi giorni prima di tornare alla normalità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cade un ponte, fa dei danni alle persone, se ne parla per tre giorni, dopodiché torniamo punti da capo",
+          "start_sec": 0.04,
+          "end_sec": 38.398999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "attenzione mediatica",
+        "rapidità ritorno"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Lega Pro",
+      "position": "La Lega Pro spesso non parla della situazione di società che spariscono alla fine dei campionati",
+      "polarity": "negative",
+      "claim_id": "b29fe329-4c3e-4216-8cfe-ef420baa9fc7",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s1",
+      "target_entity": "Lega Pro",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lega Pro spesso non parla della situazione di società che spariscono alla fine dei campionati",
+      "evidence_quotes": [
+        {
+          "quote_text": "nessuno ne parla. Ma il bello di tutta questa storia è che quando tu hai sbagliato in Italia",
+          "start_sec": 36.04,
+          "end_sec": 67.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lega pro",
+        "media",
+        "situazione societaria"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gravina",
+      "position": "Gravina è stato invitato a una prestigiosa trasmissione televisiva da Lily Gruber.",
+      "polarity": "neutral",
+      "claim_id": "f44f5620-4929-4825-8702-0b23c685b143",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina è stato invitato a una prestigiosa trasmissione televisiva da Lily Gruber.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gravina è in prima fila perché ieri è stato invitato da una grandissima giornalista come Lily Gruber in una trasmissione molto seguita e molto prestigiosa",
+          "start_sec": 64.64,
+          "end_sec": 105.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "intervista"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gravina",
+      "position": "Gravina ha parlato senza essere interrotto o avere un contraddittorio nella trasmissione.",
+      "polarity": "negative",
+      "claim_id": "c23e8f0c-1e80-480f-88dc-120e1f8b4511",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha parlato senza essere interrotto o avere un contraddittorio nella trasmissione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto un uno sproloquio senza un contraddittorio",
+          "start_sec": 64.64,
+          "end_sec": 105.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "intervista"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gabriele Gravina",
+      "position": "Gravina non si rende conto della situazione negativa in cui ha portato il calcio italiano.",
+      "polarity": "negative",
+      "claim_id": "813451e0-f741-4184-b509-9c23970efddf",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s3",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina non si rende conto della situazione negativa in cui ha portato il calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il bello di Gravina che anche a freddo non si rende conto della situazione in cui ci ha portato",
+          "start_sec": 102.6,
+          "end_sec": 139.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "leadership",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano è precipitato in una situazione inimmaginabile e molto negativa.",
+      "polarity": "negative",
+      "claim_id": "d98fdf4d-7ea1-460b-a17c-8431153b118a",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s3",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano è precipitato in una situazione inimmaginabile e molto negativa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "facendoci precipitare non nello scantinato oltre negli inferi, nell'inimmaginabile del calci",
+          "start_sec": 102.6,
+          "end_sec": 139.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gabriele Gravina",
+      "position": "Gabriele Gravina ha evitato più volte di partecipare a un confronto televisivo a Sport Italia.",
+      "polarity": "negative",
+      "claim_id": "b880dece-9505-4c9b-a7ba-27e87bf5e2ff",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s4",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gabriele Gravina ha evitato più volte di partecipare a un confronto televisivo a Sport Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per un paio di volte Gravina è stato invitato in TV a Sport Italia per un colloquio pacifico, ... e aveva preso il bigliettino per un paio di domande, per un confronto, ... E ma lui ha sempre evitato, ha declinato, non si è presentato",
+          "start_sec": 136.92,
+          "end_sec": 179.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gabriele Gravina",
+      "position": "Gabriele Gravina ha scelto il ring TV per fare uno sproloquio senza contraddittorio.",
+      "polarity": "negative",
+      "claim_id": "a06d9e98-91b2-4c5c-b268-822190bf50ae",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s4",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gabriele Gravina ha scelto il ring TV per fare uno sproloquio senza contraddittorio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi ha scelto il ring per fare il suo sproloquio senza un contraddittorio",
+          "start_sec": 136.92,
+          "end_sec": 179.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "VAR",
+      "position": "Il VAR viene criticato con il termine ironico 'open bar' invece di 'open war'.",
+      "polarity": "negative",
+      "claim_id": "22a2c7da-b8b9-4e53-a011-fa1060c9d74f",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s5",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR viene criticato con il termine ironico 'open bar' invece di 'open war'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Questo lo avrei chiamato invece open bar. Open VAR dicono",
+          "start_sec": 176.879,
+          "end_sec": 217.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "media",
+        "critica"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano è in uno stato di degrado e rovina calcolistica.",
+      "polarity": "negative",
+      "claim_id": "8a68712a-6bfd-49f0-81f4-9ba29fad29c6",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano è in uno stato di degrado e rovina calcolistica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il degrado e la rovina calcistica",
+          "start_sec": 0.04,
+          "end_sec": 38.398999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "declino",
+        "problemi"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "conduttore",
+      "position": "Un conduttore afferma di non poter fare domande perché non si sente importante.",
+      "polarity": "neutral",
+      "claim_id": "67fb77eb-430f-4f8f-b583-5b57a1e37c94",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s5",
+      "target_entity": "conduttore",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un conduttore afferma di non poter fare domande perché non si sente importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cioè \"Ma sai, io non posso fare le domande perché chi sono io? Sono una conduttrice, un conduttore",
+          "start_sec": 176.879,
+          "end_sec": 217.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "ruolo"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "pubblico",
+      "position": "L'opinione espressa è che il pubblico a casa non è importante quanto l'interessato diretto presente.",
+      "polarity": "negative",
+      "claim_id": "e30cbfe4-4b15-43f4-a76f-0adf06fb2191",
+      "video_id": "xTRAXPa74yk",
+      "segment_id": "s5",
+      "target_entity": "pubblico",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinione espressa è che il pubblico a casa non è importante quanto l'interessato diretto presente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è importante che la gente si faccia un'idea da casa, è molto più importante che la gente",
+          "start_sec": 176.879,
+          "end_sec": 217.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "pubblico",
+        "opinione"
+      ]
+    }
+  ]
+}

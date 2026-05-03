@@ -1,0 +1,394 @@
+{
+  "video_id": "NEoEAIg_tOU",
+  "analyzed_at": "2026-05-03T12:43:32.876352+00:00",
+  "metadata": {
+    "title": "#CHIARIELLO IL PUNTO CHIARO 02   05   2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Umberto Chiariello analizza la partita Como-Napoli non solo come un confronto sportivo, ma come uno scontro tra ideologie calcistiche rappresentate da Fabregas e Conte. Contrariamente alla narrazione comune che vede Fabregas come il \"nuovo\" e Conte come il \"vecchio\", l’autore sottolinea, anche grazie a un match analyst, come entrambi condividano principi di gioco simili basati su aggressione alta e rapido recupero palla. Chiariello evidenzia inoltre come Fabregas abbia appreso molto da Conte durante la loro esperienza comune al Chelsea, vincendo insieme importanti titoli. La partit",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "retrocessione",
+      "relevance": "high"
+    },
+    {
+      "name": "recupero palla",
+      "relevance": "medium"
+    },
+    {
+      "name": "tecnica",
+      "relevance": "medium"
+    },
+    {
+      "name": "salvezza",
+      "relevance": "medium"
+    },
+    {
+      "name": "portiere",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como pratica una difesa alta con aggressione e pressing.",
+      "polarity": "positive",
+      "claim_id": "573154fc-2f44-45e9-8fbd-1642d7e4ec5d",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s4",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como pratica una difesa alta con aggressione e pressing.",
+      "evidence_quotes": [
+        {
+          "quote_text": "recupero palla alto significa aggressione, pressing, difesa alta",
+          "start_sec": 192.519,
+          "end_sec": 236.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "partita",
+      "position": "La gara viene vista come una partita di confronto di ideologie più che di calcio.",
+      "polarity": "neutral",
+      "claim_id": "d135f227-3705-4ba8-8d5e-2639bee4e505",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s1",
+      "target_entity": "partita",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La gara viene vista come una partita di confronto di ideologie più che di calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non come un confronto calcistico, ma come una partita di confronto di ideologie",
+          "start_sec": 50.28,
+          "end_sec": 112.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "rivalry",
+        "ideologia"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fabregas e Conte",
+      "position": "Fabregas e Conte partono dagli stessi principi di gioco secondo un match analyst.",
+      "polarity": "positive",
+      "claim_id": "929b6fdd-ed51-4cd8-ae6e-944d2f401fa5",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s1",
+      "target_entity": "Fabregas e Conte",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas e Conte partono dagli stessi principi di gioco secondo un match analyst.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ieri un bravo match analyst ci ha detto che non è così, che in realtà sia Fabregas che Conte partono dagli stessi principi di gioco",
+          "start_sec": 50.28,
+          "end_sec": 112.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "giocatore",
+        "analisi"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Fabrigas",
+      "position": "Fabrigas ha imparato molto da Conte giocandogli come calciatore.",
+      "polarity": "positive",
+      "claim_id": "784cff9e-5af3-4d58-95d3-a32d963eabf3",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s2",
+      "target_entity": "Fabrigas",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrigas ha imparato molto da Conte giocandogli come calciatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabrigas non perde occasione per dire che lui da Conte ha imparato molto, è stato un suo calciatore",
+          "start_sec": 107.04,
+          "end_sec": 159.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fabrigas",
+      "position": "Fabrigas inizialmente non era considerato da Conte ma poi divenne centrale nel Chelsea di Conte.",
+      "polarity": "positive",
+      "claim_id": "e0e07e20-07aa-4082-b295-8bc4079272d1",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s2",
+      "target_entity": "Fabrigas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabrigas inizialmente non era considerato da Conte ma poi divenne centrale nel Chelsea di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inizialmente è messo in disparte, Conte non lo vedeva, poi dopo una serie di incomprensioni, Fabrica divenne centrale nel Chelsea di Conte",
+          "start_sec": 107.04,
+          "end_sec": 159.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Chelsea",
+      "position": "Chelsea ha vinto campionato inglese e Premier League con Fabrigas e Conte.",
+      "polarity": "positive",
+      "claim_id": "c90fcaa0-d21a-49bd-8a26-e103167d930b",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s2",
+      "target_entity": "Chelsea",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chelsea ha vinto campionato inglese e Premier League con Fabrigas e Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vinsero insieme sia il campionato inglese e la Premier che l'F Cup l'anno successivo",
+          "start_sec": 107.04,
+          "end_sec": 159.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "standings"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte e Fabrigas condividono un'identità tattica basata sull'aggressione alta e il rapido recupero palla.",
+      "polarity": "positive",
+      "claim_id": "b0d76e63-1ba2-4b8d-bf44-036524279e96",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte e Fabrigas condividono un'identità tattica basata sull'aggressione alta e il rapido recupero palla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in realtà sono due allenatori che tendono ad aggredire alto, tendono al recupero palla veloce",
+          "start_sec": 107.04,
+          "end_sec": 159.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli è ottavo nella classifica PPDA del recupero palla.",
+      "polarity": "neutral",
+      "claim_id": "232a55f9-ca45-4f7e-bbad-a3b4dd3fa7e0",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è ottavo nella classifica PPDA del recupero palla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli è ottavo in classifica nella classifica del PPDA",
+          "start_sec": 156.44,
+          "end_sec": 194.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "performance",
+        "recupero palla"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha buoni palleggiatori che iniziano dalla difesa.",
+      "polarity": "positive",
+      "claim_id": "a9b2d30b-8e7b-41a1-8632-582049fd6686",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s4",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha buoni palleggiatori che iniziano dalla difesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che abbia fini palleggiatori cominciando dalla difesa",
+          "start_sec": 192.519,
+          "end_sec": 236.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fabregas",
+      "position": "Fabregas viene considerato il nuovo che avanza nel calcio.",
+      "polarity": "neutral",
+      "claim_id": "00753a40-19d4-4cc2-b18a-4605c02bb8bd",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s1",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas viene considerato il nuovo che avanza nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabregas viene considerato il nuovo che avanza",
+          "start_sec": 50.28,
+          "end_sec": 112.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "giocatore",
+        "innovation"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte è considerato uno dei campioni del risultatismo.",
+      "polarity": "neutral",
+      "claim_id": "a3f93466-3f85-4303-a810-7edf2a416e87",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è considerato uno dei campioni del risultatismo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte, uno dei campioni del risultatismo",
+          "start_sec": 50.28,
+          "end_sec": 112.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "giocatore",
+        "resistenza"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Como",
+      "position": "Como è l'unica squadra in Italia a giocare con uno stile spagnoleggiante moderno.",
+      "polarity": "positive",
+      "claim_id": "e9b7a11e-121c-4850-96c7-19aa894222f5",
+      "video_id": "NEoEAIg_tOU",
+      "segment_id": "s4",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como è l'unica squadra in Italia a giocare con uno stile spagnoleggiante moderno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che sia l'unica squadra spagnoleggiante d'Italia",
+          "start_sec": 192.519,
+          "end_sec": 236.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

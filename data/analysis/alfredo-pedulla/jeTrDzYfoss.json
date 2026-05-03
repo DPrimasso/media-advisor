@@ -1,0 +1,402 @@
+{
+  "video_id": "jeTrDzYfoss",
+  "analyzed_at": "2026-04-27T07:27:20.098248+00:00",
+  "metadata": {
+    "title": "NON HANNO CAPITO IL DRAMMA. MUHAREMOVIC-EDERSON CALDI. IL SILENZIO NELL'UOVO DI BONUCCI🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà affronta il tema delle tensioni e delle incomprensioni nel calcio italiano, evidenziando un clima di veleni e mancanza di responsabilità collettiva. L'autore critica duramente la scarsa consapevolezza e il poco senso di vergogna di fronte a fatti negativi, citando come esempio lo scambio tra Lotito e Renzi e le vicende legate a Gattuso, Buffon e Bonucci. Pedullà sottolinea il rispetto dovuto a figure come Gattuso e invita a una maggiore coesione e responsabilità all'interno dei gruppi di lavoro, auspicando che tutti i protagonisti si assumano le proprie responsabili",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "etica",
+      "relevance": "medium"
+    },
+    {
+      "name": "coesione",
+      "relevance": "medium"
+    },
+    {
+      "name": "stagione",
+      "relevance": "low"
+    },
+    {
+      "name": "errore",
+      "relevance": "low"
+    },
+    {
+      "name": "vicissitudine",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina ha chiesto di aspettare 10 minuti dopo la partita prima di agire.",
+      "polarity": "neutral",
+      "claim_id": "76296467-4941-4f41-b060-2408e60bcf00",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s5",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha chiesto di aspettare 10 minuti dopo la partita prima di agire.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gravina che aveva chiesto di aspettare",
+          "start_sec": 179.8,
+          "end_sec": 222.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "gestione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Lotito",
+      "position": "Lo scambio tra Lotito e Renzi è un esempio di incomprensione calcistica.",
+      "polarity": "negative",
+      "claim_id": "ca0ec08c-7149-4528-802e-0c657924d59b",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s1",
+      "target_entity": "Lotito",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lo scambio tra Lotito e Renzi è un esempio di incomprensione calcistica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lo scambio tra Lotito e Renzi, secondo me, le sintesi di come non abbiamo capito calcisticamente",
+          "start_sec": 31.039,
+          "end_sec": 65.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "incomprensione",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "fonte Repubblica",
+      "position": "Se la fonte Repubblica fosse vera, ci sarebbe motivo di vergognarsi per quanto accaduto.",
+      "polarity": "neutral",
+      "claim_id": "f70fd91e-09e5-421b-969e-34521adccade",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s2",
+      "target_entity": "fonte Repubblica",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se la fonte Repubblica fosse vera, ci sarebbe motivo di vergognarsi per quanto accaduto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se dovesse essere vera la fonte repubblica su quanto è accaduto, ci sarebbe da vergognarsi",
+          "start_sec": 61.48,
+          "end_sec": 107.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "etica",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "opinione pubblica italiana",
+      "position": "L'opinione pubblica italiana si vergogna poco anche di fronte all'evidenza dei fatti negativi.",
+      "polarity": "negative",
+      "claim_id": "0db99f90-64c3-41c2-8621-46a2894453bd",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s2",
+      "target_entity": "opinione pubblica italiana",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinione pubblica italiana si vergogna poco anche di fronte all'evidenza dei fatti negativi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi siamo quelli che non ci vergogniamo mai, anche dinanzi all'evidenza dei fatti ci vergogniamo poco",
+          "start_sec": 61.48,
+          "end_sec": 107.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "etica",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "mondo del calcio",
+      "position": "Nel calcio spesso si sfruttano le persone finché ce n'è bisogno.",
+      "polarity": "neutral",
+      "claim_id": "98b6795f-f750-4bdd-822f-be3a32685704",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s3",
+      "target_entity": "mondo del calcio",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nel calcio spesso si sfruttano le persone finché ce n'è bisogno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come spesso funziona nel mondo del calcio, spremiamo come i limoni fin quando eh c'è si ha bisogno",
+          "start_sec": 104.92,
+          "end_sec": 142.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sfruttamento",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Buffon",
+      "position": "Buffon ha agito come avrebbe voluto fare dopo l'eliminazione dolorosa.",
+      "polarity": "positive",
+      "claim_id": "8fafb93a-b413-4d99-9303-322b051ae6cc",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s4",
+      "target_entity": "Buffon",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Buffon ha agito come avrebbe voluto fare dopo l'eliminazione dolorosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Buffon che Gattuso hanno fatto quello che avrebbero voluto fare, eh.",
+          "start_sec": 140.04,
+          "end_sec": 182.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Leonardo Bonucci",
+      "position": "Nel gruppo di lavoro non c'è traccia di reazione da parte di Leonardo Bonucci dopo l'eliminazione.",
+      "polarity": "negative",
+      "claim_id": "e869c20e-8eea-4696-9e63-db1f4311c364",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s4",
+      "target_entity": "Leonardo Bonucci",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nel gruppo di lavoro non c'è traccia di reazione da parte di Leonardo Bonucci dopo l'eliminazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dentro l'uovo di Pasqua di Leonardo Bonucci, non c'è traccia di nulla",
+          "start_sec": 140.04,
+          "end_sec": 182.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso e Buffon",
+      "position": "Gattuso e Buffon hanno mostrato leadership rimanendo sintonizzati con Gravina dopo la partita.",
+      "polarity": "positive",
+      "claim_id": "9bbf17ce-0b66-4427-a0bc-cf17867019f8",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s5",
+      "target_entity": "Gattuso e Buffon",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso e Buffon hanno mostrato leadership rimanendo sintonizzati con Gravina dopo la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gattuso e Buffon che l'avrebbero voluto fare 10 minuti dopo la partita, ma sono eh rimasti, tra virgolette sintonizzati con Gravina che aveva chiesto di aspettare",
+          "start_sec": 179.8,
+          "end_sec": 222.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "coesione",
+        "esempio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "gruppo di lavoro",
+      "position": "In un gruppo di lavoro ci si aspetta che tutti escano e scendano dalla barca insieme.",
+      "polarity": "positive",
+      "claim_id": "39e05769-2ca0-4f65-93ab-753cd90faa97",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s5",
+      "target_entity": "gruppo di lavoro",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "In un gruppo di lavoro ci si aspetta che tutti escano e scendano dalla barca insieme.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se appartengo a un gruppo di lavoro mi aspetto cosa? Mi aspetto che tutti escano e scendano da quella barca",
+          "start_sec": 179.8,
+          "end_sec": 222.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coesione",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Leonardo Bonucci",
+      "position": "Bonucci non ha pubblicato alcun messaggio di solidarietà sui social dopo il dramma.",
+      "polarity": "negative",
+      "claim_id": "73ce15f9-fd3c-4241-b648-aaecc5dbe22b",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s6",
+      "target_entity": "Leonardo Bonucci",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bonucci non ha pubblicato alcun messaggio di solidarietà sui social dopo il dramma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi riferisco a Bonucci, però mi aspetto due righe, no? Sui social.",
+          "start_sec": 220.519,
+          "end_sec": 265.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "silenzio",
+        "social"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Leonardo Bonucci",
+      "position": "Bonucci dovrebbe metterci la faccia in situazioni drammatiche, non solo dopo le vittorie.",
+      "polarity": "negative",
+      "claim_id": "3571bf09-abe7-4129-8cae-b0079cb76106",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s6",
+      "target_entity": "Leonardo Bonucci",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bonucci dovrebbe metterci la faccia in situazioni drammatiche, non solo dopo le vittorie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisognerebbe anche mettersi la faccia, metterci la faccia dopo, non soltanto quando, tra virgolette eh rincorri la gloria, è tutto a posto",
+          "start_sec": 220.519,
+          "end_sec": 265.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "responsabilità"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso merita massimo rispetto per il suo ruolo e le sue idee da allenatore.",
+      "polarity": "positive",
+      "claim_id": "b2434eb9-dcc4-4d3a-8aeb-e4850ebb426a",
+      "video_id": "jeTrDzYfoss",
+      "segment_id": "s3",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso merita massimo rispetto per il suo ruolo e le sue idee da allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io mi sono permesso di dire Gattuso merita massimo rispetto",
+          "start_sec": 104.92,
+          "end_sec": 142.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rispetto",
+        "allenatore"
+      ]
+    }
+  ]
+}

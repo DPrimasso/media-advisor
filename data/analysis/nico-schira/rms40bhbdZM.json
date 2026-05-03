@@ -1,0 +1,409 @@
+{
+  "video_id": "rms40bhbdZM",
+  "analyzed_at": "2026-04-26T11:48:41.506696+00:00",
+  "metadata": {
+    "title": "L’ENNESIMO SCANDALO DEL CALCIO ITALIANO! IL GALATASARAY FA SHOPPING IN SERIE A. BREMER E IL NAPOLI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video affronta il tema di un nuovo scandalo nel calcio italiano, con un'inchiesta della Procura di Milano che coinvolge figure chiave del mondo arbitrale, tra cui Gianluca Rocchi e il responsabile VAR Gervasoni, autosospeso. L'autore sottolinea la gravità della situazione, paragonandola alle prime fasi di Calciopoli di vent'anni fa, e ipotizza che possa trattarsi di un nuovo caso di corruzione che rischia di minare ulteriormente la credibilità del calcio italiano. Viene inoltre evidenziato il possibile intervento politico con la richiesta di commissariare la Federazione, mentre si attendono",
+  "topics": [
+    {
+      "name": "scandalo",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "inchiesta",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "low"
+    },
+    {
+      "name": "politica",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "Si ipotizza che ci possa essere una nuova calciopoli in Italia dopo 20 anni.",
+      "polarity": "neutral",
+      "claim_id": "8107c972-6645-46e7-a0d9-d952aaa78250",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s1",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si ipotizza che ci possa essere una nuova calciopoli in Italia dopo 20 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La sensazione che forse 20 anni dopo, dice qualcuno, possa essere una nuova calciopoli",
+          "start_sec": 35.399,
+          "end_sec": 62.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scandalo",
+        "media"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gianluca Rocchi",
+      "position": "La Procura di Milano indaga su Gianluca Rocchi e il mondo arbitrale della Serie A",
+      "polarity": "negative",
+      "claim_id": "20c75eba-87e9-410e-826b-2fd16a668061",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s0",
+      "target_entity": "Gianluca Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Procura di Milano indaga su Gianluca Rocchi e il mondo arbitrale della Serie A",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Procura della Repubblica di Milano sta indagando, si sono autosospesi, ha detto responsabile VAR, Gervasoni, ma soprattutto il capo degli arbitri, designatore arbitrale di Serie A e serie Una situazione veramente veramente eh problematica quella che riguarda Gianluca Rocchi e il mondo arbitrale",
+          "start_sec": 0.68,
+          "end_sec": 36.839999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inchiesta",
+        "arbitri",
+        "Serie A"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gervasoni",
+      "position": "Il responsabile VAR Gervasoni si è autosospeso a causa dell'indagine",
+      "polarity": "negative",
+      "claim_id": "2e9d22b6-814a-4501-9737-444621954993",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s0",
+      "target_entity": "Gervasoni",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il responsabile VAR Gervasoni si è autosospeso a causa dell'indagine",
+      "evidence_quotes": [
+        {
+          "quote_text": "si sono autosospesi, ha detto responsabile VAR, Gervasoni",
+          "start_sec": 0.68,
+          "end_sec": 36.839999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "autosospensione",
+        "inchiesta",
+        "arbitri"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "designatore arbitrale di Serie A",
+      "position": "Il designatore arbitrale di Serie A coinvolto in una situazione problematica e inchiesta",
+      "polarity": "negative",
+      "claim_id": "bf571825-ca81-4b9c-b624-e40e5144a9ad",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s0",
+      "target_entity": "designatore arbitrale di Serie A",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il designatore arbitrale di Serie A coinvolto in una situazione problematica e inchiesta",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma soprattutto il capo degli arbitri, designatore arbitrale di Serie A e serie Una situazione veramente veramente eh problematica",
+          "start_sec": 0.68,
+          "end_sec": 36.839999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inchiesta",
+        "arbitri",
+        "Serie A"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Juventus",
+      "position": "Il recente scandalo calcio in Italia ricorda le prime indiscrezioni di calciopoli che coinvolsero la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "aa5b10a2-899b-4cd6-a167-27c92d2d6445",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il recente scandalo calcio in Italia ricorda le prime indiscrezioni di calciopoli che coinvolsero la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'inizio m'ha ricordato un po' quella. L'epoca io ero ragazzino, però mi ricordo che anche lì era un sabato, uscirono le prime indiscrezioni all'epoca sulla Gazzetta dello Sport e poi giorno dopo giorno, nel giro di una settimana lo tsunami che portò alla Juve a festeggiare in campo uno scudetto",
+          "start_sec": 35.399,
+          "end_sec": 62.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scandalo",
+        "calciopoli",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "varie procure",
+      "position": "Nei prossimi giorni arriveranno aggiornamenti dalle varie procure sulle inchieste in corso.",
+      "polarity": "neutral",
+      "claim_id": "48d4b1f3-0242-4bc5-9b54-9d7cee9c3a9a",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s2",
+      "target_entity": "varie procure",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Nei prossimi giorni arriveranno aggiornamenti dalle varie procure sulle inchieste in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I prossimi giorni probabilmente qualcosa ci arriverà dalle varie procure",
+          "start_sec": 59.879,
+          "end_sec": 90.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inchieste",
+        "procura"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "giornalisti",
+      "position": "I giornalisti spesso pubblicano le intercettazioni relative alle inchieste.",
+      "polarity": "neutral",
+      "claim_id": "83a8ee90-24bd-4bcf-bd49-e6a26820c16b",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s2",
+      "target_entity": "giornalisti",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I giornalisti spesso pubblicano le intercettazioni relative alle inchieste.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi giornalisti, come spesso succede in queste inchieste, usciranno le intercettazioni",
+          "start_sec": 59.879,
+          "end_sec": 90.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inchieste",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "politica",
+      "position": "Alcuni esponenti della politica vogliono commissariare in risposta alla situazione attuale.",
+      "polarity": "neutral",
+      "claim_id": "5372639c-004b-4db9-a421-e6e3ab7558a5",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s2",
+      "target_entity": "politica",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alcuni esponenti della politica vogliono commissariare in risposta alla situazione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In serata è filtrato che dalla politica molti esponenti vogliono commissariare",
+          "start_sec": 59.879,
+          "end_sec": 90.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "politica",
+        "commissariamento"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "FGC",
+      "position": "La FGC potrebbe essere commissariata a causa del caos tra politica e calcio.",
+      "polarity": "negative",
+      "claim_id": "30952462-c950-4575-9dca-31cc4f097fb2",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s3",
+      "target_entity": "FGC",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La FGC potrebbe essere commissariata a causa del caos tra politica e calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse la commissariano la FGC. Quindi c'è un caos totale, c'è un regolamento anche di conti tra la politica e il mondo del calcio",
+          "start_sec": 88.36,
+          "end_sec": 122.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "politica",
+        "calcio",
+        "organizzazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "media",
+      "position": "Media importanti stanno lavorando inchieste shock sul calcio che usciranno a maggio.",
+      "polarity": "neutral",
+      "claim_id": "68826afb-07d6-48f5-8aec-99ab7e01e8ca",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s3",
+      "target_entity": "media",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Media importanti stanno lavorando inchieste shock sul calcio che usciranno a maggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche dei media importanti stiano lavorando delle inchieste shock sul mondo del calcio che usciranno a maggio",
+          "start_sec": 88.36,
+          "end_sec": 122.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inchieste",
+        "media",
+        "calcio"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "La mancata qualificazione al mondiale da diversi anni è un punto di non ritorno per l'Italia nel calcio.",
+      "polarity": "negative",
+      "claim_id": "20f4a08e-5ba7-4d3b-88a1-efb01b479919",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s3",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La mancata qualificazione al mondiale da diversi anni è un punto di non ritorno per l'Italia nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarebbe forse lo scatafascio totale mai come punto di non ritorno così in basso, perché 20 anni fa almeno l'Italia andava",
+          "start_sec": 88.36,
+          "end_sec": 122.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio italiano",
+        "crisi",
+        "mondiali"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia non si è qualificata per il Mondiale per la terza volta.",
+      "polarity": "negative",
+      "claim_id": "5da7704b-b937-46dc-80b9-60361ada183b",
+      "video_id": "rms40bhbdZM",
+      "segment_id": "s3",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia non si è qualificata per il Mondiale per la terza volta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Per la terza volta l'Italia non va al mondiale",
+          "start_sec": 88.36,
+          "end_sec": 122.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiale",
+        "qualificazione"
+      ]
+    }
+  ]
+}

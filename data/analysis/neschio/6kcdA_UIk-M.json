@@ -1,0 +1,402 @@
+{
+  "video_id": "6kcdA_UIk-M",
+  "analyzed_at": "2026-04-26T11:37:21.343447+00:00",
+  "metadata": {
+    "title": "VITTORIA TANTO SOFFERTA QUANTO IMPORTANTE‼️ ATALANTA-JUVENTUS 0-1",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la vittoria sofferta ma fondamentale della Juventus contro un’Atalanta molto motivata e determinata a mettere in discussione la corsa alla Champions League. L’autore sottolinea come la Juventus abbia dimostrato finalmente la capacità di soffrire nei momenti difficili, soprattutto nel secondo tempo, riuscendo a mantenere il controllo nonostante le occasioni create da Atalanta. Viene evidenziato il ruolo chiave di Ulm, autore dell’assist decisivo e di altre azioni pericolose, mentre l’Atalanta, pur forte e competitiva, ha mostrato imprecisione e poca fortuna. La vittoria rilanc",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "precision",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "errore",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "motivazione",
+      "relevance": "low"
+    },
+    {
+      "name": "serie_a",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha saputo soffrire nei momenti difficili durante la partita contro l'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "ad3a4c23-a7bd-4603-b085-201a12f9a7ff",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha saputo soffrire nei momenti difficili durante la partita contro l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the ability to know how to suffer in difficult moments",
+          "start_sec": 5.47,
+          "end_sec": 47.849999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "resilienza",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta si è mostrata molto motivata e forte nel voler mettere in discussione la corsa alla Champions League.",
+      "polarity": "positive",
+      "claim_id": "ed7fe17f-298d-4f1c-b11b-9dd0cd9d4051",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta si è mostrata molto motivata e forte nel voler mettere in discussione la corsa alla Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "against a really motivated Atalanta in strength, who absolutely wanted to put the Champions League race into question",
+          "start_sec": 5.47,
+          "end_sec": 47.849999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "motivazione",
+        "prestazione",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta initially showed lack of ability to suffer and compete in the match.",
+      "polarity": "negative",
+      "claim_id": "dd05ee75-42f1-41d4-8b8f-f70bfc381d1e",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta initially showed lack of ability to suffer and compete in the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "That's when you don't have the ability to know how to suffer, that's when you feel good.",
+          "start_sec": 52.65,
+          "end_sec": 86.85,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ulm",
+      "position": "Ulm complicated the task for Atalanta and assisted the goal.",
+      "polarity": "positive",
+      "claim_id": "35f4c981-e86c-4a3c-9ef3-21707106a531",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s3",
+      "target_entity": "Ulm",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ulm complicated the task for Atalanta and assisted the goal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he was the player who made the task more difficult for Atalanta, because the goal comes from him, who manages to put that ball in the middle.",
+          "start_sec": 52.65,
+          "end_sec": 86.85,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus had to suffer because Atalanta played strongly.",
+      "polarity": "neutral",
+      "claim_id": "95aee11c-7a92-467e-bec2-9df803069dc2",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus had to suffer because Atalanta played strongly.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Juventus that had to suffer today. Today he had to suffer because he found a strong Atalanta",
+          "start_sec": 95.27,
+          "end_sec": 133.25,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "avversario"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta is not inferior individually to Juventus in Serie A.",
+      "polarity": "positive",
+      "claim_id": "a1a92299-683a-4a54-80fa-f0fb5cca2569",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s5",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta is not inferior individually to Juventus in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in this category, in our Serie A, Atalanta today, individually speaking, is not inferior to Juventus",
+          "start_sec": 95.27,
+          "end_sec": 133.25,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "confronto",
+        "serie_a"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Palladino",
+      "position": "With Palladino, Juventus changed gears and improved their performance.",
+      "polarity": "positive",
+      "claim_id": "1e71f322-0661-409a-b025-fc4e3e3525dc",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s5",
+      "target_entity": "Palladino",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "With Palladino, Juventus changed gears and improved their performance.",
+      "evidence_quotes": [
+        {
+          "quote_text": "with Palladino, the numbers, the statistics, tell us a lot, he changed gears",
+          "start_sec": 95.27,
+          "end_sec": 133.25,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "statistica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Scalvini",
+      "position": "Scalvini shot the ball out instead of shooting in.",
+      "polarity": "negative",
+      "claim_id": "480f58cd-8deb-4419-b2c5-532c849eddaf",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s2",
+      "target_entity": "Scalvini",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Scalvini shot the ball out instead of shooting in.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Scalvini instead of shooting in, shot out.",
+          "start_sec": 49.13,
+          "end_sec": 51.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "azione",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Zalewski",
+      "position": "Zalewski had almost no chances during the match.",
+      "polarity": "negative",
+      "claim_id": "0a14328d-8f60-45d0-a0cf-8b70cdf1bbe3",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s3",
+      "target_entity": "Zalewski",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zalewski had almost no chances during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "That of Zalewski, really a 0.",
+          "start_sec": 52.65,
+          "end_sec": 86.85,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ulm",
+      "position": "Ulm created a cutback opportunity for Thuram during the match.",
+      "polarity": "neutral",
+      "claim_id": "9e0a511a-1e78-441a-91e1-c2a65a2ea811",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s4",
+      "target_entity": "Ulm",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ulm created a cutback opportunity for Thuram during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it was always Ulm, a cutback for Thuram",
+          "start_sec": 88.37,
+          "end_sec": 95.27000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "creazione occasione",
+        "assist",
+        "prestazione",
+        "Giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Thuram",
+      "position": "Thuram was on the receiving end of a cutback from Ulm.",
+      "polarity": "neutral",
+      "claim_id": "8c236c19-5d66-4637-9a5e-5788e7c872b4",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s4",
+      "target_entity": "Thuram",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Thuram was on the receiving end of a cutback from Ulm.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a cutback for Thuram",
+          "start_sec": 88.37,
+          "end_sec": 95.27000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ricezione palla",
+        "prestazione",
+        "Giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Nel secondo tempo la Juventus è riuscita a tenere bene il campo.",
+      "polarity": "positive",
+      "claim_id": "e114de8a-b337-442d-8c38-39f505ff0957",
+      "video_id": "6kcdA_UIk-M",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nel secondo tempo la Juventus è riuscita a tenere bene il campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus, as I've said many times today, in the second half of the match was able to hold their ground",
+          "start_sec": 5.47,
+          "end_sec": 47.849999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "secondo tempo",
+        "prestazione",
+        "tenuta"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "video_id": "TX4j547o5CM",
+  "analyzed_at": "2026-04-29T08:07:03.133405+00:00",
+  "metadata": {
+    "title": "STA VENENDO GIÙ TUTTO‼️ DESIGNAZIONI A PIACIMENTO e anche INTER-ROMA SOTTO ESAME",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video di Neschio affronta il tema delle presunte irregolarità e tensioni nel sistema arbitrale italiano, con particolare riferimento alle designazioni arbitrarie e al ruolo del VAR. L’autore sostiene che il sistema, guidato da Gravina e i suoi collaboratori, stia crollando sotto il peso di scandali e ansie diffuse tra gli arbitri, come evidenziato dalle recenti rivelazioni di Repubblica e dall’intervista a Pasquale Deo. Viene inoltre sottolineato come l’Inter sia al centro di un dibattito controverso, con accuse di favoritismi che mettono in discussione la correttezza delle valutazioni arbi",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "corruzione",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "designazione",
+      "relevance": "low"
+    },
+    {
+      "name": "episodio controverso",
+      "relevance": "low"
+    },
+    {
+      "name": "gestione arbitrale",
+      "relevance": "low"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'intervista all'ex arbitro è stata rilasciata questa mattina a fanpage.it riguardo alle designazioni arbitrali.",
+      "polarity": "neutral",
+      "claim_id": "7e69940b-4f99-4a05-8747-d7c64c9188f0",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'intervista all'ex arbitro è stata rilasciata questa mattina a fanpage.it riguardo alle designazioni arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partendo dall'ex arbitro e quindi dall'intervista rilasciata stamane, mi pare di capire, a Sì, stamana fanpage.it",
+          "start_sec": 77.2,
+          "end_sec": 121.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intervista",
+        "arbitro",
+        "designazioni"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina comandava il governo del calcio con i suoi fedelissimi.",
+      "polarity": "negative",
+      "claim_id": "75dac042-e432-409e-aa74-569e4fff8f18",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s3",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina comandava il governo del calcio con i suoi fedelissimi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era costituito da Gravina che comandava il governo del calcio e i suoi fedelissimi Kiné e Rocchi",
+          "start_sec": 117.64,
+          "end_sec": 156.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "governo",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "sistema arbitrale",
+      "position": "Il sistema arbitrale governato da Gravina sta crollando.",
+      "polarity": "negative",
+      "claim_id": "fd1ac26e-eccc-427a-b6e6-1eae334ef4d4",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s3",
+      "target_entity": "sistema arbitrale",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il sistema arbitrale governato da Gravina sta crollando.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sta sta cadendo letteral, no, letteralmente no, ma il castello crocrolla",
+          "start_sec": 117.64,
+          "end_sec": 156.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sistema",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Arbitri",
+      "position": "Gli ex arbitri come Pasquale Deo vivono in uno stato di ansia totale e non sono sereni.",
+      "polarity": "negative",
+      "claim_id": "33b98697-8d3d-4990-8024-d28c9cbab861",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s3",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli ex arbitri come Pasquale Deo vivono in uno stato di ansia totale e non sono sereni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pasquale Deo, ex arbitro, tutti lì vivevano e vivono con questo stato di ansia totale, non sono sereni",
+          "start_sec": 117.64,
+          "end_sec": 156.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "ansia"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il sistema VAR ha minato la serenità della valutazione nelle partite.",
+      "polarity": "negative",
+      "claim_id": "8bfd7d60-6678-4022-b303-d7b9a8ea014e",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s4",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il sistema VAR ha minato la serenità della valutazione nelle partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "creato questo sistema che ha minato la serenità della valutazione al VAR",
+          "start_sec": 153.68,
+          "end_sec": 193.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "serenità",
+        "valutazione",
+        "refereeing"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'Inter è stata messa al centro del dibattito nei confronti arbitrali con nuovi contenuti che sovvertono la narrazione.",
+      "polarity": "neutral",
+      "claim_id": "08d6502c-c105-4f11-a749-f63f9915c9c2",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è stata messa al centro del dibattito nei confronti arbitrali con nuovi contenuti che sovvertono la narrazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "messo messo in mezzo l'Inter e oggi la pagina si arricchisce di nuovi contenuti che quasi sovvertono il tutto",
+          "start_sec": 153.68,
+          "end_sec": 193.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Inter",
+        "media",
+        "refereeing",
+        "dibattito"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Arbitri",
+      "position": "Quest'anno tutte le squadre si sono lamentate degli arbitri.",
+      "polarity": "negative",
+      "claim_id": "daca23c0-31cb-4678-8037-56597753b79c",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s5",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Quest'anno tutte le squadre si sono lamentate degli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quest'anno si son quest'anno negli si lamentano tutti, tutti. Non c'è squadra che non si sia lamentata degli arbitri",
+          "start_sec": 190.4,
+          "end_sec": 232.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "protocollo VAR",
+      "position": "Il protocollo VAR stabilisce che in sala possano operare solo VAR e Avar senza agenti esterni.",
+      "polarity": "neutral",
+      "claim_id": "7d71f3bc-0705-4fa2-9f45-8ee1228a63d8",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s5",
+      "target_entity": "protocollo VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il protocollo VAR stabilisce che in sala possano operare solo VAR e Avar senza agenti esterni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il protocollo dice che in sala possono operare solo VAR e Avar, niente agenti esterni",
+          "start_sec": 190.4,
+          "end_sec": 232.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Alterare le decisioni arbitrali in un'occasione piuttosto che un'altra significa influenzare il risultato di una partita e di un campionato.",
+      "polarity": "negative",
+      "claim_id": "c523cf88-de9b-46e4-9a38-0965f3cb7c9d",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s6",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Alterare le decisioni arbitrali in un'occasione piuttosto che un'altra significa influenzare il risultato di una partita e di un campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anziché in un'altra significa che stai alterando il risultato di una partita e di un campionato",
+          "start_sec": 230.72,
+          "end_sec": 267.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "influenza risultato",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Repubblica",
+      "position": "Repubblica ha pubblicato nuove pagine con indiscrezioni su vicende oscure.",
+      "polarity": "neutral",
+      "claim_id": "3de51a5d-d501-4f1f-b143-d1173a683f89",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s0",
+      "target_entity": "Repubblica",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Repubblica ha pubblicato nuove pagine con indiscrezioni su vicende oscure.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le indiscrezioni tirate fuori da dalle Repubblica",
+          "start_sec": 1.12,
+          "end_sec": 46.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indiscrezioni",
+        "media"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "varie designazioni arbitrali",
+      "position": "Le designazioni arbitrali sono viste come a piacimento, suggerendo mancanza di correttezza.",
+      "polarity": "negative",
+      "claim_id": "29f9c791-caaa-4672-93a4-542756d21488",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s0",
+      "target_entity": "varie designazioni arbitrali",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le designazioni arbitrali sono viste come a piacimento, suggerendo mancanza di correttezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "DESIGNAZIONI A PIACIMENTO",
+          "start_sec": 1.12,
+          "end_sec": 46.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "designazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Arbitri",
+      "position": "Le partite arbitrate quest'anno sono un disastro.",
+      "polarity": "negative",
+      "claim_id": "a5e5c5b2-b4ec-4592-b41c-259e3d853664",
+      "video_id": "TX4j547o5CM",
+      "segment_id": "s5",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Le partite arbitrate quest'anno sono un disastro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedendo le partite, ragazzi, è un disastro, un disastro",
+          "start_sec": 190.4,
+          "end_sec": 232.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

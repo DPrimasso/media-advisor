@@ -1,0 +1,409 @@
+{
+  "video_id": "mZ6kB6_59b4",
+  "analyzed_at": "2026-04-27T07:09:22.706057+00:00",
+  "metadata": {
+    "title": "ALLEGRI CON UN SORRISO A 32 DENTI‼️ MILAN-JUVENTUS 0-0",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita Milan-Juventus terminata 0-0, sottolineando come Allegri abbia mostrato un sorriso a 32 denti, segno della sua soddisfazione per l’andamento del match, che si è svolto esattamente secondo i suoi piani. Nonostante la Juventus abbia iniziato con grande determinazione e alcuni giocatori come Sao Conce abbiano mostrato potenziale, il risultato finale è stato favorevole a entrambe le squadre in ottica classifica, con Milan che ha avuto l’occasione più importante. L’autore evidenzia inoltre una tendenza recente di partite con pochi gol, riflettendo una fase di equilibrio",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "duello",
+      "relevance": "high"
+    },
+    {
+      "name": "occasione",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "episodio",
+      "relevance": "low"
+    },
+    {
+      "name": "statistica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Milan-Juventus match",
+      "position": "There were a few occasions after the first 35 minutes, making the first 35 practically skippable.",
+      "polarity": "positive",
+      "claim_id": "4cf05fef-3289-4028-aae7-8ef917a05d58",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s6",
+      "target_entity": "Milan-Juventus match",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "There were a few occasions after the first 35 minutes, making the first 35 practically skippable.",
+      "evidence_quotes": [
+        {
+          "quote_text": "there was also a few occasions after the first 35 minutes The first 35 practically skippable, quietly",
+          "start_sec": 212.13,
+          "end_sec": 255.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "The result is good for Milan's position in the standings.",
+      "polarity": "positive",
+      "claim_id": "46d83ff8-7cc7-4b9e-bd93-bc0915e2a702",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The result is good for Milan's position in the standings.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Which is certainly good for Milan, for the ranking position",
+          "start_sec": 2.18,
+          "end_sec": 56.9,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "classifica",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus rebelled at the start of the game and showed great effort.",
+      "polarity": "positive",
+      "claim_id": "83586ce8-d5d0-44a9-a348-1adf1d7ac0e7",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus rebelled at the start of the game and showed great effort.",
+      "evidence_quotes": [
+        {
+          "quote_text": "they rebelled at the start, they did everything for",
+          "start_sec": 56.9,
+          "end_sec": 115.05000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "juventus",
+        "performance",
+        "start"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sao Conce",
+      "position": "Sao Conce showed great potential but needs to improve his finishing.",
+      "polarity": "positive",
+      "claim_id": "588bb9a9-474b-4557-a593-cbce983ddd77",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s1",
+      "target_entity": "Sao Conce",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Sao Conce showed great potential but needs to improve his finishing.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I saw a great Conce Sao Who, if he improves in the last play, can become a very strong player",
+          "start_sec": 56.9,
+          "end_sec": 115.05000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conce sao",
+        "performance",
+        "potential"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Pardo",
+      "position": "In the last five games, four times it ended with zero goals from one side to the other.",
+      "polarity": "neutral",
+      "claim_id": "bc0636c4-251a-4565-bede-95ec83876412",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s5",
+      "target_entity": "Pardo",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "In the last five games, four times it ended with zero goals from one side to the other.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in the last five games Four times it ended with zero goal from one side to the other",
+          "start_sec": 169.45,
+          "end_sec": 212.13,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "statistica",
+        "risultato",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan-Juventus match",
+      "position": "A goal was scored and canceled during the match.",
+      "polarity": "neutral",
+      "claim_id": "427ec699-4075-479c-8e07-a64a89db2f8e",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s6",
+      "target_entity": "Milan-Juventus match",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "A goal was scored and canceled during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Maybe there was the goal and the goal canceled by the other",
+          "start_sec": 212.13,
+          "end_sec": 255.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "goalkeeper",
+      "position": "The goalkeeper should not raise the ball when it is a meter ahead to avoid controversy.",
+      "polarity": "negative",
+      "claim_id": "68ca0d70-2f17-41e2-83b5-58e3cc888734",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s8",
+      "target_entity": "goalkeeper",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The goalkeeper should not raise the ball when it is a meter ahead to avoid controversy.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it is true that the goalkeeper better not to raise it more But when it's a meter ahead",
+          "start_sec": 261.0,
+          "end_sec": 300.34,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "arbitro",
+        "episodio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri had a broad smile indicating satisfaction with how the game went.",
+      "polarity": "positive",
+      "claim_id": "2d1751ec-2d1a-44b1-8c08-6c39c27e2c7c",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s0",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri had a broad smile indicating satisfaction with how the game went.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I will keep the 32 -teeth smile of Mr. Alegri",
+          "start_sec": 2.18,
+          "end_sec": 56.9,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Massimiliano Allegri",
+      "position": "The game went exactly as Allegri wanted it to.",
+      "polarity": "positive",
+      "claim_id": "c9c29097-43e4-4b15-9ff1-d61e14f9bdad",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s0",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The game went exactly as Allegri wanted it to.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The game went exactly as he wanted",
+          "start_sec": 2.18,
+          "end_sec": 56.9,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "performance",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Allegri started well in the game according to the opinion expressed.",
+      "polarity": "positive",
+      "claim_id": "f18669b6-36d0-4dbb-b3f2-90ec71af5fbb",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri started well in the game according to the opinion expressed.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In my opinion, I started with Allegri",
+          "start_sec": 56.9,
+          "end_sec": 115.05000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allegri",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan and Juventus almost never manage to harm each other in their matches.",
+      "polarity": "neutral",
+      "claim_id": "57f4e2be-0007-4093-aeed-8588804a7903",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s6",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan and Juventus almost never manage to harm each other in their matches.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Teams that almost never manage to hurt each other",
+          "start_sec": 212.13,
+          "end_sec": 255.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "rivalità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan-Juventus match",
+      "position": "The game was mostly blocked and closed at the beginning.",
+      "polarity": "neutral",
+      "claim_id": "314fcdf5-ad7e-41d1-a3a7-4df07914500f",
+      "video_id": "mZ6kB6_59b4",
+      "segment_id": "s6",
+      "target_entity": "Milan-Juventus match",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The game was mostly blocked and closed at the beginning.",
+      "evidence_quotes": [
+        {
+          "quote_text": "this is a race always blocked, always closed",
+          "start_sec": 212.13,
+          "end_sec": 255.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    }
+  ]
+}

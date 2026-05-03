@@ -1,0 +1,396 @@
+{
+  "video_id": "-aOydHd37c0",
+  "analyzed_at": "2026-04-28T07:27:35.085690+00:00",
+  "metadata": {
+    "title": "TMWRadio - De Paola:\" La FIGC va commissariata. Caso Rocchi? Accuse gravi...\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video affronta il tema della crisi della FIGC e del sistema calcio italiano, con un focus sul caso Rocchi e le accuse di frode sportiva. L'autore, De Paola, sostiene che la FIGC debba essere commissariata per avviare una riforma profonda e che le accuse di frode, pur gravi, al momento non sono supportate da prove concrete, soprattutto considerando che due arbitri da soli non bastano a dimostrare un sistema truffaldino. Inoltre, si evidenzia come il mondo arbitrale sia cambiato, con arbitri che oggi puntano alla carriera e guadagnano molto, generando aspettative e tensioni. Infine, riguardo ",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "europe",
+      "relevance": "medium"
+    },
+    {
+      "name": "calcio italiano",
+      "relevance": "medium"
+    },
+    {
+      "name": "commissionamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "low"
+    },
+    {
+      "name": "indagine",
+      "relevance": "low"
+    },
+    {
+      "name": "illecito sportivo",
+      "relevance": "low"
+    },
+    {
+      "name": "commissariamento",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "frodi sportive",
+      "position": "La frode sportiva è una cosa colossale e di grande gravità.",
+      "polarity": "negative",
+      "claim_id": "4119bc59-d9b3-4662-8cc4-2d62c4b23943",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s0",
+      "target_entity": "frodi sportive",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La frode sportiva è una cosa colossale e di grande gravità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il frode sportivo è una cosa colossale, quindi di una gravità",
+          "start_sec": 0.0,
+          "end_sec": 63.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "due arbitri",
+      "position": "Due arbitri da soli non sono indicativi di una frode sportiva.",
+      "polarity": "neutral",
+      "claim_id": "a588e282-b763-424e-adac-c0865e092263",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s0",
+      "target_entity": "due arbitri",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Due arbitri da soli non sono indicativi di una frode sportiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "due arbitri da soli non è che mi sembrano indicativi di questa frode",
+          "start_sec": 0.0,
+          "end_sec": 63.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "frode sportiva",
+      "position": "Se la frode sportiva è stata consumata ci deve essere uno che è stato danneggiato e uno che ha tentato di danneggiare un altro.",
+      "polarity": "neutral",
+      "claim_id": "1db45306-8ff1-4722-b44c-743158c9561d",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s0",
+      "target_entity": "frode sportiva",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Se la frode sportiva è stata consumata ci deve essere uno che è stato danneggiato e uno che ha tentato di danneggiare un altro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se se la frode è stata consumata ci deve essere per forza uno che è stato danneggiato, uno che ha tentato di danneggiare un altro",
+          "start_sec": 0.0,
+          "end_sec": 63.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "arbitro",
+      "position": "Gli arbitri oggi guadagnano dei bei soldi e puntano sulla carriera arbitrale.",
+      "polarity": "positive",
+      "claim_id": "b42ae4e5-7029-462c-8578-a409d95345cd",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli arbitri oggi guadagnano dei bei soldi e puntano sulla carriera arbitrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi l'arbitro punta molto sulla carriera arbitrale perché eh guadagna dei bei soldi",
+          "start_sec": 61.039,
+          "end_sec": 125.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "carriera",
+        "soldi"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "assistente arbitrale",
+      "position": "Un assistente arbitrale ha denunciato il sistema meritocratico che non tiene conto di tutti i paletti.",
+      "polarity": "neutral",
+      "claim_id": "b127be22-9dda-4d14-8461-f3168f2a6ef3",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s1",
+      "target_entity": "assistente arbitrale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un assistente arbitrale ha denunciato il sistema meritocratico che non tiene conto di tutti i paletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un assistente arbitrale che aveva fatto delle denunce eh contro il sistema meritocratico che non teneva conto, diciamo, di tutti i paletti",
+          "start_sec": 61.039,
+          "end_sec": 125.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "denuncia",
+        "meritocrazia",
+        "assistente arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi ha violato il protocollo VAR tentando di correggere un possibile errore arbitrale",
+      "polarity": "neutral",
+      "claim_id": "62460a51-e942-4435-aa4d-8ae734008cef",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s2",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Rocchi ha violato il protocollo VAR tentando di correggere un possibile errore arbitrale",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocchi avrebbe commesso bussando alla alla alla porta del del VAR per fare per fare che cosa? per evitare un errore",
+          "start_sec": 123.159,
+          "end_sec": 193.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "protocollo",
+        "VAR",
+        "intervento arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocca",
+      "position": "L'esposto di Rocca contro Rocchi appare poco convincente",
+      "polarity": "negative",
+      "claim_id": "4564a439-c60c-4633-afdd-3f26f796a9ac",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s2",
+      "target_entity": "Rocca",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'esposto di Rocca contro Rocchi appare poco convincente",
+      "evidence_quotes": [
+        {
+          "quote_text": "io sull'esposto di Rocca sono poco proprio poco convinto, Rocca contro Rocchi",
+          "start_sec": 123.159,
+          "end_sec": 193.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esposto",
+        "contestazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "protocollo VAR",
+      "position": "Il protocollo VAR non prevede l'intervento di Rocchi come è avvenuto",
+      "polarity": "neutral",
+      "claim_id": "332998a1-e3c0-4b86-a32f-a6f3851c9896",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s2",
+      "target_entity": "protocollo VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il protocollo VAR non prevede l'intervento di Rocchi come è avvenuto",
+      "evidence_quotes": [
+        {
+          "quote_text": "rottura di un protocollo, cioè nel protocollo non prevede questo",
+          "start_sec": 123.159,
+          "end_sec": 193.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi ha evitato un errore nel derby Udinese-Parma assegnando un rigore corretto.",
+      "polarity": "positive",
+      "claim_id": "414abac9-9da0-4177-8896-f9a17224323e",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s3",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi ha evitato un errore nel derby Udinese-Parma assegnando un rigore corretto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché ha evitato un errore, perché poi alla fine nella sostanza sappiamo benissimo che c'era un rigore in quell'Udinese- Parma che stava per non essere assegnato, invece con l'intervento di Rocchi è stato assegnato il rigore",
+          "start_sec": 193.48,
+          "end_sec": 257.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rigore",
+        "errore arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "protocollo arbitrale",
+      "position": "Il protocollo arbitrale è stato spesso derogato nelle decisioni sui rigori di mano in area.",
+      "polarity": "negative",
+      "claim_id": "081bb34b-212b-4ab4-8c92-38f5a5e5c3b4",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s3",
+      "target_entity": "protocollo arbitrale",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il protocollo arbitrale è stato spesso derogato nelle decisioni sui rigori di mano in area.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tante volte si è derogato... andiamo a vedere i rigori assegnati per farlo di mano in area, quale uniformità c'è e quale deroga, diciamo, al protocollo",
+          "start_sec": 193.48,
+          "end_sec": 257.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "protocollo",
+        "rigori",
+        "deroga"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Inter",
+      "position": "L'Inter avrebbe scelto alcuni arbitri attraverso riunioni a Milano secondo ipotesi degli organi della stampa.",
+      "polarity": "neutral",
+      "claim_id": "9537bbfc-4fa8-4715-b7a3-e73106bd60a4",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter avrebbe scelto alcuni arbitri attraverso riunioni a Milano secondo ipotesi degli organi della stampa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa riunioni eh a Milano dove l'Inter avrebbe scelto eventualmente gli arbitri",
+          "start_sec": 255.64,
+          "end_sec": 312.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inter",
+        "arbitri",
+        "ipotesi"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "mondo arbitrale",
+      "position": "Il mondo arbitrale è diventato talmente particolare perché girano parecchi soldi.",
+      "polarity": "neutral",
+      "claim_id": "1ac5572a-50c1-4669-9021-cbea478bff46",
+      "video_id": "-aOydHd37c0",
+      "segment_id": "s1",
+      "target_entity": "mondo arbitrale",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il mondo arbitrale è diventato talmente particolare perché girano parecchi soldi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mondo arbitrale è diventato ormai talmente particolare perché girano parecchi soldi",
+          "start_sec": 61.039,
+          "end_sec": 125.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "monetizzazione",
+        "contesto"
+      ]
+    }
+  ]
+}

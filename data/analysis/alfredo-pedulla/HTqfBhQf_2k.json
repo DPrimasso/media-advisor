@@ -1,0 +1,400 @@
+{
+  "video_id": "HTqfBhQf_2k",
+  "analyzed_at": "2026-04-27T07:25:05.570674+00:00",
+  "metadata": {
+    "title": "MILAN-JUVE È UN’ALTRA COSA. 0-0, TUTTI FELICI E FESTA DEL LAVORO ANTICIPATA🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita Milan-Juve terminata 0-0, definendola una delle interpretazioni più deludenti degli ultimi anni, caratterizzata da mancanza di intensità e assenza di un criterio di gioco chiaro, soprattutto da parte del Milan. L’autore critica la scarsa volontà delle squadre di rischiare, ipotizzando un tacito accordo per accontentarsi del pareggio, soprattutto considerando che il Milan sembra non puntare con decisione alla seconda posizione in classifica. Inoltre, si sottolinea come la protesta dei tifosi milanisti per il caro biglietti renda ancora più inaccettabile uno spettaco",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "partita",
+      "relevance": "high"
+    },
+    {
+      "name": "risultato",
+      "relevance": "medium"
+    },
+    {
+      "name": "promozione",
+      "relevance": "medium"
+    },
+    {
+      "name": "serie d",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "motivatore",
+      "relevance": "low"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Entrambe le squadre hanno pareggiato 0-0 nelle due partite recenti Milan-Juve.",
+      "polarity": "neutral",
+      "claim_id": "705e93b7-b322-420a-ba2c-088d97134b1f",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Entrambe le squadre hanno pareggiato 0-0 nelle due partite recenti Milan-Juve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "0-0 dell'andata e Milan- Juve 0-0",
+          "start_sec": 0.08,
+          "end_sec": 38.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "La partita Milan-Juve è stata una delle interpretazioni più deludenti degli ultimi anni.",
+      "polarity": "negative",
+      "claim_id": "13629f1f-2b1c-42fc-8f09-a9139af1cb63",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Milan-Juve è stata una delle interpretazioni più deludenti degli ultimi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a me è sembrata una delle interpretazioni di Milan Juve più eh allucinanti, tra virgolette degli ultimi anni",
+          "start_sec": 0.08,
+          "end_sec": 38.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan non ha mostrato un criterio di gioco chiaro nella partita.",
+      "polarity": "negative",
+      "claim_id": "5720347b-3b2e-4acb-ac7b-f1d41003aac8",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non ha mostrato un criterio di gioco chiaro nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'era la volontà, non c'era un un criterio di gioco",
+          "start_sec": 36.719,
+          "end_sec": 76.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan sembra non essere interessato a raggiungere la seconda posizione in classifica.",
+      "polarity": "negative",
+      "claim_id": "3040a36f-539d-452d-bd31-b2ec45bf7dfd",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sembra non essere interessato a raggiungere la seconda posizione in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché al Milan secondo posto evidentemente non interessa",
+          "start_sec": 36.719,
+          "end_sec": 76.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Milan",
+      "position": "I tifosi del Milan hanno protestato per il caro biglietti.",
+      "polarity": "neutral",
+      "claim_id": "c0fd1b51-4ac5-4ec9-9c2f-486d9c066b70",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi del Milan hanno protestato per il caro biglietti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la protesta dei tifosi del Milan per il caro biglietti",
+          "start_sec": 36.719,
+          "end_sec": 76.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "protesta",
+        "prezzo biglietti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "La partita è stata uno spettacolo deludente, definito solo un modo per ottenere un punto.",
+      "polarity": "negative",
+      "claim_id": "f10112e1-8b81-4b7a-a6c4-1eb439692a7d",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La partita è stata uno spettacolo deludente, definito solo un modo per ottenere un punto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se ti sta bene il risultato, puoi decidere di speculare",
+          "start_sec": 36.719,
+          "end_sec": 76.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "analisi partita"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Bartesaki",
+      "position": "Bartesaki è uscito forse per un problema fisico.",
+      "polarity": "neutral",
+      "claim_id": "781ff60c-2bb1-4964-b299-19630828bf15",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s3",
+      "target_entity": "Bartesaki",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Bartesaki è uscito forse per un problema fisico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bartesaki che è uscito forse per un problema fisico",
+          "start_sec": 106.96,
+          "end_sec": 143.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bartesaki",
+      "position": "Bartesaki si è spento dopo una buona parte di stagione iniziale da protagonista.",
+      "polarity": "negative",
+      "claim_id": "a85d7a38-a38d-476d-b882-8973b37162df",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s3",
+      "target_entity": "Bartesaki",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bartesaki si è spento dopo una buona parte di stagione iniziale da protagonista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bartesaki si è un po' spento e dopo una buona parte di stagione iniziale da protagonista",
+          "start_sec": 106.96,
+          "end_sec": 143.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "forma fisica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Nel primo tempo la Juventus ha giocato meglio del Milan.",
+      "polarity": "neutral",
+      "claim_id": "4b04d110-a006-4702-a54f-cc00d976792d",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Nel primo tempo la Juventus ha giocato meglio del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il primo tempo forse ha fatto meglio la Juve",
+          "start_sec": 72.84,
+          "end_sec": 109.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "primo tempo",
+        "migliore squadra"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sesa",
+      "position": "Sesa è stato il migliore in campo della partita.",
+      "polarity": "positive",
+      "claim_id": "4f463001-b963-49a5-b3eb-dba6cbcfabba",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s2",
+      "target_entity": "Sesa",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sesa è stato il migliore in campo della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con Sesa migliore in campo",
+          "start_sec": 72.84,
+          "end_sec": 109.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "migliore in campo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao ha sbagliato quasi tutti i passaggi nel match.",
+      "polarity": "negative",
+      "claim_id": "4317f2db-d846-4e02-a890-e57b6a28dfec",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s3",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Leao ha sbagliato quasi tutti i passaggi nel match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Leao sbaglia tutti i passaggi",
+          "start_sec": 106.96,
+          "end_sec": 143.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "gioco"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Como ha vinto la sua partita.",
+      "polarity": "positive",
+      "claim_id": "c87a4e65-2654-4ed3-8c72-61c39e0fb9dc",
+      "video_id": "HTqfBhQf_2k",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como ha vinto la sua partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi riferisco al al Como e alla Roma che hanno vinto entrambe",
+          "start_sec": 72.84,
+          "end_sec": 109.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "vittoria"
+      ]
+    }
+  ]
+}

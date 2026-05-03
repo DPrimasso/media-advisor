@@ -1,0 +1,282 @@
+{
+  "video_id": "UwoEV0ABjis",
+  "analyzed_at": "2026-04-25T11:09:00.682450+00:00",
+  "metadata": {
+    "title": "Aureliano fa esplodere la polemica per le parole su Como-Inter #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video analizza la controversia nata dalle dichiarazioni dell'arbitro Aureliano riguardo al rigore concesso all'Inter nella partita contro il Como, poi riconosciuto come inesistente dai vertici dell'AIA. L'autore critica la posizione di Aureliano, che giustifica l'errore sostenendo infrazioni non specificate e difendendo la mancata revisione VAR, mostrando una scarsa comprensione del protocollo. La conclusione chiave è che l'arbitraggio ha influito negativamente sulla partita, alimentando polemiche tra tifosi e addetti ai lavori.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "tecnologia",
+      "relevance": "high"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "arbitro Aureliano",
+      "position": "L'arbitro Aureliano ha commesso un errore concedendo un rigore inesistente a favore dell'Inter.",
+      "polarity": "negative",
+      "claim_id": "3f469e4a-85cb-44d1-991e-e7332bd69e02",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s1",
+      "target_entity": "arbitro Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro Aureliano ha commesso un errore concedendo un rigore inesistente a favore dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Una gara viziata da un rigore inesistente concesso aiani per il contatto tra Bonn e Nico Pazz",
+          "start_sec": 2.8,
+          "end_sec": 33.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro Aureliano",
+      "position": "I vertici dell'Aia hanno ammesso l'errore dell'arbitro Aureliano nel match Como-Inter.",
+      "polarity": "negative",
+      "claim_id": "16d13223-014c-46d0-8b97-d05fe371ad1b",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s1",
+      "target_entity": "arbitro Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I vertici dell'Aia hanno ammesso l'errore dell'arbitro Aureliano nel match Como-Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i vertici dell'Aia hanno ammesso candidamente l'errore a Open Var",
+          "start_sec": 2.8,
+          "end_sec": 33.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro Aureliano",
+      "position": "Aureliano sostiene che il giocatore dell'Inter ha commesso tre infrazioni non specificate.",
+      "polarity": "negative",
+      "claim_id": "1f903856-4ee2-499b-bdd6-7fc3d77f8f22",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s1",
+      "target_entity": "arbitro Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Aureliano sostiene che il giocatore dell'Inter ha commesso tre infrazioni non specificate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aureliano però sostiene che il giocatore dell'Inter commette tre infrazioni senza dire quali",
+          "start_sec": 2.8,
+          "end_sec": 33.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Como-Inter",
+      "position": "Il rigore assegnato a Como-Inter è stato giudicato erroneo dai vertici dell'Aia.",
+      "polarity": "negative",
+      "claim_id": "97f5a53e-db50-457c-af52-a383c66d4960",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s3",
+      "target_entity": "Como-Inter",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rigore assegnato a Como-Inter è stato giudicato erroneo dai vertici dell'Aia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per far revocare il rigore come era giusto secondo i vertici dell'Aia",
+          "start_sec": 33.879,
+          "end_sec": 64.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rigore",
+        "giudizio arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il protocollo VAR è utilizzato senza una reale comprensione del suo funzionamento.",
+      "polarity": "negative",
+      "claim_id": "f529a720-6e4f-4fb1-8c1a-6c17ea280bc2",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s4",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il protocollo VAR è utilizzato senza una reale comprensione del suo funzionamento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "protocollo VAR senza capire come funziona veramente.",
+          "start_sec": 62.199,
+          "end_sec": 66.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "protocollo",
+        "comprensione",
+        "arbitraggio"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro Aureliano",
+      "position": "Aureliano ritiene che il giocatore dell'Inter si sia salvato dalle sanzioni perché non ha colpito l'avversario.",
+      "polarity": "neutral",
+      "claim_id": "d87102aa-bed8-4d9b-8474-0fd789a164eb",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s1",
+      "target_entity": "arbitro Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Aureliano ritiene che il giocatore dell'Inter si sia salvato dalle sanzioni perché non ha colpito l'avversario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si salva soltanto perché non colpisce l'avversario",
+          "start_sec": 2.8,
+          "end_sec": 33.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Aureliano",
+      "position": "Aureliano avrebbe chiesto a Massa una revisione in campo.",
+      "polarity": "neutral",
+      "claim_id": "87ba8a4f-e0c0-4bd9-a69e-26de458e7bc5",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s2",
+      "target_entity": "Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aureliano avrebbe chiesto a Massa una revisione in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avrebbe chiamato Massa allonfield review",
+          "start_sec": 31.64,
+          "end_sec": 36.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "revisione",
+        "arbitro"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Aureliano",
+      "position": "Aureliano ha sostenuto che la valutazione di campo di Massa doveva prevalere.",
+      "polarity": "neutral",
+      "claim_id": "bda38a4f-254d-4cec-95c1-a78e6e3dd3eb",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s3",
+      "target_entity": "Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Aureliano ha sostenuto che la valutazione di campo di Massa doveva prevalere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi doveva restare la valutazione di campo",
+          "start_sec": 33.879,
+          "end_sec": 64.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "valutazione di campo"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Massa",
+      "position": "Massa ha visto un'entrata imprudente durante Como-Inter.",
+      "polarity": "neutral",
+      "claim_id": "24c15a4a-2802-4d05-a75c-0cc6d94d7e44",
+      "video_id": "UwoEV0ABjis",
+      "segment_id": "s3",
+      "target_entity": "Massa",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Massa ha visto un'entrata imprudente durante Como-Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Massa aveva visto un'entrata imprudente",
+          "start_sec": 33.879,
+          "end_sec": 64.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "entrata imprudente"
+      ]
+    }
+  ]
+}

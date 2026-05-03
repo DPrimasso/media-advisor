@@ -1,0 +1,408 @@
+{
+  "video_id": "VVICD6Lg9cs",
+  "analyzed_at": "2026-04-24T08:54:58.511207+00:00",
+  "metadata": {
+    "title": "INTER, BLITZ PER IL CENTRALE. NAPOLI, CONTE SINCERO MA I FAB4 NON FUNZIONANO. ROMA, LA LISTA DI GASP",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-19T09:38:56+00:00"
+  },
+  "summary": "Il video analizza le recenti partite di Serie A, focalizzandosi in particolare sul pareggio tra Roma e Atalanta, che non favorisce nessuna delle due squadre in chiave classifica ed Europa. L’autore sottolinea come l’Atalanta rischi di finire settima e debba puntare alla finale di Coppa Italia per qualificarsi in Europa League, mentre la Roma, pur mostrando buone prestazioni, manca di giocatori chiave per ambire a posizioni più alte. Viene evidenziata la necessità per la Roma di rinforzare centrocampo, fascia sinistra e attacco, come richiesto da Gasperini, e si ipotizza che la vittoria della L",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica europea",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "coppa italia",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "qualificazione europea",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "Nel primo tempo Roma ha giocato un'ottima partita contro l'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "6e2c0592-c93d-4c74-b3f1-a08f7b51023c",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nel primo tempo Roma ha giocato un'ottima partita contro l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo visto un'ottima partita, soprattutto il primo tempo",
+          "start_sec": 1.28,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "prima metà",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "Nella ripresa Roma è calata nella prestazione contro l'Atalanta.",
+      "polarity": "negative",
+      "claim_id": "918cd8f0-13e0-4543-9281-6517f6e2fb91",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nella ripresa Roma è calata nella prestazione contro l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi in realtà nella ripresa entrambe le squadre sono calate",
+          "start_sec": 1.28,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ripresa",
+        "calo fisico",
+        "performance"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "Atalanta sembra destinata ad arrivare settima in classifica.",
+      "polarity": "neutral",
+      "claim_id": "d9d28dff-5d1f-4288-a174-553bc6df416d",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Atalanta sembra destinata ad arrivare settima in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sensazione che sia destinata ad arrivare settima",
+          "start_sec": 27.48,
+          "end_sec": 54.959999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "posizione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "Atalanta deve sperare di andare in finale di Coppa Italia per potersi qualificare in Europa League.",
+      "polarity": "neutral",
+      "claim_id": "28e48c59-f9f6-4005-bc04-e97c68edbd6e",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Atalanta deve sperare di andare in finale di Coppa Italia per potersi qualificare in Europa League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "deve sperare di andare in finale di Coppa Italia, magari vincere il trofeo se vuole andare in Europa League",
+          "start_sec": 27.48,
+          "end_sec": 54.959999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "europa league",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha avuto buone prestazioni ma ha raccolto meno rispetto alle aspettative.",
+      "polarity": "negative",
+      "claim_id": "8829aa65-62dc-46ae-9d62-fa531d03391e",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha avuto buone prestazioni ma ha raccolto meno rispetto alle aspettative.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta da recriminare, buone prestazioni, ma comunque raccoglie eh raccoglie meno",
+          "start_sec": 52.719,
+          "end_sec": 84.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "rendimento"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Roma",
+      "position": "I tifosi della Roma hanno contestato con uno striscione a Olimpico spettrale.",
+      "polarity": "negative",
+      "claim_id": "cad4f5f1-a391-4d46-8c1b-1668d75adf88",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi della Roma hanno contestato con uno striscione a Olimpico spettrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in un Olimpico spettrale con le contestazioni, con lo striscione",
+          "start_sec": 52.719,
+          "end_sec": 84.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "contestazione",
+        "stadio"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Roma",
+      "position": "La Roma sembra destinata a finire al quinto o sesto posto anche quest'anno.",
+      "polarity": "negative",
+      "claim_id": "4b9e0a58-7d40-4105-9923-875c7978c41a",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma sembra destinata a finire al quinto o sesto posto anche quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma mi sembra avviata verso l'ennesimo, quinto, sesto posto degli ultimi anni, quindi Europa League",
+          "start_sec": 82.96,
+          "end_sec": 110.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "Europa League",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juve ha una grande occasione battendo il Bologna.",
+      "polarity": "positive",
+      "claim_id": "9a561de5-4738-466c-b98b-70a95d5cea11",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juve ha una grande occasione battendo il Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve è una grandissima occasione stasera battendo il Bologna",
+          "start_sec": 82.96,
+          "end_sec": 110.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe rafforzare la sua posizione vincendo a Verona.",
+      "polarity": "positive",
+      "claim_id": "2b6b7fed-a816-4996-908d-7e8f99eef2c7",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Milan potrebbe rafforzare la sua posizione vincendo a Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "così come il Milan nel pomeriggio a Verona. Se vincono il Milan praticamente",
+          "start_sec": 82.96,
+          "end_sec": 110.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma vs Atalanta",
+      "position": "La partita tra Roma e Atalanta si è conclusa con un pareggio.",
+      "polarity": "neutral",
+      "claim_id": "c8bb5e3f-599f-4779-a687-056c8bcb1bcb",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s0",
+      "target_entity": "Roma vs Atalanta",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Roma e Atalanta si è conclusa con un pareggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però alla fine è il classico pareggio",
+          "start_sec": 1.28,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "pareggio",
+        "performance"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "Atalanta rischia di andare in Conference League o di subire una beffa se non vincerà la Coppa Italia.",
+      "polarity": "negative",
+      "claim_id": "47b091ae-d3ef-43cf-81fb-8506805fb20a",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Atalanta rischia di andare in Conference League o di subire una beffa se non vincerà la Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "al massimo la conference o rischio beffa",
+          "start_sec": 27.48,
+          "end_sec": 54.959999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conference league",
+        "rischio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kstovic",
+      "position": "Kstovic ha segnato un gran gol con la Roma.",
+      "polarity": "positive",
+      "claim_id": "dbf39ad8-3fe6-4e83-8ea8-0aca5428eb12",
+      "video_id": "VVICD6Lg9cs",
+      "segment_id": "s2",
+      "target_entity": "Kstovic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kstovic ha segnato un gran gol con la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gran gol di Kstovic nella Roma",
+          "start_sec": 52.719,
+          "end_sec": 84.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    }
+  ]
+}

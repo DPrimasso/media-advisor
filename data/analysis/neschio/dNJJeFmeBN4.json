@@ -1,0 +1,84 @@
+{
+  "video_id": "dNJJeFmeBN4",
+  "analyzed_at": "2026-04-24T08:33:28.730135+00:00",
+  "metadata": {
+    "title": "Vai vai vai! #InterCagliari",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video di Neschio si concentra sulla recente prestazione di Niccolò, sottolineando il suo ritorno in campo dopo un periodo di assenza. L'autore enfatizza l'importanza di affrontare ogni partita con determinazione, ribadendo che le partite vanno giocate con impegno e vinte. La conclusione chiave è che il ritorno di Niccolò rappresenta un elemento positivo per la squadra, che deve continuare a lottare per ottenere risultati concreti.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "ritorno",
+      "relevance": "high"
+    },
+    {
+      "name": "resultato",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Niccolò",
+      "position": "Niccolò è tornato a giocare dopo un periodo di assenza.",
+      "polarity": "positive",
+      "claim_id": "e917d8cb-abce-4faf-952d-69cc2f317ca7",
+      "video_id": "dNJJeFmeBN4",
+      "segment_id": "s0",
+      "target_entity": "Niccolò",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Niccolò è tornato a giocare dopo un periodo di assenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È tornato Niccolò",
+          "start_sec": 0.599,
+          "end_sec": 59.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "ritorno"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "partite",
+      "position": "Le partite vanno giocate e vanno vinte.",
+      "polarity": "neutral",
+      "claim_id": "00c99623-5090-488c-9240-a6d8a455e2c3",
+      "video_id": "dNJJeFmeBN4",
+      "segment_id": "s0",
+      "target_entity": "partite",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le partite vanno giocate e vanno vinte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Le partite vanno giocate e vanno vinte",
+          "start_sec": 0.599,
+          "end_sec": 59.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "resultato"
+      ]
+    }
+  ]
+}

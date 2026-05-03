@@ -1,0 +1,394 @@
+{
+  "video_id": "wuy5-xs5BC4",
+  "analyzed_at": "2026-04-23T10:59:07.065217+00:00",
+  "metadata": {
+    "title": "CLAMOROSO: \"Ho chiesto alla FIFA di RIPESCARE L'ITALIA al Mondiale al posto dell'Iran\"",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'analisi della semifinale di ritorno di Coppa Italia tra Lazio e Atalanta, con particolare attenzione alla sorprendente prestazione della Lazio che ha ribaltato i pronostici. L'autore sottolinea come la Lazio, grazie anche al giovane Motta, abbia riacceso una stagione che sembrava compromessa, conquistando la finale contro una Atalanta favorita sulla carta. Inoltre, si evidenzia che la Lazio, giocando la finale in casa contro l'Inter, rappresenta un avversario più pericoloso rispetto all'Atalanta, soprattutto per il vantaggio del fattore campo e la compattezza tattica",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "ripescaggio",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "parata",
+      "relevance": "medium"
+    },
+    {
+      "name": "rigore",
+      "relevance": "medium"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "low"
+    },
+    {
+      "name": "finale",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "fifa",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "finale tra Lazio e Inter",
+      "position": "La finale sarà giocata il 13 maggio prossimo tra Lazio e Inter.",
+      "polarity": "neutral",
+      "claim_id": "2905860e-d5fa-4b8a-b5d3-ab57838ccd21",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s3",
+      "target_entity": "finale tra Lazio e Inter",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La finale sarà giocata il 13 maggio prossimo tra Lazio e Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ricordiamo la finale, quindi sarà il 13 maggio prossimo tra Lazio ed Inter",
+          "start_sec": 96.84,
+          "end_sec": 126.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "finale tra Lazio e Inter",
+      "position": "Lazio e Inter si affronteranno anche l'8 maggio.",
+      "polarity": "neutral",
+      "claim_id": "a38cb8c9-29f4-462d-bbf9-1e46cb0dd78a",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s3",
+      "target_entity": "finale tra Lazio e Inter",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio e Inter si affronteranno anche l'8 maggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lazio ed Inter che tra l'altro si affronteranno anche l'8",
+          "start_sec": 96.84,
+          "end_sec": 126.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Atalanta",
+      "position": "L'Atalanta era favorita sulla carta perché è più avanti in classifica e giocava in casa.",
+      "polarity": "neutral",
+      "claim_id": "dd41175e-d5dd-48a4-9e15-de1fc51e1fdf",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta era favorita sulla carta perché è più avanti in classifica e giocava in casa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io personalmente davo come favorita all'Atalanta, ma penso tutti, è una squadra che sta più avanti in classifica, giocava in casa",
+          "start_sec": 35.84,
+          "end_sec": 71.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "favorita",
+        "casa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha sorpreso tutti con la prestazione contro l'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "a1ed3cdc-ba96-4e2a-9a51-d1853f41b1cb",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha sorpreso tutti con la prestazione contro l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però ci ha sorpreso. Abbiamo visto tutti com'è andata. Grandissima prestazione del giovane",
+          "start_sec": 35.84,
+          "end_sec": 71.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sorpresa",
+        "prestazione",
+        "giovane"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Motta",
+      "position": "Motta ha praticamente regalato la qualificazione ai biancocelesti.",
+      "polarity": "positive",
+      "claim_id": "ce457aa1-69bc-474c-a374-c256324c7a25",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s2",
+      "target_entity": "Motta",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Motta ha praticamente regalato la qualificazione ai biancocelesti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Motta che ha praticamente regalato la qualificazione a a biancocelesti",
+          "start_sec": 68.56,
+          "end_sec": 98.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio è più pericolosa per l'Inter in ottica finale rispetto all'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "d540d1a5-2c12-4229-a32a-876b1231c6bd",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Lazio è più pericolosa per l'Inter in ottica finale rispetto all'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io penso che la Lazio sia più pericolosa rispetto all'Atalanta per l'Inter",
+          "start_sec": 68.56,
+          "end_sec": 98.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pericolo",
+        "ottica finale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio odierna e l'Inter attuale appartengono a categorie diverse.",
+      "polarity": "positive",
+      "claim_id": "7a5dd90d-fa91-4998-825b-75b01f76ebeb",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Lazio odierna e l'Inter attuale appartengono a categorie diverse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono diverse categorie tra la Lazio di oggi e l'Inter attuale",
+          "start_sec": 96.84,
+          "end_sec": 126.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "Lazio affronterà una settimana impegnativa, incluso il derby di Roma e la finale di Coppa Italia.",
+      "polarity": "neutral",
+      "claim_id": "686f7181-4f71-41f7-9226-1ac5a67efa16",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s4",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio affronterà una settimana impegnativa, incluso il derby di Roma e la finale di Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lazio che poi avrà anche il derby di Roma, tra l'altro, dopo la finale di Coppa Italia, quindi una settimana bella piena",
+          "start_sec": 124.159,
+          "end_sec": 154.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "settimanale",
+        "competizione",
+        "derby"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ci ha provato in ogni modo nella gara.",
+      "polarity": "neutral",
+      "claim_id": "e3001488-168e-4ea0-9b63-09b4d9c75073",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ci ha provato in ogni modo nella gara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atanta ci ha provato in ogni modo",
+          "start_sec": 68.56,
+          "end_sec": 98.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tentativi"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Lazio",
+      "position": "La Lazio giocherà la finale in casa a causa del fattore campo.",
+      "polarity": "positive",
+      "claim_id": "5ed6997f-f661-4e0d-95f8-27d1ea8f9489",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Lazio giocherà la finale in casa a causa del fattore campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i 90 minuti la Lazio gioca la finale in casa",
+          "start_sec": 96.84,
+          "end_sec": 126.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Motta",
+      "position": "Motta si è commosso a fine gara.",
+      "polarity": "positive",
+      "claim_id": "95d1d50a-2ff6-4438-928d-275203942e52",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s2",
+      "target_entity": "Motta",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Motta si è commosso a fine gara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è commosso pure a fine gara",
+          "start_sec": 68.56,
+          "end_sec": 98.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "emozione",
+        "comportamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio sta riaccendendo una stagione che poteva andare male.",
+      "polarity": "positive",
+      "claim_id": "f1a01ab1-37a9-4a10-b42e-409afa18198a",
+      "video_id": "wuy5-xs5BC4",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio sta riaccendendo una stagione che poteva andare male.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una Lazio che sta riaccendendo questa stagione che poteva andare molto male",
+          "start_sec": 35.84,
+          "end_sec": 71.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stagione",
+        "performance",
+        "sorpresa"
+      ]
+    }
+  ]
+}

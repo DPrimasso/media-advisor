@@ -1,0 +1,413 @@
+{
+  "video_id": "-j9hu9_4XI8",
+  "analyzed_at": "2026-04-26T11:40:11.210283+00:00",
+  "metadata": {
+    "title": "TMW News: Inter, le mani sullo scudetto. La serie A vota Malago’",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-13T13:25:36+00:00"
+  },
+  "summary": "Il video analizza la situazione attuale della Serie A, focalizzandosi sulla lotta scudetto e sulle posizioni di vertice. L'autore, attraverso l'intervento di Luciano Marangon, sostiene che l'Inter è la squadra più forte del campionato e merita di vincere lo scudetto, anche se la matematica non ha ancora ufficializzato il titolo, con un vantaggio di nove punti sul Napoli. La vittoria per 4-3 contro il Como ha evidenziato la qualità e l’esperienza dei nerazzurri, che hanno saputo reagire dopo un primo tempo dominato dagli avversari più giovani. Inoltre, si sottolinea la contesa per il quarto pos",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatore under 21",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "politica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha vinto contro il Como in una partita combattuta finita 4-3.",
+      "polarity": "positive",
+      "claim_id": "a0b332db-3d51-41d6-ba95-383622cf5259",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha vinto contro il Como in una partita combattuta finita 4-3.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata una vittoria quella di ieri contro il Como da parte dell'Inter fortemente voluta perché dopo il 2-0 sembrava difficile poter arrivare ad una conclusione sul sul 4-3",
+          "start_sec": 86.799,
+          "end_sec": 170.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "risultato",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "La vittoria dell'Inter sul Como aggiorna il vantaggio a nove punti sul Napoli secondo.",
+      "polarity": "positive",
+      "claim_id": "e142a2d6-b465-43d3-a340-356893ee49ef",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "PROBABLE",
+      "claim_text": "La vittoria dell'Inter sul Como aggiorna il vantaggio a nove punti sul Napoli secondo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la vittoria di ieri, che rimandare a nove punti la seconda che è il Napoli in questo momento",
+          "start_sec": 13.04,
+          "end_sec": 89.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "classifica",
+        "distanza punti"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter, Roma, Como",
+      "position": "Il quarto posto in Serie A è conteso tra Inter, Roma e Como.",
+      "polarity": "neutral",
+      "claim_id": "f36c529b-2629-4313-802c-956c95824661",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s0",
+      "target_entity": "Inter, Roma, Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il quarto posto in Serie A è conteso tra Inter, Roma e Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la lotta che riguarda il quarto posto e che coinvolge l'Inter alla Roma e il Como",
+          "start_sec": 13.04,
+          "end_sec": 89.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "quarto posto",
+        "lotta",
+        "serie A"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha mostrato qualità nei singoli giocatori specialmente dopo il primo tempo.",
+      "polarity": "positive",
+      "claim_id": "abe293c7-bb44-4724-9c36-6c7fe2e959fc",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha mostrato qualità nei singoli giocatori specialmente dopo il primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi dopo è venuta fuori l'Inter con le con la qualità dei dei suoi singoli",
+          "start_sec": 86.799,
+          "end_sec": 170.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha fatto la partita soprattutto nella prima mezz'ora e durante tutto il primo tempo.",
+      "polarity": "neutral",
+      "claim_id": "fcfe7a74-8bad-42c0-877d-9ac8c9f20c9b",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha fatto la partita soprattutto nella prima mezz'ora e durante tutto il primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto la partita, almeno la prima mezz'ora. ha fatto la partita anche, direi, tutto il primo tempo",
+          "start_sec": 86.799,
+          "end_sec": 170.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tempo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'esperienza dei giocatori dell'Inter ha fatto la differenza in una squadra giovane come il Como.",
+      "polarity": "positive",
+      "claim_id": "9d6bb89b-5353-4c3e-b83b-6bc00796b386",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'esperienza dei giocatori dell'Inter ha fatto la differenza in una squadra giovane come il Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è venuta fuori eh un po', come si dire il mestiere che hanno i giocatori dell'Inter. anche dalla gioventù.",
+          "start_sec": 86.799,
+          "end_sec": 170.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esperienza",
+        "giocatore",
+        "età"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha fatto quattro gol e ha meritato la vittoria nella partita analizzata.",
+      "polarity": "positive",
+      "claim_id": "78445288-51b1-4c57-a8c8-617cb3868500",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha fatto quattro gol e ha meritato la vittoria nella partita analizzata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quattro gol. Questa questa è un po' la l'analisi della partita. Quindi buon per l'Inter e bravo Inter.",
+          "start_sec": 167.12,
+          "end_sec": 243.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "vittoria",
+        "analisi partita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli ha raggiunto matematicamente il secondo posto e la qualificazione in Champions League.",
+      "polarity": "neutral",
+      "claim_id": "7f76a04c-9b3f-4a4f-b4b2-2c74ef8ff9b3",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha raggiunto matematicamente il secondo posto e la qualificazione in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo porterà, anzi Sì, l'ha già portato a casa dal mio punto di vista.",
+          "start_sec": 167.12,
+          "end_sec": 243.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "secondo posto",
+        "Champions League"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "Matematicamente lo scudetto non è ancora assegnato all'Inter.",
+      "polarity": "neutral",
+      "claim_id": "1b90ba53-0df5-4846-af69-ed21bca4d0a9",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Matematicamente lo scudetto non è ancora assegnato all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma la matematica ancora non lo non lo sancisce",
+          "start_sec": 13.04,
+          "end_sec": 89.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "matematica",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli poteva fare meglio durante tutta la stagione, non solo contro il Parma.",
+      "polarity": "negative",
+      "claim_id": "104ce05e-28b3-43f7-bd89-e0b403f13e64",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli poteva fare meglio durante tutta la stagione, non solo contro il Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma poteva far meglio durante tutto l'anno.",
+          "start_sec": 167.12,
+          "end_sec": 243.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "stagione",
+        "criticità"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "Inter è la squadra più forte del campionato e merita lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "094666a2-3926-4ff4-9835-a48d7c3b71c8",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "PROBABLE",
+      "claim_text": "Inter è la squadra più forte del campionato e merita lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è già un po' che l'Inter, cioè non è da ieri, ma è già forse da metà campionato, che si sa che è la squadra più forte quest'anno e quella che merita la posizione di classifica",
+          "start_sec": 13.04,
+          "end_sec": 89.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "campionato",
+        "forza squadra"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Milan",
+      "position": "Il Milan è una squadra nuova tenuta unita bene da Allegri.",
+      "polarity": "neutral",
+      "claim_id": "dd258bce-ceec-4a5c-bf01-4ecced12fdcd",
+      "video_id": "-j9hu9_4XI8",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è una squadra nuova tenuta unita bene da Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma no, il Milan è una squadra è una squadra nuova, è una squadra che si sapeva. È stato bravo Allegri a a tenerla abbastanza unita",
+          "start_sec": 167.12,
+          "end_sec": 243.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra nuova",
+        "allenatore",
+        "Allegri",
+        "coesione"
+      ]
+    }
+  ]
+}

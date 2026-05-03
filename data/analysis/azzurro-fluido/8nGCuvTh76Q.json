@@ -1,0 +1,396 @@
+{
+  "video_id": "8nGCuvTh76Q",
+  "analyzed_at": "2026-04-24T08:21:33.686814+00:00",
+  "metadata": {
+    "title": "PAROLE DI CONTE da POGGIOREALE 👀 La LAZIO ha la coppa.. 🔵 #SerieA #Fantacalcio #CantaFalcio",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'analisi della situazione attuale della Serie A, con particolare attenzione alle partite imminenti e alle dinamiche extra campo, come le parole di Antonio Conte a Poggio Reale. L'autore sottolinea l'importanza della Coppa Italia per squadre come il Como, che, pur avendo perso terreno in campionato, punta a questa competizione come occasione di riscatto e guadagno economico. Viene inoltre evidenziata la diffusione di notizie false riguardanti il presidente del Napoli De Laurentiis e le assenze chiave nel Sassuolo, che potrebbero influenzare i risultati delle prossime p",
+  "topics": [
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "coppa italia",
+      "relevance": "low"
+    },
+    {
+      "name": "serie a",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il presidente De Laurentis del Napoli non ha un account Instagram ufficiale.",
+      "polarity": "neutral",
+      "claim_id": "1afcf801-bac3-4f00-9a43-3669f9abcaf4",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente De Laurentis del Napoli non ha un account Instagram ufficiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ha ha scritto il presidente de Laurentison non ha nessun Instagram",
+          "start_sec": 3.199,
+          "end_sec": 80.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "social media",
+        "presidente"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Si diffondono notizie false attribuite al presidente De Laurentis del Napoli.",
+      "polarity": "negative",
+      "claim_id": "85cac212-681b-45bb-8db2-3bb522702690",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si diffondono notizie false attribuite al presidente De Laurentis del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e che fa tutto quello che esce dal live si spacciano per lui",
+          "start_sec": 3.199,
+          "end_sec": 80.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fake news",
+        "media"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Bologna",
+      "position": "Il Bologna deve giocare e la partita potrebbe influire sulla classifica europea.",
+      "polarity": "neutral",
+      "claim_id": "c2f0935b-e8e2-45d7-bb97-67ffb49a2427",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna deve giocare e la partita potrebbe influire sulla classifica europea.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché deve giocare il Bologna, deve giocare la Fiorentina, anche se non hanno chance potrebbe influire su quella che è la giornata",
+          "start_sec": 3.199,
+          "end_sec": 80.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "partita"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Antonio Conte è andato a Poggio Reale e ha parlato di argomenti sia di campo sia extra campo.",
+      "polarity": "neutral",
+      "claim_id": "85b0841c-9dd4-4216-bcca-0b9ba7e07a0c",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte è andato a Poggio Reale e ha parlato di argomenti sia di campo sia extra campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte che è andato a Poggio Reale e ha parlato anche di cose, insomma, di campo o meglio di extra campo",
+          "start_sec": 76.32,
+          "end_sec": 143.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha perso la possibilità di restare al quarto posto in Serie A.",
+      "polarity": "neutral",
+      "claim_id": "fb0a3042-5867-45be-bcb4-0fb6395e31a0",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha perso la possibilità di restare al quarto posto in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como è un attimo scivolato fuori dalle dal quarto posto",
+          "start_sec": 76.32,
+          "end_sec": 143.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Sassuolo",
+      "position": "Sassuolo giocherà senza Berardi, Doig e Garcia terzino sinistro squalificati o assenti.",
+      "polarity": "neutral",
+      "claim_id": "adfa997a-9a58-4de3-b0f5-bcfb4a03bda3",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s2",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sassuolo giocherà senza Berardi, Doig e Garcia terzino sinistro squalificati o assenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Sassuolo non ha Berardi, non ha Doig squalificato e non c'è neanche Garcia terzino sinistro",
+          "start_sec": 141.16,
+          "end_sec": 207.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup_prediction",
+        "squalifica",
+        "assenza"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Inter",
+      "position": "Inter potrebbe fare un turnover con Carlos Augusto titolare.",
+      "polarity": "neutral",
+      "claim_id": "6590c528-e66b-4d43-a4e2-7698a57c4be8",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Inter potrebbe fare un turnover con Carlos Augusto titolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter-Cagliari e anche qua io mi posso aspettare un pochino di turnover ragionato... Qui vedo Carlos Augusto titolare",
+          "start_sec": 141.16,
+          "end_sec": 207.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup_prediction",
+        "turnover",
+        "formazione"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Bastoni",
+      "position": "Bastoni ha un infortunio alla caviglia che gli impedisce di giocare.",
+      "polarity": "negative",
+      "claim_id": "2a5f9ac3-2080-4eab-b4c4-3a7479bcea7a",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s2",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni ha un infortunio alla caviglia che gli impedisce di giocare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bastoni infortunato qua dietro di me... un difensore non ha il meglio per una fastidiosa alla caviglia",
+          "start_sec": 141.16,
+          "end_sec": 207.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "caviglia"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "Atalanta potrebbe vendere Di Marco a fine stagione.",
+      "polarity": "neutral",
+      "claim_id": "9242666f-904d-49ec-b487-49af53a1fddd",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Atalanta potrebbe vendere Di Marco a fine stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché poi si affacciano le squadre che vorranno comprarlo. Chissà se resterà all'Atalanta.",
+          "start_sec": 205.36,
+          "end_sec": 271.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Koulibaly",
+      "position": "Koulibaly si adatterà probabilmente in una posizione diversa nella difesa del Sassuolo.",
+      "polarity": "neutral",
+      "claim_id": "94f812f6-74a4-4b01-8928-29e604c3e155",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s2",
+      "target_entity": "Koulibaly",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Koulibaly si adatterà probabilmente in una posizione diversa nella difesa del Sassuolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedo qua un adattamento di Koulibali",
+          "start_sec": 141.16,
+          "end_sec": 207.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup_prediction",
+        "adattamento",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Zielinski",
+      "position": "Zielinski potrebbe segnare un gol contro Caprile.",
+      "polarity": "neutral",
+      "claim_id": "8657cfc6-be82-404a-863f-29dc0a4072f2",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s3",
+      "target_entity": "Zielinski",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zielinski potrebbe segnare un gol contro Caprile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ci può stare un gol di Zielinski. Zieliski contro Caprile, queste storie strane.",
+          "start_sec": 205.36,
+          "end_sec": 271.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Di Marco",
+      "position": "Di Marco è in flessione e deve migliorare per concludere bene la stagione.",
+      "polarity": "neutral",
+      "claim_id": "54d00d09-d3b9-4472-8d71-735c9d7ad411",
+      "video_id": "8nGCuvTh76Q",
+      "segment_id": "s3",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco è in flessione e deve migliorare per concludere bene la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È un Di Marco che invece è in flessione, ora ha avuto il momento di flessione, riuscirà a fare di nuovo il salto e a chiudere bene?",
+          "start_sec": 205.36,
+          "end_sec": 271.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

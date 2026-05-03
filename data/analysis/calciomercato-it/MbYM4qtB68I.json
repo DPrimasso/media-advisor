@@ -1,0 +1,86 @@
+{
+  "video_id": "MbYM4qtB68I",
+  "analyzed_at": "2026-04-28T07:29:35.492193+00:00",
+  "metadata": {
+    "title": "Denuncia al Calcio Italiano!",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video denuncia l'elevata presenza di giocatori stranieri nel calcio italiano, che supera il 70%, rispetto al 55% della Germania e al 35% della Spagna. L'autore suggerisce che questa predominanza di stranieri nel nostro campionato possa essere una delle cause principali del declino delle vittorie a livello internazionale. La conclusione implicita è che un eccesso di giocatori stranieri potrebbe compromettere lo sviluppo e il successo del calcio italiano.",
+  "topics": [
+    {
+      "name": "giocatore straniero",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "confronto internazionale",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano ha oltre il 70% di giocatori stranieri.",
+      "polarity": "negative",
+      "claim_id": "31d3aaed-3d5f-487a-a95b-e15b181a0ef7",
+      "video_id": "MbYM4qtB68I",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano ha oltre il 70% di giocatori stranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il calcio italiano ha oltre il 70% di giocatori stranieri",
+          "start_sec": 0.16,
+          "end_sec": 12.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore straniero",
+        "percentuale",
+        "calcio italiano"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "L'alto numero di giocatori stranieri nel calcio italiano è associato alla mancanza di vittorie.",
+      "polarity": "negative",
+      "claim_id": "8cf3ec63-26e7-46d9-8179-4fa611beb7f2",
+      "video_id": "MbYM4qtB68I",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'alto numero di giocatori stranieri nel calcio italiano è associato alla mancanza di vittorie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sarà un caso che non vinciamo più",
+          "start_sec": 0.16,
+          "end_sec": 12.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore straniero",
+        "performance",
+        "calcio italiano"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "video_id": "aLqURGBIhEA",
+  "analyzed_at": "2026-04-24T07:49:20.244952+00:00",
+  "metadata": {
+    "title": "LIVE: LA MARATONA DI CRC NAPOLI-MILAN 06 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC si concentra sull'importanza cruciale della partita Napoli-Milan, vista come l'ultima occasione per frenare la corsa dell'Inter verso lo scudetto. L'autore sottolinea come l'Inter, con 72 punti, sia vicina al titolo, mentre Napoli e Milan, a pari punti ma con una partita in meno, devono vincere per mantenere vive le speranze di rimonta. Vengono inoltre analizzate le probabili formazioni e tattiche delle due squadre, con particolare attenzione a dubbi su giocatori chiave come Rasmus Island e strategie difensive del Milan. La partita assume quindi un valore decisivo per la ",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "promozione",
+      "relevance": "low"
+    },
+    {
+      "name": "partita decisiva",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "retrocessione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è in vantaggio in classifica con 72 punti ed è vicina a diventare campione d'Italia.",
+      "polarity": "positive",
+      "claim_id": "6b6a46f8-95ed-4821-a682-043401327900",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è in vantaggio in classifica con 72 punti ed è vicina a diventare campione d'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter alla quale bastano cinque vittorie nelle prossime sette per essere matematicamente campione d'Italia",
+          "start_sec": 0.04,
+          "end_sec": 528.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Napoli e Milan sono a pari punti in classifica ma con una partita in meno rispetto all'Inter.",
+      "polarity": "neutral",
+      "claim_id": "b24ee57f-a49f-42e9-9e94-a84e9711819f",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli e Milan sono a pari punti in classifica ma con una partita in meno rispetto all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli e Milan hanno 632 punti, ma hanno anche una partita in meno",
+          "start_sec": 0.04,
+          "end_sec": 528.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Partita Napoli-Milan",
+      "position": "La partita Napoli-Milan è decisiva per mantenere viva la speranza di freno all'Inter.",
+      "polarity": "positive",
+      "claim_id": "68d1f802-016c-4e4f-b92a-e1e4b564f52e",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s0",
+      "target_entity": "Partita Napoli-Milan",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Napoli-Milan è decisiva per mantenere viva la speranza di freno all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Devi battere il Milan per continuare ad inseguire l'Inter, per prenderti il secondo posto, per sperare che appunto l'Inter freni",
+          "start_sec": 0.04,
+          "end_sec": 528.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Rasmus Island",
+      "position": "Rasmus Island è in dubbio per la partita a causa di un virus intestinale.",
+      "polarity": "negative",
+      "claim_id": "1543d3c4-6ac2-4ad1-8d35-16ed7bac370c",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s0",
+      "target_entity": "Rasmus Island",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Rasmus Island è in dubbio per la partita a causa di un virus intestinale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Virus intestinale che malanni di stagione, chiaramente stanno provando a rimetterlo in piedi ... Non dovesse esserci Rasmus Island",
+          "start_sec": 0.04,
+          "end_sec": 528.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Milinkovicć",
+      "position": "Milinkovicć sarà il portiere titolare con difesa a tre comprendente Juan Jesus, Buongiorno e Olivera.",
+      "polarity": "positive",
+      "claim_id": "85d7e713-7c54-4b84-94c0-31512b2eb770",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s1",
+      "target_entity": "Milinkovicć",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milinkovicć sarà il portiere titolare con difesa a tre comprendente Juan Jesus, Buongiorno e Olivera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milinkovicć tra i pali, poi difesa a tre con il solito Bechema che va in panchina, perché Bechema ormai un legame intenso con la panchina. sostituto. Ecco, Juan Jesus, buongiorno e Olivera sono i tre centrali, quindi Juan Jesus adattato a destra.",
+          "start_sec": 527.0,
+          "end_sec": 993.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "difesa",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Giovan Eund",
+      "position": "Giovan Eund è la probabile alternativa come prima punta titolare del Napoli.",
+      "polarity": "positive",
+      "claim_id": "98fa8cd6-2106-4eba-824b-bdc9c7097378",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s1",
+      "target_entity": "Giovan Eund",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giovan Eund è la probabile alternativa come prima punta titolare del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi l'alternativa come prima punta è Giovan Eund.",
+          "start_sec": 527.0,
+          "end_sec": 993.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "attacco",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Milan",
+      "position": "Leao e Pulisic partiranno probabilmente dalla panchina nel prossimo match del Milan.",
+      "polarity": "neutral",
+      "claim_id": "c2778ffe-02a7-4931-bfc5-ee97ee6abecc",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Leao e Pulisic partiranno probabilmente dalla panchina nel prossimo match del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I dubbi il Milan ce l'ha davanti perché Leao e Pulisic ci saranno, ma si deve capire da dove partono. Dalla panchina. Partono dalla panchina uno solo dei due.",
+          "start_sec": 527.0,
+          "end_sec": 993.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "attacco",
+        "Milan"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta consolida il settimo posto con un raddoppio.",
+      "polarity": "positive",
+      "claim_id": "bf5ea08c-3a29-4ccf-a4ff-366fc4554d66",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta consolida il settimo posto con un raddoppio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta consolida quindi eh la il settimo posto con questo raddoppio.",
+          "start_sec": 991.72,
+          "end_sec": 1582.4399999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "difesa del Lecce",
+      "position": "La difesa del Lecce è opinabile e rivedibile per come marcava la punta centrale dell'Atalanta.",
+      "polarity": "negative",
+      "claim_id": "b44de23a-ba42-46ef-8f72-0cd90ce77630",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s2",
+      "target_entity": "difesa del Lecce",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La difesa del Lecce è opinabile e rivedibile per come marcava la punta centrale dell'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ancora una volta la difesa del Lecce [sbuffare] opinabile, ecco, opinabile la difesa del Lecce rivedibile. Rivedibile, cioè tu l'Atalanta c'ha una punta centrale, i due centrali del Lecce lo guardavano a 2 m di distanza l'uno.",
+          "start_sec": 991.72,
+          "end_sec": 1582.4399999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "L'ipotesi che Conte vada in nazionale non è certa e manca l'incontro con De Laurentiis.",
+      "polarity": "neutral",
+      "claim_id": "513ce8a6-7924-4c3b-bdd7-70482588791a",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'ipotesi che Conte vada in nazionale non è certa e manca l'incontro con De Laurentiis.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ipotesi di Conte in nazionale è un'ipotesi che chiaramente non può essere scartata a prioristicamente. è un'ipotesi che al momento però non raccoglie nessuna certezza dal momento che manco si so visti De Laurentis e Conte",
+          "start_sec": 991.72,
+          "end_sec": 1582.4399999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma ha sbagliato molti passaggi e non ha mostrato carattere nel secondo tempo contro l'Inter.",
+      "polarity": "negative",
+      "claim_id": "d53847d9-9a3f-4f48-a006-3134eb9c52a7",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha sbagliato molti passaggi e non ha mostrato carattere nel secondo tempo contro l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il primo tempo un po' meglio la Roma ogni azione comunque sbagliava un passaggio e questa diceva sullo stato il secondo tempo disattenzione una squadra che non ci mette carra e il risultato è deflagrato secondo me.",
+          "start_sec": 1580.32,
+          "end_sec": 2101.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "errore",
+        "calo"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan difende con una linea a cinque e usa un gioco speculativo.",
+      "polarity": "neutral",
+      "claim_id": "2e39da22-a34d-4f3e-9932-1eecf12977a7",
+      "video_id": "aLqURGBIhEA",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan difende con una linea a cinque e usa un gioco speculativo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan è puramente speculativo.",
+          "start_sec": 527.0,
+          "end_sec": 993.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "difesa",
+        "strategia"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "-yrr7ZAv-74",
+  "analyzed_at": "2026-05-01T11:40:25.900427+00:00",
+  "metadata": {
+    "title": "Lautaro Martinez cambia maglia ! #seriea #inter  #juventus #milan #juve",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'interesse del Barcellona per Lautaro Martinez in vista della prossima stagione. L'autore sottolinea come i Blaugrana siano disposti a investire ingenti somme per assicurarsi l'attaccante argentino, definendolo un colpo di grande rilievo. Si ipotizza che l'arrivo di Lautaro possa modificare significativamente gli equilibri del campionato spagnolo, rappresentando un potenziale punto di svolta per la Liga.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Lautaro Martinez",
+      "position": "Il Barcellona è interessato a Lautaro Martinez per il prossimo anno.",
+      "polarity": "positive",
+      "claim_id": "e4b697f0-2fe7-4105-8ea2-f39d7b418ecc",
+      "video_id": "-yrr7ZAv-74",
+      "segment_id": "s0",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Barcellona è interessato a Lautaro Martinez per il prossimo anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Barcellona alza il tiro e punta su Lautaro Martinez per il prossimo anno.",
+          "start_sec": 0.16,
+          "end_sec": 11.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lautaro Martinez",
+      "position": "L'acquisto di Lautaro Martinez potrebbe cambiare gli equilibri in Liga.",
+      "polarity": "positive",
+      "claim_id": "b749bc53-7d10-4267-a229-500c4604dfa0",
+      "video_id": "-yrr7ZAv-74",
+      "segment_id": "s0",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'acquisto di Lautaro Martinez potrebbe cambiare gli equilibri in Liga.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un colpo da 90 che potrebbe cambiare gli equilibri in liga.",
+          "start_sec": 0.16,
+          "end_sec": 11.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "video_id": "Kov6tKtdId8",
+  "analyzed_at": "2026-04-27T07:20:17.815626+00:00",
+  "metadata": {
+    "title": "MILAN, IL GAMBERO ALLEGRI. JUVE, LE MOSSE CHAMPIONS. TRIS UGARTE. ZANIOLO DA NAZIONALE, MA GATTUSO…",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-12T09:00:07+00:00"
+  },
+  "summary": "Il video analizza gli ultimi sviluppi del campionato di Serie A, concentrandosi su salvezza, prestazioni tecniche e risultati delle squadre. L'autore sottolinea come Verona e Pisa siano ormai retrocesse, mentre Torino e Cagliari si avvicinano alla salvezza grazie a risultati positivi e a tecnici come Daversa che stanno facendo bene. Riguardo alla Juventus, pur avendo vinto a Bergamo, la squadra non ha convinto sul piano del gioco, risultando tra le meno brillanti della gestione Spalletti; inoltre, si evidenzia il valore del portiere Di Gregorio, considerato una risorsa importante nonostante qu",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "salvezza",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juve ha vinto a Bergamo ma non ha convinto sul piano del gioco, risultando una delle peggio della gestione Spalletti.",
+      "polarity": "negative",
+      "claim_id": "5f01be28-10d9-4c3b-ba5a-4d0f5e20ece5",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juve ha vinto a Bergamo ma non ha convinto sul piano del gioco, risultando una delle peggio della gestione Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve che vince a Bergamo, la Juve vince ma non convince sul piano del gioco. Forse una delle Juve più brutte, meno brillanti della gestione Spalletti",
+          "start_sec": 56.96,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Juventus",
+        "prestazione",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Daversa",
+      "position": "Daversa sta facendo bene come tecnico, ottenendo 12 punti in 6 gare.",
+      "polarity": "positive",
+      "claim_id": "be65eaf7-54a5-41d0-8eb0-c51e623fd602",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s0",
+      "target_entity": "Daversa",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Daversa sta facendo bene come tecnico, ottenendo 12 punti in 6 gare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "12 punti in sei gare. Sta facendo bene il tecnico",
+          "start_sec": 1.4,
+          "end_sec": 58.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "punteggio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Il Torino è praticamente salvo grazie al gol del Colito Simeone.",
+      "polarity": "positive",
+      "claim_id": "0d783754-18b2-4e69-8d8f-8340076d840f",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s0",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Torino è praticamente salvo grazie al gol del Colito Simeone.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Torino praticamente è salvo, vince grazie al gol del Colito Simeone",
+          "start_sec": 1.4,
+          "end_sec": 58.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "salvezza",
+        "gol"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Verona",
+      "position": "Verona è già retrocessa in Serie B aritmeticamente.",
+      "polarity": "negative",
+      "claim_id": "fc63e791-8568-4dd4-a0b8-f4b234b964be",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s1",
+      "target_entity": "Verona",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Verona è già retrocessa in Serie B aritmeticamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Verona e Pisa sono già in B, anche solo l'aritmetica",
+          "start_sec": 56.96,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "retrocessione",
+        "serie b"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Lecce",
+      "position": "Lecce si giocherà la salvezza con Cremonese fino all'ultima giornata.",
+      "polarity": "neutral",
+      "claim_id": "aaf968b5-7daa-4f2d-9ca0-659469c23265",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s1",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lecce si giocherà la salvezza con Cremonese fino all'ultima giornata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lecce e Cremonese si giocheranno la salvezza testa a testa, punto a punto sino all'ultima giornata",
+          "start_sec": 56.96,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "salvezza",
+        "lotta salvezza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha preso molti gol ed è stata in difficoltà nel periodo recente.",
+      "polarity": "positive",
+      "claim_id": "d307ba88-5580-41e2-a096-43843929d0e6",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha preso molti gol ed è stata in difficoltà nel periodo recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una Juve che era in difficoltà, che ha preso tanti gol",
+          "start_sec": 112.079,
+          "end_sec": 138.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "difesa",
+        "difficoltà"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Perin",
+      "position": "Perin è tornato titolare col Genoa ed è stato il migliore in campo.",
+      "polarity": "positive",
+      "claim_id": "a30f15ea-a947-41a8-ad8e-a6b0503f4854",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s2",
+      "target_entity": "Perin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Perin è tornato titolare col Genoa ed è stato il migliore in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è tornato titolare col Genoa è stato il migliore in campo",
+          "start_sec": 112.079,
+          "end_sec": 138.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Perin",
+      "position": "Nell'ultima mezz'ora del match ha fatto due miracoli e parato un rigore decisivo.",
+      "polarity": "positive",
+      "claim_id": "6aa8ebce-0bce-496b-97eb-48614cf16328",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s2",
+      "target_entity": "Perin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Nell'ultima mezz'ora del match ha fatto due miracoli e parato un rigore decisivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ultima mezz'ora ha fatto due miracoli e ha parato un rigore evitando che il Genoa riaprisse la sfida",
+          "start_sec": 112.079,
+          "end_sec": 138.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "parata",
+        "rigore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Gregorio",
+      "position": "Gregorio ha avuto due clean sheet consecutivi con grandi interventi.",
+      "polarity": "positive",
+      "claim_id": "47c151b6-dbdb-477a-afb6-b285c100dea5",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s3",
+      "target_entity": "Gregorio",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gregorio ha avuto due clean sheet consecutivi con grandi interventi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo clean sheet di fila e quindi è vero che la Juve cerca un portiere esperto",
+          "start_sec": 136.56,
+          "end_sec": 196.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "clean sheet",
+        "portiere",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Perin",
+      "position": "Perin era infortunato nel momento decisivo della stagione.",
+      "polarity": "neutral",
+      "claim_id": "176c9b07-f712-4af8-adf4-8cd459f979cf",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s2",
+      "target_entity": "Perin",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Perin era infortunato nel momento decisivo della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "complice l'infortunio di Perin",
+          "start_sec": 112.079,
+          "end_sec": 138.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Verona",
+      "position": "Il Verona è praticamente retrocesso.",
+      "polarity": "negative",
+      "claim_id": "ab7c2b3d-8f4e-44a3-93a0-472bf70457fb",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s0",
+      "target_entity": "Verona",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Verona è praticamente retrocesso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Verona praticamente è retrocesso",
+          "start_sec": 1.4,
+          "end_sec": 58.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "retrocessione",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Casadei",
+      "position": "Casadei è decisivo con il suo quinto gol in campionato, crescendo bene.",
+      "polarity": "positive",
+      "claim_id": "019ff95e-3026-4365-bdbf-22175e3852b4",
+      "video_id": "Kov6tKtdId8",
+      "segment_id": "s0",
+      "target_entity": "Casadei",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Casadei è decisivo con il suo quinto gol in campionato, crescendo bene.",
+      "evidence_quotes": [
+        {
+          "quote_text": "decisivo ancora una volta e Casadei, quinto gol in campionato",
+          "start_sec": 1.4,
+          "end_sec": 58.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "crescita"
+      ]
+    }
+  ]
+}

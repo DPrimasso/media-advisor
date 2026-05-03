@@ -1,0 +1,390 @@
+{
+  "video_id": "L6pX9q3maqM",
+  "analyzed_at": "2026-04-24T16:06:16.195711+00:00",
+  "metadata": {
+    "title": "ALLEGRI, CONTE, DE LAURENTIIS: UNA POLTRONA DA CT, CONFERME, DEPISTAGGI E… TRAPPOLE🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza le tensioni e le dinamiche interne al calcio italiano, focalizzandosi sulle controversie legate alla guida tecnica e alla gestione federale. L'autore evidenzia come la Serie A sia unita nel sostenere Malagò, ritenuto un dirigente capace di avviare riforme, ma critica anche le difese acritiche riservate ad Allegri e Conte, sottolineando la necessità di affrontare problemi reali in vista del mercato. Particolare attenzione viene data alle dichiarazioni di De Laurentiis, che con astuzia mette pressione su Conte e solleva dubbi sulle convocazioni dei calciatori",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "comunicazione",
+      "relevance": "low"
+    },
+    {
+      "name": "champions",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Serie A",
+      "position": "Il fronte compatto della Serie A è formato da 19 squadre.",
+      "polarity": "neutral",
+      "claim_id": "da7a75ef-72fa-43bf-9f63-f13abcf1b816",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s0",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il fronte compatto della Serie A è formato da 19 squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fronte compatto della Serie A e sono 19",
+          "start_sec": 0.24,
+          "end_sec": 39.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "serie a",
+        "organizzazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha vinto una partita che la avvicina alla salvezza.",
+      "polarity": "positive",
+      "claim_id": "2e93e3a0-fbb4-4e2d-855b-25fd1e007acd",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha vinto una partita che la avvicina alla salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha visto... la Fiorentina vincere e quindi avvicinarsi alla salvezza",
+          "start_sec": 0.24,
+          "end_sec": 39.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "salvezza",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Malagò è percepito come dirigente di spessore che potrebbe portare un programma di riforma.",
+      "polarity": "neutral",
+      "claim_id": "45921893-d1b7-4138-8cfc-09386f49aaab",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s1",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Malagò è percepito come dirigente di spessore che potrebbe portare un programma di riforma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è convinti che un dirigente dello spessore di Malagò possa portare il programma necessario per fare qualche minima riforma.",
+          "start_sec": 35.68,
+          "end_sec": 77.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "famiglia che ha rilevato la Ternana",
+      "position": "La famiglia che ha rilevato la Ternana pensava di esonerare l'allenatore Liverani.",
+      "polarity": "negative",
+      "claim_id": "aba50477-a76e-4e40-ac7c-e7df01402615",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s1",
+      "target_entity": "famiglia che ha rilevato la Ternana",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La famiglia che ha rilevato la Ternana pensava di esonerare l'allenatore Liverani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Complimenti eh alla famiglia che ha eh rilevato e che pensava di esonerare un allenatore come Liverani",
+          "start_sec": 35.68,
+          "end_sec": 77.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Allegri viene difeso da giornalisti che agiscono da scudo per lui.",
+      "polarity": "neutral",
+      "claim_id": "3aa48e4b-ef6d-42b8-8d82-1a3cadf7ceb0",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s2",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri viene difeso da giornalisti che agiscono da scudo per lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non vedono soltanto coinvolti i giornalisti che fanno da scudo e difendono Allegri",
+          "start_sec": 75.6,
+          "end_sec": 111.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Anche Conte viene difeso dai giornalisti con una difesa d'ufficio.",
+      "polarity": "neutral",
+      "claim_id": "1529e81a-1b47-45de-80c8-8bfe01968c48",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Anche Conte viene difeso dai giornalisti con una difesa d'ufficio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avete visto le difese d'ufficio su Allegri e su Conte",
+          "start_sec": 75.6,
+          "end_sec": 111.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte non abbandonerebbe improvvisamente la sua squadra senza preavviso.",
+      "polarity": "neutral",
+      "claim_id": "6f399b80-8ffc-40b5-88b5-ba2078e8fd69",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non abbandonerebbe improvvisamente la sua squadra senza preavviso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non credo che Conte abbandonerebbe la sua creatura e all'improvviso me lo direbbe prima",
+          "start_sec": 108.52,
+          "end_sec": 145.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fedeltà",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "De Laurentiis",
+      "position": "De Laurentiis è descritto come molto furbo che supera a volte i confini del lecito.",
+      "polarity": "negative",
+      "claim_id": "7a6f3f25-5116-4d0f-a5f3-a3ba7fbad682",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s4",
+      "target_entity": "De Laurentiis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis è descritto come molto furbo che supera a volte i confini del lecito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che Laurentis è molto furbo. È molto furbo e in queste dichiarazioni e lo dimostra. certe volte va a superare i confini del lecito.",
+          "start_sec": 141.959,
+          "end_sec": 181.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio è stata vista senza attaccanti in una partita a Firenze.",
+      "polarity": "negative",
+      "claim_id": "4fc33212-7e37-4488-a0ea-ae430fd8055b",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio è stata vista senza attaccanti in una partita a Firenze.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha visto la sua Lazio senza attaccanti",
+          "start_sec": 0.24,
+          "end_sec": 39.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "performance",
+        "lineup"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "squadra",
+      "position": "La squadra è sulla strada per raggiungere la qualificazione in Champions.",
+      "polarity": "positive",
+      "claim_id": "a3cee8ab-304a-4b5b-9911-45ff7ea47071",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s2",
+      "target_entity": "squadra",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra è sulla strada per raggiungere la qualificazione in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché stanno portando la squadra in Champions",
+          "start_sec": 75.6,
+          "end_sec": 111.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "standings"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "De Laurentiis",
+      "position": "De Laurentiis ha fatto dichiarazioni straordinarie recentemente.",
+      "polarity": "neutral",
+      "claim_id": "92adab42-0dc6-4265-a8d5-8b0b5fe08fa6",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s3",
+      "target_entity": "De Laurentiis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis ha fatto dichiarazioni straordinarie recentemente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le straordinarie, sottolineo, straordinarie dichiarazioni di De Laurentis",
+          "start_sec": 108.52,
+          "end_sec": 145.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dichiarazione",
+        "media"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "Ternana",
+      "position": "La Ternana è in liquidazione.",
+      "polarity": "negative",
+      "claim_id": "b346b6e4-424e-4e84-871d-cb33c341969c",
+      "video_id": "L6pX9q3maqM",
+      "segment_id": "s1",
+      "target_entity": "Ternana",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Ternana è in liquidazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avete visto la Ternana è liquidazione.",
+          "start_sec": 35.68,
+          "end_sec": 77.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

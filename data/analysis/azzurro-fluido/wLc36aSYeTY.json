@@ -1,0 +1,406 @@
+{
+  "video_id": "wLc36aSYeTY",
+  "analyzed_at": "2026-05-02T08:07:22.502598+00:00",
+  "metadata": {
+    "title": "#ROCCHI: esce il nome di #SCHENONE dell'INTER 👀 Chi altro in #SerieA? 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza il ruolo di Schenone, dirigente dell'Inter, emerso nel contesto del caso Rocchi e delle polemiche su arbitropoli in Serie A. L'autore chiarisce che la figura dell'addetto agli arbitri, presente in tutte le società, è una figura istituzionale legittima che si occupa di accogliere e assistere gli arbitri, nonché di guidare i comportamenti della squadra nei loro confronti. Viene inoltre sottolineato come, al momento, non ci siano elementi per ipotizzare comportamenti illeciti, ma si evidenzia l’importanza di ricostruire il carattere delle interlocuzioni tra club e arbitri per ca",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "comportamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "indagine",
+      "relevance": "medium"
+    },
+    {
+      "name": "società",
+      "relevance": "low"
+    },
+    {
+      "name": "stile",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "dirigenti",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Il dirigente dell'Inter ha fornito un rapporto sugli arbitri che è stato divulgato.",
+      "polarity": "neutral",
+      "claim_id": "0d08397a-26d8-479a-a971-91b850a85099",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il dirigente dell'Inter ha fornito un rapporto sugli arbitri che è stato divulgato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il dirigente dell'Inter che praticamente fa uscire questo rapporto così",
+          "start_sec": 2.919,
+          "end_sec": 70.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "dirigente",
+        "arbitri"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Italia",
+      "position": "Tutta Italia è concentrata sul caso Rocchi e arbitropoli in Serie A.",
+      "polarity": "neutral",
+      "claim_id": "49f323ea-d917-47e6-a973-9313c8e67c4a",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tutta Italia è concentrata sul caso Rocchi e arbitropoli in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tutta l'Italia, tutta l'Italia, tutta l'Italia è concentrata sul caso Rocchy, su arbitropoli",
+          "start_sec": 2.919,
+          "end_sec": 70.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "caso Rocchi",
+        "SerieA"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'Inter ha una figura istituzionale presente in tutte le società.",
+      "polarity": "neutral",
+      "claim_id": "a80319fa-1f5b-4a1e-9d7a-a94c9ac29e21",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha una figura istituzionale presente in tutte le società.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Una figura istituzionale presente in tutte le società. Punto. Subito.",
+          "start_sec": 68.88,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "società",
+        "istituzione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Schienone",
+      "position": "Schienone è citato come un addetto agli arbitri nell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "c46b7532-7b5a-438c-9650-ca5451a1e063",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s1",
+      "target_entity": "Schienone",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Schienone è citato come un addetto agli arbitri nell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se scrivi ha detto agli arbitri adesso esce solo schienone",
+          "start_sec": 68.88,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "addetto"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "L'addetto agli arbitri del Napoli non è noto pubblicamente.",
+      "polarity": "neutral",
+      "claim_id": "3a0a3291-5394-4dce-be24-98797a4c1c3d",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'addetto agli arbitri del Napoli non è noto pubblicamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non qual è l'addetto agli arbitri del Napoli, per esempio? Lui lo sapete? Io non lo so",
+          "start_sec": 68.88,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "addetto"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "addetto agli arbitri",
+      "position": "L'addetto agli arbitri è una figura riconosciuta che accoglie e assiste gli arbitri allo stadio.",
+      "polarity": "positive",
+      "claim_id": "a817f715-a807-4ad1-8d18-f86e22ddf91a",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s2",
+      "target_entity": "addetto agli arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'addetto agli arbitri è una figura riconosciuta che accoglie e assiste gli arbitri allo stadio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una figura che ho letto dappertutto che è riconosciuta dall serve anche per ospitaliity, nel senso arriva l'arbitro, l'ha detto agli arbitri, li accoglie allo stadio, li aiuta se deve chiamare un taxi, se deve fargli vedere gli spogliatoi e tutte le cose.",
+          "start_sec": 98.96,
+          "end_sec": 133.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "accoglienza",
+        "figura"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "addetto agli arbitri",
+      "position": "La figura di addetto agli arbitri aiuta la società a gestire i comportamenti con gli arbitri",
+      "polarity": "positive",
+      "claim_id": "fb8ff091-ae00-4cd4-b0e9-c5eb5ed9efd0",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s3",
+      "target_entity": "addetto agli arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La figura di addetto agli arbitri aiuta la società a gestire i comportamenti con gli arbitri",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa figura di addetto agli arbitri è una figura che all'interno della società può dare una mano per capire come ci si deve comportare i comportamenti con gli arbitri",
+          "start_sec": 131.2,
+          "end_sec": 205.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "ruolo",
+        "comportamento"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "persone strane che insegnano ai giocatori come rimanere in terra",
+      "position": "Persone strane insegnano ai giocatori come rimanere a terra e aspettare che l'azione finisca",
+      "polarity": "neutral",
+      "claim_id": "0bea8337-d566-4594-963c-dff02e818688",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s3",
+      "target_entity": "persone strane che insegnano ai giocatori come rimanere in terra",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Persone strane insegnano ai giocatori come rimanere a terra e aspettare che l'azione finisca",
+      "evidence_quotes": [
+        {
+          "quote_text": "persone strane, che arrivano al mondo arbitrale, che insegnano ai giocatori come rimanere in terra, come restare eh se vengono toccati, aspettare che finisca l'azione",
+          "start_sec": 131.2,
+          "end_sec": 205.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "giocatore",
+        "comportamento"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "interlocuzioni con membri del mondo arbitrale",
+      "position": "Le interlocuzioni con i membri del mondo arbitrale sono legittime",
+      "polarity": "neutral",
+      "claim_id": "491f9f8e-ca15-49fc-8e7a-b13f3ee6a6d8",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s3",
+      "target_entity": "interlocuzioni con membri del mondo arbitrale",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le interlocuzioni con i membri del mondo arbitrale sono legittime",
+      "evidence_quotes": [
+        {
+          "quote_text": "le interlocuzioni con i membri del mondo arbitrale dunque sono legittime. Dunque sono legittime",
+          "start_sec": 131.2,
+          "end_sec": 205.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "interazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Meani",
+      "position": "Meani era una figura arbitrale presente all'epoca di Calciopoli",
+      "polarity": "neutral",
+      "claim_id": "801c1986-c109-415d-928b-31fff2ae9be6",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s3",
+      "target_entity": "Meani",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Meani era una figura arbitrale presente all'epoca di Calciopoli",
+      "evidence_quotes": [
+        {
+          "quote_text": "La figura dell'addetto arbitrale detto agli arbitri a me ha ricordato ovviamente la figura di Meani e torniamo all'epoca di Calciopoli. Meani Calciopoli è esistita, ma Meani",
+          "start_sec": 131.2,
+          "end_sec": 205.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "storia",
+        "Calciopoli"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "La figura dell'addetto agli arbitri del Milan",
+      "position": "La figura dell'addetto agli arbitri del Milan era poco conosciuta fino a poco prima dello scandalo Galsopi.",
+      "polarity": "neutral",
+      "claim_id": "8cc6723c-68b0-49cf-b807-4af4d00be4b9",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s4",
+      "target_entity": "La figura dell'addetto agli arbitri del Milan",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La figura dell'addetto agli arbitri del Milan era poco conosciuta fino a poco prima dello scandalo Galsopi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una figura che fino a poco era poco conosciuta fino a poco prima",
+          "start_sec": 204.12,
+          "end_sec": 235.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Schenone",
+      "position": "Il nome di Schenone dell'Inter è uscito in relazione a un rapporto sugli arbitri.",
+      "polarity": "neutral",
+      "claim_id": "52624ee3-8577-4bf9-abba-e7a1a044e881",
+      "video_id": "wLc36aSYeTY",
+      "segment_id": "s0",
+      "target_entity": "Schenone",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il nome di Schenone dell'Inter è uscito in relazione a un rapporto sugli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è uscito il nome di Schenone dell'Inter",
+          "start_sec": 2.919,
+          "end_sec": 70.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "arbitri",
+        "SerieA"
+      ]
+    }
+  ]
+}

@@ -95,6 +95,20 @@
         "last_n": 30,
         "exclude_live": true
       }
+    },
+    {
+      "id": "alfredo-pedulla",
+      "name": "Alfredo Pedulla",
+      "order": 7,
+      "video_list": "alfredo-pedulla.json",
+      "mercato_channel": true,
+      "fetch_rule": {
+        "type": "transcript_api",
+        "channel_url": "https://www.youtube.com/@Alfredo.Pedulla",
+        "channel_id": "UC2v9Tfka3PPWDgy_2TXL6Mg",
+        "last_n": 30,
+        "exclude_live": true
+      }
     }
   ]
 }

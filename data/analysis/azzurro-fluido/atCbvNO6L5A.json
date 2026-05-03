@@ -1,0 +1,386 @@
+{
+  "video_id": "atCbvNO6L5A",
+  "analyzed_at": "2026-04-24T07:43:33.688876+00:00",
+  "metadata": {
+    "title": "ASCOLTATELI senza INVENTARE COSE 👀 da Los Angeles #ADL si allinea a #Conte 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video di Azzurro Fluido analizza il contesto mediatico e tattico intorno alla nazionale italiana di calcio, con particolare attenzione alle dichiarazioni fraintese di Conte e ai nuovi dettagli forniti da De Laurentis da Los Angeles. L'autore sottolinea come i giudizi sul gioco e sulle scelte tecniche, come il modulo 3-5-2, cambino drasticamente in base ai risultati, evidenziando una mentalità italiana che tende a esaltare o criticare a seconda dell'esito. Inoltre, si evidenzia Conte come un candidato credibile per la presidenza della federazione, mentre si invita il pubblico a seguire più a",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "stipendi",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "rapporto",
+      "relevance": "low"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "352 (modulo)",
+      "position": "Alcuni criticano il modulo 352 accusandolo di catenaccio e filosofia vecchia.",
+      "polarity": "negative",
+      "claim_id": "33d1d959-9d4c-41e3-8579-73cf790408c5",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s1",
+      "target_entity": "352 (modulo)",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alcuni criticano il modulo 352 accusandolo di catenaccio e filosofia vecchia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tutti quelli che adesso hanno fatto la capriola a 180° e stanno dicendo basta col 352, il catenaccio, la filosofia",
+          "start_sec": 81.2,
+          "end_sec": 151.11999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "I fan del canale",
+      "position": "Si invita il 32% dei fan a guardare più spesso i video per aiutare l'algoritmo.",
+      "polarity": "positive",
+      "claim_id": "478f62cd-ccb0-4d35-aa4b-1cd2fdc453fb",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s0",
+      "target_entity": "I fan del canale",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Si invita il 32% dei fan a guardare più spesso i video per aiutare l'algoritmo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vi chiedo solo una cortesia perché so che il 32% di voi guarda quasi il 33 e non è questione di cortesia",
+          "start_sec": 2.12,
+          "end_sec": 83.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ken",
+      "position": "Se Ken avesse segnato il gol del 2-0, l'Italia avrebbe ricevuto elogi maggiori per la prestazione.",
+      "polarity": "neutral",
+      "claim_id": "4aaa3a50-e1bf-498b-b7d8-fc08594b735f",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s2",
+      "target_entity": "Ken",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Se Ken avesse segnato il gol del 2-0, l'Italia avrebbe ricevuto elogi maggiori per la prestazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se avesse segnato Ken, l'Italia che va sul 2-0, avremmo esaltato il risultato",
+          "start_sec": 148.28,
+          "end_sec": 213.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "performance",
+        "mentalità"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Le parole attribuite a Conte sono state fraintese inizialmente.",
+      "polarity": "neutral",
+      "claim_id": "c351efdd-ded8-4350-b72d-a1a61ffa5a4b",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le parole attribuite a Conte sono state fraintese inizialmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ieri mi avevate incalzato con le parole riportate di Conte e poi abbiamo scoperto tutt'altro",
+          "start_sec": 2.12,
+          "end_sec": 83.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "De Laurentis",
+      "position": "De Laurentis ha fornito dettagli importanti da Los Angeles.",
+      "polarity": "neutral",
+      "claim_id": "d0ed84a4-598c-4fdd-a73c-0882c6d6f73c",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s0",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis ha fornito dettagli importanti da Los Angeles.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sono uscite le parole di De Laurentis da Los Angeles e che ci aggiunge dei dettagli importantissimi",
+          "start_sec": 2.12,
+          "end_sec": 83.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Il canale",
+      "position": "Il canale si muove nuovamente, non viene rimosso.",
+      "polarity": "neutral",
+      "claim_id": "96c20939-5040-4c90-8c1f-f892c6cb34b7",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s0",
+      "target_entity": "Il canale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il canale si muove nuovamente, non viene rimosso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché il canale si sta rimuovendo, ovviamente no rimuovendo nel senso che lo tolgono, si muove di nuovo",
+          "start_sec": 2.12,
+          "end_sec": 83.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte è considerato un candidato serio per la presidenza della federazione.",
+      "polarity": "positive",
+      "claim_id": "f0146fbc-58e1-4fea-b7d4-010642ccc041",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte è considerato un candidato serio per la presidenza della federazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se io fossi il presidente della federazione sicuramente mi prenderei in considerazione, anche perché cioè cioè se io fossi il presidente federazione che ancora deve essere eh nominato e quindi però non sarei così stupido. Ecco, quindi sicuramente insieme ad altri Conte allenatore lo metterei nel nel novero dei dei candidati",
+          "start_sec": 81.2,
+          "end_sec": 151.11999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Adani",
+      "position": "Adani ha detto che se Ken avesse segnato in contropiede sarebbe stata una riflessione corretta.",
+      "polarity": "neutral",
+      "claim_id": "16cb04bd-704f-4641-a6ce-98b6af4e23ae",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s1",
+      "target_entity": "Adani",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Adani ha detto che se Ken avesse segnato in contropiede sarebbe stata una riflessione corretta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché io riprendendo le parole di Adani dice se Ken alla fine fa quel gol in contropiede ed è una riflessione, secondo me, correttissima",
+          "start_sec": 81.2,
+          "end_sec": 151.11999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Italia",
+      "position": "L'Italia viene giudicata in modo molto diverso a seconda del risultato finale della partita.",
+      "polarity": "neutral",
+      "claim_id": "bb6d7f03-e2e7-45b2-81aa-fd089f7f20bd",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia viene giudicata in modo molto diverso a seconda del risultato finale della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come alla fine il risultato cambia totalmente i giudizi",
+          "start_sec": 148.28,
+          "end_sec": 213.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mentalità",
+        "media",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Adani",
+      "position": "Adani è stato parte di un coro mediatico con Allegri e Conte riguardo alla qualificazione ai mondiali.",
+      "polarity": "neutral",
+      "claim_id": "1b702e35-917a-4e68-819c-78537afee108",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s2",
+      "target_entity": "Adani",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Adani è stato parte di un coro mediatico con Allegri e Conte riguardo alla qualificazione ai mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Adani ha fatto il coro sia Allegri prima che Conte dopo",
+          "start_sec": 148.28,
+          "end_sec": 213.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "commento",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Calcio italiano",
+      "position": "Dopo ogni mancata qualificazione, c'è un impulso mediatico a rivoluzionare e criticare tutto nel calcio italiano.",
+      "polarity": "negative",
+      "claim_id": "2a472a8b-a6c5-4d22-b69e-194b809b5a10",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s2",
+      "target_entity": "Calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dopo ogni mancata qualificazione, c'è un impulso mediatico a rivoluzionare e criticare tutto nel calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ogni santa volta che non ci qualifichiamo bisogna ricambiare tutto, bisogna sfasciare tutto",
+          "start_sec": 148.28,
+          "end_sec": 213.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "critica",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto una partita brutto ma la vittoria è stata data rilievo nella narrazione.",
+      "polarity": "neutral",
+      "claim_id": "6a641fa7-b939-4578-9f98-ba2f099c0f7c",
+      "video_id": "atCbvNO6L5A",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto una partita brutto ma la vittoria è stata data rilievo nella narrazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "altri vanno appresso semplicemente al fatto che il Napoli ha vinto",
+          "start_sec": 212.08,
+          "end_sec": 285.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "media",
+        "narrazione"
+      ]
+    }
+  ]
+}

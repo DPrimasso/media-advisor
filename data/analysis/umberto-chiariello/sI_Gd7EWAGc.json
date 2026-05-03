@@ -1,0 +1,395 @@
+{
+  "video_id": "sI_Gd7EWAGc",
+  "analyzed_at": "2026-04-24T08:30:16.398383+00:00",
+  "metadata": {
+    "title": "DENTRO GLI SCHEMI 03 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC si concentra sull’analisi tattica della prossima partita Napoli-Milan, con particolare attenzione alle probabili formazioni e ai ruoli chiave da interpretare in campo. L’autore sottolinea l’importanza di preparare strategie specifiche per affrontare lo stile codificato di Allegri, che prevede un blocco medio-basso e una gestione attenta degli spazi difensivi. Viene inoltre evidenziato il possibile ritorno di Frank Anghissa dal primo minuto, nonostante le sue recenti condizioni fisiche non ottimali, per il suo ruolo cruciale nelle transizioni di gioco. La trasmissione si p",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "preparazione",
+      "relevance": "high"
+    },
+    {
+      "name": "partita importantissima",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "motivazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "centrocampo",
+      "relevance": "low"
+    },
+    {
+      "name": "preparazione partita",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli deve preparare la partita contro il Milan pensando a una gestione oculata dei 90 minuti.",
+      "polarity": "neutral",
+      "claim_id": "9f0a3446-0fe9-4c10-8e92-77f8fb2af4d6",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Il Napoli deve preparare la partita contro il Milan pensando a una gestione oculata dei 90 minuti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la cosa importante di questa partita è prepararla sui 90 minuti perché queste sono le classiche partite che già sai dai per scontato che Allegri la prepara bene",
+          "start_sec": 253.64,
+          "end_sec": 461.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gestione partita",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Santos è considerato un giocatore capace di cambiare il ritmo della partita a partire dal 65' minuto.",
+      "polarity": "positive",
+      "claim_id": "da162ea1-1d4a-4f5c-bb66-95f5ca85b23c",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Santos è considerato un giocatore capace di cambiare il ritmo della partita a partire dal 65' minuto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Santos ad oggi ragazzi al 60-65 può diventare devastante perché tu la puoi giocare 65 con attenzione bello lì ermetico, ti entra ti entra un diavoletto di quello al 65, ti sposta tutto",
+          "start_sec": 460.199,
+          "end_sec": 682.9590000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Alison Santos",
+      "position": "Non è certo se Alison Santos sarà titolare nel Napoli.",
+      "polarity": "neutral",
+      "claim_id": "4d38a105-8d9d-4462-a976-ca4384c9fa85",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s0",
+      "target_entity": "Alison Santos",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Non è certo se Alison Santos sarà titolare nel Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "punto interrogativo tra i Fabutzo di Alison Santos dal primo minuto",
+          "start_sec": 0.0,
+          "end_sec": 256.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "incertezza",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "La squadra di Napoli ha una tattica codificata da Allegri.",
+      "polarity": "neutral",
+      "claim_id": "936ab9cf-2549-43ed-829f-cd788e491329",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra di Napoli ha una tattica codificata da Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sappiamo benissimo le squadre di Allegri come giocano",
+          "start_sec": 0.0,
+          "end_sec": 256.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "Napoli",
+        "Allegri"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Allegri",
+      "position": "Le squadre allenate da Allegri hanno uno stile di gioco ben definito.",
+      "polarity": "neutral",
+      "claim_id": "9b3a22da-69a8-4466-94b8-7505f88c079c",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s0",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre allenate da Allegri hanno uno stile di gioco ben definito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sappiamo benissimo le squadre di Allegri come giocano",
+          "start_sec": 0.0,
+          "end_sec": 256.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "stile di gioco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Si stanno preparando tattiche specifiche per la partita Napoli-Milan.",
+      "polarity": "positive",
+      "claim_id": "1c2e96c3-aa69-48dc-98f7-6b36941669c6",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Si stanno preparando tattiche specifiche per la partita Napoli-Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pronto per Napoli- Milan? Già hai messo mano ai tuoi schemi, alle tue tattiche?",
+          "start_sec": 0.0,
+          "end_sec": 256.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "strategia",
+        "partita",
+        "Napoli",
+        "Milan"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Frank Anghissa",
+      "position": "Frank Anghissa è molto probabile che torni titolare contro il Milan per la sua importanza nelle transizioni.",
+      "polarity": "positive",
+      "claim_id": "7d1118ca-1ae2-4880-bce1-0bdfc13a3b0c",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s1",
+      "target_entity": "Frank Anghissa",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Frank Anghissa è molto probabile che torni titolare contro il Milan per la sua importanza nelle transizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è una percentuale altissima di rivedere Frank, perché Frank in quella zona, in questa partita, è fondamentale perché loro sono molto bravi a gestire le cosiddette transizioni",
+          "start_sec": 253.64,
+          "end_sec": 461.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "transizione",
+        "tattica",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Frank Anghissa",
+      "position": "Le condizioni fisiche recenti di Frank Anghissa sono state piuttosto scarse nelle ultime partite.",
+      "polarity": "neutral",
+      "claim_id": "d4596509-0c86-48fc-bd14-abb77df2cdbd",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s1",
+      "target_entity": "Frank Anghissa",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le condizioni fisiche recenti di Frank Anghissa sono state piuttosto scarse nelle ultime partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come è le sue condizioni fisiche perché eh ultime partite passeggiava sul terreno di gioco",
+          "start_sec": 253.64,
+          "end_sec": 461.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "performance"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan adotterà un blocco medio basso e gestirà le spaziature difensive contro il Napoli.",
+      "polarity": "neutral",
+      "claim_id": "be75b7f5-5937-4d48-9378-bb6c26b93e2e",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan adotterà un blocco medio basso e gestirà le spaziature difensive contro il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan verrà a fare la sua classica partita, quindi blocco medio basso, gestione anche di quelle che sono le spaziature. Allegri è un meticoloso rispetto alla fase difensiva",
+          "start_sec": 253.64,
+          "end_sec": 461.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fase difensiva",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Alison è un giocatore gestito sapientemente da Allegri e viene usato strategicamente nel secondo tempo.",
+      "polarity": "neutral",
+      "claim_id": "85312d86-0366-4cc5-83e7-e86916806656",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alison è un giocatore gestito sapientemente da Allegri e viene usato strategicamente nel secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alison lo abbiamo visto dal primo minuto ed Alison poi è un ruolo che un volpone come Allegri te lo gestisce prop calciatore come come Alison.",
+          "start_sec": 460.199,
+          "end_sec": 682.9590000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte è considerato più pronto all'aggiornamento tattico rispetto ad Allegri.",
+      "polarity": "positive",
+      "claim_id": "eee4fb4a-dddc-428d-b815-1528f092faa1",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è considerato più pronto all'aggiornamento tattico rispetto ad Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte più pronto all'aggiornamento.",
+          "start_sec": 460.199,
+          "end_sec": 682.9590000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri prepara bene le partite ed è abile a soffrire tatticamente.",
+      "polarity": "positive",
+      "claim_id": "9d9cd7c6-e39b-408a-81e6-92d9d1408cc2",
+      "video_id": "sI_Gd7EWAGc",
+      "segment_id": "s2",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri prepara bene le partite ed è abile a soffrire tatticamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri è uno che queste partite le le prepara bene, è scaltro e e sa anche soffrire.",
+          "start_sec": 460.199,
+          "end_sec": 682.9590000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "video_id": "6ILK6CoESbQ",
+  "analyzed_at": "2026-04-24T15:57:15.166693+00:00",
+  "metadata": {
+    "title": "COSA CERCA LEWA. GILA FENOMENO. SARRI-GASP TRA LOTITO E RANIERI: SAREBBE BASTATO POCO🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video analizza il momento attuale di alcune squadre di calcio, focalizzandosi sul calo di rendimento dell'Arsenal e sulle difficoltà della Roma sotto la guida di Gasperini, evidenziando come la mancanza di qualità negli ultimi 30 metri penalizzi la squadra. L'autore prende posizione a favore di Gasperini, sottolineando che le critiche di Ranieri sono state inopportune e hanno creato tensioni inutili. Inoltre, si riflette sull'importanza di gestire bene la comunicazione e le motivazioni, citando l'esempio di Conte, la cui dichiarazione prima di una partita è giudicata controproducente. In co",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "difensore",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "zona champions",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Gasperini",
+      "position": "Senza qualità negli ultimi 30 metri, non si può dare una squadra a Gasperini.",
+      "polarity": "negative",
+      "claim_id": "07c2d913-e8c6-4184-8d9a-cb4b45732b0a",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s1",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Senza qualità negli ultimi 30 metri, non si può dare una squadra a Gasperini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che se non hai qualità negli ultimi 30 m non puoi dare una squadra a Gasperini",
+          "start_sec": 36.48,
+          "end_sec": 66.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tattica",
+        "performance"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Vazz",
+      "position": "Vazz è un giocatore costato 25 milioni.",
+      "polarity": "neutral",
+      "claim_id": "e954e02d-ddc1-49c9-970c-45170518a438",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s1",
+      "target_entity": "Vazz",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vazz è un giocatore costato 25 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come Vazz che è costato 25 milioni",
+          "start_sec": 36.48,
+          "end_sec": 66.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal sta vivendo un calo di rendimento che potrebbe essere momentaneo o da verificare.",
+      "polarity": "neutral",
+      "claim_id": "4f2f63b3-69e8-42b2-9501-f63a2552b2ea",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s0",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Arsenal sta vivendo un calo di rendimento che potrebbe essere momentaneo o da verificare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Arsenal in calo. Vediamo se questo calo che comunque ha portato ad andare a raggiungere le semifinale di Champions, sarà un calo da verificare bene oggi che calo sia o se è un momento è stato un momento di appannamento che ci può stare",
+          "start_sec": 0.16,
+          "end_sec": 38.199999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calo",
+        "performance",
+        "champions"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal ha raggiunto le semifinali di Champions League nonostante il calo di rendimento.",
+      "polarity": "positive",
+      "claim_id": "83b551cd-dddb-4e3f-9649-ce0c28035d45",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s0",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal ha raggiunto le semifinali di Champions League nonostante il calo di rendimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo calo che comunque ha portato ad andare a raggiungere le semifinale di Champions",
+          "start_sec": 0.16,
+          "end_sec": 38.199999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "semifinali",
+        "champions",
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini ha preso le distanze dalle dichiarazioni di Ranieri per proteggere la squadra.",
+      "polarity": "positive",
+      "claim_id": "6fabd47e-0968-4543-9865-232dcf020f82",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s2",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha preso le distanze dalle dichiarazioni di Ranieri per proteggere la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini ha voluto eh respingere, ha preso le distanze per proteggere",
+          "start_sec": 64.04,
+          "end_sec": 98.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "dichiarazioni",
+        "protezione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Ranieri",
+      "position": "Ranieri gode di una buona reputazione da parte di parte della stampa romana.",
+      "polarity": "neutral",
+      "claim_id": "60df0e43-3dd7-49a5-92b4-860ee941ddf8",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s2",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri gode di una buona reputazione da parte di parte della stampa romana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri che gode di una buon di una parte di stampa molto buona Roma",
+          "start_sec": 64.04,
+          "end_sec": 98.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "reputazione",
+        "stampa"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe fare un salto enorme e forse definitivo per la zona Champions con la vittoria contro Verona.",
+      "polarity": "positive",
+      "claim_id": "0a890222-c133-48ed-95a8-1ba7d9b32acd",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan potrebbe fare un salto enorme e forse definitivo per la zona Champions con la vittoria contro Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan e ehm e la Juventus che se dovessero fare quello che devono fare sulla carta Verona e contro il Bologna, ma la carta va sicuramente rispettata dal campo, farebbero un salto enorme e forse definitivo per quanto riguarda la zona Champions",
+          "start_sec": 96.799,
+          "end_sec": 138.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "zona champions",
+        "calcio italiano",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha speso centinaia di milioni riducendo la squadra a cattive condizioni.",
+      "polarity": "negative",
+      "claim_id": "239dbdca-2845-4903-91e7-2b6521be72ba",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha speso centinaia di milioni riducendo la squadra a cattive condizioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli hanno speso centinaia di milioni per ridurre il Napoli a queste condizioni",
+          "start_sec": 168.72,
+          "end_sec": 203.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finanza",
+        "prestazioni"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "Lewandowski non è contento a Barcellona perché non gioca titolare fisso.",
+      "polarity": "neutral",
+      "claim_id": "746ad347-3f82-4b34-9d55-aaa38962a526",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s6",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski non è contento a Barcellona perché non gioca titolare fisso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è contenta a Barcellona perché non gioca, non gioca titolare fisso",
+          "start_sec": 200.48,
+          "end_sec": 236.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Ranieri",
+      "position": "Ranieri ha fatto un passaggio sbagliato nelle sue dichiarazioni.",
+      "polarity": "negative",
+      "claim_id": "37b715c2-c284-4245-9c4f-251edcae202a",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s2",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri ha fatto un passaggio sbagliato nelle sue dichiarazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri che... ha fatto un passaggio sbagliato",
+          "start_sec": 64.04,
+          "end_sec": 98.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "comunicazione",
+        "errore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli è ridotto a condizioni negative nonostante l'investimento economico.",
+      "polarity": "negative",
+      "claim_id": "78182fe3-c4a0-43d8-b91f-84db4ab0ce4d",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è ridotto a condizioni negative nonostante l'investimento economico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per ridurre il Napoli a queste condizioni",
+          "start_sec": 168.72,
+          "end_sec": 203.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazioni",
+        "finanza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Venturino",
+      "position": "Venturino è considerato un buon talento.",
+      "polarity": "neutral",
+      "claim_id": "569f5847-8a7e-4ef7-af5e-45212cc3b6a9",
+      "video_id": "6ILK6CoESbQ",
+      "segment_id": "s1",
+      "target_entity": "Venturino",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Venturino è considerato un buon talento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "buoni talenti come Venturino",
+          "start_sec": 36.48,
+          "end_sec": 66.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "talento",
+        "mercato"
+      ]
+    }
+  ]
+}

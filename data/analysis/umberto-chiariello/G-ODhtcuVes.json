@@ -1,0 +1,393 @@
+{
+  "video_id": "G-ODhtcuVes",
+  "analyzed_at": "2026-04-25T10:57:35.881318+00:00",
+  "metadata": {
+    "title": "UN CAFFE' CON CHIARIELLO 03 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di \"Un caffè con Chiariello\" si concentra sull'attuale situazione calcistica del Napoli, evidenziando le buone chance della squadra di raggiungere il secondo posto e, sorprendentemente, di contendere ancora lo scudetto nonostante un distacco iniziale. L'autore sottolinea l'importanza tattica del nuovo modulo 3-4-2, con i centrocampisti titolari schierati diversamente e De Bruyne nel ruolo di sottopunta, e ribadisce il ruolo chiave di Conte, la cui permanenza è però incerta a causa di interessi esterni. Infine, si evidenziano anche le difficoltà organizzative legate al traffico per la ",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "serie a",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "low"
+    },
+    {
+      "name": "pressione",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Napoli adotterà un modulo 3-4-2 con i centrocampisti titolari posizionati in modo diverso.",
+      "polarity": "positive",
+      "claim_id": "29bca323-9bc6-4397-bb47-faf83c4259aa",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Napoli adotterà un modulo 3-4-2 con i centrocampisti titolari posizionati in modo diverso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli ha trovato una nuova identità tattica ... con un 342 che potrebbe essere lo schema di gioco",
+          "start_sec": 0.56,
+          "end_sec": 485.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "modulo",
+        "centrocampo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas ha giocato per oltre 30 partite consecutive tirando avanti il Napoli nonostante gli infortuni.",
+      "polarity": "positive",
+      "claim_id": "62abdfc6-b3ed-42f1-8baf-31b60df418b9",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas ha giocato per oltre 30 partite consecutive tirando avanti il Napoli nonostante gli infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas per oltre 30 partite consecutive è stato uno di quelli che hanno tirato avanti la la carretta del Napoli che sbandava da più parti con infortuni continui.",
+          "start_sec": 482.52,
+          "end_sec": 969.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gravina è stato votato al 98,7% grazie al suo ruolo funzionale a un sistema che non voleva cambiamenti.",
+      "polarity": "neutral",
+      "claim_id": "7136988c-516f-40a1-8d99-01342471b058",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s2",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina è stato votato al 98,7% grazie al suo ruolo funzionale a un sistema che non voleva cambiamenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi ha votato Gravina 98,7% e chi ha voluto che Gravina non facesse niente, perché Gravina era funzionale a tutti quelli che volevano che non facesse nulla",
+          "start_sec": 967.279,
+          "end_sec": 1369.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Gabriele Gravina",
+      "position": "La nazionale italiana è stata sacrificata a causa della gestione di Gravina e degli interessi singoli.",
+      "polarity": "negative",
+      "claim_id": "0c18728b-1804-457c-a410-e8b2e92d5990",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s2",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana è stata sacrificata a causa della gestione di Gravina e degli interessi singoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata sacrificata la nazionale sull'altare dei singoli interessi",
+          "start_sec": 967.279,
+          "end_sec": 1369.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Napoli ha buone chance di secondo posto e residue possibilità di vincere lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "209574e7-273f-4995-85a1-940970fa9bf2",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha buone chance di secondo posto e residue possibilità di vincere lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci giochiamo buone chance di secondo posto, possibilità di sorpasso, ma anche, perché no, quelle residue chance di di rivincere uno scudetto",
+          "start_sec": 0.56,
+          "end_sec": 485.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "scudetto",
+        "sorpresa"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "La permanenza di Conte a Napoli è messa in dubbio per interessi di nomi come Allegri e Mancini.",
+      "polarity": "neutral",
+      "claim_id": "5703ebf8-9a65-4d45-9fff-0312c65bfee0",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La permanenza di Conte a Napoli è messa in dubbio per interessi di nomi come Allegri e Mancini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la permanenza di Conte è messa in dubbio ... perché la stampa tutta amplificando il nome di Conte in chiave nazionale",
+          "start_sec": 0.56,
+          "end_sec": 485.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "panchina"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "De Bruyne",
+      "position": "De Bruyne giocherà come sottopunta nel nuovo sistema di gioco del Napoli.",
+      "polarity": "positive",
+      "claim_id": "e52db6c1-2c1b-4666-9d4e-276db9b256b1",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s0",
+      "target_entity": "De Bruyne",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "De Bruyne giocherà come sottopunta nel nuovo sistema di gioco del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Bruin non farà più il centrocampista di sinistra ... ma farà la sottopunta insieme a Mcomini avanzato alle spalle di Eund",
+          "start_sec": 0.56,
+          "end_sec": 485.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "posizione",
+        "modulo"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Bottega",
+      "position": "Bottega dovrebbe riprendersi la maglia da titolare dopo aver giocato con la nazionale.",
+      "polarity": "positive",
+      "claim_id": "ca5c5b23-aa85-44a1-9e89-5d57351b86cf",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s1",
+      "target_entity": "Bottega",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Bottega dovrebbe riprendersi la maglia da titolare dopo aver giocato con la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bottega ha giocato con la sua nazionale perdendo anche lui i mondiali, per cui dovrebbe riprendersi la maglia da titolare.",
+          "start_sec": 482.52,
+          "end_sec": 969.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina ha deluso promettendo riforme che non ha mai realizzato e pagandone le conseguenze.",
+      "polarity": "negative",
+      "claim_id": "91b4a75a-10b2-4d12-b737-69b07c0a5ded",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha deluso promettendo riforme che non ha mai realizzato e pagandone le conseguenze.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gravina ha molte colpe, soprattutto quella di essere stato in belle. Al di là delle scelte fatte sul piano tecnico, Gravina paga due mondiali saltati... promise riforme... Tutto ciò non è mai avvenuto.",
+          "start_sec": 482.52,
+          "end_sec": 969.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "decreto crescita",
+      "position": "Il decreto crescita favoriva l'acquisto di calciatori stranieri rispetto agli italiani.",
+      "polarity": "neutral",
+      "claim_id": "2a93a2de-cb5a-440a-893c-478df90ec579",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s2",
+      "target_entity": "decreto crescita",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il decreto crescita favoriva l'acquisto di calciatori stranieri rispetto agli italiani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il decreto crescita praticamente stimolava, finanziava, dava un impulso a prendere gli stranieri a scapito gli italiani",
+          "start_sec": 967.279,
+          "end_sec": 1369.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "decreto crescita"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha approfittato del decreto crescita per prendere Lukaku a un costo inferiore.",
+      "polarity": "positive",
+      "claim_id": "13013378-2e2d-4d7d-ae26-c20668e06261",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha approfittato del decreto crescita per prendere Lukaku a un costo inferiore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ne ha approfittato. Lukaku probabilmente non l'avrebbe mai preso senza senza il decreto crescita",
+          "start_sec": 967.279,
+          "end_sec": 1369.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte è imprescindibile se sta bene fisicamente.",
+      "polarity": "positive",
+      "claim_id": "20a5c72e-97d6-4671-9d9f-78c725b8b675",
+      "video_id": "G-ODhtcuVes",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è imprescindibile se sta bene fisicamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Anchissà sta bene fisicamente per Conte è imprescindibile.",
+          "start_sec": 482.52,
+          "end_sec": 969.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

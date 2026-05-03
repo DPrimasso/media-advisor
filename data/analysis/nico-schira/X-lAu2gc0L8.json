@@ -1,0 +1,395 @@
+{
+  "video_id": "X-lAu2gc0L8",
+  "analyzed_at": "2026-04-27T07:18:49.066719+00:00",
+  "metadata": {
+    "title": "INTER, IL REGALO SCUDETTO PER CHIVU. COME PUÒ RINASCERE LA ROMA. BERNARDO SILVA, NAPOLI E MILAN…",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-12T23:11:20+00:00"
+  },
+  "summary": "Il video di Nico Schira analizza la situazione attuale del campionato di Serie A, con particolare attenzione alla fuga dell’Inter verso lo scudetto e alle prestazioni delle squadre come Genoa, Napoli e Sassuolo. L’autore sostiene che l’Inter ha ormai il titolo quasi in tasca, grazie a una continuità di risultati che ha messo in difficoltà sia il Napoli che il Milan, mentre il Napoli mostra segnali di difficoltà offensiva. Vengono inoltre evidenziati i rinnovi importanti nel Genoa e il monitoraggio di giovani talenti da parte dell’Inter, suggerendo che la squadra nerazzurra sta lavorando anche ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "low"
+    },
+    {
+      "name": "calendario",
+      "relevance": "low"
+    },
+    {
+      "name": "attacco",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Genoa",
+      "position": "Genoa è praticamente salvo nel campionato dopo la vittoria 2-1.",
+      "polarity": "positive",
+      "claim_id": "26c76276-c946-45a8-b868-1c820965e4e1",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s0",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Genoa è praticamente salvo nel campionato dopo la vittoria 2-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Genoa praticamente salvo, trascinato dal gol decisivo di Caleb Heekuban a un passo dal rinnovo sino al 2028.",
+          "start_sec": 1.0,
+          "end_sec": 31.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "salvezza",
+        "gol decisivo",
+        "rinnovo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Malinowski",
+      "position": "Malinowski ha segnato al minuto 18 sia all'andata che al ritorno contro il Sassuolo.",
+      "polarity": "positive",
+      "claim_id": "c3390145-fb95-402f-9ba2-cf8b97d2f871",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s1",
+      "target_entity": "Malinowski",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malinowski ha segnato al minuto 18 sia all'andata che al ritorno contro il Sassuolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Marinowski che ha segnato l'andata al ritorno contro il Sassuolo sempre al minuto 18",
+          "start_sec": 29.56,
+          "end_sec": 55.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Malinowski",
+      "position": "Malinowski ha segnato il gol dell'1-0.",
+      "polarity": "positive",
+      "claim_id": "7c7d2d84-c285-4376-bb0b-7e80840a66ec",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s1",
+      "target_entity": "Malinowski",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malinowski ha segnato il gol dell'1-0.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malinowski che aveva fatto il gol dell'1-0.",
+          "start_sec": 29.56,
+          "end_sec": 55.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Caleb Heekuban",
+      "position": "Caleb Heekuban ha segnato un gol decisivo per il Genoa.",
+      "polarity": "positive",
+      "claim_id": "435b4fed-8445-4867-9f5b-3dc97505172d",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s0",
+      "target_entity": "Caleb Heekuban",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Caleb Heekuban ha segnato un gol decisivo per il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "trascinato dal gol decisivo di Caleb Heekuban a un passo dal rinnovo sino al 2028.",
+          "start_sec": 1.0,
+          "end_sec": 31.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Sabelli",
+      "position": "Sabelli sembra molto vicino al rinnovo con il Genoa.",
+      "polarity": "positive",
+      "claim_id": "009b6c22-9339-4708-b883-2c191863b90b",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s0",
+      "target_entity": "Sabelli",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Sabelli sembra molto vicino al rinnovo con il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Manca solo l'ufficialità per il rinnovo di Sabelli.",
+          "start_sec": 1.0,
+          "end_sec": 31.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovo",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Bailo",
+      "position": "Bailo ha un rinnovo triennale pronto e ha conquistato la nazionale.",
+      "polarity": "positive",
+      "claim_id": "3280e819-bf7d-4469-a79b-3d73515b5b3d",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s0",
+      "target_entity": "Bailo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bailo ha un rinnovo triennale pronto e ha conquistato la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pronto il rinnovo triennale per Bailo, portiere che conquistato anche la nazionale",
+          "start_sec": 1.0,
+          "end_sec": 31.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovo",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Muovicć",
+      "position": "Muovicć è seguito con grande costanza dall'Inter come nome caldo nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "43f566d3-2dc8-443f-828e-eb73232d6695",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s2",
+      "target_entity": "Muovicć",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Muovicć è seguito con grande costanza dall'Inter come nome caldo nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Muovicć e Solè sono due nomi molto molto caldi per l'Inter che li sta seguendo ormai con grande costanza",
+          "start_sec": 53.199,
+          "end_sec": 80.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "inter"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è stata considerata come contendibile per lo scudetto fin dall'inizio della stagione.",
+      "polarity": "positive",
+      "claim_id": "f8470d7a-7b6d-4e89-b8e0-c725c7d5a987",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è stata considerata come contendibile per lo scudetto fin dall'inizio della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo dico dal 14 agosto, se detto Inter Napoli per lo scudetto",
+          "start_sec": 78.439,
+          "end_sec": 102.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "competizione",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha frenato a Parma nella recente partita.",
+      "polarity": "neutral",
+      "claim_id": "b2156fcc-f74f-4530-8ad1-8c93bf072984",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha frenato a Parma nella recente partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi nel pomeriggio il Napoli ha frenato a Parma",
+          "start_sec": 53.199,
+          "end_sec": 80.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "napoli",
+        "parma"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è in fuga e ha lo scudetto in mano.",
+      "polarity": "positive",
+      "claim_id": "a139901d-8e3e-4867-bd44-b737fbe48a20",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è in fuga e ha lo scudetto in mano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter è in fuga, l'Inter ha lo scudetto in mano",
+          "start_sec": 53.199,
+          "end_sec": 80.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "scudetto",
+        "inter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo ha giocato una prestazione deludente.",
+      "polarity": "negative",
+      "claim_id": "50d8cb77-d00e-4d6e-b1e1-2d0836b288dc",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s1",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo ha giocato una prestazione deludente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Sassuolo invece prestazione un po' deludente, ha giocato",
+          "start_sec": 29.56,
+          "end_sec": 55.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Eccuban",
+      "position": "Eccuban ha un rinnovo biennale pronto.",
+      "polarity": "positive",
+      "claim_id": "bc3fdc3e-6da1-484e-bda1-e5e6656142a2",
+      "video_id": "X-lAu2gc0L8",
+      "segment_id": "s1",
+      "target_entity": "Eccuban",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Eccuban ha un rinnovo biennale pronto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pronto il rinnovo biennale anche per Eccuban.",
+          "start_sec": 29.56,
+          "end_sec": 55.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

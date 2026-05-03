@@ -1,0 +1,394 @@
+{
+  "video_id": "a4UTCK5n2pA",
+  "analyzed_at": "2026-05-03T12:47:54.808107+00:00",
+  "metadata": {
+    "title": "ROCCHI DA MOSTRO A EROE. JUVE INSTANT: COSÌ. L'INTER RIBALTA. ADL E IL TELEFONO. IL PROF STROPPA🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà si concentra su un omaggio ad Alex Zanardi, definito un esempio di vita e una leggenda che offre importanti lezioni morali, soprattutto per chi non sa vivere pienamente. L’autore sottolinea anche la situazione calcistica attuale, evidenziando la vittoria significativa del Lecce contro il Pisa e l’importanza della partita della Cremonese per la salvezza. Inoltre, Pedullà critica il direttore generale del Pisa, invitandolo a un mea culpa per le dichiarazioni poco costruttive e per la gestione degli acquisti, che non hanno ancora reso la squadra competitiva in Serie A.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "rinnovo contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "attacco",
+      "relevance": "low"
+    },
+    {
+      "name": "partita",
+      "relevance": "low"
+    },
+    {
+      "name": "giustizia",
+      "relevance": "low"
+    },
+    {
+      "name": "errore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Alex Zanardi",
+      "position": "Zanardi dà lezioni di vita importanti a chi non vive la vita pienamente.",
+      "polarity": "positive",
+      "claim_id": "f52b4e84-adc6-47b6-a980-41fd8f776a07",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s0",
+      "target_entity": "Alex Zanardi",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Zanardi dà lezioni di vita importanti a chi non vive la vita pienamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dando delle lezioni a chi non la sa vivere pur non avendo delle situazioni particolari",
+          "start_sec": 0.199,
+          "end_sec": 44.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Alex Zanardi",
+      "position": "Alex Zanardi è una leggenda che va oltre i campioni sportivi tradizionali.",
+      "polarity": "positive",
+      "claim_id": "8bb095ff-7ca2-4b81-807a-2c80d1a9cbb0",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s0",
+      "target_entity": "Alex Zanardi",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alex Zanardi è una leggenda che va oltre i campioni sportivi tradizionali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ci sono leggende che vanno al di là e oltre i campioni che sono stati",
+          "start_sec": 0.199,
+          "end_sec": 44.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Pisa",
+      "position": "Il direttore generale del Pisa dovrebbe fare un mea culpa per le dichiarazioni rilasciate.",
+      "polarity": "negative",
+      "claim_id": "766f3f2f-35ab-443e-9e71-ca28daf78994",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s2",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il direttore generale del Pisa dovrebbe fare un mea culpa per le dichiarazioni rilasciate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi permetto soltanto di dire al direttore generale del Pisa che ogni tanto bisognerebbe fare un mea culpa.",
+          "start_sec": 78.4,
+          "end_sec": 116.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mea culpa",
+        "dichiarazioni"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Pisa",
+      "position": "Il Pisa non è ancora una squadra da Serie A secondo le dichiarazioni analizzate.",
+      "polarity": "neutral",
+      "claim_id": "9e1b9496-325c-4e70-9a2c-24a1c9543e2a",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s2",
+      "target_entity": "Pisa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Pisa non è ancora una squadra da Serie A secondo le dichiarazioni analizzate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non si tratta di dire la squadra non è pronta, eh, e non è una squadra di Serie A.",
+          "start_sec": 78.4,
+          "end_sec": 116.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "preparazione squadra",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "PISA",
+      "position": "Il Pisa ha speso molti soldi a gennaio.",
+      "polarity": "neutral",
+      "claim_id": "1806f180-06b4-4448-b250-d73fe27ab58a",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s3",
+      "target_entity": "PISA",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Pisa ha speso molti soldi a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quello che è speso il PISA a gennaio è un qualcosa che non lo hanno speso sui cartellini anche società molto più importanti",
+          "start_sec": 114.6,
+          "end_sec": 154.72000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "spesa",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "PISA",
+      "position": "Il Pisa ha sbagliato a mandare via Gilardino per scommettere su un'altra soluzione.",
+      "polarity": "negative",
+      "claim_id": "9e5acc73-f7d0-4f64-befc-50ac0178fe53",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s3",
+      "target_entity": "PISA",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Pisa ha sbagliato a mandare via Gilardino per scommettere su un'altra soluzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma aver mandato via Gilardino per cavalcare una scommessa è stata una grande cosa sbagliata, una grande sciocchezza",
+          "start_sec": 114.6,
+          "end_sec": 154.72000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gestione",
+        "scelta"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "genoa",
+      "position": "Gli acquisti milionari del Genoa erano eccessivi e inutili.",
+      "polarity": "negative",
+      "claim_id": "951f6822-a911-469f-807d-e71c55bb0dd2",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s4",
+      "target_entity": "genoa",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli acquisti milionari del Genoa erano eccessivi e inutili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gli acquisti milionari di gen ecco sono tutte cose che avrebbero dovuto comportare perché purtroppo nel calcio nessuno sbaglia",
+          "start_sec": 152.68,
+          "end_sec": 190.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "acquisti",
+        "mercato",
+        "critica"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi è definito un arbitro molto competente e decisivo.",
+      "polarity": "positive",
+      "claim_id": "4e015705-e7c0-4864-b70e-eb3fab440e88",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s4",
+      "target_entity": "Rocchi",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi è definito un arbitro molto competente e decisivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocchi è un mostro",
+          "start_sec": 152.68,
+          "end_sec": 190.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "competenza",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Alex Zanardi",
+      "position": "Alex Zanardi è un esempio di vita e lascia un importante testamento di lezioni morali.",
+      "polarity": "positive",
+      "claim_id": "96e401db-962c-4993-a094-6c0fd4725d7d",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s0",
+      "target_entity": "Alex Zanardi",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alex Zanardi è un esempio di vita e lascia un importante testamento di lezioni morali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alex Zanardi che è stato un esempio, lo sarà sempre",
+          "start_sec": 0.199,
+          "end_sec": 44.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Alex Zanardi",
+      "position": "La vita va vissuta anche in condizioni particolari, come dimostra Zanardi.",
+      "polarity": "positive",
+      "claim_id": "cc297562-fb3b-4062-80ea-cd9a76e1d665",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s0",
+      "target_entity": "Alex Zanardi",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vita va vissuta anche in condizioni particolari, come dimostra Zanardi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la vita va vissuta e e quando la vivi in condizioni particolari",
+          "start_sec": 0.199,
+          "end_sec": 44.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lecce",
+      "position": "Il Lecce ha vinto una partita importante contro il Pisa.",
+      "polarity": "positive",
+      "claim_id": "1de90b12-256d-42b7-bf47-dabd1eba6ade",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s1",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Lecce ha vinto una partita importante contro il Pisa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ieri il Lecce ha vinto una partita che potrebbe essere una partita break a Pisa.",
+          "start_sec": 42.559,
+          "end_sec": 80.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "importanza",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese deve dare il massimo in una partita importante.",
+      "polarity": "neutral",
+      "claim_id": "c7d72cc7-7f1b-4660-9e44-9310d73acdab",
+      "video_id": "a4UTCK5n2pA",
+      "segment_id": "s1",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La Cremonese deve dare il massimo in una partita importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io penso che sarà molto molto molto importante per la Cremonese cercare di dare il massimo",
+          "start_sec": 42.559,
+          "end_sec": 80.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "motivazione",
+        "partita"
+      ]
+    }
+  ]
+}

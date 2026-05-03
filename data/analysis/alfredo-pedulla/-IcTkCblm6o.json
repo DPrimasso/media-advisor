@@ -1,0 +1,409 @@
+{
+  "video_id": "-IcTkCblm6o",
+  "analyzed_at": "2026-04-25T11:23:57.775148+00:00",
+  "metadata": {
+    "title": "SPORCA, SOLIDA E BOGA DA JACKPOT: JUVE, VALE UN QUINTALE. IL (SOLITO) DIBATTITO SU ALLEGRI🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video analizza la vittoria della Juventus contro l'Atalanta, sottolineando come la squadra abbia conquistato tre punti fondamentali con una prestazione definita \"sporca, cattiva e cinica\", nonostante un primo tempo deludente e ricco di errori tecnici. L'autore evidenzia che, sebbene il gioco non sia stato brillante, ciò che conta in questa fase della stagione è il risultato ottenuto, che rilancia la Juve in classifica e mette pressione al Como. Viene inoltre ipotizzato che le scelte tattiche di Spalletti, volte a non dare riferimenti agli avversari, abbiano influito negativamente sull’appro",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "autostima",
+      "relevance": "medium"
+    },
+    {
+      "name": "merito",
+      "relevance": "low"
+    },
+    {
+      "name": "errore tecnico",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione mentale",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como ha 58 punti in classifica e dovrà giocare sette partite.",
+      "polarity": "neutral",
+      "claim_id": "02d6442f-f117-4cb6-b5fe-9f2ee806cfea",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha 58 punti in classifica e dovrà giocare sette partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como dovrà eh giocarne sette perché Milan 63, eh la Juve va a 60 e il Com 58",
+          "start_sec": 0.12,
+          "end_sec": 42.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "punti",
+        "partite"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus ha 60 punti in classifica dopo Atalanta-Juventus.",
+      "polarity": "neutral",
+      "claim_id": "28c838ab-c118-4119-963a-0d137c9731b1",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha 60 punti in classifica dopo Atalanta-Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve va a 60",
+          "start_sec": 0.12,
+          "end_sec": 42.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "punti"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan ha 63 punti in classifica.",
+      "polarity": "neutral",
+      "claim_id": "a4f8a207-c4ce-4194-9f98-83fc43f255fc",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha 63 punti in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan 63",
+          "start_sec": 0.12,
+          "end_sec": 42.07899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "punti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha vinto una partita sporca, cattiva e cinica.",
+      "polarity": "positive",
+      "claim_id": "7abfad06-81a7-43db-a903-f49a3a29c2f8",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha vinto una partita sporca, cattiva e cinica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus ha vinto una partita, come devo dire, sporca, cattiva, cinica",
+          "start_sec": 39.6,
+          "end_sec": 82.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "juventus",
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha commesso molti errori tecnici e non riusciva a proporre trame di gioco efficaci.",
+      "polarity": "negative",
+      "claim_id": "280b7bf0-a034-4d92-a8ba-261d906909ba",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha commesso molti errori tecnici e non riusciva a proporre trame di gioco efficaci.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con una squadra che non riusciva a proporre trame con tanti errori tecnici",
+          "start_sec": 39.6,
+          "end_sec": 82.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "juventus",
+        "prestazione",
+        "errori tecnici"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Spalletti",
+      "position": "La scelta tattica di Spalletti potrebbe aver complicato la partita non dando riferimenti precisi.",
+      "polarity": "neutral",
+      "claim_id": "b29e90ad-c2b6-4ac7-87ea-7ab37904296d",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s1",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La scelta tattica di Spalletti potrebbe aver complicato la partita non dando riferimenti precisi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la scelta di Spalletti legittimata dalla necessità di non dare dei riferimenti poi ha pesato un po'",
+          "start_sec": 39.6,
+          "end_sec": 82.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "spalletti",
+        "tattica",
+        "scelta tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Ildis",
+      "position": "Ildis non è mai entrato veramente in partita tranne in una circostanza nel primo tempo.",
+      "polarity": "negative",
+      "claim_id": "5dfa79e3-7edf-43f4-8e26-ac48bc60a59a",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s2",
+      "target_entity": "Ildis",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ildis non è mai entrato veramente in partita tranne in una circostanza nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mai è entrato, tranne che in una circostanza nel primo tempo",
+          "start_sec": 79.4,
+          "end_sec": 112.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha fatto ciò che aveva fatto la Juventus in Coppa Italia nella partita precedente.",
+      "polarity": "positive",
+      "claim_id": "e0a5b4ca-6cbc-4744-b0e5-60923c9d3fe3",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha fatto ciò che aveva fatto la Juventus in Coppa Italia nella partita precedente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta ha fatto quello che la Juventus aveva fatto in Coppa Italia",
+          "start_sec": 79.4,
+          "end_sec": 112.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "comparazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta avrebbe probabilmente meritato di andare in vantaggio nel primo tempo.",
+      "polarity": "neutral",
+      "claim_id": "14cba45d-7af0-4139-8ba2-2c42b67cbeec",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta avrebbe probabilmente meritato di andare in vantaggio nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "probabilmente avrebbe meritato l'Atalanta di andare in vantaggio nel primo tempo",
+          "start_sec": 111.64,
+          "end_sec": 150.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "merito",
+        "primo tempo",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Il gol di Bogà ha dato grande autostima alla Juventus in questa fase della partita.",
+      "polarity": "positive",
+      "claim_id": "236ee7d3-3dd7-466f-b02d-e1d54afe0f29",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il gol di Bogà ha dato grande autostima alla Juventus in questa fase della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché dalla Juve una grande autostima a questo punto della",
+          "start_sec": 111.64,
+          "end_sec": 150.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "autostima",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juve ha saputo difendere il risultato in questa partita.",
+      "polarity": "positive",
+      "claim_id": "8cc96854-a047-408f-b4bb-76cfcb4e36a4",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s4",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve ha saputo difendere il risultato in questa partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve che ha saputo difendere il risultato",
+          "start_sec": 149.28,
+          "end_sec": 184.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bogà",
+      "position": "Bogà ha segnato un gol molto importante all'inizio del secondo tempo.",
+      "polarity": "positive",
+      "claim_id": "70d8a61e-63a0-427e-9c30-dda324c0e02a",
+      "video_id": "-IcTkCblm6o",
+      "segment_id": "s3",
+      "target_entity": "Bogà",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Bogà ha segnato un gol molto importante all'inizio del secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il golonzo di Bogà in avvio di secondo tempo e pesa una una tonnellata, 10 tonnellate, 100 tonnellate",
+          "start_sec": 111.64,
+          "end_sec": 150.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "secondo tempo",
+        "performance"
+      ]
+    }
+  ]
+}

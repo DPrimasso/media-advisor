@@ -1,0 +1,394 @@
+{
+  "video_id": "D6ODa7HJNXM",
+  "analyzed_at": "2026-04-25T10:48:55.689093+00:00",
+  "metadata": {
+    "title": "IL MIO #NAPOLI, anche con #CONTE IN PANCHINA! #Cremonese schiantata",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video commenta la recente vittoria netta del Napoli contro la Cremonese, evidenziando come l’allenatore Conte abbia probabilmente incoraggiato la squadra a tirare di più in porta, portando a un gioco più offensivo e sprecone nelle occasioni create. L’autore esprime soddisfazione per la prestazione, pur criticando il calcio di Conte definito noioso e troppo difensivo in generale. Viene inoltre sottolineata l’importanza tattica di alcune scelte, come l’ipotesi di schierare McTominay più arretrato e la curiosità di vedere giocare Gutierre, mentre si riconosce il buon rientro di De Bruin. Infin",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "ruolo",
+      "relevance": "low"
+    },
+    {
+      "name": "risultato",
+      "relevance": "low"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Conte ha probabilmente detto al Napoli di tirare continuamente in porta.",
+      "polarity": "positive",
+      "claim_id": "2cc6badf-5e32-4844-bea6-1a7fbb56401d",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte ha probabilmente detto al Napoli di tirare continuamente in porta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Secondo me Conte gli ha detto proprio tira, tirate, tirate sempre, tirate in continuazione il tiro al bersaglio",
+          "start_sec": 36.48,
+          "end_sec": 74.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay è stato suggerito di essere schierato più dietro.",
+      "polarity": "neutral",
+      "claim_id": "3d2cfad7-2fbc-46f4-9105-617763a6c3d4",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "McTominay è stato suggerito di essere schierato più dietro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se Mctomini lo metti più dietro, comunque lui arriva",
+          "start_sec": 36.48,
+          "end_sec": 74.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Il calcio di Conte è considerato noioso e sparagnino.",
+      "polarity": "negative",
+      "claim_id": "71c0f513-c787-4bbc-981a-ce19ed5ded8d",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio di Conte è considerato noioso e sparagnino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi annoio con il calcio di Conte. Non si può sostenere il calcio sparagnino, la sofferenza continua.",
+          "start_sec": 71.92,
+          "end_sec": 107.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "performance",
+        "opinione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "Cremonese aveva il dovere di fare un grande partita per salvarsi.",
+      "polarity": "neutral",
+      "claim_id": "ed86767a-eadd-4183-8196-a948e5da3376",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s3",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese aveva il dovere di fare un grande partita per salvarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Cremonese aveva tutta la la il dovere di fare il partitone perché si stanno si devono salvare",
+          "start_sec": 105.96,
+          "end_sec": 137.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "salvezza",
+        "partita"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Dopo le vittorie, Conte potrebbe aumentare la sua determinazione e comunicare con più forza alla squadra.",
+      "polarity": "positive",
+      "claim_id": "cedaa932-5bbd-4b68-92a5-b9f80be1d97a",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Dopo le vittorie, Conte potrebbe aumentare la sua determinazione e comunicare con più forza alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dopo queste vittorie, secondo me, Conte si allarga e dice qualcosa di sto fa \"Fa caldo, fa caldo.\" \"Venite con me, venite con me.\"",
+          "start_sec": 105.96,
+          "end_sec": 137.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "motivazione",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto con un risultato molto rotondo e avrebbe potuto segnare di più.",
+      "polarity": "positive",
+      "claim_id": "1ded83bf-dc07-4b3d-9c98-4321b251baad",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto con un risultato molto rotondo e avrebbe potuto segnare di più.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per una volta il risultato è rotondo, anzi più che rotondo, addirittura abbiamo sprecato tanto perché doveva finire anche 5-0",
+          "start_sec": 134.92,
+          "end_sec": 171.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "prestazione",
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Oilund",
+      "position": "Oilund ha segnato un gol che potrebbe non essere stato convalidato per una deviazione pesante.",
+      "polarity": "neutral",
+      "claim_id": "51db981d-b0fe-4f2e-b553-3b71606e3514",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s4",
+      "target_entity": "Oilund",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Oilund ha segnato un gol che potrebbe non essere stato convalidato per una deviazione pesante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi dispiace anche per Oilund se non glielo danno quel gol perché la deviazione è pesante",
+          "start_sec": 134.92,
+          "end_sec": 171.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "arbitraggio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli è tornato a essere sprecone con le occasioni da gol tirando molte volte.",
+      "polarity": "positive",
+      "claim_id": "e740c32f-a4d9-4850-b4e0-a7c0c164434a",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è tornato a essere sprecone con le occasioni da gol tirando molte volte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Signori, è tornato il Napoli sprecone",
+          "start_sec": 36.48,
+          "end_sec": 74.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Scott",
+      "position": "Scott è stato definito un bullo nel contesto della partita.",
+      "polarity": "negative",
+      "claim_id": "11742545-70fe-491a-bcc9-53fad7e4a4f0",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s4",
+      "target_entity": "Scott",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Scott è stato definito un bullo nel contesto della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Secondo me Scott è stato un bullo",
+          "start_sec": 134.92,
+          "end_sec": 171.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comportamento",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Gutierre",
+      "position": "Gutierre non è considerato precisissimo nel tiro.",
+      "polarity": "neutral",
+      "claim_id": "009b20fe-550b-4cd3-8f64-b9b072c87af7",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s2",
+      "target_entity": "Gutierre",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gutierre non è considerato precisissimo nel tiro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché non sono bravissimi, non sono precisissimi. Lo abbiamo visto con Gutierre, lo abbiamo visto.",
+          "start_sec": 71.92,
+          "end_sec": 107.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "precisione tiro"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Gutierre",
+      "position": "Vorrebbero vedere Gutierre giocare.",
+      "polarity": "positive",
+      "claim_id": "56df754e-d9bd-4e23-8f26-146673c10d26",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s1",
+      "target_entity": "Gutierre",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Vorrebbero vedere Gutierre giocare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vorrei vorrei vedere Gutierre",
+          "start_sec": 36.48,
+          "end_sec": 74.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "De Bruin",
+      "position": "De Bruin era rientrato molto bene.",
+      "polarity": "positive",
+      "claim_id": "00ded0cf-18a7-4acb-983b-0bf09b74ff6c",
+      "video_id": "D6ODa7HJNXM",
+      "segment_id": "s0",
+      "target_entity": "De Bruin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Bruin era rientrato molto bene.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché poi quando De Bruin era rientrato era rientrato molto bene.",
+          "start_sec": 0.599,
+          "end_sec": 39.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rientro",
+        "prestazione"
+      ]
+    }
+  ]
+}

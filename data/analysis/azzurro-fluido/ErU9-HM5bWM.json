@@ -1,0 +1,401 @@
+{
+  "video_id": "ErU9-HM5bWM",
+  "analyzed_at": "2026-04-24T08:22:30.261914+00:00",
+  "metadata": {
+    "title": "Continua il TOTO ALLENATORI Napoli 👀 Maresca, Gasp, Grosso, Motta.. 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza il dibattito in corso sul futuro allenatore del Napoli, sottolineando che non è ancora ufficiale l’addio di Conte, ma si continua a fare il \"Toto allenatori\" con nomi come Sarri, Gasperini, Maresca e Grosso. L’autore esprime un giudizio critico su Sarri, evidenziando un disinnamoramento dovuto alle sue scelte recenti e alla difficoltà di adattarsi, soprattutto rispetto a Conte che ha mostrato maggiore flessibilità tattica. Viene inoltre sottolineata la dominanza del Napoli con il modulo 3-4-2-1 contro la Lazio, mentre la gestione societaria della Lazio è definita disastrosa, ",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "coerenza",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "decisioni arbitrali",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli ha usato un assetto 3-4-2-1 con interpreti adatti per una dominanza assoluta contro la Lazio.",
+      "polarity": "positive",
+      "claim_id": "55aea6c5-f9ce-4294-bb04-cc205d3aff06",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha usato un assetto 3-4-2-1 con interpreti adatti per una dominanza assoluta contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avevamo già il 342 1, ma avevamo degli interpreti più forse più adatti a quello che volevamo fare e fu una dominanza assoluta",
+          "start_sec": 40.84,
+          "end_sec": 121.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "prestazione",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha gestito bene i cambi di formazione durante la stagione anche in presenza di infortuni.",
+      "polarity": "positive",
+      "claim_id": "e05e23e0-c5a0-4792-9cd2-f0f1704bb715",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha gestito bene i cambi di formazione durante la stagione anche in presenza di infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche a livello di infortuni, io ho apprezzato il cambiamento che che ha saputo fare Conte nelle varie fasi della stagione.",
+          "start_sec": 177.92,
+          "end_sec": 250.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarry",
+      "position": "Si è creato un disinnamoramento pesante nei confronti di Sarry dopo la sua scelta di andare via.",
+      "polarity": "negative",
+      "claim_id": "e26e8574-4c90-4539-b1f6-fbe14a994088",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s1",
+      "target_entity": "Sarry",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Si è creato un disinnamoramento pesante nei confronti di Sarry dopo la sua scelta di andare via.",
+      "evidence_quotes": [
+        {
+          "quote_text": "purtroppo io su Sarry che apprezzai tantissimo quando era con noi, poi ho avuto insomma un un disinnamoramento pesante quanto scelse di andare alla",
+          "start_sec": 40.84,
+          "end_sec": 121.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "opinione"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Lazio",
+      "position": "La Lazio ha cambiato stile di gioco passando da possesso e dominio a difesa e contropiede.",
+      "polarity": "neutral",
+      "claim_id": "e5a2cebc-a10c-4d3a-85bd-7959038423c6",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha cambiato stile di gioco passando da possesso e dominio a difesa e contropiede.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho visto che passato dal suo calcio di possesso e di dominio fatto di un tocco a un calcio quasi difesa e contropiede per sfruttare quelle che erano le caratteristiche della Lazio.",
+          "start_sec": 118.719,
+          "end_sec": 150.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "stile di gioco",
+        "Lazio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lazio",
+      "position": "La società della Lazio è giudicata un disastro a livello gestionale.",
+      "polarity": "negative",
+      "claim_id": "48deb4a0-60fe-4a01-b14a-8bbd5a436ab2",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La società della Lazio è giudicata un disastro a livello gestionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio a livello societario, insomma, un disastro",
+          "start_sec": 118.719,
+          "end_sec": 150.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "società",
+        "gestione",
+        "Lazio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatori in generale",
+      "position": "Tutti gli allenatori hanno avuto difficoltà in questa stagione.",
+      "polarity": "neutral",
+      "claim_id": "1ffa7a36-6489-4f77-b950-1a1e9d289ab8",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s3",
+      "target_entity": "allenatori in generale",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tutti gli allenatori hanno avuto difficoltà in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo analizzato un po' tutti gli allenatori nella loro capacità di adattarsi alle difficoltà, perché le difficoltà le hanno avute un po' tutti",
+          "start_sec": 148.4,
+          "end_sec": 179.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "difficoltà"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe non valutare allenatori molto diversi tra loro per la futura guida tecnica.",
+      "polarity": "neutral",
+      "claim_id": "ffbc25a2-3d04-4ce7-b0a9-07e3c2a629d3",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli potrebbe non valutare allenatori molto diversi tra loro per la futura guida tecnica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io voglio sperare che il Napoli non stia valutando quattro profili così diversi",
+          "start_sec": 177.92,
+          "end_sec": 250.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Non è ancora ufficiale che Conte abbia lasciato la squadra.",
+      "polarity": "neutral",
+      "claim_id": "d3789b2d-93ab-44f6-965b-01adc3666813",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non è ancora ufficiale che Conte abbia lasciato la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come se Conte se ne fosse già andato, non è così",
+          "start_sec": 0.08,
+          "end_sec": 43.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Sarri",
+      "position": "Il nome di Sarri viene nuovamente fatto nel dibattito sul prossimo allenatore del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "89bb90e1-20a3-4610-a12f-82aa9fa5a778",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s0",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il nome di Sarri viene nuovamente fatto nel dibattito sul prossimo allenatore del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si rifà il nome di Sarry",
+          "start_sec": 0.08,
+          "end_sec": 43.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas ha avuto un ruolo sul Play nella partita contro la Lazio.",
+      "polarity": "neutral",
+      "claim_id": "bdfa750d-14a6-4b81-af38-3d8bf25af7a0",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas ha avuto un ruolo sul Play nella partita contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Elmas sul Play in quella partita là",
+          "start_sec": 40.84,
+          "end_sec": 121.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sard",
+      "position": "Sard ha allenato la Lazio implementando un gioco di contropiede basato sulle caratteristiche della squadra.",
+      "polarity": "neutral",
+      "claim_id": "998a99c2-5091-4cf1-8266-beac11929ed8",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s2",
+      "target_entity": "Sard",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sard ha allenato la Lazio implementando un gioco di contropiede basato sulle caratteristiche della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella era la prima Lazio di Sard",
+          "start_sec": 118.719,
+          "end_sec": 150.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tattica",
+        "Lazio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarri",
+      "position": "Sarri ha ricevuto un alibi pesante nella stagione in corso.",
+      "polarity": "negative",
+      "claim_id": "33dc1e1b-92d5-4ac0-8215-0f47a33a0a39",
+      "video_id": "ErU9-HM5bWM",
+      "segment_id": "s3",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha ricevuto un alibi pesante nella stagione in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno dato un alibi a Sarry pesantissimo",
+          "start_sec": 148.4,
+          "end_sec": 179.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "alibi"
+      ]
+    }
+  ]
+}

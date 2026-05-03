@@ -1,0 +1,410 @@
+{
+  "video_id": "Wn4g76tTXcE",
+  "analyzed_at": "2026-04-25T11:06:07.122385+00:00",
+  "metadata": {
+    "title": "TMW News: Lazio, colpo finale. Juventus, obiettivo secondo posto",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'analisi della situazione della Lazio in Coppa Italia, evidenziando la vittoria ai rigori contro l'Atalanta e la sfida imminente contro l'Inter in finale. L'autore, attraverso l'intervento di Luigi Garzia, sostiene che la Lazio ha meritato il passaggio del turno e potrebbe riscattare una stagione finora deludente vincendo il trofeo, anche grazie al vantaggio di giocare la finale a Roma. Viene inoltre sottolineato il ritorno della scuola italiana dei portieri e il rilancio di Romagnoli come punto di forza difensivo della Lazio, mentre l'Inter resta favorita nonostante ",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "coppa italia",
+      "relevance": "medium"
+    },
+    {
+      "name": "ritiro estivo",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "impatto sociale",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Ghila",
+      "position": "Ghila è destinato a diventare uomo mercato nell'estate 2026.",
+      "polarity": "positive",
+      "claim_id": "8e702b9b-be45-4d2a-aa07-58c41205c9d4",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s2",
+      "target_entity": "Ghila",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Ghila è destinato a diventare uomo mercato nell'estate 2026.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi parlando della difesa, c'è un Ghila che è destinato a diventare uomo mercato quest'estate",
+          "start_sec": 217.439,
+          "end_sec": 332.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha meritato la vittoria contro l'Atalanta ai calci di rigore in Coppa Italia.",
+      "polarity": "positive",
+      "claim_id": "56dba813-ea02-4988-9865-f2aa22de01b9",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha meritato la vittoria contro l'Atalanta ai calci di rigore in Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi alla fine tutto sommato la Lazio ha meritato, anche perché loro sono stati bravi, soprattutto quel ragazzo lì in porta ha fatto la differenza",
+          "start_sec": 12.759,
+          "end_sec": 111.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "vittoria",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è favorita per la conquista del trofeo della Coppa Italia.",
+      "polarity": "positive",
+      "claim_id": "7e42a1db-0de9-4057-863a-1ceb88d9d9f9",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è favorita per la conquista del trofeo della Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter è assolutamente favorita per la conquista di questo trofeo",
+          "start_sec": 12.759,
+          "end_sec": 111.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "favorita",
+        "trofeo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "Se la Lazio dovesse vincere contro l'Inter in finale, potrebbe risistemare la sua stagione.",
+      "polarity": "positive",
+      "claim_id": "fbaa370d-2d53-4881-a258-1c23a319ede1",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se la Lazio dovesse vincere contro l'Inter in finale, potrebbe risistemare la sua stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dovesse riuscire a compiere l'impresa di vincere potrebbe risistemare la propria stagione",
+          "start_sec": 12.759,
+          "end_sec": 111.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "finale",
+        "stampa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha un piccolo vantaggio perché la finale sarà a Roma, casa loro.",
+      "polarity": "positive",
+      "claim_id": "888b1b2a-24f6-483c-b960-b4d2ebf970dd",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha un piccolo vantaggio perché la finale sarà a Roma, casa loro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la finale sarà sarà a Roma, quindi un piccolo vantaggio la Lazio ce l'ha",
+          "start_sec": 109.04,
+          "end_sec": 220.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "vantaggio",
+        "finale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter vista contro il Como sembra in difficoltà nonostante sia la favorita.",
+      "polarity": "negative",
+      "claim_id": "e7db53f7-917d-4a2a-a4bd-126a49edc7d3",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter vista contro il Como sembra in difficoltà nonostante sia la favorita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se l'Inter è quella vista con il Como e la la vedo dura perché comunque eh è la favorita",
+          "start_sec": 109.04,
+          "end_sec": 220.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "previsione",
+        "difficoltà"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Motta",
+      "position": "Sta tornando la grande scuola italiana dei portieri grazie a Motta.",
+      "polarity": "positive",
+      "claim_id": "9ae47b76-5fb0-465a-a979-80e54e08f99b",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s1",
+      "target_entity": "Motta",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sta tornando la grande scuola italiana dei portieri grazie a Motta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta tornando la vecchia grande scuola dei nostri portieri",
+          "start_sec": 109.04,
+          "end_sec": 220.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "scuola",
+        "italia"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Romagnoli",
+      "position": "Romagnoli è tornato a essere un punto di forza della Lazio da gennaio.",
+      "polarity": "positive",
+      "claim_id": "b5d86d5e-1e85-48f3-8d0c-e04bfb315b21",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s1",
+      "target_entity": "Romagnoli",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Romagnoli è tornato a essere un punto di forza della Lazio da gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Romagnoli è tornato ad essere un punto di forza della Lazio a gennaio",
+          "start_sec": 109.04,
+          "end_sec": 220.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "lazio",
+        "punto di forza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "difensore di Sarri",
+      "position": "Il difensore è il punto di riferimento assoluto per Sarri e guida la difesa.",
+      "polarity": "positive",
+      "claim_id": "6f587352-b868-4bab-afea-5acbf89d0c9d",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s2",
+      "target_entity": "difensore di Sarri",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il difensore è il punto di riferimento assoluto per Sarri e guida la difesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è rimasto e si è dimostrato comunque di essere uno dei migliori difensori italiani e diciamo che il punto di riferimento è in assoluto per eh per Sarri perché è quello che veramente che guida la difesa",
+          "start_sec": 217.439,
+          "end_sec": 332.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difensore",
+        "prestazione",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Ghila",
+      "position": "Ghila è considerato il difensore più forte nel campionato italiano in questo momento.",
+      "polarity": "positive",
+      "claim_id": "e4174a62-acec-41dc-b9ca-71c161053418",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s2",
+      "target_entity": "Ghila",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Ghila è considerato il difensore più forte nel campionato italiano in questo momento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vi posso assicurare almeno e da quello che vedo io è il difensore più forte che in questo momento c'è in Italia",
+          "start_sec": 217.439,
+          "end_sec": 332.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli ha avuto la peggior partita della stagione con un calo fisico e psicologico contro la Lazio.",
+      "polarity": "negative",
+      "claim_id": "3f70ebc2-88df-46b2-821a-46f6476b5b55",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha avuto la peggior partita della stagione con un calo fisico e psicologico contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata probabilmente la peggior partita della stagione, anche un calo oltre che fisico anche psicologico",
+          "start_sec": 217.439,
+          "end_sec": 332.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta era inizialmente considerata favorita nella sfida di Coppa Italia contro la Lazio.",
+      "polarity": "neutral",
+      "claim_id": "236bb3b4-d84e-4159-8317-89a3385ff972",
+      "video_id": "Wn4g76tTXcE",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta era inizialmente considerata favorita nella sfida di Coppa Italia contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta sembrava essere favorita",
+          "start_sec": 12.759,
+          "end_sec": 111.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "favorevole"
+      ]
+    }
+  ]
+}

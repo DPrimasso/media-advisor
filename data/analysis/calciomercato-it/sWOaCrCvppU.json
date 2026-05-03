@@ -1,0 +1,74 @@
+{
+  "video_id": "sWOaCrCvppU",
+  "analyzed_at": "2026-05-02T08:08:54.402484+00:00",
+  "metadata": {
+    "title": "L'ITALIA ANDRA' AI MONDIALI ? Ecco le ultimissime! #mondiali2026 #italia ripescata #italia",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video affronta il tema della possibile partecipazione dell'Italia ai Mondiali 2026, con un focus sul recente annuncio del presidente FIFA Gian Infantino riguardo alla presenza dell'Iran nel torneo. L'autore sottolinea come un caso diplomatico in corso stia però mettendo in dubbio la conferma della partecipazione iraniana, creando incertezza sull'organizzazione del Mondiale. La posizione principale suggerisce che, a causa di queste tensioni, la situazione potrebbe evolversi e influenzare anche le sorti delle altre nazionali, inclusa l'Italia, che potrebbe beneficiare di un eventuale ripescag",
+  "topics": [
+    {
+      "name": "mondiali",
+      "relevance": "high"
+    },
+    {
+      "name": "politica",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "europe",
+      "subject": "Iran",
+      "position": "L'Iran è stato annunciato come partecipante ai Mondiali da Gian Infantino.",
+      "polarity": "positive",
+      "claim_id": "4a042412-f462-403d-b87a-d4c3533a7d50",
+      "video_id": "sWOaCrCvppU",
+      "segment_id": "s0",
+      "target_entity": "Iran",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Iran è stato annunciato come partecipante ai Mondiali da Gian Infantino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il presidente della FIFA, Gian Infantino, al congresso di Vancouver ha annunciato per l'ennesima volta che l'Iran parteciperà al Mondiale.",
+          "start_sec": 0.12,
+          "end_sec": 11.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "caso diplomatico",
+      "position": "Un caso diplomatico mette in discussione la partecipazione dell'Iran ai Mondiali.",
+      "polarity": "negative",
+      "claim_id": "65ad6ecc-1c6e-400d-ab7f-cd3cfd2b6642",
+      "video_id": "sWOaCrCvppU",
+      "segment_id": "s0",
+      "target_entity": "caso diplomatico",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Un caso diplomatico mette in discussione la partecipazione dell'Iran ai Mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma scoppia un caso diplomatico che mette tutto in discussione.",
+          "start_sec": 0.12,
+          "end_sec": 11.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

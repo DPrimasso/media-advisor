@@ -1,0 +1,409 @@
+{
+  "video_id": "3epc0wZIcUA",
+  "analyzed_at": "2026-04-25T10:47:50.039436+00:00",
+  "metadata": {
+    "title": "🚨 LEWA, BLITZ CONFERMATO! INTER: 15 MILIONI, COLPO SICURO E FAKE NEWS DUMFRIES! MASSARA E GASP…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra principalmente sulle recenti novità nella gestione della Roma, con l'addio ufficiale a Claudio Ranieri, che ha interrotto un rapporto ormai insanabile con il club. L'autore sottolinea come la Roma stia puntando con decisione su Giampiero Gasperini, confermato ufficialmente come guida tecnica del progetto, mentre la posizione di Ricky Massara appare sempre più incerta. Inoltre, viene confermato un imminente interesse per Robert Lewandowski, con il suo procuratore pronto a trattare in Italia nei prossimi giorni, segnalando possibili sviluppi importanti su",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "offerta",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "negoziazione",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "La Roma ha ufficialmente annunciato l'addio a Claudio Ranieri.",
+      "polarity": "neutral",
+      "claim_id": "0ff144d6-12e3-4beb-b72e-71b38b88a4d1",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma ha ufficialmente annunciato l'addio a Claudio Ranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la nota ufficiale del club che conferma l'addio a Claudio Ranieri",
+          "start_sec": 31.56,
+          "end_sec": 62.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "romano",
+        "roma"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri è passato dal ruolo di allenatore a sino advisor nella Roma.",
+      "polarity": "neutral",
+      "claim_id": "90cb2789-6d46-4d3e-94b9-36c8aed82ee4",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s1",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri è passato dal ruolo di allenatore a sino advisor nella Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prima da allenatore, adesso chiaramente Claudio Ranieri ricopriva il ruolo da sino advisor",
+          "start_sec": 31.56,
+          "end_sec": 62.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "allenatore",
+        "ruolo"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "La rottura tra Roma e Claudio Ranieri è insanabile e ha reso impossibile continuare insieme.",
+      "polarity": "negative",
+      "claim_id": "c385f432-de5c-49f9-a89f-aa937b4ea10d",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La rottura tra Roma e Claudio Ranieri è insanabile e ha reso impossibile continuare insieme.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la rottura c'è stata insanabile, impossibile continuare insieme",
+          "start_sec": 31.56,
+          "end_sec": 62.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "rottura",
+        "fine rapporto"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri e la Roma si sono separati con effetto immediato a causa di uno strappo enorme.",
+      "polarity": "negative",
+      "claim_id": "d89cce89-4faf-4a54-847b-9ad319d74352",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s2",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri e la Roma si sono separati con effetto immediato a causa di uno strappo enorme.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma e Claudio Ranieri si separano con effetto immediato. È finita, ripeto, tra Rieri e la Roma.",
+          "start_sec": 60.96,
+          "end_sec": 92.36000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "separazione",
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Giampiero Gasperini",
+      "position": "Gasperini ha commentato la situazione di Ricky Massara con la Roma.",
+      "polarity": "neutral",
+      "claim_id": "588a3456-9f5a-4a83-890d-5402b5583cf6",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s2",
+      "target_entity": "Giampiero Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha commentato la situazione di Ricky Massara con la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le parole oggi di Giampiero Gasperini a proposito di Ricky Massara",
+          "start_sec": 60.96,
+          "end_sec": 92.36000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "commento",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ricky Massara",
+      "position": "La direzione della collaborazione tra Massara e la Roma per il futuro appare complicata.",
+      "polarity": "negative",
+      "claim_id": "46faf3af-abf2-47e3-9c95-583b512f7be0",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s2",
+      "target_entity": "Ricky Massara",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La direzione della collaborazione tra Massara e la Roma per il futuro appare complicata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come non ci sia stato un allineamento nell'ultimo anno, direi che probabilmente fanno capire come la direzione del discorso Massara- Roma per il futuro sia sempre più complicata",
+          "start_sec": 60.96,
+          "end_sec": 92.36000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "collaborazione",
+        "leadership",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giampiero Gasperini",
+      "position": "La Roma conferma ufficialmente che Giampiero Gasperini guiderà il progetto della squadra.",
+      "polarity": "positive",
+      "claim_id": "0f945638-39ea-4f32-8572-61ca44a7ee0e",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s3",
+      "target_entity": "Giampiero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma conferma ufficialmente che Giampiero Gasperini guiderà il progetto della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il club insomma con una nota ufficiale formale a firma della famiglia Fritkin conferma come il progetto sarà guidato da Giampiero Gasperini",
+          "start_sec": 89.759,
+          "end_sec": 118.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giampiero Gasperini",
+      "position": "Roma mostra grande fiducia e importanza nel lavoro di Gasperini con questa conferma.",
+      "polarity": "positive",
+      "claim_id": "27e51a75-abf5-44df-8bfd-dd7db20a3b81",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s3",
+      "target_entity": "Giampiero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Roma mostra grande fiducia e importanza nel lavoro di Gasperini con questa conferma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È chiaramente una conferma molto importante, molto decisa per l'allenatore. Eh, è un segnale da parte della Roma di voler dare sempre più importanza a Gasperini, di credere nel lavoro a Gasperini",
+          "start_sec": 89.759,
+          "end_sec": 118.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiducia",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "La posizione di Claudio Ranieri nella Roma è a forte rischio.",
+      "polarity": "negative",
+      "claim_id": "56774962-9059-4c8a-89df-99fd8f3c3dea",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s3",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La posizione di Claudio Ranieri nella Roma è a forte rischio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'addio di Ranieri, la posizione a forte rischio di",
+          "start_sec": 89.759,
+          "end_sec": 118.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Giampiero Gasperini",
+      "position": "Gasperini è al centro delle decisioni della Roma in attesa di definire il suo ruolo e sostenerlo nel mercato estivo.",
+      "polarity": "positive",
+      "claim_id": "22fbe25f-a9e1-47b0-8e3d-7ef25020622b",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s4",
+      "target_entity": "Giampiero Gasperini",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini è al centro delle decisioni della Roma in attesa di definire il suo ruolo e sostenerlo nel mercato estivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Massara, le parole oggi di Gasperini su Massara, insomma, portano tutte una direzione di una Roma sempre più con Giampiero Gasperini al centro in attesa di chiarire chi sarà e poi riffiancarlo sul mercato estivo.",
+          "start_sec": 116.92,
+          "end_sec": 148.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "Il trasferimento di Robert Lewandowski sarà confermato a breve.",
+      "polarity": "positive",
+      "claim_id": "fe6187dc-4595-437f-ac58-3697d8892c8b",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s4",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il trasferimento di Robert Lewandowski sarà confermato a breve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questo video di oggi volevo confermare una notizia che ho dato qui la settimana scorsa perché è tutto assolutamente confermato e riguarda Robert Lewandowski, cioè che ci sarà molto presto, diciamo a breve giro, è",
+          "start_sec": 116.92,
+          "end_sec": 148.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Lewandowski",
+      "position": "Il procuratore di Lewandowski sarà in Italia nelle prossime settimane per questioni di mercato.",
+      "polarity": "neutral",
+      "claim_id": "d799f480-a8d7-4716-8ce3-8c78b7a04fa6",
+      "video_id": "3epc0wZIcUA",
+      "segment_id": "s5",
+      "target_entity": "Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il procuratore di Lewandowski sarà in Italia nelle prossime settimane per questioni di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il procuratore di Lewandowski sarà in Italia",
+          "start_sec": 146.44,
+          "end_sec": 176.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "procuratore",
+        "mercato",
+        "trasferimento"
+      ]
+    }
+  ]
+}

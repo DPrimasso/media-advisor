@@ -1,0 +1,411 @@
+{
+  "video_id": "IWjg6abSfc8",
+  "analyzed_at": "2026-04-25T11:26:38.077474+00:00",
+  "metadata": {
+    "title": "IN EUROPA SIAMO RIDICOLI. POLIZZA SPALLETTI A UNA CONDIZIONE. TRE PARTITE-VERITÀ🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza la drammatica situazione del calcio italiano nelle competizioni europee, definendola \"ridicola\" e \"patetica\" a causa di prestazioni scadenti e errori tecnici gravi, come quelli del portiere e della difesa. L'autore sostiene che vincere Europa League o Conference ha senso solo se si arriva fino in fondo, mentre le attuali difficoltà riflettono un movimento in crisi, evidenziato da partite imbarazzanti come quella della Fiorentina, che ha giocato un primo tempo pessimo e solo un secondo tempo discreto. Pedullà conclude che, a meno di un cambiamento sostanzial",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "errore",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione europea",
+      "relevance": "medium"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "low"
+    },
+    {
+      "name": "europa",
+      "relevance": "low"
+    },
+    {
+      "name": "atteggiamento",
+      "relevance": "low"
+    },
+    {
+      "name": "salvezza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La squadra ha disputato solo 35 minuti decenti in una partita di 90 minuti più recupero.",
+      "polarity": "neutral",
+      "claim_id": "fab4bfe0-fbac-4dd7-b491-e67206cc9bae",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La squadra ha disputato solo 35 minuti decenti in una partita di 90 minuti più recupero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hai giocato 35 minuti decenti, ma le partite durano 90 minuti più recupero",
+          "start_sec": 66.56,
+          "end_sec": 109.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "performance",
+        "durata partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Europa League e Conference",
+      "position": "La vittoria in Europa League o Conference ha senso solo se arrivi fino in fondo e la vinci.",
+      "polarity": "negative",
+      "claim_id": "7d5cbe40-8c8b-4200-8848-d1f0a187cac7",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s0",
+      "target_entity": "Europa League e Conference",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria in Europa League o Conference ha senso solo se arrivi fino in fondo e la vinci.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con tutti il rispetto per Europa League e Conference, se arrivi fino in fondo e la vinci ha un senso",
+          "start_sec": 0.08,
+          "end_sec": 36.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "europa",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna ha segnato due gol iniziali su errori tecnici della squadra avversaria.",
+      "polarity": "negative",
+      "claim_id": "0150a7ea-f8d6-4eb2-8dc7-b386de1f0da1",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna ha segnato due gol iniziali su errori tecnici della squadra avversaria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i primi due gol che ha incassato il Bologna su errori di impostazione della linea e su errori di superficialità nei passaggi",
+          "start_sec": 33.52,
+          "end_sec": 69.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "gol subito",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina cercherà di vendere cara la pelle nella partita di ritorno a Birmingham.",
+      "polarity": "neutral",
+      "claim_id": "491277c9-a9b0-49ce-950f-9ad8bbb58ade",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Fiorentina cercherà di vendere cara la pelle nella partita di ritorno a Birmingham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Al ritorno saremo orgogliosi, cercheremo di vendere cara la pelle",
+          "start_sec": 66.56,
+          "end_sec": 109.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "performance",
+        "partita di ritorno"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Harrison",
+      "position": "Harrison ha commesso errori evidenti come quelli clamorosi di Carlo Sassi.",
+      "polarity": "negative",
+      "claim_id": "3cdba5e4-02af-4ee0-8c2a-26e43073d28c",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s3",
+      "target_entity": "Harrison",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Harrison ha commesso errori evidenti come quelli clamorosi di Carlo Sassi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Harrison mandava con l'amoviola di Carlo Sassi di una volta",
+          "start_sec": 106.04,
+          "end_sec": 145.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "prestazione",
+        "calciatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Crystal Palace",
+      "position": "Il Crystal Palace nel secondo tempo sembrava molto superiore con un terzo gol imbarazzante per l'avversario.",
+      "polarity": "negative",
+      "claim_id": "d53125c8-a2eb-4441-bb81-9d551438abba",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s4",
+      "target_entity": "Crystal Palace",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Crystal Palace nel secondo tempo sembrava molto superiore con un terzo gol imbarazzante per l'avversario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il secondo tempo fai qualcosa di decente perché peggio non avresti potuto e prendi un terzo gol imbarazzante. Cioè il Crystal Palace sembrava la squadra del pianeta",
+          "start_sec": 142.92,
+          "end_sec": 178.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol",
+        "secondo tempo"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Aston Villa",
+      "position": "L'Aston Villa doveva affrontare la partita con più umiltà e concentrazione tattica.",
+      "polarity": "negative",
+      "claim_id": "7d9bf41c-630f-406a-a789-11c4fb9317b4",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s4",
+      "target_entity": "Aston Villa",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Aston Villa doveva affrontare la partita con più umiltà e concentrazione tattica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e l'Aston Villa che ha sicuramente un mago dell'Europa League andava affron affrontato in un modo completamente diverso nell'umiltà della concentrazione",
+          "start_sec": 142.92,
+          "end_sec": 178.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "approccio",
+        "concentrazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia in Europa",
+      "position": "Il movimento calcistico italiano è in difficoltà in Europa.",
+      "polarity": "negative",
+      "claim_id": "b712edb0-3918-4254-8d78-1ad589e35a26",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s0",
+      "target_entity": "Italia in Europa",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il movimento calcistico italiano è in difficoltà in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "IN EUROPA SIAMO RIDICOLI",
+          "start_sec": 0.08,
+          "end_sec": 36.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "europa",
+        "media"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia (squadra nazionale)",
+      "position": "L'Italia è valutata come ridicola e patetica nelle competizioni europee.",
+      "polarity": "negative",
+      "claim_id": "44a480ba-9625-46fe-a510-85b5bc081e85",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s1",
+      "target_entity": "Italia (squadra nazionale)",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia è valutata come ridicola e patetica nelle competizioni europee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Europa siamo ridicoli, patetici",
+          "start_sec": 33.52,
+          "end_sec": 69.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "Europa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La prestazione dei singoli della Fiorentina è stata imbarazzante.",
+      "polarity": "negative",
+      "claim_id": "1970ee13-f6c2-4d66-8408-cede38183cda",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La prestazione dei singoli della Fiorentina è stata imbarazzante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prestazioni dei singoli imbarazzanti",
+          "start_sec": 106.04,
+          "end_sec": 145.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "performance individuale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Difesa Fiorentina",
+      "position": "La difesa della Fiorentina era mal impostata con errori clamorosi dei singoli.",
+      "polarity": "negative",
+      "claim_id": "4363f792-da77-4bfa-b66c-6f6d7a7ddfe4",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s3",
+      "target_entity": "Difesa Fiorentina",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La difesa della Fiorentina era mal impostata con errori clamorosi dei singoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "difesa mal impostata, errori dei singoli clamorosi",
+          "start_sec": 106.04,
+          "end_sec": 145.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "errore",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "portiere",
+      "position": "Il portiere ha commesso un errore importante uscendo a vuoto.",
+      "polarity": "negative",
+      "claim_id": "fab82bfb-93cf-4ba6-a836-c9c5432c02cf",
+      "video_id": "IWjg6abSfc8",
+      "segment_id": "s1",
+      "target_entity": "portiere",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il portiere ha commesso un errore importante uscendo a vuoto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si può pensare di essere decenti in Europa quando un portiere esce a vuoto",
+          "start_sec": 33.52,
+          "end_sec": 69.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "porta",
+        "prestazione"
+      ]
+    }
+  ]
+}

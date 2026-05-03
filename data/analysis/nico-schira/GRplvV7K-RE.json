@@ -1,0 +1,396 @@
+{
+  "video_id": "GRplvV7K-RE",
+  "analyzed_at": "2026-04-26T11:52:06.216796+00:00",
+  "metadata": {
+    "title": "MILAN, TUTTA LA VERITÀ SUL FUTURO DI ALLEGRI. JUVE, TANTI CASI DA RISOLVERE. TRE CLUB SU ITALIANO…",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-15T23:32:46+00:00"
+  },
+  "summary": "Il video analizza le recenti partite di Champions League, focalizzandosi sul match spettacolare tra Bayern Monaco e Real Madrid, definito dall'autore come un confronto ad altissimo livello e intensità, con il Bayern che ha meritato il passaggio del turno. Viene inoltre evidenziata la semifinale tra Bayern e Paris Saint-Germain come una doppia sfida di altissimo valore tecnico e tattico. L'autore esprime anche un pronostico favorevole all'Atletico Madrid contro l'Arsenal, sottolineando le difficoltà fisiche degli inglesi. Infine, si accenna al mercato dirigenziale italiano, con possibili movime",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione europea",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "low"
+    },
+    {
+      "name": "stipendio",
+      "relevance": "low"
+    },
+    {
+      "name": "partita",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Arsenal Sporting",
+      "position": "La partita Arsenal Sporting è stata un 0-0 noiosa.",
+      "polarity": "negative",
+      "claim_id": "73954120-3d91-4f13-9bd9-ae71e4e4e0c6",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s0",
+      "target_entity": "Arsenal Sporting",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Arsenal Sporting è stata un 0-0 noiosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Arsenal Sporting che è stato uno 0-0 da Sbadilli",
+          "start_sec": 0.44,
+          "end_sec": 34.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "Real Madrid ha vinto 3-2 contro Bayern Monaco in una partita spettacolare.",
+      "polarity": "positive",
+      "claim_id": "34cfd959-0590-4a02-9987-9cb1dbeccb9a",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s0",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Real Madrid ha vinto 3-2 contro Bayern Monaco in una partita spettacolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Grande spettacolo, 3-2 per il Real",
+          "start_sec": 0.44,
+          "end_sec": 34.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "risultato",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern Monaco",
+      "position": "Il primo tempo tra Bayern Monaco e Real Madrid è stato a ritmi vertiginosi e ad altissimo livello.",
+      "polarity": "positive",
+      "claim_id": "28916b46-ebfc-49f6-86e8-2e253c279462",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s0",
+      "target_entity": "Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il primo tempo tra Bayern Monaco e Real Madrid è stato a ritmi vertiginosi e ad altissimo livello.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partita folle, primo tempo spaziale a ritmi vertiginosi, non c'è stato un attimo di respiro. 47 minuti recupero compreso ad altissimo livello, ad alta intensità",
+          "start_sec": 0.44,
+          "end_sec": 34.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "intensità",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Bayern è passato il turno dopo la doppia sfida con Real Madrid.",
+      "polarity": "positive",
+      "claim_id": "50f40da4-65b6-4b57-b26d-455718d9f864",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s1",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bayern è passato il turno dopo la doppia sfida con Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi nel recupero la magia di Olise 4-3 Bayern. Nella doppia sfida direi il passaggio del turno meritato",
+          "start_sec": 32.84,
+          "end_sec": 60.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal ha dominato la fase a gironi di Champions con otto clean sheet su dodici partite.",
+      "polarity": "positive",
+      "claim_id": "c71d164c-2fe1-4263-bf70-3b7ad0fcc9eb",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s2",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal ha dominato la fase a gironi di Champions con otto clean sheet su dodici partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Arsenal che ha dominato la League phase che in otto partite su 12 ha fatto clean sheet in Champions",
+          "start_sec": 58.039,
+          "end_sec": 86.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "champions"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal sembra in difficoltà fisica e rischia di perdere la Premier League.",
+      "polarity": "negative",
+      "claim_id": "1b922f62-20e0-4cb6-8027-5d04fa020c8b",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s2",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal sembra in difficoltà fisica e rischia di perdere la Premier League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma sembra un po' sulle gambe, rischia di perdere la Premier",
+          "start_sec": 58.039,
+          "end_sec": 86.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "forma fisica",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico Madrid è quarto in campionato e senza altri obiettivi stagionali immediati.",
+      "polarity": "neutral",
+      "claim_id": "75c06ab8-e300-44f0-b19e-cef2c5767926",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s2",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid è quarto in campionato e senza altri obiettivi stagionali immediati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atletico Madrid che invece è quarto in campionato, non ha obiettivi",
+          "start_sec": 58.039,
+          "end_sec": 86.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "posizione in campionato",
+        "obiettivi stagionali"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico",
+      "position": "L'Atletico è visto come una squadra probabile per arrivare in finale di Champions.",
+      "polarity": "positive",
+      "claim_id": "5b763dfa-9ac0-4d45-9d1e-d7587a4a4c6a",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s3",
+      "target_entity": "Atletico",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Atletico è visto come una squadra probabile per arrivare in finale di Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse rischierei Pier Atletico. Atletico lo vedo in finale",
+          "start_sec": 83.119,
+          "end_sec": 116.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "previsione",
+        "finale"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Cristiano Giuntoli",
+      "position": "Cristiano Giuntoli ha offerte in Inghilterra e dal Marsiglia.",
+      "polarity": "positive",
+      "claim_id": "95f44fd6-1b74-484b-868e-41f1467925c6",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s4",
+      "target_entity": "Cristiano Giuntoli",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cristiano Giuntoli ha offerte in Inghilterra e dal Marsiglia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giuntoli che si ha delle offerte in Inghilterra, si parla molti colleghi hanno parlato anche del Marsiglia",
+          "start_sec": 113.759,
+          "end_sec": 137.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico Madrid potrebbe essere una mina vagante nella Champions League.",
+      "polarity": "neutral",
+      "claim_id": "2ddfd423-ea13-462f-a617-d3cb6d054f4f",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s2",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Atletico Madrid potrebbe essere una mina vagante nella Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una mina vagante",
+          "start_sec": 58.039,
+          "end_sec": 86.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Il Bayern sta avendo una stagione eccezionale.",
+      "polarity": "positive",
+      "claim_id": "689ecd9a-26f4-490b-aa43-f48b7dc8579d",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s3",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern sta avendo una stagione eccezionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo Bayern quest'anno sta facendo cose veramente eccezionali",
+          "start_sec": 83.119,
+          "end_sec": 116.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Cristiano Giuntoli",
+      "position": "Cristiano Giuntoli ha rifiutato un club arabo molto importante.",
+      "polarity": "positive",
+      "claim_id": "6bdbb8cc-ae74-4bdc-bb3e-f3fa5809e238",
+      "video_id": "GRplvV7K-RE",
+      "segment_id": "s4",
+      "target_entity": "Cristiano Giuntoli",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cristiano Giuntoli ha rifiutato un club arabo molto importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha rifiutato un club arabo molto importante",
+          "start_sec": 113.759,
+          "end_sec": 137.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

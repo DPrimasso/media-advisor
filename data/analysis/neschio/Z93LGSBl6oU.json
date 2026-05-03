@@ -1,0 +1,399 @@
+{
+  "video_id": "Z93LGSBl6oU",
+  "analyzed_at": "2026-04-27T07:10:28.509555+00:00",
+  "metadata": {
+    "title": "HA PARLATO MAROTTA‼️ TORINO-INTER 2-2",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta la partita Torino-Inter terminata 2-2, focalizzandosi sulla rimonta del Torino e sulla stagione eccezionale di Federico Di Marco. L’autore sottolinea come il Torino, rispetto all’inizio del campionato, sia diventato una squadra più organizzata e capace di segnare gol di alta qualità, come quello decisivo di Simeone. Viene inoltre evidenziato che, a livelli così alti, non si può mai mollare la presa negli ultimi minuti di gioco, come dimostrato dall’Inter che ha perso una vittoria ormai quasi certa. Infine, si dà rilievo all’intervento del presidente Marotta, ritenuto una figu",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "medium"
+    },
+    {
+      "name": "risultato",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "organizzazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Torino scored an extreme quality goal to make it 2-1.",
+      "polarity": "positive",
+      "claim_id": "063db8fe-d530-4602-ac27-b1086f8d0016",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s1",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Torino scored an extreme quality goal to make it 2-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "if you see the 2-1 of Torino, it's an extreme goal, of extreme quality",
+          "start_sec": 42.04,
+          "end_sec": 77.02,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "qualità",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Torino-Inter match",
+      "position": "The Torino-Inter game ended in a 2-2 draw.",
+      "polarity": "neutral",
+      "claim_id": "1ae9a80d-c06a-43bc-a501-b09d7e432a97",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s2",
+      "target_entity": "Torino-Inter match",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The Torino-Inter game ended in a 2-2 draw.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the game ends 2 -2",
+          "start_sec": 77.02,
+          "end_sec": 128.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Torino made a comeback in a game that seemed won by Inter.",
+      "polarity": "neutral",
+      "claim_id": "26e81c81-2a32-43a2-8eea-221cbdbc6279",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s0",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Torino made a comeback in a game that seemed won by Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "let's start from the comeback of Torino, in a game that seemed practically now concretized towards the victory in the Nerazzurri",
+          "start_sec": 0.46,
+          "end_sec": 42.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "risultato",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Torino is still an organized team compared to earlier in the season.",
+      "polarity": "positive",
+      "claim_id": "cc183f58-aa06-4a3a-92d6-05055259b94d",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s1",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Torino is still an organized team compared to earlier in the season.",
+      "evidence_quotes": [
+        {
+          "quote_text": "this Torino, which compared to the boring Torino of the first part of the season, is still an organized team",
+          "start_sec": 42.04,
+          "end_sec": 77.02,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "organizzazione",
+        "prestazione",
+        "Serie A"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Serie A",
+      "position": "You can't afford to let go of the ball at the end of Serie A matches at this level.",
+      "polarity": "neutral",
+      "claim_id": "5446718f-37de-4418-88a5-369b2b7415c4",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s1",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "You can't afford to let go of the ball at the end of Serie A matches at this level.",
+      "evidence_quotes": [
+        {
+          "quote_text": "you can't let go of the thorn, especially when 20 minutes are left, and especially with this Torino",
+          "start_sec": 42.04,
+          "end_sec": 77.02,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Serie A",
+        "gestione palla",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Marotta",
+      "position": "Marotta is recognized as a necessary leader despite some seeing him as an adversary.",
+      "polarity": "positive",
+      "claim_id": "f643e827-64d6-4d69-88d8-9099ccf85758",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s5",
+      "target_entity": "Marotta",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Marotta is recognized as a necessary leader despite some seeing him as an adversary.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I always go random, I start from Marotta, that under this aspect, I must say that it is necessary to have them as Marotta",
+          "start_sec": 204.52,
+          "end_sec": 242.94,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Marotta",
+      "position": "Marotta spoke publicly after the event instead of others who might not speak.",
+      "polarity": "neutral",
+      "claim_id": "64f56255-c4f6-4244-94bf-03cbbd5c197c",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s5",
+      "target_entity": "Marotta",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marotta spoke publicly after the event instead of others who might not speak.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the one who goes to speak, after such a thing, is Marotta",
+          "start_sec": 204.52,
+          "end_sec": 242.94,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Marotta",
+      "position": "Marotta states that the club has always acted with utmost correctness regarding referees.",
+      "polarity": "neutral",
+      "claim_id": "f215bbf6-3658-4336-8125-de5def24740f",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s6",
+      "target_entity": "Marotta",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marotta states that the club has always acted with utmost correctness regarding referees.",
+      "evidence_quotes": [
+        {
+          "quote_text": "we know we must have acted in the utmost correctness, and this must reassure everyone",
+          "start_sec": 242.94,
+          "end_sec": 292.14000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "refereeing",
+        "integrity",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Marotta",
+      "position": "Marotta mentioned a penalty not given against Roma last year as a badly sanctioned episode to reverse the situation.",
+      "polarity": "neutral",
+      "claim_id": "b1e64e25-7f1e-4e63-bddc-7948f54d43d5",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s6",
+      "target_entity": "Marotta",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marotta mentioned a penalty not given against Roma last year as a badly sanctioned episode to reverse the situation.",
+      "evidence_quotes": [
+        {
+          "quote_text": "last year we had some adverse decisions, so I also quote the episode with the penalty not given against Rome, a penalty that in fact was clarified as badly sanctioned episode",
+          "start_sec": 242.94,
+          "end_sec": 292.14000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "refereeing",
+        "controversy"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Simeone",
+      "position": "Simeone's touch influenced the game situation.",
+      "polarity": "neutral",
+      "claim_id": "345843d3-55b8-4ec3-9b78-37ec05991699",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s2",
+      "target_entity": "Simeone",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Simeone's touch influenced the game situation.",
+      "evidence_quotes": [
+        {
+          "quote_text": "with the touch of Simeone",
+          "start_sec": 77.02,
+          "end_sec": 128.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Torino struggled to attack effectively afterwards.",
+      "polarity": "negative",
+      "claim_id": "32d5a047-6bad-4899-b6f1-c1df4378ebc0",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s2",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Torino struggled to attack effectively afterwards.",
+      "evidence_quotes": [
+        {
+          "quote_text": "then you struggle to attack the thorn again",
+          "start_sec": 77.02,
+          "end_sec": 128.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "attacco",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Kivu",
+      "position": "Marotta did not send Kivu to speak.",
+      "polarity": "neutral",
+      "claim_id": "56b39f4e-13da-4dfb-aac5-8b164b3fb03b",
+      "video_id": "Z93LGSBl6oU",
+      "segment_id": "s5",
+      "target_entity": "Kivu",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marotta did not send Kivu to speak.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it is not that he sends Kivu",
+          "start_sec": 204.52,
+          "end_sec": 242.94,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

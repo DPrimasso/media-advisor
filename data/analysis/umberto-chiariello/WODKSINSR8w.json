@@ -1,0 +1,382 @@
+{
+  "video_id": "WODKSINSR8w",
+  "analyzed_at": "2026-04-25T10:52:00.266771+00:00",
+  "metadata": {
+    "title": "A PRANZO CON CHIARIELLO 03 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": "2026-04-03T13:39:40+00:00"
+  },
+  "summary": "Il video di \"A pranzo con Chiariello\" su Radio CRC affronta principalmente la situazione calcistica del Napoli, con un focus sulle strategie di mercato e la leadership tecnica. L'autore sottolinea la necessità per il Napoli di rinforzare la rosa con almeno due acquisti chiave, un esterno destro e un centrocampista, per mantenere competitività. Viene inoltre evidenziata la complessità del rapporto con l'allenatore Conte, il cui stile ha portato risultati efficaci ma costosi, e si ipotizza che la squadra possa adottare un modulo 3-4-1 con giocatori come De Bruin e Mctomini, quest'ultimo rivelato",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "morale",
+      "relevance": "medium"
+    },
+    {
+      "name": "rosa",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "settore giovanile",
+      "relevance": "low"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Conte",
+      "position": "Conte probabilmente utilizzerà il 3-4-1 con De Bruin e Mctomini dietro la punta.",
+      "polarity": "positive",
+      "claim_id": "53fbd524-bfe5-4a2c-be6a-8b4384017981",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Conte probabilmente utilizzerà il 3-4-1 con De Bruin e Mctomini dietro la punta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi mi sorprenderei se il Napoli non parte 341 con De Bruino e McDomini dietro la punta",
+          "start_sec": 588.839,
+          "end_sec": 1092.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "formazione",
+        "lineup_prediction"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Silvio Baldini",
+      "position": "Silvio Baldini ha avuto problemi di gestione e comportamento sulla linea laterale in passato.",
+      "polarity": "negative",
+      "claim_id": "64545199-a8b2-47a0-8e9f-fa5cf5c9798b",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s2",
+      "target_entity": "Silvio Baldini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Silvio Baldini ha avuto problemi di gestione e comportamento sulla linea laterale in passato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vicende che hanno avuto a che fare col suo essere istrionico e nel non sapersi gestire eh sulla linea laterale",
+          "start_sec": 1089.679,
+          "end_sec": 1640.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "De Laurentis",
+      "position": "De Laurentis non derogherà dalle sue idee riguardo alla gestione della squadra.",
+      "polarity": "neutral",
+      "claim_id": "fc21960d-40f9-4836-8803-8e26ce6b18e2",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s1",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis non derogherà dalle sue idee riguardo alla gestione della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non credo che De Laurentis deroghi dalle sue idee.",
+          "start_sec": 588.839,
+          "end_sec": 1092.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "mentalità",
+        "dirigenza"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte potrebbe avere difficoltà a trovare un club di alto livello che possa permettersi il suo ingaggio.",
+      "polarity": "neutral",
+      "claim_id": "5304ebd5-f60f-4575-ab8e-d7f2308ac57e",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte potrebbe avere difficoltà a trovare un club di alto livello che possa permettersi il suo ingaggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se non dovesse restare a Napoli, Antonio Conte in questo momento secondo me fa molta fatica a ricollocarsi, nel senso che ovviamente essendo un allenatore di alto livello deve andare in un club di alto livello, ma i club di alto livello che si possono permettere l'ingaggio di Antonio Conte sono tutti club che puntano logicamente a fare bene in Champions",
+          "start_sec": 1.959,
+          "end_sec": 591.4399999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Negli ultimi anni la Champions è stata il tallone d'Achille nel curriculum di Conte.",
+      "polarity": "neutral",
+      "claim_id": "78168695-45ea-4269-b282-9a59fac5d374",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Negli ultimi anni la Champions è stata il tallone d'Achille nel curriculum di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poiché probabilmente il curriculum di Conte racconta che invece negli ultimi anni la Champions è stata il suo Dallone d'Achille.",
+          "start_sec": 1.959,
+          "end_sec": 591.4399999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Il legame con Conte va mantenuto perché ha prodotto risultati antieconomici ma efficaci per il Napoli.",
+      "polarity": "positive",
+      "claim_id": "26d04c99-433c-4a94-ba26-36d904f2f20b",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "PROBABLE",
+      "claim_text": "Il legame con Conte va mantenuto perché ha prodotto risultati antieconomici ma efficaci per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aggiungo che secondo me il biegno di Conte va tenuto stretto perché ha rappresentato per la prima volta qualcosa che forse nel Napoli di De Laurentis non era avvenuto, cioè qualcosa di antieconomico che però poi ha prodotto risultati.",
+          "start_sec": 588.839,
+          "end_sec": 1092.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "contratto",
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Silvio Baldini",
+      "position": "Silvio Baldini è considerato un allenatore con buone idee calcistiche nonostante i suoi difetti caratteriali.",
+      "polarity": "positive",
+      "claim_id": "6a86e328-c280-4ccc-a5be-55c1845afc46",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s2",
+      "target_entity": "Silvio Baldini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Silvio Baldini è considerato un allenatore con buone idee calcistiche nonostante i suoi difetti caratteriali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Silvio Baldini... uno che eh quanto idee di calcio secondo me non è secondo a nessuno.",
+          "start_sec": 1089.679,
+          "end_sec": 1640.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte è sempre ritenuto il nome giusto per la nazionale italiana.",
+      "polarity": "positive",
+      "claim_id": "9f389a6f-8a4b-4187-91a9-68436d4b43e1",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte è sempre ritenuto il nome giusto per la nazionale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però secondo me Conte per la nazionale è sempre il nome giusto",
+          "start_sec": 1089.679,
+          "end_sec": 1640.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è in confusione e può rischiare di mollare la leadership nella corsa allo scudetto.",
+      "polarity": "negative",
+      "claim_id": "a57ee103-5567-43d6-a3a0-15b91820d569",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter è in confusione e può rischiare di mollare la leadership nella corsa allo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter è in confusione, che l'Inter può davvero mollare, che l'Inter è in grande difficoltà",
+          "start_sec": 1089.679,
+          "end_sec": 1640.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Lukaku",
+      "position": "Lukaku è riapparso in un video social per fare auguri di buon compleanno a un amichetto del figlio.",
+      "polarity": "positive",
+      "claim_id": "831d3d10-8890-4729-836b-e6025e360c50",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s0",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è riapparso in un video social per fare auguri di buon compleanno a un amichetto del figlio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è un video di Lukaku che ha fatto un video sui social per fare auguri di buon compleanno ad un amichetto del figlio, se non sbaglio.",
+          "start_sec": 1.959,
+          "end_sec": 591.4399999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli dovrebbe prendere almeno due giocatori importanti, un esterno destro forte e un centrocampista importante, per l'anno prossimo.",
+      "polarity": "positive",
+      "claim_id": "da807e84-a4f3-4023-96df-5e2214cf858f",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Il Napoli dovrebbe prendere almeno due giocatori importanti, un esterno destro forte e un centrocampista importante, per l'anno prossimo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli dovrebbe prendere perlomeno due giocatori importanti, un esterno a destra molto forte, se fosse palestra costerebbe una cifra blu e un centrocampista importante",
+          "start_sec": 1.959,
+          "end_sec": 591.4399999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Mctomini ha sorpreso con una prestazione a tutto campo dimostrando di saper fare bene entrambe le fasi.",
+      "polarity": "positive",
+      "claim_id": "55b4914c-099f-4711-a8c2-8327701a80a7",
+      "video_id": "WODKSINSR8w",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mctomini ha sorpreso con una prestazione a tutto campo dimostrando di saper fare bene entrambe le fasi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A me ha sorpreso Mctomini a tutto campo così, cioè non pensavo fosse in grado di fare così bene le due fasi",
+          "start_sec": 588.839,
+          "end_sec": 1092.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "fasi"
+      ]
+    }
+  ]
+}

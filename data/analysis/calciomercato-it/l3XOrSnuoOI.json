@@ -1,0 +1,52 @@
+{
+  "video_id": "l3XOrSnuoOI",
+  "analyzed_at": "2026-05-02T08:08:48.926390+00:00",
+  "metadata": {
+    "title": "Venezia in Serie A festeggiamenti Tifosi e Tifose! #venezia #seriea",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video celebra il ritorno del Venezia in Serie A, sottolineando l'entusiasmo e la gioia dei tifosi e delle tifose della squadra. L'autore esprime una posizione chiaramente positiva, evidenziando la grande soddisfazione per il traguardo raggiunto dopo un periodo di assenza dalla massima serie. La conclusione chiave è l'esultanza collettiva per il successo sportivo, con un invito a sostenere con forza il Venezia nella nuova avventura in Serie A.",
+  "topics": [
+    {
+      "name": "tifoso",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Venezia",
+      "position": "Il Venezia è tornato in Serie A.",
+      "polarity": "positive",
+      "claim_id": "5c9704ac-609d-4765-996a-22a58463aed5",
+      "video_id": "l3XOrSnuoOI",
+      "segment_id": "s0",
+      "target_entity": "Venezia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Venezia è tornato in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Venezia che finalmente ritornato in Serie A",
+          "start_sec": 0.199,
+          "end_sec": 11.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "ritorno",
+        "tifosi"
+      ]
+    }
+  ]
+}

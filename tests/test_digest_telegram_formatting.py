@@ -82,7 +82,7 @@ Ederson (Atalanta) - Movimento: sondaggio; Stato: smentita; Motivo: nessun conta
     assert "<i>" not in rendered
 
 
-def test_format_mercato_report_telegram_includes_verifica_when_enriched() -> None:
+def test_format_mercato_report_telegram_fonte_links_when_enriched() -> None:
     digest = """✅ Situazioni calde / scenari aperti
 Alisson (Liverpool) - Movimento: acquisto; Stato: caldo; Motivo: intesa verbale avanzata; Fonte: Fabrizio Romano Italiano
 
@@ -118,12 +118,13 @@ Alisson (Liverpool) - Movimento: acquisto; Stato: caldo; Motivo: intesa verbale 
         generated_at=datetime(2026, 4, 23, 12, 59),
         section_items_enriched=sections,
     )
-    assert "<i>Verifica:</i>" in rendered
+    assert "<i>Fonte:</i>" in rendered
+    assert "<i>Verifica:</i>" not in rendered
     assert "youtube.com/watch?v=abc123" in rendered
     assert "Fabrizio Romano Italiano (0:45)" in rendered
 
 
-def test_format_mercato_report_twitter_includes_verifica_urls_when_enriched() -> None:
+def test_format_mercato_report_twitter_fonte_urls_when_enriched() -> None:
     digest = """✅ Situazioni calde / scenari aperti
 Alisson (Liverpool) - Movimento: acquisto; Stato: caldo; Motivo: test; Fonte: Fabrizio Romano Italiano
 
@@ -137,7 +138,7 @@ Alisson (Liverpool) - Movimento: acquisto; Stato: caldo; Motivo: test; Fonte: Fa
         video_id="xyz",
         video_title=None,
         start_sec=12.0,
-        watch_url="https://www.youtube.com/watch?v=xyz&t=12s",
+        watch_url="https://www.youtube.com/watch?v=xyz&t=12",
     )
     item = DigestItem(
         player="Alisson",
@@ -159,5 +160,6 @@ Alisson (Liverpool) - Movimento: acquisto; Stato: caldo; Motivo: test; Fonte: Fa
         generated_at=datetime(2026, 4, 23, 12, 59),
         section_items_enriched=sections,
     )
-    assert "Verifica:" in rendered
+    assert "  Fonte:" in rendered
+    assert "Verifica:" not in rendered
     assert "https://www.youtube.com/watch?v=xyz&t=12" in rendered

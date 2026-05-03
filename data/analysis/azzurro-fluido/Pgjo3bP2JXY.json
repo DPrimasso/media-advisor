@@ -1,0 +1,398 @@
+{
+  "video_id": "Pgjo3bP2JXY",
+  "analyzed_at": "2026-04-29T08:05:21.208412+00:00",
+  "metadata": {
+    "title": "CALCIO.",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video di Azzurro Fluido analizza una partita di calcio caratterizzata da uno stile spettacolare e ricco di talento, evidenziando il contrasto tra chi preferisce il risultato a tutti i costi e chi invece valorizza il gioco aperto e offensivo. L'autore sostiene che, nonostante subire molti gol indichi delle lacune difensive, il calcio deve essere apprezzato soprattutto per la sua capacità di emozionare con giocate e reti in movimento, preferendo questo approccio rispetto a partite chiuse e tatticamente conservative. Viene inoltre sottolineato il diverso approccio tattico delle squadre: il Bay",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "resilienza",
+      "relevance": "medium"
+    },
+    {
+      "name": "talento",
+      "relevance": "low"
+    },
+    {
+      "name": "spettacolo",
+      "relevance": "low"
+    },
+    {
+      "name": "risultato",
+      "relevance": "low"
+    },
+    {
+      "name": "paragone",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Il Bayern ha avuto il 57% di possesso palla durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "9ce69e14-ba20-4068-b500-adad9da7ae7c",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s3",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern ha avuto il 57% di possesso palla durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Bayern 57% di possesso palla perché alla fine hanno più attackum in una fase della partita",
+          "start_sec": 106.24,
+          "end_sec": 146.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "calciatore numero 7 PSG",
+      "position": "Il giocatore con il numero 7 del PSG potrebbe diventare un buon calciatore.",
+      "polarity": "positive",
+      "claim_id": "e62a4320-7645-468e-8183-2c1f1a8b99cd",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s4",
+      "target_entity": "calciatore numero 7 PSG",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il giocatore con il numero 7 del PSG potrebbe diventare un buon calciatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è un c'è un esterno col numero 7, tenetelo d'occhio, secondo me potrebbe diventare un buon giocà del PSG",
+          "start_sec": 144.599,
+          "end_sec": 186.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "PSG"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio",
+      "position": "Il calcio può essere spettacolare e pieno di talento e mentalità.",
+      "polarity": "neutral",
+      "claim_id": "88cafd37-9a7a-486c-82c1-b70891fe3e17",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s0",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio può essere spettacolare e pieno di talento e mentalità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il calcio può essere così, può essere spettacolare, può essere pieno di talento, pieno di mentalità",
+          "start_sec": 1.64,
+          "end_sec": 39.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "performance",
+        "talento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra che subisce gol",
+      "position": "Subire quattro o cinque gol indica che qualcosa non ha funzionato.",
+      "polarity": "negative",
+      "claim_id": "a3cdbee5-f0f4-4f62-83e9-7e53ee10c755",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s0",
+      "target_entity": "squadra che subisce gol",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Subire quattro o cinque gol indica che qualcosa non ha funzionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se hai preso cinque gol, se ti fai prendere quattro gol vuol dire che qualcosa non è andata",
+          "start_sec": 1.64,
+          "end_sec": 39.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "errore",
+        "performance"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "calcio",
+      "position": "C'è un dibattito sul privilegiare lo spettacolo o il risultato nel calcio.",
+      "polarity": "neutral",
+      "claim_id": "8737f051-1db4-4daf-9069-651ca17fef17",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s0",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "C'è un dibattito sul privilegiare lo spettacolo o il risultato nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dove vogliamo andare? se vogliamo andare in una direzione che favorisce lo spettacolo oppure favorisce il risultato",
+          "start_sec": 1.64,
+          "end_sec": 39.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dibattito",
+        "spettacolo",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadre",
+      "position": "Due squadre hanno giocato a viso aperto accettando rischi e uno contro uno.",
+      "polarity": "neutral",
+      "claim_id": "f54dad10-ab69-49de-b2bc-95ec0be29a67",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s1",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Due squadre hanno giocato a viso aperto accettando rischi e uno contro uno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Una di queste due squadre che hanno comunque giocato a viso aperto, hanno rischiato, hanno accettato gli uno contro uno",
+          "start_sec": 36.559,
+          "end_sec": 72.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica",
+        "rischio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio spettacolare",
+      "position": "Il calcio spettacolare mostra talento, giocate e reti in movimento, rendendolo preferibile all'opposto estremo.",
+      "polarity": "positive",
+      "claim_id": "effffce6-5ea4-4bc1-9b4f-539ccfc47871",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s2",
+      "target_entity": "calcio spettacolare",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Il calcio spettacolare mostra talento, giocate e reti in movimento, rendendolo preferibile all'opposto estremo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dove vedo il talento, vedo la giocata, vedo la rete che si muove, perché il calcio è la rete che si muove",
+          "start_sec": 70.24,
+          "end_sec": 108.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "spettacolo",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Il Bayern ha cercato di consolidare di più il possesso palla.",
+      "polarity": "neutral",
+      "claim_id": "ef9c19b2-19a5-4d3f-8bf3-c8518d55bc66",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s3",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern ha cercato di consolidare di più il possesso palla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Senze il Bayern ha cercato di consolidare un pochino di più il possesso",
+          "start_sec": 106.24,
+          "end_sec": 146.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "PSG",
+      "position": "Il PSG ha giocato con uno stile molto più verticale.",
+      "polarity": "neutral",
+      "claim_id": "c6f51d36-9732-4eaf-b87b-32d50bcbb54e",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s3",
+      "target_entity": "PSG",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il PSG ha giocato con uno stile molto più verticale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il PSG molto più verticale",
+          "start_sec": 106.24,
+          "end_sec": 146.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern e PSG",
+      "position": "Il Bayern e PSG si sono alternati in attacchi reciproci durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "895adfb9-f627-4387-914f-6c1afe1a38ec",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s3",
+      "target_entity": "Bayern e PSG",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern e PSG si sono alternati in attacchi reciproci durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Attacco io, attacchi tu",
+          "start_sec": 106.24,
+          "end_sec": 146.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Il primo rigore di Kane è stato netto e indiscutibile.",
+      "polarity": "neutral",
+      "claim_id": "d5f1caef-9198-4b7b-93b8-3b010e06ffed",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s4",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il primo rigore di Kane è stato netto e indiscutibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È incredibile rigore netto.",
+          "start_sec": 144.599,
+          "end_sec": 186.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rigore",
+        "arbitro",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kane",
+      "position": "Kane è molto continuo nel segnare gol.",
+      "polarity": "positive",
+      "claim_id": "566ad5ae-ee2c-4666-996b-99509d9a55d4",
+      "video_id": "Pgjo3bP2JXY",
+      "segment_id": "s4",
+      "target_entity": "Kane",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Kane è molto continuo nel segnare gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È è sovrannaturale segnare con tanta continuità.",
+          "start_sec": 144.599,
+          "end_sec": 186.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol",
+        "continuità"
+      ]
+    }
+  ]
+}

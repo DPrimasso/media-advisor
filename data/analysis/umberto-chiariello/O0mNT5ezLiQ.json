@@ -1,0 +1,381 @@
+{
+  "video_id": "O0mNT5ezLiQ",
+  "analyzed_at": "2026-04-24T07:46:07.918617+00:00",
+  "metadata": {
+    "title": "NUN C'ACCIRE NISCIUNO 21 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC affronta la difficile fase del Napoli dopo la sconfitta contro la Lazio, sottolineando come questa debba essere vista come un’opportunità di crescita e miglioramento. L’autore evidenzia gli errori commessi sia dalla squadra che da Antonio Conte, che ha comunque un palmarès importante con il club, e critica la spaccatura tra tifosi alimentata dai media e social. Viene inoltre evidenziato l’impatto degli infortuni e la scarsa produzione offensiva nonostante il talento a disposizione, mentre si ipotizza che alcune scelte tecniche, come l’esclusione di Billy Gilmour, possano ",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifoso",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "comportamento tifoso",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha ammesso di aver commesso errori nella gestione della squadra.",
+      "polarity": "neutral",
+      "claim_id": "9aa2577a-83f4-47dd-90f3-232e978cf9e8",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha ammesso di aver commesso errori nella gestione della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Anche Conte dice ho commesso anche gli errori qui ci sta.",
+          "start_sec": 760.6,
+          "end_sec": 1694.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte ha una vittoria di scudetto e una di Supercoppa con il Napoli.",
+      "polarity": "neutral",
+      "claim_id": "081afde4-7c64-4505-a2ba-e3b675606f7f",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte ha una vittoria di scudetto e una di Supercoppa con il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con un allenatore che al momento c'ha una vittoria di scudetto già portata, una vittoria di Supercoppa già portata",
+          "start_sec": 0.32,
+          "end_sec": 762.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Antonio Conte è stato oggetto di attacchi sistematici e velenosi dopo la sconfitta del Napoli.",
+      "polarity": "negative",
+      "claim_id": "fe32866c-206b-4055-8eeb-be5305e0c5cd",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte è stato oggetto di attacchi sistematici e velenosi dopo la sconfitta del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quell'attacco non è all'indirizzo di Conte, ma è all'indirizzo del Napoli.",
+          "start_sec": 0.32,
+          "end_sec": 762.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli dovrebbe qualificarsi alla Champions League e puntare al secondo posto in campionato.",
+      "polarity": "positive",
+      "claim_id": "d9bcc79a-0378-4385-bbbf-7f261c236129",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli dovrebbe qualificarsi alla Champions League e puntare al secondo posto in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "queste cinque partite che mancano alla fine del campionato... Il Napoli deve tagliare il traguardo della qualificazione Champions... con tutte le forze a disposizione di arrivare secondi",
+          "start_sec": 0.32,
+          "end_sec": 762.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli ha avuto molti infortuni muscolari che hanno influenzato la stagione.",
+      "polarity": "negative",
+      "claim_id": "f3bc625e-6f9e-4bf6-8a2e-c3475b648f24",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha avuto molti infortuni muscolari che hanno influenzato la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "problema infortuni quasi tutti di natura muscolare, quindi lì tra preparazione e gestione dello staff medico il problema esiste",
+          "start_sec": 760.6,
+          "end_sec": 1694.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli produce poche azioni pericolose e segna poco nonostante i calciatori abili.",
+      "polarity": "negative",
+      "claim_id": "d04f9637-b36f-44eb-8c16-dd590fd51a0b",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli produce poche azioni pericolose e segna poco nonostante i calciatori abili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli è una squadra che non produce non produce azioni pericolose, segna pochissimo nonostante abbia calciatori che nelle corde hanno diversi gol",
+          "start_sec": 760.6,
+          "end_sec": 1694.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Billy Gilmour",
+      "position": "Billy Gilmour è stato messo da parte forse per divergenze con l'allenatore.",
+      "polarity": "positive",
+      "claim_id": "0c20ee7a-331e-432d-ab03-1cbe81d986da",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s1",
+      "target_entity": "Billy Gilmour",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Billy Gilmour è stato messo da parte forse per divergenze con l'allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Billy Gilmur è stato messo da parte. Non vorrei fosse successo qualcosa con l'allenatore",
+          "start_sec": 760.6,
+          "end_sec": 1694.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia ha chiuso tutte le linee di passaggi alla Spagna e ha meritato la qualificazione in finale.",
+      "polarity": "positive",
+      "claim_id": "bb0827dc-1a09-4edd-856a-173862bf5cea",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha chiuso tutte le linee di passaggi alla Spagna e ha meritato la qualificazione in finale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "loro, ovvero l'Italia, ci hanno chiuso tutte le linee di passaggi. Il loro gioco non ha consentito di eh non ho consentito alla Spagna di avere la meglio. Complimenti all'Italia, qualificazione meritata la finale",
+          "start_sec": 1692.44,
+          "end_sec": 2401.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "prestazione",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luis Enrique",
+      "position": "Luis Enrique è considerato un grande allenatore e un uomo serio.",
+      "polarity": "positive",
+      "claim_id": "bde2b4c8-0e10-46c6-a6a2-a67652291619",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s2",
+      "target_entity": "Luis Enrique",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Luis Enrique è considerato un grande allenatore e un uomo serio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io credo che Luis Enri oltre a essere un grande allenatore è soprattutto un uomo serio, ma un grande uomo.",
+          "start_sec": 1692.44,
+          "end_sec": 2401.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "carattere"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano deve valorizzare il proprio DNA difensivo per migliorare.",
+      "polarity": "neutral",
+      "claim_id": "3824a759-bb0e-4c08-b418-f7d925d8467e",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s2",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano deve valorizzare il proprio DNA difensivo per migliorare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se il calcio italiano non torna a valorizzare quello che è il proprio DNA, il calcio italiano non migliorerà.",
+          "start_sec": 1692.44,
+          "end_sec": 2401.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "difesa",
+        "dna"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Rud Gullit",
+      "position": "Rud Gullit ha detto che il calcio italiano deve tornare a saper difendere, che è nel suo DNA.",
+      "polarity": "positive",
+      "claim_id": "e2182783-185c-4de6-815f-f60259805ae0",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s2",
+      "target_entity": "Rud Gullit",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rud Gullit ha detto che il calcio italiano deve tornare a saper difendere, che è nel suo DNA.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io ascoltavo l'intervista sul calcio italiano e lui dice \"E nel DNA del calcio italiano saper difendere...",
+          "start_sec": 1692.44,
+          "end_sec": 2401.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "difesa",
+        "dna"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha sbagliato molto nella partita di sabato contro la Lazio.",
+      "polarity": "negative",
+      "claim_id": "190e0222-77dd-4265-b38f-de1ba9639e34",
+      "video_id": "O0mNT5ezLiQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha sbagliato molto nella partita di sabato contro la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E sabato con la Lazio si è sbagliato tantissimo.",
+          "start_sec": 0.32,
+          "end_sec": 762.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

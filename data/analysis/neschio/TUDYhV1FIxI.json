@@ -1,0 +1,407 @@
+{
+  "video_id": "TUDYhV1FIxI",
+  "analyzed_at": "2026-04-25T10:58:19.551215+00:00",
+  "metadata": {
+    "title": "POTEVA FINIRE 10-0‼️ NAPOLI-CREMONESE 4-0",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta la netta vittoria del Napoli per 4-0 contro la Cremonese, sottolineando la dominanza totale della squadra partenopea durante la partita. L’autore evidenzia come il Napoli avrebbe potuto segnare molti più gol, grazie a un gioco aggressivo e a numerose occasioni create, con menzioni specifiche per le prestazioni di McTominay, De Bruyne e Alisson Santos. La conclusione chiave è che il Napoli ha giocato con grande determinazione e qualità, confermando la superiorità tecnica e tattica rispetto all’avversario, senza mai rischiare di subire gol.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "goal",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "desiderio",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "passaggio",
+      "relevance": "low"
+    },
+    {
+      "name": "svantaggio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli was dominant throughout the game with a 4-0 lead and many scoring chances.",
+      "polarity": "positive",
+      "claim_id": "7502039b-b7f0-4544-a862-b964a4912dab",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli was dominant throughout the game with a 4-0 lead and many scoring chances.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli goal Because we are on 4-0 But he could have Scored twice For the team Of Antonio Conte Already after the first 5 minutes There were 2 goals 1 goal and 2 chances So a game Completely Unique, it was a monologue From the first to the 84th",
+          "start_sec": 57.32,
+          "end_sec": 117.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "goal",
+        "dominance",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lecce",
+      "position": "Lecce has a great chance with Verona but might be less involved than Cremonese currently.",
+      "polarity": "neutral",
+      "claim_id": "a6ab014e-33e7-4d87-a72e-6f3dfd21631d",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s4",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lecce has a great chance with Verona but might be less involved than Cremonese currently.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the team More involved than Lecce That has a great chance With Verona",
+          "start_sec": 170.54,
+          "end_sec": 235.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "potenziale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli showed a strong desire to win and score many goals in the match.",
+      "polarity": "positive",
+      "claim_id": "ca15e5a4-246c-4c57-a6de-5d017689d8ee",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s6",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli showed a strong desire to win and score many goals in the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Napoli Napoli wanted to win To score a lot of goals",
+          "start_sec": 238.98,
+          "end_sec": 292.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "desiderio",
+        "prestazione",
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli recovered the ball very fast from the bottom and turned with great quality into an incredible speed action.",
+      "polarity": "positive",
+      "claim_id": "b66d0bde-7a72-4990-a190-1a4d5afb9d69",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s6",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli recovered the ball very fast from the bottom and turned with great quality into an incredible speed action.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli recovers the ball Very fast From the bottom He turned In an incredible speed With great quality The action",
+          "start_sec": 238.98,
+          "end_sec": 292.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "recupero palla",
+        "velocità",
+        "qualità",
+        "azione"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Anghissà",
+      "position": "Anghissà is the starting player for Napoli today.",
+      "polarity": "neutral",
+      "claim_id": "aaea8344-7817-461a-afc9-34193ff7299c",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s8",
+      "target_entity": "Anghissà",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Anghissà is the starting player for Napoli today.",
+      "evidence_quotes": [
+        {
+          "quote_text": "We finally have a starter Today it's Anghissà He's the starter",
+          "start_sec": 304.88,
+          "end_sec": 356.34,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "esordio",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "De Bruyne",
+      "position": "De Bruyne had a decisive pass in the game involving Malay's feet.",
+      "polarity": "neutral",
+      "claim_id": "ef4916cf-cebe-4973-a2e7-42051949eb28",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s1",
+      "target_entity": "De Bruyne",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Bruyne had a decisive pass in the game involving Malay's feet.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Bruyne has to pass the ball From Malay's feet",
+          "start_sec": 11.16,
+          "end_sec": 57.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assist",
+        "passaggio",
+        "gioco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "Cremonese is suffering disadvantages in the match and seems less competitive than Napoli.",
+      "polarity": "negative",
+      "claim_id": "ed46a191-c6f1-4f0e-9136-77cbaf428f7d",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s4",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cremonese is suffering disadvantages in the match and seems less competitive than Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "We talk about All the disadvantages Of Cremonese",
+          "start_sec": 170.54,
+          "end_sec": 235.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "svantaggio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte made a statement that 'the second is the first of the losers'.",
+      "polarity": "neutral",
+      "claim_id": "334e2fc4-2526-42a2-a4f2-1830e4ff45ba",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte made a statement that 'the second is the first of the losers'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte said The second is the first of the losers",
+          "start_sec": 170.54,
+          "end_sec": 235.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dichiarazione",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Olliund",
+      "position": "Olliund is the player that never saves in Napoli.",
+      "polarity": "negative",
+      "claim_id": "26020365-5361-4399-b888-7641d56980b8",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s7",
+      "target_entity": "Olliund",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Olliund is the player that never saves in Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Olliund is The player that never Saves in Napoli",
+          "start_sec": 292.32,
+          "end_sec": 304.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "goalkeeper",
+      "position": "The goalkeeper made a mistake in handling the ball.",
+      "polarity": "negative",
+      "claim_id": "ca8026c2-6902-43e1-adc3-72774a437bad",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s8",
+      "target_entity": "goalkeeper",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The goalkeeper made a mistake in handling the ball.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a goalkeeper That in my opinion Made a mistake",
+          "start_sec": 304.88,
+          "end_sec": 356.34,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Alisson Santos",
+      "position": "Alisson Santos performed well, including passing McTominay.",
+      "polarity": "positive",
+      "claim_id": "8ce3bec2-4cbb-49aa-9c00-f7dbaed06d5e",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s2",
+      "target_entity": "Alisson Santos",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson Santos performed well, including passing McTominay.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Let's talk about this game About Alisson Santos Who I'm seeing now Finally Look at him How he passed McTominay",
+          "start_sec": 57.32,
+          "end_sec": 117.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "player performance",
+        "tactics"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay scored one goal in the match.",
+      "polarity": "neutral",
+      "claim_id": "34a576f7-7806-4d18-be1a-4268a4c194ae",
+      "video_id": "TUDYhV1FIxI",
+      "segment_id": "s1",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "McTominay scored one goal in the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The first one from McTominay",
+          "start_sec": 11.16,
+          "end_sec": 57.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "giocatore"
+      ]
+    }
+  ]
+}

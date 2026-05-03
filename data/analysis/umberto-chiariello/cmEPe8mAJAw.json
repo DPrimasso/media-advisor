@@ -1,0 +1,410 @@
+{
+  "video_id": "cmEPe8mAJAw",
+  "analyzed_at": "2026-04-24T07:47:40.051497+00:00",
+  "metadata": {
+    "title": "UN CAFFE' CON CHIARIELLO 21 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video analizza la situazione attuale del Napoli sotto la guida di Conte, focalizzandosi soprattutto sulle prestazioni offensive della squadra, che segnano un netto calo rispetto agli anni precedenti. L'autore sostiene che, nonostante la difesa sia diventata la migliore d'Europa grazie a Conte, il numero di gol segnati (48) è il più basso dal 2009-2010, evidenziando un problema offensivo con pochi attaccanti in doppia cifra e acquisti esterni poco incisivi. Pur riconoscendo le critiche e le divisioni tra i tifosi sul futuro dell'allenatore, l'autore si schiera a favore della sua conferma, ip",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli non segnava così pochi gol in Serie A dal 2009-2010, con solo 48 gol segnati attualmente.",
+      "polarity": "negative",
+      "claim_id": "ca11478e-ae9c-4ebb-baf5-ef0807257639",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli non segnava così pochi gol in Serie A dal 2009-2010, con solo 48 gol segnati attualmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Addirittura il Napoli non segnava così poco dal 20090 16 anni fa. Il punto basso della recente storia del Napoli in Serie A...Il Napoli adesso, udite, udite, ha segnato 48 gol, cioè sotto la soglia dei 50 gol che non era mai successo da allora in poi.",
+          "start_sec": 0.12,
+          "end_sec": 379.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "serie a",
+        "storico"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli in 5 anni ha spesso superato i 60 gol stagionali raggiungendo valori fino a 77 gol con Sarri.",
+      "polarity": "positive",
+      "claim_id": "2655f1ff-9f75-497e-869d-7675b7ba0bef",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli in 5 anni ha spesso superato i 60 gol stagionali raggiungendo valori fino a 77 gol con Sarri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La soglia dei 60 gol il Napoli l'ha frequentata tantissimo...nel 15-16, 66 gol, l'anno dopo 77 nell'anno dello scudetto sfiorato e tra virgolette rubato da errori arbitrali. Nel 17-18 70 gol.",
+          "start_sec": 0.12,
+          "end_sec": 379.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "serie a",
+        "storico",
+        "sarri"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha realizzato soltanto 48 gol in stagione, con un apporto negativo dagli acquisti esterni.",
+      "polarity": "negative",
+      "claim_id": "18ba31c3-06f2-46ae-9ad0-15a1aa8ce54f",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha realizzato soltanto 48 gol in stagione, con un apporto negativo dagli acquisti esterni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quest'anno che dovevamo aver incrementato il potenziale offensivo, le cose sono andate malissimo, appena 48 gol e l'apporto della campagna acquisti è stato è stato negativissimo.",
+          "start_sec": 377.759,
+          "end_sec": 747.3199999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "campagna acquisti",
+        "attacco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Victor Osimhen",
+      "position": "Osimhen è l'unico attaccante del Napoli in doppia cifra, con 10 gol in campionato, ma è ancora in fase di crescita.",
+      "polarity": "negative",
+      "claim_id": "c39256e8-665b-476e-a843-be3b1642830e",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s1",
+      "target_entity": "Victor Osimhen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Osimhen è l'unico attaccante del Napoli in doppia cifra, con 10 gol in campionato, ma è ancora in fase di crescita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Edund che in complessivo ne ha fatti 14, in campionato ne ha fatti 10. È l'unico in doppia cifra. è l'unico in doppia cifra che non è una cifra alta per un centravanti. ... è giovane ancora, 23 anni, è in crescita",
+          "start_sec": 377.759,
+          "end_sec": 747.3199999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giovane",
+        "gol",
+        "attaccante centrale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Neres",
+      "position": "Neres ha segnato 6 gol ma si è fermato nel momento migliore della sua stagione.",
+      "polarity": "neutral",
+      "claim_id": "237a4eb0-a689-4fa5-a62c-5ec76812997d",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s1",
+      "target_entity": "Neres",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Neres ha segnato 6 gol ma si è fermato nel momento migliore della sua stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Neres quest'anno avvicinato alla porta ha mostrato che proprio male male come realizzatore non è, ne ha fatti sei e si è fermato nel momento migliore.",
+          "start_sec": 377.759,
+          "end_sec": 747.3199999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "attaccante esterno"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano si è risvegliato segnando 2 gol negli ultimi tempi.",
+      "polarity": "positive",
+      "claim_id": "14321b4e-977d-4df7-aaba-6d65eae768f4",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s1",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Politano si è risvegliato segnando 2 gol negli ultimi tempi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano negli ultimi tempi si era svegliato, non segnava da una vita e ne ha fatti due.",
+          "start_sec": 377.759,
+          "end_sec": 747.3199999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "attaccante esterno"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha speso più di 100 milioni di euro in due anni per l'attacco.",
+      "polarity": "neutral",
+      "claim_id": "b00869c1-4501-4d44-a79b-c1f7397897ed",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha speso più di 100 milioni di euro in due anni per l'attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli non è arrivato a 50 gol. È un problema di qualità dei singoli, di bocciature, di rendimento o anche un modo di attaccare di questa squadra?",
+          "start_sec": 744.56,
+          "end_sec": 1077.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "attaccante"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Mctomini ha realizzato 25 gol in due stagioni in tutte le competizioni, decisivo per il Napoli.",
+      "polarity": "positive",
+      "claim_id": "89d65105-5721-4578-85c0-fca5d224b112",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Mctomini ha realizzato 25 gol in due stagioni in tutte le competizioni, decisivo per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma la spia della riserva si sarebbe accesa come non mai e il Napoli su questo deve molto ragionare, sia sull'approccio al gol.",
+          "start_sec": 744.56,
+          "end_sec": 1077.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "gol decisivi"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte ha blindato la difesa del Napoli rendendola la miglior difesa d'Europa ma segnando pochi gol.",
+      "polarity": "neutral",
+      "claim_id": "e731af75-0241-4e49-acca-95e4e78868f1",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha blindato la difesa del Napoli rendendola la miglior difesa d'Europa ma segnando pochi gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte l'anno scorso non segna molto, ma blinda la difesa come miglior difesa d'Europ d'Europa, ne fa 52. Son pochini, proprio pochini.",
+          "start_sec": 0.12,
+          "end_sec": 379.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conte",
+        "difesa",
+        "gol"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "A Napoli ci sono divisioni sul futuro allenatore Conte tra chi lo difende, chi critica e chi lo vuole confermare.",
+      "polarity": "neutral",
+      "claim_id": "25a9e458-0a7b-40e6-afbf-b9b6c9bbd9a5",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "A Napoli ci sono divisioni sul futuro allenatore Conte tra chi lo difende, chi critica e chi lo vuole confermare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E sono sempre di più coloro che a Napoli storcono la bocca di fronte alla gestione di Conti allenatore e vorrebbero un cambiamento. C'è chi invece lo difende a spada tratta, sono i suoi Pasdaran però questi qui. E c'è chi invece, pur criticandone parecchie cose di questa stagione, ritiene che bisogna proseguire con lui.",
+          "start_sec": 0.12,
+          "end_sec": 379.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "conte",
+        "opinioni",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas ha segnato un gol considerato tra i centrocampisti, non come attaccante esterno.",
+      "polarity": "neutral",
+      "claim_id": "838c716a-8871-432d-a927-3f120426dd7d",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s2",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas ha segnato un gol considerato tra i centrocampisti, non come attaccante esterno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi diciamo che il gol di Elmas non lo consideriamo, lo consideriamo tra i centrocampisti",
+          "start_sec": 744.56,
+          "end_sec": 1077.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "ruolo"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku ha avuto un problema non comunicato a Napoli, che lo ha tenuto fuori dal mondiale.",
+      "polarity": "negative",
+      "claim_id": "92d9210a-c26f-42a1-b34b-d40b3ada4c06",
+      "video_id": "cmEPe8mAJAw",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha avuto un problema non comunicato a Napoli, che lo ha tenuto fuori dal mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli hanno detto \"Guarda, tu il mondiale non lo fai in queste condizioni\". G hanno scoperto che lui aveva un problema ulteriore che di cui a Napoli non si era proprio parlato",
+          "start_sec": 744.56,
+          "end_sec": 1077.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "mondiale"
+      ]
+    }
+  ]
+}

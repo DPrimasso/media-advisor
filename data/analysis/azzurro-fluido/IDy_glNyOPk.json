@@ -1,0 +1,392 @@
+{
+  "video_id": "IDy_glNyOPk",
+  "analyzed_at": "2026-04-24T07:39:29.281854+00:00",
+  "metadata": {
+    "title": "#GILA perfetto su #Hojlund (e per noi) 👀 Analisi NAPOLI LAZIO 0-2 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza la sconfitta del Napoli contro la Lazio, evidenziando una prestazione deludente caratterizzata da un ritmo lento e una scarsa incisività offensiva. L'autore sottolinea come Mario Kila abbia annullato efficacemente Hojlund, mentre il Napoli non è riuscito a trovare soluzioni per penetrare la difesa avversaria, che ha dominato molti duelli individuali. Viene inoltre evidenziata la necessità di accelerare il gioco quando la Lazio si chiude in difesa, e si nota come alcuni errori tecnici e difensivi abbiano contribuito al risultato negativo, con Spinazzola più efficace in fase di",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "sostituzione",
+      "relevance": "high"
+    },
+    {
+      "name": "duello individuale",
+      "relevance": "medium"
+    },
+    {
+      "name": "difesa",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "rigore",
+      "relevance": "low"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli non ha trovato un modo efficace per penetrare la difesa avversaria.",
+      "polarity": "negative",
+      "claim_id": "d094d572-88b2-41fc-ba3c-d40b7c675fab",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli non ha trovato un modo efficace per penetrare la difesa avversaria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli non ha trovato un altro modo di entrare in porta",
+          "start_sec": 0.04,
+          "end_sec": 99.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "attacco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha giocato una partita con ritmo lento e poco dinamico.",
+      "polarity": "negative",
+      "claim_id": "7fabb2ce-9d2a-4539-b0af-cb1f59378450",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha giocato una partita con ritmo lento e poco dinamico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stata veramente dura rivederla perché anche il ritmo stesso della gara eh mi dava fatica. Ehm, veramente morbidi, morbidissimi, non non accelerav",
+          "start_sec": 0.04,
+          "end_sec": 99.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "ritmo partita"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Quando la Lazio si chiude in difesa, il Napoli deve accelerare e migliorare la fase offensiva.",
+      "polarity": "positive",
+      "claim_id": "5427fb20-dd5b-4b0d-b804-82adb4c922ad",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Quando la Lazio si chiude in difesa, il Napoli deve accelerare e migliorare la fase offensiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tu devi accelerare. Quando la Lazio ti aspetta tutta sotto la linea della palla perché Sarri gioca così, soprattutto quando va in vantaggio così presto, devi accelerare, devi fare molto meglio",
+          "start_sec": 0.04,
+          "end_sec": 99.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "fase offensiva"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha vinto molti duelli individuali contro il Napoli in questa fase di gioco.",
+      "polarity": "negative",
+      "claim_id": "dc371e82-d618-42d3-8d8e-4ace92a816cf",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha vinto molti duelli individuali contro il Napoli in questa fase di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo perso parecchi anche duelli individuali qui. E è una cosa che la Lazio ovviamente fa",
+          "start_sec": 97.079,
+          "end_sec": 191.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "duello individuale",
+        "prestazione difensiva",
+        "lazio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Spinazzola",
+      "position": "Spinazzola è risultato migliore in difesa che in attacco durante la partita.",
+      "polarity": "positive",
+      "claim_id": "ba092c08-c5da-4614-9ce8-9246d478583b",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s1",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spinazzola è risultato migliore in difesa che in attacco durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spinazzola meglio in difesa che in attacco, perché qua riesce a fare una diagonale dove anticipa Cagellieri",
+          "start_sec": 97.079,
+          "end_sec": 191.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "fase difensiva",
+        "prestazione individuale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kevin",
+      "position": "Kevin commette errori clamorosi da giocatore inesperto all'inizio della partita.",
+      "polarity": "negative",
+      "claim_id": "25271f17-5f9a-4d93-b60c-8cc8bd6a59ac",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s2",
+      "target_entity": "Kevin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kevin commette errori clamorosi da giocatore inesperto all'inizio della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kevin perché fa degli errori clamorosissimi da giocatore che non ha mai toccato un pallone in vita sua, proprio gli scappa la palla, provato un tiro che è andato alle stelle, un cross fuori misura, diversi errori proprio banalissimi",
+          "start_sec": 189.08,
+          "end_sec": 296.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Kevin",
+      "position": "La prestazione di Kevin migliora nella seconda parte della partita.",
+      "polarity": "positive",
+      "claim_id": "09c69deb-0eef-47fa-a72d-ff6f32cc1577",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s2",
+      "target_entity": "Kevin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La prestazione di Kevin migliora nella seconda parte della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi però piano piano è cresciuto nella seconda parte",
+          "start_sec": 189.08,
+          "end_sec": 296.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Buongiorno",
+      "position": "L'infortunio di Buongiorno porta al rigore per la Lazio.",
+      "polarity": "neutral",
+      "claim_id": "5adc1bba-a415-4e9c-a713-c52b4082988a",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s2",
+      "target_entity": "Buongiorno",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'infortunio di Buongiorno porta al rigore per la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo è l'infortunio di Buongiorno che poi porta al rigore per la Lazio",
+          "start_sec": 189.08,
+          "end_sec": 296.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Mario Kila",
+      "position": "Mario Kila ha annullato Hojlund nella partita Napoli-Lazio.",
+      "polarity": "positive",
+      "claim_id": "b83f1eea-1c52-452f-9de7-d9a7ed0893f5",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s0",
+      "target_entity": "Mario Kila",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mario Kila ha annullato Hojlund nella partita Napoli-Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kila ha annullato Heund",
+          "start_sec": 0.04,
+          "end_sec": 99.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "difesa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Beukema",
+      "position": "Beukema ha provato un anticipo che non è riuscito a fare nella partita.",
+      "polarity": "negative",
+      "claim_id": "f1b5976a-56e0-425a-9e2b-a0212329db16",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s1",
+      "target_entity": "Beukema",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Beukema ha provato un anticipo che non è riuscito a fare nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta provando a fare qui Beukema e non gli riesce",
+          "start_sec": 97.079,
+          "end_sec": 191.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "anticipio",
+        "prestazione individuale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Olivera",
+      "position": "Olivera si fa attrarre dall'avversario creando un problema difensivo.",
+      "polarity": "negative",
+      "claim_id": "6d7e7ed5-6c07-4953-aaa1-18744add9a0a",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s1",
+      "target_entity": "Olivera",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Olivera si fa attrarre dall'avversario creando un problema difensivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Olivera si fa attrarre Danoslin",
+          "start_sec": 97.079,
+          "end_sec": 191.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "prestazione individuale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Romagnoli",
+      "position": "Romagnoli fa un intervento pulito in scivolata.",
+      "polarity": "positive",
+      "claim_id": "ca8c5df5-2e12-4306-b064-3b5756730a65",
+      "video_id": "IDy_glNyOPk",
+      "segment_id": "s2",
+      "target_entity": "Romagnoli",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Romagnoli fa un intervento pulito in scivolata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Qua è bravo Romagnoli in scivolata a prendere pulito solo il pallone",
+          "start_sec": 189.08,
+          "end_sec": 296.28000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

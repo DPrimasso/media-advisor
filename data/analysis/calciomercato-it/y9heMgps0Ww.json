@@ -1,0 +1,242 @@
+{
+  "video_id": "y9heMgps0Ww",
+  "analyzed_at": "2026-04-24T08:43:21.580146+00:00",
+  "metadata": {
+    "title": "Accuse pesanti dopo Atalanta-Lazio di Coppa Italia #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video analizza le polemiche arbitrali nate durante la partita di Coppa Italia tra Atalanta e Lazio, conclusasi con la vittoria ai rigori dei biancocelesti. L'autore sostiene che Percassi abbia ragione a lamentarsi per alcune decisioni controverse, come l'annullamento di un gol dell'Atalanta dopo un field review e i tocchi di mano non sanzionati, ritenuti conformi alle regole. Nonostante le critiche all'arbitro Colombo e al VAR, che hanno lasciato entrambe le squadre insoddisfatte, la Lazio è comunque approdata in finale contro l'Inter. La conclusione chiave è che, pur tra dubbi e contestazi",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "coppa italia",
+      "relevance": "high"
+    },
+    {
+      "name": "competizione",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Atalanta",
+      "position": "L'arbitro ha annullato un gol all'Atalanta dopo un field review per un presunto fallo di Kstovicć su Motta.",
+      "polarity": "neutral",
+      "claim_id": "362928e6-4563-4857-ab83-e1ee05b71a9a",
+      "video_id": "y9heMgps0Ww",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro ha annullato un gol all'Atalanta dopo un field review per un presunto fallo di Kstovicć su Motta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Al quarto d'ora della ripresa annullato un gol ai Bergamaschi dopo un field review per fallo di Kstovicć su Motta.",
+          "start_sec": 0.16,
+          "end_sec": 28.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "gol annullato",
+        "field review"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha vinto ai calci di rigore contro l'Atalanta e ha raggiunto l'Inter in finale di Coppa Italia.",
+      "polarity": "positive",
+      "claim_id": "31150d76-cd70-4e7c-a9c9-055588508f27",
+      "video_id": "y9heMgps0Ww",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha vinto ai calci di rigore contro l'Atalanta e ha raggiunto l'Inter in finale di Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Lazio ha battuto l'Atalanta ai calci di rigore e raggiunto l'Inter in finale di Coppa Italia",
+          "start_sec": 0.16,
+          "end_sec": 28.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "vittoria",
+        "rigori"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Mario Hila",
+      "position": "Un tocco di mano di Mario Hila non è punibile perché il pallone gli sbatte addosso dopo un'autogiocata.",
+      "polarity": "neutral",
+      "claim_id": "d5f361f4-4eb1-40b9-bdc8-0cccc581528c",
+      "video_id": "y9heMgps0Ww",
+      "segment_id": "s2",
+      "target_entity": "Mario Hila",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Un tocco di mano di Mario Hila non è punibile perché il pallone gli sbatte addosso dopo un'autogiocata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il pallone gli sbatte addosso dopo un'autogiocata e quindi non è punibile",
+          "start_sec": 30.119,
+          "end_sec": 59.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mano",
+        "var",
+        "decisione arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Scalvini",
+      "position": "Il tocco di mano di Scalvini in contrasto con Noslin è considerato naturale e non punibile.",
+      "polarity": "neutral",
+      "claim_id": "72af5931-e7b2-4775-aa3d-f2022dace1b7",
+      "video_id": "y9heMgps0Ww",
+      "segment_id": "s2",
+      "target_entity": "Scalvini",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il tocco di mano di Scalvini in contrasto con Noslin è considerato naturale e non punibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il braccio è sulla linea della spalla, ma il movimento viene considerato naturale",
+          "start_sec": 30.119,
+          "end_sec": 59.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mano",
+        "var",
+        "decisione arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Lazio",
+      "position": "In finale di Coppa Italia va solo la Lazio nonostante il disappunto per il VAR.",
+      "polarity": "neutral",
+      "claim_id": "c9fbc6ee-1861-45fb-b7dd-cfd8922fc3cc",
+      "video_id": "y9heMgps0Ww",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "In finale di Coppa Italia va solo la Lazio nonostante il disappunto per il VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "VAR scontentano tutti, ma in finale ci va solo la Lazio.",
+          "start_sec": 56.84,
+          "end_sec": 61.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "var",
+        "finale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Percassi",
+      "position": "Percassi ha ragione a lamentarsi con l'arbitro per le decisioni durante la partita.",
+      "polarity": "positive",
+      "claim_id": "fe15f27d-4c0a-49ae-8425-384b3b5c58b1",
+      "video_id": "y9heMgps0Ww",
+      "segment_id": "s0",
+      "target_entity": "Percassi",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Percassi ha ragione a lamentarsi con l'arbitro per le decisioni durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha ragione percassi a lamentarsi con l'arbitro.",
+          "start_sec": 0.16,
+          "end_sec": 28.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "reclamazione",
+        "arbitro"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Colombo",
+      "position": "Colombo è coinvolto in una situazione arbitrale difficile, definita 'abisso'.",
+      "polarity": "neutral",
+      "claim_id": "e90641ad-3529-4e5a-997c-7cb3a90572da",
+      "video_id": "y9heMgps0Ww",
+      "segment_id": "s2",
+      "target_entity": "Colombo",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Colombo è coinvolto in una situazione arbitrale difficile, definita 'abisso'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Insomma, Colombo in campo e abisso al",
+          "start_sec": 30.119,
+          "end_sec": 59.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "decisione arbitrale",
+        "direzione gara"
+      ]
+    }
+  ]
+}

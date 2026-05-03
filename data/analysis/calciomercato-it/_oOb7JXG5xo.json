@@ -1,0 +1,412 @@
+{
+  "video_id": "_oOb7JXG5xo",
+  "analyzed_at": "2026-04-24T08:45:12.396502+00:00",
+  "metadata": {
+    "title": "Gol IRREGOLARE e rigore contro, due 'aiutini' alla JUVENTUS? || MOVIOLA SERIE A",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-20T09:32:26+00:00"
+  },
+  "summary": "Il video analizza alcune decisioni arbitrali controverse emerse durante il weekend di Serie A, con particolare attenzione alla partita Juventus-Bologna. L'autore, tramite l'esperto Maurizio Russo, sostiene che la gestione arbitrale sia stata complessivamente positiva, ma evidenzia episodi discutibili come il contatto tra Locatelli e Freiler, ritenuto non falloso, e un gol di Jonathan David che avrebbe potuto essere annullato per spinta irregolare e posizione di fuorigioco. Viene sottolineato che il VAR non è intervenuto perché il gol è stato segnato in un momento successivo all'azione irregola",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "fuorigioco",
+      "relevance": "high"
+    },
+    {
+      "name": "rigore",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "contatto",
+      "relevance": "low"
+    },
+    {
+      "name": "mano",
+      "relevance": "low"
+    },
+    {
+      "name": "contrasto",
+      "relevance": "low"
+    },
+    {
+      "name": "goal_disallowed",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Juventus",
+      "position": "Il weekend arbitrale è stato positivo ma con episodi controversi che coinvolgono la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "28e22ad0-8da2-4c81-b189-2174d40f981a",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il weekend arbitrale è stato positivo ma con episodi controversi che coinvolgono la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "settimana a tutti. Maurizio, weekend tutto sommato positivo, diciamo così, gestito bene da parte della classe arbitrale... qualche discussione... soprattutto ci sei tu, Maurizio, a cui chiedo di analizzare soprattutto quello che è successo in Juventus Bologna",
+          "start_sec": 0.44,
+          "end_sec": 75.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "episodi controversi",
+        "juventus"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Locatelli",
+      "position": "Locatelli ha solo poggiato le braccia su Freiler senza trattenere.",
+      "polarity": "neutral",
+      "claim_id": "d13a05f9-ab59-4dcb-ad38-dcd417797f21",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s1",
+      "target_entity": "Locatelli",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Locatelli ha solo poggiato le braccia su Freiler senza trattenere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'unico contatto è appunto questo con le braccia di Locadelli, ma non sta trattenendo.",
+          "start_sec": 73.04,
+          "end_sec": 140.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contatto",
+        "braccia",
+        "Locatelli"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Freiler",
+      "position": "Freiler è caduto senza protestare il rigore e ha segnalato di non essersi buttato.",
+      "polarity": "neutral",
+      "claim_id": "e8a4fdaf-25b2-42d6-9c7f-f53badbab174",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s1",
+      "target_entity": "Freiler",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Freiler è caduto senza protestare il rigore e ha segnalato di non essersi buttato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Freer si alza e non solo non protesta per il possibile rigore, ma fa un gesto all'arbitro, come dire, alza le mani, come dire, eh non mi sono buttato",
+          "start_sec": 73.04,
+          "end_sec": 140.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "simulazione",
+        "protesta",
+        "Freiler"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Bologna",
+      "position": "Alcuni giocatori del Bologna hanno protestato per il rigore contro la loro squadra.",
+      "polarity": "negative",
+      "claim_id": "6c78223c-6963-4e54-9675-190dbdfb1397",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alcuni giocatori del Bologna hanno protestato per il rigore contro la loro squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qualche compagno di FR del Bologna in protesta per il rigore",
+          "start_sec": 73.04,
+          "end_sec": 140.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "proteste",
+        "Bologna",
+        "rigore"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Jonathan David",
+      "position": "Jonathan David spinge con entrambe le mani sulla schiena di Miranda prima di segnare un gol potenzialmente irregolare.",
+      "polarity": "negative",
+      "claim_id": "d5db6903-8f25-4f2c-b9c0-a43ef5e00d62",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s2",
+      "target_entity": "Jonathan David",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Jonathan David spinge con entrambe le mani sulla schiena di Miranda prima di segnare un gol potenzialmente irregolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fidatevi se vedono entrambe le mani di Jonathan David sulla schiena di Miranda, eh si appoggia, spinge anche",
+          "start_sec": 138.64,
+          "end_sec": 225.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fuorigioco",
+        "gol",
+        "var",
+        "moviola"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Jonathan David",
+      "position": "Se il gol di Jonathan David fosse stato segnato subito, il VAR probabilmente avrebbe annullato la rete.",
+      "polarity": "negative",
+      "claim_id": "91699717-9e64-4760-ae81-dbbebbcb5620",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s2",
+      "target_entity": "Jonathan David",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se il gol di Jonathan David fosse stato segnato subito, il VAR probabilmente avrebbe annullato la rete.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me se avesse segnato subito qui eh David eh sarebbe intervenuto il VAR per farlo annullare questo gol",
+          "start_sec": 138.64,
+          "end_sec": 225.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "gol",
+        "moviola"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Kelly",
+      "position": "Kelly è in posizione di fuorigioco geografico ma non impedisce la visuale al portiere né influenza i difensori.",
+      "polarity": "neutral",
+      "claim_id": "894ffd81-9214-4d53-8f2e-c4f078fe0e59",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s2",
+      "target_entity": "Kelly",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kelly è in posizione di fuorigioco geografico ma non impedisce la visuale al portiere né influenza i difensori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è in posizione geografica di fuorigioco Kelly, ma primo non impatta sulla visuale del portiere e secondo sull'eventuale giocata dei difensori del del Bologna",
+          "start_sec": 138.64,
+          "end_sec": 225.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fuorigioco",
+        "moviola"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Juventus",
+      "position": "Il controllo VAR sui gol è stato troppo breve per la Juventus.",
+      "polarity": "negative",
+      "claim_id": "db4d54b1-e444-44dc-a3ff-376676dd2ff5",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il controllo VAR sui gol è stato troppo breve per la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se il check c'è stato e c'è su tutti i gol è stato troppo breve",
+          "start_sec": 220.64,
+          "end_sec": 291.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "gol",
+        "controle"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Juventus",
+      "position": "La mancata verifica VAR sulla spinta è probabilmente dovuta al proseguimento dell'azione.",
+      "polarity": "negative",
+      "claim_id": "96d97773-7948-4d67-b3de-68017fe3571b",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La mancata verifica VAR sulla spinta è probabilmente dovuta al proseguimento dell'azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il fatto che poi l'azione sia andata avanti probabilmente ha portato a non eh verificare quel quell'episodio",
+          "start_sec": 220.64,
+          "end_sec": 291.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "azione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Kelly",
+      "position": "Kelly fa un leggero movimento con il piede verso il pallone ma è distante sia dal pallone che dal portiere.",
+      "polarity": "neutral",
+      "claim_id": "6115ba9e-9535-4343-bd5a-793f109aa664",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s4",
+      "target_entity": "Kelly",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kelly fa un leggero movimento con il piede verso il pallone ma è distante sia dal pallone che dal portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kelly fa un leggero movimento col piede ad andare a cercare il pallone, però è distante sia dal pallone che dal portiere",
+          "start_sec": 289.68,
+          "end_sec": 362.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "movimento",
+        "fuorigioco",
+        "refereeing"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Kelly",
+      "position": "Kelly è in posizione di fuorigioco ma non ci sono gli estremi per annullare il gol per fuorigioco.",
+      "polarity": "positive",
+      "claim_id": "9bb5db3a-df90-44aa-966d-f16135a570e8",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s4",
+      "target_entity": "Kelly",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kelly è in posizione di fuorigioco ma non ci sono gli estremi per annullare il gol per fuorigioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non cerca di intervenire per evitare che il pallone vada a Kelly che è in fuorigioco, quindi eh non ci sono gli estremi per annullare per fuorigioco",
+          "start_sec": 289.68,
+          "end_sec": 362.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fuorigioco",
+        "intervento",
+        "refereeing"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "David",
+      "position": "Non è stata verificata la spinta iniziale di David su Miranda.",
+      "polarity": "negative",
+      "claim_id": "62927eda-7023-453b-9d34-c73a75ae1f13",
+      "video_id": "_oOb7JXG5xo",
+      "segment_id": "s3",
+      "target_entity": "David",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Non è stata verificata la spinta iniziale di David su Miranda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non sulle sull'iniziale spinta di David su Miranda",
+          "start_sec": 220.64,
+          "end_sec": 291.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "spinta",
+        "VAR"
+      ]
+    }
+  ]
+}

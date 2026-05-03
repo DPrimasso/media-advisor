@@ -1,0 +1,395 @@
+{
+  "video_id": "v6KipaGU1lI",
+  "analyzed_at": "2026-04-24T08:51:46.482034+00:00",
+  "metadata": {
+    "title": "MILAN, TANTO RUMORE PER NULLA. LA LISTA DI ALLEGRI. DUELLO JUVE-INTER PER UN CENTRALE. LE MOSSE GASP",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-20T04:45:04+00:00"
+  },
+  "summary": "Il video si concentra sull’analisi della situazione attuale del Milan, tra risultati di campo e strategie di mercato, con particolare attenzione al ruolo di Massimiliano Allegri e al futuro della squadra. L’autore sostiene che le voci su un possibile addio di Allegri al Milan siano infondate, evidenziando invece la sua volontà di restare e rafforzare la rosa per puntare allo scudetto e a una buona performance in Champions League. Viene inoltre sottolineata la fedeltà di Rabiot, protagonista nella vittoria contro il Verona, e la necessità per il Milan di acquisire nuovi rinforzi, in particolare",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "giovane",
+      "relevance": "low"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "la nazionale italiana",
+      "position": "La situazione del commissario tecnico della nazionale italiana potrebbe cambiare dopo le elezioni del 22 giugno.",
+      "polarity": "neutral",
+      "claim_id": "1a1c22eb-aede-400a-9b97-df6482f9110b",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s2",
+      "target_entity": "la nazionale italiana",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La situazione del commissario tecnico della nazionale italiana potrebbe cambiare dopo le elezioni del 22 giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "magari tra il 22 giugno quando ci saranno le nuove elezioni si saprà il nuovo presidente, tutto può accadere",
+          "start_sec": 48.52,
+          "end_sec": 74.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan ha vinto a Verona nella 33ª giornata di campionato.",
+      "polarity": "positive",
+      "claim_id": "0bfd2cbc-c252-4a6e-adbf-560ab454af7c",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan ha vinto a Verona nella 33ª giornata di campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan vince a Verona",
+          "start_sec": 1.199,
+          "end_sec": 26.880000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "campionato",
+        "vittoria"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Rabot",
+      "position": "Rabot ha mostrato fedeltà al Milan e rimarrà nella squadra rossonera.",
+      "polarity": "positive",
+      "claim_id": "8037bb1f-70f9-44e6-91bb-dac288ad9270",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s1",
+      "target_entity": "Rabot",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rabot ha mostrato fedeltà al Milan e rimarrà nella squadra rossonera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Arabi giurio fedeltà al Milan, rimarrà in maglia rossonera il centrocampista della nazionale francese, un rabot che ha sposato il progetto Milan",
+          "start_sec": 24.439,
+          "end_sec": 49.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fedeltà",
+        "club",
+        "lealtà squadra"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Massimiliano Allegri",
+      "position": "Le notizie su Allegri nel mirino del Real Madrid sono considerate infondate.",
+      "polarity": "neutral",
+      "claim_id": "3bb4754f-1bdb-45ee-9b87-78d203ffe100",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s1",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le notizie su Allegri nel mirino del Real Madrid sono considerate infondate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando c'erano le prime pagine che strombazzavano Allegri nel mirino del Real Madrid e vi dicevo, guardate che Florentino Perz, sì, magari in passato",
+          "start_sec": 24.439,
+          "end_sec": 49.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "voci",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Arbedò",
+      "position": "Arbedò è in discussione ma non ci sono trattative in corso al momento.",
+      "polarity": "neutral",
+      "claim_id": "1f850aea-4e30-464e-bdba-e15fb717a7a7",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s2",
+      "target_entity": "Arbedò",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Arbedò è in discussione ma non ci sono trattative in corso al momento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Arbedò è in discussione, ma non mi risulta che ci siano trattative in corso",
+          "start_sec": 48.52,
+          "end_sec": 74.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Allegri ha dichiarato di non avere contatti con la Federazione attualmente.",
+      "polarity": "neutral",
+      "claim_id": "c9850241-d471-4756-96d1-406fc8243dc9",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s2",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri ha dichiarato di non avere contatti con la Federazione attualmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri che ha detto nessun contatto con la Federazione",
+          "start_sec": 48.52,
+          "end_sec": 74.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan è attualmente secondo in classifica a pari punti col Napoli",
+      "polarity": "neutral",
+      "claim_id": "f6c480e7-d126-4bf9-accd-6cdbe63a0344",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è attualmente secondo in classifica a pari punti col Napoli",
+      "evidence_quotes": [
+        {
+          "quote_text": "la qualificazione Champions del Milan, che in questo momento è seconda, a pari punti col Napoli",
+          "start_sec": 72.84,
+          "end_sec": 98.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "statazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan deve lottare per lo scudetto fino alla fine nella prossima stagione.",
+      "polarity": "positive",
+      "claim_id": "c4e4b35d-967b-4d17-9bb5-10117a200daa",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan deve lottare per lo scudetto fino alla fine nella prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan deve rinforzarsi, cioè deve prendere la rincorsa dalla Champions per poi lottare davvero per lo scudetto sino alla fine.",
+          "start_sec": 95.72,
+          "end_sec": 122.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "lotta",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Rabiot",
+      "position": "Rabiot era stato sondato da un club prima di giocare con il Milan.",
+      "polarity": "neutral",
+      "claim_id": "68c510bc-8b03-451b-b291-d52a5cddff83",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s0",
+      "target_entity": "Rabiot",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rabiot era stato sondato da un club prima di giocare con il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un rabbiot che era stato sondato dal Club",
+          "start_sec": 1.199,
+          "end_sec": 26.880000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "interesse"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan affronta la Juve domenica prossima in un turno decisivo per la classifica",
+      "polarity": "neutral",
+      "claim_id": "2e4525fe-7fca-47be-ac3c-4d6c3b7155c8",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Milan affronta la Juve domenica prossima in un turno decisivo per la classifica",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è Milan Juve domenica prossima",
+          "start_sec": 72.84,
+          "end_sec": 98.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "match"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "la nazionale italiana",
+      "position": "Oggi non ci sono novità sulla situazione della nazionale italiana.",
+      "polarity": "neutral",
+      "claim_id": "bb2bb24e-b034-4a79-8608-678a5e8a1eb3",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s2",
+      "target_entity": "la nazionale italiana",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Oggi non ci sono novità sulla situazione della nazionale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma oggi non ci sono",
+          "start_sec": 48.52,
+          "end_sec": 74.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Rabot",
+      "position": "Rabot ha un buon rapporto con l'allenatore Massimiliano Allegri.",
+      "polarity": "positive",
+      "claim_id": "6558afb3-5bb7-45dc-a62f-a41e97f73356",
+      "video_id": "v6KipaGU1lI",
+      "segment_id": "s1",
+      "target_entity": "Rabot",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rabot ha un buon rapporto con l'allenatore Massimiliano Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Rabot che ha un rapporto stadionale con Massimiliano Allegri",
+          "start_sec": 24.439,
+          "end_sec": 49.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rapporto",
+        "allenatore",
+        "leadership"
+      ]
+    }
+  ]
+}

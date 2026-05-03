@@ -1,0 +1,318 @@
+{
+  "video_id": "s0qC12L3xW8",
+  "analyzed_at": "2026-04-27T07:14:45.191368+00:00",
+  "metadata": {
+    "title": "Arbitraggio SCANDALOSO di Turpin in Bosnia-Italia #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video analizza l'arbitraggio controverso di Turpin nella finale dei play-off Bosnia-Italia, evidenziando come le decisioni dell'arbitro e del VAR abbiano penalizzato la nazionale italiana. L'autore critica la disparità di giudizio su alcuni falli e sottolinea errori chiave, come il mancato intervento sul gol della Bosnia, che avrebbe potuto essere annullato. Nonostante il miracolo di Donnarumma, l'Italia è stata esclusa dai Mondiali a causa di un arbitraggio definito \"scandaloso\". La conclusione principale è che l'operato arbitrale ha influito negativamente sul risultato finale, compromette",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "errori arbitrali",
+      "relevance": "high"
+    },
+    {
+      "name": "mani sulla palla",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "medium"
+    },
+    {
+      "name": "gioco scorretto",
+      "relevance": "medium"
+    },
+    {
+      "name": "mondiali",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Turpin",
+      "position": "L'arbitro Turpin ha condizionato negativamente l'Italia nella finale dei play-off con decisioni decisive.",
+      "polarity": "negative",
+      "claim_id": "4ea7d546-46ba-46cb-aeed-ad441b722a6d",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s0",
+      "target_entity": "Turpin",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro Turpin ha condizionato negativamente l'Italia nella finale dei play-off con decisioni decisive.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Turpen elimina l'Italia dei Mondiali, l'arbitro francese e il connazionale Brisar al VAR, decisivi in almeno due occasioni nella finale dei play-off persa ai rigori in Bosnia",
+          "start_sec": 0.12,
+          "end_sec": 29.240000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Brisar",
+      "position": "Il VAR Brisar ha influenzato negativamente il risultato favorevole all'Italia nei play-off contro la Bosnia.",
+      "polarity": "negative",
+      "claim_id": "f47053f2-188c-4566-b32d-df8ab23ded1e",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s0",
+      "target_entity": "Brisar",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR Brisar ha influenzato negativamente il risultato favorevole all'Italia nei play-off contro la Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'arbitro francese e il connazionale Brisar al VAR, decisivi in almeno due occasioni nella finale dei play-off persa ai rigori in Bosnia",
+          "start_sec": 0.12,
+          "end_sec": 29.240000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bastoni",
+      "position": "Bastoni ha commesso un fallo che è stato giudicato in modo differente rispetto a Muovic.",
+      "polarity": "neutral",
+      "claim_id": "722c465a-603a-40f5-a29e-38459e47584a",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s0",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni ha commesso un fallo che è stato giudicato in modo differente rispetto a Muovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Due pesi e due misure sui falli di Bastoni e Muovic",
+          "start_sec": 0.12,
+          "end_sec": 29.240000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Memic",
+      "position": "L'arbitro ha fermato Memic lanciato a rete rispettando i quattro elementi del Docs nelle decisioni arbitrali.",
+      "polarity": "neutral",
+      "claim_id": "8231ebfc-948e-451b-bdde-b1366e2a85cd",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s0",
+      "target_entity": "Memic",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro ha fermato Memic lanciato a rete rispettando i quattro elementi del Docs nelle decisioni arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ci sono tutti e quattro gli elementi del Docs quando ferma Memic lanciato a rete",
+          "start_sec": 0.12,
+          "end_sec": 29.240000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "esterno del Cagliari",
+      "position": "L'esterno del Cagliari non allunga il pallone, è errato definirlo cosi.",
+      "polarity": "negative",
+      "claim_id": "d608f0c0-65a8-4788-a0c0-51801bdb2d96",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s1",
+      "target_entity": "esterno del Cagliari",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'esterno del Cagliari non allunga il pallone, è errato definirlo cosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dire che l'esterno del Cagliari si allunga il pallone è una forzatura",
+          "start_sec": 27.56,
+          "end_sec": 56.919999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "mani sul pallone"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "giocatore Bosnia",
+      "position": "Il giocatore della Bosnia tocca il pallone con la mano sulla schiena di Mancini.",
+      "polarity": "negative",
+      "claim_id": "490ffae2-318a-4b86-a85e-4b3a06e47d34",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s1",
+      "target_entity": "giocatore Bosnia",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore della Bosnia tocca il pallone con la mano sulla schiena di Mancini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si appoggia sulla schiena di Mancini, ma tocca il pallone con la mano",
+          "start_sec": 27.56,
+          "end_sec": 56.919999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mani sulla palla",
+        "fallo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Donnarumma",
+      "position": "Donnarumma ha fatto un miracolo prima del tapin di Tabakovic.",
+      "polarity": "positive",
+      "claim_id": "77b5dbce-71e9-49fd-9ac8-861865d2b2ea",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s1",
+      "target_entity": "Donnarumma",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Donnarumma ha fatto un miracolo prima del tapin di Tabakovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se Donnarumma non avesse fatto il miracolo prima del tapin di Tabakovic",
+          "start_sec": 27.56,
+          "end_sec": 56.919999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "parata"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Turpin",
+      "position": "Il VAR ha preferito non richiamare l'arbitro Turpin nella partita Bosnia-Italia.",
+      "polarity": "negative",
+      "claim_id": "cb4d6898-507c-4c74-bd80-796be7c5a77e",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s2",
+      "target_entity": "Turpin",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR ha preferito non richiamare l'arbitro Turpin nella partita Bosnia-Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Così invece la decisione era in mano al VAR che ha preferito non richiamare Turpen",
+          "start_sec": 54.68,
+          "end_sec": 63.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "VAR",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Turpin",
+      "position": "Turpin ha fatto un arbitraggio scandaloso in Bosnia-Italia.",
+      "polarity": "negative",
+      "claim_id": "18219216-7b62-4710-9a7a-e7d7c18f8c0d",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s1",
+      "target_entity": "Turpin",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Turpin ha fatto un arbitraggio scandaloso in Bosnia-Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Arbitraggio SCANDALOSO di Turpin in Bosnia-Italia",
+          "start_sec": 27.56,
+          "end_sec": 56.919999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "errori arbitrali"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia potrebbe essere fuori dai mondiali a causa della mancata chiamata VAR.",
+      "polarity": "negative",
+      "claim_id": "286f0a8a-e03b-4ff9-a460-e7df5d701222",
+      "video_id": "s0qC12L3xW8",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Italia potrebbe essere fuori dai mondiali a causa della mancata chiamata VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E allora addio mondiali.",
+          "start_sec": 54.68,
+          "end_sec": 63.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Italia",
+        "mondiali",
+        "VAR"
+      ]
+    }
+  ]
+}

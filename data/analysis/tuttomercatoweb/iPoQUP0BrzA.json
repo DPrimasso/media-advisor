@@ -1,0 +1,409 @@
+{
+  "video_id": "iPoQUP0BrzA",
+  "analyzed_at": "2026-04-24T08:40:09.711933+00:00",
+  "metadata": {
+    "title": "TMWRadio - Brambati il caso Gasperini- Ranieri, il futuro di Conte. Allegri e Vlahovic",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-16T16:06:41+00:00"
+  },
+  "summary": "Il video analizza il caso mediatico legato a Gasperini e l'intervento di Ranieri, giudicato intempestivo e inopportuno dall'autore, che ritiene che la squadra debba invece concentrarsi sulle ultime sei partite della stagione. Viene sottolineata la discrezione storica di Ranieri rispetto alla comunicazione più esplicita e diretta di Gasperini, il quale non si è mai tirato indietro nel manifestare le sue opinioni pubblicamente. L'autore ipotizza che, data la personalità forte di Gasperini, non sia possibile per lui assumere un ruolo di secondo allenatore, e critica Ranieri per aver fatto dichiar",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "episodio storico",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Quello è il primo anno dopo 40 anni che Gasperini ha allenato.",
+      "polarity": "neutral",
+      "claim_id": "9c62e437-5927-4600-aa39-dffb464247ba",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s2",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Quello è il primo anno dopo 40 anni che Gasperini ha allenato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo è il primo anno dopo 40 anni che ha allenato",
+          "start_sec": 244.12,
+          "end_sec": 326.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenamento",
+        "anno",
+        "ripresa"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Ranieri",
+      "position": "L'intervento di Ranieri è stato giudicato intempestivo e inopportuno",
+      "polarity": "negative",
+      "claim_id": "96613a55-267f-43f4-8d24-901a37253c38",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s0",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'intervento di Ranieri è stato giudicato intempestivo e inopportuno",
+      "evidence_quotes": [
+        {
+          "quote_text": "intervento di Ranieri è stato intempestivo perché non era il tempo giusto",
+          "start_sec": 0.32,
+          "end_sec": 143.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intervista",
+        "media",
+        "tempismo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La squadra deve concentrarsi sulle ultime sei partite restanti della stagione",
+      "polarity": "positive",
+      "claim_id": "c4e1324b-888d-4174-979b-637a9863c644",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra deve concentrarsi sulle ultime sei partite restanti della stagione",
+      "evidence_quotes": [
+        {
+          "quote_text": "Oggi ti devi concentrare assolutamente su quello che deve fare la squadra nelle ultime sei partite",
+          "start_sec": 0.32,
+          "end_sec": 143.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "concentrazione",
+        "stagione",
+        "performance"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gasperini",
+      "position": "Non è chiaro il motivo della situazione riguardante Gasperini",
+      "polarity": "neutral",
+      "claim_id": "cd7ab72e-e7e4-4b45-ad75-31a69590fc70",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s0",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Non è chiaro il motivo della situazione riguardante Gasperini",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nessuno sa niente, nessuno ci ha capito niente del perché di questo perché",
+          "start_sec": 0.32,
+          "end_sec": 143.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "situazione",
+        "incertezza",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Ranieri",
+      "position": "Ranieri ha fatto dichiarazioni mediatiche che un dirigente bravo non dovrebbe fare.",
+      "polarity": "negative",
+      "claim_id": "73887b80-f575-4ce0-ade6-14c9b2594623",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s1",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri ha fatto dichiarazioni mediatiche che un dirigente bravo non dovrebbe fare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lui non è più allenatore e e lui ha fatto un qualcosa che un dirigente bravo non dovrebbe fare",
+          "start_sec": 141.519,
+          "end_sec": 245.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "leadership",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Ranieri",
+      "position": "Ranieri è sempre stato un allenatore molto discreto nelle sue conferenze stampa.",
+      "polarity": "neutral",
+      "claim_id": "55b95ccb-70d5-448b-a001-0749bca82c75",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s1",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri è sempre stato un allenatore molto discreto nelle sue conferenze stampa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri che come ho detto prima, che è sempre stato molto discreto nel senso molto tirato su quello che doveva dire in conferenza",
+          "start_sec": 141.519,
+          "end_sec": 245.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gasperini",
+      "position": "Gasperini ha sempre avuto una comunicazione mediatica diversa e più esplicita rispetto a Ranieri.",
+      "polarity": "neutral",
+      "claim_id": "2bbdb866-3b3f-42f3-833b-cdfc7099552d",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s1",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha sempre avuto una comunicazione mediatica diversa e più esplicita rispetto a Ranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini è uno che invece tutto l'anno, ma non tutto l'anno, tutta la sua carriera è stato tutto un altro tipo di eh diciamo così mediaticità rispetto a Ranieri",
+          "start_sec": 141.519,
+          "end_sec": 245.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gasperini",
+      "position": "Gasperini ha sempre fatto dichiarazioni pubbliche e non si è mai tirato indietro.",
+      "polarity": "neutral",
+      "claim_id": "ef23a8e3-e2a9-41de-b668-db1abc4dfcd9",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s1",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha sempre fatto dichiarazioni pubbliche e non si è mai tirato indietro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini che è uno che in tutti le i club ha sempre detto la sua, non si è mai tirato indietro, ha sempre fatto insomma delle delle dichiarazioni anche",
+          "start_sec": 141.519,
+          "end_sec": 245.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini non può svolgere un ruolo di allenatore dietro un altro allenatore a causa della sua personalità.",
+      "polarity": "positive",
+      "claim_id": "e12dfe4e-eeab-491c-80b6-54ef9b91e1b6",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s2",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini non può svolgere un ruolo di allenatore dietro un altro allenatore a causa della sua personalità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con un uomo come Gasperini può sicuramente eh non essere, non so come dire, allenatore dietro un allenatore",
+          "start_sec": 244.12,
+          "end_sec": 326.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "personalità",
+        "ruolo"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ranieri",
+      "position": "Ranieri ha dichiarato che quel anno il percorso di mercato della società prevedeva difficoltà e un anno da sudare.",
+      "polarity": "neutral",
+      "claim_id": "8bbd2304-33e8-42ed-ab31-31f108b4add6",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s2",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri ha dichiarato che quel anno il percorso di mercato della società prevedeva difficoltà e un anno da sudare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri era stato molto chiaro su quello che era il percorso di mercato della società e le difficoltà che c'erano un anno dove si doveva sudare",
+          "start_sec": 244.12,
+          "end_sec": 326.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "difficoltà",
+        "strategia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Massimo Brambati",
+      "position": "Massimo Brambati critica la denominazione 'direttore generale' come potenzialmente fuorviante.",
+      "polarity": "neutral",
+      "claim_id": "5e61b0df-c362-4813-ab8c-4827456b8eb8",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s3",
+      "target_entity": "Massimo Brambati",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Massimo Brambati critica la denominazione 'direttore generale' come potenzialmente fuorviante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa denominazione che tu dici \"Vabbè, ma Stefano, questa denominaisor\", Massimo Brambati direttore direttore generale che che vuol dire l' Cioè advisor è un po' Cioè che vuol dire tutto non vuol dire niente.",
+          "start_sec": 323.4,
+          "end_sec": 462.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "denominazione",
+        "media",
+        "terminologia"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Stefano",
+      "position": "Stefano poteva scegliere di far giocare un altro giocatore ma non lo ha fatto.",
+      "polarity": "neutral",
+      "claim_id": "684e5192-008e-4b96-b42c-1ba13a6ccd43",
+      "video_id": "iPoQUP0BrzA",
+      "segment_id": "s3",
+      "target_entity": "Stefano",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Stefano poteva scegliere di far giocare un altro giocatore ma non lo ha fatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Invece, mettere quello, poteva leva quell'altro, quell'altro [risate] perché non l'ha fatto giocare? Dai.",
+          "start_sec": 323.4,
+          "end_sec": 462.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "lineup_prediction",
+        "performance"
+      ]
+    }
+  ]
+}

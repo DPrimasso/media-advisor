@@ -1,0 +1,409 @@
+{
+  "video_id": "awCUa7r2kU4",
+  "analyzed_at": "2026-04-24T08:38:29.194996+00:00",
+  "metadata": {
+    "title": "TMW News: Europa dolorosa per le italiane. E Gasperini ritrova proprio ora l’Atalanta",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-17T14:13:53+00:00"
+  },
+  "summary": "Il video analizza la recente eliminazione dalle competizioni europee di Bologna e Fiorentina, evidenziando una crisi profonda del calcio italiano. L'autore, attraverso l'intervento di Rosario Rampanti, sottolinea come il problema risieda in carenze strutturali quali un settore giovanile debole, scelte errate di giocatori e inferiorità atletica rispetto a nazioni come Francia, Inghilterra e Germania, soprattutto per la mancanza di calciatori fisicamente più forti e veloci. Si evidenzia inoltre la necessità di un cambio radicale ai vertici della federazione, ritenuti responsabili di una stagnazi",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "evento",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "crisi",
+      "relevance": "low"
+    },
+    {
+      "name": "salvezza",
+      "relevance": "low"
+    },
+    {
+      "name": "europa",
+      "relevance": "low"
+    },
+    {
+      "name": "motivazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha vinto contro il Crystal Palace ma è stata eliminata dall'Europa per il 3-0 subito all'andata.",
+      "polarity": "neutral",
+      "claim_id": "16669f50-325b-49fa-b9ce-4246400f753b",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha vinto contro il Crystal Palace ma è stata eliminata dall'Europa per il 3-0 subito all'andata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha giocato con grande determinazione vincendo anche contro il Crystal Palace, però non è riuscita a ribaltare il 3-0 con cui era stata sconfitta all'andata in Inghilterra, appunto, dal Crystal Palace.",
+          "start_sec": 13.04,
+          "end_sec": 109.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "Europa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha subito una sconfitta clamorosa 4-0 contro l'Astonvilla in Inghilterra.",
+      "polarity": "negative",
+      "claim_id": "8da452c7-0e1e-4daa-b1cb-619a059fa86c",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha subito una sconfitta clamorosa 4-0 contro l'Astonvilla in Inghilterra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bologna che è andata incontro a una sconfitta clamorosa in Inghilterra, 4-0 per Astonvilla",
+          "start_sec": 106.68,
+          "end_sec": 178.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sconfitta",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano è in crisi per motivi come settore giovanile, scelta dei giocatori e qualità atletiche.",
+      "polarity": "negative",
+      "claim_id": "726f38d8-7b9d-48d3-a56f-7d41fb5d0aee",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano è in crisi per motivi come settore giovanile, scelta dei giocatori e qualità atletiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con l'eliminazione del Bologna e della Fiorentina dalle coppe europee si è avuta la conferma che il calcio italiano è ridotto ai minimi termini. Calcio italiano in crisi per tanti motivi, a cominciare dal settore giovanile, a cominciare dalla scelta dei giocatori e per finire alla alle qualità fisiche e atletiche",
+          "start_sec": 13.04,
+          "end_sec": 109.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "crisi",
+        "settore giovanile",
+        "qualità atletica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatori di colore",
+      "position": "L'Italia scarseggia di giocatori di colore atleticamente e fisicamente forti come Francia, Inghilterra e Germania.",
+      "polarity": "negative",
+      "claim_id": "6413bcea-afd6-4679-8984-6edf0bfacfe6",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s0",
+      "target_entity": "giocatori di colore",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia scarseggia di giocatori di colore atleticamente e fisicamente forti come Francia, Inghilterra e Germania.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Noi scarseggiamo di questo tipo di giocatori, quindi tuci contro queste squadre. Parlo di giocatori che sono bravissimi nella corsa, molto veloci, hanno il passo rapido, muscolarmente, evidentemente",
+          "start_sec": 13.04,
+          "end_sec": 109.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "confronto",
+        "atletica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calciatori bianchi",
+      "position": "I calciatori bianchi hanno qualità diverse muscolatura rispetto ad altri giocatori.",
+      "polarity": "positive",
+      "claim_id": "6e0a4e26-7f8d-4c85-9073-e6308fa72e0d",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s1",
+      "target_entity": "calciatori bianchi",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I calciatori bianchi hanno qualità diverse muscolatura rispetto ad altri giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno più qualità delle delle muscolature che hanno i calciatori bianchi",
+          "start_sec": 106.68,
+          "end_sec": 178.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "qualità",
+        "muscolatura"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "giocatori che saltano l'uomo",
+      "position": "I giocatori che saltano l'uomo devono essere posizionati sulle fasce laterali.",
+      "polarity": "neutral",
+      "claim_id": "a134bf5d-9b4f-4683-8d01-99cca5b2920a",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s1",
+      "target_entity": "giocatori che saltano l'uomo",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "I giocatori che saltano l'uomo devono essere posizionati sulle fasce laterali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questi tipo di giocatori che saltano l'uomo vanno posizionati principalmente sulle fasce laterali",
+          "start_sec": 106.68,
+          "end_sec": 178.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "posizionamento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "calcio italiano",
+      "position": "Il problema del calcio italiano parte dai vertici, è necessario cambiare la leadership.",
+      "polarity": "negative",
+      "claim_id": "fcd811c4-978b-43bf-b199-2db95cd4235f",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s1",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il problema del calcio italiano parte dai vertici, è necessario cambiare la leadership.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tutto il calcio italiano parte dalla cima, il pesce puzza dalla dalla testa sempre e quindi lì c'è bisogno, adesso c'è il momento di cambiare i vertici",
+          "start_sec": 106.68,
+          "end_sec": 178.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "crisi"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "federazione",
+      "position": "Nella federazione italiana non c'è meritocrazia ma troppe situazioni privilegiate e potere immutabile.",
+      "polarity": "negative",
+      "claim_id": "b3974042-2ac2-4b26-ae1b-9147a07ddc24",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s2",
+      "target_entity": "federazione",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Nella federazione italiana non c'è meritocrazia ma troppe situazioni privilegiate e potere immutabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Italia non c'è meritocrazia, ma c'è situazioni troppo privilegiate di quelli che sono a al potere",
+          "start_sec": 176.68,
+          "end_sec": 244.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "meritocrazia",
+        "potere",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha giocato con il cuore in una prestazione convincente ma non è riuscita a ribaltare il risultato con il Crystal Palace.",
+      "polarity": "neutral",
+      "claim_id": "0d29707e-b592-46c8-8455-7afaa3b3fe84",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha giocato con il cuore in una prestazione convincente ma non è riuscita a ribaltare il risultato con il Crystal Palace.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Una Fiorentina che è stata anche protagonista di una prestazione convincente, però era francamente dura poter ribaltare il risultato. partita, la Fiorentina ha giocato con il cuore.",
+          "start_sec": 242.799,
+          "end_sec": 313.11999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "spirito"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Fiorentina",
+      "position": "Le scelte di ruolo della Fiorentina non sono coerenti con il gioco che dovrebbe avere la squadra.",
+      "polarity": "negative",
+      "claim_id": "a72cd3eb-004c-478e-b7f3-1e42eeef72f7",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le scelte di ruolo della Fiorentina non sono coerenti con il gioco che dovrebbe avere la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono state fatte delle scelte in determinati ruoli che secondo me non sono con il gioco che dovrebbe avere una squadra, no?",
+          "start_sec": 242.799,
+          "end_sec": 313.11999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scelta",
+        "ruolo",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna è stato travolto dall'Astonville in Europa.",
+      "polarity": "negative",
+      "claim_id": "c3b29842-f1a2-4adb-bcbf-722b144a853d",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna è stato travolto dall'Astonville in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Bologna che è stato travolto dall'Astonville.",
+          "start_sec": 13.04,
+          "end_sec": 109.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "crisi",
+        "Europa"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "federazione",
+      "position": "Le regole della federazione sono ferme da troppi decenni e necessitano di evoluzione.",
+      "polarity": "negative",
+      "claim_id": "c87e62c9-d9b2-4b7b-b502-d330e2e8a924",
+      "video_id": "awCUa7r2kU4",
+      "segment_id": "s2",
+      "target_entity": "federazione",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le regole della federazione sono ferme da troppi decenni e necessitano di evoluzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è una situazione ferma ferma da troppi decenni",
+          "start_sec": 176.68,
+          "end_sec": 244.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "regola",
+        "evoluzione",
+        "media"
+      ]
+    }
+  ]
+}

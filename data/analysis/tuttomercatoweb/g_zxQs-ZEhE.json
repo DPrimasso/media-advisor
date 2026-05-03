@@ -1,0 +1,382 @@
+{
+  "video_id": "g_zxQs-ZEhE",
+  "analyzed_at": "2026-04-26T11:43:42.192593+00:00",
+  "metadata": {
+    "title": "TMW News: Conte e le altre panchine della prossima stagione. Nico Paz e il futuro al Real Madrid",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-09T12:56:33+00:00"
+  },
+  "summary": "Il video si concentra sulle possibili evoluzioni delle panchine della Serie A per la prossima stagione, con particolare attenzione al futuro di Antonio Conte al Napoli. L'autore sottolinea che Conte ha un contratto fino al 2027 ma ha aperto alla possibilità di allenare la nazionale italiana, ipotesi che potrebbe portare a un'interruzione anticipata del rapporto con il club partenopeo. Tra gli scenari più probabili vi sono quindi l'addio di Conte per la chiamata della nazionale o altre motivazioni personali, mentre un rinnovo con il Napoli appare meno probabile. Inoltre, si evidenzia come Alleg",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "portiere",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Antonio Conte ha un anno di contratto con il Napoli fino al 30 giugno 2027.",
+      "polarity": "neutral",
+      "claim_id": "b6f582b1-0461-40fe-8b0c-4ab981087e35",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte ha un anno di contratto con il Napoli fino al 30 giugno 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Antonio Conte ha un altro anno di contratto con il Napoli fino al 30 giugno del 2027",
+          "start_sec": 12.679,
+          "end_sec": 101.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Antonio Conte ha aperto alla possibilità di allenare la nazionale italiana dalla prossima stagione.",
+      "polarity": "positive",
+      "claim_id": "de1af2f9-cfe7-4bc1-9489-19c9c4fb9219",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Antonio Conte ha aperto alla possibilità di allenare la nazionale italiana dalla prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte che ha aperto alla nazionale e quindi ci sono a tuo parere buone possibilità di vederlo sopra la panchina azzurra a partire dalla prossima stagione",
+          "start_sec": 12.679,
+          "end_sec": 101.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Vincenzo Italiano",
+      "position": "Vincenzo Italiano è considerato il primo nome papabile per allenare il Napoli.",
+      "polarity": "positive",
+      "claim_id": "4bbd3c15-bf39-468f-b038-b666bc12845b",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s3",
+      "target_entity": "Vincenzo Italiano",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Vincenzo Italiano è considerato il primo nome papabile per allenare il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io credo che Italiano possa essere il primo nome per De Laurentis",
+          "start_sec": 264.12,
+          "end_sec": 351.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Conte potrebbe decidere di interrompere il rapporto con il Napoli per una chiamata della nazionale.",
+      "polarity": "neutral",
+      "claim_id": "aa5400d4-e45a-46bf-adb2-02b71e4a1e50",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte potrebbe decidere di interrompere il rapporto con il Napoli per una chiamata della nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui decida insieme al presidente stesso eh di interrompere il rapporto per una chiamata della nazionale",
+          "start_sec": 12.679,
+          "end_sec": 101.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha progetti per gli anni a venire che potrebbero non essere compatibili con l'addio di Conte.",
+      "polarity": "neutral",
+      "claim_id": "0108e3c5-e2fe-4535-a434-818000a69016",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha progetti per gli anni a venire che potrebbero non essere compatibili con l'addio di Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbe essere non compatibile con i progetti che il Napoli in questo momento ha intenzione di fare negli anni a venire",
+          "start_sec": 12.679,
+          "end_sec": 101.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte è considerato un candidato serio per la presidenza federale.",
+      "polarity": "neutral",
+      "claim_id": "efa0f024-dbeb-4d43-bb28-30342400e7b2",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Conte è considerato un candidato serio per la presidenza federale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se fosse il presidente federale un profilo alla Conte o come lui lo prenderebbe in considerazione",
+          "start_sec": 99.399,
+          "end_sec": 179.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "federazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Allegri è percepito come un candidato forte per la nazionale.",
+      "polarity": "neutral",
+      "claim_id": "fce3a4a8-38ac-4702-8458-13f00701cddf",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Allegri è percepito come un candidato forte per la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è anche il nome di Allegri, secondo me, molto forte per quanto riguarda la nostra nazionale",
+          "start_sec": 99.399,
+          "end_sec": 179.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte probabilmente non rimarrà a Napoli oltre un'altra stagione.",
+      "polarity": "neutral",
+      "claim_id": "db8bf7ea-5521-4417-be8f-0f334c49dc94",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte probabilmente non rimarrà a Napoli oltre un'altra stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa avventura di Conte al Napoli non sia comunque eh di a lunga gittato, cioè o al massimo si fa veramente un altro anno",
+          "start_sec": 99.399,
+          "end_sec": 179.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte potrebbe lasciare il Napoli a causa di differenze con la società.",
+      "polarity": "neutral",
+      "claim_id": "bbf51edb-5b15-4c0e-9199-6b5169e0c09c",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte potrebbe lasciare il Napoli a causa di differenze con la società.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte magari ha desideri che non siano quelli in questo momento che possano combaciare totalmente con quelli della società Napoli",
+          "start_sec": 177.239,
+          "end_sec": 266.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Se Conte lascia il Napoli, Italiano è considerato un possibile nuovo allenatore della squadra.",
+      "polarity": "neutral",
+      "claim_id": "54868ef4-bd48-4248-8e73-ec281890ab48",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se Conte lascia il Napoli, Italiano è considerato un possibile nuovo allenatore della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se l'editoriale dovesse andare ora eh in rete, no, fosse in questo momento in visione di tutti, il mio titolo sarebbe eh il punto sul futuro di Conte, se va via, occhio a italiano",
+          "start_sec": 177.239,
+          "end_sec": 266.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha una squadra tecnicamente forte e ancora in corsa per lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "073979ce-ff29-41c6-a9ac-d43502e250c7",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha una squadra tecnicamente forte e ancora in corsa per lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è una squadra che ha una sua solidità, una squadra che comunque ancora ha le possibilità e le chance di essere campione d'Italia",
+          "start_sec": 177.239,
+          "end_sec": 266.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roberto De Laurentis",
+      "position": "A De Laurentis piace l'allenatore Italiano per il progetto Napoli.",
+      "polarity": "positive",
+      "claim_id": "b1a47445-b319-40df-9712-5888d5abd711",
+      "video_id": "g_zxQs-ZEhE",
+      "segment_id": "s2",
+      "target_entity": "Roberto De Laurentis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "A De Laurentis piace l'allenatore Italiano per il progetto Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un allenatore che piace a De Laurentis",
+          "start_sec": 177.239,
+          "end_sec": 266.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "video_id": "-wXbn7p3qEA",
+  "analyzed_at": "2026-04-24T08:49:55.901167+00:00",
+  "metadata": {
+    "title": "INTER, GIÀ DECISE DUE MOSSE PER L’ESTATE. DUELLO NAPOLI-ROMA PER UN GRANDE TALENTO. E IL CAGLIARI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video si concentra principalmente sul calciomercato e sulle strategie delle squadre italiane, con particolare attenzione al Cagliari e all’Inter. L’autore evidenzia il buon lavoro di Fabio Pisacane, giovane allenatore del Cagliari, che sta ottenendo risultati positivi con una squadra molto giovane e composta da molti italiani; il club è intenzionato a rinnovargli il contratto, soprattutto in caso di salvezza. Inoltre, si sottolinea l’importanza di Calhanoglu per l’Inter, il cui ritorno ha rilanciato la squadra in campionato e in Coppa Italia, confermando il suo ruolo di leader nonostante l’",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovane",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Cagliari",
+      "position": "Il Cagliari ha un allenatore giovane con contratto in scadenza il 30 giugno.",
+      "polarity": "positive",
+      "claim_id": "d9dcd6d5-08ae-43df-96ba-2dd3a5a5848f",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s1",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Cagliari ha un allenatore giovane con contratto in scadenza il 30 giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un allenatore giovane che è in scadenza di contratto il 30 giugno",
+          "start_sec": 29.359,
+          "end_sec": 54.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Cagliari",
+      "position": "Il Cagliari è intenzionato a rinnovare un giocatore fino al 2028.",
+      "polarity": "neutral",
+      "claim_id": "26c8593b-ccaa-4d71-94e7-6b050ef52406",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s2",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Cagliari è intenzionato a rinnovare un giocatore fino al 2028.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi scadenza 2028 per andare avanti insieme e si va verso il rinnovo, o meglio il Cagliari è intenzionato a rinnovarlo",
+          "start_sec": 52.039,
+          "end_sec": 84.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto",
+        "rinnovo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cagliari",
+      "position": "Cagliari è una delle squadre più giovani del campionato.",
+      "polarity": "positive",
+      "claim_id": "e77792ae-9ebe-41ad-b9e5-3b15e1c270f3",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s0",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cagliari è una delle squadre più giovani del campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che gioca con una delle squadre più giovani del campionato",
+          "start_sec": 1.04,
+          "end_sec": 31.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Cagliari",
+      "position": "Il rinnovo del contratto di lavoro dell'allenatore del Cagliari scatterà automaticamente se la squadra si salva.",
+      "polarity": "positive",
+      "claim_id": "0f1104fd-74e4-4a53-a2f7-88d7a90f7d39",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s1",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il rinnovo del contratto di lavoro dell'allenatore del Cagliari scatterà automaticamente se la squadra si salva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in caso di salvezza il Cagliari è vicino a mantenere la categoria, scatterà il rinnovo automatico per un altro anno",
+          "start_sec": 29.359,
+          "end_sec": 54.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "salvezza",
+        "rinnovo contrattuale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Cagliari",
+      "position": "I nuovi soci americani del Cagliari e il presidente Giulini sono contenti del lavoro dell'allenatore Pisae.",
+      "polarity": "positive",
+      "claim_id": "4f418a78-f4c9-41fd-ae98-d3a5de53a448",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s1",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "I nuovi soci americani del Cagliari e il presidente Giulini sono contenti del lavoro dell'allenatore Pisae.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i nuovi soci americani presidente Giulini sono molto contenti del lavoro di Pisae",
+          "start_sec": 29.359,
+          "end_sec": 54.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dirigenza",
+        "allenatore",
+        "società"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore Pisae",
+      "position": "Il Cagliari è pronto a offrire un rinnovo biennale a Pisae a fine campionato.",
+      "polarity": "positive",
+      "claim_id": "4b3c78b7-1056-4d2a-b100-a6cd5eaf0f89",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s1",
+      "target_entity": "allenatore Pisae",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Cagliari è pronto a offrire un rinnovo biennale a Pisae a fine campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono pronti addirittura a offrirgli a fine campionato il rinnovo biennale",
+          "start_sec": 29.359,
+          "end_sec": 54.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "rinnovo"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Pisaegi",
+      "position": "Società di metà classifica potrebbero essere interessate a Pisaegi.",
+      "polarity": "neutral",
+      "claim_id": "ae7635d5-845d-4dec-b7f3-ce4663fbc761",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s2",
+      "target_entity": "Pisaegi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Società di metà classifica potrebbero essere interessate a Pisaegi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qualche società più importante di metà classifica possa anche pensare a Pisaegi",
+          "start_sec": 52.039,
+          "end_sec": 84.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "interesse",
+        "trasferimento"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è quasi matematicamente in finale di Coppa Italia.",
+      "polarity": "positive",
+      "claim_id": "cbf3d6cb-3624-4615-a15a-1ce49ffe7c52",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è quasi matematicamente in finale di Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter che è arrivata in finale di Coppa Italia, manca praticamente solo l'aritmetica",
+          "start_sec": 52.039,
+          "end_sec": 84.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "finale",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter non ha vinto una partita senza Charanogu per un mese.",
+      "polarity": "positive",
+      "claim_id": "16c48cee-5d12-4314-85d0-061283f2f7c6",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non ha vinto una partita senza Charanogu per un mese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter quando è rimasta senza Charanogu in quel mese lì non ha vinto una partita",
+          "start_sec": 81.159,
+          "end_sec": 111.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cagliari",
+      "position": "Cagliari schiera spesso almeno sei italiani in campo.",
+      "polarity": "neutral",
+      "claim_id": "565e1f45-6314-4f98-8b6b-e46f3d90bbeb",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s0",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cagliari schiera spesso almeno sei italiani in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sempre 671 almeno di italiani in campo",
+          "start_sec": 1.04,
+          "end_sec": 31.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pisacendo",
+      "position": "Pisacendo sta facendo un ottimo lavoro nel suo ruolo.",
+      "polarity": "positive",
+      "claim_id": "0f4b2e4a-184b-46e5-888f-6151dd635e9c",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s2",
+      "target_entity": "Pisacendo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Pisacendo sta facendo un ottimo lavoro nel suo ruolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche se Pisacendo un ottimo lavoro",
+          "start_sec": 52.039,
+          "end_sec": 84.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fabio Pisacane",
+      "position": "Fabio Pisacane sta facendo bene come allenatore a Cagliari.",
+      "polarity": "positive",
+      "claim_id": "9e80da3b-8b66-4655-9691-bb6c1f65989e",
+      "video_id": "-wXbn7p3qEA",
+      "segment_id": "s0",
+      "target_entity": "Fabio Pisacane",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabio Pisacane sta facendo bene come allenatore a Cagliari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il caso di Fabio Pisacane a Cagliari che gioca con una delle squadre più giovani del campionato",
+          "start_sec": 1.04,
+          "end_sec": 31.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

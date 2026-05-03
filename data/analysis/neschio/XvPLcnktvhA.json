@@ -1,0 +1,405 @@
+{
+  "video_id": "XvPLcnktvhA",
+  "analyzed_at": "2026-04-24T07:55:48.153668+00:00",
+  "metadata": {
+    "title": "UNA SETTIMANA SURREALE: CHE AUTOGOL‼️ ROMA-ATALANTA 1-1",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza una settimana surreale per la Roma, caratterizzata da dichiarazioni controverse di Ranieri nel pieno della lotta per un posto in Champions League. L'autore sottolinea come la Roma abbia recentemente mostrato un rendimento offensivo eccezionale, segnando otto gol, mentre l'Atalanta, pur riconosciuta come una squadra forte, abbia commesso errori tattici, come la sostituzione di Ederson all'80° minuto, forse distratta dal prossimo impegno di Coppa Italia. Viene inoltre evidenziato come le risposte di Gasperini siano state più sotto i riflettori del solito, con uno stile di gesti",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "proprietà",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "Roma scored 8 goals in a sensational way recently.",
+      "polarity": "positive",
+      "claim_id": "a2dca69a-0fa5-474e-8a65-c8e06e24d50d",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Roma scored 8 goals in a sensational way recently.",
+      "evidence_quotes": [
+        {
+          "quote_text": "because for me Rome scored 8 goals in a sensational way",
+          "start_sec": 46.8,
+          "end_sec": 80.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Atalanta",
+      "position": "Atalanta made a tactical error by taking off Ederson at the 80th minute when they wanted to win.",
+      "polarity": "negative",
+      "claim_id": "fcc845e1-c099-488c-a47a-7943a1e88e94",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta made a tactical error by taking off Ederson at the 80th minute when they wanted to win.",
+      "evidence_quotes": [
+        {
+          "quote_text": "At the 80th minute, if you want to try to win, you certainly don't take Ederson, never in your life",
+          "start_sec": 86.42,
+          "end_sec": 120.34,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore tattico",
+        "decisione allenatore"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Ranieri",
+      "position": "Ranieri has made ongoing controversial declarations during a crucial week in the Champions League race.",
+      "polarity": "neutral",
+      "claim_id": "7c68a002-199b-4695-88fd-eae3864ce8fb",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s0",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri has made ongoing controversial declarations during a crucial week in the Champions League race.",
+      "evidence_quotes": [
+        {
+          "quote_text": "those declarations by Ranieri, I repeat, do not end there. It is not that you say the declaration one day, no, a week, a week, and",
+          "start_sec": 0.26,
+          "end_sec": 46.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dichiarazioni",
+        "media",
+        "champions league"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Roma",
+      "position": "Roma is involved in decisive matches for the Champions League race.",
+      "polarity": "neutral",
+      "claim_id": "4f8f36d3-625d-4c5e-8c4f-ba76437ac492",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Roma is involved in decisive matches for the Champions League race.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In the midst of the race for the Champions League, if you play decisive matches for the season",
+          "start_sec": 0.26,
+          "end_sec": 46.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "champions league",
+        "partite decisive"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta appeared deliberately distracted due to focusing on their next Coppa Italia game.",
+      "polarity": "negative",
+      "claim_id": "cf0813d7-8fb7-4583-832f-e80974d9aab8",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta appeared deliberately distracted due to focusing on their next Coppa Italia game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "So Atalanta was deliberately distracted also from the next game, from the Coppa Italia",
+          "start_sec": 86.42,
+          "end_sec": 120.34,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "distrazione",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gian Piero Gasperini",
+      "position": "Questa volta le risposte di Gasperini sono state più sotto i riflettori rispetto al solito.",
+      "polarity": "positive",
+      "claim_id": "0fc4df20-f99c-4a99-b462-33dbbb9f7597",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s6",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Questa volta le risposte di Gasperini sono state più sotto i riflettori rispetto al solito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini's answers, this time, seemed to me much more in the spotlight",
+          "start_sec": 162.64,
+          "end_sec": 201.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "comunicazione",
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini's management style is both a weakness and a strong point for his team.",
+      "polarity": "positive",
+      "claim_id": "b8c44014-08c4-44ee-8b4d-7e069b28f69c",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s7",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Gasperini's management style is both a weakness and a strong point for his team.",
+      "evidence_quotes": [
+        {
+          "quote_text": "because then you have to live with it annually, with Gasperini, because I'm convinced that Gasperini stresses you, that it's a weakness, but it's also his strong point",
+          "start_sec": 201.28,
+          "end_sec": 239.60000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "gestione",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lanieri",
+      "position": "Lanieri made a crucial mistake at a decisive moment in the match.",
+      "polarity": "negative",
+      "claim_id": "a3ed35a8-8f27-41b8-9bc0-c1e045bc58c7",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s7",
+      "target_entity": "Lanieri",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Lanieri made a crucial mistake at a decisive moment in the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "So, for a person like Lanieri to fall into the trap at the decisive moment, for me, it's really a great rebus",
+          "start_sec": 201.28,
+          "end_sec": 239.60000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "errore",
+        "momento decisivo"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini is skilled at developing young players and increasing the team's value.",
+      "polarity": "positive",
+      "claim_id": "40355284-794f-4b28-b1d9-25148eb6ef10",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s9",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini is skilled at developing young players and increasing the team's value.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini's skill, Gasperini kept us in mind in the pre -match conferences, it's just that, to know how to value these young people, to make the team's value grow",
+          "start_sec": 242.72,
+          "end_sec": 292.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "giovane",
+        "valore squadra"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "Roma has a job to do in improving the team and valuing young players.",
+      "polarity": "neutral",
+      "claim_id": "b43477c3-ff22-46c4-8e18-a02088e77094",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s9",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Roma has a job to do in improving the team and valuing young players.",
+      "evidence_quotes": [
+        {
+          "quote_text": "there's a job to do for Roma",
+          "start_sec": 242.72,
+          "end_sec": 292.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "squadra",
+        "giovane"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "Atalanta is recognized as a strong team.",
+      "polarity": "positive",
+      "claim_id": "5ab4d51f-2edb-4c4c-b2a1-3de3b7a6882b",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s1",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta is recognized as a strong team.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atalanta, a strong team",
+          "start_sec": 46.8,
+          "end_sec": 80.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Elenawi",
+      "position": "Elenawi started the match despite being young.",
+      "polarity": "neutral",
+      "claim_id": "0c346437-c2ae-4017-bad4-fe4528fe68b3",
+      "video_id": "XvPLcnktvhA",
+      "segment_id": "s9",
+      "target_entity": "Elenawi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Elenawi started the match despite being young.",
+      "evidence_quotes": [
+        {
+          "quote_text": "but the same Elenawi who starts",
+          "start_sec": 242.72,
+          "end_sec": 292.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "prestazione",
+        "giovane"
+      ]
+    }
+  ]
+}

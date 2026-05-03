@@ -1,0 +1,365 @@
+{
+  "video_id": "ReCsm56VUxk",
+  "analyzed_at": "2026-04-28T07:33:32.650744+00:00",
+  "metadata": {
+    "title": "Gravina non si dimette dopo Bosnia-Italia: \"Ho chiesto a Gattuso di rimanere\" #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video affronta la situazione della nazionale italiana di calcio dopo la sconfitta con la Bosnia, con il presidente Gravina che conferma di non voler dimettersi e di aver chiesto a Gattuso di rimanere come allenatore. L’autore sottolinea la crescita significativa della squadra negli ultimi mesi e il riconoscimento del mister verso i giocatori definiti \"eroici\", pur evidenziando alcune criticità nello spogliatoio. Si evidenzia inoltre che il Consiglio federale sarà convocato per una valutazione politica interna, lasciando aperta la possibilità di ulteriori decisioni sul futuro tecnico e dirig",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "high"
+    },
+    {
+      "name": "spogliatoio",
+      "relevance": "medium"
+    },
+    {
+      "name": "politica",
+      "relevance": "medium"
+    },
+    {
+      "name": "norma",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Il mister (Gasperini) ha definito i suoi ragazzi eroici dopo la partita.",
+      "polarity": "positive",
+      "claim_id": "b10cd9fd-7a60-4d73-86e7-4f2b7ccc0248",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s1",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il mister (Gasperini) ha definito i suoi ragazzi eroici dopo la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il mister li ha definiti eroici, hanno hanno dato tutto quello che potevano dare",
+          "start_sec": 41.239,
+          "end_sec": 84.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini è stato chiesto di rimanere come guida tecnica dei ragazzi.",
+      "polarity": "positive",
+      "claim_id": "8f596f28-7c06-47fe-a099-e49ec5c4b456",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s1",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini è stato chiesto di rimanere come guida tecnica dei ragazzi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gli ho chiesto di rimanere, almeno per quanto riguarda lui, per quanto riguarda Gigi la guida tecnica di questi ragazzi",
+          "start_sec": 41.239,
+          "end_sec": 84.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra italiana",
+      "position": "La squadra ha perso la partita mostrando una certa mancanza di sintonia nello spogliatoio.",
+      "polarity": "negative",
+      "claim_id": "d2fbaef9-d995-45f3-908a-7af8c6292d0f",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s1",
+      "target_entity": "squadra italiana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha perso la partita mostrando una certa mancanza di sintonia nello spogliatoio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Avete anche perso, voglio dire, un momento di grande sintonia all'interno dello spogliatoio con i nostri ragazzi",
+          "start_sec": 41.239,
+          "end_sec": 84.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "performance",
+        "spogliatoio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Consiglio federale",
+      "position": "Il Consiglio federale farà una valutazione politica sulla situazione.",
+      "polarity": "neutral",
+      "claim_id": "fb3535a3-8cf2-4692-bc36-33a9da42dcf3",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s2",
+      "target_entity": "Consiglio federale",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Consiglio federale farà una valutazione politica sulla situazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è una sede deputata a fare la valutazione del Consiglio federale",
+          "start_sec": 80.92,
+          "end_sec": 119.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "politica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina ha convocato un consiglio federale per la settimana prossima.",
+      "polarity": "neutral",
+      "claim_id": "7876a209-1674-47e2-986e-e33e05cb6278",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha convocato un consiglio federale per la settimana prossima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho già fissato i miei collaboratori di convocare un consiglio federale per la settimana prossima",
+          "start_sec": 80.92,
+          "end_sec": 119.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "politica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina distingue tra parte tecnica da salvaguardare e parte politica da valutare.",
+      "polarity": "neutral",
+      "claim_id": "7b27ce46-79c0-4327-8c9e-7d6527e53021",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina distingue tra parte tecnica da salvaguardare e parte politica da valutare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la parte politica, quindi la parte tecnica, per me da salvaguardare al 100%",
+          "start_sec": 80.92,
+          "end_sec": 119.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "politica",
+        "tecnica"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "PS Pinto",
+      "position": "PS Pinto è coinvolto in un esercizio valutativo recente.",
+      "polarity": "neutral",
+      "claim_id": "341e98d3-45ff-4b52-906a-648af6ce3533",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s3",
+      "target_entity": "PS Pinto",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "PS Pinto è coinvolto in un esercizio valutativo recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a PS Pinto, quindi su questo questa questo esercizio al quale io sono particolarmente abituato negli ultimi tempi",
+          "start_sec": 116.079,
+          "end_sec": 136.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "media",
+        "esercizio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "consiglio",
+      "position": "Le valutazioni saranno fatte dal consiglio come previsto dalla norma.",
+      "polarity": "neutral",
+      "claim_id": "5f546c3e-1b7b-46c9-b4c4-1000bf250047",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s3",
+      "target_entity": "consiglio",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le valutazioni saranno fatte dal consiglio come previsto dalla norma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le valutazioni credo che spettano di diritto e per rispetto anche del di quanto previsto nella norma al consiglio lo faremo con Consiglio",
+          "start_sec": 116.079,
+          "end_sec": 136.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "leadership",
+        "norma"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina ha chiesto a Gattuso di rimanere alla guida tecnica.",
+      "polarity": "positive",
+      "claim_id": "2fdf718c-d78f-4f82-ab61-49e01c7627b7",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha chiesto a Gattuso di rimanere alla guida tecnica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho chiesto a Gattuso di rimanere",
+          "start_sec": 80.92,
+          "end_sec": 119.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "tecnica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "rino carluccio",
+      "position": "Rino Carluccio è considerato un grande allenatore.",
+      "polarity": "positive",
+      "claim_id": "6fa8fb55-0acd-4b89-9dca-6cb5ac990433",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s0",
+      "target_entity": "rino carluccio",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rino Carluccio è considerato un grande allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che sia stato un grande allenatore, è un grande",
+          "start_sec": 0.24,
+          "end_sec": 45.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "jugo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale italiana",
+      "position": "La nazionale italiana ha avuto una crescita incredibile negli ultimi mesi.",
+      "polarity": "positive",
+      "claim_id": "670f16bf-ee95-4f8a-bac9-3117be223127",
+      "video_id": "ReCsm56VUxk",
+      "segment_id": "s0",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana ha avuto una crescita incredibile negli ultimi mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questi mesi hanno avuto una crescita incredibile",
+          "start_sec": 0.24,
+          "end_sec": 45.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "crescita",
+        "prestazione",
+        "nazionale"
+      ]
+    }
+  ]
+}

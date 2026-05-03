@@ -1,0 +1,406 @@
+{
+  "video_id": "v_GHUdBl_Vc",
+  "analyzed_at": "2026-04-25T11:10:17.745277+00:00",
+  "metadata": {
+    "title": "DOPPIO Colpo JUVE a ZERO e svolta sul portiere",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulla situazione attuale della Juventus, sia in campionato che sul mercato estivo. L'autore sottolinea come la Juve abbia consolidato la propria posizione in classifica, con il destino del quinto posto ancora nelle sue mani a cinque giornate dalla fine, e arrivi a una sfida difficile contro il Milan in un buon momento di forma, reduce da tre vittorie consecutive. Sul fronte mercato, la Juventus sta pianificando strategie importanti in vista della qualificazione alla Champions League, con particolare attenzione a colpi a parametro zero e alla questione portieri; inoltre, s",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "parametro zero",
+      "relevance": "medium"
+    },
+    {
+      "name": "ingaggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    },
+    {
+      "name": "rapporti con agenti",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus ha allungato in classifica sul quinto posto nell'ultimo turno di campionato.",
+      "polarity": "positive",
+      "claim_id": "29893e2d-5493-4464-9f27-6cac7f821547",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha allungato in classifica sul quinto posto nell'ultimo turno di campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nell'ultimo turno di campionato la Juve ha allungato in classifica sul quinto posto",
+          "start_sec": 1.36,
+          "end_sec": 35.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "Roma e Como sono a cinque punti dalla Juventus in classifica a cinque giornate dalla fine.",
+      "polarity": "positive",
+      "claim_id": "c45c7ac4-944d-4725-a5ed-792e0b3601bd",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Roma e Como sono a cinque punti dalla Juventus in classifica a cinque giornate dalla fine.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ora Roma e Como sono a cinque punti, quindi a cinque giornate alla fine",
+          "start_sec": 1.36,
+          "end_sec": 35.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "Il destino del quinto posto è interamente nelle mani della Juventus a cinque giornate dalla fine.",
+      "polarity": "positive",
+      "claim_id": "c5ba9777-d00f-4df5-90b6-96c4bc39dc9f",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il destino del quinto posto è interamente nelle mani della Juventus a cinque giornate dalla fine.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi a cinque giornate alla fine il destino è completamente nelle mani della Juve",
+          "start_sec": 1.36,
+          "end_sec": 35.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como giocherà a Genova contro la squadra di De Rossi.",
+      "polarity": "neutral",
+      "claim_id": "939c57e4-a184-4746-9f71-a85d1563cd3e",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como giocherà a Genova contro la squadra di De Rossi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como è di scena a Genova contro la squadra di De Rossi",
+          "start_sec": 34.06,
+          "end_sec": 63.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "impegno",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La Roma è impegnata a Bologna per la rivincita della partita di Europa League.",
+      "polarity": "neutral",
+      "claim_id": "bdc7afd6-817b-4f2b-ad7d-cf60a9f205b0",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma è impegnata a Bologna per la rivincita della partita di Europa League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma è impegnata al Bologna per quella che è la rivincita delle del match di Europa League",
+          "start_sec": 34.06,
+          "end_sec": 63.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "impegno",
+        "partita",
+        "rivincita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juve arriva da tre vittorie consecutive che fanno ben sperare.",
+      "polarity": "positive",
+      "claim_id": "aabd80c4-6edb-4425-9db8-688ad5bdb625",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juve arriva da tre vittorie consecutive che fanno ben sperare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "reduce da tre vittorie di fila e quindi questo fa ben sperare",
+          "start_sec": 60.039,
+          "end_sec": 97.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "performance"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juve sta pianificando strategie di mercato per l'estate in vista della qualificazione alla League.",
+      "polarity": "neutral",
+      "claim_id": "4c00f46b-4f7d-479f-ba4a-a75147b30da3",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juve sta pianificando strategie di mercato per l'estate in vista della qualificazione alla League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juve che però è concentratissima anche sul sul mercato perché si avvicina si avvicina la League, questo significa più soldi e quindi si iniziano a studiare le strategie migliori da adottare in estate",
+          "start_sec": 60.039,
+          "end_sec": 97.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "finanza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Yashari",
+      "position": "La Juventus ha mostrato interesse per Yashari, come già anticipato a gennaio dal sito calciomercato.it.",
+      "polarity": "neutral",
+      "claim_id": "98083412-f451-4274-b626-12a75df2c3ed",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s3",
+      "target_entity": "Yashari",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha mostrato interesse per Yashari, come già anticipato a gennaio dal sito calciomercato.it.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando si parlava di gatti, ecco, la Juventus aveva già mostrato comunque un interesse per gli Asciari che ora viene rilanciato proprio in queste ore",
+          "start_sec": 94.96,
+          "end_sec": 130.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Tra Milan e Juventus rimane attivo un fronte di mercato da monitorare.",
+      "polarity": "neutral",
+      "claim_id": "61dc0eea-510a-48a0-a470-c69450a8917e",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tra Milan e Juventus rimane attivo un fronte di mercato da monitorare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "affronterà il Milan con cui c'è sempre comunque un fronte di mercato da tener d'occhio",
+          "start_sec": 94.96,
+          "end_sec": 130.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Yashari",
+      "position": "Yashari è un vecchio pallino della Juventus.",
+      "polarity": "neutral",
+      "claim_id": "2a6bb030-f032-4697-8d1a-5b95a0094529",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s3",
+      "target_entity": "Yashari",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Yashari è un vecchio pallino della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dal presupposto che è un vecchio pallino",
+          "start_sec": 94.96,
+          "end_sec": 130.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juve attraversa un buon momento prima di giocare a Milano.",
+      "polarity": "positive",
+      "claim_id": "6e57f775-8bce-44df-8a99-2e72229f50f9",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve attraversa un buon momento prima di giocare a Milano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juve a Milano avrà un bel banco di prova, però attraverso un buon momento",
+          "start_sec": 34.06,
+          "end_sec": 63.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "momentum",
+        "partita"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juve sta valutando acquisti a parametro zero, in particolare per la posizione di portiere.",
+      "polarity": "neutral",
+      "claim_id": "b7476360-0af2-4617-8fce-7b6c3a4ee209",
+      "video_id": "v_GHUdBl_Vc",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juve sta valutando acquisti a parametro zero, in particolare per la posizione di portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo ecco delle novità importanti soprattutto su dei nomi a parametro zero, sulla questione portieri molto importante",
+          "start_sec": 60.039,
+          "end_sec": 97.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "portiere"
+      ]
+    }
+  ]
+}

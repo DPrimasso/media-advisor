@@ -1,0 +1,391 @@
+{
+  "video_id": "42pWys-jacs",
+  "analyzed_at": "2026-04-24T15:59:58.228938+00:00",
+  "metadata": {
+    "title": "ALLEGRI-CONTE: IL FUOCO NEMICO E LA STAMPA AMICA. GASP, ORA È CHIARO? GILA E LA RINCORSA MILAN🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza vari temi calcistici, focalizzandosi su allenatori, squadre e mercato, con particolare attenzione alla solidità tattica del Sassuolo e alle prospettive di mercato legate a Grosso. L’autore sottolinea la modernità e l’efficacia del gioco del Sassuolo, evidenziando come le operazioni di mercato possano portare a plusvalenze future. Inoltre, Pedullà esprime una posizione critica verso la gestione federale e la copertura mediatica, definendo la situazione attuale poco trasparente e carente di riforme. Conclude che la lotta scudetto è ormai chiusa a favore dell’",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "lotta per lo scudetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "riforma",
+      "relevance": "low"
+    },
+    {
+      "name": "convocazione",
+      "relevance": "low"
+    },
+    {
+      "name": "saluto",
+      "relevance": "low"
+    },
+    {
+      "name": "politica federale",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha vinto contro il Cagliari e oggi può salire a +9 in classifica.",
+      "polarity": "positive",
+      "claim_id": "deebdca7-a935-4488-940b-f035d88bf71e",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha vinto contro il Cagliari e oggi può salire a +9 in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In serata l'Inter ha fatto quello che doveva fare contro il Cagliari. Oggi è +1, stasera può tornare a +9",
+          "start_sec": 69.24,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo interpreta il calcio in modo assolutamente moderno con metodi e concezione propositivi.",
+      "polarity": "positive",
+      "claim_id": "5bc6c05b-8816-45be-8e28-9f6cbc8204de",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s1",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo interpreta il calcio in modo assolutamente moderno con metodi e concezione propositivi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "al Sassuolo, al modo di interpretare il calcio, un modo assolutamente moderno, con metodi moderni, con concezione del calcio propositivo",
+          "start_sec": 34.28,
+          "end_sec": 71.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio moderno",
+        "metodi",
+        "concentrazione offensiva"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Sassuolo",
+      "position": "Le operazioni di mercato del Sassuolo possono generare plusvalenze in futuro.",
+      "polarity": "positive",
+      "claim_id": "70f4b87f-ef93-4ecb-8375-8cb689e8a7a4",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s1",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Le operazioni di mercato del Sassuolo possono generare plusvalenze in futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "operazioni di mercato illuminate che possono pagare in futuro per eventuali plusvalenze",
+          "start_sec": 34.28,
+          "end_sec": 71.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "plusvalenze"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fàbregas",
+      "position": "Fàbregas ha riconosciuto che il Como poteva subire una sconfitta più pesante.",
+      "polarity": "negative",
+      "claim_id": "0112aec7-604e-4696-b5c7-e6a7f6c1f2a0",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s1",
+      "target_entity": "Fàbregas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fàbregas ha riconosciuto che il Como poteva subire una sconfitta più pesante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabregas che ha chiesto scusi ha detto \"Potevamo prenderne anche cinque\"",
+          "start_sec": 34.28,
+          "end_sec": 71.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "sconfitta"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Bologna",
+      "position": "Il Bologna deve decidere sulla posizione di Italiano.",
+      "polarity": "neutral",
+      "claim_id": "2358d1c5-237a-4c10-9512-ccc2363c1e18",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s2",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna deve decidere sulla posizione di Italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dobbiamo aspettare cosa deciderà il Bologna con Italiano",
+          "start_sec": 69.24,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "Inter è considerata già sicura nella lotta scudetto prima della partita contro Roma.",
+      "polarity": "positive",
+      "claim_id": "fd2978f0-2358-48a6-8bee-26f252d50696",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter è considerata già sicura nella lotta scudetto prima della partita contro Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una lotta a scudetto che dal mio punto di vista per chi ha avuto la possibilità di ascoltare i miei video era già chiusa prima di Inter-Roma",
+          "start_sec": 99.72,
+          "end_sec": 135.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "lotta"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Patrick Clivert",
+      "position": "Patrick Clivert viene salutato nel video come omaggio.",
+      "polarity": "neutral",
+      "claim_id": "56126d1e-9389-4d38-804c-c36fb1bf91e7",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s0",
+      "target_entity": "Patrick Clivert",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Patrick Clivert viene salutato nel video come omaggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Salutiamo Patrick Clivert",
+          "start_sec": 0.16,
+          "end_sec": 38.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "saluto",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Tur",
+      "position": "Tur è riferito come Touram difensore ai tempi del Parma.",
+      "polarity": "neutral",
+      "claim_id": "aceded70-b9e0-4df3-9b64-6cc4efd9117c",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s0",
+      "target_entity": "Tur",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tur è riferito come Touram difensore ai tempi del Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tur, il Touram difensore ai tempi del Parma",
+          "start_sec": 0.16,
+          "end_sec": 38.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "profilo",
+        "media"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina deve ancora decidere su Vanoli.",
+      "polarity": "neutral",
+      "claim_id": "15f9463a-b2bd-429f-8550-d130bb62cbf0",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina deve ancora decidere su Vanoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dobbiamo aspettare che la Fiorentina sciolga le riserve per Vanoli",
+          "start_sec": 69.24,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Grosso",
+      "position": "Grosso è un allenatore che ha mercato.",
+      "polarity": "neutral",
+      "claim_id": "bfb4b5fb-820f-4cc5-977d-ce81f6db6b7a",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s2",
+      "target_entity": "Grosso",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Grosso è un allenatore che ha mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Grosso è un allenatore che ha mercato",
+          "start_sec": 69.24,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "La squadra ha un aspetto difensivo blindato e un centrocampo importante.",
+      "polarity": "positive",
+      "claim_id": "9966710c-8e8c-49fe-9ef5-88833d38fb8f",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s1",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha un aspetto difensivo blindato e un centrocampo importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con aspetto difensivo blindato, con un centrocampo, secondo me, importante",
+          "start_sec": 34.28,
+          "end_sec": 71.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "centrocampo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Benny Carvone",
+      "position": "Benny Carvone sta facendo molto bene con l'Inter.",
+      "polarity": "positive",
+      "claim_id": "c0e61478-2240-4096-80b9-b1dff5891451",
+      "video_id": "42pWys-jacs",
+      "segment_id": "s0",
+      "target_entity": "Benny Carvone",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Benny Carvone sta facendo molto bene con l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta facendo Benny Carbone molto bene con l'Inter",
+          "start_sec": 0.16,
+          "end_sec": 38.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "squadra"
+      ]
+    }
+  ]
+}

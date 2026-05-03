@@ -1,0 +1,297 @@
+{
+  "video_id": "G5V4QwZF-nQ",
+  "analyzed_at": "2026-04-25T11:11:56.018151+00:00",
+  "metadata": {
+    "title": "L'errore da dilettanti di Vincic in Bayern-Real Madrid #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-16T11:24:51+00:00"
+  },
+  "summary": "Il video analizza un clamoroso errore arbitrale commesso da Vincic durante il quarto di finale di Champions League tra Bayern Monaco e Real Madrid, dove l'arbitro sloveno ha dimenticato di espellere un giocatore già ammonito, influenzando potenzialmente l'esito della partita. Nonostante la sua lunga esperienza internazionale e la selezione per i Mondiali, l'autore critica duramente l'episodio definendolo un errore da dilettanti, sottolineando come un arbitro di tale livello non possa permettersi simili sbagli. L'ipotesi chiave è che, nonostante la carriera in ascesa e il prestigio, Vincic debb",
+  "topics": [
+    {
+      "name": "arbitro",
+      "relevance": "high"
+    },
+    {
+      "name": "champions league",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "errore",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "Il Real Madrid era in vantaggio 3-2 a 5 minuti dal 90º contro il Bayern Monaco.",
+      "polarity": "neutral",
+      "claim_id": "a6b88012-cf29-404f-a27f-f39322c3e114",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s0",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid era in vantaggio 3-2 a 5 minuti dal 90º contro il Bayern Monaco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con i Blancos in vantaggio per 3-2. L'arbitro sloveno si dimostra fiscale nell'estrarre il giallo a Camavinga",
+          "start_sec": 0.16,
+          "end_sec": 30.519000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "partita"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Vincic",
+      "position": "Vincic è un arbitro internazionale che dirige in Champions League da 10 stagioni.",
+      "polarity": "neutral",
+      "claim_id": "ac9b7dfe-e5b0-44f6-8737-9255ab955bb3",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s1",
+      "target_entity": "Vincic",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vincic è un arbitro internazionale che dirige in Champions League da 10 stagioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vincic invece è internazionale e bazzica i campi di Champions da ormai 10 stagioni",
+          "start_sec": 28.24,
+          "end_sec": 61.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "internazionale",
+        "Champions"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Vincic",
+      "position": "L'arbitro Vincic ha dimenticato di ammonire un calciatore durante Bayern Monaco vs Real Madrid.",
+      "polarity": "negative",
+      "claim_id": "fc65ef71-3817-4185-bb45-06f345fb9038",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s0",
+      "target_entity": "Vincic",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro Vincic ha dimenticato di ammonire un calciatore durante Bayern Monaco vs Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma come fa un arbitro a dimenticarsi di aver ammonito un calciatore?",
+          "start_sec": 0.16,
+          "end_sec": 30.519000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "errore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern Monaco vs Real Madrid",
+      "position": "Il match Bayern Monaco vs Real Madrid era un big match di quarti di finale di Champions League.",
+      "polarity": "neutral",
+      "claim_id": "a4bd1571-3339-4fd7-9e65-f380230319ec",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s0",
+      "target_entity": "Bayern Monaco vs Real Madrid",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il match Bayern Monaco vs Real Madrid era un big match di quarti di finale di Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the big match dei quarti di finale di Champions League tra Bayern Monaco e Real Madrid",
+          "start_sec": 0.16,
+          "end_sec": 30.519000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Vincic",
+      "position": "Vincic ha commesso un errore da dilettanti durante Bayern-Real Madrid ammonendo erroneamente un calciatore già ammonito.",
+      "polarity": "negative",
+      "claim_id": "7702cd10-aaf7-4881-866b-61d21b00b5de",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s1",
+      "target_entity": "Vincic",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Vincic ha commesso un errore da dilettanti durante Bayern-Real Madrid ammonendo erroneamente un calciatore già ammonito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calciatore era già ammonito e quindi deve spellerlo. Un'amnesia che cambia la gara",
+          "start_sec": 28.24,
+          "end_sec": 61.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "ammonizione",
+        "Champions"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Ceferin",
+      "position": "L'esordio internazionale di Vincic è avvenuto poco dopo l'elezione di Ceferin a capo della UEFA.",
+      "polarity": "neutral",
+      "claim_id": "c8f71cad-ca07-4798-9304-376eda75be8f",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s1",
+      "target_entity": "Ceferin",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'esordio internazionale di Vincic è avvenuto poco dopo l'elezione di Ceferin a capo della UEFA.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Curiosamente il suo esordio avviene poche settimane dopo l'elezione del connazionale Ceferin a capo della UEFA",
+          "start_sec": 28.24,
+          "end_sec": 61.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esordio",
+        "UEFA",
+        "elezione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Vincic",
+      "position": "Vincic è un arbitro selezionato per i mondiali dopo aver diretto numerose partite in Champions.",
+      "polarity": "neutral",
+      "claim_id": "92ad5a95-de3d-457c-8f75-dd80b63bca11",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s2",
+      "target_entity": "Vincic",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vincic è un arbitro selezionato per i mondiali dopo aver diretto numerose partite in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Collina lo ha selezionato per i mondiali, sperando che Vincic non si dimentichi di prendere l'aereo.",
+          "start_sec": 59.519,
+          "end_sec": 75.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "mondiali"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Vincic",
+      "position": "Vincic è associato a un errore da dilettanti nel match Bayern-Real Madrid.",
+      "polarity": "negative",
+      "claim_id": "a2f894a8-d596-408d-a724-ba999f82fbc8",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s2",
+      "target_entity": "Vincic",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Vincic è associato a un errore da dilettanti nel match Bayern-Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'errore da dilettanti di Vincic in Bayern-Real Madrid",
+          "start_sec": 59.519,
+          "end_sec": 75.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "arbitro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "Il Real Madrid ha avuto nove presenze in questa edizione di Champions League.",
+      "polarity": "neutral",
+      "claim_id": "f68a916f-a6f9-4859-a6b6-f2a8ea22b3e4",
+      "video_id": "G5V4QwZF-nQ",
+      "segment_id": "s2",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid ha avuto nove presenze in questa edizione di Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con nove presenze in questa edizione è l'arbitro che ha diretto finora più partite in Champions",
+          "start_sec": 59.519,
+          "end_sec": 75.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Champions League",
+        "partecipazione"
+      ]
+    }
+  ]
+}

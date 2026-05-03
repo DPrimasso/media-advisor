@@ -1,0 +1,397 @@
+{
+  "video_id": "r_8ZD20ENPc",
+  "analyzed_at": "2026-04-24T15:47:03.481609+00:00",
+  "metadata": {
+    "title": "GASP: CHI VINCE E CHI PERDE. JUVENTUS ATTENTA A DUE NOMI. BONUCCI NON SI DIMETTE E CONSIGLIA🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video analizza la recente vicenda legata a Gasperini, evidenziando come l’allenatore abbia confermato la fiducia della proprietà e smentito conflitti imminenti con Ranieri, ribadendo concetti già noti da dicembre. L’autore sostiene che Gasperini sia il vero vincitore della situazione, mentre chi ha diffuso anticipazioni errate o ha politicizzato la questione, soprattutto a livello mediatico, ne esce sconfitto. Inoltre, si sottolinea la necessità di una collaborazione più equilibrata tra allenatore e direttore sportivo per una gestione efficace. Infine, si menzionano altri temi calcistici co",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "difensore",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "versatilità",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Opinionisti radiofonici",
+      "position": "Opinionisti radiofonici hanno raccontato favole 34 giorni fa.",
+      "polarity": "negative",
+      "claim_id": "ec577c54-77a3-4d68-92fe-9e20f4ead953",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s4",
+      "target_entity": "Opinionisti radiofonici",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Opinionisti radiofonici hanno raccontato favole 34 giorni fa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi a livello mediatico radiofonico 34 giorni fa vi raccontava delle delle favole",
+          "start_sec": 128.479,
+          "end_sec": 163.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "credibility"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gasperini",
+      "position": "Gasperini ha negato che ci sia un conflitto imminente con Ranieri.",
+      "polarity": "neutral",
+      "claim_id": "5bfc4ccf-321f-442a-af12-87b2ae0e2fa6",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s0",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha negato che ci sia un conflitto imminente con Ranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dice \"Ma cosa stai dicendo? Ma è impossibile, ma Sara, Ranieri andranno d'accordo\"",
+          "start_sec": 0.12,
+          "end_sec": 34.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "leadership",
+        "rivalità"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini ha ribadito di avere la fiducia della proprietà per la sua posizione da dicembre.",
+      "polarity": "positive",
+      "claim_id": "93d63231-53d3-47c1-a00b-867deb7413fd",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s1",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha ribadito di avere la fiducia della proprietà per la sua posizione da dicembre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha vinto Gasperini per distacco perché ha detto la fiducia della proprietà.",
+          "start_sec": 32.439,
+          "end_sec": 66.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiducia",
+        "leadership",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gasperini",
+      "position": "La conferenza di Gasperini sembra aver ribadito concetti già espressi da dicembre senza aggiungere nuovi elementi.",
+      "polarity": "negative",
+      "claim_id": "1d0ca4ef-ce27-4f37-ab9b-be6a77bf9495",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s1",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La conferenza di Gasperini sembra aver ribadito concetti già espressi da dicembre senza aggiungere nuovi elementi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la conferenza di Gasperini non abbia fatto altro che ribadire certi concetti che da dicembre sto cercando di illustrare soprattutto su questo canale.",
+          "start_sec": 32.439,
+          "end_sec": 66.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conferenza",
+        "comunicazione",
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri è stato chiamato in causa da Ranieri in modo diretto su determinate cose.",
+      "polarity": "neutral",
+      "claim_id": "ed250d98-04d7-4e36-865e-4ffbf9fe5a60",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s2",
+      "target_entity": "Ranieri",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri è stato chiamato in causa da Ranieri in modo diretto su determinate cose.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vicenda a Ranieri ha perfettamente ragione perché lui è stato chiamato in causa da Ranieri in modo diretto su determinate cose.",
+          "start_sec": 63.48,
+          "end_sec": 98.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "rivalità"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Ranieri",
+      "position": "Ranieri ha offeso qualcuno riguardo al quinto, quarto, sesto della lista, casi che quasi vogliono svilire la questione.",
+      "polarity": "negative",
+      "claim_id": "c47d2628-857b-4d63-9319-6b0c0d16848e",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s2",
+      "target_entity": "Ranieri",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri ha offeso qualcuno riguardo al quinto, quarto, sesto della lista, casi che quasi vogliono svilire la questione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato anche offeso da Ranieri dal punto di vista del quinto, quarto, sesto della lista, quasi come per svilire una cosa",
+          "start_sec": 63.48,
+          "end_sec": 98.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "rivalità"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini sottolinea l'importanza della collaborazione tra direttore sportivo e allenatore.",
+      "polarity": "neutral",
+      "claim_id": "ec022d02-3fc0-4d94-b2bb-1a108ddeff82",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s3",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini sottolinea l'importanza della collaborazione tra direttore sportivo e allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando dice che eh ci deve essere eh una programmazione e un coinvolgimento del direttore sportivo in tandem con allenatori",
+          "start_sec": 96.119,
+          "end_sec": 130.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini ha smentito il problema di incompatibilità tra Massara e Ranieri nella sua conferenza stampa.",
+      "polarity": "neutral",
+      "claim_id": "050d22ea-4bcb-42d9-b1d9-f8d94dbc4af3",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s5",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha smentito il problema di incompatibilità tra Massara e Ranieri nella sua conferenza stampa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che Ragieri sarebbe andato avanti e che ha nascosto il problema serio tra Mass Sara e Ranieri di incompatibilità che credo abbia sintetizzato molto bene lo stesso Gasperini nella sua conferenza stampa.",
+          "start_sec": 160.44,
+          "end_sec": 203.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus deve prestare attenzione a due nomi nel mercato.",
+      "polarity": "neutral",
+      "claim_id": "5f8f5158-4141-406d-a419-61d18e4c5243",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus deve prestare attenzione a due nomi nel mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "JUVENTUS ATTENTA A DUE NOMI",
+          "start_sec": 0.12,
+          "end_sec": 34.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "squadra",
+        "attenzione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini ha vinto per il suo ruolo di allenatore e per la sua visione manageriale.",
+      "polarity": "positive",
+      "claim_id": "d3131394-3317-48bb-9480-653bbb516541",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s3",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha vinto per il suo ruolo di allenatore e per la sua visione manageriale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi chi ha vinto? Gasperini",
+          "start_sec": 96.119,
+          "end_sec": 130.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Bonucci",
+      "position": "Bonucci non si dimette e dà consigli.",
+      "polarity": "positive",
+      "claim_id": "7236c753-08e2-4a8f-b3c0-36155bfb25b9",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s0",
+      "target_entity": "Bonucci",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bonucci non si dimette e dà consigli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "BONUCCI NON SI DIMETTE E CONSIGLIA",
+          "start_sec": 0.12,
+          "end_sec": 34.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "calciatore",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri merita rispetto per il suo ruolo.",
+      "polarity": "neutral",
+      "claim_id": "3045413c-9b58-4b7b-8768-89557c1d8649",
+      "video_id": "r_8ZD20ENPc",
+      "segment_id": "s2",
+      "target_entity": "Ranieri",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri merita rispetto per il suo ruolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ragieri, ripeto, merita rispetto",
+          "start_sec": 63.48,
+          "end_sec": 98.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    }
+  ]
+}

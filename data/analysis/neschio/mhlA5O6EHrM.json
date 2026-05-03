@@ -1,0 +1,396 @@
+{
+  "video_id": "mhlA5O6EHrM",
+  "analyzed_at": "2026-04-25T10:59:08.138282+00:00",
+  "metadata": {
+    "title": "LA ROMA PRIMA DI TUTTO‼️ HA STRA-VINTO GASPERINI. VIA RANIERI",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza l'uscita di Claudio Ranieri dalla Roma, evidenziando come la frase \"Roma prima di tutto\" sia stata usata sia da Ranieri che recentemente da Gasperini, sottolineando un parallelo tra i due allenatori. L'autore prende posizione a favore di Gasperini, riconoscendone il carisma e la vittoria meritata in un contesto di tensioni con la dirigenza, in particolare con Massara, e problemi interni come quelli con lo staff medico. La conclusione chiave è che, nonostante il valore di Ranieri, la mancanza di coesione tra allenatore, direttore sportivo e staff ha reso inevitabile il cambiam",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "carriera",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "relazione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri often said that Rome comes first of all for him.",
+      "polarity": "positive",
+      "claim_id": "c16bfd4c-f0bb-4cf3-a967-c2a9ec1136ee",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s0",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri often said that Rome comes first of all for him.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Every time there was an opportunity, he, yes, Rome put it first of all.",
+          "start_sec": 0.2,
+          "end_sec": 46.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "commitment",
+        "Roma"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini recently used the phrase 'Rome comes first of all' during a press conference.",
+      "polarity": "neutral",
+      "claim_id": "019cad18-058d-418f-99bb-6e42ca960258",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s0",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini recently used the phrase 'Rome comes first of all' during a press conference.",
+      "evidence_quotes": [
+        {
+          "quote_text": "with these words that are accompanied by Claudio Ranieri's door are the same words then used, remarked by Gasperini recently in the press conference.",
+          "start_sec": 0.2,
+          "end_sec": 46.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "press conference",
+        "Gasperini"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massara",
+      "position": "There is no feeling or good relationship with Massara.",
+      "polarity": "negative",
+      "claim_id": "a9a0a7bf-0f28-4cb1-8f9f-10e372504553",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s2",
+      "target_entity": "Massara",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "There is no feeling or good relationship with Massara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, but in the end with Massara the feeling, yes, there is no feeling",
+          "start_sec": 52.02,
+          "end_sec": 93.06,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "relazione",
+        "sentimento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Ranieri supported Gasperini at the start of the season because Gasperini is always angry and not a yes man.",
+      "polarity": "positive",
+      "claim_id": "3ac4b5e0-ae3f-4727-a5ea-6368f744b7cc",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s3",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri supported Gasperini at the start of the season because Gasperini is always angry and not a yes man.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri at the beginning of the season was on Gasperini's side and it is one of the few press conferences I have listened And where he said, we took this one because he is always angry, because he is never happy, because he is not a yes man",
+          "start_sec": 93.06,
+          "end_sec": 142.77999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri leaves Roma after confrontations and not by resignation.",
+      "polarity": "neutral",
+      "claim_id": "1e2306db-5014-4ae7-bbcc-e68af2044365",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s6",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri leaves Roma after confrontations and not by resignation.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri leaves Roma. It was already in the air last night. Confirmations arrive.",
+          "start_sec": 196.8,
+          "end_sec": 238.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "ownership",
+      "position": "Ownership confirmed continuance of technical guidance despite confrontations.",
+      "polarity": "positive",
+      "claim_id": "a642819d-120f-4ebc-a888-6fe16b346cfd",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s6",
+      "target_entity": "ownership",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ownership confirmed continuance of technical guidance despite confrontations.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And the more ownership is put in front of the book, this time he decides to go and confirm the technical guidance.",
+          "start_sec": 196.8,
+          "end_sec": 238.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "continuity",
+      "position": "Continuity in technical guidance is necessary and approved by the speaker.",
+      "polarity": "positive",
+      "claim_id": "bb25756f-5b32-4ab1-b86f-7eadeda7fc74",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s6",
+      "target_entity": "continuity",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Continuity in technical guidance is necessary and approved by the speaker.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And it is a certainty that I reiterate, I approve, because you have to give continuity, absolutely.",
+          "start_sec": 196.8,
+          "end_sec": 238.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Ranieri is an important and capital figure to Roma.",
+      "polarity": "neutral",
+      "claim_id": "7aaa13f1-0563-4d1e-bfc3-ca92d0e418c7",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s7",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri is an important and capital figure to Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri is an important figure, absolutely important and capital to Roma",
+          "start_sec": 238.08,
+          "end_sec": 291.46,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "There is a lack of cohesion among the coach, sporting director, and media staff at Roma.",
+      "polarity": "negative",
+      "claim_id": "cec255c5-fc95-4bea-b218-0e29e2bcca81",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s7",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "There is a lack of cohesion among the coach, sporting director, and media staff at Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "There must be a sharing between the coach, the sporting director, the media staff. There must be cohesion. When there is none, you have to make a choice",
+          "start_sec": 238.08,
+          "end_sec": 291.46,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "leadership",
+        "media"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "doctors",
+      "position": "There have been problems with the doctors.",
+      "polarity": "neutral",
+      "claim_id": "59f9c8b0-c831-42c9-ab0f-22f4d33d7425",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s2",
+      "target_entity": "doctors",
+      "entity_type": "other",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "There have been problems with the doctors.",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, but with the doctors, yes, problems, but then it's them",
+          "start_sec": 52.02,
+          "end_sec": 93.06,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "problemi",
+        "medico"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini has strong charisma as a coach.",
+      "polarity": "positive",
+      "claim_id": "79d17c34-fff2-4660-a165-5ca2a4cce0c5",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s2",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini has strong charisma as a coach.",
+      "evidence_quotes": [
+        {
+          "quote_text": "We know he has a strong charisma",
+          "start_sec": 52.02,
+          "end_sec": 93.06,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "carisma",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Gasperini",
+      "position": "Gasperini ha vinto e lo meritava.",
+      "polarity": "positive",
+      "claim_id": "b1c4b59a-fe63-43b2-a7e2-5f8da15d23ee",
+      "video_id": "mhlA5O6EHrM",
+      "segment_id": "s4",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini ha vinto e lo meritava.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini wins and deserves to win",
+          "start_sec": 142.78,
+          "end_sec": 146.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "allenatore",
+        "performance"
+      ]
+    }
+  ]
+}

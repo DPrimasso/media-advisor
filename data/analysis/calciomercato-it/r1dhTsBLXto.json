@@ -1,0 +1,382 @@
+{
+  "video_id": "r1dhTsBLXto",
+  "analyzed_at": "2026-04-25T11:13:20.155761+00:00",
+  "metadata": {
+    "title": "Colpo di scena JUVE: emergenza infortuni, Nuovo COLPO, VLAHOVIC-MILAN, svolta DAVID",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-16T10:42:01+00:00"
+  },
+  "summary": "Il video si concentra sulla situazione attuale della Juventus, evidenziando sia il recente successo in campionato che i problemi legati agli infortuni. L'autore sottolinea come la squadra sia risalita al quarto posto, utile per la qualificazione alla Champions League, ma deve fare i conti con numerosi giocatori chiave, tra cui Vlahovic e Milik, fermati da infortuni cronici o recenti. In particolare, la stagione di Milik è ormai compromessa, mentre Vlahovic potrebbe tornare solo per la sfida contro il Milan; inoltre, il capitano Illitz gioca in condizioni non ottimali a causa di un’infiammazion",
+  "topics": [
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenamento a parte",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "sfida",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus è risalita al quarto posto in classifica dopo una vittoria inaspettata contro l'Atalanta a Bergamo.",
+      "polarity": "positive",
+      "claim_id": "b44f3932-cc7a-4ee3-a09d-a95b788e61b5",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è risalita al quarto posto in classifica dopo una vittoria inaspettata contro l'Atalanta a Bergamo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si viene da dall'importante successo inaspettato di Bergamo con l'Atalanta che ha lanciato la Juve al quarto posto",
+          "start_sec": 1.16,
+          "end_sec": 64.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "Juventus ha ottenuto il quarto posto, ultimo utile per la qualificazione alla Champions League.",
+      "polarity": "positive",
+      "claim_id": "717a733b-6ff8-4ca4-8785-e057219da14c",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus ha ottenuto il quarto posto, ultimo utile per la qualificazione alla Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve si è rimpossessata di questo quarto quarto posto che è l'ultimo utile per la qualificazione della Champions League",
+          "start_sec": 1.16,
+          "end_sec": 64.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "obiettivo"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Juventus",
+      "position": "La Juventus ha diversi giocatori con problemi cronici di infortunio da mesi e nuovi infortuni recenti.",
+      "polarity": "negative",
+      "claim_id": "d921f05e-5f6b-4956-a7f4-fb272c3477e2",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha diversi giocatori con problemi cronici di infortunio da mesi e nuovi infortuni recenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non arrivano buone notizie all'infermeria perché ci sono un po' di giocatori che c'hanno dei problemi cronici ormai da mese e qualcuno che si è aggiunto nelle ultime ore",
+          "start_sec": 1.16,
+          "end_sec": 64.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "emergenza"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Milik",
+      "position": "Milik non giocherà la partita con il Bologna di domenica.",
+      "polarity": "negative",
+      "claim_id": "d71dd4ce-947c-4382-a86c-f4171775945e",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s1",
+      "target_entity": "Milik",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Milik non giocherà la partita con il Bologna di domenica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "domenica sicuramente non giocherà nel match con il Bologna",
+          "start_sec": 61.28,
+          "end_sec": 96.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Milik",
+      "position": "Milik potrebbe recuperare per la partita successiva a Milano contro il Milan.",
+      "polarity": "negative",
+      "claim_id": "44914ae1-d0a9-4b98-a468-a90be0220efc",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s1",
+      "target_entity": "Milik",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Milik potrebbe recuperare per la partita successiva a Milano contro il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbe recuperare per quello per l'impegno per l'impegno successivo a Milano col Milan",
+          "start_sec": 61.28,
+          "end_sec": 96.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milik",
+      "position": "La stagione di Milik è ufficialmente finita con solo una partita giocata.",
+      "polarity": "negative",
+      "claim_id": "2b108d66-d75a-489a-813d-8d4183a51348",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s1",
+      "target_entity": "Milik",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La stagione di Milik è ufficialmente finita con solo una partita giocata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sua stagione è ufficialmente finita, quindi la Juve si dovrà interrogare pure sul futuro di un calciatore che ha giocato una partita",
+          "start_sec": 61.28,
+          "end_sec": 96.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Illitz",
+      "position": "Illitz soffre da settimane per un’infiammazione al ginocchio.",
+      "polarity": "negative",
+      "claim_id": "80f0cc89-686c-4bf5-acb5-39d90d5477e9",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s2",
+      "target_entity": "Illitz",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Illitz soffre da settimane per un’infiammazione al ginocchio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Illitz con l'Atalanta non stava bene, soffre da settimane per un'infiammazione al ginocchio",
+          "start_sec": 93.119,
+          "end_sec": 125.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Illitz",
+      "position": "Illitz ha giocato con una doppia fasciatura al ginocchio contro l'Atalanta.",
+      "polarity": "negative",
+      "claim_id": "7659ed53-8782-4312-a8ee-a5edd17f15bd",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s2",
+      "target_entity": "Illitz",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Illitz ha giocato con una doppia fasciatura al ginocchio contro l'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "infatti non so se l'avete visto, contro la dea c'aveva una doppia fasciatura",
+          "start_sec": 93.119,
+          "end_sec": 125.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atalanta",
+      "position": "L'Atalanta ha avuto il peggior rendimento dell'anno a causa di problemi con giocatori infortunati.",
+      "polarity": "negative",
+      "claim_id": "7101f7f4-c41b-4e1a-8272-bdfa100443a6",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta ha avuto il peggior rendimento dell'anno a causa di problemi con giocatori infortunati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta, tra l'altro, credo si sia visto il peggioritz dell'anno proprio in virtù di questi problemi che c'ha",
+          "start_sec": 123.84,
+          "end_sec": 157.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rendimento",
+        "infortunio",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Vlahovic",
+      "position": "Vlahovic è fermo da un periodo non specificato precedentemente.",
+      "polarity": "negative",
+      "claim_id": "48ca9e88-cca4-4969-91e7-31eda85e7d85",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s0",
+      "target_entity": "Vlahovic",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Vlahovic è fermo da un periodo non specificato precedentemente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vlaovic, come sappiamo tutti, fermo dallo scorso",
+          "start_sec": 1.16,
+          "end_sec": 64.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Milik",
+      "position": "Milik si è rifatto male nel riscaldamento prima dell'ultima gara prima dell'Atalanta.",
+      "polarity": "negative",
+      "claim_id": "cda1ea9d-639d-4ade-b60d-827cd0a6d4ea",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s1",
+      "target_entity": "Milik",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Milik si è rifatto male nel riscaldamento prima dell'ultima gara prima dell'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è rifatto male nel corso del riscaldamento poco prima di entrare in campo nell'ultima gara prima dell'Atalanta",
+          "start_sec": 61.28,
+          "end_sec": 96.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Cabal",
+      "position": "Cabal si è rifatto male e ha precedenti guai muscolari.",
+      "polarity": "negative",
+      "claim_id": "599d7e83-c2ab-4a23-af46-8b92383c3720",
+      "video_id": "r1dhTsBLXto",
+      "segment_id": "s2",
+      "target_entity": "Cabal",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cabal si è rifatto male e ha precedenti guai muscolari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si è rifatto male Cabal che pure, diciamo, non è nuova a queste a questi guai a questi guai muscolari.",
+          "start_sec": 93.119,
+          "end_sec": 125.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

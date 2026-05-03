@@ -1,0 +1,403 @@
+{
+  "video_id": "ANtiAzC9U78",
+  "analyzed_at": "2026-04-25T11:21:55.239330+00:00",
+  "metadata": {
+    "title": "INTER, PIÙ 9: FATTELO CUCIRE. CESC E IL TRATTATO DI PSICOLOGIA. LA JUVE PADRONA DEL DESTINO🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza la recente partita decisiva per lo scudetto tra Inter e Como, evidenziando come l'Inter abbia dimostrato una forza psicologica determinante nel ribaltare una situazione difficile. Nonostante un primo tempo complicato e un doppio svantaggio, la squadra nerazzurra ha saputo reagire con carattere, segnando tre gol e consolidando un vantaggio di nove punti sul Napoli, che invece continua a mostrare segni di difficoltà e sprechi di opportunità. Pedullà sottolinea inoltre come le altre concorrenti non siano convincenti, rafforzando l’idea che l’Inter sia ormai vi",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "psicologia",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "errore",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha disputato una partita decisiva per lo scudetto",
+      "polarity": "positive",
+      "claim_id": "61f3318a-a3e5-4143-990d-d3d217143e89",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha disputato una partita decisiva per lo scudetto",
+      "evidence_quotes": [
+        {
+          "quote_text": "È terminata da poco quella che per tutti è chiaramente la partita scudetto",
+          "start_sec": 0.08,
+          "end_sec": 38.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita decisiva",
+        "scudetto",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha sprecato opportunità recentemente, anche nella partita a Parma.",
+      "polarity": "negative",
+      "claim_id": "75031c3b-d911-4264-89f0-7871e86a0869",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha sprecato opportunità recentemente, anche nella partita a Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arrancano, sprecano delle opportunità. Lo hanno fatto anche recentemente, lo ha fatto oggi il Napoli a Parma",
+          "start_sec": 35.719,
+          "end_sec": 69.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "errore"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Le dichiarazioni di Conte dopo la partita sono poco condivise nonostante la stima nel suo ruolo di allenatore.",
+      "polarity": "negative",
+      "claim_id": "63956e80-1018-4e83-9623-b51c9ecd3cfb",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le dichiarazioni di Conte dopo la partita sono poco condivise nonostante la stima nel suo ruolo di allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alcune dichiarazioni da parte di Conte dopo la partita che sinceramente con la stima e l'ammirazione che ho nei suoi riguardi come allenatore condivido poco",
+          "start_sec": 35.719,
+          "end_sec": 69.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dichiarazioni",
+        "opinione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha giocato una buona prima metà di partita controllando il gioco e segnando due gol.",
+      "polarity": "positive",
+      "claim_id": "79f5b218-aacf-415f-b978-8f8b158c79e4",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha giocato una buona prima metà di partita controllando il gioco e segnando due gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tu proponi la tua brillante idea di gioco, come ha fatto il Como per 45 minuti, l'Inter non aveva tirato in porta, il Como era andato meritatamente avanti di due gol",
+          "start_sec": 67.92,
+          "end_sec": 104.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gioco",
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha subito un gol su rimessa del portiere avversario.",
+      "polarity": "negative",
+      "claim_id": "bfb086b9-a332-4236-8be5-f62503d7a74b",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha subito un gol su rimessa del portiere avversario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter aveva pure incassato un gol su rimessa del portiere",
+          "start_sec": 67.92,
+          "end_sec": 104.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "difesa",
+        "gol subito"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Como",
+      "position": "Il Como pensava di andare negli spogliatoi con un doppio vantaggio per rafforzare la motivazione.",
+      "polarity": "positive",
+      "claim_id": "28ce4c5b-e6ec-414b-982a-bacdd4cc8f5c",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Como pensava di andare negli spogliatoi con un doppio vantaggio per rafforzare la motivazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como pensa di andare con il doppio vantaggio nello spogliatoio, una prova di forza",
+          "start_sec": 102.799,
+          "end_sec": 134.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mentalità",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Nel secondo tempo il Como ha subito un gol causato da un errore difensivo.",
+      "polarity": "negative",
+      "claim_id": "4b73bbf7-1a85-4133-b82e-47279151955a",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nel secondo tempo il Como ha subito un gol causato da un errore difensivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "invece prendi per un errore di un difensore che permette a Turam di mettere il piedino su un cross",
+          "start_sec": 102.799,
+          "end_sec": 134.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Barella",
+      "position": "Barella ha preso un gol all'ultimo secondo del recupero.",
+      "polarity": "negative",
+      "claim_id": "e2789323-ab0b-4be3-b0d1-3546dac4c353",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s4",
+      "target_entity": "Barella",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Barella ha preso un gol all'ultimo secondo del recupero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Barella, prendi il gol all'ultimo secondo del recupero",
+          "start_sec": 132.2,
+          "end_sec": 171.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "Le altre squadre concorrenti non convincono nella lotta per il titolo",
+      "polarity": "positive",
+      "claim_id": "5442bc2c-57a5-470d-8523-1473d7444c7f",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le altre squadre concorrenti non convincono nella lotta per il titolo",
+      "evidence_quotes": [
+        {
+          "quote_text": "le squadre dietro non convincono",
+          "start_sec": 0.08,
+          "end_sec": 38.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "concorrenti",
+        "titolo",
+        "standings"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli guida la classifica con più nove punti di vantaggio.",
+      "polarity": "positive",
+      "claim_id": "016c90d2-adb5-456d-bcc4-ffebec2f8b8e",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli guida la classifica con più nove punti di vantaggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "più nove sullo stesso Napoli",
+          "start_sec": 35.719,
+          "end_sec": 69.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "vantaggio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter non aveva tirato in porta nella prima parte della partita.",
+      "polarity": "negative",
+      "claim_id": "a3da21b9-6e3f-421a-9558-924871c3c9a0",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non aveva tirato in porta nella prima parte della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter non aveva tirato in porta",
+          "start_sec": 67.92,
+          "end_sec": 104.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "attacco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Nico Pazzo",
+      "position": "Nico Pazzo ha realizzato un bel raddoppio nel match.",
+      "polarity": "positive",
+      "claim_id": "b6230c1c-93e1-46c1-9603-aa83daada6a6",
+      "video_id": "ANtiAzC9U78",
+      "segment_id": "s3",
+      "target_entity": "Nico Pazzo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nico Pazzo ha realizzato un bel raddoppio nel match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo il raddoppio di Nico Pazzo, molto bello",
+          "start_sec": 102.799,
+          "end_sec": 134.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    }
+  ]
+}

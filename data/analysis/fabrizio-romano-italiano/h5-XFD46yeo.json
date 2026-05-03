@@ -1,0 +1,395 @@
+{
+  "video_id": "h5-XFD46yeo",
+  "analyzed_at": "2026-04-28T07:18:07.095853+00:00",
+  "metadata": {
+    "title": "🚨 NOVITÀ RAMOS! MILAN E JUVE: MENDES NE OFFRE DUE! VICARIO, PEPO MARTINEZ, GLI INCASTRI E LUKAKU…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato calcistico, con particolare attenzione al ruolo di portiere per l'Inter. L'autore sottolinea che Vicario è la prima scelta dell'Inter da mesi, ma l'accordo tra i club non è ancora definitivo, mentre la società valuta anche il futuro di Joseph Martinez. Romano evidenzia che la trattativa dipende anche dall’andamento sportivo del Tottenham e che l’Inter sta ancora ponderando se puntare su Vicario o mantenere Martinez, senza escludere ulteriori sviluppi su altri giocatori come Gonzalo Ramos e Lukaku.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "inter",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "low"
+    },
+    {
+      "name": "posizione",
+      "relevance": "low"
+    },
+    {
+      "name": "accordo",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Gonzalo Ramos",
+      "position": "Gonzalo Ramos is a transfer market topic related to Paris Saint-Germain.",
+      "polarity": "neutral",
+      "claim_id": "90178fed-70c2-4ee2-b9ee-9a68178de05d",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s1",
+      "target_entity": "Gonzalo Ramos",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gonzalo Ramos is a transfer market topic related to Paris Saint-Germain.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in particolar modo Gonzalo Ramos del Paris Saint-Germain",
+          "start_sec": 34.64,
+          "end_sec": 83.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "attaccante"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "Vicario è la prima scelta per l'Inter come portiere italiano.",
+      "polarity": "positive",
+      "claim_id": "0b39980d-565a-4951-a0f9-dcfce4394904",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s2",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario è la prima scelta per l'Inter come portiere italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un portiere italiano come Vicario è la prima scelta per l'Inter",
+          "start_sec": 81.079,
+          "end_sec": 118.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "scelta",
+        "inter"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "L'accordo per il trasferimento di Vicario all'Inter non è ancora stato finalizzato.",
+      "polarity": "neutral",
+      "claim_id": "68cb5655-5bee-49df-8be9-8e247ba01c65",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s2",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'accordo per il trasferimento di Vicario all'Inter non è ancora stato finalizzato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per arrivare poi alla chiusura del cerchio servono dei passaggi e questi passaggi non sono ancora stati fatti, soprattutto l'accordo definitivo",
+          "start_sec": 81.079,
+          "end_sec": 118.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "accordo",
+        "vicario",
+        "inter"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Tottenham",
+      "position": "Il futuro del Tottenham dipenderà dalla sua posizione in classifica e dal rischio retrocessione.",
+      "polarity": "neutral",
+      "claim_id": "32c580a5-13f6-43fd-a201-de9d20dc3cdb",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s3",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il futuro del Tottenham dipenderà dalla sua posizione in classifica e dal rischio retrocessione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna capire anche come si svilupperà il campionato del Tottenham perché eh insomma qualora dovesse andare in Serie B sarebbe un conto, qualora dovesse restare in Premier sarebbe un altro",
+          "start_sec": 115.56,
+          "end_sec": 154.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tottenham",
+      "position": "Il Tottenham non è libero di trattare completamente in questo momento.",
+      "polarity": "negative",
+      "claim_id": "1332c836-93cf-4367-815a-c2df1bfd8f4f",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s3",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Tottenham non è libero di trattare completamente in questo momento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questo momento il Tottenham non è assolutamente ehm libero di poter trattare, completamente",
+          "start_sec": 115.56,
+          "end_sec": 154.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "Vicario is subject to ongoing transfer negotiations with progress made but no deal finalized yet.",
+      "polarity": "positive",
+      "claim_id": "deb5b6aa-6133-453f-acd1-259fd708ca35",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s4",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Vicario is subject to ongoing transfer negotiations with progress made but no deal finalized yet.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vicario, sì, ci sono dei passi, sono stati fatti dei passi in avanti importanti in questi mesi, ma non è una trattativa chiusa",
+          "start_sec": 151.36,
+          "end_sec": 187.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasferimento",
+        "contrattazioni"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Inter is evaluating internally whether they can finalize the signing of Vicario.",
+      "polarity": "neutral",
+      "claim_id": "a08677cc-54a1-405b-8337-fb3dd6587a2f",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter is evaluating internally whether they can finalize the signing of Vicario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter sta comunque facendo delle valutazioni interne per capire se puoi arrivare ad AMA, se puoi arrivare alle firme oppure no",
+          "start_sec": 151.36,
+          "end_sec": 187.59900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "contrattazioni"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "Vicario is part of transfer discussions involving Inter.",
+      "polarity": "neutral",
+      "claim_id": "dfb2bf99-8928-44ad-9567-e1bde47a405f",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s1",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario is part of transfer discussions involving Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi occhio anche a Vicario",
+          "start_sec": 34.64,
+          "end_sec": 83.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Joseph Martinez",
+      "position": "Joseph Martinez is connected to the Inter football club according to the discussion.",
+      "polarity": "neutral",
+      "claim_id": "12d82d04-d8df-4d61-9496-560e66b3b1b3",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s1",
+      "target_entity": "Joseph Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Joseph Martinez is connected to the Inter football club according to the discussion.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e Martinez, Joseph Martinez dell'Inter",
+          "start_sec": 34.64,
+          "end_sec": 83.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "inter"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "L'accordo tra Inter e Vicario è di fatto raggiunto.",
+      "polarity": "neutral",
+      "claim_id": "0cb366e8-e63c-4624-a606-ffc820987221",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s3",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'accordo tra Inter e Vicario è di fatto raggiunto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tra Inter e Vicario è di fatto tutto concordato",
+          "start_sec": 115.56,
+          "end_sec": 154.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter deve ancora fare una prima mossa per Vicario.",
+      "polarity": "neutral",
+      "claim_id": "b9929053-253b-4778-8181-cb16ebed74db",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter deve ancora fare una prima mossa per Vicario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter non ha ancora fatto una prima mossa",
+          "start_sec": 115.56,
+          "end_sec": 154.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Lukaku is mentioned as a relevant player in transfer discussions.",
+      "polarity": "neutral",
+      "claim_id": "b6e2cbf0-e6fb-4fb3-9c3f-3dec1e059b58",
+      "video_id": "h5-XFD46yeo",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku is mentioned as a relevant player in transfer discussions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e Lukaku",
+          "start_sec": 34.64,
+          "end_sec": 83.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "attaccante"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "video_id": "kJDwujMOcDg",
+  "analyzed_at": "2026-04-26T11:58:56.796281+00:00",
+  "metadata": {
+    "title": "ALLEGRI CHIEDE IL TRIS. ANTÒ, BASTA CON LUKAKU. UN TERZINO PIACE ANCHE A GASP. LEWA: 10 NETTI🚨 ",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video analizza le recenti prestazioni del Napoli e dell'Inter, sottolineando come il Napoli, nonostante un organico costoso e infortuni, avrebbe dovuto fare di più, mentre l'Inter si è fermata in un momento cruciale della stagione. L'autore critica la gestione di Lukaku, evidenziando una mancanza di rispetto e riconoscenza verso l'allenatore, e mette in discussione alcune scelte tattiche di Allegri, come la preparazione della partita contro la Lazio e l'impiego di Alisson. Conclude che le critiche sono inevitabili e necessarie, soprattutto dopo investimenti importanti, e che non si può nasc",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "critica",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    },
+    {
+      "name": "difensore",
+      "relevance": "low"
+    },
+    {
+      "name": "parametro zero",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "De Laurentis",
+      "position": "De Laurentis ha speso 30 milioni per un giocatore ultra trentenne più percentuale da futura vendita.",
+      "polarity": "neutral",
+      "claim_id": "60c7a422-4072-4696-9af6-d70cb424a247",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s2",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis ha speso 30 milioni per un giocatore ultra trentenne più percentuale da futura vendita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Laurentis ha speso 30 milioni per un ultra trentenne più percentuale da futura vendita",
+          "start_sec": 62.879,
+          "end_sec": 100.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "finanza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "Il risultato 4-0 alla Cremonese poteva finire 7-0 evidenziando superiorità.",
+      "polarity": "positive",
+      "claim_id": "62a219e1-0ab9-42f5-99cc-2dece7073b88",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s3",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il risultato 4-0 alla Cremonese poteva finire 7-0 evidenziando superiorità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come cambia il 4-0 alla Cremonese poteva finire 7-0.",
+          "start_sec": 96.04,
+          "end_sec": 131.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter non è stata eliminata e non è arrivata 30esima nel girone, a differenza di altre squadre.",
+      "polarity": "neutral",
+      "claim_id": "dcbe1e3d-f66e-4cea-9903-596f0eeb00a3",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non è stata eliminata e non è arrivata 30esima nel girone, a differenza di altre squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma anche l'Inter è stata criticata, ma non è stata eliminata, eh? non è arrivata 30esima nel girone",
+          "start_sec": 128.879,
+          "end_sec": 160.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter è arrivata 30esima in Champions League.",
+      "polarity": "negative",
+      "claim_id": "5760e2ea-bcc8-4d3d-b391-236700d865f5",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s5",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è arrivata 30esima in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando giochi otto partite e alla fine scopri di essere arrivato 30esimo",
+          "start_sec": 158.2,
+          "end_sec": 193.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions league",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli è una squadra che avrebbe dovuto fare di più considerando gli infortuni.",
+      "polarity": "neutral",
+      "claim_id": "a9441c67-8451-463f-9ef2-d480d0a7aae5",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è una squadra che avrebbe dovuto fare di più considerando gli infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli è una squadra che secondo me avrebbe dovuto fare di più al netto degli infortuni",
+          "start_sec": 0.24,
+          "end_sec": 36.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto lo scudetto grazie al merito del suo allenatore.",
+      "polarity": "positive",
+      "claim_id": "468c51e0-ab33-43e2-b270-fd32eaa3f013",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto lo scudetto grazie al merito del suo allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli è stato bravissimo per merito del suo allenatore a vincere con lo scudetto",
+          "start_sec": 33.239,
+          "end_sec": 65.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "allenatore",
+        "successo"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Lukaku avrebbe dovuto avvertire l'allenatore della sua presenza.",
+      "polarity": "neutral",
+      "claim_id": "21c62ca6-06da-459e-847e-df96cccaf50e",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku avrebbe dovuto avvertire l'allenatore della sua presenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse avrebbe dovuto farlo Lukaku, che lui ha voluto ovunque o quasi nelle sue",
+          "start_sec": 33.239,
+          "end_sec": 65.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Lukaku non ha dimostrato sufficiente riconoscenza verso l'allenatore restando in Belgio e facendo un balletto per restare.",
+      "polarity": "negative",
+      "claim_id": "989dcf6a-5d1c-4e3e-9ede-43e13650fa02",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku non ha dimostrato sufficiente riconoscenza verso l'allenatore restando in Belgio e facendo un balletto per restare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku avrebbe dovuto do avere maggiore riconoscenza bussando lui alla porta del suo ufficio e maggiore riconoscenza non facendo questo balletto che ha fatto per restare in Belgio, che secondo me ha rispettato poco l'allenatore",
+          "start_sec": 62.879,
+          "end_sec": 100.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Alisson",
+      "position": "Alisson può giocare titolare apportando miglioramento alla squadra.",
+      "polarity": "positive",
+      "claim_id": "48ed8f1e-3044-4ded-8f2d-4a89e85d2e07",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s3",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alisson può giocare titolare apportando miglioramento alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alisson può giocare più che 20 minuti, può giocare anche titolare per avere un po' di verbo in più.",
+          "start_sec": 96.04,
+          "end_sec": 131.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte dovrebbe accettare le critiche come chiunque altro nel mondo del calcio.",
+      "polarity": "neutral",
+      "claim_id": "9b2afd45-6d39-4114-bab2-f0cafbb944e8",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte dovrebbe accettare le critiche come chiunque altro nel mondo del calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chiunque viene criticato e chiunque dovrebbe accettare le critiche",
+          "start_sec": 128.879,
+          "end_sec": 160.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "critica",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter si è fermata in un certo punto della stagione.",
+      "polarity": "neutral",
+      "claim_id": "76f7006d-b080-4d95-ba5c-9326b37e1bc6",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter si è fermata in un certo punto della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter a un certo punto si è fermata",
+          "start_sec": 33.239,
+          "end_sec": 65.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "stagnazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Allegri",
+      "position": "La partita contro la Lazio è stata forse preparata male da Allegri.",
+      "polarity": "negative",
+      "claim_id": "252ab48d-a377-4493-aefa-5ab1fd9924ae",
+      "video_id": "kJDwujMOcDg",
+      "segment_id": "s3",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La partita contro la Lazio è stata forse preparata male da Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "magari è colpa che quella partita lì è stata preparata male",
+          "start_sec": 96.04,
+          "end_sec": 131.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,399 @@
+{
+  "video_id": "ceRsYBDAv6g",
+  "analyzed_at": "2026-04-26T11:47:36.895975+00:00",
+  "metadata": {
+    "title": "Errore GRAVE in Como-Inter, arbitro e VAR FERMATI! Prova TV per Barella? MOVIOLA SERIE A",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-13T10:04:46+00:00"
+  },
+  "summary": "Il video analizza un grave errore arbitrale avvenuto durante Como-Inter, focalizzandosi su un episodio al minuto 86 in cui l'arbitro Massa ha concesso un calcio di punizione anziché un rigore, decisione poi confermata dal VAR. L’esperto Maurizio Russo sottolinea come il contatto tra Bonnie e Nico Pazz non costituisse fallo, evidenziando una gestione errata della moviola che avrebbe potuto influenzare l’esito della partita. Viene inoltre ipotizzata una possibile prova TV per Barella in relazione all’episodio, mentre si critica la gestione complessiva del weekend arbitrale, ritenuto insoddisface",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "fallo",
+      "relevance": "high"
+    },
+    {
+      "name": "episodio arbitrale",
+      "relevance": "medium"
+    },
+    {
+      "name": "gesto",
+      "relevance": "medium"
+    },
+    {
+      "name": "comportamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "como-inter",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "low"
+    },
+    {
+      "name": "errore arbitrale",
+      "relevance": "low"
+    },
+    {
+      "name": "regolamento rigore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Massa",
+      "position": "Massa ha concesso un calcio di punizione invece di un rigore in Como-Inter al minuto 86 circa",
+      "polarity": "negative",
+      "claim_id": "f4df4218-fe81-4b24-9513-b98e9f8d220e",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s1",
+      "target_entity": "Massa",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Massa ha concesso un calcio di punizione invece di un rigore in Como-Inter al minuto 86 circa",
+      "evidence_quotes": [
+        {
+          "quote_text": "Massa fischia un calcio di punizione al limite dell'area in favore del Como",
+          "start_sec": 97.079,
+          "end_sec": 221.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR ha richiamato l'arbitro per togliere il calcio di rigore al Como",
+      "polarity": "negative",
+      "claim_id": "c77ea9c0-3fd5-4eb1-9cf0-1d119f169312",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s1",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR ha richiamato l'arbitro per togliere il calcio di rigore al Como",
+      "evidence_quotes": [
+        {
+          "quote_text": "il VAR lo richiama a Longfield Review per fargli togliere il calcio di rigore",
+          "start_sec": 97.079,
+          "end_sec": 221.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bonnie",
+      "position": "Bonnie non ha commesso fallo sul giocatore Nico Pazz perché non ha toccato il piede dell'avversario",
+      "polarity": "neutral",
+      "claim_id": "fb11842b-427a-4fc5-80d0-d64806ef7ed0",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s1",
+      "target_entity": "Bonnie",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bonnie non ha commesso fallo sul giocatore Nico Pazz perché non ha toccato il piede dell'avversario",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bonnie non colpisce niente e anzi viene lui colpito da Nico Paz sullo slancio",
+          "start_sec": 97.079,
+          "end_sec": 221.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "fallo"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Nico Pazz",
+      "position": "Se Nico Pazz avesse segnato, il gol non sarebbe stato annullato nonostante il contatto con Bonnie",
+      "polarity": "neutral",
+      "claim_id": "2845f213-c02b-4ead-a335-8c857aa923d3",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s1",
+      "target_entity": "Nico Pazz",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Se Nico Pazz avesse segnato, il gol non sarebbe stato annullato nonostante il contatto con Bonnie",
+      "evidence_quotes": [
+        {
+          "quote_text": "se Nico Paz qui avesse calciato direttamente in porta, se avesse fatto gol per me non sarebbe stato annullato",
+          "start_sec": 97.079,
+          "end_sec": 221.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "gol"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Nico Pazz",
+      "position": "Nico Pazz non commette fallo su Bonì, ma colpisce Bonì senza essere contrastato.",
+      "polarity": "neutral",
+      "claim_id": "560b27d5-8298-496e-b888-ddb055145e57",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s2",
+      "target_entity": "Nico Pazz",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nico Pazz non commette fallo su Bonì, ma colpisce Bonì senza essere contrastato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "slancio colpisce Bonì, cioè non c'è fallo per me di Nico Pazz, ma se proprio vuoi fischiare qualcosa, puoi fischiare appunto il colpo che Nicop dà a Bonnie",
+          "start_sec": 218.879,
+          "end_sec": 324.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "fallo"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro ha fischiato fallo ma ha sbagliato perché il contatto era dentro l'area di rigore.",
+      "polarity": "negative",
+      "claim_id": "11a718a6-f611-42a1-ad04-f9d37326876e",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro ha fischiato fallo ma ha sbagliato perché il contatto era dentro l'area di rigore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'arbitro fischia fallo in campo e al VAR si accorgono che non è fuori, ma dentro l'area di rigore il contatto",
+          "start_sec": 218.879,
+          "end_sec": 324.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "intervento VAR"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR avrebbe dovuto intervenire per correggere la decisione e annullare il rigore dato.",
+      "polarity": "negative",
+      "claim_id": "50795d01-8c4c-43af-9e3c-4eaeebb5de17",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR avrebbe dovuto intervenire per correggere la decisione e annullare il rigore dato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qui doveva richiamare massa e appunto fargli togliere la il il la punizione o quindi il rigore",
+          "start_sec": 218.879,
+          "end_sec": 324.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intervento VAR",
+        "rigore"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Inter",
+      "position": "La rimessa sarebbe dovuta ripartire dalla parte dell'arbitro con rimessa per il portiere dell'Inter, Sommer.",
+      "polarity": "neutral",
+      "claim_id": "9776e1c4-0c14-4703-b7e5-afe66bccd3f9",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La rimessa sarebbe dovuta ripartire dalla parte dell'arbitro con rimessa per il portiere dell'Inter, Sommer.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si ripartiva visto che si era dentro l'area di rigore con una rimessa dalla parte dell'arbitro col pallone restituito al portiere dell'Inter, quindi a Sommer",
+          "start_sec": 218.879,
+          "end_sec": 324.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "ripresa gioco"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bonnie",
+      "position": "Bonnie non commette fallo perché interviene distante e non va col piede, subendo più il colpo.",
+      "polarity": "negative",
+      "claim_id": "fe6cb2c5-d154-45ef-a9ce-562ca7ebbbed",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s3",
+      "target_entity": "Bonnie",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bonnie non commette fallo perché interviene distante e non va col piede, subendo più il colpo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per te non c'è fallo di Bonnie perché interviene distante, non va col piede e subisce di più il colpo",
+          "start_sec": 322.72,
+          "end_sec": 395.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro di Como-Inter",
+      "position": "L'arbitro di Como-Inter ha commesso un grave errore durante la partita.",
+      "polarity": "negative",
+      "claim_id": "3e2288e2-8aa3-4806-9d34-5afbd2a5011b",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s0",
+      "target_entity": "arbitro di Como-Inter",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro di Como-Inter ha commesso un grave errore durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Errore GRAVE in Como-Inter, arbitro e VAR FERMATI!",
+          "start_sec": 1.0,
+          "end_sec": 99.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore arbitrale",
+        "Como-Inter"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR di Como-Inter",
+      "position": "Il VAR in Como-Inter è stato fermato a causa di un errore arbitrale grave.",
+      "polarity": "negative",
+      "claim_id": "df746b2b-d9b9-490e-be69-ccdfe91135d3",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s0",
+      "target_entity": "VAR di Como-Inter",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR in Como-Inter è stato fermato a causa di un errore arbitrale grave.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Errore GRAVE in Como-Inter, arbitro e VAR FERMATI!",
+          "start_sec": 1.0,
+          "end_sec": 99.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore arbitrale",
+        "VAR"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Barella",
+      "position": "Potrebbe esserci una prova TV per Barella dopo l'episodio di Como-Inter.",
+      "polarity": "neutral",
+      "claim_id": "ab5b9fd7-b24c-41b7-b27f-bdd014069d3a",
+      "video_id": "ceRsYBDAv6g",
+      "segment_id": "s0",
+      "target_entity": "Barella",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Potrebbe esserci una prova TV per Barella dopo l'episodio di Como-Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Prova TV per Barella?",
+          "start_sec": 1.0,
+          "end_sec": 99.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Barella",
+        "prova tv"
+      ]
+    }
+  ]
+}

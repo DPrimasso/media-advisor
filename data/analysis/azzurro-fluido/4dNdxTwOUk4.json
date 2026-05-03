@@ -1,0 +1,396 @@
+{
+  "video_id": "4dNdxTwOUk4",
+  "analyzed_at": "2026-04-24T07:44:21.433498+00:00",
+  "metadata": {
+    "title": "Fine Primo Tempo: SI RIDE!",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video di Azzurro Fluido commenta una partita di calcio in cui la Salernitana era in vantaggio nel primo tempo, soffermandosi in particolare sul comportamento di Politano, che ride nonostante la situazione sfavorevole. L'autore critica duramente questa reazione, richiamando le parole di Conte che condanna chi mostra leggerezza dopo una sconfitta, e sottolinea l'importanza di mantenere serietà e determinazione in campo. Viene inoltre evidenziato che Politano stava giocando meglio di De Bruin, mentre altri giocatori come Gila e Mctomini hanno avuto performance contrastanti. La conclusione chia",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "atteggiamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "imbattibilità",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Salernitana",
+      "position": "La Salernitana era in vantaggio nel primo tempo di una partita di 3 anni fa.",
+      "polarity": "neutral",
+      "claim_id": "420a507d-d553-4150-84e6-e617061d032d",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s0",
+      "target_entity": "Salernitana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Salernitana era in vantaggio nel primo tempo di una partita di 3 anni fa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse avevamo una partita con la Salernitana e se non sbaglio eravamo in svantaggio al primo tempo",
+          "start_sec": 0.84,
+          "end_sec": 37.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "primo tempo",
+        "svantaggio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte non sopporta chi ride dopo una sconfitta.",
+      "polarity": "negative",
+      "claim_id": "c311c6cd-15f0-42a9-8b46-b242a1505ba7",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non sopporta chi ride dopo una sconfitta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io quando vedo qualcuno che ride quando abbiamo perso non lo posso sopportare.",
+          "start_sec": 35.44,
+          "end_sec": 71.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte si è espresso negativamente su giocatori e altri che ridono dopo la sconfitta.",
+      "polarity": "neutral",
+      "claim_id": "aae7b47d-0286-4cae-befc-ae48ebad14b5",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte si è espresso negativamente su giocatori e altri che ridono dopo la sconfitta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non mi riferisco solo ai giocatori, mi riferisco e chi ha seguito sa tutto.",
+          "start_sec": 35.44,
+          "end_sec": 71.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Non è chiaro se Mctomini stia facendo il filtro sperato su Cataldi.",
+      "polarity": "neutral",
+      "claim_id": "bd415a3c-e2d5-4a75-97e9-e996f539a867",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Non è chiaro se Mctomini stia facendo il filtro sperato su Cataldi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mctomini non lo so se sta facendo il filtro che speravo su Cataldi",
+          "start_sec": 66.92,
+          "end_sec": 105.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica",
+        "filtro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lobo",
+      "position": "Lobo ha commesso un fallo evitabile su Noson.",
+      "polarity": "negative",
+      "claim_id": "bda08033-adf3-481b-a127-5918feb5fe38",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s2",
+      "target_entity": "Lobo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lobo ha commesso un fallo evitabile su Noson.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lobo che fa quel fallo su Noson perché sarebbe stato praticamente è andato liscio",
+          "start_sec": 66.92,
+          "end_sec": 105.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "fallo",
+        "errore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "San Paolo",
+      "position": "San Paolo è imbattuto da un anno e mezzo.",
+      "polarity": "positive",
+      "claim_id": "38ada175-ab0f-409e-987a-e8d95906311b",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s3",
+      "target_entity": "San Paolo",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "San Paolo è imbattuto da un anno e mezzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'imbattibilità che dura da un anno e mezzo al San Paolo",
+          "start_sec": 103.439,
+          "end_sec": 139.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "imbattibilità",
+        "stadio",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milinkovicć Savić",
+      "position": "Milinkovicć Savić tiene in piedi la squadra con la sua prestazione.",
+      "polarity": "positive",
+      "claim_id": "410e2d88-745b-4bed-b3bb-b54418fc80fc",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s2",
+      "target_entity": "Milinkovicć Savić",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milinkovicć Savić tiene in piedi la squadra con la sua prestazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci tiene in piedi Milinkovicć Savić",
+          "start_sec": 66.92,
+          "end_sec": 105.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "leader",
+        "impatto"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Politano",
+      "position": "Politano è mostrato che ride nel video.",
+      "polarity": "positive",
+      "claim_id": "1557873f-10cc-43aa-bb54-ab8919e65d77",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s0",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Politano è mostrato che ride nel video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però in copertina ci devo mettere Politano che ride, niente di meno",
+          "start_sec": 0.84,
+          "end_sec": 37.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "video",
+        "Politano",
+        "emozione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano stava giocando meglio di De Bruin.",
+      "polarity": "positive",
+      "claim_id": "5c6ff720-fbd7-4273-9691-549495a6b9c0",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s1",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Politano stava giocando meglio di De Bruin.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Da quello che ho intuito, Politano stava giocando anche meglio di De Bruin.",
+          "start_sec": 35.44,
+          "end_sec": 71.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "De Bruin",
+      "position": "De Bruin non ha controllato molti palloni.",
+      "polarity": "negative",
+      "claim_id": "dc0f5745-d0e0-4646-948a-0e822b194941",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s1",
+      "target_entity": "De Bruin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "De Bruin non ha controllato molti palloni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Bruine non ha controllato molti palloni.",
+          "start_sec": 35.44,
+          "end_sec": 71.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Gila",
+      "position": "Gila sta annullando Heund nella partita.",
+      "polarity": "positive",
+      "claim_id": "820a93e0-7e00-42c1-9282-f6e3f71a3c07",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s2",
+      "target_entity": "Gila",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gila sta annullando Heund nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gila sta sta annullando Heund",
+          "start_sec": 66.92,
+          "end_sec": 105.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "contrastare"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cancellieri",
+      "position": "Cancellieri ha segnato un gol.",
+      "polarity": "positive",
+      "claim_id": "b4d2329a-5ddd-4147-9915-5400bbd941fc",
+      "video_id": "4dNdxTwOUk4",
+      "segment_id": "s3",
+      "target_entity": "Cancellieri",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cancellieri ha segnato un gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "segna Cancellieri",
+          "start_sec": 103.439,
+          "end_sec": 139.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "video_id": "bgCpyRcQkFc",
+  "analyzed_at": "2026-04-27T07:28:29.488432+00:00",
+  "metadata": {
+    "title": "GRAVINA NON BASTA, PIAZZA PULITA. IL PREMIO PARTITA: VERGOGNA! QUANTO COSTA DIVENTARE ALLENATORE…",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà affronta la crisi del calcio italiano, sottolineando come la sola presenza di Gravina non sia sufficiente a risolvere i problemi strutturali del sistema. L’autore critica la gestione basata su interessi personali e amicizie, evidenziando come giornali e media spesso difendano figure di riferimento anziché promuovere un reale cambiamento. Pedullà conclude che per rilanciare il calcio italiano è necessario un “piazza pulita” che escluda chi ha fatto parte della vecchia gestione, altrimenti nulla cambierà davvero.",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "premio",
+      "relevance": "medium"
+    },
+    {
+      "name": "giornalismo",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "digitale",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale italiana",
+      "relevance": "low"
+    },
+    {
+      "name": "politica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "opinionista Alfredo Pedullà",
+      "position": "Alfredo Pedullà ha ricevuto migliaia di messaggi diretti e indiretti dai tifosi.",
+      "polarity": "neutral",
+      "claim_id": "7ab5d7ee-6a8e-40da-92a8-5a0f0de5ace7",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s0",
+      "target_entity": "opinionista Alfredo Pedullà",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alfredo Pedullà ha ricevuto migliaia di messaggi diretti e indiretti dai tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho ricevuto centinaia, migliaia di messaggi diretti, non diretti",
+          "start_sec": 0.12,
+          "end_sec": 40.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "giornali",
+      "position": "I giornali vendono soprattutto grazie alle cifre digitali più che al cartaceo.",
+      "polarity": "negative",
+      "claim_id": "2a83d434-de08-478c-a138-4b5e5dba174c",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s1",
+      "target_entity": "giornali",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I giornali vendono soprattutto grazie alle cifre digitali più che al cartaceo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i giornali che ormai vendono soprattutto in le cifre che vi dicono sono soprattutto le cifre del digitale perché il cartaceo è inserito all'interno di un contesto che serve a gonfiare il cartaceo quando il cartaceo ormai è il parente povero",
+          "start_sec": 39.0,
+          "end_sec": 75.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giornalismo",
+        "digitale",
+        "cartaceo"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roberto Mancini",
+      "position": "C'è una volata lanciata per Mancini da chi è stato vicino a lui professionalmente.",
+      "polarity": "neutral",
+      "claim_id": "ec11a193-8121-4877-9083-986953bee028",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s2",
+      "target_entity": "Roberto Mancini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "C'è una volata lanciata per Mancini da chi è stato vicino a lui professionalmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedete una volata lanciata per Mancini, no? da parte di chi è da sempre molto vicino a Mancini e che è stato anche professionalmente vicino a Mancini quando Mancini allenato la Lazio",
+          "start_sec": 72.72,
+          "end_sec": 109.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "influenza",
+        "mancini"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roberto Mancini",
+      "position": "Se Malagò fosse commissario tecnico, Mancini sarebbe commissario tecnico.",
+      "polarity": "neutral",
+      "claim_id": "83145317-51ab-44f4-a225-f3b6a9b2c8fa",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s2",
+      "target_entity": "Roberto Mancini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Se Malagò fosse commissario tecnico, Mancini sarebbe commissario tecnico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se dovesse essere Malagò il commissario tecnico sarebbe Mancini",
+          "start_sec": 72.72,
+          "end_sec": 109.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "nomina",
+        "mancini"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Massimiliano Allegri",
+      "position": "Il Corriere dello sport ha difeso Allegri durante il suo periodo alla Juve.",
+      "polarity": "neutral",
+      "claim_id": "08c2c9c2-c6ba-4d57-a775-732e4da6cc46",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s3",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Corriere dello sport ha difeso Allegri durante il suo periodo alla Juve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Corriere dello sport faceva la guerra per difendere Allegri ai tempi della Juve dagli attacchi",
+          "start_sec": 106.64,
+          "end_sec": 145.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "difesa",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina era parte della FIGC durante il periodo del regime",
+      "polarity": "neutral",
+      "claim_id": "40969be8-a332-47d9-95e5-57c8662dd0be",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s4",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina era parte della FIGC durante il periodo del regime",
+      "evidence_quotes": [
+        {
+          "quote_text": "faceva parte del era all'interno la FGC del periodo del regime Gravina",
+          "start_sec": 141.28,
+          "end_sec": 183.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "allenatore",
+      "position": "Il costo per diventare allenatore è percepito come un problema o una vergogna.",
+      "polarity": "negative",
+      "claim_id": "d55bb542-439a-4388-9642-d46e0fb601a2",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s0",
+      "target_entity": "allenatore",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il costo per diventare allenatore è percepito come un problema o una vergogna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "QUANTO COSTA DIVENTARE ALLENATORE",
+          "start_sec": 0.12,
+          "end_sec": 40.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roberto Mancini",
+      "position": "Il problema è portare avanti l'orticello personale anziché il futuro del calcio italiano.",
+      "polarity": "negative",
+      "claim_id": "ddb147e0-e9d7-405d-889a-7de5eda8b57f",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s2",
+      "target_entity": "Roberto Mancini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Il problema è portare avanti l'orticello personale anziché il futuro del calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il problema è portare avanti l'orticello personale",
+          "start_sec": 72.72,
+          "end_sec": 109.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "critica",
+        "calcio italiano"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "La partita Sassuolo-Cagliari sarà analizzata oggi",
+      "polarity": "neutral",
+      "claim_id": "6858e57f-556c-4ae4-ab8a-a1cdfa9d326f",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s4",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Sassuolo-Cagliari sarà analizzata oggi",
+      "evidence_quotes": [
+        {
+          "quote_text": "Oggi andremo a guardare Sassuolo-Cagliari",
+          "start_sec": 141.28,
+          "end_sec": 183.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ascoli",
+      "position": "L'Ascoli ha vinto a Arezzo.",
+      "polarity": "positive",
+      "claim_id": "9bff8d4d-fba0-4fe7-9b85-ba8abedc33af",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s5",
+      "target_entity": "Ascoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Ascoli ha vinto a Arezzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vittoria dell'Ascoli ad Arezzo",
+          "start_sec": 180.959,
+          "end_sec": 219.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "performance",
+        "serie b"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "sistema del calcio italiano",
+      "position": "Il sistema del calcio italiano è considerato malato e merita approfondimenti critici.",
+      "polarity": "negative",
+      "claim_id": "97742a41-67c8-4273-987e-bfba4dc78d0e",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s3",
+      "target_entity": "sistema del calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il sistema del calcio italiano è considerato malato e merita approfondimenti critici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "piuttosto che il sistema del calcio italiano malato che non avrebbe dovuto meritare un approfondimento",
+          "start_sec": 106.64,
+          "end_sec": 145.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio italiano",
+        "criticità",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Serie C girone B",
+      "position": "Il girone B di Serie C è importante e sarà discusso",
+      "polarity": "neutral",
+      "claim_id": "84e3103b-4552-4134-86d8-786f7073ab65",
+      "video_id": "bgCpyRcQkFc",
+      "segment_id": "s4",
+      "target_entity": "Serie C girone B",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il girone B di Serie C è importante e sarà discusso",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Serie C importante in tutti i gironi, soprattutto nel girone B",
+          "start_sec": 141.28,
+          "end_sec": 183.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "video_id": "bq_gRayWkNw",
+  "analyzed_at": "2026-04-24T15:56:08.990107+00:00",
+  "metadata": {
+    "title": "IL PROF SPALLETTI: QUESTO È CALCIO. LA JUVE DOMINA, COLPISCE, GIOISCE E RITROVA DAVID🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'analisi della recente giornata di campionato, evidenziando la grande prestazione della Juventus che domina e ritrova il suo \"David\", mentre la Cremonese non ha convinto. L'autore sottolinea come il Milan abbia vinto pur senza brillare, grazie a un assist decisivo di Leao per Rabiot, considerato uno dei pochi insostituibili. Viene inoltre evidenziata la situazione di classifica, con il Milan e il Napoli in vantaggio per la Champions League e la Juventus più vicina al secondo posto, mentre Lecce e Cremonese si giocano posizioni importanti con calendari diversi. Infine,",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "serie b",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizioni europee",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "giornata di campionato",
+      "relevance": "low"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Lecce",
+      "position": "Lecce ha un calendario teoricamente più agevole rispetto alla Cremonese.",
+      "polarity": "neutral",
+      "claim_id": "3197f359-a140-4be7-9ce9-c4fc88ca532e",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s1",
+      "target_entity": "Lecce",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Lecce ha un calendario teoricamente più agevole rispetto alla Cremonese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lecce per me è un calendario sulla carta, diciamo sempre sulla carta, è più agevole rispetto alla Cremonese",
+          "start_sec": 33.399,
+          "end_sec": 67.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calendario",
+        "confronto"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha vinto la partita anche senza giocare una grande partita.",
+      "polarity": "positive",
+      "claim_id": "0b6c9ec8-2160-449b-ab0e-ca300a0af577",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha vinto la partita anche senza giocare una grande partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Milan, come dice Allegri, doveva vincere e ha vinto non giocando una grande partita",
+          "start_sec": 33.399,
+          "end_sec": 67.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao ha fornito un assist determinante per il gol di Rabiot.",
+      "polarity": "positive",
+      "claim_id": "a872c943-3283-4e6c-b04c-33ac45850139",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s1",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Leao ha fornito un assist determinante per il gol di Rabiot.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Leao l'abbiam visto per l'assist, che è stato un assist determinante che ha portato al gol di Rabiot",
+          "start_sec": 33.399,
+          "end_sec": 67.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assist",
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Rabiot",
+      "position": "Rabiot è uno dei pochi giocatori davvero insostituibili nel Milan.",
+      "polarity": "positive",
+      "claim_id": "c886a808-8b92-410c-a79d-5676d367e274",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s1",
+      "target_entity": "Rabiot",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rabiot è uno dei pochi giocatori davvero insostituibili nel Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rabiot che mi sembra uno dei pochi davvero insostituibili in casa Milan",
+          "start_sec": 33.399,
+          "end_sec": 67.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "importanza",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Pescara",
+      "position": "Il Pescara ha perso il vantaggio contro il Carrara dopo essere stato raggiunto.",
+      "polarity": "neutral",
+      "claim_id": "f723879c-3247-4194-974d-a508fe04d584",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s2",
+      "target_entity": "Pescara",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Pescara ha perso il vantaggio contro il Carrara dopo essere stato raggiunto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Pescara che stava vincendo a Carrara è stato raggiunto",
+          "start_sec": 65.519,
+          "end_sec": 98.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie b",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan deve trovare un'unità d'intenti con la proprietà e chi si occupa del mercato.",
+      "polarity": "neutral",
+      "claim_id": "76ed7962-2dc1-4cac-b27e-f9d59f2fe964",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan deve trovare un'unità d'intenti con la proprietà e chi si occupa del mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna leggere un presidente federale e il passaggio più importante è trovare un'unità di intenti con la proprietà, con chi si occupa del mercato",
+          "start_sec": 95.88,
+          "end_sec": 128.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juve ha offerto una grande prestazione in questa giornata di campionato.",
+      "polarity": "positive",
+      "claim_id": "01330e06-ea6e-4845-8869-2b5cb5c9c422",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juve ha offerto una grande prestazione in questa giornata di campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è terminata con una grande prestazione della Juve",
+          "start_sec": 0.04,
+          "end_sec": 35.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giornata di campionato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese non ha convinto molto in questa partita.",
+      "polarity": "negative",
+      "claim_id": "0205b7db-8cec-43f1-8dab-ae845fde6128",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s0",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese non ha convinto molto in questa partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Cremonese sinceramente mi ha convinto poco",
+          "start_sec": 0.04,
+          "end_sec": 35.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Reggiana",
+      "position": "La Reggiana ha perso la partita contro il Padova.",
+      "polarity": "neutral",
+      "claim_id": "0598cad2-7ab3-4041-ac25-a09558232a20",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s2",
+      "target_entity": "Reggiana",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Reggiana ha perso la partita contro il Padova.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sconfitta della Reggiana a Padova",
+          "start_sec": 65.519,
+          "end_sec": 98.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie b",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Empoli",
+      "position": "L'Empoli non ha battuto l'Entella nella Serie B.",
+      "polarity": "neutral",
+      "claim_id": "025d0b79-e354-44a4-995b-3a877451c130",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s2",
+      "target_entity": "Empoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Empoli non ha battuto l'Entella nella Serie B.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Empoli che non ha battuto l'Entella",
+          "start_sec": 65.519,
+          "end_sec": 98.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie b",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Genoa",
+      "position": "Il Genoa ha blindato la salvezza di rimonta a Pisa in Serie A.",
+      "polarity": "positive",
+      "claim_id": "f2936587-2eb2-4f15-a0b2-ce497a70f13f",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s2",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha blindato la salvezza di rimonta a Pisa in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Genoa ha blindato la salvezza di rimonta a Pisa",
+          "start_sec": 65.519,
+          "end_sec": 98.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "salvezza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan blinderà presto la qualificazione in Champions League.",
+      "polarity": "positive",
+      "claim_id": "f158bc3e-8f4f-40dd-967d-90c119994621",
+      "video_id": "bq_gRayWkNw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan blinderà presto la qualificazione in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prima il Milan blinderà la Champions",
+          "start_sec": 95.88,
+          "end_sec": 128.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "performance"
+      ]
+    }
+  ]
+}

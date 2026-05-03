@@ -1,0 +1,412 @@
+{
+  "video_id": "s8JPXxpOrlk",
+  "analyzed_at": "2026-05-02T08:08:33.044499+00:00",
+  "metadata": {
+    "title": "TMW News: Inter, voglia di festa. Il Como e il suo modello",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video si concentra su un'analisi del campionato di Serie A, con particolare attenzione alla Fiorentina e al suo percorso verso la salvezza. Giancarlo Antognoni descrive il campionato come equilibrato e apprezzato, sottolineando che le squadre che hanno raggiunto obiettivi europei hanno centrato i propri traguardi, mentre la Fiorentina, inizialmente data per spacciata, è riuscita a salvarsi e potrà festeggiare il centenario in Serie A con serenità. Viene inoltre evidenziata l'importanza della mentalità vincente degli allenatori e si menziona Fabio Grosso come giovane tecnico emergente e prom",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "giovane",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovani",
+      "relevance": "medium"
+    },
+    {
+      "name": "europeo",
+      "relevance": "medium"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "low"
+    },
+    {
+      "name": "ruolo",
+      "relevance": "low"
+    },
+    {
+      "name": "tecnica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha ottenuto la salvezza con 28 punti in 17 partite.",
+      "polarity": "positive",
+      "claim_id": "be37102e-dfbd-4bb7-af97-30136d63fe38",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha ottenuto la salvezza con 28 punti in 17 partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in 17 partite ha fatto 28 punti e non gli può dire nulla assolutamente",
+          "start_sec": 195.319,
+          "end_sec": 318.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "risultati",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadre che raggiungono obiettivi europei",
+      "position": "Le squadre che raggiungono obiettivi europei hanno ottenuto i risultati prefissati.",
+      "polarity": "positive",
+      "claim_id": "d6d2ddbc-c998-43ab-a9fd-5cace3bbb6e9",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s0",
+      "target_entity": "squadre che raggiungono obiettivi europei",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre che raggiungono obiettivi europei hanno ottenuto i risultati prefissati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ha raggiunto questi obiettivi credo che abbia ottenuto il risultato che forse si era prefisso",
+          "start_sec": 12.92,
+          "end_sec": 119.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "obiettivi",
+        "europa",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore",
+      "position": "Gli allenatori vanno in campo per vincere le partite.",
+      "polarity": "positive",
+      "claim_id": "75c583f5-1d86-46cf-a7de-669f5569fa1e",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s1",
+      "target_entity": "allenatore",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli allenatori vanno in campo per vincere le partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Penso che tutti gli allenatori vanno in campo per vincere",
+          "start_sec": 116.119,
+          "end_sec": 199.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mentalità",
+        "vittoria"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina è salva e giocherà in Serie A il prossimo anno, potendo festeggiare il centenario serenamente.",
+      "polarity": "positive",
+      "claim_id": "0a964047-b5e9-4727-bb57-f33b51f8c7d5",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Fiorentina è salva e giocherà in Serie A il prossimo anno, potendo festeggiare il centenario serenamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Fiorentina il prossimo anno giocherà in Serie A e quindi si può festeggiare il centenario in maniera serena",
+          "start_sec": 116.119,
+          "end_sec": 199.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "salvezza",
+        "centenario"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "All'inizio della stagione nessuno pensava che la Fiorentina si sarebbe salvata dalla retrocessione.",
+      "polarity": "neutral",
+      "claim_id": "09d7383c-99b9-4de1-8371-2a29b960a5c6",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "All'inizio della stagione nessuno pensava che la Fiorentina si sarebbe salvata dalla retrocessione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi ha ottenuto questa questa eh salvezza che all'inizio nessuno pensava assolutamente",
+          "start_sec": 116.119,
+          "end_sec": 199.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "retrocessione",
+        "salvezza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fabio Grosso",
+      "position": "Fabio Grosso è un allenatore giovane, campione del mondo, ed è considerato uno dei migliori allenatori emergenti.",
+      "polarity": "neutral",
+      "claim_id": "2d5b495b-e0be-4404-b8be-66dd9ec1e81d",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s2",
+      "target_entity": "Fabio Grosso",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabio Grosso è un allenatore giovane, campione del mondo, ed è considerato uno dei migliori allenatori emergenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabio Grosso, un allenatore giovane, campione del mondo",
+          "start_sec": 195.319,
+          "end_sec": 318.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "giovinezza",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "direttore sportivo della Fiorentina",
+      "position": "Un direttore sportivo può migliorare la squadra, ma i giocatori fanno la differenza in campo.",
+      "polarity": "neutral",
+      "claim_id": "1c48f6f5-95d9-4141-82f1-6352756ad6b1",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s2",
+      "target_entity": "direttore sportivo della Fiorentina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Un direttore sportivo può migliorare la squadra, ma i giocatori fanno la differenza in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mai un però è un un direttore sportivo sicuramente può migliorare la squadra, però non è che va in campo lui",
+          "start_sec": 195.319,
+          "end_sec": 318.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "direttore sportivo",
+        "ruolo",
+        "importanza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "I giovani del Como stanno facendo un grande campionato primavera.",
+      "polarity": "positive",
+      "claim_id": "02a1a627-936b-4f1f-a368-6546afb33b6c",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I giovani del Como stanno facendo un grande campionato primavera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tra l'altro una puntualizzazione anche sui vostri giovani della primavera perché insomma state facendo un grande campionato.",
+          "start_sec": 316.68,
+          "end_sec": 391.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "campionato primavera",
+        "giovane",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Giancarlo Antognoni",
+      "position": "Giancarlo Antognoni ha definito il campionato in corso un campionato bello per tutte le squadre.",
+      "polarity": "positive",
+      "claim_id": "e794a80b-91b1-4c92-a816-d45f6e2d58a6",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s0",
+      "target_entity": "Giancarlo Antognoni",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giancarlo Antognoni ha definito il campionato in corso un campionato bello per tutte le squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, ma come sempre un bel campionato un po' per tutte le squadre",
+          "start_sec": 12.92,
+          "end_sec": 119.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "campionato",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain e Bayern Monaco",
+      "position": "La partita tra Paris Saint-Germain e Bayern Monaco è stata molto bella e apprezzata dal pubblico.",
+      "polarity": "positive",
+      "claim_id": "d17699af-5fa0-4e83-8a81-dd40f92f1169",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s0",
+      "target_entity": "Paris Saint-Germain e Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Paris Saint-Germain e Bayern Monaco è stata molto bella e apprezzata dal pubblico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma ho visto una partita molto bella, innanzitutto... è stata una bella partita che la gente ha apprezzato",
+          "start_sec": 12.92,
+          "end_sec": 119.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "prestazione",
+        "pubblico"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fagioli",
+      "position": "Fagioli è un punto fermo della Fiorentina e ha fatto bene in questa stagione.",
+      "polarity": "positive",
+      "claim_id": "eaecee0e-bbef-4879-908c-47c056fc14c6",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s2",
+      "target_entity": "Fagioli",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fagioli è un punto fermo della Fiorentina e ha fatto bene in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fagioli è il punto fermo da cui ripartire. ha fatto bene",
+          "start_sec": 195.319,
+          "end_sec": 318.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "prestazione",
+        "fiorentina"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fagioli",
+      "position": "Fagioli ha fatto bene e merita la riconferma.",
+      "polarity": "positive",
+      "claim_id": "33665134-60f3-488b-b564-bf8d731d1622",
+      "video_id": "s8JPXxpOrlk",
+      "segment_id": "s3",
+      "target_entity": "Fagioli",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fagioli ha fatto bene e merita la riconferma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fagioli sicuramente ha fatto bene e da quello che ho letto sicuramente merita la riconferma.",
+          "start_sec": 316.68,
+          "end_sec": 391.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "riconferma",
+        "giovane"
+      ]
+    }
+  ]
+}

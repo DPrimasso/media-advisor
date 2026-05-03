@@ -1,0 +1,407 @@
+{
+  "video_id": "_2v-Edql5Bk",
+  "analyzed_at": "2026-04-25T11:19:31.260101+00:00",
+  "metadata": {
+    "title": "MILAN, UN PROBLEMA DA RISOLVERE. ALL’ORIZZONTE IL VALZER ESTERNI INTER. POKER CAPRILE. SVOLTA SENESI",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-17T15:30:19+00:00"
+  },
+  "summary": "Il video si concentra sulle strategie di calciomercato delle squadre milanesi, con particolare attenzione all’Inter e ai suoi possibili acquisti e cessioni. L’autore evidenzia l’interesse dell’Inter per Marco Palestra, valutato dall’Atalanta circa 50 milioni, e la situazione legata a Denzel Dumfries, la cui clausola rescissoria da 25 milioni sarà valida a luglio; inoltre, si discute della possibile partenza di Luis Enrique e della ricerca di un nuovo portiere come Caprile. La posizione principale è che l’Inter sta valutando attentamente queste operazioni per rinforzare la rosa in vista della p",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "clausola rescissoria",
+      "relevance": "high"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "interesse",
+      "relevance": "low"
+    },
+    {
+      "name": "dirigente",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Denzel Dumfries",
+      "position": "La clausola rescissoria per Denzel Dumfries è valida a luglio ed è di 25 milioni.",
+      "polarity": "neutral",
+      "claim_id": "0002a5dc-d92d-40f3-afe1-e77a3899a7a9",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s1",
+      "target_entity": "Denzel Dumfries",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La clausola rescissoria per Denzel Dumfries è valida a luglio ed è di 25 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la clausola recistoria, valida nel mese di luglio da 25 milioni per Denzel Dunfris",
+          "start_sec": 29.4,
+          "end_sec": 58.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "clausola rescissoria"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Newcastle",
+      "position": "Il Newcastle offre 35 milioni più 5 di bonus per Palestra, ma l'offerta non basta.",
+      "polarity": "neutral",
+      "claim_id": "b05c4558-c29d-4cf1-8e88-984670c6f3bb",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s2",
+      "target_entity": "Newcastle",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Newcastle offre 35 milioni più 5 di bonus per Palestra, ma l'offerta non basta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Newcastle sembrerebbe pronto già a mettere sul piatto 35 milioni più 5 di bonus per arrivare a 40 che non bastano",
+          "start_sec": 56.16,
+          "end_sec": 82.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "offerta",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta valuta Palestra 50 milioni, troppi per i club italiani.",
+      "polarity": "neutral",
+      "claim_id": "23bbcc75-a241-4903-8c6c-7a49fe92c3a7",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s2",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta valuta Palestra 50 milioni, troppi per i club italiani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta per Pagestra parte da una valutazione di 50 milioni, tanti troppi per le casse dei club italiani",
+          "start_sec": 56.16,
+          "end_sec": 82.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Inter sta valutando 3-4 nomi per il portiere titolare della prossima stagione.",
+      "polarity": "neutral",
+      "claim_id": "cb0c4f1f-1911-491b-8908-ab12beecf743",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter sta valutando 3-4 nomi per il portiere titolare della prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parte della short list dei tre-4attro nomi sui quali sta ragionando l'Inter per la porta della prossima stagione",
+          "start_sec": 80.96,
+          "end_sec": 108.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "portiere",
+        "Inter"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter ha interesse per Marco Palestra come obiettivo di mercato.",
+      "polarity": "positive",
+      "claim_id": "fa172458-2d87-407d-b0b9-7093fdbe7fd3",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha interesse per Marco Palestra come obiettivo di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Insomma, non è un mistero che all'Inter piaccia moltissimo Marco Palestra.",
+          "start_sec": 0.64,
+          "end_sec": 32.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato",
+        "obiettivo",
+        "inter"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Cagliari",
+      "position": "Il Cagliari ha due giocatori che sono possibili obiettivi di mercato per l'Inter.",
+      "polarity": "neutral",
+      "claim_id": "394379b7-497a-44c2-8335-d327964eeec5",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s0",
+      "target_entity": "Cagliari",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Cagliari ha due giocatori che sono possibili obiettivi di mercato per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel Cagliari ci sono due possibili obiettivi del club nerazzurro a livello di mercato.",
+          "start_sec": 0.64,
+          "end_sec": 32.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato",
+        "cagliari",
+        "inter"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter sta facendo ragionamenti sul possibile acquisto di Denzel Dumfries.",
+      "polarity": "neutral",
+      "claim_id": "f90a533e-c5a2-4b92-a876-2b314d3631f2",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter sta facendo ragionamenti sul possibile acquisto di Denzel Dumfries.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter su palestra dei ragionamenti li sta facendo",
+          "start_sec": 29.4,
+          "end_sec": 58.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "interesse"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juventus ha chiesto informazioni su Denzel Dumfries ma non ha ancora affondato il colpo.",
+      "polarity": "neutral",
+      "claim_id": "3141eb52-982d-4f71-a7a5-dd18dd41ddb6",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus ha chiesto informazioni su Denzel Dumfries ma non ha ancora affondato il colpo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juve e Napoli hanno chiesto informazioni, lo seguono, ma non hanno non hanno affondato il colpo",
+          "start_sec": 29.4,
+          "end_sec": 58.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "juventus"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter apprezza molto Palestra, anche se lui è di proprietà dell'Atalanta.",
+      "polarity": "neutral",
+      "claim_id": "42a94b46-515d-4028-8f47-c012e20f1804",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter apprezza molto Palestra, anche se lui è di proprietà dell'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter nel Cagliari, anche se poi in realtà di proprietà dell'Atalanta, apprezza tantissimo Palestra",
+          "start_sec": 56.16,
+          "end_sec": 82.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "apprezzamento",
+        "proprietà"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Sommer",
+      "position": "Se Sommer resta all'Inter farà il secondo portiere.",
+      "polarity": "positive",
+      "claim_id": "211664e9-d615-4d8f-989d-16dccec8f4d5",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s3",
+      "target_entity": "Sommer",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Se Sommer resta all'Inter farà il secondo portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "comunque Sommer se resta farà il secondo",
+          "start_sec": 80.96,
+          "end_sec": 108.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "Inter",
+        "lineup_prediction"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Barcellona",
+      "position": "Il Barcellona ha visionato Dumfries durante Cagliari-Napoli.",
+      "polarity": "neutral",
+      "claim_id": "84c06d56-9b76-4b2e-8020-28d8302038b8",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s1",
+      "target_entity": "Barcellona",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barcellona ha visionato Dumfries durante Cagliari-Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'ha visionato il Barcellona in occasione di Cagliari- Napoli",
+          "start_sec": 29.4,
+          "end_sec": 58.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "barcellona"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Inter",
+      "position": "L'Inter giocherà stasera contro il Cagliari in una sfida importante.",
+      "polarity": "neutral",
+      "claim_id": "dc872ebe-5cfb-4599-acae-5c300cb40aad",
+      "video_id": "_2v-Edql5Bk",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter giocherà stasera contro il Cagliari in una sfida importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter che giocherà, tra l'altro oggi, giocherà stasera contro contro il Cagliari.",
+          "start_sec": 0.64,
+          "end_sec": 32.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "inter",
+        "cagliari"
+      ]
+    }
+  ]
+}

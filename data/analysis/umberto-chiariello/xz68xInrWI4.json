@@ -1,0 +1,411 @@
+{
+  "video_id": "xz68xInrWI4",
+  "analyzed_at": "2026-04-24T09:11:52.580522+00:00",
+  "metadata": {
+    "title": "CRC NEWS 03 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di CRC News affronta principalmente la crescente emergenza sicurezza a Napoli, evidenziando episodi di violenza giovanile come l’aggressione di un sedicenne da parte di una baby gang e le proteste dei residenti per chiedere maggiore tutela. L’autore, attraverso il contributo di Luigi De Magistris, sottolinea la mancanza di risposte autorevoli da parte delle istituzioni, che sembrano rassegnate a questa situazione fuori controllo. Inoltre, si riportano altre notizie rilevanti come l’aumento dei prezzi del carburante denunciato da Abaco e la proroga del decreto taglia accise, nonché l’u",
+  "topics": [
+    {
+      "name": "meteo",
+      "relevance": "high"
+    },
+    {
+      "name": "prezzo carburante",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "violenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "criminalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "spaccio",
+      "relevance": "medium"
+    },
+    {
+      "name": "droga",
+      "relevance": "low"
+    },
+    {
+      "name": "turismo",
+      "relevance": "low"
+    },
+    {
+      "name": "evento climatico",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "finance",
+      "subject": "Consiglio dei Ministri",
+      "position": "Il Consiglio dei Ministri ha prorogato il decreto taglia accise fino alla scadenza del 7 aprile.",
+      "polarity": "positive",
+      "claim_id": "92f54b85-9abd-4255-9a5e-00bdd016f3ff",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s0",
+      "target_entity": "Consiglio dei Ministri",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Consiglio dei Ministri ha prorogato il decreto taglia accise fino alla scadenza del 7 aprile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Consiglio dei Ministri ha dato il via libera alla proroga del decreto taglia accise che scadeva il 7 aprile",
+          "start_sec": 0.16,
+          "end_sec": 44.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "decreto taglia accise",
+        "finanza pubblica",
+        "politica"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "pilota di drone",
+      "position": "Un pilota di drone può guadagnare fino a 10 milioni di euro al giorno per consegne ai detenuti.",
+      "polarity": "neutral",
+      "claim_id": "1078a4b9-bde2-4dc1-801f-b7a2106b19bb",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s1",
+      "target_entity": "pilota di drone",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Un pilota di drone può guadagnare fino a 10 milioni di euro al giorno per consegne ai detenuti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un pilota di drone può guadagnare fino a €10.000 000 al giorno per effettuare le consegne ai detenuti.",
+          "start_sec": 42.079,
+          "end_sec": 101.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "economia",
+        "droga",
+        "consegne"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Abaco",
+      "position": "Abaco denuncia speculazioni sugli aumenti dei prezzi del carburante a Napoli.",
+      "polarity": "neutral",
+      "claim_id": "20547f01-adc7-4c15-92d8-795d016d54a4",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s0",
+      "target_entity": "Abaco",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Abaco denuncia speculazioni sugli aumenti dei prezzi del carburante a Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lo denuncia Abaco, l'associazione di base dei consumatori che ha presentato un esposto contro le speculazioni",
+          "start_sec": 0.16,
+          "end_sec": 44.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prezzo carburante",
+        "speculazione",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "carabinieri",
+      "position": "I carabinieri hanno intercettato e sequestrato un drone utilizzato per trasportare droga e cellulari.",
+      "polarity": "positive",
+      "claim_id": "1f181e7d-4a72-43af-9ab1-d31564e00af4",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s1",
+      "target_entity": "carabinieri",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I carabinieri hanno intercettato e sequestrato un drone utilizzato per trasportare droga e cellulari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Uno di questi droni è stato intercettato e sequestrato dai militari. trasportava droga e cellulari ed era diretto al carcere di Poggioreale.",
+          "start_sec": 42.079,
+          "end_sec": 101.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "droni",
+        "sequestro",
+        "droga"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "baby gang",
+      "position": "Una baby gang ha gambizzato un sedicenne vicino alla prefettura.",
+      "polarity": "negative",
+      "claim_id": "f3af6436-0801-450d-af2e-5af41b42dfce",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s1",
+      "target_entity": "baby gang",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Una baby gang ha gambizzato un sedicenne vicino alla prefettura.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una baby gang gambizzare un sedicenni a pochi passi dalla prefettura",
+          "start_sec": 42.079,
+          "end_sec": 101.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "baby gang",
+        "violenza"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "residenti di Chiaia e Monte di Dio",
+      "position": "I residenti di Chiaia e Monte di Dio hanno organizzato un sit-in per la sicurezza.",
+      "polarity": "neutral",
+      "claim_id": "765e9d9c-ac6c-4207-b64d-a9bef4cb228f",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s1",
+      "target_entity": "residenti di Chiaia e Monte di Dio",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I residenti di Chiaia e Monte di Dio hanno organizzato un sit-in per la sicurezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con un sitin dei residenti di Chiaia e Monte di Dio",
+          "start_sec": 42.079,
+          "end_sec": 101.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "protesta",
+        "sicurezza"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "entità non specificata",
+      "position": "Non si avvertono prese di posizione autorevoli e forti sull'attuale situazione.",
+      "polarity": "negative",
+      "claim_id": "b8a2f803-fb8e-4f36-b564-b8a3b3b56872",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s2",
+      "target_entity": "entità non specificata",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non si avvertono prese di posizione autorevoli e forti sull'attuale situazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si non si avvertono prese di posizione autorevoli, forti",
+          "start_sec": 99.439,
+          "end_sec": 149.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "mancanza di leadership",
+        "critica"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "entità non specificata",
+      "position": "La situazione giovanile rischia di diventare progressivamente sempre più fuori controllo.",
+      "polarity": "negative",
+      "claim_id": "4dfed713-37d0-45fb-9eae-d28b11904ceb",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s2",
+      "target_entity": "entità non specificata",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La situazione giovanile rischia di diventare progressivamente sempre più fuori controllo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "giovanile sotto la nostra lente domani e ormai la situazione rischia di essere progressivamente sempre più fuori controllo",
+          "start_sec": 99.439,
+          "end_sec": 149.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gioventù",
+        "criticità",
+        "controllo sociale"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "sindaco di Napoli",
+      "position": "Il sindaco di Napoli non ha risposto ai problemi di sicurezza e criminalità in città",
+      "polarity": "negative",
+      "claim_id": "f000b7e6-2908-4180-9be3-04370ea1237f",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s3",
+      "target_entity": "sindaco di Napoli",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il sindaco di Napoli non ha risposto ai problemi di sicurezza e criminalità in città",
+      "evidence_quotes": [
+        {
+          "quote_text": "il sindaco ieri ha fatto una conferenza stampa sul pacco per Napoli, ma non dice nulla su tutto quello che sta accadendo",
+          "start_sec": 147.76,
+          "end_sec": 221.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sicurezza",
+        "criminalità",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "trasporti di Napoli",
+      "position": "I trasporti a Napoli sono inefficienti nonostante gli investimenti fatti negli anni",
+      "polarity": "negative",
+      "claim_id": "85339103-b1ac-478e-8457-4c0f8f5d0090",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s3",
+      "target_entity": "trasporti di Napoli",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I trasporti a Napoli sono inefficienti nonostante gli investimenti fatti negli anni",
+      "evidence_quotes": [
+        {
+          "quote_text": "un trasporto che inspiegabilmente arranca nonostante investimenti e cose che si sono fatte negli anni",
+          "start_sec": 147.76,
+          "end_sec": 221.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasporto",
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "politica municipale di Napoli",
+      "position": "Ci sono tensioni politiche sulle municipalità, lo statuto comunale e l'aumento dei fondi per i politici",
+      "polarity": "negative",
+      "claim_id": "b20d0882-4d8c-4d67-a422-79c21714fd6b",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s3",
+      "target_entity": "politica municipale di Napoli",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono tensioni politiche sulle municipalità, lo statuto comunale e l'aumento dei fondi per i politici",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi riaffronteremo nuovamente le tensioni politiche sulle municipalità, sullo statuto comunale, sull'aumento dei soldi ai vertici della politica",
+          "start_sec": 147.76,
+          "end_sec": 221.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "politica",
+        "tensione",
+        "finanza"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "scuole",
+      "position": "Si verificano aggressioni nelle scuole e nei loro dintorni.",
+      "polarity": "negative",
+      "claim_id": "71617118-280e-4a3c-abfc-0cd1d9deb11d",
+      "video_id": "xz68xInrWI4",
+      "segment_id": "s2",
+      "target_entity": "scuole",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Si verificano aggressioni nelle scuole e nei loro dintorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "eh aggressioni nelle scuole, fuori le scuole",
+          "start_sec": 99.439,
+          "end_sec": 149.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "aggressione",
+        "scuola",
+        "violenza"
+      ]
+    }
+  ]
+}

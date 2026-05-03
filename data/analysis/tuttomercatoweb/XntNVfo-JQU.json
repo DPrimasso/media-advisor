@@ -1,0 +1,385 @@
+{
+  "video_id": "XntNVfo-JQU",
+  "analyzed_at": "2026-04-26T11:41:14.206473+00:00",
+  "metadata": {
+    "title": "TMWRadio - Il rinnovo di Spalletti. Il commento di Impallomeni, Braglia e De Paola",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-10T16:27:28+00:00"
+  },
+  "summary": "Il video si concentra sul rinnovo contrattuale di Spalletti con la Juventus fino al 2028, annunciato dallo stesso allenatore con orgoglio alla squadra. L’autore sottolinea come questo rinnovo non sia legato esclusivamente ai risultati sportivi, ma rappresenti un segnale di fiducia e stabilità, pur evidenziando la necessità di un cambio di atteggiamento da parte di alcuni giocatori, in particolare nel centrocampo, che ha mostrato un calo significativo nell’ultima partita contro il Genoa. Viene inoltre evidenziata la sfida imminente che potrebbe influenzare il destino europeo della squadra, ment",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "caratteristica del giocatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "concentrazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Spalletti",
+      "position": "Spalletti ha rinnovato ufficialmente il suo contratto fino al 2028.",
+      "polarity": "positive",
+      "claim_id": "971bcdb0-ba50-4c53-b3cf-ca82f4d0689a",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha rinnovato ufficialmente il suo contratto fino al 2028.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È arrivato questo annuncio fino al 2028",
+          "start_sec": 0.599,
+          "end_sec": 41.959999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Spalletti",
+      "position": "Spalletti ha fatto una presentazione orgogliosa del suo rinnovo.",
+      "polarity": "positive",
+      "claim_id": "1fc6f09c-53ff-497e-be33-11a0864bdad2",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s1",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha fatto una presentazione orgogliosa del suo rinnovo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui ha voluto fare tutta la presentazione orgogliosa di questo rinnovo",
+          "start_sec": 40.399,
+          "end_sec": 74.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Spalletti",
+      "position": "Spalletti ha rilasciato il rinnovo per placare le solite domande nelle conferenze stampa.",
+      "polarity": "neutral",
+      "claim_id": "ff9c5f27-99dd-417b-9c2d-b91e671e582e",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s1",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha rilasciato il rinnovo per placare le solite domande nelle conferenze stampa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ho fatto perché lo devo fare e per placare un pochettino la solita domanda in preconferenza stampa",
+          "start_sec": 40.399,
+          "end_sec": 74.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Spalletti",
+      "position": "Il rinnovo di Spalletti non è necessariamente legato ai risultati ottenuti.",
+      "polarity": "neutral",
+      "claim_id": "33780a77-1443-47f9-a265-9a93867081fc",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s1",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il rinnovo di Spalletti non è necessariamente legato ai risultati ottenuti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pensare che il rinnovo di Spalletti potesse essere legato ai risultati",
+          "start_sec": 40.399,
+          "end_sec": 74.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Alcuni giocatori hanno una certa caratteristica non specificata qui.",
+      "polarity": "neutral",
+      "claim_id": "f36d9542-104b-413f-b54b-a046eb807ee5",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s2",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alcuni giocatori hanno una certa caratteristica non specificata qui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi quei giocatori e ce ne sono alcuni che in qualche modo lo hanno",
+          "start_sec": 71.4,
+          "end_sec": 79.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Alcuni giocatori della Juventus si sono estraniati improvvisamente negli ultimi quattro anni.",
+      "polarity": "negative",
+      "claim_id": "8fe0bae2-d892-46b5-adeb-a057a2f9176e",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alcuni giocatori della Juventus si sono estraniati improvvisamente negli ultimi quattro anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alcuni giocatori che si estraneano improvvisamente, come è avvenuto negli ultimi 4 anni",
+          "start_sec": 77.479,
+          "end_sec": 112.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatori",
+        "estraniamento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Juventus",
+      "position": "Se la Juventus non cambia registro con Spalletti, i giocatori andranno via serenamente a fine stagione.",
+      "polarity": "negative",
+      "claim_id": "e9f1d2ad-56dd-4b27-9416-a0d8e223d2fe",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Se la Juventus non cambia registro con Spalletti, i giocatori andranno via serenamente a fine stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "devono cambiare registro perché se non cambiano registro con con Spalletti andranno via serenamente a fine stagione",
+          "start_sec": 77.479,
+          "end_sec": 112.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "cambiamento",
+        "rinnovo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cambiaso",
+      "position": "Cambiaso ha blackout che coinvolgono tutta la squadra nella fase di centrocampo.",
+      "polarity": "negative",
+      "claim_id": "5af66626-6b34-439e-ac30-30af30691e82",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s4",
+      "target_entity": "Cambiaso",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cambiaso ha blackout che coinvolgono tutta la squadra nella fase di centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma il caso emblematico che mi piace fare è quello di Cambiaso perché è un giocatore assolutamente importante nella fase di spinta iniziale, ma che ha quei blackout che coinvolgono poi tutta la squadra, dei blackout a centrocampo",
+          "start_sec": 110.079,
+          "end_sec": 141.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "blocco",
+        "centrocampo",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra del secondo tempo col Genoa",
+      "position": "La squadra del secondo tempo col Genoa non è riconosciuta per prestazioni evidenti.",
+      "polarity": "negative",
+      "claim_id": "8f55317c-ad16-4853-9632-88a34040c2ca",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s4",
+      "target_entity": "squadra del secondo tempo col Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra del secondo tempo col Genoa non è riconosciuta per prestazioni evidenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "col Genoa che non ho riconosciuto, ma alcuni giocatori sono visibili, in questo anche le imperizie di altri giocatori",
+          "start_sec": 110.079,
+          "end_sec": 141.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "imprecisione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha avuto un calo clamoroso del centrocampo nel secondo tempo contro il Genoa.",
+      "polarity": "negative",
+      "claim_id": "af19cca9-4090-456c-9424-5764b34ed951",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha avuto un calo clamoroso del centrocampo nel secondo tempo contro il Genoa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calo clamoroso del centrocampo della Juventus",
+          "start_sec": 77.479,
+          "end_sec": 112.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calo",
+        "centrocampo",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Spalletti",
+      "position": "Spalletti ha comunicato il rinnovo alla squadra.",
+      "polarity": "neutral",
+      "claim_id": "d18a284b-a013-4e72-8bfa-ccc2e6527470",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha comunicato il rinnovo alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ha detto alla squadra",
+          "start_sec": 0.599,
+          "end_sec": 41.959999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Spalletti",
+      "position": "Il rinnovo di Spalletti coincide con una partita importante.",
+      "polarity": "neutral",
+      "claim_id": "a4b1e803-2be1-4964-ad37-07093b5810c5",
+      "video_id": "XntNVfo-JQU",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il rinnovo di Spalletti coincide con una partita importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è questa partita che coincide proprio con partita importante proprio con il rinnovo",
+          "start_sec": 0.599,
+          "end_sec": 41.959999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "video_id": "_d-sye8pqLc",
+  "analyzed_at": "2026-04-30T07:44:24.067389+00:00",
+  "metadata": {
+    "title": "AIA, È RIMASTO SOLO L’USCIERE. JUVE, RESISTE UN NOME. GIRO PANCHINE E… LA GIOCONDA🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà si concentra sulla netta contrapposizione tra la qualità spettacolare del calcio europeo, esemplificata da una partita di Champions League definita tra le migliori di sempre, e l’inefficienza dell’Associazione Italiana Arbitri (AIA) e della governance calcistica italiana. L’autore critica duramente la mancanza di riforme e di leadership, auspicando dimissioni collettive e un cambio di legge per garantire maggiore responsabilità. Pedullà sottolinea inoltre come la qualità tecnica e la velocità di gioco viste in campo superino di gran lunga le difese avversarie e gius",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "organizzazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "federazione",
+      "position": "La gestione della federazione è criticata per non aver promosso azioni condivise di dimissioni e cambiamenti.",
+      "polarity": "negative",
+      "claim_id": "ddaba0a8-785f-4b5e-9999-20895513c9ab",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s4",
+      "target_entity": "federazione",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La gestione della federazione è criticata per non aver promosso azioni condivise di dimissioni e cambiamenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Deve dovete andare via tutti. Invece Olivieri parla, l'altro parla.",
+          "start_sec": 150.36,
+          "end_sec": 186.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "AIA",
+      "position": "L'AIA è percepita come inefficace rispetto alla qualità del calcio giocato altrove.",
+      "polarity": "negative",
+      "claim_id": "dff541a4-3fe2-4d75-9f42-c80d749e1f0e",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s0",
+      "target_entity": "AIA",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'AIA è percepita come inefficace rispetto alla qualità del calcio giocato altrove.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Noi parliamo di commissariamento, di di zappi, di rocchi, di gervasoni, di tutte queste storie e che molto spesso non ci fanno sorridere, anzi, e gli altri fanno calcio",
+          "start_sec": 0.399,
+          "end_sec": 53.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "aia",
+        "media"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Milan Juve",
+      "position": "Alcuni tifosi hanno acquistato il biglietto per Milan Juve la domenica scorsa.",
+      "polarity": "neutral",
+      "claim_id": "e2cdf884-4157-4f22-a683-1ef683dba815",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s1",
+      "target_entity": "Milan Juve",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alcuni tifosi hanno acquistato il biglietto per Milan Juve la domenica scorsa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quelli che hanno acquistato il biglietto domenica scorsa per Milan Juve",
+          "start_sec": 51.36,
+          "end_sec": 85.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "biglietti",
+        "partite"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "produttore di un film",
+      "position": "Un produttore di un film pagato tanto deve garantire un prodotto di qualità alla visione.",
+      "polarity": "neutral",
+      "claim_id": "ddc1f82c-b31f-45f4-b258-e2c67f042c01",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s1",
+      "target_entity": "produttore di un film",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un produttore di un film pagato tanto deve garantire un prodotto di qualità alla visione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se io sono il produttore di un film o regista e vengo pagato tantissimo, non posso poi dire \"Eh, ma l'importante era andare in onda o comunque era andare al cinema o comunque era la programmazione per la visione del film, no, devo dare un prodotto di una certa qualità.\"",
+          "start_sec": 51.36,
+          "end_sec": 85.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "qualità",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "difese",
+      "position": "Le difese non riuscivano a far fronte alla velocità supersonica e tecnica sopraffina degli avversari.",
+      "polarity": "neutral",
+      "claim_id": "ee227a39-b56e-43b2-827a-642abe4b5b17",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s2",
+      "target_entity": "difese",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le difese non riuscivano a far fronte alla velocità supersonica e tecnica sopraffina degli avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma giocavano talmente a velocità supersonica la tecnica sopraffina che le difese non avevano neanche il tempo di respirare, di pensare, di ragionare.",
+          "start_sec": 83.04,
+          "end_sec": 118.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "partita di ieri",
+      "position": "La partita di ieri meritava un supplemento di pagamento per la qualità offerta.",
+      "polarity": "positive",
+      "claim_id": "06f4a042-f738-4e4f-b7dd-6cd3fef3dc91",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s2",
+      "target_entity": "partita di ieri",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La partita di ieri meritava un supplemento di pagamento per la qualità offerta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello che abbiam visto ieri meriterebbe il pagamento del biglietto prima un supplemento durante perché all'intervallo dovrebbero venire e dirti mi dai altri €30 per quello che hai",
+          "start_sec": 83.04,
+          "end_sec": 118.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Champions League",
+      "position": "La partita descritta è considerata tra le migliori della storia della Champions League.",
+      "polarity": "positive",
+      "claim_id": "3605def5-273d-4c0b-ac1d-25c7490afbae",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s3",
+      "target_entity": "Champions League",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita descritta è considerata tra le migliori della storia della Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella è una partita che resta nella storia della Champions",
+          "start_sec": 117.119,
+          "end_sec": 152.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente federale",
+      "position": "Il presidente federale non si è dimesso e dovrebbe cambiare la legge per rimuovere tutti in automatico.",
+      "polarity": "negative",
+      "claim_id": "db35b16d-cc0c-4d81-9125-d60d42c818ff",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s4",
+      "target_entity": "presidente federale",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente federale non si è dimesso e dovrebbe cambiare la legge per rimuovere tutti in automatico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "presidente che non si è ancora dimesso in blocco e dovrebbero cambiare questa legge",
+          "start_sec": 150.36,
+          "end_sec": 186.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente federale",
+      "position": "Chi si dimette dovrebbe far dimettere anche tutti gli altri responsabili insieme a lui.",
+      "polarity": "negative",
+      "claim_id": "8f79da17-a5a4-4f74-a172-86ab926b6e2a",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s4",
+      "target_entity": "presidente federale",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chi si dimette dovrebbe far dimettere anche tutti gli altri responsabili insieme a lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se il presidente si dimette, in automatico devono andar via tutti",
+          "start_sec": 150.36,
+          "end_sec": 186.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente dell'associazione Calciatori",
+      "position": "Il presidente dell'associazione Calciatori non parla quando dovrebbe tutelare i suoi assistiti.",
+      "polarity": "negative",
+      "claim_id": "8d3c31b6-817a-4318-af57-98d10a6917bc",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s4",
+      "target_entity": "presidente dell'associazione Calciatori",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente dell'associazione Calciatori non parla quando dovrebbe tutelare i suoi assistiti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il presidente dell'associazione Calciatori che non parla quando dovrebbe per tutelare i suoi assistiti",
+          "start_sec": 150.36,
+          "end_sec": 186.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Associazione Italiana Arbitri (AIA)",
+      "position": "L'Associazione Italiana Arbitri è ormai ridotta a poche persone attive, con solo l'usciere rimasto.",
+      "polarity": "negative",
+      "claim_id": "b50ea90d-49de-4bef-94b8-0d246d018662",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s5",
+      "target_entity": "Associazione Italiana Arbitri (AIA)",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Associazione Italiana Arbitri è ormai ridotta a poche persone attive, con solo l'usciere rimasto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allia, Associazione Italiana Arbitri, è rimasto soltanto l'uscere",
+          "start_sec": 183.92,
+          "end_sec": 221.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "associazione italiana arbitri",
+        "organizzazione",
+        "riduzione personale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "atletico",
+      "position": "Stasera vedremo la prestazione dell'Atletico.",
+      "polarity": "neutral",
+      "claim_id": "97d5668c-289d-4bea-b65b-4e30cfe4855c",
+      "video_id": "_d-sye8pqLc",
+      "segment_id": "s2",
+      "target_entity": "atletico",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Stasera vedremo la prestazione dell'Atletico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Stasera vedremo l'Atletico",
+          "start_sec": 83.04,
+          "end_sec": 118.96000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "video_id": "tODisSq5CpQ",
+  "analyzed_at": "2026-04-24T15:51:59.574737+00:00",
+  "metadata": {
+    "title": "CHIVU: FATTI PIUTTOSTO CHE LACRIME ALLA CONTE. CALHA DA SBALLO. JUVE: NE BASTANO 3. FOCUS GILA🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita di Coppa Italia tra Inter e Como, evidenziando come il tecnico Kivu sia riuscito a ribaltare una situazione difficile con scelte tattiche azzeccate e cambi decisivi, come l’ingresso di Suciic e le parate di Martinez. L’autore sottolinea la leadership concreta di Kivu, capace di agire e non piangere di fronte alle difficoltà, in contrasto con l’atteggiamento lamentoso di Conte. Nonostante qualche errore, Kivu ha mostrato una crescita significativa in 14 mesi, portando l’Inter a competere per due trofei. Infine, si evidenzia come il mercato di gennaio sia stato blocc",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "prospettiva",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como era in vantaggio per 2-0 e ha dominato il primo tempo.",
+      "polarity": "positive",
+      "claim_id": "fa15fb60-5f47-4c7c-ab31-fd0c44dbd6db",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como era in vantaggio per 2-0 e ha dominato il primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como viene eliminato e nei tempi regolamentari avanti per 2-0",
+          "start_sec": 30.039,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "primo tempo"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Cristian Chivu",
+      "position": "Nel febbraio 2025 il Parma stava pensando a Cristian Chivu.",
+      "polarity": "neutral",
+      "claim_id": "05e9aff5-203a-4192-8546-8168361716b4",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s4",
+      "target_entity": "Cristian Chivu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nel febbraio 2025 il Parma stava pensando a Cristian Chivu.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a febbraio del 2025 diedi una notizia a sorpresa, clamorosa, mai uscita del Parma che stava pensando a Cristian Kivu",
+          "start_sec": 132.16,
+          "end_sec": 170.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "trattativa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como è stato a lungo padrone del campo nel primo tempo.",
+      "polarity": "neutral",
+      "claim_id": "92d42ba1-26e0-43fd-b3bf-d0c9af4b0d5b",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Como è stato a lungo padrone del campo nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como che è stato a lungo padrone del campo nel primo tempo",
+          "start_sec": 30.039,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "controllo campo",
+        "primo tempo"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Chivu",
+      "position": "Chivu ha fatto mosse straordinarie per ribaltare la squadra.",
+      "polarity": "positive",
+      "claim_id": "979f8ad2-8007-472e-97e6-af42cf14b4bb",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s1",
+      "target_entity": "Chivu",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chivu ha fatto mosse straordinarie per ribaltare la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "decide di ribaltare la squadra e fa mosse dal mio punto di vista straordinarie",
+          "start_sec": 30.039,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tattica",
+        "decisioni"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Martinez",
+      "position": "Martinez ha fatto tre o quattro parate importanti nella partita.",
+      "polarity": "positive",
+      "claim_id": "74fca45f-6983-4ed0-8890-3c3f9255e7b6",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s2",
+      "target_entity": "Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Martinez ha fatto tre o quattro parate importanti nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Martinez che ha fatto tre quattro parate importante",
+          "start_sec": 64.76,
+          "end_sec": 104.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "parata"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "A gennaio l'Inter non ha potuto fare mercato perché era bloccato.",
+      "polarity": "positive",
+      "claim_id": "15c4fe1a-4cf4-4997-b4a8-5821610f689e",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "A gennaio l'Inter non ha potuto fare mercato perché era bloccato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a gennaio il mercato era bloccato e non l'abbiamo potuto fare",
+          "start_sec": 101.32,
+          "end_sec": 134.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Giovan",
+      "position": "Giovan è stato preso a gennaio ma non gioca.",
+      "polarity": "neutral",
+      "claim_id": "d70813b7-c300-4ca4-a01a-0f0ae33de0c4",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s3",
+      "target_entity": "Giovan",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giovan è stato preso a gennaio ma non gioca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a gennaio gli hanno preso Giovan e Alison Santos che non gioca",
+          "start_sec": 101.32,
+          "end_sec": 134.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte tende a piangere di fronte ai problemi invece di agire con fatti concreti.",
+      "polarity": "negative",
+      "claim_id": "59481a4a-f0c9-4896-a4a5-8f20c54a89a9",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte tende a piangere di fronte ai problemi invece di agire con fatti concreti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anziché piangere, come fa qualche suo collega, nel caso specifico Conte, fa i fatti",
+          "start_sec": 132.16,
+          "end_sec": 170.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "comportamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Suciic",
+      "position": "Suciic ha segnato il gol decisivo e ha fornito assist.",
+      "polarity": "positive",
+      "claim_id": "34f59d3c-52ed-414c-94e0-b318071762a6",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s2",
+      "target_entity": "Suciic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Suciic ha segnato il gol decisivo e ha fornito assist.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Suciic segna il gol decisivo e smazza gli assist",
+          "start_sec": 64.76,
+          "end_sec": 104.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "assist"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Kivu",
+      "position": "Kivu appariva preoccupato durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "9c7ab71f-5f52-4e38-95ac-269a58be932a",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s1",
+      "target_entity": "Kivu",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kivu appariva preoccupato durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kivu preoccupato decide come preoccupato perché si vedeva dalla postura e dai primi piani",
+          "start_sec": 30.039,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "stress",
+        "comportamento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte dovrebbe agire invece di lamentarsi.",
+      "polarity": "positive",
+      "claim_id": "f88221db-aa09-4d25-9b6f-e1e086db20f5",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Conte dovrebbe agire invece di lamentarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nella vita bisogna fare non piangere. E se me li hanno acquistati sono troppi nove.",
+          "start_sec": 64.76,
+          "end_sec": 104.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha la rosa più importante del campionato.",
+      "polarity": "positive",
+      "claim_id": "79714491-0cd0-4551-98e1-6cdb64625730",
+      "video_id": "tODisSq5CpQ",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter ha la rosa più importante del campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter, secondo me, ha la rosa più importante",
+          "start_sec": 101.32,
+          "end_sec": 134.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

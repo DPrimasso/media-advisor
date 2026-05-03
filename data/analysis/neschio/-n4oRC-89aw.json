@@ -1,0 +1,395 @@
+{
+  "video_id": "-n4oRC-89aw",
+  "analyzed_at": "2026-04-30T07:35:47.388685+00:00",
+  "metadata": {
+    "title": "🔴 ATLETICO MADRID - ARSENAL  🏆 LIVE Watchalong!",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sul live commento della partita Atletico Madrid-Arsenal, con particolare attenzione alle formazioni e ai protagonisti in campo, come il trio offensivo dell’Atletico composto da Lukman, Griezmann e Julian Alvarez, e la solida linea dell’Arsenal. L’autore sottolinea l’impatto eccezionale di Lukman, definito un giocatore di un’altra categoria, e anticipa una partita vibrante e combattuta. Inoltre, emergono riflessioni sul calcio più in generale, tra cui critiche all’arbitraggio di Rocchi e la difficoltà di eliminare del tutto le simulazioni, fenomeno storico del gioco. La po",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "gestione",
+      "relevance": "medium"
+    },
+    {
+      "name": "simulazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "ripescaggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "infrastruttura",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitri",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Arsenal",
+      "position": "Arsenal schiera una formazione con Ray White, Saliba, Gabriel, Incapier, Zubi, Mendy, Rice, Odegard, Madue, Jokeres e Martinelli.",
+      "polarity": "neutral",
+      "claim_id": "e5a951f9-93c3-4fe0-a611-94bf966bbc2b",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s0",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Arsenal schiera una formazione con Ray White, Saliba, Gabriel, Incapier, Zubi, Mendy, Rice, Odegard, Madue, Jokeres e Martinelli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo Ray White, Saliba, Gabriel, Incapier, Zubi, Mendy, Rice, Odegard, Madue, Jokeres e Martinelli",
+          "start_sec": 298.24,
+          "end_sec": 881.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "giocatori"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "Secondo un pronostico, l'Arsenal potrebbe passare il turno con un pareggio 2-2.",
+      "polarity": "neutral",
+      "claim_id": "b13f6c17-d311-4b13-bc86-119e07338171",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s2",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Secondo un pronostico, l'Arsenal potrebbe passare il turno con un pareggio 2-2.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io ti ho detto che secondo me alla fine passerà l'Arsenal... Passerà l'alori. risultato, esatto, un risultato. un 2-2. Un 2-2, un pareggio, secondo me, stasera.",
+          "start_sec": 1450.32,
+          "end_sec": 2046.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "pronostico",
+        "partita"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Atletico Madrid",
+      "position": "Atletico Madrid schiera un trio offensivo di Lukman, Griezmann e Julian Alvarez.",
+      "polarity": "positive",
+      "claim_id": "10c1e304-c472-40dd-ae1d-72793c38a790",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s0",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atletico Madrid schiera un trio offensivo di Lukman, Griezmann e Julian Alvarez.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi l'impatto che ha avuto Lukman è stato veramente veramente un impatto di un giocatore veramente di di un'altra categoria che oltretutto noi avremmo voluto avere con noi l'anno scorso",
+          "start_sec": 298.24,
+          "end_sec": 881.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "attacco",
+        "impatto giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukman",
+      "position": "Lukman ha avuto un impatto da giocatore di un'altra categoria.",
+      "polarity": "positive",
+      "claim_id": "ac74d340-8af5-4287-80a5-eb3601fd41b0",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s0",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman ha avuto un impatto da giocatore di un'altra categoria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'impatto che ha avuto Lukman è stato veramente veramente un impatto di un giocatore veramente di di un'altra categoria",
+          "start_sec": 298.24,
+          "end_sec": 881.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "impatto",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Serie B",
+      "position": "Al momento non ci sono notizie che spingano l'Inter in Serie B.",
+      "polarity": "neutral",
+      "claim_id": "869d0efd-67cd-436f-88b2-b05fd21783ed",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s0",
+      "target_entity": "Serie B",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Al momento non ci sono notizie che spingano l'Inter in Serie B.",
+      "evidence_quotes": [
+        {
+          "quote_text": "al momento ovviamente non ci sono eh notizie che possano spingere la tua voglia di vedere l'Inter in B",
+          "start_sec": 298.24,
+          "end_sec": 881.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "notizie",
+        "serie b",
+        "inter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bastoni",
+      "position": "Bastoni ha sbagliato una simulazione grave nella partita Inter-Juventus.",
+      "polarity": "negative",
+      "claim_id": "0a804d8f-42a8-4404-8c85-e7f0e8ae9bf4",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s1",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni ha sbagliato una simulazione grave nella partita Inter-Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bastoni ha fatto quello che ha fatto sbagliando sbagliando con la S maiuscola, che sia chiaro",
+          "start_sec": 879.88,
+          "end_sec": 1452.3600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "simulazione nel calcio",
+      "position": "La simulazione è un fenomeno presente da sempre nel calcio e difficile da eliminare completamente.",
+      "polarity": "neutral",
+      "claim_id": "c0def621-8632-45cd-a5b9-22e73c315d54",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s1",
+      "target_entity": "simulazione nel calcio",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La simulazione è un fenomeno presente da sempre nel calcio e difficile da eliminare completamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la simulazione è sempre esistita da che esiste il calcio e esisterà sempre",
+          "start_sec": 879.88,
+          "end_sec": 1452.3600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Giulio",
+      "position": "Giulio si definisce un tifoso della Juventus con affetto verso gli ascoltatori.",
+      "polarity": "neutral",
+      "claim_id": "e48ff83f-3901-4975-8cea-072c74452750",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s2",
+      "target_entity": "Giulio",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giulio si definisce un tifoso della Juventus con affetto verso gli ascoltatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "intanto Giulio ci dice \"Scusatemi, ma io sono gobbo, ma voi mi siete molto al cuore, quindi bravi, bravi.\"",
+          "start_sec": 1450.32,
+          "end_sec": 2046.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lealtà",
+        "espressione sentimentale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Ray",
+      "position": "Ray ha effettuato una grande parata durante la partita per l'Atletico.",
+      "polarity": "positive",
+      "claim_id": "10965e01-eb53-4194-b2f5-a5333853bcf6",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s2",
+      "target_entity": "Ray",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ray ha effettuato una grande parata durante la partita per l'Atletico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "grande parata, comunque grande parata anche di Ray, eh lì, eh. Di dell'Atletico. Grande occasione.",
+          "start_sec": 1450.32,
+          "end_sec": 2046.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "parata",
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Italia",
+      "position": "L'Italia potrebbe essere ripescata ai mondiali a causa del ranking miglior posto fuori dalle qualificazioni.",
+      "polarity": "neutral",
+      "claim_id": "e8583c57-a734-4ab2-b6bb-233610514d9d",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s3",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia potrebbe essere ripescata ai mondiali a causa del ranking miglior posto fuori dalle qualificazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se tu vai perché eh da criterio sei la squadra col miglior ranking out e quindi viene ripescata",
+          "start_sec": 2043.559,
+          "end_sec": 2654.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiali",
+        "ripescaggio",
+        "ranking"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Atletico Madrid si fa vedere nell'area dell'Arsenal.",
+      "polarity": "neutral",
+      "claim_id": "05ed03a9-698f-4513-8d9f-68f9f726c503",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s1",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico Madrid si fa vedere nell'area dell'Arsenal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Intanto si fa vedere anche l'Atletico nell'area del dell'Arsenal",
+          "start_sec": 879.88,
+          "end_sec": 1452.3600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi ha lavorato male negli ultimi anni secondo l'opinione espressa nel video.",
+      "polarity": "negative",
+      "claim_id": "694698f2-0d14-48e5-bfe7-465409f904f5",
+      "video_id": "-n4oRC-89aw",
+      "segment_id": "s1",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi ha lavorato male negli ultimi anni secondo l'opinione espressa nel video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocchi ha lavorato male in questi anni",
+          "start_sec": 879.88,
+          "end_sec": 1452.3600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "video_id": "Kg57cbfTBys",
+  "analyzed_at": "2026-04-28T07:26:03.826143+00:00",
+  "metadata": {
+    "title": "#dimarco MVP della stagione!",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulla prestazione di Di Marco, definito MVP della stagione grazie al suo contributo decisivo nel match, incluso un gol che ha portato l’Inter sul 2-0. L’autore sottolinea la qualità e la lettura di gioco di Di Marco come elementi chiave del successo della squadra. Inoltre, viene evidenziato un episodio controverso con un fallo di mano di Carlos che ha causato un calcio di rigore, suggerendo un impatto significativo sull’esito della partita.",
+  "topics": [
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "mvp",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggi",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter conduce 2-0 con gol di Di Marco.",
+      "polarity": "positive",
+      "claim_id": "7d8e1180-8c28-44c9-8fc7-ff270fcba153",
+      "video_id": "Kg57cbfTBys",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter conduce 2-0 con gol di Di Marco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "2-0 per l'Inter",
+          "start_sec": 0.32,
+          "end_sec": 72.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Giovanni Simeone",
+      "position": "Giovanni Simeone ha segnato un gol in casa.",
+      "polarity": "neutral",
+      "claim_id": "6237e33d-61fb-49be-8185-6980b439eadf",
+      "video_id": "Kg57cbfTBys",
+      "segment_id": "s0",
+      "target_entity": "Giovanni Simeone",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanni Simeone ha segnato un gol in casa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Simeone sparo prima di Sommer trova ancora un gol in casa Giovanni Simeone",
+          "start_sec": 0.32,
+          "end_sec": 72.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Carlos",
+      "position": "Carlos ha commesso fallo di braccio che ha portato a calcio di rigore.",
+      "polarity": "negative",
+      "claim_id": "047fb05e-c113-446d-9f92-33d2656975f6",
+      "video_id": "Kg57cbfTBys",
+      "segment_id": "s0",
+      "target_entity": "Carlos",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Carlos ha commesso fallo di braccio che ha portato a calcio di rigore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Decisione finale, calcio di rigore. Braccia di Carlos a dorme",
+          "start_sec": 0.32,
+          "end_sec": 72.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Di Marco",
+      "position": "Di Marco è considerato MVP della stagione.",
+      "polarity": "positive",
+      "claim_id": "ac92cf33-bf17-44fe-9e13-94850a8c5fba",
+      "video_id": "Kg57cbfTBys",
+      "segment_id": "s0",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco è considerato MVP della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di Marco MVP della stagione",
+          "start_sec": 0.32,
+          "end_sec": 72.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

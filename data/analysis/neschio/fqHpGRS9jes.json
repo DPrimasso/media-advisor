@@ -1,0 +1,382 @@
+{
+  "video_id": "fqHpGRS9jes",
+  "analyzed_at": "2026-05-01T11:34:26.834227+00:00",
+  "metadata": {
+    "title": "LA BAVA ALLA BOCCA‼️ ROCCHI INTERCETTATO tira in ballo un DIRIGENTE dell'INTER",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza un'intercettazione telefonica in cui emerge il nome di un dirigente dell'Inter, collegata a conversazioni con l'ex designatore arbitrale Rocchi, attualmente sotto inchiesta per frode sportiva. L'autore sottolinea che non si tratta di un contatto diretto con noti dirigenti come Marotta o Ausilio, ma di un riferimento che ha suscitato scalpore nel mondo arbitrale. Viene inoltre evidenziata una riflessione sulla composizione attuale della classe arbitrale e sulla necessità di basarsi sui fatti, auspicando trasparenza e chiarezza nelle indagini in corso.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "intercettazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitrato",
+      "relevance": "medium"
+    },
+    {
+      "name": "controvoglia",
+      "relevance": "medium"
+    },
+    {
+      "name": "inter",
+      "relevance": "medium"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "low"
+    },
+    {
+      "name": "inchiesta",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "indagine",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "canale YouTube",
+      "position": "La percentuale di non iscritti al canale si aggira intorno al 48.1% ed oscilla leggermente.",
+      "polarity": "neutral",
+      "claim_id": "a662f65e-b68a-4eca-ab25-933425233fa8",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s2",
+      "target_entity": "canale YouTube",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La percentuale di non iscritti al canale si aggira intorno al 48.1% ed oscilla leggermente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "We have this percentage of 48.1% that goes up and down and up and down.",
+          "start_sec": 90.0,
+          "end_sec": 125.78,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "In un'intercettazione è emerso il nome di un dirigente dell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "ab53f77f-a09f-4655-8575-4eef423d961a",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "In un'intercettazione è emerso il nome di un dirigente dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in an interception jumps out the name of an Inter manager",
+          "start_sec": 0.46,
+          "end_sec": 51.559999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intercettazione",
+        "dirigente",
+        "Inter"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Rocchi",
+      "position": "Rocchi was intercepted and recorded speaking on the phone with an Inter director.",
+      "polarity": "neutral",
+      "claim_id": "404bd381-d010-47bb-8573-3929b64e4c00",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s3",
+      "target_entity": "Rocchi",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi was intercepted and recorded speaking on the phone with an Inter director.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocchi intercepted, shoots a director of Inter on the phone",
+          "start_sec": 126.02,
+          "end_sec": 165.42,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intercettazione",
+        "dirigente",
+        "inter"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Inter",
+      "position": "The phone call did not involve known Inter figures such as Marotta or Ausilio.",
+      "polarity": "neutral",
+      "claim_id": "83b8c639-004e-413a-a26c-c89433ed16b9",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The phone call did not involve known Inter figures such as Marotta or Ausilio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "we are not talking about a phone call between him and Marotta, between him and Auxilio, between him and whoever you think",
+          "start_sec": 165.42,
+          "end_sec": 199.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Inter",
+        "telefonata",
+        "Marotta",
+        "Auxilio"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitri (arbitrary class)",
+      "position": "Oggi ci sono solo persone che fanno parte della classe arbitrale.",
+      "polarity": "neutral",
+      "claim_id": "3e4f38bc-d9f2-452a-89e7-a0e67c3d0dd7",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s5",
+      "target_entity": "arbitri (arbitrary class)",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Oggi ci sono solo persone che fanno parte della classe arbitrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi ci sono solo persone che sono della classe arbitrale",
+          "start_sec": 199.6,
+          "end_sec": 238.95999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "classe arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi is under investigation for sports fraud related to a caught phone call.",
+      "polarity": "neutral",
+      "claim_id": "8f7645c5-1e16-47df-95c6-dac791fcecc8",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s6",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi is under investigation for sports fraud related to a caught phone call.",
+      "evidence_quotes": [
+        {
+          "quote_text": "according to the prosecutor, it is precisely this phone call that was caught and decisive in building the head of imputation in charge of Rocchi",
+          "start_sec": 238.96,
+          "end_sec": 292.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi is accused of competition in sports fraud along with other people.",
+      "polarity": "neutral",
+      "claim_id": "39939304-fd1a-4e73-a294-8cc8e84e35c7",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s6",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi is accused of competition in sports fraud along with other people.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he investigated him, accused of competition in sports fraud with other people",
+          "start_sec": 238.96,
+          "end_sec": 292.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi is criticized for poor performance in recent years as a referee.",
+      "polarity": "negative",
+      "claim_id": "b1335067-a5d2-4d56-af44-0d80384aca99",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s7",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi is criticized for poor performance in recent years as a referee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the same Rocchi, I am the first in some respects to want that certain characters that have failed",
+          "start_sec": 292.0,
+          "end_sec": 344.22,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi has had years with unsatisfactory refereeing performances.",
+      "polarity": "neutral",
+      "claim_id": "d0667ab5-73e7-4373-961a-8e41f1cc239e",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s7",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi has had years with unsatisfactory refereeing performances.",
+      "evidence_quotes": [
+        {
+          "quote_text": "things don't work, things haven't worked in the last two or three years",
+          "start_sec": 292.0,
+          "end_sec": 344.22,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "referees",
+      "position": "Operators have failed repeatedly in refereeing over the last few years.",
+      "polarity": "negative",
+      "claim_id": "d9113256-c428-4178-8747-112d4a6c2bd2",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s7",
+      "target_entity": "referees",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Operators have failed repeatedly in refereeing over the last few years.",
+      "evidence_quotes": [
+        {
+          "quote_text": "that have failed, that have failed, sorry, I'm here on everyone",
+          "start_sec": 292.0,
+          "end_sec": 344.22,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "an unnamed Inter executive",
+      "position": "A person from Inter club is mentioned as part of the sports fraud investigation involving Rocchi.",
+      "polarity": "neutral",
+      "claim_id": "2d615384-9414-446c-a8da-1261888bd228",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s6",
+      "target_entity": "an unnamed Inter executive",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "A person from Inter club is mentioned as part of the sports fraud investigation involving Rocchi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tira in ballo un DIRIGENTE dell'INTER",
+          "start_sec": 238.96,
+          "end_sec": 292.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "referees",
+      "position": "Referees' work has been embarrassing in recent years.",
+      "polarity": "negative",
+      "claim_id": "5f781ce0-9303-45f6-a739-7829666449b1",
+      "video_id": "fqHpGRS9jes",
+      "segment_id": "s7",
+      "target_entity": "referees",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Referees' work has been embarrassing in recent years.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in recent years it has been something embarrassing",
+          "start_sec": 292.0,
+          "end_sec": 344.22,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

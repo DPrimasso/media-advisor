@@ -1,0 +1,396 @@
+{
+  "video_id": "wyQa4Pb8Jew",
+  "analyzed_at": "2026-04-24T08:27:28.436887+00:00",
+  "metadata": {
+    "title": "SPEAK&ROLL 03 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Speak and Roll si concentra principalmente sul Napoli Basket e sulle recenti difficoltà di performance della squadra, evidenziate dalla sconfitta contro Cremona e dai problemi di concentrazione nel secondo tempo. L'autore critica la gestione tattica, in particolare il ritardo nel chiamare il time out e l'eccessiva permanenza in campo di Flag nonostante la prestazione deludente. Inoltre, la puntata dedica un momento di riflessione al tragico decesso di Sofia Ceccare, giovane talento del basket femminile maddalonese, sottolineando l'impegno della società Union Basket Maddaloni nel so",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "progetto tecnico",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "basket femminile",
+      "relevance": "low"
+    },
+    {
+      "name": "indolenza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Sofia Ceccare",
+      "position": "Sofia Ceccare, giovane talento del basket maddalonese, è tragicamente deceduta a 15 anni.",
+      "polarity": "negative",
+      "claim_id": "a8e05e92-c830-4343-a3f8-b5d11c56f5c0",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s0",
+      "target_entity": "Sofia Ceccare",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Sofia Ceccare, giovane talento del basket maddalonese, è tragicamente deceduta a 15 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sofia, 15 anni, grande talento del basket dell'Union Basket Maddaloni, stava disputando a Ostia un torneo di Under 15, è venuta a mancare",
+          "start_sec": 3.04,
+          "end_sec": 296.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "leadership",
+        "basket femminile"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Union Basket Maddaloni",
+      "position": "Union Basket Maddaloni è impegnata a sostenere la famiglia di Sofia e il movimento basket femminile locale.",
+      "polarity": "positive",
+      "claim_id": "34e8c4f9-ce5a-4950-ade6-011881cbc735",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s0",
+      "target_entity": "Union Basket Maddaloni",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Union Basket Maddaloni è impegnata a sostenere la famiglia di Sofia e il movimento basket femminile locale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un'inchiesta della Procura di Roma... siamo vicini alla famiglia e a tutto il movimento di Maddaloni con l'impegno di tutta la società, di Giovanni Monda",
+          "start_sec": 3.04,
+          "end_sec": 296.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "basket femminile"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli Basket",
+      "position": "La puntata di Speak and Roll è dedicata al Napoli Basket e al movimento cestistico campano.",
+      "polarity": "neutral",
+      "claim_id": "5d0b8505-9db5-432d-9b6b-3cc03269c9a0",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s0",
+      "target_entity": "Napoli Basket",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La puntata di Speak and Roll è dedicata al Napoli Basket e al movimento cestistico campano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi questa sera parleremo soprattutto di di Napoli Basketball... possiamo essere insensibili alle vicende del basket campano della nostra regione",
+          "start_sec": 3.04,
+          "end_sec": 296.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "basket",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli Basket",
+      "position": "La sconfitta a Cremona evidenzia problemi di performance per Napoli Basket dopo il ko a Varese.",
+      "polarity": "negative",
+      "claim_id": "67523389-0762-4a66-ae2e-fcad119cd427",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s0",
+      "target_entity": "Napoli Basket",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "PROBABLE",
+      "claim_text": "La sconfitta a Cremona evidenzia problemi di performance per Napoli Basket dopo il ko a Varese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il KO a Cremona maturato in un disastroso quarto quarto sembra insomma che la partita di Varese sia stato un episodio",
+          "start_sec": 3.04,
+          "end_sec": 296.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "partita",
+        "criticità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli Basket",
+      "position": "Napoli Basket ha mostrato un atteggiamento indolente e ha perso la concentrazione nel secondo tempo contro Cremona.",
+      "polarity": "negative",
+      "claim_id": "bcfb9705-f933-45b1-ba8d-b2d07a68aa56",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s1",
+      "target_entity": "Napoli Basket",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli Basket ha mostrato un atteggiamento indolente e ha perso la concentrazione nel secondo tempo contro Cremona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata una gara ai due volti. Siamo tornati alla squadra a due volti che si scioglie letteralmente forse quando pensa di avere la partita in pugno.",
+          "start_sec": 294.4,
+          "end_sec": 540.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "atteggiamento",
+        "performance",
+        "concentrazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Varese",
+      "position": "Varese ha avuto una giornata molto negativa nella partita giocata a Napoli.",
+      "polarity": "negative",
+      "claim_id": "0694952c-a95d-41f8-b0ae-817dd9980875",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s1",
+      "target_entity": "Varese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Varese ha avuto una giornata molto negativa nella partita giocata a Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E Varese ha trovato una giornata nera, non so, sono venuti a fare la vacanza a Napoli, non lo so.",
+          "start_sec": 294.4,
+          "end_sec": 540.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giornata negativa",
+        "Varese"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "allenatore Napoli Basket",
+      "position": "Il ritardo nel chiamare il time out ha permesso a Cremona di rimontare e superare Napoli.",
+      "polarity": "negative",
+      "claim_id": "49e56941-5584-45f7-8e53-f0936e0bb118",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s1",
+      "target_entity": "allenatore Napoli Basket",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il ritardo nel chiamare il time out ha permesso a Cremona di rimontare e superare Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è stato una gestione un pochettino anche ritardata di forse di chiamare un time out nel momento della rimonta di Cremona e lì c'è stato il sorpasso",
+          "start_sec": 294.4,
+          "end_sec": 540.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "time out",
+        "tattica",
+        "tempistica"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Mitr Long",
+      "position": "Mitr Long potrebbe tornare in campo contro la sua ex squadra Brescia.",
+      "polarity": "neutral",
+      "claim_id": "07500b51-01ca-4441-b4bb-a1ee830e1bdd",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s2",
+      "target_entity": "Mitr Long",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Mitr Long potrebbe tornare in campo contro la sua ex squadra Brescia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Insiste nel voler giocare, ovviamente a Brescia ci tiene contro la sua ex squadra",
+          "start_sec": 539.16,
+          "end_sec": 855.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Flag",
+      "position": "Flag è considerato un giocatore apatico e nocivo che non ha dato nulla alla squadra.",
+      "polarity": "negative",
+      "claim_id": "4006dd8f-f7d0-4e8c-8556-a1e64bcadcbf",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s2",
+      "target_entity": "Flag",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Flag è considerato un giocatore apatico e nocivo che non ha dato nulla alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un giocatore che non ha non ha dato assolutamente niente, uno indolente, uno che non eh è stato presto scollegato anche dalla squadra",
+          "start_sec": 539.16,
+          "end_sec": 855.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Gaspar Treyer",
+      "position": "Gaspar Treyer ha una lesione al menisco del ginocchio destro, che lo esclude dal recupero entro maggio.",
+      "polarity": "negative",
+      "claim_id": "691eccb0-3512-4a8f-9b4b-5e09c5c8fed6",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s2",
+      "target_entity": "Gaspar Treyer",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gaspar Treyer ha una lesione al menisco del ginocchio destro, che lo esclude dal recupero entro maggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Questa è stata, anzi, sono state le ore più che le giornate, le ore purtroppo della fine corsa di Gaspar Treyer... questa lesione al menisco del ginocchio destro, purtroppo i tempi sono incompatibili per un recupero entro entro maggio",
+          "start_sec": 539.16,
+          "end_sec": 855.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Stefano Gentile",
+      "position": "Stefano Gentile è il capitano e uno dei pilastri della squadra annunciati dall'allenatore Magro.",
+      "polarity": "positive",
+      "claim_id": "ba2590a2-28f2-455f-90af-f78782cd57f6",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s2",
+      "target_entity": "Stefano Gentile",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Stefano Gentile è il capitano e uno dei pilastri della squadra annunciati dall'allenatore Magro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il capitano stiamo dicendo. Eh, anche se si chiama Stefano Gentile, però è il capitano ed è un altro dei pilastri annunciati a giugno da da coach Magro",
+          "start_sec": 539.16,
+          "end_sec": 855.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Flag",
+      "position": "Flag ha giocato troppo a lungo nonostante una prestazione deludente.",
+      "polarity": "negative",
+      "claim_id": "d87ddff5-8c70-48c3-a8fd-450528f804ff",
+      "video_id": "wyQa4Pb8Jew",
+      "segment_id": "s1",
+      "target_entity": "Flag",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Flag ha giocato troppo a lungo nonostante una prestazione deludente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non ho capito i 31 minuti di flag",
+          "start_sec": 294.4,
+          "end_sec": 540.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tempo in campo",
+        "prestazione",
+        "criticità"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,409 @@
+{
+  "video_id": "A1AcOY2BXn4",
+  "analyzed_at": "2026-04-24T08:36:53.947467+00:00",
+  "metadata": {
+    "title": "TMW News: Inter, ora la Coppa Italia. Juve, il passo per la Champions è quello giusto",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-20T12:27:04+00:00"
+  },
+  "summary": "Il video analizza la situazione attuale del campionato di Serie A, con particolare focus sulla lotta scudetto, Champions e salvezza. L'autore sostiene che l'Inter è ormai vicina a vincere lo scudetto grazie a una stagione dominata e una gestione efficace del vantaggio, mentre la Juventus emerge come favorita per un posto in Champions League. Viene inoltre evidenziato il Milan, che sembra aver consolidato la qualificazione europea, e si discute del possibile ruolo di Allegri come futuro allenatore della nazionale. Infine, si accenna alle difficoltà di rendimento di Leao, che potrebbero influire",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "campionato",
+      "relevance": "medium"
+    },
+    {
+      "name": "lotta scudetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "europa",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    },
+    {
+      "name": "qualificazione champions",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è vicina a conquistare lo scudetto di Serie A 2025-2026.",
+      "polarity": "positive",
+      "claim_id": "6be04d26-1ddc-4dd8-8ae8-ecbe531d1ecd",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è vicina a conquistare lo scudetto di Serie A 2025-2026.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la lotta scudetto con l'Inter che è sempre più vicina a conquistare il tricolore",
+          "start_sec": 12.679,
+          "end_sec": 89.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "classifica",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus è la favorita per qualificarsi alla Champions League.",
+      "polarity": "positive",
+      "claim_id": "da60ae2f-b065-48ae-ac4c-41fd7a836e46",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è la favorita per qualificarsi alla Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juventus che pare la favorita numero uno per rientrare nella Champions",
+          "start_sec": 12.679,
+          "end_sec": 89.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions league",
+        "classifica",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Cremonese",
+      "position": "Il pareggio della Cremonese contro il Torino complica la sua lotta per la salvezza.",
+      "polarity": "negative",
+      "claim_id": "ba33fb95-c0ed-4ec9-b4ec-c45d880f33bb",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s0",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il pareggio della Cremonese contro il Torino complica la sua lotta per la salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il pareggio della Cremonese con il Torino rischia di essere pesante per gli uomini di Giampaolo",
+          "start_sec": 12.679,
+          "end_sec": 89.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "salvezza",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha dominato il campo e ha gestito il vantaggio dopo il ko con l'Udinese.",
+      "polarity": "positive",
+      "claim_id": "e8acd320-0691-438b-9e56-8f1e7ab5c338",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha dominato il campo e ha gestito il vantaggio dopo il ko con l'Udinese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avversario non c'è stato per l'Inter. Sì, fino a un certo punto c'è stato il il Napoli, però poi dopo con tutte le varie vicissitudini che sono successe l'Inter si è staccata e ha potuto gestire a suo piacimento il vantaggio",
+          "start_sec": 87.799,
+          "end_sec": 181.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "gestione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan sembra aver blindato la qualificazione alla Champions League.",
+      "polarity": "positive",
+      "claim_id": "df9890c7-d716-4c54-970f-212c79e620b1",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan sembra aver blindato la qualificazione alla Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan che a questo punto sembra aver blindato la Champions, complice anche i risultati delle altre pretendenti e il Milan adesso in questo momento, credo che sia dentro la Champions quasi al al 100%.",
+          "start_sec": 87.799,
+          "end_sec": 181.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "risultati",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "La vittoria recente ha certificato la buona stagione del Milan in Europa.",
+      "polarity": "positive",
+      "claim_id": "1a598b02-9660-452a-a88a-45660d68a0f8",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria recente ha certificato la buona stagione del Milan in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, ieri è stata una vittoria importantissima che ha comunque certificato la buona stagione che ha fatto il Milan rientrando nell'Europa che conta.",
+          "start_sec": 87.799,
+          "end_sec": 181.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "successo",
+        "storia"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri potrebbe essere la guida giusta per la nazionale.",
+      "polarity": "neutral",
+      "claim_id": "d210edb5-45a9-4b79-b18b-96edbb300897",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s1",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Allegri potrebbe essere la guida giusta per la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri è un è un un allenatore di assoluto livello, c'ha un'esperienza notevole a livello internazionale, quindi certo che è un eh potrebbe essere",
+          "start_sec": 87.799,
+          "end_sec": 181.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "nazionale",
+        "carriera"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao ha avuto alti e bassi di rendimento durante la stagione.",
+      "polarity": "neutral",
+      "claim_id": "4a87f26e-65c9-4db1-9288-f8eac6c24f65",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s2",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Leao ha avuto alti e bassi di rendimento durante la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mah, eh l'addio non lo so, però sicuramente quest'anno ha avuto alti e bassi",
+          "start_sec": 178.8,
+          "end_sec": 272.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "fluttuazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore della nazionale",
+      "position": "La scelta dell'allenatore della nazionale è un tema con profili da tenere in considerazione importanti.",
+      "polarity": "neutral",
+      "claim_id": "1c60d62b-5a45-423e-b529-4d52fd812347",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s2",
+      "target_entity": "allenatore della nazionale",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La scelta dell'allenatore della nazionale è un tema con profili da tenere in considerazione importanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "decidere eh per l'allenatore della nazionale, chi scegliere? diciamo. profili dei profili da tenere in grossa considerazione",
+          "start_sec": 178.8,
+          "end_sec": 272.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha il vantaggio di aver già allenato la nazionale e ha spessore internazionale.",
+      "polarity": "positive",
+      "claim_id": "d310b18c-3e03-44fe-9bfe-bdb7dba913b9",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha il vantaggio di aver già allenato la nazionale e ha spessore internazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e ci metto dentro anche comunque Conte che che è un altro allenatore che ha uno spessore eh internazionale e ha il vantaggio anche di averla già allenata",
+          "start_sec": 178.8,
+          "end_sec": 272.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "internazionale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao è un giocatore fortissimo con qualità enormi.",
+      "polarity": "positive",
+      "claim_id": "3af97ab4-5aa9-402e-89c4-0799ea333fb6",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s3",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Leao è un giocatore fortissimo con qualità enormi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Siccome Eleao, a mio parere è un giocatore fortissimo, eh ci si aspetta sempre qualcosa in più.",
+          "start_sec": 271.0,
+          "end_sec": 363.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "abilità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao ha fatto una stagione importante con doppia cifra di gol segnati.",
+      "polarity": "positive",
+      "claim_id": "65f070a4-4900-4337-ae5f-5011c64f6506",
+      "video_id": "A1AcOY2BXn4",
+      "segment_id": "s3",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Leao ha fatto una stagione importante con doppia cifra di gol segnati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Leao a livello di numeri ha fatto comunque una stagione eh importante perché è arrivato in doppia cifra",
+          "start_sec": 271.0,
+          "end_sec": 363.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol",
+        "stagione"
+      ]
+    }
+  ]
+}

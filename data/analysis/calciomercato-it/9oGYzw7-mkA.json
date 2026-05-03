@@ -1,0 +1,70 @@
+{
+  "video_id": "9oGYzw7-mkA",
+  "analyzed_at": "2026-04-30T07:38:28.555562+00:00",
+  "metadata": {
+    "title": "Ultim'ora Roma: Dybala ha scelto dove andare! #seriea #asroma",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'ultimo aggiornamento riguardante il trasferimento di Paulo Dybala, con la notizia che il giocatore ha scelto la sua nuova destinazione. L'autore sottolinea che l'AS Roma ha raggiunto un accordo con Dybala, suggerendo un imminente trasferimento ufficiale. La conclusione chiave è che la trattativa è ormai definita, aprendo la strada all'annuncio ufficiale del passaggio di Dybala alla Roma.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Paulo Dybala",
+      "position": "Paulo Dybala ha scelto la sua destinazione per il trasferimento.",
+      "polarity": "positive",
+      "claim_id": "b25837a5-b35e-4fd2-9801-eea5ac6553c7",
+      "video_id": "9oGYzw7-mkA",
+      "segment_id": "s0",
+      "target_entity": "Paulo Dybala",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Paulo Dybala ha scelto la sua destinazione per il trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dybala ha scelto dove andare",
+          "start_sec": 0.28,
+          "end_sec": 7.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "AS Roma ha raggiunto un accordo con Dybala.",
+      "polarity": "positive",
+      "claim_id": "48a64e16-6547-46d6-8c6d-ad091c6e123d",
+      "video_id": "9oGYzw7-mkA",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "AS Roma ha raggiunto un accordo con Dybala.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Accro raggiunto con il club",
+          "start_sec": 0.28,
+          "end_sec": 7.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

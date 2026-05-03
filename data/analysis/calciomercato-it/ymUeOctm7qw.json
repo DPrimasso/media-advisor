@@ -1,0 +1,280 @@
+{
+  "video_id": "ymUeOctm7qw",
+  "analyzed_at": "2026-04-27T07:10:47.351344+00:00",
+  "metadata": {
+    "title": "Dal caos di Napoli-Inter al... Mondiale! #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-10T13:14:03+00:00"
+  },
+  "summary": "Il video analizza la controversa scelta di designare Maurizio Mariani, un arbitro italiano con una stagione difficile in Serie A, come rappresentante dell'Italia al Mondiale. L'autore sottolinea come Mariani abbia commesso errori gravi in partite chiave, che gli sono costati sospensioni, ma evidenzia anche il suo migliore rendimento in Champions League, suggerendo che gli arbitri italiani possano essere più efficaci lontano dalle pressioni del campionato nazionale. La conclusione esprime preoccupazione sul fatto che Mariani, insieme a Di Bello al VAR, possa compromettere l'immagine dell'Italia",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "champions league",
+      "relevance": "high"
+    },
+    {
+      "name": "serie a",
+      "relevance": "high"
+    },
+    {
+      "name": "stagione",
+      "relevance": "medium"
+    },
+    {
+      "name": "var",
+      "relevance": "medium"
+    },
+    {
+      "name": "sanzione",
+      "relevance": "medium"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Ilarantaqurenne",
+      "position": "Ilarantaqurenne non sta vivendo una buona stagione in Serie A e ha diretto solo due big match nelle prime 32 giornate.",
+      "polarity": "negative",
+      "claim_id": "18ee019a-bd4d-4875-ab66-1f42d14e3852",
+      "video_id": "ymUeOctm7qw",
+      "segment_id": "s0",
+      "target_entity": "Ilarantaqurenne",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ilarantaqurenne non sta vivendo una buona stagione in Serie A e ha diretto solo due big match nelle prime 32 giornate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ilarantaqurenne fischietto di Aprilia non sta vivendo una buona stagione entro i confini nazionali, come dimostra il fatto che Rocky lo ha designato soltanto per due big match nelle prime 32 giornate",
+          "start_sec": 0.24,
+          "end_sec": 32.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "stagione",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Napoli",
+      "position": "Nel girone di andata il Napoli ha subito un errore arbitrale grave con un rigore non concesso per un presunto fallo.",
+      "polarity": "negative",
+      "claim_id": "5ed1de54-142b-446d-a915-04b4f89d57f6",
+      "video_id": "ymUeOctm7qw",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Nel girone di andata il Napoli ha subito un errore arbitrale grave con un rigore non concesso per un presunto fallo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nel girone di andata il Napoli-n concesse un rigore scandaloso per un presunto fallo",
+          "start_sec": 0.24,
+          "end_sec": 32.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli",
+        "errore arbitrale",
+        "rigore negato"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Mariani",
+      "position": "Mariani was later assigned to three high-profile Champions League matches by Rosetti",
+      "polarity": "positive",
+      "claim_id": "6f7113ce-e45e-4d40-9529-bdda1da490fd",
+      "video_id": "ymUeOctm7qw",
+      "segment_id": "s1",
+      "target_entity": "Mariani",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mariani was later assigned to three high-profile Champions League matches by Rosetti",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rosetti lo ha designato per tre su sfide come Liverpool-Atletico Madrid, Paris Saint-Germain Bayern Monaco e Real Madrid Manchester City",
+          "start_sec": 29.84,
+          "end_sec": 64.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions league",
+        "designazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitri italiani",
+      "position": "Gli arbitri italiani sono più bravi all'estero senza le pressioni della Serie A",
+      "polarity": "positive",
+      "claim_id": "0c6c2bc7-aea6-4072-b463-59e4df529f75",
+      "video_id": "ymUeOctm7qw",
+      "segment_id": "s2",
+      "target_entity": "arbitri italiani",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Gli arbitri italiani sono più bravi all'estero senza le pressioni della Serie A",
+      "evidence_quotes": [
+        {
+          "quote_text": "arbitri italiani sono più bravi all'estero senza le pressioni della Serie A",
+          "start_sec": 62.92,
+          "end_sec": 74.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "serie a",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Mariani",
+      "position": "Si teme che Mariani in campo possa far fare figuracce all'Italia",
+      "polarity": "negative",
+      "claim_id": "447d1a7b-dbf3-4ad9-9710-180d3254cdd9",
+      "video_id": "ymUeOctm7qw",
+      "segment_id": "s2",
+      "target_entity": "Mariani",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Si teme che Mariani in campo possa far fare figuracce all'Italia",
+      "evidence_quotes": [
+        {
+          "quote_text": "Speriamo soltanto che Mariani in campo ... non ci facciano fare altre figuracce",
+          "start_sec": 62.92,
+          "end_sec": 74.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "serie a",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Maurizio Mariani",
+      "position": "Maurizio Mariani è stato scelto da Collina come arbitro italiano per il Mondiale.",
+      "polarity": "neutral",
+      "claim_id": "75f948ac-0286-42ff-b99c-b27a9deab293",
+      "video_id": "ymUeOctm7qw",
+      "segment_id": "s0",
+      "target_entity": "Maurizio Mariani",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Maurizio Mariani è stato scelto da Collina come arbitro italiano per il Mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a rappresentare l'Italia ci sarà Maurizio Mariani",
+          "start_sec": 0.24,
+          "end_sec": 32.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "mondiale",
+        "scelta"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Ilarantaqurenne",
+      "position": "La direzione di Ilarantaqurenne nei due big match non è stata buona.",
+      "polarity": "negative",
+      "claim_id": "acf21133-b518-466e-aae7-0e29c7da5599",
+      "video_id": "ymUeOctm7qw",
+      "segment_id": "s0",
+      "target_entity": "Ilarantaqurenne",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La direzione di Ilarantaqurenne nei due big match non è stata buona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E non sono andati bene",
+          "start_sec": 0.24,
+          "end_sec": 32.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "prestazione",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Mariani",
+      "position": "Mariani was suspended for four and two matches respectively due to incidents in Napoli and Juve matches",
+      "polarity": "neutral",
+      "claim_id": "161794f2-efc8-4663-ab11-42a514daeac4",
+      "video_id": "ymUeOctm7qw",
+      "segment_id": "s1",
+      "target_entity": "Mariani",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mariani was suspended for four and two matches respectively due to incidents in Napoli and Juve matches",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mariani fu fermato per quattro e due turni",
+          "start_sec": 29.84,
+          "end_sec": 64.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sanzione",
+        "sospensione"
+      ]
+    }
+  ]
+}

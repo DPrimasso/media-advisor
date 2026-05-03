@@ -1,0 +1,408 @@
+{
+  "video_id": "SZaKh5xLwZw",
+  "analyzed_at": "2026-04-29T08:04:28.692205+00:00",
+  "metadata": {
+    "title": "🚨 ADDIO DECISO! COLPO GILA: LE CIFRE! SOLET E IL DOMINO INTER, FUTURO MODRIC E… SORPRESA JUVE?",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra principalmente sulle trattative di mercato riguardanti alcuni giocatori chiave come Nico Gonzalez, Modric e Mario Gila, con particolare attenzione al futuro incerto di Nico all'Atletico Madrid. L'autore spiega che l'Atletico sta cercando di evitare l'obbligo di riscatto da 32 milioni previsto nel contratto con la Juventus, nonostante il giocatore stia dimostrando ottime prestazioni e preferirebbe restare in Spagna. Inoltre, si affrontano le questioni legate al Milan, con aggiornamenti sul futuro di Modric e Gila, evidenziando come Modric stia valutando ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "medium"
+    },
+    {
+      "name": "fiorentina",
+      "relevance": "low"
+    },
+    {
+      "name": "carriera",
+      "relevance": "low"
+    },
+    {
+      "name": "ingaggio",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Nico Gonzales",
+      "position": "L'obbligo di riscatto per Nico Gonzales scatta se gioca il 60% delle gare di Liga.",
+      "polarity": "neutral",
+      "claim_id": "60ecf926-478c-42dc-a047-882160f4898e",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s1",
+      "target_entity": "Nico Gonzales",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'obbligo di riscatto per Nico Gonzales scatta se gioca il 60% delle gare di Liga.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che scatta nel caso in cui Nico dovesse giocare il 60% delle gare di Liga",
+          "start_sec": 48.84,
+          "end_sec": 89.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "condizione",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Atletico",
+      "position": "L'Atletico considera troppo alta la cifra di 32 milioni di euro per l'obbligo di riscatto di Nico.",
+      "polarity": "negative",
+      "claim_id": "4e1c2e57-1c5f-4f6d-9b1a-e3c0aa1276b0",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s2",
+      "target_entity": "Atletico",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico considera troppo alta la cifra di 32 milioni di euro per l'obbligo di riscatto di Nico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il feeling che arriva da Madrid è che l'Atletico stia cercando comunque di non far scattare questo obbligo di riscatto perché questi 32 milioni di euro per l'Atletico sono considerati troppo troppo alti",
+          "start_sec": 86.2,
+          "end_sec": 127.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "obbligo di riscatto",
+        "costo",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Nico",
+      "position": "Nico dovrebbe giocare almeno 45 minuti in tutte le partite finali con l'Atletico.",
+      "polarity": "positive",
+      "claim_id": "d25ccf58-58ba-4bcd-8340-18e1dfd209f3",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s2",
+      "target_entity": "Nico",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nico dovrebbe giocare almeno 45 minuti in tutte le partite finali con l'Atletico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di queste gare deve far almeno 45 minuti. Diciamo che l'Atletico in questo rush finale dovrebbe praticamente farlo giocare, metterlo per 45 minuti praticamente in tutte le partite",
+          "start_sec": 86.2,
+          "end_sec": 127.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tempo di gioco",
+        "partite finali"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus chiede 32 milioni di euro per Nico Gonzales o considera il giocatore importante per il prossimo anno.",
+      "polarity": "positive",
+      "claim_id": "30a70547-455e-4ca4-b81f-4cc5d4e294a6",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus chiede 32 milioni di euro per Nico Gonzales o considera il giocatore importante per il prossimo anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juventus invece chiede 32 milioni di euro oppure considera Nico un giocatore molto importante per il prossimo anno",
+          "start_sec": 124.96,
+          "end_sec": 157.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "mercato",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Gonzales",
+      "position": "Il riscatto obbligatorio per Nico Gonzales è fissato a 32 milioni di euro.",
+      "polarity": "neutral",
+      "claim_id": "3f5af90e-303c-4523-b7f0-8f89c336e3bc",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s1",
+      "target_entity": "Nico Gonzales",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il riscatto obbligatorio per Nico Gonzales è fissato a 32 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un obbligo di riscatto a 32 milioni di euro",
+          "start_sec": 48.84,
+          "end_sec": 89.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "costo",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Gonzalez",
+      "position": "Ci sono novità sul futuro di Nico Gonzalez.",
+      "polarity": "neutral",
+      "claim_id": "6d890f58-e903-4466-b696-b812e6be98eb",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s0",
+      "target_entity": "Nico Gonzalez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono novità sul futuro di Nico Gonzalez.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partirei con te Nico Gonzalez, un qualcosa che riguarda il suo futuro.",
+          "start_sec": 0.28,
+          "end_sec": 51.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "futuro",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Nico Gonzales",
+      "position": "Nico Gonzales sta dimostrando le sue qualità all'Atletico Madrid.",
+      "polarity": "positive",
+      "claim_id": "a91b8e1d-112c-48f4-bf9c-5aef47b927aa",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s1",
+      "target_entity": "Nico Gonzales",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nico Gonzales sta dimostrando le sue qualità all'Atletico Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un giocatore che eh sta dimostrando le sue qualità qui all'Atletico",
+          "start_sec": 48.84,
+          "end_sec": 89.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid",
+      "position": "Atletico Madrid è protagonista del finale di Liga.",
+      "polarity": "positive",
+      "claim_id": "c3bd4fa5-cb5d-4fe7-b4e7-84271941ad59",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s1",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Atletico Madrid è protagonista del finale di Liga.",
+      "evidence_quotes": [
+        {
+          "quote_text": "protagonisti di questo finale eh di questo finale di Liga dell'Atletico Madrid",
+          "start_sec": 48.84,
+          "end_sec": 89.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Atletico",
+      "position": "L'Atletico è contento di Nico e vorrebbe che restasse nella squadra.",
+      "polarity": "positive",
+      "claim_id": "bc417efa-499a-469f-b1b7-be6a9f13204a",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s2",
+      "target_entity": "Atletico",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico è contento di Nico e vorrebbe che restasse nella squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Atletico è contentissimo di Nico, vorrebbe che restasse",
+          "start_sec": 86.2,
+          "end_sec": 127.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "apprezzamento",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Gonzales",
+      "position": "Nico Gonzales potrebbe continuare a Madrid, ma Atletico e Juventus si confronteranno a fine stagione.",
+      "polarity": "neutral",
+      "claim_id": "9b0b983d-188c-4a08-8052-1005c6c89bf9",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s3",
+      "target_entity": "Nico Gonzales",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nico Gonzales potrebbe continuare a Madrid, ma Atletico e Juventus si confronteranno a fine stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche che Nico, la priorità di Nico in questo momento sarebbe continuare a Madrid, però i due club si troveranno a fine stagione per trattare",
+          "start_sec": 124.96,
+          "end_sec": 157.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "mercato",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Ci sono notizie sul Milan sul mercato in corso.",
+      "polarity": "neutral",
+      "claim_id": "fcefb7f4-f7ad-4212-a043-9f235c13fd1f",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono notizie sul Milan sul mercato in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "temi oggi perché abbiamo notizie di Milan",
+          "start_sec": 0.28,
+          "end_sec": 51.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "squadra",
+        "notizie"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Spalletti",
+      "position": "Spalletti potrebbe usare Nico Gonzales come pedina importante nella squadra accanto a Conso.",
+      "polarity": "positive",
+      "claim_id": "fcbc413a-a4df-4765-bd49-097599719863",
+      "video_id": "SZaKh5xLwZw",
+      "segment_id": "s3",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti potrebbe usare Nico Gonzales come pedina importante nella squadra accanto a Conso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tant'è che Spalletti potrebbe inserirlo come pedina importante vicino a Conso da cui ripartire",
+          "start_sec": 124.96,
+          "end_sec": 157.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tattica",
+        "pianificazione"
+      ]
+    }
+  ]
+}

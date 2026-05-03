@@ -1,0 +1,404 @@
+{
+  "video_id": "L5jNdnffIS8",
+  "analyzed_at": "2026-04-25T11:03:57.265636+00:00",
+  "metadata": {
+    "title": "TMW News: Roma, ora la ripartenza. Milan-Juve, caccia al secondo posto",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulla situazione della Roma, evidenziando come la nomina di Gasperini sia stata la mossa giusta per rilanciare la squadra dopo un periodo di instabilità. L'autore sottolinea il conflitto insanabile tra Ranieri e Gasperini, con Ranieri che ha sempre manifestato antipatia verso il collega, e considera un errore iniziale la scelta di sostituire Ranieri con Gasperini. Viene inoltre criticata la gestione societaria dei Friedkin, ritenuta caotica e poco stabile, dato il frequente avvicendamento di allenatori, tra cui Mourinho, De Rossi e Ranieri, bruciati in soli sei anni, a te",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "società",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione societaria",
+      "relevance": "medium"
+    },
+    {
+      "name": "organizzazione societaria",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "relazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Friedkin",
+      "position": "La gestione dei Friedkin è giudicata problematica con troppi allenatori in poco tempo.",
+      "polarity": "negative",
+      "claim_id": "f6b84a80-1c8b-4df0-a591-fb65dc1e8f31",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s2",
+      "target_entity": "Friedkin",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La gestione dei Friedkin è giudicata problematica con troppi allenatori in poco tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cinque allenatori, sei allenatori in 6 anni, mi sembra mi sembra una conduzione societaria, non ti dico da dilettanti, ma poco ci manca.",
+          "start_sec": 144.44,
+          "end_sec": 216.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gestione societaria",
+        "allenatori"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "Mourinho, De Rossi e Ranieri sono stati bruciati come allenatori della Roma in 6 anni.",
+      "polarity": "negative",
+      "claim_id": "d9fa2f6a-5f7b-458f-aa7f-1ce9f9548099",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mourinho, De Rossi e Ranieri sono stati bruciati come allenatori della Roma in 6 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco, ti faccio tre nomi. Mourinho, De Rossi e Ranieri, bruciati nel giro di 6 anni",
+          "start_sec": 144.44,
+          "end_sec": 216.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatori",
+        "tempo breve",
+        "problema"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "Roma ha avuto sei allenatori nella gestione americana, segnalando instabilità.",
+      "polarity": "negative",
+      "claim_id": "cc9736ba-6796-4a96-808f-201c7cf5bae3",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Roma ha avuto sei allenatori nella gestione americana, segnalando instabilità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono sei gli allenatori comunque nella gestione, mi pare, eh, se non sbaglio, sono sei nella gestione degli americani",
+          "start_sec": 216.36,
+          "end_sec": 292.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "gestione",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "L'assenza di leadership porta ad anarchia nella gestione della Roma.",
+      "polarity": "negative",
+      "claim_id": "3fcb7792-533a-4b76-8a9d-8be4d39f5106",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'assenza di leadership porta ad anarchia nella gestione della Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando manca l'autorità, l'anarchia la fa da padrone",
+          "start_sec": 216.36,
+          "end_sec": 292.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "anarchia",
+        "gestione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "Gasperini è diventato centrale nella squadra come mossa giusta per ripartire.",
+      "polarity": "positive",
+      "claim_id": "0144adbc-23b6-47b2-812a-46b5bc8e3482",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s0",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini è diventato centrale nella squadra come mossa giusta per ripartire.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini diventa sempre più centrale. È questa alla fine la mossa più giusta per ripartire.",
+          "start_sec": 12.84,
+          "end_sec": 84.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri prima di andarsene era ancora mentalmente allenatore.",
+      "polarity": "neutral",
+      "claim_id": "ffbb3699-f591-41b9-aee3-bea7e96f1438",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s0",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri prima di andarsene era ancora mentalmente allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prima che Ranieri si svestiva della della del del vestito da allenatore e ce ne voleva un po' di tempo e nella nella testa era ancora allenatore",
+          "start_sec": 12.84,
+          "end_sec": 84.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Ranieri ha dichiarato che Gasperini gli è sempre stato antipatico, anche al presente.",
+      "polarity": "negative",
+      "claim_id": "36359fbf-3225-4043-813a-678ba61d6a47",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s1",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri ha dichiarato che Gasperini gli è sempre stato antipatico, anche al presente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo stesso Ranieri aveva spiegato che non era proprio il massimo delle sue simpatie Gasperini aveva detto che gli stava anche proprio antipatico",
+          "start_sec": 82.24,
+          "end_sec": 146.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "relazioni"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri e Gasperini non hanno mai avuto una sintonia positiva.",
+      "polarity": "negative",
+      "claim_id": "84b206f3-8a65-4ba1-aa19-48f74f709714",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s1",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri e Gasperini non hanno mai avuto una sintonia positiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel corso dei mesi non c'è mai stata questa grande sintonia",
+          "start_sec": 82.24,
+          "end_sec": 146.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "relazioni"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Ranieri è stato considerato errore iniziale per aver scelto Gasperini e lasciato la squadra.",
+      "polarity": "negative",
+      "claim_id": "09790076-aaa0-4b72-a6ab-a8ae0796d132",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s2",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri è stato considerato errore iniziale per aver scelto Gasperini e lasciato la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'errore iniziale allora è stato proprio di Ranieri. scegliere Gasperini e far partire Ranieri.",
+          "start_sec": 144.44,
+          "end_sec": 216.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "gestione",
+        "errore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "Manca l'autorità del presidente e del direttore generale nella Roma attuale.",
+      "polarity": "negative",
+      "claim_id": "aa8ef624-1576-40c0-8e21-b1ea4ab7c486",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Manca l'autorità del presidente e del direttore generale nella Roma attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "manca l'autorità del presidente a Roma del direttore generale, perché non c'è né un presidente presente né un direttore generale presente",
+          "start_sec": 216.36,
+          "end_sec": 292.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "presenza",
+        "dirigenti"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "La Roma non ha mai strutturato la società in modo adeguato sotto la proprietà americana.",
+      "polarity": "negative",
+      "claim_id": "2c292f2c-7c0d-4b72-b0ee-b6944771e031",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma non ha mai strutturato la società in modo adeguato sotto la proprietà americana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cosa che la Roma con questi ultima proprietà americana non ha mai fatto",
+          "start_sec": 216.36,
+          "end_sec": 292.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "società",
+        "struttura",
+        "proprietà"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "dirigente",
+      "position": "Un dirigente non può diventare efficace immediatamente, serve tempo per farsi riconoscere dagli altri.",
+      "polarity": "neutral",
+      "claim_id": "5510b45b-f6d5-4c4c-ae72-be2a010b1d7b",
+      "video_id": "L5jNdnffIS8",
+      "segment_id": "s4",
+      "target_entity": "dirigente",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un dirigente non può diventare efficace immediatamente, serve tempo per farsi riconoscere dagli altri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non può fare un dirigente da un giorno all'altro, non si può vestire da allenatore e vestirsi da da dirigenti da un giorno all'altro. Ci vuole ci vuole ci vuole del tempo per far passare soprattutto agli altri, non tanto a lui, né, agli altri la figura dell'allenatore.",
+          "start_sec": 289.28,
+          "end_sec": 361.96000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

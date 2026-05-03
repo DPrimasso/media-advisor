@@ -1,0 +1,410 @@
+{
+  "video_id": "JDFN7IK8do8",
+  "analyzed_at": "2026-05-03T12:42:13.804022+00:00",
+  "metadata": {
+    "title": "🚨 IDEA JUVE! GRIMALDO, I COSTI DEL COLPO. GONZALO, OCCHIO A STANKOVIC, IGOR THIAGO E IL MILAN, JUAN…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle possibili mosse di mercato estive nel calcio italiano, con particolare attenzione al nome di Aleix Grimaldo, terzino del Bayer Leverkusen. L'autore sottolinea come Grimaldo, in ottima forma con numeri importanti in Bundesliga e Champions League, sia un profilo interessante per i club italiani, anche se il giocatore preferirebbe un ritorno in Spagna, dove due club lo stanno monitorando. Romano evidenzia inoltre che il costo del suo trasferimento potrebbe aggirarsi tra i 10 e i 15 milioni di euro. Infine, si accenna anche alla situazione di Juan Jes",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "difesa",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "costo",
+      "relevance": "low"
+    },
+    {
+      "name": "giocatore giovane",
+      "relevance": "low"
+    },
+    {
+      "name": "aggiornamenti",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Grimaldo",
+      "position": "Il costo del colpo Grimaldo è leggermente inferiore ai 15 milioni di euro, tra i 10 e i 15 milioni di euro.",
+      "polarity": "neutral",
+      "claim_id": "588c6506-b2da-4e54-ab89-5fa2f2bd1b7b",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s3",
+      "target_entity": "Grimaldo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il costo del colpo Grimaldo è leggermente inferiore ai 15 milioni di euro, tra i 10 e i 15 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "leggermente inferiore ai 15 milioni di euro, tra i 10 e i 15 milioni di euro.",
+          "start_sec": 121.119,
+          "end_sec": 158.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "costo",
+        "trasferimento"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Grimaldo",
+      "position": "Il contratto di Grimaldo con il Bayer Leverkusen scade nel 2027.",
+      "polarity": "neutral",
+      "claim_id": "f40036b1-1a2c-4446-8c05-4299adf365b6",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s2",
+      "target_entity": "Grimaldo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il contratto di Grimaldo con il Bayer Leverkusen scade nel 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "contratto in scadenza nel 2027",
+          "start_sec": 81.32,
+          "end_sec": 123.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "scadenza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Aleix Grimaldo",
+      "position": "Aleix Grimaldo preferirebbe tornare a giocare in Liga spagnola.",
+      "polarity": "neutral",
+      "claim_id": "340177d7-89b6-43bb-a24d-118e434b6f90",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s1",
+      "target_entity": "Aleix Grimaldo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aleix Grimaldo preferirebbe tornare a giocare in Liga spagnola.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la priorità di Grimaldo sarebbe quella di tornare in Spagna, gli piacerebbe moltissimo tornare a giocare in Liga",
+          "start_sec": 40.48,
+          "end_sec": 83.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "preferenza",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "club spagnoli",
+      "position": "Due club spagnoli stanno monitorando la situazione di Grimaldo.",
+      "polarity": "neutral",
+      "claim_id": "8549f37c-41ce-4ee3-a317-1235961f1794",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s1",
+      "target_entity": "club spagnoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Due club spagnoli stanno monitorando la situazione di Grimaldo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono due club, insomma, che stanno monitorando la situazione di Grimaldo",
+          "start_sec": 40.48,
+          "end_sec": 83.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "monitoraggio",
+        "mercato",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Grimaldo",
+      "position": "Grimaldo ha segnato otto gol e fornito sette assist in Bundesliga.",
+      "polarity": "positive",
+      "claim_id": "6a292a14-ccc6-4028-8b5e-4bee56291f20",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s2",
+      "target_entity": "Grimaldo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Grimaldo ha segnato otto gol e fornito sette assist in Bundesliga.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un calciatore che otto gol e sette assist in Bundesliga",
+          "start_sec": 81.32,
+          "end_sec": 123.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol",
+        "assist"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Grimaldo",
+      "position": "Grimaldo è considerato uno dei migliori nel suo ruolo e ha avuto un'impennata nelle prestazioni negli ultimi anni.",
+      "polarity": "positive",
+      "claim_id": "05c1cdee-fd24-4147-a41d-c3c8d4664fef",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s2",
+      "target_entity": "Grimaldo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Grimaldo è considerato uno dei migliori nel suo ruolo e ha avuto un'impennata nelle prestazioni negli ultimi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per rendimento eh diciamo che ha avuto un'impennata negli ultimi anni perché è sempre stato tra i migliori nel suo ruolo",
+          "start_sec": 81.32,
+          "end_sec": 123.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "ruolo",
+        "crescita"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Spagna",
+      "position": "La Spagna sta tentando un acquisto su Grimaldo.",
+      "polarity": "neutral",
+      "claim_id": "774e509b-378a-4e82-9f78-da67c0e05767",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s3",
+      "target_entity": "Spagna",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Spagna sta tentando un acquisto su Grimaldo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi occhio perché è un'occasione molto interessante. Ripeto, Spagna tenta su di lui.",
+          "start_sec": 121.119,
+          "end_sec": 158.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interesse",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "club italiani",
+      "position": "Ad oggi non ci sono contatti tra Grimaldo e club italiani.",
+      "polarity": "neutral",
+      "claim_id": "0efbe43a-fc21-42b7-8884-09bf425fc44c",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s3",
+      "target_entity": "club italiani",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ad oggi non ci sono contatti tra Grimaldo e club italiani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ad oggi non mi risulta che ci siano contatti con club italiani.",
+          "start_sec": 121.119,
+          "end_sec": 158.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contatti",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "club italiani",
+      "position": "Se un club italiano dovesse entrare in contatto con l'entourage di Grimaldo, sarà comunicato.",
+      "polarity": "neutral",
+      "claim_id": "317c0d55-d485-4f77-a6bd-223ac16df332",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s3",
+      "target_entity": "club italiani",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Se un club italiano dovesse entrare in contatto con l'entourage di Grimaldo, sarà comunicato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi qualora un club italiano dovesse entrare in contatto con il suo entourage, insomma, ve lo ve lo faremo sapere.",
+          "start_sec": 121.119,
+          "end_sec": 158.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contatti",
+        "mercato",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Grimaldo",
+      "position": "Grimaldo is a potential transfer target for Italian clubs this summer.",
+      "polarity": "neutral",
+      "claim_id": "e6488771-f207-4173-b8de-21eff0a09542",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s0",
+      "target_entity": "Grimaldo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Grimaldo is a potential transfer target for Italian clubs this summer.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si tratta di Grimaldo.",
+          "start_sec": 0.0,
+          "end_sec": 32.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "calciomercato",
+        "trasferimenti"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juan Jesus",
+      "position": "Juan Jesus lascerà sicuramente il Napoli.",
+      "polarity": "positive",
+      "claim_id": "8a05c6b8-0c9f-4b3a-9ea7-4ed20fce4a9d",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s4",
+      "target_entity": "Juan Jesus",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juan Jesus lascerà sicuramente il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juan Jesus è un giocatore che lascerà il Napoli, vero? Sì, sicuramente",
+          "start_sec": 156.12,
+          "end_sec": 194.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "napoli",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Aleix Grimaldo",
+      "position": "Aleix Grimaldo è un nome importante per il mercato estivo del calcio.",
+      "polarity": "neutral",
+      "claim_id": "bec57ffb-74a2-47b4-a5f8-bf129f920058",
+      "video_id": "JDFN7IK8do8",
+      "segment_id": "s1",
+      "target_entity": "Aleix Grimaldo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Aleix Grimaldo è un nome importante per il mercato estivo del calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Grimaldo può essere un nome importante, interessante per il mercato estivo",
+          "start_sec": 40.48,
+          "end_sec": 83.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "calciomercato",
+        "giocatore"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "video_id": "HLWDVjkA-0M",
+  "analyzed_at": "2026-04-28T07:24:44.484510+00:00",
+  "metadata": {
+    "title": "SCUDETTO MILAN 🏆 LAUTARO in LACRIME 😢 Ultima giornata di SERIE A",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta l’ultima giornata di Serie A, focalizzandosi sulla vittoria dello scudetto del Milan e sui premi individuali assegnati, come quello a Stefano Pioli miglior allenatore e Rafael Leão miglior giocatore. L’autore sottolinea la competitività del campionato, nonostante una qualità complessiva ritenuta inferiore rispetto al passato, e riflette sulle prestazioni chiave di giocatori come Ibrahimovic e Lukaku. Viene inoltre menzionato il rinnovo imminente di Handanovic con l’Inter e si ipotizza come alcune scelte di formazione o mercato, ad esempio la presenza di Ronaldo nella Juventus",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "premi",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "campionato",
+      "relevance": "low"
+    },
+    {
+      "name": "competitività",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Stefano Pioli",
+      "position": "Stefano Pioli è stato premiato come miglior allenatore della Serie A.",
+      "polarity": "positive",
+      "claim_id": "e2e42320-7914-43f2-b4f9-b2cc53d0dd08",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s0",
+      "target_entity": "Stefano Pioli",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Stefano Pioli è stato premiato come miglior allenatore della Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pioli premiato come miglior giocatore e sì fiori come migliore allenatore",
+          "start_sec": 12.64,
+          "end_sec": 333.71000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "premio",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Samir Handanovic",
+      "position": "Il rinnovo tra Samir Handanovic e l'Inter è praticamente fatto.",
+      "polarity": "positive",
+      "claim_id": "c95800cc-3c45-4fca-94a1-68f62a7758fc",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s0",
+      "target_entity": "Samir Handanovic",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il rinnovo tra Samir Handanovic e l'Inter è praticamente fatto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho ascoltato handanovic è parlato di rinnovo è praticamente tutto fatto",
+          "start_sec": 12.64,
+          "end_sec": 333.71000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato",
+        "rinnovo",
+        "inter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Zlatan Ibrahimovic",
+      "position": "Ibrahimovic è considerato la scintilla che ha dato inizio allo scudetto del Milan.",
+      "polarity": "positive",
+      "claim_id": "47c52794-595e-4cd2-a989-1fc92d38ec67",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s0",
+      "target_entity": "Zlatan Ibrahimovic",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Ibrahimovic è considerato la scintilla che ha dato inizio allo scudetto del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato il filo conduttore è stato è stata la scintilla iniziale del milan",
+          "start_sec": 12.64,
+          "end_sec": 333.71000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "prestazione",
+        "milan"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku ha fatto un'ottima stagione finché ha avuto energia a disposizione.",
+      "polarity": "positive",
+      "claim_id": "72c11480-cd6d-4bb7-a34f-fd5d93eec011",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s1",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Lukaku ha fatto un'ottima stagione finché ha avuto energia a disposizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto un'ottima stagione finché ne ha avuta in corpo e di birra a disposizione ha fatto un'ottima stagione",
+          "start_sec": 331.58,
+          "end_sec": 577.37,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stagione",
+        "prestazioni"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli del passato ha avuto stagioni competitive ma è difficile rispetto alla Juventus.",
+      "polarity": "neutral",
+      "claim_id": "e6986431-d791-437c-add2-b599d2fda10a",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli del passato ha avuto stagioni competitive ma è difficile rispetto alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'era una juventus che ha fatto ha fatto fatto meglio cioè fatto meglio era era quasi ingiocabile",
+          "start_sec": 331.58,
+          "end_sec": 577.37,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competitività",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Se innesco fosse stato al posto di Jacko, il Milan avrebbe potuto vincere lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "76907584-db61-4cd5-a7bc-07a3819aed1a",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Se innesco fosse stato al posto di Jacko, il Milan avrebbe potuto vincere lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "innesco secondo te collocato al posto di jacko avresti vinto lo scudetto",
+          "start_sec": 331.58,
+          "end_sec": 577.37,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "sostituzioni"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Ronaldo",
+      "position": "La Juventus con Ronaldo avrebbe avuto una stagione diversa.",
+      "polarity": "neutral",
+      "claim_id": "158b8b98-bd00-423a-9cd7-6740af32fd22",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s1",
+      "target_entity": "Ronaldo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus con Ronaldo avrebbe avuto una stagione diversa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma con ronaldo la juventus avrebbe fatto manata diverso beh sì avrebbe fatto diverso",
+          "start_sec": 331.58,
+          "end_sec": 577.37,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stagione",
+        "impatto giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Rafael Leao",
+      "position": "Rafael Leao è stato il giocatore più decisivo del Milan in questa stagione.",
+      "polarity": "positive",
+      "claim_id": "498be2c2-07fd-424f-99d0-da148916b13d",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s2",
+      "target_entity": "Rafael Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rafael Leao è stato il giocatore più decisivo del Milan in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se proprio devo farne uno su tutti se poi potevo farne uno sotto tiro di colei o perché ... forse leao e col giocatore che ha dei colpi diversi rispetto a tutti gli altri",
+          "start_sec": 575.129,
+          "end_sec": 846.9590000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "prestazione",
+        "Milan"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Franck Kessié",
+      "position": "Kessié ha fatto la differenza quando ha giocato insieme a Tonali.",
+      "polarity": "positive",
+      "claim_id": "46cc0854-cac4-4424-87f2-c47c1054bf38",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s2",
+      "target_entity": "Franck Kessié",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kessié ha fatto la differenza quando ha giocato insieme a Tonali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però poi alla fine anche lo stesso calore quando le messe insieme a tumori ha fatto la differenza",
+          "start_sec": 575.129,
+          "end_sec": 846.9590000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "prestazione",
+        "Milan"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha cambiato tanto e l'oratore è pronto a cambiare poco per la nuova stagione.",
+      "polarity": "neutral",
+      "claim_id": "9b6f793c-8e4a-4360-8b26-7d97cf46e3bf",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter ha cambiato tanto e l'oratore è pronto a cambiare poco per la nuova stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il ponte questo francesca grazie per la domanda è pronto a cambiare il meno possibile perché poi l'inter ha cambiato tanto",
+          "start_sec": 575.129,
+          "end_sec": 846.9590000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "cambiamento",
+        "Inter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Salernitana",
+      "position": "La Salernitana ha fatto una cavalcata notevole nella stagione.",
+      "polarity": "positive",
+      "claim_id": "b082374c-3c72-45b9-a36e-044e5eaeafb4",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s2",
+      "target_entity": "Salernitana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Salernitana ha fatto una cavalcata notevole nella stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stasera enorme simpatia per la cavalcata che ha fatto la salernitana",
+          "start_sec": 575.129,
+          "end_sec": 846.9590000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "Salernitana"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Milan",
+      "position": "Milan has won due to long-term work by Pioli over two and a half years.",
+      "polarity": "positive",
+      "claim_id": "387f01d8-74e3-4d84-8cf3-10e4a4a93e58",
+      "video_id": "HLWDVjkA-0M",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan has won due to long-term work by Pioli over two and a half years.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma perché se il milan ha vinto e anche perché la porta avanti un lavoro fatto alla grande in maniera incredibile però lavoro da due anni e mezzo di pioli",
+          "start_sec": 845.16,
+          "end_sec": 1107.67,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lavoro",
+        "leadership",
+        "squadra"
+      ]
+    }
+  ]
+}

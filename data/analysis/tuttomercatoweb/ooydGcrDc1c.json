@@ -1,0 +1,409 @@
+{
+  "video_id": "ooydGcrDc1c",
+  "analyzed_at": "2026-04-23T15:36:13.490574+00:00",
+  "metadata": {
+    "title": "TMW News: Inter, il sogno campionato e coppa. Torino, i piani per il futuro",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulla recente vittoria dell'Inter contro il Como, una rimonta spettacolare che ha permesso ai nerazzurri di raggiungere la finale di Coppa Italia e di avvicinarsi alla conquista dello scudetto. L’autore sottolinea come l’Inter, dopo un periodo di difficoltà e scetticismo legato al cambio di allenatore, sia rinata grazie alla guida di Cristian Kivu, che ha infuso nuova anima e leadership alla squadra. Viene inoltre evidenziato l’orgoglio del Como per il percorso compiuto in Coppa Italia, nonostante la sconfitta, e si ipotizza che l’Inter possa centrare un prestigioso doubl",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "settore giovanile",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "coppa italia",
+      "relevance": "medium"
+    },
+    {
+      "name": "stagione",
+      "relevance": "low"
+    },
+    {
+      "name": "rendimento",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "rimonta",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha ribaltato una partita difficoltosa contro Como vincendo 3-2 dopo essere stata sotto 2-0.",
+      "polarity": "positive",
+      "claim_id": "17d82a86-c838-4498-8064-fc11cfa29a1d",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha ribaltato una partita difficoltosa contro Como vincendo 3-2 dopo essere stata sotto 2-0.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo il primo tempo e per buona parte il secondo tempo si trovava sotto di due gol, stava perdendo 2-0 e poi nel finale l'Inter è riuscita a ribaltare la partita a vincere 3-2",
+          "start_sec": 12.92,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "risultato",
+        "sconfitta ribaltata"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter ha raggiunto la finale di Coppa Italia con una rimonta negli ultimi 20 minuti.",
+      "polarity": "positive",
+      "claim_id": "b945b5bf-3fc0-4dc3-bdb2-216f5f865568",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter ha raggiunto la finale di Coppa Italia con una rimonta negli ultimi 20 minuti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una pazza Inter, come ha rivendicato il tecnico rumeno, che arriva alla finale di Coppa Italia con una rimonta da capogiro negli ultimi 20 minuti",
+          "start_sec": 110.92,
+          "end_sec": 221.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finale coppa italia",
+        "rimonta",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "I top player Calhanoglu e Sucic hanno guidato la rimonta dell'Inter da 0-2 a 3-2 in Coppa Italia.",
+      "polarity": "positive",
+      "claim_id": "a94ade1d-b16a-40ac-bdba-a4c1eafb9044",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I top player Calhanoglu e Sucic hanno guidato la rimonta dell'Inter da 0-2 a 3-2 in Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però sono emersi i top player dell'Inter, Calanoglu e Sucic che da 0-2 sono riusciti a centrare una rimonta epica per 3-2",
+          "start_sec": 218.799,
+          "end_sec": 287.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rimonta",
+        "giocatore",
+        "coppa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Caranolu",
+      "position": "Caranolu ha segnato un gol all'89º nella partita recente dell'Inter.",
+      "polarity": "positive",
+      "claim_id": "751e959d-d6a6-4a47-a597-216e4f152816",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s1",
+      "target_entity": "Caranolu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Caranolu ha segnato un gol all'89º nella partita recente dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il croato segna il gol all'89º",
+          "start_sec": 110.92,
+          "end_sec": 221.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "La vittoria contro Como è stata definita un'impresa per l'Inter.",
+      "polarity": "positive",
+      "claim_id": "25121c51-7971-42ba-b469-134e529cf475",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria contro Como è stata definita un'impresa per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si può parlare assolutamente diimpresa da parte dell'Inter",
+          "start_sec": 12.92,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "impresa",
+        "vittoria"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha raggiunto una posizione in coppa che rappresenta un percorso orgoglioso.",
+      "polarity": "positive",
+      "claim_id": "ec1efb21-e16a-41ff-b9f3-a13a9819973d",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha raggiunto una posizione in coppa che rappresenta un percorso orgoglioso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Como che può dirsi comunque orgoglioso del percorso che ha fatto in questa competizione",
+          "start_sec": 12.92,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa",
+        "orgoglio",
+        "percorso"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Kivu",
+      "position": "Kivu si è detto deluso ma orgoglioso dei progressi dei suoi giocatori nella stagione.",
+      "polarity": "neutral",
+      "claim_id": "41a67671-923e-4ac9-9ab6-41a0a6c24485",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s0",
+      "target_entity": "Kivu",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kivu si è detto deluso ma orgoglioso dei progressi dei suoi giocatori nella stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lo stesso Kiu si è detto sì da una parte deluso, ma comunque orgoglioso dei suoi giocatori e di come sono progrediti nel corso di questa stagione",
+          "start_sec": 12.92,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "umore",
+        "progressi"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Inter",
+      "position": "L'Inter è rinata sotto la guida del tecnico rumeno che ha ridato anima alla squadra.",
+      "polarity": "positive",
+      "claim_id": "43a1c884-f8ba-4f8f-b300-d9c2c38e1932",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è rinata sotto la guida del tecnico rumeno che ha ridato anima alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'arrivo del tecnico rumeno invece ha ridato un'anima all'Inter che è risorta dalle ceneri",
+          "start_sec": 110.92,
+          "end_sec": 221.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "rinascita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "Inter potrebbe vincere lo scudetto già nella prossima giornata di campionato.",
+      "polarity": "positive",
+      "claim_id": "dc68bd88-2ff6-40a8-833b-601e00ffff0c",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Inter potrebbe vincere lo scudetto già nella prossima giornata di campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo scudetto è già blindato e potrebbe arrivare già nella prossima giornata di campionato",
+          "start_sec": 110.92,
+          "end_sec": 221.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "campionato",
+        "previsione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como di Fabregas è quinto in campionato, dietro Juventus e pari merito con Roma.",
+      "polarity": "positive",
+      "claim_id": "652034ec-cad8-454e-97d5-233257455922",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como di Fabregas è quinto in campionato, dietro Juventus e pari merito con Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como di Fabregas è in quinta posizione in campionato, dietro la Juventus che ha sorpassato di recenti Lariani a pari merito con la Roma di Gasperini",
+          "start_sec": 218.799,
+          "end_sec": 287.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como vuole continuare a sognare e puntare a competizioni europee come Champions o Conference.",
+      "polarity": "positive",
+      "claim_id": "44d67201-6ab0-4f89-af47-3f9bd178f255",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Como vuole continuare a sognare e puntare a competizioni europee come Champions o Conference.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Como comunque vuole continuare a sognare e a far sognare una città intera e una tifoseria intera che spera veramente di riuscire a eh sentire la sinfonia di quelle competizioni europee, che sia Champions, Conference",
+          "start_sec": 218.799,
+          "end_sec": 287.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ambizione",
+        "europa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cristian Kivu",
+      "position": "Cristian Kivu ha portato il suo team in finale di Coppa Italia dopo la rimonta dell'Inter.",
+      "polarity": "positive",
+      "claim_id": "3b5c959e-c61a-43a9-bc66-df8f0768c5e6",
+      "video_id": "ooydGcrDc1c",
+      "segment_id": "s2",
+      "target_entity": "Cristian Kivu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cristian Kivu ha portato il suo team in finale di Coppa Italia dopo la rimonta dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mandare Cristian Kivu dritto in finale",
+          "start_sec": 218.799,
+          "end_sec": 287.40000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finale",
+        "prestazione"
+      ]
+    }
+  ]
+}

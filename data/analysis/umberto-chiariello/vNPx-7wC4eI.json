@@ -1,0 +1,390 @@
+{
+  "video_id": "vNPx-7wC4eI",
+  "analyzed_at": "2026-04-25T10:53:11.228696+00:00",
+  "metadata": {
+    "title": "#CHIARIELLO IL PUNTO CHIARO 03/04/26:",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Umberto Chiariello analizza l’impatto negativo dell’esclusione dell’Italia dai Mondiali sul Napoli, evidenziando come cinque suoi giocatori, tra cui il capitano Di Lorenzo, abbiano subito un duro colpo morale. Al contrario, il Milan, che non ha fornito calciatori alla nazionale maggiore, risulta meno coinvolto e più sereno, con alcuni giovani promettenti in Under 21 che hanno mantenuto alto il morale. L’autore sottolinea come questa situazione rappresenti una mazzata per il Napoli, con molti giocatori delusi e a rischio di non partecipare al prossimo mondiale, mentre il Milan ne es",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "medium"
+    },
+    {
+      "name": "morale",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "qualificazione mondiale",
+      "relevance": "low"
+    },
+    {
+      "name": "condizione psicologica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Milan Under 21",
+      "position": "Un giocatore del Milan Under 21 è stato tra i migliori in campo nella nazionale Under 21.",
+      "polarity": "positive",
+      "claim_id": "83df61b5-8396-426a-9fc5-2dce0034b98b",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s1",
+      "target_entity": "Milan Under 21",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un giocatore del Milan Under 21 è stato tra i migliori in campo nella nazionale Under 21.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anzi ne ha dato uno solo all'Under 21 che è stato tra i migliori in campo",
+          "start_sec": 62.239,
+          "end_sec": 116.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "milan",
+        "under 21",
+        "prestazione giocatore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli è stato colpito negativamente dall'esclusione dell'Italia dai mondiali.",
+      "polarity": "negative",
+      "claim_id": "356a86fc-80ed-46b8-9fb0-aa197797a76d",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è stato colpito negativamente dall'esclusione dell'Italia dai mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poniamoci la domanda se ci sono fattori positivi o negativi da quanto accaduto per la nostra esclusione dei mondiali. Andiamo subito a guardare la negatività di quanto è accaduto. Il Napoli, a differenza del Milan",
+          "start_sec": 62.239,
+          "end_sec": 116.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esclusione mondiale",
+        "impatto",
+        "napoli",
+        "negatività"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan non ha dato nessun calciatore alla nazionale in questa occasione, una situazione rara.",
+      "polarity": "neutral",
+      "claim_id": "ae0f1503-03d3-4e56-a630-ec85a5d4e0cb",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non ha dato nessun calciatore alla nazionale in questa occasione, una situazione rara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli, a differenza del Milan, che non ha dato nessun calciatore alla nazionale, una delle rarissime volte che il Milan non ha dato nessun calciatore nazionale",
+          "start_sec": 62.239,
+          "end_sec": 116.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "milan",
+        "partecipazione nazionale"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli ha cinque giocatori a rischio mondiale, di cui quattro ancora in organico e uno infortunato, il capitano Di Lorenzo.",
+      "polarity": "negative",
+      "claim_id": "31983856-65d6-4c96-846a-e3082d3d8c2c",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha cinque giocatori a rischio mondiale, di cui quattro ancora in organico e uno infortunato, il capitano Di Lorenzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli ha cinque ragazzi, di cui quattro attualmente in organico, uno fuori per infortunio, che è il capitano Di Lorenzo",
+          "start_sec": 112.719,
+          "end_sec": 175.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Politano",
+      "position": "Politano è distrutto dopo aver perso l'occasione di fare un mondiale.",
+      "polarity": "negative",
+      "claim_id": "28a8c247-b3c9-4348-bf1f-a0cb81df87e2",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s3",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Politano è distrutto dopo aver perso l'occasione di fare un mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano e Spinazzola, che è stato anche intervistato a fine partita, che erano devastati perché era la loro ultima occasione di fare un mondiale",
+          "start_sec": 172.44,
+          "end_sec": 216.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "mondiale",
+        "delusione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Spinazzola",
+      "position": "Spinazzola è devastato perché ha perso l'ultima occasione di giocare un mondiale.",
+      "polarity": "negative",
+      "claim_id": "16978a9c-2a0c-427e-8ad2-253c54699b2b",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s3",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spinazzola è devastato perché ha perso l'ultima occasione di giocare un mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano e Spinazzola, che è stato anche intervistato a fine partita, che erano devastati perché era la loro ultima occasione di fare un mondiale",
+          "start_sec": 172.44,
+          "end_sec": 216.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "mondiale",
+        "delusione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "nazionali",
+      "position": "Per un calciatore giocare un mondiale rappresenta il massimo della vita.",
+      "polarity": "positive",
+      "claim_id": "42da6e50-cb86-45c1-a779-f84665005010",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s3",
+      "target_entity": "nazionali",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Per un calciatore giocare un mondiale rappresenta il massimo della vita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per un calciatore fare un mondiale è il massimo della vita",
+          "start_sec": 172.44,
+          "end_sec": 216.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiale",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Rasmus Soyond",
+      "position": "Rasmus Soyond ha il morale molto basso dopo aver sbagliato un rigore contro la Danimarca.",
+      "polarity": "negative",
+      "claim_id": "909df1b5-4568-43b0-baa6-7bfc35e88b64",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s4",
+      "target_entity": "Rasmus Soyond",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rasmus Soyond ha il morale molto basso dopo aver sbagliato un rigore contro la Danimarca.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rasmus Soyond che è il morale veramente sotto le sule delle scarpe perché la Danimarca che è una squadra forte è andata fuori ai rigori e lui ha sbagliato il suo rigore.",
+          "start_sec": 216.04,
+          "end_sec": 272.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Milan",
+      "position": "Il Milan non ha giocatori che non parteciperanno al mondiale a causa di questa vicenda.",
+      "polarity": "positive",
+      "claim_id": "8055ae50-92b1-4424-a85a-5da5df6ca8b0",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non ha giocatori che non parteciperanno al mondiale a causa di questa vicenda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan non paga dao da questa vicenda",
+          "start_sec": 112.719,
+          "end_sec": 175.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan ha avuto qualche trasvolata oceanica più del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "ed79ff5b-a007-43de-81dd-037a30268f82",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha avuto qualche trasvolata oceanica più del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Qualche trasvolata oceanica, sì, di più del Napoli",
+          "start_sec": 112.719,
+          "end_sec": 175.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Danimarca",
+      "position": "La Danimarca non si qualificherà per il mondiale dopo essere stata eliminata ai rigori.",
+      "polarity": "negative",
+      "claim_id": "e93c1f78-3cdb-4146-9b16-852e69d5ffad",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s4",
+      "target_entity": "Danimarca",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Danimarca non si qualificherà per il mondiale dopo essere stata eliminata ai rigori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Danimarca non farà il mondiale.",
+          "start_sec": 216.04,
+          "end_sec": 272.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Magnan",
+      "position": "Magnan parteciperà sicuramente al mondiale.",
+      "polarity": "positive",
+      "claim_id": "5423f7c4-693f-404f-827c-8f9b291ff644",
+      "video_id": "vNPx-7wC4eI",
+      "segment_id": "s2",
+      "target_entity": "Magnan",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Magnan parteciperà sicuramente al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Magnan, Leao, Pulisik, il mondiale lo faranno assolutamente senza problemi",
+          "start_sec": 112.719,
+          "end_sec": 175.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "video_id": "1rz7cGwtLS4",
+  "analyzed_at": "2026-04-25T11:07:27.353853+00:00",
+  "metadata": {
+    "title": "TMWRadio- Valentini:\" Malagò- Abete? serve il programma\" Palladini:\" Malagò- Mancini la coppia\"",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza il dibattito attorno alla leadership nel calcio italiano, focalizzandosi sulla possibile candidatura di Malagò e Abete alla presidenza federale. L’autore sottolinea come Malagò, pur essendo un avversario temibile e con un passato di successi al CONI, potrebbe trovare difficoltà a vincere a causa del sostegno di diverse leghe a favore di Abete. Viene inoltre evidenziata l’importanza di un programma chiaro più che del solo nome, come suggerito da Lotito, e si apre una riflessione sulle possibili \"coppie\" di dirigenti e allenatori (es. Malagò con Mancini, Abete con Allegri) per ",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "riforma",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "serie a",
+      "relevance": "medium"
+    },
+    {
+      "name": "elezioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "settore giovanile",
+      "relevance": "low"
+    },
+    {
+      "name": "numero squadra",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "opinione pubblica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Lotito",
+      "position": "Lotito ha detto che il problema non è il nome ma il regolamento da cambiare.",
+      "polarity": "neutral",
+      "claim_id": "0309581b-4866-44c8-ac5f-cd56876e9202",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s0",
+      "target_entity": "Lotito",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lotito ha detto che il problema non è il nome ma il regolamento da cambiare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "di Lotito che ha detto non è una questione di nome, ma di regolamento che secondo lui andrebbe cambiato",
+          "start_sec": 0.0,
+          "end_sec": 86.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "regolamento",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Abete",
+      "position": "È uscito il nome di Abete come possibile figura nel dibattito.",
+      "polarity": "neutral",
+      "claim_id": "a1f688aa-a09c-4238-b2f0-bddbe48df813",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s0",
+      "target_entity": "Abete",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È uscito il nome di Abete come possibile figura nel dibattito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi c'è stata anche la il nome di Abete che che è uscito",
+          "start_sec": 0.0,
+          "end_sec": 86.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nome",
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Antonello",
+      "position": "Antonello è considerato un dirigente di alto livello con preparazione politica.",
+      "polarity": "neutral",
+      "claim_id": "2e415d7c-55b6-4a29-953e-d9a24487ad16",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s0",
+      "target_entity": "Antonello",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Antonello è considerato un dirigente di alto livello con preparazione politica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "noi è vero che molti fanno la battuta, il nuovo che avanza, però poi dopo qui abbiamo un dirigente di di alto livello come Antonello... devi essere preparato politicamente",
+          "start_sec": 0.0,
+          "end_sec": 86.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dirigenza",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Malagò ha dimostrato di essere all'altezza della situazione diventando presidente del CONI.",
+      "polarity": "positive",
+      "claim_id": "2f903f60-265c-4dd0-aba6-6e6030d68349",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s1",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò ha dimostrato di essere all'altezza della situazione diventando presidente del CONI.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ha battuto e ha dimostrato di essere all'altezza della situazione, anzi più entrato nella storia perché è stato il presidente non solo recente",
+          "start_sec": 82.479,
+          "end_sec": 190.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Pagnozzi",
+      "position": "Pagnozzi era il presidente del CONI sostenuto da Petrucci.",
+      "polarity": "positive",
+      "claim_id": "74fbca7c-d890-4075-96b4-a61728e36a3e",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s1",
+      "target_entity": "Pagnozzi",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pagnozzi era il presidente del CONI sostenuto da Petrucci.",
+      "evidence_quotes": [
+        {
+          "quote_text": "presidente del CONI e successe l'invero, cioè successe un pron come che ne so il Sassuolo che va a vincere al Camp, no? Mh mh. E Malagoc fatta e fu. Ma figurati se Malagoccia a questo dur, ma figurati se può vincere, battere Pagnozzi sostenuto da Petrucci",
+          "start_sec": 82.479,
+          "end_sec": 190.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Abete",
+      "position": "Abete potrebbe avere il sostegno della Lega Pro e Olivieri, ma il suo successo non è sicuro.",
+      "polarity": "neutral",
+      "claim_id": "027ce991-2af3-4d4c-856a-2d686e4cacbd",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s1",
+      "target_entity": "Abete",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Abete potrebbe avere il sostegno della Lega Pro e Olivieri, ma il suo successo non è sicuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Olivieri adesso mi sono orientato un po' ieri e la Lega Pro potrebbero stare con Abete",
+          "start_sec": 82.479,
+          "end_sec": 190.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Al momento è molto difficile prevedere una vittoria di Malagò alle elezioni federali.",
+      "polarity": "neutral",
+      "claim_id": "6745f7ac-94a6-43a8-ace7-861e2e47a772",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s1",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Al momento è molto difficile prevedere una vittoria di Malagò alle elezioni federali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra molto difficile al momento prevedere un Malagò vincente",
+          "start_sec": 82.479,
+          "end_sec": 190.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Malagò ha ricevuto una investitura dalla maggioranza della Lega Serie A per un incarico fiduciario.",
+      "polarity": "positive",
+      "claim_id": "ebe58200-7ad8-4fc5-ad11-e889b2435b30",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s2",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò ha ricevuto una investitura dalla maggioranza della Lega Serie A per un incarico fiduciario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella di Madagor è stata una investitura, una indicazione all'arghissima maggioranza della Lega di Serie A",
+          "start_sec": 190.4,
+          "end_sec": 293.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Malagò ha tutte le qualità, capacità e passione per fare il presidente della federazione.",
+      "polarity": "positive",
+      "claim_id": "ddb83a81-53ad-4f87-9189-8fa0f5829d56",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s2",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Malagò ha tutte le qualità, capacità e passione per fare il presidente della federazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha tutte i numeri, la qualità, lo spirito imprenditoriale, le capacità, la passione sportiva per fare il presidente della federazione",
+          "start_sec": 190.4,
+          "end_sec": 293.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Abete",
+      "position": "Abete è amico di lunga data dell'interlocutore e non cerca di rifare il presidente della federazione.",
+      "polarity": "neutral",
+      "claim_id": "26878ab9-9901-4d9f-a873-af04e927787f",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s2",
+      "target_entity": "Abete",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Abete è amico di lunga data dell'interlocutore e non cerca di rifare il presidente della federazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io sono da moltissimi anni amico di abete, gli sono affezionato e lui sa per primo che non è un volto nuovo, che non crea discontinuità e vi dico di più che non ha nessuna ansia, nessuna smia di rifare il presidente della federazione",
+          "start_sec": 190.4,
+          "end_sec": 293.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Malagò ha ricevuto l'investitura e l'indicazione della Lega di aprire un confronto su temi e progetti.",
+      "polarity": "neutral",
+      "claim_id": "60cf1e64-5a1a-438e-ac5b-faf0b2284df7",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s3",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò ha ricevuto l'investitura e l'indicazione della Lega di aprire un confronto su temi e progetti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo stesso Maragò ha detto dopo l'investitura e l'indicazione della Lega e di aprire un confronto sui temi, sulle idee, sui progetti",
+          "start_sec": 290.88,
+          "end_sec": 396.63899999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "confronto",
+        "programmi"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Malagò",
+      "position": "Stefano ha dato l'appoggio totale a Malagò.",
+      "polarity": "positive",
+      "claim_id": "8a47eab5-6b31-456a-849c-2001d42d5b45",
+      "video_id": "1rz7cGwtLS4",
+      "segment_id": "s0",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Stefano ha dato l'appoggio totale a Malagò.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Stefano ha dato l'appoggio totale a Malagò",
+          "start_sec": 0.0,
+          "end_sec": 86.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "supporto",
+        "media"
+      ]
+    }
+  ]
+}

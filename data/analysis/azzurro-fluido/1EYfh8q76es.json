@@ -1,0 +1,408 @@
+{
+  "video_id": "1EYfh8q76es",
+  "analyzed_at": "2026-05-01T11:33:24.505557+00:00",
+  "metadata": {
+    "title": "Fabregas: \"con CONTE ho sofferto, ma VOLAVO\" 👀 Conferenza pre Como Napoli 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulla conferenza stampa di Cesc Fabregas, che ha commentato la preparazione del Napoli alla partita contro il Como, lodando il lavoro di Conte e sottolineando come la squadra abbia mantenuto un alto livello nonostante gli infortuni. Fabregas evidenzia anche le difficoltà tattiche del Como, che alterna il 4-2-1 a una difesa a tre, e si aspetta una buona prestazione dai giocatori recuperati. Inoltre, affronta il tema delle polemiche arbitrali, spiegando che in Spagna si discute molto degli arbitri come in Italia, mentre in Premier League c’è maggiore rispetto; ribadisce l’i",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "medium"
+    },
+    {
+      "name": "conferenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenamento",
+      "relevance": "low"
+    },
+    {
+      "name": "intensità",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "pressing",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Como",
+      "position": "Como usa prevalentemente il modulo 4-2-1 ma a volte difende con una difesa a tre.",
+      "polarity": "neutral",
+      "claim_id": "29c7d6e1-a749-4338-9ec0-ca7a8e796c7b",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como usa prevalentemente il modulo 4-2-1 ma a volte difende con una difesa a tre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mettendo il Como in 421, come spesso fa, ma abbiamo visto che il Como a volte si gioca anche alla difesa a tre",
+          "start_sec": 73.479,
+          "end_sec": 133.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "tattica",
+        "lineup_prediction"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Fabregas",
+      "position": "Fabregas ha tenuto una conferenza stampa due giorni dopo la partita.",
+      "polarity": "positive",
+      "claim_id": "6e9a85c7-f576-4cb9-ad88-dc9947485b05",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s0",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas ha tenuto una conferenza stampa due giorni dopo la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabregas ha dato degli spunti interessanti, non solo di campo, anche di crescita del movimento.",
+          "start_sec": 0.32,
+          "end_sec": 76.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conferenza",
+        "campo",
+        "movimento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Fabregas",
+      "position": "Fabregas attribuisce merito a Conte per il livello raggiunto dal Napoli.",
+      "polarity": "positive",
+      "claim_id": "6c6edb60-2338-4db6-a94d-f5fcdbcac7d8",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s1",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas attribuisce merito a Conte per il livello raggiunto dal Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabregas dà il merito a Conte per il livello che ha raggiunto il Napoli",
+          "start_sec": 73.479,
+          "end_sec": 133.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli ha mantenuto un livello alto nonostante gli infortuni.",
+      "polarity": "positive",
+      "claim_id": "e96cbcbf-6ee4-43f7-aade-49f78d60520a",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha mantenuto un livello alto nonostante gli infortuni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nonostante con gli infortuni, noi abbiamo mantenuto un livello alto",
+          "start_sec": 73.479,
+          "end_sec": 133.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "performance"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitri in Spagna",
+      "position": "In Spagna si parla molto degli arbitri, simile a quanto accade in Italia.",
+      "polarity": "neutral",
+      "claim_id": "5fb78d7f-62d0-44bf-95fc-9e60f8473d88",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s2",
+      "target_entity": "arbitri in Spagna",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "In Spagna si parla molto degli arbitri, simile a quanto accade in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabregas conferma, guardate che in Spagna si parla uguale degli arbitri",
+          "start_sec": 131.76,
+          "end_sec": 191.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "Spagna",
+        "media"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitri in Premier League",
+      "position": "In Premier League si parla meno degli arbitri e c'è più rispetto verso di loro rispetto ad altri paesi.",
+      "polarity": "positive",
+      "claim_id": "4b515f87-9bae-468e-a1aa-ffd39978fa09",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s2",
+      "target_entity": "arbitri in Premier League",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "In Premier League si parla meno degli arbitri e c'è più rispetto verso di loro rispetto ad altri paesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse in Premier si parla un po' di meno, c'è un po' più di rispetto",
+          "start_sec": 131.76,
+          "end_sec": 191.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "Premier League",
+        "media"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Fabregas",
+      "position": "Fabregas evita di giocare quando pensa ci sia malafede da parte dell'arbitro.",
+      "polarity": "negative",
+      "claim_id": "746064ec-a969-4609-b9cb-6b8f10966ce4",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s2",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Fabregas evita di giocare quando pensa ci sia malafede da parte dell'arbitro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se penso alla malafede non vado a giocare e chiaramente se io già penso che cioè c'è malafede da parte di un arbitro non me la vado proprio a giocare",
+          "start_sec": 131.76,
+          "end_sec": 191.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "mentalità",
+        "comportamento"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'opinione è che si stia perdendo il focus sul calcio vero e si parla invece di togliere scudetti, che è dannoso e inutile.",
+      "polarity": "negative",
+      "claim_id": "5b27ac86-82f2-4e12-b5d2-10b4516bbafc",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'opinione è che si stia perdendo il focus sul calcio vero e si parla invece di togliere scudetti, che è dannoso e inutile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tolgono gli scudetti pure di quest'anno è veramente un esercizio inutile, dannoso e ci fa perdere solo tempo",
+          "start_sec": 188.599,
+          "end_sec": 262.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "rivalry"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "allenatore non specificato",
+      "position": "Il tecnico adatta la tattica in modo minimale in base all'avversario senza cambiare stile di gioco.",
+      "polarity": "neutral",
+      "claim_id": "0aeb4e44-daa8-4752-b98f-f696ef197e9b",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s3",
+      "target_entity": "allenatore non specificato",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il tecnico adatta la tattica in modo minimale in base all'avversario senza cambiare stile di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stile di gioco non cambia, può cambiare la struttura e qua lui in base all'avversario ci fa una mini mini mini mini tattica",
+          "start_sec": 188.599,
+          "end_sec": 262.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "da Cugna",
+      "position": "Da Cugna agisce da centrocampista in posizione bassa per liberare spazio nella prima costruzione della squadra.",
+      "polarity": "neutral",
+      "claim_id": "9241f634-78fe-424b-a13f-20b6c3531e5b",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s3",
+      "target_entity": "da Cugna",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Da Cugna agisce da centrocampista in posizione bassa per liberare spazio nella prima costruzione della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se io allargo i due centrali e faccio abbassare da Cugna tra i due centrali nella prima costruzione, ecco che un centrocampista dovrà andare a seguire da Cugna",
+          "start_sec": 188.599,
+          "end_sec": 262.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "lineup_prediction"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Arbitri",
+      "position": "Ci dovrebbe essere più dialogo tra giocatori e arbitri e l'arbitro dovrebbe essere il meno importante della partita.",
+      "polarity": "positive",
+      "claim_id": "9008515a-3f8c-4550-93aa-a9ce36462115",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s2",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Ci dovrebbe essere più dialogo tra giocatori e arbitri e l'arbitro dovrebbe essere il meno importante della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "auspica più dialogo tra giocatori e arbitri, l'arbitro deve essere il meno importante della partita, l'uomo sul campo meno importante e questo è fondamentale",
+          "start_sec": 131.76,
+          "end_sec": 191.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "dialogo",
+        "importanza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Si prevede una bella partita dei giocatori infortunati del Napoli.",
+      "polarity": "positive",
+      "claim_id": "5a8e6858-f528-4d62-a779-a4c5966fb68e",
+      "video_id": "1EYfh8q76es",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Si prevede una bella partita dei giocatori infortunati del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si aspetta una bella partita dei suoi infortunati",
+          "start_sec": 73.479,
+          "end_sec": 133.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "performance",
+        "previsione"
+      ]
+    }
+  ]
+}

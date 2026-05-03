@@ -1,0 +1,397 @@
+{
+  "video_id": "UeH5bO0Dpr8",
+  "analyzed_at": "2026-05-03T12:44:09.563561+00:00",
+  "metadata": {
+    "title": "CIAO ALEX‼️ COMO-NAPOLI 0-0",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta la partita Como-Napoli terminata 0-0, evidenziando la buona prestazione del Como soprattutto nel primo tempo, nonostante alcune occasioni sprecate da Dovicas. L'autore sottolinea come entrambe le squadre abbiano giocato con continui scambi di palla, paragonando la partita a un \"ping pong\" calcistico, e ritiene che il Napoli avrebbe potuto vincere se la gara fosse durata qualche minuto in più. Prima di entrare nel merito del match, viene dedicato un momento di riflessione ad Alex Zanardi, celebrato come esempio di forza e resilienza dopo un grave incidente. La conclusione prin",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "europe",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "motivazione",
+      "relevance": "low"
+    },
+    {
+      "name": "errore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli avrebbe potuto vincere se la partita fosse durata 5-10 minuti in più nel secondo tempo.",
+      "polarity": "positive",
+      "claim_id": "cedfc352-c6f6-41d9-84f5-c87778ff676d",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Napoli avrebbe potuto vincere se la partita fosse durata 5-10 minuti in più nel secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se si giocava 5-10 minuti in più, se c'era una squadra che poi magari era portata a vincerlo, forse poteva essere anche il Napoli",
+          "start_sec": 167.319,
+          "end_sec": 209.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "partita"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Alex Zanardi",
+      "position": "Alex Zanardi ha trasformato un grave incidente in una motivazione per migliorarsi.",
+      "polarity": "positive",
+      "claim_id": "7663197c-3108-452f-bbc3-06ed5a65ada3",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s1",
+      "target_entity": "Alex Zanardi",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alex Zanardi ha trasformato un grave incidente in una motivazione per migliorarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una persona che ha trasformato un incidente, una battuta d'arresto in una in benzina, in qualcosa che lo ha reso anche migliore sotto determinati aspetti",
+          "start_sec": 30.72,
+          "end_sec": 77.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "motivazione",
+        "resilienza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Dovicas",
+      "position": "Dovicas ha avuto un'occasione a tu per tu col portiere senza segnare.",
+      "polarity": "negative",
+      "claim_id": "bf41aae9-5820-4fb3-adc8-9c8336706d24",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s4",
+      "target_entity": "Dovicas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Dovicas ha avuto un'occasione a tu per tu col portiere senza segnare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di ha avuto un'altra palla a tu per tu col portiere",
+          "start_sec": 125.68,
+          "end_sec": 170.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "occasione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadre",
+      "position": "Entrambe le squadre hanno giocato una partita simile al ping pong con continui scambi di palla.",
+      "polarity": "neutral",
+      "claim_id": "965bc305-65e5-4b05-bb25-1b6472096b08",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s4",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Entrambe le squadre hanno giocato una partita simile al ping pong con continui scambi di palla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una gioch hanno giocato a ping pong, tutte e due le squadre",
+          "start_sec": 125.68,
+          "end_sec": 170.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte ha messo una pezza nella manovra della squadra dopo un problema di Perrone.",
+      "polarity": "positive",
+      "claim_id": "1cf1adc3-e073-4567-8b88-37492cd1b0cc",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s5",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha messo una pezza nella manovra della squadra dopo un problema di Perrone.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi di averci messo una pezza, no? Eh, forse proprio da quando ha avuto un problemino, mi ricordo Perrone mi pare, ha avuto modo di fare una soft di di tie break e lì ha dato ha messo una una pezza",
+          "start_sec": 167.319,
+          "end_sec": 209.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Bayern's match with Paris Saint-Germain was more like Milan vs Juventus in level of competition.",
+      "polarity": "positive",
+      "claim_id": "5846eded-a8ad-4d53-ada8-3f88b3550a12",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s6",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Bayern's match with Paris Saint-Germain was more like Milan vs Juventus in level of competition.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, ormai magari ci sono quelli che pensano che una gara con tantissimi gol quelle nonè detto anche uno 0-0. Secondo me Bayern Paris Saint-Germain. più a Milan Juventus, per esempio.",
+          "start_sec": 211.4,
+          "end_sec": 259.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "performance",
+        "analisi"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "La stagione del Napoli è stata deludente con risultati insoddisfacenti.",
+      "polarity": "negative",
+      "claim_id": "9ff0394a-1c80-4bb7-ba5b-27abd345220b",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s8",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La stagione del Napoli è stata deludente con risultati insoddisfacenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo fatto schifo. Il campionato è andato come andato.",
+          "start_sec": 336.44,
+          "end_sec": 372.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como ha avuto una prestazione poco incisiva nel match.",
+      "polarity": "neutral",
+      "claim_id": "2f6f1c7d-59f6-4cee-acc4-ef57ddb643bf",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Como ha avuto una prestazione poco incisiva nel match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "figura veramente piena piena",
+          "start_sec": 74.479,
+          "end_sec": 80.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha giocato un grandissimo primo tempo nella partita contro il Napoli.",
+      "polarity": "positive",
+      "claim_id": "265dfe49-e70a-49bf-b19f-588d480a4668",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s3",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha giocato un grandissimo primo tempo nella partita contro il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io ho visto un grandissimo Como nel primo tempo",
+          "start_sec": 77.68,
+          "end_sec": 126.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "primo tempo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Dovicas",
+      "position": "Dovicas ha sbagliato un gol che doveva segnare.",
+      "polarity": "negative",
+      "claim_id": "9eff1558-85de-4ae1-8479-c56085fd2905",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s4",
+      "target_entity": "Dovicas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dovicas ha sbagliato un gol che doveva segnare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dovicas quel gol deve farlo",
+          "start_sec": 125.68,
+          "end_sec": 170.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "errore",
+        "gioco"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Napoli",
+      "position": "Il Napoli ha sofferto molti infortuni durante la stagione.",
+      "polarity": "negative",
+      "claim_id": "603aca9d-6d87-4172-bb6b-576753cec1e9",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s8",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha sofferto molti infortuni durante la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo avuto parecchi infortuni",
+          "start_sec": 336.44,
+          "end_sec": 372.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte deve proseguire come allenatore del Napoli.",
+      "polarity": "positive",
+      "claim_id": "6ffae322-7a3b-42f2-b83a-44dae89bae22",
+      "video_id": "UeH5bO0Dpr8",
+      "segment_id": "s8",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte deve proseguire come allenatore del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte deve proseguire perché no?",
+          "start_sec": 336.44,
+          "end_sec": 372.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

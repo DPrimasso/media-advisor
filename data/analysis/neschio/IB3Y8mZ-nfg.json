@@ -1,0 +1,389 @@
+{
+  "video_id": "IB3Y8mZ-nfg",
+  "analyzed_at": "2026-04-24T08:34:30.069182+00:00",
+  "metadata": {
+    "title": "VINCEREMO, VINCEREMO...‼️ INTER-CAGLIARI 3-0 e SASSUOLO-COMO 2-1",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'analisi della recente vittoria dell'Inter per 3-0 contro il Cagliari, evidenziando il superamento di un momento difficile caratterizzato da pareggi e una sconfitta nel derby. L'autore sottolinea come la squadra abbia ritrovato efficacia offensiva e determinazione, con contributi chiave di giocatori come Turano, che ha risposto positivamente alle critiche. Viene inoltre fatto un parallelo con la situazione del Como, anch'essa in un momento decisivo, e si riflette sull'importanza di mantenere la concentrazione nei momenti cruciali della stagione. In conclusione, il vid",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifoso",
+      "relevance": "medium"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "low"
+    },
+    {
+      "name": "pressione",
+      "relevance": "low"
+    },
+    {
+      "name": "momento difficile",
+      "relevance": "low"
+    },
+    {
+      "name": "champions league",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como ha ottenuto 3 punti e segnato 4 gol in una partita recente.",
+      "polarity": "positive",
+      "claim_id": "27637a4a-c4d2-4362-aecf-1a280f571501",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como ha ottenuto 3 punti e segnato 4 gol in una partita recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Como, 3 points, 4 goals",
+          "start_sec": 64.98,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "punteggio",
+        "gol",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter won 3-0 against Cagliari in the recent match.",
+      "polarity": "positive",
+      "claim_id": "49be8b45-3be8-42c8-947c-6c7da039038c",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter won 3-0 against Cagliari in the recent match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "INTER-CAGLIARI 3-0",
+          "start_sec": 0.84,
+          "end_sec": 64.98,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter had a complicated moment before recent games including draws and a derby defeat.",
+      "polarity": "neutral",
+      "claim_id": "2972a23b-307c-4510-ae7b-c7675b2c9c28",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter had a complicated moment before recent games including draws and a derby defeat.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the complicated moment that preceded these games That is, the draw with Fiorentina, the draw with Atalanta, the defeat in the derby",
+          "start_sec": 0.84,
+          "end_sec": 64.98,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "momento difficile",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Molti tifosi del Como si sono preoccupati per la scarsa risposta della squadra.",
+      "polarity": "negative",
+      "claim_id": "84ae27cf-851e-432d-a462-9c3bec758dcc",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Molti tifosi del Como si sono preoccupati per la scarsa risposta della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Many fans, in fact, panicked because they saw a team that did not respond",
+          "start_sec": 64.98,
+          "end_sec": 114.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifoso",
+        "preoccupazione",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Turano",
+      "position": "Turano is mentioned as an important player who recently came out.",
+      "polarity": "neutral",
+      "claim_id": "7a3dfde1-7926-404f-b34c-62cb71b87738",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s3",
+      "target_entity": "Turano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Turano is mentioned as an important player who recently came out.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Of how some players came out Some important players I want to mention Turano, one of those",
+          "start_sec": 162.8,
+          "end_sec": 213.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Marcus",
+      "position": "Marcus was very critical for not performing well but improved in the last game.",
+      "polarity": "negative",
+      "claim_id": "c7dde01d-9b72-44a6-b363-af855f673796",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s4",
+      "target_entity": "Marcus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Marcus was very critical for not performing well but improved in the last game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I was very angry with Mr. Marcus I was very, very critical Why? Because Marcus is a great attacker He has to do better, he had to do better",
+          "start_sec": 213.16,
+          "end_sec": 253.66000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Marcus",
+      "position": "Marcus responded well in the last game, scoring an important goal.",
+      "polarity": "positive",
+      "claim_id": "887f1e20-07bb-4c60-a681-3295264de91a",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s4",
+      "target_entity": "Marcus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Marcus responded well in the last game, scoring an important goal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And in the last game he responded present First with and now without Lautaro Martinez Another important goal tonight",
+          "start_sec": 213.16,
+          "end_sec": 253.66000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter was eliminated from the World Cup during the national break.",
+      "polarity": "negative",
+      "claim_id": "7bb5dfa1-40f8-4ad0-892b-aa7889835c69",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter was eliminated from the World Cup during the national break.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the elimination from the World Cup",
+          "start_sec": 0.84,
+          "end_sec": 64.98,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "eliminazione",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Marcus",
+      "position": "Marcus found himself in the right position during the game.",
+      "polarity": "positive",
+      "claim_id": "87e9d492-90ef-4e64-99f5-5a31bfcf0ec6",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s4",
+      "target_entity": "Marcus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marcus found himself in the right position during the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "It is found in the right place",
+          "start_sec": 213.16,
+          "end_sec": 253.66000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro Martinez is described as being more exposed offensively.",
+      "polarity": "neutral",
+      "claim_id": "97305a65-fd4b-407e-9a1a-6ba48429276c",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s4",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro Martinez is described as being more exposed offensively.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lautaro more exposed",
+          "start_sec": 213.16,
+          "end_sec": 253.66000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Mastromino",
+      "position": "Mastromino went to bed early tonight.",
+      "polarity": "neutral",
+      "claim_id": "b0e79054-50b7-4ef7-8832-5b2e30da4db8",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s0",
+      "target_entity": "Mastromino",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Mastromino went to bed early tonight.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tonight, by the way, Mastromino went to bed early",
+          "start_sec": 0.84,
+          "end_sec": 64.98,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comportamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Pio-Turano",
+      "position": "Il duo Pio-Turano ha lavorato bene in campo.",
+      "polarity": "positive",
+      "claim_id": "f59bb9e7-a36d-49e3-836d-80c06d24f70b",
+      "video_id": "IB3Y8mZ-nfg",
+      "segment_id": "s5",
+      "target_entity": "Pio-Turano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il duo Pio-Turano ha lavorato bene in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "It's as if Pio automatically joined Lautaro I liked it, I liked it In my opinion they worked well",
+          "start_sec": 253.66,
+          "end_sec": 306.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "duo",
+        "prestazione"
+      ]
+    }
+  ]
+}

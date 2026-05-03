@@ -1,0 +1,366 @@
+{
+  "video_id": "J01GNDBn72U",
+  "analyzed_at": "2026-04-26T11:55:36.217167+00:00",
+  "metadata": {
+    "title": "INTER, ECCO LE PRIME MOSSE PER L’ESTATE. UN TALENTO DA JUVE. GROSSE NOVITÀ SULLE PANCHINE DI SERIE A",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-14T21:52:15+00:00"
+  },
+  "summary": "Il video si concentra sulle prime mosse di mercato e sulle novità riguardanti l’Inter, con particolare attenzione al rinnovo del tecnico Christian Kiu, il cui lavoro è stato spesso discusso ma che ha portato risultati importanti, come la possibile vittoria dello scudetto al primo anno e la corsa alla doppietta con la Coppa Italia. L’autore sottolinea che sono in corso trattative per prolungare il contratto di Kiu fino al 2028, con un significativo aumento dell’ingaggio. Inoltre, si evidenzia l’importanza di alcuni giocatori chiave come Calhanoglu, il cui rinnovo è in fase di valutazione, e l’i",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatore giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "talento",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "allenatore Inter",
+      "position": "L'allenatore dell'Inter rinnoverà il contratto sino al 2028 con opzione per il 2029.",
+      "polarity": "positive",
+      "claim_id": "30431612-f5fc-4f20-b5c4-752db94ca2da",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s1",
+      "target_entity": "allenatore Inter",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore dell'Inter rinnoverà il contratto sino al 2028 con opzione per il 2029.",
+      "evidence_quotes": [
+        {
+          "quote_text": "porterà al rinnovo del tecnico sino al 2028 con opzione per il 2029",
+          "start_sec": 24.8,
+          "end_sec": 53.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter giocherà la semifinale di Coppa Italia il 21 aprile contro il Como a San Siro.",
+      "polarity": "positive",
+      "claim_id": "dd959fd7-e85d-4142-9d26-d62c20e4c21e",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter giocherà la semifinale di Coppa Italia il 21 aprile contro il Como a San Siro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "avrà la semifinale il 21 di aprile a San Siro contro il Como",
+          "start_sec": 24.8,
+          "end_sec": 53.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter sta valutando il rinnovo dei contratti dei calciatori in scadenza nel 2027.",
+      "polarity": "neutral",
+      "claim_id": "5df55887-991f-4a82-8353-170b443f31c6",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter sta valutando il rinnovo dei contratti dei calciatori in scadenza nel 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter dovrà decidere, dovrà sciogliere il nodo riguardo sia i calciatori in scadenza nel 2027",
+          "start_sec": 51.559,
+          "end_sec": 82.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Christian Kiu",
+      "position": "Christian Kiu ha ottenuto risultati che hanno dato ragione alla società e al suo lavoro.",
+      "polarity": "positive",
+      "claim_id": "47e183ea-cd18-4ee4-bbdf-a85bb247e293",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s0",
+      "target_entity": "Christian Kiu",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Christian Kiu ha ottenuto risultati che hanno dato ragione alla società e al suo lavoro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i risultati hanno dato ragione in qualche modo sia la scelta della società e sia al lavoro del tecnico romeno",
+          "start_sec": 0.88,
+          "end_sec": 27.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Christian Kiu",
+      "position": "Christian Kiu è un allenatore discutibile e talvolta criticato.",
+      "polarity": "neutral",
+      "claim_id": "4e9c1781-01ba-44d6-ad77-37d5a53444f1",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s0",
+      "target_entity": "Christian Kiu",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Christian Kiu è un allenatore discutibile e talvolta criticato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un allenatore che ogni tanto è stato discusso, a volte criticato",
+          "start_sec": 0.88,
+          "end_sec": 27.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Christian Kiu",
+      "position": "Sono in corso trattative per il rinnovo di Christian Kiu con la società.",
+      "polarity": "neutral",
+      "claim_id": "11b62743-1d7c-4462-b46b-d1b986092d04",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s0",
+      "target_entity": "Christian Kiu",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Sono in corso trattative per il rinnovo di Christian Kiu con la società.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono già tutte le basi, tutte le bozze dell'intesa",
+          "start_sec": 0.88,
+          "end_sec": 27.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "allenatore Inter",
+      "position": "L'allenatore dell'Inter è vicino a vincere lo scudetto nel suo primo anno di guida.",
+      "polarity": "positive",
+      "claim_id": "8ff9bc1c-c03d-4bc1-b08b-331e041bedc2",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s1",
+      "target_entity": "allenatore Inter",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore dell'Inter è vicino a vincere lo scudetto nel suo primo anno di guida.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un allenatore che sta per vincere lo scudetto al primo anno e già questo è un grande risultato",
+          "start_sec": 24.8,
+          "end_sec": 53.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter potrebbe vincere la doppietta scudetto e Coppa Italia nella stagione corrente.",
+      "polarity": "positive",
+      "claim_id": "7fb280cf-b99b-480f-bf12-4a79c5f0c7ef",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter potrebbe vincere la doppietta scudetto e Coppa Italia nella stagione corrente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "scudetto, ma potrebbe esserci anche il double, perché non dimentichiamoci che l'Inter è ancora in corsa in Coppa Italia",
+          "start_sec": 24.8,
+          "end_sec": 53.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Hakan Calhanoglu",
+      "position": "Il Galatasaray offre poco per Calhanoglu e l'Inter non vuole cedere gratis il cartellino.",
+      "polarity": "neutral",
+      "claim_id": "72665588-ca5e-482f-891a-dd09a70bb39e",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s3",
+      "target_entity": "Hakan Calhanoglu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Galatasaray offre poco per Calhanoglu e l'Inter non vuole cedere gratis il cartellino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Uno perché Galatasaray offre poco e l'Inter il cartellino non lo vuole regalare.",
+          "start_sec": 80.479,
+          "end_sec": 108.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Hakan Calhanoglu",
+      "position": "Calhanoglu è considerato un giocatore fondamentale per l'Inter.",
+      "polarity": "positive",
+      "claim_id": "3e63b9aa-f2f2-4f68-8a86-357a67256d05",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s3",
+      "target_entity": "Hakan Calhanoglu",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Calhanoglu è considerato un giocatore fondamentale per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi vuo ritiene un giocatore fondamentale perché è un centrocampista con gol e assist nei piedi.",
+          "start_sec": 80.479,
+          "end_sec": 108.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Christian Kiu",
+      "position": "Christian Kiu è un tecnico romeno.",
+      "polarity": "neutral",
+      "claim_id": "9233fabc-b955-42f8-917e-367ed0d0c4ca",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s0",
+      "target_entity": "Christian Kiu",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Christian Kiu è un tecnico romeno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "al lavoro del tecnico romeno",
+          "start_sec": 0.88,
+          "end_sec": 27.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Hakan Calhanoglu",
+      "position": "Calhanoglu sta bene a Milano e non ha fretta di andare via.",
+      "polarity": "positive",
+      "claim_id": "71aa319b-89c9-4ed7-8a43-2e0c3d469ee7",
+      "video_id": "J01GNDBn72U",
+      "segment_id": "s3",
+      "target_entity": "Hakan Calhanoglu",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Calhanoglu sta bene a Milano e non ha fretta di andare via.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Comunque Cananoglu a Milano sta bene",
+          "start_sec": 80.479,
+          "end_sec": 108.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

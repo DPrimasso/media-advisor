@@ -1,0 +1,394 @@
+{
+  "video_id": "8JmOPOKWSXw",
+  "analyzed_at": "2026-04-26T12:04:54.593826+00:00",
+  "metadata": {
+    "title": "PASQUETTA CON SPALLETTI: PRIMO TEMPO DA 7+, IL CALO E TRE PUNTI PER IL “MENO 1”🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza la prestazione della Juventus guidata da Spalletti nella partita di Pasquetta, evidenziando un primo tempo molto positivo, valutato 7+, caratterizzato da un gioco rapido e spettacolare che ha portato a due gol decisivi. L'autore sottolinea un calo fisiologico nel secondo tempo, ma ritiene che la squadra abbia comunque gestito bene la partita, conquistando tre punti fondamentali che la portano a un solo punto di distanza in classifica. Viene inoltre evidenziata la scarsa reazione del Genoa nel primo tempo, mentre nel secondo ha mostrato un miglioramento, sep",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "valutazione della prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "ritmo di gioco",
+      "relevance": "medium"
+    },
+    {
+      "name": "primo tempo",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "secondo tempo",
+      "relevance": "low"
+    },
+    {
+      "name": "fase di stagione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Spalletti",
+      "position": "Spalletti ha fatto un primo tempo da 7+ nella partita.",
+      "polarity": "positive",
+      "claim_id": "41ebaaaf-e9ce-4be4-9b34-62cc8769cddb",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha fatto un primo tempo da 7+ nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prima tempo da 7 più",
+          "start_sec": 0.16,
+          "end_sec": 36.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Consisao",
+      "position": "Consisao ha fornito un assist perfetto per il secondo gol di Mcenny.",
+      "polarity": "positive",
+      "claim_id": "21f79976-5bad-4a8c-ba7b-511c62229328",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s1",
+      "target_entity": "Consisao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Consisao ha fornito un assist perfetto per il secondo gol di Mcenny.",
+      "evidence_quotes": [
+        {
+          "quote_text": "assist perfetto, appunto, di Consisao per Mcenny che ha chiuso",
+          "start_sec": 33.2,
+          "end_sec": 73.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assist",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "La squadra avversaria non si è presentata nel primo tempo sui colli torinesi.",
+      "polarity": "negative",
+      "claim_id": "b3c28fbb-4e9d-41ea-bac5-20e98771bf39",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra avversaria non si è presentata nel primo tempo sui colli torinesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il primo tempo era era sui colli torinesi, nel senso che non pervenuto, non si è presentato",
+          "start_sec": 33.2,
+          "end_sec": 73.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "avversario"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Juventus",
+      "position": "La Juventus ha indirizzato la partita nel modo migliore non perdendo tempo.",
+      "polarity": "positive",
+      "claim_id": "a92136a3-60db-4433-a50d-28f647c48807",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha indirizzato la partita nel modo migliore non perdendo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus non ha voluto perdere tempo e l'ha voluta indirizzare nel nel modo migliore",
+          "start_sec": 70.84,
+          "end_sec": 106.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La partita è stata simile a quella in casa della Roma per la prestazione negativa della Juventus.",
+      "polarity": "negative",
+      "claim_id": "275fde43-ed39-46ec-b911-73265b58529d",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La partita è stata simile a quella in casa della Roma per la prestazione negativa della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi era sembrata la fotocopia della partita della prestazione in casa della Roma",
+          "start_sec": 70.84,
+          "end_sec": 106.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Spalletti",
+      "position": "C'è stato un calo normale nel secondo tempo sotto la guida di Spalletti.",
+      "polarity": "neutral",
+      "claim_id": "d6b3f878-54c2-42e5-bdf2-6d2abfc34631",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è stato un calo normale nel secondo tempo sotto la guida di Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un calo normale nel secondo tempo",
+          "start_sec": 0.16,
+          "end_sec": 36.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "La Juventus ha approcciato la partita contro Napoli e Milan.",
+      "polarity": "neutral",
+      "claim_id": "4e13bca2-bbd0-430b-b588-42f37088660b",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha approcciato la partita contro Napoli e Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus l'ha approcciata",
+          "start_sec": 0.16,
+          "end_sec": 36.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "posizione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Spalletti",
+      "position": "Spalletti ha conquistato tre punti importanti con meno uno in classifica.",
+      "polarity": "positive",
+      "claim_id": "fdb03189-6547-424f-9535-a723fb4b1cba",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha conquistato tre punti importanti con meno uno in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tre punti pesanti. Vai a meno un",
+          "start_sec": 0.16,
+          "end_sec": 36.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "punti",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La prestazione della Juventus è stata inguardabile e rara da vedere.",
+      "polarity": "negative",
+      "claim_id": "80174909-b68a-4705-9385-1850f0def7fa",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La prestazione della Juventus è stata inguardabile e rara da vedere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, inguardabile. capita raramente.",
+          "start_sec": 70.84,
+          "end_sec": 106.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Il primo tempo della Juventus è stato molto buono.",
+      "polarity": "positive",
+      "claim_id": "e6170b9f-d70c-43ad-b5d8-785e358b84bc",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il primo tempo della Juventus è stato molto buono.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il primo tempo è stato molto buono",
+          "start_sec": 105.079,
+          "end_sec": 138.51899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "primo tempo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus ha pagato il calo nel secondo tempo.",
+      "polarity": "negative",
+      "claim_id": "d23fddb1-f875-404d-a419-b687ad0b5a9a",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus ha pagato il calo nel secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel secondo tempo hai un po' pagato",
+          "start_sec": 105.079,
+          "end_sec": 138.51899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "secondo tempo",
+        "calo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Genoa",
+      "position": "Il Genoa ha giocato un primo tempo molto bene con un gioco a due tocchi massimo.",
+      "polarity": "positive",
+      "claim_id": "a5fd2371-6daf-4e40-a65f-de76f2efbf1a",
+      "video_id": "8JmOPOKWSXw",
+      "segment_id": "s1",
+      "target_entity": "Genoa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Genoa ha giocato un primo tempo molto bene con un gioco a due tocchi massimo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "molto bene il primo tempo da 7 più perché l'ha aggredita la partita con un calcio anche spettacolare a due tocchi al massimo",
+          "start_sec": 33.2,
+          "end_sec": 73.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gioco"
+      ]
+    }
+  ]
+}

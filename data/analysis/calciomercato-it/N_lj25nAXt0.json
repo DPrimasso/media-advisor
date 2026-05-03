@@ -1,0 +1,405 @@
+{
+  "video_id": "N_lj25nAXt0",
+  "analyzed_at": "2026-04-29T08:10:22.995698+00:00",
+  "metadata": {
+    "title": "BOOM JUVE: 60 Milioni per BREMER! NDOYE-INTER, Lewandowski e Colpo Milan",
+    "author_name": "Calciomercato",
+    "published_at": "2026-03-31"
+  },
+  "summary": "Il video si concentra sulla partita decisiva tra Italia e Bosnia, che determinerà la qualificazione ai prossimi mondiali dopo 12 anni di assenza azzurra. L'autore sottolinea la superiorità tecnica dell'Italia, pur evidenziando la tensione e l'incertezza dovute al passato di delusioni contro avversari meno quotati e alle difficili condizioni dello stadio di Zenica. Viene inoltre presentata la probabile formazione italiana, con Donnarumma in porta e Pio Esposito pronto a entrare dalla panchina come possibile risorsa durante la gara. L'analisi invita a non sottovalutare l'impegno, nonostante l'It",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "high"
+    },
+    {
+      "name": "condizioni del manto",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "qualificazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "ansia",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Italia",
+      "position": "L'Italia affronta la partita con grande tensione per i 12 anni di assenza dal mondiale.",
+      "polarity": "neutral",
+      "claim_id": "650a858e-54ba-46d7-9e73-231b0c8b3d9b",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia affronta la partita con grande tensione per i 12 anni di assenza dal mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci portiamo dietro le ferite dei 12 anni di assenza dal mondiale",
+          "start_sec": 0.68,
+          "end_sec": 70.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ansia",
+        "motivazione",
+        "storia"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia è superiore all'Irlanda secondo le osservazioni dei primi 45 minuti della partita.",
+      "polarity": "positive",
+      "claim_id": "cf24384c-fc65-4ab3-aa85-1c1fe353230a",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Italia è superiore all'Irlanda secondo le osservazioni dei primi 45 minuti della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Italia è superiore, contro Irlanda si sono visti 45 minuti iniziali, secondo me, non proprio bellissimi. Poi è venuta fuori la maggior qualità dell'Italia",
+          "start_sec": 68.119,
+          "end_sec": 133.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Italia",
+      "position": "La probabile formazione dell'Italia include Donnarumma, Mancini, Pastoni, Calafiori, Politano e Di Marco.",
+      "polarity": "neutral",
+      "claim_id": "24ef475a-852d-495e-9199-2c17e66bd723",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La probabile formazione dell'Italia include Donnarumma, Mancini, Pastoni, Calafiori, Politano e Di Marco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Probabile formazione per stasera ... dovrebbe essere sostanzialmente confermata ... quindi con Donnarumma a proteggere i pali. Davanti a lui Mancini, Pastoni, Calafiori in difesa, Politano Di Marco",
+          "start_sec": 68.119,
+          "end_sec": 133.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "formazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia si gioca la qualificazione ai mondiali in 90 minuti contro la Bosnia.",
+      "polarity": "neutral",
+      "claim_id": "68a00ad6-1fbd-450c-9c9d-c49d5acb3afb",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia si gioca la qualificazione ai mondiali in 90 minuti contro la Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in 90 minuti ci giochiamo l'accesso ai mondiali",
+          "start_sec": 0.68,
+          "end_sec": 70.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "qualificazione",
+        "partita decisiva",
+        "mondiali"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia è tecnicamente superiore alla Bosnia nel match decisivo per i mondiali.",
+      "polarity": "positive",
+      "claim_id": "538584a8-bf7a-49a8-a134-08cf59142367",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia è tecnicamente superiore alla Bosnia nel match decisivo per i mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Italia sicuramente dal punto di vista tecnico è superiore",
+          "start_sec": 0.68,
+          "end_sec": 70.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "confronto tecnico",
+        "importanza partita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia parte con i favori del pronostico nella partita in questione.",
+      "polarity": "neutral",
+      "claim_id": "c128ec9e-f86b-41cf-93d1-72cce5c9d929",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia parte con i favori del pronostico nella partita in questione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli azzurri che partono con i favori del pronostico",
+          "start_sec": 68.119,
+          "end_sec": 133.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "pronostico"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "In passato l'Italia ha subito delusioni contro squadre non blasonate.",
+      "polarity": "negative",
+      "claim_id": "233c34dd-bca4-4550-ab8a-808fa5dcc0e6",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "In passato l'Italia ha subito delusioni contro squadre non blasonate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "già in passato abbiamo ricevuto delle grandissime delusioni contro squadre non blasonate",
+          "start_sec": 68.119,
+          "end_sec": 133.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "delusione"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Pio Esposito",
+      "position": "Pio Esposito partirà dalla panchina come soluzione a gara in corso.",
+      "polarity": "positive",
+      "claim_id": "9ee774e8-ed45-47d3-b4e4-b2dbccb6eb01",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s2",
+      "target_entity": "Pio Esposito",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pio Esposito partirà dalla panchina come soluzione a gara in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pio Esposito, molto discusso in queste ore che partirà invece dalla panchina ed è una soluzione in più a gare in corso",
+          "start_sec": 132.28,
+          "end_sec": 195.44000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup",
+        "player"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "stadio",
+      "position": "Il manto dello stadio non è in condizioni perfette ma permette comunque di giocare senza problemi.",
+      "polarity": "neutral",
+      "claim_id": "322e3e26-e465-4886-af46-30222ae16442",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s3",
+      "target_entity": "stadio",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il manto dello stadio non è in condizioni perfette ma permette comunque di giocare senza problemi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho avuto modo di vedere il manto, non è ridotto benissimo, ma manco che non si può giocare",
+          "start_sec": 193.84,
+          "end_sec": 253.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "campo",
+        "condizioni"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Den Doe",
+      "position": "Den Doe ha dichiarato di avere più libertà in nazionale rispetto al club.",
+      "polarity": "neutral",
+      "claim_id": "fee835b8-7250-4d44-a2c7-65f6dd5da7cf",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s4",
+      "target_entity": "Den Doe",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Den Doe ha dichiarato di avere più libertà in nazionale rispetto al club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in nazionale ha anche risposto dicendo \"Non so bene perché non sto giocando, non dico una polemica, ma quando si va in nazionale i calciatori sono tutti un pochino più liberi anche dal punto di vista delle dichiarazioni.\"",
+          "start_sec": 251.0,
+          "end_sec": 314.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dichiarazione",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Stramaccioni",
+      "position": "Stramaccioni ha detto che il campo non è un campo di patate ma si può giocare bene.",
+      "polarity": "neutral",
+      "claim_id": "0f0e5df3-73f1-4069-aeb7-6b478844f97d",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s3",
+      "target_entity": "Stramaccioni",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Stramaccioni ha detto che il campo non è un campo di patate ma si può giocare bene.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Stramaccioni diceva che è tutto forché un campo di patate, come diciamo oggi",
+          "start_sec": 193.84,
+          "end_sec": 253.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "campo",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Den Doe",
+      "position": "Den Doe non si trova bene al Nottingham Forest.",
+      "polarity": "negative",
+      "claim_id": "6668e4aa-6d43-4e89-84c8-ce8461d96899",
+      "video_id": "N_lj25nAXt0",
+      "segment_id": "s4",
+      "target_entity": "Den Doe",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Den Doe non si trova bene al Nottingham Forest.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'esterno del Nottingham Forest, ex del Bologna, che al Nottingham non si sta trovando bene",
+          "start_sec": 251.0,
+          "end_sec": 314.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "ambientamento"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "video_id": "2zOB7gF9PNM",
+  "analyzed_at": "2026-04-30T07:29:21.782361+00:00",
+  "metadata": {
+    "title": "🚨 JACKSON APRE! LEWA, LA VERA MISSIONE! DYBALA, KOSTOV-INTER PIÙ LONTANO, TONALI E L’ITALIA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra principalmente sulle ultime novità di calciomercato riguardanti Paolo Dybala e Sandro Tonali. Romano chiarisce che, nonostante il Boca Juniors sia il grande sogno del club argentino e un obiettivo di mercato, Dybala non ha ancora avviato trattative concrete e intende restare concentrato sulla stagione con la Roma prima di decidere il suo futuro. Inoltre, viene smentita la possibilità di un ritorno di Tonali in Serie A nell’immediato, nonostante le voci circolate in Inghilterra. La conclusione chiave è che, per ora, le trattative di Dybala con il Boca so",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "monitoraggio giocatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "serie a",
+      "relevance": "low"
+    },
+    {
+      "name": "intervista",
+      "relevance": "low"
+    },
+    {
+      "name": "premier league",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Paolo Dybala",
+      "position": "Paolo Dybala ha parlato del Boca Juniors in un'intervista in Argentina.",
+      "polarity": "neutral",
+      "claim_id": "41568b2e-81a4-4211-82ef-aeaf98443cc6",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s1",
+      "target_entity": "Paolo Dybala",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Paolo Dybala ha parlato del Boca Juniors in un'intervista in Argentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Paolo Dybala che ha fatto un'intervista in Argentina, ha parlato del Boca Juniors",
+          "start_sec": 32.68,
+          "end_sec": 65.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Boca Juniors",
+      "position": "Il Boca Juniors è il sogno per Paolo Dybala.",
+      "polarity": "neutral",
+      "claim_id": "36da308b-52c9-4630-9fac-4624d85d3863",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s1",
+      "target_entity": "Boca Juniors",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Boca Juniors è il sogno per Paolo Dybala.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Paolo Dybala sia il dubbio del Boca, il scusate il sogno del Boca Junior",
+          "start_sec": 32.68,
+          "end_sec": 65.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Boca Juniors",
+      "position": "Boca Juniors sta lavorando da tempo su un grande obiettivo di mercato.",
+      "polarity": "neutral",
+      "claim_id": "863e6eac-411c-4a8b-a6d7-6d2022284ae5",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s2",
+      "target_entity": "Boca Juniors",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Boca Juniors sta lavorando da tempo su un grande obiettivo di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nome principale su cui il Boca Juniors sta lavorando da tempo come grande obiettivo",
+          "start_sec": 63.399,
+          "end_sec": 92.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "obiettivo"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Paolo Dybala",
+      "position": "Paolo Dybala non ha ancora dato un via libera alle trattative con il Boca Juniors.",
+      "polarity": "neutral",
+      "claim_id": "e128833b-ad04-41d2-aa76-2318ec35af58",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s2",
+      "target_entity": "Paolo Dybala",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Paolo Dybala non ha ancora dato un via libera alle trattative con il Boca Juniors.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Paolo Dybala ancora non abbia dato un via libera alle trattative vere e proprie con il Boca Juniors",
+          "start_sec": 63.399,
+          "end_sec": 92.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "trattative"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Boca Juniors",
+      "position": "Al momento non c'è trattativa economica tra Boca Juniors e Dybala.",
+      "polarity": "neutral",
+      "claim_id": "496232bc-50b9-4ee4-b150-caeede36ca8c",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s2",
+      "target_entity": "Boca Juniors",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Al momento non c'è trattativa economica tra Boca Juniors e Dybala.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questo momento non c'è una trattativa eh sui soldi, non c'è una trattativa sullo stipendio, non c'è una trattativa sul contratto ancora tra il Boca e Dybala",
+          "start_sec": 63.399,
+          "end_sec": 92.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Paulo Dybala",
+      "position": "Dybala ha espresso chiara volontà di finire la stagione concentrato con la Roma.",
+      "polarity": "positive",
+      "claim_id": "503b9f45-2aac-4cce-88ef-81bf00add380",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s3",
+      "target_entity": "Paulo Dybala",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dybala ha espresso chiara volontà di finire la stagione concentrato con la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dybala ha dato chiara indicazione a chi gli sta vicino di voler finire la stagione nella miglior maniera possibile con la Roma",
+          "start_sec": 90.24,
+          "end_sec": 118.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "concentrazione",
+        "futuro",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Paulo Dybala",
+      "position": "Dybala deciderà il suo futuro solo a stagione finita.",
+      "polarity": "neutral",
+      "claim_id": "aa7f2ba6-413a-4d59-9943-fed523eb6f1c",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s3",
+      "target_entity": "Paulo Dybala",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Dybala deciderà il suo futuro solo a stagione finita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi soltanto a giochi fatti di prendere una decisione che riguarderà il suo futuro",
+          "start_sec": 90.24,
+          "end_sec": 118.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "futuro",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Balabocca",
+      "position": "Il desiderio del club Balabocca di un accordo con Dybala non è definito né vicino.",
+      "polarity": "neutral",
+      "claim_id": "8b5576af-4e2d-4d72-a3eb-02e418e4c28c",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s3",
+      "target_entity": "Balabocca",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il desiderio del club Balabocca di un accordo con Dybala non è definito né vicino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il discorso di Balabocca parte dal club, è un desiderio che il club ha da diverso tempo, ma non è un accordo raggiunto, non è un accordo vicino",
+          "start_sec": 90.24,
+          "end_sec": 118.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Sandro Tonali",
+      "position": "Sandro Tonali è considerato uno dei migliori centrocampisti italiani in circolazione.",
+      "polarity": "neutral",
+      "claim_id": "0f0323c7-4bf5-411d-9e51-9a19f6d784af",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s5",
+      "target_entity": "Sandro Tonali",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sandro Tonali è considerato uno dei migliori centrocampisti italiani in circolazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sandro Tonali sia uno dei migliori giocatori italiani in circolazione e uno dei migliori centrocampisti in generale",
+          "start_sec": 147.28,
+          "end_sec": 173.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "centrocampista",
+        "italiano"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha provato più volte in passato a riportare Tonali con sé.",
+      "polarity": "neutral",
+      "claim_id": "0eed3ff0-600a-4b91-9d41-f8cfa9113429",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha provato più volte in passato a riportare Tonali con sé.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juve ha provato a riportarlo con sé più volte, a trovare una soluzione",
+          "start_sec": 147.28,
+          "end_sec": 173.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "juventus",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Paulo Dybala",
+      "position": "Paulo Dybala ha alternative di mercato da valutare per il suo futuro.",
+      "polarity": "neutral",
+      "claim_id": "7854bf55-e838-4914-b9d1-1cb0671f6995",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s4",
+      "target_entity": "Paulo Dybala",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Paulo Dybala ha alternative di mercato da valutare per il suo futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quali alternative Dybala avrà sul mercato",
+          "start_sec": 116.799,
+          "end_sec": 149.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Paulo Dybala",
+      "position": "Il futuro di Dybala dipende anche dalla situazione della Roma.",
+      "polarity": "neutral",
+      "claim_id": "ced13433-a449-48de-8152-6a0d613a8493",
+      "video_id": "2zOB7gF9PNM",
+      "segment_id": "s4",
+      "target_entity": "Paulo Dybala",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Dybala dipende anche dalla situazione della Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche cosa accadrà con la Roma",
+          "start_sec": 116.799,
+          "end_sec": 149.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto"
+      ]
+    }
+  ]
+}

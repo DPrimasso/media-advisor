@@ -1,0 +1,407 @@
+{
+  "video_id": "qFnp4atyNW4",
+  "analyzed_at": "2026-04-26T11:42:30.192224+00:00",
+  "metadata": {
+    "title": "TMW News: Calcio italiano ai minimi termini. Fiorentina, che batosta",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza la difficile situazione attuale del calcio italiano, evidenziando le recenti sconfitte di Bologna e Fiorentina nelle coppe europee come segnale di un momento critico. L'autore sottolinea la necessità di una profonda rinascita, soprattutto nei settori giovanili, e critica la classe dirigente dei club, ritenuta di basso livello e poco collaborativa con la federazione, fattore che penalizza la competitività della nazionale. Viene inoltre commentata positivamente la nomina di Silvio Baldini a commissario tecnico ad interim, considerata un riconoscimento meritato per il suo percor",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "coppe europee",
+      "relevance": "medium"
+    },
+    {
+      "name": "rinascita",
+      "relevance": "low"
+    },
+    {
+      "name": "settore giovanile",
+      "relevance": "low"
+    },
+    {
+      "name": "sconfitta",
+      "relevance": "low"
+    },
+    {
+      "name": "futuro",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha perso nella partita di coppe europee di ieri.",
+      "polarity": "negative",
+      "claim_id": "2c48be89-15c5-4cc9-ad31-8c79ed8a4189",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha perso nella partita di coppe europee di ieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le sconfitte di Bologna e Fiorentina nelle coppe europee",
+          "start_sec": 12.679,
+          "end_sec": 82.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppe europee",
+        "sconfitta",
+        "bologna"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha subito una batosta nelle coppe europee.",
+      "polarity": "negative",
+      "claim_id": "624515c4-1222-4617-b06f-3516e9d7bd7d",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha subito una batosta nelle coppe europee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le sconfitte di Bologna e Fiorentina nelle coppe europee",
+          "start_sec": 12.679,
+          "end_sec": 82.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppe europee",
+        "sconfitta",
+        "fiorentina"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como cerca di mantenere il quarto posto in classifica.",
+      "polarity": "positive",
+      "claim_id": "ea015b3d-11e7-4a60-abd8-776e62f53d9b",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como cerca di mantenere il quarto posto in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como che cerca di mantenere il quarto posto in classifica",
+          "start_sec": 12.679,
+          "end_sec": 82.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "como",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano necessita di una rinascita nei settori giovanili e di maggiore competenza organizzativa.",
+      "polarity": "negative",
+      "claim_id": "f30237ef-5de9-4171-8b53-1854ae0d56c6",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s1",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano necessita di una rinascita nei settori giovanili e di maggiore competenza organizzativa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci vuole più competenza, eh ci vuole un'organizzazione ad ampio raggio, cominciando dai settori giovanili, insomma una rinascita sotto questo aspetto",
+          "start_sec": 79.24,
+          "end_sec": 149.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinascita",
+        "organizzazione",
+        "settore giovanile"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "classe dirigente dei club italiani",
+      "position": "La classe dirigente dei club italiani è considerata di bassissimo livello e poco collaborativa.",
+      "polarity": "negative",
+      "claim_id": "c3593ea4-7c3d-4298-8a98-48b5a8e63c82",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s1",
+      "target_entity": "classe dirigente dei club italiani",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La classe dirigente dei club italiani è considerata di bassissimo livello e poco collaborativa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la classe ormai dirigente dei club è di bassissimo livello e non non ha intenzione di essere collegata alla federazione",
+          "start_sec": 79.24,
+          "end_sec": 149.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classe dirigente",
+        "collaborazione",
+        "federazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "collaborazione tra club e federazione",
+      "position": "I club italiani mostrano poca collaborazione con la federazione per formare una nazionale di alto livello.",
+      "polarity": "negative",
+      "claim_id": "49c03193-4734-474f-a0b4-42ca5e7387bd",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s1",
+      "target_entity": "collaborazione tra club e federazione",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I club italiani mostrano poca collaborazione con la federazione per formare una nazionale di alto livello.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la collaborazione dei club verso la nazionale, cosa che in altri paesi",
+          "start_sec": 79.24,
+          "end_sec": 149.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "collaborazione",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Silvio Baldini",
+      "position": "Silvio Baldini è stato nominato commissario tecnico ad interim per le prossime due amichevoli della nazionale italiana.",
+      "polarity": "positive",
+      "claim_id": "441ddfba-a83c-48a2-870e-03591b7163a7",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s2",
+      "target_entity": "Silvio Baldini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Silvio Baldini è stato nominato commissario tecnico ad interim per le prossime due amichevoli della nazionale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco, di Silvio Baldini come commissario tecnico ad Interim per le prossime due amichevoli della nostra nazionale",
+          "start_sec": 145.28,
+          "end_sec": 222.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Silvio Baldini",
+      "position": "Silvio Baldini ha meritato il premio per la sua carriera fatta di gavetta e buoni risultati.",
+      "polarity": "positive",
+      "claim_id": "82a335d6-0895-4206-b53f-aab4f0ce9998",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s2",
+      "target_entity": "Silvio Baldini",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Silvio Baldini ha meritato il premio per la sua carriera fatta di gavetta e buoni risultati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "comunque un premio meritato per questo allenatore che ha fatto tanta gavetta",
+          "start_sec": 145.28,
+          "end_sec": 222.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "carriera",
+        "premio",
+        "gavetta"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Silvio Baldini",
+      "position": "Silvio Baldini ha ottenuto risultati importanti come quello a Pescara.",
+      "polarity": "positive",
+      "claim_id": "f3f726f5-7614-4828-af97-2fbe086d22f2",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s2",
+      "target_entity": "Silvio Baldini",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Silvio Baldini ha ottenuto risultati importanti come quello a Pescara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto dei risultati importanti come quello di Pescara",
+          "start_sec": 145.28,
+          "end_sec": 222.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultati",
+        "carriera"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Silvio Baldini",
+      "position": "Silvio Baldini è apprezzato per essere una persona schietta e non ruffiana.",
+      "polarity": "positive",
+      "claim_id": "ebed8d3a-3d88-4fda-afc5-929a0383228e",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s2",
+      "target_entity": "Silvio Baldini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Silvio Baldini è apprezzato per essere una persona schietta e non ruffiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi è sempre piaciuto come persona perché non ha mai avuto peli sulla lingua e non abbiamo non ha mai fatto, diciamo così, il ruffiano",
+          "start_sec": 145.28,
+          "end_sec": 222.48000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "personalità",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente federale",
+      "position": "Il presidente federale dovrà riorganizzare il calcio italiano e gettare basi per un futuro roseo.",
+      "polarity": "neutral",
+      "claim_id": "3811c577-8204-4a42-9638-28c18aacc3db",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s3",
+      "target_entity": "presidente federale",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente federale dovrà riorganizzare il calcio italiano e gettare basi per un futuro roseo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi prenderà il posto di di Gravina avrà un compito molto duro perché, ripeto, deve bisogna un po' riorganizzarsi, ecco, quando ti riorganizzi soprattutto ci vuole tempo e quindi gettare le basi per un futuro roseo",
+          "start_sec": 217.28,
+          "end_sec": 309.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter si avvia verso lo scudetto nel campionato attuale.",
+      "polarity": "positive",
+      "claim_id": "c86b2802-c9b8-475f-b83f-47e6374d4c54",
+      "video_id": "qFnp4atyNW4",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter si avvia verso lo scudetto nel campionato attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter che si avvia verso lo scudetto",
+          "start_sec": 12.679,
+          "end_sec": 82.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "inter",
+        "campionato"
+      ]
+    }
+  ]
+}

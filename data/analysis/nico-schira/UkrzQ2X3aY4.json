@@ -1,0 +1,409 @@
+{
+  "video_id": "UkrzQ2X3aY4",
+  "analyzed_at": "2026-04-27T07:16:07.239029+00:00",
+  "metadata": {
+    "title": "JUVENTUS, LA PROMESSA DI ELKANN A SPALLETTI. NAPOLI, BLINDATO UN BIG. LE PANCHINE DELLE BIG EUROPEE…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull’analisi della recente giornata di Serie A e sulle dinamiche di calciomercato, con particolare attenzione a Juventus, Milan, Como e squadre di vertice. L’autore sottolinea la scarsa spettacolarità delle partite, come il deludente 0-0 tra Milan e Juventus, e valuta la situazione in classifica: Milan deve ancora conquistare punti per la Champions, mentre la Juve sembra destinata a qualificarsi. Viene inoltre evidenziata la buona prestazione del Como, che ha vinto contro il Genoa e sta trattando giovani talenti con il Real Madrid, in un contesto di ristrutturazione del c",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    },
+    {
+      "name": "serie a",
+      "relevance": "low"
+    },
+    {
+      "name": "rigore",
+      "relevance": "low"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il match tra Milan e Juventus è stato scialbo e deludente, con un risultato di 0-0.",
+      "polarity": "negative",
+      "claim_id": "df1b9d84-988d-40cf-84d7-e4cd84006bde",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il match tra Milan e Juventus è stato scialbo e deludente, con un risultato di 0-0.",
+      "evidence_quotes": [
+        {
+          "quote_text": "0-0, Scialbo deludente anche nel big match tra Milan e Juventus",
+          "start_sec": 0.599,
+          "end_sec": 31.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "match",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como ha giocato bene vincendo 2-0 a Marassi.",
+      "polarity": "positive",
+      "claim_id": "6ab32b12-9a86-41f9-b7a6-eb83bf14e8e7",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como ha giocato bene vincendo 2-0 a Marassi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Como che ha giocato bene ha vinto 2-0 a Marassi abbastanza in scioltezza",
+          "start_sec": 29.119,
+          "end_sec": 62.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "risultato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Il Como ha vinto contro il Genoa con il gol del 2-0 nonostante una prestazione non brillantissima.",
+      "polarity": "positive",
+      "claim_id": "574572ce-79aa-45fc-bad0-e3e30fe61b3d",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como ha vinto contro il Genoa con il gol del 2-0 nonostante una prestazione non brillantissima.",
+      "evidence_quotes": [
+        {
+          "quote_text": "male, ma poi ha trovato il gol del 2-0. Un buon Como, anche se non brillantissimo, ma tanto è bastato per regolare il Genoa",
+          "start_sec": 60.44,
+          "end_sec": 91.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "gol"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Janez",
+      "position": "Janez, esterno offensivo 2007 della Castiglia, è virtualmente bloccato dagli stessi agenti di Nico Paz.",
+      "polarity": "neutral",
+      "claim_id": "bfa6106e-20b1-499e-8532-b04155cb36fb",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s2",
+      "target_entity": "Janez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Janez, esterno offensivo 2007 della Castiglia, è virtualmente bloccato dagli stessi agenti di Nico Paz.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Janez, esterno offensivo della Castiglia, quindi della Cantera, della seconda squadra del Real Madrid, esterno offensivo 2007, è virtualmente bloccato gli stessi agenti di Nico Paz",
+          "start_sec": 60.44,
+          "end_sec": 91.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giovane",
+        "Real Madrid"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Pasto",
+      "position": "Nico Pasto tornerà al Real Madrid con alta probabilità (80-90%).",
+      "polarity": "positive",
+      "claim_id": "50ac9da1-bf20-4c7a-a76c-93953d9e8d8c",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s3",
+      "target_entity": "Nico Pasto",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Nico Pasto tornerà al Real Madrid con alta probabilità (80-90%).",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sensazione Azione che l'80-90% Nico Pasto tornerà Madrid",
+          "start_sec": 90.04,
+          "end_sec": 114.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha ottenuto un altro punto avvicinandosi alla salvezza aritmetica.",
+      "polarity": "neutral",
+      "claim_id": "55686e07-7944-4f80-ab0a-c26ecd884fc2",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha ottenuto un altro punto avvicinandosi alla salvezza aritmetica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Fiorentina fa un altro punticino, muove la classifica avvicinandosi sempre di più alla salvezza aritmetica",
+          "start_sec": 0.599,
+          "end_sec": 31.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "classifica",
+        "salvezza"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Milan deve fare sei punti nelle ultime quattro partite per migliorare la classifica.",
+      "polarity": "neutral",
+      "claim_id": "f200871f-9f9a-4b30-8394-1134b9424ee5",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan deve fare sei punti nelle ultime quattro partite per migliorare la classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan deve fare sei punti nelle ultime quattro partite",
+          "start_sec": 29.119,
+          "end_sec": 62.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Paz",
+      "position": "L'operazione con Janez potrebbe essere simile a quella fatta con Nico Paz, con recompra in favore del Real Madrid.",
+      "polarity": "neutral",
+      "claim_id": "fb2103f7-d726-43b1-b72c-1783845dbae8",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s2",
+      "target_entity": "Nico Paz",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione con Janez potrebbe essere simile a quella fatta con Nico Paz, con recompra in favore del Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è virtualmente bloccato gli stessi agenti di Nico Paz, c'è un accordo di massima, potrebbe essere un'operazione alla Nico Paz, quindi poi con la recompra in favore del Really",
+          "start_sec": 60.44,
+          "end_sec": 91.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "operazione",
+        "Real Madrid"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Faberas",
+      "position": "Faberas potrebbe essere trattenuto dal Como con un tentativo disperato in caso di qualificazione europea.",
+      "polarity": "positive",
+      "claim_id": "03d66066-cae7-4f0e-a324-097d2f002521",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s3",
+      "target_entity": "Faberas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Faberas potrebbe essere trattenuto dal Como con un tentativo disperato in caso di qualificazione europea.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como farà un tentativo disperato in extremis in caso di qualificazione europea con la conferma di Faberas per provare a trattenerlo",
+          "start_sec": 90.04,
+          "end_sec": 114.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "tattica",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Sassuolo",
+      "position": "Il Sassuolo è praticamente già in vacanza dalla Serie A.",
+      "polarity": "neutral",
+      "claim_id": "9b37b2c0-ecfb-4d2d-a916-9592de198d5a",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s0",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Sassuolo è praticamente già in vacanza dalla Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sassuolo già praticamente in vacanza",
+          "start_sec": 0.599,
+          "end_sec": 31.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "posizione in classifica",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Juventus",
+      "position": "Juve probabilmente arriverà in Champions League.",
+      "polarity": "positive",
+      "claim_id": "b6e5a25c-c39b-41cf-b677-fccb153247d7",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Juve probabilmente arriverà in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sia Milan che Juve sono due squadre che probabilmente arriveranno in Champions",
+          "start_sec": 29.119,
+          "end_sec": 62.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "risultati"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Duvicas",
+      "position": "Duvicas ha segnato un altro gol.",
+      "polarity": "positive",
+      "claim_id": "a037403b-8a3c-40e1-b3ec-f9cc9a0ec9e7",
+      "video_id": "UkrzQ2X3aY4",
+      "segment_id": "s1",
+      "target_entity": "Duvicas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Duvicas ha segnato un altro gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ennesimo gol di Duvicas",
+          "start_sec": 29.119,
+          "end_sec": 62.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "performance"
+      ]
+    }
+  ]
+}

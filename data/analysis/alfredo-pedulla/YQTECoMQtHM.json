@@ -1,0 +1,393 @@
+{
+  "video_id": "YQTECoMQtHM",
+  "analyzed_at": "2026-04-24T16:00:59.444163+00:00",
+  "metadata": {
+    "title": "DA SORELLE A ZITELLE: CHE PENA IN EUROPA! KEAN ASSURDO. GABBIA-LOCATELLI, LE 2 FACCE🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza la deludente eliminazione delle squadre italiane, in particolare Fiorentina e Bologna, dalle competizioni europee, sottolineando come tutte e sette le formazioni coinvolte siano state sconfitte in modo netto. L’autore critica aspramente le giustificazioni date, definendole poco credibili e un tentativo di arrampicarsi sugli specchi, pur riconoscendo le idee dell’allenatore Italiano. Pedullà evidenzia inoltre come la pesante sconfitta subita, soprattutto contro squadre come l’Aston Villa, rappresenti una fotografia negativa del calcio italiano, e condanna la",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "europa",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "sconfitta",
+      "relevance": "low"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "low"
+    },
+    {
+      "name": "dichiarazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "tensione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Squadra non specificata",
+      "position": "La squadra ha subito una sconfitta pesante in Europa con un punteggio complessivo di 7-1 tra andata e ritorno.",
+      "polarity": "negative",
+      "claim_id": "caac0e6b-e50a-4f59-9b5f-6bd0d0f7b696",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s2",
+      "target_entity": "Squadra non specificata",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra ha subito una sconfitta pesante in Europa con un punteggio complessivo di 7-1 tra andata e ritorno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tra andata e ritorno abbiamo fatto 7-1",
+          "start_sec": 75.72,
+          "end_sec": 113.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "peggiore prestazione",
+        "sconfitta"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Opinionisti calcistici",
+      "position": "Le spiegazioni date per l'eliminazione delle squadre italiane in Europa sono viste come arrampicarsi sugli specchi.",
+      "polarity": "neutral",
+      "claim_id": "66471311-e8ee-4b22-b191-747cce41d807",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s1",
+      "target_entity": "Opinionisti calcistici",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le spiegazioni date per l'eliminazione delle squadre italiane in Europa sono viste come arrampicarsi sugli specchi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le parole, anche le parole parole, no, per giustificare, per arrampicarsi",
+          "start_sec": 38.879,
+          "end_sec": 77.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Aston Villa",
+      "position": "L'Aston Villa probabilmente vincerà la coppa, ma interessa poco all'opinionista.",
+      "polarity": "neutral",
+      "claim_id": "b3692bd1-dc22-45d7-84f9-f275083fe41a",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s2",
+      "target_entity": "Aston Villa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Aston Villa probabilmente vincerà la coppa, ma interessa poco all'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Aston Villa probabilmente vincerà la coppa che sinceramente ci interessa poco",
+          "start_sec": 75.72,
+          "end_sec": 113.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Vanoli",
+      "position": "Vanoli sostiene che è stata una buona partita.",
+      "polarity": "neutral",
+      "claim_id": "24019be6-60ec-4efe-a1e6-0e93307025f0",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s3",
+      "target_entity": "Vanoli",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Vanoli sostiene che è stata una buona partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo stesso Vanoli che per carità può raccontare tutto ciò che ritiene perché effettivamente è stata una buona partita",
+          "start_sec": 109.159,
+          "end_sec": 149.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giudizio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha disputato la migliore partita dell'anno.",
+      "polarity": "neutral",
+      "claim_id": "9e5b71ad-d1ce-4f96-8fcc-c3b953af0f1a",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha disputato la migliore partita dell'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella della Fiorentina non può mascherare il tutto dicendo che è stata la migliore partita dell'anno",
+          "start_sec": 109.159,
+          "end_sec": 149.35999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha preso tre gol dal Crystal Palace all'andata.",
+      "polarity": "negative",
+      "claim_id": "0ec44a1e-14cb-4d4d-b382-456ae548921f",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s4",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha preso tre gol dal Crystal Palace all'andata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Fiorentina è andata a prendere tre gol dal Crystal Palace all'andata",
+          "start_sec": 149.36,
+          "end_sec": 187.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "prestazione",
+        "gol subiti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Aston Villa",
+      "position": "L'Aston Villa guidata da Emery ha una forza interiore tattica e una mentalità solida.",
+      "polarity": "positive",
+      "claim_id": "16404689-1c2c-4b44-9893-32731a2d0be1",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s4",
+      "target_entity": "Aston Villa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Aston Villa guidata da Emery ha una forza interiore tattica e una mentalità solida.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Aston Villa sicuramente con Emery ha un ha una forza interiore tattica, una mentalità",
+          "start_sec": 149.36,
+          "end_sec": 187.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "aston villa",
+        "tattica",
+        "mentalità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Crystal Palace",
+      "position": "Il Crystal Palace non è considerato un top team europeo come Manchester City o Bayern Monaco.",
+      "polarity": "neutral",
+      "claim_id": "53d08189-84a9-4395-b83f-eb26f52f144b",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s4",
+      "target_entity": "Crystal Palace",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Crystal Palace non è considerato un top team europeo come Manchester City o Bayern Monaco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Crystal Pals, non è che stiamo parlando del Manchester City, del Bayern Monaco",
+          "start_sec": 149.36,
+          "end_sec": 187.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "crystal palace",
+        "confronto",
+        "performance"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Kean",
+      "position": "Le parole di Kean rappresentano un problema grave nel calcio italiano.",
+      "polarity": "negative",
+      "claim_id": "d5d8d086-946c-4f06-a446-710cfb965acd",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s5",
+      "target_entity": "Kean",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le parole di Kean rappresentano un problema grave nel calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la vicenda Ken. Cosa penso? Penso che sia la fotografia del nostro calcio. E dice delle cose inenarrabili. Non si può.",
+          "start_sec": 185.4,
+          "end_sec": 223.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Italia",
+      "position": "L'Italia ha perso sette squadre in Europa in questa fase della competizione.",
+      "polarity": "negative",
+      "claim_id": "1c92524f-be58-450f-8a05-97e9d95c69ae",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "other",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha perso sette squadre in Europa in questa fase della competizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ne avevamo sette in Europa, le abbiamo perse",
+          "start_sec": 38.879,
+          "end_sec": 77.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Italiano",
+      "position": "Italiano è un allenatore con delle idee.",
+      "polarity": "positive",
+      "claim_id": "a6354edf-451e-4571-8714-53e6ca0989c7",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s2",
+      "target_entity": "Italiano",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Italiano è un allenatore con delle idee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Italiano che sicuramente è un allenatore con delle idee",
+          "start_sec": 75.72,
+          "end_sec": 113.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Fiorentina",
+      "position": "Fiorentina è stata eliminata in Europa.",
+      "polarity": "negative",
+      "claim_id": "2a50b9b2-3114-4403-8767-f565f1b3d244",
+      "video_id": "YQTECoMQtHM",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fiorentina è stata eliminata in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarebbero uscite sia Fiorentina",
+          "start_sec": 38.879,
+          "end_sec": 77.79899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "video_id": "3Eysd8ewOi8",
+  "analyzed_at": "2026-04-24T09:06:01.611270+00:00",
+  "metadata": {
+    "title": "#ADL: \"gli agenti pagano sotto banco la nazionale\" 👀 #Intervista a CBS in INGLESE 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza un'intervista di oltre mezz'ora rilasciata da Aurelio De Laurentiis alla CBS Sport, in cui il presidente del Napoli affronta vari temi calcistici e finanziari, spesso rispondendo in modo spontaneo e articolato. L'autore sottolinea la gravità della denuncia di De Laurentiis riguardo a presunti pagamenti sotto banco da parte degli agenti alla federazione per favorire convocazioni in nazionale, un aspetto che potrebbe avere importanti ripercussioni mediatiche e istituzionali. Inoltre, si evidenziano dettagli economici sulla gestione del Napoli, come l'accettazione di 31 milioni ",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "intervallo",
+      "relevance": "low"
+    },
+    {
+      "name": "calendario",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "Si ipotizzano cambi nel Napoli con Beukma e Meret favoriti su Allison e Milinković Savić in formazione.",
+      "polarity": "neutral",
+      "claim_id": "d751a927-9267-4122-b4a8-51cdc20fa731",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si ipotizzano cambi nel Napoli con Beukma e Meret favoriti su Allison e Milinković Savić in formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse Allison non gioca. A me è arrivata anche una voce che forse è in vantaggio Beukma, è in vantaggio Meret su Milinković Savić, dovrebbe giocare Politano",
+          "start_sec": 2.8,
+          "end_sec": 108.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "Napoli",
+        "lineup_prediction"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "De Laurentiis",
+      "position": "De Laurentiis accettò 31 milioni per ripartire dalla Serie C nel calcio.",
+      "polarity": "neutral",
+      "claim_id": "39be374b-c7ae-4e84-b9c9-96add24f8573",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s1",
+      "target_entity": "De Laurentiis",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis accettò 31 milioni per ripartire dalla Serie C nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Laurentis accettò con 31 anche di ripartire dalla C",
+          "start_sec": 105.88,
+          "end_sec": 204.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finanza",
+        "offerta",
+        "calcio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Aurelio De Laurentiis",
+      "position": "Aurelio De Laurentiis ha visto il periodo di 15 anni consecutivi di partecipazione alle competizioni europee come un grande successo.",
+      "polarity": "positive",
+      "claim_id": "7720f809-7bd0-47e8-ad66-918675426f38",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s2",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aurelio De Laurentiis ha visto il periodo di 15 anni consecutivi di partecipazione alle competizioni europee come un grande successo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un grande è stato un grande successo perché abbiamo fatto i 15 anni consecutivi in Europa",
+          "start_sec": 202.799,
+          "end_sec": 311.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "successo",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Aurelio De Laurentiis",
+      "position": "De Laurentiis si aspettava di poter competere stabilmente nel calcio per almeno 15 anni.",
+      "polarity": "positive",
+      "claim_id": "ba033297-8ac4-4767-98fa-ca8a9b7ebc1f",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s2",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis si aspettava di poter competere stabilmente nel calcio per almeno 15 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io avevo la convinzione, vi ricordate 5 anni più 5 anni più 5 anni poteva anche giocarsela così",
+          "start_sec": 202.799,
+          "end_sec": 311.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "aspettativa",
+        "stabilità"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "31 milioni di dollari",
+      "position": "31 milioni di dollari corrispondono a circa 34 milioni al cambio attuale.",
+      "polarity": "neutral",
+      "claim_id": "b650fa2d-04b3-4273-911a-511af9b48657",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s1",
+      "target_entity": "31 milioni di dollari",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "31 milioni di dollari corrispondono a circa 34 milioni al cambio attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "40 milioni di dollari al cambio attuale sono 34",
+          "start_sec": 105.88,
+          "end_sec": 204.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finanza",
+        "cambio",
+        "valuta"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "De Laurentis",
+      "position": "De Laurentis ha rilasciato un'intervista di più di mezz'ora in inglese alla CBS Sport.",
+      "polarity": "neutral",
+      "claim_id": "9c1388f0-046d-4234-9f20-a81dda442a84",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s0",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis ha rilasciato un'intervista di più di mezz'ora in inglese alla CBS Sport.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è stata un'intervista a fiume di De Laurentis di più di mezz'ora alla CBS Sport, alla Paramount Plus praticamente, quindi in inglese",
+          "start_sec": 2.8,
+          "end_sec": 108.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intervista",
+        "media",
+        "inglese"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "De Laurentis",
+      "position": "De Laurentis tende a rispondere alle domande andando a braccio e aprendo parentesi su argomenti che vuole trattare.",
+      "polarity": "neutral",
+      "claim_id": "f2c572a1-fa33-4184-9b43-272153806221",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s0",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis tende a rispondere alle domande andando a braccio e aprendo parentesi su argomenti che vuole trattare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando ricevo una domanda va a braccio, apre parentesi e e dice cose che vuole dire lui a prescindere dalla domanda",
+          "start_sec": 2.8,
+          "end_sec": 108.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intervista",
+        "comunicazione",
+        "media"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Gaucci",
+      "position": "Gaucci voleva a tutti i costi la Serie B come condizione per la sua offerta.",
+      "polarity": "neutral",
+      "claim_id": "c24b973d-2336-46ca-958d-6643e64bfe28",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s1",
+      "target_entity": "Gaucci",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gaucci voleva a tutti i costi la Serie B come condizione per la sua offerta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gaucci voleva per forza la Serie B con la sua offerta",
+          "start_sec": 105.88,
+          "end_sec": 204.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "offerta",
+        "serie b"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "agenti della nazionale",
+      "position": "Gli agenti pagano sotto banco la federazione per far convocare giocatori in nazionale.",
+      "polarity": "negative",
+      "claim_id": "1def9545-adc0-4646-83c2-afbe5de3295c",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s1",
+      "target_entity": "agenti della nazionale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Gli agenti pagano sotto banco la federazione per far convocare giocatori in nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sugli agenti che pagano la federazione per farli convocare in nazionale",
+          "start_sec": 105.88,
+          "end_sec": 204.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "corruzione",
+        "convocazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Aurelio De Laurentiis",
+      "position": "De Laurentiis considera il calcio come di sua proprietà, non della collettività.",
+      "polarity": "neutral",
+      "claim_id": "04e0d358-d8a7-4414-937f-637252edb391",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s2",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis considera il calcio come di sua proprietà, non della collettività.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Why gratuitly? E is my property. It's not their property. So there is this strange situation",
+          "start_sec": 202.799,
+          "end_sec": 311.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "ownership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio",
+      "position": "Il calcio ha un intervallo lungo per esigenze di commerciali e servizi allo stadio.",
+      "polarity": "neutral",
+      "claim_id": "e6693ed0-824a-42d4-98e9-7123fff2be08",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s3",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio ha un intervallo lungo per esigenze di commerciali e servizi allo stadio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è l'intervallo, serve l'intervallo perché poi la devi fare la commercial e la lo devi dare la possibilità a quelli che stanno negli stadi e nei palazzetti di andare a fare una pipì oppure di andare a comprare un hot dog",
+          "start_sec": 308.919,
+          "end_sec": 410.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "intervallo",
+        "commerciale",
+        "servizio agli spettatori"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Aurelio De Laurentiis",
+      "position": "Aurelio De Laurentiis ha guidato il Napoli a vincere due scudetti.",
+      "polarity": "positive",
+      "claim_id": "13a9c906-d897-4e7d-8279-82d725adee20",
+      "video_id": "3Eysd8ewOi8",
+      "segment_id": "s2",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aurelio De Laurentiis ha guidato il Napoli a vincere due scudetti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alder Laurentis che poi vince due scudetti",
+          "start_sec": 202.799,
+          "end_sec": 311.35999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "successo",
+        "prestazione"
+      ]
+    }
+  ]
+}

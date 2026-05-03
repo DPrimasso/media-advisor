@@ -1,0 +1,385 @@
+{
+  "video_id": "JTxW-nIJJRg",
+  "analyzed_at": "2026-04-28T07:34:47.148636+00:00",
+  "metadata": {
+    "title": "CHINÈ E SIMONELLI, PER FAVORE SILENZIO🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà affronta il tema dello scandalo che coinvolge il calcio italiano, sottolineando come, dopo le recenti accuse mosse da un PM, sia necessario un rigoroso silenzio da parte di chi finora ha contribuito al declino del sistema calcistico nazionale. L'autore esprime rispetto per figure come il presidente della Lega Simonelli, ma critica chi parla senza cognizione di causa, invitando a non difendere un sistema ormai compromesso. Pedullà conclude che, in attesa di sviluppi giudiziari, è fondamentale mantenere riserbo e riflettere sul grave impatto che questa situazione ha s",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "silenzio",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "critica",
+      "relevance": "low"
+    },
+    {
+      "name": "percezione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Marotta",
+      "position": "Marotta ha detto che non c'è colpevolezza finché non provata.",
+      "polarity": "neutral",
+      "claim_id": "e573ad3e-cbcc-4183-a189-534bef57013b",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s1",
+      "target_entity": "Marotta",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marotta ha detto che non c'è colpevolezza finché non provata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho memorizzato le parole di Marotta e non c'è colpevolezza fin quando",
+          "start_sec": 39.48,
+          "end_sec": 79.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "chi ha mandato il calcio italiano in questa situazione",
+      "position": "Chi ha mandato il calcio italiano in questa situazione dovrebbe restare in silenzio.",
+      "polarity": "negative",
+      "claim_id": "ce177a7d-77dc-4883-ab9f-91416d4eb517",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s1",
+      "target_entity": "chi ha mandato il calcio italiano in questa situazione",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chi ha mandato il calcio italiano in questa situazione dovrebbe restare in silenzio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il silenzio si impone da parte di chi soprattutto ha mandato il calcio italiano in questa situazione",
+          "start_sec": 39.48,
+          "end_sec": 79.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Simonelli",
+      "position": "Simonelli è riconosciuto con rispetto come presidente della Lega.",
+      "polarity": "positive",
+      "claim_id": "5ccc197f-85ca-4841-907f-ba4a5dd0fa85",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s2",
+      "target_entity": "Simonelli",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Simonelli è riconosciuto con rispetto come presidente della Lega.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il presidente della Lega Simonelli che ha tutta la mia il mio rispetto",
+          "start_sec": 76.479,
+          "end_sec": 113.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "presidente Simonelli",
+      "position": "Si suggerisce silenzio e riserbo verso il presidente Simonelli e la situazione attuale.",
+      "polarity": "neutral",
+      "claim_id": "2eb6b8af-d7ce-4b4f-af9d-bcc0c634561e",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s3",
+      "target_entity": "presidente Simonelli",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Si suggerisce silenzio e riserbo verso il presidente Simonelli e la situazione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qui non possiamo dir nulla. Qui dobbiamo stare in religioso silenzio e dobbiamo stare anche abbastanza chiusi in casa per un semplice motivo, caro presidente Simonelli, glielo spiego.",
+          "start_sec": 109.68,
+          "end_sec": 145.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "silenzio",
+        "presidenza",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "presidente dell'Aia",
+      "position": "Il presidente dell'Aia è stato squalificato per oltre un anno.",
+      "polarity": "negative",
+      "claim_id": "9064f2a5-fbca-484a-8d18-8688aa4bb608",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s3",
+      "target_entity": "presidente dell'Aia",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente dell'Aia è stato squalificato per oltre un anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nel momento in cui il presidente dell'Aia c'ha quella squalifica oltre l'anno",
+          "start_sec": 109.68,
+          "end_sec": 145.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squalifica",
+        "AIA",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "rivista VAR Gervasoni",
+      "position": "Il VAR Gervasoni è sotto accusa e ha ricevuto un avviso di garanzia.",
+      "polarity": "neutral",
+      "claim_id": "a5fa2fb8-8e0c-4dc4-899f-ab38b3f7e7f5",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s4",
+      "target_entity": "rivista VAR Gervasoni",
+      "entity_type": "ref",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR Gervasoni è sotto accusa e ha ricevuto un avviso di garanzia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo anche l'uomo del VAR, Gervasoni che anche lui ha questa accusa, avviso di garanzia",
+          "start_sec": 143.0,
+          "end_sec": 182.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "pubblico generale",
+      "position": "Queste vicende giudiziarie creano scenari assurdi e destabilizzano il contesto calcistico.",
+      "polarity": "negative",
+      "claim_id": "9805c132-bc0e-4ca2-9be3-15120ed828b6",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s4",
+      "target_entity": "pubblico generale",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Queste vicende giudiziarie creano scenari assurdi e destabilizzano il contesto calcistico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la vetrata sbatte qui contro la vetrata per quel famoso rigore, cose fuori dal mondo",
+          "start_sec": 143.0,
+          "end_sec": 182.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "sistema calcio italiano",
+      "position": "Il sistema calcio italiano è considerato al punto di non ritorno e fuori dalla competitività.",
+      "polarity": "negative",
+      "claim_id": "bbb80ced-05e2-4acf-a488-8c6da4b760d8",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s5",
+      "target_entity": "sistema calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il sistema calcio italiano è considerato al punto di non ritorno e fuori dalla competitività.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il sistema è purtroppo eh al alla frutta, anzi ha pagato il conto, è fuori dal ristorante.",
+          "start_sec": 182.8,
+          "end_sec": 217.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sistema calcio",
+        "competitività"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Rocchi",
+      "position": "Rocchi potrebbe non parlare riguardo a certe ricostruzioni controverse.",
+      "polarity": "neutral",
+      "claim_id": "a9b71b44-dfe4-4bc4-8835-14f20798d597",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s4",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Rocchi potrebbe non parlare riguardo a certe ricostruzioni controverse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocchi che non si sa parlerà, se non parlerà.",
+          "start_sec": 143.0,
+          "end_sec": 182.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "PM",
+      "position": "Il PM ha parlato riguardo a un presunto nuovo scandalo.",
+      "polarity": "neutral",
+      "claim_id": "cf18bafa-7f96-4dc6-9634-f2e3460036ac",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s0",
+      "target_entity": "PM",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il PM ha parlato riguardo a un presunto nuovo scandalo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché comunque ha parlato un PM, non è che ha parlato quello del supermercato, con tutto il rispetto e quindi se ha parlato il PM e significa che il PM ha parlato",
+          "start_sec": 0.08,
+          "end_sec": 40.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scandalo",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "FF",
+      "position": "Dovrebbero fare silenzio e non parlare a sproposito dopo eventi brutti.",
+      "polarity": "negative",
+      "claim_id": "96b8a1e3-0401-4d70-865a-3bfdcee9a9cc",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s0",
+      "target_entity": "FF",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Dovrebbero fare silenzio e non parlare a sproposito dopo eventi brutti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché parlano tutti a sproposito. Dovrebbero stare in silenzio. Quando succedono delle cose così brutte",
+          "start_sec": 0.08,
+          "end_sec": 40.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "silenzio"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Grassani",
+      "position": "Grassani ha fatto dichiarazioni recentemente.",
+      "polarity": "neutral",
+      "claim_id": "a100d95f-182b-41a2-8767-e805ee2fb13f",
+      "video_id": "JTxW-nIJJRg",
+      "segment_id": "s1",
+      "target_entity": "Grassani",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Grassani ha fatto dichiarazioni recentemente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io ho letto le dichiarazioni di eh Grassani, parlano",
+          "start_sec": 39.48,
+          "end_sec": 79.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media"
+      ]
+    }
+  ]
+}

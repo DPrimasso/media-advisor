@@ -1,0 +1,392 @@
+{
+  "video_id": "UiecqjSeIq8",
+  "analyzed_at": "2026-04-24T16:07:17.273872+00:00",
+  "metadata": {
+    "title": "PER CONTE È SEMPRE COLPA DI UN ALTRO (MA CON BOGA-HOLM…). LEAO DISCO ROTTO E AURELIANO SHOW🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza criticamente il clima mediatico e calcistico italiano, evidenziando come spesso si cerchino alibi e si difendano alcune figure a scapito di altre, come nel caso del Milan attaccato dal Corriere dello Sport mentre Allegri riceve meno critiche. L'autore sottolinea la mancanza di un piano di gioco concreto da parte di alcuni allenatori e la scarsa attenzione verso la nazionale italiana, che interessa ormai pochi tifosi. Inoltre, Pedullà critica la gestione arbitrale, citando un episodio VAR controverso, e condanna le giustificazioni di Conte, ritenute inaccett",
+  "topics": [
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "var",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Corriere dello Sport",
+      "position": "Il direttore del Corriere dello Sport ha attaccato il Milan in un editoriale.",
+      "polarity": "negative",
+      "claim_id": "7e6f76f6-a557-458c-b9f3-228c7a96ba19",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s0",
+      "target_entity": "Corriere dello Sport",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il direttore del Corriere dello Sport ha attaccato il Milan in un editoriale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un editoriale del direttore del Cor dello Sport che attacca il Milan",
+          "start_sec": 0.28,
+          "end_sec": 40.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "attacco"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gravina",
+      "position": "Non c'è difesa di Gravina quando si tratta di allenatori che sbagliano o fanno errori di tattica.",
+      "polarity": "negative",
+      "claim_id": "5c0c1381-3950-4ddf-9739-90165059fcae",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non c'è difesa di Gravina quando si tratta di allenatori che sbagliano o fanno errori di tattica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "su Gravina neanche mezza parola quando bisogna difendere gli allenatori che magari possono sbagliare",
+          "start_sec": 37.8,
+          "end_sec": 75.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dirigenza",
+        "media",
+        "critica"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "allenatori in generale",
+      "position": "Gli allenatori come Allegri non forniscono un piano concreto di gioco in alcune partite.",
+      "polarity": "negative",
+      "claim_id": "c0798f8f-a43a-4960-ba8a-1b01cae73a71",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s1",
+      "target_entity": "allenatori in generale",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli allenatori come Allegri non forniscono un piano concreto di gioco in alcune partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non hanno dato un piano eh concreto di gioco alla squadra che allena",
+          "start_sec": 37.8,
+          "end_sec": 75.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tattica",
+        "performance"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "nazionale italiana",
+      "position": "La nazionale italiana interessa a pochi, anzi a nessuno, secondo Gravina.",
+      "polarity": "negative",
+      "claim_id": "47bac769-bba0-485f-b964-a62c1bdac7ef",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s2",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana interessa a pochi, anzi a nessuno, secondo Gravina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In Italia la nazionale, la verità è che la nazionale interessa a pochi, anzi a nessuno.",
+          "start_sec": 73.28,
+          "end_sec": 119.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "interesse",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "opinionisti",
+      "position": "Gli opinionisti esprimono i loro pareri liberamente senza farsi condizionare da altri.",
+      "polarity": "neutral",
+      "claim_id": "d7f63be5-1693-495b-8e00-45cb44d63139",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s3",
+      "target_entity": "opinionisti",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gli opinionisti esprimono i loro pareri liberamente senza farsi condizionare da altri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo soltanto la libertà di esprimere i nostri pareri senza farci condizionare da Tizio o da Gaio",
+          "start_sec": 115.52,
+          "end_sec": 155.95899999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "libertà di opinione",
+        "media"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Aureliano",
+      "position": "Aureliano ha commesso un errore evidente nel decisione del rigore al VAR ieri sul Como.",
+      "polarity": "negative",
+      "claim_id": "b987e660-6e6b-4a97-92b9-2c947edf25a6",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s4",
+      "target_entity": "Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aureliano ha commesso un errore evidente nel decisione del rigore al VAR ieri sul Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, si è visto ieri il rigore che ha dato al Como e che non ha influito sul risultato è un qualcosa di di inenarrabile.",
+          "start_sec": 153.2,
+          "end_sec": 196.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Aureliano",
+      "position": "Aureliano è andato in pensione come arbitro e ora lavora come varista.",
+      "polarity": "neutral",
+      "claim_id": "f4eca97a-4fec-40ba-af28-fc1c70f27919",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s4",
+      "target_entity": "Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Aureliano è andato in pensione come arbitro e ora lavora come varista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso però siccome sono andato in pensione come arbitro, ehm, è giusto darmi una possibilità al VAR",
+          "start_sec": 153.2,
+          "end_sec": 196.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Aureliano",
+      "position": "Aureliano si definisce un arbitro dalla carriera mediocre.",
+      "polarity": "negative",
+      "claim_id": "9e053f95-6bc0-4b74-b815-cfc192e74830",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s4",
+      "target_entity": "Aureliano",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aureliano si definisce un arbitro dalla carriera mediocre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho fatto una carriera da arbitro, una carriera sinceramente mediocre.",
+          "start_sec": 153.2,
+          "end_sec": 196.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro Aurelio",
+      "position": "L'arbitro Aurelio ha concesso un rigore che nessuno considererebbe tale, neanche dopo revisione VAR.",
+      "polarity": "negative",
+      "claim_id": "aac1f2d4-ce9e-4962-ba37-f008b2d8403c",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s5",
+      "target_entity": "arbitro Aurelio",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro Aurelio ha concesso un rigore che nessuno considererebbe tale, neanche dopo revisione VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nessuno darebbe quel rigore. Addirittura lui l'ha dato dopo averlo visto al VAR",
+          "start_sec": 194.04,
+          "end_sec": 231.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro Aurelio",
+      "position": "Aurelio è considerato uno dei migliori varisti in circolazione.",
+      "polarity": "negative",
+      "claim_id": "7cb43429-7f8c-4158-bf28-b32f2188aa5b",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s5",
+      "target_entity": "arbitro Aurelio",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aurelio è considerato uno dei migliori varisti in circolazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "viene considerato uno dei migliori varisti in circolazione",
+          "start_sec": 194.04,
+          "end_sec": 231.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "attaccante che ha sbagliato rigori in Bosnia",
+      "position": "Un attaccante ha sbagliato un rigore e tre occasioni in Bosnia.",
+      "polarity": "negative",
+      "claim_id": "22a53244-356d-4db0-a71d-07275bea5d13",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s3",
+      "target_entity": "attaccante che ha sbagliato rigori in Bosnia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Un attaccante ha sbagliato un rigore e tre occasioni in Bosnia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho sbagliato e tre occasioni in Bosnia",
+          "start_sec": 115.52,
+          "end_sec": 155.95899999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "rigore",
+        "performance"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Allegri",
+      "position": "Allegri non viene difeso quando sbaglia o interpreta male una partita contro l'Udinese.",
+      "polarity": "negative",
+      "claim_id": "3061d09d-11da-4bb5-b87a-ccd43d0fa7e0",
+      "video_id": "UiecqjSeIq8",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri non viene difeso quando sbaglia o interpreta male una partita contro l'Udinese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non gli si può toccare il discorso Allegri. Torno a quanto vi ho detto qualche settimana fa. su Gravina neanche mezza parola quando bisogna difendere gli allenatori che magari possono sbagliare, che interpretano malissimo una partita, che ci capiscono poco nulla contro l'Udinese",
+          "start_sec": 37.8,
+          "end_sec": 75.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "media",
+        "critica"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "video_id": "mSFkfa7iohI",
+  "analyzed_at": "2026-04-24T08:26:10.259805+00:00",
+  "metadata": {
+    "title": "A CAMPO APERTO 04 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC affronta il tema del trasporto pubblico a Napoli, focalizzandosi sulla decisione di sospendere il servizio dalle 13 alle 16 nel giorno di Pasqua, proprio in un momento di forte afflusso turistico. L'autore, attraverso l'intervento del sindacalista USB Marco Sansone, critica questa scelta definendola un paradosso e un danno d'immagine per la città, sottolineando come tale interruzione limiti la mobilità di turisti e cittadini. Viene inoltre evidenziata la chiusura estiva della tratta nord della linea 1 e la carenza di mezzi in circolazione, con particolare attenzione alle ",
+  "topics": [
+    {
+      "name": "trasporto pubblico",
+      "relevance": "high"
+    },
+    {
+      "name": "scuola",
+      "relevance": "high"
+    },
+    {
+      "name": "sicurezza",
+      "relevance": "high"
+    },
+    {
+      "name": "disagio",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasporto",
+      "relevance": "medium"
+    },
+    {
+      "name": "servizi di trasporto",
+      "relevance": "medium"
+    },
+    {
+      "name": "statuto comunale",
+      "relevance": "low"
+    },
+    {
+      "name": "turismo",
+      "relevance": "low"
+    },
+    {
+      "name": "politica",
+      "relevance": "low"
+    },
+    {
+      "name": "devianza giovanile",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "USB Campania",
+      "position": "USB Campania critica la decisione di fermare il trasporto pubblico locale a Pasqua dalle 13 alle 16 come un paradosso.",
+      "polarity": "negative",
+      "claim_id": "cb46f68d-b2c4-4941-b3e9-46fc8944c319",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s0",
+      "target_entity": "USB Campania",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "USB Campania critica la decisione di fermare il trasporto pubblico locale a Pasqua dalle 13 alle 16 come un paradosso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'USB ha criticato questa decisione di Comune e Regione perché cui si chiede un miglioramento del servizio particolare è che siamo invasi nel modo positivo del termine da oltre 600.000 turisti secondo le previsioni. Allora, dire ai turisti che il servizio di trasporto regionale, non soltanto del Comune di Napoli, sarà fermo dalle ore 13 alle ore 16, secondo noi è un paradosso",
+          "start_sec": 0.359,
+          "end_sec": 284.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasporto pubblico",
+        "turismo",
+        "servizio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Comune di Napoli",
+      "position": "Il trasporto pubblico locale a Napoli si fermerà dalle 13 alle 16 durante il giorno di Pasqua.",
+      "polarity": "negative",
+      "claim_id": "864c417e-ceb7-409c-8d88-f73ba2d8da77",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s0",
+      "target_entity": "Comune di Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il trasporto pubblico locale a Napoli si fermerà dalle 13 alle 16 durante il giorno di Pasqua.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo stop a Pasqua del trasporto pubblico locale e regionale che si fermerà dalle 13 alle 16",
+          "start_sec": 0.359,
+          "end_sec": 284.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Comune di Napoli",
+      "position": "La linea 1 della metropolitana di Napoli si ferma alle 21 dal lunedì al giovedì e anche a Pasqua e Pasquetta.",
+      "polarity": "negative",
+      "claim_id": "43c2ced9-57ff-4840-8591-319602086afa",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s0",
+      "target_entity": "Comune di Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La linea 1 della metropolitana di Napoli si ferma alle 21 dal lunedì al giovedì e anche a Pasqua e Pasquetta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dal lunedì al giovedì alle ore 21:00 il principale mezzo di trasporto della città di Napoli, cioè la linea 1 della metropolitana si ferma Pasqua e Pasquetta",
+          "start_sec": 0.359,
+          "end_sec": 284.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "linea 6",
+      "position": "La linea 6 sarà chiusa il pomeriggio di Pasqua e Pasquetta nonostante la richiesta sindacale di tenerla aperta.",
+      "polarity": "negative",
+      "claim_id": "ec74bd29-fe38-4574-b2db-9966a2a88f6e",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s1",
+      "target_entity": "linea 6",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La linea 6 sarà chiusa il pomeriggio di Pasqua e Pasquetta nonostante la richiesta sindacale di tenerla aperta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come organizzazione sindacale abbiamo chiesto di lasciarla anche nel pomeriggio di Pasqua e Pasquetta oltre che di sabato, quindi di oggi e non c'è stata la volontà da parte né del Comune di Napoli né da parte dell'azienda NM",
+          "start_sec": 282.199,
+          "end_sec": 536.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasporto",
+        "efficienza",
+        "politica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "linea 1",
+      "position": "La linea 1 chiuderà la tratta nord per tutta l'estate.",
+      "polarity": "negative",
+      "claim_id": "097bc404-068c-49c6-a294-17e3f4271b7f",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s1",
+      "target_entity": "linea 1",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La linea 1 chiuderà la tratta nord per tutta l'estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso chiude un'altra volta in circostanze un po' misteriose la tratta nord che sarà chiusa tutta l'estate della linea 1",
+          "start_sec": 282.199,
+          "end_sec": 536.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "chiusura",
+        "infrastruttura"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "linea 1",
+      "position": "Furono acquistati circa 25 nuovi treni per la linea 1 una decina di anni fa, ma pochi sono in circolazione.",
+      "polarity": "neutral",
+      "claim_id": "f00bafd9-3aaf-4a62-8c2b-f6a1d7b8f495",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s1",
+      "target_entity": "linea 1",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Furono acquistati circa 25 nuovi treni per la linea 1 una decina di anni fa, ma pochi sono in circolazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Una decina d'anni fa noi chiudiamo col governo nazionale, con l'Unione Europea e con la Regione Campania un accordo per circa 25 treni nuovi della linea 1...comincia a diventare un po' un mistero il fatto che in circolazione ce ne stanno una piccola parte di questi 25",
+          "start_sec": 282.199,
+          "end_sec": 536.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "investimento",
+        "treni",
+        "metro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "linea 1 metropolitana di Napoli",
+      "position": "La linea 1 della metropolitana non risponde adeguatamente alle esigenze dei giovani nei fine settimana.",
+      "polarity": "negative",
+      "claim_id": "5f10226f-4e13-4258-a6bb-493fae32861b",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s2",
+      "target_entity": "linea 1 metropolitana di Napoli",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La linea 1 della metropolitana non risponde adeguatamente alle esigenze dei giovani nei fine settimana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la linea 1 serve a una parte importante della città, ma non viene incontro alle reali esigenze dei tanti giovani che per esempio il venerdì sera e il sabato sera, quando ci sono i prolungamenti di linea 1, vorrebbero raggiungere le stazioni della della metropolitana e non possono perché gli autobus si fermano alle 18:00, alle 19, alle 20",
+          "start_sec": 533.76,
+          "end_sec": 766.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasporto pubblico",
+        "giovani",
+        "linea metropolitana"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Comune di Napoli",
+      "position": "Fermare il servizio pubblico a Pasqua durante le ore di maggior afflusso turistico è un danno di immagine per Napoli.",
+      "polarity": "negative",
+      "claim_id": "9578b9c9-533d-411c-8be2-3ef9edcdce45",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s0",
+      "target_entity": "Comune di Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fermare il servizio pubblico a Pasqua durante le ore di maggior afflusso turistico è un danno di immagine per Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questo stop di 3 ore è anche un danno diimmagine per la città con tanti turisti a Napoli",
+          "start_sec": 0.359,
+          "end_sec": 284.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "trasporto su gomma",
+      "position": "Il trasporto su gomma è il vero tema critico per le periferie di Napoli, che vengono trascurate.",
+      "polarity": "negative",
+      "claim_id": "07b5e799-d623-428b-b7fc-a803399fde39",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s1",
+      "target_entity": "trasporto su gomma",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il trasporto su gomma è il vero tema critico per le periferie di Napoli, che vengono trascurate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non c'è la volontà politica di migliorare un trasporto di superficie che è quello degli autobus che va verso le periferie, dalle periferie verso diciamo il centro città che sono sempre più abbandonate ed è questo francamente intollerabile",
+          "start_sec": 282.199,
+          "end_sec": 536.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasporto",
+        "periferia",
+        "politica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "tram di San Giovanni a Fuorigrotta",
+      "position": "I lavori sul tram da San Giovanni a Fuorigrotta stanno procedendo a rilento.",
+      "polarity": "negative",
+      "claim_id": "4e921c04-8fd2-4db9-b879-ba86b8b12fe7",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s2",
+      "target_entity": "tram di San Giovanni a Fuorigrotta",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I lavori sul tram da San Giovanni a Fuorigrotta stanno procedendo a rilento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il tram che va da San Giovanni praticamente fino a Fuorigrotta ripris e là sono lavori che stanno andando a rilento",
+          "start_sec": 533.76,
+          "end_sec": 766.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasporto pubblico",
+        "lavori pubblici",
+        "mobilità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "trasporto pubblico a Napoli",
+      "position": "Il trasporto pubblico a Napoli presenta criticità soprattutto nel trasporto di superficie che è peggiorato negli ultimi anni.",
+      "polarity": "negative",
+      "claim_id": "9c1a13ab-2559-4d95-a3f7-10ad646e387c",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s2",
+      "target_entity": "trasporto pubblico a Napoli",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il trasporto pubblico a Napoli presenta criticità soprattutto nel trasporto di superficie che è peggiorato negli ultimi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il trasporto di superficie deve essere assolutamente migliorato per venire incontro alle esigenze delle periferie che sono quelle che hanno subito i tagli maggiori negli ultimi anni",
+          "start_sec": 533.76,
+          "end_sec": 766.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasporto pubblico",
+        "periferia",
+        "tagli servizi"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "amministrazione comunale di Napoli",
+      "position": "L'amministrazione comunale ha una visione confusa sulla mobilità urbana e ha messo in cantiere i parcheggi nel cuore della città senza un piano chiaro per il trasporto pubblico.",
+      "polarity": "negative",
+      "claim_id": "174359d4-36db-4cf7-b31d-e26edb61299f",
+      "video_id": "mSFkfa7iohI",
+      "segment_id": "s2",
+      "target_entity": "amministrazione comunale di Napoli",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'amministrazione comunale ha una visione confusa sulla mobilità urbana e ha messo in cantiere i parcheggi nel cuore della città senza un piano chiaro per il trasporto pubblico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se l'obiettivo di questa amministrazione è stata quella di nuovamente mettere in cantiere ciò che si era messo completamente da parte, cioè i parcheggi nel cuore della città, è evidente che tu c'hai un'idea di città confusa che da una parte racconti che devi implementare il trasporto pubblico, poi dall'altro il traffico è fuori controllo",
+          "start_sec": 533.76,
+          "end_sec": 766.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "amministrazione comunale",
+        "mobilità",
+        "pianificazione urbana"
+      ]
+    }
+  ]
+}

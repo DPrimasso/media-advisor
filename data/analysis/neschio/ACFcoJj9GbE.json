@@ -1,0 +1,395 @@
+{
+  "video_id": "ACFcoJj9GbE",
+  "analyzed_at": "2026-04-26T11:31:58.244071+00:00",
+  "metadata": {
+    "title": "CHE DISASTRO‼️ ROCCHI AUTOSOSPESO e gli \"ARBITRI GRADITI ALL'INTER\"",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la grave crisi attuale nel mondo arbitrale del calcio italiano, evidenziando le sospensioni e le indagini per frode sportiva che coinvolgono figure chiave come Gianluca Rocchi, Antonio Zappi e il supervisore VAR Gervasoni. L'autore sottolinea come la qualità dell'arbitraggio abbia raggiunto il peggior livello dagli anni di Calciopoli, con un continuo peggioramento visibile nelle partite di quest'anno. Pur precisando che nessuna indagine riguarda l'Inter, si evidenzia come i tifosi tendano a interpretare la situazione in modo fazioso, schierandosi a seconda della squadra favor",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "inter",
+      "relevance": "high"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "propensione arbitrale",
+      "relevance": "medium"
+    },
+    {
+      "name": "serie a",
+      "relevance": "medium"
+    },
+    {
+      "name": "frodi_sportive",
+      "relevance": "low"
+    },
+    {
+      "name": "comportamento dei tifosi",
+      "relevance": "low"
+    },
+    {
+      "name": "var",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Antonio Zappi",
+      "position": "Antonio Zappi is disqualified for 13 months due to pressure on debts and causing resignations in arbitration commissions.",
+      "polarity": "positive",
+      "claim_id": "97e9ebc7-554f-41cc-8c41-a68e527edaab",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s0",
+      "target_entity": "Antonio Zappi",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Zappi is disqualified for 13 months due to pressure on debts and causing resignations in arbitration commissions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "President Aya Antonio Zappi has been inhibited for 13 months. Because he put pressure on debts and caused the resignation of those responsible for the arbitration commissions Canci and Candi.",
+          "start_sec": 0.14,
+          "end_sec": 40.5,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitration",
+        "disqualification"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Inter approved the referee Colombo designation for Bologna-Inter in April 2025 as per Rocchide.",
+      "polarity": "neutral",
+      "claim_id": "af7be249-02ae-4736-9036-ab00ce9ddd4f",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s7",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter approved the referee Colombo designation for Bologna-Inter in April 2025 as per Rocchide.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the incriminated episodes would seem to be, according to Rocchide, the designation of the referee Colombo, approved by Inter, for the Bologna-Inter match in April 2025",
+          "start_sec": 326.36,
+          "end_sec": 368.71999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "designazione arbitro",
+        "Inter",
+        "media"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gianluca Rocchi",
+      "position": "Gianluca Rocchi is self-suspended due to an investigation for sports fraud.",
+      "polarity": "negative",
+      "claim_id": "7114c31c-7935-4222-b278-09813cd9e1cb",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s1",
+      "target_entity": "Gianluca Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluca Rocchi is self-suspended due to an investigation for sports fraud.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The arbitrator is self-suspended because at the moment he is investigated for sports fraud.",
+          "start_sec": 43.12,
+          "end_sec": 107.02000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitration class",
+      "position": "The arbitration class is at its worst level since the times of Calciopoli.",
+      "polarity": "negative",
+      "claim_id": "51b1fa95-7801-4498-8370-dd61e3e8c06b",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s1",
+      "target_entity": "arbitration class",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "The arbitration class is at its worst level since the times of Calciopoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "from the times of Calciopoli that the arbitration class was not so low.",
+          "start_sec": 43.12,
+          "end_sec": 107.02000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Arbitri",
+      "position": "Gli arbitri hanno mostrato un peggioramento continuo quest'anno rispetto agli anni precedenti.",
+      "polarity": "negative",
+      "claim_id": "22d17e1e-429f-4c24-9518-4135105bd8dd",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s2",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli arbitri hanno mostrato un peggioramento continuo quest'anno rispetto agli anni precedenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I have seen the worst things. I have seen it this year even more than the other years. It was a continuous decline.",
+          "start_sec": 107.22,
+          "end_sec": 145.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "peggioramento",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Non è stata avviata nessuna indagine contro l'Inter in questo caso.",
+      "polarity": "neutral",
+      "claim_id": "4f4c0a59-c31a-4721-822f-9e6d169281dc",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non è stata avviata nessuna indagine contro l'Inter in questo caso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "at this time no investigation of the Inter has been carried out",
+          "start_sec": 145.4,
+          "end_sec": 183.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inchiesta",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "fan di Inter",
+      "position": "I tifosi spesso cercano di interpretare la situazione a favore della propria squadra.",
+      "polarity": "neutral",
+      "claim_id": "95f8d4ba-3b4e-489f-bb3a-06713bc31250",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s3",
+      "target_entity": "fan di Inter",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi spesso cercano di interpretare la situazione a favore della propria squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "everyone in these cases tries to pull the water to their mill",
+          "start_sec": 145.4,
+          "end_sec": 183.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fan_behavior",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Arbitri",
+      "position": "Le fazioni si schierano a seconda della squadra favorita dagli arbitri.",
+      "polarity": "neutral",
+      "claim_id": "be2f321a-6e29-4ed2-859a-89b576e1723b",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s3",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le fazioni si schierano a seconda della squadra favorita dagli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the factions immediately, depending on the team that is now cheering in the Mirino",
+          "start_sec": 145.4,
+          "end_sec": 183.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rivalry",
+        "media"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gianluca Rocchi",
+      "position": "Gianluca Rocchi received a notice to appear for sport fraud in competition.",
+      "polarity": "neutral",
+      "claim_id": "db295adf-4439-4de0-8e3b-97029e55e692",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s6",
+      "target_entity": "Gianluca Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluca Rocchi received a notice to appear for sport fraud in competition.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gianluca Rocchide, referee of Serie A and Serie B, received a notice to appear from the Milan Prosecutor's Office.",
+          "start_sec": 284.66,
+          "end_sec": 326.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gianluca Rocchi",
+      "position": "He is accused of conditioning arbitral choices by pressuring the VAR.",
+      "polarity": "negative",
+      "claim_id": "8e38ebe2-f626-4cc2-a742-90bfb738aa03",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s6",
+      "target_entity": "Gianluca Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "PROBABLE",
+      "claim_text": "He is accused of conditioning arbitral choices by pressuring the VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the accusation against him would have conditioned some arbitral choices by exercising pressure on the VAR",
+          "start_sec": 284.66,
+          "end_sec": 326.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "var"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gianluca Rocchi",
+      "position": "He allegedly chose referees approved by Inter in some matches.",
+      "polarity": "negative",
+      "claim_id": "8dc08af7-c0af-40dd-8005-08dcfa925800",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s6",
+      "target_entity": "Gianluca Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "PROBABLE",
+      "claim_text": "He allegedly chose referees approved by Inter in some matches.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he would have also chosen referees approved by Inter",
+          "start_sec": 284.66,
+          "end_sec": 326.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "inter"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Inter",
+      "position": "Inter sembra avere arbitri preferiti, suggerendo una possibile propensione arbitrale favorevole.",
+      "polarity": "neutral",
+      "claim_id": "48ee7eb9-0173-4e30-b6dc-bf65902235df",
+      "video_id": "ACFcoJj9GbE",
+      "segment_id": "s8",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Inter sembra avere arbitri preferiti, suggerendo una possibile propensione arbitrale favorevole.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it seems that Doveri was not appreciated by Inter",
+          "start_sec": 368.72,
+          "end_sec": 415.93,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

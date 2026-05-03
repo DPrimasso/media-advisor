@@ -1,0 +1,404 @@
+{
+  "video_id": "IEt-f8ERrg8",
+  "analyzed_at": "2026-04-24T07:40:44.480676+00:00",
+  "metadata": {
+    "title": "ECCO dove CONTE-STO il MR. 👀 L'hai persa in settimana, non ieri! 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza l’approccio mentale e la leadership di Antonio Conte, evidenziando come le sue parole prepartita e il discorso ai detenuti rivelino un lato umano spesso trascurato. L’autore sottolinea che, nonostante la delusione per la sconfitta e le polemiche, il messaggio di Conte mira a mantenere alta la motivazione, fondamentale per fare la differenza nei dettagli in campo. Viene inoltre evidenziato che la società pretende due scudetti consecutivi, un obiettivo difficile, e che la differenza tra il terzo e il quarto posto in classifica è marginale in termini di qualificazione Champions,",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mentalità",
+      "relevance": "high"
+    },
+    {
+      "name": "motivazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "umanià",
+      "relevance": "low"
+    },
+    {
+      "name": "continuità",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha mostrato umanità nelle sue parole prepartita e nel suo discorso ai detenuti.",
+      "polarity": "positive",
+      "claim_id": "0f9f4ce2-2c19-4f02-b114-1bf4e859a2a0",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha mostrato umanità nelle sue parole prepartita e nel suo discorso ai detenuti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mentalità di Conte che viene fuori dal suo incontro appoggio reale dove parla a cuore aperto anche ai detenuti e cerca di dargli forza",
+          "start_sec": 2.76,
+          "end_sec": 74.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "umanià",
+        "motivation"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Elmas",
+      "position": "Elmas non ha segnato in una partita recente.",
+      "polarity": "neutral",
+      "claim_id": "5613b077-f8d6-4039-a71a-29b6d64eb249",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s1",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Elmas non ha segnato in una partita recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se per esempio Elmas non segna e date la colpa a me come se fossi io Elmas",
+          "start_sec": 72.119,
+          "end_sec": 145.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "gol"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "Essere quarto o terzo non cambia molto a livello di qualificazione in Champions League.",
+      "polarity": "neutral",
+      "claim_id": "13e3e287-bc96-4e54-8e5c-6ae7ea4fc821",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Essere quarto o terzo non cambia molto a livello di qualificazione in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quarto secondo me non è che cambia chissà cosa, cambia se ti qualifichi in Champions o non ti qualifichi in Champions.",
+          "start_sec": 142.56,
+          "end_sec": 211.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "champions league"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "La società chiede di vincere due scudetti consecutivi, ma non è realisticamente pensabile.",
+      "polarity": "negative",
+      "claim_id": "f9d4c7d7-e74d-44c7-9b81-69dab3fae7ea",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La società chiede di vincere due scudetti consecutivi, ma non è realisticamente pensabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "società mi chiede di vincere per forza due scudetti consecutivi. Non è pensabile.",
+          "start_sec": 142.56,
+          "end_sec": 211.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "obiettivo",
+        "scudetto"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore Conte",
+      "position": "Il surplus motivazionale che Conte dà al gruppo è fondamentale per fare la differenza nei dettagli.",
+      "polarity": "positive",
+      "claim_id": "4da66975-0d45-4c59-a6d6-4d17d1a4bd53",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s2",
+      "target_entity": "allenatore Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Il surplus motivazionale che Conte dà al gruppo è fondamentale per fare la differenza nei dettagli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "viene meno quel surplus che un allenatore come Conte riesce a dare ai suoi gruppi che è fondamentale",
+          "start_sec": 142.56,
+          "end_sec": 211.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "allenatore Conte",
+      "position": "Nel calcio i dettagli come una corsa in più o un centimetro rubato all'avversario fanno la differenza.",
+      "polarity": "positive",
+      "claim_id": "fdb7919c-1d4e-4940-8a3c-ceb421177ad1",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s2",
+      "target_entity": "allenatore Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Nel calcio i dettagli come una corsa in più o un centimetro rubato all'avversario fanno la differenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel calcio sono i dettagli che fanno la differenza. Il dettaglio è quella corsa in più, quel centimetro che riesci a rubare all'avversario.",
+          "start_sec": 142.56,
+          "end_sec": 211.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dettagli",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli ha mostrato continuità solamente a tratti durante la stagione.",
+      "polarity": "neutral",
+      "claim_id": "39e10c5c-c95c-4569-bbc8-6643a2c1dae6",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha mostrato continuità solamente a tratti durante la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la continuità e noi quest'anno, onestamente abbiamo avuto solo attratti",
+          "start_sec": 209.36,
+          "end_sec": 277.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "continuità",
+        "prestazione stagionale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli ha avuto una striscia positiva post Bologna con vittorie in scontri diretti.",
+      "polarity": "positive",
+      "claim_id": "06518819-47ba-48df-a278-1552eb8059ff",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha avuto una striscia positiva post Bologna con vittorie in scontri diretti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io ricordo quella striscia post Bologna dove vincevamo scontri diretti a ripetizione",
+          "start_sec": 209.36,
+          "end_sec": 277.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie positiva",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli quest'anno non ha avuto continuità nelle prestazioni, alternando ottime e brutte partite.",
+      "polarity": "negative",
+      "claim_id": "254d579b-2fe2-4a96-beb4-9dfe8f596ec5",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli quest'anno non ha avuto continuità nelle prestazioni, alternando ottime e brutte partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sono tutti giocatori che possono fare grandi cose o partite normali o brutte partite, tutti a differenza la fa la continuità",
+          "start_sec": 209.36,
+          "end_sec": 277.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "continuità",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Politano",
+      "position": "Politano ha detto che bisogna chiedere scusa dopo la partita.",
+      "polarity": "positive",
+      "claim_id": "ba10d4ab-19b1-4510-87c8-c652e25882e6",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s0",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Politano ha detto che bisogna chiedere scusa dopo la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Politano dice proprio bisogna chiedere scusa",
+          "start_sec": 2.76,
+          "end_sec": 74.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "ammissione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Spinazzola",
+      "position": "Spinazzola ha confermato l'approccio mentale di Conte nel post partita.",
+      "polarity": "positive",
+      "claim_id": "a65a09f1-931a-431c-b349-0ca264cf34bd",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s0",
+      "target_entity": "Spinazzola",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spinazzola ha confermato l'approccio mentale di Conte nel post partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "viene confermato dalle parole Parole di Spinazzola",
+          "start_sec": 2.76,
+          "end_sec": 74.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "mentalità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Orban",
+      "position": "Orban ha fatto un intervento su una palla importante durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "224e6161-921b-4214-8f21-b946ab2e4ecb",
+      "video_id": "IEt-f8ERrg8",
+      "segment_id": "s3",
+      "target_entity": "Orban",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Orban ha fatto un intervento su una palla importante durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Orban fa per e per e gli arriva quella palla",
+          "start_sec": 209.36,
+          "end_sec": 277.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gioco difensivo",
+        "intervento"
+      ]
+    }
+  ]
+}

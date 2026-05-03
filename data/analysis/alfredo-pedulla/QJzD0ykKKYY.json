@@ -1,0 +1,388 @@
+{
+  "video_id": "QJzD0ykKKYY",
+  "analyzed_at": "2026-04-29T08:18:28.038540+00:00",
+  "metadata": {
+    "title": "TARALLUCCI E VINO? NO GRAZIE. E NON FATELI DIVENTARE SANTI. SARRI E LA LISTA NAPOLI🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà affronta il tema delle recenti polemiche nel calcio italiano, in particolare riguardo all’avviso di garanzia e alla gestione arbitrale. L’autore invita a evitare giudizi affrettati e a mantenere un atteggiamento garantista, sottolineando come spesso i media si concentrino su attacchi mediatici, ad esempio contro Allegri, anziché affrontare problemi più profondi come il declino del sistema calcio e le criticità arbitrali. Pedullà evidenzia che il problema degli arbitri, con riferimento a Rocchi, è serio e duraturo da almeno cinque anni, e critica l’idea di santificar",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "giustizia",
+      "relevance": "medium"
+    },
+    {
+      "name": "economia",
+      "relevance": "medium"
+    },
+    {
+      "name": "critica",
+      "relevance": "medium"
+    },
+    {
+      "name": "scandalo",
+      "relevance": "low"
+    },
+    {
+      "name": "garanzia",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "errore arbitrale",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "arbitraggio",
+      "position": "Il problema arbitrale è serio da almeno 5 anni.",
+      "polarity": "negative",
+      "claim_id": "61468a3b-73c2-4283-b454-4f172f13d3e0",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s4",
+      "target_entity": "arbitraggio",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il problema arbitrale è serio da almeno 5 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il problema arbitrale è un problema serio da almeno 5 senni a questa parte",
+          "start_sec": 147.48,
+          "end_sec": 185.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "problema"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "avviso di garanzia",
+      "position": "L'avviso di garanzia è spesso oggetto di accuse mediatiche affrettate.",
+      "polarity": "neutral",
+      "claim_id": "09fa244b-8abc-4764-86d6-64e1c2495b4d",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s1",
+      "target_entity": "avviso di garanzia",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'avviso di garanzia è spesso oggetto di accuse mediatiche affrettate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prima di puntare e di mirare il fucile mediatico contro qualcuno mi sembra corretto e onesto aspettare",
+          "start_sec": 38.6,
+          "end_sec": 76.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "garanzia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "opinione pubblica",
+      "position": "È corretto attendere i fatti prima di giudicare un avviso di garanzia mediatico.",
+      "polarity": "neutral",
+      "claim_id": "be4a3b03-8aca-4da3-a453-00e5d0389707",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s1",
+      "target_entity": "opinione pubblica",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È corretto attendere i fatti prima di giudicare un avviso di garanzia mediatico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prima di puntare e di mirare il fucile mediatico contro qualcuno mi sembra corretto e onesto aspettare",
+          "start_sec": 38.6,
+          "end_sec": 76.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "garanzia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Allegri",
+      "position": "Ci sono prime pagine fatte per difendere Allegri.",
+      "polarity": "neutral",
+      "claim_id": "44103a78-04dc-4e69-ab5c-d52b308d9b65",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s2",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono prime pagine fatte per difendere Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fare 10 prime pagine in un mese per difendere Allegri",
+          "start_sec": 74.759,
+          "end_sec": 115.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "difesa",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore",
+      "position": "Difendere un allenatore in difficoltà è più utile del continuo attacco.",
+      "polarity": "positive",
+      "claim_id": "f5e5e15a-98bc-4bb3-a963-73ee0b27838c",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s3",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Difendere un allenatore in difficoltà è più utile del continuo attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per difendere un allenatore eh che faceva male, per far capire agli altri che invece stesse facendo bene",
+          "start_sec": 112.719,
+          "end_sec": 149.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi andava sospeso per le sue decisioni arbitrarie assurde.",
+      "polarity": "negative",
+      "claim_id": "49365e04-49a1-4328-adfb-d45fc16263af",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s4",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi andava sospeso per le sue decisioni arbitrarie assurde.",
+      "evidence_quotes": [
+        {
+          "quote_text": "intanto lui andava già sospeso per tutte le cose assurde che sono state fatte tra designazioni, spiegazioni, omissioni",
+          "start_sec": 147.48,
+          "end_sec": 185.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "sospensione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Non bisogna considerare Rocchi un santo in questo contesto.",
+      "polarity": "negative",
+      "claim_id": "71190940-39d5-440c-bdd5-366c8c1935cb",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s5",
+      "target_entity": "Rocchi",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Non bisogna considerare Rocchi un santo in questo contesto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso non facciamolo passare per santo, perché leggo che adesso Rocchi dov'è la la colpevolezza?",
+          "start_sec": 182.879,
+          "end_sec": 218.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "casta arbitrale",
+      "position": "La casta arbitrale è stata coinvolta in scandali con membri dismessi, ex e quasi ex.",
+      "polarity": "negative",
+      "claim_id": "ea43093a-48ac-41fb-9a9e-8c81164fa86a",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s5",
+      "target_entity": "casta arbitrale",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La casta arbitrale è stata coinvolta in scandali con membri dismessi, ex e quasi ex.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La casta arbitrale è stata una casta che ha comportato degli scandali tra dismessi ancora in carica, ex, quasi ex",
+          "start_sec": 182.879,
+          "end_sec": 218.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "piifero",
+      "position": "Il piifero è citato come fonte di pensieri retrogradi da evitare.",
+      "polarity": "neutral",
+      "claim_id": "2d86b8dc-8e39-4a06-9314-ba5af3169d33",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s0",
+      "target_entity": "piifero",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il piifero è citato come fonte di pensieri retrogradi da evitare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "retropensieri, secondo me, del piifero",
+          "start_sec": 0.12,
+          "end_sec": 42.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "PM",
+      "position": "Un PM che fa un'accusa deve portare del materiale come prova.",
+      "polarity": "neutral",
+      "claim_id": "c58ab329-d86e-4b38-b0c2-cffc915c477d",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s5",
+      "target_entity": "PM",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Un PM che fa un'accusa deve portare del materiale come prova.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche un PM che fa un'accusa deve portare del materiale. Giusto?",
+          "start_sec": 182.879,
+          "end_sec": 218.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "PM",
+      "position": "Se chi accusa non porta materiale, è indifendibile.",
+      "polarity": "neutral",
+      "claim_id": "8ea90d7c-6770-4543-a33c-5c9caae6d64e",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s5",
+      "target_entity": "PM",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Se chi accusa non porta materiale, è indifendibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se io accuso te devo portare il materiale altrimenti sono indifendibile io che ti accuso.",
+          "start_sec": 182.879,
+          "end_sec": 218.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore",
+      "position": "Sarebbe stato meglio difendere un allenatore che faceva male anziché attaccarlo continuamente.",
+      "polarity": "negative",
+      "claim_id": "48c69d48-754f-4cbf-91a7-d080f1628736",
+      "video_id": "QJzD0ykKKYY",
+      "segment_id": "s3",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Sarebbe stato meglio difendere un allenatore che faceva male anziché attaccarlo continuamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarebbe stato meglio fare eh due pagine in meno per difendere un allenatore eh che faceva male, per far capire agli altri che invece stesse facendo bene",
+          "start_sec": 112.719,
+          "end_sec": 149.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "allenatore"
+      ]
+    }
+  ]
+}

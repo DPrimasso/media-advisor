@@ -1,0 +1,404 @@
+{
+  "video_id": "wUAbllnY2oU",
+  "analyzed_at": "2026-04-26T11:54:27.838645+00:00",
+  "metadata": {
+    "title": "IL VALZER DELLE PANCHINE TRA MILAN, NAPOLI, ROMA, BOLOGNA E FIORENTINA. ECCO L’ATLETICO ATALANTA…",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-15T12:51:02+00:00"
+  },
+  "summary": "Il video si concentra sulle dinamiche attuali del calciomercato e sulle panchine di alcune grandi squadre europee, con particolare attenzione al Paris Saint-Germain e al Real Madrid. L'autore sottolinea la solidità e la qualità del PSG, evidenziando la stagione straordinaria di William Pachot e il rinnovo imminente di Luis Enrique fino al 2029, a dimostrazione della volontà del club di blindare il proprio allenatore. Viene inoltre ipotizzata una possibile rivoluzione sulla panchina del Real Madrid, con diversi nomi in circolazione, mentre si evidenzia il legame tra l’Atletico Madrid e l’Atalan",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "errore difensivo",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "voci",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Paris Saint-Germain",
+      "position": "Il Paris Saint-Germain ha un accordo di massima per rinnovare il contratto di Luis Enrique fino al 2029.",
+      "polarity": "positive",
+      "claim_id": "1f255c5f-5915-4b52-9878-76528a86d2b9",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s1",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris Saint-Germain ha un accordo di massima per rinnovare il contratto di Luis Enrique fino al 2029.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Paris Saint-Germain che è pronto a rinnovare il contratto a Luis Enrique. C'è già un accordo di massima sino al 2029",
+          "start_sec": 27.64,
+          "end_sec": 55.559000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto",
+        "rinnovo"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Flick",
+      "position": "Flick ha un accordo per il rinnovo con il Barcellona fino al 2028.",
+      "polarity": "positive",
+      "claim_id": "ddaa31d2-ac8b-449c-8ee8-7fd8fd713158",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s4",
+      "target_entity": "Flick",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Flick ha un accordo per il rinnovo con il Barcellona fino al 2028.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Barcellona che comunque andrà avanti con Flick. rinnovo sino al 2028 solo da firmare, ma l'accordo c'è già da diverse settimane",
+          "start_sec": 111.04,
+          "end_sec": 138.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "rinnovo",
+        "Barcellona"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "William Pachot",
+      "position": "William Pachot sta facendo una stagione straordinaria a fianco di Marchinos nel Paris Saint-Germain.",
+      "polarity": "positive",
+      "claim_id": "fa1ced37-dd93-4029-a044-ceb06a176f96",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s0",
+      "target_entity": "William Pachot",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "William Pachot sta facendo una stagione straordinaria a fianco di Marchinos nel Paris Saint-Germain.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché c'è William Pachot che sta facendo una stagione straordinaria a fianco di Marchinos",
+          "start_sec": 1.439,
+          "end_sec": 29.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Luis Enrique",
+      "position": "Luis Enrique aveva considerato l'Arsenal come possibile alternativa in caso di flop di Art.",
+      "polarity": "neutral",
+      "claim_id": "edf33367-3448-4978-ae60-96113b51ed8b",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s1",
+      "target_entity": "Luis Enrique",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Luis Enrique aveva considerato l'Arsenal come possibile alternativa in caso di flop di Art.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Luis Enrique che si era parato di Arsenal in caso di flop di Art",
+          "start_sec": 27.64,
+          "end_sec": 55.559000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "alternativa",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Real Madrid",
+      "position": "La panchina del Real Madrid potrebbe liberarsi presto.",
+      "polarity": "neutral",
+      "claim_id": "189528b6-446c-43d9-96ba-5dfbb91e4787",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s2",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La panchina del Real Madrid potrebbe liberarsi presto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vedremo poi stasera cosa farà il Real Madrid, perché quella è una panchina che si può liberare",
+          "start_sec": 54.399,
+          "end_sec": 80.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "panchina",
+        "liberazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Enzo Maresca",
+      "position": "Enzo Maresca è un possibile candidato per la panchina del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "b0f9a7b8-9424-4c3e-9da7-2275c0a764ce",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s2",
+      "target_entity": "Enzo Maresca",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Enzo Maresca è un possibile candidato per la panchina del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello di Enzo Maresca, anche se Maresca è un candidato per la panchina del Napoli",
+          "start_sec": 54.399,
+          "end_sec": 80.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "candidato",
+        "panchina",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Pep Guardiola",
+      "position": "Se Guardiola decidesse di non restare al Manchester City, la panchina sarebbe disponibile.",
+      "polarity": "neutral",
+      "claim_id": "70a40a54-f39d-4148-a26e-c4bc9a77b232",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s2",
+      "target_entity": "Pep Guardiola",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se Guardiola decidesse di non restare al Manchester City, la panchina sarebbe disponibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se Guardiola dovesse decidere di non restare, ma decide Guardiola occhio",
+          "start_sec": 54.399,
+          "end_sec": 80.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "decisione",
+        "Manchester City"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Guardiola",
+      "position": "Guardiola spesso rimane al City nonostante le voci di addio.",
+      "polarity": "positive",
+      "claim_id": "2619dde1-c8c6-45cf-a29d-6c78d35624af",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s3",
+      "target_entity": "Guardiola",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Guardiola spesso rimane al City nonostante le voci di addio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Guardiola tutti gli anni fa il solito balletto, ma poi alla fine eh spesso e volentieri resta",
+          "start_sec": 78.799,
+          "end_sec": 112.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "voci mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Maresca",
+      "position": "Maresca potrebbe essere preso in considerazione per molte panchine.",
+      "polarity": "neutral",
+      "claim_id": "8541c709-d0bc-4e49-a604-62ba90b529aa",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s3",
+      "target_entity": "Maresca",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Maresca potrebbe essere preso in considerazione per molte panchine.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Maresca si può guardare intorno e può diventare un'idea per tante altre eh panchine",
+          "start_sec": 78.799,
+          "end_sec": 112.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "panchina"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Allegri",
+      "position": "Al momento Allegri è solo una voce di mercato per il Real Madrid.",
+      "polarity": "neutral",
+      "claim_id": "2a7254bf-76b8-442f-a460-168a3866f1a6",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s3",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Al momento Allegri è solo una voce di mercato per il Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Parato anche di Allegri, di Mourinho per il Real Madrid come voci",
+          "start_sec": 78.799,
+          "end_sec": 112.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "voci"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Donnarum",
+      "position": "Donnarum è considerato migliore rispetto ad altri menzionati in prestazione ad Anfield.",
+      "polarity": "positive",
+      "claim_id": "a0a06f42-e470-4c0b-9929-68cc5ed8b103",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s1",
+      "target_entity": "Donnarum",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Donnarum è considerato migliore rispetto ad altri menzionati in prestazione ad Anfield.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Anfield, però Donnarum era meglio",
+          "start_sec": 27.64,
+          "end_sec": 55.559000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "confronto",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain",
+      "position": "Paris Saint-Germain gioca molto bene ed è la squadra campione in carica di Champions League.",
+      "polarity": "positive",
+      "claim_id": "8e721f96-95ba-4914-b6e4-5220a239aab1",
+      "video_id": "wUAbllnY2oU",
+      "segment_id": "s0",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Paris Saint-Germain gioca molto bene ed è la squadra campione in carica di Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un Paris Saint-Germain che secondo me non viene mai messo nel novero delle favorite, ma è la squadra campione in carica, gioca alla grande",
+          "start_sec": 1.439,
+          "end_sec": 29.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

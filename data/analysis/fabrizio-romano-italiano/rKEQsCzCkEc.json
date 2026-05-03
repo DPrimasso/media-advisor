@@ -1,0 +1,390 @@
+{
+  "video_id": "rKEQsCzCkEc",
+  "analyzed_at": "2026-04-24T07:34:21.596168+00:00",
+  "metadata": {
+    "title": "🚨 🚨 RILANCIO INTER! EDERSON, NON È FINITA! MODRIC E IL FUTURO, IL PIANO BERNARDO SILVA, DE VRIJ…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-19T16:34:01+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle trattative di mercato riguardanti Ederson, centrocampista dell'Atalanta considerato uno dei migliori del campionato italiano, il cui contratto scade nel 2027. Nonostante l'accordo tra il giocatore e l'Atletico Madrid, la trattativa tra i club si è complicata a causa della valutazione alta richiesta dall'Atalanta, che parte da 45 milioni di euro, mentre l'Atletico sperava di chiudere intorno ai 30 milioni. Inoltre, si segnalano sondaggi dalla Premier League e un interesse dell'Inter, anche se al momento non è una pista calda a causa del costo eleva",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "centrocampista",
+      "relevance": "medium"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "medium"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta valuta un giocatore a 45 milioni di euro, trattabili verso i 40.",
+      "polarity": "neutral",
+      "claim_id": "865081b3-d73b-43ca-8e95-acf4868333ba",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s4",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta valuta un giocatore a 45 milioni di euro, trattabili verso i 40.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta parte da quanto ci risulta, da una valutazione di 45 milioni di euro",
+          "start_sec": 102.68,
+          "end_sec": 127.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson ha una clausola rescissoria 2027 ipotizzata intorno ai 30 milioni euro con bonus.",
+      "polarity": "neutral",
+      "claim_id": "90628f12-d489-4b31-86b5-db567e0b78f0",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s5",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson ha una clausola rescissoria 2027 ipotizzata intorno ai 30 milioni euro con bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "scadenza 2027 probabilmente per una cifra vicina ai 30 milioni, magari con dei bonus, non 45",
+          "start_sec": 125.479,
+          "end_sec": 153.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "clausola rescissoria",
+        "valore",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson non rinnova il suo contratto con l'Atalanta a giugno 2027.",
+      "polarity": "neutral",
+      "claim_id": "648ac8aa-d937-4d3c-bb43-276805fd0824",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s2",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson non rinnova il suo contratto con l'Atalanta a giugno 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non rinnova il suo contratto con l'Atalanta.",
+          "start_sec": 53.399,
+          "end_sec": 79.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson è considerato uno dei migliori centrocampisti del campionato italiano.",
+      "polarity": "neutral",
+      "claim_id": "c912b3c1-40f8-4d14-8512-1d3965688f16",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s2",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson è considerato uno dei migliori centrocampisti del campionato italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno dei centrocampisti migliori del nostro campionato",
+          "start_sec": 53.399,
+          "end_sec": 79.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atletico Madrid",
+      "position": "Atletico Madrid ha iniziato con ottimismo la trattativa per Ederson un mese fa.",
+      "polarity": "neutral",
+      "claim_id": "bd275eb2-b2d5-45de-9f87-45e20bfc4bfb",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s2",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Atletico Madrid ha iniziato con ottimismo la trattativa per Ederson un mese fa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Atletico che è partito molto ottimista in questa operazione",
+          "start_sec": 53.399,
+          "end_sec": 79.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson aveva dato il suo ok all'Atletico Madrid già da gennaio.",
+      "polarity": "positive",
+      "claim_id": "4629dbd6-bcbe-4583-a7a1-0e34613bcc6e",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s3",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson aveva dato il suo ok all'Atletico Madrid già da gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ederson aveva dato il suo ok all'Atletico Madrid già da gennaio",
+          "start_sec": 77.439,
+          "end_sec": 104.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "trasferimento"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta non avrebbe mai venduto Ederson a stagione in corso.",
+      "polarity": "negative",
+      "claim_id": "0ac3add0-5b1c-4ff7-8caa-4a2bad46662c",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta non avrebbe mai venduto Ederson a stagione in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta non avrebbe mai venduto il giocatore a stagione in corso",
+          "start_sec": 77.439,
+          "end_sec": 104.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "squadra",
+        "trasferimento"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "È difficile trattare con l'Atalanta per pezzi prezzati della famiglia per Cassi.",
+      "polarity": "neutral",
+      "claim_id": "6729781d-0570-4a57-aa30-32cbec1a9165",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s4",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È difficile trattare con l'Atalanta per pezzi prezzati della famiglia per Cassi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sappiamo tutti come sia sempre difficile trattare con l'Atalanta quando c'è da andare a prendere uno dei pezzi pareggiati della famiglia per Cassi",
+          "start_sec": 102.68,
+          "end_sec": 127.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "Atalanta ha ricevuto sondaggi dalla Premier League per Ederson negli ultimi giorni.",
+      "polarity": "neutral",
+      "claim_id": "639b10fc-4edc-45e3-9c62-93c7441c13e0",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s5",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta ha ricevuto sondaggi dalla Premier League per Ederson negli ultimi giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atalanta che da quanto ci risulta negli ultimi due o tre giorni ha ricevuto anche dei sondaggi dalla Premier League",
+          "start_sec": 125.479,
+          "end_sec": 153.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interesse",
+        "mercato",
+        "Premier League"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter è interessata a Ederson ma la trattativa non è particolarmente calda a causa della cifra alta.",
+      "polarity": "neutral",
+      "claim_id": "6cf3353e-206c-42e7-81a8-3c35e48beb7d",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s5",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è interessata a Ederson ma la trattativa non è particolarmente calda a causa della cifra alta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In tanti ci chiedete dell'Inter, all'Inter Ederson piace certamente tanto, ma oggi il discorso Ederson Inter, anche perché insomma la cifra è abbastanza alta, non risulta essere particolarmente caldo",
+          "start_sec": 125.479,
+          "end_sec": 153.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interesse",
+        "trattativa",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson sarà protagonista del mercato estivo.",
+      "polarity": "neutral",
+      "claim_id": "f060992d-91a6-47f6-a706-b44ed1f3589b",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s1",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ederson sarà protagonista del mercato estivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un giocatore che sarà certamente protagonista del mercato estivo, Ederson, centrocampista dell'Atalanta",
+          "start_sec": 25.8,
+          "end_sec": 55.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ederson",
+      "position": "Ederson darebbe l'ok all'Atletico Madrid per l'estate.",
+      "polarity": "neutral",
+      "claim_id": "aab0f264-a2df-4280-b097-4a0fb45a4aa5",
+      "video_id": "rKEQsCzCkEc",
+      "segment_id": "s3",
+      "target_entity": "Ederson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ederson darebbe l'ok all'Atletico Madrid per l'estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per l'estate l'accordo giocatore atletico resta e resiste",
+          "start_sec": 77.439,
+          "end_sec": 104.27999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "trasferimento"
+      ]
+    }
+  ]
+}

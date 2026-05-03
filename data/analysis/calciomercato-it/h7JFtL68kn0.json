@@ -1,0 +1,411 @@
+{
+  "video_id": "h7JFtL68kn0",
+  "analyzed_at": "2026-04-30T07:41:39.507519+00:00",
+  "metadata": {
+    "title": "ULTIM'ORA Caos Arbitri, SHOCK Inter-Roma e indagati",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video affronta il tema centrale del caos che sta scuotendo il calcio italiano a causa di un’inchiesta sugli arbitri, con cinque fischietti indagati tra cui Rocchi e Gervasoni, e il presidente arbitrale Antonio Zappi in attesa di una sentenza definitiva che potrebbe portare al commissariamento dell’AIA. L’autore sottolinea come, al momento, nessun tesserato o dirigente di società di Serie A, inclusa l’Inter, risulti coinvolto, evidenziando una fase ancora di incertezza e attesa. La conclusione chiave è che nei prossimi mesi potrebbero emergere sviluppi decisivi che chiariranno le responsabil",
+  "topics": [
+    {
+      "name": "indagine",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitri",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "inchiesta",
+      "relevance": "medium"
+    },
+    {
+      "name": "indagini",
+      "relevance": "low"
+    },
+    {
+      "name": "var",
+      "relevance": "low"
+    },
+    {
+      "name": "sanzione",
+      "relevance": "low"
+    },
+    {
+      "name": "inter",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Antonio Zappi",
+      "position": "Antonio Zappi è stato inibito per 13 mesi per comportamenti presso i vertici arbitrali di Serie C e D.",
+      "polarity": "negative",
+      "claim_id": "d615e008-6afc-44ae-a2bb-c058646da8ab",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s1",
+      "target_entity": "Antonio Zappi",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Zappi è stato inibito per 13 mesi per comportamenti presso i vertici arbitrali di Serie C e D.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il presidente Antonio Zappi che è stato inibito per 13 mesi per esercitate sui vertici arbitrali degli organi tecnici di Serie C e D",
+          "start_sec": 27.88,
+          "end_sec": 58.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "inibizione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "AIA",
+      "position": "I 13 mesi di inibizione potrebbero portare al commissariamento dell'AIA.",
+      "polarity": "neutral",
+      "claim_id": "4f10ee0d-3192-43cf-8793-3faa18209f4a",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s2",
+      "target_entity": "AIA",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I 13 mesi di inibizione potrebbero portare al commissariamento dell'AIA.",
+      "evidence_quotes": [
+        {
+          "quote_text": "13 mesi di inibizione che farebbero anche eh avanzare l'ipotesi di un commissariamento dell'AIA.",
+          "start_sec": 56.719,
+          "end_sec": 90.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "sanzione",
+        "organismo"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Antonio Zappi",
+      "position": "Il terzo e ultimo grado deciderà sull'esito del ricorso di Antonio Zappi.",
+      "polarity": "neutral",
+      "claim_id": "a21be81f-347d-409e-a789-731287e25c3e",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s1",
+      "target_entity": "Antonio Zappi",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il terzo e ultimo grado deciderà sull'esito del ricorso di Antonio Zappi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Siamo al terzo e ultimo grado, per cui i giudici decideranno se accogliere il ricorso",
+          "start_sec": 27.88,
+          "end_sec": 58.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "ricorso"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Corte Federale dell'Appello",
+      "position": "La Corte Federale dell'Appello deve decidere se confermare o riformulare la sanzione.",
+      "polarity": "neutral",
+      "claim_id": "530aa18d-6e92-424e-bcc3-057a8b54fce8",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s2",
+      "target_entity": "Corte Federale dell'Appello",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Corte Federale dell'Appello deve decidere se confermare o riformulare la sanzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "rinviare la Corte Federale dell'Appello per riformulare questa sanzione oppure se confermare i 13 mesi di inibizione",
+          "start_sec": 56.719,
+          "end_sec": 90.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "sanzione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi è uno dei cinque arbitri indagati secondo le agenzie di stampa.",
+      "polarity": "neutral",
+      "claim_id": "969926de-3fcd-4cb7-b8c6-1ea72c5cd239",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s2",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi è uno dei cinque arbitri indagati secondo le agenzie di stampa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "almeno cinque indagati eh che sono già venuti fuori tra Rocchi, Gervasoni",
+          "start_sec": 56.719,
+          "end_sec": 90.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "arbitro"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Nasca di Vuolo",
+      "position": "Nasca di Vuolo è indagato per falsa testimonianza in un'inchiesta arbitrale.",
+      "polarity": "neutral",
+      "claim_id": "cdd40d30-d649-42d4-9873-9adbbaf9ed82",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s3",
+      "target_entity": "Nasca di Vuolo",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nasca di Vuolo è indagato per falsa testimonianza in un'inchiesta arbitrale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nasca di Vuolo ehm Paterna, indagato però per una cosa diversa rispetto agli altri quattro, per una falsa testimonianza.",
+          "start_sec": 86.759,
+          "end_sec": 124.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "arbitro",
+        "falsa testimonianza"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Inter",
+      "position": "Nessun tesserato o dirigente dell'Inter è coinvolto nell'indagine in corso.",
+      "polarity": "neutral",
+      "claim_id": "803be476-7567-4647-932f-38cd847b6d65",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nessun tesserato o dirigente dell'Inter è coinvolto nell'indagine in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E non ci sono però dirigenti e non ci sono tesserati dell'Inter. all'interno di queste indagini.",
+          "start_sec": 86.759,
+          "end_sec": 124.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "club",
+        "non coinvolto"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "indirizzo non specificato",
+      "position": "Al momento nessuna società è coinvolta nelle indagini.",
+      "polarity": "neutral",
+      "claim_id": "d2778f88-04b8-464b-ae95-baf6a3ac3f46",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s3",
+      "target_entity": "indirizzo non specificato",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Al momento nessuna società è coinvolta nelle indagini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi al momento, Claudio, nessun tesserato, nessuna società è coinvolta in questa vicenda.",
+          "start_sec": 86.759,
+          "end_sec": 124.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "club",
+        "non coinvolto"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Non ci sono calciatori o dirigenti dell'Inter indagati secondo quanto emerso.",
+      "polarity": "neutral",
+      "claim_id": "c0a4044f-ec86-4f9e-90e3-71d2a721d8ee",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono calciatori o dirigenti dell'Inter indagati secondo quanto emerso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come non ci fossero né calciatori né dirigenti di eh dell'Inter e di altre società indagati",
+          "start_sec": 122.2,
+          "end_sec": 163.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "media",
+        "calciatore",
+        "dirigente"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "indagati",
+      "position": "Nei prossimi giorni ci potrebbero essere svolte importanti sul caso degli indagati.",
+      "polarity": "neutral",
+      "claim_id": "c23daefa-980a-4242-86bd-17019ab89b68",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s4",
+      "target_entity": "indagati",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Nei prossimi giorni ci potrebbero essere svolte importanti sul caso degli indagati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nei prossimi giorni ci potrebbero essere delle svolte importanti su questo caso",
+          "start_sec": 122.2,
+          "end_sec": 163.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "media",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Rocchi",
+      "position": "Rocchi si è autosospeso dalle sue funzioni arbitrali.",
+      "polarity": "neutral",
+      "claim_id": "fd4bdcd3-b105-48a2-b1ae-79c768f6f4fc",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s4",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi si è autosospeso dalle sue funzioni arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocchi si è autosospeso",
+          "start_sec": 122.2,
+          "end_sec": 163.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "autosospensione",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano è scosso da una vicenda importante sugli arbitri.",
+      "polarity": "neutral",
+      "claim_id": "740adb04-24b0-4233-a5e9-742235342dec",
+      "video_id": "h7JFtL68kn0",
+      "segment_id": "s0",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano è scosso da una vicenda importante sugli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calcio italiano in questo momento è scosso da questa vicenda arbitri importante",
+          "start_sec": 0.16,
+          "end_sec": 29.359,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio italiano",
+        "arbitri",
+        "media"
+      ]
+    }
+  ]
+}

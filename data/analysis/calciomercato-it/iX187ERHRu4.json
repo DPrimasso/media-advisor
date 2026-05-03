@@ -1,0 +1,382 @@
+{
+  "video_id": "iX187ERHRu4",
+  "analyzed_at": "2026-05-01T11:40:13.874040+00:00",
+  "metadata": {
+    "title": "ACCORDO per il Nuovo portiere INTER e BOMBA Lukaku-Milan",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulle ultime novità di calciomercato riguardanti l’Inter, in particolare sul ruolo di portiere e sul possibile ritorno di Lukaku in Italia. L’autore evidenzia come l’Inter abbia raggiunto una bozza di accordo con Vicario, considerato un portiere di livello internazionale con esperienza europea, e stia valutando anche Giuseppe Martinez, che ha mostrato buone prestazioni recenti. Inoltre, si sottolinea che Lukaku vede l’Inter come prima opzione per un ritorno, con possibili condizioni di trattativa più favorevoli in caso di retrocessione del Tottenham. L’analisi suggerisce ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "livello europeo",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifoso",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "riscatto",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter si è mossa in maniera concreta e forte per assicurarsi Vicario come portiere",
+      "polarity": "positive",
+      "claim_id": "eadf1536-3c13-43d5-bc66-cfed9168c488",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter si è mossa in maniera concreta e forte per assicurarsi Vicario come portiere",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter, come vi raccontiamo da settimane, si è mosso in maniera concreta e molto forte su Vicario",
+          "start_sec": 29.359,
+          "end_sec": 57.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Lukaku è pronto a tornare in Italia e l'Inter è la sua prima opzione.",
+      "polarity": "positive",
+      "claim_id": "3a3a033a-7b36-4cd2-84ae-1eeccb70718e",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è pronto a tornare in Italia e l'Inter è la sua prima opzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bozza di accordo sostanzialmente col giocatore che è pronto a tornare in Italia",
+          "start_sec": 55.96,
+          "end_sec": 83.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tottenham",
+      "position": "In caso di retrocessione del Tottenham potrebbero cambiare le condizioni per trattare il cartellino di Lukaku.",
+      "polarity": "neutral",
+      "claim_id": "d83cb6ed-fb17-4326-ac01-2fd8c79e1054",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s2",
+      "target_entity": "Tottenham",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "In caso di retrocessione del Tottenham potrebbero cambiare le condizioni per trattare il cartellino di Lukaku.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è da capire poi il Tottenham in caso di retrocessione, ecco, potrebbero cambiare anche le condizioni per andare a trattare il cartellino",
+          "start_sec": 55.96,
+          "end_sec": 83.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter aveva già trattato Lukaku ai tempi dell'Empoli.",
+      "polarity": "positive",
+      "claim_id": "5f2dd15b-bb75-428e-b142-c505517b2e3b",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter aveva già trattato Lukaku ai tempi dell'Empoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter è la prima opzione per lui che lo aveva trattato anche ai tempi dell'Empoli",
+          "start_sec": 55.96,
+          "end_sec": 83.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Joseppe Martinez",
+      "position": "Joseppe Martinez è tornato al centro delle discussioni di mercato.",
+      "polarity": "neutral",
+      "claim_id": "77bb5973-3327-41fe-bfba-329b95801fef",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s3",
+      "target_entity": "Joseppe Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Joseppe Martinez è tornato al centro delle discussioni di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Joseppe Martinez che è tornato al centro delle discussioni",
+          "start_sec": 81.159,
+          "end_sec": 111.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Cristian Kivo",
+      "position": "Cristian Kivo ha lasciato una frase sul perché Martinez non ha avuto più occasioni.",
+      "polarity": "neutral",
+      "claim_id": "1e659437-6c1e-4f1a-838e-be3438880f7d",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s3",
+      "target_entity": "Cristian Kivo",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cristian Kivo ha lasciato una frase sul perché Martinez non ha avuto più occasioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cristian Kivo che ha lasciato lì anche quella frase del \"Lui sa perché non ha avuto più occasioni durante il corso di questa stagione.\"",
+          "start_sec": 81.159,
+          "end_sec": 111.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Joseppe Martinez",
+      "position": "Joseppe Martinez ha diverse pretendenti tra Bologna e Fiorentina.",
+      "polarity": "neutral",
+      "claim_id": "547dc2ee-6cd4-4a69-93d6-d3586e855e44",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s3",
+      "target_entity": "Joseppe Martinez",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Joseppe Martinez ha diverse pretendenti tra Bologna e Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un portiere Martinez che ha tante pretendenti dal Bologna alla Fiorentina",
+          "start_sec": 81.159,
+          "end_sec": 111.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Inter sta anche valutando Giuseppe Martinez come possibile portiere.",
+      "polarity": "neutral",
+      "claim_id": "57a13944-23c0-4a23-9016-2222097eb372",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter sta anche valutando Giuseppe Martinez come possibile portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta facendo delle valutazioni anche su Giuseppe Martinez",
+          "start_sec": 109.399,
+          "end_sec": 140.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "mercato",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Vicario",
+      "position": "Vicario ha contribuito al successo del Tottenham in Europa League con le sue parate l'anno scorso.",
+      "polarity": "positive",
+      "claim_id": "558626d6-8168-497a-a6ea-8c333af913d1",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s5",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario ha contribuito al successo del Tottenham in Europa League con le sue parate l'anno scorso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'anno scorso comunque grazie alle sue parate il Tottenham arrivò anche al successo in Europa League",
+          "start_sec": 137.2,
+          "end_sec": 170.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "prestazione",
+        "Europa League"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Joseppe Martinez",
+      "position": "Joseppe Martinez ha avuto buone prestazioni nell'ultimo periodo.",
+      "polarity": "positive",
+      "claim_id": "38768ebc-1fd8-4321-93ab-01cb43537439",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s3",
+      "target_entity": "Joseppe Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Joseppe Martinez ha avuto buone prestazioni nell'ultimo periodo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "buone prestazioni nell'ultimo periodo",
+          "start_sec": 81.159,
+          "end_sec": 111.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Vicario",
+      "position": "Vicario ha esperienza internazionale anche nelle coppe europee.",
+      "polarity": "positive",
+      "claim_id": "313e1ad7-b410-4abc-8652-0799fbe1a918",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s5",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario ha esperienza internazionale anche nelle coppe europee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha fatto esperienza anche nelle coppe",
+          "start_sec": 137.2,
+          "end_sec": 170.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esperienza",
+        "coppe europee",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Vicario",
+      "position": "Vicario è uno dei portieri più interessanti a livello europeo nella seconda parte della stagione.",
+      "polarity": "positive",
+      "claim_id": "f8012126-6341-4731-a2c9-63c53725632d",
+      "video_id": "iX187ERHRu4",
+      "segment_id": "s5",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vicario è uno dei portieri più interessanti a livello europeo nella seconda parte della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "soprattutto la seconda parte di stagione, diciamo, Vicario ha dato modo di vedere di essere uno dei portieri più interessanti al proprio livello europeo",
+          "start_sec": 137.2,
+          "end_sec": 170.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "prestazione",
+        "livello europeo"
+      ]
+    }
+  ]
+}

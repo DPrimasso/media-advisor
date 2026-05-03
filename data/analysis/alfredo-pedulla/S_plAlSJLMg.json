@@ -1,0 +1,392 @@
+{
+  "video_id": "S_plAlSJLMg",
+  "analyzed_at": "2026-04-24T15:54:38.947426+00:00",
+  "metadata": {
+    "title": "SPALLETTI E LA FAVOLETTA DEL CENTRAVANTI. ADL, FANTASTICHE PICCONATE . RANIERI OSCURATO: NO, DAI🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sul dibattito attuale riguardo alla leadership nel calcio italiano, con particolare attenzione alla candidatura di Giovanni Malagò e alle critiche di Aurelio De Laurentiis. L'autore appoggia la posizione di De Laurentiis, definendone le \"picconate\" come un richiamo necessario a un rinnovamento autentico, lontano da vecchie logiche di potere e poltrone incollate. Viene sottolineata l'importanza di cambiare i criteri di elezione del presidente federale per garantire maggiore rappresentatività e progresso, mentre si critica la gestione passata e si auspica un futuro più dina",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "centravanti",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "governo federale",
+      "relevance": "low"
+    },
+    {
+      "name": "serie a",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Malagò",
+      "position": "Malagò è stato sostenuto da 19 presidenti di Serie A per un ruolo di rilevanza.",
+      "polarity": "neutral",
+      "claim_id": "eb86901f-c2ad-49c5-8a66-5e11985eec5f",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s1",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò è stato sostenuto da 19 presidenti di Serie A per un ruolo di rilevanza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono 19 i presidenti di Serie A che l'hanno fatto nei riguardi di Malagò",
+          "start_sec": 43.28,
+          "end_sec": 83.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "presidenti",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Malagò",
+      "position": "Malagò è arrivato in Lega per confrontarsi con i presidenti di Serie A e ribadire la sua candidatura.",
+      "polarity": "neutral",
+      "claim_id": "ef6879b5-56f6-478c-b242-8b35917a97a4",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s0",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò è arrivato in Lega per confrontarsi con i presidenti di Serie A e ribadire la sua candidatura.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malago è arrivato in Lega per confrontarsi con tutti i presidenti di Serie A per ribadire la sua candidatura",
+          "start_sec": 0.199,
+          "end_sec": 46.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Benny Carbone",
+      "position": "Benny Carbone sta facendo un buonissimo lavoro con l'Inter.",
+      "polarity": "positive",
+      "claim_id": "ee960715-5249-48af-aa89-262879f9ef2b",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s0",
+      "target_entity": "Benny Carbone",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Benny Carbone sta facendo un buonissimo lavoro con l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Benny Carbone che adesso sta facendo un buonissimo lavoro con l'Inter",
+          "start_sec": 0.199,
+          "end_sec": 46.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Malagò",
+      "position": "Malagò è tifoso della Roma ma la cosa viene presa con scherzo e accettazione.",
+      "polarity": "neutral",
+      "claim_id": "601c3e10-bdd8-450e-a5a8-120d2375871d",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s1",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò è tifoso della Roma ma la cosa viene presa con scherzo e accettazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "detto scherzosamente, \"Ce ne faremo una ragione, eh, visto che lui è tifoso della Roma, andremo oltre questo scherzando\"",
+          "start_sec": 43.28,
+          "end_sec": 83.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifoseria",
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "organizzazione",
+      "position": "Si auspica un cambiamento e un senso di rinnovo senza tornare indietro",
+      "polarity": "positive",
+      "claim_id": "19fd8668-221d-4cf6-9fda-57a9c3e848f7",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s2",
+      "target_entity": "organizzazione",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Si auspica un cambiamento e un senso di rinnovo senza tornare indietro",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un senso di rinnovo e di cambiamento. Non torniamo indietro, ma andiamo avanti.",
+          "start_sec": 80.479,
+          "end_sec": 117.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "rinnovamento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Aurelio De Laurentiis",
+      "position": "De Laurentiis è un presidente visionario e concreto che si mette sempre la faccia.",
+      "polarity": "positive",
+      "claim_id": "62a987ee-d961-4265-92b7-4194ca0226c4",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s3",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis è un presidente visionario e concreto che si mette sempre la faccia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E De Laurentis può piacere o non può piacere, ma i numeri sono dalla sua parte. Il Napoli lo ha reso grande. Lui credo che sia un presidente visionario, ma nello stesso tempo concreto, che non fa giri di parole e che ci mette la faccia sempre",
+          "start_sec": 114.759,
+          "end_sec": 149.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gravina è stato ricandidato come presidente nonostante le critiche di chi spera un calcio migliore.",
+      "polarity": "negative",
+      "claim_id": "a6b666f2-76d8-4ffc-8c89-fdaf0b88b2da",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s3",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina è stato ricandidato come presidente nonostante le critiche di chi spera un calcio migliore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che dovrebbe essere anche una forma di autocritica da parte di chi ha avallato lo scempio e mi riferisco anche ai presidenti degli ultimi anni ricandidando Gravina.",
+          "start_sec": 114.759,
+          "end_sec": 149.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Abete",
+      "position": "Abete non è considerato la persona giusta per la posizione discussa per vari motivi",
+      "polarity": "negative",
+      "claim_id": "4ffd5a92-9301-4c72-8ab0-95857b6f5fcf",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s2",
+      "target_entity": "Abete",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Abete non è considerato la persona giusta per la posizione discussa per vari motivi",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abete non è la persona giusta per tanti motivi",
+          "start_sec": 80.479,
+          "end_sec": 117.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "organizzazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Aurelio De Laurentiis",
+      "position": "De Laurentiis ha contribuito a far diventare grande il Napoli.",
+      "polarity": "positive",
+      "claim_id": "52566c50-a834-4ac6-8098-a8118f8bbe4e",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s3",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis ha contribuito a far diventare grande il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli lo ha reso grande.",
+          "start_sec": 114.759,
+          "end_sec": 149.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Aurelio De Laurentis",
+      "position": "Aurelio De Laurentis ha fatto picconate fantastiche.",
+      "polarity": "positive",
+      "claim_id": "629d733d-4642-4572-8b55-036dd66a6fca",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s0",
+      "target_entity": "Aurelio De Laurentis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Aurelio De Laurentis ha fatto picconate fantastiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le sue picconate sono fantastiche",
+          "start_sec": 0.199,
+          "end_sec": 46.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "De Laurentis",
+      "position": "De Laurentis ha mosso critiche forti (picconate)",
+      "polarity": "neutral",
+      "claim_id": "92335bd1-156e-4e48-baf8-491f2e0cecbe",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s2",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis ha mosso critiche forti (picconate)",
+      "evidence_quotes": [
+        {
+          "quote_text": "le picconate di De Laurentis",
+          "start_sec": 80.479,
+          "end_sec": 117.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "criticismo"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Malagò",
+      "position": "Malagò è visto come l'unica persona giusta per rilevare una posizione importante.",
+      "polarity": "neutral",
+      "claim_id": "db043994-60c9-4d9a-91d4-51bebbb23b6e",
+      "video_id": "S_plAlSJLMg",
+      "segment_id": "s1",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò è visto come l'unica persona giusta per rilevare una posizione importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha parlato dell'unica persona giusta per rilevare",
+          "start_sec": 43.28,
+          "end_sec": 83.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media"
+      ]
+    }
+  ]
+}

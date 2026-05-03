@@ -1,0 +1,392 @@
+{
+  "video_id": "shS_oGF_5Qg",
+  "analyzed_at": "2026-04-24T08:17:35.703448+00:00",
+  "metadata": {
+    "title": "🚨 JUVE: L’AFFARE SFUMA! MILAN: ADDIO POSSIBILE PER FOFANA! OFFERTA DARMIAN, FUTURO BOGA, SENESI…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-12T11:33:07+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato riguardanti diversi giocatori di Serie A, con particolare attenzione a Geremy Bogà, Matteo Darmian, Fofana e Marcos Senesi. L'autore sottolinea come Bogà, esterno della Juventus in prestito dal Nizza, abbia avuto un impatto molto positivo sia in campo che nello spogliatoio, tanto che la Juventus intende esercitare il diritto di riscatto fissato a 5 milioni di euro. Inoltre, si evidenzia che Darmian, in scadenza con l'Inter, potrebbe tornare al Torino, che ha già avanzato una proposta. Infine, si accenna a possibili partenz",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "torino",
+      "relevance": "medium"
+    },
+    {
+      "name": "premier league",
+      "relevance": "medium"
+    },
+    {
+      "name": "reparto difensivo",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "riscatto",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Juventus",
+      "position": "Il numero 10 è un simbolo della Juventus presente e futuro.",
+      "polarity": "neutral",
+      "claim_id": "aa30243b-45b6-4812-996d-bd0a8ec0a91b",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il numero 10 è un simbolo della Juventus presente e futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "numero 10 simbolo della Juventus, del presente e del futuro",
+          "start_sec": 81.84,
+          "end_sec": 121.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus deve comunicare formalmente al Nizza l'esercizio del diritto di riscatto di Boga fissato a 5 milioni di euro.",
+      "polarity": "neutral",
+      "claim_id": "5433de19-dfb7-4ed8-8285-5dde05828f1c",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus deve comunicare formalmente al Nizza l'esercizio del diritto di riscatto di Boga fissato a 5 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Manca solo l'ultimo passaggio formale, ovvero informare il Nizza, che questa questo diritto di riscatto da fissato a 5 milioni di euro venga poi esercitato",
+          "start_sec": 120.119,
+          "end_sec": 161.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "riscatto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Gerem Bogà",
+      "position": "Gerem Bogà è un esterno della Juventus in prestito dal Nizza con novità importanti sul suo futuro.",
+      "polarity": "neutral",
+      "claim_id": "d86de328-3888-445f-a236-ad5902018b62",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s0",
+      "target_entity": "Gerem Bogà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Gerem Bogà è un esterno della Juventus in prestito dal Nizza con novità importanti sul suo futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "futuro dell'esterno della Juventus in prestito dal Nizza",
+          "start_sec": 0.08,
+          "end_sec": 36.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Matteo Darmian",
+      "position": "Ci sono novità che riguardano il futuro di Matteo Darmian all'Inter.",
+      "polarity": "neutral",
+      "claim_id": "3e4ea485-3e5e-4e61-9808-87a52342210a",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s1",
+      "target_entity": "Matteo Darmian",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono novità che riguardano il futuro di Matteo Darmian all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tematiche partendo dal futuro di Matteo D'Armiana. Ci sono novità per quanto riguarda il terzino dell'Inter",
+          "start_sec": 33.719,
+          "end_sec": 84.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "inter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Jerome Boga",
+      "position": "Jerome Boga ha avuto un impatto positivo nel mondo Juventus.",
+      "polarity": "positive",
+      "claim_id": "89a01093-e4ed-4b64-a853-a9ced0704032",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s1",
+      "target_entity": "Jerome Boga",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Jerome Boga ha avuto un impatto positivo nel mondo Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Insomma, come vi ho raccontato all'interno della nostra introduzione, ehm è un calciatore che sta rendendo, eh ha avuto un ottimo impatto nel mondo Juventus",
+          "start_sec": 33.719,
+          "end_sec": 84.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "juventus"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Geremy Bogà",
+      "position": "Geremy Bogà ha segnato quattro gol e fornito un assist in nove partite di campionato.",
+      "polarity": "positive",
+      "claim_id": "a245059d-62c0-4b01-8e6b-d517a073beb0",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s2",
+      "target_entity": "Geremy Bogà",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Geremy Bogà ha segnato quattro gol e fornito un assist in nove partite di campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "29 anni, eh nove partite in questo campionato, quattro gol e un assist",
+          "start_sec": 81.84,
+          "end_sec": 121.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Geremy Bogà",
+      "position": "Geremy Bogà ha avuto un impatto molto positivo sulla Juventus sia tecnicamente che comportamentalmente.",
+      "polarity": "positive",
+      "claim_id": "8c347067-478e-49a7-b560-f99dfaf2e24c",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s2",
+      "target_entity": "Geremy Bogà",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Geremy Bogà ha avuto un impatto molto positivo sulla Juventus sia tecnicamente che comportamentalmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bogà è un calciatore che ha sorpreso eh tanti all'interno della Juventus dal punto di vista sia tecnico sia comportamentale",
+          "start_sec": 81.84,
+          "end_sec": 121.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha un accordo di base per riscattare Boga dal Nizza.",
+      "polarity": "positive",
+      "claim_id": "66ddcc90-646a-4298-97f0-464800cf9a0d",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha un accordo di base per riscattare Boga dal Nizza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è già un accordo, una base di accordo sia sull'ingaggio eh del calciatore sia ovviamente sul riscatto",
+          "start_sec": 120.119,
+          "end_sec": 161.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "riscatto",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Boga",
+      "position": "Boga rimarrà alla Juventus anche per la prossima stagione.",
+      "polarity": "positive",
+      "claim_id": "342c68f5-7744-4b32-a652-1fc218fc68c2",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s3",
+      "target_entity": "Boga",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Boga rimarrà alla Juventus anche per la prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus ha tutte le intenzioni di tenere e di trattenere Boga anche in vista dell'anno prossimo",
+          "start_sec": 120.119,
+          "end_sec": 161.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "riscatto",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Fofana",
+      "position": "Fofana del Milan potrebbe lasciare la squadra.",
+      "polarity": "neutral",
+      "claim_id": "b9d2da0c-9a42-4833-8b3f-f73263cc6f90",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s1",
+      "target_entity": "Fofana",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fofana del Milan potrebbe lasciare la squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "occhio anche a Fofanà del Milan",
+          "start_sec": 33.719,
+          "end_sec": 84.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "milan"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Marcos Senesi",
+      "position": "Ci sono novità riguardanti Marcos Senesi.",
+      "polarity": "neutral",
+      "claim_id": "74772cbf-235a-451e-8dc4-6fe4957c78d5",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s1",
+      "target_entity": "Marcos Senesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono novità riguardanti Marcos Senesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e Marcos Senesi",
+          "start_sec": 33.719,
+          "end_sec": 84.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Geremy Bogà",
+      "position": "Il gol di Bogà contro l'Atalanta è stato molto importante per la corsa Champions della Juventus.",
+      "polarity": "positive",
+      "claim_id": "d55df438-6472-4a0f-8eb4-761167f28fc4",
+      "video_id": "shS_oGF_5Qg",
+      "segment_id": "s2",
+      "target_entity": "Geremy Bogà",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il gol di Bogà contro l'Atalanta è stato molto importante per la corsa Champions della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ultimo gol a Bergamo contro l'Atalanta molto molto importante per il futuro della Juventus in ottica corsa Champions",
+          "start_sec": 81.84,
+          "end_sec": 121.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

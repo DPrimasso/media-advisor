@@ -1,0 +1,409 @@
+{
+  "video_id": "-0rBqy-2_lc",
+  "analyzed_at": "2026-04-26T11:29:54.413105+00:00",
+  "metadata": {
+    "title": "🚨 ANGUISSA E FAGIOLI: LE MOSSE! LUKAKU E IL SOGNO MILANO, IL PIANO FRATTESI PER L’ADDIO INTER…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle prospettive di mercato di quattro calciatori, con particolare attenzione a Davide Frattesi, Anguissa, Lukaku e Fagioli. L'autore sottolinea come Frattesi, nonostante un minutaggio limitato e problemi fisici, lascerà quasi certamente l'Inter in estate, con diverse squadre italiane e straniere interessate al suo acquisto. Romano evidenzia che questa cessione appare ormai scontata, segnando la fine del percorso del centrocampista nerazzurro, che non è mai riuscito a inserirsi pienamente nei piani tattici dell'allenatore. Le trattative future per Angu",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "minutaggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Davide Frattesi",
+      "position": "Davide Frattesi ha giocato poco più di 1000 minuti in tutte le competizioni quest'anno.",
+      "polarity": "neutral",
+      "claim_id": "6deca2e5-c126-403e-b70c-5a464642cf43",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s1",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Frattesi ha giocato poco più di 1000 minuti in tutte le competizioni quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Davide Frattesi, sul centrocampista nerazzurro che quest'anno ha trovato veramente poco spazio a livello di minutaggio, appena poco più di 1000 minuti giocati in tutte le competizioni",
+          "start_sec": 35.2,
+          "end_sec": 85.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "minutaggio",
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Davide Frattesi",
+      "position": "Davide Frattesi lascerà l'Inter in estate nonostante il contratto fino al 2028.",
+      "polarity": "neutral",
+      "claim_id": "ade15b34-59d5-4489-9416-c8ef5067629b",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s4",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Frattesi lascerà l'Inter in estate nonostante il contratto fino al 2028.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Davide Frattesi, il centrocampista della nazionale con un contratto di scadenza nel 2028 lascerà l'Inter in estate",
+          "start_sec": 146.8,
+          "end_sec": 178.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto",
+        "trasferimento"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Frattesi",
+      "position": "Frattesi ha avuto diversi acciacchi fisici soprattutto all'inizio della stagione.",
+      "polarity": "neutral",
+      "claim_id": "c45be7eb-9ff3-4a4b-a3ed-1eb11f5a39ae",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s2",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Frattesi ha avuto diversi acciacchi fisici soprattutto all'inizio della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha avuto anche diversi acciacchi dal punto di vista fisico, soprattutto di inizio stagione",
+          "start_sec": 81.56,
+          "end_sec": 117.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "forma fisica"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Frattesi",
+      "position": "Frattesi non è mai entrato davvero nei piani e negli schemi dell'allenatore.",
+      "polarity": "negative",
+      "claim_id": "084d899d-557f-47fe-bb53-99cf0dc71794",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s2",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Frattesi non è mai entrato davvero nei piani e negli schemi dell'allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è mai entrato veramente nei piani e negli schemi dell'allenatore",
+          "start_sec": 81.56,
+          "end_sec": 117.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "piani tecnico-tattici"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Frattesi",
+      "position": "Il futuro di Frattesi è stato discusso in diverse finestre di mercato.",
+      "polarity": "neutral",
+      "claim_id": "0a915052-e2f6-4cdd-a387-46fc76cc40c9",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s2",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il futuro di Frattesi è stato discusso in diverse finestre di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il futuro di Frattesi, che è un futuro eh, insomma, parliamo di Frattesi da diverse finestre di mercato",
+          "start_sec": 81.56,
+          "end_sec": 117.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "trasferimenti"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Frattesi",
+      "position": "A gennaio Frattesi è stato molto vicino al trasferimento al Nottingham Forest.",
+      "polarity": "neutral",
+      "claim_id": "71dcf3e9-72ea-4ec2-923d-8da0a1e754d1",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s3",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "A gennaio Frattesi è stato molto vicino al trasferimento al Nottingham Forest.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gennaio Frattesi è stato veramente a un passo dal Nottingham Forest perché gli accordi erano totali.",
+          "start_sec": 115.24,
+          "end_sec": 149.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasferimento",
+        "nottingham forest",
+        "frattesi"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Nottingham Forest",
+      "position": "Nottingham Forest aveva prenotato voli per Frattesi per il trasferimento.",
+      "polarity": "neutral",
+      "claim_id": "bda157d5-c014-4dcb-898d-ee4346c6d1b2",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s3",
+      "target_entity": "Nottingham Forest",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nottingham Forest aveva prenotato voli per Frattesi per il trasferimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Addirittura ricordo che il Nottingham aveva anche già riservato, prenotato dei voli per frattesi",
+          "start_sec": 115.24,
+          "end_sec": 149.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasferimento",
+        "nottingham forest",
+        "frattesi"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Frattesi",
+      "position": "Frattesi è rimasto all'Inter a causa di problemi legati al sostituto di Curtis Jones.",
+      "polarity": "neutral",
+      "claim_id": "618e448f-340e-4e73-9d8b-670632b7d271",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s3",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Frattesi è rimasto all'Inter a causa di problemi legati al sostituto di Curtis Jones.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una serie di incastri non ha portato l'operazione a sbloccarsi, soprattutto eh quello che riguarda il sostituto di Frattesi, quello che riguardava il sostituto di Frattesi in quel in quel momento lì, Curtis Jones. Quindi di fatto poi Frattesi è rimasto è rimasto all'Inter",
+          "start_sec": 115.24,
+          "end_sec": 149.599,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasferimento",
+        "frattesi",
+        "curtis jones"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Davide Frattesi",
+      "position": "Davide Frattesi sta dando il massimo per essere un'arma in più nel finale di stagione.",
+      "polarity": "positive",
+      "claim_id": "1d977173-4f30-41c0-bfc3-abec41a822f8",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s4",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Frattesi sta dando il massimo per essere un'arma in più nel finale di stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta facendo il massimo il possibile per essere un'arma in più anche in questo finale di stagione",
+          "start_sec": 146.8,
+          "end_sec": 178.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "impegno",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter si avvicina a grandi passi allo scudetto.",
+      "polarity": "positive",
+      "claim_id": "116ff012-f497-41ac-866f-d38790737bb8",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter si avvicina a grandi passi allo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dove l'Inter ormai si avvicina a grandi passi allo scudetto",
+          "start_sec": 146.8,
+          "end_sec": 178.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "scudetto",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Davide Frattesi",
+      "position": "Il futuro di Davide Frattesi sarà oggetto di discussione nei prossimi mesi.",
+      "polarity": "neutral",
+      "claim_id": "4462c01e-28dc-4c7d-94aa-eede120d717d",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s0",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il futuro di Davide Frattesi sarà oggetto di discussione nei prossimi mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parleremo del futuro di Davide Frattesi",
+          "start_sec": 0.04,
+          "end_sec": 39.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Frattesi",
+      "position": "Frattesi ha avuto un minutaggio molto ridotto in questa stagione.",
+      "polarity": "negative",
+      "claim_id": "ec743592-3c23-4f30-917d-c0d506139f7f",
+      "video_id": "-0rBqy-2_lc",
+      "segment_id": "s2",
+      "target_entity": "Frattesi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Frattesi ha avuto un minutaggio molto ridotto in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un minutaggio veramente molto ridotto",
+          "start_sec": 81.56,
+          "end_sec": 117.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "minutaggio",
+        "prestazione"
+      ]
+    }
+  ]
+}

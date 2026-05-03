@@ -1,0 +1,397 @@
+{
+  "video_id": "1Blq85frz24",
+  "analyzed_at": "2026-04-24T08:33:19.413872+00:00",
+  "metadata": {
+    "title": "LA STAGIONE DI CONTE È FALLIMENTARE‼️ NAPOLI-LAZIO 0-2",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita Lazio-Napoli, sottolineando la superiorità tattica di Sarri e della Lazio rispetto a Conte e al suo Napoli. L’autore definisce la stagione di Antonio Conte un fallimento, evidenziando il distacco in classifica, l’eliminazione precoce in Champions League e Coppa Italia, e i numerosi infortuni muscolari nonostante investimenti di mercato significativi. Viene inoltre riconosciuto il valore del lavoro di Sarri con la Lazio, che ha offerto un calcio efficace e senza problemi interni, preparandosi al meglio per le prossime sfide. La conclusione chiave è che, nonostante l",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "anno sportivo",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "critica",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Sarri",
+      "position": "Sarri outplayed Antonio Conte and his Napoli tactically.",
+      "polarity": "positive",
+      "claim_id": "37d4b0b0-29a5-4e06-b49b-1486027f277a",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s0",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri outplayed Antonio Conte and his Napoli tactically.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sarri totally outplayed the opponent, and by opponent I mean Antonio Conte and his Napoli",
+          "start_sec": 0.09,
+          "end_sec": 60.93,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tattica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte's season with Napoli is considered a failure.",
+      "polarity": "negative",
+      "claim_id": "25b5a4f6-7cc9-43cf-9c47-cab55a75f2e1",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte's season with Napoli is considered a failure.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Antonio Conte's season is a failure, I don't think we can find another adjective",
+          "start_sec": 0.09,
+          "end_sec": 60.93,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "stagione",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "La stagione di Antonio Conte è considerata fallimentare nonostante sia un grande allenatore.",
+      "polarity": "negative",
+      "claim_id": "99d2b8e6-9e04-4f2a-aaf4-489e7ae8e88a",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La stagione di Antonio Conte è considerata fallimentare nonostante sia un grande allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Antonio Conte's season is full of muscle injuries, which are attributed to me, I don't think, so it's a season with some investments on the market, also quite expensive. Let's say that Conte is a great coach, just because he is a great coach, this season is a failure, otherwise we don't make fun of him, we make fun of him alone.",
+          "start_sec": 60.93,
+          "end_sec": 114.61,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "stagione fallimentare"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "La stagione di Conte include investimenti di mercato piuttosto costosi.",
+      "polarity": "neutral",
+      "claim_id": "11ad83bc-77a6-4df0-b0c9-df4b56c8e4a7",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La stagione di Conte include investimenti di mercato piuttosto costosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "so it's a season with some investments on the market, also quite expensive.",
+          "start_sec": 60.93,
+          "end_sec": 114.61,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Lazio",
+      "position": "Quest'anno Lazio non ha avuto problemi relativi alla tifoseria o alla presidenza.",
+      "polarity": "neutral",
+      "claim_id": "e1feade4-b39e-4a36-b0fe-56e17b03e02d",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Quest'anno Lazio non ha avuto problemi relativi alla tifoseria o alla presidenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it is not a year where there have been problems also related to tifoseria and presidency",
+          "start_sec": 162.59,
+          "end_sec": 212.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifoseria",
+        "presidenza",
+        "problemi"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allenatore di Lazio",
+      "position": "L'allenatore della Lazio è conosciuto come uno che ha bisogno di tempo per lavorare.",
+      "polarity": "neutral",
+      "claim_id": "21efb2ef-8c6d-4c47-b908-d38f0d3574e5",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s3",
+      "target_entity": "Allenatore di Lazio",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore della Lazio è conosciuto come uno che ha bisogno di tempo per lavorare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "He is a coach that we know, one of those who needs to work, and then if you give him time",
+          "start_sec": 162.59,
+          "end_sec": 212.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tempo",
+        "lavoro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "Lazio played a really beautiful game and was dangerous after the restart, scoring two goals.",
+      "polarity": "positive",
+      "claim_id": "687fb95a-703b-40f6-bcb0-8830040a4d22",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s4",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio played a really beautiful game and was dangerous after the restart, scoring two goals.",
+      "evidence_quotes": [
+        {
+          "quote_text": "It was a really beautiful game, the one of Lazio today, I liked it... When he started again, Lazio was really dangerous, the sign that today he scored two goals",
+          "start_sec": 212.32,
+          "end_sec": 266.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "Lazio did not allow almost any danger in the first half against Napoli.",
+      "polarity": "positive",
+      "claim_id": "f5a17cf9-3245-4d63-a96f-3fbba4dcb34c",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s4",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio did not allow almost any danger in the first half against Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it did not allow almost any danger, in the first half",
+          "start_sec": 212.32,
+          "end_sec": 266.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Lazio",
+      "position": "Lazio played a perfect tactical game against Napoli.",
+      "polarity": "positive",
+      "claim_id": "cf5310b5-3253-43b4-8d9a-7218f33f0dcc",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Lazio played a perfect tactical game against Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "from a tactical point of view, it was perfect",
+          "start_sec": 0.09,
+          "end_sec": 60.93,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Conte",
+      "position": "La stagione di Antonio Conte è segnata da numerosi infortuni muscolari.",
+      "polarity": "negative",
+      "claim_id": "1714df5a-7143-4a9d-8cca-f7ddf2e4b13f",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La stagione di Antonio Conte è segnata da numerosi infortuni muscolari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Antonio Conte's season is full of muscle injuries",
+          "start_sec": 60.93,
+          "end_sec": 114.61,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "infortunio",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarri",
+      "position": "Con Sarri il tempo è stato definito 'gallant', quindi più generoso rispetto ad altri allenatori.",
+      "polarity": "neutral",
+      "claim_id": "512ab953-e883-4fe8-827c-8fe4b15523b0",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s3",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Con Sarri il tempo è stato definito 'gallant', quindi più generoso rispetto ad altri allenatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "never as with Sarri time is gallant",
+          "start_sec": 162.59,
+          "end_sec": 212.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tempo",
+        "Sarri"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Lazio",
+      "position": "Il mercato della Lazio è stato bloccato quest'anno.",
+      "polarity": "neutral",
+      "claim_id": "ea3bcf26-7866-429b-a6a7-ca5777a17451",
+      "video_id": "1Blq85frz24",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato della Lazio è stato bloccato quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "market blocked",
+          "start_sec": 162.59,
+          "end_sec": 212.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "blocco"
+      ]
+    }
+  ]
+}

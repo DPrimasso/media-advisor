@@ -1,0 +1,393 @@
+{
+  "video_id": "vDqfK68pAoc",
+  "analyzed_at": "2026-04-25T10:55:48.306227+00:00",
+  "metadata": {
+    "title": "CHIARIELLO, \"NON MI STA BENE\" 03/04/2026 #radiocrc",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video commenta criticamente la gestione di Gabriele Gravina come presidente della FIGC, evidenziando una leadership debole e incapace di attuare le riforme promesse, nonostante l'ampio consenso elettorale ricevuto. L'autore sottolinea come Gravina sia responsabile di due mancati Mondiali e di una gestione poco incisiva, limitandosi a un solo provvedimento positivo e a un aumento del proprio stipendio. La posizione principale è che, sebbene sia giusto chiedere responsabilità, la richiesta di \"tagliare teste\" appare ipocrita, dato che Gravina era funzionale a un sistema che non voleva cambiam",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "riforma",
+      "relevance": "medium"
+    },
+    {
+      "name": "politica",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "politica sportiva",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato calciatori",
+      "relevance": "low"
+    },
+    {
+      "name": "infrastruttura",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Gazzetta dello Sport",
+      "position": "La Gazzetta ha cambiato il colore della sua pagina da rosa a verde per celebrare i suoi 130 anni.",
+      "polarity": "neutral",
+      "claim_id": "533a2a9a-904a-4727-be92-e3fa09fec88a",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s0",
+      "target_entity": "Gazzetta dello Sport",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Gazzetta ha cambiato il colore della sua pagina da rosa a verde per celebrare i suoi 130 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi questa svolta verde è su fondo verde perché la Gazzetta oggi è non rosa ma verdina",
+          "start_sec": 4.64,
+          "end_sec": 126.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Shefferin",
+      "position": "Shefferin ha messo in dubbio la partita Italia-Turchia 2032 minacciando la UEFA.",
+      "polarity": "negative",
+      "claim_id": "d862da97-91ad-4ae1-81fc-8c3aeb9c75e9",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s2",
+      "target_entity": "Shefferin",
+      "entity_type": "other",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Shefferin ha messo in dubbio la partita Italia-Turchia 2032 minacciando la UEFA.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ieri Shefferin, tra una minaccia e l'altra ha perfino messo in dubbio Italia-Turchia 2032",
+          "start_sec": 220.72,
+          "end_sec": 314.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "europe",
+        "minaccia"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina ha ricevuto il 98,7% dei voti per la sua leadership.",
+      "polarity": "neutral",
+      "claim_id": "0d7521e4-8007-419b-8837-095188ab2bba",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha ricevuto il 98,7% dei voti per la sua leadership.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi ha votato Gravina 98,7%",
+          "start_sec": 220.72,
+          "end_sec": 314.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "voto"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gazzetta dello Sport",
+      "position": "La Gazzetta ha scelto il colore verdino per ricordare le sue origini.",
+      "polarity": "neutral",
+      "claim_id": "17211606-ca89-4800-8d7c-5441f3c1aa8a",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s0",
+      "target_entity": "Gazzetta dello Sport",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Gazzetta ha scelto il colore verdino per ricordare le sue origini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché oggi si festeggia i 130 anni di questo giornale storico e guida del mondo dello sport italiano che nacque con il colore verdino non rosa",
+          "start_sec": 4.64,
+          "end_sec": 126.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Italia",
+      "position": "L'Italia è criticata per una leadership debole che pretenderebbe il taglio delle teste dopo fallimenti sportivi.",
+      "polarity": "negative",
+      "claim_id": "1ed46025-ac9f-47ad-a7f3-adb758dd455f",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia è criticata per una leadership debole che pretenderebbe il taglio delle teste dopo fallimenti sportivi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa Italia Forcaiola che pretende il taglio delle teste",
+          "start_sec": 4.64,
+          "end_sec": 126.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gravina è considerato imbelle e responsabile per la mancata qualificazione a due Mondiali.",
+      "polarity": "negative",
+      "claim_id": "446fbfb5-5f96-4449-9527-b7848a4060ee",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s0",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina è considerato imbelle e responsabile per la mancata qualificazione a due Mondiali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gravina ha molte colpe, soprattutto quella di essere stato imbelle. Al di là delle scelte fatte sul piano tecnico, Gravina paga due mondiali saltati",
+          "start_sec": 4.64,
+          "end_sec": 126.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "gravina",
+      "position": "Gravina non ha mantenuto le promesse di riforma fatte durante le sue elezioni come presidente federale.",
+      "polarity": "negative",
+      "claim_id": "81b15e83-96fa-49aa-9158-3fd27a20fa70",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s1",
+      "target_entity": "gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina non ha mantenuto le promesse di riforma fatte durante le sue elezioni come presidente federale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "promettendo riforme è stato rieletto con percentuali bulgare 98,7% nel 2025, promettendo riforme. Tutto ciò non è mai avvenuto",
+          "start_sec": 124.68,
+          "end_sec": 223.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "promesse",
+        "presidenza",
+        "riforma"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "gravina",
+      "position": "Gravina ha aumentato lo stipendio della sua presidenza senza avviare riforme.",
+      "polarity": "negative",
+      "claim_id": "9c72e8ed-253b-4bcd-be7d-00c6edae15a0",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s1",
+      "target_entity": "gravina",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina ha aumentato lo stipendio della sua presidenza senza avviare riforme.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno buono, e uno personale. Ess aumentato lo stipendio della sua presidenza non c'è memoria traccia di alcuna riforma",
+          "start_sec": 124.68,
+          "end_sec": 223.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stipendio",
+        "presidenza",
+        "riforma"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "gravina",
+      "position": "Gravina è passato alla storia federale solo per un provvedimento positivo e uno personale.",
+      "polarity": "negative",
+      "claim_id": "7e973e2c-e417-40be-94b9-f48a9a9bad88",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s1",
+      "target_entity": "gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina è passato alla storia federale solo per un provvedimento positivo e uno personale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gravina è stato il presidente che è passato alla storia per un solo provvedimento, uno buono, e uno personale",
+          "start_sec": 124.68,
+          "end_sec": 223.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "presidenza",
+        "provvedimenti"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "gravina",
+      "position": "Gravina non ha ridotto il numero di squadre in Serie C come promesso.",
+      "polarity": "negative",
+      "claim_id": "2e5b77df-ea2a-4def-b832-6a51576c0ace",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s1",
+      "target_entity": "gravina",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina non ha ridotto il numero di squadre in Serie C come promesso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si parlava di una purga sostanziosa per la Serie Cgere 60 squadre e continua a essere a 60 squadre con squadre che saltano durante",
+          "start_sec": 124.68,
+          "end_sec": 223.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "riforma",
+        "serie c",
+        "numero squadre"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente",
+      "position": "Il presidente è considerato incapace di fare alcunché durante la stagione.",
+      "polarity": "negative",
+      "claim_id": "799a5115-0ccd-4edc-948d-cb1a4bb14b6b",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s2",
+      "target_entity": "presidente",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente è considerato incapace di fare alcunché durante la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un presidente considerato incapace di fare alcunché",
+          "start_sec": 220.72,
+          "end_sec": 314.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "incapacità"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente",
+      "position": "Il presidente ha l'unico merito di non aver fermato il calcio durante il Covid.",
+      "polarity": "positive",
+      "claim_id": "f4221815-6d17-46d1-8579-c5942b349fcc",
+      "video_id": "vDqfK68pAoc",
+      "segment_id": "s2",
+      "target_entity": "presidente",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente ha l'unico merito di non aver fermato il calcio durante il Covid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello di non aver fermato il calcio all'epoca del Covid",
+          "start_sec": 220.72,
+          "end_sec": 314.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "gestione Covid"
+      ]
+    }
+  ]
+}

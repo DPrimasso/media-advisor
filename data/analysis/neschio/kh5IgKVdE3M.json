@@ -1,0 +1,391 @@
+{
+  "video_id": "kh5IgKVdE3M",
+  "analyzed_at": "2026-04-30T07:32:56.869584+00:00",
+  "metadata": {
+    "title": "SE SUCCEDE IN ITALIA PRENDIAMO IL LANCIAFIAMME‼️ ATLETICO MADRID-ARSENAL 1-1",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita Atletico Madrid-Arsenal, focalizzandosi soprattutto sulle decisioni arbitrali, ritenute troppo permissive rispetto agli standard europei, con rigori concessi che in altri contesti non sarebbero stati fischiati. L'autore sottolinea come il match sia stato tatticamente e agonisticamente diverso da quello precedente, evidenziando la mentalità reattiva di Simeone e il carattere più italiano dell'Arsenal. Conclude che la qualità del gioco non è inferiore a quella delle altre partite, ma che ciò che davvero incide sulle prestazioni è la mentalità delle squadre in campo.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "qualità",
+      "relevance": "medium"
+    },
+    {
+      "name": "rigore",
+      "relevance": "medium"
+    },
+    {
+      "name": "competitività",
+      "relevance": "low"
+    },
+    {
+      "name": "partita internazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "difensore",
+      "relevance": "low"
+    },
+    {
+      "name": "tecnica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Arbitro",
+      "position": "In Europa non si concederebbe un rigore come quello visto nella partita.",
+      "polarity": "negative",
+      "claim_id": "b1195f15-bf2b-428a-9c8e-362ecae07500",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s1",
+      "target_entity": "Arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "In Europa non si concederebbe un rigore come quello visto nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, ma in Europa, un rigore così non succederebbe mai",
+          "start_sec": 10.34,
+          "end_sec": 63.940000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Match fra PSG e Bayern",
+      "position": "Sono stati visti quattro rigori tra PSG e Bayern che non sarebbero stati concessi.",
+      "polarity": "negative",
+      "claim_id": "316df39a-2f9c-4690-87d6-fe4100014258",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s1",
+      "target_entity": "Match fra PSG e Bayern",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sono stati visti quattro rigori tra PSG e Bayern che non sarebbero stati concessi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho visto quattro rigori, quattro rigori, tra PSG Bayern",
+          "start_sec": 10.34,
+          "end_sec": 63.940000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro non ha fischiato un rigore che alcuni ritenevano dubbio o inesistente.",
+      "polarity": "negative",
+      "claim_id": "5b43a318-463d-4329-908b-1da32a931ebb",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro non ha fischiato un rigore che alcuni ritenevano dubbio o inesistente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the one that they call a penalty, doesn't give it. Maybe, for me, not even that",
+          "start_sec": 63.94,
+          "end_sec": 106.77000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "partita Atletico Madrid-Arsenal",
+      "position": "La partita tra Atletico Madrid e Arsenal è stata diversa rispetto alla gara di ieri per motivi tattici e agonistici.",
+      "polarity": "neutral",
+      "claim_id": "1eae3c19-0705-4ba9-921f-70a7eb446163",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s2",
+      "target_entity": "partita Atletico Madrid-Arsenal",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Atletico Madrid e Arsenal è stata diversa rispetto alla gara di ieri per motivi tattici e agonistici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Let's talk about this match, totally different from yesterday's match, for both tactical issues and agonistic issues",
+          "start_sec": 63.94,
+          "end_sec": 106.77000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "qualità dei giocatori",
+      "position": "Qualche persona potrebbe giudicare la qualità dei giocatori di questa partita inferiore alla precedente, ma non è un assunto certo.",
+      "polarity": "neutral",
+      "claim_id": "bf01aab2-fbd9-4f1c-86bb-e3bbbd6777d9",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s2",
+      "target_entity": "qualità dei giocatori",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Qualche persona potrebbe giudicare la qualità dei giocatori di questa partita inferiore alla precedente, ma non è un assunto certo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Maybe someone will also say for qualitative issues, even if quality, guys, at least one player",
+          "start_sec": 63.94,
+          "end_sec": 106.77000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Diego Simeone",
+      "position": "Simeone shows a highly reactive mentality when the team is losing, visible in his tunnel behavior during the game.",
+      "polarity": "neutral",
+      "claim_id": "909d3f51-4766-4646-ac92-87854a19fbe9",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s6",
+      "target_entity": "Diego Simeone",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Simeone shows a highly reactive mentality when the team is losing, visible in his tunnel behavior during the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I have more than anything else sporadic images in my head, that of Simeone who is under, in the tunnel, already barouf.",
+          "start_sec": 175.63,
+          "end_sec": 215.35,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mentalità",
+        "comportamento",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "PSG",
+      "position": "PSG is a team that wants to go ahead, play beautifully and create with the ball.",
+      "polarity": "positive",
+      "claim_id": "2b00737a-0391-44ed-9b07-6c3ed84ebf19",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s7",
+      "target_entity": "PSG",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "PSG is a team that wants to go ahead, play beautifully and create with the ball.",
+      "evidence_quotes": [
+        {
+          "quote_text": "PSG and Bayern Munich are teams that want to go ahead, beautiful, straight, you play with the ball, you create.",
+          "start_sec": 215.35,
+          "end_sec": 257.529,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid",
+      "position": "Atletico Madrid plays directly on the racetrack in a distinct style.",
+      "polarity": "neutral",
+      "claim_id": "62ca2685-fc9b-4a44-be9a-a3c07eeb6309",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s7",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Atletico Madrid plays directly on the racetrack in a distinct style.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Athletics is a team that puts it on the racetrack and not by chance these things come out here.",
+          "start_sec": 215.35,
+          "end_sec": 257.529,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "Arsenal's playing style is more Italian-like, resulting in a more blocked and contracted game.",
+      "polarity": "neutral",
+      "claim_id": "21fc6a22-7c37-4c18-bd57-c3bf1734a3b4",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s7",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Arsenal's playing style is more Italian-like, resulting in a more blocked and contracted game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Arsenal, in my opinion, is one of the teams, take it with the pliers, more Italian than possible in many respects. And so it was a much more blocked, much more contracted game.",
+          "start_sec": 215.35,
+          "end_sec": 257.529,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatori",
+      "position": "La qualità è la parola chiave nel gioco dei giocatori.",
+      "polarity": "positive",
+      "claim_id": "dc83a0ed-a888-43a8-8310-c10bfcaabd9f",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s8",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La qualità è la parola chiave nel gioco dei giocatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "because then the key word, as I said yesterday, is quality. Quality is the key word",
+          "start_sec": 257.529,
+          "end_sec": 316.93,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "qualità",
+        "performance",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Julian Alvarez",
+      "position": "Julian Alvarez kicks the ball with a unique high-quality technique used by very few players worldwide.",
+      "polarity": "positive",
+      "claim_id": "f7e1b950-3f23-43e7-bb1b-caf51e9148af",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s9",
+      "target_entity": "Julian Alvarez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Julian Alvarez kicks the ball with a unique high-quality technique used by very few players worldwide.",
+      "evidence_quotes": [
+        {
+          "quote_text": "if you see how he kicks the ball, he does it and maximum three other players do it all over the world",
+          "start_sec": 317.43,
+          "end_sec": 354.54999999999995,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tecnica",
+        "qualità",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "difensori",
+      "position": "I difensori non sono stati efficaci durante la partita.",
+      "polarity": "negative",
+      "claim_id": "0924e462-003f-4985-8870-c7ee25681a71",
+      "video_id": "kh5IgKVdE3M",
+      "segment_id": "s8",
+      "target_entity": "difensori",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I difensori non sono stati efficaci durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "But where were the defenders?",
+          "start_sec": 257.529,
+          "end_sec": 316.93,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difensore",
+        "performance",
+        "tattica"
+      ]
+    }
+  ]
+}

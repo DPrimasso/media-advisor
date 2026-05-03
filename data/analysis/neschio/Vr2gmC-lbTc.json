@@ -1,0 +1,376 @@
+{
+  "video_id": "Vr2gmC-lbTc",
+  "analyzed_at": "2026-04-24T08:32:27.729406+00:00",
+  "metadata": {
+    "title": "VI RICORDATE LA JUVE DI TUDOR⁉️ JUVENTUS-BOLOGNA 2-0",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull’analisi della Juventus guidata da Spalletti, evidenziando come l’allenatore abbia saputo trasmettere efficacemente le sue idee alla squadra, migliorandone significativamente il gioco. L’autore sottolinea che la Juventus gioca bene, crea molte occasioni da gol ed è molto pericolosa, anche se non ancora perfetta. Inoltre, sorprendentemente, la squadra è vicina al secondo posto in classifica, a soli tre punti dalla matematica certezza della Champions League, contrariamente alle aspettative iniziali di un possibile anno zero. La conclusione chiave è che Spalletti si conf",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "pericolosità",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "assenza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Spalletti",
+      "position": "Spalletti has successfully indoctrinated his team with his ideas, improving performance.",
+      "polarity": "positive",
+      "claim_id": "5005b744-bee3-45c6-8915-b8ae888a9ab3",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s0",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti has successfully indoctrinated his team with his ideas, improving performance.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spalletti, giving him time to shake this group and indoctrinate him with his ideas, I never had doubts that he could do and show what he is showing now.",
+          "start_sec": 0.33,
+          "end_sec": 76.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus plays very well with the ball and players know their roles well.",
+      "polarity": "positive",
+      "claim_id": "5680b94b-850a-4192-9a0d-00f9e421aaf2",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus plays very well with the ball and players know their roles well.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A team that plays very well with the ball, the players know what they have to do",
+          "start_sec": 0.33,
+          "end_sec": 76.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Napoli is three points away from mathematically securing second place.",
+      "polarity": "positive",
+      "claim_id": "57949cee-7885-4b30-9a04-2975c4817aa1",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli is three points away from mathematically securing second place.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it is three points from the mathematician to second place",
+          "start_sec": 84.11,
+          "end_sec": 127.55,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Napoli was thought to possibly miss Champions League qualification this year.",
+      "polarity": "positive",
+      "claim_id": "b6faa457-d301-4e22-a56e-a121749cabf0",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli was thought to possibly miss Champions League qualification this year.",
+      "evidence_quotes": [
+        {
+          "quote_text": "you thought this year could also be the year 0, not go to the Champions League",
+          "start_sec": 84.11,
+          "end_sec": 127.55,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "competizione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Spalletti",
+      "position": "Spalletti is confirmed once again as a great coach.",
+      "polarity": "positive",
+      "claim_id": "c2c41a17-febf-4f0f-bf6e-333d3e22a916",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti is confirmed once again as a great coach.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Once again I confirm it, Spalletti is a great coach, a great coach, a great coach",
+          "start_sec": 84.11,
+          "end_sec": 127.55,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus di Spalletti ha segnato un gol dopo due minuti e creato già due occasioni precedenti.",
+      "polarity": "positive",
+      "claim_id": "3ee07d69-7350-48f2-a1ae-9f5eb1481aca",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s6",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus di Spalletti ha segnato un gol dopo due minuti e creato già due occasioni precedenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "two minutes, you score a goal, but above all before the goal there were already two chances, the corner kick",
+          "start_sec": 205.95,
+          "end_sec": 230.95,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus è molto pericolosa ma non ancora perfetta.",
+      "polarity": "neutral",
+      "claim_id": "974ea5e7-2041-4467-ac4c-cb4b719857df",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è molto pericolosa ma non ancora perfetta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "very dangerous, it is certainly not yet perfect,",
+          "start_sec": 76.65,
+          "end_sec": 83.17,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pericolosità",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Napoli is currently closer to second place than to fifth in the standings.",
+      "polarity": "positive",
+      "claim_id": "1150b7b1-4f1c-48c8-8631-717e87e60ef7",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli is currently closer to second place than to fifth in the standings.",
+      "evidence_quotes": [
+        {
+          "quote_text": "today it is closer to second place than to fifth",
+          "start_sec": 84.11,
+          "end_sec": 127.55,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna non è stato molto lucido nella partita.",
+      "polarity": "negative",
+      "claim_id": "ece3c2c1-2804-4b61-bf48-df6cafb9f7dc",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s5",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna non è stato molto lucido nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bologna, not really very lucid",
+          "start_sec": 168.99,
+          "end_sec": 205.95,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna potrebbe risentire della eliminazione dall'Europa League.",
+      "polarity": "negative",
+      "claim_id": "c6043dbb-5198-43bb-b60b-bcc68f70e994",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s5",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Bologna potrebbe risentire della eliminazione dall'Europa League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bologna from the elimination of the Europa League",
+          "start_sec": 168.99,
+          "end_sec": 205.95,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Juventus consistently creates many scoring opportunities.",
+      "polarity": "positive",
+      "claim_id": "752e7de4-cd84-49d4-8e08-b3101e5d0a0c",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus consistently creates many scoring opportunities.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a team that always creates a lot",
+          "start_sec": 0.33,
+          "end_sec": 76.39,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus ha giocato bene contro Bologna.",
+      "polarity": "positive",
+      "claim_id": "10050219-3f29-4c2d-9a27-6661236a4791",
+      "video_id": "Vr2gmC-lbTc",
+      "segment_id": "s5",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha giocato bene contro Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "to the credit of Juventus",
+          "start_sec": 168.99,
+          "end_sec": 205.95,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

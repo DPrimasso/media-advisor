@@ -1,0 +1,412 @@
+{
+  "video_id": "gsUstlzz9sg",
+  "analyzed_at": "2026-04-30T07:38:05.524864+00:00",
+  "metadata": {
+    "title": "TMW News: L’altro sport di Psg-Bayern Monaco. La battaglia Champions",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita di Champions League tra Paris Saint-Germain e Bayern Monaco, evidenziandone il carattere spettacolare e offensivo che ha emozionato gli appassionati di calcio. L'autore, insieme all'ex calciatore Antonio Sabato, sostiene che il calcio deve essere uno spettacolo basato sul gol e sull'attacco, sottolineando come le difese, pur composte da giocatori di qualità, abbiano avuto un ruolo marginale a causa dell'approccio offensivo dominante di entrambe le squadre. La partita è vista come un esempio di calcio puro e dinamico, lontano dal gioco difensivo e conservativo spess",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "crisi",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "associazione",
+      "relevance": "low"
+    },
+    {
+      "name": "champions",
+      "relevance": "low"
+    },
+    {
+      "name": "obiettivo",
+      "relevance": "low"
+    },
+    {
+      "name": "retribuzione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain",
+      "position": "La partita di Champions contro il Bayern Monaco è stata percepita come un calcio emozionante e spettacolare.",
+      "polarity": "positive",
+      "claim_id": "475711e2-a974-44de-9a90-e9241d2f642e",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s0",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita di Champions contro il Bayern Monaco è stata percepita come un calcio emozionante e spettacolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partita di ieri sera di Champions tra Paris Saint-Germain e Bayern Monaco. A tutti è sembrato un altro sport, un calcio che ci fa davvero emozionare",
+          "start_sec": 12.84,
+          "end_sec": 84.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions",
+        "prestazione",
+        "emozione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio",
+      "position": "Il calcio deve essere uno spettacolo e il gol è fondamentale per la gioia dei tifosi.",
+      "polarity": "positive",
+      "claim_id": "d3af5c2c-a57d-4641-975c-e8c1dc19be91",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s0",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio deve essere uno spettacolo e il gol è fondamentale per la gioia dei tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calcio deve essere uno spettacolo e il gol è una gioia per i tifosi, quindi se non ci sono gol non c'è gioia",
+          "start_sec": 12.84,
+          "end_sec": 84.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calcio",
+        "gol",
+        "spettacolo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "PSG",
+      "position": "PSG ha uno stile di gioco molto offensivo guidato dall'allenatore.",
+      "polarity": "neutral",
+      "claim_id": "8c526155-00e3-47f6-a4df-e5546d9b69c2",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s1",
+      "target_entity": "PSG",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "PSG ha uno stile di gioco molto offensivo guidato dall'allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono due squadre dove e gli attacchi sono, diciamo, la forza maggiore del del due squadre",
+          "start_sec": 80.72,
+          "end_sec": 150.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "performance",
+        "attacco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern Monaco",
+      "position": "Bayern Monaco è una squadra con un approccio offensivo dominante.",
+      "polarity": "neutral",
+      "claim_id": "64a28ebc-bf20-408f-a61b-774be89037cc",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s1",
+      "target_entity": "Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bayern Monaco è una squadra con un approccio offensivo dominante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono due squadre dove e gli attacchi sono, diciamo, la forza maggiore del del due squadre",
+          "start_sec": 80.72,
+          "end_sec": 150.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "performance",
+        "attacco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "difese di PSG e Bayern Monaco",
+      "position": "Le difese di PSG e Bayern Monaco hanno un ruolo marginale nella partita dato il focus offensivo delle squadre.",
+      "polarity": "neutral",
+      "claim_id": "8b299f96-26cc-47b4-b655-9edd923db0ec",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s1",
+      "target_entity": "difese di PSG e Bayern Monaco",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Le difese di PSG e Bayern Monaco hanno un ruolo marginale nella partita dato il focus offensivo delle squadre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Le difese in questo caso contano poco perché sono due allenatori offensivi, molto offensivi, e il loro modo di giocare è questo",
+          "start_sec": 80.72,
+          "end_sec": 150.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "performance",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "difensori",
+      "position": "Difensori delle due squadre hanno tecnica elevata e alta velocità, rendendo difficile contrastarli.",
+      "polarity": "neutral",
+      "claim_id": "e3103fad-9612-4b50-8c5f-51d89ca4db69",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s2",
+      "target_entity": "difensori",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Difensori delle due squadre hanno tecnica elevata e alta velocità, rendendo difficile contrastarli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quando ti arrivano giocatori in tutta velocità che è una tecnica di base elevata, come fai a prenderlo?",
+          "start_sec": 149.04,
+          "end_sec": 224.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difensore",
+        "velocità",
+        "tecnica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "PSG e Bayern Monaco",
+      "position": "Nel ritorno della partita non c'è una squadra favorita, potrebbero vincere entrambe per capacità di segnare.",
+      "polarity": "neutral",
+      "claim_id": "209dd0ad-e693-4629-9887-8fa4abe5737b",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s2",
+      "target_entity": "PSG e Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Nel ritorno della partita non c'è una squadra favorita, potrebbero vincere entrambe per capacità di segnare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Per quanto riguarda il ritorno, non c'è una favorita. ti ho detto questi giocano, io ti do un cazzotto, tu me ne dai un altro. Quindi alla fine chi riesce a a dare più cazzotti alla fine vince la partita che riesce a far più gol",
+          "start_sec": 149.04,
+          "end_sec": 224.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "vincita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "squadre",
+      "position": "Le squadre danno spettacolo e non adottano tattiche difensive tradizionali come mettere il pullman a metà campo.",
+      "polarity": "positive",
+      "claim_id": "45c11fed-d872-4bd0-ad7a-55be75ead773",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s2",
+      "target_entity": "squadre",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Le squadre danno spettacolo e non adottano tattiche difensive tradizionali come mettere il pullman a metà campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Squadre sono squadre che danno spettacolo. Non sono come alcune squadre che mettono il pullman a metà campo e difendono l'1-0, il 2-0",
+          "start_sec": 149.04,
+          "end_sec": 224.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "spettacolo",
+        "tattica",
+        "difesa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio è considerata un avversario ostico soprattutto nella finale in casa.",
+      "polarity": "neutral",
+      "claim_id": "d9d1d51d-1280-4695-b299-1634b51df915",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio è considerata un avversario ostico soprattutto nella finale in casa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la partita più difficile secondo me è la finale con la Lazio, perché la Lazio sarà un avversario ostico, è una squadra che che ha entusiasmo, poi gioca nel proprio stadio",
+          "start_sec": 221.519,
+          "end_sec": 294.75899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "avversario",
+        "Lazio",
+        "finale"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Inter",
+      "position": "L'Inter dovrebbe puntare a ingiovanire il reparto di centrocampo con giocatori italiani.",
+      "polarity": "positive",
+      "claim_id": "dcbc049a-aa5e-4212-b82b-b00731786cfe",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "L'Inter dovrebbe puntare a ingiovanire il reparto di centrocampo con giocatori italiani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qualcuno in mezzo al campo per ingiovanire un po' il reparto i giocatori in Italia di altre squadre ci sono",
+          "start_sec": 221.519,
+          "end_sec": 294.75899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "centrocampo",
+        "età",
+        "Inter"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter punta allo scudetto come primo obiettivo stagionale.",
+      "polarity": "positive",
+      "claim_id": "eeffed5e-9c02-48e8-9c13-49db6b73dbfb",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter punta allo scudetto come primo obiettivo stagionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il primo obiettivo è lo scudetto",
+          "start_sec": 221.519,
+          "end_sec": 294.75899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "obiettivo",
+        "Inter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "PSG",
+      "position": "I difensori del PSG sono giocatori interessanti e non scarsi.",
+      "polarity": "positive",
+      "claim_id": "8e7c36cf-031e-4923-ac16-9c9dd111f4fa",
+      "video_id": "gsUstlzz9sg",
+      "segment_id": "s2",
+      "target_entity": "PSG",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I difensori del PSG sono giocatori interessanti e non scarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello colombiano, quello quello del PSG, quindi alla fine non sono difensori scarsi",
+          "start_sec": 149.04,
+          "end_sec": 224.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difensore",
+        "prestazione"
+      ]
+    }
+  ]
+}

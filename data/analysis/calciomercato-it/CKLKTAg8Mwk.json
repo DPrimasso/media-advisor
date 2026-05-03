@@ -1,0 +1,366 @@
+{
+  "video_id": "CKLKTAg8Mwk",
+  "analyzed_at": "2026-04-27T07:12:47.735704+00:00",
+  "metadata": {
+    "title": "Polemiche sul tocco di mano in Barcellona-Atletico Madrid #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-09T13:20:52+00:00"
+  },
+  "summary": "Il video analizza la controversa decisione arbitrale durante la partita Barcellona-Atletico Madrid, in cui Pubill ha toccato il pallone con la mano senza che fosse assegnato un rigore. L'autore sostiene che, secondo la regola 16 sul calcio di rinvio, il tocco avrebbe dovuto essere punito con un rigore, ma senza ammonizione, evidenziando una discrepanza tra l'interpretazione dell'arbitro Kovax e del VAR Dingert e quanto previsto dal regolamento. Viene inoltre ipotizzato che la mancata sanzione possa derivare da una valutazione psicologica sull'intenzione del giocatore, ma si sottolinea come que",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "controversia",
+      "relevance": "high"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "high"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "psicologia",
+      "relevance": "medium"
+    },
+    {
+      "name": "tocco di mano",
+      "relevance": "medium"
+    },
+    {
+      "name": "polemica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Pubill",
+      "position": "Pubill ha preso il pallone con la mano al minuto 54 in Barcellona-Atletico Madrid.",
+      "polarity": "neutral",
+      "claim_id": "a2a59410-fd78-45ef-83bd-4a3878c12c63",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s0",
+      "target_entity": "Pubill",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pubill ha preso il pallone con la mano al minuto 54 in Barcellona-Atletico Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pubill che ha preso il pallone con la mano",
+          "start_sec": 0.12,
+          "end_sec": 30.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mano",
+        "arbitraggio"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "regolamento",
+      "position": "La regola 16 sul calcio di rinvio chiarisce che il pallone può essere calciato da qualsiasi punto dell'area di porta ed è in gioco quando si muove.",
+      "polarity": "neutral",
+      "claim_id": "42df3c5a-35e8-4c8f-a834-d61fbdaa3235",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s1",
+      "target_entity": "regolamento",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La regola 16 sul calcio di rinvio chiarisce che il pallone può essere calciato da qualsiasi punto dell'area di porta ed è in gioco quando si muove.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La regola 16 è chiarissima. Il pallone può essere calciato da un punto qualsiasi dell'area di porta ed è in gioco quando si muove chiaramente.",
+          "start_sec": 27.92,
+          "end_sec": 58.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "regolamento",
+        "calcio di rinvio"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Flick",
+      "position": "Il tecnico Flick ha chiesto rigore ed espulsione per seconda ammonizione a fine partita.",
+      "polarity": "negative",
+      "claim_id": "bae71361-a29d-4cfb-8f56-f03147336937",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s0",
+      "target_entity": "Flick",
+      "entity_type": "coach",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il tecnico Flick ha chiesto rigore ed espulsione per seconda ammonizione a fine partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il tecnico Blaugurrana Flick a fine partita si è lamentato, voleva rigore ed espulsione per seconda ammonizione",
+          "start_sec": 0.12,
+          "end_sec": 30.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "reclamo",
+        "decisione arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Kovax",
+      "position": "L'arbitro Kovax ha deciso di non concedere rigore e ha lasciato proseguire la partita.",
+      "polarity": "neutral",
+      "claim_id": "c048e3f0-535b-4bc5-9d63-85ea928629be",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s0",
+      "target_entity": "Kovax",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro Kovax ha deciso di non concedere rigore e ha lasciato proseguire la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'arbitro rumeno Kovax invece ha lasciato proseguire",
+          "start_sec": 0.12,
+          "end_sec": 30.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Dingert",
+      "position": "Il VAR tedesco Dingert non ha richiamato l'arbitro all'Onfield Review sulla possibile mano di Pubill.",
+      "polarity": "neutral",
+      "claim_id": "6302b6af-8e44-4466-a76f-e58e895943c3",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s0",
+      "target_entity": "Dingert",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR tedesco Dingert non ha richiamato l'arbitro all'Onfield Review sulla possibile mano di Pubill.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il var tedesco Dingert non lo ha richiamato all'Onfield Review",
+          "start_sec": 0.12,
+          "end_sec": 30.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "arbitraggio"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Mings",
+      "position": "Mings fu punito con un penalty per un tocco di mano in Aston Villa.",
+      "polarity": "neutral",
+      "claim_id": "2369ef63-e99c-4241-b5e9-8702731c9133",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s1",
+      "target_entity": "Mings",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mings fu punito con un penalty per un tocco di mano in Aston Villa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In Club Rouge Aston Villa il tocco di mano di Mings fu punito con il penalty",
+          "start_sec": 27.92,
+          "end_sec": 58.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tocco di mano",
+        "penalty",
+        "arbitro"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Musso",
+      "position": "Il tocco di mano di Musso era da sanzionare con il calcio di rigore ma senza ammonizione.",
+      "polarity": "negative",
+      "claim_id": "9ac5eca7-493a-4f03-bf0b-0270da3058ba",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s1",
+      "target_entity": "Musso",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il tocco di mano di Musso era da sanzionare con il calcio di rigore ma senza ammonizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi Musso aveva già battuto e il tocco di mano tipo Bill era da sanzionare con il calcio di rigore, ma senza l'ammonizione.",
+          "start_sec": 27.92,
+          "end_sec": 58.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tocco di mano",
+        "calcio di rigore",
+        "ammonizione",
+        "regolamento"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Kovax",
+      "position": "Kovax può aver interpretato che nel passaggio del portiere non ci fosse volontà di riprendere il gioco.",
+      "polarity": "neutral",
+      "claim_id": "29e34535-603c-4209-a566-fb3152fc0560",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s2",
+      "target_entity": "Kovax",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Kovax può aver interpretato che nel passaggio del portiere non ci fosse volontà di riprendere il gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kovax e Dingert possono aver interpretato che nel passaggio del portiere al compagno non ci fosse la volontà di riprendere il gioco",
+          "start_sec": 56.48,
+          "end_sec": 77.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gioco",
+        "arbitraggio"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Barcellona-Atletico Madrid",
+      "position": "La mancata decisione rischia di falsare la qualificazione alla semifinale.",
+      "polarity": "negative",
+      "claim_id": "ef87dfe4-597c-4f21-b465-a92c2c951579",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s2",
+      "target_entity": "Barcellona-Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La mancata decisione rischia di falsare la qualificazione alla semifinale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Appare però una forzatura che rischia di falsare la qualificazione alla semifinale",
+          "start_sec": 56.48,
+          "end_sec": 77.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gabriel",
+      "position": "Gabriel non fu sanzionato per un tocco di mano in Arsenal Bayern Monaco.",
+      "polarity": "neutral",
+      "claim_id": "508801fe-990c-4a86-8f2f-d89d6a058d2c",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s1",
+      "target_entity": "Gabriel",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gabriel non fu sanzionato per un tocco di mano in Arsenal Bayern Monaco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Arsenal Bayern Monaco Gabriel fu graziato",
+          "start_sec": 27.92,
+          "end_sec": 58.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tocco di mano",
+        "arbitro",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Arbitro e VAR",
+      "position": "Arbitro e VAR non sono intervenuti sul tocco di mano.",
+      "polarity": "negative",
+      "claim_id": "7618115a-2c47-46d6-80af-80d0e25452f7",
+      "video_id": "CKLKTAg8Mwk",
+      "segment_id": "s2",
+      "target_entity": "Arbitro e VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Arbitro e VAR non sono intervenuti sul tocco di mano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Arbitro e VAR non sono intervenuti?",
+          "start_sec": 56.48,
+          "end_sec": 77.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "intervento"
+      ]
+    }
+  ]
+}

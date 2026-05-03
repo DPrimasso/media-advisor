@@ -1,0 +1,390 @@
+{
+  "video_id": "AI2Vujua9qQ",
+  "analyzed_at": "2026-04-28T07:25:53.414231+00:00",
+  "metadata": {
+    "title": "CHE BORDELLO‼️ ROCCHI AVEVA un CODICE per PARLARE con la SALA VAR",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la recente controversia legata a Gianluca Rocchi e l'uso di un presunto \"codice segreto\" per comunicare con la sala VAR, evidenziando come questa vicenda stia generando una forte pressione mediatica soprattutto sull'Inter, nonostante nessun membro della squadra sia attualmente indagato. L'autore sottolinea che, sebbene sia giusto che chi sbaglia paghi, il dibattito si concentra in modo eccessivo sull'Inter, distogliendo l'attenzione da questioni più ampie riguardanti il sistema arbitrale. Viene inoltre spiegato che, a seguito di un cambiamento regolamentare, chi entra in sala",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "medium"
+    },
+    {
+      "name": "comunicazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "inchiesta",
+      "relevance": "medium"
+    },
+    {
+      "name": "organizzazione",
+      "relevance": "low"
+    },
+    {
+      "name": "giustizia sportiva",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Nel dibattito attuale si parla quasi esclusivamente di Inter.",
+      "polarity": "neutral",
+      "claim_id": "03c999e8-4768-42a3-ac12-6be19ed32372",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nel dibattito attuale si parla quasi esclusivamente di Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And I say that because we talk almost only about Inter when today there is no one investigated between the black and blue lines.",
+          "start_sec": 1.29,
+          "end_sec": 52.83,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dibattito mediatico",
+        "Inter"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gianluca Rocchi",
+      "position": "Gianluca Rocchi is under investigation related to refereeing issues.",
+      "polarity": "neutral",
+      "claim_id": "1cc9c372-ef40-441b-9da7-7495b373b5ea",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s1",
+      "target_entity": "Gianluca Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluca Rocchi is under investigation related to refereeing issues.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Those who have investigated, however, are Gianluca Rocchi and other even more disturbing factors emerge.",
+          "start_sec": 53.05,
+          "end_sec": 100.59,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inchiesta",
+        "arbitro",
+        "refereeing"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "crowd",
+      "position": "If someone is wrong, they have to pay from the crowd and the press.",
+      "polarity": "negative",
+      "claim_id": "62a4d4d2-2fc2-4c18-bbe4-de53e24793e4",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s1",
+      "target_entity": "crowd",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "If someone is wrong, they have to pay from the crowd and the press.",
+      "evidence_quotes": [
+        {
+          "quote_text": "if someone is wrong, you have to pay, you have to pay, indisputably from the crowd, from the press, you have to pay, period.",
+          "start_sec": 53.05,
+          "end_sec": 100.59,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "paid",
+        "responsibility",
+        "punishment"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Sala VAR",
+      "position": "Dal regolamento di quest'anno chi si presenta in Sala VAR deve firmare un documento.",
+      "polarity": "neutral",
+      "claim_id": "3bb076cc-f271-48ed-b850-d44614a0f849",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s2",
+      "target_entity": "Sala VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dal regolamento di quest'anno chi si presenta in Sala VAR deve firmare un documento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "since this year the regulation has changed, those who show up there are, they have to sign, they have to do",
+          "start_sec": 100.59,
+          "end_sec": 145.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "regolamento"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Codice Jocajue",
+      "position": "Esiste un codice chiamato Jocajue usato per comunicare con la Sala VAR.",
+      "polarity": "neutral",
+      "claim_id": "19b6aae6-5450-4c14-b428-cc117ad422c3",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s2",
+      "target_entity": "Codice Jocajue",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Esiste un codice chiamato Jocajue usato per comunicare con la Sala VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "there was really a kind of code, right? Re-named the Code Jocajue",
+          "start_sec": 100.59,
+          "end_sec": 145.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "codice"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi used a secret code to communicate with the VAR room.",
+      "polarity": "neutral",
+      "claim_id": "57c0fc3a-8b1f-4d6a-9894-a979f2eb2b4b",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s4",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi used a secret code to communicate with the VAR room.",
+      "evidence_quotes": [
+        {
+          "quote_text": "So let's go to this kind of secret code of Rocchi to communicate with Saravarra.",
+          "start_sec": 194.8,
+          "end_sec": 234.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi kissed the glass during communication with VAR.",
+      "polarity": "neutral",
+      "claim_id": "b90a4410-214e-4b85-b037-77b2335538f2",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s4",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi kissed the glass during communication with VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "not only kissed the glass, but a real secret code to communicate gestures",
+          "start_sec": 194.8,
+          "end_sec": 234.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi appears to be a designer who practically intervenes in every VAR decision.",
+      "polarity": "neutral",
+      "claim_id": "ffdcd026-b9d9-40f1-9eaa-c7a79634e9a6",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s5",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Rocchi appears to be a designer who practically intervenes in every VAR decision.",
+      "evidence_quotes": [
+        {
+          "quote_text": "this means that here we are talking about a designer who intervenes in the practical act on any decision made by Var",
+          "start_sec": 234.56,
+          "end_sec": 276.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "rocchi",
+      "position": "Rocchi's attempt to help with VAR communication ultimately complicates the referees' work.",
+      "polarity": "negative",
+      "claim_id": "d27a348e-b6f0-4979-bf00-5e590593702b",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s7",
+      "target_entity": "rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi's attempt to help with VAR communication ultimately complicates the referees' work.",
+      "evidence_quotes": [
+        {
+          "quote_text": "he did it to try to help, maybe, to make the right decision, but in this way, he further messes up first of all the employees, those who should do it, their job",
+          "start_sec": 315.64,
+          "end_sec": 366.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi intervened suspiciously in decisions between the VAR and assistant VAR.",
+      "polarity": "neutral",
+      "claim_id": "3654c2c5-f651-43b6-9524-c846e139e8c3",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s5",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Rocchi intervened suspiciously in decisions between the VAR and assistant VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Suspicious movements and intervention of Rocchi",
+          "start_sec": 234.56,
+          "end_sec": 276.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "No one from Inter is under investigation.",
+      "polarity": "positive",
+      "claim_id": "2a6b4e8e-a72b-4ff4-9bba-1883aea0c948",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "No one from Inter is under investigation.",
+      "evidence_quotes": [
+        {
+          "quote_text": "we are talking about a team, or in any case of an Inter, where no one is investigated.",
+          "start_sec": 53.05,
+          "end_sec": 100.59,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "inchiesta",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "C'è una importante pressione mediatica su Inter in questo momento.",
+      "polarity": "neutral",
+      "claim_id": "9e912bd1-20b7-48c4-b2ae-65a94777ec84",
+      "video_id": "AI2Vujua9qQ",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è una importante pressione mediatica su Inter in questo momento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And worried does not mean, however, I'm sure there are complications, and as such, Inter will be penalized. No, I'm worried because right now there is an important media pressure.",
+          "start_sec": 1.29,
+          "end_sec": 52.83,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pressione mediatica",
+        "Inter"
+      ]
+    }
+  ]
+}

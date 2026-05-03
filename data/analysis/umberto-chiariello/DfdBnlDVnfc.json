@@ -1,0 +1,397 @@
+{
+  "video_id": "DfdBnlDVnfc",
+  "analyzed_at": "2026-04-24T09:10:43.201491+00:00",
+  "metadata": {
+    "title": "NUN C'ACCIRE NISCIUNO 03 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC si concentra sulla situazione attuale del calcio italiano, segnato dalle dimissioni del presidente Gravina e del giocatore Buffon, e sulla necessità di una profonda rifondazione del movimento calcistico. L’autore sostiene che, come auspicato da De Laurentiis, serve un “reset totale” guidato da una nuova leadership competente, con Giovanni Malagò indicato come figura chiave per rilanciare il sistema. Viene inoltre smentita la presunta tensione tra De Laurentiis e Conte, confermando un accordo per portare Conte alla guida della Nazionale. Infine, si sottolinea come la passi",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifoso",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "comportamento del tifoso",
+      "relevance": "low"
+    },
+    {
+      "name": "rifondazione",
+      "relevance": "low"
+    },
+    {
+      "name": "calcio italiano",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "presidente Gravina",
+      "position": "Il presidente Gravina si è dimesso dal calcio italiano.",
+      "polarity": "neutral",
+      "claim_id": "2a27007b-042a-4263-9f1d-56d4a511a72b",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s0",
+      "target_entity": "presidente Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente Gravina si è dimesso dal calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il calcio italiano che si è liberato della presenza ingombrante del presidente Gravina. Si è dimesso ieri",
+          "start_sec": 0.24,
+          "end_sec": 785.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dimissione",
+        "calcio italiano"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente De Laurentis",
+      "position": "De Laurentis auspica un reset totale del calcio italiano con progetto e nuova leadership.",
+      "polarity": "positive",
+      "claim_id": "5808ff56-c98a-4217-ae9c-2764e9a8e7fb",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s0",
+      "target_entity": "presidente De Laurentis",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "De Laurentis auspica un reset totale del calcio italiano con progetto e nuova leadership.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un reset totale, come ha detto il presidente De Laurentis proprio ai nostri microfoni qui a Radio CRC, un reset totale con una figura... con dei progetti",
+          "start_sec": 0.24,
+          "end_sec": 785.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rifondazione",
+        "leadership",
+        "calcio italiano"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giovanni Malagò",
+      "position": "Giovanni Malagò è indicato come figura chiave per guidare la rifondazione del calcio italiano.",
+      "polarity": "positive",
+      "claim_id": "955d2418-e104-435a-a74d-686f756b7992",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s0",
+      "target_entity": "Giovanni Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Giovanni Malagò è indicato come figura chiave per guidare la rifondazione del calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un reset totale con una figura che il presidente ha indicato, quella di Giovanni Malagò",
+          "start_sec": 0.24,
+          "end_sec": 785.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rifondazione",
+        "leadership",
+        "calcio italiano"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "È previsto un accordo tra De Laurentis e la Nazionale per far andare Antonio Conte alla Nazionale.",
+      "polarity": "positive",
+      "claim_id": "cb093a3e-d284-4e2c-946d-a58bc269317c",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "È previsto un accordo tra De Laurentis e la Nazionale per far andare Antonio Conte alla Nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi ci sarà un accordo tra De Laurentis e la Nazionale per far andare Antonio Conte alla nazionale",
+          "start_sec": 783.199,
+          "end_sec": 1557.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Fabio Licari",
+      "position": "L'articolo di Fabio Licari sulla Gazzetta dello Sport che dice che il rapporto tra Conte e De Laurentis non è idilliaco è falsa notizia.",
+      "polarity": "negative",
+      "claim_id": "6476769b-813b-4bb3-b8cc-6ee250c300c4",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s1",
+      "target_entity": "Fabio Licari",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'articolo di Fabio Licari sulla Gazzetta dello Sport che dice che il rapporto tra Conte e De Laurentis non è idilliaco è falsa notizia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Gazzetta dello Sport a firma Fabio Licari scrive una cosa fasulla... scrivere che il rapporto tra i due non è idiliaco significa dire bugie",
+          "start_sec": 783.199,
+          "end_sec": 1557.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Radio CRC",
+      "position": "Il gruppo di ascoltatori di Radio CRC mantiene un comportamento educato e rispettoso nonostante le divergenze di opinioni.",
+      "polarity": "positive",
+      "claim_id": "f07c5d41-8976-4a4b-b458-a8d7344e8c90",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s1",
+      "target_entity": "Radio CRC",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il gruppo di ascoltatori di Radio CRC mantiene un comportamento educato e rispettoso nonostante le divergenze di opinioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "fare ascolti poi diventa anche calamita per chi vuole investire in questa radio... in questo spazio l'educazione almeno fino ad oggi non è mai mancata",
+          "start_sec": 783.199,
+          "end_sec": 1557.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "La passione per il Napoli è vista come un elemento di unione e identità per i tifosi.",
+      "polarity": "positive",
+      "claim_id": "5a3ba5fc-1d87-4d0c-8ecb-784beee52c9d",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La passione per il Napoli è vista come un elemento di unione e identità per i tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è solo uno azzurro al mondo. È l'azzurro Napoli, quello della nostra passione, perché noi siamo un popolo di passione, di sentimento",
+          "start_sec": 783.199,
+          "end_sec": 1557.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Napoli è seguita e amata dai tifosi anche all'estero, come dimostra il gruppo malati del Napoli.",
+      "polarity": "positive",
+      "claim_id": "ce30b9a9-e05f-4ecd-9e14-305b99f5bda1",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli è seguita e amata dai tifosi anche all'estero, come dimostra il gruppo malati del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci fa piacere che soprattutto voi che state fuori sentite vicino vicino a noi a Napoli",
+          "start_sec": 1554.559,
+          "end_sec": 2426.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifoso",
+        "vicinanza",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe vincere il campionato quest'anno dimostrando di essere una squadra onesta e senza debiti.",
+      "polarity": "positive",
+      "claim_id": "56246e6f-628a-4b8b-8945-ed137711fba5",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli potrebbe vincere il campionato quest'anno dimostrando di essere una squadra onesta e senza debiti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'unica cosa che sarebbe quasi un miracolo a livello mondiale per essere credibile un po' di calcio italiano è che il Napoli vincesse il campionato quest'anno perché dimostrerebbe che vince una squadra onestra senza debiti e senza influentare e senza influenzare il sistema arbitrale",
+          "start_sec": 1554.559,
+          "end_sec": 2426.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "campionato",
+        "Napoli",
+        "onestà"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Serie A arbitro Sozza",
+      "position": "La designazione di Sozza come arbitro della partita Inter-Roma fa discutere e genera dubbi di parzialità.",
+      "polarity": "negative",
+      "claim_id": "c607464e-f606-48ec-abda-9994f7c089fb",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s2",
+      "target_entity": "Serie A arbitro Sozza",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La designazione di Sozza come arbitro della partita Inter-Roma fa discutere e genera dubbi di parzialità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le ultime due designazioni... sozza di Milano in una partita così arbitra Inter e Roma... dovere a Roma l'arbitro romano?... Vabbè e questo è quello che ti volevo dire, però visto visto come come le disegnazione arbitrale ho i miei dubbi",
+          "start_sec": 1554.559,
+          "end_sec": 2426.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "designazione",
+        "dubbi"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "tifosi strisciati",
+      "position": "Alcuni tifosi strisciati criticano Napolista ma continuano a seguirlo per lamentarsi.",
+      "polarity": "negative",
+      "claim_id": "ff666495-957e-425d-b3d5-0ab2ad00423f",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s2",
+      "target_entity": "tifosi strisciati",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alcuni tifosi strisciati criticano Napolista ma continuano a seguirlo per lamentarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono colleghi miei che tifano per strisciate... parlano sempre male te, però ti seguono... continuare a seguirti perché ho letto un articoletto che dice che tu sei insieme ad altri tre giornalisti siete i più seguiti in Campania",
+          "start_sec": 1554.559,
+          "end_sec": 2426.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "media",
+        "critica"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "tifosi dell'Inter",
+      "position": "I tifosi dell'Inter vengono premiati nonostante comportamenti offensivi sui social.",
+      "polarity": "negative",
+      "claim_id": "00934f72-a64c-4eae-a18f-5f57455a438b",
+      "video_id": "DfdBnlDVnfc",
+      "segment_id": "s3",
+      "target_entity": "tifosi dell'Inter",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi dell'Inter vengono premiati nonostante comportamenti offensivi sui social.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non punito, anzi addirittura premiato, come nei casi dei tifosi dell'Inter",
+          "start_sec": 2423.319,
+          "end_sec": 3234.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "offesa",
+        "social"
+      ]
+    }
+  ]
+}

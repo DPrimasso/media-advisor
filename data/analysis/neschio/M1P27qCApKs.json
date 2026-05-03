@@ -1,0 +1,401 @@
+{
+  "video_id": "M1P27qCApKs",
+  "analyzed_at": "2026-04-25T11:01:28.150931+00:00",
+  "metadata": {
+    "title": "VI PREGO DATEMENE ANCORA‼️ ATLETICO MADRID-BARÇA 1-2 e LIVERPOOL-PSG 0-2",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza le partite Atletico Madrid-Barça (1-2) e Liverpool-PSG (0-2), evidenziando l'alto livello tecnico e spettacolare del calcio mostrato. L'autore riconosce la vulnerabilità difensiva del Barça nei momenti chiave, ma sottolinea come la squadra catalana, anche in inferiorità numerica, abbia saputo imporsi contro un Atletico di qualità comparabile, definito un avversario di primissimo livello e serio contendente per la semifinale di Champions League. Viene inoltre evidenziata l'incertezza tipica della competizione europea, dove ogni risultato è possibile, e si accenna a una prestaz",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "high"
+    },
+    {
+      "name": "occasione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "espulsione",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione europea",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Barcelona",
+      "position": "Barcelona immediately had a chance to score 3-0 with Fermin.",
+      "polarity": "positive",
+      "claim_id": "4c6cc1d8-dfd9-45f7-b26d-8d1323ee202e",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s3",
+      "target_entity": "Barcelona",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Barcelona immediately had a chance to score 3-0 with Fermin.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And then also immediately the chance of 3-0 with Fermin",
+          "start_sec": 141.04,
+          "end_sec": 194.86,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "occasione",
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Barcelona",
+      "position": "Barcelona already has three chances in the first 10 minutes of the game.",
+      "polarity": "positive",
+      "claim_id": "ce17dc17-3c4a-4f28-a4b4-86a7d5567c0c",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s3",
+      "target_entity": "Barcelona",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Barcelona already has three chances in the first 10 minutes of the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "10 minutes, Barcelona already has three chances",
+          "start_sec": 141.04,
+          "end_sec": 194.86,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "occasione",
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Barça",
+      "position": "La difesa del Barça è stata vulnerabile nei momenti decisivi della partita.",
+      "polarity": "negative",
+      "claim_id": "450e2767-afcd-4d27-8f61-f2d596a98e1a",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s0",
+      "target_entity": "Barça",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La difesa del Barça è stata vulnerabile nei momenti decisivi della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "unproposable Barca defence Which, in the decisive moments, was also vulnerable",
+          "start_sec": 4.48,
+          "end_sec": 50.38,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "partita",
+      "position": "Il livello della partita è alto e il calcio giocato è uno spettacolo.",
+      "polarity": "neutral",
+      "claim_id": "a15a20d9-d5cb-4527-8c12-fcf994f9ed62",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s0",
+      "target_entity": "partita",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il livello della partita è alto e il calcio giocato è uno spettacolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "We have said it many times, the level is high We would always like to enjoy this spectacle, this football When the level is high, anything can happen",
+          "start_sec": 4.48,
+          "end_sec": 50.38,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid",
+      "position": "La qualità dell'Atletico Madrid è comparabile a quella avversaria in termini di tempismo e verticalità.",
+      "polarity": "neutral",
+      "claim_id": "b192a7b9-b4a8-4409-be57-cb514118ab0d",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s1",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La qualità dell'Atletico Madrid è comparabile a quella avversaria in termini di tempismo e verticalità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "You find a team that has the same quality With two balls, with the right timing, Griezmann, Koc, vertical",
+          "start_sec": 50.38,
+          "end_sec": 94.94,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica",
+        "paragone"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid",
+      "position": "Atletico Madrid is a top-level team and a contender for the Champions League semi-final.",
+      "polarity": "neutral",
+      "claim_id": "f54f0dc3-b453-48d3-b07e-b434c15e39d6",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s2",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Atletico Madrid is a top-level team and a contender for the Champions League semi-final.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a top level Top, top, top, top, top, mamma mia, guys And now that Simeone has passed, watch out Watch out, watch out, watch out The other team that goes to the semi-final",
+          "start_sec": 94.94,
+          "end_sec": 138.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "champions league",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Liverpool",
+      "position": "Liverpool's second half performance in the match is noteworthy and deserves some comments.",
+      "polarity": "neutral",
+      "claim_id": "275d1384-329c-4d9e-88d9-052ffe307206",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s2",
+      "target_entity": "Liverpool",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Liverpool's second half performance in the match is noteworthy and deserves some comments.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And the Liverpool in the second half Let's say a few words",
+          "start_sec": 94.94,
+          "end_sec": 138.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Champions League",
+      "position": "The Champions League semi-finals are uncertain and results are unpredictable.",
+      "polarity": "neutral",
+      "claim_id": "d3ac00cd-1614-4b06-b0c1-7544ff890e6f",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s2",
+      "target_entity": "Champions League",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The Champions League semi-finals are uncertain and results are unpredictable.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In the Champions League you never know You never know, so never get carried away",
+          "start_sec": 94.94,
+          "end_sec": 138.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions league",
+        "incertezza",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Barcelona",
+      "position": "Barcelona created a balance of chances with goals scored by Yamal and Ferran.",
+      "polarity": "positive",
+      "claim_id": "5c88bfb4-4c8d-48e4-810b-109d9311ac77",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s3",
+      "target_entity": "Barcelona",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Barcelona created a balance of chances with goals scored by Yamal and Ferran.",
+      "evidence_quotes": [
+        {
+          "quote_text": "He puts it in balance with the goals of Yamal and Ferran",
+          "start_sec": 141.04,
+          "end_sec": 194.86,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione",
+        "giocatori"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Opinionista neschio",
+      "position": "The opinionista expresses strong admiration for the Barcelona game.",
+      "polarity": "positive",
+      "claim_id": "69d011a4-37c6-4d8b-a006-1b7558fb3ded",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s3",
+      "target_entity": "Opinionista neschio",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The opinionista expresses strong admiration for the Barcelona game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "It's crazy, I'm in love with the Barca game",
+          "start_sec": 141.04,
+          "end_sec": 194.86,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "opinion",
+        "media",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Barça",
+      "position": "Il Barça ha una difesa non proponibile.",
+      "polarity": "negative",
+      "claim_id": "dbf43583-f0c0-4c8a-a47b-a352b6dc4c38",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s0",
+      "target_entity": "Barça",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Barça ha una difesa non proponibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "an unproposable Barca defence",
+          "start_sec": 4.48,
+          "end_sec": 50.38,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Griezmann",
+      "position": "Griezmann è parte della squadra con qualità importante e gioca con il tempismo giusto.",
+      "polarity": "positive",
+      "claim_id": "b2a135c9-b567-4366-9feb-9396655bd72a",
+      "video_id": "M1P27qCApKs",
+      "segment_id": "s1",
+      "target_entity": "Griezmann",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Griezmann è parte della squadra con qualità importante e gioca con il tempismo giusto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "With two balls, with the right timing, Griezmann",
+          "start_sec": 50.38,
+          "end_sec": 94.94,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "tattica"
+      ]
+    }
+  ]
+}

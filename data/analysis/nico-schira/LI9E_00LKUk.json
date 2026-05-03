@@ -1,0 +1,392 @@
+{
+  "video_id": "LI9E_00LKUk",
+  "analyzed_at": "2026-04-25T11:18:19.685843+00:00",
+  "metadata": {
+    "title": "MILAN, NEL MIRINO IL NUOVO LAUTARO. JUVENTUS, NOVITÀ SU UN ESTERNO. GIOIELLERIA UDINESE. E IL TORO…",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-17T21:06:20+00:00"
+  },
+  "summary": "Il video analizza il calciomercato invernale della Juventus, evidenziando come, dopo un mercato estivo deludente, gennaio abbia portato risultati parzialmente positivi, soprattutto grazie a Bogà, che ha segnato quattro gol e sarà riscattato. L'autore sottolinea il ruolo chiave di Spalletti nel rilanciare l'esterno offensivo, mentre si discute anche del futuro di Emily Holm, il cui riscatto appare complicato a causa del costo elevato, ma potrebbe essere negoziato con formule alternative. Infine, si accenna alle strategie del Torino per la prossima stagione, con l’obiettivo di trovare un nuovo p",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "continuità",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Bogà",
+      "position": "Bogà ha già segnato quattro gol e verrà riscattato per 4 milioni.",
+      "polarity": "positive",
+      "claim_id": "acd7e199-3973-4e46-b07d-060b268b7e23",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s0",
+      "target_entity": "Bogà",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bogà ha già segnato quattro gol e verrà riscattato per 4 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Già quattro gol da parte di Bogà che verrà riscattato 4 milioni",
+          "start_sec": 1.56,
+          "end_sec": 32.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "esterno offensivo del Nizza",
+      "position": "Il Nizza ha comunicato la volontà di riscattare l'esterno offensivo per 4,8 milioni con contratto triennale.",
+      "polarity": "positive",
+      "claim_id": "b6f93a8e-eb26-43e9-8a59-d31096b86ef8",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s1",
+      "target_entity": "esterno offensivo del Nizza",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Nizza ha comunicato la volontà di riscattare l'esterno offensivo per 4,8 milioni con contratto triennale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Già stato comunicato l'entourage del giocatore la volontà di procedere al riscatto. 4 milioni 8 nelle casse del Nizza, contratto triennale per l'esterno offensivo",
+          "start_sec": 31.32,
+          "end_sec": 57.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto",
+        "riscatto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha un diritto di riscatto su Emily Holm ma difficilmente spenderà 15 milioni per lui.",
+      "polarity": "neutral",
+      "claim_id": "588776f0-b6a7-4967-963f-1288182e5165",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha un diritto di riscatto su Emily Holm ma difficilmente spenderà 15 milioni per lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Difficile che la Juve possa spendere 15 milioni per OLM. Questo è il diritto di riscatto.",
+          "start_sec": 55.239,
+          "end_sec": 84.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juventus sta considerando un obbligo di riscatto a condizioni per fare bilancio a cifre più basse nel 2027.",
+      "polarity": "neutral",
+      "claim_id": "684983dd-fff9-4c69-9b91-7d34e78bec56",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Juventus sta considerando un obbligo di riscatto a condizioni per fare bilancio a cifre più basse nel 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "obbligo di riscatto a determinate condizioni in modo da far cadere l'operazione sul bilancio del 2027 a cifre più basse",
+          "start_sec": 82.6,
+          "end_sec": 111.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "finanza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Il mercato estivo della Juventus è stato considerato deficitario e disastroso.",
+      "polarity": "negative",
+      "claim_id": "f4e5273f-6b4d-46ae-92e5-caf0cec67b77",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato estivo della Juventus è stato considerato deficitario e disastroso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mercato deficitario, disastroso da dimenticare quello estivo",
+          "start_sec": 1.56,
+          "end_sec": 32.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Il mercato invernale di gennaio e inizio febbraio della Juventus ha dato qualche risultato positivo.",
+      "polarity": "positive",
+      "claim_id": "3fbbc0d8-807f-4e89-abb4-0bbcd1948462",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato invernale di gennaio e inizio febbraio della Juventus ha dato qualche risultato positivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mercato invernale di gennaio e inizio febbraio qualche risultato l'ha dato",
+          "start_sec": 1.56,
+          "end_sec": 32.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "mercato di gennaio",
+      "position": "Il mercato di gennaio è stato fruttifero a metà perché mancava un centravanti.",
+      "polarity": "neutral",
+      "claim_id": "6d652cf0-1035-4d5a-8680-8ff1441514cc",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s1",
+      "target_entity": "mercato di gennaio",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato di gennaio è stato fruttifero a metà perché mancava un centravanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi sicuramente il mercato invernale lì è stato fruttifero, anche se doveva arrivare un centravanti, quindi è stato fruttifero a metà",
+          "start_sec": 31.32,
+          "end_sec": 57.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Emily Holm",
+      "position": "Emily Holm spera di giocare molte partite e dimostrare il suo valore alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "9da39026-91d5-4475-b1c0-2046e0b833d6",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s2",
+      "target_entity": "Emily Holm",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Emily Holm spera di giocare molte partite e dimostrare il suo valore alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Holm che spera in questo finale di stagione di fare come ha fatto contro l'Atalanta Bergamo, di essere protagonista, di tenersi stretta la maglia da titolare, di giocare tante partite, di dimostrare alla Juve di essere da Juve",
+          "start_sec": 55.239,
+          "end_sec": 84.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "È più facile che la Juventus negozi un prestito oneroso con il Bologna per Emily Holm.",
+      "polarity": "neutral",
+      "claim_id": "c16bfff0-e86d-4e9c-b41b-b7c3751072f9",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "È più facile che la Juventus negozi un prestito oneroso con il Bologna per Emily Holm.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Più facile che la Juve possa sedersi col Bologna per negoziare magari un prestito oneroso con",
+          "start_sec": 55.239,
+          "end_sec": 84.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bologna",
+      "position": "Bologna potrebbe accettare una proposta di riscatto a condizioni per abbassare cifre sul bilancio.",
+      "polarity": "neutral",
+      "claim_id": "3e1ae2d9-5f3c-4bad-abee-c6df6f598adc",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s3",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Bologna potrebbe accettare una proposta di riscatto a condizioni per abbassare cifre sul bilancio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Però magari Bologna potrebbe anche accettare in quel caso vedremo",
+          "start_sec": 82.6,
+          "end_sec": 111.03999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "finanza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "allenatore Luciano Spalletti",
+      "position": "Spalletti ha rivitalizzato l'esterno offensivo del Nizza.",
+      "polarity": "positive",
+      "claim_id": "97be1947-c40e-4c96-a1e9-3265d090fd0f",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s1",
+      "target_entity": "allenatore Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha rivitalizzato l'esterno offensivo del Nizza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che piace molto a Spalletti che l'ha rivitalizzato",
+          "start_sec": 31.32,
+          "end_sec": 57.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "esterno offensivo del Nizza",
+      "position": "L'esterno offensivo è un'arma importante che ha segnato quattro gol e può giocare come falso nueve.",
+      "polarity": "positive",
+      "claim_id": "679a0f66-7edf-4f64-a995-87c8e682a3e7",
+      "video_id": "LI9E_00LKUk",
+      "segment_id": "s1",
+      "target_entity": "esterno offensivo del Nizza",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'esterno offensivo è un'arma importante che ha segnato quattro gol e può giocare come falso nueve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quattro gol importanti ed è un'arma in più. ... può giocare falso nueve che piace molto a Spalletti che l'ha rivitalizzato",
+          "start_sec": 31.32,
+          "end_sec": 57.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol",
+        "tattica"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "video_id": "lrwDg4MBPNg",
+  "analyzed_at": "2026-04-30T07:34:06.547706+00:00",
+  "metadata": {
+    "title": "CON CHI PARLAVA ROCCHI A SAN SIRO⁉️  FINALMENTE LA RISPOSTA",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sul misterioso colloquio avuto dall’arbitro Rocchi a San Siro durante una partita, tema che ha suscitato molte domande e teorie tra gli appassionati. L’autore, Neschio, insieme all’amico Prince, si prepara a discutere in diretta delle ultime indiscrezioni emerse, basandosi su fonti attendibili come l’agenzia ADN Cronos, e a seguire l’analisi della partita Atletico Madrid-Arsenal. Viene ipotizzato che Rocchi abbia parlato con altri arbitri, suggerendo una possibile tensione interna al sistema arbitrale, definita “Arbitropoli”, senza però coinvolgere direttamente dirigenti ",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "medium"
+    },
+    {
+      "name": "aia",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitro",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "europeo",
+      "relevance": "low"
+    },
+    {
+      "name": "comunicazione",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid, Arsenal",
+      "position": "La partita tra Atletico Madrid e Arsenal sarà seguita e analizzata in diretta alle 20:45.",
+      "polarity": "neutral",
+      "claim_id": "4853ad4e-8bbe-4be4-93c3-712f6b8a9289",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s0",
+      "target_entity": "Atletico Madrid, Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La partita tra Atletico Madrid e Arsenal sarà seguita e analizzata in diretta alle 20:45.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Stasera live alle 20:45 per l'Atletico Madrid Arsenal",
+          "start_sec": 2.679,
+          "end_sec": 78.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitropoli",
+      "position": "La situazione odierna è denominata arbitropoli, paragonata a Calciopoli 2.0.",
+      "polarity": "neutral",
+      "claim_id": "1eb131e3-8dbc-48fe-8bb2-04706e4ba764",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s3",
+      "target_entity": "arbitropoli",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La situazione odierna è denominata arbitropoli, paragonata a Calciopoli 2.0.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Al momento d'accordo, Prince? Anzi, tanti hanno l'hanno l'avevano già etichettata come la Calciopoli 2.0.",
+          "start_sec": 229.439,
+          "end_sec": 307.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitropoli",
+        "calciopoli",
+        "comparazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Rocchi",
+      "position": "Rocchi parlava con qualcuno a San Siro durante la partita.",
+      "polarity": "neutral",
+      "claim_id": "1e812dea-81d8-40c3-9d91-e04840faf243",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s0",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Rocchi parlava con qualcuno a San Siro durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma Rocchi con chi parlava al Meaz? Con chi parlava a San Siro?",
+          "start_sec": 2.679,
+          "end_sec": 78.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "ADN Cronos",
+      "position": "ADN Cronos è una delle agenzie di notizie più importanti e attendibili.",
+      "polarity": "positive",
+      "claim_id": "7bbb0e64-6f6a-4208-8a2e-44fe59bbd79b",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s1",
+      "target_entity": "ADN Cronos",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "ADN Cronos è una delle agenzie di notizie più importanti e attendibili.",
+      "evidence_quotes": [
+        {
+          "quote_text": "assieme a ANSA è una delle agenzie più importanti eh di di notizie",
+          "start_sec": 76.92,
+          "end_sec": 159.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Rocchi",
+      "position": "A San Siro è emerso un colloquio di Rocchi di cui si cerca chiarezza.",
+      "polarity": "neutral",
+      "claim_id": "6c2a28ef-afc9-4bc5-85b9-b1c25f650ea7",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s1",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "A San Siro è emerso un colloquio di Rocchi di cui si cerca chiarezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "colloqui a San Siro, si capisce con chi parlava Rocchi",
+          "start_sec": 76.92,
+          "end_sec": 159.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Arbitri",
+      "position": "Si sta formando un clima di sospetto su un coinvolgimento arbitrale non chiaro definito come 'Arbitropoli'.",
+      "polarity": "negative",
+      "claim_id": "131467b9-e6c5-4ca6-9b3b-1f5391fdcf75",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s2",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Si sta formando un clima di sospetto su un coinvolgimento arbitrale non chiaro definito come 'Arbitropoli'.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra sempre più chiaro che si sta andando verso Arbitropoli",
+          "start_sec": 156.2,
+          "end_sec": 231.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "sistema arbitrario",
+      "position": "C'è una guerra intestina tra il sistema arbitrario e gli stessi arbitri.",
+      "polarity": "negative",
+      "claim_id": "83772a78-1c59-41ea-a8b3-1b6a368de016",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s3",
+      "target_entity": "sistema arbitrario",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è una guerra intestina tra il sistema arbitrario e gli stessi arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una guerra intestina tra il sistema arbitrario e gli stessi arbitri.",
+          "start_sec": 229.439,
+          "end_sec": 307.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "conflitto",
+        "sistema arbitrario"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Serie A",
+      "position": "Al momento nessuna squadra di Serie A è coinvolta nella questione arbitrale in evidenza.",
+      "polarity": "neutral",
+      "claim_id": "f6b45c6e-e725-4439-acba-7ce9358b01ec",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s3",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Al momento nessuna squadra di Serie A è coinvolta nella questione arbitrale in evidenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ad oggi non ci sono squadre squadre di Serie A incluse in questa",
+          "start_sec": 229.439,
+          "end_sec": 307.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "arbitri",
+        "esclusione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "rocky",
+      "position": "Rocky e il suo avvocato hanno scelto di non presentarsi davanti al PM.",
+      "polarity": "neutral",
+      "claim_id": "146d4443-3443-4fdc-8608-324bbe9f8ae8",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s4",
+      "target_entity": "rocky",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocky e il suo avvocato hanno scelto di non presentarsi davanti al PM.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocky, come noi avevamo anticipato 4 giorni fa e il suo il suo avvocato Antonio Davirro ha già detto che non si presenteranno davanti al PM",
+          "start_sec": 304.72,
+          "end_sec": 379.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "indagini"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "tifoso",
+      "position": "Il tifoso reagisce immediatamente ai nomi di squadre coinvolte in dinamiche controverse.",
+      "polarity": "neutral",
+      "claim_id": "ddc3107b-395d-4bb6-9cff-5f707499a932",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s4",
+      "target_entity": "tifoso",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il tifoso reagisce immediatamente ai nomi di squadre coinvolte in dinamiche controverse.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il tifoso è normale, no? il tifoso appena sente vede il nome di una squadra, qualsiasi essa sia, di una possibile coinvolgimento in certe dinamiche, ovviamente incominciano Serie C, interregionale, tutti tutti in gare",
+          "start_sec": 304.72,
+          "end_sec": 379.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "reazione_tifosi"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "sistema giudiziario",
+      "position": "Chi sbaglia nel calcio deve pagare per i propri errori.",
+      "polarity": "positive",
+      "claim_id": "a54f3038-ffcd-48af-9e6d-54b1866448c4",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s4",
+      "target_entity": "sistema giudiziario",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chi sbaglia nel calcio deve pagare per i propri errori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sbagliato si deve pagare. Io lo lo stiamo io lo ripeto ogni volta. Se chi sbaglia deve pagare, anzi, a maggior ragione avesse sbagliato la squadra per cui faccio il tifo, bisogna pagare",
+          "start_sec": 304.72,
+          "end_sec": 379.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giustizia"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "procuratore di Milano",
+      "position": "La procura di Milano comparirà domani per questioni legate alle indagini in corso.",
+      "polarity": "neutral",
+      "claim_id": "9826fafd-0ac8-4a7a-baae-6ddc88db5393",
+      "video_id": "lrwDg4MBPNg",
+      "segment_id": "s4",
+      "target_entity": "procuratore di Milano",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La procura di Milano comparirà domani per questioni legate alle indagini in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "domani intanto comparirà eh la procura di Milano",
+          "start_sec": 304.72,
+          "end_sec": 379.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagini"
+      ]
+    }
+  ]
+}

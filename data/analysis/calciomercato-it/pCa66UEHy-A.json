@@ -1,0 +1,386 @@
+{
+  "video_id": "pCa66UEHy-A",
+  "analyzed_at": "2026-04-28T07:30:23.550142+00:00",
+  "metadata": {
+    "title": "Indagine su Rocchi, coinvolta l'Inter. Cosa rischia? #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video analizza l'indagine che coinvolge l'Inter e i vertici arbitrali per presunti accordi sulle designazioni arbitrali nella scorsa stagione. L'autore sottolinea come, al momento, nessun dirigente o tesserato nerazzurro risulti indagato e che le conseguenze per il club siano quindi premature da ipotizzare. Tuttavia, se emergessero prove di illecito sportivo, l'Inter potrebbe rischiare sanzioni severe, tra cui penalizzazioni in classifica o addirittura la retrocessione, mentre i dirigenti potrebbero essere squalificati per almeno quattro anni.",
+  "topics": [
+    {
+      "name": "indagine",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "pena",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "sanzioni",
+      "relevance": "medium"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "dirigenti Inter",
+      "position": "I dirigenti dell'Inter rischiano squalifiche di almeno 4 anni.",
+      "polarity": "negative",
+      "claim_id": "860ec78b-15e6-44b4-b710-9240c181d68e",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s1",
+      "target_entity": "dirigenti Inter",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "I dirigenti dell'Inter rischiano squalifiche di almeno 4 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i dirigenti rischierebbero la squalifica per almeno 4 anni",
+          "start_sec": 26.0,
+          "end_sec": 56.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sanzione",
+        "dirigenza",
+        "squalifica"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Indagine su Inter",
+      "position": "L'indagine coinvolge l'Inter e riguarda un possibile illecito sportivo secondo l'articolo 30 del codice di giustizia.",
+      "polarity": "neutral",
+      "claim_id": "11400401-26c6-4050-bcc2-38fce490d0c0",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s1",
+      "target_entity": "Indagine su Inter",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'indagine coinvolge l'Inter e riguarda un possibile illecito sportivo secondo l'articolo 30 del codice di giustizia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se con il procedere delle indagini ai nerazzurri dovesse essere contestato l'illecito sportivo di cui all'articolo 30 del codice di giustizia",
+          "start_sec": 26.0,
+          "end_sec": 56.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "illecito sportivo",
+        "codice di giustizia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Inter è coinvolta in un'indagine su presunti accordi arbitrali nella scorsa stagione",
+      "polarity": "neutral",
+      "claim_id": "ce827de0-4272-4f66-9f30-8a3b80aa36b3",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter è coinvolta in un'indagine su presunti accordi arbitrali nella scorsa stagione",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il club nerazzurro è stato tirato in ballo per le designazioni riguardanti la scorsa stagione",
+          "start_sec": 0.12,
+          "end_sec": 27.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Indagine su Rocchi",
+      "position": "L'indagine riguarda presunti accordi per designazioni arbitrali in Serie A e Coppa Italia",
+      "polarity": "negative",
+      "claim_id": "672535d3-c10d-4877-8dee-272ae9daea24",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s0",
+      "target_entity": "Indagine su Rocchi",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'indagine riguarda presunti accordi per designazioni arbitrali in Serie A e Coppa Italia",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'indagine verte su presunti accordi per essere diretti in Serie A e in Coppa Italia ad arbitri graditi ed evitare quelli sgraditi",
+          "start_sec": 0.12,
+          "end_sec": 27.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "presidente Marotta",
+      "position": "Il presidente Marotta ha smentito le accuse riguardanti l'indagine arbitrale",
+      "polarity": "positive",
+      "claim_id": "2705c085-1031-4aec-a967-a5e785bcc258",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s0",
+      "target_entity": "presidente Marotta",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente Marotta ha smentito le accuse riguardanti l'indagine arbitrale",
+      "evidence_quotes": [
+        {
+          "quote_text": "Una ricostruzione già smentita dal presidente Marotta",
+          "start_sec": 0.12,
+          "end_sec": 27.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Nessun tesserato o dirigente dell'Inter risulta indagato ad oggi nell'indagine arbitrale",
+      "polarity": "positive",
+      "claim_id": "b87005ad-f6b3-4561-823b-ca78ba172cbc",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nessun tesserato o dirigente dell'Inter risulta indagato ad oggi nell'indagine arbitrale",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ad oggi, è bene ribadirlo, nessun tesserato, dipendente o dirigente dell'Inter risulta indagato",
+          "start_sec": 0.12,
+          "end_sec": 27.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "Le conseguenze per l'Inter sono al momento premature da ipotizzare.",
+      "polarity": "neutral",
+      "claim_id": "1dc3b297-ac5e-4f85-84e3-0f5e7d83b860",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Le conseguenze per l'Inter sono al momento premature da ipotizzare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi è ovvio che ipotizzare conseguenze per il club meneghino è del tutto prematuro",
+          "start_sec": 26.0,
+          "end_sec": 56.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "media",
+        "sanzioni"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Inter",
+      "position": "L'Inter rischia sanzioni che partono da tre punti di penalizzazione fino alla retrocessione.",
+      "polarity": "negative",
+      "claim_id": "ae38fe10-33e1-43d5-85d0-0f739b7f9f2b",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter rischia sanzioni che partono da tre punti di penalizzazione fino alla retrocessione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per la società le sanzioni andrebbero da tre punti di penalizzazione alla retrocessione all'ultimo posto in classifica",
+          "start_sec": 26.0,
+          "end_sec": 56.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sanzioni",
+        "penalizzazione",
+        "retrocessione"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "federazione calcio",
+      "position": "Le pene vanno inflitte solo per il campionato in corso o per quello prossimo.",
+      "polarity": "neutral",
+      "claim_id": "eabe678b-4045-4d13-bd00-091ac0998e1c",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s2",
+      "target_entity": "federazione calcio",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le pene vanno inflitte solo per il campionato in corso o per quello prossimo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma vanno inflitte per il campionato in corso o per il prossimo",
+          "start_sec": 54.039,
+          "end_sec": 67.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pena",
+        "inflizione",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "calcio italiano",
+      "position": "Si aspetta di capire se la vicenda è una nuova calciopoli o una bolla di sapone.",
+      "polarity": "neutral",
+      "claim_id": "654a803a-fdca-4d93-b0c5-14abbf85a9ac",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s2",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Si aspetta di capire se la vicenda è una nuova calciopoli o una bolla di sapone.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E allora non resta che aspettare e capire se siamo di fronte ad una nuova calciopoli o una bolla di sapone",
+          "start_sec": 54.039,
+          "end_sec": 67.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciopoli",
+        "media",
+        "indagine"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'Inter è coinvolta in un'indagine che riguarda il calcio.",
+      "polarity": "neutral",
+      "claim_id": "3721e8d6-5913-40b8-ad96-ac462ac69397",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter è coinvolta in un'indagine che riguarda il calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Indagine su Rocchi, coinvolta l'Inter",
+          "start_sec": 54.039,
+          "end_sec": 67.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "media",
+        "inter"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "federazione calcio",
+      "position": "Le pene disciplinari non possono essere retroattive alla scorsa stagione calcistica.",
+      "polarity": "neutral",
+      "claim_id": "afba4d0c-4e26-48a9-9b4e-def515fb7623",
+      "video_id": "pCa66UEHy-A",
+      "segment_id": "s2",
+      "target_entity": "federazione calcio",
+      "entity_type": "other",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le pene disciplinari non possono essere retroattive alla scorsa stagione calcistica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pene non possono retroagire alla scorsa stagione",
+          "start_sec": 54.039,
+          "end_sec": 67.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pena",
+        "retroattività",
+        "stagione"
+      ]
+    }
+  ]
+}

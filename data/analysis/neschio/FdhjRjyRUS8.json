@@ -1,0 +1,84 @@
+{
+  "video_id": "FdhjRjyRUS8",
+  "analyzed_at": "2026-05-02T08:07:36.649501+00:00",
+  "metadata": {
+    "title": "#Rocchi e l’intercettazione che “compromette” l’Inter",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza un'intercettazione in cui Rocchi coinvolge un dirigente dell'Inter, Giorgio Schenone, in un contesto arbitrale, tema centrale della discussione. L'autore critica l'eccessiva enfasi data ai social media, che distorcono la notizia e alimentano sospetti ingiustificati contro la squadra nerazzurra. Conclude che questa attenzione sproporzionata a dettagli marginali non compromette realmente l'Inter, invitando a non farsi influenzare da narrazioni parziali e a mantenere un giudizio più obiettivo.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "dirigente",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi ha tirato in ballo un dirigente dell'Inter in un intercettazione.",
+      "polarity": "neutral",
+      "claim_id": "0e778edf-ac5c-406b-8b1d-38d0afe3bc8f",
+      "video_id": "FdhjRjyRUS8",
+      "segment_id": "s0",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi ha tirato in ballo un dirigente dell'Inter in un intercettazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rocchi tira in ballo un dirigente dell'Inter",
+          "start_sec": 0.599,
+          "end_sec": 39.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "intercettazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Giorgio Schenone",
+      "position": "Giorgio Schenone ha detto agli arbitri dell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "75d37815-d321-4555-b260-fdec9d9ad656",
+      "video_id": "FdhjRjyRUS8",
+      "segment_id": "s0",
+      "target_entity": "Giorgio Schenone",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giorgio Schenone ha detto agli arbitri dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giorgio Schenone ha detto agli arbitri dell'Inter",
+          "start_sec": 0.599,
+          "end_sec": 39.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dirigente",
+        "intercettazione"
+      ]
+    }
+  ]
+}

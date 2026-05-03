@@ -1,0 +1,414 @@
+{
+  "video_id": "bBxqec5HL9M",
+  "analyzed_at": "2026-04-27T07:12:22.660323+00:00",
+  "metadata": {
+    "title": "TERZO Colpo INTER dopo Akanji e Stankovic: che sta succedendo",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-10T10:40:02+00:00"
+  },
+  "summary": "Il video si concentra principalmente sulle novità di mercato dell'Inter e sulla conferma di Luciano Spalletti come nuovo allenatore della Juventus con un contratto fino al 2028. L'autore sostiene che Spalletti rappresenta la figura ideale per ricostruire la Juventus, grazie al rapporto positivo con i giocatori e alla sua capacità di portare ordine dopo stagioni complicate. Inoltre, si evidenzia che l’allenatore avrà un ruolo centrale nelle scelte di mercato bianconere, influenzando direttamente gli acquisti futuri, in linea con la volontà di rafforzare la squadra in vista delle prossime sfide ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "ingaggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "portiere",
+      "relevance": "low"
+    },
+    {
+      "name": "juventus",
+      "relevance": "low"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    },
+    {
+      "name": "composizione squadra",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "europe",
+      "subject": "Juventus",
+      "position": "La Juventus ha sfiorato l'impresa in Champions League contro il Galatasaray perdendo ai supplementari.",
+      "polarity": "positive",
+      "claim_id": "bada0f76-97e2-462a-a5c8-a125dc4ec87a",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha sfiorato l'impresa in Champions League contro il Galatasaray perdendo ai supplementari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è sfiorata l'impresa colgalatasaray. e è purtroppo si è persa i supplementari",
+          "start_sec": 62.239,
+          "end_sec": 126.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions league",
+        "imprese",
+        "partita"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Luciano Spalletti è considerato l'allenatore ideale per ricostruire e rimettere ordine nella Juventus.",
+      "polarity": "positive",
+      "claim_id": "f1dc95d3-a3b4-4f14-b1f9-d5fd03df9f75",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s1",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Luciano Spalletti è considerato l'allenatore ideale per ricostruire e rimettere ordine nella Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sembra l'allenatore ideale per poter ricostruire qualcosa di interessante, rimettere rimettere ordine",
+          "start_sec": 62.239,
+          "end_sec": 126.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "ricostruzione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Juventus",
+      "position": "C'è unità di intenti tra i giocatori della Juventus e con Luciano Spalletti.",
+      "polarity": "positive",
+      "claim_id": "e7adca8d-bd80-43d7-ae4a-b190cbb52bbc",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è unità di intenti tra i giocatori della Juventus e con Luciano Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "pure i ragazzi sono ovviamente dalla sua parte, c'è unità di intenti e la Juve ha fatto bene",
+          "start_sec": 62.239,
+          "end_sec": 126.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "unità",
+        "leadership",
+        "giocatori"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Luciano Spalletti",
+      "position": "Luciano Spalletti avrà un peso significativo nelle decisioni di mercato della Juventus.",
+      "polarity": "positive",
+      "claim_id": "ed4f2330-1805-4572-9ee5-7f7b265ab530",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s2",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Luciano Spalletti avrà un peso significativo nelle decisioni di mercato della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nell'accordo con la Juve c'è proprio questa questo maggior peso di Luciano Spalletti nelle decisioni di mercato",
+          "start_sec": 123.56,
+          "end_sec": 183.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore",
+        "Juventus"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Luciano Spalletti",
+      "position": "Spalletti ha già dato il suo assenso all'arrivo di alcuni ex pupilli alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "c44108da-4bd5-4c1a-9cf2-cdb12041aa73",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s2",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Spalletti ha già dato il suo assenso all'arrivo di alcuni ex pupilli alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'allenatore già sicuramente avrà dato il suo assenso all'arrivo di alcuni giocatori",
+          "start_sec": 123.56,
+          "end_sec": 183.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore",
+        "Juventus"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Spalletti ha bisogno di spazio e fiducia dalla società per lavorare e ottenere risultati.",
+      "polarity": "positive",
+      "claim_id": "fd1a6667-9df5-4175-857f-221ebf3578de",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s3",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha bisogno di spazio e fiducia dalla società per lavorare e ottenere risultati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io gliene darei tantissimo infinito spazio a Spalletti perché secondo me lui per lavorare e ottenere risultati ha bisogno del suo dei suoi calciatori e nello stesso tempo la società che ha vede di buon occhio l'operato dell'allenatore toscano gli concederà maggiore fiducia e maggiore parola e spazio",
+          "start_sec": 182.319,
+          "end_sec": 243.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "fiducia",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "società Inter",
+      "position": "La società Inter apprezza l'operato di Spalletti e gli concederà maggiore fiducia e parola.",
+      "polarity": "positive",
+      "claim_id": "7974cc99-4d03-47f7-8a78-62a6086d9ba0",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s3",
+      "target_entity": "società Inter",
+      "entity_type": "club",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La società Inter apprezza l'operato di Spalletti e gli concederà maggiore fiducia e parola.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la società che ha vede di buon occhio l'operato dell'allenatore toscano gli concederà maggiore fiducia e maggiore parola e spazio",
+          "start_sec": 182.319,
+          "end_sec": 243.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "società",
+        "fiducia",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "La qualificazione o meno in Champions condizionerà la strategia di mercato e il tipo di giocatori che l'Inter potrà attrarre.",
+      "polarity": "neutral",
+      "claim_id": "7d0af56c-7aed-43b7-8578-0702bb0395bc",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La qualificazione o meno in Champions condizionerà la strategia di mercato e il tipo di giocatori che l'Inter potrà attrarre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È chiaro che il piazzamento Champions o meno farà la differenza sulla strategia di mercato, sulla possibilità di spesa e anche sul tipo di giocatori che puoi attrarre con una Champions League da giocare oppure no",
+          "start_sec": 182.319,
+          "end_sec": 243.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "champions",
+        "strategia"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Il piazzamento in Champions influenzerà la strategia di mercato futura della Juventus.",
+      "polarity": "neutral",
+      "claim_id": "ac7cbf27-c0b6-43e3-ab2d-8869dd725f62",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il piazzamento in Champions influenzerà la strategia di mercato futura della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in queste ore, chiaramente, sono già partite un po' anche questi giochi che si fanno di immaginare come potrebbe essere la nuova Juventus. È chiaro che il piazzamento Champions o meno farà la differenza sulla strategia di mercato",
+          "start_sec": 182.319,
+          "end_sec": 243.79899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "champions",
+        "strategia"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Inter ha effettuato un terzo colpo di mercato dopo Akanji e Stankovic.",
+      "polarity": "positive",
+      "claim_id": "23d08e05-29ea-41f0-a176-3d6ee7a1f77a",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter ha effettuato un terzo colpo di mercato dopo Akanji e Stankovic.",
+      "evidence_quotes": [
+        {
+          "quote_text": "TERZO Colpo INTER dopo Akanji e Stankovic",
+          "start_sec": 0.56,
+          "end_sec": 66.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "squadra",
+        "calciomercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus intende interpellare Spalletti per le decisioni di mercato dell'anno prossimo.",
+      "polarity": "positive",
+      "claim_id": "17d70409-31c6-4342-81fa-0e1c9136d884",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus intende interpellare Spalletti per le decisioni di mercato dell'anno prossimo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è tutta l'intenzione di interpellarlo",
+          "start_sec": 123.56,
+          "end_sec": 183.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Juventus",
+        "Spalletti"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Spalletti è considerato un allenatore importante per la Juventus indipendentemente dal risultato ultima stagione.",
+      "polarity": "positive",
+      "claim_id": "b8634553-bffc-4d20-a5f8-1a486232d1ce",
+      "video_id": "bBxqec5HL9M",
+      "segment_id": "s0",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti è considerato un allenatore importante per la Juventus indipendentemente dal risultato ultima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spalletti per me è un allenatore che andava assolutamente",
+          "start_sec": 0.56,
+          "end_sec": 66.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "giudizio",
+        "leadership"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "video_id": "1UQ8IRKn5yY",
+  "analyzed_at": "2026-04-30T07:36:36.870521+00:00",
+  "metadata": {
+    "title": "TMWRadio- Dopo Maradona Kvara è il più forte giocatore della storia del Napoli?",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video discute se Khvicha Kvaratskhelia possa essere considerato, dopo Maradona, il più forte giocatore nella storia del Napoli. L'autore riconosce il talento straordinario di Kvara, sottolineando la sua capacità di coprire ampi spazi e di esaltarsi in un gioco che privilegia la tecnica e la corsa su campo lungo, ma lo colloca comunque qualche passo sotto il mito di Maradona. Vengono inoltre citati altri grandi campioni come Higuain, Cavani e Careca, ritenuti tra i primi quattro migliori giocatori del Napoli dopo Diego, con un accenno anche a Bruno Giordano. La conclusione chiave è che, pur ",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "storia",
+      "relevance": "high"
+    },
+    {
+      "name": "paragone",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "low"
+    },
+    {
+      "name": "evoluzione del gioco",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Kvaratskhelia",
+      "position": "Kvara copre 60-70 metri di campo in maniera incredibile.",
+      "polarity": "positive",
+      "claim_id": "1e1578cb-7b9b-46e5-a9a9-aeba9a366b59",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s1",
+      "target_entity": "Kvaratskhelia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Kvara copre 60-70 metri di campo in maniera incredibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso fa copre 60-70 m di campo in maniera incredibile",
+          "start_sec": 31.119,
+          "end_sec": 73.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "campo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Maradona",
+      "position": "Maradona ha giocato in squadre forti, inclusa l'Argentina campione del mondo 1986.",
+      "polarity": "positive",
+      "claim_id": "6dbce3a9-4950-4fc8-9d0f-5b0415d0922a",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s3",
+      "target_entity": "Maradona",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Maradona ha giocato in squadre forti, inclusa l'Argentina campione del mondo 1986.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Maradona ha era anche con squadre che obiettivamente non erano a cominciare anche dall'Argentina che ha vinto il mondiale nell'86",
+          "start_sec": 109.439,
+          "end_sec": 145.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadre",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Maradona",
+      "position": "Maradona vinse il mondiale 1986 con l'Argentina.",
+      "polarity": "positive",
+      "claim_id": "4a9694b0-e0aa-4955-94db-53778aaee4dd",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s3",
+      "target_entity": "Maradona",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Maradona vinse il mondiale 1986 con l'Argentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Argentina che ha vinto il mondiale nell'86",
+          "start_sec": 109.439,
+          "end_sec": 145.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiale",
+        "Argentina",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kvaratskhelia",
+      "position": "Kvara è considerato uno dei più forti giocatori del Napoli dopo Maradona",
+      "polarity": "positive",
+      "claim_id": "0fab97fb-981b-4e58-8e41-c453f44a3864",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s0",
+      "target_entity": "Kvaratskhelia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Kvara è considerato uno dei più forti giocatori del Napoli dopo Maradona",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho detto io la voglio prendere perché a me ste cose mi piacciono tantissimo, se dopo Maradona Guaschegglia è il più forte giocatore ad aver vestito la maglia del Napoli",
+          "start_sec": 0.16,
+          "end_sec": 31.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Careca",
+      "position": "Careca è considerato un grande campione del Napoli.",
+      "polarity": "positive",
+      "claim_id": "7385fcef-4212-430a-8f1e-01ab4b0369fb",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s1",
+      "target_entity": "Careca",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Careca è considerato un grande campione del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Careca, Higuain, quello che fate è Cavani, grandi campioni",
+          "start_sec": 31.119,
+          "end_sec": 73.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "storia"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kvaratskhelia",
+      "position": "Kvara si esalta e mostra cose fantastiche grazie a tecnica, corsa e gamba.",
+      "polarity": "positive",
+      "claim_id": "40d92ef2-9d3d-4cee-9c6d-aced113a0bf7",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s2",
+      "target_entity": "Kvaratskhelia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Kvara si esalta e mostra cose fantastiche grazie a tecnica, corsa e gamba.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi ha tecnica, corsa e gamba come questi fuoriasse ovviamente si esalta e fa vedere delle cose fantastiche",
+          "start_sec": 71.92,
+          "end_sec": 111.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tecnica",
+        "performance",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Maradona",
+      "position": "Maradona è considerato 'Dio' dal punto di vista calcistico.",
+      "polarity": "positive",
+      "claim_id": "38b48bd7-e380-4c68-889c-93491da40d92",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s2",
+      "target_entity": "Maradona",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Maradona è considerato 'Dio' dal punto di vista calcistico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dal punto di vista calcistico Diego, ovviamente come Dio",
+          "start_sec": 71.92,
+          "end_sec": 111.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "rango",
+        "calciatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kvaratskhelia",
+      "position": "Kvaratskhelia è considerato un giocatore di valore assoluto clamoroso.",
+      "polarity": "positive",
+      "claim_id": "ed71ff7e-7719-4759-ab76-d8ecf001b102",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s4",
+      "target_entity": "Kvaratskhelia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kvaratskhelia è considerato un giocatore di valore assoluto clamoroso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Certo, è un giocatore di un valore assoluto clamoroso",
+          "start_sec": 143.36,
+          "end_sec": 180.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valore assoluto",
+        "prestazione",
+        "paragone"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio",
+      "position": "Il campo di gioco si è allungato e si può giocare la palla in area più recentemente nel calcio.",
+      "polarity": "neutral",
+      "claim_id": "b879accd-848d-4bd8-86ef-1f0a737e1de5",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s4",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il campo di gioco si è allungato e si può giocare la palla in area più recentemente nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, qua si è allungato il campo, è da poco che si può giocare la palla in area relativamente al gioco del calcio",
+          "start_sec": 143.36,
+          "end_sec": 180.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "campo di gioco",
+        "evoluzione",
+        "regole"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kvaratskhelia",
+      "position": "Kvara diventa infermabile nel PSG grazie al passaggio al momento e posto giusto.",
+      "polarity": "positive",
+      "claim_id": "855f68ad-40d0-41fe-940c-4029796da0d5",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s6",
+      "target_entity": "Kvaratskhelia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kvara diventa infermabile nel PSG grazie al passaggio al momento e posto giusto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Paris Saint-Germain ha terreno fertile perché gliela passano al momento giusto, nel posto giusto, cioè creano i presupposti affinché Quara diventi infermabile",
+          "start_sec": 180.8,
+          "end_sec": 209.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "giocatore",
+        "psg"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cavasia",
+      "position": "Cavasia non arriverà mai ai livelli di Maradona calcisticamente.",
+      "polarity": "neutral",
+      "claim_id": "975333af-0535-4842-bdc2-11e549a8add9",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s2",
+      "target_entity": "Cavasia",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cavasia non arriverà mai ai livelli di Maradona calcisticamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cavasia non arriverà mai ai livelli di Maradona",
+          "start_sec": 71.92,
+          "end_sec": 111.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "calciatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bruno Giordano",
+      "position": "Bruno Giordano merita di essere inserito nella classifica dei migliori giocatori del Napoli.",
+      "polarity": "positive",
+      "claim_id": "89d2d03c-e350-4cde-bbda-039f6751b67f",
+      "video_id": "1UQ8IRKn5yY",
+      "segment_id": "s3",
+      "target_entity": "Bruno Giordano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bruno Giordano merita di essere inserito nella classifica dei migliori giocatori del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io voglio aggiungere Bruno Giordano in quella classifica lì",
+          "start_sec": 109.439,
+          "end_sec": 145.87900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "prestazione",
+        "napoli"
+      ]
+    }
+  ]
+}

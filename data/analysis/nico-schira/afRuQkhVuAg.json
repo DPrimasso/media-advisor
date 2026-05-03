@@ -1,0 +1,398 @@
+{
+  "video_id": "afRuQkhVuAg",
+  "analyzed_at": "2026-04-29T08:15:21.418704+00:00",
+  "metadata": {
+    "title": "MILAN, I COLPI PER DIFESA E CENTROCAMPO. JUVENTUS, NOVITÀ SU VLAHOVIC. DUE GRANDI TALENTI ITALIANI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'emergere di giovani talenti italiani nel calcio, con particolare attenzione a Samuel Inasio, promettente attaccante italo-brasiliano cresciuto nel Borussia Dortmund, e Nicolò Tre Soldi, giovane di grande valore seguito dall'Arsenal. L'autore sottolinea come, nonostante un livello medio più basso rispetto al passato, esistano ancora giocatori di talento che meritano fiducia e investimenti, criticando il sistema calcistico italiano per aver perso occasioni importanti, come nel caso di Tre Soldi passato alla Germania. Si evidenzia inoltre la possibile chiamata in nazion",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "talento",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovane",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "bonus alla firma",
+      "relevance": "low"
+    },
+    {
+      "name": "difesa",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Samuel Inasio",
+      "position": "Samuel Inasio ha giocato titolare nel Borussia Dortmund nella categoria classe 2008.",
+      "polarity": "positive",
+      "claim_id": "9bc0e0a4-31fb-4720-9cab-1a456589b165",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s0",
+      "target_entity": "Samuel Inasio",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Samuel Inasio ha giocato titolare nel Borussia Dortmund nella categoria classe 2008.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha giocato titolare classe 2008 in Borussia Dortmund",
+          "start_sec": 0.32,
+          "end_sec": 37.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Borussia Dortmund",
+      "position": "Borussia Dortmund vuole rinnovare il contratto del talento fino al 2030.",
+      "polarity": "positive",
+      "claim_id": "c419a1e6-9292-4136-9e42-d0e5fbc33c56",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s1",
+      "target_entity": "Borussia Dortmund",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Borussia Dortmund vuole rinnovare il contratto del talento fino al 2030.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Borussia Dortmund vuole rinnovare sino al 2030 spazzando via le sirene di club spagnoli e inglesi ci puntano forte",
+          "start_sec": 36.04,
+          "end_sec": 64.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "mercato",
+        "rinnovo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore italiano Under 17",
+      "position": "È stato capocannoniere all'Europeo Under 17 vincendo la classifica marcatori con cinque gol in quattro partite.",
+      "polarity": "positive",
+      "claim_id": "9f5391f4-54bd-462e-8fed-24bbf2a9fa6a",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s1",
+      "target_entity": "giocatore italiano Under 17",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "È stato capocannoniere all'Europeo Under 17 vincendo la classifica marcatori con cinque gol in quattro partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stato capocannoniere. Mai nessun giocatore italiano all'Europeo Under 17 aveva vinto la classifica marcatori, l'ha vinta cinque gol in quattro partite",
+          "start_sec": 36.04,
+          "end_sec": 64.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "europeo Under 17",
+        "capocannoniere"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Samuele Inizio",
+      "position": "Samuele Inizio ha segnato quattro gol al Mondiale Under 17.",
+      "polarity": "positive",
+      "claim_id": "c7b8372e-1419-46b8-b10e-fc6f5d809c60",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s2",
+      "target_entity": "Samuele Inizio",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Samuele Inizio ha segnato quattro gol al Mondiale Under 17.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con quattro gol al Mondiale, Under 17, un talento cristallino",
+          "start_sec": 61.199,
+          "end_sec": 91.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "under 17",
+        "gol",
+        "talento"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Baldini",
+      "position": "Baldini potrebbe sorprendere convocando giocatori Under 21 alle amichevoli.",
+      "polarity": "neutral",
+      "claim_id": "640b5e2c-b743-4a8e-89cb-716255942708",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s2",
+      "target_entity": "Baldini",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Baldini potrebbe sorprendere convocando giocatori Under 21 alle amichevoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "magari con Baldini chissà può essere una sorpresa. Vedremo Baldini che per le amichevoli contro Grecia e Lussemburgo vuol chiamare praticamente tutti i giocatori Under 21",
+          "start_sec": 61.199,
+          "end_sec": 91.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "convocazioni",
+        "amichevoli",
+        "under 21"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Il giocatore ha offerto una prestazione tecnica di alto livello di 74 minuti senza segnare né fare assist ma regalando bel calcio.",
+      "polarity": "positive",
+      "claim_id": "e46aedb9-b64f-4ee7-b0c2-4fe24717c655",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s3",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore ha offerto una prestazione tecnica di alto livello di 74 minuti senza segnare né fare assist ma regalando bel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "74 minuti, non ha segnato, non ha fatto assist, ma ha regalato calcio",
+          "start_sec": 88.479,
+          "end_sec": 135.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "calcio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "È un numero 10 classico, un tipo di giocatore raro negli ultimi 10 anni.",
+      "polarity": "positive",
+      "claim_id": "c51cb970-29b2-4b2b-b8b7-0fc1ccedf51c",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s3",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È un numero 10 classico, un tipo di giocatore raro negli ultimi 10 anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un vecchio numero 10, come negli ultimi 10 anni non siamo più abituati, purtroppo, a vedere",
+          "start_sec": 88.479,
+          "end_sec": 135.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "numero 10",
+        "stile"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Samuel Inasio",
+      "position": "Samuel Inasio è un giovane talento italo-brasiliano con origini bergamasche.",
+      "polarity": "positive",
+      "claim_id": "1ea86428-a232-499b-99f0-8591985b4d7d",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s0",
+      "target_entity": "Samuel Inasio",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Samuel Inasio è un giovane talento italo-brasiliano con origini bergamasche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è un diciottenne italiano bergamasco, anche se italo brasiliano",
+          "start_sec": 0.32,
+          "end_sec": 37.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Brasile",
+      "position": "Il Brasile vorrebbe chiamare prima Samuele Inizio in nazionale maggiore.",
+      "polarity": "positive",
+      "claim_id": "a93a7606-59ae-41b9-9afe-c8525e3e0cf9",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s2",
+      "target_entity": "Brasile",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Brasile vorrebbe chiamare prima Samuele Inizio in nazionale maggiore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Brasile vorrebbe soffiarcelo, vorrebbe chiamarlo prima di noi in nazionale maggiore",
+          "start_sec": 61.199,
+          "end_sec": 91.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale maggiore",
+        "interesse mercato"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Gigio Donnarumma",
+      "position": "Gigio Donnarumma sarà escluso dalle convocazioni per le amichevoli contro Grecia e Lussemburgo.",
+      "polarity": "negative",
+      "claim_id": "4857e697-7646-433f-b430-7dcc58f8f076",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s2",
+      "target_entity": "Gigio Donnarumma",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gigio Donnarumma sarà escluso dalle convocazioni per le amichevoli contro Grecia e Lussemburgo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tranne Gigio Donnarumma, quindi vedremo tante sorprese, tante novità",
+          "start_sec": 61.199,
+          "end_sec": 91.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esclusione",
+        "convocazioni"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore",
+      "position": "Il giocatore dribbla con facilità e mostra fantasia in campo come una seconda punta e fantasista.",
+      "polarity": "positive",
+      "claim_id": "291f8eda-0291-4a0e-8f7b-5b4197c79cf8",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s3",
+      "target_entity": "giocatore",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore dribbla con facilità e mostra fantasia in campo come una seconda punta e fantasista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "saltava l'uomo con facilità, dribbling, fantasia, una seconda punta, un fantasista",
+          "start_sec": 88.479,
+          "end_sec": 135.23899999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dribbling",
+        "fantasia",
+        "ruolo"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Borussia Dortmund",
+      "position": "Il Borussia Dortmund ha acquisito Samuel Inasio dall'Atalanta.",
+      "polarity": "positive",
+      "claim_id": "9f5ad6d9-c8ef-46ce-a43b-7ad7e8937881",
+      "video_id": "afRuQkhVuAg",
+      "segment_id": "s0",
+      "target_entity": "Borussia Dortmund",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Borussia Dortmund ha acquisito Samuel Inasio dall'Atalanta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Borussia Dortmund lo soffiò all'Atalanta",
+          "start_sec": 0.32,
+          "end_sec": 37.599999999999994,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

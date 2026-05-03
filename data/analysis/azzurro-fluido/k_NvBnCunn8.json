@@ -1,0 +1,402 @@
+{
+  "video_id": "k_NvBnCunn8",
+  "analyzed_at": "2026-04-27T07:08:23.137985+00:00",
+  "metadata": {
+    "title": "\"SBAGLIAMO LA COMUNICAZIONE\" 👀 #Conte e #Marotta a confronto 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza il tema centrale della comunicazione problematica tra Antonio Conte, Beppe Marotta e l’Inter, evidenziando come errori comunicativi stiano influenzando la percezione della squadra nel calcio italiano. L’autore sostiene che Conte è ancora frustrato per la gestione mediatica della partita con la Lazio e che la sua nervosità si riflette in dichiarazioni ambigue, mentre Marotta appare più deciso nel rispondere alle accuse di unfair play. Viene inoltre sottolineato il disagio di Conte nel non chiamare Lukaku per nome, segno di tensioni interne, e si conclude che l’Inter deve migli",
+  "topics": [
+    {
+      "name": "comunicazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "ambiente",
+      "relevance": "medium"
+    },
+    {
+      "name": "frustrazione",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "serenità",
+      "relevance": "low"
+    },
+    {
+      "name": "forma fisica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'Inter è percepita come una squadra non credibile nella gestione della comunicazione.",
+      "polarity": "negative",
+      "claim_id": "eaff7168-82f4-45bf-b0e3-22f323631dbb",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è percepita come una squadra non credibile nella gestione della comunicazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "alla fine l'Inter non è credibile.",
+          "start_sec": 70.96,
+          "end_sec": 134.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "credibilità",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Conte è ancora frustrato per la comunicazione errata relativa alla partita con la Lazio.",
+      "polarity": "neutral",
+      "claim_id": "ff5aebc5-9ef5-4d6f-97f2-5954be0a629e",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è ancora frustrato per la comunicazione errata relativa alla partita con la Lazio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte ci è rimasto molto male. ... Conte eh quando gli si chiede ... ritorna sulla Lazio ... lui ribadisce abb il 70% di possesso, sono arrivate troppe critiche, la sofferenza di Conte sotto questo punto di vista. Non tornare sulla Lazio, dici che quella là l'abbiamo sbagliata. secondo me è più corretto e secondo me lui sta ancora soffrendo per aver comunicato volontariamente o involontariamente",
+          "start_sec": 70.96,
+          "end_sec": 134.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "frustrazione",
+        "Lazio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte si è reso conto che il secondo posto è molto diverso dal quarto.",
+      "polarity": "positive",
+      "claim_id": "286cf83a-6d41-4e03-896f-6d319f3c5334",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte si è reso conto che il secondo posto è molto diverso dal quarto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che anche Conte si sia reso conto che il secondo posto è molto diverso dal quarto per molti motivi",
+          "start_sec": 132.84,
+          "end_sec": 191.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha vinto uno scudetto e una Supercoppa.",
+      "polarity": "positive",
+      "claim_id": "b5c9e64c-95c3-41cf-88a9-22f8c0472b4e",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha vinto uno scudetto e una Supercoppa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo vinto uno scudetto, abbiamo vinto la Supercoppa come all'epoca di Maradona",
+          "start_sec": 132.84,
+          "end_sec": 191.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Lukaku",
+      "position": "Conte non chiama Lukaku per nome, ciò ferisce il rapporto con lui.",
+      "polarity": "negative",
+      "claim_id": "253cfd06-81f5-4314-9c31-787014f3359e",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non chiama Lukaku per nome, ciò ferisce il rapporto con lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando dice Lukaku e non dice Romelu, già lì abbiamo la sensazione.... lui ci è rimasto molto male",
+          "start_sec": 132.84,
+          "end_sec": 191.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "relationship"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Marotta",
+      "position": "Marotta nella sua comunicazione è molto risoluto e chiaro sulle accuse di unfair play.",
+      "polarity": "positive",
+      "claim_id": "a493ae1b-b1b2-4971-8376-bdbae20e40ba",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s3",
+      "target_entity": "Marotta",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Marotta nella sua comunicazione è molto risoluto e chiaro sulle accuse di unfair play.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Marotta di oggi che invece è molto più risoluto e dice \"No, noi siamo stati siamo stati defraudati nella stagione scorsa, è un fatto oggettivo\"",
+          "start_sec": 189.319,
+          "end_sec": 253.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "chiarezza"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Conte critica indirettamente l'ambiente Napoli e i giornalisti per la loro divisione e mancanza di difesa.",
+      "polarity": "neutral",
+      "claim_id": "1e8d31b2-e171-4e2a-ab4f-b3660aa39772",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte critica indirettamente l'ambiente Napoli e i giornalisti per la loro divisione e mancanza di difesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me, Conte fa riferimento anche all'ambiente Napoli, ai giornalisti che non sanno difendere, anzi preferiscono dividersi tra chi porta avanti un certo discorso e chi preferisce criticare",
+          "start_sec": 189.319,
+          "end_sec": 253.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ambiente",
+        "giornalismo",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli sta facendo una stagione non considerata positiva da alcuni esperti come Pedullà e Sabatini.",
+      "polarity": "negative",
+      "claim_id": "1e665d5a-ddd5-4f33-adb4-423447470b39",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli sta facendo una stagione non considerata positiva da alcuni esperti come Pedullà e Sabatini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche per lui è molto grave. eh il pastore di cronache, Sabatini ed altri che dice \"No, la stagione del Napoli non è positiva\"",
+          "start_sec": 251.76,
+          "end_sec": 321.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stagione",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Il Napoli deve migliorare seriamente la comunicazione pubblica.",
+      "polarity": "negative",
+      "claim_id": "db4740a6-dc70-4de1-8c20-339ad5ce1b7d",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Il Napoli deve migliorare seriamente la comunicazione pubblica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il problema della comunicazione, secondo me, è importante ed è uno dei punti su cui il Napoli dovrebbe lavorare seriamente",
+          "start_sec": 251.76,
+          "end_sec": 321.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "strategia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Napoli",
+      "position": "Non è chiaro se limitare le conferenze stampa del Napoli sia una soluzione efficace per migliorare la comunicazione.",
+      "polarity": "neutral",
+      "claim_id": "d81ac568-a3b9-49ad-ac06-b6e9b267889a",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Non è chiaro se limitare le conferenze stampa del Napoli sia una soluzione efficace per migliorare la comunicazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non lo so se non fare più le conferenze è un bene, non lo so se servirebbe",
+          "start_sec": 251.76,
+          "end_sec": 321.15999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conferenze stampa",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Lorenzo Neres, Lukaku e Vergara",
+      "position": "Mancano Lorenzo Neres, Lukaku e Vergara per l'Inter.",
+      "polarity": "neutral",
+      "claim_id": "bc5398e2-d504-42d2-a47f-14deb563bb7e",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s2",
+      "target_entity": "Lorenzo Neres, Lukaku e Vergara",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mancano Lorenzo Neres, Lukaku e Vergara per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "manchiamo di Lorenzo Neres, Lukaku e Vergara",
+          "start_sec": 132.84,
+          "end_sec": 191.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Conte a volte non comunica bene perché è nervoso e preoccupato per il risultato.",
+      "polarity": "neutral",
+      "claim_id": "56ca21c9-53e3-4f52-8bd8-580324eceaac",
+      "video_id": "k_NvBnCunn8",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte a volte non comunica bene perché è nervoso e preoccupato per il risultato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte che non comunica benissimo a volte perché è nervoso, il risultato Gli gli mette ansia e quindi reagisce in un certo modo",
+          "start_sec": 189.319,
+          "end_sec": 253.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "ansia",
+        "nervosismo"
+      ]
+    }
+  ]
+}

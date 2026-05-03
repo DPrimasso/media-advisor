@@ -1,0 +1,373 @@
+{
+  "video_id": "TaQxQaORkRs",
+  "analyzed_at": "2026-04-24T07:53:13.793853+00:00",
+  "metadata": {
+    "title": "LAUTARO MARTINEZ‼️ INTER-ROMA 5-2",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'importanza di Lautaro Martinez nella vittoria per 5-2 dell'Inter contro la Roma, sottolineando come la sua presenza in campo abbia influenzato positivamente la squadra e contribuito a risollevare le prestazioni offensive. L'autore evidenzia anche la rinascita di Turam, che ha mostrato un ritorno di forma significativo durante la partita. Nonostante la Roma abbia pareggiato momentaneamente con un gol spettacolare di Cialanoglou, l'Inter ha saputo reagire segnando cinque reti, infrangendo la solida difesa avversaria che fino a quel momento non era mai stata così vulner",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "coesione di gruppo",
+      "relevance": "medium"
+    },
+    {
+      "name": "momento",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter scored five goals against Roma after previously drawing 1-1.",
+      "polarity": "positive",
+      "claim_id": "b2107d7c-7c5c-4702-81a7-49842cc6e52a",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter scored five goals against Roma after previously drawing 1-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "you scored five. You could have scored many more.",
+          "start_sec": 198.82,
+          "end_sec": 242.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro Martinez's presence on the pitch is significant and impactful.",
+      "polarity": "positive",
+      "claim_id": "a716bc95-9df8-4ecb-8772-7f06973ac7fb",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s1",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro Martinez's presence on the pitch is significant and impactful.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it's not a coincidence that Lautaro Martinez is on the pitch",
+          "start_sec": 52.88,
+          "end_sec": 93.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "attaccante"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Turam",
+      "position": "Turam revived his football career during the match.",
+      "polarity": "positive",
+      "claim_id": "494b7db3-b531-4ec4-8162-9671f2ab2735",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s1",
+      "target_entity": "Turam",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Turam revived his football career during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tonight, it's not just Lautaro's return, the goals that weigh a lot... Turam becomes a football player",
+          "start_sec": 52.88,
+          "end_sec": 93.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "rinascita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro Martinez's goals are very important, especially as an attacker.",
+      "polarity": "positive",
+      "claim_id": "f91b0b95-e7ae-487a-8f3d-1f8f3bddd9ef",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s1",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro Martinez's goals are very important, especially as an attacker.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Especially if we're talking about an attacker, they're absolutely fundamental",
+          "start_sec": 52.88,
+          "end_sec": 93.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "attaccante",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "Roma defensively are not the weakest team and are not easy to beat.",
+      "polarity": "neutral",
+      "claim_id": "8ff5c36b-2981-49b4-b0be-2a821e7db274",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s4",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Roma defensively are not the weakest team and are not easy to beat.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Roma, defensively speaking, are not the last. They are not a team to beat.",
+          "start_sec": 198.82,
+          "end_sec": 242.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "Roma had never broken their defensive record before this match.",
+      "polarity": "neutral",
+      "claim_id": "d158ee3b-5983-4768-a60a-8593ec7df669",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s4",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Roma had never broken their defensive record before this match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Roma, until tonight, had never broken.",
+          "start_sec": 198.82,
+          "end_sec": 242.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro Martinez had a notable performance in the match against Roma.",
+      "polarity": "positive",
+      "claim_id": "a14f4897-19c0-4822-a916-f6f2d1987a1f",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s7",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro Martinez had a notable performance in the match against Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it's easy to talk about Lautaro and Turam",
+          "start_sec": 308.74,
+          "end_sec": 343.02,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "Roma equalised with a goal by Cialanoglou.",
+      "polarity": "neutral",
+      "claim_id": "eb5898a8-d076-46c7-870b-ac58a28e1e9e",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Roma equalised with a goal by Cialanoglou.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Roma deservedly equalised, with or without me. It was Cialanoglou's goal.",
+          "start_sec": 145.04,
+          "end_sec": 198.22,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "With Lautaro, the team's performance improved.",
+      "polarity": "positive",
+      "claim_id": "451c7807-4224-4905-88ea-9b74522d0090",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s3",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "With Lautaro, the team's performance improved.",
+      "evidence_quotes": [
+        {
+          "quote_text": "As we said before, with Lautaro, the music had changed a bit.",
+          "start_sec": 145.04,
+          "end_sec": 198.22,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cialanoglou",
+      "position": "Cialanoglou scored perhaps the season's best goal.",
+      "polarity": "positive",
+      "claim_id": "25623fc8-9736-4296-85d4-30ac7afd5d18",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s3",
+      "target_entity": "Cialanoglou",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Cialanoglou scored perhaps the season's best goal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Perhaps the season's goal.",
+          "start_sec": 145.04,
+          "end_sec": 198.22,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cansi",
+      "position": "Cansi effectively maintained possession during the match.",
+      "polarity": "positive",
+      "claim_id": "6ab97e88-cd02-4bfb-8154-d73feba8eb24",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s7",
+      "target_entity": "Cansi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Cansi effectively maintained possession during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cansi behind, really kept the ball",
+          "start_sec": 308.74,
+          "end_sec": 343.02,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "second half",
+      "position": "La prestazione della seconda metà ha rappresentato una risposta importante.",
+      "polarity": "positive",
+      "claim_id": "89c22534-5e77-417d-b6bf-5652b6183acd",
+      "video_id": "TaQxQaORkRs",
+      "segment_id": "s6",
+      "target_entity": "second half",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La prestazione della seconda metà ha rappresentato una risposta importante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "that of the second half was an an important response.",
+          "start_sec": 273.3,
+          "end_sec": 307.98,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "video_id": "Zx1o19lgjy4",
+  "analyzed_at": "2026-04-25T11:25:26.689479+00:00",
+  "metadata": {
+    "title": "100 DI QUESTI MALEN. RANIERI, COSÌ NO. JUVE-ROMA: CON O SENZA CHAMPIONS. INTER, GIUSTA IDEA🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza la situazione attuale del calcio italiano, focalizzandosi su alcune criticità della Serie C e sulle dinamiche di mercato della Roma. L’autore difende con forza l’operazione Malen, definendola il miglior colpo di gennaio grazie ai suoi 10 gol, e critica chi l’ha messa in discussione, sottolineando come certe critiche siano ingiuste e destabilizzanti. Inoltre, Pedullà evidenzia tensioni interne tra Ranieri, Gasperini e la dirigenza, ipotizzando che la convivenza tra queste figure stia creando problemi che potrebbero influire negativamente sul futuro della squ",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "serie c",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "low"
+    },
+    {
+      "name": "organico",
+      "relevance": "low"
+    },
+    {
+      "name": "storia",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Malen",
+      "position": "La prima tripletta di Malen in questo campionato è arrivata alla 32ª giornata.",
+      "polarity": "positive",
+      "claim_id": "eb76c40e-f022-40b1-b995-688bc98e57f4",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s2",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La prima tripletta di Malen in questo campionato è arrivata alla 32ª giornata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La prima tripletta di questo straordinario campionato arriva alla 32ª giornata dopo Roma-Pisa di ieri sera",
+          "start_sec": 73.759,
+          "end_sec": 108.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Malen",
+      "position": "Malen è arrivato a gennaio ed ha segnato 10 gol nel campionato.",
+      "polarity": "positive",
+      "claim_id": "484e2453-1fb9-4dce-9d3d-b343a7e4f0a1",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s2",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malen è arrivato a gennaio ed ha segnato 10 gol nel campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malen che è arrivato a gennaio, ha fatto 10 gol",
+          "start_sec": 73.759,
+          "end_sec": 108.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Terni",
+      "position": "A Terni sta succedendo qualcosa di inconcepibile nel contesto della Serie C.",
+      "polarity": "negative",
+      "claim_id": "91e5dd96-69ab-4f57-b97a-1d280dd15b3b",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s1",
+      "target_entity": "Terni",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "A Terni sta succedendo qualcosa di inconcepibile nel contesto della Serie C.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quello che sta succedendo a Terni è qualcosa di inconcepibile che appartiene al pacchetto completo che ci hanno riservato.",
+          "start_sec": 38.16,
+          "end_sec": 75.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie c",
+        "prestazione",
+        "problemi"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Serie C",
+      "position": "La Serie C è diventata un emisfero a parte con città picconate e storia calpestata.",
+      "polarity": "negative",
+      "claim_id": "130a7f7c-28de-4992-b0eb-c02f038cf954",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s1",
+      "target_entity": "Serie C",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Serie C è diventata un emisfero a parte con città picconate e storia calpestata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con la Serie C ormai è diventato un un emisfero a parte con città picconate e storia calpestata",
+          "start_sec": 38.16,
+          "end_sec": 75.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie c",
+        "contesto",
+        "storia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Malen",
+      "position": "L'operazione Malen ha ricevuto critiche considerate ingiustificate dall'opinionista.",
+      "polarity": "negative",
+      "claim_id": "4596a183-b399-45ce-81d5-c098278bf25b",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s2",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'operazione Malen ha ricevuto critiche considerate ingiustificate dall'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho anche ascoltato delle critiche sull'operazione Malen che sinceramente m'hanno fatto venire un po' di mal di testa",
+          "start_sec": 73.759,
+          "end_sec": 108.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Malen",
+      "position": "Criticare l'operazione Malen è considerato una mancanza di rispetto.",
+      "polarity": "positive",
+      "claim_id": "3d114b09-1de2-4127-a801-a980d823f53e",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s2",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Criticare l'operazione Malen è considerato una mancanza di rispetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Criticare significa a prescindere e gettare benzina, veleno, cianuro e rispetto a un'operazione",
+          "start_sec": 73.759,
+          "end_sec": 108.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "Se la Roma avesse avuto più giocatori come Malen da luglio, il suo futuro sarebbe stato migliore.",
+      "polarity": "negative",
+      "claim_id": "03221ccc-dfc1-49cb-81a4-262ac16cc386",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "HYPOTHESIS",
+      "claim_text": "Se la Roma avesse avuto più giocatori come Malen da luglio, il suo futuro sarebbe stato migliore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malen e la speranza della Roma avessero dato a Gasperini qualche altro malen in altri settori, partendo eh da luglio, probabilmente il futuro della Roma sarebbe stato migliore",
+          "start_sec": 107.04,
+          "end_sec": 141.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Il video menziona una tribù interna tra Ranieri, Gasperini e Massara.",
+      "polarity": "neutral",
+      "claim_id": "1032f298-be31-44c2-a10d-514abd0e2b64",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s3",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il video menziona una tribù interna tra Ranieri, Gasperini e Massara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi entro velocemente dentro questa dia triba tra Ranieri, Gasperini, Massara",
+          "start_sec": 107.04,
+          "end_sec": 141.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri è considerato destabilizzante prima di una partita.",
+      "polarity": "negative",
+      "claim_id": "73af4d51-2f7c-4817-af00-73ef920514ac",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s4",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri è considerato destabilizzante prima di una partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "prima di una partita, per come la vedo io, non si può destabilizzare con tutta la stima ehm per Claudio Ranieri, per il suo tributo alla Roma, per la sua Roma nel cuore",
+          "start_sec": 137.76,
+          "end_sec": 178.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "coaching",
+        "Roma"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri, Gasperini, Massara Barra",
+      "position": "Gasperini, Massara Barra e Ranieri sono ritenuti uno di troppo e causano problemi.",
+      "polarity": "negative",
+      "claim_id": "d883dd03-2da3-4196-a721-a251343cfb44",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s4",
+      "target_entity": "Ranieri, Gasperini, Massara Barra",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini, Massara Barra e Ranieri sono ritenuti uno di troppo e causano problemi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno tra Gasperini e Massara Barra Ranieri è di troppo e verranno fuori dei problemi",
+          "start_sec": 137.76,
+          "end_sec": 178.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "problems",
+        "coaching"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Malen",
+      "position": "Malen è considerato il migliore colpo di mercato di gennaio.",
+      "polarity": "positive",
+      "claim_id": "f367606a-6583-41f9-9531-2c322e0d2dd5",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s3",
+      "target_entity": "Malen",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malen è considerato il migliore colpo di mercato di gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "migliore del mercato di gennaio",
+          "start_sec": 107.04,
+          "end_sec": 141.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Alison Santos",
+      "position": "Alison Santos è considerato un buon acquisto di mercato, subito dopo Malen.",
+      "polarity": "positive",
+      "claim_id": "bb88c09f-9b48-4d0f-b32a-017528078061",
+      "video_id": "Zx1o19lgjy4",
+      "segment_id": "s3",
+      "target_entity": "Alison Santos",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alison Santos è considerato un buon acquisto di mercato, subito dopo Malen.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Subito dopo metto Alison Santos",
+          "start_sec": 107.04,
+          "end_sec": 141.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

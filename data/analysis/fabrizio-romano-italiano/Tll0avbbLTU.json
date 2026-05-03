@@ -1,0 +1,403 @@
+{
+  "video_id": "Tll0avbbLTU",
+  "analyzed_at": "2026-04-24T07:32:06.132085+00:00",
+  "metadata": {
+    "title": "🚨 INTER: IL MODULO 26/27 E IL SEGNALE BASTONI! LUKAKU, 8 MILIONI PER UN ADDIO. RUDIGER E LA JUVE…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-21T00:11:24+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulla situazione di Romelu Lukaku e il Napoli in vista del calciomercato estivo. L'autore sottolinea che, nonostante un confronto costruttivo tra Lukaku, il Napoli e Antonio Conte volto a riportare serenità, la separazione tra il giocatore e il club appare probabile. Lukaku ha un contratto oneroso fino al 2027, ma la sua condizione fisica e le esigenze tecniche spingono il Napoli a pianificare una sua cessione, cercando nel contempo un sostituto. La priorità di Lukaku è ora il Mondiale, mentre il Napoli guarda già al futuro mercato con l'obiettivo di tr",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "condizione fisica",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasferimenti",
+      "relevance": "medium"
+    },
+    {
+      "name": "cooperazione",
+      "relevance": "low"
+    },
+    {
+      "name": "esperienza",
+      "relevance": "low"
+    },
+    {
+      "name": "modulo",
+      "relevance": "low"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Lukaku ha un contratto oneroso con il Napoli fino al 2027 superiore a 8 milioni di euro netti a stagione.",
+      "polarity": "neutral",
+      "claim_id": "e85d0815-2d22-42c7-ab32-86374ed89c68",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha un contratto oneroso con il Napoli fino al 2027 superiore a 8 milioni di euro netti a stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha un altro anno di contratto con il Napoli fino al 2027. È un contratto, tra l'altro, abbastanza oneroso che sfora gli 8 milioni di euro netti a stagione per l'attaccante belga",
+          "start_sec": 111.479,
+          "end_sec": 141.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "stipendio",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Romelu Lukaku",
+      "position": "Romelu Lukaku è rientrato al Napoli prima di tornare in Belgio.",
+      "polarity": "neutral",
+      "claim_id": "602af143-5b03-4ac9-8420-16e7c7f196bf",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s1",
+      "target_entity": "Romelu Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Romelu Lukaku è rientrato al Napoli prima di tornare in Belgio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Romero Lukaku che è rientrato al Napoli prima di rientrare in Belgio",
+          "start_sec": 24.92,
+          "end_sec": 57.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        " Napoli"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte ha avuto un confronto diretto e costruttivo con la dirigenza del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "8c54980c-36d0-4ed9-9181-9560dd6d0c84",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte ha avuto un confronto diretto e costruttivo con la dirigenza del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Antonio Conte, lato società, lato dirigenza. è stato un confronto diretto, costruttivo",
+          "start_sec": 55.28,
+          "end_sec": 84.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "confronto",
+        "dirigenza",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Il confronto mira a riportare serenità tra le parti del Napoli.",
+      "polarity": "positive",
+      "claim_id": "79a384d6-9ee8-4cf0-941b-9c8e7f46da31",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il confronto mira a riportare serenità tra le parti del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in cui cercare di riappacificarsi e di riportare il sereno tra le parti",
+          "start_sec": 55.28,
+          "end_sec": 84.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serenità",
+        "cooperazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli considera la destinazione mercato di Romel Lukaku abbastanza chiara.",
+      "polarity": "neutral",
+      "claim_id": "8abd89af-aa73-4291-8561-ccd59946095c",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli considera la destinazione mercato di Romel Lukaku abbastanza chiara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per il Napoli la destinazione mercato per Romero Lukaku è abbastanza chiara.",
+          "start_sec": 83.04,
+          "end_sec": 113.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Trovare una soluzione tecnica adeguata per Lukaku sarà complesso a causa del suo contratto e della sua condizione fisica recente.",
+      "polarity": "neutral",
+      "claim_id": "b3e06190-1fd1-46bd-91bd-0eff76619c8b",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Trovare una soluzione tecnica adeguata per Lukaku sarà complesso a causa del suo contratto e della sua condizione fisica recente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "trovare una situazione giusta a livello tecnico per Lukaku ha queste condizioni economiche e con questa situazione fisica degli ultimi mesi chiaramente è un qualcosa che andrà capito più avanti se si riuscirà a trovare l'incastro giusto",
+          "start_sec": 111.479,
+          "end_sec": 141.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "condizione fisica",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku si concentra più sul Mondiale che sulle ultime partite di club.",
+      "polarity": "neutral",
+      "claim_id": "f157e9d9-7c41-4d9d-bd0a-d5ed26d8bbb5",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s5",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku si concentra più sul Mondiale che sulle ultime partite di club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è chiaro che il focus di Lukaku più che su queste ultime partite è sul mondiale",
+          "start_sec": 140.519,
+          "end_sec": 168.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "prestazione",
+        "Mondiale"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Luca",
+      "position": "L'addio di Luca col Napoli è una prospettiva da considerare per l'estate.",
+      "polarity": "positive",
+      "claim_id": "5c44ad29-b05e-457d-8da2-dfdc63c2787d",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s6",
+      "target_entity": "Luca",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'addio di Luca col Napoli è una prospettiva da considerare per l'estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'addio di Luca col Napoli è una prospettiva che va assolutamente tenuta lì per l'estate",
+          "start_sec": 166.56,
+          "end_sec": 196.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato",
+        "estate"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Tony Rudiger",
+      "position": "Tony Rudiger è in scadenza di contratto col Real Madrid.",
+      "polarity": "neutral",
+      "claim_id": "b760f542-94f9-415c-a3c5-95390f9314a2",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s6",
+      "target_entity": "Tony Rudiger",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tony Rudiger è in scadenza di contratto col Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rudiger è in scadenza di contratto con il Real Madrid",
+          "start_sec": 166.56,
+          "end_sec": 196.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "calciomercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Tony Rudiger",
+      "position": "Sarà molto difficile rivedere Rudiger in Italia nonostante l'interesse della Juventus.",
+      "polarity": "negative",
+      "claim_id": "30fc4112-a835-4fd4-9b93-efefab02c0d1",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s6",
+      "target_entity": "Tony Rudiger",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Sarà molto difficile rivedere Rudiger in Italia nonostante l'interesse della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Probabilmente sarà molto difficile invece rivedere in Italia un grande difensore, un giocatore davvero di altissimo livello come Tony Rudiger",
+          "start_sec": 166.56,
+          "end_sec": 196.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato",
+        "trasferimenti"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli è quasi sicuro della qualificazione in base alla stagione attuale.",
+      "polarity": "positive",
+      "claim_id": "111a5a4a-156a-40c8-8c11-fea3defcf54f",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è quasi sicuro della qualificazione in base alla stagione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per un Napoli già sicuro o quasi",
+          "start_sec": 55.28,
+          "end_sec": 84.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Tony Rudiger",
+      "position": "Tony Rudiger è stato accostato alla Juventus nelle ultime settimane.",
+      "polarity": "neutral",
+      "claim_id": "d997093a-3c65-436c-80b4-8d3b1b59dd55",
+      "video_id": "Tll0avbbLTU",
+      "segment_id": "s6",
+      "target_entity": "Tony Rudiger",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tony Rudiger è stato accostato alla Juventus nelle ultime settimane.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché Rudiger è stato accostato alla Juve",
+          "start_sec": 166.56,
+          "end_sec": 196.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato"
+      ]
+    }
+  ]
+}

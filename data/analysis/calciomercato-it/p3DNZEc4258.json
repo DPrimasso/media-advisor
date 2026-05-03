@@ -1,0 +1,107 @@
+{
+  "video_id": "p3DNZEc4258",
+  "analyzed_at": "2026-04-29T08:10:43.220608+00:00",
+  "metadata": {
+    "title": "Cosa succede se l'Italia non va al Mondiale? Risponde Gattuso #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video affronta il tema della possibile mancata qualificazione dell'Italia ai Mondiali e le conseguenze per il calcio italiano. Gattuso, in qualità di CT, riconosce la gravità della situazione e si assume le responsabilità, ma sottolinea l'importanza di concentrarsi sulla partita imminente senza disperdere energie in previsioni negative. L'autore conclude che, qualunque sarà l'esito, ognuno dovrà prendersi le proprie responsabilità, mentre ora la priorità resta la prestazione sul campo.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia rischia di non qualificarsi ai mondiali secondo il CT.",
+      "polarity": "negative",
+      "claim_id": "fbc63764-e2fc-46a1-9243-adb8150bf2cf",
+      "video_id": "p3DNZEc4258",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Italia rischia di non qualificarsi ai mondiali secondo il CT.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cosa succede al calcio italiano se l'Italia non si piazza ai mondiali",
+          "start_sec": 0.04,
+          "end_sec": 41.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso si assume le responsabilità come CT della nazionale italiana.",
+      "polarity": "positive",
+      "claim_id": "a9e5a808-ef64-415b-aee0-5e1aa86396ca",
+      "video_id": "p3DNZEc4258",
+      "segment_id": "s0",
+      "target_entity": "Gattuso",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso si assume le responsabilità come CT della nazionale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi assumo mi devo assumere le mie responsabilità perché sono sono il CT",
+          "start_sec": 0.04,
+          "end_sec": 41.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "La priorità per l'Italia è concentrarsi sulla partita di domani e metterci energia.",
+      "polarity": "positive",
+      "claim_id": "a6946ff6-24f5-4b44-87eb-121035290c36",
+      "video_id": "p3DNZEc4258",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La priorità per l'Italia è concentrarsi sulla partita di domani e metterci energia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pensiamo alla parte di domani perché penso che è importante perdere energia su quello che dobbiamo fare domani",
+          "start_sec": 39.879,
+          "end_sec": 73.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "concentrazione",
+        "priorità"
+      ]
+    }
+  ]
+}

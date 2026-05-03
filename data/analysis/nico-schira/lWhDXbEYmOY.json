@@ -1,0 +1,387 @@
+{
+  "video_id": "lWhDXbEYmOY",
+  "analyzed_at": "2026-05-01T11:41:45.228568+00:00",
+  "metadata": {
+    "title": "MILAN, GRANDI NOMI PER L’ATTACCO. JUVE, PORTE GIREVOLI. SILVA, USCITE NAPOLI E IL VALZER PANCHINE…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video di Nico Schira si concentra principalmente sul chiarimento riguardo alla falsa notizia del possibile ripescaggio dell'Italia al Mondiale, smentendo categoricamente questa ipotesi e confermando la partecipazione regolare dell'Iran. L'autore critica la diffusione di fake news da parte di media autorevoli e sottolinea l'importanza di affidarsi a fonti ufficiali, come le dichiarazioni del presidente FIFA Gianni Infantino, che ha confermato la regolarità del torneo e la sua ricandidatura nel 2027. Inoltre, Schira aggiorna sul mercato, smentendo contatti tra Lukaku e il Milan e spiegando ch",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "europe",
+      "relevance": "medium"
+    },
+    {
+      "name": "mondiale",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "fake news",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Italia",
+      "position": "L'Italia può essere ripescata in un torneo, come già successo nel 2018.",
+      "polarity": "positive",
+      "claim_id": "0e32e06d-26f3-4976-9c27-5f638265b95c",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia può essere ripescata in un torneo, come già successo nel 2018.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Italia può essere ripescata. 4 anni fa la stessa cosa.",
+          "start_sec": 27.519,
+          "end_sec": 59.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ripescaggio",
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gianni Infantino",
+      "position": "Gianni Infantino si ricandiderà presidente della FIFA nel 2027.",
+      "polarity": "positive",
+      "claim_id": "18b24850-9704-41f1-bdc8-933e7e23bf19",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s2",
+      "target_entity": "Gianni Infantino",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gianni Infantino si ricandiderà presidente della FIFA nel 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Infantino, che non è uno che passa per strada, ma è il presidente della FIFA, tra l'altro annunciato anche che si ricandiderà perché lui il suo mandato da presidente in scadenza nel 2027 si ricandida a essere presidente per un altro mandato.",
+          "start_sec": 56.96,
+          "end_sec": 80.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "mondiale",
+      "position": "Il mondiale inizia l'11 di giugno.",
+      "polarity": "positive",
+      "claim_id": "cee7afe6-6183-478d-af48-b51bde36f233",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s3",
+      "target_entity": "mondiale",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il mondiale inizia l'11 di giugno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il mondiale inizia, se non memoria non mi inganna, l'11 di giugno.",
+          "start_sec": 78.24,
+          "end_sec": 107.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiale",
+        "data"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Italia",
+      "position": "Italia non sarà ripescata per partecipare al mondiale.",
+      "polarity": "negative",
+      "claim_id": "f948da60-e5ce-4e5e-b10e-831b7e801758",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Italia non sarà ripescata per partecipare al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho sempre detto ci sono zero chance che l'Italia venga ripescata al mondiale.",
+          "start_sec": 0.399,
+          "end_sec": 28.880000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiale",
+        "ripescaggio"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Italia",
+      "position": "L'Italia non è stata esclusa da un torneo asiatico o africano, era solo una fake news.",
+      "polarity": "negative",
+      "claim_id": "b40b4701-e0cd-488c-958a-566605bd8cab",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s1",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia non è stata esclusa da un torneo asiatico o africano, era solo una fake news.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Perché avrebbero dovuto fare il torneo, il quadrangolare dell'amicizia l'Italia, un'africana, un'asiatica, una sud No, tutte fake news.",
+          "start_sec": 27.519,
+          "end_sec": 59.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fake news",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "giornalista/testate autorevoli",
+      "position": "Alcune testate autorevoli sono cadute in un errore riguardo al mondiale precedente.",
+      "polarity": "negative",
+      "claim_id": "99505e0c-e504-4958-885b-22b5c1b5fcef",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s3",
+      "target_entity": "giornalista/testate autorevoli",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alcune testate autorevoli sono cadute in un errore riguardo al mondiale precedente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi meraviglio delle persone, anche delle testate autorevoli che ci siano cascate",
+          "start_sec": 78.24,
+          "end_sec": 107.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "errore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "L'entourage di Lukaku smentisce che il giocatore si sia mai proposto al Milan.",
+      "polarity": "negative",
+      "claim_id": "7a47f2f3-bcef-4e03-9684-c9dc84530180",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'entourage di Lukaku smentisce che il giocatore si sia mai proposto al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dall'entourage del giocatore mi sono arrivate smentite, nel senso che Lukaku non si è mai proposto al Milan",
+          "start_sec": 105.28,
+          "end_sec": 134.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Lukaku",
+      "position": "Lukaku si sta concentrando per recuperare la condizione fisica e atletica.",
+      "polarity": "neutral",
+      "claim_id": "2cfa5131-bf98-4223-8a73-e000975f7072",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s5",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku si sta concentrando per recuperare la condizione fisica e atletica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku in questo momento è concentrato per recuperare la condizione atletica, fisica",
+          "start_sec": 132.48,
+          "end_sec": 156.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "condizione fisica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku punta a fare un grande mondiale con il Belgio, probabilmente l'ultima volta con la nazionale.",
+      "polarity": "positive",
+      "claim_id": "eb5ff3ac-7a4b-4383-8857-a09f8d01a1cf",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s5",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Lukaku punta a fare un grande mondiale con il Belgio, probabilmente l'ultima volta con la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche fare il mondiale, un grande mondiale col Belgio, perché sarà probabilmente per lui la last dance con la nazionale",
+          "start_sec": 132.48,
+          "end_sec": 156.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mondiale",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Non ci sono a oggi contatti tra Lukaku e il Milan.",
+      "polarity": "negative",
+      "claim_id": "6bcbe5eb-0a24-43f0-b534-7106b281183f",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non ci sono a oggi contatti tra Lukaku e il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non ci sono a oggi contatti tra Lukaku e il Milan.",
+          "start_sec": 105.28,
+          "end_sec": 134.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Lukaku ha tre offerte: un club arabo, Fenerbace e un altro club.",
+      "polarity": "positive",
+      "claim_id": "8ffd1405-adb3-47ce-af53-c1c19d23f825",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s4",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku ha tre offerte: un club arabo, Fenerbace e un altro club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku ha tre offerte, un club arabo, Fenerbace e",
+          "start_sec": 105.28,
+          "end_sec": 134.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Iran",
+      "position": "L'Iran parteciperà al Mondiale negli Stati Uniti.",
+      "polarity": "neutral",
+      "claim_id": "7d142891-3a5f-46ba-a14b-a177c7896de3",
+      "video_id": "lWhDXbEYmOY",
+      "segment_id": "s2",
+      "target_entity": "Iran",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Iran parteciperà al Mondiale negli Stati Uniti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha detto l'Iran sarà regolamento al mondiale, giocherà negli Stati Uniti.",
+          "start_sec": 56.96,
+          "end_sec": 80.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

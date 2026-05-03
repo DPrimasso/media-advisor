@@ -1,0 +1,406 @@
+{
+  "video_id": "Wxb28tdL8LM",
+  "analyzed_at": "2026-04-25T11:04:36.332922+00:00",
+  "metadata": {
+    "title": "TMWRadio - Voto alla stagione di Sarri con Impallomeni, Caputi, Paganini",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video analizza la stagione di Sarri alla Lazio, valutandola positivamente con un voto di 7-7,5 grazie alla capacità dell’allenatore di adattare il gioco alle risorse a disposizione e di guidare la squadra fino alla finale di Coppa Italia nonostante le difficoltà ambientali e la mancanza di mercato. L’autore sottolinea come Sarri abbia saputo fare di necessità virtù, modificando il suo stile e mantenendo coeso il gruppo in un contesto complicato, anche se emergono alcune critiche per un ritardo nel rivendicare un mercato adeguato. Si ipotizza inoltre un possibile addio di Sarri a fine stagio",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "stagione",
+      "relevance": "high"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "variazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "impegno",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "coppa italia",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Maurizio Sarri",
+      "position": "Sarri ha avuto una buona stagione alla Lazio con un voto di 7.",
+      "polarity": "positive",
+      "claim_id": "ac5056a1-d6bc-4f30-b3e0-c260fc6f990f",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s0",
+      "target_entity": "Maurizio Sarri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha avuto una buona stagione alla Lazio con un voto di 7.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io do una buona valutazione, gli do sette",
+          "start_sec": 0.04,
+          "end_sec": 29.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "stagione",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter è considerata una squadra fortissima favorita nella finale di Coppa Italia.",
+      "polarity": "neutral",
+      "claim_id": "321010e4-ea5a-49c8-82ee-5c75f5252bfe",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è considerata una squadra fortissima favorita nella finale di Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si giocherà con l'Inter, squadra fortissima, quindi è chiaro che parte con i favori del pronostico della formazione nerazzurra",
+          "start_sec": 0.04,
+          "end_sec": 29.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finale coppa italia",
+        "favoriti",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarri",
+      "position": "Sarri ha guidato la squadra e il gruppo affinché la stagione avesse un senso nonostante le difficoltà.",
+      "polarity": "positive",
+      "claim_id": "933a7c1c-366d-4e75-9717-eb3120b3e110",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s1",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha guidato la squadra e il gruppo affinché la stagione avesse un senso nonostante le difficoltà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "questa era un'annata dove poteva andare tutto quanto veramente eh all'aria, dove i giocatori avevano tutti gli alibi per e anche lo stesso allenatore per insomma non essere per far passare una stagione veramente senza senso e invece un senso gliel'hanno dato proprio impegnandosi su quello che era l'obiettivo più alla portata",
+          "start_sec": 27.439,
+          "end_sec": 63.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "squadra",
+        "impegno",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Sarri",
+      "position": "Sarri ha capito che il gruppo a disposizione non permetteva il suo solito tipo di gioco.",
+      "polarity": "neutral",
+      "claim_id": "42e15d5c-2553-44f5-91bf-0e7998d29f23",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s1",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha capito che il gruppo a disposizione non permetteva il suo solito tipo di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "capendo che quello che aveva a disposizione non gli permetteva di fare il gioc gioco che magari ha sempre",
+          "start_sec": 27.439,
+          "end_sec": 63.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "tattica",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sarri",
+      "position": "Sarri ha cambiato il modo di giocare della Lazio portandola alla finale di Coppa Italia",
+      "polarity": "positive",
+      "claim_id": "49d06ec8-2105-45cd-95a8-94d1ba6df91f",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s2",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha cambiato il modo di giocare della Lazio portandola alla finale di Coppa Italia",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha cambiato il modo di far giocare la squadra e quindi diciamo ha fatto di necessità virtù, una virtù che ha portato la Lazio alla finale di Coppa Italia",
+          "start_sec": 60.199,
+          "end_sec": 95.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha avuto tre fasi distinte durante la stagione.",
+      "polarity": "neutral",
+      "claim_id": "a17993f4-afcc-46c3-a973-a35e0893cf10",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha avuto tre fasi distinte durante la stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È questa la Lazio e ci sono state tre Lazio diverse",
+          "start_sec": 92.119,
+          "end_sec": 124.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stagione",
+        "performance",
+        "variazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio nella prima parte di stagione non ha convinto e non è stata capita.",
+      "polarity": "negative",
+      "claim_id": "f6e477c7-fac9-418b-8d21-9d0f148ee2f8",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio nella prima parte di stagione non ha convinto e non è stata capita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Lazio della prima parte di stagione non l'ho capita",
+          "start_sec": 92.119,
+          "end_sec": 124.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stagione",
+        "performance",
+        "critica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "In piena emergenza la Lazio ha mostrato ottime prestazioni.",
+      "polarity": "positive",
+      "claim_id": "f9d7e7b0-e933-4985-a6db-df68f5552e76",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "In piena emergenza la Lazio ha mostrato ottime prestazioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi in piena emergenza è venuta fuori un'ottima Lazio",
+          "start_sec": 92.119,
+          "end_sec": 124.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "emergenza",
+        "performance",
+        "successo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "Nell'ultimo periodo la Lazio avrebbe potuto e dovuto fare meglio.",
+      "polarity": "negative",
+      "claim_id": "7d3b6caf-4e4d-48e4-8d83-d780c12f0c2a",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s3",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nell'ultimo periodo la Lazio avrebbe potuto e dovuto fare meglio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "adesso nell'ultimo tratto è la Lazio probabilmente che avrebbe potuto e dovuto fare un altro tipo di percorso",
+          "start_sec": 92.119,
+          "end_sec": 124.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "periodo finale",
+        "critica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sarri",
+      "position": "Sarri ha eliminato Bologna e Milan nella competizione.",
+      "polarity": "positive",
+      "claim_id": "2ff0b48c-0d32-4934-9e1c-d42a4a619c21",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s4",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha eliminato Bologna e Milan nella competizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché ha eliminato Bologna, Milan, Milan, Bologna-Atalanta",
+          "start_sec": 122.479,
+          "end_sec": 164.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha raggiunto la finale di Coppa Italia.",
+      "polarity": "neutral",
+      "claim_id": "230b9436-92fc-4821-9a31-c51d1a2b3975",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha raggiunto la finale di Coppa Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha conseguito la finale di Coppa Italia",
+          "start_sec": 0.04,
+          "end_sec": 29.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "risultato",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sarri",
+      "position": "Sarri ha gestito bene una situazione difficile con stadio vuoto e contestazioni",
+      "polarity": "positive",
+      "claim_id": "3b716896-0f9c-4f15-bafd-56bd48ae40f4",
+      "video_id": "Wxb28tdL8LM",
+      "segment_id": "s2",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha gestito bene una situazione difficile con stadio vuoto e contestazioni",
+      "evidence_quotes": [
+        {
+          "quote_text": "non era facile, soprattutto in questa situazione che si è venuta a creare, lo stadio vuoto, la disaffezione, la contestazione al presidente",
+          "start_sec": 60.199,
+          "end_sec": 95.91999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

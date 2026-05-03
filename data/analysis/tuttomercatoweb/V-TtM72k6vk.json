@@ -1,0 +1,404 @@
+{
+  "video_id": "V-TtM72k6vk",
+  "analyzed_at": "2026-04-29T08:08:08.850093+00:00",
+  "metadata": {
+    "title": "TMWRadio - Palma ( osservaotre)   Backhaus seguito Inter, Avdullahu seguito da Mila e Atalanta.",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'interesse dell'Inter per il giovane portiere Mio Backhaus, attualmente titolare al Werder Brema, considerato un possibile sostituto di Sommer. L'autore sottolinea le qualità tecniche e fisiche di Backhaus, evidenziando la sua crescita esponenziale, la capacità di giocare con i piedi e la personalità in campo, elementi che lo rendono un prospetto molto promettente. Viene inoltre presentato un identikit dettagliato del giocatore, realizzato da Andrea Magioc e Giorgio Sorani, che aiuta a comprendere meglio le sue caratteristiche e il ruolo in campo; l’Inter valuta se af",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "origine",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionalità",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Backhaus",
+      "position": "Backhaus è un giocatore alto circa 195 cm.",
+      "polarity": "neutral",
+      "claim_id": "3e967e20-4429-4a44-9640-b15e95ac33aa",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s2",
+      "target_entity": "Backhaus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Backhaus è un giocatore alto circa 195 cm.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è 195 194 cm",
+          "start_sec": 74.439,
+          "end_sec": 104.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fisico",
+        "altezza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Mio Baus",
+      "position": "L'Inter è molto interessata al portiere Mio Baus del Werder Brema.",
+      "polarity": "positive",
+      "claim_id": "2ba305d8-76b4-4f69-a1d0-24a7c315b75a",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s0",
+      "target_entity": "Mio Baus",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter è molto interessata al portiere Mio Baus del Werder Brema.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un ragazzo del Berder Brema che piace molto molto molto, lo diciamo subito, all'Inter",
+          "start_sec": 0.04,
+          "end_sec": 43.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "mercato",
+        "inter"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Andrea Magioc",
+      "position": "Andrea Magioc ha preparato l'identikit del calciatore con Giorgio Sorani.",
+      "polarity": "positive",
+      "claim_id": "e787a995-97cc-4f89-ab99-3c1f83f72b21",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s1",
+      "target_entity": "Andrea Magioc",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Andrea Magioc ha preparato l'identikit del calciatore con Giorgio Sorani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno preparato Andrea Magioc e Giorgio Sorani e per così fare l'identi kit del calciatore",
+          "start_sec": 43.2,
+          "end_sec": 76.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "tattica",
+        "analisi"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Giorgio Sorani",
+      "position": "Giorgio Sorani ha contribuito alla preparazione dell'identikit del calciatore.",
+      "polarity": "positive",
+      "claim_id": "16141b89-946b-4fea-badd-0a9f51ea0b7f",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s1",
+      "target_entity": "Giorgio Sorani",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giorgio Sorani ha contribuito alla preparazione dell'identikit del calciatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "hanno preparato Andrea Magioc e Giorgio Sorani e per così fare l'identi kit del calciatore",
+          "start_sec": 43.2,
+          "end_sec": 76.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "tattica",
+        "analisi"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Backhaus",
+      "position": "Backhaus è uno dei migliori portieri del panorama giovanile.",
+      "polarity": "positive",
+      "claim_id": "45c53b94-ff7c-478c-8f02-c5576f0eca5d",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s2",
+      "target_entity": "Backhaus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Backhaus è uno dei migliori portieri del panorama giovanile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "velocemente si è imposto un po' l'attenzione anche di noi osservatori proprio come uno dei migliori portieri del panorama giovanile",
+          "start_sec": 74.439,
+          "end_sec": 104.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "giovanile",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Backhaus",
+      "position": "Backhaus è nato e cresciuto nelle giovanili del Verder Brema in Germania.",
+      "polarity": "neutral",
+      "claim_id": "4eee99ca-828a-46f2-b063-0093b668cd18",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s2",
+      "target_entity": "Backhaus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Backhaus è nato e cresciuto nelle giovanili del Verder Brema in Germania.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è cresciuto in Germania, è nato, è cresciuto in Germania proprio nelle giovanili del Verder Brema",
+          "start_sec": 74.439,
+          "end_sec": 104.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giovanili",
+        "crescita",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Backhaus",
+      "position": "Backhaus è un portiere con grande reattività, personalità e bravura nelle uscite e nell'uno contro uno.",
+      "polarity": "positive",
+      "claim_id": "f65cd90b-ca77-4b0b-b20c-5ad2b2115b05",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s3",
+      "target_entity": "Backhaus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Backhaus è un portiere con grande reattività, personalità e bravura nelle uscite e nell'uno contro uno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Veramente un portiere reattività, personalità, uscite alte, uscite basse, molto bravo nell'uno contro uno",
+          "start_sec": 103.399,
+          "end_sec": 132.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Backhaus",
+      "position": "Backhaus è un ragazzo serio negli allenamenti sempre pronto a migliorarsi.",
+      "polarity": "positive",
+      "claim_id": "cfdc5d04-8248-4bf6-8600-a6c131f82822",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s3",
+      "target_entity": "Backhaus",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Backhaus è un ragazzo serio negli allenamenti sempre pronto a migliorarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma poi è un ragazzo serio negli allenamenti, sempre pronto a migliorarsi",
+          "start_sec": 103.399,
+          "end_sec": 132.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "identikit del calciatore",
+      "position": "L'identikit del calciatore include la sua scheda e la posizione in campo.",
+      "polarity": "positive",
+      "claim_id": "818ddb99-a8e1-46c6-b3ba-1f2dc4e6763c",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s1",
+      "target_entity": "identikit del calciatore",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'identikit del calciatore include la sua scheda e la posizione in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sua scheda più la posizione del campo",
+          "start_sec": 43.2,
+          "end_sec": 76.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "tattica",
+        "analisi"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter vuole sostituire Sommer in porta.",
+      "polarity": "negative",
+      "claim_id": "3eafe305-50cf-4e36-bfbc-94f1505c0d5b",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "L'Inter vuole sostituire Sommer in porta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter pare che voglia e insomma sostituire Sommer",
+          "start_sec": 0.04,
+          "end_sec": 43.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "inter",
+        "mercato",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Backhaus",
+      "position": "Backhaus ha origini giapponesi tramite la madre.",
+      "polarity": "neutral",
+      "claim_id": "df388cca-6e76-4f04-9bfd-e6d45eac2c79",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s2",
+      "target_entity": "Backhaus",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Backhaus ha origini giapponesi tramite la madre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha origini giapponesi perché ha la mamma giapponese",
+          "start_sec": 74.439,
+          "end_sec": 104.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "origine",
+        "nazionalità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Martinez",
+      "position": "Martinez non ha convinto pienamente come portiere.",
+      "polarity": "negative",
+      "claim_id": "3dfcf389-ee47-48a1-ad85-4de3246800d1",
+      "video_id": "V-TtM72k6vk",
+      "segment_id": "s0",
+      "target_entity": "Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Martinez non ha convinto pienamente come portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Martinez non ha convinto proprio pienamente",
+          "start_sec": 0.04,
+          "end_sec": 43.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "prestazione",
+        "inter"
+      ]
+    }
+  ]
+}

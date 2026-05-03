@@ -1,0 +1,408 @@
+{
+  "video_id": "p_c-VwNje4g",
+  "analyzed_at": "2026-04-24T07:35:51.570191+00:00",
+  "metadata": {
+    "title": "🚨 MILAN: DIETRO LE QUINTE SU LEWA! JOSELU E L’ITALIA, TONALI E IL FUTURO, NICO GONZALEZ, PEDRAZA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-19T08:56:58+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di mercato riguardanti alcuni calciatori chiave, tra cui Robert Lewandowski, Joselu, Nico Gonzales e Sandro Tonali. L'autore sottolinea che Lewandowski, nonostante l’età avanzata e un rinnovo al ribasso in corso con il Barcellona, potrebbe lasciare il club entro pochi mesi, ma al momento non è una priorità per il Milan a causa di fattori come stipendio ed età. Inoltre, si evidenziano possibili sviluppi sul ritorno di Joselu in Europa e il riscatto di Nico Gonzales da parte dell’Atletico Madrid, mentre Tonali resta un nome importante ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "high"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "calcio giocato",
+      "relevance": "medium"
+    },
+    {
+      "name": "stipendio",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "premier league",
+      "relevance": "low"
+    },
+    {
+      "name": "italia",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Roma",
+      "position": "La partita Roma-Atalanta è in corso alle 22 del 18 aprile 2026.",
+      "polarity": "neutral",
+      "claim_id": "d69cc146-77bd-4868-9b1f-fbf46d065553",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Roma-Atalanta è in corso alle 22 del 18 aprile 2026.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono le 10 del 18 aprile, è in corso Roma-Atalanta",
+          "start_sec": 0.12,
+          "end_sec": 34.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "tempo",
+        "calcio-giocato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Joselu",
+      "position": "Joselu è un altro attaccante spagnolo con novità importanti in chiave Italia.",
+      "polarity": "neutral",
+      "claim_id": "5bbd6fef-973f-4a37-9c34-d51fad6e087a",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s1",
+      "target_entity": "Joselu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Joselu è un altro attaccante spagnolo con novità importanti in chiave Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi passeremo ad un altro attaccante, sempre eh tra virgolette spagnolo... novità su di lui, in chiave Italia",
+          "start_sec": 32.279,
+          "end_sec": 78.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "attaccante",
+        "italia"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "Lewandowski sta trattando il rinnovo al ribasso con il Barcellona.",
+      "polarity": "neutral",
+      "claim_id": "1ac06528-e10f-4c2d-9405-a919774cb8e1",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s2",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Lewandowski sta trattando il rinnovo al ribasso con il Barcellona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sta trattando il rinnovo con il Barcellona al ribasso",
+          "start_sec": 74.32,
+          "end_sec": 113.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "È probabile che Lewandowski lasci il Barcellona entro pochi mesi.",
+      "polarity": "neutral",
+      "claim_id": "0c9d0356-8e45-4377-844d-10a3f37d2183",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s2",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "È probabile che Lewandowski lasci il Barcellona entro pochi mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono buonissime, altissime chance che questi siano gli ultimi mesi di Lewandowski al Barça come attaccante del Barcellona",
+          "start_sec": 74.32,
+          "end_sec": 113.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "trasferimento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Robert Lewandowski",
+      "position": "Lewandowski è un attaccante di altissimo livello che continua a segnare molti gol nonostante l'età avanzata.",
+      "polarity": "positive",
+      "claim_id": "01f2561e-c994-49ca-8b8d-5f3c56eda76f",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s3",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lewandowski è un attaccante di altissimo livello che continua a segnare molti gol nonostante l'età avanzata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma può tornare in Europa e occhio all'Italia. Però partiamo da Robert Lewandowski. Allora, ehm, va per i 38 anni Lewandowski, quindi è un attaccante comunque che ha una determinata età molto avanzata, eh continua a fare molti gol perché comunque resta un attaccante eh di altissimo livello dal punto di vista",
+          "start_sec": 111.079,
+          "end_sec": 150.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "attaccante",
+        "gol",
+        "età avanzata"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Lewandowski",
+      "position": "Il Barcellona sta preparando il futuro senza Lewandowski.",
+      "polarity": "neutral",
+      "claim_id": "81740765-134f-4d62-80fc-7c58c0f91bf7",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s4",
+      "target_entity": "Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Barcellona sta preparando il futuro senza Lewandowski.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Barcellona, diciamo che sta un po' preparando il terreno, no, a quello che potrebbe essere il futuro senza Lewandowski.",
+          "start_sec": 147.72,
+          "end_sec": 180.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "barcellona",
+        "mercato",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Lewandowski",
+      "position": "Lewandowski è stato accostato a diverse squadre italiane.",
+      "polarity": "neutral",
+      "claim_id": "97719440-e3b4-4b45-a082-073d6ce75a64",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s4",
+      "target_entity": "Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Lewandowski è stato accostato a diverse squadre italiane.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lewandowski è stato accostato più e più volte anche a squadre italiane.",
+          "start_sec": 147.72,
+          "end_sec": 180.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "italia"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Joselu",
+      "position": "Joselu potrebbe tornare a giocare in Europa e occhio all'Italia.",
+      "polarity": "neutral",
+      "claim_id": "716f8fb9-92d6-4116-92d7-26ca5d22ae96",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s3",
+      "target_entity": "Joselu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Joselu potrebbe tornare a giocare in Europa e occhio all'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma può tornare in Europa e occhio all'Italia",
+          "start_sec": 111.079,
+          "end_sec": 150.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato europeo",
+        "ritorno",
+        "Italia"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Nico Gonzales",
+      "position": "Nico Gonzales potrebbe essere riscattato dall'Atletico Madrid.",
+      "polarity": "neutral",
+      "claim_id": "a743e43b-3127-4943-952e-2cc15d1e4000",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s1",
+      "target_entity": "Nico Gonzales",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Nico Gonzales potrebbe essere riscattato dall'Atletico Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi parleremo di Nico Gonzales e il possibile riscatto con l'Atletico Madrid",
+          "start_sec": 32.279,
+          "end_sec": 78.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "riscatto"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gasperini",
+      "position": "La situazione a Roma con l'allenatore Gasperini è particolare.",
+      "polarity": "neutral",
+      "claim_id": "bcb3fa6e-a5de-45a5-a889-561ffc0521a7",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s0",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La situazione a Roma con l'allenatore Gasperini è particolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è una situazione particolare a Roma con Gasperini",
+          "start_sec": 0.12,
+          "end_sec": 34.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "situazione",
+        "Roma"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Robert Lewandowski",
+      "position": "Robert Lewandowski è uno dei nomi interessanti discussi nel video.",
+      "polarity": "neutral",
+      "claim_id": "cf470c79-6463-4e41-823e-97c39bfe47e9",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s1",
+      "target_entity": "Robert Lewandowski",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Robert Lewandowski è uno dei nomi interessanti discussi nel video.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partendo da Robert Lewandowski",
+          "start_sec": 32.279,
+          "end_sec": 78.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "attaccante"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Sandro Tonali",
+      "position": "Sandro Tonali è un altro nome interessante discusso nel contesto del futuro.",
+      "polarity": "neutral",
+      "claim_id": "cc903d48-1faa-46d5-bd27-461b0a9ff8e7",
+      "video_id": "p_c-VwNje4g",
+      "segment_id": "s1",
+      "target_entity": "Sandro Tonali",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "META_INFO_QUALITY",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Sandro Tonali è un altro nome interessante discusso nel contesto del futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e Sandro Tonali",
+          "start_sec": 32.279,
+          "end_sec": 78.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "futuro"
+      ]
+    }
+  ]
+}

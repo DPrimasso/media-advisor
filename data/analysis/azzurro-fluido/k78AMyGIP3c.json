@@ -1,0 +1,402 @@
+{
+  "video_id": "k78AMyGIP3c",
+  "analyzed_at": "2026-04-24T09:03:36.971835+00:00",
+  "metadata": {
+    "title": "Sbattiamo (la capa) contro il muro 👀 PARMA NAPOLI 1-1 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video commenta la partita Parma-Napoli terminata 1-1, focalizzandosi sulle prestazioni individuali e sulle dinamiche di gioco. L’autore sottolinea il gol lampo di Gabriel Strepezza, assistito da El F, che ha sorpreso il Napoli nei primi secondi, mentre evidenzia alcune buone giocate di Spina e Island, contrapponendole a una prestazione meno convincente di De Bro. Viene inoltre analizzata la gestione tattica e le difficoltà del Napoli nel superare la difesa parmense, con l’ipotesi che la squadra debba migliorare nella pressione e nella creatività per evitare risultati simili in futuro.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "fiducia",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "serie a",
+      "relevance": "low"
+    },
+    {
+      "name": "sostituzione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Insigne",
+      "position": "Insigne is known for scoring beautiful goals with quality and counterbalance.",
+      "polarity": "positive",
+      "claim_id": "7c683854-157b-42e3-a0a9-1f4e72d45407",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s1",
+      "target_entity": "Insigne",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Insigne is known for scoring beautiful goals with quality and counterbalance.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bellissimo gol di controbalzo, proprio qualità. Un gol alla Insigne.",
+          "start_sec": 53.8,
+          "end_sec": 130.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Se il Napoli pressa forte, la squadra avversaria tende a buttare avanti il pallone a Casaccio.",
+      "polarity": "positive",
+      "claim_id": "aac42008-4424-4b8a-b6c3-7e05f52309e1",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Se il Napoli pressa forte, la squadra avversaria tende a buttare avanti il pallone a Casaccio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dai, se li pressiamo forte loro la buttano avanti a Casaccio.",
+          "start_sec": 127.119,
+          "end_sec": 209.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pressione",
+        "gioco",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Oliv",
+      "position": "Oliv è stato paragonato a Drogba per la sua prestazione in campo.",
+      "polarity": "positive",
+      "claim_id": "769fffea-d3f4-4eea-915c-98725b9cda37",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s3",
+      "target_entity": "Oliv",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Oliv è stato paragonato a Drogba per la sua prestazione in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bravo Oliv è diventato Drogba, non lo conosce nessuno.",
+          "start_sec": 209.319,
+          "end_sec": 261.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "paragone",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Jesus",
+      "position": "Il raddoppio di testa di Jesus è stato discusso e considerato senza senso.",
+      "polarity": "neutral",
+      "claim_id": "20837a40-e403-45c6-8b4f-67373a933329",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s3",
+      "target_entity": "Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il raddoppio di testa di Jesus è stato discusso e considerato senza senso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non ho capito però il raddoppio di testa quando Jesus.",
+          "start_sec": 209.319,
+          "end_sec": 261.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Elfes",
+      "position": "Elfes ha fornito un assist speciale per il raddoppio di testa.",
+      "polarity": "positive",
+      "claim_id": "d79cc06d-02a1-41bc-819f-fc8d5b4247b8",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s3",
+      "target_entity": "Elfes",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Elfes ha fornito un assist speciale per il raddoppio di testa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Buongiorno sul sull'assist di Elfes e uno con specialmente di testa.",
+          "start_sec": 209.319,
+          "end_sec": 261.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assist",
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "El F",
+      "position": "El F ha fornito l'assist per il gol di Gabriel Strepezza del Parma.",
+      "polarity": "positive",
+      "claim_id": "16fbb166-29df-48fe-8d9c-1bca928fc5ac",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s0",
+      "target_entity": "El F",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "El F ha fornito l'assist per il gol di Gabriel Strepezza del Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Primo gol in questa Serie A sull'assist di El F.",
+          "start_sec": 0.08,
+          "end_sec": 53.800000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assist"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Spina",
+      "position": "Spina showed good performance during the match segment.",
+      "polarity": "positive",
+      "claim_id": "72345cf4-5566-41be-8e20-595376b8ac9b",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s1",
+      "target_entity": "Spina",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Spina showed good performance during the match segment.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bravo Spina, vaiundo.",
+          "start_sec": 53.8,
+          "end_sec": 130.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Island",
+      "position": "Island made a good defensive move to protect the ball with his body.",
+      "polarity": "positive",
+      "claim_id": "fb70be25-4305-4ef4-b5b2-8590232a2980",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s1",
+      "target_entity": "Island",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Island made a good defensive move to protect the ball with his body.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bravo Island. Difesa del pallone del corpo.",
+          "start_sec": 53.8,
+          "end_sec": 130.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Spina",
+      "position": "Spina ha avuto due buone occasioni nella partita contro il Parma.",
+      "polarity": "positive",
+      "claim_id": "4bda32af-8aa5-45df-99d2-c194209cd5c6",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s2",
+      "target_entity": "Spina",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spina ha avuto due buone occasioni nella partita contro il Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Due volte Spina. Buono.",
+          "start_sec": 127.119,
+          "end_sec": 209.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "occasione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Spina",
+      "position": "Spina del Napoli ha fatto una buona chiusura difensiva.",
+      "polarity": "positive",
+      "claim_id": "357fac0c-94f3-42ac-84a6-7015b911f3d1",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s4",
+      "target_entity": "Spina",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spina del Napoli ha fatto una buona chiusura difensiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bravo Spina. del Napoli.",
+          "start_sec": 261.84,
+          "end_sec": 344.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "De Bro",
+      "position": "De Bro non ha avuto una buona prestazione nella partita citata.",
+      "polarity": "negative",
+      "claim_id": "f80e0338-3ca2-4bbf-9566-6f2e63b087d6",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s2",
+      "target_entity": "De Bro",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Bro non ha avuto una buona prestazione nella partita citata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Bro no.",
+          "start_sec": 127.119,
+          "end_sec": 209.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bello",
+      "position": "L'arbitro ha negato un fallo a favore di Bello che sembrava evidente.",
+      "polarity": "negative",
+      "claim_id": "8b36ffa0-2e47-4813-93da-5b7caf9bb903",
+      "video_id": "k78AMyGIP3c",
+      "segment_id": "s2",
+      "target_entity": "Bello",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro ha negato un fallo a favore di Bello che sembrava evidente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il fallo al contrario di Bello! Non dà il fallo.",
+          "start_sec": 127.119,
+          "end_sec": 209.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "fallo",
+        "decisione"
+      ]
+    }
+  ]
+}

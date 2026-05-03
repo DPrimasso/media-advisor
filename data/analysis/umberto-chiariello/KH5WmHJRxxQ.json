@@ -1,0 +1,402 @@
+{
+  "video_id": "KH5WmHJRxxQ",
+  "analyzed_at": "2026-04-24T07:50:49.606108+00:00",
+  "metadata": {
+    "title": "L'APERITIVO DI CRC 04 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC si concentra principalmente sulla preparazione del Napoli in vista della sfida cruciale contro il Milan, evidenziando il ruolo chiave di Kevin De Bruin, il cui ritorno in forma e la volontà di restare in squadra rappresentano un valore aggiunto per il finale di stagione. L’autore sottolinea anche l’impegno del club nel promuovere il brand Napoli a livello internazionale, con iniziative come il film sul quarto scudetto e la presenza del presidente De Laurentiis a Los Angeles. Infine, si evidenziano le difficoltà mentali dei giocatori italiani post-mondiale e la preparazion",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "rigore",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    },
+    {
+      "name": "trasferta",
+      "relevance": "low"
+    },
+    {
+      "name": "marketing",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Kevin De Bruin",
+      "position": "Kevin De Bruin ha espresso la volontà di rimanere al Napoli e onorare il secondo anno di contratto.",
+      "polarity": "positive",
+      "claim_id": "192ba45f-e7d5-4c6e-b3ae-b17c5f0557a4",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s0",
+      "target_entity": "Kevin De Bruin",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kevin De Bruin ha espresso la volontà di rimanere al Napoli e onorare il secondo anno di contratto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sua voglia di rimanere in maglia azzurra, onorare il secondo anno di contratto",
+          "start_sec": 6.55,
+          "end_sec": 475.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "leadership",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli sta promuovendo con successo il suo brand negli Stati Uniti tramite il presidente De Laurentiis e iniziative cinematografiche.",
+      "polarity": "positive",
+      "claim_id": "00b3a51f-45a3-4259-88af-9b9781670407",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta promuovendo con successo il suo brand negli Stati Uniti tramite il presidente De Laurentiis e iniziative cinematografiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Laurentis è bravo, è bravo in questo, è veramente maestro... un'operazione di marketing veramente di altissimo livello.",
+          "start_sec": 6.55,
+          "end_sec": 475.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "marketing",
+        "brand",
+        "internazionale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Pasquale Mazocchi",
+      "position": "Pasquale Mazocchi ha lavorato intensamente sul piano fisico con il Napoli per preparare la partita contro il Milan.",
+      "polarity": "positive",
+      "claim_id": "26081c7f-e4ed-41bf-81bf-de7a4f41c551",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s1",
+      "target_entity": "Pasquale Mazocchi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pasquale Mazocchi ha lavorato intensamente sul piano fisico con il Napoli per preparare la partita contro il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo lavorato tanto anche sul piano sul piano fisico.",
+          "start_sec": 472.28,
+          "end_sec": 952.8000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenamento",
+        "prestazione",
+        "preparazione partita"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Nazionali italiane",
+      "position": "I giocatori della nazionale italiana sono tornati mentalmente distrutti per la mancata qualificazione al mondiale.",
+      "polarity": "negative",
+      "claim_id": "4a266739-0fe2-4618-85df-dbd6cd1e745d",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s1",
+      "target_entity": "Nazionali italiane",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori della nazionale italiana sono tornati mentalmente distrutti per la mancata qualificazione al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ragazzi che sono tornati mentalmente sono sono distrutti, ma comeè giusto che sia.",
+          "start_sec": 472.28,
+          "end_sec": 952.8000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "delusione",
+        "morale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli si sta preparando in modo attento e concentrato anche durante l'assenza di Conte, seguendo il suo metodo di lavoro.",
+      "polarity": "positive",
+      "claim_id": "253afa36-f127-4d1b-ace8-c28d57eca9ff",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Napoli si sta preparando in modo attento e concentrato anche durante l'assenza di Conte, seguendo il suo metodo di lavoro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si lavora secondo il metodo Conte che a detta di De Bruin, ... il metodo Conte è un metodo forte, però mi piace questa concentrazione.",
+          "start_sec": 472.28,
+          "end_sec": 952.8000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenamento",
+        "metodo Conte",
+        "concentrazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli ha una possibilità bassa ma non impossibile di raggiungere il secondo posto, dipendendo dagli errori dell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "3fcc6325-464a-4481-9bd5-7b6223470dc5",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli ha una possibilità bassa ma non impossibile di raggiungere il secondo posto, dipendendo dagli errori dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ci lecito. ... l'Inter deve naufragare su se stessa praticamente, però nel calcio tutto è possibile.",
+          "start_sec": 472.28,
+          "end_sec": 952.8000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "campionato",
+        "possibilità scudetto"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Pasquale Mazzolti",
+      "position": "Pasquale Mazzolti è considerato l'anima del Napoli e molto amato dai tifosi.",
+      "polarity": "positive",
+      "claim_id": "b514d670-0cc9-43f7-bd6d-57bea0b2b5a3",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s2",
+      "target_entity": "Pasquale Mazzolti",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Pasquale Mazzolti è considerato l'anima del Napoli e molto amato dai tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pasquale Mazocchi è è l'anima di Napoli quando tras pure me su campo è una persona che è amata, rispettata e suda la maglia e ci tiene ad a a dimostrare l'appartenenza per il nostro per il nostro Napoli.",
+          "start_sec": 950.36,
+          "end_sec": 1544.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte è un grandissimo allenatore ma la sua partenza da Napoli non è vista positivamente da tutti.",
+      "polarity": "neutral",
+      "claim_id": "e9310974-01d5-4bd3-a07f-efc8a6c10e2e",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Antonio Conte è un grandissimo allenatore ma la sua partenza da Napoli non è vista positivamente da tutti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Antonio Conte, nuovo CT della Nazionale, lei che idea si è fatto su questo? Ma guardi, io sul nuovo CT della nazionale in generale, adesso a prescindere da Antonio Conti che è un grandissimo allenatore, mi piacerebbe un reset perché se il primo gesto di un'amministrazione deve rivoluzionare il calcio e ricorrere a Mancini o a Conte, io non sono felice. Poi non sono felice perché va via da Napoli e io sono un contiano di ferro, quindi me lo terrei qui a in eterno",
+          "start_sec": 950.36,
+          "end_sec": 1544.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Demetrio Albertini",
+      "position": "Demetrio Albertini potrebbe diventare presidente della FGC con l'appoggio di Abete.",
+      "polarity": "positive",
+      "claim_id": "65afa3f4-5a0f-4bb0-99ba-d57046cb4012",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s2",
+      "target_entity": "Demetrio Albertini",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Demetrio Albertini potrebbe diventare presidente della FGC con l'appoggio di Abete.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se Abete fa un passo indietro e indica Demetrio Albertini, Albertini potrebbe diventare presidente della FGC con l'appoggio.",
+          "start_sec": 950.36,
+          "end_sec": 1544.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte potrebbe lasciare Napoli dopo aver vinto due scudetti di fila.",
+      "polarity": "positive",
+      "claim_id": "fdf88a15-3890-4d6b-be2c-4b8dab467700",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte potrebbe lasciare Napoli dopo aver vinto due scudetti di fila.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da vincente, vince due scudetti di fila, dice \"Vabbè, presidente, ho fatto vincere due scudetti, adesso me ne posso andare da vincere\"",
+          "start_sec": 1542.96,
+          "end_sec": 2143.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Napoli",
+      "position": "Il divieto di partecipazione ai tifosi residenti in Campania per la trasferta a Parma è la penalizzazione più alta per i tifosi del Napoli in un anno.",
+      "polarity": "negative",
+      "claim_id": "9bee2e36-0e85-46f9-a1be-6b01e26d19b3",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il divieto di partecipazione ai tifosi residenti in Campania per la trasferta a Parma è la penalizzazione più alta per i tifosi del Napoli in un anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con questa trasferta vietata praticamente stiamo raggiungendo quasi il 90% di trasferti vietati in un anno...",
+          "start_sec": 6.55,
+          "end_sec": 475.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "divieti",
+        "ordine pubblico"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kevin De Bruin",
+      "position": "Kevin De Bruin sta dando un contributo importante al Napoli in questa stagione e può essere decisivo nelle ultime otto partite.",
+      "polarity": "positive",
+      "claim_id": "fecf717c-407e-41cf-b047-fa4d8da8dc9e",
+      "video_id": "KH5WmHJRxxQ",
+      "segment_id": "s0",
+      "target_entity": "Kevin De Bruin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kevin De Bruin sta dando un contributo importante al Napoli in questa stagione e può essere decisivo nelle ultime otto partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È questo De Bruin ritrovato che può essere poi ovviamente un il valore aggiunto di qui alla fine della stagione del nostro Napoli. anche per l'anno prossimo...",
+          "start_sec": 6.55,
+          "end_sec": 475.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "performance",
+        "leadership"
+      ]
+    }
+  ]
+}

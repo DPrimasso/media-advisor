@@ -1,0 +1,413 @@
+{
+  "video_id": "h7ihA46dJQ8",
+  "analyzed_at": "2026-04-24T08:18:44.896432+00:00",
+  "metadata": {
+    "title": "🚨 LEWANDOWSKI: TUTTA LA VERITÁ! MARESCA, LA SCELTA È PRONTA. ALTA TENSIONE ROMA, ROBERTSON A ZERO…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-10T22:26:55+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle dinamiche interne alla Roma, in particolare sul rapporto tra la dirigenza e l’allenatore Giampiero Gasperini. Claudio Ranieri, senior advisor del club, conferma che tutte le scelte sui giocatori sono condivise con Gasperini, ma ammette che i rapporti attuali non sono semplici, soprattutto dopo il rallentamento dell’operazione Sancio, che non ha mai trovato apertura da parte del giocatore. Romano ipotizza che la Roma dovrà rivedere la propria struttura dirigenziale e tecnica in vista della prossima estate, con possibili cambiamenti anche riguardo a",
+  "topics": [
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "scelta",
+      "relevance": "medium"
+    },
+    {
+      "name": "relazione",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "struttura",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Sancio",
+      "position": "Sancio non ha mai aperto ai trasferimenti verso Roma nell'estate 2025.",
+      "polarity": "negative",
+      "claim_id": "ab8af3e6-c299-4bd2-ab46-fcd35caddc67",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s3",
+      "target_entity": "Sancio",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sancio non ha mai aperto ai trasferimenti verso Roma nell'estate 2025.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sancio non ha dato mai apertura alla Roma nell'estate 2025",
+          "start_sec": 79.92,
+          "end_sec": 105.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "trasferimento",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "Claudio Ranieri conferma che tutte le scelte sui giocatori della Roma sono concordate con Giampiero Gasperini.",
+      "polarity": "positive",
+      "claim_id": "748426f3-5a74-44dc-9b74-628abf67103e",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri conferma che tutte le scelte sui giocatori della Roma sono concordate con Giampiero Gasperini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutte le scelte sui giocatori sono state fatte di comune accordo con Giampiero Gasperini",
+          "start_sec": 55.879,
+          "end_sec": 81.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "collaborazione",
+        "scelta"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Sancio",
+      "position": "L'operazione Sancio sembra aver subito un rallentamento che potrebbe aver causato una perdita di tempo.",
+      "polarity": "negative",
+      "claim_id": "e5126961-ff62-49c1-91b2-347ddba2a3cd",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s2",
+      "target_entity": "Sancio",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'operazione Sancio sembra aver subito un rallentamento che potrebbe aver causato una perdita di tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Forse abbiamo perso un po' di tempo su quell'operazione Sancio",
+          "start_sec": 55.879,
+          "end_sec": 81.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "ritardi",
+        "trasferimenti"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "Roma ha cercato un'operazione di mercato che non ha avuto senso per il giocatore.",
+      "polarity": "negative",
+      "claim_id": "c4cb9feb-5a1c-4dc5-a48a-214c698783ae",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Roma ha cercato un'operazione di mercato che non ha avuto senso per il giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma è stata dietro ad un'operazione che non ha mai avuto senso di esistere lato giocatore",
+          "start_sec": 79.92,
+          "end_sec": 105.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "relazioni",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giampiero Gasperini",
+      "position": "I rapporti con Giampiero Gasperini non sono semplici in questo momento.",
+      "polarity": "negative",
+      "claim_id": "9491bad1-3eeb-49d5-89d5-ee47ff7e702d",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s3",
+      "target_entity": "Giampiero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I rapporti con Giampiero Gasperini non sono semplici in questo momento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come i rapporti in questo momento con Giampiero Gasperini, diciamo che non sono dei rapporti così semplici",
+          "start_sec": 79.92,
+          "end_sec": 105.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "relazioni",
+        "leadership",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ricky Massara",
+      "position": "La questione relativa ai rapporti va affrontata anche da Ricky Massara e senor advisor.",
+      "polarity": "neutral",
+      "claim_id": "63571763-d407-4dd0-8444-c2bdab96c546",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s3",
+      "target_entity": "Ricky Massara",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La questione relativa ai rapporti va affrontata anche da Ricky Massara e senor advisor.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Questa sarà una questione da affrontare, vale per Giampiero Gasperini, vale per il direttore Ricky Massara, vale per il senor advisor",
+          "start_sec": 79.92,
+          "end_sec": 105.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "relazioni",
+        "management"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Gasperini",
+      "position": "Gasperini è stato scelto per far crescere i giovani alla Roma.",
+      "polarity": "neutral",
+      "claim_id": "102d5215-918c-4205-8674-439f5054f02c",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s4",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini è stato scelto per far crescere i giovani alla Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È stato scelto Gasperini per far, insomma, crescere i giovani",
+          "start_sec": 104.24,
+          "end_sec": 136.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "giovane",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Gasperini",
+      "position": "Tutti i giocatori sono stati approvati da Gasperini.",
+      "polarity": "neutral",
+      "claim_id": "b398fc56-3fa9-4528-850e-dd8b7b30a248",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s4",
+      "target_entity": "Gasperini",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Tutti i giocatori sono stati approvati da Gasperini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutti i giocatori sono stati approvati da Gasperini, tutti i giocatori",
+          "start_sec": 104.24,
+          "end_sec": 136.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "giocatore",
+        "scelta"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Roma",
+      "position": "Le dichiarazioni di Ranieri aprono una crepa nella struttura della Roma in vista dell'estate.",
+      "polarity": "neutral",
+      "claim_id": "9f993dbc-b95f-4c42-a887-d1c37e2ff03b",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s4",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Le dichiarazioni di Ranieri aprono una crepa nella struttura della Roma in vista dell'estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "certamente anche queste dichiarazioni aprono, insomma, una crepa da questo da questo punto di vista",
+          "start_sec": 104.24,
+          "end_sec": 136.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "struttura",
+        "estate",
+        "media"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Cristiano Giuntoli",
+      "position": "Cristiano Giuntoli è considerato come un'opzione per il club in vista della prossima estate.",
+      "polarity": "neutral",
+      "claim_id": "c82f3e1a-a95a-49a4-97db-a5ef9b9939ef",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s5",
+      "target_entity": "Cristiano Giuntoli",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Cristiano Giuntoli è considerato come un'opzione per il club in vista della prossima estate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vi abbiamo detto di Cristiano Giuntoli come un'opzione nelle scorse ore.",
+          "start_sec": 134.64,
+          "end_sec": 163.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "dirigenza",
+        "scelta"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri ha dichiarato di aver proposto cinque allenatori per la Roma.",
+      "polarity": "neutral",
+      "claim_id": "61feeafe-a506-4abb-871b-7e6443609717",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s4",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri ha dichiarato di aver proposto cinque allenatori per la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ranieri dice \"Io ho proposto cinque allenatori\"",
+          "start_sec": 104.24,
+          "end_sec": 136.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "scelta",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri è senior advisor della Roma.",
+      "polarity": "neutral",
+      "claim_id": "9b215d3e-dbcb-4c9c-a2f2-82d89bcc74b7",
+      "video_id": "h7ihA46dJQ8",
+      "segment_id": "s2",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri è senior advisor della Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Claudio Ranieri, senior advisor della Roma",
+          "start_sec": 55.879,
+          "end_sec": 81.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ruolo",
+        "leadership"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "video_id": "2Qv5NqGRGv8",
+  "analyzed_at": "2026-04-24T07:33:12.715870+00:00",
+  "metadata": {
+    "title": "🚨 VLAHOVIC: LE ULTIME! LEÃO, LE CIFRE E LE IDEE DEL MILAN. FRATTESI IN USCITA, LA ROMA, KONATE…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-20T16:15:33+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti di mercato riguardanti diversi giocatori chiave, con particolare attenzione al futuro incerto di Rafael Leao al Milan. Nonostante una buona prestazione recente, il club valuta offerte intorno ai 45-50 milioni per una possibile cessione, mentre il Barcellona lo considera come alternativa a Rashford. Inoltre, si discute del possibile trasferimento di Davide Frattesi e degli sviluppi legati a Dusanvović e Ibrahima Conaté. La qualificazione del Milan alla Champions League influenzerà decisamente le strategie di mercato estive.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "interesse",
+      "relevance": "medium"
+    },
+    {
+      "name": "strategia",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Leao",
+      "position": "Leao ha un contratto con il Milan fino al 2028 con trattative in corso per un prolungamento temporale.",
+      "polarity": "neutral",
+      "claim_id": "a794d27f-8247-408c-8c05-5da9fbbce017",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s2",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Leao ha un contratto con il Milan fino al 2028 con trattative in corso per un prolungamento temporale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Leao ha un contratto ancora in scadenza fino al 2028, c'erano delle trattative in corso per un eventuale prolungamento, soprattutto dal punto di vista temporale",
+          "start_sec": 77.799,
+          "end_sec": 122.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "prolungamento",
+        "scadenza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan potrebbe valutare una proposta di circa 45-50 milioni di euro più bonus.",
+      "polarity": "neutral",
+      "claim_id": "758678e6-3c36-45fc-9eae-6a87e93c5f1b",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan potrebbe valutare una proposta di circa 45-50 milioni di euro più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qualora dovesse arrivare una proposta anche intorno ai 50 milioni, eh qualcosa in più con i bonus, eh sicuramente intorno a questa cifra 45-50 milioni, il Milan potrebbe anche valutarla",
+          "start_sec": 155.16,
+          "end_sec": 202.20000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "offerta",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Rafao",
+      "position": "Il futuro di Rafao è oggetto di aggiornamenti recenti.",
+      "polarity": "neutral",
+      "claim_id": "24323578-992a-49d3-8033-c55c6bf24e77",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s1",
+      "target_entity": "Rafao",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Rafao è oggetto di aggiornamenti recenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Oggi parleremo del futuro di Rafao con qualche aneddoto, qualche punto da chiarire",
+          "start_sec": 31.599,
+          "end_sec": 81.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao ha fornito l'assist per il gol vincente di Adrien Rabiot.",
+      "polarity": "positive",
+      "claim_id": "59f4b654-60b2-49e7-b474-f10f1c8a15da",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s2",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Leao ha fornito l'assist per il gol vincente di Adrien Rabiot.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'assist per la rete vincente di Adrienne Rabiot è proprio di Leao",
+          "start_sec": 77.799,
+          "end_sec": 122.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assist",
+        "prestazione",
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Leao",
+      "position": "Leao è stato sostituito dopo una prestazione positiva.",
+      "polarity": "positive",
+      "claim_id": "50a0bb9c-514c-4c9a-a421-7b937226e83b",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s2",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Leao è stato sostituito dopo una prestazione positiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Leao che poi è stato comunque sostituito dopo una prestazione positiva",
+          "start_sec": 77.799,
+          "end_sec": 122.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sostituzione",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Leao",
+      "position": "Il futuro di Leao al Milan è ancora molto incerto.",
+      "polarity": "neutral",
+      "claim_id": "0f3f867f-120d-4c42-a79d-af74c5d77c75",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s2",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Leao al Milan è ancora molto incerto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma resta ancora molto incerto il futuro del calciatore portoghese all'interno del Milan",
+          "start_sec": 77.799,
+          "end_sec": 122.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "futuro",
+        "contratto",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan ha congelato diverse situazioni economiche in attesa di conquistare la Champions League.",
+      "polarity": "neutral",
+      "claim_id": "8f332722-2df8-4243-b31c-95c1aa99fe23",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan ha congelato diverse situazioni economiche in attesa di conquistare la Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan, in attesa poi di conquistare ufficialmente la Champions League, ha congelato diverse situazioni",
+          "start_sec": 119.28,
+          "end_sec": 157.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Leao",
+      "position": "Leao potrebbe essere un nome valido per il mercato estivo in uscita del Milan.",
+      "polarity": "positive",
+      "claim_id": "23afd94c-e845-46de-8aa0-fc09c3695048",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s3",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Leao potrebbe essere un nome valido per il mercato estivo in uscita del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Leao potrebbe diventare sicuramente un nome valido, un nome buono da tenere per il mercato estivo in uscita per il Milan",
+          "start_sec": 119.28,
+          "end_sec": 157.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Leao",
+      "position": "Il futuro di Leao dipende dall'offerta di mercato.",
+      "polarity": "neutral",
+      "claim_id": "2552d561-c62d-4056-a8d6-eeb257527eee",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s3",
+      "target_entity": "Leao",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Leao dipende dall'offerta di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chiaramente dipende dall'offerta, ma da quanto ci risulta",
+          "start_sec": 119.28,
+          "end_sec": 157.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Dusanvović",
+      "position": "Il futuro di Dusanvović è discusso nel contesto di transfer e mercato.",
+      "polarity": "neutral",
+      "claim_id": "b0bbaef9-7ac9-458d-adf6-7d813413e31d",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s1",
+      "target_entity": "Dusanvović",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Dusanvović è discusso nel contesto di transfer e mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il futuro di Dusanvović",
+          "start_sec": 31.599,
+          "end_sec": 81.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Davide Frattesi",
+      "position": "Davide Frattesi è menzionato in relazione a una possibile uscita.",
+      "polarity": "neutral",
+      "claim_id": "92b062c3-6f6d-4d30-8fe0-a53f9036fb4e",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s1",
+      "target_entity": "Davide Frattesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Davide Frattesi è menzionato in relazione a una possibile uscita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Davide Frattesi e Ibrahima Conaté del Liverpool.",
+          "start_sec": 31.599,
+          "end_sec": 81.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Ibrahima Conaté",
+      "position": "Ibrahima Conaté è associato al Liverpool ed è parte di aggiornamenti di mercato.",
+      "polarity": "neutral",
+      "claim_id": "f5392f30-f452-4e97-8e85-e7b783289dd8",
+      "video_id": "2Qv5NqGRGv8",
+      "segment_id": "s1",
+      "target_entity": "Ibrahima Conaté",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ibrahima Conaté è associato al Liverpool ed è parte di aggiornamenti di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Davide Frattesi e Ibrahima Conaté del Liverpool.",
+          "start_sec": 31.599,
+          "end_sec": 81.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

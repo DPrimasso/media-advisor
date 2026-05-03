@@ -1,0 +1,390 @@
+{
+  "video_id": "rJMM2SSpTP8",
+  "analyzed_at": "2026-04-26T11:56:47.906053+00:00",
+  "metadata": {
+    "title": "DA CONTE AD ALLEGRI: ECCO LA CORSA DA CT. JUVE, SVOLTA TRA I PALI. INTER, ECCO LE MOSSE PER L’ESTATE",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-13T22:16:40+00:00"
+  },
+  "summary": "Il video analizza la situazione politica e tecnica nel calcio italiano, focalizzandosi sulla corsa al soglio presidenziale della Federazione Gioco Calcio (FGC) tra Giovanni Malagò, sostenuto dalla maggioranza della Serie A, e Abete, preferito dal presidente Lotito. L’autore sottolinea che, nonostante le tensioni, il commissariamento non è possibile e il 22 giugno si terranno regolari elezioni. Sul fronte tecnico, si ipotizza un possibile ruolo di Claudio Ranieri come direttore tecnico della nazionale, mentre Roberto Mancini resta un nome divisivo. Infine, si evidenziano le dinamiche tra allena",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    },
+    {
+      "name": "politica",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "nomina",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "nuovo presidente Juve",
+      "position": "Il 22 giugno si terranno le elezioni per la nomina del nuovo presidente juventino.",
+      "polarity": "neutral",
+      "claim_id": "3c12d1d9-379e-41f8-be4e-fbfa6ece8d81",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s1",
+      "target_entity": "nuovo presidente Juve",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il 22 giugno si terranno le elezioni per la nomina del nuovo presidente juventino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il 22 giugno ci saranno regolari elezioni con la nomina di un nuovo presidente",
+          "start_sec": 33.04,
+          "end_sec": 72.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "elezioni",
+        "presidenza"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Marcello Lippi",
+      "position": "Marcello Lippi era stato considerato per il ruolo di direttore tecnico della nazionale circa 15 anni fa.",
+      "polarity": "neutral",
+      "claim_id": "23fab8af-3765-4da1-83b2-99418465f743",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s2",
+      "target_entity": "Marcello Lippi",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Marcello Lippi era stato considerato per il ruolo di direttore tecnico della nazionale circa 15 anni fa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la federazione aveva già valutato tanti anni fa. una quindicina d'anni fa per la precisione con Marcello Lippi",
+          "start_sec": 70.68,
+          "end_sec": 102.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giovanni Malagò",
+      "position": "Giovanni Malagò è sostenuto da 18 su 20 della Serie A per il soglio presidenziale della FGC.",
+      "polarity": "positive",
+      "claim_id": "f734a88a-71d5-489a-9913-00dff87d143b",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s0",
+      "target_entity": "Giovanni Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanni Malagò è sostenuto da 18 su 20 della Serie A per il soglio presidenziale della FGC.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Serie A 18 su 20 ha appoggiato Giovanni Malagò",
+          "start_sec": 0.599,
+          "end_sec": 35.879000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "politica",
+        "presidenza"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Il commissariamento non è possibile perché Gravina è già in carica con procedure politiche e regolamentari.",
+      "polarity": "neutral",
+      "claim_id": "f46ecb79-b157-4ada-ae09-900207a6beb5",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s0",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il commissariamento non è possibile perché Gravina è già in carica con procedure politiche e regolamentari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si può arrivare al commissariamento perché Gravina ha già",
+          "start_sec": 0.599,
+          "end_sec": 35.879000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "procedura",
+        "politica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri potrebbe andarsene se resterà un solo allenatore tra Gasperini e lui.",
+      "polarity": "neutral",
+      "claim_id": "b3c1474c-afc1-4f79-93b1-bfba3177c644",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s1",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Ranieri potrebbe andarsene se resterà un solo allenatore tra Gasperini e lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gasperini Ranieri ne rimarrà una uno solo. Se va via Ranieri",
+          "start_sec": 33.04,
+          "end_sec": 72.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Giampiero Ventura",
+      "position": "Giampiero Ventura ha avuto risultati negativi come allenatore della nazionale in passato.",
+      "polarity": "negative",
+      "claim_id": "10331905-9c54-4041-be2f-9f4b16f181cc",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s2",
+      "target_entity": "Giampiero Ventura",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giampiero Ventura ha avuto risultati negativi come allenatore della nazionale in passato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e arrivò Giampiero eh Ventura, vi ricordate, insomma, come come andò?",
+          "start_sec": 70.68,
+          "end_sec": 102.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri potrebbe diventare direttore tecnico della nazionale.",
+      "polarity": "neutral",
+      "claim_id": "41c5d819-299d-4bc2-a2a8-629ccb35a07f",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s2",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Claudio Ranieri potrebbe diventare direttore tecnico della nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Potrebbe esserci quindi Claudio Ranieri, direttore tecnico.",
+          "start_sec": 70.68,
+          "end_sec": 102.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Malagò è amico di Roberto Mancini e frequenta con lui lo stesso circolo a Roma.",
+      "polarity": "neutral",
+      "claim_id": "80f03194-aaaa-4e22-95df-bfc4ebc82184",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s2",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò è amico di Roberto Mancini e frequenta con lui lo stesso circolo a Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malagò è un grande amico, frequentano lo stesso circolo a Roma, quello del Niene, di Roberto Mancini",
+          "start_sec": 70.68,
+          "end_sec": 102.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia è stata fantastica per due anni, vincendo l'Europeo.",
+      "polarity": "positive",
+      "claim_id": "df93214f-ce1a-4fac-8ba4-4f43837e9d2d",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s3",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia è stata fantastica per due anni, vincendo l'Europeo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Italia fantastica per 2 anni, Italia che vince l'Europeo",
+          "start_sec": 99.52,
+          "end_sec": 128.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia nazionale",
+      "position": "Italia non si è qualificata al mondiale perdendo con la Macedonia.",
+      "polarity": "negative",
+      "claim_id": "b94bca47-d000-46a5-8579-3d6e8dc12f3a",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s4",
+      "target_entity": "Italia nazionale",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Italia non si è qualificata al mondiale perdendo con la Macedonia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Italia però che poi cicca la qualificazione al mondiale perdendo con la Macedonia",
+          "start_sec": 126.28,
+          "end_sec": 159.79999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "qualificazione",
+        "Mondiale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Abete",
+      "position": "Abete potrebbe avere Demetro Albertini come vice.",
+      "polarity": "neutral",
+      "claim_id": "43271142-5de4-4502-ad27-5af17f71dda4",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s1",
+      "target_entity": "Abete",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Abete potrebbe avere Demetro Albertini come vice.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abete che potrebbe magari avere Demetro Albertini come vice",
+          "start_sec": 33.04,
+          "end_sec": 72.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "nomina"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Malagò",
+      "position": "Malagò è uno stimatore di Claudio Ranieri.",
+      "polarity": "neutral",
+      "claim_id": "4673338b-3130-422f-9b8e-98a9e65befda",
+      "video_id": "rJMM2SSpTP8",
+      "segment_id": "s1",
+      "target_entity": "Malagò",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Malagò è uno stimatore di Claudio Ranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Malagò è un grande stimatore di Claudio Ranieri",
+          "start_sec": 33.04,
+          "end_sec": 72.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "stima"
+      ]
+    }
+  ]
+}

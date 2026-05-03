@@ -1,0 +1,414 @@
+{
+  "video_id": "CeYXuYX58DQ",
+  "analyzed_at": "2026-04-24T15:53:25.942303+00:00",
+  "metadata": {
+    "title": "CONTE PAGHI I DANNI, SE CHIVU AVESSE LO STESSO MERCATO...KOOP HA UN PREZZO. IL MILIARDO DEI FRIEDKIN",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza la situazione attuale della Coppa Italia, sottolineando come per squadre come Lazio essa rappresenti un obiettivo prioritario in una stagione altrimenti deludente. L’autore critica duramente la gestione tecnica, evidenziando come molti allenatori vengano esonerati prematuramente senza aver avuto reali possibilità di dimostrare il proprio valore, e propone di applicare nel calcio la regola “chi rompe paga”, con contratti che prevedano bonus e malus legati ai risultati. Inoltre, Pedullà mette in luce la vicenda Friedkin a Roma e le complicazioni legate al mer",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "coppa italia",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "low"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    },
+    {
+      "name": "stagione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Lukaku",
+      "position": "Conte aveva chiesto nel 2024 di prendere Lukaku al Napoli.",
+      "polarity": "positive",
+      "claim_id": "722b5274-e6f3-4c22-8c40-3e0d2a083fd4",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte aveva chiesto nel 2024 di prendere Lukaku al Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stato Conte che ha chiesto e aveva chiesto nel 2024 di prendere Lukaku al Napoli",
+          "start_sec": 113.759,
+          "end_sec": 151.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore",
+        "calciatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "presidente Napoli",
+      "position": "Un presidente dovrebbe respingere una spesa eccessiva come quella per Lukaku nel 2024.",
+      "polarity": "neutral",
+      "claim_id": "de0c0a9b-cc90-4987-b951-c7758580095e",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s3",
+      "target_entity": "presidente Napoli",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Un presidente dovrebbe respingere una spesa eccessiva come quella per Lukaku nel 2024.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un'operazione che tecnicamente qualsiasi tipo di presidente dovrebbe respingere",
+          "start_sec": 113.759,
+          "end_sec": 151.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "finanza",
+        "dirigenza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukaku",
+      "position": "Lukaku a 31 anni nel 2024 poteva ancora dare un contributo a una squadra italiana.",
+      "polarity": "negative",
+      "claim_id": "63db3d7f-5499-4afe-8406-fae576cfb6d0",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s3",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku a 31 anni nel 2024 poteva ancora dare un contributo a una squadra italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non perché nel 2024, l'allora trentunenne Lukaku non potesse dare il contributo a una squadra italiana",
+          "start_sec": 113.759,
+          "end_sec": 151.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "età",
+        "prestazione",
+        "calciatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter giocherà la semifinale di ritorno di Coppa Italia contro Como.",
+      "polarity": "neutral",
+      "claim_id": "a5d5f142-4099-493a-a96c-3975c0e974d4",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Inter giocherà la semifinale di ritorno di Coppa Italia contro Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la semifinale di ritorno di Coppa Italia stasera tra Inter e Comodo",
+          "start_sec": 0.16,
+          "end_sec": 39.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "semifinale",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Coppa Italia diventa un obiettivo per squadre come Lazio che hanno poco da chiedere al resto della stagione.",
+      "polarity": "neutral",
+      "claim_id": "5a1f9122-5668-49cc-823b-4be9463cbb71",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Coppa Italia diventa un obiettivo per squadre come Lazio che hanno poco da chiedere al resto della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Coppa Italia diventa un obiettivo quando hai poco da chiedere al resto della stagione",
+          "start_sec": 0.16,
+          "end_sec": 39.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "obiettivo",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cancellieri",
+      "position": "Cancellieri è considerato il miglior attaccante a livello di prolificità.",
+      "polarity": "positive",
+      "claim_id": "88f40953-572a-4892-b61b-8e99b9309489",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s1",
+      "target_entity": "Cancellieri",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cancellieri è considerato il miglior attaccante a livello di prolificità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che vede Cancellieri come miglior attaccante a livello di prolificità",
+          "start_sec": 35.96,
+          "end_sec": 77.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "attaccante",
+        "prolificità",
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatori",
+      "position": "Gli opinionisti e ex allenatori criticano senza aver dimostrato sul campo la loro capacità tattica.",
+      "polarity": "negative",
+      "claim_id": "6376e17d-196b-4cfe-96a3-0fb19f2652b3",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s1",
+      "target_entity": "allenatori",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli opinionisti e ex allenatori criticano senza aver dimostrato sul campo la loro capacità tattica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "opinonisti, ex portieri che han fatto gli allenatori per due, tre settimane, sono state esoner AT che adesso dicono, sai, bisogna giocare così, bisogna giocare colì",
+          "start_sec": 35.96,
+          "end_sec": 77.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatori",
+        "critica",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "gioco di Roma",
+      "position": "Nel gioco di Roma c'è anche la vicenda Friedkin che tiene banco.",
+      "polarity": "neutral",
+      "claim_id": "fcbbf00b-7217-41f8-a92e-d0f6c04cf928",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s1",
+      "target_entity": "gioco di Roma",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nel gioco di Roma c'è anche la vicenda Friedkin che tiene banco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nel gioco delle parti c'è anche la vicenda Friedkin che tiene banco",
+          "start_sec": 35.96,
+          "end_sec": 77.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gioco",
+        "Roma",
+        "vicenda Friedkin"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore",
+      "position": "Gli allenatori vengono spesso scaraventati via dopo poche giornate senza essere richiamati.",
+      "polarity": "negative",
+      "claim_id": "be42adfa-d698-48a9-ae23-1ad4e184b3cf",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s2",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli allenatori vengono spesso scaraventati via dopo poche giornate senza essere richiamati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono stati scaraventati via dopo due tre giornate e non stati sono stati poi richiamati",
+          "start_sec": 75.4,
+          "end_sec": 116.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "licenziamento",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore",
+      "position": "La regola 'chi rompe paga' dovrebbe essere applicata anche al calcio per i coach.",
+      "polarity": "negative",
+      "claim_id": "f8e54229-7245-443a-a759-82d22861ce29",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s2",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La regola 'chi rompe paga' dovrebbe essere applicata anche al calcio per i coach.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi rompe paga e i coach sono i suoi e bisognerebbe applicarlo anche al calcio",
+          "start_sec": 75.4,
+          "end_sec": 116.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "giustizia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Lukaku",
+      "position": "Lukaku è tornato a Napoli e ha incontrato il club senza incontrare Conte.",
+      "polarity": "neutral",
+      "claim_id": "865cef9f-4415-41e5-a973-e05d3260836b",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s2",
+      "target_entity": "Lukaku",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Lukaku è tornato a Napoli e ha incontrato il club senza incontrare Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukaku sia tornata a Napoli, abbia incontrato il club, ma non Conte che se n'è guardato bene",
+          "start_sec": 75.4,
+          "end_sec": 116.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Lukaku",
+        "incontro",
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "allenatore Conte",
+      "position": "Chi rompe paga e i coach sono i suoi.",
+      "polarity": "negative",
+      "claim_id": "8e1ddc18-633f-4af6-af35-806b1e2fe9e8",
+      "video_id": "CeYXuYX58DQ",
+      "segment_id": "s3",
+      "target_entity": "allenatore Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chi rompe paga e i coach sono i suoi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi rompe paga i coach sono i suoi",
+          "start_sec": 113.759,
+          "end_sec": 151.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "allenatore",
+        "responsabilità"
+      ]
+    }
+  ]
+}

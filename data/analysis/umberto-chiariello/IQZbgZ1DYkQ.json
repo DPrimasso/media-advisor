@@ -1,0 +1,399 @@
+{
+  "video_id": "IQZbgZ1DYkQ",
+  "analyzed_at": "2026-04-24T08:31:41.437856+00:00",
+  "metadata": {
+    "title": "L'APERITIVO DI CRC 03 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC si concentra sull'attesa e l'emozione che circondano la partita Napoli-Milan, considerata cruciale per l'esito del campionato di Serie A. L'autore sottolinea come la trasmissione abbia accompagnato i tifosi in un percorso emotivo, preparando con passione e adrenalina il grande evento sportivo. La conclusione chiave è che il Napoli deve affrontare la sfida con grande attenzione e determinazione, supportato dal calore dei suoi sostenitori e dalla copertura speciale di Radio CRC, che mira a valorizzare il calcio italiano attraverso coraggio e talento.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "tifoseria",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "preparazione partita",
+      "relevance": "low"
+    },
+    {
+      "name": "tifo",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "La formazione standard del Napoli al Maradona non cambia mai.",
+      "polarity": "positive",
+      "claim_id": "43016c58-55aa-40f6-99e5-27ae0eb5a94a",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La formazione standard del Napoli al Maradona non cambia mai.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi ovviamente la formazione standard, quella classica al Maradona, non cambia mai",
+          "start_sec": 743.44,
+          "end_sec": 979.8389999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "stadio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli si prepara con grande emozione e adrenalina per la partita contro il Milan.",
+      "polarity": "positive",
+      "claim_id": "4f661ae6-01f2-477a-8c4e-bfa47e38008a",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli si prepara con grande emozione e adrenalina per la partita contro il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Oggi voglio sentire tutta la vostra adrenalina... carica, la grinta di tutti i tifosi del Napoli",
+          "start_sec": 1.04,
+          "end_sec": 270.32000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "emozione",
+        "tifo",
+        "carica"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Radio CRC",
+      "position": "Radio CRC trasmette un programma speciale dedicato alla partita Napoli-Milan.",
+      "polarity": "neutral",
+      "claim_id": "450fb31c-e67f-4966-bd0b-343ec1ff5310",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s0",
+      "target_entity": "Radio CRC",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Radio CRC trasmette un programma speciale dedicato alla partita Napoli-Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "abbiamo avuto la possibilità di caricare una partita speciale",
+          "start_sec": 1.04,
+          "end_sec": 270.32000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "trasmissione",
+        "speciale"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "I calciatori del Napoli devono mettere un'attenzione in più per vincere contro il Milan in un momento chiave della stagione.",
+      "polarity": "positive",
+      "claim_id": "055307b9-01f2-407e-bd6e-4d4cf38f774a",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "I calciatori del Napoli devono mettere un'attenzione in più per vincere contro il Milan in un momento chiave della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quell'attenzione in più, quel qualsiasi cosa in più può fare un calciatore del Napoli per portare a casa i tre punti in una partita che si inserisce in un momento chiave della stagione",
+          "start_sec": 269.16,
+          "end_sec": 501.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli",
+        "performance",
+        "motivazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Radio CRC",
+      "position": "Radio CRC unisce coraggio e talento per aiutare il calcio italiano a progredire.",
+      "polarity": "positive",
+      "claim_id": "5f9ba876-a0ed-4710-969f-d53bce1a0e21",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s1",
+      "target_entity": "Radio CRC",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Radio CRC unisce coraggio e talento per aiutare il calcio italiano a progredire.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi auguro che il calcio italiano abbia in futuro sempre di più il coraggio di Radio CRC e il talento di Silvia De Martino",
+          "start_sec": 269.16,
+          "end_sec": 501.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "radio crc",
+        "calcio italiano",
+        "media"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "La partita Napoli-Milan è considerata centrale per gli equilibri finali del campionato di Serie A.",
+      "polarity": "positive",
+      "claim_id": "0fd6e0ee-de3a-4b6f-aaba-ab96e1b4f624",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La partita Napoli-Milan è considerata centrale per gli equilibri finali del campionato di Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una gara centrale per quanto riguarda eh la questo momento di Serie A perché ovviamente c'è il posizionamento in classifica che è importante",
+          "start_sec": 500.479,
+          "end_sec": 746.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "classifica",
+        "importanza partita"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il posizionamento in classifica del Napoli è cruciale in questa fase della Serie A.",
+      "polarity": "neutral",
+      "claim_id": "0bc0693e-409e-4fdb-82d1-200f8bcfbdb3",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il posizionamento in classifica del Napoli è cruciale in questa fase della Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una gara centrale per quanto riguarda eh la questo momento di Serie A perché ovviamente c'è il posizionamento in classifica che è importante",
+          "start_sec": 500.479,
+          "end_sec": 746.12,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "serie a",
+        "posizionamento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "Il condottiero in panchina motiva molto i calciatori del Napoli.",
+      "polarity": "positive",
+      "claim_id": "40e45597-c120-4444-8389-15f4dbfad070",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il condottiero in panchina motiva molto i calciatori del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che al di là abbiamo un condottiero in panchina che carica tantissimo le motivazioni dei calciatori",
+          "start_sec": 743.44,
+          "end_sec": 979.8389999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "motivazione",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte garantisce risultati e porta la squadra almeno al secondo posto in classifica",
+      "polarity": "positive",
+      "claim_id": "1009f3c6-6638-4f62-8ba4-7ae8ce817b98",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte garantisce risultati e porta la squadra almeno al secondo posto in classifica",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte ti garantisce i risultati. Se non arrivi primo, arrivi secondo con Conte, eh, quindi la Champions è garantito.",
+          "start_sec": 977.48,
+          "end_sec": 1236.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "Conte ha imparato molto da questa stagione difficile caratterizzata da molti infortuni",
+      "polarity": "positive",
+      "claim_id": "d16d21b9-c481-45c9-95b6-8c2480c859db",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte ha imparato molto da questa stagione difficile caratterizzata da molti infortuni",
+      "evidence_quotes": [
+        {
+          "quote_text": "un conte da una stagione come questa, eh caratterizzata appunto da tante assenze, ha imparato tanto",
+          "start_sec": 977.48,
+          "end_sec": 1236.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "La permanenza di Conte sulla panchina del Napoli è auspicata per il prossimo anno",
+      "polarity": "positive",
+      "claim_id": "df38d17a-c882-4f4e-abcc-d0be8e815c5e",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La permanenza di Conte sulla panchina del Napoli è auspicata per il prossimo anno",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sinceramente io spero nella permanenza di Conte sulla panchina del Napoli anche per l'anno prossimo.",
+          "start_sec": 977.48,
+          "end_sec": 1236.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Napoli",
+      "position": "Il tifo dello stadio e dei tifosi nel mondo sarà un supporto importante per il Napoli.",
+      "polarity": "positive",
+      "claim_id": "95e38284-a989-49b7-9155-78641f704fe2",
+      "video_id": "IQZbgZ1DYkQ",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il tifo dello stadio e dei tifosi nel mondo sarà un supporto importante per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è da un lato e c'è dall'altro. Ovviamente ora ho parlato del Napoli, quindi non è che questo va a definire il risultato, però una squadra che combatta io me l'aspetto. ... Poi c'è uno stadio intero a guidarli, uno stadio intero a fare il tifo e mi permetto non solo lo stadio, ma anche tutti coloro che sono a casa in giro per il mondo",
+          "start_sec": 743.44,
+          "end_sec": 979.8389999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifo",
+        "supporto"
+      ]
+    }
+  ]
+}

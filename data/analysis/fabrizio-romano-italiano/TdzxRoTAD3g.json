@@ -1,0 +1,388 @@
+{
+  "video_id": "TdzxRoTAD3g",
+  "analyzed_at": "2026-04-24T07:37:00.134218+00:00",
+  "metadata": {
+    "title": "🚨 INTER: ACQUISTO PIÙ VICINO! IL PIANO JACOBO RAMON, BALDANZI E IL FURURO, VALDEPENAS E LE ITALIANE…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": "2026-04-17T18:08:31+00:00"
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle ultime novità di calciomercato riguardanti giovani talenti come Jacobo Ramon e Valde Pegnas, entrambi legati al Real Madrid. L'autore sottolinea la grande stagione di Ramon, difensore centrale del Como, seguito con attenzione dal Real Madrid che potrebbe riportarlo in squadra o cederlo definitivamente, mentre Valde Pegnas è un terzino sinistro molto promettente richiesto da diverse squadre europee, con il Milan tra le interessate. Inoltre, si menzionano possibili sviluppi su Guglielmo Vicario e Tommaso Baldanzi, evidenziando l'importanza di restar",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "high"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "medium"
+    },
+    {
+      "name": "percentuale_vendita",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "portiere",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Jacobo Ramon",
+      "position": "Jacobo Ramon ha giocato 27 partite con 2 gol in Serie A con prestazioni di alto livello.",
+      "polarity": "positive",
+      "claim_id": "ced7442f-bcb1-4290-b072-0ae166b731e7",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s2",
+      "target_entity": "Jacobo Ramon",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Jacobo Ramon ha giocato 27 partite con 2 gol in Serie A con prestazioni di alto livello.",
+      "evidence_quotes": [
+        {
+          "quote_text": "molto bene in Serie A quest'anno, 21 anni, 27 partite, due gol, prestazioni veramente all'altezza",
+          "start_sec": 72.52,
+          "end_sec": 113.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Serie A",
+        "prestazione",
+        "gol"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Real Madrid",
+      "position": "Il Real Madrid mantiene il 50% del controllo sulla futura vendita di Jacobo Ramon.",
+      "polarity": "neutral",
+      "claim_id": "b97ecf8b-866d-43cd-bde8-e0f0101d563a",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s2",
+      "target_entity": "Real Madrid",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid mantiene il 50% del controllo sulla futura vendita di Jacobo Ramon.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il 50 il 50% sulla futura vendita è e resta del Madrid.",
+          "start_sec": 72.52,
+          "end_sec": 113.19999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "diritti",
+        "Real Madrid"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Jacopo Ramon",
+      "position": "Jacopo Ramon ha fatto una grandissima stagione e ci sono novità sul suo futuro.",
+      "polarity": "positive",
+      "claim_id": "e63d60d7-27c4-4f25-aa40-ef249e7d9f70",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s0",
+      "target_entity": "Jacopo Ramon",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Jacopo Ramon ha fatto una grandissima stagione e ci sono novità sul suo futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Grandissima stagione per lui, vi diremo le ultime sul suo futuro",
+          "start_sec": 0.12,
+          "end_sec": 33.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Valde Pegnas",
+      "position": "Valde Pegnas è un terzino sinistro mancino promettente e desiderato da molte squadre europee.",
+      "polarity": "positive",
+      "claim_id": "ceda0a53-3583-4b42-9892-0e4aa88a35de",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s0",
+      "target_entity": "Valde Pegnas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Valde Pegnas è un terzino sinistro mancino promettente e desiderato da molte squadre europee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Valde Pegnas del Real Madrid, sempre un terzino sinistro che può fare anche il braccetto, mancino molto molto promettente che vuole mezza Europa",
+          "start_sec": 0.12,
+          "end_sec": 33.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "ruolo"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "È consigliato iscriversi al canale WhatsApp di Fabrizio Romano per restare aggiornati sulle notizie di calciomercato.",
+      "polarity": "neutral",
+      "claim_id": "f0b44f33-e166-40fc-9a7b-3bd271a75c51",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "È consigliato iscriversi al canale WhatsApp di Fabrizio Romano per restare aggiornati sulle notizie di calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi raccomando, vi ricordo sempre anche di iscrivervi al canale WhatsApp per restare aggiornati sulle ultimissime notizie di calciomercato",
+          "start_sec": 31.32,
+          "end_sec": 74.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Jacobo Ramon",
+      "position": "Il Real Madrid segue Jacobo Ramon con grande attenzione tutte le settimane.",
+      "polarity": "neutral",
+      "claim_id": "ee1de681-1ac6-4727-8a77-4b1d61aef358",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s3",
+      "target_entity": "Jacobo Ramon",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid segue Jacobo Ramon con grande attenzione tutte le settimane.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Real Madrid lo segue con grande attenzione praticamente tutti i weekend sta seguendo con grande attenzione le sue prestazioni e le evoluzioni anche dal punto di vista prettamente tattico",
+          "start_sec": 111.04,
+          "end_sec": 146.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "monitoraggio",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Jacobo Ramon",
+      "position": "Il Real Madrid osserva le prestazioni e le evoluzioni tattiche di Jacobo Ramon.",
+      "polarity": "neutral",
+      "claim_id": "95d961db-4aac-44e6-9001-650afb31aeec",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s3",
+      "target_entity": "Jacobo Ramon",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid osserva le prestazioni e le evoluzioni tattiche di Jacobo Ramon.",
+      "evidence_quotes": [
+        {
+          "quote_text": "segue con grande attenzione le sue prestazioni e le evoluzioni anche dal punto di vista prettamente tattico",
+          "start_sec": 111.04,
+          "end_sec": 146.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Jacobo Ramon",
+      "position": "Jacobo Ramon ha diversi club interessati, soprattutto in Inghilterra e Italia.",
+      "polarity": "neutral",
+      "claim_id": "0108a120-7c58-40ed-ba59-61b48bece5ff",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s4",
+      "target_entity": "Jacobo Ramon",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Jacobo Ramon ha diversi club interessati, soprattutto in Inghilterra e Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Jacobo Ramon ehm ha diversi club interessati. Ci sono diversi club su di lui, eh, dall'Inghilterra soprattutto ci sono le grandi d'Italia che lo stanno seguendo",
+          "start_sec": 144.8,
+          "end_sec": 180.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "interesse",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Si sta tornando a parlare di Milan sul mercato dei terzini sinistri.",
+      "polarity": "neutral",
+      "claim_id": "18badf9f-d49e-455c-974b-f33d4d46f0d2",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si sta tornando a parlare di Milan sul mercato dei terzini sinistri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ultimamente si sta riparlando di Milan",
+          "start_sec": 0.12,
+          "end_sec": 33.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Guglielmo Vicario",
+      "position": "Si discute di Guglielmo Vicario in relazione al calciomercato.",
+      "polarity": "neutral",
+      "claim_id": "cb0ea63a-b2cb-4431-a2e8-22b9f8a4e2eb",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s1",
+      "target_entity": "Guglielmo Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si discute di Guglielmo Vicario in relazione al calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tratteremo il tema di Guglielmo Vicario",
+          "start_sec": 31.32,
+          "end_sec": 74.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Tommaso Baldanzi",
+      "position": "Si parla di Tommaso Baldanzi nel contesto del calciomercato.",
+      "polarity": "neutral",
+      "claim_id": "4fa69f6c-16a9-4503-8c1a-19780c41284f",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s1",
+      "target_entity": "Tommaso Baldanzi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Si parla di Tommaso Baldanzi nel contesto del calciomercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tratteremo il tema di ... Tommaso Baldanzi",
+          "start_sec": 31.32,
+          "end_sec": 74.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Jacobo Ramon",
+      "position": "Jacobo Ramon è un difensore centrale che sta facendo molto bene.",
+      "polarity": "positive",
+      "claim_id": "8ef2f970-4248-45ff-91ac-b024661ba851",
+      "video_id": "TdzxRoTAD3g",
+      "segment_id": "s1",
+      "target_entity": "Jacobo Ramon",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Jacobo Ramon è un difensore centrale che sta facendo molto bene.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Jacobo Ramon, difensore centrale che sta facendo molto",
+          "start_sec": 31.32,
+          "end_sec": 74.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

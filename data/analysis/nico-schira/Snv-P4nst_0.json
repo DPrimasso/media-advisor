@@ -1,0 +1,398 @@
+{
+  "video_id": "Snv-P4nst_0",
+  "analyzed_at": "2026-04-29T08:16:25.922151+00:00",
+  "metadata": {
+    "title": "VALZER DELLE PANCHINE: 2 IDEE POST CONTE. QUEI 2 PRESIDENTI SCONTENTI E MEZZA A PRONTA A CAMBIARE…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video analizza il delicato scenario delle panchine nel calcio italiano, evidenziando come gli allenatori rappresentino spesso la \"catena debole\" nel calciomercato, con molti tecnici il cui futuro è incerto. L’autore difende il lavoro di Rujaniic all’Udinese, sottolineando i risultati positivi della squadra, tra cui vittorie contro grandi club e una valorizzazione efficace dei giocatori, pur riconoscendo le aspettative societarie più ambiziose. Viene inoltre evidenziata l’incertezza sul futuro del tecnico del Torino, con possibili cambiamenti all’orizzonte, mentre si ipotizza un avanzamento ",
+  "topics": [
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "carriera",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    },
+    {
+      "name": "futuro",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Udinese",
+      "position": "L'Udinese è tra le prime 10 squadre e gioca bene attualmente.",
+      "polarity": "positive",
+      "claim_id": "5f840eb9-da97-44f3-80a4-e140dd35e85f",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s1",
+      "target_entity": "Udinese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Udinese è tra le prime 10 squadre e gioca bene attualmente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Udinese in questo momento tra le prime 10 è una squadra che gioca bene",
+          "start_sec": 27.039,
+          "end_sec": 51.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "classifica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Udinese",
+      "position": "Udinese non è tra le prime 10 in classifica dal 2013.",
+      "polarity": "neutral",
+      "claim_id": "f4b3ac4a-18a7-42b7-9e78-88b53214bc29",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s2",
+      "target_entity": "Udinese",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Udinese non è tra le prime 10 in classifica dal 2013.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Udinese non arriva neanche da tanti anni, credo dal 2013, tra le prime 10 nella colonna di sinistra",
+          "start_sec": 48.36,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "storia"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "allenatori",
+      "position": "Gli allenatori sono considerati la 'catena debole' nel calciomercato ogni anno.",
+      "polarity": "neutral",
+      "claim_id": "17d51314-79f5-4c50-a830-3fecc0381d05",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s0",
+      "target_entity": "allenatori",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Gli allenatori sono considerati la 'catena debole' nel calciomercato ogni anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "c'è la sensazione che, come al solito, poi tutti gli anni alla fine la catena debole sia quella degli allenatori",
+          "start_sec": 1.199,
+          "end_sec": 29.159999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Udinese",
+      "position": "L'Udinese ha battuto Napoli, Roma in casa e vinto a San Siro contro Inter e Milan.",
+      "polarity": "positive",
+      "claim_id": "058c59e2-0fe8-4b82-8739-2789718a6fd4",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s1",
+      "target_entity": "Udinese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Udinese ha battuto Napoli, Roma in casa e vinto a San Siro contro Inter e Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ha battuto anche Napoli e Roma in casa e ha vinto San Siro sia con l'Inter che col Milan",
+          "start_sec": 27.039,
+          "end_sec": 51.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "risultati",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Torino",
+      "position": "Il tecnico del Torino non è sicuro di restare per la prossima stagione.",
+      "polarity": "neutral",
+      "claim_id": "f3d38599-8eb8-4dd2-a3c1-291588d40173",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s2",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il tecnico del Torino non è sicuro di restare per la prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "nonostante poi l'inerzia positiva Daa non è proprio sicurissimo di di restare, anzi valutazioni in corso",
+          "start_sec": 48.36,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "continuità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Gattuso",
+      "position": "Gli ultimi anni di Gattuso come allenatore sono stati un disastro.",
+      "polarity": "negative",
+      "claim_id": "4309c20a-ae4d-4ae1-b108-2e5b61c60ac7",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s3",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gli ultimi anni di Gattuso come allenatore sono stati un disastro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gattuso, sinceramente gli ultimi anni sono un disastro",
+          "start_sec": 76.159,
+          "end_sec": 102.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Il Torino ha vissuto momenti difficili negli ultimi anni sotto la guida di Gattuso.",
+      "polarity": "neutral",
+      "claim_id": "0e4eeb45-b506-404a-bdba-ff6d851dffe5",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s3",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Torino ha vissuto momenti difficili negli ultimi anni sotto la guida di Gattuso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tanti auguri anche al Toro perché, insomma, gli ultimi anni di Gattuso sono da mettersi le mani",
+          "start_sec": 76.159,
+          "end_sec": 102.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "allenatori",
+      "position": "Il futuro di molti allenatori è in discussione.",
+      "polarity": "neutral",
+      "claim_id": "197a4108-9b90-40d3-b31b-9c8beb5a6e92",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s0",
+      "target_entity": "allenatori",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il futuro di molti allenatori è in discussione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ce ne sono tanti in cui futuro in discussione",
+          "start_sec": 1.199,
+          "end_sec": 29.159999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Van Juric",
+      "position": "Van Juric è uno dei nomi circolati come possibile sostituto del tecnico del Torino.",
+      "polarity": "neutral",
+      "claim_id": "a425e130-0fb3-4784-b51c-c9a58e79a59c",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s2",
+      "target_entity": "Van Juric",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Van Juric è uno dei nomi circolati come possibile sostituto del tecnico del Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "circolano i nomi di Van Juric",
+          "start_sec": 48.36,
+          "end_sec": 78.08,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato allenatori"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Udinese",
+      "position": "L'Udinese ha valorizzato diversi giocatori nella stagione.",
+      "polarity": "positive",
+      "claim_id": "a80c3690-333b-4c7c-a993-5e191d9019d5",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s1",
+      "target_entity": "Udinese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Udinese ha valorizzato diversi giocatori nella stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ha valorizzato diversi giocatori",
+          "start_sec": 27.039,
+          "end_sec": 51.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "sviluppo giocatori"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Rujaniic",
+      "position": "Rujaniic ha fatto un buon lavoro con l'Udinese.",
+      "polarity": "positive",
+      "claim_id": "16b01c1f-1f99-4cb9-9dee-53f309b81989",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s1",
+      "target_entity": "Rujaniic",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rujaniic ha fatto un buon lavoro con l'Udinese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me Rujaniic ha fatto un buon lavoro",
+          "start_sec": 27.039,
+          "end_sec": 51.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Jurić",
+      "position": "Jurić ha fatto molto bene come allenatore al Torino negli ultimi anni.",
+      "polarity": "positive",
+      "claim_id": "91d5ead9-1501-45ab-aefd-1d13d4021373",
+      "video_id": "Snv-P4nst_0",
+      "segment_id": "s3",
+      "target_entity": "Jurić",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Jurić ha fatto molto bene come allenatore al Torino negli ultimi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Jurić aveva fatto anche molto bene al Toro",
+          "start_sec": 76.159,
+          "end_sec": 102.43900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

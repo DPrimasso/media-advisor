@@ -1,0 +1,407 @@
+{
+  "video_id": "6ycPXln4lsM",
+  "analyzed_at": "2026-04-24T08:24:55.829109+00:00",
+  "metadata": {
+    "title": "#Conte e IL PROBLEMA dei CENTROCAMPISTI 👀 Analisi e Pagelle Parma Napoli 1-1 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita Parma-Napoli terminata 1-1, concentrandosi in particolare sul problema dei centrocampisti e sulla difesa durante il gol subito. L'autore critica la scelta tattica e la mancanza di comunicazione tra i difensori Juan Jesus e Buongiorno, evidenziando come questa disorganizzazione abbia permesso a Strefezza di segnare un gol spettacolare. Viene inoltre sottolineato il ruolo di Alison Santos, entrato al posto di Anghissà poco prima del gol, e l'importanza del modulo asimmetrico del Napoli che crea imprevedibilità offensiva. La conclusione chiave è che la squadra deve mi",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "comunicazione",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "medium"
+    },
+    {
+      "name": "posizione",
+      "relevance": "medium"
+    },
+    {
+      "name": "sostituzione",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "ruolo",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Nel Napoli il modulo asimmetrico permette di attaccare da una parte e arrivare dall'altra.",
+      "polarity": "positive",
+      "claim_id": "feaff98e-d645-46b9-858d-63fb1d9b27aa",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nel Napoli il modulo asimmetrico permette di attaccare da una parte e arrivare dall'altra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ha dimostrato di saper sfruttare un modulo asimmetrico dove si pende una parte e si arriva dall'altra",
+          "start_sec": 0.24,
+          "end_sec": 111.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "modulo asimmetrico",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli non ha creato azioni significative fino al 60º minuto di gioco.",
+      "polarity": "negative",
+      "claim_id": "3c31e388-561f-4f0d-9c0d-947ab7e51db5",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli non ha creato azioni significative fino al 60º minuto di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non c'è nulla fino al 60º. Questo è inaccettabile, onestamente perché lo puoi anche prendere il gol a freddo, capita, capita una papera, può capitare un infortunio, però hai tutte le il dovere, le possibilità di creare qualcosina, nulla per 60 minuti",
+          "start_sec": 205.44,
+          "end_sec": 302.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "squadra",
+        "mancanza azioni"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Scott",
+      "position": "Scott ha segnato il gol 3 minuti dopo l'ingresso di Allison.",
+      "polarity": "neutral",
+      "claim_id": "878d7de6-8d56-4226-8628-41df00f233c6",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s2",
+      "target_entity": "Scott",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Scott ha segnato il gol 3 minuti dopo l'ingresso di Allison.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arriviamo al gol di Scott. Qua siamo a 3 minuti dopo l'ingresso di Allison",
+          "start_sec": 205.44,
+          "end_sec": 302.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "momento partita"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Napoli",
+      "position": "Il Napoli ha cercato insistentemente l'imbucata centrale nonostante la difesa avversaria a 5 che chiude tutti i canali.",
+      "polarity": "positive",
+      "claim_id": "6ef31ff2-fa3f-4f3a-9a71-705cdf54c44b",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha cercato insistentemente l'imbucata centrale nonostante la difesa avversaria a 5 che chiude tutti i canali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La soluzione che ha cercato il Napoli insistentemente, non riuscendoci sempre bene, ma qui sì, è l'imbucata centrale dove però se controlli e ti giri ti accerchiano",
+          "start_sec": 300.6,
+          "end_sec": 394.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "difesa",
+        "centrocampo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Alison Santos",
+      "position": "Alison Santos è entrato al posto di Anghissà e ha influenzato il gol subito quattro minuti dopo.",
+      "polarity": "positive",
+      "claim_id": "176f9b07-daba-4058-bc08-083c6dfa7b93",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s0",
+      "target_entity": "Alison Santos",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alison Santos è entrato al posto di Anghissà e ha influenzato il gol subito quattro minuti dopo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il gol di Mcomini arriva a 4 minuti dopo la sostituzione di Anghissà con Alison Santos",
+          "start_sec": 0.24,
+          "end_sec": 111.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sostituzione",
+        "gol subito",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juan Jesus",
+      "position": "Juan Jesus era nel duello aereo con Strefezza durante il gol subito.",
+      "polarity": "neutral",
+      "claim_id": "8f86ceef-21c9-4599-bf8e-633c019977d7",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s0",
+      "target_entity": "Juan Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Juan Jesus era nel duello aereo con Strefezza durante il gol subito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Buongiorno su El F e Guan Jesus che gioca a braccetto destro su Strefezza che gli va intorno",
+          "start_sec": 0.24,
+          "end_sec": 111.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "duello aereo",
+        "difesa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Buongiorno",
+      "position": "Buongiorno arriva in ritardo e non ha tempo di saltare nel duello con Jesus.",
+      "polarity": "negative",
+      "claim_id": "9310a35d-f752-4369-bfd4-836f9b54b2bc",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s1",
+      "target_entity": "Buongiorno",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Buongiorno arriva in ritardo e non ha tempo di saltare nel duello con Jesus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando Jesus salta Buongiorno è ancora a terra, Buongiorno arriva leggermente in ritardo, quindi non ha il tempo di saltare",
+          "start_sec": 108.84,
+          "end_sec": 208.55999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "duello",
+        "tempismo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Strefezza",
+      "position": "Strefezza segna un gol bellissimo con un tiro a giro da lontano che supera Milinkovicć Savić.",
+      "polarity": "positive",
+      "claim_id": "9d0612fd-636f-4f73-8b85-f0409901fbf4",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s1",
+      "target_entity": "Strefezza",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Strefezza segna un gol bellissimo con un tiro a giro da lontano che supera Milinkovicć Savić.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Strefezza fa un gol bellissimo perché guardate come è lontano il pallone... riesce a far girare il pallone per fargli fare questa traiettoria... che mette praticamente fuori causa Milinkovicć Savić, addirittura bacino al palo, interno e gol.",
+          "start_sec": 108.84,
+          "end_sec": 208.55999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "tiro",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Mancanza di comunicazione o poca fiducia tra Buongiorno e Jesus nel coprire l'azione di Strefezza.",
+      "polarity": "negative",
+      "claim_id": "72a4e361-82d3-47b6-b2b2-9002911d11c3",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mancanza di comunicazione o poca fiducia tra Buongiorno e Jesus nel coprire l'azione di Strefezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "o c'è mancanza di comunicazione o c'è poca fiducia nel compagno, insomma ci vanno tutti e due",
+          "start_sec": 108.84,
+          "end_sec": 208.55999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "comunicazione",
+        "difesa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Strefezza",
+      "position": "Su Strefezza vanno in tre per provare a recuperare il pallone.",
+      "polarity": "positive",
+      "claim_id": "62e0fae8-960a-4b79-b75a-11d22462894a",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s1",
+      "target_entity": "Strefezza",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Su Strefezza vanno in tre per provare a recuperare il pallone.",
+      "evidence_quotes": [
+        {
+          "quote_text": "su Strefezza ci vanno in tre, provano a recuperare sia Jesus sia Buongiorno",
+          "start_sec": 108.84,
+          "end_sec": 208.55999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "recupero",
+        "pressione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Olivera",
+      "position": "Olivera è incomiabile e non dovrebbe farsi attrarre dal pallone durante l'azione.",
+      "polarity": "negative",
+      "claim_id": "36964ccc-5608-4f20-8826-29149cff01a1",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s2",
+      "target_entity": "Olivera",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Olivera è incomiabile e non dovrebbe farsi attrarre dal pallone durante l'azione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Olivera è incomiabile. Ma è sbagliato perché tre di voi che andate poi sul giocatore che riesce a tirare a quel punto se la palla fosse finita sul palo pieno e fosse ritornata indietro e il fece era solo. ...per esempio un Olivera non si deve fare attrarre anche lui dal pallone",
+          "start_sec": 205.44,
+          "end_sec": 302.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "errore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "McTominay è preferibile quando parte da mediano e può arrivare con i suoi movimenti.",
+      "polarity": "positive",
+      "claim_id": "fb04c9fb-5af9-41af-8d6d-543a49120fca",
+      "video_id": "6ycPXln4lsM",
+      "segment_id": "s2",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "McTominay è preferibile quando parte da mediano e può arrivare con i suoi movimenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mctomini quando parte da mediano e quindi può arrivare con i suoi",
+          "start_sec": 205.44,
+          "end_sec": 302.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "posizione in campo"
+      ]
+    }
+  ]
+}

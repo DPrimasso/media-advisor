@@ -1,0 +1,412 @@
+{
+  "video_id": "g75PQP1XBmw",
+  "analyzed_at": "2026-04-24T07:54:54.883152+00:00",
+  "metadata": {
+    "title": "ALLEGRI DEVE RIMANERE O ANDARE VIA⁉️ VERONA-MILAN 0-1",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la vittoria sofferta del Milan contro il Verona, mettendo in luce come questa rispecchi l'essenza del gioco di Allegri, basato su una forte organizzazione difensiva e sulla capacità di gestire momenti di difficoltà. L'autore sottolinea che Allegri divide fortemente le opinioni, forse più di Conte, ma riconosce che il Milan ha la miglior difesa del campionato grazie al suo approccio tattico. Tuttavia, emerge anche una critica: la squadra crea poche occasioni da gol, un limite che potrebbe non bastare contro avversari più forti. In conclusione, pur apprezzando la solidità difen",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione",
+      "relevance": "low"
+    },
+    {
+      "name": "tifo",
+      "relevance": "low"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Allegri",
+      "position": "Le vittorie di Allegri sono spesso frutto di sforzo volontario e di gestione della sofferenza in partita.",
+      "polarity": "positive",
+      "claim_id": "4c5bec76-f0cd-44f6-a9d4-37b844d40312",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s2",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le vittorie di Allegri sono spesso frutto di sforzo volontario e di gestione della sofferenza in partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The victory often voluntary, the victory where even with Verona you have to try to suffer.",
+          "start_sec": 51.04,
+          "end_sec": 92.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "gestione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan has scored 30 goals less than the team that will win the Scudetto.",
+      "polarity": "negative",
+      "claim_id": "f09f7164-cf2f-45ef-856f-10cba6a957f0",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s5",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan has scored 30 goals less than the team that will win the Scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "But Milan has 30 goals less than the team that will win the Scudetto. 30 goals less.",
+          "start_sec": 166.08,
+          "end_sec": 201.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "goal",
+        "performance",
+        "standings"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Milan is currently 8 points from fifth place in the standings.",
+      "polarity": "positive",
+      "claim_id": "af0a048c-4a56-4da8-b7a3-4bd499600d3c",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s8",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan is currently 8 points from fifth place in the standings.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I assure you that the management today looks more than anything else at the fact that it is 8 points from fifth place.",
+          "start_sec": 246.6,
+          "end_sec": 282.03999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "obiettivo minimo"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Allegri",
+      "position": "Allegri divides opinions more than Conte among fans and commentators.",
+      "polarity": "neutral",
+      "claim_id": "22204250-32df-40aa-8416-a1c286a5bde7",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s0",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri divides opinions more than Conte among fans and commentators.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And when we talk about Allegri, we are even more divisive than Conte, perhaps.",
+          "start_sec": 3.46,
+          "end_sec": 42.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "media",
+        "opinione",
+        "rivalità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Allegri",
+      "position": "La vittoria di Verona-Milan è attribuita all'essenza e alla volontà di Allegri.",
+      "polarity": "positive",
+      "claim_id": "6a6d2a9d-8073-43c3-8542-5228665a0a28",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s2",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria di Verona-Milan è attribuita all'essenza e alla volontà di Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Today there is the essence of Allegri in this Verona-Milan.",
+          "start_sec": 51.04,
+          "end_sec": 92.24000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "vittoria"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Verona",
+      "position": "Verona failed to capitalize on two important chances in the first half.",
+      "polarity": "negative",
+      "claim_id": "ace69583-370e-47ad-b2f0-2f675caba1e3",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s3",
+      "target_entity": "Verona",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Verona failed to capitalize on two important chances in the first half.",
+      "evidence_quotes": [
+        {
+          "quote_text": "two important equations that Verona did not take advantage of",
+          "start_sec": 92.24,
+          "end_sec": 125.82000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "chance",
+        "performance",
+        "team"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan created a great opportunity and managed a goal, though it was annulled.",
+      "polarity": "positive",
+      "claim_id": "2b924724-410d-4ba6-858c-f8c31b8a4e3e",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan created a great opportunity and managed a goal, though it was annulled.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Milan he had a great opportunity, he centered it. It is true that then there was the one with the annulled goal to Gabbia",
+          "start_sec": 92.24,
+          "end_sec": 125.82000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "chance",
+        "goal",
+        "performance",
+        "team"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "A team like Milan cannot be satisfied with creating only one or two chances.",
+      "polarity": "negative",
+      "claim_id": "c7df7ca3-17ce-4401-934f-272052e37c6c",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "A team like Milan cannot be satisfied with creating only one or two chances.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A team like Milan, which creates only this, we cannot say that it is enough.",
+          "start_sec": 92.24,
+          "end_sec": 125.82000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "chances",
+        "performance",
+        "team"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "management of Milan",
+      "position": "Milan's management mainly focuses on their position in the league standings.",
+      "polarity": "neutral",
+      "claim_id": "44897bba-deab-4bcb-bdde-baa86c786582",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s8",
+      "target_entity": "management of Milan",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan's management mainly focuses on their position in the league standings.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the management today looks more than anything else at the fact that it is 8 points from fifth place",
+          "start_sec": 246.6,
+          "end_sec": 282.03999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "management",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Milan fans",
+      "position": "Milan fans find the football played unattractive long term.",
+      "polarity": "negative",
+      "claim_id": "35e668c1-b044-438d-91a7-3f2aca56d8b4",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s8",
+      "target_entity": "Milan fans",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan fans find the football played unattractive long term.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Certainly a football that in the long run is unattractive.",
+          "start_sec": 246.6,
+          "end_sec": 282.03999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifo",
+        "attrattiva calcio"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Milan",
+      "position": "Playing in Europe enhances Milan's brand and increases visibility in the Champions League.",
+      "polarity": "positive",
+      "claim_id": "f0cea7b8-c6a5-4738-8387-d4f7a3125941",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s9",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Playing in Europe enhances Milan's brand and increases visibility in the Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "When you play in Europe, however, the brand somehow grows, improves.",
+          "start_sec": 284.98,
+          "end_sec": 326.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "champions league",
+        "visibilità",
+        "brand"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Milan won the match against Verona today.",
+      "polarity": "neutral",
+      "claim_id": "69fea0ea-a4e0-48f3-a3b5-6fbf94f668bd",
+      "video_id": "g75PQP1XBmw",
+      "segment_id": "s9",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan won the match against Verona today.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Today's result pays because you win against Verona.",
+          "start_sec": 284.98,
+          "end_sec": 326.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "vittoria"
+      ]
+    }
+  ]
+}

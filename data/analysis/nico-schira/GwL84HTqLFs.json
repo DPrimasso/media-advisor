@@ -1,0 +1,414 @@
+{
+  "video_id": "GwL84HTqLFs",
+  "analyzed_at": "2026-05-03T12:45:10.948661+00:00",
+  "metadata": {
+    "title": "MILAN, NUOVA IDEA IN DIFESA. INTER, UN COLPO E 3 ADDII. 3 BIG SU AKÈ. MALDINI E IL TOTO CT ITALIA…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video analizza la recente partita tra Como e Napoli, sottolineando la prestazione equilibrata e il pareggio che avvicina il Napoli alla qualificazione in Champions League. L'autore evidenzia come la sfida sia stata tatticamente chiusa nel secondo tempo e ricorda la rivalità tra Fabregas e Conte, tecnico del Napoli. Inoltre, si anticipa un imminente confronto tra Conte e De Laurentiis per decidere il futuro della panchina partenopea, con una short list di possibili sostituti già in valutazione. Infine, si accenna anche alle mosse di mercato dell'Inter in difesa, con nomi caldi come Solé e Na",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "difensore",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    },
+    {
+      "name": "risultato",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "L'anno scorso il Napoli ha perso 2-1 a Como.",
+      "polarity": "neutral",
+      "claim_id": "53ea1da7-764a-489b-bcaa-4fab3e8bdb4e",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'anno scorso il Napoli ha perso 2-1 a Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Per l'anno scorso il Napoli ha perso 2-1 a Como",
+          "start_sec": 1.04,
+          "end_sec": 35.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "risultato precedente"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "Conte",
+      "position": "Conte potrebbe restare al Napoli per un altro anno a 8 milioni di euro a stagione.",
+      "polarity": "neutral",
+      "claim_id": "a00f6bf2-ad6f-43e5-a770-7dd1f0006ae0",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte potrebbe restare al Napoli per un altro anno a 8 milioni di euro a stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte un altro anno a 8 milioni a stagione",
+          "start_sec": 57.76,
+          "end_sec": 86.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "contratto",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Fabregas",
+      "position": "Fabregas è considerato una bestia nera del tecnico salentino Conte.",
+      "polarity": "neutral",
+      "claim_id": "7bd98477-13a3-4dd3-9312-22349963d59b",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s1",
+      "target_entity": "Fabregas",
+      "entity_type": "player",
+      "dimension": "rivalry",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas è considerato una bestia nera del tecnico salentino Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabregas è un po' una bestia nera. Fabras che è stato comunque un allievo di conte al Chelsea, è un po' una bestia nera del tecnico salentino",
+          "start_sec": 32.52,
+          "end_sec": 59.519000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "bestia nera",
+        "rivalry",
+        "conte",
+        "fabregas"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli con questo punto fa un passo ulteriore verso la qualificazione in Champions League.",
+      "polarity": "positive",
+      "claim_id": "2247a216-0660-4d32-bdaf-7f73b2bc5eb2",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli con questo punto fa un passo ulteriore verso la qualificazione in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli con questo punto fa un passo ulteriore verso la Champions.",
+          "start_sec": 32.52,
+          "end_sec": 59.519000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli",
+        "champions",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "De Laurentis",
+      "position": "De Laurentis sta valutando una short list di tre o quattro allenatori per il Napoli.",
+      "polarity": "neutral",
+      "claim_id": "3ca33355-e582-4aa3-8a1c-578789d22aac",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s2",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis sta valutando una short list di tre o quattro allenatori per il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la short list è di tre, massimo quattro allenatori che De Laurentis sta sondando",
+          "start_sec": 57.76,
+          "end_sec": 86.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "La decisione sulla permanenza di Conte si prenderà tra qualche settimana.",
+      "polarity": "neutral",
+      "claim_id": "36f9c74b-41b0-4fbb-943d-72151a3c1b48",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La decisione sulla permanenza di Conte si prenderà tra qualche settimana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quello si deciderà tra qualche tra qualche settimana",
+          "start_sec": 57.76,
+          "end_sec": 86.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "contratto",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Se il Milan vince domani, si rimetterà in gioco per il secondo posto in classifica.",
+      "polarity": "neutral",
+      "claim_id": "58c46395-5237-4471-9a4d-f0bd484d6540",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se il Milan vince domani, si rimetterà in gioco per il secondo posto in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma vediamo domani se il Milan vince, a quel punto si rimette in gioco il secondo posto",
+          "start_sec": 57.76,
+          "end_sec": 86.32000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "milan"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "All'Inter basta un punto per festeggiare aritmeticamente lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "a06e5999-ee01-4e76-a11d-b64a5b65fe7d",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "All'Inter basta un punto per festeggiare aritmeticamente lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "All'Inter basta un punto, quindi se vince sarà doppia festa, altrimenti basta un pareggino, due risultati su tre per festeggiare aritmeticamente lo scudetto",
+          "start_sec": 84.28,
+          "end_sec": 125.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "classifica",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter saluterà Acerbi, Darmian e Sommer a parametro zero.",
+      "polarity": "neutral",
+      "claim_id": "e3912d15-12ce-4b8f-b54c-b7f5f1c2cbd8",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter saluterà Acerbi, Darmian e Sommer a parametro zero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter che saluterà Acerbi, saluterà Darmian e saluterà anche con tutta probabilità Sommer a parametro zero",
+          "start_sec": 84.28,
+          "end_sec": 125.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasferimenti",
+        "uscite",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter cerca uno o due difensori per la prossima stagione.",
+      "polarity": "neutral",
+      "claim_id": "0dad9159-0be8-473b-8261-521c3f45088f",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter cerca uno o due difensori per la prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter cerca un 1/2 difensori",
+          "start_sec": 84.28,
+          "end_sec": 125.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "difensore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Quando la qualificazione in Champions sarà aritmetica ci sarà un faccia a faccia tra Conte e De Laurentiis per decidere il futuro della panchina del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "b8167f37-d2e0-40ea-b3fe-7cf2b23a20de",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Quando la qualificazione in Champions sarà aritmetica ci sarà un faccia a faccia tra Conte e De Laurentiis per decidere il futuro della panchina del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quando la Champions sarà aritmetica andrà in scena il faccia a faccia Conte De Laurentis e lì poi capiremo quale sarà il futuro per la panchina del Napoli",
+          "start_sec": 32.52,
+          "end_sec": 59.519000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli",
+        "conte",
+        "de laurentiis",
+        "futuro",
+        "panchina"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli si è chiuso bene e non ha rischiato molto nel secondo tempo contro il Como.",
+      "polarity": "neutral",
+      "claim_id": "d7c30867-d502-4d11-a16f-c5e73c2552bf",
+      "video_id": "GwL84HTqLFs",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli si è chiuso bene e non ha rischiato molto nel secondo tempo contro il Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi alla fine il Napoli si è chiuso bene, non ha rischiato granché nel secondo tempo",
+          "start_sec": 1.04,
+          "end_sec": 35.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "difesa",
+        "secondo tempo"
+      ]
+    }
+  ]
+}

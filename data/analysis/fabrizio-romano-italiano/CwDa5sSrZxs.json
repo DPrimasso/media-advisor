@@ -1,0 +1,387 @@
+{
+  "video_id": "CwDa5sSrZxs",
+  "analyzed_at": "2026-05-02T08:06:27.650378+00:00",
+  "metadata": {
+    "title": "🚨 BASTONI: CHE SUCCEDE? IL PIANO PALESTRA, BARTESAGHI E IL FUTURO, MODRIC CONFERMA E LAURIENTÉ…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sugli aggiornamenti di mercato riguardanti giovani talenti del calcio italiano, in particolare Marco Palestra dell'Atalanta e Davide Bartesaghi del Milan, evidenziandone le diverse fasi di crescita e le prospettive future. Romano sottolinea come l'Atalanta voglia trattenere Palestra, nonostante l'interesse di club esteri, mentre il Milan valuterà il futuro di Bartesaghi con il suo entourage a fine stagione. Inoltre, si parla della trattativa tra Bastoni e il Barcellona, del futuro di Modric e dell’ottima stagione di Orienté del Sassuolo, che continua a ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "trattativa",
+      "relevance": "medium"
+    },
+    {
+      "name": "futuro",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "giocatore giovane",
+      "relevance": "low"
+    },
+    {
+      "name": "permanenza",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Palestra",
+      "position": "Palestra ha realizzato 33 partite e 4 assist con il Cagliari nella stagione corrente.",
+      "polarity": "positive",
+      "claim_id": "cfb3b978-4075-4cdd-abbb-fd2f85ec767c",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s2",
+      "target_entity": "Palestra",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Palestra ha realizzato 33 partite e 4 assist con il Cagliari nella stagione corrente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Palestra, 21 anni, 33 partite quest'anno con il Cagliari e quattro assist",
+          "start_sec": 68.64,
+          "end_sec": 104.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Marco Palestra",
+      "position": "Il contratto di Marco Palestra con l'Atalanta scade nel 202?",
+      "polarity": "neutral",
+      "claim_id": "ff717229-a8a4-41e9-9af0-764c71b5bf53",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s3",
+      "target_entity": "Marco Palestra",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il contratto di Marco Palestra con l'Atalanta scade nel 202?",
+      "evidence_quotes": [
+        {
+          "quote_text": "palestra con l'Atalanta scade nel 202.",
+          "start_sec": 101.119,
+          "end_sec": 136.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bastoni",
+      "position": "C'è una trattativa in corso che coinvolge Bastoni e il Barcellona.",
+      "polarity": "neutral",
+      "claim_id": "a7091eb2-f04d-4677-a3d8-0ee4da181ca6",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s0",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è una trattativa in corso che coinvolge Bastoni e il Barcellona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi focus su Bastoni e la trattativa con e per il Barcellona",
+          "start_sec": 0.0,
+          "end_sec": 31.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trattativa",
+        "trasferimento",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Luca Modric",
+      "position": "Il futuro di Luca Modric è oggetto di commento da parte di un direttore sportivo.",
+      "polarity": "positive",
+      "claim_id": "6607953b-a4bd-4114-83c2-74e1111f5c12",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s1",
+      "target_entity": "Luca Modric",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il futuro di Luca Modric è oggetto di commento da parte di un direttore sportivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il futuro di Luca Modric commentato dal direttore sportivo Iglitare",
+          "start_sec": 30.039,
+          "end_sec": 71.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "futuro",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Palestra",
+      "position": "Le prestazioni di Palestra sono apprezzate anche all'estero.",
+      "polarity": "positive",
+      "claim_id": "de4f3080-f792-4064-8e0f-fefdc8f410eb",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s2",
+      "target_entity": "Palestra",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Le prestazioni di Palestra sono apprezzate anche all'estero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non solo in Italia, ma anche all'estero, viste le prestazioni sia con il Cagliari sia con la nazionale italiana",
+          "start_sec": 68.64,
+          "end_sec": 104.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Palestra",
+      "position": "Palestra si sta facendo notare tra i giocatori più importanti.",
+      "polarity": "positive",
+      "claim_id": "bbe5c56b-f902-4707-ac57-5863fe1ccca7",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s2",
+      "target_entity": "Palestra",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Palestra si sta facendo notare tra i giocatori più importanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "più importanti e che si stanno facendo maggiormente notare",
+          "start_sec": 68.64,
+          "end_sec": 104.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Atalanta",
+      "position": "L'Atalanta è a conoscenza di molti club interessati a Marco Palestra.",
+      "polarity": "neutral",
+      "claim_id": "ff12cdf3-334d-4664-8893-34d1e44e6aac",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s3",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atalanta è a conoscenza di molti club interessati a Marco Palestra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Atalanta è al corrente e a conoscenza dei tanti club interessati",
+          "start_sec": 101.119,
+          "end_sec": 136.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Palestra",
+      "position": "Palestra è un giovane di proprietà dell'Atalanta coinvolto in aggiornamenti di mercato.",
+      "polarity": "neutral",
+      "claim_id": "d1d68d42-1f6b-441a-ba89-d99dd0dea8ac",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s0",
+      "target_entity": "Palestra",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Palestra è un giovane di proprietà dell'Atalanta coinvolto in aggiornamenti di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il primo è Palestra di proprietà dell'Atalanta",
+          "start_sec": 0.0,
+          "end_sec": 31.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giovane",
+        "proprietà",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Orienté",
+      "position": "Orienté del Sassuolo continua a piacere all'estero.",
+      "polarity": "positive",
+      "claim_id": "d0c5d52c-ce94-44c1-a4b6-fba6fdf2d108",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s1",
+      "target_entity": "Orienté",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Orienté del Sassuolo continua a piacere all'estero.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Orienté del Sassuolo che continua a piacere all'estero",
+          "start_sec": 30.039,
+          "end_sec": 71.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazioni",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Orienté",
+      "position": "Orienté sta avendo un'ottima stagione in corso.",
+      "polarity": "positive",
+      "claim_id": "154c9f14-bd55-4051-8c13-25dd65b7edea",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s1",
+      "target_entity": "Orienté",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Orienté sta avendo un'ottima stagione in corso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo l'ottima stagione ancora in corso",
+          "start_sec": 30.039,
+          "end_sec": 71.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stagione",
+        "prestazioni"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Palestra",
+      "position": "Il rendimento di Palestra è costante e in crescita.",
+      "polarity": "positive",
+      "claim_id": "8060f4c3-0a1b-4cfe-b0e2-ab85af7ecb39",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s2",
+      "target_entity": "Palestra",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rendimento di Palestra è costante e in crescita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un rendimento assolutamente costante e in crescendo",
+          "start_sec": 68.64,
+          "end_sec": 104.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Bartesaghi",
+      "position": "Bartesaghi è un giovane interessante che gioca nel Milan e sta vivendo un momento diverso a livello di carriera.",
+      "polarity": "neutral",
+      "claim_id": "b3182e36-592b-4d87-9867-52b05ffbe75c",
+      "video_id": "CwDa5sSrZxs",
+      "segment_id": "s0",
+      "target_entity": "Bartesaghi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bartesaghi è un giovane interessante che gioca nel Milan e sta vivendo un momento diverso a livello di carriera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il secondo è Bartesaghi del Milan",
+          "start_sec": 0.0,
+          "end_sec": 31.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giovane",
+        "carriera",
+        "mercato"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,394 @@
+{
+  "video_id": "lXnNAEV6tko",
+  "analyzed_at": "2026-04-26T11:38:16.115419+00:00",
+  "metadata": {
+    "title": "OGGI SONO ANCORA PIÙ ARRABBIATO‼️ MILAN-UDINESE 0-3",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la pesante sconfitta del Milan contro l'Udinese (0-3), criticando le scelte tattiche dell’allenatore Max e la posizione di Leão nel 4-3-3, ritenuto inadatta per lui. L’autore sottolinea come Zaniolo sia l’unico giocatore capace di coprire efficacemente certe posizioni, evidenziando la sua maturità e qualità nonostante gravi infortuni passati. In particolare, si mette in risalto il contributo decisivo di Zaniolo nei primi due gol dell’Udinese, dimostrando un livello di gioco superiore e una capacità di guidare la difesa rossonera. L’analisi conclude che il problema non è solo ",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione individuale",
+      "relevance": "medium"
+    },
+    {
+      "name": "occasione",
+      "relevance": "medium"
+    },
+    {
+      "name": "goal",
+      "relevance": "medium"
+    },
+    {
+      "name": "movimento offensivo",
+      "relevance": "low"
+    },
+    {
+      "name": "psicologia",
+      "relevance": "low"
+    },
+    {
+      "name": "maturità",
+      "relevance": "low"
+    },
+    {
+      "name": "avversario",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Leão",
+      "position": "Leão is not capable of playing as a point in the 4-3-3 formation.",
+      "polarity": "negative",
+      "claim_id": "15f11f4e-738e-43c2-9bb3-4eb81cb1ed60",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s0",
+      "target_entity": "Leão",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Leão is not capable of playing as a point in the 4-3-3 formation.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Leão in the first half that inexplicably finds himself playing point, okay? He is the player who proves that he is not capable of covering that position",
+          "start_sec": 0.64,
+          "end_sec": 77.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Max",
+      "position": "Max made poor tactical choices in Milan's 4-3-3 formation.",
+      "polarity": "negative",
+      "claim_id": "0d9b0553-afad-435c-b6c4-cc9426692124",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s0",
+      "target_entity": "Max",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Max made poor tactical choices in Milan's 4-3-3 formation.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the choices of Max, Leão in the first half that inexplicably finds himself playing point",
+          "start_sec": 0.64,
+          "end_sec": 77.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Zaniolo",
+      "position": "Zaniolo is the only player who can effectively cover a certain position.",
+      "polarity": "positive",
+      "claim_id": "47cb5083-3157-43f7-9310-908a7c2d744c",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s0",
+      "target_entity": "Zaniolo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zaniolo is the only player who can effectively cover a certain position.",
+      "evidence_quotes": [
+        {
+          "quote_text": "even today Zaniolo shows us that he is the only player who can do it",
+          "start_sec": 0.64,
+          "end_sec": 77.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Zaniolo",
+      "position": "Fans often compare Zaniolo favourably to Zappacosta, Bernardeschi, and Ruggeri.",
+      "polarity": "neutral",
+      "claim_id": "2e316860-52d3-421d-b45a-9e6389a0522c",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s0",
+      "target_entity": "Zaniolo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fans often compare Zaniolo favourably to Zappacosta, Bernardeschi, and Ruggeri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "If on Zappacosta, Bernardeschi, Ruggeri, every fan has his name of player who went to Zaniolo",
+          "start_sec": 0.64,
+          "end_sec": 77.66,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "injury",
+      "subject": "Zaniolo",
+      "position": "Zaniolo had some really heavy and invalidating injuries.",
+      "polarity": "positive",
+      "claim_id": "058799e2-070f-4fc6-baaf-508fdbd44e28",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s1",
+      "target_entity": "Zaniolo",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zaniolo had some really heavy and invalidating injuries.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Let's remember that Zaniolo had some really heavy injuries, even invalidating I would dare to say",
+          "start_sec": 77.66,
+          "end_sec": 114.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Zaniolo",
+      "position": "Zaniolo showed a glamorous and high-quality performance in Udinese's first two goals today.",
+      "polarity": "positive",
+      "claim_id": "0d47f0a5-f0bd-406b-af71-098b6443dcd7",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s1",
+      "target_entity": "Zaniolo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zaniolo showed a glamorous and high-quality performance in Udinese's first two goals today.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the first two goals of Udinese, guys, they played glamorous of Zaniolo, glamorous of level, of quality",
+          "start_sec": 77.66,
+          "end_sec": 114.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Zaniolo",
+      "position": "Zaniolo appears very mature and without injuries today.",
+      "polarity": "positive",
+      "claim_id": "030630f4-f304-4966-bcb9-dd6c6602111a",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s1",
+      "target_entity": "Zaniolo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Zaniolo appears very mature and without injuries today.",
+      "evidence_quotes": [
+        {
+          "quote_text": "today I see the boy very mature and above all without injuries",
+          "start_sec": 77.66,
+          "end_sec": 114.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "maturità",
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Nicolò Zaniolo",
+      "position": "Zaniolo effectively narrowed the whole center of Milan in the first goal.",
+      "polarity": "positive",
+      "claim_id": "d09448a3-6302-45dd-af9a-891bc361d469",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s2",
+      "target_entity": "Nicolò Zaniolo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zaniolo effectively narrowed the whole center of Milan in the first goal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Today I saw it in Zaniolo, today I saw it, capable of narrowing the whole center of Milan in the first goal",
+          "start_sec": 114.88,
+          "end_sec": 150.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione individuale",
+        "goal",
+        "movimento offensivo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Nicolò Zaniolo",
+      "position": "Zaniolo assisted the first goal with a deflected shot.",
+      "polarity": "positive",
+      "claim_id": "cf12ec63-cf6b-4046-b172-9ebf6a5a2450",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s2",
+      "target_entity": "Nicolò Zaniolo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zaniolo assisted the first goal with a deflected shot.",
+      "evidence_quotes": [
+        {
+          "quote_text": "and then he serves at the top, there is the deflected shot, everything that seems to me",
+          "start_sec": 114.88,
+          "end_sec": 150.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "assist",
+        "goal",
+        "azione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Zaniolo",
+      "position": "Zaniolo has played against a high school player but was expected to have an easy game today.",
+      "polarity": "negative",
+      "claim_id": "548d6e2b-b780-4bb4-a512-07b6543893b7",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s3",
+      "target_entity": "Zaniolo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zaniolo has played against a high school player but was expected to have an easy game today.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Zaniolo played from a high school, a player who, I repeat, had to be very easy to say today, very easy to say today",
+          "start_sec": 150.58,
+          "end_sec": 193.57999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "avversario",
+        "aspettative"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "group",
+      "position": "The group is full of fears and very frightened during the match.",
+      "polarity": "negative",
+      "claim_id": "c71ec5a7-5ec4-4f1a-b1cf-d3861830d3e4",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s3",
+      "target_entity": "group",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "The group is full of fears and very frightened during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the group that then we have seen full of fears, a group so frightened",
+          "start_sec": 150.58,
+          "end_sec": 193.57999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "paura",
+        "atteggiamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "group",
+      "position": "The group was given an award before the match, which may have affected their mentality.",
+      "polarity": "neutral",
+      "claim_id": "c8a43188-1c23-46a6-818f-486642ad8ba3",
+      "video_id": "lXnNAEV6tko",
+      "segment_id": "s3",
+      "target_entity": "group",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The group was given an award before the match, which may have affected their mentality.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the group has been awarded",
+          "start_sec": 150.58,
+          "end_sec": 193.57999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "psicologia",
+        "riconoscimento"
+      ]
+    }
+  ]
+}

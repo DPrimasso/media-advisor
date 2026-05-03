@@ -1,0 +1,360 @@
+{
+  "video_id": "5vQ-Ujw5-3o",
+  "analyzed_at": "2026-04-26T11:36:37.020703+00:00",
+  "metadata": {
+    "title": "[NON CI VOGLIO CREDERE] - Lo SFOGO di GRAVINA‼️",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sullo sfogo di Gabriele Gravina riguardo alle critiche ricevute durante la sua presidenza nel calcio italiano, specialmente dopo le delusioni della nazionale. L'autore evidenzia come Gravina abbia accettato silenziosamente insulti ma non possa tollerare accuse di indecenza, sottolineando la sua decisione di dimettersi come atto di responsabilità e amore per il calcio. Viene inoltre criticata la mancanza di collaborazione tra club e nazionale, che ostacola la crescita dei giovani talenti, e si riflette sul fatto che in Italia la nazionale interessa principalmente ai tifosi",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gabriele Gravina accepted criticism in silence and even insults.",
+      "polarity": "neutral",
+      "claim_id": "253ca7a6-255d-426b-a108-a9e1bf2ce2ad",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s0",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gabriele Gravina accepted criticism in silence and even insults.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I have accepted criticism in silence and even insults",
+          "start_sec": 1.35,
+          "end_sec": 51.510000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gabriele Gravina spoke publicly to respond to criticism.",
+      "polarity": "neutral",
+      "claim_id": "2b56b8be-3d49-4abd-b4a2-6651159fb1d0",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s0",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gabriele Gravina spoke publicly to respond to criticism.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the focus of the gravina focus of gravina yes it is released it is released",
+          "start_sec": 1.35,
+          "end_sec": 51.510000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "national team of Italy",
+      "position": "In Italy, the national team mainly cares about the fans.",
+      "polarity": "neutral",
+      "claim_id": "a0af22df-d46e-42b1-8d17-7cf59bfddae6",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s1",
+      "target_entity": "national team of Italy",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "In Italy, the national team mainly cares about the fans.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Italy the national team only cares about the fans",
+          "start_sec": 51.51,
+          "end_sec": 99.79,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "clubs",
+      "position": "Clubs do not consider time and effort necessary to make a young man selectable for the national team.",
+      "polarity": "negative",
+      "claim_id": "593935db-faae-46c4-8419-623b30691b60",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s1",
+      "target_entity": "clubs",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Clubs do not consider time and effort necessary to make a young man selectable for the national team.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the clubs do not consider time functional and the effort they need to make a young man selectable",
+          "start_sec": 51.51,
+          "end_sec": 99.79,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina is criticized for allowing ineffective leadership during his presidency.",
+      "polarity": "negative",
+      "claim_id": "dfe9b0a9-c3e2-43f2-80ed-b70fafd6796c",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s2",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina is criticized for allowing ineffective leadership during his presidency.",
+      "evidence_quotes": [
+        {
+          "quote_text": "you were the president who was doing it then, so you were there for, for grace",
+          "start_sec": 99.79,
+          "end_sec": 145.23,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "criticism"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "national team",
+      "position": "The national team failed to qualify for the World Cup due to poor management and lack of youth integration.",
+      "polarity": "negative",
+      "claim_id": "fae02286-432e-4781-be92-4544bdb291cf",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s2",
+      "target_entity": "national team",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "The national team failed to qualify for the World Cup due to poor management and lack of youth integration.",
+      "evidence_quotes": [
+        {
+          "quote_text": "we are still wondering why we don't go to the World Cup",
+          "start_sec": 99.79,
+          "end_sec": 145.23,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "standings"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "player who missed the penalty",
+      "position": "A player missed a penalty causing criticism of the team's failure.",
+      "polarity": "negative",
+      "claim_id": "bd9e3dbf-a242-4dfd-9b35-cd14025e8d97",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s3",
+      "target_entity": "player who missed the penalty",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "A player missed a penalty causing criticism of the team's failure.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it is the fault of the player who missed the penalty",
+          "start_sec": 145.23,
+          "end_sec": 196.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Resignations in football can be acts of love for the sport.",
+      "polarity": "positive",
+      "claim_id": "e1e001fc-123a-4293-8b0d-305b8fad9758",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Resignations in football can be acts of love for the sport.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Resignations are an act of love for football",
+          "start_sec": 51.51,
+          "end_sec": 99.79,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Italian national team",
+      "position": "The Italian national team reached its lowest point after two failed editions.",
+      "polarity": "negative",
+      "claim_id": "bed0ad6c-a87a-4aca-b47f-c9f7d42ce1ed",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s3",
+      "target_entity": "Italian national team",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "The Italian national team reached its lowest point after two failed editions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the lowest point of the Italian national team",
+          "start_sec": 145.23,
+          "end_sec": 196.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "coach",
+      "position": "The coach is blamed for the failures of the Italian national team.",
+      "polarity": "negative",
+      "claim_id": "e4558487-c1c6-4a96-84fe-c42e515cab36",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s3",
+      "target_entity": "coach",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "The coach is blamed for the failures of the Italian national team.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it is the fault of the coach",
+          "start_sec": 145.23,
+          "end_sec": 196.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gabriele Gravina cannot tolerate being called indecent.",
+      "polarity": "negative",
+      "claim_id": "d0d2486f-018f-4b4e-afd4-48b526b65989",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s0",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gabriele Gravina cannot tolerate being called indecent.",
+      "evidence_quotes": [
+        {
+          "quote_text": "but I cannot tolerate being called indecent",
+          "start_sec": 1.35,
+          "end_sec": 51.510000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gravina",
+      "position": "Gravina resigned because he assumed his responsibilities.",
+      "polarity": "positive",
+      "claim_id": "1ca4c70e-8810-45bc-ac04-81de04729821",
+      "video_id": "5vQ-Ujw5-3o",
+      "segment_id": "s1",
+      "target_entity": "Gravina",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gravina resigned because he assumed his responsibilities.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I resigned because I assume my responsibilities.",
+          "start_sec": 51.51,
+          "end_sec": 99.79,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

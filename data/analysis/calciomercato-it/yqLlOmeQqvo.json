@@ -1,0 +1,407 @@
+{
+  "video_id": "yqLlOmeQqvo",
+  "analyzed_at": "2026-04-27T07:14:25.258409+00:00",
+  "metadata": {
+    "title": "ULTIM'ORA Spalletti e primo Colpo JUVENTUS | Nuovo portiere per l'Inter",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-09"
+  },
+  "summary": "Il video si concentra sul rinnovo di Luciano Spalletti come allenatore della Juventus e sulle implicazioni per il futuro del club. L’autore sostiene che confermare Spalletti sia la scelta migliore, evidenziando come il tecnico abbia già impresso una chiara identità di gioco alla squadra, nonostante sia subentrato a campionato iniziato. Si ipotizza che, con il supporto della dirigenza e alcune scelte mirate di mercato, la Juventus possa migliorare ulteriormente e tornare a competere per i primi posti nel prossimo campionato.",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "juventus",
+      "relevance": "low"
+    },
+    {
+      "name": "carriera",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Spalletti sta lavorando con la dirigenza per costruire la Juventus del futuro.",
+      "polarity": "positive",
+      "claim_id": "20347a27-040e-4394-bb7e-b4380aa96ec9",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Spalletti sta lavorando con la dirigenza per costruire la Juventus del futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Invece adesso sembra che sia già al lavoro insieme alla dirigenza per costruire la Juventus del futuro",
+          "start_sec": 66.52,
+          "end_sec": 144.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus ha lacune evidenti e mancano dei perni fondamentali nella formazione.",
+      "polarity": "negative",
+      "claim_id": "5abe4cf8-0627-4ad3-9d7c-7a59a2b78055",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus ha lacune evidenti e mancano dei perni fondamentali nella formazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le lacune di questa Juve sono ampiamente riconoscibili al momento, no? Mancano proprio dei dei perni all'interno della formazione",
+          "start_sec": 141.68,
+          "end_sec": 214.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "lacune",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luciano Spalletti",
+      "position": "Luciano Spalletti ha firmato il rinnovo con la Juventus.",
+      "polarity": "positive",
+      "claim_id": "1429971b-f365-4096-8301-bb3d6ba1d6e7",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s0",
+      "target_entity": "Luciano Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Luciano Spalletti ha firmato il rinnovo con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spalletti abbia firmato il rinnovo, che l'annuncio possa arrivare entro la giornata già di oggi",
+          "start_sec": 0.799,
+          "end_sec": 68.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovo",
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Spalletti",
+      "position": "Spalletti è arrivato a campionato iniziato e ha preso il posto di Tudor alla Juventus.",
+      "polarity": "positive",
+      "claim_id": "901932de-d67b-43bf-aae2-575b946918bf",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s1",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti è arrivato a campionato iniziato e ha preso il posto di Tudor alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché lui è arrivato, ricordiamo, al campionato già iniziato e prendendo il posto di Tudor",
+          "start_sec": 66.52,
+          "end_sec": 144.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "Con Spalletti la Juventus ha mostrato un gioco con una sua identità più arioso.",
+      "polarity": "positive",
+      "claim_id": "face4ba0-3189-4f02-aec6-af63c21292ae",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Con Spalletti la Juventus ha mostrato un gioco con una sua identità più arioso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha dato modo di vedere eh di avere una sua identità, un gioco sicuramente più arioso",
+          "start_sec": 66.52,
+          "end_sec": 144.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juventus",
+      "position": "La Juventus è riconoscibile in campo grazie alla mano di Spalletti.",
+      "polarity": "positive",
+      "claim_id": "8ee0bf92-8aef-4fbb-9cb8-d957fa987482",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus è riconoscibile in campo grazie alla mano di Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "possibile riconoscere la Juventus adesso in campo. si vede la mano di Spalletti",
+          "start_sec": 141.68,
+          "end_sec": 214.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "allenatore",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus potrebbe diventare una delle pretendenti al titolo se fa scelte di mercato adeguate.",
+      "polarity": "positive",
+      "claim_id": "4c984698-e496-4c38-b8e5-2299a267fa45",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s2",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus potrebbe diventare una delle pretendenti al titolo se fa scelte di mercato adeguate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Juventus si candiderà ad essere una, diciamo, delle pretendenti al titolo anche per il prossimo campionato, qualora venissero indovinate almeno due o tre scelte. di mercato",
+          "start_sec": 141.68,
+          "end_sec": 214.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "competizione",
+        "previsione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Di Gregorio",
+      "position": "Di Gregorio non ha convinto pienamente nella stagione attuale come portiere della Juventus.",
+      "polarity": "negative",
+      "claim_id": "8ffb76ad-dd7e-4a03-8699-02abf484f718",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s3",
+      "target_entity": "Di Gregorio",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Di Gregorio non ha convinto pienamente nella stagione attuale come portiere della Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di Gregorio rimane un portiere che non ha convinto la Juventus e Spalletti",
+          "start_sec": 212.92,
+          "end_sec": 282.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "juventus",
+        "portiere",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Perin",
+      "position": "Il futuro di Perin come portiere titolare della Juventus è considerato molto incerto.",
+      "polarity": "negative",
+      "claim_id": "5c9dbd39-7e87-46c7-9b8b-6d62f10632cb",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s3",
+      "target_entity": "Perin",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il futuro di Perin come portiere titolare della Juventus è considerato molto incerto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il futuro di Perin è comunque in dubbio, non si sa potrà andare a giocare da qualche altra parte o rimanere come vice",
+          "start_sec": 212.92,
+          "end_sec": 282.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "juventus",
+        "portiere",
+        "futuro"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Alisson",
+      "position": "La Juventus sembra interessata all'acquisto di Alisson dal Liverpool per il ruolo di portiere.",
+      "polarity": "positive",
+      "claim_id": "eb36b2d0-f3fe-4975-9b25-6e35856bb9f3",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s3",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "La Juventus sembra interessata all'acquisto di Alisson dal Liverpool per il ruolo di portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sembra che la Juventus si stia muovendo in maniera decisa su Alison, un, diciamo, portiere del Liverpool",
+          "start_sec": 212.92,
+          "end_sec": 282.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "juventus",
+        "mercato",
+        "portiere"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Alisson",
+      "position": "Alisson potrebbe trasferirsi alla Juventus come portiere titolare nella prossima stagione.",
+      "polarity": "positive",
+      "claim_id": "7fa42373-ab26-4f7f-95d2-2032ea234e95",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s4",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Alisson potrebbe trasferirsi alla Juventus come portiere titolare nella prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alisson arrivato a poco più di un anno di contratto dal Liverpool, potrebbe essere quel profilo di esperienza e qualità sicuramente per la porta della Juventus",
+          "start_sec": 280.36,
+          "end_sec": 352.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Spalletti",
+      "position": "Spalletti è un tecnico estremamente preparato.",
+      "polarity": "positive",
+      "claim_id": "edcfef98-2772-4a6f-b24a-e0617b8efa1d",
+      "video_id": "yqLlOmeQqvo",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti è un tecnico estremamente preparato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tecnico estremamente preparato sicuramente con il lavoro in ritiro",
+          "start_sec": 141.68,
+          "end_sec": 214.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "preparazione"
+      ]
+    }
+  ]
+}

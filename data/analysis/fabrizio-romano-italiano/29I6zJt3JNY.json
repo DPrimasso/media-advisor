@@ -1,0 +1,408 @@
+{
+  "video_id": "29I6zJt3JNY",
+  "analyzed_at": "2026-05-01T11:31:48.136826+00:00",
+  "metadata": {
+    "title": "🚨 MILAN: DUE NOMI IN LISTA E UN ADDIO! JUVE-BERNARDO, DIETRO LE QUINTE GATTUSO PER LA PANCHINA, KONE",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra sulle possibili mosse di mercato e cambiamenti tecnici riguardanti Milan, Torino e Juventus. L'autore sottolinea come Gattuso sia un candidato molto considerato per la panchina del Torino in caso di separazione dall’attuale allenatore, mentre il Milan monitora attentamente il centrocampista Ismael Coné, apprezzato da Allegri per le sue caratteristiche fisiche e tecniche, anche se non è una priorità assoluta. Tra le ipotesi chiave emerge l’importanza dei risultati finali della stagione per definire le strategie future, con il derby del Torino che potrebb",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "giocatore giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "costo",
+      "relevance": "low"
+    },
+    {
+      "name": "valorizzazione",
+      "relevance": "low"
+    },
+    {
+      "name": "caratteristica fisica",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Coné",
+      "position": "Coné ha giocato 31 partite segnando sei gol da centrocampista quest'anno.",
+      "polarity": "positive",
+      "claim_id": "7425fd17-92cb-4aed-af9f-4af565c64447",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s3",
+      "target_entity": "Coné",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Coné ha giocato 31 partite segnando sei gol da centrocampista quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Coné è alto forte fisicamente, si inserisce molto bene, fa la doppia fase, 31 partite, quest'anno sei gol da centrocampista",
+          "start_sec": 104.479,
+          "end_sec": 144.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "caratteristiche fisiche"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Coné",
+      "position": "Coné ha un contratto con il Sassuolo in scadenza nel 2030.",
+      "polarity": "neutral",
+      "claim_id": "4972b295-26d2-43f7-8ef9-d7f9c30b4048",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s3",
+      "target_entity": "Coné",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Coné ha un contratto con il Sassuolo in scadenza nel 2030.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha un contratto in scadenza nel 2030 con il Sassuolo",
+          "start_sec": 104.479,
+          "end_sec": 144.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Torino",
+      "position": "Ci sono valutazioni in corso sul Torino per possibili cambiamenti dopo la fine della stagione.",
+      "polarity": "neutral",
+      "claim_id": "5f905e8b-bb8e-41ce-b9b3-42f486659de2",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s1",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono valutazioni in corso sul Torino per possibili cambiamenti dopo la fine della stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi ribadiscono che ci sono delle valutazioni in corso sud versa",
+          "start_sec": 32.239,
+          "end_sec": 75.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Il finale della stagione del Torino dipenderà dai risultati e dal derby da giocare.",
+      "polarity": "neutral",
+      "claim_id": "23f88161-cd2f-46f9-b8f8-e0ca88055556",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s1",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il finale della stagione del Torino dipenderà dai risultati e dal derby da giocare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisognerà capire come andrà eh la fine della stagione del Torino con i risultati, c'è un derby da giocare",
+          "start_sec": 32.239,
+          "end_sec": 75.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "stagione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Gattuso",
+      "position": "Gattuso è un nome molto caldo per il futuro come possibile allenatore del Torino.",
+      "polarity": "positive",
+      "claim_id": "29c63790-c500-49f8-8d18-a5440e381092",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s2",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Gattuso è un nome molto caldo per il futuro come possibile allenatore del Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gattuso, che già è stato cercato in passato dal Toro, eh, potrebbe tornare ad essere un nome molto molto caldo in vista del futuro",
+          "start_sec": 72.36,
+          "end_sec": 109.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "torino",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Urbano Cairo",
+      "position": "A Urbano Cairo piace molto Gattuso come allenatore nel caso di separazione dal tecnico attuale.",
+      "polarity": "neutral",
+      "claim_id": "0c6d24e9-0b66-46f0-ad12-8f02d6a9b3cd",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s2",
+      "target_entity": "Urbano Cairo",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "A Urbano Cairo piace molto Gattuso come allenatore nel caso di separazione dal tecnico attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che piace maggiormente a Urbano Cairo e al direttore sportivo Petrachi, nel caso in cui eh ci si dovesse separare da è proprio quello di Gattuso",
+          "start_sec": 72.36,
+          "end_sec": 109.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "torino",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Allegri",
+      "position": "Allegri cerca calciatori alti e forti fisicamente per la rosa del Milan.",
+      "polarity": "positive",
+      "claim_id": "a0a63cbc-be9a-489b-a3d3-903855ec4791",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s3",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri cerca calciatori alti e forti fisicamente per la rosa del Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri sta cercando eh vorrebbe inserire all'interno di questa rosa eh del Milan calciatori alti eh quindi forti fisicamente",
+          "start_sec": 104.479,
+          "end_sec": 144.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "caratteristiche fisiche",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ismael Coné",
+      "position": "Ismael Coné è un nome monitorato da Milan come opzione di mercato non prioritaria.",
+      "polarity": "neutral",
+      "claim_id": "aadf785a-3e51-48eb-ad44-7ca72e21562d",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s4",
+      "target_entity": "Ismael Coné",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ismael Coné è un nome monitorato da Milan come opzione di mercato non prioritaria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non è la primissima scelta, ma è comunque un nome che il club rossonero tiene lì e monitora",
+          "start_sec": 142.84,
+          "end_sec": 175.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "milan"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan conosce i costi di un'eventuale operazione per Ismael Coné.",
+      "polarity": "neutral",
+      "claim_id": "fb9f1c8e-866e-4832-95ac-6981b1b4abe7",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan conosce i costi di un'eventuale operazione per Ismael Coné.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan sa già un po' i costi della possibile operazione Ismael Coné",
+          "start_sec": 142.84,
+          "end_sec": 175.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "costo",
+        "milan"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Conè",
+      "position": "Conè non ha trovato la sua dimensione al Marsiglia.",
+      "polarity": "negative",
+      "claim_id": "1c71db32-a45a-4618-827f-2b9e9cab75fb",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s5",
+      "target_entity": "Conè",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conè non ha trovato la sua dimensione al Marsiglia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conè è andato eh al Marsiglia, eh non ha trovato la sua dimensione lì.",
+          "start_sec": 173.68,
+          "end_sec": 210.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "transfer"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sassuolo",
+      "position": "Sassuolo sta dimostrando tutte le sue qualità quest'anno.",
+      "polarity": "positive",
+      "claim_id": "83d037b2-b69f-4708-99ce-d89f27c960c3",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s5",
+      "target_entity": "Sassuolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sassuolo sta dimostrando tutte le sue qualità quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quest'anno Sassuolo eh insomma sta dimostrando tutte le sue qualità.",
+          "start_sec": 173.68,
+          "end_sec": 210.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ismael Coné",
+      "position": "Ismael Coné è stato in passato molto vicino alla Roma.",
+      "polarity": "neutral",
+      "claim_id": "837c07de-ddcb-444b-b7ee-e34656ad18c0",
+      "video_id": "29I6zJt3JNY",
+      "segment_id": "s4",
+      "target_entity": "Ismael Coné",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ismael Coné è stato in passato molto vicino alla Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Coné in passato è stato molto vicino alla Roma",
+          "start_sec": 142.84,
+          "end_sec": 175.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "roma"
+      ]
+    }
+  ]
+}

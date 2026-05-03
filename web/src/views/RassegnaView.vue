@@ -464,21 +464,24 @@ function analysisSourceLabel(item) {
                     <span>{{ item.movimento }}</span>
                   </div>
                   <div v-if="item.motivo" class="digest-item-motivo">{{ item.motivo }}</div>
-                  <div v-if="item.fonte" class="digest-item-fonte">
-                    <span class="digest-item-fonte-lbl">Fonti:</span> {{ item.fonte }}
-                  </div>
-                  <div v-if="item.sources?.length" class="digest-verifica">
-                    <span class="digest-verifica-lbl">Verifica:</span>
-                    <template v-for="(s, si) in item.sources" :key="`${s.channel_id}-${s.video_id}-${si}`">
-                      <a
-                        class="digest-verifica-link"
-                        :href="s.watch_url"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        @click.stop
-                      >{{ s.channel_label }} ({{ digestSourceTimeLabel(s.start_sec) }})</a>
-                      <span v-if="si < item.sources.length - 1" class="digest-verifica-sep" aria-hidden="true">·</span>
+                  <div
+                    v-if="item.sources?.length || item.fonte"
+                    class="digest-item-fonte digest-item-fonte--row"
+                  >
+                    <span class="digest-item-fonte-lbl">Fonte:</span>
+                    <template v-if="item.sources?.length">
+                      <template v-for="(s, si) in item.sources" :key="`${s.channel_id}-${s.video_id}-${si}`">
+                        <a
+                          class="digest-fonte-link"
+                          :href="s.watch_url"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          @click.stop
+                        >{{ s.channel_label }} ({{ digestSourceTimeLabel(s.start_sec) }})</a>
+                        <span v-if="si < item.sources.length - 1" class="digest-fonte-sep" aria-hidden="true">·</span>
+                      </template>
                     </template>
+                    <template v-else>{{ item.fonte }}</template>
                   </div>
                 </div>
               </li>

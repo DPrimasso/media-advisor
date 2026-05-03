@@ -1,0 +1,386 @@
+{
+  "video_id": "O6PuFTfPm9Q",
+  "analyzed_at": "2026-04-29T08:05:57.265614+00:00",
+  "metadata": {
+    "title": "GRAZIE‼️ PSG-BAYERN MONACO 5-4",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sull'emozionante partita PSG-Bayern Monaco, definita dall'autore come un esempio di vero calcio capace di suscitare grande entusiasmo anche in chi si sente meno coinvolto dal gioco. L'autore elogia le prestazioni di giocatori come Luis Diaz, Olise e Kvaraškeli, sottolineando il coraggio e la qualità mostrati in campo, mentre critica la decisione arbitrale di concedere un rigore dubbio al Bayern. Inoltre, viene presentata la Football Talents League, un gioco di fantacalcio gratuito che permette di schierare giovani talenti reali provenienti da tutto il mondo, offrendo anch",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "coraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "fantacalcio",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "azione",
+      "relevance": "low"
+    },
+    {
+      "name": "fantacalcetto",
+      "relevance": "low"
+    },
+    {
+      "name": "premi",
+      "relevance": "low"
+    },
+    {
+      "name": "differenza di livello",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "PSG",
+      "position": "PSG showed courage by not giving up despite being down 5-2 in the game.",
+      "polarity": "positive",
+      "claim_id": "deb5d04b-308c-46b6-933c-6b54bd95ce1b",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s8",
+      "target_entity": "PSG",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "PSG showed courage by not giving up despite being down 5-2 in the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "It was not taken for granted that PSG would not leave the game on 5-2.",
+          "start_sec": 245.95,
+          "end_sec": 295.89,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coraggio",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "PSG vs Bayern Monaco",
+      "position": "La partita PSG-Bayern Monaco è un esempio di vero calcio emozionante.",
+      "polarity": "positive",
+      "claim_id": "bddb480b-0d28-4334-84d1-f6110e2570f7",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s1",
+      "target_entity": "PSG vs Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita PSG-Bayern Monaco è un esempio di vero calcio emozionante.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Then there's PSG Bayern and you say, no, this is football, this is football. Football is what it is tonight, this is football.",
+          "start_sec": 3.81,
+          "end_sec": 64.25,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "emozione",
+        "calcio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kvaraškeli",
+      "position": "Kvaraškeli displayed meanness, hunger and quality on the pitch.",
+      "polarity": "positive",
+      "claim_id": "930745a6-20e7-486c-8356-81ff5bab74a0",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s2",
+      "target_entity": "Kvaraškeli",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kvaraškeli displayed meanness, hunger and quality on the pitch.",
+      "evidence_quotes": [
+        {
+          "quote_text": "have you seen Kvaraškeli's meanness, hunger and quality?",
+          "start_sec": 65.23,
+          "end_sec": 118.45,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Football Talents League",
+      "position": "Football Talents League allows playing fantasy football with real youth players from Italy and worldwide.",
+      "polarity": "neutral",
+      "claim_id": "b2988b24-21dc-49d4-a5f8-6a70ba8d06a5",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s4",
+      "target_entity": "Football Talents League",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Football Talents League allows playing fantasy football with real youth players from Italy and worldwide.",
+      "evidence_quotes": [
+        {
+          "quote_text": "you can play with real players, taken from the Italian youth sector, but from all over the world",
+          "start_sec": 122.05,
+          "end_sec": 156.37,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fantasy football",
+        "youth player",
+        "market"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Bayern Monaco",
+      "position": "L'arbitro ha concesso un rigore discutibile al Bayern Monaco, difficile da giustificare.",
+      "polarity": "negative",
+      "claim_id": "db0d41a3-e3c2-44a2-b34d-95e75d92a9d9",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s6",
+      "target_entity": "Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'arbitro ha concesso un rigore discutibile al Bayern Monaco, difficile da giustificare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "And if we remove that penalty, which we often say, these penalties are only in Italy, we have seen that they are also given in Europe. Even if the ball touched the thigh and ended up on the arm, yes, it wasn't really comfortable, but I wouldn't give it to them.",
+          "start_sec": 204.65,
+          "end_sec": 238.67,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern Monaco",
+      "position": "Il Bayern Monaco ha mostrato una prestazione apprezzabile nonostante il rigore dubbio.",
+      "polarity": "neutral",
+      "claim_id": "537c3907-4b42-4ee1-8523-1425a98a1060",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s6",
+      "target_entity": "Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bayern Monaco ha mostrato una prestazione apprezzabile nonostante il rigore dubbio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Don't think you're a Bayern fan. It's a team like many others that I like. When I express a football like that, I like it.",
+          "start_sec": 204.65,
+          "end_sec": 238.67,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain",
+      "position": "Il PSG ha offerto una prestazione tale da risultare apprezzabile anche dagli avversari.",
+      "polarity": "positive",
+      "claim_id": "1c24577c-211a-4405-8e4e-f5dba07b87af",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s6",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il PSG ha offerto una prestazione tale da risultare apprezzabile anche dagli avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "But it's as if I also like PSG. You can't not like PSG tonight.",
+          "start_sec": 204.65,
+          "end_sec": 238.67,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Bayern immediately had an opportunity after a key action involving Alise and Neves hitting the post.",
+      "polarity": "neutral",
+      "claim_id": "71937f28-0698-437b-b518-bbce5b6d303b",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s10",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bayern immediately had an opportunity after a key action involving Alise and Neves hitting the post.",
+      "evidence_quotes": [
+        {
+          "quote_text": "If I'm not mistaken, Bayern immediately had the opportunity. When Alise makes two, then there's Neves' own post",
+          "start_sec": 299.91,
+          "end_sec": 347.51,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "azione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Luis Diaz",
+      "position": "Luis Diaz showed excellent control during the match.",
+      "polarity": "positive",
+      "claim_id": "65142d92-a588-43a7-92b4-619889b11177",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s2",
+      "target_entity": "Luis Diaz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Luis Diaz showed excellent control during the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "have you seen the control of Luis Diaz?",
+          "start_sec": 65.23,
+          "end_sec": 118.45,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern",
+      "position": "Bayern came on strong but PSG reacted very well throughout most of the game.",
+      "polarity": "neutral",
+      "claim_id": "2e96b647-2425-4a9a-b7a4-b2130380c397",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s8",
+      "target_entity": "Bayern",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bayern came on strong but PSG reacted very well throughout most of the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I saw Bayern come on and PSG reacted really well.",
+          "start_sec": 245.95,
+          "end_sec": 295.89,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "reazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Nuno Mendes",
+      "position": "Nuno Mendes has shown unusual difficulty against Alise in this match.",
+      "polarity": "negative",
+      "claim_id": "1f7fe671-265f-4622-9d51-92e5c0af4fe2",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s10",
+      "target_entity": "Nuno Mendes",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nuno Mendes has shown unusual difficulty against Alise in this match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I've never seen Nuno Mendes so difficult on Alise",
+          "start_sec": 299.91,
+          "end_sec": 347.51,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "difesa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Olise",
+      "position": "Olise delivered impactful slaps during the game.",
+      "polarity": "positive",
+      "claim_id": "c6d62a55-f80d-47c8-858b-5b6c5027240a",
+      "video_id": "O6PuFTfPm9Q",
+      "segment_id": "s2",
+      "target_entity": "Olise",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Olise delivered impactful slaps during the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "have you seen Olise's slaps?",
+          "start_sec": 65.23,
+          "end_sec": 118.45,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

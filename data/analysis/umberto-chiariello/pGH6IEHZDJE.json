@@ -1,0 +1,414 @@
+{
+  "video_id": "pGH6IEHZDJE",
+  "analyzed_at": "2026-04-24T09:12:33.785558+00:00",
+  "metadata": {
+    "title": "#ProudToBeNapoli 💙 #MAZZOCCHI A RADIO CRC: «Speriamo di far vivere una serena Pasqua ai tifosi!»",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulla preparazione del Napoli in vista della sfida contro il Milan, con un focus sugli allenamenti intensi e l’analisi tattica mirata a contrastare gli esterni avversari. L’autore, attraverso l’intervista a Pasquale Mazzocchi, sottolinea come la squadra stia lavorando con grande impegno sia fisico che mentale, nonostante la recente delusione per la mancata qualificazione della nazionale italiana ai Mondiali, che ha lasciato i giocatori emotivamente provati ma comunque motivati. La conclusione chiave è che il Napoli affronta questa partita come un mini campionato, con entu",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "allenamento",
+      "relevance": "high"
+    },
+    {
+      "name": "delusione",
+      "relevance": "medium"
+    },
+    {
+      "name": "ruolo",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan comportamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "disponibilità",
+      "relevance": "low"
+    },
+    {
+      "name": "giornata festiva",
+      "relevance": "low"
+    },
+    {
+      "name": "preparazione partita",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "presidente della nazionale italiana",
+      "position": "Il presidente della nazionale italiana ha rilasciato un'intervista che conferma la linea di gestione attuale.",
+      "polarity": "neutral",
+      "claim_id": "47b3445f-a1b7-40fa-b672-fbede340d875",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s1",
+      "target_entity": "presidente della nazionale italiana",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il presidente della nazionale italiana ha rilasciato un'intervista che conferma la linea di gestione attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ho letto l'intervista del presidente, mi riallaccio alla alla sua linea, non ho niente da aggiungere.",
+          "start_sec": 30.439,
+          "end_sec": 64.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "presidente",
+        "intervista",
+        "linea"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Giovanne",
+      "position": "Giovanne è stato acquistato come uno dei due nuovi numeri 10.",
+      "polarity": "neutral",
+      "claim_id": "64d8a27a-53fa-4179-aedf-6a1e7be9fee6",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s4",
+      "target_entity": "Giovanne",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanne è stato acquistato come uno dei due nuovi numeri 10.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dal mercato sono arrivati due numeri 10, no? Come Giovanne e Alisson Santos.",
+          "start_sec": 129.52,
+          "end_sec": 166.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "numero10"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli si sta preparando con allenamenti fisici intensi per la partita contro il Milan.",
+      "polarity": "positive",
+      "claim_id": "cc11f638-5f91-43df-810f-99c645134a01",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli si sta preparando con allenamenti fisici intensi per la partita contro il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo lavorato tanto anche sul piano sul piano fisico.",
+          "start_sec": 0.32,
+          "end_sec": 32.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenamento",
+        "preparazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale italiana",
+      "position": "La nazionale italiana è stata delusa per la mancata qualificazione al mondiale.",
+      "polarity": "negative",
+      "claim_id": "4fbdf021-039d-42e9-82f3-f4f3855187fa",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s1",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana è stata delusa per la mancata qualificazione al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è tanta delusione per la mancata qualificazione al mondiale.",
+          "start_sec": 30.439,
+          "end_sec": 64.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale italiana",
+        "delusione",
+        "mondiale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "nazionale italiana",
+      "position": "I giocatori della nazionale italiana tornano mentalmente distrutti dopo il mancato accesso al mondiale.",
+      "polarity": "negative",
+      "claim_id": "0374dba4-5508-47d0-a547-d205543f9d26",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s1",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori della nazionale italiana tornano mentalmente distrutti dopo il mancato accesso al mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ragazzi che sono tornati mentalmente sono sono distrutti",
+          "start_sec": 30.439,
+          "end_sec": 64.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale italiana",
+        "mentalità",
+        "delusione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale italiana",
+      "position": "I giocatori della nazionale italiana sono tornati belli carichi nonostante un po' di stanchezza iniziale.",
+      "polarity": "positive",
+      "claim_id": "b0354094-f857-4202-9be1-133b34c9fbdc",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s2",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori della nazionale italiana sono tornati belli carichi nonostante un po' di stanchezza iniziale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "belli carichi. Ovviamente c'è sempre un po' di stanchezza inizialmente",
+          "start_sec": 64.04,
+          "end_sec": 95.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "stanchezza",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "nazionale italiana",
+      "position": "I giocatori della nazionale italiana si stanno rimettendo piano piano a posto per affrontare la prossima sfida.",
+      "polarity": "neutral",
+      "claim_id": "a928c1be-74d0-438c-8a37-be6b61dc2cf4",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s2",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori della nazionale italiana si stanno rimettendo piano piano a posto per affrontare la prossima sfida.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si stanno rimettendo tutti piano piano a posto a posto per affrontare questa grande sfida che ci aspetta",
+          "start_sec": 64.04,
+          "end_sec": 95.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "recupero",
+        "performance"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "La squadra sta lavorando specificamente sulla contrapposizione agli esterni del Milan, Salemakers, Bartesagi e Stupignan.",
+      "polarity": "neutral",
+      "claim_id": "0d1f9298-e186-4ddb-8066-a95071aba408",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra sta lavorando specificamente sulla contrapposizione agli esterni del Milan, Salemakers, Bartesagi e Stupignan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la contrapposizione ai loro esterni, Salemakers, Bartesagi e Stupignan. avete lavorato su qualcosa nello specifico",
+          "start_sec": 93.04,
+          "end_sec": 130.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "esterni",
+        "Milan"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Napoli",
+      "position": "I giocatori di Napoli devono affrontare le prossime partite con il massimo delle forze e sostenersi a vicenda.",
+      "polarity": "positive",
+      "claim_id": "71cc8318-2339-4da8-844b-b5acb2ef89a1",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "I giocatori di Napoli devono affrontare le prossime partite con il massimo delle forze e sostenersi a vicenda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dovremmo affrontarla affrontare le prossime partite con il massimo delle forze e appunto darci darci forza a tutti",
+          "start_sec": 93.04,
+          "end_sec": 130.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "forza fisica",
+        "unità",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Antonio Conte ha cambiato le richieste per l'interpretazione del quarto di centrocampo.",
+      "polarity": "neutral",
+      "claim_id": "cf66d588-a4ef-4d9a-a538-f73c28e52bbb",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Antonio Conte ha cambiato le richieste per l'interpretazione del quarto di centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È cambiato qualcosa nell'interpretazione del quarto di centrocampo, di chi sta dietro, nelle richieste magari anche di Antonio Conte",
+          "start_sec": 129.52,
+          "end_sec": 166.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "allenatore",
+        "quartodicentrocampo"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "allenatore",
+      "position": "L'allenatore deciderà chi schierare in base all'andamento della gara.",
+      "polarity": "neutral",
+      "claim_id": "c81da14b-9a88-4d83-be5f-980d46d4b772",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s6",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore deciderà chi schierare in base all'andamento della gara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi è normale che dipenderà anche sempre da da come va la gara e in base a questo poi il mister si renderà conto chi mettere e chi non mettere",
+          "start_sec": 169.04,
+          "end_sec": 201.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "schieramento",
+        "decisione",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Mazzocchi",
+      "position": "Mazzocchi è disponibile a giocare sia in ruolo offensivo sia difensivo.",
+      "polarity": "positive",
+      "claim_id": "884e6afb-c585-4255-8f78-1a056ddd0386",
+      "video_id": "pGH6IEHZDJE",
+      "segment_id": "s6",
+      "target_entity": "Mazzocchi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mazzocchi è disponibile a giocare sia in ruolo offensivo sia difensivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo sempre a disposizione per per la squadra sia a livello offensivo che a livello difensivo",
+          "start_sec": 169.04,
+          "end_sec": 201.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "versatilità",
+        "disponibilità",
+        "ruolo"
+      ]
+    }
+  ]
+}

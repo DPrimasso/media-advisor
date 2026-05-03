@@ -1,0 +1,410 @@
+{
+  "video_id": "LBP1C0Z0RJk",
+  "analyzed_at": "2026-04-24T08:53:22.372463+00:00",
+  "metadata": {
+    "title": "L’INTER BLINDA CAPITAN FUTURO. MURO JUVENTUS ALLA PREMIER PER UN BIG. NAPOLI, ECCO LA NUOVA BANDIERA",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-19T18:11:05+00:00"
+  },
+  "summary": "Il video si concentra principalmente sulle trattative di rinnovo contrattuale di giocatori chiave nel calcio italiano, con un focus particolare sul Napoli che sta per blindare Scott McTominay come pilastro del club fino al 2030. L’autore sottolinea anche la situazione del Parma, prossimo alla salvezza, che sta lavorando per confermare giocatori importanti come Gab Strefezza e il capitano Enrico Del Prato. Viene inoltre menzionata l’operazione di riscatto di Hans Nicolussi Caviglia da parte dell’Inter, con la Juventus che incasserà una percentuale. Infine, si evidenzia un clima di incertezza at",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    },
+    {
+      "name": "capitano",
+      "relevance": "low"
+    },
+    {
+      "name": "rinnovo contrattuale",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Hans Nicolussi Caviglia",
+      "position": "L'Inter ha l'obbligo di riscatto di Hans Nicolussi Caviglia dal Venezia a 6 milioni di euro.",
+      "polarity": "positive",
+      "claim_id": "0df3a97e-3e8c-4a5d-a3a0-dda57869b842",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s1",
+      "target_entity": "Hans Nicolussi Caviglia",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha l'obbligo di riscatto di Hans Nicolussi Caviglia dal Venezia a 6 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "scattare l'obbligo di riscatto di Hans Nicolussi Caviglia dal Venezia. 6 milioni nelle casse lagunari",
+          "start_sec": 31.0,
+          "end_sec": 60.879000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "trasferimento",
+        "obbligo riscatto"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "Juventus",
+      "position": "La Juventus incasserà 600.000 euro per il 10% sulla operazione di riscatto di Nicolussi Caviglia.",
+      "polarity": "positive",
+      "claim_id": "5f7d090f-3e46-4245-9a1c-2cab8796a760",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus incasserà 600.000 euro per il 10% sulla operazione di riscatto di Nicolussi Caviglia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "6 milioni nelle casse lagunari il 10% spetta la Juve. Quindi la Juve incasserà €600.000 da questa operazione.",
+          "start_sec": 31.0,
+          "end_sec": 60.879000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "finanza",
+        "diritti percentuali",
+        "incasso"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Enrico Del Prato",
+      "position": "Il Parma sta cercando di rinnovare il contratto con il capitano Enrico Del Prato fino al 2029.",
+      "polarity": "positive",
+      "claim_id": "b4700661-c960-4292-a996-2121db68652e",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s2",
+      "target_entity": "Enrico Del Prato",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Parma sta cercando di rinnovare il contratto con il capitano Enrico Del Prato fino al 2029.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Parma sta cercando di rinnovare sino al 2029 l'accordo con il capitano Enrico del Prato",
+          "start_sec": 58.559,
+          "end_sec": 90.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "rinnovo",
+        "capitano"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Scott Mcdominey",
+      "position": "Mcdominey rinnoverà con il Napoli fino al 2030 con opzione unilaterale per il 2031 a favore del club.",
+      "polarity": "positive",
+      "claim_id": "3b755cc4-d9f9-4ae5-842d-b1539697f8ac",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s3",
+      "target_entity": "Scott Mcdominey",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Mcdominey rinnoverà con il Napoli fino al 2030 con opzione unilaterale per il 2031 a favore del club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Momeney che rinnoverà sino al 2030 con opzione per il 2031 ovviamente unilaterale come solita prasse del club di De Laurentis",
+          "start_sec": 88.28,
+          "end_sec": 124.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovo",
+        "contratto",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "calciomercato",
+      "position": "Il focus principale è sul tema dei rinnovi di giocatori importanti delle squadre principali.",
+      "polarity": "neutral",
+      "claim_id": "63667808-04be-428e-8bf8-f7370529a141",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s0",
+      "target_entity": "calciomercato",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il focus principale è sul tema dei rinnovi di giocatori importanti delle squadre principali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mi soffermerei soprattutto sul tema dei rinnovi perché ci sono tanti big, tanti giocatori importanti delle squadre principali destinati a rinnovare",
+          "start_sec": 1.24,
+          "end_sec": 33.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovi",
+        "giocatori importanti"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli sta blindando Scott McDomini secondo conferme da giornali inglesi e italiani.",
+      "polarity": "positive",
+      "claim_id": "4ebdb8d3-73be-4b11-8018-7f2e8e135039",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli sta blindando Scott McDomini secondo conferme da giornali inglesi e italiani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli blinda, Scott McDomini. Momini sarà il pilastro",
+          "start_sec": 58.559,
+          "end_sec": 90.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinforzo",
+        "mercato",
+        "conferme"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Scott Mcdominey",
+      "position": "Scott Mcdominey è considerato il leader e punto fermo del Napoli nel presente e futuro.",
+      "polarity": "positive",
+      "claim_id": "ce26fe77-0d15-48cb-a13b-92c34696b636",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s3",
+      "target_entity": "Scott Mcdominey",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Scott Mcdominey è considerato il leader e punto fermo del Napoli nel presente e futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il leader, il punto fermo del Napoli, del presente, anche del futuro",
+          "start_sec": 88.28,
+          "end_sec": 124.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli",
+        "leadership",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Scott Mcdominey",
+      "position": "Il Napoli è molto vicino a un accordo per il rinnovo di Mcdominey con un aumento di stipendio.",
+      "polarity": "positive",
+      "claim_id": "0cc07a8a-ba71-49c8-892f-43859232e811",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s3",
+      "target_entity": "Scott Mcdominey",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è molto vicino a un accordo per il rinnovo di Mcdominey con un aumento di stipendio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli è molto vicino a un accordo con Scott Mcdominey che avrà anche un aumento di stipendio",
+          "start_sec": 88.28,
+          "end_sec": 124.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovo",
+        "stipendio",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Parma",
+      "position": "Parma sta per centrare la salvezza in campionato.",
+      "polarity": "positive",
+      "claim_id": "c0444688-7fbb-4464-bc16-48eb24203789",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s0",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Parma sta per centrare la salvezza in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Parma che ha vinto, che sta centrando la salvezza",
+          "start_sec": 1.24,
+          "end_sec": 33.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "salvezza",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Parma",
+      "position": "Al Parma manca solo l'aritmetica salvezza per completare la salvezza.",
+      "polarity": "neutral",
+      "claim_id": "c06d2f6c-5941-4eba-8556-1ccb29deec92",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s0",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Al Parma manca solo l'aritmetica salvezza per completare la salvezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Parma manca solo l'aritmetica salvezza",
+          "start_sec": 1.24,
+          "end_sec": 33.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "salvezza",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gab Strefezza",
+      "position": "Gab Strefezza è integrato e si trova benissimo a Parma.",
+      "polarity": "positive",
+      "claim_id": "af6c2c30-5763-4e02-9be3-8823b2689d6d",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s1",
+      "target_entity": "Gab Strefezza",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gab Strefezza è integrato e si trova benissimo a Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gab Strefezza ormai si trova benissimo a Parma.",
+          "start_sec": 31.0,
+          "end_sec": 60.879000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "integrazione",
+        "team feeling"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Gab Strefezza",
+      "position": "Gab Strefezza sta facendo molto bene a Parma con gol e assist inclusi.",
+      "polarity": "positive",
+      "claim_id": "d0befb07-de3e-4526-ba99-e38b7d2a55c5",
+      "video_id": "LBP1C0Z0RJk",
+      "segment_id": "s1",
+      "target_entity": "Gab Strefezza",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gab Strefezza sta facendo molto bene a Parma con gol e assist inclusi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sta facendo molto bene. Gol al Napoli, assist.",
+          "start_sec": 31.0,
+          "end_sec": 60.879000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol",
+        "assist"
+      ]
+    }
+  ]
+}

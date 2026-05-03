@@ -1,0 +1,399 @@
+{
+  "video_id": "sjFePf_9-W8",
+  "analyzed_at": "2026-04-24T08:35:41.451634+00:00",
+  "metadata": {
+    "title": "CHE DISASTRO‼️ ASTON VILLA-BOLOGNA 4-0 e FIORENTINA-CRYSTAL PALACE 2-1",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la pessima stagione del calcio italiano in Europa, evidenziando l'assenza di squadre italiane nelle semifinali delle principali competizioni e la mancata qualificazione della nazionale ai Mondiali. L'autore sottolinea come l'Atalanta sia stata eliminata con un pesante passivo e valuta positivamente la Fiorentina, che ha mostrato orgoglio nel tentativo di rimonta, mentre il Bologna, pur avendo disputato una buona partita all'andata, ha perso concentrazione nel ritorno subendo quattro gol. Viene inoltre riconosciuto il valore tattico di Emery, allenatore del Crystal Palace, che",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "europe",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "stagione",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "europe",
+      "subject": "Nazionale italiana",
+      "position": "La nazionale italiana non si è qualificata per il mondiale.",
+      "polarity": "negative",
+      "claim_id": "0fffe032-7a06-4be1-b21a-9dd4a11f6bd9",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s0",
+      "target_entity": "Nazionale italiana",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La nazionale italiana non si è qualificata per il mondiale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The national team, which is not qualified for the World Cup",
+          "start_sec": 1.29,
+          "end_sec": 45.269999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale italiana",
+        "mondiale",
+        "mancata qualificazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "Fiorentina showed pride to recover after going behind in the match.",
+      "polarity": "positive",
+      "claim_id": "99f8f689-6e67-4a79-90b9-03e942af7d64",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fiorentina showed pride to recover after going behind in the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "At least Fiorentina had that leap of pride to reassemble the passive",
+          "start_sec": 45.27,
+          "end_sec": 95.80999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "orgoglio",
+        "recupero"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna's comeback chances are uncertain and depend on other matches.",
+      "polarity": "negative",
+      "claim_id": "8af86f10-efcf-443f-88bc-bd823b94214a",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna's comeback chances are uncertain and depend on other matches.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the comeback, who knows, Bologna and Italy, it depends on the other four",
+          "start_sec": 45.27,
+          "end_sec": 95.80999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "recupero",
+        "incertezza"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Bologna made a great game in the first leg but lacked focus in the second leg.",
+      "polarity": "negative",
+      "claim_id": "3bd53801-8c9b-4ed8-8bf0-f9f4720c2573",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s4",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bologna made a great game in the first leg but lacked focus in the second leg.",
+      "evidence_quotes": [
+        {
+          "quote_text": "for me Bologna in the first leg makes a great game and you take three",
+          "start_sec": 197.74,
+          "end_sec": 236.06,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "If Bologna is not minimally focused, the team concedes four goals at Viola Park.",
+      "polarity": "negative",
+      "claim_id": "afe31800-1dd4-493c-950e-a4ae1b8de054",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s4",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "If Bologna is not minimally focused, the team concedes four goals at Viola Park.",
+      "evidence_quotes": [
+        {
+          "quote_text": "if you go to the Viola Park with the Stoneville and you are not minimally focused, if you feel good, you take four",
+          "start_sec": 197.74,
+          "end_sec": 236.06,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Stoneville",
+      "position": "Stoneville's players show immense quality by scoring goals with just two touches.",
+      "polarity": "positive",
+      "claim_id": "7765a81d-8217-41d1-911f-8b46f328a618",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s5",
+      "target_entity": "Stoneville",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Stoneville's players show immense quality by scoring goals with just two touches.",
+      "evidence_quotes": [
+        {
+          "quote_text": "There is an immense quality of the players of the Stoneville, who do not cheat. Thanks to combined, studied and re-studied, they come to the goal with two touches.",
+          "start_sec": 236.06,
+          "end_sec": 280.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "gol",
+        "qualità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Stoneville",
+      "position": "Stoneville might have had difficulty adapting to higher competitive levels.",
+      "polarity": "neutral",
+      "claim_id": "3dec0219-dcaa-4f92-b4cb-5fce3f425bca",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s6",
+      "target_entity": "Stoneville",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Stoneville might have had difficulty adapting to higher competitive levels.",
+      "evidence_quotes": [
+        {
+          "quote_text": "maybe not being The classic thing is not to be used to these levels",
+          "start_sec": 280.62,
+          "end_sec": 324.59999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "adaptation",
+        "performance"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Atalanta",
+      "position": "Atalanta è stata eliminata agli ottavi di finale con un punteggio molto negativo.",
+      "polarity": "negative",
+      "claim_id": "99012bf3-ec2f-4e99-98f1-10450102be9c",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s0",
+      "target_entity": "Atalanta",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Atalanta è stata eliminata agli ottavi di finale con un punteggio molto negativo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In the round of 16, Atalanta to take 10, 30 back.",
+          "start_sec": 1.29,
+          "end_sec": 45.269999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "atalanta",
+        "eliminazione",
+        "ottavi di finale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Vaglia",
+      "position": "There is a penalty involving Vaglia mentioned in the segment.",
+      "polarity": "neutral",
+      "claim_id": "2cccc91b-0af8-4d54-a504-33a28f4c05b0",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s5",
+      "target_entity": "Vaglia",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "There is a penalty involving Vaglia mentioned in the segment.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The same goes for Vaglia, it seems a penalty",
+          "start_sec": 236.06,
+          "end_sec": 280.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rigore",
+        "arbitro",
+        "player performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Stoneville",
+      "position": "Stoneville displayed maniacal leadership behavior consistently.",
+      "polarity": "positive",
+      "claim_id": "d4a6e699-160a-4921-a912-96fdc1cad762",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s6",
+      "target_entity": "Stoneville",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Stoneville displayed maniacal leadership behavior consistently.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Stoneville, between goes and returns, has been maniacal. He was maniacal in what he did. He had a handkerchief, he hugged him and you go straight, you don't run away.",
+          "start_sec": 280.62,
+          "end_sec": 324.59999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "behavior"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Emery",
+      "position": "Emery confirms himself again as a coach.",
+      "polarity": "neutral",
+      "claim_id": "eb14c8e3-f5c3-4962-bf76-deb050bf832c",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s4",
+      "target_entity": "Emery",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Emery confirms himself again as a coach.",
+      "evidence_quotes": [
+        {
+          "quote_text": "We have Emery, who once again confirms himself",
+          "start_sec": 197.74,
+          "end_sec": 236.06,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Rogers",
+      "position": "Rogers is recognized as a high-level performer.",
+      "polarity": "positive",
+      "claim_id": "0c6e2eca-9d08-45c9-b19c-7d0065723b9d",
+      "video_id": "sjFePf_9-W8",
+      "segment_id": "s7",
+      "target_entity": "Rogers",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rogers is recognized as a high-level performer.",
+      "evidence_quotes": [
+        {
+          "quote_text": "There is Rogers",
+          "start_sec": 325.04,
+          "end_sec": 334.65999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciatore",
+        "prestazione",
+        "livello alto"
+      ]
+    }
+  ]
+}

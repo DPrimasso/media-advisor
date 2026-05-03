@@ -1,0 +1,408 @@
+{
+  "video_id": "MNXXk_DA6-U",
+  "analyzed_at": "2026-04-26T11:51:07.547962+00:00",
+  "metadata": {
+    "title": "MILAN, IL BIG CHE VUOLE ALLEGRI. UN RINNOVO E UN REGISTA PER LA JUVENTUS. LE MOSSE DI INTER E ROMA…",
+    "author_name": "Nico Schira",
+    "published_at": "2026-04-16T17:36:02+00:00"
+  },
+  "summary": "Il video analizza le dinamiche di mercato legate ai centrocampisti, con particolare attenzione a Stanislav Lobotka, il cui futuro è al centro di molte speculazioni. L'autore sottolinea come il Napoli detenga un’opzione per estendere il contratto di Lobotka, ma la clausola rescissoria da 25 milioni valida solo per club stranieri potrebbe favorire una sua cessione all’estero, mentre la Juventus, pur interessata e stimando molto il giocatore, dovrebbe trattare direttamente con De Laurentiis, complicando l’operazione. Inoltre, si evidenzia la volontà della Juve di confermare Manuel Locatelli, che ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "centrocampista",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "valutazione giocatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "medium"
+    },
+    {
+      "name": "stipendio",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciatori",
+      "relevance": "low"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Robotka",
+      "position": "Robotka ha un prezzo di circa 25 milioni più tasse, considerato abbordabile per un centrocampista forte.",
+      "polarity": "positive",
+      "claim_id": "4bcea2f0-4fcc-42db-9069-d1dbe4c9ead3",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s1",
+      "target_entity": "Robotka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Robotka ha un prezzo di circa 25 milioni più tasse, considerato abbordabile per un centrocampista forte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "luglio da 25 milioni più le tasse, quindi tutto sommato un prezzo abbordabile per un giocatore forte",
+          "start_sec": 33.12,
+          "end_sec": 62.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "prezzo",
+        "centrocampista"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Robotka",
+      "position": "Il Napoli ha un'opzione unilaterale per estendere il contratto di Robotka che scade nel 2027.",
+      "polarity": "neutral",
+      "claim_id": "ed819850-dae4-45fd-beb0-fe6a952e8d82",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s1",
+      "target_entity": "Robotka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha un'opzione unilaterale per estendere il contratto di Robotka che scade nel 2027.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli ha proprio favore un'opzione unilaterale per estendere il contratto di Robotka che guadagna poco meno di 4 milioni per un'altra stagione",
+          "start_sec": 33.12,
+          "end_sec": 62.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "opzione",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "club arabo o turco o francese",
+      "position": "Club arabi, turchi e francesi possono comprare Lobotka pagando 25 milioni.",
+      "polarity": "neutral",
+      "claim_id": "3ff2765a-8271-4ddc-ac9f-7ae8afc147ef",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s2",
+      "target_entity": "club arabo o turco o francese",
+      "entity_type": "club",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Club arabi, turchi e francesi possono comprare Lobotka pagando 25 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arriva un club arabo, arriva un club turco, arriva un club francese, paga 25 milioni, si mette d'accordo con Lobotka e prende il centrocampista classe 94.",
+          "start_sec": 59.879,
+          "end_sec": 89.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "clausola rescissoria",
+        "mercato",
+        "Lobotka"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Stanislav Lobotka",
+      "position": "Stanislav Lobotka è un centrocampista slovacco con una clausola recissoria valida nel mese attuale.",
+      "polarity": "neutral",
+      "claim_id": "0c714127-3f51-4a06-b144-6569c622c339",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s0",
+      "target_entity": "Stanislav Lobotka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Stanislav Lobotka è un centrocampista slovacco con una clausola recissoria valida nel mese attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Negli ultimi giorni si è parlato tanto del futuro di Stanislav Lobotka, centrocampista slovaco. Ha una clausola recissoria valida nel mese di",
+          "start_sec": 1.48,
+          "end_sec": 35.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "calciomercato",
+        "centrocampista",
+        "clausola recissoria"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Lobotka",
+      "position": "Il Napoli ha il controllo sul futuro di Lobotka tramite la clausola rescissoria.",
+      "polarity": "neutral",
+      "claim_id": "eaaede05-9955-4e92-87cd-d032c61b5870",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s2",
+      "target_entity": "Lobotka",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha il controllo sul futuro di Lobotka tramite la clausola rescissoria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi in realtà è il Napoli che decide il futuro di Robotka",
+          "start_sec": 59.879,
+          "end_sec": 89.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "clausola rescissoria",
+        "mercato",
+        "Napoli"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli può essere vincolato da una clausola rescissoria a luglio.",
+      "polarity": "neutral",
+      "claim_id": "9de5c5ce-5f19-4260-bc78-b4332972586b",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli può essere vincolato da una clausola rescissoria a luglio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "anche se il Napoli può essere sotto schiaffo nel mese di luglio per la questione clausola",
+          "start_sec": 59.879,
+          "end_sec": 89.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "clausola rescissoria",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "De Laurentiis",
+      "position": "De Laurentiis ha stabilito che la clausola rescissoria vale solo per club stranieri.",
+      "polarity": "neutral",
+      "claim_id": "5b13e6d2-7d78-4825-a20f-496531b0f1fe",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s2",
+      "target_entity": "De Laurentiis",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis ha stabilito che la clausola rescissoria vale solo per club stranieri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Clausola recissoria però che De La Daurentis dopo il caso Higuain, ormai è di prassi mettere e far sì che sia valida solamente per i club stranieri.",
+          "start_sec": 59.879,
+          "end_sec": 89.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "clausola rescissoria",
+        "mercato",
+        "De Laurentiis"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Spalletti",
+      "position": "Spalletti vorrebbe un giocatore come Lobotka e lo stima molto.",
+      "polarity": "positive",
+      "claim_id": "bb2b0c2d-a594-41c3-a8e7-b6e93ded6677",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s3",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti vorrebbe un giocatore come Lobotka e lo stima molto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spalletti vorrebbe un giocatore alla Lobotka, vorrebbe anche Lobotka, lo stima molto.",
+          "start_sec": 87.6,
+          "end_sec": 114.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "La Juventus non può attivare la clausola di Lobotka e dovrebbe negoziare liberamente con De Laurentis.",
+      "polarity": "neutral",
+      "claim_id": "491e8b71-b02b-4014-96f6-64bdc1e2c92e",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s3",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Juventus non può attivare la clausola di Lobotka e dovrebbe negoziare liberamente con De Laurentis.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma è chiaro che la Juve non può attivare la clausola, dovrebbe fare una libera negoziazione, una libera trattativa col presidente De Laurentis",
+          "start_sec": 87.6,
+          "end_sec": 114.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Robotka",
+      "position": "Robotka è stato uno dei migliori centrocampisti della Serie A negli ultimi anni.",
+      "polarity": "positive",
+      "claim_id": "60c7426d-064d-43a7-ad67-53624ea491f0",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s1",
+      "target_entity": "Robotka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Robotka è stato uno dei migliori centrocampisti della Serie A negli ultimi anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno dei migliori centrocampisti della Serie A",
+          "start_sec": 33.12,
+          "end_sec": 62.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "centrocampista",
+        "serie a"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Robotka",
+      "position": "Robotka ha vinto due scudetti da protagonista con il Napoli.",
+      "polarity": "positive",
+      "claim_id": "4edfb196-2b03-40b5-9d7e-a12f4a7d512e",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s1",
+      "target_entity": "Robotka",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Robotka ha vinto due scudetti da protagonista con il Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "due scudetti vinti da protagonista con il Napoli",
+          "start_sec": 33.12,
+          "end_sec": 62.160000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "prestazione",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Spalletti",
+      "position": "Spalletti prenderebbe Lobotka subito se fosse possibile.",
+      "polarity": "positive",
+      "claim_id": "c78366cf-b727-4588-964c-ca05378b4ecf",
+      "video_id": "MNXXk_DA6-U",
+      "segment_id": "s3",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti prenderebbe Lobotka subito se fosse possibile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se ci fosse la possibilità lo prenderebbe domani mattina, su questo non ci sono dubbi.",
+          "start_sec": 87.6,
+          "end_sec": 114.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato"
+      ]
+    }
+  ]
+}

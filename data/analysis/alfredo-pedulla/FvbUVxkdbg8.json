@@ -1,0 +1,386 @@
+{
+  "video_id": "FvbUVxkdbg8",
+  "analyzed_at": "2026-04-24T16:05:01.109280+00:00",
+  "metadata": {
+    "title": "ADL VUOLE SAPERLO PER TEMPO PERCHÉ CONTE ALLA JUVE… AURELIANO PERCORSO NETTO. CHIVU E IL PREMIO🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà si concentra principalmente sulle dinamiche attuali del calcio italiano, con particolare attenzione alla figura di Conte e alla necessità di una leadership più concreta nella Lega Calcio. L’autore riconosce le qualità tecniche di Conte come allenatore, ma critica i suoi atteggiamenti e i lamenti ricorrenti, sottolineando come De Laurentiis abbia posto paletti chiari per il futuro rapporto con lui. Pedullà sostiene inoltre che i candidati alla presidenza della Lega dovrebbero prima presentare un programma dettagliato e dimostrare le riforme realizzate, evitando prome",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "premio",
+      "relevance": "low"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Simeone",
+      "position": "Simeone ha detto di sentire ancora emozioni forti dopo 14 anni qui.",
+      "polarity": "positive",
+      "claim_id": "c2dc3e05-3d0b-42da-bd04-44096a1ddb37",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s0",
+      "target_entity": "Simeone",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Simeone ha detto di sentire ancora emozioni forti dopo 14 anni qui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Simeone quando dice dopo aver passato il turno e di Champions contro il Barcellona al termine di una partita movimentata, dopo 14 anni qui sento ancora emozioni forti",
+          "start_sec": 0.16,
+          "end_sec": 38.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "emozione",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente",
+      "position": "Dovrebbe mostrarsi in privato per 48 ore per dimostrare di aver fatto riforme.",
+      "polarity": "neutral",
+      "claim_id": "9dd38d91-8b17-4bc3-89cb-a5fa15697bea",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s3",
+      "target_entity": "presidente",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Dovrebbe mostrarsi in privato per 48 ore per dimostrare di aver fatto riforme.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io mi chiudo 48 ore in una stanza, ti faccio vedere che le riforme le ho fatte.",
+          "start_sec": 109.799,
+          "end_sec": 148.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain",
+      "position": "Il Paris Saint-Germain ha avuto un grande momento con Dembélé.",
+      "polarity": "positive",
+      "claim_id": "d70aa3ab-84e6-4608-b721-907bc409d937",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s1",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Paris Saint-Germain ha avuto un grande momento con Dembélé.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La giornata di ieri è stata scandita dal grande momento del Paris Saint-Germain con Dembélé",
+          "start_sec": 35.36,
+          "end_sec": 74.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "momentum"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte è considerato un allenatore valido ma ha atteggiamenti e lamenti sistematici criticati.",
+      "polarity": "neutral",
+      "claim_id": "bd94ec08-6395-4358-a228-ad00791d5b52",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è considerato un allenatore valido ma ha atteggiamenti e lamenti sistematici criticati.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sul Conte allenatore credo che soltanto un folle avrebbe qualcosa da ridire, ma su alcuni eh atteggiamenti, su alcuni lamenti eh sistematici, malgrado gli abbiano dato di tutto e di più, io credo che invece ci sia molto da dire",
+          "start_sec": 70.799,
+          "end_sec": 113.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "comportamento",
+        "critica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "presidente",
+      "position": "Un presidente dovrebbe prima presentare un programma concreto prima di candidarsi.",
+      "polarity": "neutral",
+      "claim_id": "08cd70cb-2d36-41dc-b764-b5dd97081c2e",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s3",
+      "target_entity": "presidente",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Un presidente dovrebbe prima presentare un programma concreto prima di candidarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "presidente. Io penso sempre che un presidente e qualsiasi debba prima portare il programma.",
+          "start_sec": 109.799,
+          "end_sec": 148.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "candidati alla presidenza",
+      "position": "Ci sono state parole non mantenute e promesse fatte invano da chi si è candidato.",
+      "polarity": "negative",
+      "claim_id": "2654e26d-7beb-4281-9308-5f5dc02e32a6",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s3",
+      "target_entity": "candidati alla presidenza",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono state parole non mantenute e promesse fatte invano da chi si è candidato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dopo tutto quello che è accaduto di parole non mantenute, di promesse fatte invano",
+          "start_sec": 109.799,
+          "end_sec": 148.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "lega pro",
+      "position": "La Lega Pro ha avuto un alto numero di caduti sul campo anche quest'anno.",
+      "polarity": "negative",
+      "claim_id": "983768a7-3f75-4ab5-a15e-eddd80237473",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s4",
+      "target_entity": "lega pro",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lega Pro ha avuto un alto numero di caduti sul campo anche quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per quale motivo i caduti sul campo anche quest'anno siano stati tantissimi",
+          "start_sec": 147.0,
+          "end_sec": 177.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "sicurezza"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "de laurentis",
+      "position": "De Laurentis ha interesse verso l'argomento relativo a Conte alla Juve.",
+      "polarity": "neutral",
+      "claim_id": "1d29c0e5-a429-42d3-af0e-60ba3255c999",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s4",
+      "target_entity": "de laurentis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "De Laurentis ha interesse verso l'argomento relativo a Conte alla Juve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E tornando all'argomento Conte, io penso che De Laurentis sia",
+          "start_sec": 147.0,
+          "end_sec": 177.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte ha ricevuto dagli investitori enormi promesse e sostegno economico.",
+      "polarity": "neutral",
+      "claim_id": "c80b0935-aa6d-4952-96f9-6c613ad6d663",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s5",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha ricevuto dagli investitori enormi promesse e sostegno economico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Conte ha dato di tutto e di più e la luna, il cielo, il mare, gli investimenti",
+          "start_sec": 174.92,
+          "end_sec": 216.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Il rapporto con Conte potrebbe non continuare per vari motivi.",
+      "polarity": "neutral",
+      "claim_id": "174c63a3-48e7-4e7b-ac56-c93969faa5c2",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s5",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il rapporto con Conte potrebbe non continuare per vari motivi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io aggiungo che non si fascerebbe la testa se il rapporto non continuasse per tanti motivi",
+          "start_sec": 174.92,
+          "end_sec": 216.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Luis Enrique",
+      "position": "Luis Enrique ha dato il suo marchio al Paris Saint-Germain.",
+      "polarity": "neutral",
+      "claim_id": "2c766193-447c-466e-afed-9f6fde50ab6c",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s1",
+      "target_entity": "Luis Enrique",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Luis Enrique ha dato il suo marchio al Paris Saint-Germain.",
+      "evidence_quotes": [
+        {
+          "quote_text": "col timbro, il marchio che ha dato Luis Enrique",
+          "start_sec": 35.36,
+          "end_sec": 74.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "influenza",
+        "team"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "De Laurentiis",
+      "position": "ADL vuole sapere per tempo informazioni sul futuro di Conte alla Juventus.",
+      "polarity": "neutral",
+      "claim_id": "5eb76395-98dd-41f0-9154-9327a6a62198",
+      "video_id": "FvbUVxkdbg8",
+      "segment_id": "s5",
+      "target_entity": "De Laurentiis",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "ADL vuole sapere per tempo informazioni sul futuro di Conte alla Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e chiaramente vuole sapere per tempo",
+          "start_sec": 174.92,
+          "end_sec": 216.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

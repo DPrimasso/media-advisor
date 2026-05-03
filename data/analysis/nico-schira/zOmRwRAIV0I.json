@@ -1,0 +1,389 @@
+{
+  "video_id": "zOmRwRAIV0I",
+  "analyzed_at": "2026-04-26T11:49:53.040242+00:00",
+  "metadata": {
+    "title": "MILAN, SI AVVICINA IL COLPO RICHIESTO DA ALLEGRI. LE MOSSE DEL NAPOLI. UN POKER DA ROMA. E DE ROSSI…",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulle dinamiche di calciomercato e gestione della Roma, ancora in corsa per la Champions League ma oscurata da vicende extra-campo come l’addio di Ranieri e Massara. L’autore sottolinea come Gian Piero Gasperini, nominato allenatore-manager, punti a Cristiano Giuntoli come direttore sportivo, nonostante l’interesse di club esteri come Tottenham e Monaco. La scelta di Giuntoli rappresenterebbe una priorità per Gasperini e la società, anche se i Friedkin potrebbero optare per un profilo più giovane. Infine, si evidenzia il dibattito sul ritorno di Totti e le strategie futur",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "direttore sportivo",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "dirigenza",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "serie b",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Roma",
+      "position": "La Roma è ancora in corsa per la Champions League.",
+      "polarity": "neutral",
+      "claim_id": "fee2efb1-5881-4ec1-a7a5-582e5057329f",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma è ancora in corsa per la Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Roma in realtà è ancora in corsa per la Champions",
+          "start_sec": 26.519,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "roma",
+        "champions"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Roma",
+      "position": "La concentrazione mediatica è focalizzata su eventi fuori dal campo della Roma.",
+      "polarity": "neutral",
+      "claim_id": "ea8cff7f-68e8-4ac0-944a-90926005c1f9",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s1",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La concentrazione mediatica è focalizzata su eventi fuori dal campo della Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la concentrazione è tutto ed è tutta rivolta su quanto sta accadendo fuori dal campo",
+          "start_sec": 26.519,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "roma",
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Francesco Totti",
+      "position": "Il ritorno di Francesco Totti è oggetto di opinione divisa.",
+      "polarity": "neutral",
+      "claim_id": "1882242c-61ca-48fc-9b80-14b0a4535288",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s2",
+      "target_entity": "Francesco Totti",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il ritorno di Francesco Totti è oggetto di opinione divisa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il ritorno di Totti. Molti sono favorevoli, altri no",
+          "start_sec": 59.079,
+          "end_sec": 89.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ritorno",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Cristiano Giuntoli",
+      "position": "Cristiano Giuntoli è il nome indicato come direttore sportivo da Gian Piero Gasperini.",
+      "polarity": "positive",
+      "claim_id": "2d3f0017-c81f-4d8e-bcd0-655864d83828",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s2",
+      "target_entity": "Cristiano Giuntoli",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cristiano Giuntoli è il nome indicato come direttore sportivo da Gian Piero Gasperini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il nome indicato da Giampiero Gasperini, ve lo ripeto, ve lo ribadisco, ve lo sto raccontando a Mesi, è quello di Cristiano Giuntoli",
+          "start_sec": 59.079,
+          "end_sec": 89.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "direttore sportivo",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Giuntoli",
+      "position": "Giuntoli è stato approcciato dal Tottenham qualche mese fa.",
+      "polarity": "neutral",
+      "claim_id": "764d0d5a-dfc7-4bcb-94d3-3f6e65b380a8",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s3",
+      "target_entity": "Giuntoli",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giuntoli è stato approcciato dal Tottenham qualche mese fa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era stato approcciato anche dal Tottenham qualche mese fa",
+          "start_sec": 88.4,
+          "end_sec": 121.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giuntoli",
+      "position": "Giuntoli vuole restare in Italia o trovare una soluzione logisticamente comoda per motivi familiari.",
+      "polarity": "neutral",
+      "claim_id": "b74e9e22-9fd0-4446-991d-94f90c71d1cf",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s3",
+      "target_entity": "Giuntoli",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giuntoli vuole restare in Italia o trovare una soluzione logisticamente comoda per motivi familiari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da un punto di vista familiare vuole restare in Italia o al limite trovare una soluzione comunque che possa essere anche magari da un punto di vista logistico comoda",
+          "start_sec": 88.4,
+          "end_sec": 121.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Giuntoli",
+      "position": "C'è stato un approccio tra febbraio e marzo da parte del Monaco per Giuntoli.",
+      "polarity": "neutral",
+      "claim_id": "53737f2b-0daf-49ed-863c-92c98463ee59",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s3",
+      "target_entity": "Giuntoli",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è stato un approccio tra febbraio e marzo da parte del Monaco per Giuntoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ecco perché c'è stato un approccio tra febbraio e marzo da parte del Monaco",
+          "start_sec": 88.4,
+          "end_sec": 121.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Giuntoli",
+      "position": "Marsiglia e Monaco corteggiano Giuntoli come possibile sostituto di Benatia a Marsiglia.",
+      "polarity": "neutral",
+      "claim_id": "f0d459d9-9e27-49f7-8a83-6f319f82bd77",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s3",
+      "target_entity": "Giuntoli",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Marsiglia e Monaco corteggiano Giuntoli come possibile sostituto di Benatia a Marsiglia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è uno dei candidati al dopobenatia a Marsiglia. Quindi Marsiglia e Monaco corteggiano Giuntoli",
+          "start_sec": 88.4,
+          "end_sec": 121.36,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "giocatore non specificato",
+      "position": "Il giocatore ha rifiutato un sondaggio del Tottenham.",
+      "polarity": "neutral",
+      "claim_id": "6b3f1443-64e0-4142-92c2-69db02c71c29",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s4",
+      "target_entity": "giocatore non specificato",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore ha rifiutato un sondaggio del Tottenham.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'è stato un sondaggio del Tottenham. Lui ha detto no",
+          "start_sec": 119.399,
+          "end_sec": 150.11999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gian Piero Gasperini è considerato un allenatore manager all'inglese.",
+      "polarity": "positive",
+      "claim_id": "392f2d52-f010-4dcd-9a92-6ce3d43f079b",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s2",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gian Piero Gasperini è considerato un allenatore manager all'inglese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Gasperini come allenatore manager all'inglese",
+          "start_sec": 59.079,
+          "end_sec": 89.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ranieri",
+      "position": "Ranieri ha annunciato il suo addio alla Roma.",
+      "polarity": "neutral",
+      "claim_id": "4e16f000-0636-47de-9ff7-e8f365c3227e",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s1",
+      "target_entity": "Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ranieri ha annunciato il suo addio alla Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'addio di Ranieri",
+          "start_sec": 26.519,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ranieri",
+        "roma",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massara",
+      "position": "Massara ha un prossimo addio dalla Roma.",
+      "polarity": "neutral",
+      "claim_id": "88141ad5-7c0d-45e1-a653-30b2cdfd0760",
+      "video_id": "zOmRwRAIV0I",
+      "segment_id": "s1",
+      "target_entity": "Massara",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Massara ha un prossimo addio dalla Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello prossimo di Massara",
+          "start_sec": 26.519,
+          "end_sec": 61.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "massara",
+        "roma",
+        "leadership"
+      ]
+    }
+  ]
+}

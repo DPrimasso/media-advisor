@@ -1,0 +1,405 @@
+{
+  "video_id": "Omeom-ZXjGM",
+  "analyzed_at": "2026-04-26T11:31:05.113788+00:00",
+  "metadata": {
+    "title": "Indagato #ROCCHI avviso di garanzia 👀 DESIGNAZIONI SOSPETTE 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza l’indagine con avviso di garanzia nei confronti dell’arbitro Rocchi, mettendo in luce come questo evento influenzi il dibattito calcistico attuale. L’autore critica l’esagerazione delle dichiarazioni di Conte post-vittoria e sottolinea la necessità di dare priorità alla cronaca, evidenziando come la fiducia nella buona fede arbitrale sia messa in discussione. Viene introdotto il concetto di \"Barmotta League\" per descrivere la ripetitività di certe dinamiche nel calcio, mentre si evidenzia come tifosi di diverse squadre reagiscano in modo differente all’indagine, con gli inter",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "designazione arbitrale",
+      "relevance": "high"
+    },
+    {
+      "name": "corruzione",
+      "relevance": "medium"
+    },
+    {
+      "name": "indagine",
+      "relevance": "medium"
+    },
+    {
+      "name": "designazioni arbitrali",
+      "relevance": "medium"
+    },
+    {
+      "name": "designazioni",
+      "relevance": "low"
+    },
+    {
+      "name": "associazione arbitri",
+      "relevance": "low"
+    },
+    {
+      "name": "inchiesta",
+      "relevance": "low"
+    },
+    {
+      "name": "mobbing",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Ground Hug Day",
+      "position": "Ground Hug Day è una tradizione popolare celebrata il 2 febbraio in Pennsylvania.",
+      "polarity": "neutral",
+      "claim_id": "416f7b8d-747c-4459-a158-a10c8ccac2b1",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s1",
+      "target_entity": "Ground Hug Day",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ground Hug Day è una tradizione popolare celebrata il 2 febbraio in Pennsylvania.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ground Hug Day è una tradizione popolare celebrata il 2 febbraio negli Stati Uniti e in Canada, in particolare in Pennsylvania.",
+          "start_sec": 43.8,
+          "end_sec": 109.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "tradizione",
+        "cultura"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi è stato indagato e ha ricevuto un avviso di garanzia.",
+      "polarity": "neutral",
+      "claim_id": "83d5a510-bf42-4652-85f2-1fef58376053",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s0",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Rocchi è stato indagato e ha ricevuto un avviso di garanzia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "arriva la notizia di Rocchy indagato con avviso di garanzia",
+          "start_sec": 2.56,
+          "end_sec": 46.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Barmotta League",
+      "position": "La Barmotta League è un termine usato per descrivere dinamiche ripetitive in ambito calcistico.",
+      "polarity": "neutral",
+      "claim_id": "18259ea0-34ea-438c-98ba-9f0b4254b782",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s1",
+      "target_entity": "Barmotta League",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Barmotta League è un termine usato per descrivere dinamiche ripetitive in ambito calcistico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Barmotta League, viene fuori da una nostra dall'ultima nostra live, perché la mia community è brillante e quindi quando si parlava di cose, più che dire Marotta League è la Marmotta League, nel senso che si ripetono sempre a loop alcune dinamiche e alcune cose che uno si aspetta già e che puntualmente succedono.",
+          "start_sec": 43.8,
+          "end_sec": 109.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "comportamento ripetitivo",
+        "comunità"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Inter",
+      "position": "I tifosi dell'Inter sono contenti dell'indagine su Rocchi sperando che tolga lo scudetto dell'anno scorso.",
+      "polarity": "positive",
+      "claim_id": "3e870dd1-67d1-4443-a664-c2fb2c43412d",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi dell'Inter sono contenti dell'indagine su Rocchi sperando che tolga lo scudetto dell'anno scorso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sto leggendo in giro gli interisti tutti contenti che che Rocky sia indagato perché pensano di trovare qualcosa che poi possa togliere lo scudetto punto a punto dell'anno scorso",
+          "start_sec": 107.28,
+          "end_sec": 140.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "scudetto"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Allegri",
+      "position": "I tifosi del Milan citano una frase di Allegri su Rocchi.",
+      "polarity": "neutral",
+      "claim_id": "c31fd354-efdf-4813-96ab-5d536aab3710",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s2",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi del Milan citano una frase di Allegri su Rocchi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i milanisti che ripostano il l'Alegri che diceva \"Dov'è Rocchy\"",
+          "start_sec": 107.28,
+          "end_sec": 140.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "citazioni"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "addetti ai lavori",
+      "position": "Addetti ai lavori sostengono che se ci fosse malafede il calcio non sarebbe più seguito.",
+      "polarity": "neutral",
+      "claim_id": "8ff62699-f094-467a-9149-4752d8180d59",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s3",
+      "target_entity": "addetti ai lavori",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Addetti ai lavori sostengono che se ci fosse malafede il calcio non sarebbe più seguito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cè c'è buona fede, sono solo scarsi, se ci fosse malafede noi dovremmo tutti smettere di seguire il calcio.",
+          "start_sec": 138.4,
+          "end_sec": 174.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "fiducia",
+        "calcio"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "ROCCHI",
+      "position": "Si mette in dubbio la buona fede di Rocchi nelle designazioni arbitrali.",
+      "polarity": "negative",
+      "claim_id": "0477a0b0-75c9-4d18-99e7-8a6c48507cf4",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s4",
+      "target_entity": "ROCCHI",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Si mette in dubbio la buona fede di Rocchi nelle designazioni arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Perché dobbiamo fidarci? Vogliamo fare che me la dovete dimostrare la buona fede",
+          "start_sec": 171.12,
+          "end_sec": 235.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "designazioni",
+        "buona fede",
+        "refereeing"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "ROCCHI",
+      "position": "La denuncia sportiva contro Rocchi è stata archiviata.",
+      "polarity": "neutral",
+      "claim_id": "fa359da6-fe99-4a8b-895c-85a9d85de1ba",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s4",
+      "target_entity": "ROCCHI",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La denuncia sportiva contro Rocchi è stata archiviata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quella denuncia che risulta essere stata archiviata a livello sportivo",
+          "start_sec": 171.12,
+          "end_sec": 235.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "denuncia",
+        "archiviazione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Arbitri",
+      "position": "Nel passato ci sono stati casi di arbitri non corretti o corrotti.",
+      "polarity": "neutral",
+      "claim_id": "5131c101-7a37-4bf2-8263-3b581b6b652c",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s4",
+      "target_entity": "Arbitri",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Nel passato ci sono stati casi di arbitri non corretti o corrotti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "esistono compagnie che invece fanno le frodi, esistono i criminali, come esistono le persone per bene, esiste gente corrotta",
+          "start_sec": 171.12,
+          "end_sec": 235.76000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "storia",
+        "corruzione",
+        "arbitri"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Domenico Rocca",
+      "position": "Domenico Rocca ha denunciato irregolarità nell'associazione arbitri relative alle designazioni arbitrali.",
+      "polarity": "neutral",
+      "claim_id": "832beeee-f10b-490d-b8ec-9edcc21e814a",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s5",
+      "target_entity": "Domenico Rocca",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Domenico Rocca ha denunciato irregolarità nell'associazione arbitri relative alle designazioni arbitrali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una un ex assistente Domenico Rocca aveva inviato per denunciare alcune cose che accadevano nell'associazione arbitri, nello specifico per quello che riguarda il punteggio, la graudatoria e quello che porta a scegliere un arbitro invece che un altro nelle designazioni",
+          "start_sec": 233.92,
+          "end_sec": 294.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "associazione arbitri",
+        "denuncia",
+        "designazioni arbitrali"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "commissione arbitrale",
+      "position": "La commissione arbitrale avrebbe adottato comportamenti ostili e sistematici classificabili come mobbing.",
+      "polarity": "negative",
+      "claim_id": "a145facc-6314-4f8e-a947-c0fc17cccd6d",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s5",
+      "target_entity": "commissione arbitrale",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La commissione arbitrale avrebbe adottato comportamenti ostili e sistematici classificabili come mobbing.",
+      "evidence_quotes": [
+        {
+          "quote_text": "parla del comportamento della commissione e infatti facilmente inquadrabile nella fascispecie del mobbing, i cui principi sono sistematicità e ripetizione di comportamenti ostili da parte della commissione",
+          "start_sec": 233.92,
+          "end_sec": 294.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "commissione arbitrale",
+        "mobbing",
+        "comportamenti ostili"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "I tifosi del Napoli considerano importante arrivare secondi in classifica.",
+      "polarity": "neutral",
+      "claim_id": "680b50f1-419c-430e-831d-14e47ffe6877",
+      "video_id": "Omeom-ZXjGM",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi del Napoli considerano importante arrivare secondi in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per esempio, del Napoli che dice è importante arrivare secondi",
+          "start_sec": 107.28,
+          "end_sec": 140.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica"
+      ]
+    }
+  ]
+}

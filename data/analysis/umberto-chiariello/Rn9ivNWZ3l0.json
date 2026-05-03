@@ -1,0 +1,401 @@
+{
+  "video_id": "Rn9ivNWZ3l0",
+  "analyzed_at": "2026-04-24T08:28:59.494686+00:00",
+  "metadata": {
+    "title": "CALCIOMANIA 03 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC si concentra principalmente sulla preparazione del Napoli alla sfida cruciale contro il Milan, evidenziando l’importanza di questa partita per la lotta al secondo posto in classifica e il sogno dello scudetto. L’autore sottolinea l’impegno tattico di Antonio Conte e il ritorno di giocatori chiave, oltre a mettere in luce la solidità della squadra, reduce da quattro vittorie consecutive e con la possibilità di raggiungere 12 successi di fila. Viene inoltre commentata la recente dimissione di Rino Gattuso da ct della nazionale italiana, mentre si conferma l’attenzione esclu",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "partita",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli è secondo in classifica con 62 punti dopo 30 giornate.",
+      "polarity": "neutral",
+      "claim_id": "0fb6f655-04b0-4a18-ba11-5f395f42e89e",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è secondo in classifica con 62 punti dopo 30 giornate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan e Napoli, ricorda la classifica che soltanto un punto dopo 30 giornate divide queste due formazioni, il Milan a 63, il Milan a 62.",
+          "start_sec": 553.32,
+          "end_sec": 1119.3600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "campionato",
+        "punti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha la possibilità di vincere 12 partite consecutive in questa stagione.",
+      "polarity": "positive",
+      "claim_id": "877b457a-ad1b-4c94-8b4a-65c738cbb6d5",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli ha la possibilità di vincere 12 partite consecutive in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli tante gare di fila in uno stesso campionato non le ha mai vinte, v dire 12 nella stessa stagione intendo, però ricordiamo anche che poi questi tabù vanno citati proprio perché poi ogni tanto tracede arriva l'annata giusta e uno batte il tabù.",
+          "start_sec": 553.32,
+          "end_sec": 1119.3600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "record",
+        "vittorie consecutive",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan gioca bene anche senza Leao e Pulisik, trovando risorse alternative e avendo una formazione fisica ed esperta.",
+      "polarity": "positive",
+      "claim_id": "0686f61f-1f99-4dd7-b763-39cfb8e06587",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan gioca bene anche senza Leao e Pulisik, trovando risorse alternative e avendo una formazione fisica ed esperta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una formazione che, tra l'altro, anche senza Leao, ma anche senza Pulisik, che è mancato molte volte e quando è tornato non era il solito, ha fatto risultato, ha trovato delle risorse alternative ed è una squadra che adesso gioca un po' come il Napoli",
+          "start_sec": 1117.2,
+          "end_sec": 1645.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan è una formazione esperta, fisica e gioca meglio in trasferta.",
+      "polarity": "positive",
+      "claim_id": "60c04bb9-5fcb-4ddb-a1f0-9d03c29b376a",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è una formazione esperta, fisica e gioca meglio in trasferta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una formazione esperta, fisica e giocherà in trasferta e proprio fuori casa il Milan sa fare le cose migliori",
+          "start_sec": 1117.2,
+          "end_sec": 1645.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Rino Gattuso",
+      "position": "Rino Gattuso ha rassegnato le dimissioni da ct della nazionale italiana.",
+      "polarity": "neutral",
+      "claim_id": "7ddf0f36-93ea-4eea-ae79-aabd960c3446",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s0",
+      "target_entity": "Rino Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rino Gattuso ha rassegnato le dimissioni da ct della nazionale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le dimissioni di Rino Gattuso. Eh un messaggio anche molto affettuoso del dell'ex città nazionale e che ha risolto il suo contratto con la FGC, ha detto un onore lascio con il dolore nel cuore",
+          "start_sec": 0.96,
+          "end_sec": 555.9200000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "dimissione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli arriva da quattro vittorie consecutive di misura nel campionato.",
+      "polarity": "positive",
+      "claim_id": "9150b193-7278-46f4-abf7-f83b58b2a4b7",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli arriva da quattro vittorie consecutive di misura nel campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli arriva da eh quattro eh vittorie consecutive tutte di misura, 2-1 a Verona, due vittorie in casa, entrambe per 2-1 contro il Torino e contro il Lecce. una vittoria di misure, 1-0 a casa del",
+          "start_sec": 0.96,
+          "end_sec": 555.9200000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Conte",
+      "position": "Antonio Conte ha svolto una seduta tecnica tattica con il Napoli per preparare la partita contro il Milan.",
+      "polarity": "neutral",
+      "claim_id": "cd2ebe63-1d9b-41f6-8a5c-1c7c0737cc5c",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "tactics",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte ha svolto una seduta tecnica tattica con il Napoli per preparare la partita contro il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Antonio Conte che ha svolto una seduta, ha fatto svolgere al gruppo squadre, una seduta mattutina di lavoro tecnico tattico, evidentemente per preparare qualcosa di particolare eh per la sfida agli uomini di Allegri",
+          "start_sec": 0.96,
+          "end_sec": 555.9200000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Pasquale Mazzocchi",
+      "position": "Pasquale Mazzocchi ha dichiarato che il gruppo Napoli si sta preparando con impegno alla sfida con il Milan.",
+      "polarity": "neutral",
+      "claim_id": "50cc7c35-0a18-440f-8222-78c839f84f3c",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s0",
+      "target_entity": "Pasquale Mazzocchi",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Pasquale Mazzocchi ha dichiarato che il gruppo Napoli si sta preparando con impegno alla sfida con il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, no, bene, bene. Abbiamo lavorato tanto anche sul piano sul piano fisico. Ovviamente come preparazione alla gara stiamo lavorando negli ultimi giorni perché da poco ci siamo riuniti tutti e ci attende una una bella sfida",
+          "start_sec": 0.96,
+          "end_sec": 555.9200000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "I giocatori storici Mcomini, Lobotka, Anghissa e De Bruin stanno tornando a disposizione.",
+      "polarity": "positive",
+      "claim_id": "5d7dbd50-f67a-45a3-b678-04fb0ff5bc9a",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I giocatori storici Mcomini, Lobotka, Anghissa e De Bruin stanno tornando a disposizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Napoli si appresta a vivere una partita con i quattro calciatori che erano stati in realtà poi i protagonisti dell'inizio dell'anno e per tanti motivi, infortuni in modo particolare sono mancati, adesso tornano",
+          "start_sec": 553.32,
+          "end_sec": 1119.3600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatori",
+        "ritorno",
+        "infortuni"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Napoli ha una buona presenza di giocatori italiani nel roster.",
+      "polarity": "neutral",
+      "claim_id": "2dc63dd3-4404-44d7-b179-f4979c2784a5",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha una buona presenza di giocatori italiani nel roster.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi c'è Di Lorenzo che sarebbe tornato se l'Italia fosse andato al Mondiale e poi c'era Vergara. Quindi, insomma, il Napoli da questo punto di vista nei giorni in cui si parla tanto della necessità di avere più italiani in rosa, nel roster, il Napoli ha una buona fetta di italiani.",
+          "start_sec": 553.32,
+          "end_sec": 1119.3600000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "italiani",
+        "rosa",
+        "nazionali"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Max Allegri",
+      "position": "Max Allegri è un tecnico molto vincente che riesce quasi sempre a trovare soluzioni nelle difficoltà.",
+      "polarity": "positive",
+      "claim_id": "3b90aa98-d060-4821-a786-96b4b7c80a06",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s2",
+      "target_entity": "Max Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Max Allegri è un tecnico molto vincente che riesce quasi sempre a trovare soluzioni nelle difficoltà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "allenato eh da un tecnico molto vincente che si chiama Max Allegri, che riesce quasi sempre, fortunatamente non sempre, a trovare poi la soluzione",
+          "start_sec": 1117.2,
+          "end_sec": 1645.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia nazionale",
+      "position": "L'Italia ha mostrato una prestazione deludente contro la Bosnia con giocatori impauriti e una tattica passiva.",
+      "polarity": "negative",
+      "claim_id": "e53d0b15-9139-46be-80b9-94e2b37a1a01",
+      "video_id": "Rn9ivNWZ3l0",
+      "segment_id": "s2",
+      "target_entity": "Italia nazionale",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia ha mostrato una prestazione deludente contro la Bosnia con giocatori impauriti e una tattica passiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una partita giocata eh come dire nella propria 16 m all'Italia incredibilmente contro una Bosnia nettamente più debole, anche se con un uomo in più, eh giocatori impauriti",
+          "start_sec": 1117.2,
+          "end_sec": 1645.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "prestazione",
+        "tattica"
+      ]
+    }
+  ]
+}

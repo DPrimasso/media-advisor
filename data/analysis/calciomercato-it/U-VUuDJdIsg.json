@@ -1,0 +1,274 @@
+{
+  "video_id": "U-VUuDJdIsg",
+  "analyzed_at": "2026-04-24T08:43:40.368361+00:00",
+  "metadata": {
+    "title": "Tentata corruzione all'arbitro e patata bollente per il Giudice Sportivo #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-20T13:56:08+00:00"
+  },
+  "summary": "Il video tratta il caso di tentata corruzione all’arbitro in una partita Under 18 tra New Team Madro e Uso United, con il tecnico Giampaolo Troli squalificato per 8 mesi in primo grado. L’autore sottolinea la complessità della vicenda, dovuta anche a un possibile errore nell’espulsione di un calciatore, e la difficoltà per il giudice sportivo nel ricostruire i fatti. Tuttavia, si evidenzia come di norma la decisione finale dia ragione all’arbitro, confermando la serietà delle sanzioni in casi di pressioni o tentativi di corruzione.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "giudizio",
+      "relevance": "high"
+    },
+    {
+      "name": "corruzione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "giudice sportivo",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "New Team Madro",
+      "position": "La partita tra New Team Madro e Uso United è finita 2-2 nel campionato Under 18 di Brescia.",
+      "polarity": "neutral",
+      "claim_id": "db415ba7-969d-4cb9-a9bf-fef077740195",
+      "video_id": "U-VUuDJdIsg",
+      "segment_id": "s0",
+      "target_entity": "New Team Madro",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra New Team Madro e Uso United è finita 2-2 nel campionato Under 18 di Brescia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "partita del campionato Under 18 in provincia di Brescia tra la New Team Madro e l'Uso United, finita 2-2",
+          "start_sec": 0.199,
+          "end_sec": 31.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "partita",
+        "under 18"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Giampaolo Troli",
+      "position": "Giampaolo Troli ha tentato di corrompere l'arbitro a fine gara in una partita Under 18.",
+      "polarity": "negative",
+      "claim_id": "334842f6-d2b8-48cb-bb21-d47aee6f522d",
+      "video_id": "U-VUuDJdIsg",
+      "segment_id": "s0",
+      "target_entity": "Giampaolo Troli",
+      "entity_type": "coach",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Giampaolo Troli ha tentato di corrompere l'arbitro a fine gara in una partita Under 18.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tentativo dell'allenatore di corromperlo",
+          "start_sec": 0.199,
+          "end_sec": 31.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tentata corruzione",
+        "arbitro",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Giampaolo Troli",
+      "position": "Giampaolo Troli è stato squalificato per 8 mesi da una sentenza di primo grado.",
+      "polarity": "negative",
+      "claim_id": "b01e89ab-15d4-4d79-821e-c2b5dd155017",
+      "video_id": "U-VUuDJdIsg",
+      "segment_id": "s0",
+      "target_entity": "Giampaolo Troli",
+      "entity_type": "coach",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Giampaolo Troli è stato squalificato per 8 mesi da una sentenza di primo grado.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sentenza di squalifica per 8 mesi",
+          "start_sec": 0.199,
+          "end_sec": 31.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squalifica",
+        "giudice sportivo",
+        "tentata corruzione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Un arbitro avrebbe ricevuto una promessa di dirigere partite per percepire rimborsi spesa dopo un'espulsione contestata.",
+      "polarity": "neutral",
+      "claim_id": "40c0a4f8-f750-49c8-afae-61fd4b68e074",
+      "video_id": "U-VUuDJdIsg",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Un arbitro avrebbe ricevuto una promessa di dirigere partite per percepire rimborsi spesa dopo un'espulsione contestata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In cambio sarebbe stato promesso all'arbitro che sarebbe stato chiamato a dirigere le partite del torneo post campionato, facendogli incassare così i rimborsi spesa",
+          "start_sec": 31.119,
+          "end_sec": 59.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "corruzione",
+        "arbitro"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "calciatore espulso",
+      "position": "Il cartellino rosso sarebbe stato dato a un calciatore sbagliato con ammissione di scambio di persona.",
+      "polarity": "negative",
+      "claim_id": "a5d6e165-ca68-4479-be04-d5e96e8513ed",
+      "video_id": "U-VUuDJdIsg",
+      "segment_id": "s2",
+      "target_entity": "calciatore espulso",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il cartellino rosso sarebbe stato dato a un calciatore sbagliato con ammissione di scambio di persona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il cartellino rosso sarebbe stato dato ad un calciatore sbagliato con tanto di ammissione sullo scambio di persona",
+          "start_sec": 31.119,
+          "end_sec": 59.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore arbitrale",
+        "espulsione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "giudice sportivo",
+      "position": "Il giudice sportivo avrà difficoltà a ricostruire i fatti relativi all'espulsione contestata.",
+      "polarity": "neutral",
+      "claim_id": "408de33a-b7db-485c-ad12-065c2e08ea73",
+      "video_id": "U-VUuDJdIsg",
+      "segment_id": "s2",
+      "target_entity": "giudice sportivo",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il giudice sportivo avrà difficoltà a ricostruire i fatti relativi all'espulsione contestata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Non sarà facile per il giudice sportivo ricostruire i fatti",
+          "start_sec": 31.119,
+          "end_sec": 59.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giudice sportivo",
+        "indagine"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro è stato oggetto di pressioni per fargli revocare una decisione.",
+      "polarity": "negative",
+      "claim_id": "44a2e1a9-4c95-40e6-9e7c-f959f04c5b23",
+      "video_id": "U-VUuDJdIsg",
+      "segment_id": "s1",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'arbitro è stato oggetto di pressioni per fargli revocare una decisione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "facendogli pressioni per fargli revocare",
+          "start_sec": 28.439,
+          "end_sec": 32.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "pressione",
+        "corruzione"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "Alla fine si dà sempre ragione all'arbitro.",
+      "polarity": "positive",
+      "claim_id": "e31a7074-f71e-483b-ad83-df94ce4a90ae",
+      "video_id": "U-VUuDJdIsg",
+      "segment_id": "s3",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alla fine si dà sempre ragione all'arbitro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "solito alla fine si dà sempre ragione all'arbitro.",
+          "start_sec": 57.52,
+          "end_sec": 62.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "giudizio"
+      ]
+    }
+  ]
+}

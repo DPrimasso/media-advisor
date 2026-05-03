@@ -1,0 +1,409 @@
+{
+  "video_id": "CCZw1IZklFU",
+  "analyzed_at": "2026-04-26T12:01:03.444619+00:00",
+  "metadata": {
+    "title": "EDERSON DAL CHOLO: COSA MANCA. IL NAPOLI STREGATO DA UNA PEPITA BOSNIACA. ULIVIERI: SILENZIO🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà affronta criticamente vari aspetti del calcio italiano, dalla formazione degli allenatori alla rappresentanza nell'associazione calciatori. L'autore esalta la figura di Mirse Lucesco come esempio raro di competenza e umanità, mentre denuncia la scarsa esperienza internazionale dei giovani italiani rispetto ai coetanei europei. Pedullà critica inoltre il ruolo mediatico di Renzo Olivieri e sottolinea l'ingiustizia nella distribuzione dei voti nell'associazione calciatori, dove la Serie D e gli allenatori hanno un peso superiore a quello della Serie A. Conclude chiede",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "rappresentanza",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    },
+    {
+      "name": "trasferimento",
+      "relevance": "low"
+    },
+    {
+      "name": "talento",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "giocatore under 22",
+      "position": "In altri Paesi i giocatori under 22 hanno molte più presenze in nazionale rispetto all'Italia.",
+      "polarity": "neutral",
+      "claim_id": "62f66fb6-c091-49c4-8062-a030dd0670d6",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s1",
+      "target_entity": "giocatore under 22",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "In altri Paesi i giocatori under 22 hanno molte più presenze in nazionale rispetto all'Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Da noi a 22 anni sono ancora giovani, da altri a 22 anni hanno 40 presenze in nazionali.",
+          "start_sec": 40.36,
+          "end_sec": 80.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "giovane"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "aspiranti allenatori",
+      "position": "Per diventare allenatore di gradino più alto bisogna spendere 8.000 euro e avere titoli di studio specifici.",
+      "polarity": "neutral",
+      "claim_id": "3e4c8264-561c-4f8f-9683-f24de0af5cd0",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s2",
+      "target_entity": "aspiranti allenatori",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Per diventare allenatore di gradino più alto bisogna spendere 8.000 euro e avere titoli di studio specifici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bisogna spendere 8.000 €1000 per diventare allenatore, €8.000 per diventare allenatore al gradino più alto, quello più importante, ed avere i titoli di studio.",
+          "start_sec": 77.759,
+          "end_sec": 116.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "titoli di studio",
+        "costo",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Mirse Lucesco",
+      "position": "Mirse Lucesco è un personaggio raro e rispettato per qualità umane, tecniche e tattiche.",
+      "polarity": "positive",
+      "claim_id": "ba5fd291-be6c-44c1-bc01-42ecca2392f3",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s0",
+      "target_entity": "Mirse Lucesco",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mirse Lucesco è un personaggio raro e rispettato per qualità umane, tecniche e tattiche.",
+      "evidence_quotes": [
+        {
+          "quote_text": "uno di quei personaggi che non capitano più, ma a livello umano, tecnico, tattico",
+          "start_sec": 0.16,
+          "end_sec": 43.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Renzo Olivieri",
+      "position": "Renzo Olivieri continua a parlare nonostante le richieste di silenzio.",
+      "polarity": "negative",
+      "claim_id": "49882c34-529d-4067-825b-c5f69946f9af",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s1",
+      "target_entity": "Renzo Olivieri",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Renzo Olivieri continua a parlare nonostante le richieste di silenzio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Continua a parlare, a proporci i suoi pistolotti, le sue interpretazioni, le sue chiavi di lettura. Silenzio, silenzio. Caro Renzo Olivieri",
+          "start_sec": 40.36,
+          "end_sec": 80.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "silenzio"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "titoli di studio per allenatori",
+      "position": "I titoli di studio per allenatori includono presenze in Serie A e Serie B.",
+      "polarity": "neutral",
+      "claim_id": "8086eadd-3157-4555-a1d6-130bb04d9cac",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s2",
+      "target_entity": "titoli di studio per allenatori",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "I titoli di studio per allenatori includono presenze in Serie A e Serie B.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I titoli di studio significa che dovete avere giocati in Serie A, in Serie B, presenze.",
+          "start_sec": 77.759,
+          "end_sec": 116.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "titoli di studio",
+        "serie A",
+        "serie B"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "alfredo pedulla",
+      "position": "Alfredo Pedulla chiede silenzio per parlare di Gravina.",
+      "polarity": "neutral",
+      "claim_id": "21a0a0ec-7cbd-47de-be6f-3488eef1012c",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s2",
+      "target_entity": "alfredo pedulla",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alfredo Pedulla chiede silenzio per parlare di Gravina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "B, oggi ho riparlato Gravina. Silenzio, per favore.",
+          "start_sec": 77.759,
+          "end_sec": 116.03899999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "silenzio",
+        "gravina"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "associazione calciatori",
+      "position": "L'associazione calciatori è accusata di essere mal rappresentata da Calcagno.",
+      "polarity": "negative",
+      "claim_id": "4c548752-3b11-4452-b1d7-8c3134e2c0c9",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s3",
+      "target_entity": "associazione calciatori",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'associazione calciatori è accusata di essere mal rappresentata da Calcagno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è per me scandaloso che l'associazione calciatori malppresentata da Calcagno",
+          "start_sec": 111.96,
+          "end_sec": 157.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rappresentanza",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Serie D",
+      "position": "La Serie D e gli allenatori hanno una porzione di voto superiore a quella della Serie A nell'associazione calciatori.",
+      "polarity": "negative",
+      "claim_id": "cb07278e-d424-4c48-ae0d-0c4fe891f014",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s3",
+      "target_entity": "Serie D",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Serie D e gli allenatori hanno una porzione di voto superiore a quella della Serie A nell'associazione calciatori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Serie D, gli allenatori abbiano una porzione, una facoltà di voto e una porzione di voto entrambi superiori alla Serie A",
+          "start_sec": 111.96,
+          "end_sec": 157.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "voto",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "rappresentanti della Serie A",
+      "position": "Devono votare solo i rappresentanti della Serie A, non altre categorie.",
+      "polarity": "neutral",
+      "claim_id": "4cc08e68-438a-4ff4-9231-238811c02197",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s3",
+      "target_entity": "rappresentanti della Serie A",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Devono votare solo i rappresentanti della Serie A, non altre categorie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cioè devono votare i rappresentanti tanto di quella gioielleria",
+          "start_sec": 111.96,
+          "end_sec": 157.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "voto",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Serie A",
+      "position": "La Serie A ha un voto molto basso in una valutazione statistica.",
+      "polarity": "neutral",
+      "claim_id": "c5fab8dc-385d-485e-b629-eecd8e44dc34",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s4",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Serie A ha un voto molto basso in una valutazione statistica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "essere il 30, 32 e poi sotto il sotto il 20 la Serie A che dovrebbe avere quindi lo spicchio più grande di voto",
+          "start_sec": 152.519,
+          "end_sec": 197.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "giornalismo sportivo",
+      "position": "Il giornalismo sportivo vende pochissimi giornali, sotto il minimo storico sindacale.",
+      "polarity": "negative",
+      "claim_id": "eed28f1a-ff8b-4178-b7df-7163dafef97d",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s4",
+      "target_entity": "giornalismo sportivo",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il giornalismo sportivo vende pochissimi giornali, sotto il minimo storico sindacale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché si vendono pochissimi giornali, siamo sotto il minimo storico sindacale",
+          "start_sec": 152.519,
+          "end_sec": 197.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giornalismo",
+        "vendite",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Conte",
+      "position": "Conte ha detto dopo una partita che si metterebbe nella lista se fosse presidente federale.",
+      "polarity": "neutral",
+      "claim_id": "93c36cde-e2fe-46f6-8e7b-cc6f84b2a8d6",
+      "video_id": "CCZw1IZklFU",
+      "segment_id": "s4",
+      "target_entity": "Conte",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte ha detto dopo una partita che si metterebbe nella lista se fosse presidente federale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dopo una partita ha detto \"Se fossi il presidente federale mi metterei nella lista\"",
+          "start_sec": 152.519,
+          "end_sec": 197.39999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "antonio conte",
+        "dichiarazione",
+        "media"
+      ]
+    }
+  ]
+}

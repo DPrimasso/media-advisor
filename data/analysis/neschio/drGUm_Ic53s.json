@@ -1,0 +1,394 @@
+{
+  "video_id": "drGUm_Ic53s",
+  "analyzed_at": "2026-04-26T11:35:51.428905+00:00",
+  "metadata": {
+    "title": "ANCHE CUESTA VOLTA...‼️ PARMA-NAPOLI 1-1",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita Parma-Napoli terminata 1-1, evidenziando come il Napoli di Carlos Questa confermi una tendenza a pareggiare contro il Parma, anche a causa di errori difensivi gravi come il primo gol subito. L’autore sottolinea che questo risultato penalizza la squadra di Antonio Conte, che così regala un vantaggio decisivo all’Inter in classifica. Viene inoltre evidenziata la tattica del Parma, che si chiude nella propria trequarti per limitare il gioco avversario, e la difficoltà del Napoli nel creare occasioni contro una difesa così compatta, a causa anche della differenza di qu",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "errore difensivo",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "medium"
+    },
+    {
+      "name": "risultato",
+      "relevance": "medium"
+    },
+    {
+      "name": "errore",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "low"
+    },
+    {
+      "name": "tennis",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Parma",
+      "position": "Nel primo tempo sono stati recuperati 92 palloni contro Parma.",
+      "polarity": "neutral",
+      "claim_id": "af8ac04d-ff3f-47cd-a098-e466f0f6f90f",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s3",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Nel primo tempo sono stati recuperati 92 palloni contro Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "son 95 quanto sei giocato? 92 di di recupero il primo tempo",
+          "start_sec": 96.92,
+          "end_sec": 138.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "squadra di Carlos Questa",
+      "position": "Il Napoli di Carlos Questa mostra una costanza nelle partite contro il Parma con risultati in parità.",
+      "polarity": "neutral",
+      "claim_id": "e4c76cc9-cefa-4089-89c0-981f5e5e75b3",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s0",
+      "target_entity": "squadra di Carlos Questa",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli di Carlos Questa mostra una costanza nelle partite contro il Parma con risultati in parità.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E anche questa volta finisce in parità tra Napoli e Parma. 0-0 all'andata, 1 a1 al ritorno.",
+          "start_sec": 0.16,
+          "end_sec": 39.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "partita",
+        "pari"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Conte",
+      "position": "La sconfitta del Napoli regala il match point all'Inter nella classifica di Antonio Conte.",
+      "polarity": "negative",
+      "claim_id": "09cb22d3-00d9-4369-995d-690498ff606e",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La sconfitta del Napoli regala il match point all'Inter nella classifica di Antonio Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "squadra come quella di Antonio Conte che stasera regala il match point all'Inter",
+          "start_sec": 0.16,
+          "end_sec": 39.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "punti",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sinner",
+      "position": "Sinner era avanti nel secondo set con un break di vantaggio.",
+      "polarity": "positive",
+      "claim_id": "2a17631d-ec9a-43fa-aa04-96953c2ccae2",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s1",
+      "target_entity": "Sinner",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sinner era avanti nel secondo set con un break di vantaggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vedeva Sinner avanti ovviamente con il break di di vantaggio nel secondo set",
+          "start_sec": 37.079,
+          "end_sec": 70.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tennis",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Parma",
+      "position": "Parma ha giocato principalmente nella propria trequarti nel primo tempo.",
+      "polarity": "neutral",
+      "claim_id": "09778cc8-874c-430b-b24c-38659ec3c622",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s3",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Parma ha giocato principalmente nella propria trequarti nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un Parma chiuso, un Parma che ti gioca nella propria quasi unicamente nella propria trequarti",
+          "start_sec": 96.92,
+          "end_sec": 138.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Serie A club",
+      "position": "La qualità propulsiva e dei singoli in Serie A non è paragonabile a quella dei top club",
+      "polarity": "negative",
+      "claim_id": "f6b868e1-b76e-465b-b17b-677839c3112d",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s4",
+      "target_entity": "Serie A club",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La qualità propulsiva e dei singoli in Serie A non è paragonabile a quella dei top club",
+      "evidence_quotes": [
+        {
+          "quote_text": "la qualità propulsiva, la qualità dei singoli eh delle giocate e purtroppo non è paragonabile a quella dei top top club",
+          "start_sec": 135.16,
+          "end_sec": 180.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "qualità",
+        "prestazione",
+        "confronto"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha subito un gol amatoriale nonostante il livello della squadra.",
+      "polarity": "negative",
+      "claim_id": "b75559f4-36e7-46cb-b565-6c9ed92ae841",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s5",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha subito un gol amatoriale nonostante il livello della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Napoli prende un gol abbastanza amatoriale per il livello",
+          "start_sec": 178.64,
+          "end_sec": 209.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "errore difensivo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Conte",
+      "position": "La squadra allenata da Antonio Conte ha commesso un errore difensivo sul gol.",
+      "polarity": "negative",
+      "claim_id": "0cb22884-31d9-4eea-b29a-f59691d2f846",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s5",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra allenata da Antonio Conte ha commesso un errore difensivo sul gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per una squadra allenata da Antonio Conte, perché vanno in due, cioè due difensori vanno sul giocatore",
+          "start_sec": 178.64,
+          "end_sec": 209.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "errore difensivo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Juan Jesus",
+      "position": "Juan Jesus è stato spesso imbambolato durante la partita.",
+      "polarity": "negative",
+      "claim_id": "431ae3b0-2963-4a3d-bb41-d32b9c6cdc00",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s6",
+      "target_entity": "Juan Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juan Jesus è stato spesso imbambolato durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Juan Jesus, infatti l'ha l'ha tolto, non sapeva mai un po' era sempre un po' imbambolato, diciamo, diciamo così.",
+          "start_sec": 206.92,
+          "end_sec": 244.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Buongiorno e Juan Jesus",
+      "position": "Buongiorno e Juan Jesus dovevano coprire un inserimento ma hanno lasciato solo uno andare a tu per tu con il portiere.",
+      "polarity": "negative",
+      "claim_id": "d2b9eda6-780e-4a0c-83ae-655ff4d14bd3",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s6",
+      "target_entity": "Buongiorno e Juan Jesus",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Buongiorno e Juan Jesus dovevano coprire un inserimento ma hanno lasciato solo uno andare a tu per tu con il portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quando in realtà doveva andare soltanto Buongiorno e Juan Jesus coprire quindi sull'eventuale inserimento di strefezza e invece lo lasciano praticamente andare arrivare in porta a tu per tu.",
+          "start_sec": 206.92,
+          "end_sec": 244.519,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "primo gol subito",
+      "position": "Il primo gol subito dal Napoli è considerato un errore grave nella partita.",
+      "polarity": "negative",
+      "claim_id": "65a4f028-8ea7-4bdf-a5ff-3a6d962396a4",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s0",
+      "target_entity": "primo gol subito",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il primo gol subito dal Napoli è considerato un errore grave nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il primo gol subito è gravissimo",
+          "start_sec": 0.16,
+          "end_sec": 39.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "gol subito",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Nesta",
+      "position": "Nesta ha giocato la sua prima partita da titolare e ha fatto molto bene vincendo molti duelli.",
+      "polarity": "positive",
+      "claim_id": "54cfd531-2897-4bce-9de4-13f99d9b478d",
+      "video_id": "drGUm_Ic53s",
+      "segment_id": "s5",
+      "target_entity": "Nesta",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nesta ha giocato la sua prima partita da titolare e ha fatto molto bene vincendo molti duelli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È tra l'altro se non sbaglio la prima da da titolare, ma ha fatto una grande partita eh, il ragazzo lì ha fatto veramente veramente molto bene, ha vinto tanti duelli",
+          "start_sec": 178.64,
+          "end_sec": 209.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esordio",
+        "prestazione"
+      ]
+    }
+  ]
+}

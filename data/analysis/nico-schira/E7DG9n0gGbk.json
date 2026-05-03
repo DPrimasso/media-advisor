@@ -1,0 +1,410 @@
+{
+  "video_id": "E7DG9n0gGbk",
+  "analyzed_at": "2026-05-01T11:43:07.156774+00:00",
+  "metadata": {
+    "title": "MILAN, GRANDI MANOVRE A CENTROCAMPO. GLI OCCHI DI JUVE E ROMA SU TALENTO REAL. LA SCELTA DEL NAPOLI",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video analizza le recenti dinamiche calcistiche, focalizzandosi sulle semifinali di Champions League e sulle trattative di mercato in Serie A. L'autore sottolinea la solidità dell'Atletico nel secondo tempo contro l'Arsenal e le alte probabilità di vittoria di Paris Saint-Germain o Bayern in finale, mentre evidenzia segnali di ripresa per l'Arsenal. Sul fronte mercato, il Napoli valuta con cautela il riscatto di Elmas, cercando di negoziare un prezzo inferiore ai 17 milioni, mentre il Milan punta con decisione a rinforzare il centrocampo, con Goretzka come prima scelta e attenzione a giocat",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "centrocampista",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "low"
+    },
+    {
+      "name": "relazione agente-squadra",
+      "relevance": "low"
+    },
+    {
+      "name": "riscatto",
+      "relevance": "low"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain",
+      "position": "Paris Saint-Germain ha il 70-75% di probabilità favorevole di vincere la finale della coppa se passa la semifinale.",
+      "polarity": "positive",
+      "claim_id": "7fba9f2d-79d4-4c84-95ec-16766a03accb",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s1",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Paris Saint-Germain ha il 70-75% di probabilità favorevole di vincere la finale della coppa se passa la semifinale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi vince, chi passa, chi va in finale tra Paris Saint-Germain e Bayern avrà il grande pronostico a livello favorevole per la finale, per alzare la coppa 70-75%",
+          "start_sec": 26.48,
+          "end_sec": 63.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pronostico",
+        "finale",
+        "performance"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Elmas",
+      "position": "Il Napoli sta valutando se spendere 17 milioni di euro per riscattare Elmas.",
+      "polarity": "neutral",
+      "claim_id": "a962d99f-5a42-4b02-a089-5705c2dd2517",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s2",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli sta valutando se spendere 17 milioni di euro per riscattare Elmas.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli in questo momento sta valutando se sia il caso o meno di spendere 17 milioni per Elmas",
+          "start_sec": 60.6,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "centrocampista",
+        "riscatto"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico",
+      "position": "L'Atletico ha giocato meglio nel secondo tempo contro l'Arsenal.",
+      "polarity": "positive",
+      "claim_id": "254ffcf5-c0bc-422e-ae1d-11179b82d4c7",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s0",
+      "target_entity": "Atletico",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico ha giocato meglio nel secondo tempo contro l'Arsenal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "soprattutto nel secondo tempo l'Atletico ha fatto meglio",
+          "start_sec": 1.52,
+          "end_sec": 28.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "partita Atletico-Arsenal",
+      "position": "La partita tra Atletico e Arsenal è stata buona e piacevole con un pareggio sostanzialmente giusto.",
+      "polarity": "neutral",
+      "claim_id": "4024594b-ac32-4346-8e8f-8f9a9e556e99",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s0",
+      "target_entity": "partita Atletico-Arsenal",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Atletico e Arsenal è stata buona e piacevole con un pareggio sostanzialmente giusto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è stata una buona partita, eh, ci sono state anche delle trame interessanti, soprattutto nel secondo tempo...gara piacevole, pareggio sostanzialmente giusto",
+          "start_sec": 1.52,
+          "end_sec": 28.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giudizio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal mostra segnali di risveglio dopo un periodo di grande difficoltà.",
+      "polarity": "neutral",
+      "claim_id": "85d55974-0591-44c3-a76e-dd14eb286406",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s1",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal mostra segnali di risveglio dopo un periodo di grande difficoltà.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Arsenal qualche segnale di risveglio dopo un periodo indubbiamente di grande difficoltà vissuto dai londinesi",
+          "start_sec": 26.48,
+          "end_sec": 63.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "ripresa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico del Ciolo",
+      "position": "Atletico del Ciolo mostra grande solidità nella sua performance.",
+      "polarity": "positive",
+      "claim_id": "427c48ef-745c-405c-b4a4-9605ca2a8667",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s1",
+      "target_entity": "Atletico del Ciolo",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Atletico del Ciolo mostra grande solidità nella sua performance.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Grande solidità da parte dell'Atletico del del Ciolo",
+          "start_sec": 26.48,
+          "end_sec": 63.199,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "solidità",
+        "performance"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Kivior",
+      "position": "Il Porto riscatterà Kivior per circa venti milioni di euro.",
+      "polarity": "neutral",
+      "claim_id": "eb3878f5-8be8-41f3-b84e-2fd2cf9e3c57",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s2",
+      "target_entity": "Kivior",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Porto riscatterà Kivior per circa venti milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Porto riscatterà Kivior, difensore classe 2000 polacco",
+          "start_sec": 60.6,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "difensore",
+        "riscatto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Kivior",
+      "position": "Kivior è stato seguito dalla Juve e dal Milan.",
+      "polarity": "neutral",
+      "claim_id": "7f954d92-d80e-42ce-95f1-49700d046cd7",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s2",
+      "target_entity": "Kivior",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kivior è stato seguito dalla Juve e dal Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kivior, difensore classe 2000 polacco che piaceva in passato, è stato seguito dalla Juve, dal Milan",
+          "start_sec": 60.6,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "interesse",
+        "Juventus",
+        "Milan"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Napoli potrebbe provare a rinegoziare la situazione con un prestito oneroso con obbligo per Elmas.",
+      "polarity": "neutral",
+      "claim_id": "293c2211-f655-4b68-bddb-c7e23f75646d",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Napoli potrebbe provare a rinegoziare la situazione con un prestito oneroso con obbligo per Elmas.",
+      "evidence_quotes": [
+        {
+          "quote_text": "magari farà un prestito oneroso con obbligo, comunque abbassando l'ammortamento le cifre possono cambiare.",
+          "start_sec": 90.799,
+          "end_sec": 119.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratti",
+        "trattativa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal ha giocato meglio nella prima mezz'ora della partita contro l'Atletico.",
+      "polarity": "positive",
+      "claim_id": "8aeffcc5-19ed-4ac7-9c68-5c04e9a059c2",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s0",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal ha giocato meglio nella prima mezz'ora della partita contro l'Atletico.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Arsenal aveva giocato meglio la prima mezz'ora",
+          "start_sec": 1.52,
+          "end_sec": 28.72,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli potrebbe chiedere uno sconto per il riscatto di Elmas.",
+      "polarity": "neutral",
+      "claim_id": "e5aa2233-5305-4c9f-81e1-aaffb8a8efe7",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli potrebbe chiedere uno sconto per il riscatto di Elmas.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli avrebbe chiesto lo sconto",
+          "start_sec": 60.6,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "trattativa",
+        "sconto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Elmas",
+      "position": "Napoli riscatterà Elmas con sicurezza.",
+      "polarity": "positive",
+      "claim_id": "6b4ce08a-a5ad-471c-91e1-0d7a4e5d6533",
+      "video_id": "E7DG9n0gGbk",
+      "segment_id": "s3",
+      "target_entity": "Elmas",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli riscatterà Elmas con sicurezza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma il che non vuol dire non riscatta Elmas e a Dio sicuro.",
+          "start_sec": 90.799,
+          "end_sec": 119.83999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "riscatto",
+        "giocatore"
+      ]
+    }
+  ]
+}

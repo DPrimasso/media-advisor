@@ -1,0 +1,137 @@
+{
+  "video_id": "DmMmfAemnjg",
+  "analyzed_at": "2026-04-25T11:40:19.827447+00:00",
+  "metadata": {
+    "title": "È volato giusto qualche vaffa e qualche santino 🖤💙 #ComoInter",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video commenta la partita tra Como e Inter, focalizzandosi sull'azione decisiva che ha portato al primo gol del Como grazie a Nico Pass, autore di una grande giocata e assist per Dunfri. L'autore sottolinea l'importanza di Denzel, la cui assenza si è fatta sentire, e critica la decisione arbitrale che ha concesso un rigore controverso contro di lui. In sintesi, il commento evidenzia sia le qualità tecniche dei giocatori del Como sia le polemiche legate all'arbitraggio, suggerendo che la partita è stata influenzata da episodi chiave.",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como ha segnato il primo gol mettendo l'1-0.",
+      "polarity": "positive",
+      "claim_id": "24c5a15c-b174-4caf-9d51-ee30004fa3a5",
+      "video_id": "DmMmfAemnjg",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Como ha segnato il primo gol mettendo l'1-0.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi piazzato con l'1-0 è arrivato",
+          "start_sec": 0.199,
+          "end_sec": 7.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Nico Pass",
+      "position": "Nico Pass ha fatto una grandissima azione e ha fornito una palla dentro per Dunfri.",
+      "polarity": "positive",
+      "claim_id": "f7d88238-3478-4540-9098-62ddacde72c2",
+      "video_id": "DmMmfAemnjg",
+      "segment_id": "s1",
+      "target_entity": "Nico Pass",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Nico Pass ha fatto una grandissima azione e ha fornito una palla dentro per Dunfri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La grandissima azione da parte di Nico Pass. Indeciso su cosa fare Nico. Pass. volesse giocare la partita. Palla dentro a cercare Dunfri.",
+          "start_sec": 5.839,
+          "end_sec": 83.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Denzel",
+      "position": "Denzel è molto mancato alla squadra.",
+      "polarity": "positive",
+      "claim_id": "5c4cbbed-9ceb-4da5-8f6f-7cee4c06ace9",
+      "video_id": "DmMmfAemnjg",
+      "segment_id": "s1",
+      "target_entity": "Denzel",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Denzel è molto mancato alla squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quanto sei mancato Denzelone, Denzelone, Denzelone",
+          "start_sec": 5.839,
+          "end_sec": 83.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Denzel",
+      "position": "Si contesta un rigore contro Denzel.",
+      "polarity": "neutral",
+      "claim_id": "6494f16e-daba-4d95-bdfe-59d230e97ce9",
+      "video_id": "DmMmfAemnjg",
+      "segment_id": "s1",
+      "target_entity": "Denzel",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si contesta un rigore contro Denzel.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dan rigore del genere?",
+          "start_sec": 5.839,
+          "end_sec": 83.60000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "video_id": "Hd8gZTHKRH8",
+  "analyzed_at": "2026-04-24T08:47:08.878235+00:00",
+  "metadata": {
+    "title": "Polemica totale: Open VAR verso la chiusura #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-17T13:11:09+00:00"
+  },
+  "summary": "Il video affronta la polemica legata al programma Open VAR, in particolare riguardo alla gestione degli audio arbitrali sull’episodio Niga Bissek, decisivo per lo scudetto della scorsa stagione. L’autore critica la decisione di segretare inizialmente l’audio, ritenendo che ciò abbia alimentato sospetti di malafede, e sottolinea come la possibile chiusura di Open VAR rappresenterebbe un grave passo indietro per la trasparenza nel calcio italiano. Viene inoltre evidenziato il cambiamento nel format, con una minore ammissione di errori da parte degli arbitri. L’ipotesi che il nuovo designatore, p",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "scandalo",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "trasparenza",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Federica Zille",
+      "position": "Federica Zille ha rivelato che l'audio di un fallo da rigore non concesso all'Inter fu segretato.",
+      "polarity": "neutral",
+      "claim_id": "16790c7b-7617-4713-81b8-fbf0b8e6a92b",
+      "video_id": "Hd8gZTHKRH8",
+      "segment_id": "s0",
+      "target_entity": "Federica Zille",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Federica Zille ha rivelato che l'audio di un fallo da rigore non concesso all'Inter fu segretato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La giornalista di Daon ha svelato che l'audio di quel fallo da rigore non concesso all'Inter fu segretato",
+          "start_sec": 0.199,
+          "end_sec": 29.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "rivelazione",
+        "scandalo"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Open VAR",
+      "position": "C'è polemica sull'episodio Niga Bissek riguardo all'uso di Open VAR.",
+      "polarity": "negative",
+      "claim_id": "6c4e0e7a-aab4-4d77-a0e0-65f7e71e48d0",
+      "video_id": "Hd8gZTHKRH8",
+      "segment_id": "s0",
+      "target_entity": "Open VAR",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "C'è polemica sull'episodio Niga Bissek riguardo all'uso di Open VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È scoppiato il putiferio per le parole di Federica Zille, conduttrice di Open Var, sull'episodio Niga Bissek",
+          "start_sec": 0.199,
+          "end_sec": 29.039,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "var",
+        "polemic"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Open VAR",
+      "position": "Open VAR rischia di essere chiuso dalla prossima stagione.",
+      "polarity": "neutral",
+      "claim_id": "ee9792f6-5dd5-495a-af05-34f2151fe18c",
+      "video_id": "Hd8gZTHKRH8",
+      "segment_id": "s2",
+      "target_entity": "Open VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Open VAR rischia di essere chiuso dalla prossima stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il rischio è che Openvar venga chiuso e che dalla prossima stagione non potremmo più sentire le conversazioni tra Lissone e i direttori di gara.",
+          "start_sec": 29.039,
+          "end_sec": 58.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "open var",
+        "arbitri",
+        "refereeing"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Open VAR",
+      "position": "Open VAR ha smesso di trasmettere gli arbitri che ammettono errori come Rocky.",
+      "polarity": "negative",
+      "claim_id": "57388b92-5539-4474-800c-95ddd822e2b9",
+      "video_id": "Hd8gZTHKRH8",
+      "segment_id": "s2",
+      "target_entity": "Open VAR",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Open VAR ha smesso di trasmettere gli arbitri che ammettono errori come Rocky.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A inizio stagione era sempre presente Rocky che ammetteva gli errori. Adesso invece ci sono i suoi",
+          "start_sec": 29.039,
+          "end_sec": 58.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "open var",
+        "arbitri",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "open VAR",
+      "position": "Sopprimere del tutto open VAR sarebbe un clamoroso passo indietro sulla trasparenza.",
+      "polarity": "negative",
+      "claim_id": "edb9ffa1-d8d6-4622-9bff-48fb2957b470",
+      "video_id": "Hd8gZTHKRH8",
+      "segment_id": "s3",
+      "target_entity": "open VAR",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sopprimere del tutto open VAR sarebbe un clamoroso passo indietro sulla trasparenza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sopprimere del tutto open VAR sarebbe un clamoroso passo indietro sulla trasparenza",
+          "start_sec": 55.68,
+          "end_sec": 80.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "trasparenza",
+        "arbitri"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "arbitro e salavar",
+      "position": "Si dovrebbe trasmettere in diretta TV tutte le comunicazioni tra arbitro e sala VAR senza attendere il giorno dopo.",
+      "polarity": "positive",
+      "claim_id": "f3008a34-7dad-4813-baf2-15f561a5a7b5",
+      "video_id": "Hd8gZTHKRH8",
+      "segment_id": "s3",
+      "target_entity": "arbitro e salavar",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Si dovrebbe trasmettere in diretta TV tutte le comunicazioni tra arbitro e sala VAR senza attendere il giorno dopo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Facciamo ascoltare tutte le comunicazioni tra arbitro e salavar in diretta TV senza aspettare il giorno dopo",
+          "start_sec": 55.68,
+          "end_sec": 80.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "trasparenza",
+        "var",
+        "arbitri"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Laya",
+      "position": "Laya dichiara di non avere niente da nascondere.",
+      "polarity": "positive",
+      "claim_id": "c61aa199-3863-45a0-9e50-9efb541852fc",
+      "video_id": "Hd8gZTHKRH8",
+      "segment_id": "s3",
+      "target_entity": "Laya",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Laya dichiara di non avere niente da nascondere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Laya dice sempre che non ha niente da nascondere",
+          "start_sec": 55.68,
+          "end_sec": 80.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "dichiarazione",
+        "trasparenza"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "oratorio",
+      "position": "Il nuovo designatore arbitri potrebbe essere Orsato.",
+      "polarity": "neutral",
+      "claim_id": "4f6fc861-f188-4e15-9e8a-457764fdfb75",
+      "video_id": "Hd8gZTHKRH8",
+      "segment_id": "s2",
+      "target_entity": "oratorio",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il nuovo designatore arbitri potrebbe essere Orsato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A decidere sarà il nuovo designatore con orsato favorito per il ruolo.",
+          "start_sec": 29.039,
+          "end_sec": 58.399,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "designatore",
+        "arbitri"
+      ]
+    }
+  ]
+}

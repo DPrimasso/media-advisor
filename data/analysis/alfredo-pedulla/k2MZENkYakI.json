@@ -1,0 +1,410 @@
+{
+  "video_id": "k2MZENkYakI",
+  "analyzed_at": "2026-04-26T12:02:30.922034+00:00",
+  "metadata": {
+    "title": "DE ZERBI E QUEL SONDAGGIO NAPOLI. LA LISTA DI ADL. RANIERI-MASSARA-GASP: SOLO UNITI SI PUÒ🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video analizza le strategie di mercato e la gestione della rosa del Napoli, con particolare attenzione al riscatto di Alisson Santos, definito un acquisto giusto e di grande talento che può incidere da subito anche come titolare. L'autore sostiene che, se gli stranieri sono validi, meritano spazio in squadra, pur sottolineando l'importanza di non limitare gli italiani a ruoli marginali solo per motivi economici. Inoltre, si evidenzia come il Napoli abbia una base solida da migliorare con poche operazioni mirate, puntando a una squadra sempre più competitiva. Infine, viene rivelato un sondag",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "giovane",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    },
+    {
+      "name": "straniero",
+      "relevance": "low"
+    },
+    {
+      "name": "diritto di riscatto",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Napoli",
+      "position": "Il Napoli ha un diritto di riscatto su Alisson Santos per circa 15 milioni.",
+      "polarity": "positive",
+      "claim_id": "c33b3eb5-c3e0-48aa-a0fd-54e9790a6d8b",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha un diritto di riscatto su Alisson Santos per circa 15 milioni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "era tutto certificato da diverse settimane, quindi è una notizia che più che altro conferma la volontà del Napoli che si era impegnato con Alison Santos già a gennaio mettendo un diritto di riscatto di circa 15 milioni",
+          "start_sec": 0.16,
+          "end_sec": 32.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "diritto di riscatto",
+        "Napoli",
+        "Alisson Santos"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha una struttura già definita che può essere migliorata con 3-4 operazioni di mercato.",
+      "polarity": "positive",
+      "claim_id": "0ab92aba-8184-4ad0-b5f2-af098a42d64c",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Napoli ha una struttura già definita che può essere migliorata con 3-4 operazioni di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "penso a un Napoli che abbia già una struttura e che questa struttura debba migliorarla con tre-4 quattro operazioni",
+          "start_sec": 62.48,
+          "end_sec": 102.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "struttura",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli può diventare sempre più competitiva con l'inserimento di nuovi giocatori tra gli 11 titolari e le riserve.",
+      "polarity": "positive",
+      "claim_id": "d50169e8-44c6-4dbb-b3f6-4803d3cf2059",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Napoli può diventare sempre più competitiva con l'inserimento di nuovi giocatori tra gli 11 titolari e le riserve.",
+      "evidence_quotes": [
+        {
+          "quote_text": "può fare tra gli 11 e le riserve per rendere una squadra sempre più competitiva",
+          "start_sec": 62.48,
+          "end_sec": 102.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "competitività"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore straniero",
+      "position": "Gli stranieri di talento e bravi devono avere spazio nella squadra se non sono scarsi.",
+      "polarity": "positive",
+      "claim_id": "be1cb3e9-ab29-43db-94e0-e23845958595",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s1",
+      "target_entity": "giocatore straniero",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli stranieri di talento e bravi devono avere spazio nella squadra se non sono scarsi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se gli stranieri non sono scarsi, ma son di talento e son bravi, mettiamo gli stranieri",
+          "start_sec": 30.48,
+          "end_sec": 64.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "straniero",
+        "talento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore straniero",
+      "position": "Il giocatore straniero è molto veloce e può risolvere diverse situazioni in campo.",
+      "polarity": "positive",
+      "claim_id": "10147cb4-ab70-487f-990d-652ece23284c",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s1",
+      "target_entity": "giocatore straniero",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore straniero è molto veloce e può risolvere diverse situazioni in campo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è una scheggia impazzita che ti può risolvere diverse situazioni",
+          "start_sec": 30.48,
+          "end_sec": 64.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "velocità",
+        "impatto",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Giovanni",
+      "position": "Giovanni è stato bocciato in modo esagerato, eccessivo e frettoloso.",
+      "polarity": "positive",
+      "claim_id": "4340b49b-2af8-444f-a0a0-152bcb807f8f",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s2",
+      "target_entity": "Giovanni",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giovanni è stato bocciato in modo esagerato, eccessivo e frettoloso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giovanni che era stato bocciato, secondo me, in modo esagerato, eccessivo, frettoloso",
+          "start_sec": 62.48,
+          "end_sec": 102.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Olilund",
+      "position": "Olilund non è più giovanissimo ma può ancora essere considerato giovane.",
+      "polarity": "neutral",
+      "claim_id": "19526f0b-b234-490f-b42b-0b39f2d980b2",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s3",
+      "target_entity": "Olilund",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Olilund non è più giovanissimo ma può ancora essere considerato giovane.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Olilund non è più giovanissimo, ma possiamo considerarlo giovane",
+          "start_sec": 99.32,
+          "end_sec": 135.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giovane",
+        "valore",
+        "età"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "giocatore italiano in Serie C",
+      "position": "Non si devono far giocare gli italiani in Serie C solo per prestazioni di rendimento.",
+      "polarity": "negative",
+      "claim_id": "6926a4d5-8d8e-42d9-8235-d9d71255b79a",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s3",
+      "target_entity": "giocatore italiano in Serie C",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Non si devono far giocare gli italiani in Serie C solo per prestazioni di rendimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non dobbiamo far giocare gli italiani in Serie C soltanto perché ti danno una resa dal punto di vista",
+          "start_sec": 99.32,
+          "end_sec": 135.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "italiano",
+        "prestazioni",
+        "Serie C"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "stranieri",
+      "position": "Gli stranieri valgono il prezzo del biglietto se giustificano l'investimento.",
+      "polarity": "positive",
+      "claim_id": "78dad856-9075-4af0-bc60-470f7a2663bd",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s3",
+      "target_entity": "stranieri",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gli stranieri valgono il prezzo del biglietto se giustificano l'investimento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se gli stranieri valgono il prezzo del biglietto, prendiamoli",
+          "start_sec": 99.32,
+          "end_sec": 135.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stranieri",
+        "prezzo",
+        "biglietto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "giocatore straniero",
+      "position": "L'operazione di inserire un giocatore talentuoso straniero è giusta e a prezzi corretti.",
+      "polarity": "positive",
+      "claim_id": "179be6ba-6143-4933-bae4-4d31ff5e15f8",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s1",
+      "target_entity": "giocatore straniero",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione di inserire un giocatore talentuoso straniero è giusta e a prezzi corretti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un'operazione giusta a prezzi giusti",
+          "start_sec": 30.48,
+          "end_sec": 64.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "straniero"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "giocatore straniero",
+      "position": "Il giocatore straniero può partire anche da titolare in squadra.",
+      "polarity": "positive",
+      "claim_id": "41d7860a-8795-4973-b033-af27e5c43f1f",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s1",
+      "target_entity": "giocatore straniero",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il giocatore straniero può partire anche da titolare in squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Può partire anche da titolare",
+          "start_sec": 30.48,
+          "end_sec": 64.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "titolare"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Politano",
+      "position": "Politano è considerato un giocatore rispettabile nel Napoli attuale.",
+      "polarity": "neutral",
+      "claim_id": "72ee932e-3a29-4236-bb4e-9754897fe347",
+      "video_id": "k2MZENkYakI",
+      "segment_id": "s2",
+      "target_entity": "Politano",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Politano è considerato un giocatore rispettabile nel Napoli attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tutto il rispetto possibile per Politano",
+          "start_sec": 62.48,
+          "end_sec": 102.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "rispetto"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "video_id": "6YY4hMDlF7A",
+  "analyzed_at": "2026-04-24T08:43:03.539564+00:00",
+  "metadata": {
+    "title": "TMW News: Bologna e Fiorentina, caccia all’impresa. Il futuro di Sarri",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-15T13:18:23+00:00"
+  },
+  "summary": "Il video si concentra sulle possibilità di Bologna e Fiorentina nelle rispettive sfide di ritorno in Europa League e Conference League, evidenziando l'importanza di questi incontri per il prosieguo della stagione. L'autore, tramite l'analista Gianluca Presicci, sostiene che il Bologna ha concrete chance di ribaltare il 3-1 subito all'andata contro l'Astonvilla, grazie a un rendimento stabile sia in casa che in trasferta e a un reparto offensivo competitivo. Al contrario, la Fiorentina, dopo un'annata difficile, sembra più concentrata sul campionato e appare sfavorita nel tentativo di recuperar",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "salvezza",
+      "relevance": "medium"
+    },
+    {
+      "name": "impegno europeo",
+      "relevance": "low"
+    },
+    {
+      "name": "situazione di classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "ambiente",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione della squadra",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina dovrebbe segnare un gol nei primi 10-15 minuti e chiudere il primo tempo in vantaggio per sperare nel passaggio del turno.",
+      "polarity": "positive",
+      "claim_id": "6106b871-f2d3-4e0f-aeb0-ccbd5925bc49",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La Fiorentina dovrebbe segnare un gol nei primi 10-15 minuti e chiudere il primo tempo in vantaggio per sperare nel passaggio del turno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci vorrebbe per la Fiorentina un gol nei primi 10-15 minuti e poi insomma sperare anche nella spinta del pubblico, sperare in un un primo tempo magari da chiudere su 2-0",
+          "start_sec": 151.92,
+          "end_sec": 236.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "tattica",
+        "predizione"
+      ]
+    },
+    {
+      "topic": "europe",
+      "subject": "Bologna",
+      "position": "Bologna può compiere un'impresa nel ritorno contro l'Astonvilla in Europa League.",
+      "polarity": "positive",
+      "claim_id": "fdaa5382-1230-4967-981c-5f41e49f8358",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Bologna può compiere un'impresa nel ritorno contro l'Astonvilla in Europa League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "domani il ritorno della sfida con l'Astonvilla. Si parte naturalmente dal 3-1 per gli inglesi. Impresa possibile secondo te?",
+          "start_sec": 12.719,
+          "end_sec": 85.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "La squadra di Italiano non ha una grande differenza di rendimento tra gare in casa e fuori casa.",
+      "polarity": "neutral",
+      "claim_id": "634b2df3-a517-4652-8cfb-09ec18d8f2b0",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra di Italiano non ha una grande differenza di rendimento tra gare in casa e fuori casa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la squadra di italiano in casa e fuori casa non è che fa molta differenza",
+          "start_sec": 12.719,
+          "end_sec": 85.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "europe",
+      "subject": "Bologna",
+      "position": "Il risultato dell'andata non riflette completamente il reale andamento della partita.",
+      "polarity": "positive",
+      "claim_id": "ea990834-9bac-4e18-8d74-cbd67d460649",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "europe",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il risultato dell'andata non riflette completamente il reale andamento della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "perché vedendo la partita dell'andata, chiaramente si è vista una un'altra partita che, diciamo, diversa da quello che poi stato il risultato",
+          "start_sec": 12.719,
+          "end_sec": 85.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Se Bologna parte forte e segna un gol, può sfruttare le caratteristiche del suo reparto offensivo e di centrocampo.",
+      "polarity": "positive",
+      "claim_id": "2b0f6a21-2ae2-4ea7-8745-acd82b53a109",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s0",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Se Bologna parte forte e segna un gol, può sfruttare le caratteristiche del suo reparto offensivo e di centrocampo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se riesce a partire bene e a fare magari l'1-0 eh con le caratteristiche proprio del del dell'attacco del centrocampo",
+          "start_sec": 12.719,
+          "end_sec": 85.47900000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Bologna",
+      "position": "Questa partita può decidere la qualificazione del Bologna all'Europa.",
+      "polarity": "neutral",
+      "claim_id": "871f033a-27ac-4dc9-9572-c59eb56cd6d6",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Questa partita può decidere la qualificazione del Bologna all'Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è la partita in cui può ruotare la stagione Bologna perché comunque pensare di poter tornare in Europa dal campionato non è così semplice",
+          "start_sec": 82.439,
+          "end_sec": 155.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "storia",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Bologna",
+      "position": "L'esito della partita potrebbe cambiare le sorti della fine della stagione per il Bologna.",
+      "polarity": "neutral",
+      "claim_id": "b80694db-b1c0-4cce-ae60-5d95176c71f0",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "L'esito della partita potrebbe cambiare le sorti della fine della stagione per il Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi eh in una in 90 minuti o nei supplementari o o nei rigori si può giocare l'accesso all'Europa, sicuramente tutto quello che hanno e verrà dato in questa partita, quindi sicuramente diventerà una partita veramente che potrebbe cambiare le sorti del del di questo fine campionato per il Bologna",
+          "start_sec": 82.439,
+          "end_sec": 155.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esito",
+        "stagione",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "Dopo un anno tribolato, la Fiorentina ha la testa più sul campionato rispetto al Bologna.",
+      "polarity": "neutral",
+      "claim_id": "2a6c27ef-2eb4-401f-ac0b-29d2fffda99f",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Dopo un anno tribolato, la Fiorentina ha la testa più sul campionato rispetto al Bologna.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Fiorentina potrebbe essere anche giustificata perché dopo un anno tribolato comè stato è chiaro che la testa probabilmente al contrario del Bologna ce l'abbia più sul campionato",
+          "start_sec": 151.92,
+          "end_sec": 236.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "campionato",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha poche probabilità di recuperare lo svantaggio nella partita di ritorno.",
+      "polarity": "negative",
+      "claim_id": "988b1906-caef-49d3-a4f1-a29ffea19d19",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "PROBABLE",
+      "claim_text": "La Fiorentina ha poche probabilità di recuperare lo svantaggio nella partita di ritorno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chiaro vista la partita dell'andata, onestamente la vedo dura, molto dura",
+          "start_sec": 151.92,
+          "end_sec": 236.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "partita di ritorno",
+        "predizione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha qualcosa in più rispetto alla Fiorentina in questa partita.",
+      "polarity": "positive",
+      "claim_id": "d8581b17-b5d7-4157-8818-f2230709dfaf",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s1",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha qualcosa in più rispetto alla Fiorentina in questa partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "onestamente Il Bologna ha qualcosa in più",
+          "start_sec": 82.439,
+          "end_sec": 155.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "confronto",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina è quasi salva in campionato.",
+      "polarity": "positive",
+      "claim_id": "8ffdaa64-b73b-4bb3-8fdb-a11d138a8e4f",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s2",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina è quasi salva in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alla fine di Rifa o di Raffa la Fiorentina in campionato bene o male è quasi salva",
+          "start_sec": 151.92,
+          "end_sec": 236.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fiorentina",
+        "campionato",
+        "situazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha avuto un ambiente molto particolare con attriti e cambi di allenatore in campionato.",
+      "polarity": "negative",
+      "claim_id": "201898df-02c4-4e7e-92a4-196b06d87476",
+      "video_id": "6YY4hMDlF7A",
+      "segment_id": "s3",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha avuto un ambiente molto particolare con attriti e cambi di allenatore in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "attrito durante il campionato fra giocatori, squadra, cambio di allenatore una situazione di ambiente molto molto molto particolare",
+          "start_sec": 233.0,
+          "end_sec": 311.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio",
+        "tattica",
+        "performance"
+      ]
+    }
+  ]
+}

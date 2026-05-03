@@ -1,0 +1,409 @@
+{
+  "video_id": "vRTbpzFFJhw",
+  "analyzed_at": "2026-04-26T11:34:49.553491+00:00",
+  "metadata": {
+    "title": "SONO PROSCIUGATO‼️ COMO-INTER 3-4",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la partita Como-Inter terminata 3-4, focalizzandosi su una prestazione deludente dell'Inter nel primo tempo, definita \"orrore\", mentre la difesa del Como viene lodata come la migliore del campionato. L'autore sottolinea il miglioramento di giocatori come Barella, Thuram e Donfriess, evidenziando come quest'ultimo abbia finalmente trovato la forma da attaccante. Viene inoltre discussa l'importanza dell'arbitraggio e del VAR, che hanno influenzato il match in modo significativo, con episodi controversi come un rigore non concesso. L'analista conclude che la partita è stata inte",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "var",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "rigore",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como's defense is the best in the league, managing to take 8 points from Inter between halves.",
+      "polarity": "neutral",
+      "claim_id": "2fb4ed7f-0f24-4e01-8069-e17dce89d9e2",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s0",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como's defense is the best in the league, managing to take 8 points from Inter between halves.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The best defence in the league, which between the first half and the second half, gets 8 points from Inter. And it still proves to be the best defence.",
+          "start_sec": 0.86,
+          "end_sec": 42.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como deservedly advanced after scoring the fifth goal following the first 30 minutes of strategy.",
+      "polarity": "positive",
+      "claim_id": "7efed77f-d40c-408d-8f91-5ea2d35bba57",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Como deservedly advanced after scoring the fifth goal following the first 30 minutes of strategy.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Como, after the first 30 minutes of strategy, he played... He scored the fifth goal and he deservedly advanced.",
+          "start_sec": 92.76,
+          "end_sec": 128.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "gol",
+        "avanzamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Barella",
+      "position": "Barella played better in this match compared to his usual league performances.",
+      "polarity": "positive",
+      "claim_id": "dd3edcfe-f674-4bcf-b914-1800115ad822",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s1",
+      "target_entity": "Barella",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Barella played better in this match compared to his usual league performances.",
+      "evidence_quotes": [
+        {
+          "quote_text": "If I think about how many correct reviews he received. Thuram, Barella... Today they were better. Today Barella... There.",
+          "start_sec": 43.46,
+          "end_sec": 92.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "Barella"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como-Inter",
+      "position": "The first half of the match was unbearable with a very disappointing performance.",
+      "polarity": "negative",
+      "claim_id": "5b562955-93fb-4d84-aa63-84edbded6d15",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s1",
+      "target_entity": "Como-Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "The first half of the match was unbearable with a very disappointing performance.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I saw something simply unbearable. And in the first shot, goal.",
+          "start_sec": 43.46,
+          "end_sec": 92.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "partita",
+        "primo tempo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Donfriess",
+      "position": "Donfriess is finally in condition and is playing as a striker.",
+      "polarity": "positive",
+      "claim_id": "78e165db-8ec6-453e-a701-ebac77adf8e1",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s2",
+      "target_entity": "Donfriess",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Donfriess is finally in condition and is playing as a striker.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Donfriess, finally, in condition, becomes the striker.",
+          "start_sec": 92.76,
+          "end_sec": 128.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "condizione fisica",
+        "ruolo",
+        "attaccante"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rossi",
+      "position": "Il rigore non è stato concesso, influenzando il dibattito sul comportamento di Rossi.",
+      "polarity": "neutral",
+      "claim_id": "0dbc2adf-231d-47e5-8a5f-53e4a01b14ed",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s3",
+      "target_entity": "Rossi",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il rigore non è stato concesso, influenzando il dibattito sul comportamento di Rossi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "doesn't count the penalty, luckily. But because it doesn't count the penalty, we can talk about it. Because if not, one says, no, but Rossi...",
+          "start_sec": 128.24,
+          "end_sec": 159.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rigore",
+        "arbitraggio",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "rivalry",
+      "subject": "Como-Inter",
+      "position": "La rivalità tra Como e Inter in questa partita è molto intensa e insolita.",
+      "polarity": "neutral",
+      "claim_id": "df52b806-0b90-4560-85de-0575fbb43127",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s3",
+      "target_entity": "Como-Inter",
+      "entity_type": "team",
+      "dimension": "rivalry",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La rivalità tra Como e Inter in questa partita è molto intensa e insolita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Tonight's rivalry is crazy stuff. It's crazy stuff. It's stuff that never exists. Never.",
+          "start_sec": 128.24,
+          "end_sec": 159.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rivalry",
+        "partita",
+        "intensità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bastoni",
+      "position": "Bastoni è stato colpito pesantemente dai tifosi o avversari durante la partita.",
+      "polarity": "negative",
+      "claim_id": "268b3443-90e7-42fa-8254-b5a29f3f7f78",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s4",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni è stato colpito pesantemente dai tifosi o avversari durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bastoni, even at the break, did you hear it? Hearts, oh, throw it, everyone will break it. Now Bastoni has become the punchball.",
+          "start_sec": 159.28,
+          "end_sec": 198.32000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "simulazione",
+        "pressione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter showed a horror performance in the first half of the match.",
+      "polarity": "negative",
+      "claim_id": "4868bf3f-76b9-4e1f-a573-d591f24ca9fc",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Inter showed a horror performance in the first half of the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter, after the first half, HORROR.",
+          "start_sec": 0.86,
+          "end_sec": 42.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "prima metà"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Both the referee and the VAR contributed effort during the game.",
+      "polarity": "neutral",
+      "claim_id": "0e874560-8478-4297-9da1-43a605a77d31",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s0",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Both the referee and the VAR contributed effort during the game.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Both the referee and the VAR. Everyone.",
+          "start_sec": 0.86,
+          "end_sec": 42.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Thuram",
+      "position": "Thuram was better in this match.",
+      "polarity": "positive",
+      "claim_id": "bee89d76-7cf2-4015-9711-478eca8f717f",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s1",
+      "target_entity": "Thuram",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Thuram was better in this match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "If I think about how many correct reviews he received. Thuram, Barella... Today they were better.",
+          "start_sec": 43.46,
+          "end_sec": 92.58,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "Thuram"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Thuram",
+      "position": "Thuram scored two goals from two shots.",
+      "polarity": "positive",
+      "claim_id": "3ccf2c43-b3a7-47f4-8b30-85aefb2468b5",
+      "video_id": "vRTbpzFFJhw",
+      "segment_id": "s2",
+      "target_entity": "Thuram",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Thuram scored two goals from two shots.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Thuram, two shots, two goals.",
+          "start_sec": 92.76,
+          "end_sec": 128.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "performance",
+        "attaccante"
+      ]
+    }
+  ]
+}

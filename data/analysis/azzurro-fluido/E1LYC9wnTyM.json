@@ -1,0 +1,412 @@
+{
+  "video_id": "E1LYC9wnTyM",
+  "analyzed_at": "2026-04-24T08:23:46.254435+00:00",
+  "metadata": {
+    "title": "\"#Conte non abbandona la sua creatura\" 👀 #ADL intervista completa the Athletic 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza l’intervista integrale di Aurelio De Laurentiis al The Athletic, chiarendo fraintendimenti su un presunto abbandono di Conte, che invece “non abbandonerebbe la sua creatura”. L’autore sottolinea come le parole del presidente del Napoli siano state spesso distorte dai media, mentre De Laurentiis propone una vera rivoluzione nel calcio, tra cui l’eliminazione dell’intervallo, l’introduzione del tempo effettivo di gioco e una nuova gestione dei cartellini con sanzioni temporanee. Inoltre, suggerisce di modificare la regola del fuorigioco per favorire un gioco più offensivo, conf",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "medium"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "politica",
+      "relevance": "low"
+    },
+    {
+      "name": "tifoso",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "durata partita",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "calcio",
+      "position": "De Laurentis suggerisce di introdurre una sanzione temporanea di 5 minuti per il cartellino giallo e 20 per il rosso.",
+      "polarity": "positive",
+      "claim_id": "53247749-8f75-4f60-84b9-a1290fb312ef",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s1",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis suggerisce di introdurre una sanzione temporanea di 5 minuti per il cartellino giallo e 20 per il rosso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "5 minuti fuori per il giallo, 20 minuti fuori per il rosso",
+          "start_sec": 115.479,
+          "end_sec": 222.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sanzioni",
+        "cartellini",
+        "regolamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "De Laurentis",
+      "position": "De Laurentis propone di adottare il tempo effettivo di gioco di 25+25 minuti.",
+      "polarity": "positive",
+      "claim_id": "ebdae155-f218-4f41-8740-debba781fb12",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s1",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis propone di adottare il tempo effettivo di gioco di 25+25 minuti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tempo effettivo 25 più 25 minuti",
+          "start_sec": 115.479,
+          "end_sec": 222.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "durata partita",
+        "regolamento",
+        "tempo effettivo"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Aurelio De Laurentiis",
+      "position": "Le parole di De Laurentiis sul possibile abbandono di Conte sono state interpretate in modo diverso e talvolta distorte.",
+      "polarity": "neutral",
+      "claim_id": "d6167112-f001-4559-a56a-55de5224c00f",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s0",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le parole di De Laurentiis sul possibile abbandono di Conte sono state interpretate in modo diverso e talvolta distorte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come avete capito la stessa frase detta in maniera riport portata in maniera diversa ha un significato molto diverso",
+          "start_sec": 2.52,
+          "end_sec": 117.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Aurelio De Laurentiis",
+      "position": "De Laurentiis ha rilasciato un'intervista al The Athletic, una costola del New York Times.",
+      "polarity": "neutral",
+      "claim_id": "35a16ab2-24dc-47b7-a6fa-390e77473ab5",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s0",
+      "target_entity": "Aurelio De Laurentiis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentiis ha rilasciato un'intervista al The Athletic, una costola del New York Times.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'intervista al The Athletic che è una costola del New York Times",
+          "start_sec": 2.52,
+          "end_sec": 117.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "intervista"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "De Laurentis",
+      "position": "De Laurentis sostiene che le partite sono troppo lunghe e preferirebbe eliminare l'intervallo.",
+      "polarity": "neutral",
+      "claim_id": "62b0704a-7a01-493a-ba6c-4e2af7b71a6a",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s1",
+      "target_entity": "De Laurentis",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "De Laurentis sostiene che le partite sono troppo lunghe e preferirebbe eliminare l'intervallo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "De Laurentis che ribadisce che le partite sono troppo lunghe, che non vorrebbe l'intervallo",
+          "start_sec": 115.479,
+          "end_sec": 222.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "durata partita",
+        "media",
+        "innovazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio",
+      "position": "De Laurentis vorrebbe modificare la regola del fuorigioco per evitare gol annullati per pochi millimetri.",
+      "polarity": "neutral",
+      "claim_id": "d893be23-f492-4d15-99a6-1f2c917c0c60",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s1",
+      "target_entity": "calcio",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "De Laurentis vorrebbe modificare la regola del fuorigioco per evitare gol annullati per pochi millimetri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vorrebbe cambiare la regola del fuorigioco, cioè per pochi millimetri non puoi togliere un gol",
+          "start_sec": 115.479,
+          "end_sec": 222.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fuorigioco",
+        "gol",
+        "regolamento"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Serie A",
+      "position": "Non vince più la migliore difesa in Italia, vince il miglior attacco.",
+      "polarity": "neutral",
+      "claim_id": "eed3149a-024b-4e40-a85a-184ff54ea570",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s2",
+      "target_entity": "Serie A",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Non vince più la migliore difesa in Italia, vince il miglior attacco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non vince più la migliore difesa in Italia, vince il miglior attacco",
+          "start_sec": 219.4,
+          "end_sec": 314.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "difesa",
+        "attacco"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Potrebbe voler creare un'immagine negativa di Conte come nuovo demone o traditore per i tifosi.",
+      "polarity": "negative",
+      "claim_id": "c52fa96c-e971-4020-932e-83562b3043e8",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Potrebbe voler creare un'immagine negativa di Conte come nuovo demone o traditore per i tifosi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non vorrei si stesse preparando il terreno per creare il nuovo demone, no? eh il nuovo mostro, il nuovo traditore che il tifoso deve odiare",
+          "start_sec": 219.4,
+          "end_sec": 314.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conte",
+        "leadership",
+        "percezione tifosi"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte è disponibile con i tifosi e spesso firma autografi e fa fotografie.",
+      "polarity": "positive",
+      "claim_id": "b3127502-5563-4367-b9ef-3cc4e8c38d0c",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è disponibile con i tifosi e spesso firma autografi e fa fotografie.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lui è molto disponibile con i tifosi, si ferma ogni volta a firmare autografi, a fare fotografie",
+          "start_sec": 219.4,
+          "end_sec": 314.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conte",
+        "tifosi",
+        "disponibilità"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "MLS",
+      "position": "Si ipotizza una Champions League tra squadre di MLS e Sud America con cinque migliori squadre MLS partecipanti.",
+      "polarity": "neutral",
+      "claim_id": "5c5765d1-6942-4b9e-a3e2-11ebe27dfed9",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s2",
+      "target_entity": "MLS",
+      "entity_type": "other",
+      "dimension": "tactics",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Si ipotizza una Champions League tra squadre di MLS e Sud America con cinque migliori squadre MLS partecipanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "manderebbe cinque squadre delle migliori quelle dell MLS ne fa fare la Champions League",
+          "start_sec": 219.4,
+          "end_sec": 314.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "MLS",
+        "Sud America",
+        "champions league"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Bari",
+      "position": "Il Bari rischia di scomparire nonostante abbia una base di fans e dignità in Serie A.",
+      "polarity": "neutral",
+      "claim_id": "4e23f332-0d09-4903-9edf-388e115e9372",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s3",
+      "target_entity": "Bari",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Bari rischia di scomparire nonostante abbia una base di fans e dignità in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per il Bari, per esempio, cioè quanti quanti fans ha il Bari? Andrebbe a sparire anche il Bari oppure altre squadre un po' più piccoline che però hanno tutta la dignità di stare in Serie A",
+          "start_sec": 311.84,
+          "end_sec": 406.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "tifosi",
+        "squadra piccola"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte non abbandonerebbe la sua creatura calcistica.",
+      "polarity": "positive",
+      "claim_id": "a1c03ea0-dd71-4ea6-b177-8261d3137139",
+      "video_id": "E1LYC9wnTyM",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte non abbandonerebbe la sua creatura calcistica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte non abbandonerebbe la sua creatura",
+          "start_sec": 2.52,
+          "end_sec": 117.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "affetto",
+        "allenatore"
+      ]
+    }
+  ]
+}

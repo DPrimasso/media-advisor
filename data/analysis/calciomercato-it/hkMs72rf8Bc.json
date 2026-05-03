@@ -1,0 +1,411 @@
+{
+  "video_id": "hkMs72rf8Bc",
+  "analyzed_at": "2026-04-30T07:40:11.089945+00:00",
+  "metadata": {
+    "title": "Milan SCATENATO: ACCORDO e DOPPIO Colpo in arrivo | Lewandowski-Juventus...",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video si concentra principalmente sulle strategie di mercato del Milan in vista della prossima stagione, con particolare attenzione al rafforzamento della rosa per affrontare al meglio la Champions League e la Serie A. L'autore sottolinea come il Milan, quasi certo della qualificazione europea, stia già trattando per acquisire giocatori di spessore come Mario Ghila e potenzialmente Leon Goretzka, per rispondere alle richieste di Allegri di un organico più ampio e competitivo. Viene inoltre menzionata una situazione parallela riguardante la Juventus, ma il focus resta sulle mosse del Milan, ",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "rosa",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitri",
+      "relevance": "medium"
+    },
+    {
+      "name": "champions league",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "difensore",
+      "relevance": "low"
+    },
+    {
+      "name": "concorrenza",
+      "relevance": "low"
+    },
+    {
+      "name": "contratto",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Rocchi",
+      "position": "Rocchi non parlerà il 30 aprile riguardo al caso arbitri.",
+      "polarity": "neutral",
+      "claim_id": "f5f5746e-b4b7-47ab-aaca-c4ad13e04aa4",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s0",
+      "target_entity": "Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Rocchi non parlerà il 30 aprile riguardo al caso arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Siamo in attesa di novità importanti nella giornata di domani, 30 aprile in cui non parlerà Rocchi",
+          "start_sec": 0.359,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "refereeing",
+        "giornata"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gervasoni",
+      "position": "Gervasoni dovrebbe parlare il 30 aprile fornendo nuovi elementi sul caso arbitri.",
+      "polarity": "neutral",
+      "claim_id": "451c04f0-6d12-456d-bbb4-5cb2b425a6c0",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s0",
+      "target_entity": "Gervasoni",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Gervasoni dovrebbe parlare il 30 aprile fornendo nuovi elementi sul caso arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dovrebbe parlare Gervasoni e potremmo avere dei nuovi elementi su cui discutere",
+          "start_sec": 0.359,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "refereeing",
+        "novità"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Mario Ghila",
+      "position": "Mario Ghila potrebbe trasferirsi al Milan con un contratto quadriennale o quinquennale da 3 milioni a stagione più bonus.",
+      "polarity": "positive",
+      "claim_id": "d03b7545-8ca7-4e0c-bb82-cd00786286f7",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s3",
+      "target_entity": "Mario Ghila",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Mario Ghila potrebbe trasferirsi al Milan con un contratto quadriennale o quinquennale da 3 milioni a stagione più bonus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si parte dalla difesa dove il pallino è Mario Ghila di cui abbiamo parlato e la trattativa sembra molto ben avviata, tal punto che eh si parla di un'offerta di contratto quadriennale o quinquennale da 3 milioni di euro a stagione più bonus.",
+          "start_sec": 95.6,
+          "end_sec": 128.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il mercato del Milan è un tema centrale nelle notizie di oggi.",
+      "polarity": "neutral",
+      "claim_id": "fec6b4fc-116a-4a5b-8f4c-164e20400ca7",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s0",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il mercato del Milan è un tema centrale nelle notizie di oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Oggi parliamo di mercato con tante notizie sul Milan soprattutto",
+          "start_sec": 0.359,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Milan",
+        "notizie"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan si sta avvicinando alla qualificazione alla Champions League.",
+      "polarity": "positive",
+      "claim_id": "d48e2a78-d685-487d-a5e4-8f1c17e79740",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Milan si sta avvicinando alla qualificazione alla Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Milan che si avvicina a questa qualificazione alla Champions League",
+          "start_sec": 28.599,
+          "end_sec": 65.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "milan",
+        "champions league",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Allegri",
+      "position": "Allegri ha chiesto rinforzi di spessore per la sua squadra.",
+      "polarity": "neutral",
+      "claim_id": "52392ed8-0ddb-413b-b636-4b0049c1b7e4",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri ha chiesto rinforzi di spessore per la sua squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri sostanzialmente ha chiesto dei rinforzi di spessore",
+          "start_sec": 28.599,
+          "end_sec": 65.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allegri",
+        "mercato",
+        "rinforzi"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Milan ha bisogno di allungare la rosa per affrontare le partite di Champions e per competere su tutti i fronti.",
+      "polarity": "positive",
+      "claim_id": "afa0db40-d9cc-412c-9fe1-ebe21f9a5821",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Milan ha bisogno di allungare la rosa per affrontare le partite di Champions e per competere su tutti i fronti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Serve allungare la rosa per affrontare partite di Champions e per poter essere competitivi su tutti i fronti",
+          "start_sec": 28.599,
+          "end_sec": 65.39999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "milan",
+        "rosa",
+        "champions league",
+        "competitivita"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Il Milan in estate studierà mosse di mercato per rafforzare la rosa.",
+      "polarity": "positive",
+      "claim_id": "a1ab4b55-7a2f-4405-a5cf-2d1ed1b438f0",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan in estate studierà mosse di mercato per rafforzare la rosa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Milanello iniziano a studiare e quali mosse attuare in estate. A livello di mercato",
+          "start_sec": 62.96,
+          "end_sec": 97.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "strategia",
+        "rosa"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Allegri",
+      "position": "Allegri ha bisogno di una rosa più ampia per affrontare impegni europei e Serie A.",
+      "polarity": "neutral",
+      "claim_id": "f60e103f-8514-4c3a-8894-2af434aff2b5",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s2",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri ha bisogno di una rosa più ampia per affrontare impegni europei e Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri ha bisogno di una rosa sicuramente più ampia e in vista del doppio impegno europeo e Serie A",
+          "start_sec": 62.96,
+          "end_sec": 97.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "rosa",
+        "impegni"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan vuole recitare un ruolo da protagonista in Serie A e in Europa.",
+      "polarity": "positive",
+      "claim_id": "c0072aeb-268b-47ab-aa7e-a86a4445769d",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan vuole recitare un ruolo da protagonista in Serie A e in Europa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dove il Milan vuole recitare un ruolo da protagonista e lo ha fatto per buona parte della stagione",
+          "start_sec": 62.96,
+          "end_sec": 97.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "obiettivo",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Milan",
+      "position": "Sono stati già individuati innesti in varie zone del campo per il Milan.",
+      "polarity": "positive",
+      "claim_id": "31db4907-510e-4767-9158-ad5d1dbc5c7e",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sono stati già individuati innesti in varie zone del campo per il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "servono degli innesti in varie in tutte le zone del campo e sono stati già individuati",
+          "start_sec": 62.96,
+          "end_sec": 97.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "innesti",
+        "rosa"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Ci sono notizie di mercato anche sulla Juventus insieme al Milan.",
+      "polarity": "neutral",
+      "claim_id": "44cab46b-2c8b-401a-b466-707060ccfda8",
+      "video_id": "hkMs72rf8Bc",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono notizie di mercato anche sulla Juventus insieme al Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ma anche sulla Juventus",
+          "start_sec": 0.359,
+          "end_sec": 29.439,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "Juventus",
+        "notizie"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "video_id": "4hAnBqJDj7o",
+  "analyzed_at": "2026-04-30T07:43:15.850491+00:00",
+  "metadata": {
+    "title": "MILAN, UN BIG DI TROPPO. SIRENE INGLESI PER UN TOP ALLENATORE DI SERIE A. NAPOLI, UN BIG DA BLINDARE",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video analizza le semifinali di Champions League, focalizzandosi su Atletico Madrid-Arsenal e sulle prospettive di Michel Arteta, il tecnico dei Gunners, che nonostante buone prestazioni rischia di restare senza titoli importanti. L’autore sottolinea come l’Arsenal, dopo un vantaggio significativo in Premier League, abbia perso slancio, mentre la Champions potrebbe rappresentare un’occasione decisiva per cambiare il proprio destino. Inoltre, si discute del futuro di allenatori di alto profilo come Fabregas, Mourinho e Allegri, con quest’ultimo destinato a restare al Milan grazie a un proget",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "partita",
+      "relevance": "medium"
+    },
+    {
+      "name": "semifinale",
+      "relevance": "medium"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    },
+    {
+      "name": "champions league",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "europa league",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Michel Arteta",
+      "position": "Michel Arteta rischia di arrivare quarto per la quarta volta negli ultimi 5 anni in Premier League.",
+      "polarity": "neutral",
+      "claim_id": "19f96851-a6dc-44cc-a691-b5b9bf34888d",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s1",
+      "target_entity": "Michel Arteta",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Michel Arteta rischia di arrivare quarto per la quarta volta negli ultimi 5 anni in Premier League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Rischia di arrivare, credo, negli ultimi 5 anni per la quarta volta secondo in Premier",
+          "start_sec": 34.079,
+          "end_sec": 63.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "classifica",
+        "Premier League"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Michel Arteta",
+      "position": "L'Arteta era in vantaggio di 10 punti sul City due mesi fa in Premier League.",
+      "polarity": "negative",
+      "claim_id": "925345cd-3f7f-405f-a1c5-14a20f277f0d",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s1",
+      "target_entity": "Michel Arteta",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arteta era in vantaggio di 10 punti sul City due mesi fa in Premier League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Aveva 10 punti di vantaggio due mesi fa sul City",
+          "start_sec": 34.079,
+          "end_sec": 63.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "vantaggio",
+        "Premier League"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Paris Saint-Germain",
+      "position": "La partita tra Paris Saint-Germain e Bayern è stata spettacolare.",
+      "polarity": "positive",
+      "claim_id": "284fdff9-a1af-41e9-a1d2-512e9a0ccc8c",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s0",
+      "target_entity": "Paris Saint-Germain",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Paris Saint-Germain e Bayern è stata spettacolare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dura eguagliare lo spettacolo di ieri sera tra Paris Saint-Germain e Bayern",
+          "start_sec": 0.199,
+          "end_sec": 36.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "spettacolo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Ciolo",
+      "position": "Il Ciolo cerca la terza finale di Champions in carriera avendo perso le prime due.",
+      "polarity": "neutral",
+      "claim_id": "768b7414-5913-49d6-bfd0-3a5ed7b0f1bd",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s0",
+      "target_entity": "Ciolo",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Ciolo cerca la terza finale di Champions in carriera avendo perso le prime due.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Intanto il Ciolo cerca la terza finale di Champions in carriera, due le ha perse",
+          "start_sec": 0.199,
+          "end_sec": 36.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "record"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "La Champions League potrebbe cambiare il destino dell'Arsenal quest'anno.",
+      "polarity": "neutral",
+      "claim_id": "066e1b3e-a527-435b-8a7c-6c0a815b5b0e",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s1",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Champions League potrebbe cambiare il destino dell'Arsenal quest'anno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Champions però può cambiare il destino dei Gunners",
+          "start_sec": 34.079,
+          "end_sec": 63.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "champions",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid",
+      "position": "L'Atletico ha un'inerzia migliore rispetto a Arsenal nelle ultime partite.",
+      "polarity": "positive",
+      "claim_id": "1fc25dda-2894-4106-9733-40ecb8c38309",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s2",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico ha un'inerzia migliore rispetto a Arsenal nelle ultime partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in questo momento l'inerzia, per come abbiamo visto le ultime partite, l'Atletico sta meglio",
+          "start_sec": 60.96,
+          "end_sec": 91.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Arteta",
+      "position": "Se Arteta dovesse chiudere la stagione senza vincere nulla, la sua posizione contrattuale potrebbe essere a rischio.",
+      "polarity": "neutral",
+      "claim_id": "2a1c18a5-86c6-4f29-affb-e963d8651050",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s2",
+      "target_entity": "Arteta",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se Arteta dovesse chiudere la stagione senza vincere nulla, la sua posizione contrattuale potrebbe essere a rischio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se Artleta dovesse chiudere la stagione senza vincere nulla, occhio perché ha un anno solo di contratto",
+          "start_sec": 60.96,
+          "end_sec": 91.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal ha una rosa capace di arrivare in finale secondo la valutazione del segmento.",
+      "polarity": "neutral",
+      "claim_id": "8a4e1820-9e8c-4901-b631-e5a5221a8bf7",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s2",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Arsenal ha una rosa capace di arrivare in finale secondo la valutazione del segmento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Arsenal come rosa può anche andare in finale",
+          "start_sec": 60.96,
+          "end_sec": 91.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukman",
+      "position": "L'effetto Lukman ha cambiato molto la squadra a gennaio.",
+      "polarity": "positive",
+      "claim_id": "bfc28652-920b-41d0-9697-c16e183bab9b",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s2",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'effetto Lukman ha cambiato molto la squadra a gennaio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'effetto Lukman a gennaio ha cambiato molto",
+          "start_sec": 60.96,
+          "end_sec": 91.88,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'Arsenal si è spento nel momento decisivo.",
+      "polarity": "negative",
+      "claim_id": "57e6a51f-7d78-41f9-9c0a-0a58eb214eb6",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s0",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal si è spento nel momento decisivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Arsenal sul più bello si è un po' spent",
+          "start_sec": 0.199,
+          "end_sec": 36.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Atletico Madrid",
+      "position": "Atletico Madrid e Arsenal possono offrire spunti interessanti nella semifinale.",
+      "polarity": "neutral",
+      "claim_id": "d17dbc6f-9c9d-4fe1-837f-b77f01c22576",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s0",
+      "target_entity": "Atletico Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Atletico Madrid e Arsenal possono offrire spunti interessanti nella semifinale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Atletico Madrid Arsenal secondo me ci può dare comunque degli spunti interessanti",
+          "start_sec": 0.199,
+          "end_sec": 36.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "spunti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Michel Arteta",
+      "position": "Michel Arteta ha fatto bene negli anni ma non ha mai vinto titoli importanti.",
+      "polarity": "neutral",
+      "claim_id": "ec123a33-f522-4f03-8df9-a033c6e21361",
+      "video_id": "4hAnBqJDj7o",
+      "segment_id": "s1",
+      "target_entity": "Michel Arteta",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Michel Arteta ha fatto bene negli anni ma non ha mai vinto titoli importanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono anni che fa bene, però Ma non vince, non vince mai nulla",
+          "start_sec": 34.079,
+          "end_sec": 63.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "performance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,345 @@
+{
+  "video_id": "gdgIHTaUEQE",
+  "analyzed_at": "2026-04-26T11:44:01.691394+00:00",
+  "metadata": {
+    "title": "Inter e Juventus le più danneggiate in Serie A #Shorts",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-15T12:32:11+00:00"
+  },
+  "summary": "Il video analizza l'impatto degli errori arbitrali in Serie A, evidenziando come Juventus e Inter siano le squadre più penalizzate secondo i dati di Penvar, con un saldo negativo di episodi arbitrali favorevoli e contrari pari a meno tre. L'autore sottolinea che, nonostante il VAR, gli errori arbitrali sono frequenti e influenzano significativamente la classifica, con la Fiorentina risultata la squadra più favorita. La conclusione chiave è che il sistema arbitrale italiano presenta ancora gravi problemi, con il VAR che in alcuni casi non corregge ma addirittura aggrava gli errori.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "serie a",
+      "relevance": "high"
+    },
+    {
+      "name": "saldo",
+      "relevance": "high"
+    },
+    {
+      "name": "errore arbitrale",
+      "relevance": "medium"
+    },
+    {
+      "name": "erore arbitrale",
+      "relevance": "medium"
+    },
+    {
+      "name": "var",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Fiorentina",
+      "position": "Fiorentina è la formazione più aiutata in Serie A con un saldo positivo di +3.",
+      "polarity": "positive",
+      "claim_id": "7deb3917-a7cc-4ff0-83db-1df1499faecb",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s1",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fiorentina è la formazione più aiutata in Serie A con un saldo positivo di +3.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La formazione più aiutata è la Fiorentina con un saldo positivo di +3",
+          "start_sec": 29.8,
+          "end_sec": 61.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "arbitraggio",
+        "saldo",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Penvar",
+      "position": "Penvar asserisce che ci sono stati 30 errori arbitrali in 32 giornate di Serie A.",
+      "polarity": "neutral",
+      "claim_id": "af69ffe7-dd3f-4071-8aa9-c1f52b2da0be",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s0",
+      "target_entity": "Penvar",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Penvar asserisce che ci sono stati 30 errori arbitrali in 32 giornate di Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo già ad un totale di 30 in 32 giornate",
+          "start_sec": 0.199,
+          "end_sec": 32.278999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "errori arbitrali"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Juventus",
+      "position": "La Juventus è la squadra più danneggiata dagli arbitri in Serie A secondo Penvar.",
+      "polarity": "negative",
+      "claim_id": "312ebfa1-b4ac-48ae-9cd2-806fc3260074",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s0",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Juventus è la squadra più danneggiata dagli arbitri in Serie A secondo Penvar.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Juventus è la squadra più danneggiata dagli arbitri in Serie A secondo Penvar.",
+          "start_sec": 0.199,
+          "end_sec": 32.278999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "arbitri",
+        "penvar"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Inter",
+      "position": "Inter e Juventus hanno il saldo peggior tra episodi arbitrali favorevoli e contrari, entrambe a meno tre.",
+      "polarity": "negative",
+      "claim_id": "52eccc70-df43-4deb-83ed-fc9f3ed3c965",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Inter e Juventus hanno il saldo peggior tra episodi arbitrali favorevoli e contrari, entrambe a meno tre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "i bianconeri insieme all'Inter sono quelli con il saldo peggiore tra gli episodi a favore e quelli contro. Entrambe sono a meno tre",
+          "start_sec": 0.199,
+          "end_sec": 32.278999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "arbitri",
+        "saldo",
+        "inter",
+        "juventus"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Napoli",
+      "position": "La squadra di Spalletti ha avuto due favori e cinque torti arbitrali in Serie A.",
+      "polarity": "negative",
+      "claim_id": "fac5b7a0-5e49-4207-baf4-9bd1cddb2dd7",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra di Spalletti ha avuto due favori e cinque torti arbitrali in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La squadra di Spalletti e prima di Tudor ha avuto due favori e cinque torti",
+          "start_sec": 0.199,
+          "end_sec": 32.278999999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "arbitri",
+        "napoli"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Inter",
+      "position": "Inter è una delle squadre più danneggiate in Serie A secondo il saldo negativo degli arbitraggi.",
+      "polarity": "negative",
+      "claim_id": "d6422750-2a1e-468d-8b25-874b62a61490",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter è una delle squadre più danneggiate in Serie A secondo il saldo negativo degli arbitraggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter e Juventus le più danneggiate in Serie A",
+          "start_sec": 29.8,
+          "end_sec": 61.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "arbitraggio",
+        "saldo",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Juventus",
+      "position": "Juventus ha un saldo negativo nell'arbitraggio in Serie A, risultando tra le più penalizzate.",
+      "polarity": "negative",
+      "claim_id": "3947fa3d-cec0-4f2b-add6-0f1d5a1a7781",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Juventus ha un saldo negativo nell'arbitraggio in Serie A, risultando tra le più penalizzate.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Inter e Juventus le più danneggiate in Serie A",
+          "start_sec": 29.8,
+          "end_sec": 61.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "arbitraggio",
+        "saldo",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Milan",
+      "position": "Milan ha un saldo paritario negli arbitraggi in Serie A.",
+      "polarity": "neutral",
+      "claim_id": "2565e70e-9b10-427c-a56b-86f8e7747025",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s1",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Milan ha un saldo paritario negli arbitraggi in Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono in paro invece Bologna, Milan e Roma",
+          "start_sec": 29.8,
+          "end_sec": 61.760000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "arbitraggio",
+        "saldo",
+        "squadra"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "Il VAR non riesce a correggere tutti gli errori arbitrali nella Serie A.",
+      "polarity": "negative",
+      "claim_id": "4aa20278-7326-46aa-824d-82306e5a3e21",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il VAR non riesce a correggere tutti gli errori arbitrali nella Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un VAR che non riesce a sanarli tutti",
+          "start_sec": 59.44,
+          "end_sec": 70.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "errore arbitrale"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "VAR",
+      "position": "In certi casi il VAR fa sbagliare l'arbitro nella Serie A.",
+      "polarity": "negative",
+      "claim_id": "d7700857-e5aa-47e3-b3b6-b5e8bebb6237",
+      "video_id": "gdgIHTaUEQE",
+      "segment_id": "s2",
+      "target_entity": "VAR",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "In certi casi il VAR fa sbagliare l'arbitro nella Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in certi casi è il VAR che fa sbagliare l'arbitro",
+          "start_sec": 59.44,
+          "end_sec": 70.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "VAR",
+        "errore arbitrale"
+      ]
+    }
+  ]
+}

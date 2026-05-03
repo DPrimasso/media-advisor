@@ -1,0 +1,412 @@
+{
+  "video_id": "OPwoanPbL_U",
+  "analyzed_at": "2026-04-25T11:08:36.061524+00:00",
+  "metadata": {
+    "title": "TMW News: Como, Fabregas non molla. Fiorentina, salvezza ad un passo",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": "2026-04-14T13:16:49+00:00"
+  },
+  "summary": "Il video si concentra sull’andamento della Serie A, con particolare attenzione alla vittoria della Fiorentina che la avvicina alla salvezza, e sul riconoscimento ricevuto da Sesc Fabregas, allenatore del Como, con il Premio Bearzot. L’autore sottolinea come la Fiorentina abbia consolidato il vantaggio sulle squadre in zona retrocessione, mentre il Como rappresenta la grande sorpresa del campionato grazie al lavoro di Fabregas, che dedica il premio alla città, alla società e alla memoria di Michael Artono. Si evidenzia un percorso di crescita importante per il Como, nonostante le difficoltà, e ",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "settore giovanile",
+      "relevance": "medium"
+    },
+    {
+      "name": "crescita",
+      "relevance": "medium"
+    },
+    {
+      "name": "premio",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    },
+    {
+      "name": "politica federale",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "ritiro premio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina ha vinto contro la Lazio nella 32ª giornata di Serie A.",
+      "polarity": "positive",
+      "claim_id": "bb4f29e5-8a30-4eb3-8552-4388fb971081",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina ha vinto contro la Lazio nella 32ª giornata di Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si è chiusa ieri la 32ª giornata del campionato di Serie A con la vittoria della Fiorentina contro la Lazio",
+          "start_sec": 12.759,
+          "end_sec": 73.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie a",
+        "vittoria",
+        "32ª giornata"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La vittoria consente alla Fiorentina di avere otto punti di vantaggio sul Lecce e Cremonese, terzultime.",
+      "polarity": "positive",
+      "claim_id": "e567f21a-3a76-4628-8473-874a33005869",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La vittoria consente alla Fiorentina di avere otto punti di vantaggio sul Lecce e Cremonese, terzultime.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un successo che consente ai Viola adesso di avere otto punti di vantaggio sul Lecce Cremonese, entrambe al terzultimo posto",
+          "start_sec": 12.759,
+          "end_sec": 73.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "vantaggio",
+        "lotta salvezza"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Fiorentina",
+      "position": "La Fiorentina si avvicina a grandi passi verso la salvezza grazie a questa vittoria.",
+      "polarity": "positive",
+      "claim_id": "5bc9e509-7488-4a87-ac86-4191aeb2b82c",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s0",
+      "target_entity": "Fiorentina",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Fiorentina si avvicina a grandi passi verso la salvezza grazie a questa vittoria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Dunque questi tre punti danno la possibilità alla Fiorentina di avvicinarsi a grandi passi verso la salvezza",
+          "start_sec": 12.759,
+          "end_sec": 73.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "salvezza",
+        "avvicinamento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sesc Fabregas",
+      "position": "Sesc Fabregas ha ricevuto il Premio Bearzot a Roma.",
+      "polarity": "positive",
+      "claim_id": "d4ff59f2-1a1b-4301-8bda-458debf88b46",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s0",
+      "target_entity": "Sesc Fabregas",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Sesc Fabregas ha ricevuto il Premio Bearzot a Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il tecnico del Como, che ieri è stato insignito a Roma del Premio Bearzot",
+          "start_sec": 12.759,
+          "end_sec": 73.64,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "premio",
+        "riconoscimento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sesc Fabregas",
+      "position": "Fabregas si sente in casa in Italia e molto amato.",
+      "polarity": "positive",
+      "claim_id": "9107a921-0df6-4d2e-abef-027cb893209e",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s1",
+      "target_entity": "Sesc Fabregas",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabregas si sente in casa in Italia e molto amato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Italia mi sento in casa e mi è sentito sempre molto amato",
+          "start_sec": 70.84,
+          "end_sec": 138.72000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "sentimento",
+        "italia"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Como",
+      "position": "Il Como è la grande sorpresa del campionato.",
+      "polarity": "positive",
+      "claim_id": "9b325b40-56c7-48c9-9f3b-52a3a12973ff",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s1",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Como è la grande sorpresa del campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Como resta la grande sorpresa di questo campionato",
+          "start_sec": 70.84,
+          "end_sec": 138.72000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "squadra",
+        "prestazione",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Sesc Fabregas",
+      "position": "Il premio ricevuto è un riconoscimento a tutta la città di Como, alla società e al progetto.",
+      "polarity": "positive",
+      "claim_id": "bb098a76-c9c1-41ed-aa84-2d90992007bd",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s1",
+      "target_entity": "Sesc Fabregas",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il premio ricevuto è un riconoscimento a tutta la città di Como, alla società e al progetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per me questo è per tutta la città di Como, per la società e per tutti quelli che hanno creduto in quel progetto",
+          "start_sec": 70.84,
+          "end_sec": 138.72000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "premio",
+        "riconoscimento",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como sta crescendo molto velocemente in progetto e struttura.",
+      "polarity": "positive",
+      "claim_id": "3e470216-64b6-4623-946e-77177e2f0054",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como sta crescendo molto velocemente in progetto e struttura.",
+      "evidence_quotes": [
+        {
+          "quote_text": "stiamo crescendo molto velocemente. Si sta facendo una cosa, secondo me, io che sono dentro importante e e dobbiamo continuare così.",
+          "start_sec": 136.959,
+          "end_sec": 211.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "crescita",
+        "progetto",
+        "struttura"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como ha migliorato le infrastrutture con security, palestra e tre campi da gioco.",
+      "polarity": "neutral",
+      "claim_id": "8390a8d4-9d92-438c-9020-505702ff4062",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Como ha migliorato le infrastrutture con security, palestra e tre campi da gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La stessa cosa che adesso abbiamo già un security, abbiamo una palestra in condizione, abbiamo tre campi",
+          "start_sec": 136.959,
+          "end_sec": 211.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infrastruttura",
+        "sport",
+        "impianti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Como",
+      "position": "Como è passato dal non organizzare amichevoli a giocare contro l'Inter in due anni.",
+      "polarity": "neutral",
+      "claim_id": "282ec170-ea10-400b-a838-6e1020802d06",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s2",
+      "target_entity": "Como",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Como è passato dal non organizzare amichevoli a giocare contro l'Inter in due anni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "2 anni fa cercavamo di fare amichevole, era un sogno contro l'Inter e ieri stiamo giocando una una bella partita",
+          "start_sec": 136.959,
+          "end_sec": 211.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "amichevoli",
+        "storia",
+        "calendario"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia",
+      "position": "L'Italia non si è qualificata per il mondiale per tre volte di seguito.",
+      "polarity": "negative",
+      "claim_id": "f93a6f81-1ce2-4f44-a65e-b0303926ed47",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s2",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia non si è qualificata per il mondiale per tre volte di seguito.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in un momento dove per tante circostanze l'Italia non si qualifica in un mondiale per per tre volte, no?",
+          "start_sec": 136.959,
+          "end_sec": 211.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "mondiali",
+        "qualificazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Michael Artono",
+      "position": "Michael Artono è deceduto la settimana scorsa.",
+      "polarity": "neutral",
+      "claim_id": "cf2876f2-3784-4227-943d-eefc8dba9dc0",
+      "video_id": "OPwoanPbL_U",
+      "segment_id": "s1",
+      "target_entity": "Michael Artono",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Michael Artono è deceduto la settimana scorsa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a Michael Artono che ci ha lasciato anche la settimana scorsa",
+          "start_sec": 70.84,
+          "end_sec": 138.72000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "decesso",
+        "personale",
+        "leadership"
+      ]
+    }
+  ]
+}

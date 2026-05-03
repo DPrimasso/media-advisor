@@ -1,0 +1,399 @@
+{
+  "video_id": "7Eix2pJGDbE",
+  "analyzed_at": "2026-04-24T08:46:42.902672+00:00",
+  "metadata": {
+    "title": "SEI Colpi per la nuova INTER 26/27 che cambia Modulo: tutti i nomi",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-08"
+  },
+  "summary": "Il video analizza le strategie di mercato dell’Inter per la stagione 2026/27, con particolare attenzione al futuro di Cristian Kivo. L’autore sostiene che il rinnovo del contratto di Kivo dipenderà fortemente dal risultato dello scudetto: in caso di vittoria, il tecnico sarà confermato e avrà maggiore peso nelle decisioni di mercato, altrimenti potrebbe essere esonerato. Nonostante qualche critica per l’eliminazione dalla Champions, Kivo ha dimostrato buone prestazioni con le risorse a disposizione. La stagione in corso è cruciale per definire la direzione futura della squadra e le scelte di m",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciatori",
+      "relevance": "medium"
+    },
+    {
+      "name": "sostituzione",
+      "relevance": "low"
+    },
+    {
+      "name": "rinnovo",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Inter sta definendo strategie di mercato importanti nel mese di aprile 2026.",
+      "polarity": "neutral",
+      "claim_id": "fc9cc424-e4fc-440b-9899-1de9cbd2dc63",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Inter sta definendo strategie di mercato importanti nel mese di aprile 2026.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono previste proprio in questi giorni una serie di incontri e di contatti per definire quelle che saranno le strategie dell'Inter da qui in avanti",
+          "start_sec": 1.12,
+          "end_sec": 67.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "strategia",
+        "inter"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha ottenuto 14 vittorie e tre pareggi nella stagione mostrata.",
+      "polarity": "positive",
+      "claim_id": "2cd09672-515f-4c96-a18e-2e068bdddb70",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha ottenuto 14 vittorie e tre pareggi nella stagione mostrata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse sono 14 vittorie e tre pareggi, comunque e cambia poco",
+          "start_sec": 202.92,
+          "end_sec": 280.19899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultati"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Cristian Kivo",
+      "position": "Il futuro di Cristian Kivo potrebbe dipendere dal risultato dello scudetto.",
+      "polarity": "neutral",
+      "claim_id": "d3dfef31-a54f-48ce-8aef-72c70e8107b9",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s0",
+      "target_entity": "Cristian Kivo",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il futuro di Cristian Kivo potrebbe dipendere dal risultato dello scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ti aspetti che lo scudetto o no possa fare la differenza sul futuro di Cristian Kivo?",
+          "start_sec": 1.12,
+          "end_sec": 67.479,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "futuro",
+        "giocatore",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Kivu",
+      "position": "Il rinnovo di Kivu dipende dallo scudetto che l'Inter conquisterà in questa stagione.",
+      "polarity": "positive",
+      "claim_id": "aa646910-64c4-4aca-abff-0f6624e27c71",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s1",
+      "target_entity": "Kivu",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Il rinnovo di Kivu dipende dallo scudetto che l'Inter conquisterà in questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Io continuo a dire che il rinnovo dipende dallo scudetto perché se l'Inter dovesse conquistare il suo 2eso scudetto, non c'è dubbio che verrà prolungato il contratto di Kiwu",
+          "start_sec": 65.08,
+          "end_sec": 141.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovo",
+        "contratto",
+        "scudetto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Kivu",
+      "position": "Kivu vorrebbe avere più peso sulle strategie di mercato dell'Inter.",
+      "polarity": "positive",
+      "claim_id": "913349d4-2a82-47cc-bac9-d53a0e990154",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s1",
+      "target_entity": "Kivu",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kivu vorrebbe avere più peso sulle strategie di mercato dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kivu vorrebbe anche avere un po' più di peso eh sulle strategie di mercato",
+          "start_sec": 65.08,
+          "end_sec": 141.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "influenza",
+        "strategia mercato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Kivu",
+      "position": "Se l'Inter non dovesse vincere lo scudetto, Kivu potrebbe non essere rinnovato e potrebbe essere esonerato.",
+      "polarity": "negative",
+      "claim_id": "c5dd5f46-24ae-40c2-a5ac-eb84188317aa",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s1",
+      "target_entity": "Kivu",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Se l'Inter non dovesse vincere lo scudetto, Kivu potrebbe non essere rinnovato e potrebbe essere esonerato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se viceversa l'Inter non dovesse conquistare questo scudetto, io non solo non penso che ci sarà rinnovo, ma probabilmente OCE potrebbe anche dare il ben servito a Kivo",
+          "start_sec": 65.08,
+          "end_sec": 141.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovo",
+        "esonerato"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter era considerata favorita all'inizio della stagione per lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "90153659-5497-41d1-82e3-7c550d3d3db8",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter era considerata favorita all'inizio della stagione per lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse a inizio stagione l'Inter mera la favorita perché eh insomma lo scudetto sul petto eh ce l'ha il Napoli",
+          "start_sec": 65.08,
+          "end_sec": 141.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "favorita",
+        "scudetto",
+        "inizio stagione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Kivu",
+      "position": "Kivu ha fatto il massimo con gli strumenti disponibili, tranne l'eliminazione in Champions.",
+      "polarity": "positive",
+      "claim_id": "3d610bb9-2620-499c-bd97-f4b063275148",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s2",
+      "target_entity": "Kivu",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Kivu ha fatto il massimo con gli strumenti disponibili, tranne l'eliminazione in Champions.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ma no, Kibo ha fatto secondo me a parte la l'eliminazione della Champions che resta un neo in questa stagione, per il resto secondo me ha fatto il massimo con quello che aveva a disposizione.",
+          "start_sec": 139.44,
+          "end_sec": 206.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Kivu",
+      "position": "Kivu aveva richieste specifiche di mercato per calciatori da mettere a disposizione.",
+      "polarity": "neutral",
+      "claim_id": "4cda69e0-4854-4914-90ce-d9aeba802862",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s2",
+      "target_entity": "Kivu",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Kivu aveva richieste specifiche di mercato per calciatori da mettere a disposizione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Kivu avesse alcune richieste di mercato in termini anche di caratteristiche di calciatori da mettere a disposizione.",
+          "start_sec": 139.44,
+          "end_sec": 206.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Inter",
+      "position": "L'Inter ha vinto il titolo platonico di campione d'inverno e guida il girone di ritorno.",
+      "polarity": "positive",
+      "claim_id": "7653a8a3-2b48-4086-8942-66426d1796f0",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha vinto il titolo platonico di campione d'inverno e guida il girone di ritorno.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter ha vinto il il titolo platonico di campione d'inverno, è prima in classifica nel girone di ritorno",
+          "start_sec": 202.92,
+          "end_sec": 280.19899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "Sono cinque i calciatori dell'Inter con contratti in scadenza, nessuno è in trattativa per il rinnovo.",
+      "polarity": "neutral",
+      "claim_id": "ae274b5b-0f1e-44d2-9d71-516fd6bbe39a",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sono cinque i calciatori dell'Inter con contratti in scadenza, nessuno è in trattativa per il rinnovo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sono cinque calciatori in scadenza di contratto, non tutti i titolari ovviamente, ma che difficilmente eh rimarranno, anzi da quello che ci risulta in questo momento non c'è nessuna trattativa per nessuno dei cinque per il rinnovo del contratto",
+          "start_sec": 202.92,
+          "end_sec": 280.19899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratti",
+        "scadenza"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Sommer",
+      "position": "Potrebbe esserci una trattativa per il rinnovo di Sommer se accetta il ruolo di secondo portiere.",
+      "polarity": "neutral",
+      "claim_id": "295e1968-4760-443b-a29a-a379b50bdb6d",
+      "video_id": "7Eix2pJGDbE",
+      "segment_id": "s3",
+      "target_entity": "Sommer",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Potrebbe esserci una trattativa per il rinnovo di Sommer se accetta il ruolo di secondo portiere.",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbe intavolarsi una trattativa, per esempio, per Sommer se decidesse di accettare il ruolo di eh portiere in seconda",
+          "start_sec": 202.92,
+          "end_sec": 280.19899999999996,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "portiere"
+      ]
+    }
+  ]
+}

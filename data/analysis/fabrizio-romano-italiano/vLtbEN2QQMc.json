@@ -1,0 +1,398 @@
+{
+  "video_id": "vLtbEN2QQMc",
+  "analyzed_at": "2026-05-02T08:05:29.135178+00:00",
+  "metadata": {
+    "title": "🚨 ADDIO VICINO! NOVITÀ IN PORTA! ALISSON-JONES: JUVE-INTER, STESSA STORIA! SOMMER, PEPO E MASSARA…",
+    "author_name": "Fabrizio Romano in Italiano",
+    "published_at": null
+  },
+  "summary": "Il video di Fabrizio Romano si concentra principalmente sulle turbolenze nel management della Roma, con particolare attenzione alla posizione sempre più precaria del direttore sportivo Ricky Massara, la cui separazione dal club appare ormai imminente a causa di rapporti difficili con l’allenatore e la società. Inoltre, si affronta la situazione dell’Inter riguardo al ruolo di portiere, con Guglielmo Vicario che ha manifestato piena disponibilità a trasferirsi, ma l’operazione è in standby in attesa di sviluppi sul futuro del Tottenham. L’autore sottolinea come queste dinamiche siano indicative",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "portiere",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "società",
+      "relevance": "medium"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "porta",
+      "relevance": "low"
+    },
+    {
+      "name": "rapporto",
+      "relevance": "low"
+    },
+    {
+      "name": "decisione",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Ricky Massara",
+      "position": "La posizione di Ricky Massara alla Roma è sempre più traballante e destinata a un cambiamento.",
+      "polarity": "negative",
+      "claim_id": "d7a453ff-3925-4c7b-9092-a8a3bb047d96",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s1",
+      "target_entity": "Ricky Massara",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "La posizione di Ricky Massara alla Roma è sempre più traballante e destinata a un cambiamento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la posizione di Ricky Massara alla Roma è una posizione sempre più traballante, sempre più in pericolo, sempre più destinata ad un cambiamento",
+          "start_sec": 29.92,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "direttore sportivo",
+        "mercato",
+        "ambiente Roma"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ricky Massara",
+      "position": "Si prevede una separazione tra la Roma e Ricky Massara salvo clamorose sorprese.",
+      "polarity": "neutral",
+      "claim_id": "23498c19-582f-44e8-add3-17690dc2ccf7",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s1",
+      "target_entity": "Ricky Massara",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Si prevede una separazione tra la Roma e Ricky Massara salvo clamorose sorprese.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A meno di clamorose sorprese ci si aspetta una separazione tra la Roma e Ricky Massara",
+          "start_sec": 29.92,
+          "end_sec": 67.759,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "direttore sportivo",
+        "mercato",
+        "ambiente Roma"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giampiero Gasperini",
+      "position": "Il rapporto tra Giampiero Gasperini e Massara è stato particolarmente complesso negli ultimi mesi.",
+      "polarity": "neutral",
+      "claim_id": "fbe912e0-917c-42de-9d75-69568632a448",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s2",
+      "target_entity": "Giampiero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il rapporto tra Giampiero Gasperini e Massara è stato particolarmente complesso negli ultimi mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come il rapporto tra Gasperini, Massara fosse particolarmente complesso",
+          "start_sec": 65.92,
+          "end_sec": 96.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rapporto",
+        "leadership",
+        "società"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri è stato ex senior advisor della Roma fino a poco tempo fa.",
+      "polarity": "neutral",
+      "claim_id": "cf859c54-7984-47ec-9172-5e006de35a89",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s2",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri è stato ex senior advisor della Roma fino a poco tempo fa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la figura di Claudio Ranieri da ormai ex senior advisor della Roma",
+          "start_sec": 65.92,
+          "end_sec": 96.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ruolo",
+        "leadership",
+        "società"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "La Roma ha vissuto problemi nelle relazioni interne fra società e parte tecnica con l'allenatore negli ultimi mesi.",
+      "polarity": "neutral",
+      "claim_id": "ce62f525-ce75-4ad0-8b1b-197d93a410d8",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La Roma ha vissuto problemi nelle relazioni interne fra società e parte tecnica con l'allenatore negli ultimi mesi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "differenze che ci sono state nella società giallorossa con la parte tecnica, con l'allenatore durante gli ultimi mesi",
+          "start_sec": 65.92,
+          "end_sec": 96.88000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "relazioni interne",
+        "società",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Guglielmo Vicario",
+      "position": "Guglielmo Vicario ha dato un consenso totale per trasferirsi all'Inter.",
+      "polarity": "positive",
+      "claim_id": "2b77aae2-80e0-43f0-b8f8-18b804009fed",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s4",
+      "target_entity": "Guglielmo Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Guglielmo Vicario ha dato un consenso totale per trasferirsi all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Vicario all'Inter ha dato un'apertura, un consenso totale",
+          "start_sec": 125.96,
+          "end_sec": 154.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "portiere",
+        "transfer"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Guglielmo Vicario",
+      "position": "Vicario è motivato dal progetto dell'Inter e desidera tornare in Italia.",
+      "polarity": "positive",
+      "claim_id": "70c47696-14a9-4f61-bec1-0bf98a86aee6",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s4",
+      "target_entity": "Guglielmo Vicario",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Vicario è motivato dal progetto dell'Inter e desidera tornare in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "vorrebbe tornare in Italia. il progetto Inter, insomma, lo stimola, lo tenta veramente tanto",
+          "start_sec": 125.96,
+          "end_sec": 154.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "motivazione",
+        "progetto",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter deve ancora decidere sul tema portiere e non ha ancora chiuso l'accordo con il club di Vicario.",
+      "polarity": "neutral",
+      "claim_id": "2a3d642e-7fd3-4231-9c15-e609b7e9910a",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s4",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter deve ancora decidere sul tema portiere e non ha ancora chiuso l'accordo con il club di Vicario.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter chiaramente dovrà prendere una decisione sul tema portiere. da tempo ha in pugno il sì di Guglielmo Vicario... l'Inter, vi abbiamo sempre detto, non ha ancora chiuso",
+          "start_sec": 125.96,
+          "end_sec": 154.92000000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "portiere",
+        "decisione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "L'Inter ha un accordo pronto con Vicario ma non ha mai chiuso tra i club.",
+      "polarity": "neutral",
+      "claim_id": "cfd8c965-036e-41c1-b715-78820ac1ad4d",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s5",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha un accordo pronto con Vicario ma non ha mai chiuso tra i club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Inter ha un accordo pronto con Vicario, ma non ha mai chiuso tra club e quindi questo è lo stato dell'arte.",
+          "start_sec": 153.16,
+          "end_sec": 180.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "Le condizioni dell'operazione Vicario dipendono dal fatto che la squadra sia in Premier o retroceda.",
+      "polarity": "neutral",
+      "claim_id": "4687a4e1-08e6-440d-a5cc-091f3883f877",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s5",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Le condizioni dell'operazione Vicario dipendono dal fatto che la squadra sia in Premier o retroceda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Chiaramente potrete capire da soli che un conto essere in premier, un conto è retrocedere.",
+          "start_sec": 153.16,
+          "end_sec": 180.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Martinez",
+      "position": "Martinez sta iniziando a convincere sempre di più l'Inter.",
+      "polarity": "positive",
+      "claim_id": "e8fa3cdb-194b-492a-a429-6910eafb42a2",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s5",
+      "target_entity": "Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Martinez sta iniziando a convincere sempre di più l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Nel frattempo Martinez inizia a convincere sempre di più.",
+          "start_sec": 153.16,
+          "end_sec": 180.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Vicario",
+      "position": "L'operazione Vicario è rimasta in standby.",
+      "polarity": "neutral",
+      "claim_id": "8ccc858c-8f27-457a-88c1-04c654fa30e8",
+      "video_id": "vLtbEN2QQMc",
+      "segment_id": "s5",
+      "target_entity": "Vicario",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'operazione Vicario è rimasta in standby.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quindi è rimasta sempre in standby questa operazione.",
+          "start_sec": 153.16,
+          "end_sec": 180.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "video_id": "bNAKGUdLN_w",
+  "analyzed_at": "2026-04-29T08:09:18.603293+00:00",
+  "metadata": {
+    "title": "TMW News: Il mercato delle big e le novità delle panchine",
+    "author_name": "TuttoMercatoWeb",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulle strategie di mercato e sulle novità riguardanti le panchine delle big del calcio italiano, con particolare attenzione alla Roma. L'autore sottolinea che Gasperini avrà un ruolo centrale nel progetto triennale del club giallorosso, e che la società sta valutando possibili successori di Massara tra dirigenti esperti come Cristiano Giuntoli, Tony D'Amico e Sean Sogliano, mentre l'ipotesi di un arrivo di Fabio Paratici appare improbabile dato il suo contratto con la Fiorentina. In conclusione, la Roma sembra intenzionata a costruire un progetto solido e condiviso tra al",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "centrocampo",
+      "relevance": "medium"
+    },
+    {
+      "name": "carriera",
+      "relevance": "medium"
+    },
+    {
+      "name": "calciomercato",
+      "relevance": "low"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    },
+    {
+      "name": "riscatto",
+      "relevance": "low"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Fabio Paratici",
+      "position": "Fabio Paratici ha un contratto di 4 anni con la Fiorentina.",
+      "polarity": "neutral",
+      "claim_id": "e8a3ca8f-826b-4a04-9288-141c847658f8",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s1",
+      "target_entity": "Fabio Paratici",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Fabio Paratici ha un contratto di 4 anni con la Fiorentina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Paratici ha un contratto di 4 anni con la Fiorentina",
+          "start_sec": 97.079,
+          "end_sec": 180.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gian Piero Gasperini",
+      "position": "Gasperini avrà un ruolo determinante nel progetto triennale della Roma.",
+      "polarity": "positive",
+      "claim_id": "25b88ddf-0033-4c24-b6fd-5cb875b452cc",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s0",
+      "target_entity": "Gian Piero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gasperini avrà un ruolo determinante nel progetto triennale della Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si è capito chiaramente, no, che Gasperini avrà un ruolo determinante in questa società, si punterà forte su di lui, su questo progetto che è un progetto triennale",
+          "start_sec": 12.96,
+          "end_sec": 99.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "progetto triennale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "La Roma punta a un progetto triennale sotto la guida di Gasperini.",
+      "polarity": "positive",
+      "claim_id": "507b16d6-83e6-4038-93ff-26b6f21c79a4",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s0",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Roma punta a un progetto triennale sotto la guida di Gasperini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "si punterà forte su di lui, su questo progetto che è un progetto triennale",
+          "start_sec": 12.96,
+          "end_sec": 99.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "società",
+        "progetto triennale"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Cristiano Giuntoli",
+      "position": "Cristiano Giuntoli è considerato come possibile successore di Massara alla Roma.",
+      "polarity": "positive",
+      "claim_id": "2f9b8523-35d0-422e-8859-6221165ba5a6",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s0",
+      "target_entity": "Cristiano Giuntoli",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Cristiano Giuntoli è considerato come possibile successore di Massara alla Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È è evidente che Cristiano Giuntoli sia un nome più che spendibile, proprio perché comunque ha delle esperienze importanti alle spalle",
+          "start_sec": 12.96,
+          "end_sec": 99.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "ds",
+        "successione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Sean Sogliano",
+      "position": "Sean Sogliano è considerato un valido operatore di mercato per il suo lavoro a Verona.",
+      "polarity": "positive",
+      "claim_id": "f719984a-2ce1-4c46-a258-104caee5c3c8",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s1",
+      "target_entity": "Sean Sogliano",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sean Sogliano è considerato un valido operatore di mercato per il suo lavoro a Verona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Sean Sogliano abbia le sue chance perché comunque ha lavorato molto bene in questi anni a Verona, forse è stato anche fin troppo sottovalutato perché ha fatto delle cose eccezionali, andando a prendere i giocatori a poco, rivendendoli a tantissimo",
+          "start_sec": 97.079,
+          "end_sec": 180.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "performance"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Fabio Paratici",
+      "position": "Sarebbe clamoroso se Fabio Paratici lasciasse la Fiorentina per la Roma.",
+      "polarity": "neutral",
+      "claim_id": "41f2f817-f39b-4095-89a7-2bc331f50166",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s1",
+      "target_entity": "Fabio Paratici",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Sarebbe clamoroso se Fabio Paratici lasciasse la Fiorentina per la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sarebbe clamoroso, no, se decidesse di lasciare la Fiorentina e e ripartisse dalla Roma",
+          "start_sec": 97.079,
+          "end_sec": 180.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Roma",
+      "position": "La Roma potrebbe avere idee per rivoluzionare i dirigenti ma al momento è un discorso potenziale.",
+      "polarity": "neutral",
+      "claim_id": "d5d3ea6c-e5ff-46d0-8ccc-714c2b0d0119",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s2",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La Roma potrebbe avere idee per rivoluzionare i dirigenti ma al momento è un discorso potenziale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che la Roma un'idea ce la possa anche avere, ma comeè normale se tu vuoi fare qualcosa di importante, di avere giunto, di avere, che ne so, altri direttori sportivi di altissimo livello, però tra dire il fare c'è di mezzo il mare, quindi eh al momento ecco io direi che è più un discorso potenziale che altro.",
+          "start_sec": 178.28,
+          "end_sec": 275.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Paratici",
+      "position": "Paratici potrebbe essere considerato per un ruolo ma la sua assunzione appare molto difficile.",
+      "polarity": "neutral",
+      "claim_id": "e33fb0ab-21c3-4450-bec9-2e675b614a7d",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s2",
+      "target_entity": "Paratici",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Paratici potrebbe essere considerato per un ruolo ma la sua assunzione appare molto difficile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "francamente sarebbe clamoroso se se poi ci fosse, no, questo modo di confrontarsi con Paratici, eventualmente anche un una possibilità di prenderlo in considerazione. Io al momento però mi sentirei non di escluderla definitivamente perché nel mercato bisogna stare attenti, però mi sembra altamente difficile.",
+          "start_sec": 178.28,
+          "end_sec": 275.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Giunto",
+      "position": "Giunto potrebbe essere un candidato ideale per un ruolo lavorativo specifico in una squadra americana.",
+      "polarity": "positive",
+      "claim_id": "ac9631ec-fdf9-400a-8ee9-7aa31d6d778c",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s2",
+      "target_entity": "Giunto",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Giunto potrebbe essere un candidato ideale per un ruolo lavorativo specifico in una squadra americana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "io credo che sulla carta potrebbe essere giunto lì perché sarebbe un perfetto come piano di lavoro per lui",
+          "start_sec": 178.28,
+          "end_sec": 275.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Fritkin",
+      "position": "La proprietà americana Fritkin ha idee e modi di pensare differenti rispetto a quelli italiani nel calcio.",
+      "polarity": "neutral",
+      "claim_id": "4c3b3b1f-a8ba-4120-b7f8-13944aa30b7f",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s2",
+      "target_entity": "Fritkin",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La proprietà americana Fritkin ha idee e modi di pensare differenti rispetto a quelli italiani nel calcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "però poi bisogna anche vedere che cosa pensano i Fritkin, perché comunque è una proprietà americana che ha sicuramente le sue idee, ha sicuramente, diciamo, eh una una certa eh modo di pensare che magari non è proprio quello nostro italiano",
+          "start_sec": 178.28,
+          "end_sec": 275.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Giampiero Gasperini",
+      "position": "Il rapporto tra Giampiero Gasperini e Tony D'Amico è buono.",
+      "polarity": "positive",
+      "claim_id": "5334e16a-d03e-42c2-956c-41fa9e350d88",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s1",
+      "target_entity": "Giampiero Gasperini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rapporto tra Giampiero Gasperini e Tony D'Amico è buono.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il rapporto con Gasperini è buono",
+          "start_sec": 97.079,
+          "end_sec": 180.319,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "rapporto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Ghila Milan",
+      "position": "Ghila Milan è considerata una possibile operazione di mercato per il Milan.",
+      "polarity": "positive",
+      "claim_id": "bc971dbf-36ca-4abc-be1b-e65c2c791dd9",
+      "video_id": "bNAKGUdLN_w",
+      "segment_id": "s3",
+      "target_entity": "Ghila Milan",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Ghila Milan è considerata una possibile operazione di mercato per il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ghila Milan è un'operazione possibile, secondo te?",
+          "start_sec": 273.28,
+          "end_sec": 365.59999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

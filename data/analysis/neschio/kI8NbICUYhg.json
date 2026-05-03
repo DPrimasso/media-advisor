@@ -1,0 +1,397 @@
+{
+  "video_id": "kI8NbICUYhg",
+  "analyzed_at": "2026-04-25T11:00:06.124581+00:00",
+  "metadata": {
+    "title": "MA CHE ROBA È⁉️ BAYERN MONACO-REAL MADRID 4-3 e ARSENAL-SPORTING CP 0-0",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza con entusiasmo e un pizzico di frustrazione la partita Bayern Monaco-Real Madrid, sottolineando il ritmo elevato e la qualità tecnica vista in campo, con azioni di spicco come i gol di Olise e Mbappé e una parata decisiva di Neuer. L'autore evidenzia come il PSG appaia la squadra più equilibrata e meno incline agli errori rispetto alle altre, ipotizzando che la semifinale sarà particolarmente spettacolare. Nonostante alcune sbavature, la partita rappresenta un livello di calcio superiore rispetto alla media, suscitando sia piacere che una certa amarezza per la distanza tecnic",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "errore",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "regolamento",
+      "relevance": "medium"
+    },
+    {
+      "name": "equilibrio",
+      "relevance": "medium"
+    },
+    {
+      "name": "competizione",
+      "relevance": "low"
+    },
+    {
+      "name": "semifinale",
+      "relevance": "low"
+    },
+    {
+      "name": "episodio arbitrale",
+      "relevance": "low"
+    },
+    {
+      "name": "tensione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "La performance vista oggi ha un ritmo e una qualità molto elevati rispetto ad altre partite.",
+      "polarity": "positive",
+      "claim_id": "86ee853b-d33c-4cc0-8bb2-472d9cc87fe5",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s0",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La performance vista oggi ha un ritmo e una qualità molto elevati rispetto ad altre partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "what we have seen tonight, which is something, which is just another standard, another standard",
+          "start_sec": 1.1,
+          "end_sec": 65.61,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "qualità",
+        "ritmo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bayern Monaco",
+      "position": "Tra piacere ed irritazione per la partita vista, si nota un livello di gioco molto alto rispetto al normale.",
+      "polarity": "neutral",
+      "claim_id": "982b9f06-9e7e-42ba-b5c1-17ffdeced8d3",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s0",
+      "target_entity": "Bayern Monaco",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Tra piacere ed irritazione per la partita vista, si nota un livello di gioco molto alto rispetto al normale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I am almost angry tonight, that is, on the one hand I enjoyed it as never, I enjoyed it, you know, I enjoyed it, but on the other hand you have to, by force of course, compare it with what you are going to face",
+          "start_sec": 1.1,
+          "end_sec": 65.61,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "emozione",
+        "qualità"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Mbappé",
+      "position": "Mbappé starts and closes an important attacking action effectively.",
+      "polarity": "positive",
+      "claim_id": "987fb503-03b4-4db7-8e2b-01c430e46d22",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s1",
+      "target_entity": "Mbappé",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mbappé starts and closes an important attacking action effectively.",
+      "evidence_quotes": [
+        {
+          "quote_text": "you see a little where Mbappé starts and how he closes the action",
+          "start_sec": 66.05,
+          "end_sec": 113.45,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "attacco",
+        "giocatore",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "PSG",
+      "position": "PSG is the most balanced team among those considered for the semifinal.",
+      "polarity": "positive",
+      "claim_id": "9ed16664-39ac-47bd-b647-512ff921cb9c",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s2",
+      "target_entity": "PSG",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "PSG is the most balanced team among those considered for the semifinal.",
+      "evidence_quotes": [
+        {
+          "quote_text": "because in my opinion we will enjoy a semifinal, because PSG seemed to me the most balanced team of all",
+          "start_sec": 114.71,
+          "end_sec": 167.76999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Luis Diaz",
+      "position": "Luis Diaz made a mistake in the second half following a vertical pass by Kane.",
+      "polarity": "negative",
+      "claim_id": "b4891212-66b6-42c3-83df-b3eb5aceffea",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s2",
+      "target_entity": "Luis Diaz",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Luis Diaz made a mistake in the second half following a vertical pass by Kane.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A vertical pass by Kane in the second half, then Luis Diaz makes a mistake",
+          "start_sec": 114.71,
+          "end_sec": 167.76999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "PSG",
+      "position": "PSG does not commit the many mistakes observed in other teams during the games.",
+      "polarity": "positive",
+      "claim_id": "2aaf819a-bba7-400a-955b-09225e84748b",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s2",
+      "target_entity": "PSG",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "PSG does not commit the many mistakes observed in other teams during the games.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The mistakes I saw tonight, PSG does not commit them",
+          "start_sec": 114.71,
+          "end_sec": 167.76999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "game",
+      "position": "Games included many mistakes and beautiful football simultaneously.",
+      "polarity": "neutral",
+      "claim_id": "6753f53b-ed25-4b6c-83f2-dd8d2412baf2",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s2",
+      "target_entity": "game",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Games included many mistakes and beautiful football simultaneously.",
+      "evidence_quotes": [
+        {
+          "quote_text": "because then there is so much beauty, show, football, but there have also been mistakes",
+          "start_sec": 114.71,
+          "end_sec": 167.76999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Olise",
+      "position": "Olise scored a notable goal in the match.",
+      "polarity": "positive",
+      "claim_id": "47e2ac29-9718-432e-ad84-52a0d8063cfb",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s1",
+      "target_entity": "Olise",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Olise scored a notable goal in the match.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the last goal of Olise",
+          "start_sec": 66.05,
+          "end_sec": 113.45,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "giocatore",
+        "performance"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "giocatori",
+      "position": "Ci sono state simulazioni che hanno influenzato l'arbitraggio.",
+      "polarity": "negative",
+      "claim_id": "b0be57b9-8bb9-414b-a7fd-65114251b1b0",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s5",
+      "target_entity": "giocatori",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ci sono state simulazioni che hanno influenzato l'arbitraggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "it fell a couple of times with simulations",
+          "start_sec": 268.09,
+          "end_sec": 316.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "simulazione",
+        "arbitraggio"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "real madrid",
+      "position": "Il Real Madrid ha protestato molto dopo uno dei gol.",
+      "polarity": "neutral",
+      "claim_id": "a48e7f2a-ccd8-4a33-98c1-669970303ffb",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s5",
+      "target_entity": "real madrid",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid ha protestato molto dopo uno dei gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the same goal that I saw Real protesting so much",
+          "start_sec": 268.09,
+          "end_sec": 316.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "protesta",
+        "real madrid",
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Neuer",
+      "position": "Neuer made a notable save against Mbappé.",
+      "polarity": "positive",
+      "claim_id": "16f13266-90b4-4879-9ef9-2af597d68cae",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s1",
+      "target_entity": "Neuer",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Neuer made a notable save against Mbappé.",
+      "evidence_quotes": [
+        {
+          "quote_text": "let's still put Neuer's parade on Mbappé",
+          "start_sec": 66.05,
+          "end_sec": 113.45,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "parata",
+        "portiere",
+        "performance"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro non ha diretto bene la partita.",
+      "polarity": "negative",
+      "claim_id": "c456b5c0-a801-4b3f-aea4-05ce902e06c5",
+      "video_id": "kI8NbICUYhg",
+      "segment_id": "s5",
+      "target_entity": "arbitro",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro non ha diretto bene la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The refereeing was not great, I would say no",
+          "start_sec": 268.09,
+          "end_sec": 316.77,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "direzione partita",
+        "giudizio"
+      ]
+    }
+  ]
+}

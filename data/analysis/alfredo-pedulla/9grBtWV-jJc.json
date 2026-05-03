@@ -1,0 +1,409 @@
+{
+  "video_id": "9grBtWV-jJc",
+  "analyzed_at": "2026-04-26T12:03:44.881848+00:00",
+  "metadata": {
+    "title": "PERCHÉ CONTE SI AUTOCANDIDA. MA ALLEGRI È IN CORSA (SMENTITE A PARTE). E VLAHOVIC SI ROMPE SEMPRE🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà si concentra sulle dinamiche del mercato allenatori e sulle difficoltà attuali del calcio italiano, con particolare attenzione alla Juventus. L’autore sottolinea come Antonio Conte si sia autocandidato per un futuro ruolo da allenatore, mentre Allegri rimane in corsa nonostante alcune smentite, ma critica duramente l’atteggiamento difensivo della stampa nei suoi confronti, giudicando insufficiente la sua prestazione nell’ultima partita. Pedullà evidenzia inoltre l’importanza della qualificazione alla Champions League come elemento chiave per le trattative di mercato",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "finanza",
+      "relevance": "medium"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "valutazione",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "consiglio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Senesi",
+      "position": "Senesi has market value as a midfielder available at zero transfer fee.",
+      "polarity": "neutral",
+      "claim_id": "e4f23313-ab9c-4543-a4ea-095670068371",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s1",
+      "target_entity": "Senesi",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Senesi has market value as a midfielder available at zero transfer fee.",
+      "evidence_quotes": [
+        {
+          "quote_text": "senesi che ha il mercato per i centrocampisti che hanno un prezzo d'oro a parametro zero",
+          "start_sec": 30.759,
+          "end_sec": 63.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "calciatore",
+        "parametro zero"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "Juve contacted or was contacted by certain players about a year ago.",
+      "polarity": "neutral",
+      "claim_id": "f0a6da5d-a0c3-4ec2-ba00-2643fa0d4d42",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Juve contacted or was contacted by certain players about a year ago.",
+      "evidence_quotes": [
+        {
+          "quote_text": "coinvolge i calciatori che la Juve ha contattato un anno fa oppure è stata contattata da questi calciatori",
+          "start_sec": 30.759,
+          "end_sec": 63.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "calciatore",
+        "contatti"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Juventus",
+      "position": "There were visits to Continassa proposing forwards, as reported by newspapers.",
+      "polarity": "neutral",
+      "claim_id": "dfe2bf9a-bffd-47ee-a6b1-79e0714faf21",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s1",
+      "target_entity": "Juventus",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "There were visits to Continassa proposing forwards, as reported by newspapers.",
+      "evidence_quotes": [
+        {
+          "quote_text": "visite alla continassa di un po' di tempo fa proponendo attaccanti e già raccontate da quotidiani",
+          "start_sec": 30.759,
+          "end_sec": 63.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "visite",
+        "attaccanti"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Spalletti",
+      "position": "Spalletti ha dato consigli importanti per il futuro della squadra.",
+      "polarity": "positive",
+      "claim_id": "3a3992d7-6c94-4c15-8551-6afd45f85a25",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Spalletti ha dato consigli importanti per il futuro della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Spalletti ha dato dei consigli molto importanti per quanto riguarda il futuro",
+          "start_sec": 61.199,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "consiglio",
+        "futuro",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Spalletti",
+      "position": "Secondo Spalletti, il risultato finale è ciò che conta nella partita.",
+      "polarity": "neutral",
+      "claim_id": "1865bd55-9c2a-4427-93b5-6aaf68984739",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s2",
+      "target_entity": "Spalletti",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Secondo Spalletti, il risultato finale è ciò che conta nella partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "come dice giustamente Spalletti, alla fine il risultato fa la differenza",
+          "start_sec": 61.199,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "valutazione",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri ha giocato la partita con un atteggiamento sbagliato che ha portato solo al pareggio.",
+      "polarity": "negative",
+      "claim_id": "9fd32a03-dcda-4394-a0f9-fa317c54b6f3",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s3",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri ha giocato la partita con un atteggiamento sbagliato che ha portato solo al pareggio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allegri 4,5, massimo 5. è una partita che lui ha giocato per eh pareggiarla con un atteggiamento sbagliato.",
+          "start_sec": 99.92,
+          "end_sec": 138.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "gioco"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Conte si autocandida come allenatore per il prossimo mercato",
+      "polarity": "neutral",
+      "claim_id": "8568e1a3-2240-49cf-a3e5-4cd666ee77ac",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte si autocandida come allenatore per il prossimo mercato",
+      "evidence_quotes": [
+        {
+          "quote_text": "PERCHÉ CONTE SI AUTOCANDIDA",
+          "start_sec": 0.0,
+          "end_sec": 32.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri è ancora in corsa per il ruolo di allenatore nonostante smentite",
+      "polarity": "neutral",
+      "claim_id": "15f8854b-a447-484e-b53c-051dfd41b296",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s0",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Allegri è ancora in corsa per il ruolo di allenatore nonostante smentite",
+      "evidence_quotes": [
+        {
+          "quote_text": "MA ALLEGRI È IN CORSA (SMENTITE A PARTE)",
+          "start_sec": 0.0,
+          "end_sec": 32.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "La partita tra Napoli e Milan è stata molto brutta.",
+      "polarity": "negative",
+      "claim_id": "d1793074-7924-4658-b842-64917244561e",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita tra Napoli e Milan è stata molto brutta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "a me è parso di vedere una brutta partita",
+          "start_sec": 61.199,
+          "end_sec": 101.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "prestazione",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Allegri",
+      "position": "Dare sei ad Allegri ieri non ha senso perché la sua prestazione non è stata sufficiente.",
+      "polarity": "negative",
+      "claim_id": "8e74f4ed-f1e6-476c-b1a5-d41c8b2788fc",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s4",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dare sei ad Allegri ieri non ha senso perché la sua prestazione non è stata sufficiente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dare sei ad Allegri ieri non ha un senso",
+          "start_sec": 136.04,
+          "end_sec": 170.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "prestazione",
+        "valutazione"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Dusan Vlahovic",
+      "position": "Vlahovic si rompe spesso fisicamente",
+      "polarity": "negative",
+      "claim_id": "c528b51c-1530-4f40-a61e-9dc1fc3d5a63",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s0",
+      "target_entity": "Dusan Vlahovic",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Vlahovic si rompe spesso fisicamente",
+      "evidence_quotes": [
+        {
+          "quote_text": "E VLAHOVIC SI ROMPE SEMPRE",
+          "start_sec": 0.0,
+          "end_sec": 32.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Champions League",
+      "position": "La qualificazione alla Champions League è una certezza importante per il mercato degli allenatori",
+      "polarity": "neutral",
+      "claim_id": "043eb152-618c-46fe-a749-ad503400a0e2",
+      "video_id": "9grBtWV-jJc",
+      "segment_id": "s0",
+      "target_entity": "Champions League",
+      "entity_type": "other",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La qualificazione alla Champions League è una certezza importante per il mercato degli allenatori",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quali certezze? La Champions",
+          "start_sec": 0.0,
+          "end_sec": 32.719,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "champions"
+      ]
+    }
+  ]
+}

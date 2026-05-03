@@ -1,0 +1,413 @@
+{
+  "video_id": "TpiU_zW6EsI",
+  "analyzed_at": "2026-04-25T11:11:39.024800+00:00",
+  "metadata": {
+    "title": "BOMBA Allegri-Real Madrid e Nuovo attaccante oriundo da 40 Milioni per la NAZIONALE",
+    "author_name": "Calciomercato",
+    "published_at": "2026-04-17T11:03:53+00:00"
+  },
+  "summary": "Il video si concentra sulle recenti voci di mercato che vedono Massimiliano Allegri nella short list del Real Madrid per sostituire l'attuale allenatore Arbeloa, il cui ciclo si è concluso dopo risultati deludenti. L'autore sottolinea come il Real Madrid, alla ricerca di un tecnico esperto per rilanciare il club, abbia da tempo mostrato interesse per Allegri, nonostante questi abbia recentemente sposato un progetto con il Milan. Tuttavia, le tensioni e i risultati non brillanti con il Milan potrebbero spingere Allegri a considerare il trasferimento, una scelta che influenzerebbe anche le dinam",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "high"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "convocazione",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "strategia",
+      "relevance": "low"
+    },
+    {
+      "name": "panchina",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan era certo della qualificazione in Champions League fino a 23 settimane fa.",
+      "polarity": "neutral",
+      "claim_id": "ea45a082-34a5-4015-85b1-701d173c04ad",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan era certo della qualificazione in Champions League fino a 23 settimane fa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan fino a 23 settimane fa appariva certo della qualificazione in Champions League",
+          "start_sec": 203.959,
+          "end_sec": 281.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "qualificazione",
+        "Champions League"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Massimiliano Allegri",
+      "position": "Massimiliano Allegri è coinvolto in una notizia di mercato che interessa anche il Milan e la nazionale.",
+      "polarity": "neutral",
+      "claim_id": "67b7ca44-63cb-4e56-9f50-0139d8408ed5",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s0",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Massimiliano Allegri è coinvolto in una notizia di mercato che interessa anche il Milan e la nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una notizia abbastanza clamorosa che rimbalza dalla Francia che coinvolge poi anche il Milan di fatto e si potrebbe parlare anche di nazionale un po' visto che Massimiliano Allegri che è",
+          "start_sec": 0.24,
+          "end_sec": 59.480000000000004,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "notizia di mercato",
+        "allenatore",
+        "coinvolgimento",
+        "Allegri"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Allegri",
+      "position": "Allegri è nella short list del Real Madrid per sostituire Arbeloa come allenatore.",
+      "polarity": "neutral",
+      "claim_id": "345872b0-a085-4a62-a5f7-55b921e12a47",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri è nella short list del Real Madrid per sostituire Arbeloa come allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "figura, secondo quanto riferisce l'equipe, eh in una short list di allenatori che la il Real Madrid, appunto, starebbe valutando per la sostituzione di Arbelois",
+          "start_sec": 57.0,
+          "end_sec": 134.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "short list"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Real Madrid",
+      "position": "L'eliminazione dalla Champions e la distanza dal Barcellona hanno segnato la fine del ciclo di Arbeloa al Real Madrid.",
+      "polarity": "negative",
+      "claim_id": "f4ca4880-626d-4398-b739-b62bc300f113",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s1",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'eliminazione dalla Champions e la distanza dal Barcellona hanno segnato la fine del ciclo di Arbeloa al Real Madrid.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'eliminazione dalla Champions e la distanza dal Barcellona in campionato hanno fondamentalmente segnato il destino di Arbeloa",
+          "start_sec": 57.0,
+          "end_sec": 134.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "Champions League",
+        "campionato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Allegri",
+      "position": "Il Real Madrid corteggia Allegri da diversi anni, come confermato dall'allenatore stesso.",
+      "polarity": "neutral",
+      "claim_id": "067f40fa-6f70-4ecc-8ce6-045bfb7faa92",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Real Madrid corteggia Allegri da diversi anni, come confermato dall'allenatore stesso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gli apprezzamenti da parte del Real Madrid nei confronti Allegri non sono recenti, ma risalgono già diversi anni fa, come confermato dallo stesso allenatore",
+          "start_sec": 57.0,
+          "end_sec": 134.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "corteggiamento"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri potrebbe trasferirsi al Real Madrid a causa di frizioni recenti con il Milan e risultati deludenti.",
+      "polarity": "neutral",
+      "claim_id": "688c1e15-e192-44d2-ad94-9e00feb2b7d9",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s2",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Allegri potrebbe trasferirsi al Real Madrid a causa di frizioni recenti con il Milan e risultati deludenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le frizioni dell'ultimo periodo, i risultati un po' deludenti e questa società che probabilmente fa un po' fatica a investire sul mercato, potrebbero anche far fare dei ragionamenti diversi ad Allegri e potrebbe anche scegliere di accettare il trasferimento",
+          "start_sec": 132.16,
+          "end_sec": 205.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "real madrid",
+        "milan"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Real Madrid",
+      "position": "Il Real Madrid sta valutando altri profili di allenatori dopo Ciabia Alonso.",
+      "polarity": "neutral",
+      "claim_id": "3821685a-3777-479d-9571-02381238607b",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s2",
+      "target_entity": "Real Madrid",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Real Madrid sta valutando altri profili di allenatori dopo Ciabia Alonso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Diciamo, forse la scelta di Ciabia Alonso ha un po' scottato il Real Madrid che adesso vira su altri profili",
+          "start_sec": 132.16,
+          "end_sec": 205.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "mercato",
+        "real madrid"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Massimiliano Allegri",
+      "position": "Allegri ha sposato un progetto con il Milan.",
+      "polarity": "neutral",
+      "claim_id": "ac6abc0b-50e2-4464-97f4-196d96b48420",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s2",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Allegri ha sposato un progetto con il Milan.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È vero pure che lui ha sposato un progetto con il Milan",
+          "start_sec": 132.16,
+          "end_sec": 205.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "milan",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "nazionale italiana",
+      "position": "Il trasferimento di Allegri potrebbe creare difficoltà anche per la nazionale italiana.",
+      "polarity": "neutral",
+      "claim_id": "bbf8de63-e6e7-4824-846c-175c0feec9a4",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s2",
+      "target_entity": "nazionale italiana",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il trasferimento di Allegri potrebbe creare difficoltà anche per la nazionale italiana.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un trasferimento che poi metterebbe in difficoltà anche la nazionale perché anche la nazionale, ricordiamo, che lo aveva messo tra i nomi in poll",
+          "start_sec": 132.16,
+          "end_sec": 205.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "mercato",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan è in una fase di attesa a causa dell'incertezza sulla qualificazione in Champions League.",
+      "polarity": "neutral",
+      "claim_id": "bbcf824d-02d7-4747-a8c8-41fbf9009fa4",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan è in una fase di attesa a causa dell'incertezza sulla qualificazione in Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "credo che il Milan sia intanto in una fase di attesa, perché il complicarsi la situazione dal punto di vista della classifica potrebbe cambiare anche le strategie",
+          "start_sec": 203.959,
+          "end_sec": 281.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fase",
+        "classifica",
+        "strategia"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Milan",
+      "position": "Il Milan ha ora cinque punti di vantaggio sul quinto posto dopo la sconfitta del Como.",
+      "polarity": "neutral",
+      "claim_id": "f8258cd9-1b3b-4d41-81f4-077a437b3709",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha ora cinque punti di vantaggio sul quinto posto dopo la sconfitta del Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sconfitta del Como l'ha portata a cinque punti di vantaggio sul quinto posto",
+          "start_sec": 203.959,
+          "end_sec": 281.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "punteggio",
+        "classifica"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Allegri",
+      "position": "Il Milan difficilmente si staccherà da Allegri, progetto iniziato un anno fa, senza una decisione definitiva.",
+      "polarity": "neutral",
+      "claim_id": "9c0e154c-aad8-47c8-8dc8-43d42a4f7762",
+      "video_id": "TpiU_zW6EsI",
+      "segment_id": "s3",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PROBABLE",
+      "claim_text": "Il Milan difficilmente si staccherà da Allegri, progetto iniziato un anno fa, senza una decisione definitiva.",
+      "evidence_quotes": [
+        {
+          "quote_text": "m staccare di propria decisione un progetto nato un anno fa con Allegri che hai scelto, voluto, cercato da parte del Milan mi pare difficile",
+          "start_sec": 203.959,
+          "end_sec": 281.639,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "progetto",
+        "allenatore"
+      ]
+    }
+  ]
+}

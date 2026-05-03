@@ -1,0 +1,381 @@
+{
+  "video_id": "5I8YSgkSL_o",
+  "analyzed_at": "2026-04-28T07:22:21.924187+00:00",
+  "metadata": {
+    "title": "🔴 INCHIESTA ARBITRI: Bussate, presunti codici e cinque indagati - \"Inter estranea\"",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza l'inchiesta della Procura di Milano coordinata dal PM Maurizio Ascione, che coinvolge cinque arbitri indagati per concorso in frode sportiva riguardo a diverse partite del campionato. L'autore sottolinea che, nonostante le accuse agli ufficiali di gara come Gianluca Rocchi e Andrea Gervasoni, l'Inter e i suoi dirigenti risultano estranei alle indagini, come confermato da fonti qualificate della Procura. Viene inoltre evidenziato il coinvolgimento di altri arbitri e assistenti VAR in specifiche partite sospette, mentre si attende di capire gli sviluppi futuri dell'inchiesta.",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "indagine",
+      "relevance": "medium"
+    },
+    {
+      "name": "inchiesta",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitri",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "disorganizzazione",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "classifica",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "refereeing",
+      "subject": "Gervasone",
+      "position": "Gervasone è indagato per la partita Salernitana Modena del 8 marzo 2025 per un rigore poi revocato tramite VAR.",
+      "polarity": "neutral",
+      "claim_id": "a52622fc-5c97-4ed4-a167-ba13382f11d6",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s1",
+      "target_entity": "Gervasone",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Gervasone è indagato per la partita Salernitana Modena del 8 marzo 2025 per un rigore poi revocato tramite VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il 2 aprile 2025. Gervasone invece indagato per Salernitana Modena dell'8 marzo 2025 per un rigore prima dato agli emiliani e poi revocato su intervento della sala VAR.",
+          "start_sec": 618.16,
+          "end_sec": 980.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "indagine",
+        "VAR"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rino Tommasi",
+      "position": "Rino Tommasi ha fatto solo 54 presenze in 7 anni come sostituto di Rocchi.",
+      "polarity": "neutral",
+      "claim_id": "69adb8fc-89b1-430c-937e-315b02ce765d",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s2",
+      "target_entity": "Rino Tommasi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Rino Tommasi ha fatto solo 54 presenze in 7 anni come sostituto di Rocchi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi hanno messo al posto di Rocchi, Rino Tommasi, 2015, praticamente in 7 anni ha fatto 54 presenze",
+          "start_sec": 977.839,
+          "end_sec": 1338.6000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Inter",
+      "position": "L'Inter non è indagata nell'inchiesta della Procura di Milano",
+      "polarity": "neutral",
+      "claim_id": "0d4d77d9-388f-455a-9c19-a98da2b3aa8f",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter non è indagata nell'inchiesta della Procura di Milano",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter i suoi dirigenti non sono indagati, lo si apprende da fonti qualificati qualificate della Procura di Milano",
+          "start_sec": 29.72,
+          "end_sec": 619.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Gianluca Rocchi",
+      "position": "Gianluca Rocchi è indagato per concorso in frode sportiva",
+      "polarity": "negative",
+      "claim_id": "f2c11110-9e06-4f0e-9580-587805fbc73e",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s0",
+      "target_entity": "Gianluca Rocchi",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluca Rocchi è indagato per concorso in frode sportiva",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono accusati di ipotesi di concorso in frode sportive il disignatore arbitrale Gianluca Rocchi e lo sapevamo",
+          "start_sec": 29.72,
+          "end_sec": 619.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Maurizio Ascione",
+      "position": "Il PM Maurizio Ascione coordina l'inchiesta milanese sulle partite sospette",
+      "polarity": "neutral",
+      "claim_id": "6d6d808f-e7d0-4131-ad88-a0940c4dbd5d",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s0",
+      "target_entity": "Maurizio Ascione",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il PM Maurizio Ascione coordina l'inchiesta milanese sulle partite sospette",
+      "evidence_quotes": [
+        {
+          "quote_text": "le partite finite nel mirino del PM Maurizio Ascione sono 4-5",
+          "start_sec": 29.72,
+          "end_sec": 619.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Domenico Rocca",
+      "position": "L'ex guardalinee Domenico Rocca è accusato di frode sportiva con tre ipotesi",
+      "polarity": "negative",
+      "claim_id": "81072afc-ca0e-4d46-9313-7944518d362f",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s0",
+      "target_entity": "Domenico Rocca",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'ex guardalinee Domenico Rocca è accusato di frode sportiva con tre ipotesi",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'esposto dell'ex guardalinea di Serie A Domenico Rocca, ascoltato come test dal PM lo scorso luglio. In particolare Rock risponde di frode sportiva per tre ipotesi",
+          "start_sec": 29.72,
+          "end_sec": 619.8,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Paterna",
+      "position": "Paterna è stato convocato come teste dai PM per la vicenda Udinese-Parma, iscritto per farsi informazione.",
+      "polarity": "neutral",
+      "claim_id": "f51575f2-eda8-4829-bce9-7cb8987c6861",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s1",
+      "target_entity": "Paterna",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Paterna è stato convocato come teste dai PM per la vicenda Udinese-Parma, iscritto per farsi informazione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Paterna fu convocato come teste dai PM per la vicenda di Udinese- Parma, ma il verbale fu sospeso e lui iscritto per farsi informazione al PM.",
+          "start_sec": 618.16,
+          "end_sec": 980.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "indagine"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Di Volo",
+      "position": "Di Volo è iscritto come indagato essendo assistente VAR nella partita Interverona.",
+      "polarity": "neutral",
+      "claim_id": "70abd78f-d719-4626-bb82-960b30c169c4",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s1",
+      "target_entity": "Di Volo",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Di Volo è iscritto come indagato essendo assistente VAR nella partita Interverona.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di volo è stato iscritto in quanto era assistente VAR nella partita Interverona, match in cui era varista anche Luigi Nasca",
+          "start_sec": 618.16,
+          "end_sec": 980.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitri",
+        "indagine",
+        "VAR"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Inter",
+      "position": "L'Inter afferma di essere estranea alle indagini sugli arbitri.",
+      "polarity": "positive",
+      "claim_id": "438cbbc1-946e-4a0f-af40-01b2fdcbf17d",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s1",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter afferma di essere estranea alle indagini sugli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ho sentito anche ieri il presidente Marotta dire che qua all'Inter non è arrivata nessuna comunicazione ufficiale",
+          "start_sec": 618.16,
+          "end_sec": 980.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Inter",
+        "indagine",
+        "arbitri"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Rocky",
+      "position": "Rocky e altri saranno chiamati a comparire davanti al PM ma non sono obbligati a parlare.",
+      "polarity": "neutral",
+      "claim_id": "f617a54e-af2b-4309-b149-68ed246b5d87",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s2",
+      "target_entity": "Rocky",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Rocky e altri saranno chiamati a comparire davanti al PM ma non sono obbligati a parlare.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il 30, cioè giovedì, eh verranno chiamati Rocky e Company eh a comparire, diciamo, davanti al PM, ma non sono obbligati per la nostra legge italiana, non sono obbligati poi a parlare in quel momento",
+          "start_sec": 977.839,
+          "end_sec": 1338.6000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "AIA",
+      "position": "Nell'AIA c'è malcontento, disorganizzazione, incompetenza e insoddisfazione tra gli arbitri.",
+      "polarity": "negative",
+      "claim_id": "f35659bf-53f6-4617-8393-8dd04930f15f",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s2",
+      "target_entity": "AIA",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Nell'AIA c'è malcontento, disorganizzazione, incompetenza e insoddisfazione tra gli arbitri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quanta disorganizzazione, quanta incompetenza e quanta insoddisfazione c'è nel nell'Aia",
+          "start_sec": 977.839,
+          "end_sec": 1338.6000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Arbitri",
+      "position": "Gli arbitri hanno un potere molto grande che può influenzare il mercato e le possibilità di una squadra.",
+      "polarity": "neutral",
+      "claim_id": "69e98efc-4849-4c83-aee7-b053110ad645",
+      "video_id": "5I8YSgkSL_o",
+      "segment_id": "s2",
+      "target_entity": "Arbitri",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli arbitri hanno un potere molto grande che può influenzare il mercato e le possibilità di una squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli arbitri oggi hanno un potere incredibile perché se eh faccio un esempio, eh c'è un punto di distacco tra la quarta e la quinta e succede qualcosa",
+          "start_sec": 977.839,
+          "end_sec": 1338.6000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

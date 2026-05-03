@@ -1,0 +1,401 @@
+{
+  "video_id": "iTeIPRgz8PQ",
+  "analyzed_at": "2026-04-25T11:02:30.439512+00:00",
+  "metadata": {
+    "title": "LA FRECCIATA di CHIVU agli altri ALLENATORI‼️ Merita la CONFERMA?",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video analizza la prima stagione di Christian Chivu come allenatore dell'Inter, evidenziando la sua risposta pungente rivolta agli altri tecnici e la sua leadership sotto pressione. Nonostante le critiche e una stagione non perfetta, segnata da un'eliminazione deludente in Champions League e dalle difficoltà di giocatori chiave come Lautaro, l'autore sottolinea come la squadra sia comunque vicina alla qualificazione per la Champions League e possa vincere il girone d'andata e una semifinale di Coppa Italia con alta probabilità. Si conclude che, considerando le difficoltà affrontate e il con",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "valutazione performance",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "europe",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "competizioni",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter will win the first round and a semi-final of the Coppa Italia with 99% certainty.",
+      "polarity": "positive",
+      "claim_id": "8d66ded2-cd78-4d29-9585-653e1256b2ce",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Inter will win the first round and a semi-final of the Coppa Italia with 99% certainty.",
+      "evidence_quotes": [
+        {
+          "quote_text": "99% will win the first round and also a semi-final of the Coppa Italia.",
+          "start_sec": 101.32,
+          "end_sec": 159.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "coppa italia",
+        "prestazione",
+        "probabilità"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Alanitix",
+      "position": "La community Alanitix è sempre numerosa nei video recenti, con picchi di 42 partecipanti.",
+      "polarity": "neutral",
+      "claim_id": "3063a655-b76c-405d-9919-b84e3e766d6b",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s5",
+      "target_entity": "Alanitix",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La community Alanitix è sempre numerosa nei video recenti, con picchi di 42 partecipanti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I see it in the Alanitix of the last videos, you are always more numerous, even 42 in the last video",
+          "start_sec": 256.1,
+          "end_sec": 291.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "community",
+        "media",
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Cristian Chivu",
+      "position": "Cristian Chivu has faced many criticisms in his first year as a coach.",
+      "polarity": "negative",
+      "claim_id": "5136ecde-af83-4051-b703-ef29c0376164",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s1",
+      "target_entity": "Cristian Chivu",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cristian Chivu has faced many criticisms in his first year as a coach.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the first year of Cristian Chivu, Cristian Chivu who at a certain point also seemed to represent evil, no? Yes, I have many many criticisms, perhaps even excessive, towards this coach",
+          "start_sec": 59.9,
+          "end_sec": 101.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "critiche",
+        "primo anno"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "Inter's season is not perfect and includes a disappointing Champions League elimination.",
+      "polarity": "negative",
+      "claim_id": "877efbbe-3327-4962-bf0b-7cf1095fa8c0",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s2",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Inter's season is not perfect and includes a disappointing Champions League elimination.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the season is not perfect, quite the opposite, indeed there is a scorching elimination as far as I'm concerned, that of the Champions League",
+          "start_sec": 101.32,
+          "end_sec": 159.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "stagione",
+        "eliminazione",
+        "champions league"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro is performing poorly and highlighting problems in the team.",
+      "polarity": "negative",
+      "claim_id": "4607985a-49b2-4ac2-bb0e-1809f02bd78c",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s2",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro is performing poorly and highlighting problems in the team.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lautaro who sucks and makes you notice that many things are not going well",
+          "start_sec": 101.32,
+          "end_sec": 159.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "problemi"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Club World Cup",
+      "position": "The Club World Cup allows starting the season differently.",
+      "polarity": "neutral",
+      "claim_id": "062cd3dd-26e8-4d21-b653-15e42c6976d4",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s3",
+      "target_entity": "Club World Cup",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The Club World Cup allows starting the season differently.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Club World Cup that however you want or don't want allows you to start the season in a different way",
+          "start_sec": 159.16,
+          "end_sec": 216.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Chivu",
+      "position": "Chivu experienced a season with challenges including physical changes and a coach change.",
+      "polarity": "neutral",
+      "claim_id": "663c1bbc-069f-404e-873f-6c1f8af0a77a",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s3",
+      "target_entity": "Chivu",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Chivu experienced a season with challenges including physical changes and a coach change.",
+      "evidence_quotes": [
+        {
+          "quote_text": "have to change something in the course of the work from a physical point of view, for all this series of reasons and for the fact that you change coach",
+          "start_sec": 159.16,
+          "end_sec": 216.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Allegri, Conte, Spalletti",
+      "position": "The benches of other teams include coaches who have won championships like Allegri, Conte, and Spalletti.",
+      "polarity": "neutral",
+      "claim_id": "b916d126-e4e7-4d84-8678-9345ab151d6d",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s3",
+      "target_entity": "Allegri, Conte, Spalletti",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The benches of other teams include coaches who have won championships like Allegri, Conte, and Spalletti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "in the bench of the other teams there are people who have won championships, Allegri, Conte, now we have also found Spalletti",
+          "start_sec": 159.16,
+          "end_sec": 216.32,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Christian Kivu",
+      "position": "Christian Kivu's performance last season was not perfect but not disastrous either.",
+      "polarity": "positive",
+      "claim_id": "47f6c474-2c02-488d-b3b8-931065792022",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s6",
+      "target_entity": "Christian Kivu",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Christian Kivu's performance last season was not perfect but not disastrous either.",
+      "evidence_quotes": [
+        {
+          "quote_text": "last season for me was not a disaster, because for me it is not perfect certainly this year as it was not absolutely disastrous that of last year",
+          "start_sec": 291.28,
+          "end_sec": 331.26000000000005,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "valutazione performance",
+        "stagione precedente"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Christian Chivu",
+      "position": "Christian Chivu gave an answer perceived as a sharp remark to other coaches.",
+      "polarity": "positive",
+      "claim_id": "342246d7-785e-4e5f-8be3-ad9e82672d21",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s0",
+      "target_entity": "Christian Chivu",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Christian Chivu gave an answer perceived as a sharp remark to other coaches.",
+      "evidence_quotes": [
+        {
+          "quote_text": "an answer that knows a lot about frecciata",
+          "start_sec": 0.14,
+          "end_sec": 59.9,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership",
+        "media"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Christian Chivu",
+      "position": "Christian Chivu's team is focused on qualification for the Champions League.",
+      "polarity": "neutral",
+      "claim_id": "c702755f-645d-41f8-8dc5-88b66543582f",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s0",
+      "target_entity": "Christian Chivu",
+      "entity_type": "coach",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Christian Chivu's team is focused on qualification for the Champions League.",
+      "evidence_quotes": [
+        {
+          "quote_text": "who speak of qualification in Champions League",
+          "start_sec": 0.14,
+          "end_sec": 59.9,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "obiettivo",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "watchers",
+      "position": "L'utente nota che molte persone non usano la campanella per ricevere aggiornamenti.",
+      "polarity": "neutral",
+      "claim_id": "1b07c775-ad28-4407-b9f7-9439e82741c9",
+      "video_id": "iTeIPRgz8PQ",
+      "segment_id": "s5",
+      "target_entity": "watchers",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'utente nota che molte persone non usano la campanella per ricevere aggiornamenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "people don't put the bell, that's it",
+          "start_sec": 256.1,
+          "end_sec": 291.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "fan_behavior",
+        "media"
+      ]
+    }
+  ]
+}

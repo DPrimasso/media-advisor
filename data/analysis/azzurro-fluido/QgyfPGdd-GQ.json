@@ -1,0 +1,390 @@
+{
+  "video_id": "QgyfPGdd-GQ",
+  "analyzed_at": "2026-04-24T07:38:02.653941+00:00",
+  "metadata": {
+    "title": "Formazioni e NUOVO piano gara #NAPOLI #CREMONESE 👀 #Vardy OUT 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza il prossimo match tra Napoli e Cremonese, focalizzandosi sulle formazioni e il nuovo piano gara della squadra lombarda guidata da Giampaolo. L’autore sottolinea come la Cremonese, pur non avendo sempre ottenuto risultati positivi, abbia mostrato prestazioni solide e dominanti, come nella vittoria esterna contro il Parma e nella partita contro il Torino, dove ha avuto il 65% di possesso palla e creato molte più occasioni da gol. Viene evidenziata anche l’assenza di Vardy e la possibile presenza di Racmani nel Napoli. L’analisi suggerisce che la Cremonese adatterà il proprio mo",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "medium"
+    },
+    {
+      "name": "lineup",
+      "relevance": "medium"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "low"
+    },
+    {
+      "name": "centrocampo",
+      "relevance": "low"
+    },
+    {
+      "name": "posizione",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese ha vinto 2-0 in trasferta contro il Parma.",
+      "polarity": "neutral",
+      "claim_id": "eda2f299-f3e0-4419-a295-5a7bfadf35dc",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s1",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese ha vinto 2-0 in trasferta contro il Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Giampaolo si è insediato ehm in Parma Cremonese dove vincono 0-2 in trasferta",
+          "start_sec": 39.16,
+          "end_sec": 75.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese ha creato più Expected Goals (XG) e 14 tiri totali contro quattro del Torino.",
+      "polarity": "positive",
+      "claim_id": "9699267a-4c0c-4df7-b04b-d288e2071572",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s2",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese ha creato più Expected Goals (XG) e 14 tiri totali contro quattro del Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "creano più XG, creano più grandi occasioni, 14 tiri totali contro quattro",
+          "start_sec": 73.52,
+          "end_sec": 106.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese ha avuto il 65% di possesso palla contro il Torino.",
+      "polarity": "positive",
+      "claim_id": "4b774cce-43d4-4d8a-b18d-ff60610f8dea",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s2",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese ha avuto il 65% di possesso palla contro il Torino.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Cremonese 65% in vantaggio di possesso palla",
+          "start_sec": 73.52,
+          "end_sec": 106.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Racmani",
+      "position": "Racmani potrebbe giocare nella formazione del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "ca30c494-ac7f-42e0-94bc-824c6d7e7332",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s2",
+      "target_entity": "Racmani",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Racmani potrebbe giocare nella formazione del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Racmani potrebbe giocare",
+          "start_sec": 73.52,
+          "end_sec": 106.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese non ha sempre fatto risultato ma è andata vicino al risultato in alcune partite.",
+      "polarity": "neutral",
+      "claim_id": "fb2a0b6d-8497-435a-a379-4e8c361ce128",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s0",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese non ha sempre fatto risultato ma è andata vicino al risultato in alcune partite.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la Cremonese, insomma, non ha fatto sempre il risultato, però è andata vicino",
+          "start_sec": 0.12,
+          "end_sec": 41.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "cremonese",
+        "risultato",
+        "performance"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Cremonese",
+      "position": "Una decisione arbitrale ha influito negativamente sulla Cremonese nell'ultima partita.",
+      "polarity": "negative",
+      "claim_id": "a383a96f-1d4f-4172-8677-ad749b67a4a5",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s1",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Una decisione arbitrale ha influito negativamente sulla Cremonese nell'ultima partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se non ci fosse stata quella decisione arbitrale Baschilotto Paleari sempre con queste mani sul pallone o non sul pallone la Cremonese l'avrebbe potuta portare a casa",
+          "start_sec": 39.16,
+          "end_sec": 75.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitraggio",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese ha dominato il Torino in maniera assoluta.",
+      "polarity": "positive",
+      "claim_id": "7b58f170-c539-494f-9dbf-d1fc8980e9e1",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s2",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese ha dominato il Torino in maniera assoluta.",
+      "evidence_quotes": [
+        {
+          "quote_text": "La Cremonese ha dominato il Torino in maniera assoluta",
+          "start_sec": 73.52,
+          "end_sec": 106.84,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Giampaolo",
+      "position": "Giampaolo ha detto in conferenza che hanno concesso solo mezz'azione agli avversari.",
+      "polarity": "positive",
+      "claim_id": "1020d072-311d-4e13-ad7d-a393b59cc1b3",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s3",
+      "target_entity": "Giampaolo",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Giampaolo ha detto in conferenza che hanno concesso solo mezz'azione agli avversari.",
+      "evidence_quotes": [
+        {
+          "quote_text": "e Giampaolo lo dice proprio in conferenza, dice gli abbiamo concesso giusto met azione",
+          "start_sec": 105.2,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "conferenza",
+        "difesa"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Barbieri",
+      "position": "Barbieri non gioca per scelta tecnica, non per problemi fisici.",
+      "polarity": "neutral",
+      "claim_id": "b6eb6fb9-a2e0-4e3d-9dd3-b5a3a82a7b8d",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s3",
+      "target_entity": "Barbieri",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Barbieri non gioca per scelta tecnica, non per problemi fisici.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mentre Barbieri non gioca, ma non per cose particolari. È una scelta tecnica.",
+          "start_sec": 105.2,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scelta tecnica",
+        "lineup"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Cremonese",
+      "position": "Cremonese ha diverse scelte sulle fasce, inclusi Zerbin e Floriani.",
+      "polarity": "neutral",
+      "claim_id": "23e47ced-dabf-4098-abe9-d48781081ca1",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s3",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Cremonese ha diverse scelte sulle fasce, inclusi Zerbin e Floriani.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sulla fascia loro hanno effettivamente parecchie scelte a partire da da Zerbin, da Floriani",
+          "start_sec": 105.2,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "lineup"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Giampavolo",
+      "position": "Giampavolo ha rilasciato parole ascoltate dall'opinionista.",
+      "polarity": "neutral",
+      "claim_id": "dacaa0ed-9670-444c-adbd-86b20fe28b8a",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s0",
+      "target_entity": "Giampavolo",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Giampavolo ha rilasciato parole ascoltate dall'opinionista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi sono ascoltato le parole di Giampavolo",
+          "start_sec": 0.12,
+          "end_sec": 41.879,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giampavolo",
+        "media"
+      ]
+    },
+    {
+      "topic": "injury",
+      "subject": "Vardy",
+      "position": "Vardy è fuori per infortunio.",
+      "polarity": "negative",
+      "claim_id": "fe9e7169-5a36-4613-a260-2ae6ee370ed9",
+      "video_id": "QgyfPGdd-GQ",
+      "segment_id": "s3",
+      "target_entity": "Vardy",
+      "entity_type": "player",
+      "dimension": "injury",
+      "claim_type": "FACT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Vardy è fuori per infortunio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi ci conferma che Vardi è out",
+          "start_sec": 105.2,
+          "end_sec": 136.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "infortunio"
+      ]
+    }
+  ]
+}

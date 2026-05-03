@@ -1,0 +1,414 @@
+{
+  "video_id": "guKkU2lD-Hc",
+  "analyzed_at": "2026-04-29T08:11:48.837757+00:00",
+  "metadata": {
+    "title": "BASTONI-Barcellona, l'Inter chiede lo SCAMBIO Shock! Che succede sul mercato",
+    "author_name": "Calciomercato",
+    "published_at": "2026-03-30"
+  },
+  "summary": "Il video si concentra principalmente sulle dinamiche di mercato dell'Inter, con particolare attenzione alla possibile cessione di Bastoni al Barcellona, e sul contesto calcistico dell’Italia in vista della difficile partita contro la Bosnia. L’autore sottolinea che, nonostante Bastoni volesse restare all’Inter, l’offerta del Barcellona potrebbe risultare irresistibile per il difensore. Inoltre, si evidenzia l’importanza della gara di qualificazione mondiale, in un ambiente ostile, e si discute delle controversie legate alle esultanze contro l’Italia, considerate inappropriate da tifosi e addet",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "high"
+    },
+    {
+      "name": "esultanza",
+      "relevance": "high"
+    },
+    {
+      "name": "concorrenza",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "posta in gioco",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "finanza",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Bastoni",
+      "position": "Bastoni ha recentemente rinnovato un contratto con l'Inter che scade nel 2028 in un momento decisivo della sua carriera.",
+      "polarity": "neutral",
+      "claim_id": "a864aefe-a0cc-4cbc-a978-58051f3f30be",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s3",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni ha recentemente rinnovato un contratto con l'Inter che scade nel 2028 in un momento decisivo della sua carriera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "da quel rifiuto nacque anche l'ultimo rinnovo di contratto sostanzialmente del difensore che scade nel 2028, quindi siamo anche in un momento decisivo della sua carriera",
+          "start_sec": 184.879,
+          "end_sec": 242.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "contratto",
+        "carriera",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Bastoni",
+      "position": "Bastoni ha una valutazione di mercato intorno ai 60-70 milioni di euro.",
+      "polarity": "neutral",
+      "claim_id": "b007c2eb-cc88-461a-8ad5-9579244cf7ad",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s4",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni ha una valutazione di mercato intorno ai 60-70 milioni di euro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se dovesse si dovesse arrivare a 60-70 milioni sarebbe comunque una valutazione importante",
+          "start_sec": 240.599,
+          "end_sec": 305.44,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valutazione",
+        "mercato",
+        "difensore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Italia",
+      "position": "L'Italia deve evitare di restare fuori dal mondiale",
+      "polarity": "neutral",
+      "claim_id": "197481e1-3aa1-47be-b50f-dd003a4ccef6",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s0",
+      "target_entity": "Italia",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Italia deve evitare di restare fuori dal mondiale",
+      "evidence_quotes": [
+        {
+          "quote_text": "L'Italia non può stare ancora senza mondiale, sarebbe una cosa drammatica",
+          "start_sec": 1.16,
+          "end_sec": 63.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "nazionale",
+        "mondiale",
+        "competizione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Inter",
+      "position": "L'Inter sarà protagonista sul mercato estivo molto infuocato",
+      "polarity": "neutral",
+      "claim_id": "24fa00dd-1cac-4b6a-9781-6817d62410f7",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "L'Inter sarà protagonista sul mercato estivo molto infuocato",
+      "evidence_quotes": [
+        {
+          "quote_text": "una sessione di mercato, quella estiva che si preannuncia molto infuocata a partire dall'Inter",
+          "start_sec": 1.16,
+          "end_sec": 63.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "sessione estiva",
+        "inter"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Di Marco",
+      "position": "Di Marco ha dichiarato che non intendeva offendere nessuno con la sua esultanza.",
+      "polarity": "neutral",
+      "claim_id": "695157ec-6193-4f7d-a73e-87fdea10a430",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s1",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco ha dichiarato che non intendeva offendere nessuno con la sua esultanza.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di Marco mi ha scritto, mi ha detto che non voleva offendere nessuno",
+          "start_sec": 62.12,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esultanza",
+        "leadership",
+        "comunicazione"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "tifosi",
+      "position": "Esultare per una squadra contro l'Italia è considerato sbagliato e crea controversie tra tifosi e addetti ai lavori.",
+      "polarity": "negative",
+      "claim_id": "602c405e-3213-44db-86ca-789fbd969d0e",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s1",
+      "target_entity": "tifosi",
+      "entity_type": "other",
+      "dimension": "fan_behavior",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Esultare per una squadra contro l'Italia è considerato sbagliato e crea controversie tra tifosi e addetti ai lavori.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Poi ovviamente tra i tifosi e tra noi addetti ai lavori il caso il caso c'è perché comunque esultare così se secondo me è stato sbagliato anche tifare per una squadra per un'altra",
+          "start_sec": 62.12,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esultanza",
+        "fan_behavior",
+        "controversia"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Bastoni",
+      "position": "Bastoni ha dichiarato di voler restare all'Inter perché considera il club la squadra del presente e del futuro.",
+      "polarity": "positive",
+      "claim_id": "bd734452-fc50-41b2-be9d-7f7eaf29e86e",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s3",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni ha dichiarato di voler restare all'Inter perché considera il club la squadra del presente e del futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bastoni sopporrebbe, direbbe \"No, resto all'Inter perché il Barcellona per me la squadra non solo del presente ma anche del futuro\"",
+          "start_sec": 184.879,
+          "end_sec": 242.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "contratto",
+        "mercato"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Bastoni",
+      "position": "Gli agenti di Bastoni spingono da tempo per un trasferimento all'estero per motivi economici e sportivi.",
+      "polarity": "neutral",
+      "claim_id": "4baa05ac-c173-45fa-a2bc-373a0572bb6e",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s3",
+      "target_entity": "Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gli agenti di Bastoni spingono da tempo per un trasferimento all'estero per motivi economici e sportivi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gli agenti già da un po' di tempo, già appunto dall'epoca del Tottenham, spingono affinché io gli vada all'estero anche per una questione economica, non solo sportiva",
+          "start_sec": 184.879,
+          "end_sec": 242.079,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "contratto",
+        "agenti"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Barcellona",
+      "position": "È difficile dire di no al Barcellona per un giocatore come Bastoni.",
+      "polarity": "positive",
+      "claim_id": "8e2c8ea7-88ad-4427-bbd9-cade6c463457",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s2",
+      "target_entity": "Barcellona",
+      "entity_type": "team",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "È difficile dire di no al Barcellona per un giocatore come Bastoni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Al Barcellona, francamente è difficile dire di no",
+          "start_sec": 127.32,
+          "end_sec": 187.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "offerta"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Ja",
+      "position": "Ja ha dichiarato che non esulta contro l'Italia per rispetto e preferenze personali.",
+      "polarity": "neutral",
+      "claim_id": "bf70e43a-970c-40ee-a618-e79df53b0642",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s1",
+      "target_entity": "Ja",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Ja ha dichiarato che non esulta contro l'Italia per rispetto e preferenze personali.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ja ha detto \"Per me è una cosa normalissima, tutti abbiamo delle preferenze, la mia era di non giocare contro l'Italia e non posso esultare.\"",
+          "start_sec": 62.12,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "esultanza",
+        "leadership",
+        "rispetto"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Alessandro Bastoni",
+      "position": "Bastoni aveva l'intenzione di rimanere all'Inter.",
+      "polarity": "neutral",
+      "claim_id": "9b2c318b-29cc-4f21-96ea-ca9240bc9bde",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s2",
+      "target_entity": "Alessandro Bastoni",
+      "entity_type": "player",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Bastoni aveva l'intenzione di rimanere all'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Bastoni comunque c'era l'intenzione da parte sua di rimanere all'Inter",
+          "start_sec": 127.32,
+          "end_sec": 187.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "giocatore",
+        "intenzione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Italia-Bosnia",
+      "position": "La gara contro la Bosnia sarà importante e difficile in un ambiente ostile a Zenica",
+      "polarity": "neutral",
+      "claim_id": "b6883d39-906b-44d4-b853-13f94a91046b",
+      "video_id": "guKkU2lD-Hc",
+      "segment_id": "s0",
+      "target_entity": "Italia-Bosnia",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La gara contro la Bosnia sarà importante e difficile in un ambiente ostile a Zenica",
+      "evidence_quotes": [
+        {
+          "quote_text": "la gara importantissima contro la Bosnia ... nel Catino di Zenica ... Non sarà semplice",
+          "start_sec": 1.16,
+          "end_sec": 63.92,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gara",
+        "performance",
+        "ambientazione"
+      ]
+    }
+  ]
+}

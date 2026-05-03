@@ -1,0 +1,402 @@
+{
+  "video_id": "qqMQsKf8IDo",
+  "analyzed_at": "2026-04-24T09:07:21.766396+00:00",
+  "metadata": {
+    "title": "Sky: #LAUTARO OUT, #ALISSON IN 👀 e allora.. 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza la difficile situazione del calcio italiano, focalizzandosi sulle recenti prestazioni del Napoli e del Parma, con particolare attenzione alla partita finita 0-0 a causa di un controverso fuorigioco. L’autore critica la gestione di Conte definendolo un \"macellaio\" responsabile delle difficoltà della squadra, ma sottolinea anche l’importanza di Alison Santos, giovane talento protagonista di un video in cui racconta il suo primo gol, considerato una possibile chiave per il futuro del Napoli. Infine, si evidenzia una crisi più ampia del calcio italiano, vista come parte di una di",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "lineup_prediction",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "infortunio",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "responsabilità individuale",
+      "relevance": "low"
+    },
+    {
+      "name": "caratteristica",
+      "relevance": "low"
+    },
+    {
+      "name": "calendario",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "standings",
+      "subject": "Parma",
+      "position": "Parma ha perso punti preziosi in una partita terminata 0-0 con un controverso fuorigioco.",
+      "polarity": "negative",
+      "claim_id": "b001f5d1-5dcc-4958-906a-b64f9052ab20",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s0",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Parma ha perso punti preziosi in una partita terminata 0-0 con un controverso fuorigioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "È una partita assurda che insomma passa la storia per il famoso fuorigioco di Mazzò perché l'avevamo sbloccata e poi resta resta l'amaro dello 0-0 perché sì, mo stiamo parlando dei punti persi qua e là.",
+          "start_sec": 2.2,
+          "end_sec": 78.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "fuorigioco",
+        "punti persi"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Parma",
+      "position": "Ci sono dubbi sulla formazione del Parma per la prossima partita.",
+      "polarity": "neutral",
+      "claim_id": "9f74656c-9c4f-4e12-9bd2-0dbc69b6cd31",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s3",
+      "target_entity": "Parma",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Ci sono dubbi sulla formazione del Parma per la prossima partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "mi interessa quello che dobbiamo fare con il Parma perché c'è ancora il dubbio",
+          "start_sec": 143.44,
+          "end_sec": 181.95899999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "incertezza"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Oristanio",
+      "position": "Oristanio potrebbe essere inserito nella formazione del Parma.",
+      "polarity": "neutral",
+      "claim_id": "e86361ae-99a3-4616-9c4b-d9847f2452fd",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s3",
+      "target_entity": "Oristanio",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Oristanio potrebbe essere inserito nella formazione del Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "qualcuno porta Oristanio",
+          "start_sec": 143.44,
+          "end_sec": 181.95899999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "formazione",
+        "giocatore",
+        "ipotesi"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte è giudicato un macellaio e ritenuto responsabile delle difficoltà della squadra.",
+      "polarity": "negative",
+      "claim_id": "68029ed5-f63d-459b-b460-592d39e91cb6",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s0",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Conte è giudicato un macellaio e ritenuto responsabile delle difficoltà della squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte è un macellaio e ed è colpa sua se perché le altre al canale.",
+          "start_sec": 2.2,
+          "end_sec": 78.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "responsabilità"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Alison Santos",
+      "position": "Alison Santos è citato come il prossimo interesse o oggetto di attenzione.",
+      "polarity": "neutral",
+      "claim_id": "2a55d3ea-1f1f-4ffc-b330-6de2d9125c26",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s0",
+      "target_entity": "Alison Santos",
+      "entity_type": "player",
+      "dimension": "lineup_prediction",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alison Santos è citato come il prossimo interesse o oggetto di attenzione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Allora, ehm, ci spostiamo perché pensiamo a noi, eh, perché io non voglio, non ce la faccio. Alison Santos.",
+          "start_sec": 2.2,
+          "end_sec": 78.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "giocatore",
+        "lineup"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Alison Santos",
+      "position": "Alison Santos è protagonista del video del Napoli dove racconta il suo primo gol.",
+      "polarity": "positive",
+      "claim_id": "9699a284-afa8-4163-a8b0-a7b6b8ea80c0",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s1",
+      "target_entity": "Alison Santos",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alison Santos è protagonista del video del Napoli dove racconta il suo primo gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "la presenza di Alison Santos che tra l'altro protagonista del video di oggi del Napoli dove racconta il suo primo gol",
+          "start_sec": 76.04,
+          "end_sec": 115.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli",
+        "primo gol",
+        "video"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Alison Santos",
+      "position": "Alison Santos parla in un inglese perfetto nel video del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "34003833-7d1b-4a7e-aef1-1ddb1550dce3",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s1",
+      "target_entity": "Alison Santos",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alison Santos parla in un inglese perfetto nel video del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "lo accendo il video e lo sento parlare in un inglese perfetto",
+          "start_sec": 76.04,
+          "end_sec": 115.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "napoli",
+        "inglese",
+        "video"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Alisson",
+      "position": "Alisson non parla la sua lingua ma il calcio è il suo linguaggio",
+      "polarity": "neutral",
+      "claim_id": "bc4c575e-87d9-40f8-993a-f3880df29b4a",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s2",
+      "target_entity": "Alisson",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Alisson non parla la sua lingua ma il calcio è il suo linguaggio",
+      "evidence_quotes": [
+        {
+          "quote_text": "No, Aleson non lo fa nella sua lingua, però la sua lingua è il calcio",
+          "start_sec": 111.92,
+          "end_sec": 145.44000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "calcio italiano",
+      "position": "Il calcio italiano sta vivendo una disfatta generale",
+      "polarity": "negative",
+      "claim_id": "fed3ab0f-3ba8-45cb-add6-e0cbbcbc9f50",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s2",
+      "target_entity": "calcio italiano",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il calcio italiano sta vivendo una disfatta generale",
+      "evidence_quotes": [
+        {
+          "quote_text": "la sua linga, dalla linga, il Bologna, Rowe il video di ieri sul calcio fluido dove abbiamo analizzato un po' la disfatta generale del calcio italiano",
+          "start_sec": 111.92,
+          "end_sec": 145.44000000000003,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli ha mostrato responsabilità individuali negative in alcune situazioni di gioco.",
+      "polarity": "negative",
+      "claim_id": "6c0f337b-a9c8-4e73-a3ef-2cd0251cd5ee",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli ha mostrato responsabilità individuali negative in alcune situazioni di gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna dire che le responsabilità individuali di alcuni calciatori, le dormite sui calci d'angolo il portiere Miranda e un po' di sfortuna",
+          "start_sec": 143.44,
+          "end_sec": 181.95899999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "responsabilità individuale",
+        "difesa",
+        "errore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Miranda",
+      "position": "Il portiere Miranda ha avuto una prestazione negativa con errori sui calci d'angolo.",
+      "polarity": "negative",
+      "claim_id": "a34d85bd-da17-47be-a1fa-304acf72383f",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s3",
+      "target_entity": "Miranda",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il portiere Miranda ha avuto una prestazione negativa con errori sui calci d'angolo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le dormite sui calci d'angolo il portiere Miranda",
+          "start_sec": 143.44,
+          "end_sec": 181.95899999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "portiere",
+        "errore",
+        "calci d'angolo"
+      ]
+    },
+    {
+      "topic": "lineup_prediction",
+      "subject": "Napoli",
+      "position": "Oilund recuperato è una differenza significativa per Napoli rispetto all'andata.",
+      "polarity": "positive",
+      "claim_id": "75c2d4b1-0454-49a6-9ec0-105aa84e01d1",
+      "video_id": "qqMQsKf8IDo",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "lineup_prediction",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Oilund recuperato è una differenza significativa per Napoli rispetto all'andata.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Oilund recuperato fa tutta la differenza del mondo",
+          "start_sec": 180.36,
+          "end_sec": 248.959,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "lineup_prediction",
+        "performance"
+      ]
+    }
+  ]
+}

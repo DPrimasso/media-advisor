@@ -1,0 +1,388 @@
+{
+  "video_id": "qoKYXeQ5Nkg",
+  "analyzed_at": "2026-04-24T15:58:34.373528+00:00",
+  "metadata": {
+    "title": "CONTE MILLE MILIONI: SARRI GLI DÀ UNA BAMBOLA PER 96’, LEZIONE TOTALE DI CALCIO🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video analizza la netta sconfitta del Napoli di Conte contro la Lazio di Sarri, definita una \"lezione totale e completa di calcio\". L'autore sottolinea come la Lazio abbia dominato la partita, vincendo 2-0 con ampie occasioni per aumentare il punteggio, mentre il Napoli è apparso senza idee e incapace di reagire. Pedullà evidenzia i limiti attuali di Conte, criticando le scelte tattiche e la mancanza di soluzioni in campo, e suggerisce che questa prestazione negativa richieda spiegazioni da parte dell’allenatore. La partita, seppur poco rilevante ai fini della classifica, rappresenta un seg",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "classifica",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "medium"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "gol",
+      "relevance": "medium"
+    },
+    {
+      "name": "condizione fisica",
+      "relevance": "low"
+    },
+    {
+      "name": "tattica",
+      "relevance": "low"
+    },
+    {
+      "name": "stagione",
+      "relevance": "low"
+    },
+    {
+      "name": "errore",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha vinto 2-0 e avrebbe potuto vincere 5-1.",
+      "polarity": "positive",
+      "claim_id": "957e2966-6f46-4a78-bbab-ea6df4692afb",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha vinto 2-0 e avrebbe potuto vincere 5-1.",
+      "evidence_quotes": [
+        {
+          "quote_text": "un 2-0 come quello della Lazio che avrebbe potuto vincere 5-1",
+          "start_sec": 32.559,
+          "end_sec": 67.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "risultato",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Sarri",
+      "position": "Sarri ha dato una lezione totale e completa di calcio a Conte.",
+      "polarity": "positive",
+      "claim_id": "74c37380-bb58-4c26-ab3c-4920d1e75c75",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s0",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Sarri ha dato una lezione totale e completa di calcio a Conte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una lezione così totale completa come quella che ha dato Sarry a Conte",
+          "start_sec": 0.08,
+          "end_sec": 34.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Lazio",
+      "position": "La Lazio ha dovuto affrontare una partita assurda.",
+      "polarity": "neutral",
+      "claim_id": "2f6105f4-b5a6-4453-9372-437601bc443d",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s0",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La Lazio ha dovuto affrontare una partita assurda.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Una partita assurda, una partita che la Lazio ha dovuto",
+          "start_sec": 0.08,
+          "end_sec": 34.52,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "standings",
+      "subject": "Lazio",
+      "position": "La partita contro Lazio conta ai fini della classifica solo per accumulare punti.",
+      "polarity": "neutral",
+      "claim_id": "39f0bc44-6dbb-40ad-9089-6b0ee41aea94",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s1",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "La partita contro Lazio conta ai fini della classifica solo per accumulare punti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una partita che, se vogliamo ai fini della classifica conta soltanto per accumulare più punti",
+          "start_sec": 32.559,
+          "end_sec": 67.56,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "importanza partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Motta",
+      "position": "La squadra di Motta ha dominato la partita dall'inizio alla fine.",
+      "polarity": "positive",
+      "claim_id": "2136adba-93ca-49a0-805e-bad4b25271be",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s2",
+      "target_entity": "Motta",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La squadra di Motta ha dominato la partita dall'inizio alla fine.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Motta ha fatto soltanto ordinare amministrazione ed è stato uno stradominio enorme dall'inizio alla fine della partita",
+          "start_sec": 65.96,
+          "end_sec": 97.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "dominanza",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Conte deve dare spiegazioni al suo datore di lavoro per la prestazione del Napoli.",
+      "polarity": "negative",
+      "claim_id": "f4daefa8-428e-4347-8b08-27bf7629b931",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Conte deve dare spiegazioni al suo datore di lavoro per la prestazione del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Credo che Conte debba dare delle spiegazioni a chi lo paga, al suo datore di lavoro.",
+          "start_sec": 96.24,
+          "end_sec": 136.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Basici",
+      "position": "Basici ha realizzato un raddoppio nel secondo tempo della partita.",
+      "polarity": "positive",
+      "claim_id": "b11c599b-0ee1-4af2-b802-16f4136c8a9c",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s3",
+      "target_entity": "Basici",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Basici ha realizzato un raddoppio nel secondo tempo della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il raddoppio di Basici dopo un'altra straordinaria interpretazione morale della favola",
+          "start_sec": 96.24,
+          "end_sec": 136.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "allenatore",
+      "position": "L'allenatore ha detto che il secondo è il primo dei perdenti.",
+      "polarity": "neutral",
+      "claim_id": "726fe522-bcea-4739-b36f-5e7d2f063978",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s4",
+      "target_entity": "allenatore",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'allenatore ha detto che il secondo è il primo dei perdenti.",
+      "evidence_quotes": [
+        {
+          "quote_text": "forse per la prima volta oggi prima della partita dice che il secondo è il primo dei perdenti",
+          "start_sec": 134.36,
+          "end_sec": 168.67999999999998,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Napoli non si è mai avvicinato pericolosamente alla porta avversaria.",
+      "polarity": "negative",
+      "claim_id": "317e6855-ead4-47ce-b31d-14771d187d17",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Napoli non si è mai avvicinato pericolosamente alla porta avversaria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non si è mai avvicinato",
+          "start_sec": 65.96,
+          "end_sec": 97.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "attacco",
+        "efficacia"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cancellieri",
+      "position": "Cancellieri ha segnato il gol decisivo per la sua squadra.",
+      "polarity": "positive",
+      "claim_id": "82f43abb-1418-45ea-8a5b-f9f2f6a4401c",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s2",
+      "target_entity": "Cancellieri",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cancellieri ha segnato il gol decisivo per la sua squadra.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con il gol di Cancellieri",
+          "start_sec": 65.96,
+          "end_sec": 97.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "performance",
+        "attacco"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli è stato imbarazzante nella partita di oggi.",
+      "polarity": "negative",
+      "claim_id": "438dfd01-e3e8-4f9a-8e86-8e5cc10c1118",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s3",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli è stato imbarazzante nella partita di oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Il Napoli oggi è stato sinceramente imbarazzante.",
+          "start_sec": 96.24,
+          "end_sec": 136.83999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Zaccagni",
+      "position": "Zaccagni ha sbagliato un rigore e un secondo tiro importante durante la partita.",
+      "polarity": "negative",
+      "claim_id": "f36ba969-7085-42d3-8753-fb5a69b28ed5",
+      "video_id": "qoKYXeQ5Nkg",
+      "segment_id": "s2",
+      "target_entity": "Zaccagni",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Zaccagni ha sbagliato un rigore e un secondo tiro importante durante la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il rigore sbagliato da Zaccagni forse due volte perché poi non ha colpito a portauota",
+          "start_sec": 65.96,
+          "end_sec": 97.799,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "errore",
+        "rigore",
+        "performance"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "video_id": "9VWpOtv93lA",
+  "analyzed_at": "2026-04-28T07:36:11.747090+00:00",
+  "metadata": {
+    "title": "INTER, MANITA PER LO SCUDETTO. ROMA BANDA DEL BUCO. E IN SERIE A TORNIAMO LEONI🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza la supremazia dell’Inter nella Serie A, confermandola come favorita per lo scudetto grazie a prestazioni solide, come quella contro la Roma, dove Lautaro e Cialanoglu hanno segnato gol decisivi. L’autore sottolinea però una gestione della partita non sempre impeccabile, evidenziando anche la fragilità difensiva della Roma definita \"banda del buco\". Pedullà critica inoltre il livello qualitativo di alcune partite di Serie A, come Pisa-Torino, e contesta le analisi che attribuiscono la scarsa affluenza dei tifosi alla Lazio a motivi superficiali, suggerendo i",
+  "topics": [
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "difesa",
+      "relevance": "high"
+    },
+    {
+      "name": "gol",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "scudetto",
+      "relevance": "low"
+    },
+    {
+      "name": "fan_behavior",
+      "relevance": "low"
+    },
+    {
+      "name": "formazione",
+      "relevance": "low"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha avuto un momento di gestione di partita dopo l'1-0 come in passato.",
+      "polarity": "neutral",
+      "claim_id": "3071f7bf-d1f8-4308-8a30-181a1860181f",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha avuto un momento di gestione di partita dopo l'1-0 come in passato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "una vittoria che ha avuto un momento di gestione di partita più o meno come è accaduto nel passato",
+          "start_sec": 0.199,
+          "end_sec": 40.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gestione partita",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cialanogolo",
+      "position": "Cialanogolo ha segnato un eurogol che ha indirizzato la partita.",
+      "polarity": "positive",
+      "claim_id": "f7c506a3-04da-4663-b958-50af78f13720",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s1",
+      "target_entity": "Cialanogolo",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Cialanogolo ha segnato un eurogol che ha indirizzato la partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'eurogol di Cialanogolo, l' indirizzato la partita",
+          "start_sec": 37.96,
+          "end_sec": 71.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "performance",
+        "calciatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Pisa vs Torino",
+      "position": "La partita Pisa Torino è stata giudicata semplicemente inguardabile.",
+      "polarity": "negative",
+      "claim_id": "f8f18e7f-687a-4e52-9032-1f0448fffebd",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s1",
+      "target_entity": "Pisa vs Torino",
+      "entity_type": "other",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La partita Pisa Torino è stata giudicata semplicemente inguardabile.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pisa Torino è una partita semplicemente inguardabile",
+          "start_sec": 37.96,
+          "end_sec": 71.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "qualità",
+        "performance"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Lazio vs Parma",
+      "position": "È stato scritto un pezzo sulla partita Lazio e Parma per la Gazzetta dello Sport.",
+      "polarity": "neutral",
+      "claim_id": "db3049f7-e1d5-46a1-9f83-08f26ee817c3",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s1",
+      "target_entity": "Lazio vs Parma",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È stato scritto un pezzo sulla partita Lazio e Parma per la Gazzetta dello Sport.",
+      "evidence_quotes": [
+        {
+          "quote_text": "chi abbia fatto il pezzo eh sulla partita eh Lazio e Parma di ieri per la Gazzetta dello Sport",
+          "start_sec": 37.96,
+          "end_sec": 71.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "articolo",
+        "partita"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Lazio",
+      "position": "I tifosi non tornano allo stadio per la Lazio questa stagione.",
+      "polarity": "negative",
+      "claim_id": "876e3ca2-0e7c-41b9-b3ae-12555397df77",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s2",
+      "target_entity": "Lazio",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "I tifosi non tornano allo stadio per la Lazio questa stagione.",
+      "evidence_quotes": [
+        {
+          "quote_text": "I tifosi e non tornano allo stadio per la partita di ieri.",
+          "start_sec": 69.72,
+          "end_sec": 107.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tifosi",
+        "stadio",
+        "Lazio",
+        "stagione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Torino",
+      "position": "Il Torino ha giocato una partita al di sotto del livello della Serie A.",
+      "polarity": "negative",
+      "claim_id": "05dfe056-7aa6-4f87-ad66-3b736e6d3a44",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s2",
+      "target_entity": "Torino",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Torino ha giocato una partita al di sotto del livello della Serie A.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che ha giocato una partita semplicemente il livello della Serie A in certe partite è qualcosa di di imbarazzante.",
+          "start_sec": 69.72,
+          "end_sec": 107.119,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Torino",
+        "partita",
+        "livello",
+        "Serie A"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Bologna",
+      "position": "Il Bologna ha dominato il primo tempo e avrebbe potuto segnare almeno altri due gol.",
+      "polarity": "positive",
+      "claim_id": "db0bb976-479a-439b-898f-95acea3b6adc",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s3",
+      "target_entity": "Bologna",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Bologna ha dominato il primo tempo e avrebbe potuto segnare almeno altri due gol.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Bologna nel primo tempo ha dominato il lungo e il largo, avrebbe potuto segnalare almeno un altro paio di gol",
+          "start_sec": 104.399,
+          "end_sec": 144.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "gol"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter ha dimostrato la sua forza anche contro la Roma.",
+      "polarity": "neutral",
+      "claim_id": "f3b019e0-46c3-42bb-ac98-299bdbc97fca",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter ha dimostrato la sua forza anche contro la Roma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'ha dimostrato eh anche contro la Roma",
+          "start_sec": 0.199,
+          "end_sec": 40.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lautaro Martinez",
+      "position": "Lautaro ha segnato un gol lampo all'inizio della partita per l'Inter.",
+      "polarity": "positive",
+      "claim_id": "4d27333d-c82f-4dc6-ae90-c95189babbc7",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s0",
+      "target_entity": "Lautaro Martinez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lautaro ha segnato un gol lampo all'inizio della partita per l'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dopo il gol lampo di Lautaro",
+          "start_sec": 0.199,
+          "end_sec": 40.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter con Lautaro si sta esprimendo a livello molto alto, come fosse un'altra categoria rispetto alle altre.",
+      "polarity": "positive",
+      "claim_id": "cf8a87dd-c0ba-4052-b506-771a57d916f3",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s3",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter con Lautaro si sta esprimendo a livello molto alto, come fosse un'altra categoria rispetto alle altre.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter con Lautaro fa un altro sport",
+          "start_sec": 104.399,
+          "end_sec": 144.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Inter",
+      "position": "L'Inter è la favorita per lo scudetto.",
+      "polarity": "positive",
+      "claim_id": "593482fb-4cca-4146-94cc-2bd15b5fd621",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s0",
+      "target_entity": "Inter",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Inter è la favorita per lo scudetto.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'Inter continua a essere la favorita",
+          "start_sec": 0.199,
+          "end_sec": 40.559,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "scudetto",
+        "favorevole",
+        "performance"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Cremonese",
+      "position": "La Cremonese è calata dopo un buon inizio e sta tornando a un rendimento molto negativo.",
+      "polarity": "negative",
+      "claim_id": "c34dce8e-d699-49f4-80c3-6938609bdc47",
+      "video_id": "9VWpOtv93lA",
+      "segment_id": "s3",
+      "target_entity": "Cremonese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La Cremonese è calata dopo un buon inizio e sta tornando a un rendimento molto negativo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quindi la Cremonese torna nelle tenebre",
+          "start_sec": 104.399,
+          "end_sec": 144.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "calo"
+      ]
+    }
+  ]
+}

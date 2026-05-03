@@ -1,0 +1,403 @@
+{
+  "video_id": "UrbBO4f2tHo",
+  "analyzed_at": "2026-04-25T11:14:35.480319+00:00",
+  "metadata": {
+    "title": "MILAN, UN TOP CLUB BUSSA PER UN BIG. JUVE, NUOVA PISTA PER LA MEDIANA. TUTTO SU NAPOLI E NAZIONALE ",
+    "author_name": "Nico Schira",
+    "published_at": null
+  },
+  "summary": "Il video si concentra principalmente sulla recente vittoria netta del Napoli per 4-0 e sulle prospettive future della squadra, in particolare riguardo alla possibile conferma di Antonio Conte come allenatore. L’autore sottolinea l’importanza delle prestazioni di giocatori chiave come Mctomini e Heilund, ma evidenzia anche l’incertezza sul futuro tecnico del club, con Conte nel mirino della Federazione e possibili alternative come Sarri o Maresca. Viene inoltre menzionata la situazione di mercato del Milan, che potrebbe sacrificare Leao per un grande attaccante, e la disponibilità di Claudio Ra",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "contratto",
+      "relevance": "medium"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "attaccante",
+      "relevance": "low"
+    },
+    {
+      "name": "centrocampista",
+      "relevance": "low"
+    },
+    {
+      "name": "offerta",
+      "relevance": "low"
+    },
+    {
+      "name": "terzino",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Heilund",
+      "position": "Heilund ha segnato il raddoppio arrivando a quota 11 gol in campionato.",
+      "polarity": "positive",
+      "claim_id": "0320209a-6615-49e0-9305-fcdd08ff2561",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s0",
+      "target_entity": "Heilund",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Heilund ha segnato il raddoppio arrivando a quota 11 gol in campionato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "poi c'è stato il raddoppio di Heilund arrivato a quota 11 gol in campionato",
+          "start_sec": 1.079,
+          "end_sec": 28.799999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "serie_a",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "McTominay",
+      "position": "Mctomini ha sbloccato la gara dopo 2 minuti e mezzo.",
+      "polarity": "positive",
+      "claim_id": "92782b2a-d2e2-4e11-99e0-d1e937770771",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s0",
+      "target_entity": "McTominay",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Mctomini ha sbloccato la gara dopo 2 minuti e mezzo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ha sbloccato la gara dopo 2 minuti e mezzo",
+          "start_sec": 1.079,
+          "end_sec": 28.799999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "gol",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Napoli",
+      "position": "Il Napoli ha vinto facilmente 4-0.",
+      "polarity": "positive",
+      "claim_id": "5f8b09ae-af42-487a-af0c-ccfb28e93f92",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s0",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli ha vinto facilmente 4-0.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Abbiamo visto il Napoli stasera vincere facilmente 4-0.",
+          "start_sec": 1.079,
+          "end_sec": 28.799999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "prestazione",
+        "serie_a"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Audero",
+      "position": "Audero ha parato un rigore nel finale della partita.",
+      "polarity": "positive",
+      "claim_id": "fbede93f-0de3-4234-a51d-bb1311b15ca6",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s0",
+      "target_entity": "Audero",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Audero ha parato un rigore nel finale della partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se nel finale Audero non avesse parato un regolare Mctomini",
+          "start_sec": 1.079,
+          "end_sec": 28.799999999999997,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "parata",
+        "rigore",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Si deve decidere a fine stagione se Conte rimarrà alla guida del Napoli.",
+      "polarity": "neutral",
+      "claim_id": "20b0be25-4e11-44cc-92f8-25d1785ca040",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Si deve decidere a fine stagione se Conte rimarrà alla guida del Napoli.",
+      "evidence_quotes": [
+        {
+          "quote_text": "dovremmo capire a fine stagione se Conte rimarrà o meno",
+          "start_sec": 26.64,
+          "end_sec": 53.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Mancini",
+      "position": "Mancini è un allenatore divisivo per la storia della fuga in Arabia.",
+      "polarity": "neutral",
+      "claim_id": "6d77555b-3004-4ddd-bcda-6b93ddef1917",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s2",
+      "target_entity": "Mancini",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mancini è un allenatore divisivo per la storia della fuga in Arabia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Mancini è divisivo per la storia della fuga in Arabia",
+          "start_sec": 51.96,
+          "end_sec": 85.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "media"
+      ]
+    },
+    {
+      "topic": "finance",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri guadagna molto meno di Conte e Mancini.",
+      "polarity": "positive",
+      "claim_id": "31d81316-e769-4168-a374-1b49f30903f0",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s2",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "finance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri guadagna molto meno di Conte e Mancini.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Claudio Ranier è un po' un usato sicuro che a livello di costi guadagna molto meno di Conte Mancini",
+          "start_sec": 51.96,
+          "end_sec": 85.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "stipendio"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Mancini",
+      "position": "Mancini ha un ottimo rapporto soprattutto con Malagò.",
+      "polarity": "positive",
+      "claim_id": "9ff2871e-ffbf-44e8-8962-46a1adf319e7",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s2",
+      "target_entity": "Mancini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Mancini ha un ottimo rapporto soprattutto con Malagò.",
+      "evidence_quotes": [
+        {
+          "quote_text": "tra l'altro un ottimo rapporto soprattutto con Malagò",
+          "start_sec": 51.96,
+          "end_sec": 85.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "relazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Claudio Ranieri",
+      "position": "Claudio Ranieri si è liberato dalla Roma oggi.",
+      "polarity": "neutral",
+      "claim_id": "a71f2778-ab0f-47df-ab22-22b1ca13a0af",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s1",
+      "target_entity": "Claudio Ranieri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Claudio Ranieri si è liberato dalla Roma oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "claudio Ranieri che si è liberato oggi dalla Roma",
+          "start_sec": 26.64,
+          "end_sec": 53.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato allenatori"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte è considerato un allenatore che farebbe contento chiunque.",
+      "polarity": "positive",
+      "claim_id": "f1c577b7-a320-46c9-ab30-9fca991e39ab",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte è considerato un allenatore che farebbe contento chiunque.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che forse farebbe contento chiunque Antonio Conte",
+          "start_sec": 51.96,
+          "end_sec": 85.52000000000001,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "Il Napoli torna secondo in classifica.",
+      "polarity": "positive",
+      "claim_id": "cf304a80-d718-48af-a5e1-eb391ff69f9f",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s1",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Napoli torna secondo in classifica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Intanto il Napoli torna secondo",
+          "start_sec": 26.64,
+          "end_sec": 53.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "classifica",
+        "prestazione"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Antonio Conte è nel mirino della FGC.",
+      "polarity": "neutral",
+      "claim_id": "0bad5c8d-61ae-4d42-a5ee-eba29fe6e5f3",
+      "video_id": "UrbBO4f2tHo",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Antonio Conte è nel mirino della FGC.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte sappiamo che è nel mirino della FGC",
+          "start_sec": 26.64,
+          "end_sec": 53.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato allenatori"
+      ]
+    }
+  ]
+}

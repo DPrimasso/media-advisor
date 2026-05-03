@@ -530,14 +530,15 @@ def _digest_item_counts(section_items: dict[str, list[dict[str, str]]]) -> tuple
     return hot + monitor + denied, hot, monitor, denied
 
 
-def _format_verifica_markdown(sources: list[DigestItemSource]) -> str | None:
-    if not sources:
-        return None
-    parts: list[str] = []
-    for s in sources:
-        label = f"{s.channel_label} ({_format_seconds_mmss_digest(s.start_sec)})"
-        parts.append(f"[{label}]({s.watch_url})")
-    return "  > *Verifica*: " + " · ".join(parts)
+def _format_fonte_markdown(item: DigestItem) -> str:
+    """Una sola riga Fonte: testo o link cliccabili per canale."""
+    if item.sources:
+        parts = [
+            f"[{s.channel_label} ({_format_seconds_mmss_digest(s.start_sec)})]({s.watch_url})"
+            for s in item.sources
+        ]
+        return "  _Fonte:_ " + " · ".join(parts)
+    return f"  _Fonte:_ {item.fonte}"
 
 
 def _format_digest_for_report(
@@ -588,11 +589,9 @@ def _format_digest_for_report(
                     f"- {icon} **{item.player}** ({item.club}): aggiornamento su **{item.movimento}**."
                 )
                 formatted_lines.append(
-                    f"  _Contesto:_ {item.motivo}.  \n  _Fonti:_ {item.fonte}."
+                    f"  _Contesto:_ {item.motivo}."
                 )
-                vm = _format_verifica_markdown(item.sources)
-                if vm:
-                    formatted_lines.append(vm)
+                formatted_lines.append(_format_fonte_markdown(item))
         elif items_raw is not None:
             for item in items_raw:
                 icon = state_icon.get(item["stato"], "•")
@@ -600,8 +599,9 @@ def _format_digest_for_report(
                     f"- {icon} **{item['player']}** ({item['club']}): aggiornamento su **{item['movimento']}**."
                 )
                 formatted_lines.append(
-                    f"  _Contesto:_ {item['motivo']}.  \n  _Fonti:_ {item['fonte']}."
+                    f"  _Contesto:_ {item['motivo']}."
                 )
+                formatted_lines.append(f"  _Fonte:_ {item['fonte']}")
         formatted_lines.append("")
 
     if fallback_lines:
@@ -668,13 +668,14 @@ def format_mercato_report_telegram(
                 lines.append(f"{icon} <b>{_h(item.player)}</b>")
                 lines.append(f"<i>{_h(item.club)} → {_h(item.movimento)}</i>")
                 lines.append(_h(item.motivo))
-                lines.append(f"<i>Fonte:</i> {_h(item.fonte)}")
                 if item.sources:
                     v_parts: list[str] = []
                     for s in item.sources:
                         lab = f"{s.channel_label} ({_format_seconds_mmss_digest(s.start_sec)})"
                         v_parts.append(f"<a href=\"{_h(s.watch_url)}\">{_h(lab)}</a>")
-                    lines.append("<i>Verifica:</i> " + " · ".join(v_parts))
+                    lines.append("<i>Fonte:</i> " + " · ".join(v_parts))
+                else:
+                    lines.append(f"<i>Fonte:</i> {_h(item.fonte)}")
         elif items_dict is not None:
             for item in items_dict:
                 lines.append("")
@@ -737,15 +738,16 @@ def format_mercato_report_twitter(
         if section_items_enriched is not None and items_en_tw is not None:
             for item in items_en_tw:
                 lines.append(
-                    f"- {icon} {item.player} ({item.club}): {item.movimento}. "
-                    f"{item.motivo}. Fonte: {item.fonte}."
+                    f"- {icon} {item.player} ({item.club}): {item.movimento}. {item.motivo}."
                 )
                 if item.sources:
                     parts_tw: list[str] = []
                     for s in item.sources[:TWITTER_VERIFICA_MAX_SOURCES]:
                         parts_tw.append(f"{s.channel_label} {_watch_url_digest(s.video_id, s.start_sec)}")
                     suffix = " …" if len(item.sources) > TWITTER_VERIFICA_MAX_SOURCES else ""
-                    lines.append(f"  Verifica: {' | '.join(parts_tw)}{suffix}")
+                    lines.append(f"  Fonte: {' | '.join(parts_tw)}{suffix}")
+                else:
+                    lines.append(f"  Fonte: {item.fonte}")
         elif items is not None:
             for item in items:
                 lines.append(

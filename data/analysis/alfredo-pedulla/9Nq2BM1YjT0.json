@@ -1,0 +1,389 @@
+{
+  "video_id": "9Nq2BM1YjT0",
+  "analyzed_at": "2026-04-25T11:22:57.290421+00:00",
+  "metadata": {
+    "title": "PENSATE AL MILAN, NON AI PRO E AI CONTRO ALLEGRI. LA JUVE HA UN ALLENATORE. LA FARSA TERNANA🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà si concentra sulla situazione attuale del Milan e sul dibattito riguardante Allegri, sottolineando come il club rossonero debba focalizzarsi sul proprio futuro piuttosto che sulle opinioni polarizzate sull'allenatore juventino. Pedullà esprime la sua preferenza per un calcio propositivo, basato sul dominio del gioco e la continuità nel sistema tattico, criticando l’approccio di Allegri che considera meno convincente. Inoltre, invita il Milan a riflettere sull’importanza del coinvolgimento dell’allenatore e del direttore sportivo nel progetto tecnico, evitando che le",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "classifica",
+      "relevance": "medium"
+    },
+    {
+      "name": "campionato",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "tifoseria",
+      "relevance": "low"
+    },
+    {
+      "name": "tifosi",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Massimiliano Allegri",
+      "position": "Alfredo Pedullà ha espresso la sua opinione riguardo ai 3 anni di Allegri con la Juventus.",
+      "polarity": "neutral",
+      "claim_id": "93c0de2e-3f70-4cbf-97b2-03aa62a163ba",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s1",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Alfredo Pedullà ha espresso la sua opinione riguardo ai 3 anni di Allegri con la Juventus.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sui 3 anni di Allegri con la Juventus",
+          "start_sec": 40.44,
+          "end_sec": 76.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Massimiliano Allegri",
+      "position": "Alfredo Pedullà preferisce un tipo di calcio propositivo rispetto a quello di Allegri.",
+      "polarity": "negative",
+      "claim_id": "b1a8e27c-93ed-4061-8724-2d130063b378",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s1",
+      "target_entity": "Massimiliano Allegri",
+      "entity_type": "coach",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alfredo Pedullà preferisce un tipo di calcio propositivo rispetto a quello di Allegri.",
+      "evidence_quotes": [
+        {
+          "quote_text": "A me piace un determinato tipo di calcio. Mi piace un calcio propositivo. Mi piace un calcio che all'improvviso non possa e",
+          "start_sec": 40.44,
+          "end_sec": 76.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan deve cercare di vincere le partite dominando il gioco.",
+      "polarity": "neutral",
+      "claim_id": "6671c1da-630a-4ff4-aa92-8269966eba3f",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan deve cercare di vincere le partite dominando il gioco.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che tu debba vincere le partite perché cerchi di comandare il gioco",
+          "start_sec": 73.68,
+          "end_sec": 116.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "vittoria",
+        "controllo partita"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "È normale avere momenti di sofferenza durante una partita.",
+      "polarity": "neutral",
+      "claim_id": "6f35a48e-463b-4c3d-89dd-9d6dfa5215f8",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "È normale avere momenti di sofferenza durante una partita.",
+      "evidence_quotes": [
+        {
+          "quote_text": "che tu possa avere dei momenti di sofferenza all'interno di una partita. ci sta",
+          "start_sec": 73.68,
+          "end_sec": 116.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "momenti di difficoltà",
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Milan",
+      "position": "Il Milan ha bisogno di chiarire e definire l'importanza e il coinvolgimento dell'allenatore.",
+      "polarity": "positive",
+      "claim_id": "28a433e1-2938-44a7-a831-1b36fb921ffb",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan ha bisogno di chiarire e definire l'importanza e il coinvolgimento dell'allenatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il Milan abbia bisogno di mettere una volta per tutte il punto su determinate cose che si sono verificate, sull'importanza e il coinvolgimento dell'allenatore",
+          "start_sec": 113.92,
+          "end_sec": 150.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Milan",
+      "position": "Il Milan deve chiarire anche il ruolo e il coinvolgimento del direttore sportivo.",
+      "polarity": "neutral",
+      "claim_id": "2bc6e603-0d6a-4654-92a8-59e78964f37d",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s3",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan deve chiarire anche il ruolo e il coinvolgimento del direttore sportivo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sull'importanza e il coinvolgimento del direttore sportivo",
+          "start_sec": 113.92,
+          "end_sec": 150.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "tactics",
+      "subject": "Milan",
+      "position": "Il Milan deve prendere spunto da quello che sta succedendo per ragionare sul futuro.",
+      "polarity": "neutral",
+      "claim_id": "58582ad3-ecdd-40e2-9ebc-c0b3cbb4cc01",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s4",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il Milan deve prendere spunto da quello che sta succedendo per ragionare sul futuro.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Perché il Milan deve prendere spunto dalle cose che stanno accadendo per cercare di ragionare sul futuro",
+          "start_sec": 147.8,
+          "end_sec": 186.4,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "tattica",
+        "futuro",
+        "Milan"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Serie C",
+      "position": "Oggi in Serie C si disputano partite importanti",
+      "polarity": "neutral",
+      "claim_id": "b2beb46c-35b6-4ec9-8f89-b0c7ef3e0b1e",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s0",
+      "target_entity": "Serie C",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Oggi in Serie C si disputano partite importanti",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Serie C partite importanti",
+          "start_sec": 0.12,
+          "end_sec": 43.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie c",
+        "partite importanti"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Milan",
+      "position": "Il Milan non deve cambiare sistema di gioco attuale.",
+      "polarity": "positive",
+      "claim_id": "8d8fcd8b-b51c-448b-ad10-8d12e8d36b6e",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il Milan non deve cambiare sistema di gioco attuale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "non debba cambiare un sistema di gioco",
+          "start_sec": 73.68,
+          "end_sec": 116.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "sistema di gioco",
+        "performance"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Serie B",
+      "position": "La giornata odierna in Serie B è importante per la lotta per la salvezza",
+      "polarity": "neutral",
+      "claim_id": "89941bb7-5a18-48ef-82b9-db8bac83ff8f",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s0",
+      "target_entity": "Serie B",
+      "entity_type": "other",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La giornata odierna in Serie B è importante per la lotta per la salvezza",
+      "evidence_quotes": [
+        {
+          "quote_text": "in Serie B soprattutto per quanto riguarda la lotta per la salvezza",
+          "start_sec": 0.12,
+          "end_sec": 43.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "serie b",
+        "lotta per la salvezza",
+        "giornata importante"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Milan",
+      "position": "Alcune interpretazioni sul Milan saranno condizionate da rapporti particolari e non saranno lucide.",
+      "polarity": "neutral",
+      "claim_id": "69ab2089-5051-4ca5-bc66-f9a58644d460",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s2",
+      "target_entity": "Milan",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Alcune interpretazioni sul Milan saranno condizionate da rapporti particolari e non saranno lucide.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci saranno alcune interpretazioni filtrate, i difensori d'ufficio che scenderanno in campo, quelli che non faranno ragionamenti lucidi ma condizionati da rapporti particolari",
+          "start_sec": 73.68,
+          "end_sec": 116.6,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "interpretazioni",
+        "media"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roma",
+      "position": "Le questioni di leadership riguardano anche la Roma, in particolare tra Gasperini, Ranieri, Trattino e Massara.",
+      "polarity": "neutral",
+      "claim_id": "e653471b-d807-4443-b953-ff8093151d16",
+      "video_id": "9Nq2BM1YjT0",
+      "segment_id": "s3",
+      "target_entity": "Roma",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le questioni di leadership riguardano anche la Roma, in particolare tra Gasperini, Ranieri, Trattino e Massara.",
+      "evidence_quotes": [
+        {
+          "quote_text": "se volete queste cose toccano anche alla Roma perché quello che è successo tra Gasperini, Ranieri, Trattino Massara era il fuoco che covava da un po' di tempo",
+          "start_sec": 113.92,
+          "end_sec": 150.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    }
+  ]
+}

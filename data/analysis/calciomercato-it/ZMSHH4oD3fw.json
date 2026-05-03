@@ -1,0 +1,269 @@
+{
+  "video_id": "ZMSHH4oD3fw",
+  "analyzed_at": "2026-04-29T08:10:35.088777+00:00",
+  "metadata": {
+    "title": "👏👏#Gattuso e le parole al miele per #Dzeko: “H",
+    "author_name": "Calciomercato",
+    "published_at": null
+  },
+  "summary": "Il video si concentra sulle parole di Gattuso dedicate a Edin Dzeko, sottolineando il profondo rispetto e la stima che l’allenatore nutre nei confronti del giocatore sia come atleta che come uomo. Gattuso evidenzia il valore umano e lo spessore morale di Dzeko, lodandone la carriera e il comportamento esemplare. Inoltre, l’allenatore condanna le polemiche nate intorno a un episodio con Di Marco, definendole inutili e dannose, e ribadisce l’importanza del rispetto verso la nazionale bosniaca.",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "relazione personale",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "rivalità",
+      "relevance": "medium"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Dzeko",
+      "position": "Dzeko è una persona di grande valore umano e spessore.",
+      "polarity": "positive",
+      "claim_id": "a1f51aed-84dd-4c86-8f01-d8e13a7855cb",
+      "video_id": "ZMSHH4oD3fw",
+      "segment_id": "s1",
+      "target_entity": "Dzeko",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dzeko è una persona di grande valore umano e spessore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "per quello che sta facendo, ma complimenti per lo spessore dell'uomo perché l'ho conosciuto e è veramente ente è di grandissimo valore",
+          "start_sec": 42.12,
+          "end_sec": 85.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "carattere",
+        "valore umano"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Dzeko",
+      "position": "Dzeko ha mantenuto un livello di performance coerente e rispettabile anche oggi.",
+      "polarity": "positive",
+      "claim_id": "41089411-7c9d-480d-bff0-69b210f6d179",
+      "video_id": "ZMSHH4oD3fw",
+      "segment_id": "s1",
+      "target_entity": "Dzeko",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dzeko ha mantenuto un livello di performance coerente e rispettabile anche oggi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "oggi come stamattina non si è smentito e e complimenti a lui per quello per quello che ha fatto",
+          "start_sec": 42.12,
+          "end_sec": 85.68,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "performance",
+        "continuità"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "nazionale bosnese",
+      "position": "Il rispetto verso la nazionale bosnese è considerato enorme.",
+      "polarity": "positive",
+      "claim_id": "bdbe725d-5cc1-43ef-bb7c-dbb349cb718c",
+      "video_id": "ZMSHH4oD3fw",
+      "segment_id": "s2",
+      "target_entity": "nazionale bosnese",
+      "entity_type": "team",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Il rispetto verso la nazionale bosnese è considerato enorme.",
+      "evidence_quotes": [
+        {
+          "quote_text": "penso che il rispetto abbiamo nei confronti della nazionale bosnese è enorme",
+          "start_sec": 83.6,
+          "end_sec": 112.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rispetto",
+        "nazionale"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gennaro Gattuso",
+      "position": "Gattuso ha grande stima per Dzeko come uomo e giocatore.",
+      "polarity": "positive",
+      "claim_id": "4d0af7a2-49f2-4765-a6c8-b1891a2067e8",
+      "video_id": "ZMSHH4oD3fw",
+      "segment_id": "s0",
+      "target_entity": "Gennaro Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha grande stima per Dzeko come uomo e giocatore.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gattuso e le parole al miele per Dzeko",
+          "start_sec": 0.08,
+          "end_sec": 46.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "valori",
+        "stima"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Dzeko",
+      "position": "Dzeko è un uomo di grandissimi valori secondo Gattuso.",
+      "polarity": "positive",
+      "claim_id": "af8edbbe-f8b7-4b64-847f-8dadb9c07b2f",
+      "video_id": "ZMSHH4oD3fw",
+      "segment_id": "s0",
+      "target_entity": "Dzeko",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Dzeko è un uomo di grandissimi valori secondo Gattuso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "è un uomo di grandissimi valori",
+          "start_sec": 0.08,
+          "end_sec": 46.76,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "valori",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Dzeko",
+      "position": "Gattuso ha parlato positivamente di Dzeko utilizzando parole al miele.",
+      "polarity": "positive",
+      "claim_id": "4cf8130c-232e-4578-8a87-f48134c9f56a",
+      "video_id": "ZMSHH4oD3fw",
+      "segment_id": "s2",
+      "target_entity": "Dzeko",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gattuso ha parlato positivamente di Dzeko utilizzando parole al miele.",
+      "evidence_quotes": [
+        {
+          "quote_text": "#Gattuso e le parole al miele per #Dzeko",
+          "start_sec": 83.6,
+          "end_sec": 112.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "commento",
+        "dichiarazione",
+        "giocatore"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Di Marco",
+      "position": "Di Marco era presente con i suoi familiari durante l'evento.",
+      "polarity": "neutral",
+      "claim_id": "fe5d3a1b-1e7f-451d-a1f0-209fa1058b21",
+      "video_id": "ZMSHH4oD3fw",
+      "segment_id": "s2",
+      "target_entity": "Di Marco",
+      "entity_type": "player",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Di Marco era presente con i suoi familiari durante l'evento.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Di Marco era là coi coi suoi familiari",
+          "start_sec": 83.6,
+          "end_sec": 112.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "presenza",
+        "famiglia"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "media",
+      "position": "Le polemiche sono giudicate stupide e auto-inflitte.",
+      "polarity": "negative",
+      "claim_id": "fc0138a3-8d7a-4420-ab66-92ff476596ff",
+      "video_id": "ZMSHH4oD3fw",
+      "segment_id": "s2",
+      "target_entity": "media",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Le polemiche sono giudicate stupide e auto-inflitte.",
+      "evidence_quotes": [
+        {
+          "quote_text": "sono polemiche che siamo stati un po' stupidi noi a farci del male da solo",
+          "start_sec": 83.6,
+          "end_sec": 112.24,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "polemica",
+        "giudizio"
+      ]
+    }
+  ]
+}

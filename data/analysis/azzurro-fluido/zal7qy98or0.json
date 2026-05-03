@@ -1,0 +1,409 @@
+{
+  "video_id": "zal7qy98or0",
+  "analyzed_at": "2026-04-30T07:32:04.583602+00:00",
+  "metadata": {
+    "title": "GODUTO anche con Atletico Arsenal 1-1! 👀 #Analisi PSG BAYERN 🔵",
+    "author_name": "Azzurro Fluido",
+    "published_at": null
+  },
+  "summary": "Il video analizza la semifinale di Champions League tra Atletico Madrid e Arsenal, mettendo a confronto diverse filosofie calcistiche. L'autore sottolinea l'intensità e il coraggio mostrati da entrambe le squadre, evidenziando tattiche come il blocco basso dell'Atletico e il possesso palla consolidato dell'Arsenal. Viene discussa la controversia su un rigore dubbio e si evidenziano le prestazioni di singoli giocatori come Alvarez, Lukman e Griezmann, con particolare attenzione all'impatto del pubblico ferocissimo dell'Atletico nel finale. L'analisi conclude che anche una partita con pochi gol ",
+  "topics": [
+    {
+      "name": "tattica",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "leadership",
+      "relevance": "medium"
+    },
+    {
+      "name": "media",
+      "relevance": "medium"
+    },
+    {
+      "name": "rigore",
+      "relevance": "low"
+    },
+    {
+      "name": "decisione arbitrale",
+      "relevance": "low"
+    },
+    {
+      "name": "mercato",
+      "relevance": "low"
+    },
+    {
+      "name": "movimento tattico",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "performance",
+      "subject": "Alvarez",
+      "position": "Alvarez ha tirato un calcio potente a 126 km/h e gioca come un numero 10.",
+      "polarity": "positive",
+      "claim_id": "00287db7-6411-423e-8c9d-738447bb3c2f",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s1",
+      "target_entity": "Alvarez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Alvarez ha tirato un calcio potente a 126 km/h e gioca come un numero 10.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Alvarez spara una botta i 126 km/h...Alvarez sempre tra le linee, sempre è un è un number 10",
+          "start_sec": 126.799,
+          "end_sec": 216.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "fan_behavior",
+      "subject": "Atletico",
+      "position": "Il pubblico dell'Atletico è stato ferocissimo nel sostenere la squadra nel recupero palla e nel pressing.",
+      "polarity": "positive",
+      "claim_id": "d04920f0-59ba-4c00-8707-d8d94f2b6c85",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s1",
+      "target_entity": "Atletico",
+      "entity_type": "team",
+      "dimension": "fan_behavior",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Il pubblico dell'Atletico è stato ferocissimo nel sostenere la squadra nel recupero palla e nel pressing.",
+      "evidence_quotes": [
+        {
+          "quote_text": "con il pubblico, perché l'Atletico è stato ferocissimo nel recupero di ogni pallone... col pubblico che spingeva",
+          "start_sec": 126.799,
+          "end_sec": 216.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pubblico",
+        "tifosi",
+        "energetico"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Arteta",
+      "position": "Ad Arteta manca coraggio nelle scelte di formazione iniziale.",
+      "polarity": "negative",
+      "claim_id": "8b11e648-423b-4296-bc73-392d079e1362",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s2",
+      "target_entity": "Arteta",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Ad Arteta manca coraggio nelle scelte di formazione iniziale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "quello che mi sento di dire è che forse eh quello che manca ad Arteta è un po' di coraggio",
+          "start_sec": 213.519,
+          "end_sec": 306.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "allenatore",
+        "coraggio",
+        "formazione"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Atletico",
+      "position": "L'Atletico usa un blocco basso quando rientra in difesa.",
+      "polarity": "neutral",
+      "claim_id": "1084c665-69ba-46c1-9173-046cc8745106",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s0",
+      "target_entity": "Atletico",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Atletico usa un blocco basso quando rientra in difesa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il blocco basso che fa che fa l'Atletico quando rientrano",
+          "start_sec": 1.68,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "difesa",
+        "blocco basso"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Jokeres",
+      "position": "Il rigore di Jokeres è dubbio perché la spinta potrebbe essere considerata soft.",
+      "polarity": "neutral",
+      "claim_id": "bb7bca62-71e0-4487-b9e1-b192c9f2c75d",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s0",
+      "target_entity": "Jokeres",
+      "entity_type": "player",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "MIXED",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Il rigore di Jokeres è dubbio perché la spinta potrebbe essere considerata soft.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Eh, il rigore di Jokeres se ne può parlare nei commenti perché per me la spinta c'è, ma lo vedo andare in volo prima ancora di di di riceverla la spinta, quindi un po' soft",
+          "start_sec": 1.68,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rigore",
+        "arbitraggio",
+        "dubbio"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Lukman",
+      "position": "Lukman non è sembrato in grande giornata in questo secondo tempo.",
+      "polarity": "negative",
+      "claim_id": "ec7031d8-9a4b-4d48-b230-e8dee2960e92",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s1",
+      "target_entity": "Lukman",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Lukman non è sembrato in grande giornata in questo secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Lukman non mi sembrava in grande giornata perché la tira in bocca a Ray un paio di volte",
+          "start_sec": 126.799,
+          "end_sec": 216.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "rigore"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "arbitro",
+      "position": "L'arbitro ha visto il tocco e non è intervenuto invalidando l'azione sulla base del protocollo VAR.",
+      "polarity": "positive",
+      "claim_id": "93c95659-a0c7-4790-8f89-df9a1a599b48",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s2",
+      "target_entity": "arbitro",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'arbitro ha visto il tocco e non è intervenuto invalidando l'azione sulla base del protocollo VAR.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'arbitro ha visto il tocco, il VAR non può intervenire per cambiare una cosa che non è chiara ed evidente",
+          "start_sec": 213.519,
+          "end_sec": 306.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "var",
+        "arbitro",
+        "protocollo"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Arsenal",
+      "position": "L'ingresso di Eze rende l'Arsenal più elettrico e pericoloso negli scambi rapidi.",
+      "polarity": "positive",
+      "claim_id": "f542cbaa-2256-4eaa-ba85-56f80298f524",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s2",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'ingresso di Eze rende l'Arsenal più elettrico e pericoloso negli scambi rapidi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Quando entra Ez l'Arsenal diventa più elettrico e gli scambi che fanno in velocità mettono in difficoltà l'Atletico Madrid",
+          "start_sec": 213.519,
+          "end_sec": 306.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Arsenal",
+        "Eze",
+        "performance"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Arteta",
+      "position": "Arteta è sotto pressione per vincere quest'anno, considerato essenziale per la sua carriera.",
+      "polarity": "neutral",
+      "claim_id": "ab1810ce-7c76-42f8-ab78-9a6725cd575c",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s3",
+      "target_entity": "Arteta",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Arteta è sotto pressione per vincere quest'anno, considerato essenziale per la sua carriera.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Arteta c'ha l'attenuante che se non vince anche quest'anno è una tragedia assoluta",
+          "start_sec": 305.0,
+          "end_sec": 408.919,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Griezmann",
+      "position": "Griezmann ha preso una traversa incredibile in questo secondo tempo.",
+      "polarity": "neutral",
+      "claim_id": "1eb10d47-9e4f-40c5-9614-42062585b959",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s1",
+      "target_entity": "Griezmann",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Griezmann ha preso una traversa incredibile in questo secondo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Griezmann prende una traversa incredibile",
+          "start_sec": 126.799,
+          "end_sec": 216.31900000000002,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "giocatore",
+        "occasione"
+      ]
+    },
+    {
+      "topic": "tactics",
+      "subject": "Arsenal",
+      "position": "L'Arsenal cerca di consolidare il possesso palla.",
+      "polarity": "neutral",
+      "claim_id": "698b84c5-4b0b-4249-bb95-23b495722643",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s0",
+      "target_entity": "Arsenal",
+      "entity_type": "team",
+      "dimension": "tactics",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Arsenal cerca di consolidare il possesso palla.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Un Arsenal che mi sembra che voglia più consolidare il possesso",
+          "start_sec": 1.68,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "possesso palla",
+        "tattica"
+      ]
+    },
+    {
+      "topic": "performance",
+      "subject": "Alvarez",
+      "position": "Alvarez ha avuto un'occasione importante nel primo tempo.",
+      "polarity": "positive",
+      "claim_id": "3545af7d-4e7b-4f5f-bad3-27414abc5d3a",
+      "video_id": "zal7qy98or0",
+      "segment_id": "s0",
+      "target_entity": "Alvarez",
+      "entity_type": "player",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Alvarez ha avuto un'occasione importante nel primo tempo.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Occasione per Alvarez, eh, grande parata di Ray",
+          "start_sec": 1.68,
+          "end_sec": 129.2,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "prestazione",
+        "occasione"
+      ]
+    }
+  ]
+}

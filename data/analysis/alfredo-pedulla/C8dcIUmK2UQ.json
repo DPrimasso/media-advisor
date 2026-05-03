@@ -1,0 +1,382 @@
+{
+  "video_id": "C8dcIUmK2UQ",
+  "analyzed_at": "2026-05-01T11:44:15.048767+00:00",
+  "metadata": {
+    "title": "JOHN ELKANN STREGATO DA SPALLETTI: GLI EFFETTI. GATTUSO-PALLADINO E IL GIRO PANCHINE🚨",
+    "author_name": "Alfredo Pedullà",
+    "published_at": null
+  },
+  "summary": "Il video di Alfredo Pedullà analizza i movimenti e le incertezze sulle panchine delle squadre di calcio italiane in vista della prossima stagione, con particolare attenzione ai contratti e alle strategie di mercato. L'autore sottolinea come alcune scelte passate, come la gestione di Pioli e la conferma di Juric, siano state criticate, mentre il futuro di allenatori come Conte e Allegri dipenderà da trattative economiche e risultati. Pedullà evidenzia inoltre l'impatto che la nomina del nuovo commissario tecnico della nazionale potrebbe avere sulle panchine dei club, sottolineando la fluidità e",
+  "topics": [
+    {
+      "name": "mercato",
+      "relevance": "high"
+    },
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "panchina",
+      "relevance": "medium"
+    },
+    {
+      "name": "gestione squadra",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione giocatore",
+      "relevance": "low"
+    },
+    {
+      "name": "rotazione",
+      "relevance": "low"
+    },
+    {
+      "name": "media",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "market",
+      "subject": "Pioli",
+      "position": "La gestione di Pioli è stata considerata da rivedere nell'ultimo anno di mercato.",
+      "polarity": "negative",
+      "claim_id": "835abd8d-f4c4-4cd6-881e-9b7f91307cad",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s1",
+      "target_entity": "Pioli",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La gestione di Pioli è stata considerata da rivedere nell'ultimo anno di mercato.",
+      "evidence_quotes": [
+        {
+          "quote_text": "C'eravamo lasciati l'anno scorso con una rivisitazione importante, no, delle panchine, no? Si pensava che Pioli, puntini puntini, Pioli è saltato.",
+          "start_sec": 34.32,
+          "end_sec": 72.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Tizio",
+      "position": "Tizio potrebbe diventare allenatore della nazionale fra 15-20 giorni.",
+      "polarity": "neutral",
+      "claim_id": "d6e80a8a-0ccb-4d3c-82f6-84e027ddab65",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s2",
+      "target_entity": "Tizio",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Tizio potrebbe diventare allenatore della nazionale fra 15-20 giorni.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci puoi pensare tra 15-20 giorni",
+          "start_sec": 70.24,
+          "end_sec": 105.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Juric",
+      "position": "La scelta di proseguire con Juric è stata valutata negativamente.",
+      "polarity": "negative",
+      "claim_id": "68e06766-4833-4acd-afc2-eb9cfad2a9f2",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s1",
+      "target_entity": "Juric",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La scelta di proseguire con Juric è stata valutata negativamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Si pensava che Juric, ma non è stata una bella scelta.",
+          "start_sec": 34.32,
+          "end_sec": 72.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Allegri",
+      "position": "Se Allegri sarà accontentato sul mercato, le conferme saranno in tal senso.",
+      "polarity": "positive",
+      "claim_id": "d8404832-5ee1-412d-af4a-fe48af3be775",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s1",
+      "target_entity": "Allegri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Se Allegri sarà accontentato sul mercato, le conferme saranno in tal senso.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Se tutto andrà eh come si deve e Allegri verrà accontentato sul mercato, ci saranno eh delle conferme in tal senso",
+          "start_sec": 34.32,
+          "end_sec": 72.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Il secondo anno di Conte è spesso problematico per lui.",
+      "polarity": "negative",
+      "claim_id": "76a0690d-6030-4641-8067-3ee7cee4f07d",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s1",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Il secondo anno di Conte è spesso problematico per lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Conte qui puntini Punzinini il secondo anno diventa molto spesso una tagliola per Conte",
+          "start_sec": 34.32,
+          "end_sec": 72.0,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "mercato",
+        "allenatore"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gattuso",
+      "position": "Gattuso potrebbe non essere considerato per la panchina della nazionale.",
+      "polarity": "neutral",
+      "claim_id": "bbb30207-6f78-4af4-9238-e47082554f76",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s2",
+      "target_entity": "Gattuso",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Gattuso potrebbe non essere considerato per la panchina della nazionale.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Magari oggi non hai pensato a Tizio per la panchina eh da selezionatore al posto di Gattuso",
+          "start_sec": 70.24,
+          "end_sec": 105.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "nazionale",
+      "position": "Il ruolo di selezionatore della nazionale influenza il rapporto con il club.",
+      "polarity": "neutral",
+      "claim_id": "20f7f319-a3df-4943-aa69-ad119eb103e2",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s2",
+      "target_entity": "nazionale",
+      "entity_type": "team",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Il ruolo di selezionatore della nazionale influenza il rapporto con il club.",
+      "evidence_quotes": [
+        {
+          "quote_text": "E il richiamo della nazionale come funzionerebbe rispetto al tuo rapporto con il club",
+          "start_sec": 70.24,
+          "end_sec": 105.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "situazioni",
+      "position": "Le situazioni in ambito calcistico possono cambiare improvvisamente.",
+      "polarity": "neutral",
+      "claim_id": "6f536d6e-ea69-4118-a7b8-d70e3ef4837d",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s2",
+      "target_entity": "situazioni",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le situazioni in ambito calcistico possono cambiare improvvisamente.",
+      "evidence_quotes": [
+        {
+          "quote_text": "bisogna stare sempre attenti alle situazioni che possono cambiare in un solo caso all'improvviso",
+          "start_sec": 70.24,
+          "end_sec": 105.67999999999999,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Ci sarà un incontro tra Conte e De Laurentiis probabilmente dopo la partita di Como.",
+      "polarity": "neutral",
+      "claim_id": "c24d6bf9-dd72-4691-a24c-5b7ac4b5eaaf",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "PROBABLE",
+      "claim_text": "Ci sarà un incontro tra Conte e De Laurentiis probabilmente dopo la partita di Como.",
+      "evidence_quotes": [
+        {
+          "quote_text": "ci sarà questo famoso incontro tra Conte e De Laurentis, probabilmente dopo la partita di Como",
+          "start_sec": 102.52,
+          "end_sec": 140.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Sarri",
+      "position": "L'opzione Sarri è tenuta in seria considerazione all'interno di una ristretta lista.",
+      "polarity": "neutral",
+      "claim_id": "b65481b8-bbce-439c-9d29-9bce67fe1cc9",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s3",
+      "target_entity": "Sarri",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'opzione Sarri è tenuta in seria considerazione all'interno di una ristretta lista.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'opzione Sarri che va tenuta in seria considerazione dentro una ristretta lista",
+          "start_sec": 102.52,
+          "end_sec": 140.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "market",
+      "subject": "Conte",
+      "position": "Conte potrebbe accettare un abbassamento del monte ingaggi dopo le spese enormi fatte per lui.",
+      "polarity": "neutral",
+      "claim_id": "f0567d49-633b-4693-ade1-a35eb9b8b2a5",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s3",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Conte potrebbe accettare un abbassamento del monte ingaggi dopo le spese enormi fatte per lui.",
+      "evidence_quotes": [
+        {
+          "quote_text": "accettare eh un abbassamento del Monte ingaggi dopo spese enormi che hanno fatto per lui",
+          "start_sec": 102.52,
+          "end_sec": 140.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Simone Inzaghi",
+      "position": "Simone Inzaghi ha parlato pubblicamente alla vigilia di una partita cruciale per lo scudetto dell'Inter.",
+      "polarity": "neutral",
+      "claim_id": "8b09be42-bbb6-4a81-a61a-abb1c9647797",
+      "video_id": "C8dcIUmK2UQ",
+      "segment_id": "s4",
+      "target_entity": "Simone Inzaghi",
+      "entity_type": "coach",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Simone Inzaghi ha parlato pubblicamente alla vigilia di una partita cruciale per lo scudetto dell'Inter.",
+      "evidence_quotes": [
+        {
+          "quote_text": "il fatto che lui abbia parlato alla vigilia o all'antivigilia della partita che dovrebbe essere lo scudetto per l'Inter",
+          "start_sec": 138.0,
+          "end_sec": 171.239,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "coach",
+        "inter"
+      ]
+    }
+  ]
+}

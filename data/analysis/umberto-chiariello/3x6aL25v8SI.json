@@ -1,0 +1,396 @@
+{
+  "video_id": "3x6aL25v8SI",
+  "analyzed_at": "2026-04-25T10:54:29.778689+00:00",
+  "metadata": {
+    "title": "CALCIOMANIA 02 04 2026",
+    "author_name": "Radio CRC ",
+    "published_at": null
+  },
+  "summary": "Il video di Radio CRC tratta principalmente delle dimissioni del presidente della Federcalcio Gabriele Gravina e delle conseguenze per il calcio italiano. L'autore sottolinea la crisi di leadership in atto, evidenziata anche dall'uscita di scena di Buffon e dalle critiche rivolte a Mancini come possibile CT. Viene inoltre evidenziata la lunga difficoltà del movimento calcistico italiano dal 2006, ma si auspica un rilancio grazie a nuove norme e progetti sportivi, con l’assemblea elettiva prevista per giugno come momento chiave per il futuro della governance federale.",
+  "topics": [
+    {
+      "name": "leadership",
+      "relevance": "high"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "high"
+    },
+    {
+      "name": "finanza",
+      "relevance": "high"
+    },
+    {
+      "name": "formazione",
+      "relevance": "medium"
+    },
+    {
+      "name": "tattica",
+      "relevance": "medium"
+    },
+    {
+      "name": "mercato",
+      "relevance": "medium"
+    },
+    {
+      "name": "previsione",
+      "relevance": "low"
+    },
+    {
+      "name": "nazionale",
+      "relevance": "low"
+    },
+    {
+      "name": "allenatore",
+      "relevance": "low"
+    },
+    {
+      "name": "calendario",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "leadership",
+      "subject": "Associazione Italiana Allenatori Calcio",
+      "position": "L'Associazione Allenatori Calcio riconosce una difficoltà lunga del calcio italiano dal 2006.",
+      "polarity": "negative",
+      "claim_id": "252c6120-7b3d-4b1d-8adf-ac43af253970",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s0",
+      "target_entity": "Associazione Italiana Allenatori Calcio",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Associazione Allenatori Calcio riconosce una difficoltà lunga del calcio italiano dal 2006.",
+      "evidence_quotes": [
+        {
+          "quote_text": "siamo in difficoltà dal 2006. è una difficoltà lunga",
+          "start_sec": 0.12,
+          "end_sec": 610.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "crisi"
+      ]
+    },
+    {
+      "topic": "market",
+      "subject": "Pep Guardiola",
+      "position": "Pep Guardiola potrebbe allenare la nazionale italiana in futuro",
+      "polarity": "neutral",
+      "claim_id": "cd2aad02-119a-45e1-b125-0944274028a9",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s2",
+      "target_entity": "Pep Guardiola",
+      "entity_type": "coach",
+      "dimension": "market",
+      "claim_type": "PREDICTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "Pep Guardiola potrebbe allenare la nazionale italiana in futuro",
+      "evidence_quotes": [
+        {
+          "quote_text": "Pep Guardiola eventualmente potrebbe permetterselo perché arriverebbe su una panchina di una nazionale, tra l'altro di un paese a lui molto caro",
+          "start_sec": 1139.559,
+          "end_sec": 1696.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "media",
+      "subject": "Gabriele Gravina",
+      "position": "La critica sui social per le parole di Gravina sulla differenza tra sport dilettantistici e professionistici è stata molto negativa.",
+      "polarity": "negative",
+      "claim_id": "50b2e7a1-4090-497d-96fd-21e709efccd7",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s0",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "La critica sui social per le parole di Gravina sulla differenza tra sport dilettantistici e professionistici è stata molto negativa.",
+      "evidence_quotes": [
+        {
+          "quote_text": "gli è valso diciamo 48 ore almeno eh di perculate sui social, soprattutto anche da parte degli stessi atleti, alcuni eh medagliati",
+          "start_sec": 0.12,
+          "end_sec": 610.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "media",
+        "critica",
+        "social"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Associazione Italiana Calciatori",
+      "position": "L'Associazione Calciatori vede una possibilità di rilancio attraverso nuove norme e progetti sportivi.",
+      "polarity": "positive",
+      "claim_id": "67db3653-d435-4653-ac11-8cc0ded0e0b1",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s0",
+      "target_entity": "Associazione Italiana Calciatori",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "OBSERVATION",
+      "stance": "POS",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "L'Associazione Calciatori vede una possibilità di rilancio attraverso nuove norme e progetti sportivi.",
+      "evidence_quotes": [
+        {
+          "quote_text": "cerco di cogliere anche nelle dichiarazioni che abbiamo letto nei giornali, speriamo che anche con la politica si possano studiare norme che favoriscano questo utilizzo e che soprattutto si riesca a condividere un progetto sportivo che possa rilanciare il nostro il nostro mondo",
+          "start_sec": 0.12,
+          "end_sec": 610.48,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "leadership",
+        "riforma"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Associazione Italiana Calciatori",
+      "position": "L'Associazione Italiana Calciatori è il primo movimento calcistico in Italia.",
+      "polarity": "positive",
+      "claim_id": "28bee631-99fb-434d-b7d0-a2a4030563c0",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s1",
+      "target_entity": "Associazione Italiana Calciatori",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "L'Associazione Italiana Calciatori è il primo movimento calcistico in Italia.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Siamo un movimento che che è comunque il primo movimento in Italia",
+          "start_sec": 607.0,
+          "end_sec": 1142.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "movimento calcistico",
+        "leadership",
+        "Italia"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roberto Mancini",
+      "position": "Roberto Mancini è giudicato improponibile come CT per aver lasciato l'Italia per una proposta economica.",
+      "polarity": "negative",
+      "claim_id": "31bd5061-d286-404e-8823-8b535f1046df",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s1",
+      "target_entity": "Roberto Mancini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEG",
+      "intensity": 3,
+      "modality": "CERTAIN",
+      "claim_text": "Roberto Mancini è giudicato improponibile come CT per aver lasciato l'Italia per una proposta economica.",
+      "evidence_quotes": [
+        {
+          "quote_text": "l'aver scelto eh di piantare in asso l'Italia in estate solo perché l'Arabia Saudita gli aveva offerto molti soldi, per me fa di Roberto Mancini un improponibile, proprio un improponibile in modo assoluto",
+          "start_sec": 607.0,
+          "end_sec": 1142.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Roberto Mancini",
+        "allenatore",
+        "leadership"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Roberto Mancini",
+      "position": "Roberto Mancini ha lasciato la nazionale italiana per motivi economici",
+      "polarity": "negative",
+      "claim_id": "5818ada9-8063-448c-a64a-b8edcbb318e5",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s2",
+      "target_entity": "Roberto Mancini",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "NEG",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Roberto Mancini ha lasciato la nazionale italiana per motivi economici",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ha lasciato la nazionale italiana per i soldi. Per i soldi. Se n'è fregato di tutti.",
+          "start_sec": 1139.559,
+          "end_sec": 1696.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "Conte",
+      "position": "Antonio Conte è considerato un allenatore adatto per la nazionale italiana",
+      "polarity": "positive",
+      "claim_id": "d5cc59b7-3ef4-4dbd-ace3-ac29fcb32efe",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s2",
+      "target_entity": "Conte",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "INTERPRETATION",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "Antonio Conte è considerato un allenatore adatto per la nazionale italiana",
+      "evidence_quotes": [
+        {
+          "quote_text": "Antonio Conte qua è bravo, è l'uomo giusto para nazionale",
+          "start_sec": 1139.559,
+          "end_sec": 1696.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "finance",
+      "subject": "Napoli",
+      "position": "La società Napoli potrebbe essere disponibile a lasciare andare Conte per motivi finanziari",
+      "polarity": "neutral",
+      "claim_id": "242f6c22-36dd-4d77-9811-82783c3c8df9",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s2",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "finance",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "POSSIBLE",
+      "claim_text": "La società Napoli potrebbe essere disponibile a lasciare andare Conte per motivi finanziari",
+      "evidence_quotes": [
+        {
+          "quote_text": "potrebbe anche tornare relativamente utile una richiesta da parte della federazione che consentirebbe a De Laurentis di girare la pagina, passare una politica gestionale diversa, ridurre la massa salariale e cominciare dallo staff tecnico",
+          "start_sec": 1139.559,
+          "end_sec": 1696.679,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "leadership",
+      "subject": "federazione calcio italiana",
+      "position": "La federazione italiana di calcio dovrebbe mettere in atto una profonda ristrutturazione per rilanciare il calcio italiano.",
+      "polarity": "positive",
+      "claim_id": "68b92364-ef66-436e-bf62-ad292808e9e9",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s3",
+      "target_entity": "federazione calcio italiana",
+      "entity_type": "other",
+      "dimension": "leadership",
+      "claim_type": "PRESCRIPTION",
+      "stance": "POS",
+      "intensity": 3,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "La federazione italiana di calcio dovrebbe mettere in atto una profonda ristrutturazione per rilanciare il calcio italiano.",
+      "evidence_quotes": [
+        {
+          "quote_text": "secondo me dovrebbe contenere un programma così vasto e così profondo di rinnovazione di strutture, tecnici, modi di eh scoprire i talenti, eh capacità di dialogo e informatizzazione",
+          "start_sec": 1694.96,
+          "end_sec": 2287.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "rinnovazione",
+        "struttura",
+        "talento"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gianluigi Buffon",
+      "position": "Gianluigi Buffon ha lasciato la nazionale dopo le dimissioni del presidente federale Gravina.",
+      "polarity": "neutral",
+      "claim_id": "2267affc-aac1-4c7d-999c-5893d522611e",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s1",
+      "target_entity": "Gianluigi Buffon",
+      "entity_type": "player",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluigi Buffon ha lasciato la nazionale dopo le dimissioni del presidente federale Gravina.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gigi Buffon eh che lascia anche lui la nazionale",
+          "start_sec": 607.0,
+          "end_sec": 1142.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Gianluigi Buffon",
+        "nazionale",
+        "dimissioni"
+      ]
+    },
+    {
+      "topic": "leadership",
+      "subject": "Gabriele Gravina",
+      "position": "Gabriele Gravina ha dato le dimissioni da presidente della Federcalcio.",
+      "polarity": "neutral",
+      "claim_id": "3156b1db-0b1f-45f9-8d29-dbc2891510e3",
+      "video_id": "3x6aL25v8SI",
+      "segment_id": "s1",
+      "target_entity": "Gabriele Gravina",
+      "entity_type": "coach",
+      "dimension": "leadership",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gabriele Gravina ha dato le dimissioni da presidente della Federcalcio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "le dimissioni di Gravina, il presidente federale",
+          "start_sec": 607.0,
+          "end_sec": 1142.159,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "Gabriele Gravina",
+        "Federcalcio",
+        "dimissioni"
+      ]
+    }
+  ]
+}

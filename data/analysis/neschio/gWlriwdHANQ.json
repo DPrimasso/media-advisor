@@ -1,0 +1,395 @@
+{
+  "video_id": "gWlriwdHANQ",
+  "analyzed_at": "2026-04-26T11:33:59.042673+00:00",
+  "metadata": {
+    "title": "ECCO IL TERREMOTO‼️ ROCCHI INDAGATO PER CONCORSO IN FRODE SPORTIVA",
+    "author_name": "Neschio",
+    "published_at": null
+  },
+  "summary": "Il video affronta il tema dell’indagine per concorso in frode sportiva che coinvolge l’arbitro Gianluca Rocchi, con un focus sulle partite della stagione 2024-2025. L’autore sottolinea l’importanza di mantenere un atteggiamento garantista, ricordando che un’indagine non equivale a colpevolezza e invita a evitare pregiudizi nei confronti degli arbitri. Viene inoltre evidenziata la diffusione mediatica della notizia e la necessità di approfondire gli sviluppi futuri, mentre si respinge la narrazione secondo cui la vicenda sarebbe collegata a presunti favoritismi nella cosiddetta \"Marotta League\"",
+  "topics": [
+    {
+      "name": "arbitraggio",
+      "relevance": "high"
+    },
+    {
+      "name": "var",
+      "relevance": "high"
+    },
+    {
+      "name": "media",
+      "relevance": "high"
+    },
+    {
+      "name": "indagine",
+      "relevance": "medium"
+    },
+    {
+      "name": "inchiesta",
+      "relevance": "medium"
+    },
+    {
+      "name": "episodio controverso",
+      "relevance": "medium"
+    },
+    {
+      "name": "penalty",
+      "relevance": "low"
+    },
+    {
+      "name": "stagione",
+      "relevance": "low"
+    },
+    {
+      "name": "prestazione",
+      "relevance": "low"
+    },
+    {
+      "name": "gol",
+      "relevance": "low"
+    }
+  ],
+  "claims": [
+    {
+      "topic": "media",
+      "subject": "Marotta League",
+      "position": "C'è una narrativa sulla Marotta League riguardo alla stagione 2024-2025.",
+      "polarity": "neutral",
+      "claim_id": "b200576c-7fb5-45cb-809b-52e533db35a7",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s4",
+      "target_entity": "Marotta League",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "C'è una narrativa sulla Marotta League riguardo alla stagione 2024-2025.",
+      "evidence_quotes": [
+        {
+          "quote_text": "since immediately there is this narrative on the Marotta League",
+          "start_sec": 162.54,
+          "end_sec": 203.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "performance",
+      "subject": "Ludinese",
+      "position": "Ludinese won the match 1-0 with a penalty goal by Thauvin.",
+      "polarity": "positive",
+      "claim_id": "f26f9805-f3bc-4d04-b92c-3415f04fa0f2",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s7",
+      "target_entity": "Ludinese",
+      "entity_type": "team",
+      "dimension": "performance",
+      "claim_type": "FACT",
+      "stance": "POS",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Ludinese won the match 1-0 with a penalty goal by Thauvin.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Ludinese will win the 1-0 match thanks to the transformation from the 11 meters of Thauvin",
+          "start_sec": 263.54,
+          "end_sec": 313.16,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "partita",
+        "gol",
+        "rigore"
+      ]
+    },
+    {
+      "topic": "standings",
+      "subject": "Napoli",
+      "position": "La stagione 2024-2025 è la stagione in cui il Napoli vince la lega.",
+      "polarity": "neutral",
+      "claim_id": "37538ccc-4d43-4439-94ce-b2265dace386",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s4",
+      "target_entity": "Napoli",
+      "entity_type": "team",
+      "dimension": "standings",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "La stagione 2024-2025 è la stagione in cui il Napoli vince la lega.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the season in which the league wins in Naples",
+          "start_sec": 162.54,
+          "end_sec": 203.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "investigators",
+      "position": "Le indagini si concentrano sulla stagione 2024-2025.",
+      "polarity": "neutral",
+      "claim_id": "bdd14968-a2d5-485a-8927-391df3d3973a",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s4",
+      "target_entity": "investigators",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Le indagini si concentrano sulla stagione 2024-2025.",
+      "evidence_quotes": [
+        {
+          "quote_text": "So the investigations of the investigators focus on the past season. 2024-2025.",
+          "start_sec": 162.54,
+          "end_sec": 203.96,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "investigated person",
+      "position": "Una persona indagata deve essere considerata garantita e non colpevole fino a prova contraria.",
+      "polarity": "neutral",
+      "claim_id": "8b33766a-3d8a-45b4-88e9-cea7d33cd53a",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s1",
+      "target_entity": "investigated person",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Una persona indagata deve essere considerata garantita e non colpevole fino a prova contraria.",
+      "evidence_quotes": [
+        {
+          "quote_text": "when we talk about investigation, we must obviously be guaranteed",
+          "start_sec": 48.06,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "diritto"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "referees",
+      "position": "Quando si parla di arbitri è facile iniziare con un pregiudizio.",
+      "polarity": "neutral",
+      "claim_id": "e84f00fc-4340-4640-8880-b5c4faf87938",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s1",
+      "target_entity": "referees",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Quando si parla di arbitri è facile iniziare con un pregiudizio.",
+      "evidence_quotes": [
+        {
+          "quote_text": "At this moment, every time we talk about referees, it is easy to start with a preconception",
+          "start_sec": 48.06,
+          "end_sec": 92.04,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "pregiudizio",
+        "media"
+      ]
+    },
+    {
+      "topic": "media",
+      "subject": "Gianluca De Orocchi",
+      "position": "Gianluca De Orocchi is under investigation for sports fraud.",
+      "polarity": "neutral",
+      "claim_id": "04374888-6efb-44d9-a5d6-dca3b9e6b258",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s3",
+      "target_entity": "Gianluca De Orocchi",
+      "entity_type": "other",
+      "dimension": "media",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Gianluca De Orocchi is under investigation for sports fraud.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Gianluca De Orocchi would be investigated for sports",
+          "start_sec": 125.08,
+          "end_sec": 162.54,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "indagine",
+        "frode sportiva"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Nese Parma",
+      "position": "È in corso un'analisi VAR di un possibile rigore per fallo di mano su una partita di Nese Parma.",
+      "polarity": "neutral",
+      "claim_id": "0775ddbc-3f87-4a3f-9642-6fae35e2249d",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s5",
+      "target_entity": "Nese Parma",
+      "entity_type": "team",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "POSSIBLE",
+      "claim_text": "È in corso un'analisi VAR di un possibile rigore per fallo di mano su una partita di Nese Parma.",
+      "evidence_quotes": [
+        {
+          "quote_text": "In the VAR room, the images are being analyzed for a possible penalty kick, to do it by hand.",
+          "start_sec": 203.96,
+          "end_sec": 236.28,
+          "confidence": 0.9
+        }
+      ],
+      "tags": []
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Daniele Paterna",
+      "position": "Daniele Paterna's initial reading did not seem oriented towards a penalty kick.",
+      "polarity": "neutral",
+      "claim_id": "01bf0219-f46a-4ccf-a356-ff3aaf78b775",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s6",
+      "target_entity": "Daniele Paterna",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "OBSERVATION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "Daniele Paterna's initial reading did not seem oriented towards a penalty kick.",
+      "evidence_quotes": [
+        {
+          "quote_text": "the reading of Daniele Paterna, which does not seem to be oriented towards the penalty kick",
+          "start_sec": 236.42,
+          "end_sec": 263.3,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "verifica-azioni",
+        "penalty"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Fabio Maresca",
+      "position": "Fabio Maresca initially decided against the penalty but then changed his mind after a second look.",
+      "polarity": "neutral",
+      "claim_id": "b8d1e9b5-81d9-4345-bd44-22b9687b71b7",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s6",
+      "target_entity": "Fabio Maresca",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "JUDGEMENT",
+      "stance": "NEU",
+      "intensity": 2,
+      "modality": "CERTAIN",
+      "claim_text": "Fabio Maresca initially decided against the penalty but then changed his mind after a second look.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Then, after turning for a second, you change your mind from the starter if you win a penalty",
+          "start_sec": 236.42,
+          "end_sec": 263.3,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "decisione",
+        "penalty"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Fabio Maresca",
+      "position": "Fabio Maresca is recommended to watch the review for a possible penalty kick.",
+      "polarity": "neutral",
+      "claim_id": "74c38064-78fa-46de-9e31-0ec77d25f816",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s6",
+      "target_entity": "Fabio Maresca",
+      "entity_type": "ref",
+      "dimension": "refereeing",
+      "claim_type": "PRESCRIPTION",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "PRESCRIPTIVE",
+      "claim_text": "Fabio Maresca is recommended to watch the review for a possible penalty kick.",
+      "evidence_quotes": [
+        {
+          "quote_text": "Fabio, I recommend you to watch the review for a possible penalty kick. Please.",
+          "start_sec": 236.42,
+          "end_sec": 263.3,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "arbitro",
+        "review",
+        "penalty"
+      ]
+    },
+    {
+      "topic": "refereeing",
+      "subject": "Race director",
+      "position": "The race director assigned a penalty following the indication from Lissone.",
+      "polarity": "neutral",
+      "claim_id": "9be4ccbf-556e-4978-aa28-1503bfe2afae",
+      "video_id": "gWlriwdHANQ",
+      "segment_id": "s6",
+      "target_entity": "Race director",
+      "entity_type": "other",
+      "dimension": "refereeing",
+      "claim_type": "FACT",
+      "stance": "NEU",
+      "intensity": 1,
+      "modality": "CERTAIN",
+      "claim_text": "The race director assigned a penalty following the indication from Lissone.",
+      "evidence_quotes": [
+        {
+          "quote_text": "The race director follows the indication arrived from Lissone and assigns the maximum penalty.",
+          "start_sec": 236.42,
+          "end_sec": 263.3,
+          "confidence": 0.9
+        }
+      ],
+      "tags": [
+        "direttore di corsa",
+        "decisione",
+        "penalty"
+      ]
+    }
+  ]
+}
