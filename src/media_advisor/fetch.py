@@ -11,8 +11,14 @@ from pathlib import Path
 
 import httpx
 
-from media_advisor.io.json_io import read_json, read_json_or_default, write_json
-from media_advisor.io.paths import channels_config_path, channel_list_path, pending_path, video_dates_cache_path
+from media_advisor.io.channel_store import (
+    load_channels_config_dict,
+    load_video_dates_dict,
+    read_channel_video_urls,
+    save_pending_dict,
+    save_video_dates_dict,
+)
+from media_advisor.io.json_io import read_json_or_default, write_json
 from media_advisor.models.channels import (
     ChannelsConfig,
     FetchRuleTranscriptApi,
@@ -108,13 +114,8 @@ def _extract_video_id(url_or_id: str) -> str | None:
 
 
 def _get_existing_ids(root: Path, video_list: str) -> set[str]:
-    path = channel_list_path(root, video_list)
-    if not path.exists():
-        return set()
     try:
-        urls = read_json(path)
-        if not isinstance(urls, list):
-            return set()
+        urls = read_channel_video_urls(root, video_list)
         ids: set[str] = set()
         for u in urls:
             vid = _extract_video_id(str(u))
@@ -224,8 +225,7 @@ async def _fetch_from_rss(
 
 
 async def run_fetch_new_videos(root: Path, transcript_api_key: str) -> PendingResult:
-    config_path = channels_config_path(root)
-    raw = read_json(config_path)
+    raw = load_channels_config_dict(root)
     config = ChannelsConfig.model_validate(raw)
 
     channels = sorted(
@@ -285,23 +285,19 @@ async def run_fetch_new_videos(root: Path, transcript_api_key: str) -> PendingRe
         print(f"[{channel.id}] {len(fetched)} fetched, {len(new_videos)} new")
 
         # Aggiorna dates cache con le date di TUTTI i video fetchati (non solo i nuovi)
-        dates_path = video_dates_cache_path(root)
-        dates_cache: dict[str, str] = read_json_or_default(dates_path, default={}) or {}
+        dates_cache = load_video_dates_dict(root)
         for v in fetched:
             if v.published_at:
                 dates_cache[v.video_id] = v.published_at
-        write_json(dates_path, dates_cache)
+        save_video_dates_dict(root, dates_cache)
 
     result = PendingResult(
         fetched_at=datetime.now(timezone.utc),
         items=all_new,
     )
 
-    write_json(
-        pending_path(root),
-        result.model_dump(mode="json"),
-    )
-    print(f"Wrote pending.json with {len(all_new)} pending videos")
+    save_pending_dict(root, result.model_dump(mode="json"))
+    print(f"Wrote pending (db) with {len(all_new)} pending videos")
     return result
 
 
@@ -381,8 +377,7 @@ async def run_fetch_since_last_video(root: Path, transcript_api_key: str) -> Pen
     Uses date-based pagination — unlike run_fetch_new_videos (which caps at last_n),
     this will fetch as many pages as needed to capture every video since the last sync.
     """
-    config_path = channels_config_path(root)
-    raw = read_json(config_path)
+    raw = load_channels_config_dict(root)
     config = ChannelsConfig.model_validate(raw)
 
     channels = sorted(
@@ -390,8 +385,7 @@ async def run_fetch_since_last_video(root: Path, transcript_api_key: str) -> Pen
         key=lambda c: c.order,
     )
 
-    dates_path = video_dates_cache_path(root)
-    dates_cache: dict[str, str] = read_json_or_default(dates_path, default={}) or {}
+    dates_cache = load_video_dates_dict(root)
 
     client = TranscriptClient(transcript_api_key)
     all_new: list[PendingVideo] = []
@@ -486,12 +480,12 @@ async def run_fetch_since_last_video(root: Path, transcript_api_key: str) -> Pen
             if v.published_at:
                 dates_cache[v.video_id] = v.published_at
 
-    write_json(dates_path, dates_cache)
+    save_video_dates_dict(root, dates_cache)
 
     result = PendingResult(
         fetched_at=datetime.now(timezone.utc),
         items=all_new,
     )
-    write_json(pending_path(root), result.model_dump(mode="json"))
-    print(f"Wrote pending.json with {len(all_new)} recent new videos")
+    save_pending_dict(root, result.model_dump(mode="json"))
+    print(f"Wrote pending (db) with {len(all_new)} recent new videos")
     return result

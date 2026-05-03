@@ -9,33 +9,87 @@ In production also serves the Vue.js frontend from web/dist/.
 """
 
 import asyncio
+import hashlib
+import hmac
+import json
 import re
 from pathlib import Path
-from typing import Any
+from typing import Annotated, Any
 
-from fastapi import FastAPI, HTTPException
+from fastapi import Depends, FastAPI, Header, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
+from sqlalchemy import text
 
 from media_advisor.config import Settings
-from media_advisor.io.json_io import read_json, read_json_or_default, write_json, read_video_list, write_video_list
-from media_advisor.io.paths import channels_config_path, channel_list_path, pending_path
+from media_advisor.db.repository import MERCATO_BLOB_ALIASES, fetch_mercato_blob_raw, upsert_mercato_blob
+from media_advisor.db.session import session_scope
+from media_advisor.io.channel_store import (
+    load_channels_config_dict,
+    load_pending_dict,
+    read_channel_video_urls,
+    save_pending_dict,
+    write_channel_video_urls,
+)
 from media_advisor.models.channels import ChannelsConfig
 from media_advisor.models.pending import PendingResult
 
 app = FastAPI(title="Media Advisor API")
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_methods=["GET", "POST", "OPTIONS"],
-    allow_headers=["Content-Type"],
-)
-
 _settings = Settings()
 _root = _settings.root_dir.resolve()
+
+
+def _cors_allow_origins() -> list[str]:
+    parts = [x.strip() for x in (_settings.cors_origins or "").split(",") if x.strip()]
+    return parts if parts else ["*"]
+
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=_cors_allow_origins(),
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["Content-Type", "X-Media-Advisor-Sync"],
+)
+
+
+def _require_sync_secret(
+    x_media_advisor_sync: str | None = Header(default=None, alias="X-Media-Advisor-Sync"),
+) -> None:
+    """If MEDIA_ADVISOR_SYNC_SECRET is set, require matching header (production)."""
+    secret = (_settings.sync_secret or "").strip()
+    if not secret:
+        return
+    hdr = (x_media_advisor_sync or "").strip()
+    ds = hashlib.sha256(secret.encode("utf-8")).hexdigest()
+    dh = hashlib.sha256(hdr.encode("utf-8")).hexdigest()
+    if not hmac.compare_digest(ds, dh):
+        raise HTTPException(status_code=401, detail="X-Media-Advisor-Sync non valido o assente")
+
+
+def _check_sqlite_ready() -> None:
+    with session_scope(_root, read_only=True) as session:
+        session.execute(text("SELECT 1"))
+
+
+SyncSecretDep = Annotated[None, Depends(_require_sync_secret)]
+
+
+def _require_transcript_api_key() -> None:
+    if not (_settings.transcript_api_key or "").strip():
+        raise HTTPException(status_code=500, detail="TRANSCRIPT_API_KEY non configurato")
+
+
+def _require_pipeline_api_keys() -> None:
+    _require_transcript_api_key()
+    if not (_settings.openai_api_key or "").strip():
+        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
+
+
+TranscriptApiKeyDep = Annotated[None, Depends(_require_transcript_api_key)]
+PipelineApiKeysDep = Annotated[None, Depends(_require_pipeline_api_keys)]
 
 
 # ---------------------------------------------------------------------------
@@ -65,11 +119,30 @@ class ConfirmResponse(BaseModel):
 # ---------------------------------------------------------------------------
 
 
+@app.get("/api/health")
+async def get_health(
+    ready: Annotated[int | None, Query(description="Se 1, verifica anche SQLite (SELECT 1)")] = None,
+) -> dict[str, str]:
+    if ready == 1:
+        try:
+            _check_sqlite_ready()
+        except Exception:
+            raise HTTPException(status_code=503, detail="database non pronto")
+    return {"status": "ok", "service": "media-advisor"}
+
+
+@app.get("/api/health/ready")
+async def get_health_ready() -> dict[str, str]:
+    try:
+        _check_sqlite_ready()
+    except Exception:
+        raise HTTPException(status_code=503, detail="database non pronto")
+    return {"status": "ok", "service": "media-advisor", "db": "ok"}
+
+
 @app.get("/api/pending")
 async def get_pending() -> Any:
-    path = pending_path(_root)
-    data = read_json_or_default(path, default={"fetched_at": None, "items": []})
-    return data
+    return load_pending_dict(_root)
 
 
 @app.post("/api/confirm", response_model=ConfirmResponse)
@@ -83,28 +156,23 @@ async def post_confirm(body: ConfirmRequest) -> ConfirmResponse:
     if not items:
         raise HTTPException(status_code=400, detail="No items to confirm")
 
-    config_path = channels_config_path(_root)
-    raw_config = read_json_or_default(config_path)
-    if raw_config is None:
-        raise HTTPException(status_code=500, detail="channels.json not found")
+    raw_config = load_channels_config_dict(_root)
+    if not raw_config.get("channels"):
+        raise HTTPException(status_code=500, detail="channel registry empty (run db-migrate-from-json)")
     config = ChannelsConfig.model_validate(raw_config)
     channel_map = {c.id: c.video_list for c in config.channels}
 
-    # Group by list file
-    to_append: dict[Path, list[str]] = {}
+    to_append: dict[str, list[str]] = {}
     for item in items:
         list_file = channel_map.get(item.channel_id)
         if not list_file:
             continue
-        list_path = channel_list_path(_root, list_file)
-        if not list_path.exists():
-            continue
-        to_append.setdefault(list_path, []).append(
+        to_append.setdefault(list_file, []).append(
             f"https://www.youtube.com/watch?v={item.video_id}"
         )
 
-    for list_path, urls in to_append.items():
-        existing = read_video_list(list_path)
+    for list_key, urls in to_append.items():
+        existing = read_channel_video_urls(_root, list_key)
         existing_ids = {
             vid
             for u in existing
@@ -115,19 +183,15 @@ async def post_confirm(body: ConfirmRequest) -> ConfirmResponse:
             if vid and vid not in existing_ids:
                 existing.append(url)
                 existing_ids.add(vid)
-        write_video_list(list_path, existing)
+        write_channel_video_urls(_root, list_key, existing)
 
-    # Remove confirmed from pending
     confirmed_keys = {f"{i.channel_id}:{i.video_id}" for i in items}
-    ppath = pending_path(_root)
-    raw_pending = read_json_or_default(ppath)
-    if raw_pending is not None:
-        pending = PendingResult.model_validate(raw_pending)
-        pending.items = [
-            v for v in pending.items
-            if f"{v.channel_id}:{v.video_id}" not in confirmed_keys
-        ]
-        write_json(ppath, pending.model_dump(mode="json"))
+    pending = PendingResult.model_validate(load_pending_dict(_root))
+    pending.items = [
+        v for v in pending.items
+        if f"{v.channel_id}:{v.video_id}" not in confirmed_keys
+    ]
+    save_pending_dict(_root, pending.model_dump(mode="json"))
 
     if body.trigger_pipeline:
         asyncio.create_task(_run_pipeline())
@@ -136,12 +200,13 @@ async def post_confirm(body: ConfirmRequest) -> ConfirmResponse:
 
 
 @app.post("/api/fetch-now")
-async def post_fetch_now() -> Any:
-    s = Settings()
-    if not s.transcript_api_key:
-        raise HTTPException(status_code=500, detail="TRANSCRIPT_API_KEY not set")
+async def post_fetch_now(
+    _auth: SyncSecretDep,
+    _keys: TranscriptApiKeyDep,
+) -> Any:
     from media_advisor.fetch import run_fetch_new_videos
-    result = await run_fetch_new_videos(_root, s.transcript_api_key)
+
+    result = await run_fetch_new_videos(_root, _settings.transcript_api_key)
     return result.model_dump(mode="json")
 
 
@@ -449,29 +514,31 @@ async def post_mercato_fetch_transfers(body: FetchTransfersRequest) -> Any:
 
 @app.post("/api/mercato/aliases")
 async def add_player_alias(body: AddAliasRequest) -> Any:
-    """Aggiunge un alias giocatore a player-aliases.json e invalida la cache."""
-    import json as json_mod
-
+    """Aggiunge un alias giocatore nel blob SQLite player_aliases e invalida la cache."""
     alias = body.alias.strip()
     canonical = body.canonical.strip()
     if not alias or not canonical:
         raise HTTPException(status_code=400, detail="alias e canonical sono obbligatori")
 
-    aliases_path = _root / "mercato" / "player-aliases.json"
-    if aliases_path.exists():
-        data: dict = json_mod.loads(aliases_path.read_text(encoding="utf-8"))
-    else:
-        data = {}
+    with session_scope(_root) as session:
+        raw = fetch_mercato_blob_raw(session, MERCATO_BLOB_ALIASES)
+        data: dict[str, Any]
+        if raw:
+            try:
+                parsed = json.loads(raw)
+                data = parsed if isinstance(parsed, dict) else {}
+            except json.JSONDecodeError:
+                data = {}
+        else:
+            data = {}
 
-    if "custom" not in data:
-        data["custom"] = {"_label": "Alias personalizzati (dashboard)"}
-    data["custom"][alias.lower()] = canonical
-
-    aliases_path.write_text(
-        json_mod.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+        if "custom" not in data:
+            data["custom"] = {"_label": "Alias personalizzati (dashboard)"}
+        data["custom"][alias.lower()] = canonical
+        upsert_mercato_blob(session, MERCATO_BLOB_ALIASES, data)
 
     from media_advisor.mercato.player_normalizer import load_player_registry
+
     load_player_registry.cache_clear()
 
     return {"ok": True, "alias": alias, "canonical": canonical}
@@ -481,7 +548,7 @@ async def add_player_alias(body: AddAliasRequest) -> Any:
 async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
     s = Settings()
     if not s.openai_api_key:
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY not set")
+        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
     from media_advisor.mercato.analyzer import analyze_video_mercato
     result = await analyze_video_mercato(
         root=_root,
@@ -612,6 +679,20 @@ def _extract_video_id(url: str) -> str | None:
     return m.group(1) if m else None
 
 
+def _vid_channel_pairs_having_transcripts(
+    root: Path, vid_channel_pairs: list[tuple[str, str]]
+) -> list[tuple[str, str]]:
+    """Keep only (video_id, channel_id) pairs that exist in the transcript table."""
+    if not vid_channel_pairs:
+        return []
+    from media_advisor.db.repository import transcript_existing_pair_keys
+    from media_advisor.db.session import session_scope
+
+    with session_scope(root, read_only=True) as session:
+        have = transcript_existing_pair_keys(session, vid_channel_pairs)
+    return [(vid, ch_id) for vid, ch_id in vid_channel_pairs if (ch_id, vid) in have]
+
+
 def _collect_processing_candidates(
     root: Path,
     cfg: ChannelsConfig,
@@ -628,73 +709,61 @@ def _collect_processing_candidates(
     }
     backfill_count = 0
 
-    for channel in cfg.channels:
-        list_path = channel_list_path(root, channel.video_list)
-        if not list_path.exists():
-            continue
-        transcripts_dir = root / "data" / "transcripts" / channel.id
-        analysis_dir = root / "data" / "analysis" / channel.id
-        transcript_ids = (
-            {p.stem for p in transcripts_dir.glob("*.json")} if transcripts_dir.exists() else set()
-        )
-        analysis_ids = (
-            {p.stem for p in analysis_dir.glob("*.json")} if analysis_dir.exists() else set()
-        )
-        urls = read_video_list(list_path)
-        added_for_channel = 0
-        for url in urls:
-            if added_for_channel >= _BACKFILL_PER_CHANNEL:
-                break
-            vid = _extract_video_id(url)
-            if not vid or vid in channel_of:
-                continue
+    from media_advisor.db.repository import analysis_exists_in_db, transcript_exists_in_db
+    from media_advisor.db.session import session_scope
 
-            if vid in transcript_ids and vid in analysis_ids:
-                continue
+    with session_scope(root, read_only=True) as session:
+        for channel in cfg.channels:
+            urls = read_channel_video_urls(root, channel.video_list)
+            added_for_channel = 0
+            for url in urls:
+                if added_for_channel >= _BACKFILL_PER_CHANNEL:
+                    break
+                vid = _extract_video_id(url)
+                if not vid or vid in channel_of:
+                    continue
+                if transcript_exists_in_db(session, channel.id, vid) and analysis_exists_in_db(
+                    session, channel.id, vid
+                ):
+                    continue
 
-            recent_ids.add(vid)
-            channel_of[vid] = channel.id
-            added_for_channel += 1
-            backfill_count += 1
+                recent_ids.add(vid)
+                channel_of[vid] = channel.id
+                added_for_channel += 1
+                backfill_count += 1
 
     return recent_ids, channel_of, backfill_count
 
 
 @app.post("/api/sync")
-async def post_sync() -> Any:
+async def post_sync(
+    _auth: SyncSecretDep,
+    _keys: PipelineApiKeysDep,
+) -> Any:
     if _sync_state["status"] == "running":
         raise HTTPException(status_code=409, detail="Sync già in esecuzione")
-    s = Settings()
-    if not s.transcript_api_key:
-        raise HTTPException(status_code=500, detail="TRANSCRIPT_API_KEY non configurato")
-    if not s.openai_api_key:
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
     asyncio.create_task(_run_full_sync())
     return {"status": "started"}
 
 
 @app.post("/api/sync/recent")
-async def post_sync_recent() -> Any:
+async def post_sync_recent(
+    _auth: SyncSecretDep,
+    _keys: PipelineApiKeysDep,
+) -> Any:
     if _sync_state["status"] == "running":
         raise HTTPException(status_code=409, detail="Sync già in esecuzione")
-    s = Settings()
-    if not s.transcript_api_key:
-        raise HTTPException(status_code=500, detail="TRANSCRIPT_API_KEY non configurato")
-    if not s.openai_api_key:
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
     asyncio.create_task(_run_recent_sync())
     return {"status": "started"}
 
 
 @app.post("/api/sync/daily-report")
-async def post_sync_daily_report() -> Any:
+async def post_sync_daily_report(
+    _auth: SyncSecretDep,
+    _keys: PipelineApiKeysDep,
+) -> Any:
     if _sync_state["status"] == "running":
         raise HTTPException(status_code=409, detail="Sync già in esecuzione")
-    s = Settings()
-    if not s.transcript_api_key:
-        raise HTTPException(status_code=500, detail="TRANSCRIPT_API_KEY non configurato")
-    if not s.openai_api_key:
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
     asyncio.create_task(_run_daily_report())
     return {"status": "started"}
 
@@ -756,16 +825,21 @@ async def _scan_mercato_videos(
     vid_channel_pairs: list[tuple[str, str]],
 ) -> tuple[int, list]:
     """Analyze each (video_id, channel_id) pair for mercato tips. Returns (count, tips)."""
-    from media_advisor.io.json_io import read_json_or_default
-    from media_advisor.io.paths import mercato_tips_path, video_dates_cache_path
+    from media_advisor.db.repository import mercato_existing_pair_keys
+    from media_advisor.db.session import session_scope
+    from media_advisor.io.channel_store import load_video_dates_dict
     from media_advisor.mercato.analyzer import analyze_video_mercato
 
-    dates_cache: dict = read_json_or_default(video_dates_cache_path(root)) or {}
+    dates_cache: dict = load_video_dates_dict(root)
+
+    with session_scope(root, read_only=True) as session:
+        already_mercato: set[tuple[str, str]] = mercato_existing_pair_keys(session, vid_channel_pairs)
 
     mercato_analyzed = 0
     all_new_tips: list = []
     for vid, ch_id in vid_channel_pairs:
-        if mercato_tips_path(root, ch_id, vid).exists():
+        key = (ch_id, vid)
+        if key in already_mercato:
             continue
         try:
             result = await analyze_video_mercato(
@@ -773,6 +847,7 @@ async def _scan_mercato_videos(
             )
             all_new_tips.extend(result.tips)
             mercato_analyzed += 1
+            already_mercato.add(key)
             if result.tips:
                 _sync_log(f"    [{ch_id}/{vid}] {len(result.tips)} tip estratti")
         except Exception as e:
@@ -837,15 +912,15 @@ async def _run_full_sync() -> None:
 
         # Step 4 — Mercato scan sui canali mercato
         _sync_log("Step 4/4: Mercato scan (canali mercato)...")
-        cfg_raw = read_json(channels_config_path(root))
-        cfg = ChannelsConfig.model_validate(cfg_raw)
-        mercato_channels = [c for c in cfg.channels if getattr(c, "mercato_channel", False)]
+        cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
+        mercato_ids = {c.id for c in cfg.channels if getattr(c, "mercato_channel", False)}
+        from media_advisor.db.repository import list_transcript_video_ids
+        from media_advisor.db.session import session_scope
 
+        with session_scope(root, read_only=True) as session:
+            all_t = list_transcript_video_ids(session, None)
         pairs: list[tuple[str, str]] = [
-            (t_file.stem, ch.id)
-            for ch in mercato_channels
-            if (root / "data" / "transcripts" / ch.id).exists()
-            for t_file in sorted((root / "data" / "transcripts" / ch.id).glob("*.json"))
+            (vid, ch_id) for ch_id, vid in all_t if ch_id in mercato_ids
         ]
         mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, s.openai_api_key, pairs)
 
@@ -881,7 +956,6 @@ async def _run_recent_sync() -> None:
     presenti in lista ma senza transcript/analisi. Se non trova candidati, termina senza
     chiamare transcript.
     """
-    from media_advisor.io.paths import transcript_path as _tp
     from media_advisor.models.channels import ChannelsConfig
 
     s = Settings()
@@ -916,8 +990,7 @@ async def _run_recent_sync() -> None:
         _sync_log(f"  {added} video aggiunti alle liste")
         result_summary["added_to_lists"] = added
 
-        cfg_raw = read_json(channels_config_path(root))
-        cfg = ChannelsConfig.model_validate(cfg_raw)
+        cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
 
         # Step 3 — Video da processare: nuovi pending + backlog non processato (recupero automatico)
         recent_ids, channel_of, backfill_count = _collect_processing_candidates(
@@ -985,11 +1058,12 @@ async def _run_recent_sync() -> None:
         _sync_log("Step 5/5: Mercato scan (video recenti)...")
         mercato_ch_ids = {c.id for c in cfg.channels if getattr(c, "mercato_channel", False)}
 
-        recent_pairs = [
+        mercato_candidates = [
             (vid, channel_of[vid])
             for vid in recent_ids
-            if channel_of.get(vid) in mercato_ch_ids and _tp(root, channel_of[vid], vid).exists()
+            if channel_of.get(vid) in mercato_ch_ids
         ]
+        recent_pairs = _vid_channel_pairs_having_transcripts(root, mercato_candidates)
         mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, s.openai_api_key, recent_pairs)
 
         if all_new_tips:
@@ -1020,7 +1094,6 @@ async def _run_recent_sync() -> None:
 async def _run_daily_report() -> None:
     """Fetch recenti → pipeline → mercato-scan → genera digest del giorno."""
     from datetime import date as date_type
-    from media_advisor.io.paths import transcript_path as _tp
     from media_advisor.models.channels import ChannelsConfig
     from media_advisor.digest import (
         flatten_digest_items_for_api,
@@ -1060,8 +1133,7 @@ async def _run_daily_report() -> None:
         _sync_log(f"  {added} video aggiunti")
         result_summary["added_to_lists"] = added
 
-        cfg_raw = read_json(channels_config_path(root))
-        cfg = ChannelsConfig.model_validate(cfg_raw)
+        cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
 
         recent_ids, channel_of, backfill_count = _collect_processing_candidates(
             root, cfg, pending.items
@@ -1093,11 +1165,12 @@ async def _run_daily_report() -> None:
             # Step 4 — Mercato scan sui video nuovi dei canali mercato
             _sync_log("Step 4/6: Mercato scan (video processati in questa run)...")
             mercato_ch_ids = {c.id for c in cfg.channels if getattr(c, "mercato_channel", False)}
-            recent_pairs = [
+            mercato_candidates = [
                 (vid, channel_of[vid])
                 for vid in recent_ids
-                if channel_of.get(vid) in mercato_ch_ids and _tp(root, channel_of[vid], vid).exists()
+                if channel_of.get(vid) in mercato_ch_ids
             ]
+            recent_pairs = _vid_channel_pairs_having_transcripts(root, mercato_candidates)
             mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, s.openai_api_key, recent_pairs)
             if all_new_tips:
                 from media_advisor.mercato.analyzer import update_index_with_new_tips
@@ -1199,17 +1272,21 @@ async def _run_daily_report() -> None:
 # Static files (Vue frontend from web/dist)
 # ---------------------------------------------------------------------------
 
-_web_dist = _root / "web" / "dist"
-_index_html = _web_dist / "index.html"
+_web_dist = (_root / "web" / "dist").resolve()
+_index_html = (_web_dist / "index.html").resolve()
 
-if _web_dist.exists() and _index_html.exists():
+if _web_dist.exists() and _index_html.is_file():
     app.mount("/assets", StaticFiles(directory=str(_web_dist / "assets")), name="assets")
 
     @app.get("/{full_path:path}", include_in_schema=False)
     async def spa_fallback(full_path: str) -> FileResponse:
-        static = _web_dist / full_path
-        if static.exists() and static.is_file():
-            return FileResponse(str(static))
+        try:
+            candidate = (_web_dist / full_path).resolve()
+            candidate.relative_to(_web_dist)
+        except ValueError:
+            return FileResponse(str(_index_html))
+        if candidate.is_file():
+            return FileResponse(str(candidate))
         return FileResponse(str(_index_html))
 
 
@@ -1218,10 +1295,10 @@ if _web_dist.exists() and _index_html.exists():
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
+    import os
+
     import uvicorn
-    # On Windows, `reload=True` requires an import string and can be fragile
-    # depending on how Python is launched. We prefer a reliable default here.
-    #
-    # If you want reload in dev, run explicitly:
-    #   uvicorn server.api:app --reload --port 3001 --app-dir .
-    uvicorn.run(app, host="0.0.0.0", port=3001)
+
+    # Default 3002 to match npm run server / Vite proxy; override with PORT.
+    _port = int(os.environ.get("PORT", "3002"))
+    uvicorn.run(app, host="0.0.0.0", port=_port)

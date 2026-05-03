@@ -9,8 +9,10 @@ from collections.abc import Callable
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from media_advisor.io.json_io import read_json, read_json_or_default, read_video_list, write_json
-from media_advisor.io.paths import analysis_path, channels_config_path, transcript_path, video_dates_cache_path
+from media_advisor.db.repository import analysis_existing_pair_keys, upsert_video_analysis
+from media_advisor.db.session import session_scope
+from media_advisor.io.channel_store import load_channels_config_dict, load_video_dates_dict, read_channel_video_urls
+from media_advisor.io.transcript_storage import load_transcript_dict, save_transcript_to_store
 from media_advisor.models.channels import ChannelsConfig
 from media_advisor.pipeline.analyze_v2 import analyze_video_v2
 from media_advisor.transcript_api.client import TranscriptAPIError, TranscriptClient
@@ -54,7 +56,7 @@ async def run_from_list(
     only_video_ids: set[str] | None = None,
     progress_callback: Callable[[str, str], None] | None = None,
 ) -> RunFromListResult:
-    config_raw = read_json(channels_config_path(root))
+    config_raw = load_channels_config_dict(root)
     config = ChannelsConfig.model_validate(config_raw)
 
     channels = sorted(config.channels, key=lambda c: c.order)
@@ -66,39 +68,43 @@ async def run_from_list(
     transcript_client = TranscriptClient(transcript_api_key)
     result = RunFromListResult()
     _progress = progress_callback or (lambda *_: None)
-    dates_cache: dict[str, str] = read_json_or_default(video_dates_cache_path(root), default={}) or {}
+    dates_cache: dict[str, str] = load_video_dates_dict(root)
 
     for channel in channels:
         ch_result = ChannelResult(id=channel.id)
-        list_path = root / "channels" / channel.video_list
-        urls = read_video_list(list_path)
+        urls = read_channel_video_urls(root, channel.video_list)
         print(f"[{channel.id}] start: videos={len(urls)}", flush=True)
 
+        work: list[tuple[str, str]] = []
         for url in urls:
             vid = _extract_video_id(url)
             if not vid:
                 continue
             if only_video_ids is not None and vid not in only_video_ids:
                 continue
+            work.append((url, vid))
 
-            t_path = transcript_path(root, channel.id, vid)
-            a_path = analysis_path(root, channel.id, vid)
+        with session_scope(root, read_only=True) as session:
+            have_analysis = analysis_existing_pair_keys(session, [(vid, channel.id) for _, vid in work])
 
+        for url, vid in work:
             # -- Transcript step --
-            if t_path.exists() and not force_transcript:
-                print(f"  [{channel.id}/{vid}] transcript: cached", flush=True)
-                raw_transcript = read_json(t_path)
-            else:
+            raw_transcript: dict | None = None
+            if not force_transcript:
+                raw_transcript = load_transcript_dict(root, channel.id, vid)
+                if raw_transcript is not None:
+                    print(f"  [{channel.id}/{vid}] transcript: cached", flush=True)
+
+            if raw_transcript is None or force_transcript:
                 try:
                     print(f"  [{channel.id}/{vid}] transcript: fetching...", flush=True)
                     transcript = await transcript_client.get_transcript(
                         url, format="json", include_timestamp=True, send_metadata=True
                     )
                     raw_transcript = transcript.model_dump(mode="json")
-                    t_path.parent.mkdir(parents=True, exist_ok=True)
-                    write_json(t_path, raw_transcript)
+                    save_transcript_to_store(root, channel.id, vid, raw_transcript)
                     ch_result.transcripts_fetched += 1
-                    print(f"  [{channel.id}/{vid}] transcript: saved -> {t_path}", flush=True)
+                    print(f"  [{channel.id}/{vid}] transcript: saved (db)", flush=True)
                     await asyncio.sleep(RATE_LIMIT_SECONDS)
                 except TranscriptAPIError as e:
                     print(f"  [{channel.id}/{vid}] Transcript failed: {e}")
@@ -116,7 +122,7 @@ async def run_from_list(
                 ch_result.skipped += 1
                 _progress(channel.id, vid)
                 continue
-            if a_path.exists() and not force_analyze:
+            if (channel.id, vid) in have_analysis and not force_analyze:
                 print(f"  [{channel.id}/{vid}] analysis: cached (skip)", flush=True)
                 ch_result.skipped += 1
                 _progress(channel.id, vid)
@@ -143,10 +149,10 @@ async def run_from_list(
                     model=model,
                     metadata=meta,
                 )
-                a_path.parent.mkdir(parents=True, exist_ok=True)
-                write_json(a_path, analysis.model_dump(mode="json"))
+                with session_scope(root) as session:
+                    upsert_video_analysis(session, channel.id, vid, analysis.model_dump(mode="json"))
                 ch_result.analyzed += 1
-                print(f"  [{channel.id}/{vid}] analysis: saved -> {a_path}", flush=True)
+                print(f"  [{channel.id}/{vid}] analysis: saved (db)", flush=True)
                 _progress(channel.id, vid)
                 await asyncio.sleep(RATE_LIMIT_SECONDS)
             except Exception as e:

@@ -99,9 +99,8 @@ def verify_all_pending(root: Path) -> list[dict]:
     Aggiorna l'index globale e ritorna la lista delle tip aggiornate
     con i campi modificati.
     """
-    from media_advisor.io.json_io import write_json
-    from media_advisor.io.paths import mercato_index_path
     from media_advisor.mercato.aggregator import load_index
+    from media_advisor.mercato.analyzer import save_mercato_index
 
     transfers = get_all_transfers(root)
     if not transfers:
@@ -133,16 +132,15 @@ def verify_all_pending(root: Path) -> list[dict]:
 
     if updated:
         index.updated_at = datetime.now(timezone.utc)
-        write_json(mercato_index_path(root), index.model_dump(mode="json"))
+        save_mercato_index(root, index)
 
     return updated
 
 
 def verify_single_tip(root: Path, tip_id: str) -> dict | None:
     """Verifica una singola tip per tip_id. Ritorna il risultato o None se non trovata."""
-    from media_advisor.io.json_io import write_json
-    from media_advisor.io.paths import mercato_index_path
     from media_advisor.mercato.aggregator import load_index
+    from media_advisor.mercato.analyzer import save_mercato_index
 
     transfers = get_all_transfers(root)
     index = load_index(root)
@@ -161,7 +159,7 @@ def verify_single_tip(root: Path, tip_id: str) -> dict | None:
     tip.outcome_source = "auto"
 
     index.updated_at = datetime.now(timezone.utc)
-    write_json(mercato_index_path(root), index.model_dump(mode="json"))
+    save_mercato_index(root, index)
 
     return {
         "tip_id": tip_id,

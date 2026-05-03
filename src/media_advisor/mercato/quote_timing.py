@@ -6,8 +6,7 @@ import math
 import re
 from pathlib import Path
 
-from media_advisor.io.json_io import read_json
-from media_advisor.io.paths import transcript_path
+from media_advisor.io.transcript_storage import load_transcript_dict
 from media_advisor.mercato.models import MercatoTip
 from media_advisor.models.transcript import TranscriptResponse, TranscriptSegment
 
@@ -136,11 +135,10 @@ def try_align_mercato_tip(
     root: Path,
     tip: MercatoTip,
 ) -> tuple[float | None, float | None]:
-    path = transcript_path(root, tip.channel_id, tip.video_id)
-    if not path.exists():
-        return None, None
     try:
-        raw = read_json(path)
+        raw = load_transcript_dict(root, tip.channel_id, tip.video_id)
+        if raw is None:
+            return None, None
         data = TranscriptResponse.model_validate(raw)
     except Exception:
         return None, None
@@ -172,10 +170,9 @@ def refined_start_sec_for_digest(
         return None, "none"
     if math.isnan(qf):
         return None, "none"
-    path = transcript_path(root, tip.channel_id, tip.video_id)
-    if path.exists():
+    raw = load_transcript_dict(root, tip.channel_id, tip.video_id)
+    if raw is not None:
         try:
-            raw = read_json(path)
             data = TranscriptResponse.model_validate(raw)
             if isinstance(data.transcript, list):
                 segs = list(data.transcript)

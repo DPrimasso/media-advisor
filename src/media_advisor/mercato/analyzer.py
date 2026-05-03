@@ -1,24 +1,26 @@
 """Orchestratore per l'analisi mercato di un singolo video.
 
 Flusso:
-  1. Legge il transcript salvato
+  1. Legge il transcript (DB)
   2. Estrae le tip via AI
   3. Corrobora con l'index globale (opzionale, può essere batched)
-  4. Salva mercato/tips/{channel_id}/{video_id}.json
-  5. Aggiorna mercato/index.json
+  4. Salva risultato video e index in SQLite
 """
 
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import cast
 
-from media_advisor.io.json_io import read_json, read_json_or_default, write_json
-from media_advisor.io.paths import (
-    mercato_index_path,
-    mercato_tips_path,
-    transcript_path,
-    video_dates_cache_path,
+from media_advisor.db.repository import (
+    fetch_mercato_video_result_payload,
+    upsert_mercato_global_index,
+    upsert_mercato_video_result,
 )
+from media_advisor.db.session import session_scope
+from media_advisor.io.channel_store import load_video_dates_dict
+from media_advisor.io.json_io import read_json
+from media_advisor.io.paths import mercato_tips_path
+from media_advisor.io.transcript_storage import load_transcript_dict
 from media_advisor.mercato.aggregator import load_index
 from media_advisor.mercato.corroborator import corroborate
 from media_advisor.mercato.extractor import extract_mercato_tips
@@ -35,13 +37,19 @@ def _mentioned_at_from_string(value: object | None) -> datetime | None:
     except ValueError:
         return None
     if dt.tzinfo is None:
-        dt = dt.replace(tzinfo=timezone.utc)
+        dt = dt.replace(tzinfo=UTC)
     return dt
 
 
 def _save_index(root: Path, index: MercatoIndex) -> None:
-    index.updated_at = datetime.now(timezone.utc)
-    write_json(mercato_index_path(root), index.model_dump(mode="json"))
+    index.updated_at = datetime.now(UTC)
+    with session_scope(root) as session:
+        upsert_mercato_global_index(session, index.model_dump(mode="json"))
+
+
+def save_mercato_index(root: Path, index: MercatoIndex) -> None:
+    """Persist MercatoIndex to SQLite (verifier / CLI)."""
+    _save_index(root, index)
 
 
 def update_index_with_new_tips(root: Path, all_tips: list[MercatoTip]) -> None:
@@ -67,12 +75,7 @@ def update_tip_date(
     Usato quando il video non aveva published_at al momento dell'estrazione.
     Solleva KeyError se non trovata.
     """
-    idx_path = mercato_index_path(root)
-    data = read_json_or_default(idx_path)
-    if data is None:
-        raise FileNotFoundError("Index mercato non trovato")
-
-    index = MercatoIndex.model_validate(data)
+    index = load_index(root)
     tip = next((t for t in index.tips if t.tip_id == tip_id), None)
     if tip is None:
         raise KeyError(f"Tip {tip_id} non trovata nell'index")
@@ -93,21 +96,15 @@ def update_tip_outcome(
 
     Restituisce la tip aggiornata. Solleva KeyError se non trovata.
     """
-    from typing import cast
     from media_advisor.mercato.models import OutcomeSource
 
-    idx_path = mercato_index_path(root)
-    data = read_json_or_default(idx_path)
-    if data is None:
-        raise FileNotFoundError("Index mercato non trovato")
-
-    index = MercatoIndex.model_validate(data)
+    index = load_index(root)
     tip = next((t for t in index.tips if t.tip_id == tip_id), None)
     if tip is None:
         raise KeyError(f"Tip {tip_id} non trovata nell'index")
 
     tip.outcome = outcome
-    tip.outcome_updated_at = datetime.now(timezone.utc)
+    tip.outcome_updated_at = datetime.now(UTC)
     tip.outcome_source = cast(OutcomeSource, source)
     if notes is not None:
         tip.outcome_notes = notes
@@ -128,21 +125,26 @@ async def analyze_video_mercato(
 ) -> VideoMercatoResult:
     """Analizza un video per indiscrezioni di mercato.
 
-    Il transcript deve già essere in data/transcripts/{channel_id}/{video_id}.json.
-    Se update_index=False, salva solo il file video e non tocca l'index globale
-    (utile per batch: chiamare update_index_with_new_tips() alla fine).
+    Il transcript deve essere nel DB. Se update_index=False, salva solo il risultato video
+    e non tocca l'index globale (utile per batch: update_index_with_new_tips() alla fine).
     """
-    out_path = mercato_tips_path(root, channel_id, video_id)
+    if not force:
+        with session_scope(root, read_only=True) as session:
+            from_db = fetch_mercato_video_result_payload(session, channel_id, video_id)
+        if from_db:
+            return VideoMercatoResult.model_validate(from_db)
+        legacy = mercato_tips_path(root, channel_id, video_id)
+        if legacy.exists():
+            data = read_json(legacy)
+            with session_scope(root) as session:
+                upsert_mercato_video_result(session, channel_id, video_id, data)
+            return VideoMercatoResult.model_validate(data)
 
-    if out_path.exists() and not force:
-        data = read_json(out_path)
-        return VideoMercatoResult.model_validate(data)
+    raw_tr = load_transcript_dict(root, channel_id, video_id)
+    if raw_tr is None:
+        raise FileNotFoundError(f"Transcript non trovato in DB: {channel_id}/{video_id}")
 
-    t_path = transcript_path(root, channel_id, video_id)
-    if not t_path.exists():
-        raise FileNotFoundError(f"Transcript non trovato: {t_path}")
-
-    transcript = TranscriptResponse.model_validate(read_json(t_path))
+    transcript = TranscriptResponse.model_validate(raw_tr)
     meta = transcript.metadata
 
     mentioned_at: datetime | None = None
@@ -151,7 +153,7 @@ async def analyze_video_mercato(
 
     if mentioned_at is None:
         if dates_cache is None:
-            dates_cache = read_json_or_default(video_dates_cache_path(root)) or {}
+            dates_cache = load_video_dates_dict(root)
         mentioned_at = _mentioned_at_from_string(dates_cache.get(video_id))
 
     context = {
@@ -168,7 +170,7 @@ async def analyze_video_mercato(
         api_key=api_key,
         model=model,
         context=context,
-        data_dir=root / "mercato",
+        project_root=root,
     )
 
     adjusted: list[MercatoTip] = []
@@ -185,13 +187,15 @@ async def analyze_video_mercato(
     result = VideoMercatoResult(
         video_id=video_id,
         channel_id=channel_id,
-        extracted_at=datetime.now(timezone.utc),
+        extracted_at=datetime.now(UTC),
         video_title=meta.title if meta else None,
         video_published_at=mentioned_at,
         tips=tips,
     )
 
-    write_json(out_path, result.model_dump(mode="json"))
+    payload = result.model_dump(mode="json")
+    with session_scope(root) as session:
+        upsert_mercato_video_result(session, channel_id, video_id, payload)
 
     if tips and update_index:
         index = load_index(root)

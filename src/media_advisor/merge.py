@@ -6,8 +6,13 @@ Porting of src/merge-pending.ts.
 import re
 from pathlib import Path
 
-from media_advisor.io.json_io import read_json, read_video_list, write_json, write_video_list
-from media_advisor.io.paths import channels_config_path, channel_list_path, pending_path
+from media_advisor.io.channel_store import (
+    load_channels_config_dict,
+    load_pending_dict,
+    read_channel_video_urls,
+    save_pending_dict,
+    write_channel_video_urls,
+)
 from media_advisor.models.channels import ChannelsConfig
 from media_advisor.models.pending import PendingResult
 
@@ -20,35 +25,28 @@ def _extract_id(url: str) -> str | None:
 
 
 def merge_pending_into_channels(root: Path) -> int:
-    ppath = pending_path(root)
-    if not ppath.exists():
-        return 0
-
-    raw_pending = read_json(ppath)
+    raw_pending = load_pending_dict(root)
     pending = PendingResult.model_validate(raw_pending)
     if not pending.items:
         return 0
 
-    config_raw = read_json(channels_config_path(root))
+    config_raw = load_channels_config_dict(root)
     config = ChannelsConfig.model_validate(config_raw)
     channel_map = {c.id: c.video_list for c in config.channels}
 
     # Group new URLs by list file
-    to_append: dict[Path, list[str]] = {}
+    to_append: dict[str, list[str]] = {}
     for item in pending.items:
         list_file = channel_map.get(item.channel_id)
         if not list_file:
             continue
-        list_path = channel_list_path(root, list_file)
-        if not list_path.exists():
-            continue
-        to_append.setdefault(list_path, []).append(
+        to_append.setdefault(list_file, []).append(
             f"https://www.youtube.com/watch?v={item.video_id}"
         )
 
     added = 0
-    for list_path, urls in to_append.items():
-        existing = read_video_list(list_path)
+    for list_key, urls in to_append.items():
+        existing = read_channel_video_urls(root, list_key)
         existing_ids = {_extract_id(u) for u in existing} - {None}
         # Prepend: le liste canale sono tenute newest-first; append rompeva sync recenti / ordine UI.
         new_front: list[str] = []
@@ -59,8 +57,8 @@ def merge_pending_into_channels(root: Path) -> int:
                 existing_ids.add(vid)
                 added += 1
         combined = new_front + list(existing)
-        write_video_list(list_path, combined)
+        write_channel_video_urls(root, list_key, combined)
 
     # Clear pending
-    write_json(ppath, {"fetched_at": None, "items": []})
+    save_pending_dict(root, {"fetched_at": None, "items": []})
     return added

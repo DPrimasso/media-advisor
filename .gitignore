@@ -22,6 +22,11 @@ reports/
 # - mercato/      : mercato index + tips + transfers + caches
 # - channels/*.json: channel registry + per-channel video lists + dates cache
 
+# SQLite app DB (local; copy when moving machines — see README)
+data/media_advisor.sqlite
+data/media_advisor.sqlite-wal
+data/media_advisor.sqlite-shm
+
 # IDE
 .vscode/
 *.swp

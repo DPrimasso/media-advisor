@@ -19,7 +19,6 @@ from typing import Any
 
 from pydantic import ValidationError
 
-from media_advisor.config import Settings
 from media_advisor.io.paths import ANALYSIS_DIR, DATA_DIR, TRANSCRIPTS_DIR
 from media_advisor.models.analysis import AnalysisResult
 from media_advisor.models.channels import ChannelsConfig
@@ -130,14 +129,43 @@ def run_validation(root: Path, fix: bool = False) -> int:
     return failures
 
 
+def run_sqlite_validation(root: Path) -> int:
+    """Validate a sample of transcript rows in SQLite."""
+    from sqlalchemy import select
+
+    from media_advisor.db.models import TranscriptRow
+    from media_advisor.db.session import session_scope
+
+    failures = 0
+    print("\n=== sqlite transcripts (up to 200 rows) ===")
+    with session_scope(root, read_only=True) as session:
+        rows = list(session.scalars(select(TranscriptRow).limit(200)).all())
+    for row in rows:
+        try:
+            raw = json.loads(row.payload_json)
+            TranscriptResponse.model_validate(raw)
+        except Exception as e:
+            print(f"  FAIL {row.channel_id}/{row.video_id}: {e}")
+            failures += 1
+    print(f"  checked {len(rows)} rows, {failures} failed")
+    return failures
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Validate existing JSON files against Pydantic models")
     parser.add_argument("--root", default=".", help="Project root directory (default: .)")
     parser.add_argument("--fix", action="store_true", help="Attempt to auto-coerce invalid files")
+    parser.add_argument(
+        "--sqlite",
+        action="store_true",
+        help="Also validate TranscriptResponse payloads in data/media_advisor.sqlite",
+    )
     args = parser.parse_args()
 
     root = Path(args.root).resolve()
     failures = run_validation(root, fix=args.fix)
+    if args.sqlite:
+        failures += run_sqlite_validation(root)
     sys.exit(1 if failures else 0)
 
 

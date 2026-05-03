@@ -1,9 +1,6 @@
-"""Database locale dei trasferimenti ufficiali confermati.
+"""Database locale dei trasferimenti ufficiali confermati (SQLite blob + legacy file)."""
 
-I trasferimenti vengono salvati in mercato/transfers.json e usati
-dal verifier per aggiornare automaticamente l'outcome delle tip.
-"""
-
+import json
 import re
 import uuid
 from datetime import datetime, timezone
@@ -12,7 +9,9 @@ from typing import Literal
 
 from pydantic import BaseModel, Field
 
-from media_advisor.io.json_io import read_json_or_default, write_json
+from media_advisor.db.repository import MERCATO_BLOB_TRANSFERS, fetch_mercato_blob_raw, upsert_mercato_blob
+from media_advisor.db.session import session_scope
+from media_advisor.io.json_io import read_json_or_default
 from media_advisor.io.paths import transfers_index_path
 from media_advisor.mercato.models import TransferType
 
@@ -43,15 +42,33 @@ def player_slug(name: str) -> str:
 
 
 def load_transfers(root: Path) -> TransferIndex:
+    with session_scope(root, read_only=True) as session:
+        raw = fetch_mercato_blob_raw(session, MERCATO_BLOB_TRANSFERS)
+    if raw:
+        try:
+            return TransferIndex.model_validate(json.loads(raw))
+        except Exception:
+            pass
     data = read_json_or_default(transfers_index_path(root), default=None)
     if data is None:
         return TransferIndex()
-    return TransferIndex.model_validate(data)
+    idx = TransferIndex.model_validate(data)
+    with session_scope(root) as session:
+        upsert_mercato_blob(session, MERCATO_BLOB_TRANSFERS, idx.model_dump(mode="json"))
+    return idx
 
 
 def save_transfers(root: Path, index: TransferIndex) -> None:
     index.updated_at = datetime.now(timezone.utc)
-    write_json(transfers_index_path(root), index.model_dump(mode="json"))
+    payload = index.model_dump(mode="json")
+    with session_scope(root) as session:
+        upsert_mercato_blob(session, MERCATO_BLOB_TRANSFERS, payload)
+    try:
+        from media_advisor.mercato.player_normalizer import load_player_registry
+
+        load_player_registry.cache_clear()
+    except Exception:
+        pass
 
 
 def add_transfer(root: Path, record: TransferRecord) -> TransferRecord:

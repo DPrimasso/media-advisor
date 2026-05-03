@@ -1,20 +1,22 @@
 from __future__ import annotations
 
-from datetime import date, datetime
 import heapq
 import html as _html_lib
 import json as _json
+import math
+import os
+import re
+import tempfile
+import unicodedata
+from datetime import date, datetime
 from json import JSONDecodeError
 from pathlib import Path
-import math
-import re
-import unicodedata
 from typing import Any
 
 import openai
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
-from media_advisor.io.json_io import read_json
-from media_advisor.io.paths import channels_config_path
+
+from media_advisor.io.channel_store import load_channels_config_dict
 from media_advisor.mercato.models import MercatoTip
 from media_advisor.mercato.quote_timing import refined_start_sec_for_digest
 from media_advisor.models.channels import ChannelConfig, ChannelsConfig
@@ -23,6 +25,22 @@ DIGEST_MODEL = "gpt-4.1-mini"
 DIGEST_TOKEN_STEPS = (900, 1500)
 DIGEST_MAX_INPUT_TIPS = 20
 DIGEST_MAX_TIP_TEXT_CHARS = 220
+
+
+def _atomic_write_text(path: Path, text: str, *, encoding: str = "utf-8") -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    fd, tmp = tempfile.mkstemp(prefix=f"{path.name}.", suffix=".tmp", dir=path.parent)
+    try:
+        with os.fdopen(fd, "w", encoding=encoding) as f:
+            f.write(text)
+        os.replace(tmp, path)
+    except BaseException:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
+
 
 _CONFIDENCE_ORDER = {"confirmed": 0, "likely": 1, "rumor": 2, "denied": 3}
 _CONFIDENCE_EMOJI = {
@@ -459,7 +477,7 @@ def build_enriched_digest_sections(
         tips = get_tips_for_date(root, target_date)
     raw_sections, fallback = _parse_digest_sections(digest_text)
     try:
-        raw_cfg = read_json(channels_config_path(root))
+        raw_cfg = load_channels_config_dict(root)
         cfg = ChannelsConfig.model_validate(raw_cfg)
     except (FileNotFoundError, JSONDecodeError, OSError, ValidationError):
         cfg = ChannelsConfig(channels=[])
@@ -901,14 +919,12 @@ def write_mercato_report(
     day = target_date.isoformat()
     reports_dir = root / "reports"
     report_path = reports_dir / f"{day}.md"
-    reports_dir.mkdir(parents=True, exist_ok=True)
     content = format_mercato_report_markdown(
         target_date,
         digest_text,
         generated_at=generated_at,
         section_items_enriched=section_enriched,
     )
-    report_path.write_text(content, encoding="utf-8")
     telegram_content = format_mercato_report_telegram(
         target_date,
         digest_text,
@@ -921,30 +937,55 @@ def write_mercato_report(
         generated_at=generated_at,
         section_items_enriched=section_enriched,
     )
-    (reports_dir / f"{day}.telegram.html").write_text(telegram_content, encoding="utf-8")
-    (reports_dir / f"{day}.twitter.txt").write_text(twitter_content, encoding="utf-8")
 
     digest_items_flat = flatten_digest_items_for_api(section_enriched)
-    cache_path = reports_dir / f"{day}.json"
-    cache_path.write_text(
-        _json.dumps(
-            {
-                "digest_raw": digest_text,
-                "digest_items": digest_items_flat,
-                "generated_at": generated_at.isoformat(),
-                "telegram_path": f"reports/{day}.telegram.html",
-                "twitter_path": f"reports/{day}.twitter.txt",
-            },
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
+    from media_advisor.config import Settings
+    from media_advisor.db.repository import upsert_daily_report
+    from media_advisor.db.session import session_scope
+
+    with session_scope(root) as session:
+        upsert_daily_report(
+            session,
+            report_date=target_date,
+            digest_raw=digest_text,
+            digest_items=digest_items_flat,
+            markdown_body=content,
+            telegram_html=telegram_content,
+            twitter_txt=twitter_content,
+            generated_at=generated_at,
+        )
+
+    if Settings().export_report_files:
+        _atomic_write_text(report_path, content)
+        _atomic_write_text(reports_dir / f"{day}.telegram.html", telegram_content)
+        _atomic_write_text(reports_dir / f"{day}.twitter.txt", twitter_content)
+        cache_path = reports_dir / f"{day}.json"
+        _atomic_write_text(
+            cache_path,
+            _json.dumps(
+                {
+                    "digest_raw": digest_text,
+                    "digest_items": digest_items_flat,
+                    "generated_at": generated_at.isoformat(),
+                    "telegram_path": f"reports/{day}.telegram.html",
+                    "twitter_path": f"reports/{day}.twitter.txt",
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+        )
     return report_path, content, section_enriched
 
 
 def load_report_cache(root: Path, target_date: date) -> dict | None:
     """Legge il report salvato per una data. Ritorna dict con digest_raw, digest_items (opz.), generated_at, … o None."""
+    from media_advisor.db.repository import fetch_daily_report_cache_dict
+    from media_advisor.db.session import session_scope
+
+    with session_scope(root, read_only=True) as session:
+        from_db = fetch_daily_report_cache_dict(session, target_date)
+    if from_db and from_db.get("digest_raw"):
+        return from_db
     cache_path = root / "reports" / f"{target_date.isoformat()}.json"
     if not cache_path.exists():
         return None
@@ -956,7 +997,7 @@ def load_report_cache(root: Path, target_date: date) -> dict | None:
 
 def _load_channel_name_map(root: Path) -> dict[str, str]:
     try:
-        raw = read_json(channels_config_path(root))
+        raw = load_channels_config_dict(root)
         cfg = ChannelsConfig.model_validate(raw)
         return {channel.id: channel.name for channel in cfg.channels}
     except (FileNotFoundError, JSONDecodeError, OSError, ValidationError):

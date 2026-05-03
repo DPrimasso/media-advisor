@@ -1,13 +1,6 @@
 """Normalizzazione nomi giocatori via registry + fuzzy matching.
 
-Flusso di normalizzazione per ogni nome estratto dal LLM:
-  1. Exact match (case-insensitive) nel registry
-  2. Surname-only match (ultimo token del nome)
-  3. rapidfuzz token_sort_ratio contro tutti i nomi canonici (threshold 82)
-
-Registry costruito da (in ordine di priorità):
-  - mercato/player-aliases.json  → alias slug → canonical name
-  - mercato/transfers.json       → player_name dei transfer confermati
+Registry (priorità): DB blobs player_aliases → transfers; poi file legacy mercato/*.json.
 """
 
 import json
@@ -16,6 +9,9 @@ from functools import lru_cache
 from pathlib import Path
 
 from rapidfuzz import fuzz, process
+
+from media_advisor.db.repository import MERCATO_BLOB_ALIASES, MERCATO_BLOB_TRANSFERS, fetch_mercato_blob_raw
+from media_advisor.db.session import session_scope
 
 # Soglia sotto cui il fuzzy match non viene accettato (0-100).
 # 82 bilancia falsi positivi (nomi corti tipo "Musa", "Ivan") con recall.
@@ -48,42 +44,70 @@ def _flatten_aliases(data: dict[str, object]) -> dict[str, str | None]:
     return result
 
 
-@lru_cache(maxsize=2)
-def load_player_registry(mercato_dir: Path) -> dict[str, str]:
-    """Carica alias + transfer confermati. Priorità: player-aliases.json > transfers.json."""
-    registry: dict[str, str] = {}
+def _merge_aliases_dict(registry: dict[str, str], raw: dict[str, object]) -> None:
+    flat = _flatten_aliases(raw)
+    for slug, canonical in flat.items():
+        if not canonical:
+            continue
+        key = _slugify(slug.replace("-", " "))
+        if key and key not in registry:
+            registry[key] = canonical
+        ck = _slugify(canonical)
+        if ck and ck not in registry:
+            registry[ck] = canonical
 
-    # 1. player-aliases.json — sorgente curata, supporta formato piatto e annidato
+
+def _merge_transfers_dict(registry: dict[str, str], tdata: dict) -> None:
+    for t in tdata.get("transfers", []):
+        if not isinstance(t, dict):
+            continue
+        name: str = (t.get("player_name") or "").strip()
+        if not name:
+            continue
+        key = _slugify(name)
+        if key and key not in registry:
+            registry[key] = name
+
+
+@lru_cache(maxsize=16)
+def load_player_registry(root: Path) -> dict[str, str]:
+    """Carica alias + transfer confermati da DB, poi da file legacy se serve."""
+    registry: dict[str, str] = {}
+    root = root.resolve()
+
+    with session_scope(root, read_only=True) as session:
+        aliases_raw = fetch_mercato_blob_raw(session, MERCATO_BLOB_ALIASES)
+        transfers_raw = fetch_mercato_blob_raw(session, MERCATO_BLOB_TRANSFERS)
+    if aliases_raw:
+        try:
+            data = json.loads(aliases_raw)
+            if isinstance(data, dict):
+                _merge_aliases_dict(registry, data)
+        except json.JSONDecodeError:
+            pass
+    if transfers_raw:
+        try:
+            tdata = json.loads(transfers_raw)
+            if isinstance(tdata, dict):
+                _merge_transfers_dict(registry, tdata)
+        except json.JSONDecodeError:
+            pass
+
+    mercato_dir = root / "mercato"
     aliases_file = mercato_dir / "player-aliases.json"
     if aliases_file.exists():
         try:
             raw: dict[str, object] = json.loads(aliases_file.read_text(encoding="utf-8"))
-            flat = _flatten_aliases(raw)
-            for slug, canonical in flat.items():
-                if not canonical:
-                    continue
-                key = _slugify(slug.replace("-", " "))
-                if key and key not in registry:
-                    registry[key] = canonical
-                # Self-mapping: il LLM a volte restituisce il nome canonico direttamente
-                ck = _slugify(canonical)
-                if ck and ck not in registry:
-                    registry[ck] = canonical
+            _merge_aliases_dict(registry, raw)
         except (json.JSONDecodeError, OSError):
             pass
 
-    # 2. transfers.json — nomi canonici da transfer confermati
     transfers_file = mercato_dir / "transfers.json"
     if transfers_file.exists():
         try:
             tdata = json.loads(transfers_file.read_text(encoding="utf-8"))
-            for t in tdata.get("transfers", []):
-                name: str = (t.get("player_name") or "").strip()
-                if not name:
-                    continue
-                key = _slugify(name)
-                if key and key not in registry:
-                    registry[key] = name
+            if isinstance(tdata, dict):
+                _merge_transfers_dict(registry, tdata)
         except (json.JSONDecodeError, OSError):
             pass
 
@@ -94,35 +118,24 @@ def _canonical_names(registry: dict[str, str]) -> list[str]:
     return sorted(set(registry.values()))
 
 
-def normalize_player_name(raw: str, mercato_dir: Path) -> str:
-    """Normalizza un nome giocatore estratto dal transcript/LLM.
-
-    Prova in sequenza:
-    1. Exact match nel registry (case-insensitive)
-    2. Match sul cognome (ultimo token)
-    3. Fuzzy match contro nomi canonici (threshold _FUZZY_THRESHOLD)
-
-    Restituisce il nome originale se nessun match supera la soglia.
-    """
+def normalize_player_name(raw: str, root: Path) -> str:
+    """Normalizza un nome giocatore estratto dal transcript/LLM."""
     if not raw or not raw.strip():
         return raw
 
     name = raw.strip()
-    registry = load_player_registry(mercato_dir)
+    registry = load_player_registry(root)
 
-    # 1. Exact match
     key = _slugify(name)
     if key in registry:
         return registry[key]
 
-    # 2. Surname-only match (es. "Tomori" → "Fikayo Tomori")
     tokens = [t for t in name.split() if len(t) >= 3]
     if tokens:
         surname_key = _slugify(tokens[-1])
         if surname_key in registry:
             return registry[surname_key]
 
-    # 3. Fuzzy match — salta nomi troppo corti o notoriamente ambigui
     if key in _SKIP_FUZZY or len(name) < 4:
         return name
 
@@ -143,10 +156,7 @@ def normalize_player_name(raw: str, mercato_dir: Path) -> str:
     return name
 
 
-def get_player_list_for_prompt(mercato_dir: Path) -> str:
-    """Lista compatta dei nomi canonici per il prompt LLM.
-
-    Formato: "Alessandro Bastoni, Adrien Rabiot, Fikayo Tomori, ..."
-    """
-    registry = load_player_registry(mercato_dir)
+def get_player_list_for_prompt(root: Path) -> str:
+    """Lista compatta dei nomi canonici per il prompt LLM."""
+    registry = load_player_registry(root)
     return ", ".join(_canonical_names(registry))

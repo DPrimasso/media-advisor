@@ -6,7 +6,7 @@
   "scripts": {
     "prepare-public": "node scripts/prepare-public.js",
     "dev": "npm run prepare-public && vite",
-    "build": "vite build",
+    "build": "npm run prepare-public && vite build",
     "preview": "vite preview"
   },
   "dependencies": {

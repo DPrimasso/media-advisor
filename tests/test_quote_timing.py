@@ -28,7 +28,9 @@ def test_align_quote_fuzzy_whitespace() -> None:
     assert st <= 2.5
 
 
-def test_refined_prefers_alignment_over_bad_model_time(tmp_path) -> None:
+def test_refined_prefers_alignment_over_bad_model_time(tmp_path, monkeypatch) -> None:
+    db = tmp_path / "t.sqlite"
+    monkeypatch.setenv("MEDIA_ADVISOR_DATABASE_URL", f"sqlite:///{db.as_posix()}")
     tr = TranscriptResponse(
         video_id="v1",
         transcript=[
@@ -36,10 +38,9 @@ def test_refined_prefers_alignment_over_bad_model_time(tmp_path) -> None:
             TranscriptSegment(text="notizia su Gila al Milan", start=100.0, duration=5.0),
         ],
     )
-    tdir = tmp_path / "data" / "transcripts" / "ch1"
-    tdir.mkdir(parents=True)
-    tpath = tdir / "vid1.json"
-    tpath.write_text(tr.model_dump_json(), encoding="utf-8")
+    from media_advisor.io.transcript_storage import save_transcript_to_store
+
+    save_transcript_to_store(tmp_path, "ch1", "vid1", tr.model_dump(mode="json"))
 
     tip = MercatoTip(
         tip_id="x",
@@ -58,14 +59,16 @@ def test_refined_prefers_alignment_over_bad_model_time(tmp_path) -> None:
     assert st == 100.0
 
 
-def test_try_align_returns_none_when_quote_missing(tmp_path) -> None:
+def test_try_align_returns_none_when_quote_missing(tmp_path, monkeypatch) -> None:
+    db = tmp_path / "t.sqlite"
+    monkeypatch.setenv("MEDIA_ADVISOR_DATABASE_URL", f"sqlite:///{db.as_posix()}")
     tr = TranscriptResponse(
         video_id="v1",
         transcript=[TranscriptSegment(text="solo questo", start=1.0, duration=1.0)],
     )
-    tdir = tmp_path / "data" / "transcripts" / "ch1"
-    tdir.mkdir(parents=True)
-    (tdir / "vid1.json").write_text(tr.model_dump_json(), encoding="utf-8")
+    from media_advisor.io.transcript_storage import save_transcript_to_store
+
+    save_transcript_to_store(tmp_path, "ch1", "vid1", tr.model_dump(mode="json"))
     tip = MercatoTip(
         tip_id="x",
         video_id="vid1",

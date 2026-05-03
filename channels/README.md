@@ -2,7 +2,9 @@
 
 Aggiungi qui i canali YouTube da analizzare.
 
-**Nota repo:** i file `{id}.json` (liste URL) e `pending.json` **non sono versionati** in git (vedi `.gitignore`). Restano solo sul tuo disco; dopo un clone vanno ricreati o copiati da backup. In repo c’è solo `channels.json` come registro canali.
+**Runtime:** registro canali, liste URL, pending e date video vivono in **SQLite** (`data/media_advisor.sqlite`). All’avvio, se il DB è vuoto per quei dati, l’app può **importare una tantum** dai file qui sotto (seed). **Backup dello stato operativo** = copia del file `.sqlite` (non solo questi JSON).
+
+**Nota repo:** molti `{id}.json`, `pending.json`, ecc. **non sono versionati** in git. Dopo un clone, ripristina il DB da backup oppure esegui `db-migrate-from-json` se hai ancora i JSON. `channels.json` in repo è soprattutto riferimento/seed.
 
 ## Struttura
 
@@ -33,7 +35,7 @@ Aggiungi qui i canali YouTube da analizzare.
 
 L’`order` definisce l’ordine di visualizzazione nella dashboard.
 
-## Struttura dati
+## Dove finiscono i dati (dopo migrazione)
 
-- **Transcript**: `data/transcripts/{channel_id}/{video_id}.json`
-- **Analisi**: `data/analysis/{channel_id}/{video_id}.json`
+- **Transcript / analisi / mercato / canali**: tabelle in `data/media_advisor.sqlite` (vedi README principale).
+- Cartelle `data/transcripts/`, `data/analysis/`, `mercato/` possono contenere solo **copie storiche** non aggiornate dall’app.

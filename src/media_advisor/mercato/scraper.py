@@ -163,23 +163,49 @@ def _slug_tm(name: str) -> str:
 # Alias mapping: nome estratto dall'AI → nome canonico cercabile
 # ---------------------------------------------------------------------------
 
-_aliases: dict[str, str | None] | None = None
-_aliases_path: Path | None = None
+_aliases_by_root: dict[str, dict[str, str | None]] = {}
+
+
+def _scraper_flat_aliases_from_blob(data: dict) -> dict[str, str | None]:
+    out: dict[str, str | None] = {}
+    for k, v in data.items():
+        if k.startswith("_"):
+            continue
+        if isinstance(v, dict):
+            for nk, nv in v.items():
+                if isinstance(nk, str) and not nk.startswith("_"):
+                    out[nk] = nv if isinstance(nv, (str, type(None))) else str(nv)
+        elif isinstance(v, str) or v is None:
+            out[k] = v
+    return out
 
 
 def _load_aliases(root: Path) -> dict[str, str | None]:
-    global _aliases, _aliases_path
-    _aliases_path = root / "mercato" / "player-aliases.json"
-    if _aliases is None:
-        if _aliases_path.exists():
+    from media_advisor.db.repository import MERCATO_BLOB_ALIASES, fetch_mercato_blob_raw
+    from media_advisor.db.session import session_scope
+
+    key = str(root.resolve())
+    if key not in _aliases_by_root:
+        merged: dict[str, str | None] = {}
+        with session_scope(root, read_only=True) as session:
+            raw_blob = fetch_mercato_blob_raw(session, MERCATO_BLOB_ALIASES)
+        if raw_blob:
             try:
-                raw = json.loads(_aliases_path.read_text(encoding="utf-8"))
-                _aliases = {k: v for k, v in raw.items() if not k.startswith("_")}
+                raw = json.loads(raw_blob)
+                if isinstance(raw, dict):
+                    merged.update(_scraper_flat_aliases_from_blob(raw))
+            except json.JSONDecodeError:
+                pass
+        p = root / "mercato" / "player-aliases.json"
+        if p.exists():
+            try:
+                raw = json.loads(p.read_text(encoding="utf-8"))
+                if isinstance(raw, dict):
+                    merged.update(_scraper_flat_aliases_from_blob(raw))
             except Exception:
-                _aliases = {}
-        else:
-            _aliases = {}
-    return _aliases
+                pass
+        _aliases_by_root[key] = merged
+    return _aliases_by_root[key]
 
 
 def resolve_player_name(player_name: str, root: Path | None) -> str | None:
@@ -226,37 +252,53 @@ def _parse_transfer_type_tm(fee: str) -> str:
 # Cache locale player_slug → {tm_id, ss_id}
 # ---------------------------------------------------------------------------
 
-_tm_id_cache: dict[str, dict] | None = None
-_tm_id_cache_path: Path | None = None
+_tm_cache_by_root: dict[str, dict[str, dict]] = {}
 
 
 def _load_cache(root: Path) -> dict[str, dict]:
-    global _tm_id_cache, _tm_id_cache_path
-    _tm_id_cache_path = root / "mercato" / "player-tm-ids.json"
-    if _tm_id_cache is None:
-        if _tm_id_cache_path.exists():
+    from media_advisor.db.repository import MERCATO_BLOB_TM_IDS, fetch_mercato_blob_raw
+    from media_advisor.db.session import session_scope
+
+    key = str(root.resolve())
+    if key not in _tm_cache_by_root:
+        cache: dict[str, dict] = {}
+        with session_scope(root, read_only=True) as session:
+            raw_blob = fetch_mercato_blob_raw(session, MERCATO_BLOB_TM_IDS)
+        if raw_blob:
             try:
-                raw = json.loads(_tm_id_cache_path.read_text(encoding="utf-8"))
-                # Normalizza: valori possono essere str (vecchio) o dict (nuovo)
-                _tm_id_cache = {}
-                for k, v in raw.items():
-                    if isinstance(v, str):
-                        _tm_id_cache[k] = {"tm_id": v, "ss_id": None}
-                    elif isinstance(v, dict):
-                        _tm_id_cache[k] = v
+                raw = json.loads(raw_blob)
+                if isinstance(raw, dict):
+                    for k, v in raw.items():
+                        if isinstance(v, str):
+                            cache[k] = {"tm_id": v, "ss_id": None}
+                        elif isinstance(v, dict):
+                            cache[k] = v
+            except json.JSONDecodeError:
+                pass
+        p = root / "mercato" / "player-tm-ids.json"
+        if not cache and p.exists():
+            try:
+                raw = json.loads(p.read_text(encoding="utf-8"))
+                if isinstance(raw, dict):
+                    for k, v in raw.items():
+                        if isinstance(v, str):
+                            cache[k] = {"tm_id": v, "ss_id": None}
+                        elif isinstance(v, dict):
+                            cache[k] = v
             except Exception:
-                _tm_id_cache = {}
-        else:
-            _tm_id_cache = {}
-    return _tm_id_cache
+                pass
+        _tm_cache_by_root[key] = cache
+    return _tm_cache_by_root[key]
 
 
-def _save_cache() -> None:
-    if _tm_id_cache is not None and _tm_id_cache_path is not None:
-        _tm_id_cache_path.parent.mkdir(parents=True, exist_ok=True)
-        _tm_id_cache_path.write_text(
-            json.dumps(_tm_id_cache, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
+def _save_cache(root: Path) -> None:
+    from media_advisor.db.repository import MERCATO_BLOB_TM_IDS, upsert_mercato_blob
+    from media_advisor.db.session import session_scope
+
+    key = str(root.resolve())
+    cache = _tm_cache_by_root.get(key, {})
+    with session_scope(root) as session:
+        upsert_mercato_blob(session, MERCATO_BLOB_TM_IDS, cache)
 
 
 def set_player_tm_id(root: Path, player_name: str, tm_id: str) -> None:
@@ -265,7 +307,7 @@ def set_player_tm_id(root: Path, player_name: str, tm_id: str) -> None:
     entry = cache.get(slug) or {}
     entry["tm_id"] = tm_id
     cache[slug] = entry
-    _save_cache()
+    _save_cache(root)
 
 
 def get_player_ids(root: Path, player_name: str) -> dict:
@@ -383,7 +425,7 @@ def search_player(player_name: str, root: Path | None = None) -> dict | None:
         if result.get("ss_id"):
             entry["ss_id"] = result["ss_id"]
         cache[slug] = entry
-        _save_cache()
+        _save_cache(root)
 
     return result
 
@@ -560,7 +602,7 @@ def fetch_player_transfers(
                 entry = cache.get(slug) or {}
                 entry["ss_id"] = ss_id
                 cache[slug] = entry
-                _save_cache()
+                _save_cache(root)
 
     if ss_id:
         transfers = _fetch_from_sofascore(ss_id, player.get("name", player_name), season)

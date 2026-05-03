@@ -191,44 +191,41 @@ def cmd_auto_update(
 def cmd_confirm(
     video_id: str = typer.Argument(..., help="Video ID to confirm from pending"),
 ) -> None:
-    """Confirm a video from pending.json: append to channel list and remove from pending."""
+    """Confirm a video from pending: append to channel list and remove from pending (DB)."""
     root = _root()
 
-    from media_advisor.io.json_io import read_json, write_json
-    from media_advisor.io.paths import channels_config_path, channel_list_path, pending_path
+    from media_advisor.io.channel_store import (
+        load_channels_config_dict,
+        load_pending_dict,
+        read_channel_video_urls,
+        save_pending_dict,
+        write_channel_video_urls,
+    )
     from media_advisor.models.channels import ChannelsConfig
     from media_advisor.models.pending import PendingResult
 
-    ppath = pending_path(root)
-    if not ppath.exists():
-        typer.echo("pending.json not found", err=True)
-        raise typer.Exit(1)
-
-    pending = PendingResult.model_validate(read_json(ppath))
+    pending = PendingResult.model_validate(load_pending_dict(root))
     item = next((v for v in pending.items if v.video_id == video_id), None)
     if not item:
-        typer.echo(f"Video {video_id} not found in pending.json", err=True)
+        typer.echo(f"Video {video_id} not found in pending", err=True)
         raise typer.Exit(1)
 
-    config = ChannelsConfig.model_validate(read_json(channels_config_path(root)))
+    config = ChannelsConfig.model_validate(load_channels_config_dict(root))
     channel = next((c for c in config.channels if c.id == item.channel_id), None)
     if not channel:
-        typer.echo(f"Channel {item.channel_id} not found in channels.json", err=True)
+        typer.echo(f"Channel {item.channel_id} not found in registry", err=True)
         raise typer.Exit(1)
 
-    list_path = channel_list_path(root, channel.video_list)
-    from media_advisor.io.json_io import read_video_list, write_video_list
-
-    urls = read_video_list(list_path)
+    urls = read_channel_video_urls(root, channel.video_list)
     url = f"https://www.youtube.com/watch?v={video_id}"
     if url not in urls:
         urls.append(url)
-        write_video_list(list_path, urls)
+        write_channel_video_urls(root, channel.video_list, urls)
         typer.echo(f"Added {video_id} to {channel.video_list}")
 
     pending.items = [v for v in pending.items if v.video_id != video_id]
-    write_json(ppath, pending.model_dump(mode="json"))
-    typer.echo(f"Removed {video_id} from pending.json")
+    save_pending_dict(root, pending.model_dump(mode="json"))
+    typer.echo(f"Removed {video_id} from pending")
 
 
 # ---------------------------------------------------------------------------
@@ -252,25 +249,30 @@ def cmd_transcript(
     from media_advisor.transcript_api.client import TranscriptClient
 
     async def _run() -> None:
+        import re as _re
+
         client = TranscriptClient(s.transcript_api_key)
         transcript = await client.get_transcript(video, include_timestamp=True, send_metadata=True)
 
+        m_vid = _re.search(r"(?:v=)([a-zA-Z0-9_-]{11})", video)
+        video_id = m_vid.group(1) if m_vid else (video if len(video) == 11 else None)
+
         dest = output
-        if dest is None and channel:
-            import re as _re
+        if dest is None and channel and video_id:
+            from media_advisor.io.paths import transcript_path
 
-            m = _re.search(r"(?:v=)([a-zA-Z0-9_-]{11})", video)
-            vid = m.group(1) if m else (video if len(video) == 11 else None)
-            if vid:
-                from media_advisor.io.paths import transcript_path
-
-                dest = transcript_path(_root(), channel, vid)
+            dest = transcript_path(_root(), channel, video_id)
 
         if dest:
             from media_advisor.io.json_io import write_json
 
-            write_json(dest, transcript.model_dump(mode="json"))
-            typer.echo(f"Saved transcript to {dest}")
+            payload = transcript.model_dump(mode="json")
+            write_json(dest, payload)
+            if channel and video_id:
+                from media_advisor.io.transcript_storage import db_upsert_transcript
+
+                db_upsert_transcript(_root(), channel, video_id, payload)
+            typer.echo(f"Saved transcript to {dest}" + (" (+ DB)" if channel and video_id else ""))
 
         if show:
             if isinstance(transcript.transcript, list):
@@ -300,24 +302,23 @@ def cmd_analyze(
         raise typer.Exit(1)
 
     root = _root()
-    from media_advisor.io.json_io import read_json, write_json
-    from media_advisor.io.paths import analysis_path, transcript_path
+    from media_advisor.db.repository import analysis_exists_in_db, upsert_video_analysis
+    from media_advisor.db.session import session_scope
+    from media_advisor.io.transcript_storage import load_transcript_dict
     from media_advisor.models.transcript import TranscriptResponse
     from media_advisor.pipeline.analyze_v2 import analyze_video_v2
 
-    t_path = transcript_path(root, channel, video_id)
-    a_path = analysis_path(root, channel, video_id)
-
-    if not t_path.exists():
-        typer.echo(f"Transcript not found: {t_path}", err=True)
-        raise typer.Exit(1)
-
-    if a_path.exists() and not force:
-        typer.echo(f"Analysis already exists: {a_path} (use --force to re-analyze)")
-        return
+    with session_scope(root, read_only=True) as session:
+        if analysis_exists_in_db(session, channel, video_id) and not force:
+            typer.echo("Analysis already in DB (use --force to re-analyze)")
+            return
 
     async def _run() -> None:
-        transcript = TranscriptResponse.model_validate(read_json(t_path))
+        raw_t = load_transcript_dict(root, channel, video_id)
+        if raw_t is None:
+            typer.echo(f"Transcript not found in DB for {channel}/{video_id}", err=True)
+            raise typer.Exit(1)
+        transcript = TranscriptResponse.model_validate(raw_t)
         meta = {}
         if transcript.metadata:
             meta = {
@@ -332,9 +333,9 @@ def cmd_analyze(
             model=model,
             metadata=meta,
         )
-        a_path.parent.mkdir(parents=True, exist_ok=True)
-        write_json(a_path, analysis.model_dump(mode="json"))
-        typer.echo(f"Analysis saved to {a_path}")
+        with session_scope(root) as session:
+            upsert_video_analysis(session, channel, video_id, analysis.model_dump(mode="json"))
+        typer.echo("Analysis saved to DB")
         typer.echo(f"Claims: {len(analysis.claims or [])}  Topics: {len(analysis.topics)}")
 
     asyncio.run(_run())
@@ -379,24 +380,24 @@ def cmd_mercato_analyze(
 
     from media_advisor.mercato.analyzer import analyze_video_mercato
     from media_advisor.transcript_api.client import TranscriptClient
-    from media_advisor.io.json_io import read_json, write_json
-    from media_advisor.io.paths import transcript_path
+    from media_advisor.io.channel_store import load_channels_config_dict
     from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
     from media_advisor.models.channels import ChannelsConfig
 
     def _get_channel_url(root) -> str | None:
         try:
-            cfg = ChannelsConfig.model_validate(read_json(root / "channels" / "channels.json"))
+            cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
             ch = next((c for c in cfg.channels if c.id == channel), None)
             return (ch.fetch_rule.channel_url if ch and ch.fetch_rule else None)  # type: ignore[attr-defined]
         except Exception:
             return None
 
     async def _ensure_transcript_metadata(root) -> None:
-        t_path = transcript_path(root, channel, video_id)
-        if not t_path.exists():
+        from media_advisor.io.transcript_storage import load_transcript_dict, save_transcript_to_store
+
+        raw = load_transcript_dict(root, channel, video_id)
+        if raw is None:
             return
-        raw = read_json(t_path)
         tr = TranscriptResponse.model_validate(raw)
         if tr.metadata and tr.metadata.published_at:
             return
@@ -424,7 +425,7 @@ def cmd_mercato_analyze(
                 }
             )
             tr2 = tr.model_copy(update={"metadata": meta})
-            write_json(t_path, tr2.model_dump(mode="json"))
+            save_transcript_to_store(root, channel, video_id, tr2.model_dump(mode="json"))
         except Exception:
             return
 
@@ -482,35 +483,30 @@ def cmd_mercato_scan(
         _re.IGNORECASE,
     )
 
-    from media_advisor.io.json_io import read_json
+    from media_advisor.db.repository import list_transcript_video_ids, mercato_existing_pair_keys
+    from media_advisor.db.session import session_scope
+    from media_advisor.io.channel_store import load_channels_config_dict, load_video_dates_dict
     from media_advisor.mercato.analyzer import analyze_video_mercato
     from media_advisor.transcript_api.client import TranscriptClient
-    from media_advisor.io.json_io import write_json
-    from media_advisor.io.paths import transcript_path
     from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
     from media_advisor.models.channels import ChannelsConfig
 
-    transcripts_root = root / "data" / "transcripts"
-    if not transcripts_root.exists():
-        typer.echo("Nessun transcript trovato.")
+    with session_scope(root, read_only=True) as session:
+        id_pairs = list_transcript_video_ids(session, channel)
+        pre_mercato = mercato_existing_pair_keys(session, [(vid, ch_id) for ch_id, vid in id_pairs])
+    if not id_pairs:
+        typer.echo("Nessun transcript nel database. Esegui db-migrate-from-json o la pipeline.")
         return
 
-    channel_dirs = (
-        [transcripts_root / channel] if channel else list(transcripts_root.iterdir())
-    )
-
     async def _run() -> None:
-        from media_advisor.io.json_io import read_json_or_default
-        from media_advisor.io.paths import mercato_tips_path, video_dates_cache_path
         from media_advisor.mercato.analyzer import update_index_with_new_tips
         from media_advisor.mercato.models import MercatoTip
 
         # Cache latest results per channel (one API call per channel).
         latest_cache: dict[str, list[dict]] = {}
-        # Dates cache persistente salvata da fetch-now
-        _dates_cache: dict[str, str] = read_json_or_default(video_dates_cache_path(root), default={}) or {}
+        _dates_cache: dict[str, str] = load_video_dates_dict(root)
 
-        _channels_cfg = ChannelsConfig.model_validate(read_json(root / "channels" / "channels.json"))
+        _channels_cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
         _channels_map = {c.id: c for c in _channels_cfg.channels}
 
         def _get_channel_url(ch_id: str) -> str | None:
@@ -525,10 +521,11 @@ def cmd_mercato_scan(
             return ch.mercato_channel if ch else False
 
         async def _ensure_metadata(ch_id: str, vid: str) -> None:
-            t_path = transcript_path(root, ch_id, vid)
-            if not t_path.exists():
+            from media_advisor.io.transcript_storage import load_transcript_dict, save_transcript_to_store
+
+            raw = load_transcript_dict(root, ch_id, vid)
+            if raw is None:
                 return
-            raw = read_json(t_path)
             tr = TranscriptResponse.model_validate(raw)
             if tr.metadata and tr.metadata.published_at:
                 return
@@ -539,7 +536,7 @@ def cmd_mercato_scan(
                 meta = tr.metadata or VideoMetadata()
                 meta = meta.model_copy(update={"published_at": cached_date})
                 tr2 = tr.model_copy(update={"metadata": meta})
-                write_json(t_path, tr2.model_dump(mode="json"))
+                save_transcript_to_store(root, ch_id, vid, tr2.model_dump(mode="json"))
                 return
 
             # 2. Fallback: prova get_channel_latest (solo ~15 video recenti)
@@ -568,62 +565,57 @@ def cmd_mercato_scan(
                 }
             )
             tr2 = tr.model_copy(update={"metadata": meta})
-            write_json(t_path, tr2.model_dump(mode="json"))
+            save_transcript_to_store(root, ch_id, vid, tr2.model_dump(mode="json"))
 
         total, analyzed, skipped = 0, 0, 0
         all_new_tips: list[MercatoTip] = []
-        for ch_dir in channel_dirs:
-            if not ch_dir.is_dir():
-                continue
-            ch_id = ch_dir.name
+        for ch_id, vid in id_pairs:
             is_mercato_ch = _is_mercato_channel(ch_id)
-            # Canali non-mercato: salta sempre (no costo GPT su analisi partite)
+            total += 1
             if not all_videos and not is_mercato_ch:
-                n = sum(1 for _ in ch_dir.glob("*.json"))
-                total += n
-                skipped += n
+                skipped += 1
                 continue
-            for t_file in sorted(ch_dir.glob("*.json")):
-                vid = t_file.stem
-                total += 1
-                try:
-                    data = read_json(t_file)
-                    title = (data.get("metadata") or {}).get("title") or ""
-                    # Canali mercato: analizza tutto; altri: filtra per keyword titolo
-                    if not all_videos and not is_mercato_ch and not _MERCATO_KW.search(title):
+            try:
+                from media_advisor.io.transcript_storage import load_transcript_dict
+
+                data = load_transcript_dict(root, ch_id, vid)
+                if not data:
+                    skipped += 1
+                    continue
+                title = (data.get("metadata") or {}).get("title") or ""
+                if not all_videos and not is_mercato_ch and not _MERCATO_KW.search(title):
+                    skipped += 1
+                    continue
+                await _ensure_metadata(ch_id, vid)
+                if date_from or date_to:
+                    data = load_transcript_dict(root, ch_id, vid) or data
+                    pub_str = (data.get("metadata") or {}).get("published_at")
+                    if not pub_str:
                         skipped += 1
                         continue
-                    await _ensure_metadata(ch_id, vid)
-                    # Applica filtro data se specificato
-                    if date_from or date_to:
-                        data = read_json(t_file)  # rilegge per published_at aggiornata
-                        pub_str = (data.get("metadata") or {}).get("published_at")
-                        if not pub_str:
-                            skipped += 1
-                            continue  # data sconosciuta: salta quando filtro attivo
-                        pub_d = _date.fromisoformat(pub_str[:10])
-                        if date_from and pub_d < date_from:
-                            skipped += 1
-                            continue
-                        if date_to and pub_d > date_to:
-                            skipped += 1
-                            continue
-                    _tip_file_existed = mercato_tips_path(root, ch_id, vid).exists() and not force
-                    result = await analyze_video_mercato(
-                        root=root,
-                        video_id=vid,
-                        channel_id=ch_id,
-                        api_key=s.openai_api_key,
-                        model=model,
-                        force=force,
-                        update_index=False,  # batch: aggiorna index una sola volta alla fine
-                    )
-                    if not _tip_file_existed:
-                        all_new_tips.extend(result.tips)
-                    analyzed += 1
-                    typer.echo(f"  [{ch_id}] {vid} — {len(result.tips)} tip ({title[:60]})")
-                except Exception as exc:
-                    typer.echo(f"  [ERR] {ch_id}/{vid}: {exc}", err=True)
+                    pub_d = _date.fromisoformat(pub_str[:10])
+                    if date_from and pub_d < date_from:
+                        skipped += 1
+                        continue
+                    if date_to and pub_d > date_to:
+                        skipped += 1
+                        continue
+                _tip_existed = (ch_id, vid) in pre_mercato and not force
+                result = await analyze_video_mercato(
+                    root=root,
+                    video_id=vid,
+                    channel_id=ch_id,
+                    api_key=s.openai_api_key,
+                    model=model,
+                    force=force,
+                    update_index=False,
+                )
+                if not _tip_existed:
+                    all_new_tips.extend(result.tips)
+                analyzed += 1
+                typer.echo(f"  [{ch_id}] {vid} — {len(result.tips)} tip ({title[:60]})")
+            except Exception as exc:
+                typer.echo(f"  [ERR] {ch_id}/{vid}: {exc}", err=True)
 
         update_index_with_new_tips(root, all_new_tips)
         typer.echo(f"\nDone. totale={total} analizzati={analyzed} saltati(no-mercato)={skipped}")
@@ -932,8 +924,7 @@ def cmd_mercato_verify(
             TransferRecord, add_transfer, get_all_transfers, player_slug as make_slug,
         )
         from media_advisor.mercato.verifier import verify_tip
-        from media_advisor.io.json_io import write_json
-        from media_advisor.io.paths import mercato_index_path
+        from media_advisor.mercato.analyzer import save_mercato_index
         from datetime import datetime, timezone
 
         date_from = _date.fromisoformat(from_date) if from_date else None
@@ -1044,7 +1035,7 @@ def cmd_mercato_verify(
 
         # Salva index con le smentite automatiche
         index.updated_at = datetime.now(timezone.utc)
-        write_json(mercato_index_path(root), index.model_dump(mode="json"))
+        save_mercato_index(root, index)
 
         typer.echo(f"\nFetch: {found_with_transfers} con trasferimenti, {found_no_transfers} rimasti al club, {not_found} non trovati")
 
@@ -1093,60 +1084,65 @@ def cmd_mercato_normalize_players(
     channel: Optional[str] = typer.Option(None, "--channel", help="Limita a un canale"),
     dry_run: bool = typer.Option(False, "--dry-run", help="Mostra le modifiche senza salvarle"),
 ) -> None:
-    """Re-normalizza i player_name in tutti i tip file esistenti usando il registry + fuzzy.
+    """Re-normalizza i player_name nelle tip mercato (SQLite) usando il registry + fuzzy.
 
-    Utile dopo aver aggiunto nuovi alias in player-aliases.json o nuovi transfer confermati.
+    Utile dopo aver aggiunto nuovi alias o transfer confermati.
     Eseguire seguito da mercato-rebuild-index per aggiornare l'index globale.
     """
-    from media_advisor.io.json_io import read_json, write_json
+    import json
+
+    from media_advisor.db.repository import list_mercato_video_result_rows, upsert_mercato_video_result
+    from media_advisor.db.session import session_scope
     from media_advisor.mercato.models import VideoMercatoResult
     from media_advisor.mercato.player_normalizer import load_player_registry, normalize_player_name
 
     root = _root()
-    mercato_dir = root / "mercato"
-    tips_root = mercato_dir / "tips"
 
-    if not tips_root.exists():
-        typer.echo("Nessuna tip trovata: manca la cartella mercato/tips/")
+    with session_scope(root, read_only=True) as session:
+        rows = list_mercato_video_result_rows(session, channel)
+
+    if not rows:
+        typer.echo("Nessuna tip nel database. Esegui mercato-scan o db-migrate-from-json.")
         raise typer.Exit(1)
 
-    registry = load_player_registry(mercato_dir)
+    registry = load_player_registry(root)
     typer.echo(f"Registry caricato: {len(set(registry.values()))} giocatori canonici")
-
-    files = _collect_tip_files(tips_root, channel)
 
     total_tips = 0
     changed_tips = 0
-    changed_files = 0
+    changed_rows = 0
 
-    for f in files:
+    for row in rows:
         try:
-            vr = VideoMercatoResult.model_validate(read_json(f))
+            vr = VideoMercatoResult.model_validate(json.loads(row.payload_json))
         except Exception:
             continue
 
-        file_changed = False
+        row_changed = False
         for tip in (vr.tips or []):
             if not tip.player_name:
                 continue
-            normalized = normalize_player_name(tip.player_name, mercato_dir)
+            normalized = normalize_player_name(tip.player_name, root)
             total_tips += 1
             if normalized != tip.player_name:
                 if dry_run:
                     typer.echo(f"  [{tip.video_id}] {tip.player_name!r} → {normalized!r}")
                 tip.player_name = normalized
                 changed_tips += 1
-                file_changed = True
+                row_changed = True
 
-        if file_changed:
-            changed_files += 1
+        if row_changed:
+            changed_rows += 1
             if not dry_run:
-                write_json(f, vr.model_dump(mode="json"))
+                with session_scope(root) as session:
+                    upsert_mercato_video_result(
+                        session, row.channel_id, row.video_id, vr.model_dump(mode="json")
+                    )
 
     suffix = " (DRY RUN)" if dry_run else ""
     typer.echo(
         f"Done{suffix}: {total_tips} tip analizzate, "
-        f"{changed_tips} nomi corretti in {changed_files} file."
+        f"{changed_tips} nomi corretti in {changed_rows} record."
     )
     if not dry_run and changed_tips > 0:
         typer.echo("Riesegui 'mercato-rebuild-index' per aggiornare l'index globale.")
@@ -1169,14 +1165,17 @@ def cmd_mercato_rebuild_index(
         help="Normalizza e riscrive mercato/tips/** (consigliato per eliminare encoding sporchi tipo 'Atl�tico')",
     ),
 ) -> None:
-    """Ricostruisce mercato/index.json da mercato/tips/** (utile dopo modifiche a filtri/prompt).
+    """Ricostruisce l'index mercato globale da tips in SQLite (fallback: mercato/tips/**).
 
     Nota: l'index attuale è append-only: senza rebuild puoi vedere tip vecchie anche dopo aver fixato l'estrazione.
     """
+    import json
     from datetime import datetime, timezone
 
-    from media_advisor.io.json_io import read_json, write_json
-    from media_advisor.io.paths import mercato_index_path
+    from media_advisor.db.repository import list_mercato_video_result_rows, upsert_mercato_video_result
+    from media_advisor.db.session import session_scope
+    from media_advisor.io.json_io import read_json
+    from media_advisor.mercato.analyzer import save_mercato_index
     from media_advisor.mercato.corroborator import corroborate
     from media_advisor.mercato.extractor import is_plausible_mercato_tip
     from media_advisor.mercato.models import MercatoIndex, VideoMercatoResult
@@ -1212,53 +1211,67 @@ def cmd_mercato_rebuild_index(
 
     root = _root()
     tips_root = root / "mercato" / "tips"
-    if not tips_root.exists():
-        typer.echo("Nessuna tip trovata: manca la cartella mercato/tips/")
-        raise typer.Exit(1)
 
-    files = _collect_tip_files(tips_root, channel)
-
-    if not files:
-        typer.echo("Nessun file trovato in mercato/tips/ (hai già runnato mercato-scan/mercato-analyze?)")
-        raise typer.Exit(1)
+    with session_scope(root, read_only=True) as session:
+        db_rows = list_mercato_video_result_rows(session, channel)
 
     all_tips = []
-    rewritten_files = 0
-    for f in files:
-        try:
-            vr = VideoMercatoResult.model_validate(read_json(f))
-            tips_out = []
-            for tip in (vr.tips or []):
-                # Normalize clubs to avoid false "smentite" due to unicode/encoding.
-                tip.from_club = _norm_club(tip.from_club)
-                tip.to_club = _norm_club(tip.to_club)
-                if prune_non_mercato and not is_plausible_mercato_tip(tip):
-                    continue
-                tips_out.append(tip)
-                all_tips.append(tip)
+    rewritten = 0
 
-            # Optionally rewrite per-video files (so future rebuilds stay clean).
-            if rewrite_tip_files:
-                tips_out_sorted = sorted(tips_out, key=_sort_key)
-                vr2 = vr.model_copy(update={"tips": tips_out_sorted})
-                write_json(f, vr2.model_dump(mode="json"))
-                rewritten_files += 1
-        except Exception:
-            continue
+    def _process_vr(vr: VideoMercatoResult, ch_id: str, vid: str) -> None:
+        nonlocal rewritten
+        tips_out = []
+        for tip in (vr.tips or []):
+            tip.from_club = _norm_club(tip.from_club)
+            tip.to_club = _norm_club(tip.to_club)
+            if prune_non_mercato and not is_plausible_mercato_tip(tip):
+                continue
+            tips_out.append(tip)
+            all_tips.append(tip)
+        if rewrite_tip_files:
+            tips_out_sorted = sorted(tips_out, key=_sort_key)
+            vr2 = vr.model_copy(update={"tips": tips_out_sorted})
+            with session_scope(root) as session:
+                upsert_mercato_video_result(session, ch_id, vid, vr2.model_dump(mode="json"))
+            rewritten += 1
 
-    # Rebuild index and re-run corroboration incrementally (so tips corroborate each other).
+    if db_rows:
+        for row in db_rows:
+            try:
+                vr = VideoMercatoResult.model_validate(json.loads(row.payload_json))
+                _process_vr(vr, row.channel_id, row.video_id)
+            except Exception:
+                continue
+    elif tips_root.exists():
+        files = _collect_tip_files(tips_root, channel)
+        if not files:
+            typer.echo("Nessun file in mercato/tips/ né record nel DB.")
+            raise typer.Exit(1)
+        for f in files:
+            try:
+                vr = VideoMercatoResult.model_validate(read_json(f))
+                ch_id = f.parent.name
+                vid = f.stem
+                _process_vr(vr, ch_id, vid)
+            except Exception:
+                continue
+    else:
+        typer.echo("Nessuna tip nel DB e manca mercato/tips/.")
+        raise typer.Exit(1)
+
+    if not all_tips:
+        typer.echo("Nessuna tip dopo filtri (prune_non_mercato?).")
+        raise typer.Exit(1)
+
     index = MercatoIndex(updated_at=datetime.now(timezone.utc), tips=[])
     for tip in sorted(all_tips, key=_sort_key):
         corroborate(index, [tip])
 
-    # Stable ordering for index.json (corroborate mutates corroborated_by order, but list order is now deterministic).
     index.tips = sorted(index.tips, key=_sort_key)
-
-    out = mercato_index_path(root)
-    write_json(out, index.model_dump(mode="json"))
+    save_mercato_index(root, index)
     typer.echo(
-        f"Index rebuilt: {out}  tips={len(index.tips)}  prune_non_mercato={prune_non_mercato}  "
-        f"rewrite_tip_files={rewrite_tip_files} files={rewritten_files}"
+        f"Index rebuilt (db): tips={len(index.tips)}  prune_non_mercato={prune_non_mercato}  "
+        f"rewrite_tip_files={rewrite_tip_files} rows_updated={rewritten}"
     )
 
 
@@ -1278,12 +1291,11 @@ def cmd_mercato_enrich_dates(
     Non scarica nessun file video — solo i metadati (veloce).
     """
     from media_advisor.fetch import fetch_channel_dates_ytdlp
-    from media_advisor.io.json_io import read_json_or_default, write_json
-    from media_advisor.io.paths import video_dates_cache_path
+    from media_advisor.io.channel_store import load_channels_config_dict, load_video_dates_dict, save_video_dates_dict
     from media_advisor.models.channels import ChannelsConfig
 
     root = _root()
-    cfg = ChannelsConfig.model_validate(read_json_or_default(root / "channels" / "channels.json", default={}))
+    cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
 
     channels_to_process = [
         c for c in cfg.channels
@@ -1295,8 +1307,7 @@ def cmd_mercato_enrich_dates(
         typer.echo("Nessun canale trovato.")
         return
 
-    dates_path = video_dates_cache_path(root)
-    dates_cache: dict[str, str] = read_json_or_default(dates_path, default={}) or {}
+    dates_cache: dict[str, str] = load_video_dates_dict(root)
     total_added = 0
 
     for ch in channels_to_process:
@@ -1311,39 +1322,36 @@ def cmd_mercato_enrich_dates(
         except Exception as e:
             typer.echo(f"  Errore: {e}", err=True)
 
-    write_json(dates_path, dates_cache)
+    save_video_dates_dict(root, dates_cache)
 
     # Arricchisci anche i transcript già scaricati con le date ora disponibili
     typer.echo("\nArricchisco i transcript esistenti con le date...")
-    from media_advisor.io.paths import transcript_path
+    from media_advisor.db.repository import list_transcript_video_ids
+    from media_advisor.db.session import session_scope
     from media_advisor.models.transcript import TranscriptResponse, VideoMetadata
 
     enriched = 0
-    transcripts_root = root / "data" / "transcripts"
-    channel_dirs = (
-        [transcripts_root / channel] if channel and (transcripts_root / channel).exists()
-        else list(transcripts_root.iterdir()) if transcripts_root.exists() else []
-    )
-    for ch_dir in channel_dirs:
-        if not ch_dir.is_dir():
+    with session_scope(root, read_only=True) as session:
+        id_pairs = list_transcript_video_ids(session, channel)
+    for ch_store_id, vid in id_pairs:
+        if vid not in dates_cache:
             continue
-        for t_file in ch_dir.glob("*.json"):
-            vid = t_file.stem
-            if vid not in dates_cache:
+        try:
+            from media_advisor.io.transcript_storage import load_transcript_dict, save_transcript_to_store
+
+            raw = load_transcript_dict(root, ch_store_id, vid)
+            if raw is None:
                 continue
-            try:
-                from media_advisor.io.json_io import read_json, write_json as _wj
-                raw = read_json(t_file)
-                tr = TranscriptResponse.model_validate(raw)
-                if tr.metadata and tr.metadata.published_at:
-                    continue  # già ha la data
-                meta = tr.metadata or VideoMetadata()
-                meta = meta.model_copy(update={"published_at": dates_cache[vid]})
-                tr2 = tr.model_copy(update={"metadata": meta})
-                _wj(t_file, tr2.model_dump(mode="json"))
-                enriched += 1
-            except Exception:
+            tr = TranscriptResponse.model_validate(raw)
+            if tr.metadata and tr.metadata.published_at:
                 continue
+            meta = tr.metadata or VideoMetadata()
+            meta = meta.model_copy(update={"published_at": dates_cache[vid]})
+            tr2 = tr.model_copy(update={"metadata": meta})
+            save_transcript_to_store(root, ch_store_id, vid, tr2.model_dump(mode="json"))
+            enriched += 1
+        except Exception:
+            continue
 
     typer.echo(f"{enriched} transcript aggiornati con published_at")
     typer.echo(f"\nDone. Totale date in cache: {len(dates_cache)}")
@@ -1366,7 +1374,7 @@ def cmd_mercato_backfill_dates(
     """
     from datetime import datetime, timezone
     from media_advisor.io.json_io import read_json, write_json, read_json_or_default
-    from media_advisor.io.paths import video_dates_cache_path, transcript_path
+    from media_advisor.io.paths import video_dates_cache_path
 
     root = _root()
     tips_root = root / "mercato" / "tips"
@@ -1391,13 +1399,14 @@ def cmd_mercato_backfill_dates(
             # Cerca la data: prima nella dates cache, poi nel transcript
             date_str: str | None = dates_cache.get(vid)
             if not date_str:
-                t_path = transcript_path(root, ch_id, vid)
-                if t_path.exists():
-                    try:
-                        raw = read_json(t_path)
+                from media_advisor.io.transcript_storage import load_transcript_dict
+
+                try:
+                    raw = load_transcript_dict(root, ch_id, vid)
+                    if raw:
                         date_str = (raw.get("metadata") or {}).get("published_at")
-                    except Exception:
-                        pass
+                except Exception:
+                    pass
 
             if not date_str:
                 missing_date += 1
@@ -1628,21 +1637,26 @@ def cmd_daily_report(
         if new_ids:
             from media_advisor.mercato.analyzer import analyze_video_mercato
             from media_advisor.mercato.aggregator import rebuild_index
-            from media_advisor.io.paths import channels_config_path, mercato_tips_path
+            from media_advisor.db.repository import mercato_existing_pair_keys, transcript_existing_pair_keys
+            from media_advisor.db.session import session_scope
+            from media_advisor.io.channel_store import load_channels_config_dict
             from media_advisor.models.channels import ChannelsConfig
-            from media_advisor.io.json_io import read_json
 
-            cfg = ChannelsConfig.model_validate(read_json(channels_config_path(root)))
+            cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
             mercato_ch_ids = {c.id for c in cfg.channels if c.mercato_channel}
 
             mercato_items = [v for v in pending.items if v.channel_id in mercato_ch_ids]
+            scan_pairs = [(v.video_id, v.channel_id) for v in mercato_items]
+            with session_scope(root, read_only=True) as session:
+                skip_mercato = mercato_existing_pair_keys(session, scan_pairs)
+                have_transcript = transcript_existing_pair_keys(session, scan_pairs)
 
             async def _scan_new() -> None:
                 for v in mercato_items:
-                    if mercato_tips_path(root, v.channel_id, v.video_id).exists():
+                    key = (v.channel_id, v.video_id)
+                    if key in skip_mercato:
                         continue
-                    t_path = root / "data" / "transcripts" / v.channel_id / f"{v.video_id}.json"
-                    if not t_path.exists():
+                    if key not in have_transcript:
                         continue
                     try:
                         await analyze_video_mercato(
@@ -1746,6 +1760,41 @@ def cmd_publish_telegram(
     except TelegramClientError as exc:
         typer.echo(f"Errore Telegram: {exc}", err=True)
         raise typer.Exit(1)
+
+
+# ---------------------------------------------------------------------------
+# db-migrate-from-json
+# ---------------------------------------------------------------------------
+
+
+@app.command("db-migrate-from-json")
+def cmd_db_migrate_from_json() -> None:
+    """Importa JSON legacy (transcripts, reports, analysis, mercato, channels) nel SQLite locale."""
+    from media_advisor.db.repository import (
+        migrate_analysis_from_json_tree,
+        migrate_channels_from_disk,
+        migrate_daily_reports_from_files,
+        migrate_mercato_from_disk,
+        migrate_transcripts_from_json_tree,
+    )
+    from media_advisor.db.session import session_scope
+
+    root = _root()
+    transcripts_root = root / "data" / "transcripts"
+    reports_dir = root / "reports"
+    analysis_root = root / "data" / "analysis"
+    with session_scope(root) as session:
+        t_imp, t_err = migrate_transcripts_from_json_tree(transcripts_root, session)
+        r_imp, r_err = migrate_daily_reports_from_files(reports_dir, session)
+        a_imp, a_err = migrate_analysis_from_json_tree(analysis_root, session)
+        m_counts = migrate_mercato_from_disk(root, session)
+        ch_counts = migrate_channels_from_disk(root, session)
+    typer.echo(f"transcripts: imported {t_imp}, read errors {t_err}")
+    typer.echo(f"daily_reports: imported {r_imp}, read errors {r_err}")
+    typer.echo(f"video_analysis: imported {a_imp}, read errors {a_err}")
+    typer.echo(f"mercato: {m_counts}")
+    typer.echo(f"channels: {ch_counts}")
+    typer.echo(f"database: {_get_settings().get_database_url(data_root=root)}")
 
 
 if __name__ == "__main__":

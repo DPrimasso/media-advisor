@@ -26,6 +26,18 @@ class Settings(BaseSettings):
     analysis_dir: Path | None = Field(default=None, alias="MEDIA_ADVISOR_ANALYSIS_DIR")
     transcripts_dir: Path | None = Field(default=None, alias="MEDIA_ADVISOR_TRANSCRIPTS_DIR")
 
+    # SQLite (default: <root>/data/media_advisor.sqlite). Override with full URL, e.g. sqlite:////path/to/db.sqlite
+    database_url: str | None = Field(default=None, alias="MEDIA_ADVISOR_DATABASE_URL")
+
+    # When False, daily mercato reports are only persisted in SQLite (no reports/*.md/json sidecars).
+    export_report_files: bool = Field(default=True, alias="MEDIA_ADVISOR_EXPORT_REPORT_FILES")
+
+    # When non-empty, POST /api/sync*, /api/fetch-now require header X-Media-Advisor-Sync with this value.
+    sync_secret: str = Field(default="", alias="MEDIA_ADVISOR_SYNC_SECRET")
+
+    # Comma-separated CORS origins for the FastAPI app; empty or unset = allow all (*).
+    cors_origins: str = Field(default="", alias="MEDIA_ADVISOR_CORS_ORIGINS")
+
     # Pipeline
     llm_model: str = Field(default="gpt-4.1-mini", alias="MEDIA_ADVISOR_LLM_MODEL")
     max_segments: int = Field(default=12, alias="MEDIA_ADVISOR_MAX_SEGMENTS")
@@ -53,3 +65,11 @@ class Settings(BaseSettings):
 
     def get_transcripts_dir(self) -> Path:
         return self.transcripts_dir or (self.root_dir / "data" / "transcripts")
+
+    def get_database_url(self, *, data_root: Path | None = None) -> str:
+        """Resolved SQLAlchemy URL. When unset, uses SQLite under data_root/data/media_advisor.sqlite."""
+        if self.database_url and self.database_url.strip():
+            return self.database_url.strip()
+        base = (data_root if data_root is not None else self.root_dir).resolve()
+        db_path = (base / "data" / "media_advisor.sqlite").resolve()
+        return f"sqlite:///{db_path.as_posix()}"

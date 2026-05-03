@@ -1,12 +1,18 @@
 """Aggregazione per-player e calcolo veracity score per canale."""
 
+import logging
 import re
 import unicodedata
 from datetime import date, timedelta
 from datetime import datetime, timezone
 from pathlib import Path
 
-from media_advisor.io.json_io import read_json_or_default
+import json
+
+from pydantic import ValidationError
+
+from media_advisor.db.repository import fetch_mercato_global_index_json, upsert_mercato_global_index
+from media_advisor.db.session import session_scope
 from media_advisor.io.paths import mercato_index_path
 from media_advisor.mercato.corroborator import _is_renewal_tip, _same_session
 from media_advisor.mercato.models import (
@@ -23,10 +29,24 @@ def _player_slug(name: str) -> str:
 
 
 def load_index(root: Path) -> MercatoIndex:
-    data = read_json_or_default(mercato_index_path(root), default=None)
-    if data is None:
-        return MercatoIndex(updated_at=datetime.now(timezone.utc), tips=[])
-    return MercatoIndex.model_validate(data)
+    log = logging.getLogger(__name__)
+    with session_scope(root) as session:
+        raw = fetch_mercato_global_index_json(session)
+        if raw:
+            try:
+                return MercatoIndex.model_validate(json.loads(raw))
+            except (json.JSONDecodeError, ValidationError) as exc:
+                log.warning("Mercato index blob non valido: %s", exc)
+        p = mercato_index_path(root)
+        if p.exists():
+            try:
+                data = json.loads(p.read_text(encoding="utf-8"))
+                if isinstance(data, dict):
+                    upsert_mercato_global_index(session, data)
+                    return MercatoIndex.model_validate(data)
+            except (json.JSONDecodeError, OSError, ValidationError) as exc:
+                log.warning("Mercato index file non valido (%s): %s", p, exc)
+    return MercatoIndex(updated_at=datetime.now(timezone.utc), tips=[])
 
 
 def _is_pending_outcome(outcome: str) -> bool:
@@ -34,11 +54,10 @@ def _is_pending_outcome(outcome: str) -> bool:
 
 
 def _normalize_player_names_inplace(tips: list[MercatoTip], root: Path) -> list[MercatoTip]:
-    mercato_dir = root / "mercato"
     from media_advisor.mercato.player_normalizer import normalize_player_name
 
     for tip in tips:
-        tip.player_name = normalize_player_name(tip.player_name, mercato_dir)
+        tip.player_name = normalize_player_name(tip.player_name, root)
     return tips
 
 
@@ -268,3 +287,28 @@ def get_channel_stats(root: Path) -> list[ChannelVeracityStats]:
         )
 
     return sorted(stats, key=lambda s: s.total_tips, reverse=True)
+
+
+def rebuild_index(root: Path) -> None:
+    """Ricalcola l'index globale da tutti i VideoMercatoResult nel DB."""
+    import json
+    from datetime import datetime, timezone
+
+    from media_advisor.db.repository import list_mercato_video_result_rows
+    from media_advisor.db.session import session_scope
+    from media_advisor.mercato.analyzer import save_mercato_index
+    from media_advisor.mercato.corroborator import corroborate
+    from media_advisor.mercato.models import MercatoIndex, VideoMercatoResult
+
+    all_tips: list[MercatoTip] = []
+    with session_scope(root, read_only=True) as session:
+        for row in list_mercato_video_result_rows(session, None):
+            try:
+                vr = VideoMercatoResult.model_validate(json.loads(row.payload_json))
+                all_tips.extend(vr.tips or [])
+            except Exception:
+                continue
+    index = MercatoIndex(updated_at=datetime.now(timezone.utc), tips=[])
+    for tip in all_tips:
+        corroborate(index, [tip])
+    save_mercato_index(root, index)

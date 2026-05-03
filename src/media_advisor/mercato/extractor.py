@@ -344,12 +344,12 @@ def is_plausible_mercato_tip(tip: MercatoTip) -> bool:
     return _is_plausible_mercato_tip(raw)
 
 
-def _build_system_prompt(data_dir: Path | None) -> str:
+def _build_system_prompt(project_root: Path | None) -> str:
     """Costruisce il system prompt, iniettando la lista giocatori se disponibile."""
-    if data_dir is None:
+    if project_root is None:
         return MERCATO_SYSTEM
     try:
-        player_list = get_player_list_for_prompt(data_dir)
+        player_list = get_player_list_for_prompt(project_root)
     except Exception:
         return MERCATO_SYSTEM
     if not player_list:
@@ -367,14 +367,14 @@ async def extract_mercato_tips(
     api_key: str,
     model: str = "gpt-4.1-mini",
     context: dict[str, Any] | None = None,
-    data_dir: Path | None = None,
+    project_root: Path | None = None,
 ) -> list[MercatoTip]:
     """Estrae indiscrezioni di mercato da un transcript.
 
     Args:
-        data_dir: percorso alla directory mercato/ del progetto, usato per
-            caricare il registry giocatori (alias + transfer confermati) e
-            iniettarlo nel prompt. Se None, si usa solo normalize_entity().
+        project_root: root del progetto; usato per caricare il registry giocatori
+            (alias + transfer confermati) dal DB e iniettarlo nel prompt.
+            Se None, si usa solo normalize_entity().
 
     Returns lista di MercatoTip (può essere vuota se il video non è di mercato).
     """
@@ -396,7 +396,7 @@ async def extract_mercato_tips(
     )
     user_content = "\n".join(user_parts)
 
-    system_prompt = _build_system_prompt(data_dir)
+    system_prompt = _build_system_prompt(project_root)
     parsed = await _run_extraction(api_key, model, user_content, system_prompt=system_prompt)
 
     now = datetime.now(timezone.utc)
@@ -409,8 +409,8 @@ async def extract_mercato_tips(
             continue
         _PLACEHOLDER_CLUBS = {"unknown", "null", "none", "n/a", "?", "-", ""}
 
-        if data_dir is not None:
-            player = normalize_player_name(raw.player_name, data_dir) or raw.player_name
+        if project_root is not None:
+            player = normalize_player_name(raw.player_name, project_root) or raw.player_name
         else:
             player = normalize_entity(raw.player_name) or raw.player_name
         _fc = raw.from_club if raw.from_club and raw.from_club.lower() not in _PLACEHOLDER_CLUBS else None
