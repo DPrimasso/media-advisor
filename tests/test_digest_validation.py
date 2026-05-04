@@ -94,7 +94,7 @@ Victor Osimhen (Napoli) - Movimento: scambio con top club; Stato: smentita; Moti
     assert any("non coerente con sezione" in err for err in errors)
 
 
-def test_validate_digest_output_rejects_empty_section() -> None:
+def test_validate_digest_output_allows_empty_monitorare_section() -> None:
     digest = """✅ Situazioni calde / scenari aperti
 Lautaro Martinez (Inter) - Movimento: rinnovo vicino; Stato: caldo; Motivo: accordo economico avanzato; Fonte: Fabrizio Romano
 
@@ -103,12 +103,32 @@ Lautaro Martinez (Inter) - Movimento: rinnovo vicino; Stato: caldo; Motivo: acco
 🚫 Voci ridimensionate / smentite
 Victor Osimhen (Napoli) - Movimento: scambio con top club; Stato: smentita; Motivo: club nega apertura; Fonte: Corriere dello Sport
 """
-    errors = _validate_digest_output(digest)
-    assert any("Sezione vuota" in err for err in errors)
-    assert _is_valid_digest_output(digest) is False
+    assert _validate_digest_output(digest) == []
+    assert _is_valid_digest_output(digest) is True
 
 
-def test_validate_digest_output_allows_empty_smentita_when_no_denied_tips() -> None:
+def test_validate_digest_output_allows_empty_calde_section() -> None:
+    digest = """✅ Situazioni calde / scenari aperti
+
+🕐 Situazioni da monitorare
+Alessandro Buongiorno (Torino) - Movimento: sondaggio estero; Stato: monitorare; Motivo: trattativa in fase iniziale; Fonte: Gianluca Di Marzio
+
+🚫 Voci ridimensionate / smentite
+Victor Osimhen (Napoli) - Movimento: scambio con top club; Stato: smentita; Motivo: club nega apertura; Fonte: Corriere dello Sport
+"""
+    assert _validate_digest_output(digest) == []
+
+
+def test_validate_digest_output_allows_all_three_sections_empty() -> None:
+    digest = """✅ Situazioni calde / scenari aperti
+🕐 Situazioni da monitorare
+🚫 Voci ridimensionate / smentite
+"""
+    assert _validate_digest_output(digest) == []
+    assert _is_valid_digest_output(digest) is True
+
+
+def test_validate_digest_output_allows_empty_smentita_section() -> None:
     digest = """✅ Situazioni calde / scenari aperti
 Lautaro Martinez (Inter) - Movimento: rinnovo vicino; Stato: caldo; Motivo: accordo economico avanzato; Fonte: Fabrizio Romano
 
@@ -117,9 +137,8 @@ Alessandro Buongiorno (Torino) - Movimento: sondaggio estero; Stato: monitorare;
 
 🚫 Voci ridimensionate / smentite
 """
-    assert _validate_digest_output(digest, allow_empty_smentita_section=True) == []
-    assert _is_valid_digest_output(digest, allow_empty_smentita_section=True) is True
-    assert any("Sezione vuota" in e for e in _validate_digest_output(digest))
+    assert _validate_digest_output(digest) == []
+    assert _is_valid_digest_output(digest) is True
 
 
 def test_validate_digest_output_rejects_same_story_across_states() -> None:

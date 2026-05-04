@@ -177,7 +177,6 @@ function parseDigestSections(rawDigest) {
   }
 
   if (expectedSectionIndex !== DIGEST_SECTION_ORDER.length) return null
-  if (sections.some((section) => section.items.length === 0)) return null
 
   return sections
 }
@@ -253,8 +252,13 @@ async function generateDigest(force = false) {
   try {
     const url = `/api/feed/digest?date=${digestDate.value}${force ? '&force=true' : ''}`
     const res = await fetch(url)
-    if (!res.ok) throw new Error(`Errore ${res.status}`)
-    const data = await res.json()
+    const data = await res.json().catch(() => ({}))
+    if (!res.ok) {
+      const d = data.detail
+      const detail =
+        typeof d === 'string' ? d : Array.isArray(d) ? d.map((x) => x?.msg || x).join('; ') : null
+      throw new Error(detail || `Errore ${res.status}`)
+    }
     if (data.digest) {
       digest.value = data.digest
       digestRaw.value = data.digest_raw ?? null

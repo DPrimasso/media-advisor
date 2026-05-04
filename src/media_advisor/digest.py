@@ -137,7 +137,9 @@ _SYSTEM_PROMPT = (
     "9. Il campo Fonte e sempre obbligatorio e deve usare solo il prefisso 'Fonte:'.\n"
     "10. Se due o piu input parlano della stessa notizia (stesso giocatore e stesso scenario), scrivi UNA sola riga fusa.\n"
     "11. Quando fondi notizie simili, nel campo Fonte elenca tutte le fonti separate da virgola.\n"
-    "12. Mantieni output completo: nessuna sezione mancante, nessuna riga tronca."
+    "12. Mantieni tutte e tre le intestazioni di sezione nell'ordine indicato; nessuna riga voce tronca.\n"
+    "13. Ogni sezione puo avere zero righe voce (solo intestazione) se non ci sono indiscrezioni "
+    "da classificare in quel bucket; non riempire con placeholder."
 )
 
 
@@ -1005,12 +1007,8 @@ def _load_channel_name_map(root: Path) -> dict[str, str]:
         return {}
 
 
-def _validate_digest_output(
-    text: str,
-    *,
-    allow_empty_smentita_section: bool = False,
-) -> list[str]:
-    """Se allow_empty_smentita_section è True, la terza sezione può essere vuota (nessun tip denied in input)."""
+def _validate_digest_output(text: str) -> list[str]:
+    """Richiede le tre intestazioni nell'ordine corretto e righe voce ben formate; le sezioni possono essere senza righe."""
     errors: list[str] = []
     stripped = text.strip()
     if not stripped:
@@ -1036,7 +1034,6 @@ def _validate_digest_output(
             errors.append("Ordine sezioni non valido.")
 
     current_header: str | None = None
-    section_item_count = {header: 0 for header in _DIGEST_REQUIRED_HEADERS}
     story_states: dict[tuple[str, str, str], set[str]] = {}
     story_lines: dict[tuple[str, str, str], list[str]] = {}
     for line in lines:
@@ -1054,7 +1051,6 @@ def _validate_digest_output(
             errors.append(f"Formato riga non valido: '{line}'.")
             continue
 
-        section_item_count[current_header] += 1
         expected_state = _SECTION_EXPECTED_STATE[current_header]
         actual_state = match.group("stato")
         if actual_state != expected_state:
@@ -1083,23 +1079,11 @@ def _validate_digest_output(
             + " | ".join(lines_for_story[:3])
         )
 
-    for header, count in section_item_count.items():
-        if count == 0:
-            if allow_empty_smentita_section and header == _DIGEST_SMENTITA_HEADER:
-                continue
-            errors.append(f"Sezione vuota: '{header}'.")
-
     return errors
 
 
-def _is_valid_digest_output(
-    text: str,
-    *,
-    allow_empty_smentita_section: bool = False,
-) -> bool:
-    return not _validate_digest_output(
-        text, allow_empty_smentita_section=allow_empty_smentita_section
-    )
+def _is_valid_digest_output(text: str) -> bool:
+    return not _validate_digest_output(text)
 
 
 def _sanitize_digest_field(value: str | None, fallback: str) -> str:
@@ -1231,17 +1215,8 @@ async def generate_mercato_digest(
         lines.append(f"{emoji} FONTE: {source} | {tip.player_name}{route}: {tip_text}")
 
     has_denied_tip = any(t.confidence == "denied" for t in day_tips)
-    allow_empty_smentita = not has_denied_tip
 
     client = openai.AsyncOpenAI(api_key=openai_api_key)
-    denied_section_constraint = (
-        "\n\nVINCOLO DATI: nell'input sono presenti una o piu voci con livello denied/smentita. "
-        "La sezione '🚫 Voci ridimensionate / smentite' deve contenere almeno 1 riga "
-        "reale e valida nel formato richiesto. Non usare righe placeholder/generiche "
-        "(es. 'Nessuna voce...')."
-        if has_denied_tip
-        else ""
-    )
     messages = [
         {"role": "system", "content": _SYSTEM_PROMPT},
         {
@@ -1249,7 +1224,6 @@ async def generate_mercato_digest(
             "content": (
                 f"Indiscrezioni del {_format_date_it(target_date)}:\n\n"
                 + "\n".join(lines)
-                + denied_section_constraint
             ),
         },
     ]
@@ -1263,9 +1237,7 @@ async def generate_mercato_digest(
         digest_text = _repair_smentita_section(digest_text, denied_fallback_lines)
         digest_text = _normalize_digest_output(digest_text)
 
-    first_errors = _validate_digest_output(
-        digest_text, allow_empty_smentita_section=allow_empty_smentita
-    )
+    first_errors = _validate_digest_output(digest_text)
     if not first_errors:
         return digest_text
 
@@ -1278,7 +1250,6 @@ async def generate_mercato_digest(
                 "Correggi tutti i seguenti errori di validazione:\n"
                 + "\n".join(f"- {err}" for err in first_errors)
                 + "\n\nRispetta rigorosamente formato, ordine sezioni e sintassi riga."
-                + denied_section_constraint
             ),
         },
     ]
@@ -1287,10 +1258,7 @@ async def generate_mercato_digest(
     if has_denied_tip:
         retry_text = _repair_smentita_section(retry_text, denied_fallback_lines)
         retry_text = _normalize_digest_output(retry_text)
-    retry_errors = _validate_digest_output(
-        retry_text or "",
-        allow_empty_smentita_section=allow_empty_smentita,
-    )
+    retry_errors = _validate_digest_output(retry_text or "")
     if retry_text and not retry_errors:
         return retry_text
 
