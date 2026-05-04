@@ -13,12 +13,15 @@ import hashlib
 import hmac
 import json
 import re
+import traceback
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Annotated, Any
 
-from fastapi import Depends, FastAPI, Header, HTTPException, Query
+from fastapi import Depends, FastAPI, Header, HTTPException, Query, Request
+from fastapi.exception_handlers import http_exception_handler
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from sqlalchemy import text
@@ -40,6 +43,40 @@ app = FastAPI(title="Media Advisor API")
 
 _settings = Settings()
 _root = _settings.root_dir.resolve()
+
+
+def _append_server_error_log(message: str) -> None:
+    """Append to logs/server-api-errors.log (HTTP 5xx + unhandled tracebacks)."""
+    log_dir = _root / "logs"
+    log_dir.mkdir(parents=True, exist_ok=True)
+    path = log_dir / "server-api-errors.log"
+    ts = datetime.now(timezone.utc).isoformat()
+    with path.open("a", encoding="utf-8") as f:
+        f.write(f"\n{'=' * 60}\n{ts}\n{message}\n")
+
+
+@app.exception_handler(HTTPException)
+async def logging_http_exception_handler(request: Request, exc: HTTPException) -> JSONResponse:
+    """Log server-side 5xx HTTPException detail (e.g. missing API keys)."""
+    if exc.status_code >= 500:
+        _append_server_error_log(
+            f"[HTTPException] {request.method} {request.url.path}\n"
+            f"status={exc.status_code}\ndetail={exc.detail!r}\n"
+        )
+    return await http_exception_handler(request, exc)
+
+
+@app.exception_handler(Exception)
+async def unhandled_exception_handler(request: Request, exc: Exception) -> JSONResponse:
+    """Log tracebacks for unexpected errors (see logs/server-api-errors.log)."""
+    if isinstance(exc, HTTPException):
+        return await http_exception_handler(request, exc)
+    tb = "".join(traceback.format_exception(type(exc), exc, exc.__traceback__))
+    _append_server_error_log(f"[UNHANDLED] {request.method} {request.url.path}\n{tb}")
+    return JSONResponse(
+        status_code=500,
+        content={"detail": f"{type(exc).__name__}: {exc}"},
+    )
 
 
 def _cors_allow_origins() -> list[str]:
@@ -112,6 +149,11 @@ class ConfirmRequest(BaseModel):
 class ConfirmResponse(BaseModel):
     ok: bool
     confirmed: int
+
+
+class PublishTelegramRequest(BaseModel):
+    digest: str
+    date: str | None = None
 
 
 # ---------------------------------------------------------------------------
@@ -697,17 +739,25 @@ def _collect_processing_candidates(
     root: Path,
     cfg: ChannelsConfig,
     pending_items: list,
+    *,
+    include_backfill: bool = True,
 ) -> tuple[set[str], dict[str, str], int]:
-    """Build processing set from fresh pending + unprocessed backlog in channel lists.
+    """Build processing set from fresh pending + optional per-channel backfill.
 
-    Backfill scans newest-first and picks up to `_BACKFILL_PER_CHANNEL` videos/channel
-    that are missing transcript or analysis, so transient fetch misses are recovered.
+    When ``include_backfill`` is True, scans each channel list newest-first and adds up to
+    ``_BACKFILL_PER_CHANNEL`` videos missing transcript or analysis (recovery of transient misses).
+
+    Sync "recent" and daily-report use ``include_backfill=False`` so only videos discovered
+    in this fetch (pending) are processed, not older gaps in lists.
     """
     recent_ids: set[str] = {item.video_id for item in pending_items if item.video_id}
     channel_of: dict[str, str] = {
         item.video_id: item.channel_id for item in pending_items if item.video_id
     }
     backfill_count = 0
+
+    if not include_backfill:
+        return recent_ids, channel_of, backfill_count
 
     from media_advisor.db.repository import analysis_exists_in_db, transcript_exists_in_db
     from media_advisor.db.session import session_scope
@@ -769,7 +819,7 @@ async def post_sync_daily_report(
 
 
 @app.post("/api/feed/digest/publish-telegram")
-async def post_publish_telegram(body: dict) -> Any:
+async def post_publish_telegram(body: PublishTelegramRequest) -> Any:
     """Pubblica un digest già generato su Telegram. Riceve { digest, date } dal frontend."""
     from datetime import date as date_type
     from media_advisor.digest import (
@@ -779,8 +829,8 @@ async def post_publish_telegram(body: dict) -> Any:
     from media_advisor.mercato.aggregator import get_tips_for_date
     from media_advisor.telegram.client import TelegramClient, TelegramClientError
 
-    digest_text: str | None = body.get("digest")
-    date_str: str | None = body.get("date")
+    digest_text = (body.digest or "").strip()
+    date_str = body.date
 
     if not digest_text:
         raise HTTPException(status_code=400, detail="Campo 'digest' mancante o vuoto")
@@ -950,11 +1000,9 @@ async def _run_full_sync() -> None:
 
 
 async def _run_recent_sync() -> None:
-    """Sync recenti: fetch+merge come il totale, poi pipeline su nuovi + piccolo backfill.
+    """Sync recenti: fetch+merge come il totale, poi pipeline solo sui video nel pending di questa run.
 
-    Oltre ai pending appena scoperti, recupera fino a `_BACKFILL_PER_CHANNEL` video/canale
-    presenti in lista ma senza transcript/analisi. Se non trova candidati, termina senza
-    chiamare transcript.
+    Non fa backfill su video vecchi in lista senza analisi (comportamento sync UI / scheduler).
     """
     from media_advisor.models.channels import ChannelsConfig
 
@@ -992,9 +1040,9 @@ async def _run_recent_sync() -> None:
 
         cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
 
-        # Step 3 — Video da processare: nuovi pending + backlog non processato (recupero automatico)
+        # Step 3 — Solo video nel pending appena fetchati (nessun backfill liste storiche)
         recent_ids, channel_of, backfill_count = _collect_processing_candidates(
-            root, cfg, pending.items
+            root, cfg, pending.items, include_backfill=False
         )
         result_summary["recent_pending_analysis"] = len(
             [item for item in pending.items if item.video_id]
@@ -1003,7 +1051,7 @@ async def _run_recent_sync() -> None:
 
         if not recent_ids:
             _sync_log(
-                "Step 3/5: Nessun video nuovo o arretrato da recuperare. Sync recent terminata."
+                "Step 3/5: Nessun video nuovo nel pending. Sync recent terminata (backfill disabilitato)."
             )
             _sync_state.update(
                 status="done",
@@ -1015,8 +1063,7 @@ async def _run_recent_sync() -> None:
         from collections import Counter
 
         _sync_log(
-            f"Step 3/5: Pipeline su {len(recent_ids)} video "
-            f"(nuovi + {backfill_count} recuperati dalle liste)..."
+            f"Step 3/5: Pipeline su {len(recent_ids)} video (solo pending fetch, nessun backfill liste)..."
         )
         for ch_id, n in sorted(Counter(channel_of[v] for v in recent_ids).items()):
             _sync_log(f"  [{ch_id}] {n} da processare")
@@ -1136,7 +1183,7 @@ async def _run_daily_report() -> None:
         cfg = ChannelsConfig.model_validate(load_channels_config_dict(root))
 
         recent_ids, channel_of, backfill_count = _collect_processing_candidates(
-            root, cfg, pending.items
+            root, cfg, pending.items, include_backfill=False
         )
         result_summary["recent_pending_analysis"] = len(
             [item for item in pending.items if item.video_id]
@@ -1146,8 +1193,7 @@ async def _run_daily_report() -> None:
         if recent_ids:
             # Step 3 — Pipeline claims sui video nuovi
             _sync_log(
-                f"Step 3/6: Pipeline claims su {len(recent_ids)} video "
-                f"(nuovi + {backfill_count} recuperati)..."
+                f"Step 3/6: Pipeline claims su {len(recent_ids)} video (solo pending fetch, nessun backfill)..."
             )
             from media_advisor.run_pipeline import run_from_list
             pipeline_result = await run_from_list(
@@ -1180,7 +1226,7 @@ async def _run_daily_report() -> None:
             result_summary["mercato_tips"] = len(all_new_tips)
         else:
             _sync_log(
-                "Step 3-4/6: Nessun video nuovo o arretrato da recuperare, salto pipeline e mercato-scan."
+                "Step 3-4/6: Nessun video nel pending di questa run, salto pipeline e mercato-scan (backfill disabilitato)."
             )
             result_summary.update(analyzed=0, failed=0, mercato_analyzed=0, mercato_tips=0)
 

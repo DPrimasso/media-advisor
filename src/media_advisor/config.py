@@ -5,10 +5,23 @@ from pathlib import Path
 from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
+# Multi-file .env: pydantic-settings loads in order; **later files override earlier**.
+# Put optional `cwd/.env` first, then repo `.env` last so the project `.env` always wins
+# (avoids e.g. `C:\Users\you\.env` with empty TRANSCRIPT_API_KEY wiping keys from the repo).
+_repo_root = Path(__file__).resolve().parents[2]
+_repo_env = (_repo_root / ".env").resolve()
+_cwd_env = Path(".env").resolve()
+_env_paths: list[Path] = []
+if _cwd_env.is_file() and _cwd_env != _repo_env:
+    _env_paths.append(_cwd_env)
+if _repo_env.is_file():
+    _env_paths.append(_repo_env)
+_env_files: tuple[str, ...] = tuple(str(p) for p in _env_paths)
+
 
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
-        env_file=".env",
+        env_file=_env_files if _env_files else (".env",),
         env_file_encoding="utf-8",
         extra="ignore",
     )
