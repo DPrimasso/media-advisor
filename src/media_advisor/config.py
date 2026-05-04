@@ -32,6 +32,22 @@ class Settings(BaseSettings):
     telegram_bot_token: str = Field(default="", alias="TELEGRAM_BOT_TOKEN")
     telegram_chat_id: str = Field(default="", alias="TELEGRAM_CHAT_ID")
     telegram_thread_id: int | None = Field(default=None, alias="TELEGRAM_THREAD_ID")
+    # Destinazione separata per report costi post-sync (es. DM personale)
+    telegram_personal_chat_id: str = Field(default="", alias="TELEGRAM_PERSONAL_CHAT_ID")
+    telegram_personal_thread_id: int | None = Field(
+        default=None, alias="TELEGRAM_PERSONAL_THREAD_ID"
+    )
+
+    # Stima costi (USD per 1M token / per chiamata Transcript API a pagamento). None = non mostrare importo.
+    openai_input_usd_per_1m: float | None = Field(
+        default=None, alias="MEDIA_ADVISOR_OPENAI_INPUT_USD_PER_1M"
+    )
+    openai_output_usd_per_1m: float | None = Field(
+        default=None, alias="MEDIA_ADVISOR_OPENAI_OUTPUT_USD_PER_1M"
+    )
+    transcript_api_usd_per_paid_call: float | None = Field(
+        default=None, alias="MEDIA_ADVISOR_TRANSCRIPT_API_USD_PER_CALL"
+    )
 
     # Paths (relative to project root by default)
     root_dir: Path = Field(default=Path("."), alias="MEDIA_ADVISOR_ROOT")
@@ -63,9 +79,26 @@ class Settings(BaseSettings):
     )
     transcript_api_max_retries: int = Field(default=3, alias="TRANSCRIPT_API_MAX_RETRIES")
 
-    @field_validator("telegram_thread_id", mode="before")
+    @field_validator("telegram_thread_id", "telegram_personal_thread_id", mode="before")
     @classmethod
     def _empty_thread_id_to_none(cls, value: str | int | None) -> str | int | None:
+        if isinstance(value, str):
+            stripped = value.strip()
+            if stripped == "":
+                return None
+            return stripped
+        return value
+
+    @field_validator(
+        "openai_input_usd_per_1m",
+        "openai_output_usd_per_1m",
+        "transcript_api_usd_per_paid_call",
+        mode="before",
+    )
+    @classmethod
+    def _empty_pricing_to_none(cls, value: object) -> object:
+        if value is None:
+            return None
         if isinstance(value, str) and value.strip() == "":
             return None
         return value

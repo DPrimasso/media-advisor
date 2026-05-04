@@ -9,6 +9,7 @@ from typing import Any
 
 from pydantic import BaseModel, Field
 
+from media_advisor.costs import record_openai_chat_completion, record_pydantic_ai_run_usage
 from media_advisor.models.claims import (
     Claim,
     ClaimTypeValue,
@@ -119,12 +120,12 @@ async def extract_claims_from_segment(
     user_content = "\n".join(user_parts)
 
     try:
-        from pydantic_ai import Agent  # type: ignore[import-untyped]
-        from pydantic_ai.models.openai import OpenAIModel  # type: ignore[import-untyped]
-
         # pydantic-ai has changed constructor signatures across versions.
         # Prefer explicit key, but fall back to env-based auth when needed.
         import os
+
+        from pydantic_ai import Agent  # type: ignore[import-untyped]
+        from pydantic_ai.models.openai import OpenAIModel  # type: ignore[import-untyped]
 
         os.environ.setdefault("OPENAI_API_KEY", api_key)
         try:
@@ -137,6 +138,7 @@ async def extract_claims_from_segment(
             system_prompt=EXTRACT_SYSTEM,
         )
         result = await agent.run(user_content)
+        record_pydantic_ai_run_usage(model, result.usage())
         parsed = result.output
     except (ImportError, Exception):
         # Fallback: use openai directly if pydantic-ai not installed
@@ -197,6 +199,7 @@ async def _extract_openai_fallback(
             # match Pydantic's default JSON Schema (additionalProperties/required rules).
             response_format={"type": "json_object"},
         )
+        record_openai_chat_completion(model, completion)
         content = completion.choices[0].message.content
         if not content:
             return _ExtractResult()

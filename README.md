@@ -9,6 +9,7 @@ npm install
 cp .env.example .env
 # Modifica .env: TRANSCRIPT_API_KEY, OPENAI_API_KEY
 # Opzionale Telegram: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, TELEGRAM_THREAD_ID
+# Opzionale report costi: TELEGRAM_PERSONAL_CHAT_ID (+ tariffe MEDIA_ADVISOR_* in .env.example)
 # Opzionale DB: MEDIA_ADVISOR_DATABASE_URL (default: ./data/media_advisor.sqlite, non in git)
 ```
 
@@ -65,6 +66,19 @@ TELEGRAM_CHAT_ID=...
 - Con variabili Telegram valide, il report viene inviato automaticamente a fine run.
 - Senza variabili Telegram, il daily report viene comunque generato localmente (nessuna pubblicazione).
 - In caso di errore Telegram, il run resta `done`; dettagli in `GET /api/sync/status`.
+
+## Report costi (post ogni sync)
+
+Dopo `POST /api/sync`, `/api/sync/recent` o `/api/sync/daily-report`, il backend:
+
+- accumula **token OpenAI** (per modello) e **chiamate Transcript API** (paid vs free, es. `/youtube/channel/latest` è conteggiata come free);
+- salva il breakdown in `GET /api/sync/status` → `result.costs` (anche in caso di errore del sync, in `result` minimale);
+- se configurato, invia un messaggio separato su **`TELEGRAM_PERSONAL_CHAT_ID`** (stesso `TELEGRAM_BOT_TOKEN`; opzionale `TELEGRAM_PERSONAL_THREAD_ID` per topic).
+
+Tariffe per la **stima in USD** (opzionali; se assenti vedi solo conteggi):
+
+- `MEDIA_ADVISOR_OPENAI_INPUT_USD_PER_1M` / `MEDIA_ADVISOR_OPENAI_OUTPUT_USD_PER_1M`
+- `MEDIA_ADVISOR_TRANSCRIPT_API_USD_PER_CALL` (moltiplicata per le sole chiamate **paid**)
 
 ## Struttura progetto
 

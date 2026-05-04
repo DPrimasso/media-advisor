@@ -16,6 +16,7 @@ from typing import Any
 import openai
 from pydantic import BaseModel, ConfigDict, Field, ValidationError
 
+from media_advisor.costs import record_openai_chat_completion
 from media_advisor.io.channel_store import load_channels_config_dict
 from media_advisor.mercato.models import MercatoTip
 from media_advisor.mercato.quote_timing import refined_start_sec_for_digest
@@ -1185,6 +1186,7 @@ async def _complete_digest_with_token_retry(
             max_tokens=max_tokens,
             temperature=0.4,
         )
+        record_openai_chat_completion(DIGEST_MODEL, completion)
         if not completion.choices:
             continue
         choice = completion.choices[0]

@@ -6,14 +6,18 @@ trasversale e non vale la pena suddividere per topic.
 
 import os
 import uuid
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
 
 from pydantic import BaseModel, Field
 
+from media_advisor.costs import record_openai_chat_completion, record_pydantic_ai_run_usage
 from media_advisor.mercato.models import ConfidenceLevel, MercatoTip, TransferType
-from media_advisor.mercato.player_normalizer import get_player_list_for_prompt, normalize_player_name
+from media_advisor.mercato.player_normalizer import (
+    get_player_list_for_prompt,
+    normalize_player_name,
+)
 from media_advisor.models.transcript import TranscriptResponse
 from media_advisor.pipeline.entity_normalizer import normalize_entity
 
@@ -399,7 +403,7 @@ async def extract_mercato_tips(
     system_prompt = _build_system_prompt(project_root)
     parsed = await _run_extraction(api_key, model, user_content, system_prompt=system_prompt)
 
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     # Fallback to start-of-day UTC so mentioned_at != extracted_at when publication date is unknown
     mentioned_at = ctx.get("mentioned_at") or now.replace(hour=0, minute=0, second=0, microsecond=0)
 
@@ -470,6 +474,7 @@ async def _run_extraction(
             result = await agent.run(user_content, model_settings=ModelSettings(temperature=1.0))
         except (ImportError, TypeError):
             result = await agent.run(user_content)
+        record_pydantic_ai_run_usage(model, result.usage())
         return result.output
     except Exception:
         return await _openai_fallback(api_key, model, user_content, system_prompt=system_prompt)
@@ -482,6 +487,7 @@ async def _openai_fallback(
     system_prompt: str = MERCATO_SYSTEM,
 ) -> _ExtractMercatoResult:
     import json
+
     import openai  # type: ignore[import-untyped]
 
     client = openai.AsyncOpenAI(api_key=api_key)
@@ -494,6 +500,7 @@ async def _openai_fallback(
         ],
         response_format={"type": "json_object"},
     )
+    record_openai_chat_completion(model, completion)
     content = completion.choices[0].message.content
     if not content:
         return _ExtractMercatoResult()

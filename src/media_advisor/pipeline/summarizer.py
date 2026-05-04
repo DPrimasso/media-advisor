@@ -3,6 +3,7 @@
 Porting of src/pipeline/summarizer.ts.
 """
 
+from media_advisor.costs import record_openai_chat_completion
 from media_advisor.models.claims import Claim
 
 _SUMMARIZE_SYSTEM = """Sei un analista di media sportivi italiani.
@@ -44,4 +45,5 @@ async def generate_summary(
         max_tokens=200,
         temperature=0.3,
     )
+    record_openai_chat_completion(model, completion)
     return (completion.choices[0].message.content or "").strip()

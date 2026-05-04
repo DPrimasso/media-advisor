@@ -10,7 +10,8 @@ from typing import Any
 
 import httpx
 
-from media_advisor.models.transcript import TranscriptResponse, TranscriptSegment, VideoMetadata
+from media_advisor.costs import get_cost_recorder
+from media_advisor.models.transcript import TranscriptResponse, TranscriptSegment
 
 BASE_URL = "https://transcriptapi.com/api/v2"
 RETRYABLE_CODES = {408, 429, 503}
@@ -126,13 +127,21 @@ class TranscriptClient:
             if any(sig in msg.lower() for sig in _PLAN_ERROR_SIGNALS):
                 try:
                     vid = _extract_video_id(video_url_or_id)
-                    return await _fetch_via_yt_transcript_api(vid)
+                    out = await _fetch_via_yt_transcript_api(vid)
+                    r = get_cost_recorder()
+                    if r is not None:
+                        r.record_transcript_free("youtube/transcript_fallback_yt_dlp")
+                    return out
                 except Exception as fb_err:
                     raise TranscriptAPIError(
                         f"{msg} (fallback also failed: {fb_err})", resp.status_code, code, action_url
                     ) from fb_err
             raise TranscriptAPIError(msg, resp.status_code, code, action_url)
-        return TranscriptResponse.model_validate(resp.json())
+        parsed = TranscriptResponse.model_validate(resp.json())
+        r = get_cost_recorder()
+        if r is not None:
+            r.record_transcript_paid("/youtube/transcript")
+        return parsed
 
     async def get_channel_videos(
         self,
@@ -151,7 +160,11 @@ class TranscriptClient:
             body = resp.json() if resp.content else {}
             msg, _ = _extract_error(body, resp.reason_phrase or str(resp.status_code))
             raise TranscriptAPIError(msg, resp.status_code)
-        return resp.json()  # type: ignore[no-any-return]
+        data = resp.json()
+        rec = get_cost_recorder()
+        if rec is not None:
+            rec.record_transcript_paid("/youtube/channel/videos")
+        return data  # type: ignore[no-any-return]
 
     async def get_channel_search(
         self,
@@ -165,7 +178,11 @@ class TranscriptClient:
             body = resp.json() if resp.content else {}
             msg, _ = _extract_error(body, resp.reason_phrase or str(resp.status_code))
             raise TranscriptAPIError(msg, resp.status_code)
-        return resp.json()  # type: ignore[no-any-return]
+        data = resp.json()
+        rec = get_cost_recorder()
+        if rec is not None:
+            rec.record_transcript_paid("/youtube/channel/search")
+        return data  # type: ignore[no-any-return]
 
     async def get_channel_latest(self, channel: str) -> dict[str, Any]:
         """Get latest ~15 videos from a channel (FREE, no credits). Returns published dates."""
@@ -174,7 +191,11 @@ class TranscriptClient:
             body = resp.json() if resp.content else {}
             msg, _ = _extract_error(body, resp.reason_phrase or str(resp.status_code))
             raise TranscriptAPIError(msg, resp.status_code)
-        return resp.json()  # type: ignore[no-any-return]
+        data = resp.json()
+        rec = get_cost_recorder()
+        if rec is not None:
+            rec.record_transcript_free("/youtube/channel/latest")
+        return data  # type: ignore[no-any-return]
 
     async def enrich_published_at(
         self,

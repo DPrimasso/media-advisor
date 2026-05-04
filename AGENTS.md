@@ -21,6 +21,6 @@ AI-powered YouTube video analysis tool for Italian sports media. Monitors YouTub
 - The Tutti/Trend/Squadre dashboard reads analysis from `web/public/analysis/`, materialized from the DB by `prepare-public` (via `python -m media_advisor.tools.dump_analysis_public`). Empty DB yields minimal/empty public JSON — expected without pipeline data or keys.
 - `web/scripts/prepare-public.js` runs automatically before `vite` (as part of `npm run dev` in `web/`). It invokes the Python dump to refresh `web/public/analysis/` from SQLite (not a copy of `data/analysis/`).
 - The Vite dev server proxies `/api` requests to `http://localhost:3002` — start the API server first if you need the Inbox workflow.
-- Environment variables: copy `.env.example` to `.env` and set `TRANSCRIPT_API_KEY` and `OPENAI_API_KEY` to run the CLI pipeline.
+- Environment variables: copy `.env.example` to `.env` and set `TRANSCRIPT_API_KEY` and `OPENAI_API_KEY` to run the CLI pipeline. Optional: `TELEGRAM_PERSONAL_CHAT_ID` + `MEDIA_ADVISOR_OPENAI_*_USD_PER_1M` / `MEDIA_ADVISOR_TRANSCRIPT_API_USD_PER_CALL` for post-sync cost reports to Telegram and USD estimates (`GET /api/sync/status` → `result.costs`).
 - The CLI pipeline is slow (~1 min per video due to transcript + OpenAI API calls). Use `--channel=<id>` to scope to a single channel and `--skip-channel-analysis` to skip the summary step.
 - See `README.md` for the full list of CLI commands.

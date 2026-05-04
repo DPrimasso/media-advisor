@@ -14,7 +14,8 @@ import hmac
 import json
 import re
 import traceback
-from datetime import datetime, timezone
+from contextvars import Token
+from datetime import UTC, datetime, timezone
 from pathlib import Path
 from typing import Annotated, Any
 
@@ -27,7 +28,17 @@ from pydantic import BaseModel
 from sqlalchemy import text
 
 from media_advisor.config import Settings
-from media_advisor.db.repository import MERCATO_BLOB_ALIASES, fetch_mercato_blob_raw, upsert_mercato_blob
+from media_advisor.costs import (
+    CostRecorder,
+    attach_cost_recorder,
+    reset_cost_recorder,
+    send_personal_cost_report,
+)
+from media_advisor.db.repository import (
+    MERCATO_BLOB_ALIASES,
+    fetch_mercato_blob_raw,
+    upsert_mercato_blob,
+)
 from media_advisor.db.session import session_scope
 from media_advisor.io.channel_store import (
     load_channels_config_dict,
@@ -340,6 +351,7 @@ async def get_mercato_tips(
     season: str | None = None,
 ) -> Any:
     from datetime import date
+
     from media_advisor.mercato.aggregator import get_all_tips
     all_tips = get_all_tips(_root)
     tips = all_tips
@@ -416,6 +428,7 @@ async def post_mercato_outcome(tip_id: str, body: OutcomeRequest) -> Any:
 async def post_mercato_set_date(tip_id: str, body: SetDateRequest) -> Any:
     """Imposta la data di pubblicazione (mentioned_at) di una tip senza data."""
     from datetime import datetime, timezone
+
     from media_advisor.mercato.analyzer import update_tip_date
 
     try:
@@ -466,7 +479,8 @@ async def post_mercato_add_transfer(body: AddTransferRequest) -> Any:
     """Aggiunge un trasferimento confermato manualmente."""
     from datetime import datetime, timezone
 
-    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, player_slug as make_slug
+    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer
+    from media_advisor.mercato.transfer_db import player_slug as make_slug
 
     try:
         confirmed_at = datetime.fromisoformat(body.confirmed_at)
@@ -512,7 +526,8 @@ async def delete_mercato_transfer(transfer_id: str) -> Any:
 async def post_mercato_fetch_transfers(body: FetchTransfersRequest) -> Any:
     """Scarica i trasferimenti di un giocatore da Transfermarkt e li salva."""
     from media_advisor.mercato.scraper import ScraperError, fetch_player_transfers
-    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, get_all_transfers, player_slug as make_slug
+    from media_advisor.mercato.transfer_db import TransferRecord, add_transfer, get_all_transfers
+    from media_advisor.mercato.transfer_db import player_slug as make_slug
 
     try:
         raw = fetch_player_transfers(body.player_name, body.season)
@@ -609,10 +624,11 @@ async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
 @app.get("/api/feed/digest")
 async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
     from datetime import date as date_type
+
     from media_advisor.digest import (
         DigestGenerationError,
-        format_mercato_report_markdown,
         flatten_digest_items_for_api,
+        format_mercato_report_markdown,
         generate_mercato_digest,
         hydrate_digest_sections_from_cache,
         load_report_cache,
@@ -689,8 +705,6 @@ async def _run_pipeline() -> None:
 # Full sync (fetch → merge → pipeline → mercato scan)
 # ---------------------------------------------------------------------------
 
-from datetime import datetime, timezone as _tz
-
 _sync_state: dict = {
     "status": "idle",          # "idle" | "running" | "done" | "error"
     "started_at": None,
@@ -714,6 +728,39 @@ def _sync_log(msg: str) -> None:
         print(f"[sync] {msg}", flush=True)
     except UnicodeEncodeError:
         print(f"[sync] {msg.encode('ascii', errors='replace').decode()}", flush=True)
+
+
+async def _finalize_sync_cost_tracking(
+    *,
+    sync_kind: str,
+    recorder: CostRecorder,
+    started_at: datetime,
+    cost_token: Token,
+    settings: Settings,
+) -> None:
+    """Aggiunge breakdown costi a result + invia Telegram personale (best effort)."""
+    finished_at = datetime.now(UTC)
+    try:
+        cost_payload = recorder.to_result_dict(settings)
+        st = str(_sync_state.get("status") or "idle")
+        err = _sync_state.get("error")
+        err_str = str(err) if err else None
+        cost_payload["telegram_personal"] = await send_personal_cost_report(
+            sync_kind=sync_kind,
+            started_at=started_at,
+            finished_at=finished_at,
+            recorder=recorder,
+            settings=settings,
+            status=st,
+            error=err_str,
+        )
+        res = _sync_state.get("result")
+        if isinstance(res, dict):
+            res["costs"] = cost_payload
+        else:
+            _sync_state["result"] = {"costs": cost_payload}
+    finally:
+        reset_cost_recorder(cost_token)
 
 
 def _extract_video_id(url: str) -> str | None:
@@ -822,6 +869,7 @@ async def post_sync_daily_report(
 async def post_publish_telegram(body: PublishTelegramRequest) -> Any:
     """Pubblica un digest già generato su Telegram. Riceve { digest, date } dal frontend."""
     from datetime import date as date_type
+
     from media_advisor.digest import (
         build_enriched_digest_sections,
         format_mercato_report_telegram,
@@ -908,13 +956,17 @@ async def _scan_mercato_videos(
 async def _run_full_sync() -> None:
     from media_advisor.models.channels import ChannelsConfig
 
+    cost_recorder = CostRecorder()
+    cost_token = attach_cost_recorder(cost_recorder)
+    cost_started = datetime.now(UTC)
+
     s = Settings()
     root = _root
     result_summary: dict = {}
 
     _sync_state.update(
         status="running",
-        started_at=datetime.now(_tz.utc).isoformat(),
+        started_at=datetime.now(UTC).isoformat(),
         finished_at=None,
         log=[],
         result=None,
@@ -986,7 +1038,7 @@ async def _run_full_sync() -> None:
         _sync_log("Sincronizzazione completata.")
         _sync_state.update(
             status="done",
-            finished_at=datetime.now(_tz.utc).isoformat(),
+            finished_at=datetime.now(UTC).isoformat(),
             result=result_summary,
         )
 
@@ -994,8 +1046,16 @@ async def _run_full_sync() -> None:
         _sync_log(f"Errore: {exc}")
         _sync_state.update(
             status="error",
-            finished_at=datetime.now(_tz.utc).isoformat(),
+            finished_at=datetime.now(UTC).isoformat(),
             error=str(exc),
+        )
+    finally:
+        await _finalize_sync_cost_tracking(
+            sync_kind="full",
+            recorder=cost_recorder,
+            started_at=cost_started,
+            cost_token=cost_token,
+            settings=s,
         )
 
 
@@ -1006,13 +1066,17 @@ async def _run_recent_sync() -> None:
     """
     from media_advisor.models.channels import ChannelsConfig
 
+    cost_recorder = CostRecorder()
+    cost_token = attach_cost_recorder(cost_recorder)
+    cost_started = datetime.now(UTC)
+
     s = Settings()
     root = _root
     result_summary: dict = {}
 
     _sync_state.update(
         status="running",
-        started_at=datetime.now(_tz.utc).isoformat(),
+        started_at=datetime.now(UTC).isoformat(),
         finished_at=None,
         log=[],
         result=None,
@@ -1055,7 +1119,7 @@ async def _run_recent_sync() -> None:
             )
             _sync_state.update(
                 status="done",
-                finished_at=datetime.now(_tz.utc).isoformat(),
+                finished_at=datetime.now(UTC).isoformat(),
                 result=result_summary,
             )
             return
@@ -1125,7 +1189,7 @@ async def _run_recent_sync() -> None:
         _sync_log("Sincronizzazione recenti completata.")
         _sync_state.update(
             status="done",
-            finished_at=datetime.now(_tz.utc).isoformat(),
+            finished_at=datetime.now(UTC).isoformat(),
             result=result_summary,
         )
 
@@ -1133,22 +1197,35 @@ async def _run_recent_sync() -> None:
         _sync_log(f"Errore: {exc}")
         _sync_state.update(
             status="error",
-            finished_at=datetime.now(_tz.utc).isoformat(),
+            finished_at=datetime.now(UTC).isoformat(),
             error=str(exc),
+        )
+    finally:
+        await _finalize_sync_cost_tracking(
+            sync_kind="recent",
+            recorder=cost_recorder,
+            started_at=cost_started,
+            cost_token=cost_token,
+            settings=s,
         )
 
 
 async def _run_daily_report() -> None:
     """Fetch recenti → pipeline → mercato-scan → genera digest del giorno."""
     from datetime import date as date_type
-    from media_advisor.models.channels import ChannelsConfig
+
     from media_advisor.digest import (
         flatten_digest_items_for_api,
         format_mercato_report_telegram,
         generate_mercato_digest,
         write_mercato_report,
     )
+    from media_advisor.models.channels import ChannelsConfig
     from media_advisor.telegram.client import TelegramClient, TelegramClientError
+
+    cost_recorder = CostRecorder()
+    cost_token = attach_cost_recorder(cost_recorder)
+    cost_started = datetime.now(UTC)
 
     s = Settings()
     root = _root
@@ -1156,7 +1233,7 @@ async def _run_daily_report() -> None:
 
     _sync_state.update(
         status="running",
-        started_at=datetime.now(_tz.utc).isoformat(),
+        started_at=datetime.now(UTC).isoformat(),
         finished_at=None,
         log=[],
         result=None,
@@ -1301,7 +1378,7 @@ async def _run_daily_report() -> None:
         _sync_log("Report giornaliero completato.")
         _sync_state.update(
             status="done",
-            finished_at=datetime.now(_tz.utc).isoformat(),
+            finished_at=datetime.now(UTC).isoformat(),
             result=result_summary,
         )
 
@@ -1309,8 +1386,16 @@ async def _run_daily_report() -> None:
         _sync_log(f"Errore: {exc}")
         _sync_state.update(
             status="error",
-            finished_at=datetime.now(_tz.utc).isoformat(),
+            finished_at=datetime.now(UTC).isoformat(),
             error=str(exc),
+        )
+    finally:
+        await _finalize_sync_cost_tracking(
+            sync_kind="daily-report",
+            recorder=cost_recorder,
+            started_at=cost_started,
+            cost_token=cost_token,
+            settings=s,
         )
 
 
