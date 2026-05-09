@@ -1,5 +1,5 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { OUTCOME_LABELS, OUTCOME_SOURCE_LABELS, CONFIDENCE_LABELS, CONFIDENCE_CHIP, OUTCOME_CHIP } from '../composables/useMercatoLabels.js'
 
@@ -61,6 +61,43 @@ const fetchPlayer = ref('')
 const fetchSeason = ref('')
 const fetchingTM = ref(false)
 const fetchResult = ref(null)
+
+const rosterState = ref({ status: 'idle', log: [], result: null, error: null })
+const rosterLeagues = ref('IT1,GB1,ES1,L1,FR1')
+let _rosterPollTimer = null
+
+async function startFetchRosters() {
+  if (rosterState.value.status === 'running') return
+  rosterState.value = { status: 'running', log: [], result: null, error: null }
+  try {
+    const res = await fetch('/api/mercato/fetch-rosters', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ leagues: rosterLeagues.value }),
+    })
+    if (!res.ok) {
+      const data = await res.json()
+      rosterState.value = { status: 'error', log: [], result: null, error: data.detail || `HTTP ${res.status}` }
+      return
+    }
+  } catch (e) {
+    rosterState.value = { status: 'error', log: [], result: null, error: e.message }
+    return
+  }
+  _rosterPollTimer = setInterval(async () => {
+    try {
+      const res = await fetch('/api/mercato/fetch-rosters/status')
+      if (res.ok) {
+        const data = await res.json()
+        rosterState.value = data
+        if (data.status !== 'running') {
+          clearInterval(_rosterPollTimer)
+          _rosterPollTimer = null
+        }
+      }
+    } catch { /* ignore */ }
+  }, 2000)
+}
 
 async function fetchTips() {
   loading.value = true
@@ -304,6 +341,7 @@ async function fetchSeasons() {
 }
 
 onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchSeasons()]))
+onUnmounted(() => { if (_rosterPollTimer) clearInterval(_rosterPollTimer) })
 </script>
 
 <template>
@@ -341,6 +379,22 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchS
         </button>
         <span v-if="fetchResult && !fetchResult.error" class="fetch-ok">✓ {{ fetchResult.added }} aggiunto/i</span>
         <span v-if="fetchResult?.error" class="fetch-err">✗ {{ fetchResult.error }}</span>
+      </div>
+
+      <!-- Aggiornamento rose squadre -->
+      <div class="roster-fetch-row">
+        <span class="sec-label" style="white-space:nowrap">Rose squadre</span>
+        <input v-model="rosterLeagues" class="fi" placeholder="IT1,GB1,ES1,L1,FR1" style="max-width:220px" :disabled="rosterState.status === 'running'" />
+        <button class="btn btn-secondary btn-sm" :disabled="rosterState.status === 'running'" @click="startFetchRosters">
+          {{ rosterState.status === 'running' ? '⟳ Scaricando...' : '↓ Aggiorna rosa' }}
+        </button>
+        <span v-if="rosterState.status === 'done' && rosterState.result" class="fetch-ok">
+          ✓ {{ rosterState.result.players }} giocatori ({{ rosterState.result.leagues.join(', ') }})
+        </span>
+        <span v-if="rosterState.status === 'error'" class="fetch-err">✗ {{ rosterState.error }}</span>
+      </div>
+      <div v-if="rosterState.status === 'running' && rosterState.log.length" class="roster-log">
+        <span v-for="(line, i) in rosterState.log.slice(-6)" :key="i" class="roster-log-line">{{ line }}</span>
       </div>
 
       <!-- Form aggiunta manuale -->
@@ -649,6 +703,9 @@ onMounted(() => Promise.all([fetchTips(), fetchStats(), fetchTransfers(), fetchS
 .tf-link { color: var(--au); font-size: .75rem; text-decoration: none; }
 .tf-link:hover { text-decoration: underline; }
 .tm-fetch-row { display: flex; gap: .4rem; flex-wrap: wrap; align-items: center; margin-bottom: .75rem; }
+.roster-fetch-row { display: flex; gap: .4rem; flex-wrap: wrap; align-items: center; margin-bottom: .4rem; }
+.roster-log { display: flex; flex-direction: column; gap: .1rem; margin-bottom: .75rem; padding: .35rem .6rem; background: var(--bg-el); border-radius: 4px; }
+.roster-log-line { font-size: .75rem; color: var(--t3); font-family: monospace; white-space: pre-wrap; }
 .add-transfer-details { margin-bottom: .75rem; }
 .add-transfer-details summary { cursor: pointer; font-size: .85rem; color: var(--au); font-weight: 600; margin-bottom: .5rem; }
 .add-transfer-form { display: flex; gap: .35rem; flex-wrap: wrap; align-items: center; padding: .5rem 0; }

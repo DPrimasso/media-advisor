@@ -5,6 +5,7 @@ trasversale e non vale la pena suddividere per topic.
 """
 
 import os
+import unicodedata
 import uuid
 from datetime import UTC, datetime
 from pathlib import Path
@@ -53,6 +54,7 @@ REGOLE:
 - Estrai SOLO indiscrezioni che riguardano un calciatore specifico con almeno from_club O to_club
 - ESTRAI ANCHE le partenze senza destinazione: se si dice "X lascerà il club", "addio pianificato", "in uscita" → from_club=club attuale, to_club=null, transfer_type="permanent" o "unknown"
 - ESTRAI ANCHE l'interesse iniziale: "il club parla con l'entourage", "sondaggio per X", "X è una pista", "voci che accostano X a Y", "X è accostato a Y" → confidence "rumor", to_club=club interessato
+- ESTRAI ANCHE valutazioni di mercato senza trattativa aperta: "è un pallino / obiettivo del club", "apprezzato dalla dirigenza", "serve una plusvalenza", "cessione solo a cifre importanti", scambi discussi (anche se poi negati o separati) → from_club / to_club se espliciti nel testo
 - ESTRAI ANCHE le smentite/denied: se l'opinionista dice che una trattativa NON esiste, NON sta avvenendo, è smentita → confidence "denied", extracta come tip
 - ESTRAI ANCHE i denied di richiesta di cessione: "non ha mai chiesto la cessione", "non ha mai chiesto di andare via", "rifiuta di lasciare il club" → confidence "denied", from_club=club attuale, to_club=null
 - ESTRAI ANCHE operazioni separate per lo stesso giocatore: riscatto confermato + cessione pianificata = 2 tip distinte
@@ -121,6 +123,24 @@ def _slug_name(s: str) -> str:
     return "".join(ch for ch in _slug(s) if ch.isalnum())
 
 
+def _ascii_slug(s: str) -> str:
+    """Fold accents so Koné/Kone match transcript spelling variants."""
+    norm = unicodedata.normalize("NFKD", s)
+    return "".join(ch.lower() for ch in norm if ch.isalnum())
+
+
+# Nicknames / colori in citazioni: "giallorossi" = Roma, "nerazzurri" = Inter, ecc.
+_CLUB_SPOKEN_ALIASES: dict[str, tuple[str, ...]] = {
+    "roma": ("giallorossi", "giallorosso", "giallorossa", "capitolini", "romana", "romano"),
+    "inter": ("nerazzurri", "nerazzurro", "interista", "interisti"),
+    "juventus": ("bianconeri", "bianconero", "bianconera", "juve"),
+    "milan": ("rossoneri", "rossonero", "rossonera"),
+    "napoli": ("partenopei", "partenopeo", "azzurri"),
+    "lazio": ("biancocelesti", "laziale"),
+    "atalanta": ("bergamaschi", "bergamasco", "dea"),
+}
+
+
 def _clubs_match(a: str | None, b: str | None) -> bool:
     """Match club names loosely (e.g. Juve vs Juventus)."""
     if not a or not b:
@@ -154,6 +174,10 @@ def _club_in_quote(club: str | None, quote: str) -> bool:
         variants.add("roma")
     if cslug.endswith("ssclazio") or cslug.endswith("lazio"):
         variants.add("lazio")
+
+    for key, spoken in _CLUB_SPOKEN_ALIASES.items():
+        if cslug == key or cslug.endswith(key) or (len(key) >= 4 and key in cslug):
+            variants.update(spoken)
 
     for v in variants:
         if _clubs_match(v, q):
@@ -235,6 +259,14 @@ _MERCATO_SIGNAL: tuple[str, ...] = (
     "scadenza",
     "accostament", # accostato/accostamento a un club
     "voce",        # voci che girano / voci di mercato
+    "apprezz",     # apprezzato dalla dirigenza / struttura
+    "obiettiv",    # obiettivo di mercato / priorità
+    "pallino",     # meta giornalistica (obiettivo acquisition)
+    "plusval",     # plusvalenza / plusvalenze
+    "dialogh",     # dialoghi tra club
+    "scambio",     # ipotesi scambio
+    "dirigenz",    # struttura dirigenziale e mercato
+    "concurrenz",  # concorrenza tra club per un giocatore
 )
 
 _NON_MERCATO_SIGNAL: tuple[str, ...] = (
@@ -266,8 +298,8 @@ def _contains_any(haystack: str, needles: tuple[str, ...]) -> bool:
 
 
 def _quote_mentions_entity(quote: str, entity: str) -> bool:
-    q = _slug(quote)
-    e = _slug(entity)
+    q = _ascii_slug(quote)
+    e = _ascii_slug(entity)
     if not e:
         return False
     if e in q:
@@ -276,7 +308,7 @@ def _quote_mentions_entity(quote: str, entity: str) -> bool:
     tokens = [t for t in entity.replace("-", " ").split() if len(t) >= 4]
     if not tokens:
         return False
-    return _slug(tokens[-1]) in q
+    return _ascii_slug(tokens[-1]) in q
 
 
 def _is_plausible_mercato_tip(raw: _RawMercatoTip) -> bool:
@@ -328,6 +360,10 @@ def _is_plausible_mercato_tip(raw: _RawMercatoTip) -> bool:
         quote, ("rinn", "firma", "tratt", "offert", "contatt", "arriv", "ced", "va via", "prest")
     ):
         return False
+
+    # Mercato language + almeno un club ancorato nella citazione (fix: prima era sempre False).
+    if has_mercato_signal and (from_in_quote or to_in_quote):
+        return True
 
     return False
 
@@ -415,6 +451,17 @@ async def extract_mercato_tips(
 
         if project_root is not None:
             player = normalize_player_name(raw.player_name, project_root) or raw.player_name
+            # Se la normalizzazione standard non ha trovato match e il LLM ha estratto
+            # un club, prova il club-context matching con soglia fuzzy abbassata (70).
+            if player == raw.player_name and (raw.from_club or raw.to_club):
+                from media_advisor.mercato.player_normalizer import normalize_player_name_with_club_hint
+                hint = normalize_player_name_with_club_hint(
+                    raw.player_name,
+                    project_root,
+                    [raw.from_club, raw.to_club],
+                )
+                if hint != raw.player_name:
+                    player = hint
         else:
             player = normalize_entity(raw.player_name) or raw.player_name
         _fc = raw.from_club if raw.from_club and raw.from_club.lower() not in _PLACEHOLDER_CLUBS else None

@@ -1100,8 +1100,10 @@ def cmd_mercato_normalize_players(
 
     with session_scope(root, read_only=True) as session:
         rows = list_mercato_video_result_rows(session, channel)
+        # Leggi payload_json dentro la sessione per evitare DetachedInstanceError
+        row_data = [(r.channel_id, r.video_id, r.payload_json) for r in rows]
 
-    if not rows:
+    if not row_data:
         typer.echo("Nessuna tip nel database. Esegui mercato-scan o db-migrate-from-json.")
         raise typer.Exit(1)
 
@@ -1112,9 +1114,9 @@ def cmd_mercato_normalize_players(
     changed_tips = 0
     changed_rows = 0
 
-    for row in rows:
+    for channel_id_val, video_id_val, payload_json_val in row_data:
         try:
-            vr = VideoMercatoResult.model_validate(json.loads(row.payload_json))
+            vr = VideoMercatoResult.model_validate(json.loads(payload_json_val))
         except Exception:
             continue
 
@@ -1136,7 +1138,7 @@ def cmd_mercato_normalize_players(
             if not dry_run:
                 with session_scope(root) as session:
                     upsert_mercato_video_result(
-                        session, row.channel_id, row.video_id, vr.model_dump(mode="json")
+                        session, channel_id_val, video_id_val, vr.model_dump(mode="json")
                     )
 
     suffix = " (DRY RUN)" if dry_run else ""
@@ -1214,6 +1216,8 @@ def cmd_mercato_rebuild_index(
 
     with session_scope(root, read_only=True) as session:
         db_rows = list_mercato_video_result_rows(session, channel)
+        # Leggi payload dentro la sessione per evitare DetachedInstanceError
+        db_payloads = [(r.channel_id, r.video_id, r.payload_json) for r in db_rows]
 
     all_tips = []
     rewritten = 0
@@ -1235,11 +1239,11 @@ def cmd_mercato_rebuild_index(
                 upsert_mercato_video_result(session, ch_id, vid, vr2.model_dump(mode="json"))
             rewritten += 1
 
-    if db_rows:
-        for row in db_rows:
+    if db_payloads:
+        for ch_id, vid, payload_json in db_payloads:
             try:
-                vr = VideoMercatoResult.model_validate(json.loads(row.payload_json))
-                _process_vr(vr, row.channel_id, row.video_id)
+                vr = VideoMercatoResult.model_validate(json.loads(payload_json))
+                _process_vr(vr, ch_id, vid)
             except Exception:
                 continue
     elif tips_root.exists():
@@ -1567,6 +1571,63 @@ def cmd_mercato_set_player_tm_id(
 
 
 # ---------------------------------------------------------------------------
+# mercato-fetch-rosters
+# ---------------------------------------------------------------------------
+
+
+@app.command("mercato-fetch-rosters")
+def cmd_mercato_fetch_rosters(
+    leagues: str = typer.Option(
+        "IT1,GB1,ES1,L1,FR1",
+        "--leagues",
+        help="Leghe separate da virgola: IT1=Serie A, GB1=Premier, ES1=LaLiga, L1=Bundesliga, FR1=Ligue1",
+    ),
+) -> None:
+    """Scarica i roster da Transfermarkt per espandere il registry dei nomi giocatori.
+
+    Recupera le rose di tutte le squadre delle leghe indicate e le salva in
+    mercato/player-roster.json. Questo amplia il registry usato dalla normalizzazione
+    dei nomi durante l'analisi dei transcript (~200 giocatori -> ~3000).
+
+    Esempio:
+      media-advisor mercato-fetch-rosters                     # tutti e 5 i campionati
+      media-advisor mercato-fetch-rosters --leagues IT1       # solo Serie A (test rapido)
+      media-advisor mercato-fetch-rosters --leagues IT1,GB1   # Serie A + Premier
+    """
+    from media_advisor.mercato.roster_fetcher import (
+        LEAGUE_NAMES,
+        fetch_league_rosters,
+    )
+    from media_advisor.mercato.player_normalizer import load_player_registry
+
+    league_list = [lg.strip().upper() for lg in leagues.split(",") if lg.strip()]
+    if not league_list:
+        typer.echo("Nessuna lega specificata.", err=True)
+        raise typer.Exit(1)
+
+    unknown = [lg for lg in league_list if lg not in LEAGUE_NAMES]
+    if unknown:
+        typer.echo(f"Leghe sconosciute: {', '.join(unknown)}. Valori validi: {', '.join(LEAGUE_NAMES)}", err=True)
+        raise typer.Exit(1)
+
+    typer.echo(f"Fetch roster per: {', '.join(LEAGUE_NAMES[lg] for lg in league_list)}")
+    typer.echo("(~0.5s per request, stimati 2-5 min per lega)\n")
+
+    roster = fetch_league_rosters(
+        leagues=league_list,
+        root=_root(),
+        progress_callback=lambda msg: typer.echo(msg),
+    )
+
+    typer.echo(f"\nRoster salvato: {len(roster.players)} giocatori in {len(roster.leagues)} leghe.")
+    typer.echo(f"File: mercato/player-roster.json")
+
+    # Invalida la cache del normalizzatore (ricaricherà al prossimo uso)
+    load_player_registry.cache_clear()
+    typer.echo("Cache normalizzatore svuotata — le analisi successive useranno il nuovo roster.")
+
+
+# ---------------------------------------------------------------------------
 # daily-report
 # ---------------------------------------------------------------------------
 
@@ -1715,7 +1776,14 @@ def cmd_publish_telegram(
     Richiede TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID nelle variabili d'ambiente.
     """
     from datetime import date as date_type
-    from media_advisor.digest import DigestGenerationError, format_mercato_report_telegram, generate_mercato_digest
+    from media_advisor.digest import (
+        DigestGenerationError,
+        build_enriched_digest_sections,
+        format_mercato_report_telegram,
+        generate_mercato_digest,
+        write_mercato_report,
+    )
+    from media_advisor.mercato.aggregator import get_tips_for_date
     from media_advisor.telegram.client import TelegramClient, TelegramClientError
 
     s = _get_settings()
@@ -1746,7 +1814,17 @@ def cmd_publish_telegram(
         typer.echo("Suggerimento: verifica che i tip abbiano 'mentioned_at' valorizzato (mercato-enrich-dates).")
         raise typer.Exit(0)
 
-    telegram_content = format_mercato_report_telegram(target_date, digest_text)
+    # Salva il report (DB + file) e calcola le sezioni arricchite con link YouTube —
+    # stessa pipeline di daily-report, garantisce formato identico su tutti i canali.
+    write_mercato_report(root, target_date, digest_text)
+    tips = get_tips_for_date(root, target_date)
+    section_enriched, _ = build_enriched_digest_sections(root, target_date, digest_text, tips=tips)
+    telegram_content = format_mercato_report_telegram(
+        target_date,
+        digest_text,
+        section_items_enriched=section_enriched,
+    )
+
     typer.echo(f"Invio su Telegram (chat_id={s.telegram_chat_id})...")
     try:
         result = asyncio.run(

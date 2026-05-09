@@ -13,6 +13,7 @@ import hashlib
 import hmac
 import json
 import re
+import threading
 import traceback
 from contextvars import Token
 from datetime import UTC, datetime, timezone
@@ -720,14 +721,22 @@ _YOUTUBE_ID_RE = re.compile(r"v=([a-zA-Z0-9_-]{11})")
 _BACKFILL_PER_CHANNEL = 5
 
 
-def _sync_log(msg: str) -> None:
-    _sync_state["log"].append(msg)
-    if len(_sync_state["log"]) > _MAX_LOG:
-        _sync_state["log"] = _sync_state["log"][-_MAX_LOG:]
-    try:
-        print(f"[sync] {msg}", flush=True)
-    except UnicodeEncodeError:
-        print(f"[sync] {msg.encode('ascii', errors='replace').decode()}", flush=True)
+def _make_log_fn(state: dict, prefix: str, max_log: int):
+    """Returns a thread-safe log function that appends to state['log']."""
+    _lock = threading.Lock()
+    def _log(msg: str) -> None:
+        with _lock:
+            state["log"].append(msg)
+            if len(state["log"]) > max_log:
+                state["log"] = state["log"][-max_log:]
+        try:
+            print(f"[{prefix}] {msg}", flush=True)
+        except UnicodeEncodeError:
+            print(f"[{prefix}] {msg.encode('ascii', errors='replace').decode()}", flush=True)
+    return _log
+
+
+_sync_log = _make_log_fn(_sync_state, "sync", _MAX_LOG)
 
 
 async def _finalize_sync_cost_tracking(
@@ -1397,6 +1406,62 @@ async def _run_daily_report() -> None:
             cost_token=cost_token,
             settings=s,
         )
+
+
+# ---------------------------------------------------------------------------
+# Roster fetch (Transfermarkt squad rosters)
+# ---------------------------------------------------------------------------
+
+_roster_state: dict = {
+    "status": "idle",   # "idle" | "running" | "done" | "error"
+    "log": [],
+    "result": None,
+    "error": None,
+}
+_MAX_ROSTER_LOG = 80
+
+
+class FetchRostersRequest(BaseModel):
+    leagues: str = "IT1,GB1,ES1,L1,FR1"
+
+
+@app.post("/api/mercato/fetch-rosters")
+async def post_fetch_rosters(body: FetchRostersRequest) -> Any:
+    if _roster_state["status"] == "running":
+        raise HTTPException(status_code=409, detail="Fetch roster già in esecuzione")
+    league_list = [lg.strip().upper() for lg in body.leagues.split(",") if lg.strip()]
+    if not league_list:
+        raise HTTPException(status_code=400, detail="Nessuna lega specificata")
+    _roster_state.update({"status": "running", "log": [], "result": None, "error": None})
+    asyncio.create_task(_run_fetch_rosters(league_list))
+    return {"status": "started", "leagues": league_list}
+
+
+@app.get("/api/mercato/fetch-rosters/status")
+async def get_fetch_rosters_status() -> Any:
+    return _roster_state
+
+
+async def _run_fetch_rosters(leagues: list[str]) -> None:
+    from media_advisor.mercato.player_normalizer import load_player_registry
+    from media_advisor.mercato.roster_fetcher import fetch_league_rosters
+
+    _log = _make_log_fn(_roster_state, "roster", _MAX_ROSTER_LOG)
+
+    try:
+        roster = await asyncio.to_thread(
+            fetch_league_rosters,
+            leagues=leagues,
+            root=_root,
+            progress_callback=_log,
+        )
+        load_player_registry.cache_clear()
+        _roster_state.update({
+            "status": "done",
+            "result": {"players": len(roster.players), "leagues": roster.leagues},
+        })
+    except Exception as exc:
+        _roster_state.update({"status": "error", "error": str(exc)})
 
 
 # ---------------------------------------------------------------------------
