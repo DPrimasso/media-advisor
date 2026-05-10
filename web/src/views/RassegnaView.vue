@@ -137,6 +137,9 @@ async function pollSync() {
         if (Array.isArray(data.result?.digest_items)) {
           digestItems.value = data.result.digest_items
         }
+        if (Array.isArray(data.result?.tips_by_team) && data.result.tips_by_team.length) {
+          digestTeamGroups.value = data.result.tips_by_team
+        }
       }
     }
   } catch {}
@@ -161,6 +164,7 @@ const digestLoading = ref(false)
 const digestError = ref(null)
 const digestDate = ref(todayISO)
 const digestCopied = ref(false)
+const digestTeamGroups = ref(null)
 const telegramStatus = ref(null)  // null | 'loading' | 'done' | 'error'
 const telegramError = ref(null)
 
@@ -285,6 +289,7 @@ async function generateDigest(force = false) {
   digest.value = null
   digestRaw.value = null
   digestItems.value = []
+  digestTeamGroups.value = null
   digestFromCache.value = false
   telegramStatus.value = null
   telegramError.value = null
@@ -298,12 +303,13 @@ async function generateDigest(force = false) {
         typeof d === 'string' ? d : Array.isArray(d) ? d.map((x) => x?.msg || x).join('; ') : null
       throw new Error(detail || `Errore ${res.status}`)
     }
+    digestTeamGroups.value = Array.isArray(data.tips_by_team) && data.tips_by_team.length ? data.tips_by_team : null
     if (data.digest) {
       digest.value = data.digest
       digestRaw.value = data.digest_raw ?? null
       digestItems.value = Array.isArray(data.digest_items) ? data.digest_items : []
       digestFromCache.value = data.cached === true
-    } else {
+    } else if (!digestTeamGroups.value) {
       digestError.value = data.message || 'Nessun contenuto per questa data'
     }
   } catch (e) {
@@ -490,7 +496,7 @@ function analysisSourceLabel(item) {
             {{ digestLoading && !digest ? '…' : '✦ Genera' }}
           </button>
           <button
-            v-if="digest"
+            v-if="digest || digestTeamGroups?.length"
             class="btn btn-secondary btn-sm"
             :disabled="digestLoading"
             @click="generateDigest(true)"
@@ -501,8 +507,54 @@ function analysisSourceLabel(item) {
         </div>
       </div>
 
-      <div v-if="digest" class="digest-body">
-        <div v-if="digestStructuredSections">
+      <div v-if="digest || digestTeamGroups?.length" class="digest-body">
+        <div v-if="digestTeamGroups?.length">
+          <div
+            v-for="block in digestTeamGroups"
+            :key="block.team"
+            class="digest-sec"
+          >
+            <div class="digest-sec-title">
+              {{ block.team }}
+              <span style="font-weight:400;color:var(--tm);margin-left:6px">· {{ block.tip_count }} {{ block.tip_count === 1 ? 'notizia' : 'notizie' }}</span>
+            </div>
+            <ul class="digest-list">
+              <li
+                v-for="(tip, i) in block.tips"
+                :key="i"
+                class="digest-item digest-item--structured"
+              >
+                <span class="digest-item-dot"></span>
+                <div class="digest-item-stack">
+                  <div class="digest-item-line1">
+                    <strong>{{ tip.player_name }}</strong>
+                    <template v-if="tip.move_label">
+                      <span class="digest-item-dash">—</span>
+                      <span>{{ tip.move_label }}</span>
+                    </template>
+                  </div>
+                  <div v-if="tip.tip_text" class="digest-item-motivo">{{ tip.tip_text }}</div>
+                  <div v-if="tip.sources?.length" class="digest-item-fonte digest-item-fonte--row">
+                    <span class="digest-item-fonte-lbl">Fonte:</span>
+                    <template v-for="(s, si) in tip.sources" :key="`${s.channel_id}-${si}`">
+                      <a
+                        v-if="s.watch_url"
+                        class="digest-fonte-link"
+                        :href="s.watch_url"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        @click.stop
+                      >{{ s.channel_label }}{{ s.start_sec != null ? ` (${digestSourceTimeLabel(s.start_sec)})` : '' }}</a>
+                      <span v-else>{{ s.channel_label }}</span>
+                      <span v-if="si < tip.sources.length - 1" class="digest-fonte-sep" aria-hidden="true">·</span>
+                    </template>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div v-else-if="digestStructuredSections">
           <div
             v-for="section in digestStructuredSections"
             :key="section.title"

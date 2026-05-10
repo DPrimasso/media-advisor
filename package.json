@@ -8,7 +8,14 @@
     "prepare-public": "node web/scripts/prepare-public.js",
     "dev:kill": "node scripts/dev-kill.mjs",
     "dev": "npm run dev:kill && concurrently -n s,w \"npm run server\" \"npm run dev:web\"",
-    "dev:web": "npm run dev --prefix web"
+    "dev:web": "npm run dev --prefix web",
+    "env:deepinfra:test": "node scripts/use-env.mjs deepinfra test",
+    "env:deepinfra:prod": "node scripts/use-env.mjs deepinfra prod",
+    "env:groq:test": "node scripts/use-env.mjs groq test",
+    "env:groq:prod": "node scripts/use-env.mjs groq prod",
+    "env:openai:test": "node scripts/use-env.mjs openai test",
+    "env:openai:prod": "node scripts/use-env.mjs openai prod",
+    "env:status": "node scripts/use-env.mjs --status"
   },
   "dependencies": {
     "dotenv": "^16.4.5"

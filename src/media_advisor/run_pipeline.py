@@ -47,7 +47,7 @@ class RunFromListResult:
 async def run_from_list(
     root: Path,
     transcript_api_key: str,
-    openai_api_key: str,
+    api_key: str,
     channel_id: str | None = None,
     force_transcript: bool = False,
     force_analyze: bool = False,
@@ -55,7 +55,12 @@ async def run_from_list(
     transcript_only: bool = False,
     only_video_ids: set[str] | None = None,
     progress_callback: Callable[[str, str], None] | None = None,
+    base_url: str | None = None,
+    # backward compat alias — callers that still pass openai_api_key= by keyword are redirected
+    openai_api_key: str | None = None,
 ) -> RunFromListResult:
+    if openai_api_key is not None and not api_key:
+        api_key = openai_api_key
     config_raw = load_channels_config_dict(root)
     config = ChannelsConfig.model_validate(config_raw)
 
@@ -145,9 +150,10 @@ async def run_from_list(
                     data=transcript_obj,
                     video_id=vid,
                     channel_id=channel.id,
-                    api_key=openai_api_key,
+                    api_key=api_key,
                     model=model,
                     metadata=meta,
+                    base_url=base_url,
                 )
                 with session_scope(root) as session:
                     upsert_video_analysis(session, channel.id, vid, analysis.model_dump(mode="json"))

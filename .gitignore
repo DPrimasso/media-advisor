@@ -6,9 +6,10 @@ build/
 .python-version
 *.egg-info/
 
-# Environment
+# Environment (root-level legacy, se ancora presenti)
 .env
 .env.local
+# I file nella cartella environment/ sono gestiti da environment/.gitignore
 
 # Generated data copied into web public (always regenerated)
 web/public/analysis/

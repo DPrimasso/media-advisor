@@ -133,8 +133,8 @@ def _require_transcript_api_key() -> None:
 
 def _require_pipeline_api_keys() -> None:
     _require_transcript_api_key()
-    if not (_settings.openai_api_key or "").strip():
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
+    if not (_settings.get_active_llm_key() or "").strip():
+        raise HTTPException(status_code=500, detail="Nessun LLM API key configurato (DEEPINFRA_API_KEY, GROQ_API_KEY o OPENAI_API_KEY)")
 
 
 TranscriptApiKeyDep = Annotated[None, Depends(_require_transcript_api_key)]
@@ -605,14 +605,16 @@ async def add_player_alias(body: AddAliasRequest) -> Any:
 @app.post("/api/mercato/analyze")
 async def post_mercato_analyze(body: MercatoAnalyzeRequest) -> Any:
     s = Settings()
-    if not s.openai_api_key:
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
+    if not s.get_active_llm_key():
+        raise HTTPException(status_code=500, detail="Nessun LLM API key configurato")
     from media_advisor.mercato.analyzer import analyze_video_mercato
+    llm_key, llm_url = s.get_llm_credentials()
     result = await analyze_video_mercato(
         root=_root,
         video_id=body.video_id,
         channel_id=body.channel_id,
-        api_key=s.openai_api_key,
+        api_key=llm_key,
+        base_url=llm_url,
     )
     return result.model_dump(mode="json")
 
@@ -628,6 +630,7 @@ async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
 
     from media_advisor.digest import (
         DigestGenerationError,
+        build_team_groups_for_api,
         flatten_digest_items_for_api,
         format_mercato_report_markdown,
         generate_mercato_digest,
@@ -635,15 +638,20 @@ async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
         load_report_cache,
         write_mercato_report,
     )
+    from media_advisor.mercato.aggregator import get_tips_for_date
 
     s = Settings()
-    if not s.openai_api_key:
-        raise HTTPException(status_code=500, detail="OPENAI_API_KEY non configurato")
+    if not s.get_active_llm_key():
+        raise HTTPException(status_code=500, detail="Nessun LLM API key configurato")
+    llm_key, llm_url = s.get_llm_credentials()
 
     try:
         target_date = date_type.fromisoformat(date) if date else date_type.today()
     except ValueError:
         raise HTTPException(status_code=400, detail="Formato data non valido, usa YYYY-MM-DD")
+
+    tips = get_tips_for_date(_root, target_date)
+    tips_by_team = build_team_groups_for_api(tips, _root)
 
     if not force:
         cached = load_report_cache(_root, target_date)
@@ -661,16 +669,17 @@ async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
                 "digest": digest_formatted,
                 "digest_raw": digest_text,
                 "digest_items": flatten_digest_items_for_api(sections),
+                "tips_by_team": tips_by_team,
                 "date": target_date.isoformat(),
                 "cached": True,
             }
 
     try:
-        digest_text = await generate_mercato_digest(_root, target_date, s.openai_api_key)
+        digest_text = await generate_mercato_digest(_root, target_date, llm_key, model=s.llm_model, base_url=llm_url)
     except DigestGenerationError as exc:
         raise HTTPException(status_code=502, detail=f"Digest non pubblicabile: {exc}")
     if not digest_text:
-        return {"digest": None, "message": "Nessun contenuto per questa data"}
+        return {"digest": None, "tips_by_team": tips_by_team, "message": "Nessun contenuto per questa data"}
 
     now = datetime.now()
     _, digest_formatted, sections = write_mercato_report(
@@ -680,6 +689,7 @@ async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
         "digest": digest_formatted,
         "digest_raw": digest_text,
         "digest_items": flatten_digest_items_for_api(sections),
+        "tips_by_team": tips_by_team,
         "date": target_date.isoformat(),
         "cached": False,
     }
@@ -692,13 +702,15 @@ async def get_feed_digest(date: str | None = None, force: bool = False) -> Any:
 
 async def _run_pipeline() -> None:
     s = Settings()
-    if not s.transcript_api_key or not s.openai_api_key:
+    if not s.transcript_api_key or not s.get_active_llm_key():
         return
     from media_advisor.run_pipeline import run_from_list
+    llm_key, llm_url = s.get_llm_credentials()
     await run_from_list(
         root=_root,
         transcript_api_key=s.transcript_api_key,
-        openai_api_key=s.openai_api_key,
+        api_key=llm_key,
+        base_url=llm_url,
     )
 
 
@@ -923,6 +935,7 @@ async def _scan_mercato_videos(
     root: Path,
     api_key: str,
     vid_channel_pairs: list[tuple[str, str]],
+    base_url: str | None = None,
 ) -> tuple[int, list]:
     """Analyze each (video_id, channel_id) pair for mercato tips. Returns (count, tips)."""
     from media_advisor.db.repository import mercato_existing_pair_keys
@@ -943,7 +956,7 @@ async def _scan_mercato_videos(
             continue
         try:
             result = await analyze_video_mercato(
-                root=root, video_id=vid, channel_id=ch_id, api_key=api_key, dates_cache=dates_cache
+                root=root, video_id=vid, channel_id=ch_id, api_key=api_key, dates_cache=dates_cache, base_url=base_url
             )
             all_new_tips.extend(result.tips)
             mercato_analyzed += 1
@@ -963,6 +976,7 @@ async def _run_full_sync() -> None:
     cost_started = datetime.now(UTC)
 
     s = Settings()
+    llm_key, llm_url = s.get_llm_credentials()
     root = _root
     result_summary: dict = {}
 
@@ -1001,7 +1015,8 @@ async def _run_full_sync() -> None:
         pipeline_result = await run_from_list(
             root=root,
             transcript_api_key=s.transcript_api_key,
-            openai_api_key=s.openai_api_key,
+            api_key=llm_key,
+            base_url=llm_url,
         )
         total_transcripts = sum(c.transcripts_fetched for c in pipeline_result.channels)
         total_analyzed = sum(c.analyzed for c in pipeline_result.channels)
@@ -1026,7 +1041,7 @@ async def _run_full_sync() -> None:
         pairs: list[tuple[str, str]] = [
             (vid, ch_id) for ch_id, vid in all_t if ch_id in mercato_ids
         ]
-        mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, s.openai_api_key, pairs)
+        mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, llm_key, pairs, base_url=llm_url)
 
         if all_new_tips:
             _sync_log(f"  Aggiornamento index mercato con {len(all_new_tips)} nuovi tip...")
@@ -1073,6 +1088,7 @@ async def _run_recent_sync() -> None:
     cost_started = datetime.now(UTC)
 
     s = Settings()
+    llm_key, llm_url = s.get_llm_credentials()
     root = _root
     result_summary: dict = {}
 
@@ -1151,7 +1167,8 @@ async def _run_recent_sync() -> None:
         pipeline_result = await run_from_list(
             root=root,
             transcript_api_key=s.transcript_api_key,
-            openai_api_key=s.openai_api_key,
+            api_key=llm_key,
+            base_url=llm_url,
             only_video_ids=recent_ids,
             progress_callback=_progress_cb,
         )
@@ -1177,7 +1194,7 @@ async def _run_recent_sync() -> None:
             if channel_of.get(vid) in mercato_ch_ids
         ]
         recent_pairs = _vid_channel_pairs_having_transcripts(root, mercato_candidates)
-        mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, s.openai_api_key, recent_pairs)
+        mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, llm_key, recent_pairs, base_url=llm_url)
 
         if all_new_tips:
             _sync_log(f"  Aggiornamento index mercato con {len(all_new_tips)} nuovi tip...")
@@ -1230,6 +1247,7 @@ async def _run_daily_report() -> None:
     cost_started = datetime.now(UTC)
 
     s = Settings()
+    llm_key, llm_url = s.get_llm_credentials()
     root = _root
     result_summary: dict = {}
 
@@ -1278,7 +1296,8 @@ async def _run_daily_report() -> None:
             pipeline_result = await run_from_list(
                 root=root,
                 transcript_api_key=s.transcript_api_key,
-                openai_api_key=s.openai_api_key,
+                api_key=llm_key,
+                base_url=llm_url,
                 only_video_ids=recent_ids,
             )
             total_analyzed = sum(c.analyzed for c in pipeline_result.channels)
@@ -1296,7 +1315,7 @@ async def _run_daily_report() -> None:
                 if channel_of.get(vid) in mercato_ch_ids
             ]
             recent_pairs = _vid_channel_pairs_having_transcripts(root, mercato_candidates)
-            mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, s.openai_api_key, recent_pairs)
+            mercato_analyzed, all_new_tips = await _scan_mercato_videos(root, llm_key, recent_pairs, base_url=llm_url)
             if all_new_tips:
                 from media_advisor.mercato.analyzer import update_index_with_new_tips
                 update_index_with_new_tips(root, all_new_tips)
@@ -1313,7 +1332,7 @@ async def _run_daily_report() -> None:
         # Step 5 — Genera digest testuale (archiviazione) + formato per squadra (Telegram)
         _sync_log("Step 5/6: Generazione sommario mercato...")
         from media_advisor.mercato.aggregator import get_tips_for_date
-        digest_text = await generate_mercato_digest(root, today, s.openai_api_key)
+        digest_text = await generate_mercato_digest(root, today, llm_key, model=s.llm_model, base_url=llm_url)
         report_content: str | None = None
         telegram_content: str | None = None
         generated_at = datetime.now()

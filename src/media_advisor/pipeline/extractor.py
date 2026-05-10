@@ -101,6 +101,7 @@ async def extract_claims_from_segment(
     api_key: str,
     model: str = "gpt-4.1-mini",
     context: dict[str, Any] | None = None,
+    base_url: str | None = None,
 ) -> tuple[list[Claim], list[Theme]]:
     """Extract claims from a single segment using PydanticAI structured output."""
     if not segment.text or len(segment.text) < 30:
@@ -129,9 +130,12 @@ async def extract_claims_from_segment(
 
         os.environ.setdefault("OPENAI_API_KEY", api_key)
         try:
-            llm = OpenAIModel(model, api_key=api_key)
+            llm = OpenAIModel(model, api_key=api_key, base_url=base_url)
         except TypeError:
-            llm = OpenAIModel(model)
+            try:
+                llm = OpenAIModel(model, api_key=api_key)
+            except TypeError:
+                llm = OpenAIModel(model)
         agent: Agent[None, _ExtractResult] = Agent(
             llm,
             output_type=_ExtractResult,
@@ -142,7 +146,7 @@ async def extract_claims_from_segment(
         parsed = result.output
     except (ImportError, Exception):
         # Fallback: use openai directly if pydantic-ai not installed
-        parsed = await _extract_openai_fallback(api_key, model, user_content)
+        parsed = await _extract_openai_fallback(api_key, model, user_content, base_url=base_url)
 
     claims: list[Claim] = []
     for raw in parsed.claims or []:
@@ -178,7 +182,7 @@ async def extract_claims_from_segment(
 
 
 async def _extract_openai_fallback(
-    api_key: str, model: str, user_content: str
+    api_key: str, model: str, user_content: str, base_url: str | None = None
 ) -> _ExtractResult:
     """Fallback extractor using openai SDK directly (structured output)."""
     import json
@@ -186,7 +190,7 @@ async def _extract_openai_fallback(
     import openai  # type: ignore[import-untyped]
     from pydantic import ValidationError
 
-    client = openai.AsyncOpenAI(api_key=api_key)
+    client = openai.AsyncOpenAI(api_key=api_key, base_url=base_url)
 
     async def _call(system: str) -> _ExtractResult:
         completion = await client.chat.completions.create(

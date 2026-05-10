@@ -22,6 +22,7 @@ async def generate_summary(
     author: str | None,
     full_text: str,
     claims: list[Claim],
+    base_url: str | None = None,
 ) -> str:
     claims_text = "\n".join(
         f"- [{c.dimension}] {c.claim_text}" for c in claims[:8]
@@ -35,7 +36,7 @@ async def generate_summary(
 
     import openai
 
-    client = openai.AsyncOpenAI(api_key=api_key)
+    client = openai.AsyncOpenAI(api_key=api_key, base_url=base_url)
     completion = await client.chat.completions.create(
         model=model,
         messages=[

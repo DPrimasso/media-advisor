@@ -100,6 +100,7 @@ async def analyze_video_v2(
     metadata: dict[str, Any] | None = None,
     max_segments: int = 12,
     max_claims: int = 12,
+    base_url: str | None = None,
 ) -> AnalysisResult:
     if not data.transcript or (isinstance(data.transcript, list) and not data.transcript):
         raise ValueError("Empty transcript")
@@ -117,6 +118,7 @@ async def analyze_video_v2(
             video_id=video_id,
             api_key=api_key,
             model=model,
+            base_url=base_url,
             context={
                 "title": meta.get("title") or (data.metadata.title if data.metadata else None),
                 "published_at": meta.get("published_at")
@@ -139,6 +141,7 @@ async def analyze_video_v2(
         author=(data.metadata.author_name if data.metadata else None) or channel_id,
         full_text=full_text,
         claims=filtered,
+        base_url=base_url,
     )
 
     analysis = aggregate_video_claims(

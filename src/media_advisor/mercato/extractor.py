@@ -4,12 +4,16 @@ Lavora sul transcript intero (no segmentazione): il mercato è un tema
 trasversale e non vale la pena suddividere per topic.
 """
 
+import logging
 import os
+import re
 import unicodedata
 import uuid
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any
+
+_LOG = logging.getLogger(__name__)
 
 from pydantic import BaseModel, Field
 
@@ -191,11 +195,17 @@ def _sanitize_clubs_against_quote(
     from_club: str | None,
     to_club: str | None,
     quote: str,
+    tip_text: str = "",
 ) -> tuple[str | None, str | None]:
-    """Keep only clubs explicitly grounded in the extracted quote."""
+    """Keep only clubs grounded in the extracted quote or the tip_text summary.
+
+    tip_text (AI-generated summary) is used as fallback: a club the LLM correctly
+    identified may not be repeated verbatim in the chosen quote snippet.
+    """
+    context = f"{quote} {tip_text}".strip()
     return (
-        from_club if _club_in_quote(from_club, quote) else None,
-        to_club if _club_in_quote(to_club, quote) else None,
+        from_club if _club_in_quote(from_club, context) else None,
+        to_club if _club_in_quote(to_club, context) else None,
     )
 
 
@@ -365,6 +375,20 @@ def _is_plausible_mercato_tip(raw: _RawMercatoTip) -> bool:
     if has_mercato_signal and (from_in_quote or to_in_quote):
         return True
 
+    # Fallback: il LLM può scegliere una quote focalizzata sui dettagli (cifre, formula,
+    # timing) senza ripetere giocatore/club già nominati nel contesto precedente.
+    # Se tip_text (sintesi AI, sempre entity-dense) ancora il giocatore e almeno un club,
+    # e la quote contiene segnali di mercato oppure la confidence è alta → la tip è valida.
+    tip_text = (raw.tip_text or "").strip()
+    if tip_text and (raw.from_club or raw.to_club):
+        player_in_tip = _quote_mentions_entity(tip_text, raw.player_name)
+        from_in_tip = _club_in_quote(raw.from_club, tip_text) if raw.from_club else False
+        to_in_tip = _club_in_quote(raw.to_club, tip_text) if raw.to_club else False
+        if player_in_tip and (from_in_tip or to_in_tip) and (
+            has_mercato_signal or raw.confidence in ("confirmed", "likely")
+        ):
+            return True
+
     return False
 
 
@@ -408,6 +432,7 @@ async def extract_mercato_tips(
     model: str = "gpt-4.1-mini",
     context: dict[str, Any] | None = None,
     project_root: Path | None = None,
+    base_url: str | None = None,
 ) -> list[MercatoTip]:
     """Estrae indiscrezioni di mercato da un transcript.
 
@@ -437,15 +462,21 @@ async def extract_mercato_tips(
     user_content = "\n".join(user_parts)
 
     system_prompt = _build_system_prompt(project_root)
-    parsed = await _run_extraction(api_key, model, user_content, system_prompt=system_prompt)
+    parsed = await _run_extraction(api_key, model, user_content, system_prompt=system_prompt, base_url=base_url)
 
     now = datetime.now(UTC)
     # Fallback to start-of-day UTC so mentioned_at != extracted_at when publication date is unknown
     mentioned_at = ctx.get("mentioned_at") or now.replace(hour=0, minute=0, second=0, microsecond=0)
 
+    _LOG.info("[mercato] AI returned %d raw tips for video %s", len(parsed.tips), video_id)
+
     tips: list[MercatoTip] = []
     for raw in parsed.tips:
         if not _is_plausible_mercato_tip(raw):
+            _LOG.debug(
+                "[mercato] DROP plausibility: %s (%s→%s) | quote: %.60s",
+                raw.player_name, raw.from_club, raw.to_club, raw.quote_text or "",
+            )
             continue
         _PLACEHOLDER_CLUBS = {"unknown", "null", "none", "n/a", "?", "-", ""}
 
@@ -468,8 +499,14 @@ async def extract_mercato_tips(
         _tc = raw.to_club if raw.to_club and raw.to_club.lower() not in _PLACEHOLDER_CLUBS else None
         from_club = normalize_entity(_fc) if _fc else None
         to_club = normalize_entity(_tc) if _tc else None
-        from_club, to_club = _sanitize_clubs_against_quote(from_club, to_club, raw.quote_text or "")
+        from_club, to_club = _sanitize_clubs_against_quote(
+            from_club, to_club, raw.quote_text or "", raw.tip_text or ""
+        )
         if not (from_club or to_club):
+            _LOG.debug(
+                "[mercato] DROP clubs nullified: %s (%s→%s) | quote: %.60s",
+                raw.player_name, raw.from_club, raw.to_club, raw.quote_text or "",
+            )
             continue
 
         tips.append(
@@ -491,6 +528,7 @@ async def extract_mercato_tips(
                 quote_end_sec=raw.quote_end_sec,
             )
         )
+    _LOG.info("[mercato] %d tip finali estratte su %d raw (video %s)", len(tips), len(parsed.tips), video_id)
     return tips
 
 
@@ -499,6 +537,7 @@ async def _run_extraction(
     model: str,
     user_content: str,
     system_prompt: str = MERCATO_SYSTEM,
+    base_url: str | None = None,
 ) -> _ExtractMercatoResult:
     """Lancia l'estrazione AI. Prova PydanticAI, fallback su OpenAI diretto."""
     try:
@@ -507,9 +546,12 @@ async def _run_extraction(
 
         os.environ.setdefault("OPENAI_API_KEY", api_key)
         try:
-            llm = OpenAIModel(model, api_key=api_key)
+            llm = OpenAIModel(model, api_key=api_key, base_url=base_url)
         except TypeError:
-            llm = OpenAIModel(model)
+            try:
+                llm = OpenAIModel(model, api_key=api_key)
+            except TypeError:
+                llm = OpenAIModel(model)
 
         agent: Agent[None, _ExtractMercatoResult] = Agent(
             llm,
@@ -524,7 +566,7 @@ async def _run_extraction(
         record_pydantic_ai_run_usage(model, result.usage())
         return result.output
     except Exception:
-        return await _openai_fallback(api_key, model, user_content, system_prompt=system_prompt)
+        return await _openai_fallback(api_key, model, user_content, system_prompt=system_prompt, base_url=base_url)
 
 
 async def _openai_fallback(
@@ -532,12 +574,13 @@ async def _openai_fallback(
     model: str,
     user_content: str,
     system_prompt: str = MERCATO_SYSTEM,
+    base_url: str | None = None,
 ) -> _ExtractMercatoResult:
     import json
 
     import openai  # type: ignore[import-untyped]
 
-    client = openai.AsyncOpenAI(api_key=api_key)
+    client = openai.AsyncOpenAI(api_key=api_key, base_url=base_url)
     completion = await client.chat.completions.create(
         model=model,
         temperature=1.0,
@@ -551,7 +594,19 @@ async def _openai_fallback(
     content = completion.choices[0].message.content
     if not content:
         return _ExtractMercatoResult()
+    # Strip thinking blocks emitted by reasoning models (Qwen3, DeepSeek-R1, ecc.)
+    # before parsing, otherwise json.loads fails on the <think>...</think> preamble.
+    content = re.sub(r"<think>.*?</think>", "", content, flags=re.DOTALL | re.IGNORECASE).strip()
+    if not content:
+        return _ExtractMercatoResult()
     try:
-        return _ExtractMercatoResult.model_validate(json.loads(content))
+        data = json.loads(content)
+        # Normalize "tip" (singular, emitted by some models) → "tips" (canonical field name).
+        if isinstance(data, dict) and "tip" in data and "tips" not in data:
+            data["tips"] = data.pop("tip")
+        # Normalize bare list (e.g. Qwen2.5 returns [...] instead of {"tips": [...]}).
+        if isinstance(data, list):
+            data = {"tips": data}
+        return _ExtractMercatoResult.model_validate(data)
     except Exception:
         return _ExtractMercatoResult()

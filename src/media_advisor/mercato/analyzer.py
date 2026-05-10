@@ -122,6 +122,7 @@ async def analyze_video_mercato(
     force: bool = False,
     update_index: bool = True,
     dates_cache: dict | None = None,
+    base_url: str | None = None,
 ) -> VideoMercatoResult:
     """Analizza un video per indiscrezioni di mercato.
 
@@ -171,6 +172,7 @@ async def analyze_video_mercato(
         model=model,
         context=context,
         project_root=root,
+        base_url=base_url,
     )
 
     adjusted: list[MercatoTip] = []

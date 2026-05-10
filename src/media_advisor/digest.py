@@ -726,6 +726,98 @@ _TRANSFER_TYPE_IT: dict[str, str] = {
 }
 
 
+def _build_sorted_team_groups(
+    groups: list[dict],
+) -> tuple[dict[str, list[dict]], list[str]]:
+    """Raggruppa i gruppi di tip (già deduplicati) per squadra e li ordina per numero di gruppi (desc) poi alfabeticamente."""
+    team_groups: dict[str, list[dict]] = {}
+    for group in groups:
+        lead = group["lead"]
+        clubs: set[str] = set()
+        if lead.from_club:
+            clubs.add(lead.from_club)
+        if lead.to_club:
+            clubs.add(lead.to_club)
+        for club in clubs:
+            team_groups.setdefault(club, []).append(group)
+    sorted_teams = sorted(
+        team_groups.keys(),
+        key=lambda t: (-len(team_groups[t]), t.lower()),
+    )
+    return team_groups, sorted_teams
+
+
+def build_team_groups_for_api(
+    tips: list[MercatoTip],
+    root: Path,
+) -> list[dict]:
+    """Raggruppa i tip per squadra e restituisce dati strutturati per l'API/dashboard.
+
+    Condivide la stessa logica di raggruppamento di format_tips_by_team_telegram()
+    così qualsiasi modifica futura si riflette automaticamente su entrambi i flussi.
+    """
+    if not tips:
+        return []
+
+    channel_names = _load_channel_name_map(root)
+    groups = _dedupe_tips_with_sources(tips)
+    team_groups, sorted_teams = _build_sorted_team_groups(groups)
+
+    result: list[dict] = []
+    for team in sorted_teams:
+        team_tip_groups = team_groups[team]
+        tips_out: list[dict] = []
+        for group in team_tip_groups:
+            lead = group["lead"]
+            sources: list[dict] = []
+            for ch_id in sorted(group["channel_ids"]):
+                ch_name = channel_names.get(ch_id, ch_id)
+                tip_with_ts = next(
+                    (
+                        t for t in group["tips"]
+                        if t.channel_id == ch_id and t.video_id and t.quote_start_sec is not None
+                    ),
+                    None,
+                )
+                sources.append({
+                    "channel_id": ch_id,
+                    "channel_label": ch_name,
+                    "video_id": tip_with_ts.video_id if tip_with_ts else None,
+                    "start_sec": tip_with_ts.quote_start_sec if tip_with_ts else None,
+                    "watch_url": _watch_url_digest(tip_with_ts.video_id, tip_with_ts.quote_start_sec) if tip_with_ts else None,
+                })
+            tt = _TRANSFER_TYPE_IT.get(str(lead.transfer_type), "") if lead.transfer_type else ""
+            is_renewal = lead.from_club and lead.to_club and lead.from_club == lead.to_club
+            move_parts: list[str] = []
+            if is_renewal:
+                move_parts.append("rinnovo")
+            elif lead.from_club and lead.to_club:
+                move_parts.append(f"{lead.from_club} → {lead.to_club}")
+            elif lead.from_club:
+                move_parts.append(f"cedente: {lead.from_club}")
+            elif lead.to_club:
+                move_parts.append("possibile acquisto")
+            if tt and not is_renewal:
+                move_parts.append(tt)
+
+            tips_out.append({
+                "player_name": lead.player_name,
+                "from_club": lead.from_club,
+                "to_club": lead.to_club,
+                "transfer_type": str(lead.transfer_type) if lead.transfer_type else None,
+                "move_label": " · ".join(move_parts),
+                "tip_text": lead.tip_text,
+                "confidence": str(lead.confidence) if lead.confidence else None,
+                "sources": sources,
+            })
+        result.append({
+            "team": team,
+            "tip_count": len(team_tip_groups),
+            "tips": tips_out,
+        })
+    return result
+
+
 def format_tips_by_team_telegram(
     tips: list[MercatoTip],
     target_date: date,
@@ -745,25 +837,10 @@ def format_tips_by_team_telegram(
     channel_names = _load_channel_name_map(root)
 
     groups = _dedupe_tips_with_sources(tips)
-
-    team_groups: dict[str, list[dict]] = {}
-    for group in groups:
-        lead = group["lead"]
-        clubs: set[str] = set()
-        if lead.from_club:
-            clubs.add(lead.from_club)
-        if lead.to_club:
-            clubs.add(lead.to_club)
-        for club in clubs:
-            team_groups.setdefault(club, []).append(group)
+    team_groups, sorted_teams = _build_sorted_team_groups(groups)
 
     if not team_groups:
         return None
-
-    sorted_teams = sorted(
-        team_groups.keys(),
-        key=lambda t: (-len(team_groups[t]), t.lower()),
-    )
 
     div = "─" * 18
     lines: list[str] = [

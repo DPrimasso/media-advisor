@@ -64,8 +64,8 @@ def cmd_run_list(
     if not s.transcript_api_key:
         typer.echo("Error: TRANSCRIPT_API_KEY not set", err=True)
         raise typer.Exit(1)
-    if not s.openai_api_key:
-        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+    if not s.get_active_llm_key():
+        typer.echo("Error: nessun LLM API key configurato (DEEPINFRA_API_KEY, GROQ_API_KEY o OPENAI_API_KEY)", err=True)
         raise typer.Exit(1)
 
     root = _root()
@@ -78,11 +78,13 @@ def cmd_run_list(
 
     from media_advisor.run_pipeline import run_from_list
 
+    llm_key, llm_url = s.get_llm_credentials()
     result = asyncio.run(
         run_from_list(
             root=root,
             transcript_api_key=s.transcript_api_key,
-            openai_api_key=s.openai_api_key,
+            api_key=llm_key,
+            base_url=llm_url,
             channel_id=channel,
             force_transcript=force_transcript,
             force_analyze=force_analyze,
@@ -135,8 +137,8 @@ def cmd_auto_update(
     if not s.transcript_api_key:
         typer.echo("Error: TRANSCRIPT_API_KEY not set", err=True)
         raise typer.Exit(1)
-    if not s.openai_api_key:
-        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+    if not s.get_active_llm_key():
+        typer.echo("Error: nessun LLM API key configurato (DEEPINFRA_API_KEY, GROQ_API_KEY o OPENAI_API_KEY)", err=True)
         raise typer.Exit(1)
 
     root = _root()
@@ -163,11 +165,13 @@ def cmd_auto_update(
     if new_ids:
         typer.echo(f"[auto-update] Analyzing {len(new_ids)} newly fetched videos (use --all for full catch-up)")
 
+    llm_key, llm_url = s.get_llm_credentials()
     result = asyncio.run(
         run_from_list(
             root=root,
             transcript_api_key=s.transcript_api_key,
-            openai_api_key=s.openai_api_key,
+            api_key=llm_key,
+            base_url=llm_url,
             channel_id=channel,
             model=model,
             only_video_ids=new_ids,
@@ -297,11 +301,12 @@ def cmd_analyze(
 ) -> None:
     """Analyze a single video (transcript must already be saved)."""
     s = _get_settings()
-    if not s.openai_api_key:
-        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+    if not s.get_active_llm_key():
+        typer.echo("Error: nessun LLM API key configurato (DEEPINFRA_API_KEY, GROQ_API_KEY o OPENAI_API_KEY)", err=True)
         raise typer.Exit(1)
 
     root = _root()
+    llm_key, llm_url = s.get_llm_credentials()
     from media_advisor.db.repository import analysis_exists_in_db, upsert_video_analysis
     from media_advisor.db.session import session_scope
     from media_advisor.io.transcript_storage import load_transcript_dict
@@ -329,9 +334,10 @@ def cmd_analyze(
             data=transcript,
             video_id=video_id,
             channel_id=channel,
-            api_key=s.openai_api_key,
+            api_key=llm_key,
             model=model,
             metadata=meta,
+            base_url=llm_url,
         )
         with session_scope(root) as session:
             upsert_video_analysis(session, channel, video_id, analysis.model_dump(mode="json"))
@@ -374,10 +380,11 @@ def cmd_mercato_analyze(
     if not s.transcript_api_key:
         typer.echo("Error: TRANSCRIPT_API_KEY not set", err=True)
         raise typer.Exit(1)
-    if not s.openai_api_key:
-        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+    if not s.get_active_llm_key():
+        typer.echo("Error: nessun LLM API key configurato (DEEPINFRA_API_KEY, GROQ_API_KEY o OPENAI_API_KEY)", err=True)
         raise typer.Exit(1)
 
+    llm_key, llm_url = s.get_llm_credentials()
     from media_advisor.mercato.analyzer import analyze_video_mercato
     from media_advisor.transcript_api.client import TranscriptClient
     from media_advisor.io.channel_store import load_channels_config_dict
@@ -435,9 +442,10 @@ def cmd_mercato_analyze(
             root=_root(),
             video_id=video_id,
             channel_id=channel,
-            api_key=s.openai_api_key,
+            api_key=llm_key,
             model=model,
             force=force,
+            base_url=llm_url,
         )
         typer.echo(f"Tip trovate: {len(result.tips)}")
         for tip in result.tips:
@@ -473,8 +481,8 @@ def cmd_mercato_scan(
     if not s.transcript_api_key:
         typer.echo("Error: TRANSCRIPT_API_KEY not set", err=True)
         raise typer.Exit(1)
-    if not s.openai_api_key:
-        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+    if not s.get_active_llm_key():
+        typer.echo("Error: nessun LLM API key configurato (DEEPINFRA_API_KEY, GROQ_API_KEY o OPENAI_API_KEY)", err=True)
         raise typer.Exit(1)
 
     root = _root()
@@ -567,6 +575,7 @@ def cmd_mercato_scan(
             tr2 = tr.model_copy(update={"metadata": meta})
             save_transcript_to_store(root, ch_id, vid, tr2.model_dump(mode="json"))
 
+        llm_key, llm_url = s.get_llm_credentials()
         total, analyzed, skipped = 0, 0, 0
         all_new_tips: list[MercatoTip] = []
         for ch_id, vid in id_pairs:
@@ -605,10 +614,11 @@ def cmd_mercato_scan(
                     root=root,
                     video_id=vid,
                     channel_id=ch_id,
-                    api_key=s.openai_api_key,
+                    api_key=llm_key,
                     model=model,
                     force=force,
                     update_index=False,
+                    base_url=llm_url,
                 )
                 if not _tip_existed:
                     all_new_tips.extend(result.tips)
@@ -1652,9 +1662,11 @@ def cmd_daily_report(
     from media_advisor.digest import DigestGenerationError, generate_mercato_digest, write_mercato_report
 
     s = _get_settings()
-    if not s.openai_api_key:
-        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+    if not s.get_active_llm_key():
+        typer.echo("Error: nessun LLM API key configurato (DEEPINFRA_API_KEY, GROQ_API_KEY o OPENAI_API_KEY)", err=True)
         raise typer.Exit(1)
+
+    llm_key, llm_url = s.get_llm_credentials()
 
     try:
         target_date = date_type.fromisoformat(date) if date else date_type.today()
@@ -1684,7 +1696,8 @@ def cmd_daily_report(
                 run_from_list(
                     root=root,
                     transcript_api_key=s.transcript_api_key,
-                    openai_api_key=s.openai_api_key,
+                    api_key=llm_key,
+                    base_url=llm_url,
                     model=model,
                     only_video_ids=new_ids,
                 )
@@ -1724,10 +1737,11 @@ def cmd_daily_report(
                             root=root,
                             video_id=v.video_id,
                             channel_id=v.channel_id,
-                            api_key=s.openai_api_key,
+                            api_key=llm_key,
                             model=model,
                             force=False,
                             update_index=False,
+                            base_url=llm_url,
                         )
                     except Exception as exc:
                         typer.echo(f"    [warn] mercato-scan {v.video_id}: {exc}", err=True)
@@ -1742,7 +1756,7 @@ def cmd_daily_report(
     # Step 3: genera digest
     typer.echo("[daily-report] 3/3  Generazione sommario...")
     try:
-        digest_text = asyncio.run(generate_mercato_digest(root, target_date, s.openai_api_key))
+        digest_text = asyncio.run(generate_mercato_digest(root, target_date, llm_key, model=s.llm_model, base_url=llm_url))
     except DigestGenerationError as exc:
         typer.echo(f"Errore: digest non valido/non pubblicabile ({exc})", err=True)
         raise typer.Exit(1)
@@ -1829,10 +1843,12 @@ def cmd_publish_telegram(
         raise typer.Exit(0)
 
     # Genera e salva il digest testuale (markdown/Twitter) in background — non bloccante per il send
-    if s.openai_api_key:
+    _ptlg_key = s.get_active_llm_key()
+    if _ptlg_key:
+        _ptlg_llm_key, _ptlg_llm_url = s.get_llm_credentials()
         typer.echo(f"Generazione digest testuale per {target_date.isoformat()} (archiviazione)...")
         try:
-            digest_text = asyncio.run(generate_mercato_digest(root, target_date, s.openai_api_key))
+            digest_text = asyncio.run(generate_mercato_digest(root, target_date, _ptlg_llm_key, model=s.llm_model, base_url=_ptlg_llm_url))
             if digest_text:
                 write_mercato_report(root, target_date, digest_text)
         except DigestGenerationError as exc:
