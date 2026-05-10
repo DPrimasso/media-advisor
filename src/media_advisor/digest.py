@@ -433,6 +433,11 @@ def _format_seconds_mmss_digest(sec: float | None) -> str:
     return f"{m}:{ss:02d}"
 
 
+def _h(t: str | None) -> str:
+    """HTML-escape a value for Telegram HTML parse mode, returning '' for None/empty."""
+    return _html_lib.escape(str(t)) if t else ""
+
+
 def _resolve_digest_sources_for_row(
     row: dict[str, str],
     tips: list[MercatoTip],
@@ -641,9 +646,6 @@ def format_mercato_report_telegram(
     section_items_enriched: dict[str, list[DigestItem]] | None = None,
 ) -> str:
     """Formatta il digest per Telegram con HTML parse mode."""
-    def _h(t: str) -> str:
-        return _html_lib.escape(str(t)) if t else ""
-
     generated = generated_at or datetime.now()
     date_it = _format_date_it(target_date)
     now_str = generated.strftime("%H:%M")
@@ -711,6 +713,113 @@ def format_mercato_report_telegram(
             lines.append(f"• {_h(line)}")
 
     lines.extend(["", div, f"⏱ <i>Aggiornato alle {now_str}</i>"])
+    return "\n".join(lines).strip()
+
+
+_TRANSFER_TYPE_IT: dict[str, str] = {
+    "loan": "prestito",
+    "permanent": "cessione",
+    "free_agent": "svincolato",
+    "extension": "rinnovo",
+    "renewal": "rinnovo",
+    "unknown": "",
+}
+
+
+def format_tips_by_team_telegram(
+    tips: list[MercatoTip],
+    target_date: date,
+    root: Path,
+    generated_at: datetime | None = None,
+) -> str | None:
+    """Organizza i tip per squadra coinvolta (from_club / to_club).
+    Se un tip tocca due squadre appare in entrambe le sezioni.
+    Ritorna None se non ci sono tip.
+    """
+    if not tips:
+        return None
+
+    generated = generated_at or datetime.now()
+    date_it = _format_date_it(target_date)
+    now_str = generated.strftime("%H:%M")
+    channel_names = _load_channel_name_map(root)
+
+    groups = _dedupe_tips_with_sources(tips)
+
+    team_groups: dict[str, list[dict]] = {}
+    for group in groups:
+        lead = group["lead"]
+        clubs: set[str] = set()
+        if lead.from_club:
+            clubs.add(lead.from_club)
+        if lead.to_club:
+            clubs.add(lead.to_club)
+        for club in clubs:
+            team_groups.setdefault(club, []).append(group)
+
+    if not team_groups:
+        return None
+
+    sorted_teams = sorted(
+        team_groups.keys(),
+        key=lambda t: (-len(team_groups[t]), t.lower()),
+    )
+
+    div = "─" * 18
+    lines: list[str] = [
+        f"📡 <b>CALCIOMERCATO</b> — <i>{_h(date_it)}</i>",
+        f"<i>{len(groups)} notizie · {len(sorted_teams)} squadre coinvolte · Media Advisor</i>",
+    ]
+
+    for team in sorted_teams:
+        team_gs = team_groups[team]
+        n = len(team_gs)
+        label = "notizia" if n == 1 else "notizie"
+        lines.extend(["", div, f"<b>{_h(team.upper())}</b>  ·  {n} {label}", div])
+
+        for group in team_gs:
+            lead = group["lead"]
+            tt = _TRANSFER_TYPE_IT.get(str(lead.transfer_type), str(lead.transfer_type))
+
+            is_renewal = lead.from_club and lead.to_club and lead.from_club == lead.to_club
+            if is_renewal:
+                move_parts = ["rinnovo"]
+            elif lead.from_club and lead.to_club:
+                move_parts = [f"{_h(lead.from_club)} → {_h(lead.to_club)}"]
+            elif lead.from_club:
+                move_parts = [f"cedente: {_h(lead.from_club)}"]
+            elif lead.to_club:
+                move_parts = ["possibile acquisto"]
+            else:
+                move_parts = []
+            if tt and not is_renewal:
+                move_parts.append(_h(tt))
+            move_label = f"  <i>{' · '.join(move_parts)}</i>" if move_parts else ""
+
+            lines.append("")
+            lines.append(f"<b>{_h(lead.player_name)}</b>{move_label}")
+            if lead.tip_text:
+                lines.append(_h(lead.tip_text))
+
+            source_parts: list[str] = []
+            for ch_id in sorted(group["channel_ids"]):
+                ch_name = _h(channel_names.get(ch_id, ch_id))
+                tip_with_ts = next(
+                    (
+                        t for t in group["tips"]
+                        if t.channel_id == ch_id and t.video_id and t.quote_start_sec is not None
+                    ),
+                    None,
+                )
+                if tip_with_ts:
+                    start = _format_seconds_mmss_digest(tip_with_ts.quote_start_sec)
+                    url = _watch_url_digest(tip_with_ts.video_id, tip_with_ts.quote_start_sec)
+                    source_parts.append(f'<a href="{_h(url)}">{ch_name} ({start})</a>')
+                else:
+                    source_parts.append(ch_name)
+            lines.append("<i>Fonte:</i> " + " · ".join(source_parts))
+
+    lines.extend(["", div, f"<i>Aggiornato alle {now_str}</i>"])
     return "\n".join(lines).strip()
 
 

@@ -1769,17 +1769,20 @@ def cmd_daily_report(
 @app.command("publish-telegram")
 def cmd_publish_telegram(
     date: Optional[str] = typer.Option(None, "--date", help="Data YYYY-MM-DD (default: oggi)"),
+    test: bool = typer.Option(False, "--test", help="Invia al gruppo di test (TELEGRAM_CHAT_ID_TEST)"),
+    dry_run: bool = typer.Option(False, "--dry-run", help="Stampa il contenuto HTML senza inviare"),
 ) -> None:
-    """Genera il digest mercato per una data e lo pubblica su Telegram.
+    """Genera il report mercato per squadra e lo pubblica su Telegram.
 
     Usa --date per pubblicare una data precedente (es. --date 2026-04-23).
+    Usa --test per inviare al gruppo di test (TELEGRAM_CHAT_ID_TEST).
+    Usa --dry-run per stampare l'HTML senza inviare.
     Richiede TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID nelle variabili d'ambiente.
     """
     from datetime import date as date_type
     from media_advisor.digest import (
         DigestGenerationError,
-        build_enriched_digest_sections,
-        format_mercato_report_telegram,
+        format_tips_by_team_telegram,
         generate_mercato_digest,
         write_mercato_report,
     )
@@ -1787,12 +1790,20 @@ def cmd_publish_telegram(
     from media_advisor.telegram.client import TelegramClient, TelegramClientError
 
     s = _get_settings()
-    if not s.openai_api_key:
-        typer.echo("Error: OPENAI_API_KEY not set", err=True)
+    if not s.telegram_bot_token:
+        typer.echo("Error: TELEGRAM_BOT_TOKEN non configurato", err=True)
         raise typer.Exit(1)
-    if not s.telegram_bot_token or not s.telegram_chat_id:
-        typer.echo("Error: TELEGRAM_BOT_TOKEN e TELEGRAM_CHAT_ID devono essere configurati", err=True)
-        raise typer.Exit(1)
+
+    if test:
+        chat_id = s.telegram_chat_id_test
+        if not chat_id:
+            typer.echo("Error: TELEGRAM_CHAT_ID_TEST non configurato", err=True)
+            raise typer.Exit(1)
+    else:
+        chat_id = s.telegram_chat_id
+        if not chat_id:
+            typer.echo("Error: TELEGRAM_CHAT_ID non configurato", err=True)
+            raise typer.Exit(1)
 
     try:
         target_date = date_type.fromisoformat(date) if date else date_type.today()
@@ -1802,37 +1813,40 @@ def cmd_publish_telegram(
 
     root = _root()
 
-    typer.echo(f"Generazione digest per {target_date.isoformat()}...")
-    try:
-        digest_text = asyncio.run(generate_mercato_digest(root, target_date, s.openai_api_key))
-    except DigestGenerationError as exc:
-        typer.echo(f"Errore: digest non valido/non pubblicabile ({exc})", err=True)
-        raise typer.Exit(1)
+    # Carica i tip per la data e formatta per squadra (non richiede OpenAI)
+    tips = get_tips_for_date(root, target_date)
+    telegram_content = format_tips_by_team_telegram(tips, target_date, root)
 
-    if not digest_text:
+    if telegram_content is None:
         typer.echo(f"Nessuna indiscrezione trovata per il {target_date.isoformat()}.")
         typer.echo("Suggerimento: verifica che i tip abbiano 'mentioned_at' valorizzato (mercato-enrich-dates).")
         raise typer.Exit(0)
 
-    # Salva il report (DB + file) e calcola le sezioni arricchite con link YouTube —
-    # stessa pipeline di daily-report, garantisce formato identico su tutti i canali.
-    write_mercato_report(root, target_date, digest_text)
-    tips = get_tips_for_date(root, target_date)
-    section_enriched, _ = build_enriched_digest_sections(root, target_date, digest_text, tips=tips)
-    telegram_content = format_mercato_report_telegram(
-        target_date,
-        digest_text,
-        section_items_enriched=section_enriched,
-    )
+    if dry_run:
+        typer.echo("=== DRY RUN — contenuto Telegram ===")
+        typer.echo(telegram_content)
+        typer.echo("=== fine dry run ===")
+        raise typer.Exit(0)
 
-    typer.echo(f"Invio su Telegram (chat_id={s.telegram_chat_id})...")
+    # Genera e salva il digest testuale (markdown/Twitter) in background — non bloccante per il send
+    if s.openai_api_key:
+        typer.echo(f"Generazione digest testuale per {target_date.isoformat()} (archiviazione)...")
+        try:
+            digest_text = asyncio.run(generate_mercato_digest(root, target_date, s.openai_api_key))
+            if digest_text:
+                write_mercato_report(root, target_date, digest_text)
+        except DigestGenerationError as exc:
+            typer.echo(f"Warning: digest testuale non generato ({exc}) — il report per squadra verrà comunque inviato.", err=True)
+
+    dest_label = "gruppo di test" if test else "Telegram"
+    typer.echo(f"Invio su {dest_label} (chat_id={chat_id})...")
     try:
         result = asyncio.run(
             TelegramClient(
                 s.telegram_bot_token,
-                chat_id=s.telegram_chat_id,
-                thread_id=s.telegram_thread_id,
-            ).send_message(telegram_content, parse_mode="HTML")
+                chat_id=chat_id,
+                thread_id=s.telegram_thread_id if not test else None,
+            ).send_message(telegram_content, parse_mode="HTML", disable_web_page_preview=True)
         )
         typer.echo(f"Pubblicato: {result.chunks_sent} chunk inviati, message_ids={result.message_ids}")
     except TelegramClientError as exc:

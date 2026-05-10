@@ -81,6 +81,44 @@ function startSyncRecent()    { return _doSync('/api/sync/recent', 'recent') }
 function startSync()          { return _doSync('/api/sync', 'total') }
 function startDailyReport()   { return _doSync('/api/sync/daily-report', 'daily') }
 
+const rosterState = ref({ status: 'idle', result: null, error: null })
+let _rosterPollTimer = null
+
+async function startFetchRosters() {
+  if (rosterState.value.status === 'running') return
+  rosterState.value = { status: 'running', result: null, error: null }
+  try {
+    const res = await fetch('/api/mercato/fetch-rosters', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ leagues: 'IT1,GB1,ES1,L1,FR1' }),
+    })
+    if (!res.ok) {
+      const data = await res.json()
+      rosterState.value = { status: 'error', result: null, error: data.detail || `HTTP ${res.status}` }
+      return
+    }
+  } catch (e) {
+    rosterState.value = { status: 'error', result: null, error: e.message }
+    return
+  }
+  _rosterPollTimer = setInterval(async () => {
+    try {
+      const res = await fetch('/api/mercato/fetch-rosters/status')
+      if (res.ok) {
+        const data = await res.json()
+        if (data.status !== 'running' || rosterState.value.status !== 'running') {
+          rosterState.value = data
+        }
+        if (data.status !== 'running') {
+          clearInterval(_rosterPollTimer)
+          _rosterPollTimer = null
+        }
+      }
+    } catch { /* ignore */ }
+  }, 2000)
+}
+
 async function pollSync() {
   try {
     const res = await fetch('/api/sync/status')
@@ -106,6 +144,7 @@ async function pollSync() {
 
 onUnmounted(() => {
   ensurePollStopped()
+  if (_rosterPollTimer) { clearInterval(_rosterPollTimer); _rosterPollTimer = null }
 })
 
 const loading = computed(() => tipsLoading.value || analysesLoading.value)
@@ -377,6 +416,24 @@ function analysisSourceLabel(item) {
       </div>
     </header>
 
+    <div class="roster-bar">
+      <button
+        class="btn btn-secondary"
+        style="font-size:12px;opacity:0.7"
+        :disabled="rosterState.status === 'running'"
+        @click="startFetchRosters"
+        title="Aggiorna le rose delle squadre da Transfermarkt (IT1, GB1, ES1, L1, FR1)"
+      >
+        {{ rosterState.status === 'running' ? '⟳ Aggiornando rose…' : '↓ Aggiorna rose squadre' }}
+      </button>
+      <span v-if="rosterState.status === 'done' && rosterState.result" class="chip chip--green" style="font-size:11px">
+        ✓ {{ rosterState.result.players }} giocatori
+      </span>
+      <span v-if="rosterState.status === 'error'" style="color:#e55;font-size:11px">
+        ✗ {{ rosterState.error }}
+      </span>
+    </div>
+
     <div v-if="syncStatus && syncStatus.status !== 'idle'" class="sync-panel">
       <div class="sync-head">
         <span class="sync-lbl">
@@ -638,4 +695,11 @@ function analysisSourceLabel(item) {
   flex-shrink: 0;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
+.roster-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 24px;
+  border-bottom: 1px solid var(--color-border, #eee);
+}
 </style>

@@ -89,7 +89,13 @@ class TelegramClient:
         self._timeout = timeout
         self._send_url = f"{base_url.rstrip('/')}/bot{bot_token}/sendMessage"
 
-    async def send_message(self, text: str, *, parse_mode: str | None = None) -> TelegramSendResult:
+    async def send_message(
+        self,
+        text: str,
+        *,
+        parse_mode: str | None = None,
+        disable_web_page_preview: bool = False,
+    ) -> TelegramSendResult:
         """Send text to Telegram, splitting over the 4096 chars hard limit."""
         chunks = _chunk_message(text)
         if not chunks:
@@ -106,6 +112,8 @@ class TelegramClient:
                     payload["message_thread_id"] = self._thread_id
                 if parse_mode:
                     payload["parse_mode"] = parse_mode
+                if disable_web_page_preview:
+                    payload["disable_web_page_preview"] = True
 
                 try:
                     response = await client.post(self._send_url, json=payload)

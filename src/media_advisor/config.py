@@ -32,6 +32,7 @@ class Settings(BaseSettings):
     telegram_bot_token: str = Field(default="", alias="TELEGRAM_BOT_TOKEN")
     telegram_chat_id: str = Field(default="", alias="TELEGRAM_CHAT_ID")
     telegram_thread_id: int | None = Field(default=None, alias="TELEGRAM_THREAD_ID")
+    telegram_chat_id_test: str = Field(default="", alias="TELEGRAM_CHAT_ID_TEST")
     # Destinazione separata per report costi post-sync (es. DM personale)
     telegram_personal_chat_id: str = Field(default="", alias="TELEGRAM_PERSONAL_CHAT_ID")
     telegram_personal_thread_id: int | None = Field(

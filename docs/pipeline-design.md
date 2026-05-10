@@ -151,6 +151,33 @@ class MercatoTip(BaseModel):
 
 ---
 
+## Report Telegram per squadra
+
+`src/media_advisor/digest.py` — `format_tips_by_team_telegram()`:
+
+Il report Telegram del mercato è organizzato per squadra anziché per stato (calde/monitorare/ridimensionate).
+
+**Flusso:**
+1. `get_tips_for_date(root, target_date)` — carica tutti i tip della data dal DB
+2. `_dedupe_tips_with_sources(tips)` — raggruppa tip sulla stessa storia (stesso giocatore+club), tiene il lead più affidabile
+3. Per ogni gruppo: aggiunge il gruppo nella sezione di `from_club` **e** di `to_club` (se entrambi presenti)
+4. Ordina le squadre per numero di notizie (decrescente), poi alfabeticamente
+5. Per ogni tip mostra: emoji confidence + giocatore + tipo trasferimento + direzione rispetto alla squadra + testo + fonte con link YouTube
+
+**Direzione frecce:**
+- `➡️ → DestClub` — uscita verso altra squadra
+- `⬅️ ← OrigClub` — acquisto proveniente da altra squadra
+- `↗️ possibile uscita` — cedente senza destinazione nota
+- `↙️ possibile acquisto` — entrata senza club di provenienza noto
+- `🔄 Rinnovo con Club` — rinnovo contratto (from_club == to_club)
+
+**Emoji confidence:**
+- `✅` confirmed · `🔵` likely · `🔴` rumor · `❌` denied
+
+Il report testuale (markdown, Twitter) continua ad essere generato da OpenAI con il formato a 3 sezioni e viene salvato in DB/file separatamente.
+
+---
+
 ## Batch run-list
 
 `src/media_advisor/run_pipeline.py` — `run_from_list()`:

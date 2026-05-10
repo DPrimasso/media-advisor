@@ -62,6 +62,26 @@ media-advisor mercato-scan --force   # ri-analizza anche già analizzati
 media-advisor mercato-rebuild-index
 ```
 
+### Mercato — report e pubblicazione Telegram
+
+```bash
+# Pubblica il report mercato per squadra su Telegram
+media-advisor publish-telegram                          # data odierna → TELEGRAM_CHAT_ID
+media-advisor publish-telegram --date 2026-05-09        # data specifica
+media-advisor publish-telegram --test                   # invia al gruppo di test (TELEGRAM_CHAT_ID_TEST)
+media-advisor publish-telegram --dry-run                # stampa l'HTML senza inviare
+media-advisor publish-telegram --date 2026-05-09 --test --dry-run
+
+# Variabili d'ambiente richieste:
+#   TELEGRAM_BOT_TOKEN      — token del bot
+#   TELEGRAM_CHAT_ID        — chat/gruppo destinazione principale
+#   TELEGRAM_CHAT_ID_TEST   — chat/gruppo di test (usato con --test)
+#
+# Il report è organizzato per squadra (non per stato caldo/monitorare/ridimensionato).
+# Se un tip coinvolge due squadre appare in entrambe le sezioni.
+# Genera anche il digest testuale (markdown/Twitter) se OPENAI_API_KEY è disponibile.
+```
+
 ### Mercato — gestione trasferimenti e outcome
 
 ```bash

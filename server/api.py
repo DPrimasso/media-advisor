@@ -879,10 +879,7 @@ async def post_publish_telegram(body: PublishTelegramRequest) -> Any:
     """Pubblica un digest già generato su Telegram. Riceve { digest, date } dal frontend."""
     from datetime import date as date_type
 
-    from media_advisor.digest import (
-        build_enriched_digest_sections,
-        format_mercato_report_telegram,
-    )
+    from media_advisor.digest import format_tips_by_team_telegram
     from media_advisor.mercato.aggregator import get_tips_for_date
     from media_advisor.telegram.client import TelegramClient, TelegramClientError
 
@@ -902,20 +899,16 @@ async def post_publish_telegram(body: PublishTelegramRequest) -> Any:
         raise HTTPException(status_code=400, detail=f"Data non valida: {date_str}")
 
     tips = get_tips_for_date(_root, target_date)
-    sections, _ = build_enriched_digest_sections(_root, target_date, digest_text, tips=tips)
-    telegram_text = format_mercato_report_telegram(
-        target_date,
-        digest_text,
-        generated_at=datetime.now(),
-        section_items_enriched=sections,
-    )
+    telegram_text = format_tips_by_team_telegram(tips, target_date, _root, generated_at=datetime.now())
+    if telegram_text is None:
+        raise HTTPException(status_code=404, detail="Nessun tip disponibile per la data indicata")
 
     try:
         result = await TelegramClient(
             s.telegram_bot_token,
             chat_id=s.telegram_chat_id,
             thread_id=s.telegram_thread_id,
-        ).send_message(telegram_text, parse_mode="HTML")
+        ).send_message(telegram_text, parse_mode="HTML", disable_web_page_preview=True)
         return {"published": True, "chunks_sent": result.chunks_sent, "message_ids": result.message_ids}
     except TelegramClientError as exc:
         raise HTTPException(status_code=502, detail=f"Telegram error: {exc}")
@@ -1225,7 +1218,7 @@ async def _run_daily_report() -> None:
 
     from media_advisor.digest import (
         flatten_digest_items_for_api,
-        format_mercato_report_telegram,
+        format_tips_by_team_telegram,
         generate_mercato_digest,
         write_mercato_report,
     )
@@ -1317,24 +1310,19 @@ async def _run_daily_report() -> None:
             result_summary.update(analyzed=0, failed=0, mercato_analyzed=0, mercato_tips=0)
 
         today = date_type.today()
-        # Step 5 — Genera digest
+        # Step 5 — Genera digest testuale (archiviazione) + formato per squadra (Telegram)
         _sync_log("Step 5/6: Generazione sommario mercato...")
+        from media_advisor.mercato.aggregator import get_tips_for_date
         digest_text = await generate_mercato_digest(root, today, s.openai_api_key)
         report_content: str | None = None
         telegram_content: str | None = None
+        generated_at = datetime.now()
         if digest_text:
-            generated_at = datetime.now()
             report_file, report_content, section_enriched = write_mercato_report(
                 root,
                 today,
                 digest_text,
                 generated_at=generated_at,
-            )
-            telegram_content = format_mercato_report_telegram(
-                today,
-                digest_text,
-                generated_at=generated_at,
-                section_items_enriched=section_enriched,
             )
             _sync_log(f"  Sommario generato ({len(digest_text)} caratteri), salvato in {report_file.name}")
             result_summary["digest"] = report_content
@@ -1344,6 +1332,10 @@ async def _run_daily_report() -> None:
             _sync_log("  Nessun tip con data per oggi — sommario non generato.")
             _sync_log("  Suggerimento: esegui 'mercato-enrich-dates' per popolare le date dei tip.")
             result_summary["digest"] = None
+
+        # Formato per squadra per Telegram (non richiede digest testuale)
+        day_tips = get_tips_for_date(root, today)
+        telegram_content = format_tips_by_team_telegram(day_tips, today, root, generated_at=generated_at)
 
         # Step 6 — Publish Telegram (non bloccante)
         telegram_enabled = bool(s.telegram_bot_token and s.telegram_chat_id)
@@ -1367,7 +1359,7 @@ async def _run_daily_report() -> None:
                     s.telegram_bot_token,
                     chat_id=s.telegram_chat_id,
                     thread_id=s.telegram_thread_id,
-                ).send_message(telegram_content, parse_mode="HTML")
+                ).send_message(telegram_content, parse_mode="HTML", disable_web_page_preview=True)
                 telegram_result["published"] = tg_send.chunks_sent > 0
                 telegram_result["chunks_sent"] = tg_send.chunks_sent
                 telegram_result["message_ids"] = tg_send.message_ids
