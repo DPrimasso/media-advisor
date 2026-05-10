@@ -922,6 +922,18 @@ def _preferred_state(states: set[str]) -> str:
     return "monitorare"
 
 
+def _strip_model_preamble(text: str) -> str:
+    cleaned = re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL | re.IGNORECASE)
+    lines = cleaned.splitlines()
+    first_header_idx = next(
+        (i for i, line in enumerate(lines) if _canonical_digest_header(line.strip()) is not None),
+        None,
+    )
+    if first_header_idx is not None and first_header_idx > 0:
+        lines = lines[first_header_idx:]
+    return "\n".join(lines).strip()
+
+
 def _normalize_digest_output(text: str) -> str:
     lines = [line.strip() for line in text.strip().splitlines() if line.strip()]
     if not lines:
@@ -1270,16 +1282,17 @@ def _repair_smentita_section(text: str, fallback_lines: list[str]) -> str:
 async def _complete_digest_with_token_retry(
     client: openai.AsyncOpenAI,
     messages: list[dict[str, str]],
+    model: str = DIGEST_MODEL,
 ) -> str | None:
     last_text: str | None = None
     for max_tokens in DIGEST_TOKEN_STEPS:
         completion = await client.chat.completions.create(
-            model=DIGEST_MODEL,
+            model=model,
             messages=messages,
             max_tokens=max_tokens,
             temperature=0.4,
         )
-        record_openai_chat_completion(DIGEST_MODEL, completion)
+        record_openai_chat_completion(model, completion)
         if not completion.choices:
             continue
         choice = completion.choices[0]
@@ -1294,7 +1307,9 @@ async def _complete_digest_with_token_retry(
 async def generate_mercato_digest(
     root: Path,
     target_date: date,
-    openai_api_key: str,
+    api_key: str,
+    model: str | None = None,
+    base_url: str | None = None,
 ) -> str | None:
     """Genera un sommario mercato per la data indicata. Restituisce None se non ci sono tips."""
     from media_advisor.mercato.aggregator import get_tips_for_date
@@ -1325,7 +1340,8 @@ async def generate_mercato_digest(
 
     has_denied_tip = any(t.confidence == "denied" for t in day_tips)
 
-    client = openai.AsyncOpenAI(api_key=openai_api_key)
+    effective_model = model or DIGEST_MODEL
+    client = openai.AsyncOpenAI(api_key=api_key, base_url=base_url)
     messages = [
         {"role": "system", "content": _SYSTEM_PROMPT},
         {
@@ -1338,9 +1354,10 @@ async def generate_mercato_digest(
     ]
     denied_fallback_lines = _build_denied_fallback_lines(day_tips, channel_names)
 
-    digest_text = await _complete_digest_with_token_retry(client, messages)
+    digest_text = await _complete_digest_with_token_retry(client, messages, model=effective_model)
     if not digest_text:
         raise DigestGenerationError("Output digest vuoto ricevuto dal modello.")
+    digest_text = _strip_model_preamble(digest_text)
     digest_text = _normalize_digest_output(digest_text)
     if has_denied_tip:
         digest_text = _repair_smentita_section(digest_text, denied_fallback_lines)
@@ -1362,8 +1379,9 @@ async def generate_mercato_digest(
             ),
         },
     ]
-    retry_text = await _complete_digest_with_token_retry(client, retry_messages)
-    retry_text = _normalize_digest_output(retry_text or "")
+    retry_text = await _complete_digest_with_token_retry(client, retry_messages, model=effective_model)
+    retry_text = _strip_model_preamble(retry_text or "")
+    retry_text = _normalize_digest_output(retry_text)
     if has_denied_tip:
         retry_text = _repair_smentita_section(retry_text, denied_fallback_lines)
         retry_text = _normalize_digest_output(retry_text)
